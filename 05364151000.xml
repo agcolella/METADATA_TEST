@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_f082598153a32c031fc7b5299976629b1c4c38de" entityID="https://spid.notartel.it/O4S.sso"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f082598153a32c031fc7b5299976629b1c4c38de">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Vbq+OQr+XVe1Pz+scCC1oO9wW669dL6H02z5Dy7xUaM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hCY+HrfVgXTgTHVj3uVJJNL7DiREheRZSN2Ui7hrXasUkPxprjNgYQXTgBOyH0IS75N4lbvw+lXL
+9NNWzArIkasZUX/+l+Gr9mkrfmf8GKuttkYDJepvGpHFMe5Ge5c4IMe7IX2h48z04g2IXEmYxBqh
+kZEFBHPprzG9lW7ZIMWYZ/htplPnP65i4Mz6vOg44ZznbMEWXbkS2NXEMLlJTg4VZdLfpcdscYhb
+16kLHIEk0gcIYNorZNYApY82Z7EYZ4AQEY7QyYGFk/M+i5QAdkAdxF2iOcEf/KuwMApZOzrnOjkT
+nhRr9K8VZD7pjxcCRcF3vhono41ZlkhQKjbJVQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+trwEatWQdjzxAXXhSZbSTBlifEjXy/4kzUtzM35cGoAKxGRQkxTQnOin2W53dlU1ea5BAvqI5nI8
+rjudnFNPCi4cehRsbdCLDWusXYtunES39tjsU6UKSQ30BXIXymjXx+sgzswewjP4v5XYWBgOvdaf
+W1rTInxKcA3DKxlcMm6MNsD5eBAUtVjvN+a+8rlwem5ANqWr0rC9h76AWVvIYDpXD9rc+NF+Cq4x
+W20B8/iW0REKJYYhQCtarbBhuRs7Xf9qNgn7KbBN4yGBNiSBnvh4QjfRKWR7mj9lkI0NPXoRPwrK
+26Ga+7BZNKeWQxBsHdlXqjetBgP1iKOc/IdDyw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGhDCCBGygAwIBAgIIPCbYKQLV2CwwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDQwNjAw
+MDAwMFoXDTM1MDQwNTIzNTk1OVowgaoxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ0wCwYD
+VQQHDARSb21hMRgwFgYDVQQKDA9Ob3RhcnRlbCBTLnAuYS4xFjAUBgNVBAMMDSoubm90YXJ0ZWwu
+aXQxNTAzBgkqhkiG9w0BCQEWJm5vdGFydGVsQHBvc3RhY2VydGlmaWNhdGEubm90YXJpYXRvLml0
+MRQwEgYDVQQFEwswNTM2NDE1MTAwMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALa8
+BGrVkHY88QF14UmW0kwZYnxI18v+JM1LczN+XBqACsRkUJMU0Jzop9lud3ZVNXmuQQL6iOZyPK47
+nZxTTwouHHoUbG3Qiw1rrF2LbpxEt/bY7FOlCkkN9AVyF8po18frIM7MHsIz+L+V2FgYDr3Wn1ta
+0yJ8SnANwysZXDJujDbA+XgQFLVY7zfmvvK5cHpuQDalq9KwvYe+gFlbyGA6Vw/a3PjRfgquMVtt
+AfP4ltERCiWGIUArWq2wYbkbO13/ajYJ+ymwTeMhgTYkgZ74eEI30Slke5o/ZZCNDT16ET8Kytuh
+mvuwWTSnlkMQbB3ZV6o3rQYD9YijnPyHQ8sCAwEAAaOCAWwwggFoMAwGA1UdEwEB/wQCMAAwHQYD
+VR0OBBYEFJYoy1uCaVuxj4eC4RZPOhab15qNMB8GA1UdIwQYMBaAFJxFMMRND6D6Jg+p1vwg1gds
+zmRWMA4GA1UdDwEB/wQEAwIGQDBDBgNVHR8EPDA6MDigNqA0hjJodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUH
+MAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCBiQYDVR0gBIGBMH8wTAYDK0wQMEUwQwYI
+KwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENB
+X2Nwcy5wZGYwLwYGK0wQBAMBMCUwIwYIKwYBBQUHAgIwFxoVU3ViQ0EgU1BJRCBTUCBwcml2YXRp
+MA0GCSqGSIb3DQEBDQUAA4ICAQC5EGM9+0Cl84S1qD2KnyXhYX8jdhPtpeEAIjBR6uHeH48EDhVe
+kwE9IHvHvm4KcIR/Qt5JwQ1RXVyhB0/RlyD9HU0hg/03yHqogHcXgdFjGk4tG+L/bhci2BLVjBpa
+BRliJXTWwuMWS2JzCkoyn9hVl3QY+YRCxTr2ECAgspF8ve78ZKVCS25Me+bJc9RPOhJUSMiU/stv
+pm53wJNSRiOpm1KtB2J5zTZ3BhhCwvDH8sC4LdBDIjonRBBPPLpojcqghQSZAB1Z2tK/NM/dTs9t
+BnY5Lnk5vkGpp+dlyUczP3JL1TGWs5ldc/rkAuxtbMl2G7XC/77jGTBY1Db0LEEyCs3utOYqDCxD
+FvZx+Wthcr9rsB+rdTwaDVrvO3PGlsZ9bWmXyvJYRaTG8xHzUTqGqvrWnhX6S8uqEb893ZlSRKp9
+4p01M+qQEDj0qV0rCARb2pYwA5s4XYClGm9xf2BNlrCmIueqlt+lG/1MpEH5Ab7f0o3aJRlMMpsn
+Jrnop72bcdncJV5CvuH5YA0UCwKnhDvFVorfqr6Gs1wE8lkpfMykWKRGXHgxOyaX2vECFlMrUGzU
+qbXizIwLCI+N6FhR6EXUlNwsXLneFC/CYPSkaLTl2bXA/HnZxPvwl5YbnjQQSWqH9B46NG15i4J5
+CQgDSYk2l0JjhT0Ec/TYOJCtjA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+      <ds:X509Data>
+          <ds:X509SubjectName>serialNumber=05364151000,emailAddress=notartel@postacertificata.notariato.it,CN=*.notartel.it,O=Notartel S.p.a.,L=Roma,ST=Roma,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIGhDCCBGygAwIBAgIIPCbYKQLV2CwwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDQwNjAwMDAw
+MFoXDTM1MDQwNTIzNTk1OVowgaoxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21h
+MQ0wCwYDVQQHDARSb21hMRgwFgYDVQQKDA9Ob3RhcnRlbCBTLnAuYS4xFjAUBgNV
+BAMMDSoubm90YXJ0ZWwuaXQxNTAzBgkqhkiG9w0BCQEWJm5vdGFydGVsQHBvc3Rh
+Y2VydGlmaWNhdGEubm90YXJpYXRvLml0MRQwEgYDVQQFEwswNTM2NDE1MTAwMDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALa8BGrVkHY88QF14UmW0kwZ
+YnxI18v+JM1LczN+XBqACsRkUJMU0Jzop9lud3ZVNXmuQQL6iOZyPK47nZxTTwou
+HHoUbG3Qiw1rrF2LbpxEt/bY7FOlCkkN9AVyF8po18frIM7MHsIz+L+V2FgYDr3W
+n1ta0yJ8SnANwysZXDJujDbA+XgQFLVY7zfmvvK5cHpuQDalq9KwvYe+gFlbyGA6
+Vw/a3PjRfgquMVttAfP4ltERCiWGIUArWq2wYbkbO13/ajYJ+ymwTeMhgTYkgZ74
+eEI30Slke5o/ZZCNDT16ET8KytuhmvuwWTSnlkMQbB3ZV6o3rQYD9YijnPyHQ8sC
+AwEAAaOCAWwwggFoMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFJYoy1uCaVuxj4eC
+4RZPOhab15qNMB8GA1UdIwQYMBaAFJxFMMRND6D6Jg+p1vwg1gdszmRWMA4GA1Ud
+DwEB/wQEAwIGQDBDBgNVHR8EPDA6MDigNqA0hjJodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NBLmNybDA3BggrBgEFBQcBAQQrMCkw
+JwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCBiQYDVR0g
+BIGBMH8wTAYDK0wQMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5n
+b3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwLwYGK0wQBAMBMCUw
+IwYIKwYBBQUHAgIwFxoVU3ViQ0EgU1BJRCBTUCBwcml2YXRpMA0GCSqGSIb3DQEB
+DQUAA4ICAQC5EGM9+0Cl84S1qD2KnyXhYX8jdhPtpeEAIjBR6uHeH48EDhVekwE9
+IHvHvm4KcIR/Qt5JwQ1RXVyhB0/RlyD9HU0hg/03yHqogHcXgdFjGk4tG+L/bhci
+2BLVjBpaBRliJXTWwuMWS2JzCkoyn9hVl3QY+YRCxTr2ECAgspF8ve78ZKVCS25M
+e+bJc9RPOhJUSMiU/stvpm53wJNSRiOpm1KtB2J5zTZ3BhhCwvDH8sC4LdBDIjon
+RBBPPLpojcqghQSZAB1Z2tK/NM/dTs9tBnY5Lnk5vkGpp+dlyUczP3JL1TGWs5ld
+c/rkAuxtbMl2G7XC/77jGTBY1Db0LEEyCs3utOYqDCxDFvZx+Wthcr9rsB+rdTwa
+DVrvO3PGlsZ9bWmXyvJYRaTG8xHzUTqGqvrWnhX6S8uqEb893ZlSRKp94p01M+qQ
+EDj0qV0rCARb2pYwA5s4XYClGm9xf2BNlrCmIueqlt+lG/1MpEH5Ab7f0o3aJRlM
+MpsnJrnop72bcdncJV5CvuH5YA0UCwKnhDvFVorfqr6Gs1wE8lkpfMykWKRGXHgx
+OyaX2vECFlMrUGzUqbXizIwLCI+N6FhR6EXUlNwsXLneFC/CYPSkaLTl2bXA/HnZ
+xPvwl5YbnjQQSWqH9B46NG15i4J5CQgDSYk2l0JjhT0Ec/TYOJCtjA==
+</ds:X509Certificate>
+       </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.notartel.it/O4S.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.notartel.it/O4S.sso/SLO/Redirect"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.notartel.it/O4S.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Servizio Spid Notartel</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>   
+    <md:Organization>
+                <md:OrganizationName xml:lang="it">Notartel S.p.a</md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it">Notartel S.p.a</md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it">https://www.notartel.it/</md:OrganizationURL>
+    </md:Organization>
+  </md:EntityDescriptor>
