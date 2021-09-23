@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Arco" entityID="https://www.comune.arco.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Arco">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0C16AHf24XU014NLQQRqF1HmuKO7ioh9GDnmEURe+aQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FXVxaXp0qj8g/j1/GDL1kAWmQMkHY2ggc3drF57uWSvtLsnEziBL5jX0sehhEaKUKKPlCm+9wgvx
+reDh/grEBB+5rVBr0SrtXXcfYeiKirO3HW5n/V6JKZRM8xCS0FhfhHRCVD8ZwC4mIlWEmXBkzD63
+Q83yI+S/MBiB3lX5uB1cwcZxS40V/aLI4LWfYg45jzGWLhoqUWPxGv+gvtHRDyTZPthoxldvOO1t
+kPL+Lq0JHvejvYDD+GOGyMNPDUM98pnpBpzyR98jz0GgT95iGzB+8urhTLN+3DfaojCSkbbdUSyp
+N5JQl7l2Rc/y6JcCrDXF6ATCo4NezKzXkK/08A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+41jGhveVMRfBIXxC1wjoJH3SfCA+KadwGP4voddH0FCjUsZ5UaeIWg1v8/oPGHAKLfcuIieGV5/M
+n6JMD/l84XVEM9CwVA/Lc2owh4pONmgIlNlM4er3BKUe89uzSbyA2QtGv4BN5eUWiYaM7HxW09P+
+x9XAJWO9rzjSNKYvTxczBFkib8I601lmTknxqh/sBnPsx3ljbsJdkMCNg2IQWJNykVZwQDQV738z
+UDgsoVPBVwsowiWUH5BnWYuJ9UJ52b8i6IqUcokNi05StvkCHSXUbhQvAsyHmIgzHWnCR07gV2L/
+8bObl3slW+6VslPMshkVN2dtmS9zfQbbG5ZbuQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJAK5upmpqndNOMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUuYXJjby50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzE3MDc1
+NjA0WhcNMzAwMzE1MDc1NjA0WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLmFyY28udG4uaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+41jGhveVMRfBIXxC1wjoJH3SfCA+KadwGP4voddH0FCjUsZ5UaeIWg1v8/oPGHAKLfcuIieGV5/M
+n6JMD/l84XVEM9CwVA/Lc2owh4pONmgIlNlM4er3BKUe89uzSbyA2QtGv4BN5eUWiYaM7HxW09P+
+x9XAJWO9rzjSNKYvTxczBFkib8I601lmTknxqh/sBnPsx3ljbsJdkMCNg2IQWJNykVZwQDQV738z
+UDgsoVPBVwsowiWUH5BnWYuJ9UJ52b8i6IqUcokNi05StvkCHSXUbhQvAsyHmIgzHWnCR07gV2L/
+8bObl3slW+6VslPMshkVN2dtmS9zfQbbG5ZbuQIDAQABo1AwTjAdBgNVHQ4EFgQUYR4uqzXhZIcz
+pfkScXga4mm0WgUwHwYDVR0jBBgwFoAUYR4uqzXhZIczpfkScXga4mm0WgUwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAN9j62zDhOid2NN8re5m0DKuoEjx5/eqbmdWaO1X5VqgDynl+
+jPlTUXsocRZD1kFZgkEn+hyPy7Ga/AP3U5UHyRMmQTIXroFiCpniNzPKJHT3JhRCzwZ7sX42gsSt
+eufJ6Q2H3pH5g+K9LIhk4VDFRm57E/uQCelTNvo8Kbj1xbc7NDqF5R4MPpOkpByPEP9MPkFKpJ4M
+h5W6lyFIvuR/cktk7YCGOzbuKgpc88132hn1JPHMz8Ez+8/csIsTOUrc3i9ExJP9ogBg0c5qkn43
+3IbT15cINCjRnSAo3afvH4oNLWxUuqaudKIWvvVCiqW92MbvQWcSHGU2/MvsDUxc7A==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAK5upmpqndNOMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUuYXJjby50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzE3MDc1NjA0WhcNMzAwMzE1MDc1NjA0WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLmFyY28udG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41jGhveVMRfBIXxC1wjoJH3SfCA+KadwGP4voddH0FCjUsZ5UaeIWg1v8/oPGHAKLfcuIieGV5/Mn6JMD/l84XVEM9CwVA/Lc2owh4pONmgIlNlM4er3BKUe89uzSbyA2QtGv4BN5eUWiYaM7HxW09P+x9XAJWO9rzjSNKYvTxczBFkib8I601lmTknxqh/sBnPsx3ljbsJdkMCNg2IQWJNykVZwQDQV738zUDgsoVPBVwsowiWUH5BnWYuJ9UJ52b8i6IqUcokNi05StvkCHSXUbhQvAsyHmIgzHWnCR07gV2L/8bObl3slW+6VslPMshkVN2dtmS9zfQbbG5ZbuQIDAQABo1AwTjAdBgNVHQ4EFgQUYR4uqzXhZIczpfkScXga4mm0WgUwHwYDVR0jBBgwFoAUYR4uqzXhZIczpfkScXga4mm0WgUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN9j62zDhOid2NN8re5m0DKuoEjx5/eqbmdWaO1X5VqgDynl+jPlTUXsocRZD1kFZgkEn+hyPy7Ga/AP3U5UHyRMmQTIXroFiCpniNzPKJHT3JhRCzwZ7sX42gsSteufJ6Q2H3pH5g+K9LIhk4VDFRm57E/uQCelTNvo8Kbj1xbc7NDqF5R4MPpOkpByPEP9MPkFKpJ4Mh5W6lyFIvuR/cktk7YCGOzbuKgpc88132hn1JPHMz8Ez+8/csIsTOUrc3i9ExJP9ogBg0c5qkn433IbT15cINCjRnSAo3afvH4oNLWxUuqaudKIWvvVCiqW92MbvQWcSHGU2/MvsDUxc7A==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAK5upmpqndNOMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUuYXJjby50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzE3MDc1NjA0WhcNMzAwMzE1MDc1NjA0WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLmFyY28udG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41jGhveVMRfBIXxC1wjoJH3SfCA+KadwGP4voddH0FCjUsZ5UaeIWg1v8/oPGHAKLfcuIieGV5/Mn6JMD/l84XVEM9CwVA/Lc2owh4pONmgIlNlM4er3BKUe89uzSbyA2QtGv4BN5eUWiYaM7HxW09P+x9XAJWO9rzjSNKYvTxczBFkib8I601lmTknxqh/sBnPsx3ljbsJdkMCNg2IQWJNykVZwQDQV738zUDgsoVPBVwsowiWUH5BnWYuJ9UJ52b8i6IqUcokNi05StvkCHSXUbhQvAsyHmIgzHWnCR07gV2L/8bObl3slW+6VslPMshkVN2dtmS9zfQbbG5ZbuQIDAQABo1AwTjAdBgNVHQ4EFgQUYR4uqzXhZIczpfkScXga4mm0WgUwHwYDVR0jBBgwFoAUYR4uqzXhZIczpfkScXga4mm0WgUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN9j62zDhOid2NN8re5m0DKuoEjx5/eqbmdWaO1X5VqgDynl+jPlTUXsocRZD1kFZgkEn+hyPy7Ga/AP3U5UHyRMmQTIXroFiCpniNzPKJHT3JhRCzwZ7sX42gsSteufJ6Q2H3pH5g+K9LIhk4VDFRm57E/uQCelTNvo8Kbj1xbc7NDqF5R4MPpOkpByPEP9MPkFKpJ4Mh5W6lyFIvuR/cktk7YCGOzbuKgpc88132hn1JPHMz8Ez+8/csIsTOUrc3i9ExJP9ogBg0c5qkn433IbT15cINCjRnSAo3afvH4oNLWxUuqaudKIWvvVCiqW92MbvQWcSHGU2/MvsDUxc7A==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/arco"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/arco" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/arco" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/arco" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Arco</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Arco</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Arco</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Arco</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Arco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Arco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Arco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Arco</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.arco.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.arco.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.arco.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.arco.tn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

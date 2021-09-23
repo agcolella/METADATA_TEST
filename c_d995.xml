@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx2854e4fa-8fd0-6028-dfbe-d5eb920a574a" entityID="https://servizi.comune.gessate.mi.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx2854e4fa-8fd0-6028-dfbe-d5eb920a574a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>vkWE0GnGlvVKdbQTl8aFPeZfny1pQ//ko/w3lqZfPLs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+bJEr3V3KPtdFMKz1IhwjBa55JcEEgMHtc9NN8/9+S0flu3MJEEupoNtuMrSlquAW3gLr8098/TXw
+8WwD1Ke4+S4rbShasRMPwGdb9NjYVEfc2OMSM2YoElzL0r8NHioSFzhYh0R8UYPVrB43pz46d3/8
+0GbBPjoOFsTlalu229Lat6Sh2rh1omfiVh1kJY/Kg6fB8UpdttDM9B7g7jGWmFqWjajAADpxI6+t
+S4g/Z8ugsVwlGRVr/+VLcovkJEwTqOGaISUBrYRLsNeemnjBTg8jwGGfV1P2NGnmbA93lti4hcNy
+uhN2L2AZ0t2ecPO5wxsTAyLxDwiFR+FLw7GJ0g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vSArS13lN4ziAkKvwHGqQtuojEJFvehr1m4+X+x3CT5LPUExSZmI1tZb4Wcef5wItkaGZzTH/d1c
+21Y6I9KllIj+mfVsGSCSodVa+U1mVZCvGLmTmGe8qt2PIoZ5wA59C1/ka54ZhKKWZVKjxqnlLLUG
+IUxdf4sH7yFvP5XZhOiO2rgt4zdIj7MnERJnE2zT37g7OhT4ZTh8ZdKnunXRLehdlt/E1YvWqVr0
+qVitsYEhOYPajAN9RIWV0fXkyz7ym0e5Du0UNHRUFqXGbjEEoKACr7yMG1mrdFUtIIrcHtYROQym
+JAx39lKEdQ5tTaO6sk2S23L6rspIzbAD/CnTqQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtzCCAp+gAwIBAgIJAN7hyOe1qUKtMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2Vzc2F0ZTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3Nh
+dGUxJTAjBgNVBAMMHHNlcnZpemkuY29tdW5lLmdlc3NhdGUubWkuaXQwHhcNMTgwNjI2MDg1MjUz
+WhcNMjgwNjI1MDg1MjUzWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcM
+B0dlc3NhdGUxGjAYBgNVBAoMEUNvbXVuZSBkaSBHZXNzYXRlMSUwIwYDVQQDDBxzZXJ2aXppLmNv
+bXVuZS5nZXNzYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvSArS13l
+N4ziAkKvwHGqQtuojEJFvehr1m4+X+x3CT5LPUExSZmI1tZb4Wcef5wItkaGZzTH/d1c21Y6I9Kl
+lIj+mfVsGSCSodVa+U1mVZCvGLmTmGe8qt2PIoZ5wA59C1/ka54ZhKKWZVKjxqnlLLUGIUxdf4sH
+7yFvP5XZhOiO2rgt4zdIj7MnERJnE2zT37g7OhT4ZTh8ZdKnunXRLehdlt/E1YvWqVr0qVitsYEh
+OYPajAN9RIWV0fXkyz7ym0e5Du0UNHRUFqXGbjEEoKACr7yMG1mrdFUtIIrcHtYROQymJAx39lKE
+dQ5tTaO6sk2S23L6rspIzbAD/CnTqQIDAQABo1AwTjAdBgNVHQ4EFgQUTOZpKz5/BsLYUpHgDNBQ
+gHNdKO4wHwYDVR0jBBgwFoAUTOZpKz5/BsLYUpHgDNBQgHNdKO4wDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAVq24UVfjOga7FTImKckvwxygWIJ4Kslqu8qq7M5wegGxBw7a13uYyV80
+Xye9LMbe1Akr21q9gPGQddW1pfz47gZgWPneQjpvatBwm4GkogXKbApEg8bVrq2/OLSTaLFBThjV
+Bfnw17mSweMUep8daHFguCQsYXuj3FkHJyOtSxXqsmKcx3GspFS711mSPNIcMLa902+QFwbCOUPp
+yf6gpT6tGBpzxSS6qdbKJpg7OJnH+/1RhoR40EYZJNV1I+AqTuYmnoMcVrT2UrXHzJm1wy2UpGmP
+H2aafoRUFoxo81jncAPLJO023UK70iDv9xORVP9bBJ9QwyL7QbbmNM5aQA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAN7hyOe1qUKtMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2Vzc2F0ZTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3NhdGUxJTAjBgNVBAMMHHNlcnZpemkuY29tdW5lLmdlc3NhdGUubWkuaXQwHhcNMTgwNjI2MDg1MjUzWhcNMjgwNjI1MDg1MjUzWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0dlc3NhdGUxGjAYBgNVBAoMEUNvbXVuZSBkaSBHZXNzYXRlMSUwIwYDVQQDDBxzZXJ2aXppLmNvbXVuZS5nZXNzYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvSArS13lN4ziAkKvwHGqQtuojEJFvehr1m4+X+x3CT5LPUExSZmI1tZb4Wcef5wItkaGZzTH/d1c21Y6I9KllIj+mfVsGSCSodVa+U1mVZCvGLmTmGe8qt2PIoZ5wA59C1/ka54ZhKKWZVKjxqnlLLUGIUxdf4sH7yFvP5XZhOiO2rgt4zdIj7MnERJnE2zT37g7OhT4ZTh8ZdKnunXRLehdlt/E1YvWqVr0qVitsYEhOYPajAN9RIWV0fXkyz7ym0e5Du0UNHRUFqXGbjEEoKACr7yMG1mrdFUtIIrcHtYROQymJAx39lKEdQ5tTaO6sk2S23L6rspIzbAD/CnTqQIDAQABo1AwTjAdBgNVHQ4EFgQUTOZpKz5/BsLYUpHgDNBQgHNdKO4wHwYDVR0jBBgwFoAUTOZpKz5/BsLYUpHgDNBQgHNdKO4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAVq24UVfjOga7FTImKckvwxygWIJ4Kslqu8qq7M5wegGxBw7a13uYyV80Xye9LMbe1Akr21q9gPGQddW1pfz47gZgWPneQjpvatBwm4GkogXKbApEg8bVrq2/OLSTaLFBThjVBfnw17mSweMUep8daHFguCQsYXuj3FkHJyOtSxXqsmKcx3GspFS711mSPNIcMLa902+QFwbCOUPpyf6gpT6tGBpzxSS6qdbKJpg7OJnH+/1RhoR40EYZJNV1I+AqTuYmnoMcVrT2UrXHzJm1wy2UpGmPH2aafoRUFoxo81jncAPLJO023UK70iDv9xORVP9bBJ9QwyL7QbbmNM5aQA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAN7hyOe1qUKtMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2Vzc2F0ZTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3NhdGUxJTAjBgNVBAMMHHNlcnZpemkuY29tdW5lLmdlc3NhdGUubWkuaXQwHhcNMTgwNjI2MDg1MjUzWhcNMjgwNjI1MDg1MjUzWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0dlc3NhdGUxGjAYBgNVBAoMEUNvbXVuZSBkaSBHZXNzYXRlMSUwIwYDVQQDDBxzZXJ2aXppLmNvbXVuZS5nZXNzYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvSArS13lN4ziAkKvwHGqQtuojEJFvehr1m4+X+x3CT5LPUExSZmI1tZb4Wcef5wItkaGZzTH/d1c21Y6I9KllIj+mfVsGSCSodVa+U1mVZCvGLmTmGe8qt2PIoZ5wA59C1/ka54ZhKKWZVKjxqnlLLUGIUxdf4sH7yFvP5XZhOiO2rgt4zdIj7MnERJnE2zT37g7OhT4ZTh8ZdKnunXRLehdlt/E1YvWqVr0qVitsYEhOYPajAN9RIWV0fXkyz7ym0e5Du0UNHRUFqXGbjEEoKACr7yMG1mrdFUtIIrcHtYROQymJAx39lKEdQ5tTaO6sk2S23L6rspIzbAD/CnTqQIDAQABo1AwTjAdBgNVHQ4EFgQUTOZpKz5/BsLYUpHgDNBQgHNdKO4wHwYDVR0jBBgwFoAUTOZpKz5/BsLYUpHgDNBQgHNdKO4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAVq24UVfjOga7FTImKckvwxygWIJ4Kslqu8qq7M5wegGxBw7a13uYyV80Xye9LMbe1Akr21q9gPGQddW1pfz47gZgWPneQjpvatBwm4GkogXKbApEg8bVrq2/OLSTaLFBThjVBfnw17mSweMUep8daHFguCQsYXuj3FkHJyOtSxXqsmKcx3GspFS711mSPNIcMLa902+QFwbCOUPpyf6gpT6tGBpzxSS6qdbKJpg7OJnH+/1RhoR40EYZJNV1I+AqTuYmnoMcVrT2UrXHzJm1wy2UpGmPH2aafoRUFoxo81jncAPLJO023UK70iDv9xORVP9bBJ9QwyL7QbbmNM5aQA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.gessate.mi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.gessate.mi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gessate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gessate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.gessate.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

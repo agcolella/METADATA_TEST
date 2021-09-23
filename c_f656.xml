@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://montevarchi.comune.it" ID="dg395e8352-38e7-4b86-a593-81f57d74741c" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg395e8352-38e7-4b86-a593-81f57d74741c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>PXyYIUEXalV3Kf9aeZ6d2P514pPEIQZ3D0ESthA7j80=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DaSlt5nMgXU0ndYC27GZmJNtX4Ux/D4UtEWoxjTJI8BL+CFaRTTPEfVhlVjpo3M1Y5XriaFEEDj8UW9lYIlaG1EtU84DIWImxhr5CWp7PuaPzKUnSs9I/4T5D66+t/eWfMZeeNBP7TpKZSgu8z6NJ4sG38RLbBdCKmr1lUJ6DFTTzp9YxAiOpHVnwOrrl4k07sqlxZcCrpP/rU+EDjG4MBKUG8NmNuxsO5YIFY77LPVljiPK45N9Ui3+2TvHj+wt6idhE7qHF2jXhMt/ukbf8j/vR5lyNmPanwbTGr/J0zvbEsNitBFZdLkWkF3WVl/k01qIE8UWDA8LAi09rgPYauw=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDbTCCAlSgAwIBAgIBADANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGV2YXJjaGkuYXIuaXQwHhcNMjAwNzE2MDg1MTQzWhcNMzAwNzE0MDg1MTQzWjBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGV2YXJjaGkuYXIuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCvWxZ52Xx1Oic1Ge/Zwpib4xFuNuDkomFk9rja/5FRrjxGnETx1YzbRhwLnTWg2Ee0Q9SpF1k6e4S3eKI54ZJIHaSNFfbxYJPBZrx/vRwvXUIN/XUvHLlGjpibcCnsReDYly356uPppZAdXZ2sdOx99A3E4SAF2cWnXZtHo/V2lNteiruwQl05r2NrXLr/YZNgR6Kodk+RH2BNIvy15JXSNSPoOuGJlYO+Cy9c9Weo/stsSg0ReQSi5oveWBkZaRG3FfKPdKBqcnJcPhp4OXvt9bmv38uQL3jbsOW4sewKlUGENUre0vyy4sN/kep+vL8PzmDxDf3ZuSde6hE2Ogw9WQIDAQABo1AwTjAdBgNVHQ4EFgQUk9vzrA6EzV/uQmAgROSAyZ/6CTEwHwYDVR0jBBgwFoAUk9vzrA6EzV/uQmAgROSAyZ/6CTEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAWUVwFa21+ZfkDi7x6djEs5jzFXIAYB0defkrTfWDkz77Jyho/AxaQ9Gl10J7H1/l0rmRV2Fqcg5SsXGeSDCZrtYJNt3QD/XmP+9x4zdXm5l35/ZuCnN7csPRzek1rjbF5J3C1J1DEKimOhNF21DhbgwHEbP2Lg/3XWo60aye6kSpeMO0XoMw3wdpetHgNZfQAvOb2NDqk3SELcq4LPE811tWGSaeo7Au9Bqckl8pwL+4PVTWd5lf0qgPyD8NNN2elIQfLOsSPMay7FI0wwegnLO6Ytcdse6dIhzLl6AnnP0IOj25RbIli3lmEOp0fSqpBLPlK42XWumOY0j4uP6n16A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbTCCAlSgAwIBAgIBADANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGV2YXJjaGkuYXIuaXQwHhcNMjAwNzE2MDg1MTQzWhcNMzAwNzE0MDg1MTQzWjBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGV2YXJjaGkuYXIuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCvWxZ52Xx1Oic1Ge/Zwpib4xFuNuDkomFk9rja/5FRrjxGnETx1YzbRhwLnTWg2Ee0Q9SpF1k6e4S3eKI54ZJIHaSNFfbxYJPBZrx/vRwvXUIN/XUvHLlGjpibcCnsReDYly356uPppZAdXZ2sdOx99A3E4SAF2cWnXZtHo/V2lNteiruwQl05r2NrXLr/YZNgR6Kodk+RH2BNIvy15JXSNSPoOuGJlYO+Cy9c9Weo/stsSg0ReQSi5oveWBkZaRG3FfKPdKBqcnJcPhp4OXvt9bmv38uQL3jbsOW4sewKlUGENUre0vyy4sN/kep+vL8PzmDxDf3ZuSde6hE2Ogw9WQIDAQABo1AwTjAdBgNVHQ4EFgQUk9vzrA6EzV/uQmAgROSAyZ/6CTEwHwYDVR0jBBgwFoAUk9vzrA6EzV/uQmAgROSAyZ/6CTEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAWUVwFa21+ZfkDi7x6djEs5jzFXIAYB0defkrTfWDkz77Jyho/AxaQ9Gl10J7H1/l0rmRV2Fqcg5SsXGeSDCZrtYJNt3QD/XmP+9x4zdXm5l35/ZuCnN7csPRzek1rjbF5J3C1J1DEKimOhNF21DhbgwHEbP2Lg/3XWo60aye6kSpeMO0XoMw3wdpetHgNZfQAvOb2NDqk3SELcq4LPE811tWGSaeo7Au9Bqckl8pwL+4PVTWd5lf0qgPyD8NNN2elIQfLOsSPMay7FI0wwegnLO6Ytcdse6dIhzLl6AnnP0IOj25RbIli3lmEOp0fSqpBLPlK42XWumOY0j4uP6n16A=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbTCCAlSgAwIBAgIBADANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGV2YXJjaGkuYXIuaXQwHhcNMjAwNzE2MDg1MTQzWhcNMzAwNzE0MDg1MTQzWjBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGV2YXJjaGkuYXIuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCvWxZ52Xx1Oic1Ge/Zwpib4xFuNuDkomFk9rja/5FRrjxGnETx1YzbRhwLnTWg2Ee0Q9SpF1k6e4S3eKI54ZJIHaSNFfbxYJPBZrx/vRwvXUIN/XUvHLlGjpibcCnsReDYly356uPppZAdXZ2sdOx99A3E4SAF2cWnXZtHo/V2lNteiruwQl05r2NrXLr/YZNgR6Kodk+RH2BNIvy15JXSNSPoOuGJlYO+Cy9c9Weo/stsSg0ReQSi5oveWBkZaRG3FfKPdKBqcnJcPhp4OXvt9bmv38uQL3jbsOW4sewKlUGENUre0vyy4sN/kep+vL8PzmDxDf3ZuSde6hE2Ogw9WQIDAQABo1AwTjAdBgNVHQ4EFgQUk9vzrA6EzV/uQmAgROSAyZ/6CTEwHwYDVR0jBBgwFoAUk9vzrA6EzV/uQmAgROSAyZ/6CTEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAWUVwFa21+ZfkDi7x6djEs5jzFXIAYB0defkrTfWDkz77Jyho/AxaQ9Gl10J7H1/l0rmRV2Fqcg5SsXGeSDCZrtYJNt3QD/XmP+9x4zdXm5l35/ZuCnN7csPRzek1rjbF5J3C1J1DEKimOhNF21DhbgwHEbP2Lg/3XWo60aye6kSpeMO0XoMw3wdpetHgNZfQAvOb2NDqk3SELcq4LPE811tWGSaeo7Au9Bqckl8pwL+4PVTWd5lf0qgPyD8NNN2elIQfLOsSPMay7FI0wwegnLO6Ytcdse6dIhzLl6AnnP0IOj25RbIli3lmEOp0fSqpBLPlK42XWumOY0j4uP6n16A=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/montevarchi/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/montevarchi/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montevarchi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montevarchi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.montevarchi.ar.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

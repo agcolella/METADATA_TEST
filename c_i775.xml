@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comunesoave.it" ID="pfx8c4bd4e6-70d1-4690-6827-47804358f26c"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8c4bd4e6-70d1-4690-6827-47804358f26c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>q/OKryoNGpf4nxQFy8+uJyntpHelm1RJXEHsPTnZ6uI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>jOsq9XVrYUl0L0Nv96qb1mJYdQE8QRon96woqzOhW7IBAgZasLiKrp8OpBf215eDSCxKACqNA9N/eKKNvoyPFt9+CH5uLYDKdqjkgh/u/EcXzZsTD4E+K/zyuaq7xuMaVGE5T5w9H1g9oV1+gPuE49yicFjxhfmB+LLrDD6/J/IWlzlh/3Zsl+Zig856OV0cv4+bJ+WfkPHSXqe4zpMEk5i82Bh8qSU8wm+q0iP7cySnRG1vjMm77xksa6I5ZjmiFeCsluS/bpd1wqzTp2XuYj0ZuCg2kwnboJ4tyqKq615VQwSfjeXawLBH0KceWsodxFc0RjZai7V8kQ9TzT56cw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEFTCCAv2gAwIBAgIJAMu8T5SGUwEKMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEOMAwGA1UEBxMFU29hdmUxGDAWBgNVBAoTD0NvbXVuZSBkaSBTb2F2ZTEbMBkGA1UEAxMSd3d3LmNvbXVuZXNvYXZlLml0MB4XDTE4MDcxODA3MjYxOVoXDTI4MDcxNzA3MjYxOVowZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ4wDAYDVQQHEwVTb2F2ZTEYMBYGA1UEChMPQ29tdW5lIGRpIFNvYXZlMRswGQYDVQQDExJ3d3cuY29tdW5lc29hdmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSr+wU/p24UjihEgdt8TPiBI5+iJWNqwhg/dSI/wPEfd0fy5pPaDsmmOC+pCj47RTMDb9wWmtBZ6uatmLIphGTcRsIE1EV6ZnLz2IWqCeG8gb+kOkVxDqEgbseXnRJxo9ddz1ntlXHHBVRSBwLd6caNeh1h7aN62W438CUmmNOP9AfJ+idJZ/PQzir6tcwXk6gjrdjxEqVfO2anMp+Wc2mxLPCFLIiUkvF3FOF8ZTvfgSTclvPpE2P7GcixyV6j0CN9BBfer6xCdYtoFwIsypmAGBzv9oxndDzUfNPiPc8N8qQ0H8SXvN0PeAxZKlTCbSf02q70xA1w5zimIvpx5BAgMBAAGjgckwgcYwHQYDVR0OBBYEFPKRT4jZcuvdzFeSEDbl4bLN/AVfMIGWBgNVHSMEgY4wgYuAFPKRT4jZcuvdzFeSEDbl4bLN/AVfoWikZjBkMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDjAMBgNVBAcTBVNvYXZlMRgwFgYDVQQKEw9Db211bmUgZGkgU29hdmUxGzAZBgNVBAMTEnd3dy5jb211bmVzb2F2ZS5pdIIJAMu8T5SGUwEKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAIj1yjQoWaFW0S+P5Fi6QGJNXumqaT5xVLyoM99I+RRk3aeMcLg+Vv8jgHRYcKGSoZg7Pi3G8Ud2uxb15/GWbfhAjzCLe7hqkq7L6u/4u+wwL3D3Ek4o/hlyt3b1qDhSF2gCW3IA81mgSEnys5kMYaHbr4PAHWOCZMEuXUFDk3vauWlHq7SiM/Z+p+SB71O4+8IdEmgaA1cPge1j072U/ZHcv8npPxsq+etiq9TiKW4lu+15jAPr1sHXS7t6WKZlDt7LiuexI3G3Y42mssdx+20vHt3m8mVi60s2ktJRd6izpdlOAD+tJ6C6YtwUTJFsjWliHPMErIMENnIMRGsRYM=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFTCCAv2gAwIBAgIJAMu8T5SGUwEKMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEOMAwGA1UEBxMFU29hdmUxGDAWBgNVBAoTD0NvbXVuZSBkaSBTb2F2ZTEbMBkGA1UEAxMSd3d3LmNvbXVuZXNvYXZlLml0MB4XDTE4MDcxODA3MjYxOVoXDTI4MDcxNzA3MjYxOVowZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ4wDAYDVQQHEwVTb2F2ZTEYMBYGA1UEChMPQ29tdW5lIGRpIFNvYXZlMRswGQYDVQQDExJ3d3cuY29tdW5lc29hdmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSr+wU/p24UjihEgdt8TPiBI5+iJWNqwhg/dSI/wPEfd0fy5pPaDsmmOC+pCj47RTMDb9wWmtBZ6uatmLIphGTcRsIE1EV6ZnLz2IWqCeG8gb+kOkVxDqEgbseXnRJxo9ddz1ntlXHHBVRSBwLd6caNeh1h7aN62W438CUmmNOP9AfJ+idJZ/PQzir6tcwXk6gjrdjxEqVfO2anMp+Wc2mxLPCFLIiUkvF3FOF8ZTvfgSTclvPpE2P7GcixyV6j0CN9BBfer6xCdYtoFwIsypmAGBzv9oxndDzUfNPiPc8N8qQ0H8SXvN0PeAxZKlTCbSf02q70xA1w5zimIvpx5BAgMBAAGjgckwgcYwHQYDVR0OBBYEFPKRT4jZcuvdzFeSEDbl4bLN/AVfMIGWBgNVHSMEgY4wgYuAFPKRT4jZcuvdzFeSEDbl4bLN/AVfoWikZjBkMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDjAMBgNVBAcTBVNvYXZlMRgwFgYDVQQKEw9Db211bmUgZGkgU29hdmUxGzAZBgNVBAMTEnd3dy5jb211bmVzb2F2ZS5pdIIJAMu8T5SGUwEKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAIj1yjQoWaFW0S+P5Fi6QGJNXumqaT5xVLyoM99I+RRk3aeMcLg+Vv8jgHRYcKGSoZg7Pi3G8Ud2uxb15/GWbfhAjzCLe7hqkq7L6u/4u+wwL3D3Ek4o/hlyt3b1qDhSF2gCW3IA81mgSEnys5kMYaHbr4PAHWOCZMEuXUFDk3vauWlHq7SiM/Z+p+SB71O4+8IdEmgaA1cPge1j072U/ZHcv8npPxsq+etiq9TiKW4lu+15jAPr1sHXS7t6WKZlDt7LiuexI3G3Y42mssdx+20vHt3m8mVi60s2ktJRd6izpdlOAD+tJ6C6YtwUTJFsjWliHPMErIMENnIMRGsRYM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFTCCAv2gAwIBAgIJAMu8T5SGUwEKMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEOMAwGA1UEBxMFU29hdmUxGDAWBgNVBAoTD0NvbXVuZSBkaSBTb2F2ZTEbMBkGA1UEAxMSd3d3LmNvbXVuZXNvYXZlLml0MB4XDTE4MDcxODA3MjYxOVoXDTI4MDcxNzA3MjYxOVowZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ4wDAYDVQQHEwVTb2F2ZTEYMBYGA1UEChMPQ29tdW5lIGRpIFNvYXZlMRswGQYDVQQDExJ3d3cuY29tdW5lc29hdmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSr+wU/p24UjihEgdt8TPiBI5+iJWNqwhg/dSI/wPEfd0fy5pPaDsmmOC+pCj47RTMDb9wWmtBZ6uatmLIphGTcRsIE1EV6ZnLz2IWqCeG8gb+kOkVxDqEgbseXnRJxo9ddz1ntlXHHBVRSBwLd6caNeh1h7aN62W438CUmmNOP9AfJ+idJZ/PQzir6tcwXk6gjrdjxEqVfO2anMp+Wc2mxLPCFLIiUkvF3FOF8ZTvfgSTclvPpE2P7GcixyV6j0CN9BBfer6xCdYtoFwIsypmAGBzv9oxndDzUfNPiPc8N8qQ0H8SXvN0PeAxZKlTCbSf02q70xA1w5zimIvpx5BAgMBAAGjgckwgcYwHQYDVR0OBBYEFPKRT4jZcuvdzFeSEDbl4bLN/AVfMIGWBgNVHSMEgY4wgYuAFPKRT4jZcuvdzFeSEDbl4bLN/AVfoWikZjBkMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDjAMBgNVBAcTBVNvYXZlMRgwFgYDVQQKEw9Db211bmUgZGkgU29hdmUxGzAZBgNVBAMTEnd3dy5jb211bmVzb2F2ZS5pdIIJAMu8T5SGUwEKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAIj1yjQoWaFW0S+P5Fi6QGJNXumqaT5xVLyoM99I+RRk3aeMcLg+Vv8jgHRYcKGSoZg7Pi3G8Ud2uxb15/GWbfhAjzCLe7hqkq7L6u/4u+wwL3D3Ek4o/hlyt3b1qDhSF2gCW3IA81mgSEnys5kMYaHbr4PAHWOCZMEuXUFDk3vauWlHq7SiM/Z+p+SB71O4+8IdEmgaA1cPge1j072U/ZHcv8npPxsq+etiq9TiKW4lu+15jAPr1sHXS7t6WKZlDt7LiuexI3G3Y42mssdx+20vHt3m8mVi60s2ktJRd6izpdlOAD+tJ6C6YtwUTJFsjWliHPMErIMENnIMRGsRYM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunesoave.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunesoave.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Soave</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Soave</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comunesoave.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

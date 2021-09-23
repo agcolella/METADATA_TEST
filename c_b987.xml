@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.casoratesempione.va.it/" ID="_35793394d68cb54b2de5dd65089ae12286a3a1155318c24d02c69b963c767c1f"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_35793394d68cb54b2de5dd65089ae12286a3a1155318c24d02c69b963c767c1f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>04F8/2i91cvBSMnYo3yD4ETKZdS8IL8mvz5aYma4Mpg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bErkp3VLzeyHSRyaoMDybGbK17cuxBHbqwOl2hTcI5Mb4cweJIg0/FHBzbbUwPdXOCHsumxjwQ0XVyUPhNR1Tuc5p/0ps2fOJaNHrO0S0a/3sWY3dz+E9MYoDTr9yW6nvdUbFRqh5GumyjyVLOxn9l2SnVpEMz+UFrlOQvLJDzGEOqOGJ5pyhFt8nRC2hxX0Ylc52BQp46MkXHOhT3Dfi0Aj9Q2JLRYBH+6F6cLs3sCr/+sw9ExUp9+VGvKCxkqs6YwOz+W3zGPfkbAtMXI3LtPnwRACzc/fLgpc9UMz3cfLWTOQYaXPFvy9OvFxYoKIuSlickgLJiBMF3tD1PWyhQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEWTCCA0GgAwIBAgIUI86F2yXT8xDzWh0UzkNRQRehI1MwDQYJKoZIhvcNAQELBQAwgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxGjAYBgNVBAcMEUNhc29yYXRlIFNlbXBpb25lMSQwIgYDVQQKDBtDb211bmUgZGkgQ2Fzb3JhdGUgU2VtcGlvbmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXNlbXBpb25lLnZhLml0MB4XDTIwMDcxMzA4MjY0MloXDTMwMDcxMTA4MjY0MlowgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxGjAYBgNVBAcMEUNhc29yYXRlIFNlbXBpb25lMSQwIgYDVQQKDBtDb211bmUgZGkgQ2Fzb3JhdGUgU2VtcGlvbmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXNlbXBpb25lLnZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAul9bC5BexGZcqiWV3EZAz9Y8jeBCTfLLazMFZIFKexygTZFM0SQrX7QPikhokuLZeMqh6waPErf9wZ6CKzrC3Usl6c5hdYRllNzmcVCXPZiLRF5xEtARDY5AZxz8INcXlVBSAB8wUgqMaiItGAB92Zr74FTOzGDB2kj3zgQPaqmzQYeAuWZEodN9ErztKOYIiz6wyyA9766vK6zgZ95w1/4NZ3xjB54mzr/a/pJl3oTk7k+x0vnzfymt4E7Yf/njOq+C3UiLMsgiU4q0uYdL9aXkDvo0VGYGuvo+psE9Gf684jOh35cIzFq+IYu0fFTb+FqKWKYJUitzUr6Y5ey9/QIDAQABo1MwUTAdBgNVHQ4EFgQUlMx1GVJn4rTkQmo6FYHTRB3RSiQwHwYDVR0jBBgwFoAUlMx1GVJn4rTkQmo6FYHTRB3RSiQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAk8TSRWoHv7yLASstvNl3gogzoq3m4ya3ApaEf7jwmwzCfWRi/zp3YzIgcoYzwa/RKtKRNB4xG5TYjfmokfbxDM43XzCDPHyYidpwLuUPweQoHLp2UAK1uMy/20OsGcfmuEjsrx7zkinx+oxt/IgJ4f9dZ2KfNyYjKe2KaIuCCCJrT8HSm0nBxtph+itWKAPyUOsStgVcb5AZ3XK48eaz8tCPTIuOfwIKbR8d77CU31GVC/7Ke/KadOILOuq6JVBVUJlFOJJ/+d7CUxa9GOMNkLXuj3BY8FJngZqMCzL87JfC7qmxmmHVGZA02ZSVjgIK1HWuc9CErArk7buwcQt+Qg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEWTCCA0GgAwIBAgIUI86F2yXT8xDzWh0UzkNRQRehI1MwDQYJKoZIhvcNAQELBQAwgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxGjAYBgNVBAcMEUNhc29yYXRlIFNlbXBpb25lMSQwIgYDVQQKDBtDb211bmUgZGkgQ2Fzb3JhdGUgU2VtcGlvbmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXNlbXBpb25lLnZhLml0MB4XDTIwMDcxMzA4MjY0MloXDTMwMDcxMTA4MjY0MlowgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxGjAYBgNVBAcMEUNhc29yYXRlIFNlbXBpb25lMSQwIgYDVQQKDBtDb211bmUgZGkgQ2Fzb3JhdGUgU2VtcGlvbmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXNlbXBpb25lLnZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAul9bC5BexGZcqiWV3EZAz9Y8jeBCTfLLazMFZIFKexygTZFM0SQrX7QPikhokuLZeMqh6waPErf9wZ6CKzrC3Usl6c5hdYRllNzmcVCXPZiLRF5xEtARDY5AZxz8INcXlVBSAB8wUgqMaiItGAB92Zr74FTOzGDB2kj3zgQPaqmzQYeAuWZEodN9ErztKOYIiz6wyyA9766vK6zgZ95w1/4NZ3xjB54mzr/a/pJl3oTk7k+x0vnzfymt4E7Yf/njOq+C3UiLMsgiU4q0uYdL9aXkDvo0VGYGuvo+psE9Gf684jOh35cIzFq+IYu0fFTb+FqKWKYJUitzUr6Y5ey9/QIDAQABo1MwUTAdBgNVHQ4EFgQUlMx1GVJn4rTkQmo6FYHTRB3RSiQwHwYDVR0jBBgwFoAUlMx1GVJn4rTkQmo6FYHTRB3RSiQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAk8TSRWoHv7yLASstvNl3gogzoq3m4ya3ApaEf7jwmwzCfWRi/zp3YzIgcoYzwa/RKtKRNB4xG5TYjfmokfbxDM43XzCDPHyYidpwLuUPweQoHLp2UAK1uMy/20OsGcfmuEjsrx7zkinx+oxt/IgJ4f9dZ2KfNyYjKe2KaIuCCCJrT8HSm0nBxtph+itWKAPyUOsStgVcb5AZ3XK48eaz8tCPTIuOfwIKbR8d77CU31GVC/7Ke/KadOILOuq6JVBVUJlFOJJ/+d7CUxa9GOMNkLXuj3BY8FJngZqMCzL87JfC7qmxmmHVGZA02ZSVjgIK1HWuc9CErArk7buwcQt+Qg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEWTCCA0GgAwIBAgIUI86F2yXT8xDzWh0UzkNRQRehI1MwDQYJKoZIhvcNAQELBQAwgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxGjAYBgNVBAcMEUNhc29yYXRlIFNlbXBpb25lMSQwIgYDVQQKDBtDb211bmUgZGkgQ2Fzb3JhdGUgU2VtcGlvbmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXNlbXBpb25lLnZhLml0MB4XDTIwMDcxMzA4MjY0MloXDTMwMDcxMTA4MjY0MlowgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxGjAYBgNVBAcMEUNhc29yYXRlIFNlbXBpb25lMSQwIgYDVQQKDBtDb211bmUgZGkgQ2Fzb3JhdGUgU2VtcGlvbmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXNlbXBpb25lLnZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAul9bC5BexGZcqiWV3EZAz9Y8jeBCTfLLazMFZIFKexygTZFM0SQrX7QPikhokuLZeMqh6waPErf9wZ6CKzrC3Usl6c5hdYRllNzmcVCXPZiLRF5xEtARDY5AZxz8INcXlVBSAB8wUgqMaiItGAB92Zr74FTOzGDB2kj3zgQPaqmzQYeAuWZEodN9ErztKOYIiz6wyyA9766vK6zgZ95w1/4NZ3xjB54mzr/a/pJl3oTk7k+x0vnzfymt4E7Yf/njOq+C3UiLMsgiU4q0uYdL9aXkDvo0VGYGuvo+psE9Gf684jOh35cIzFq+IYu0fFTb+FqKWKYJUitzUr6Y5ey9/QIDAQABo1MwUTAdBgNVHQ4EFgQUlMx1GVJn4rTkQmo6FYHTRB3RSiQwHwYDVR0jBBgwFoAUlMx1GVJn4rTkQmo6FYHTRB3RSiQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAk8TSRWoHv7yLASstvNl3gogzoq3m4ya3ApaEf7jwmwzCfWRi/zp3YzIgcoYzwa/RKtKRNB4xG5TYjfmokfbxDM43XzCDPHyYidpwLuUPweQoHLp2UAK1uMy/20OsGcfmuEjsrx7zkinx+oxt/IgJ4f9dZ2KfNyYjKe2KaIuCCCJrT8HSm0nBxtph+itWKAPyUOsStgVcb5AZ3XK48eaz8tCPTIuOfwIKbR8d77CU31GVC/7Ke/KadOILOuq6JVBVUJlFOJJ/+d7CUxa9GOMNkLXuj3BY8FJngZqMCzL87JfC7qmxmmHVGZA02ZSVjgIK1HWuc9CErArk7buwcQt+Qg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.casoratesempione.va.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.casoratesempione.va.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Casorate Sempione</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Casorate Sempione</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Casorate Sempione</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Casorate Sempione</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Casorate Sempione</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casorate Sempione</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Casorate Sempione</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Casorate Sempione</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.casoratesempione.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.casoratesempione.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.casoratesempione.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.casoratesempione.va.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_b987</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:casoratesempione@legalmail.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

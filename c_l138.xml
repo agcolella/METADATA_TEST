@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Terricciola" entityID="https://www.comune.terricciola.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Terricciola">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>JPyyhSLW9Yn0IyuTKJcuIKR1NaaE2xq7TAaNW8JwRj4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+MNTyCmTUQT3zN0XLwOy4UUtFm3GrA9u9LE1HmsIB+Y+7ljnSKrhonZ0+pwOhe3fzXkoh7pMx+RYb
+RmXEgTd4EocZ0dtuubFAD/sDecMDkKAiIBOexBIwwtmzvQzJjBj5vhrcPKmyLlaYRTjr/cOprZMf
+3a5E2WpqttYJgAzygHHjjoiaRynP4M4Eee1QA5MktBbvOsD8ubzeWQlY5FBhaXntNp4gV0Z58aNK
+4EQvDKdSXg88+FbdXotgFWLuLW1Q82C1G8/ZECjgbMyRR3dr+TwZOLkskbrYfD41I7eKgIYlDRYN
+gPCXBQtJ9wYR+VQrucbnQYljN3CGpPIzXbmYtQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sW7pB9eMO8/FzhiqmYmj7kwoklx3zSYierIBltMc6kCbF2uFTBOeFgECJC6VhZxMdyzD8lIe/KfB
+CITgXwp50Hu+G2ONX/bKz0R8HM5lhcw7XDPu7ctUO5ZJXX7pkO+VQo3zxdNh9TWlDYbPHEHJcbCN
+ekpuv4r2oFj1emCrC/ESGuGkr6JmY+I4ySB7WwOqEZn2lJyVV9E1vz0EAstGcf2PNuOutgQdAPUE
+3gI/qxl6ofX+2X+sHoXH2cLAoijQYtG+RrvEI6fYPBdoBpNXEcX+lZ3nxugeSzyMFaz2nnKdlOWm
+rVQVEjfehDL2mmRRzPplobO7mDU5dGCk+8vTGQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyjCCArKgAwIBAgIJAPEvX8yNKCb3MA0GCSqGSIb3DQEBCwUAMIGLMSUwIwYDVQQDDBx3d3cu
+Y29tdW5lLnRlcnJpY2Npb2xhLnBpLml0MR4wHAYDVQQKDBVDb211bmUgZGkgVGVycmljY2lvbGEx
+FTATBgNVBAQMDFBBOklULWNfbDEzODELMAkGA1UEBhMCSVQxHjAcBgNVBAcMFUNvbXVuZSBkaSBU
+ZXJyaWNjaW9sYTAeFw0yMDEwMjYxMTA4NDhaFw0zMDEwMjQxMTA4NDhaMIGLMSUwIwYDVQQDDBx3
+d3cuY29tdW5lLnRlcnJpY2Npb2xhLnBpLml0MR4wHAYDVQQKDBVDb211bmUgZGkgVGVycmljY2lv
+bGExFTATBgNVBAQMDFBBOklULWNfbDEzODELMAkGA1UEBhMCSVQxHjAcBgNVBAcMFUNvbXVuZSBk
+aSBUZXJyaWNjaW9sYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALFu6QfXjDvPxc4Y
+qpmJo+5MKJJcd80mInqyAZbTHOpAmxdrhUwTnhYBAiQulYWcTHcsw/JSHvynwQiE4F8KedB7vhtj
+jV/2ys9EfBzOZYXMO1wz7u3LVDuWSV1+6ZDvlUKN88XTYfU1pQ2GzxxByXGwjXpKbr+K9qBY9Xpg
+qwvxEhrhpK+iZmPiOMkge1sDqhGZ9pSclVfRNb89BALLRnH9jzbjrrYEHQD1BN4CP6sZeqH1/tl/
+rB6Fx9nCwKIo0GLRvka7xCOn2DwXaAaTVxHF/pWd58boHks8jBWs9p5ynZTlpq1UFRI33oQy9ppk
+Ucz6ZaGzu5g1OXRgpPvL0xkCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0g
+BAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAH3m6YCyCw0xU/gHbuqm9VhjEwx+I0GK
+NfIX04U7LUR2V+wGs29oFKH26d0LDleHxWaAWBdWBa3FyvXJmfIspZbhOJO8paro05EO3su8oWSE
+vRcYllaggbsOJclq4f5Dir1WQJHRKRiOAd71qWvbqTsN9UahD6cl4yN6F3nN4H/h5HsokKo0p5Ki
+ahmkd2fufFFD2q2YMm6JV7doDbDSDhv/giDeswpb1+M/WtbVK2q6Jx14NrEaJ8YuSTrsbvlAJ8xd
++ZchI5Z1SENPqU2d2bq/kg2eYgAO7OHlYeYDefwWw6M/ViXZEBoOl0N2I2NbJlIk8ZuUDlNiS91a
+VVfNRqY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDyjCCArKgAwIBAgIJAPEvX8yNKCb3MA0GCSqGSIb3DQEBCwUAMIGLMSUwIwYDVQQDDBx3d3cuY29tdW5lLnRlcnJpY2Npb2xhLnBpLml0MR4wHAYDVQQKDBVDb211bmUgZGkgVGVycmljY2lvbGExFTATBgNVBAQMDFBBOklULWNfbDEzODELMAkGA1UEBhMCSVQxHjAcBgNVBAcMFUNvbXVuZSBkaSBUZXJyaWNjaW9sYTAeFw0yMDEwMjYxMTA4NDhaFw0zMDEwMjQxMTA4NDhaMIGLMSUwIwYDVQQDDBx3d3cuY29tdW5lLnRlcnJpY2Npb2xhLnBpLml0MR4wHAYDVQQKDBVDb211bmUgZGkgVGVycmljY2lvbGExFTATBgNVBAQMDFBBOklULWNfbDEzODELMAkGA1UEBhMCSVQxHjAcBgNVBAcMFUNvbXVuZSBkaSBUZXJyaWNjaW9sYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALFu6QfXjDvPxc4YqpmJo+5MKJJcd80mInqyAZbTHOpAmxdrhUwTnhYBAiQulYWcTHcsw/JSHvynwQiE4F8KedB7vhtjjV/2ys9EfBzOZYXMO1wz7u3LVDuWSV1+6ZDvlUKN88XTYfU1pQ2GzxxByXGwjXpKbr+K9qBY9XpgqwvxEhrhpK+iZmPiOMkge1sDqhGZ9pSclVfRNb89BALLRnH9jzbjrrYEHQD1BN4CP6sZeqH1/tl/rB6Fx9nCwKIo0GLRvka7xCOn2DwXaAaTVxHF/pWd58boHks8jBWs9p5ynZTlpq1UFRI33oQy9ppkUcz6ZaGzu5g1OXRgpPvL0xkCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAH3m6YCyCw0xU/gHbuqm9VhjEwx+I0GKNfIX04U7LUR2V+wGs29oFKH26d0LDleHxWaAWBdWBa3FyvXJmfIspZbhOJO8paro05EO3su8oWSEvRcYllaggbsOJclq4f5Dir1WQJHRKRiOAd71qWvbqTsN9UahD6cl4yN6F3nN4H/h5HsokKo0p5Kiahmkd2fufFFD2q2YMm6JV7doDbDSDhv/giDeswpb1+M/WtbVK2q6Jx14NrEaJ8YuSTrsbvlAJ8xd+ZchI5Z1SENPqU2d2bq/kg2eYgAO7OHlYeYDefwWw6M/ViXZEBoOl0N2I2NbJlIk8ZuUDlNiS91aVVfNRqY=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDyjCCArKgAwIBAgIJAPEvX8yNKCb3MA0GCSqGSIb3DQEBCwUAMIGLMSUwIwYDVQQDDBx3d3cuY29tdW5lLnRlcnJpY2Npb2xhLnBpLml0MR4wHAYDVQQKDBVDb211bmUgZGkgVGVycmljY2lvbGExFTATBgNVBAQMDFBBOklULWNfbDEzODELMAkGA1UEBhMCSVQxHjAcBgNVBAcMFUNvbXVuZSBkaSBUZXJyaWNjaW9sYTAeFw0yMDEwMjYxMTA4NDhaFw0zMDEwMjQxMTA4NDhaMIGLMSUwIwYDVQQDDBx3d3cuY29tdW5lLnRlcnJpY2Npb2xhLnBpLml0MR4wHAYDVQQKDBVDb211bmUgZGkgVGVycmljY2lvbGExFTATBgNVBAQMDFBBOklULWNfbDEzODELMAkGA1UEBhMCSVQxHjAcBgNVBAcMFUNvbXVuZSBkaSBUZXJyaWNjaW9sYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALFu6QfXjDvPxc4YqpmJo+5MKJJcd80mInqyAZbTHOpAmxdrhUwTnhYBAiQulYWcTHcsw/JSHvynwQiE4F8KedB7vhtjjV/2ys9EfBzOZYXMO1wz7u3LVDuWSV1+6ZDvlUKN88XTYfU1pQ2GzxxByXGwjXpKbr+K9qBY9XpgqwvxEhrhpK+iZmPiOMkge1sDqhGZ9pSclVfRNb89BALLRnH9jzbjrrYEHQD1BN4CP6sZeqH1/tl/rB6Fx9nCwKIo0GLRvka7xCOn2DwXaAaTVxHF/pWd58boHks8jBWs9p5ynZTlpq1UFRI33oQy9ppkUcz6ZaGzu5g1OXRgpPvL0xkCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAH3m6YCyCw0xU/gHbuqm9VhjEwx+I0GKNfIX04U7LUR2V+wGs29oFKH26d0LDleHxWaAWBdWBa3FyvXJmfIspZbhOJO8paro05EO3su8oWSEvRcYllaggbsOJclq4f5Dir1WQJHRKRiOAd71qWvbqTsN9UahD6cl4yN6F3nN4H/h5HsokKo0p5Kiahmkd2fufFFD2q2YMm6JV7doDbDSDhv/giDeswpb1+M/WtbVK2q6Jx14NrEaJ8YuSTrsbvlAJ8xd+ZchI5Z1SENPqU2d2bq/kg2eYgAO7OHlYeYDefwWw6M/ViXZEBoOl0N2I2NbJlIk8ZuUDlNiS91aVVfNRqY=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/terricciola"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/terricciola" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/terricciola" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/terricciola" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Terricciola</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Terricciola</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Terricciola</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Terricciola</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Terricciola</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Terricciola</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Terricciola</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Terricciola</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.terricciola.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.terricciola.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.terricciola.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.terricciola.pi.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_l138</spid:IPACode>
+         <spid:FiscalCode>00286650502</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>r.funari@comune.terricciola.pi.it</md:EmailAddress>
+      <md:TelephoneNumber>0587656523</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Jesi" entityID="https://www.comune.jesi.an.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Jesi">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zQltP8iz+X+bfcv5yAlEi/67pgPr+AE/akq1kN7GGaU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+i8Fbn0sOpcWPE1p3fhbXoyedu57ydji85DuQb8UhyGkmoJnOoP+mh3uW4xOnFr1RKQ4ytpKWSRR+
+QZ35Yg7C4vKLqYTulJMrlxfGuQoTexorxyZDTUv2dNAdqD0Jp8ivgeRXiUX2p98o1Yvdwr2X12Uj
+V1HyyxyWwxpLmBiacx9rGVrCp4YR9uCKeerqjslCEaok4qsnap5NZPGXXKo05roxnNYTqWkIK2UW
+DStBwRFVxNqVYrCWdZzufoFVORDH4K9bLbkJN6Ky8u2suGJoHXDJjqabfi9P0X/gDQiFe2d54Ps7
+TUfxgW4oinp5EUKhJJHHNStHT7kXDkp6bhPAlw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+stZChhgNN53ys7CJTjc69vIofaY34+HpsiJVdH1nDcPUeuyvnj3yPAN5HeLwtK7xmeygZdeD5PkA
+glS6a1YyN62cPv0+0cWjV+D+vmE0uOiB7GZCPVlSGYP6AqSHpDBDJynhrqj/jQAct9IKyiNxTx6x
+aoDNrWvpv9COWLl55foAGy8xr8McKdl67/8404QgkHxISKKQI4M+BdWYBrkxQwven1Cwo19vnWrf
+XX4ckbfX561r9ZuuEoXmiM8FkGu57lAPQMU7AAWJi6j5sb6AxeAtxV/WyzwN9AtWDqutsexbffLR
++cBNUZ9o+YbEJ28stJb5SkU6RPFOgN0wQGVkww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJANGm43GQI86NMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUuamVzaS5hbi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNjA2MDY1
+NDQwWhcNMjkwNjAzMDY1NDQwWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLmplc2kuYW4uaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+stZChhgNN53ys7CJTjc69vIofaY34+HpsiJVdH1nDcPUeuyvnj3yPAN5HeLwtK7xmeygZdeD5PkA
+glS6a1YyN62cPv0+0cWjV+D+vmE0uOiB7GZCPVlSGYP6AqSHpDBDJynhrqj/jQAct9IKyiNxTx6x
+aoDNrWvpv9COWLl55foAGy8xr8McKdl67/8404QgkHxISKKQI4M+BdWYBrkxQwven1Cwo19vnWrf
+XX4ckbfX561r9ZuuEoXmiM8FkGu57lAPQMU7AAWJi6j5sb6AxeAtxV/WyzwN9AtWDqutsexbffLR
++cBNUZ9o+YbEJ28stJb5SkU6RPFOgN0wQGVkwwIDAQABo1AwTjAdBgNVHQ4EFgQUtiI9HSpt/rbp
+ynMiJ0/xOho2sTcwHwYDVR0jBBgwFoAUtiI9HSpt/rbpynMiJ0/xOho2sTcwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAao5UWJ/wZrTwTia4JZ80P8M23Q3wJZNTuzXi6OI7T6pbt/TW
+D5Puo++VzGTXu96iR93SrK1razKUymlv8Qew5f6f62E2+WJolsI2uxauwKor0LBAZ5RwmXRL9D5K
+BU1EYhlRg8kMlbhvEaESa9Bn1c79Uh2nMU4HANerVQpAlIxGWIvpR6TbXasp8tCWBCGjRTJa+Eb1
+zICm3CKS2dKgp27hAZr1rQOEcHit98g4IcX1hUPYOStjk9KvsXgEQi1tdub9I0srRSIwenHZhCrd
+KpoOWIZE6+jm1UoFUvq5RcMwW6y52iQihRq3tLgu/FqxdehdxjWyLNNuQQKqFrt9tA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJANGm43GQI86NMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUuamVzaS5hbi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNjA2MDY1NDQwWhcNMjkwNjAzMDY1NDQwWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLmplc2kuYW4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAstZChhgNN53ys7CJTjc69vIofaY34+HpsiJVdH1nDcPUeuyvnj3yPAN5HeLwtK7xmeygZdeD5PkAglS6a1YyN62cPv0+0cWjV+D+vmE0uOiB7GZCPVlSGYP6AqSHpDBDJynhrqj/jQAct9IKyiNxTx6xaoDNrWvpv9COWLl55foAGy8xr8McKdl67/8404QgkHxISKKQI4M+BdWYBrkxQwven1Cwo19vnWrfXX4ckbfX561r9ZuuEoXmiM8FkGu57lAPQMU7AAWJi6j5sb6AxeAtxV/WyzwN9AtWDqutsexbffLR+cBNUZ9o+YbEJ28stJb5SkU6RPFOgN0wQGVkwwIDAQABo1AwTjAdBgNVHQ4EFgQUtiI9HSpt/rbpynMiJ0/xOho2sTcwHwYDVR0jBBgwFoAUtiI9HSpt/rbpynMiJ0/xOho2sTcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAao5UWJ/wZrTwTia4JZ80P8M23Q3wJZNTuzXi6OI7T6pbt/TWD5Puo++VzGTXu96iR93SrK1razKUymlv8Qew5f6f62E2+WJolsI2uxauwKor0LBAZ5RwmXRL9D5KBU1EYhlRg8kMlbhvEaESa9Bn1c79Uh2nMU4HANerVQpAlIxGWIvpR6TbXasp8tCWBCGjRTJa+Eb1zICm3CKS2dKgp27hAZr1rQOEcHit98g4IcX1hUPYOStjk9KvsXgEQi1tdub9I0srRSIwenHZhCrdKpoOWIZE6+jm1UoFUvq5RcMwW6y52iQihRq3tLgu/FqxdehdxjWyLNNuQQKqFrt9tA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJANGm43GQI86NMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUuamVzaS5hbi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNjA2MDY1NDQwWhcNMjkwNjAzMDY1NDQwWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLmplc2kuYW4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAstZChhgNN53ys7CJTjc69vIofaY34+HpsiJVdH1nDcPUeuyvnj3yPAN5HeLwtK7xmeygZdeD5PkAglS6a1YyN62cPv0+0cWjV+D+vmE0uOiB7GZCPVlSGYP6AqSHpDBDJynhrqj/jQAct9IKyiNxTx6xaoDNrWvpv9COWLl55foAGy8xr8McKdl67/8404QgkHxISKKQI4M+BdWYBrkxQwven1Cwo19vnWrfXX4ckbfX561r9ZuuEoXmiM8FkGu57lAPQMU7AAWJi6j5sb6AxeAtxV/WyzwN9AtWDqutsexbffLR+cBNUZ9o+YbEJ28stJb5SkU6RPFOgN0wQGVkwwIDAQABo1AwTjAdBgNVHQ4EFgQUtiI9HSpt/rbpynMiJ0/xOho2sTcwHwYDVR0jBBgwFoAUtiI9HSpt/rbpynMiJ0/xOho2sTcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAao5UWJ/wZrTwTia4JZ80P8M23Q3wJZNTuzXi6OI7T6pbt/TWD5Puo++VzGTXu96iR93SrK1razKUymlv8Qew5f6f62E2+WJolsI2uxauwKor0LBAZ5RwmXRL9D5KBU1EYhlRg8kMlbhvEaESa9Bn1c79Uh2nMU4HANerVQpAlIxGWIvpR6TbXasp8tCWBCGjRTJa+Eb1zICm3CKS2dKgp27hAZr1rQOEcHit98g4IcX1hUPYOStjk9KvsXgEQi1tdub9I0srRSIwenHZhCrdKpoOWIZE6+jm1UoFUvq5RcMwW6y52iQihRq3tLgu/FqxdehdxjWyLNNuQQKqFrt9tA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/jesi"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/jesi" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/jesi" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/jesi" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Jesi</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Jesi</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Jesi</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Jesi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Jesi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Jesi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Jesi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Jesi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.jesi.an.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.jesi.an.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.jesi.an.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.jesi.an.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

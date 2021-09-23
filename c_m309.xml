@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://istanze.fonte-nuova.it" ID="https___istanze_fonte-nuova_it"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___istanze_fonte-nuova_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wa5LHiue3To/+HK/fd8ES5yJ0jSBLyfoRbbsH8T7rvY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>JSHWWLDhqZQZr+goCDSIvhGAGnBIE40EpHmMgXl/crsDgX+hbqJ4XIVhazK4Qx/17HaS1cv8cmq5woBKvHWi1/t0Bna3RF8sdmDg4OKXnFVu5oOKysrBUPCUlb6MHeNoztz5QhTWkNSzqKGimia9Y9rO080mExEnYHuk38kMVAuF5wTgSW40y5q/BWwls8Qi/w7eOJhtBcMgFu/N0w5q16xusXkzOakywizS6Rz73DEKnziOkTTCkcYxb4j2+/Cz0gS+WCx1o9jFHtNSfF2XfuQpKwLO0F9Pl6sxMJWLMUaOA/fMnKvh6eH7i6IvTP2zKGYFCDUf5UaYHvzk+g5YjQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIC+zCCAeOgAwIBAgIUMYLfFJnaCdxhWEewQczwoOMjvvMwDQYJKoZIhvcNAQELBQAwDTELMAkGA1UEBhMCSVQwHhcNMjAxMDI5MTIwMTEzWhcNMjAxMTI4MTIwMTEzWjANMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOkcbvh8xzv9ph8BeURZDN9ljQLDMrOHjkdivIEyW0tRh+eYICOSJlmLXDWDaKMvC3Scdws/3j94MtTxvjcvPGRUAhYO25jX+K45+CJz+92yGx3SL5+JqEG8sxo1WJRQOpHQdmYQcFiSuUPj1CBAHQtwRaK5UkZFqflSm3eVdEhnnAgRW50fYIztFvVCtaLqPcHVFqDL6C5uvvYNxXhl7SU6wAVCII5IPXmEUrEuLGEclf5pVVGekzg0RDYL+lO77pKA1UdyK13y0mvqTtesHVnJW1/otOMPROcRmvMoTlqnYBpaIN+nx0l7f4YypQeFbfxnTwbrEvYvcZK47keRmWkCAwEAAaNTMFEwHQYDVR0OBBYEFO6NqyECSinMo5soZ+UmXm93w8guMB8GA1UdIwQYMBaAFO6NqyECSinMo5soZ+UmXm93w8guMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKyx2rtbj7iICUKBf7aGF4YrbtzJLoHF1ru2Yu/67VX6jky7fcDopkwThyhYszji3h5idnkkQCo3wjg6eyb3uRcPEQc9eKV7vZDZtxWoTH9KVfg2EGUT0yfJN2efFwCXOyQAoYj/DhZMUvXrr6jmIFqkzHe/lagNaySth6woxaQgZYw+/4MjV8nwn1W9ZfHp7nhwUTYdcVN43cziggPWO93erdIzPT3DnTvX730y1CnOR6AwKoSk8HTqmehe2Xak62FtamLfLDwzY7Om/AZNNSx7XQayf85zhomXcqxKYtdkfwllfkatK2BFikLqygM8eqGfJv0XE6/AqNh7NPSrG8g=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIC+zCCAeOgAwIBAgIUMYLfFJnaCdxhWEewQczwoOMjvvMwDQYJKoZIhvcNAQEL
+                        BQAwDTELMAkGA1UEBhMCSVQwHhcNMjAxMDI5MTIwMTEzWhcNMjAxMTI4MTIwMTEz
+                        WjANMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+                        AOkcbvh8xzv9ph8BeURZDN9ljQLDMrOHjkdivIEyW0tRh+eYICOSJlmLXDWDaKMv
+                        C3Scdws/3j94MtTxvjcvPGRUAhYO25jX+K45+CJz+92yGx3SL5+JqEG8sxo1WJRQ
+                        OpHQdmYQcFiSuUPj1CBAHQtwRaK5UkZFqflSm3eVdEhnnAgRW50fYIztFvVCtaLq
+                        PcHVFqDL6C5uvvYNxXhl7SU6wAVCII5IPXmEUrEuLGEclf5pVVGekzg0RDYL+lO7
+                        7pKA1UdyK13y0mvqTtesHVnJW1/otOMPROcRmvMoTlqnYBpaIN+nx0l7f4YypQeF
+                        bfxnTwbrEvYvcZK47keRmWkCAwEAAaNTMFEwHQYDVR0OBBYEFO6NqyECSinMo5so
+                        Z+UmXm93w8guMB8GA1UdIwQYMBaAFO6NqyECSinMo5soZ+UmXm93w8guMA8GA1Ud
+                        EwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKyx2rtbj7iICUKBf7aGF4Yr
+                        btzJLoHF1ru2Yu/67VX6jky7fcDopkwThyhYszji3h5idnkkQCo3wjg6eyb3uRcP
+                        EQc9eKV7vZDZtxWoTH9KVfg2EGUT0yfJN2efFwCXOyQAoYj/DhZMUvXrr6jmIFqk
+                        zHe/lagNaySth6woxaQgZYw+/4MjV8nwn1W9ZfHp7nhwUTYdcVN43cziggPWO93e
+                        rdIzPT3DnTvX730y1CnOR6AwKoSk8HTqmehe2Xak62FtamLfLDwzY7Om/AZNNSx7
+                        XQayf85zhomXcqxKYtdkfwllfkatK2BFikLqygM8eqGfJv0XE6/AqNh7NPSrG8g=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istanze.fonte-nuova.it/spid2/logout"/>  
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://istanze.fonte-nuova.it/spid2/register" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName> 
+            <md:RequestedAttribute Name="spidCode"/>      
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Fonte Nuova</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Fonte Nuova</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.fonte-nuova.it/</md:OrganizationURL>
+    </md:Organization>
+    
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>c_m309</spid:IPACode>
+        </md:Extensions>
+        <md:EmailAddress>protocollo@cert.fonte-nuova.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

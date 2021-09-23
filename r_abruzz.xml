@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="_bb6cb62b-c63a-4ee4-9ac2-c71883a166c0" entityID="http://adfs.regione.abruzzo.it/adfs/services/trust"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#_bb6cb62b-c63a-4ee4-9ac2-c71883a166c0"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>zGak5R44r17hZShrPpncCZObsZ0ay9Eb4HprTDmHvwA=</DigestValue></Reference></SignedInfo><SignatureValue>uMFGThPMwhjdwuVNclLYQ+iMrW71jCspyAeFF8jBXngDddsKKvmvBxGB5mHQCa1Wzf43r0e/4lcuNRtgl5/pshXlUn+A/zzxtSiv/GbJC6v1/gQWQ1GiMSCbodsfDTIZdHRT5yMeMeYB1EA4tpY7ffUjDhGq0nFy3xPpJsDQqVyZQekclOIpTxlczsWpOfei8yhJWapwEZDKL0K6pzrb5qm4+NbdxUUTyjEyrmEDl7xDQgKFDTM0WGNy0ajPbfC/gjmS0sqGsIgvmGT+vJrbyRbrkUYGpG+K4nrvZOwcUuPcG+aMW+/fWLiJB/7ejigYIIqwJ67FSMwvf65Ke88hgQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0s3PFKN64KY2+Al0S167+CSzwFpuZf579pzDaLEAtPbvPT4u7copOq2ulypxsCrXL1kDI36VLdp5obsrbo4fTQwyNlFfWqUAQQVZ8HFQ/H5hrN+ORtEozpzYrKqzqcd6woz3MOlhYoMaNpq6ET8NL6b3kF6x1RHCvj5+pj4YGmBb7+41WA5zn/G1yDrpXkGGKbxigGxdNaWIEzd5WPwa5oJSaxrk6qcaCzkdm9mV20jtLa4vwnVJSB6to3Hj3j3XkqNJzkPwyDHiq1PNEs7VojdJbTNmjd22ow6d6tiF8bxQphFhUMwhPLehW/37VkHbg1XhcP7FTYOmaZPx2Bs6Sw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIID5zCCAs+gAwIBAgIJAM6/sNMhMhM4MA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDERMA8GA1UECAwITCdBcXVpbGExETAPBgNVBAcMCEwnQXF1aWxhMRgwFgYDVQQKDA9SZWdpb25lIEFCUlVaWk8xGDAWBgNVBAsMD1JlZ2lvbmUgQWJydXp6bzEgMB4GA1UEAwwXYWRmcy5yZWdpb25lLmFicnV6em8uaXQwHhcNMTcxMDA0MTAwNzM3WhcNMTkxMDA0MTAwNzM3WjCBiTELMAkGA1UEBhMCSVQxETAPBgNVBAgMCEwnQXF1aWxhMREwDwYDVQQHDAhMJ0FxdWlsYTEYMBYGA1UECgwPUmVnaW9uZSBBQlJVWlpPMRgwFgYDVQQLDA9SZWdpb25lIEFicnV6em8xIDAeBgNVBAMMF2FkZnMucmVnaW9uZS5hYnJ1enpvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0s3PFKN64KY2+Al0S167+CSzwFpuZf579pzDaLEAtPbvPT4u7copOq2ulypxsCrXL1kDI36VLdp5obsrbo4fTQwyNlFfWqUAQQVZ8HFQ/H5hrN+ORtEozpzYrKqzqcd6woz3MOlhYoMaNpq6ET8NL6b3kF6x1RHCvj5+pj4YGmBb7+41WA5zn/G1yDrpXkGGKbxigGxdNaWIEzd5WPwa5oJSaxrk6qcaCzkdm9mV20jtLa4vwnVJSB6to3Hj3j3XkqNJzkPwyDHiq1PNEs7VojdJbTNmjd22ow6d6tiF8bxQphFhUMwhPLehW/37VkHbg1XhcP7FTYOmaZPx2Bs6SwIDAQABo1AwTjAdBgNVHQ4EFgQUbSR9NltLeDkiqhyOx5nAxoLaE54wHwYDVR0jBBgwFoAUbSR9NltLeDkiqhyOx5nAxoLaE54wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAp4pErgasxw84nZK5qBpZfGm3mPdWUT+lWQCThP3cKSc9hv3LrzZ0YnoDXBAUIn1X+MuYC63zYU6Owvn8JBIkgNN78ouqgoypV8s2Vrq++Zx/d/Fr0hSIo6NPNVcm257EyzUgfGbAvl9cjMppKkxIwJHLgp+ljGu4nsuh0o0fJNJ4PCvaHiB14bYnJSESvjSprD3gs6Ai7Y446nzbHnd08uuKIpdd8ICV59+aCNkF0KX479RwLtJXPAaQGcFvnnRWTFW5N0xYVBvmabQ+3IBX5nsp3PE3ofmfOcZLETaTBM8L+YEzxokDeOqmN5rgLzyVe432NQ0zPXPXKxRP+BwD3Q==</X509Certificate></X509Data></KeyInfo></Signature>
+    <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="encryption">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIC8DCCAdigAwIBAgIQby0TpPwyyaxOH0WaRLXuojANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylBREZTIEVuY3J5cHRpb24gLSBhZGZzLnJlZ2lvbmUuYWJydXp6by5pdDAeFw0xNzEwMDQwOTUxMTRaFw0xODEwMDQwOTUxMTRaMDQxMjAwBgNVBAMTKUFERlMgRW5jcnlwdGlvbiAtIGFkZnMucmVnaW9uZS5hYnJ1enpvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtVB5JNR/JU9VInXDcVwcRt+rJyX8e3WXnNRnA9DwkuXOEhTc/L1FSk8x67l9TW6MgI7YTtDhrnVJ3Xe3ZQOqw1rvCcBrMp2H1ln/Ysi+bfsWudY8mpCAjOC8PJW/3MSHQdgiZ3btoHQ609mmpJ5nsN8JAE3a9l+rYz5d2ih7YSOwhl4JfZyeeEW8BcyDT5mnx/jdB2gZO7OoxF6rm4tfTQ6qacLZ50o/FEqpjnBROn3fBj6trgU2P0H9Iizk6ywa3iSNDu60Gl8bI9A1iFVxFkQtkUzSVranJsh2UJQNMTLiOdgqAOPqm9dTBeewpOly3NMdll7IPYnFdXFiNGB1qwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCJOl4KWPuhL7z+6SUwgLw+sC03yWuDhqx/Sl6Jqkp5pboUJ8kFsGYz681+C67JpFViDYIsdZdzAUZt2LH+0zHd7m3rJA5LivvELCqNQQhpbVICQM4MGqFDon91HrgifG+pUnX9BtmjpvT9luKCNGV93JB/Tkd2wK8MiUEwGswZp+9LGp2nIRLtTQFFZUamDz3TCZvq5S2Nb9yGYiyAQ8OZnfwWQwPC3JYz/mHECeVRzwEkb3bbqkPLUVsSTtQqeDM3Blyc/SZukGXz6lStsiTu2e/GvuCXxCuMCKM09j4EVhN56lF0+3oCugeJhvkOfV9PsdrD50Laap+H9S+zXO9b</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIID5zCCAs+gAwIBAgIJAM6/sNMhMhM4MA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDERMA8GA1UECAwITCdBcXVpbGExETAPBgNVBAcMCEwnQXF1aWxhMRgwFgYDVQQKDA9SZWdpb25lIEFCUlVaWk8xGDAWBgNVBAsMD1JlZ2lvbmUgQWJydXp6bzEgMB4GA1UEAwwXYWRmcy5yZWdpb25lLmFicnV6em8uaXQwHhcNMTcxMDA0MTAwNzM3WhcNMTkxMDA0MTAwNzM3WjCBiTELMAkGA1UEBhMCSVQxETAPBgNVBAgMCEwnQXF1aWxhMREwDwYDVQQHDAhMJ0FxdWlsYTEYMBYGA1UECgwPUmVnaW9uZSBBQlJVWlpPMRgwFgYDVQQLDA9SZWdpb25lIEFicnV6em8xIDAeBgNVBAMMF2FkZnMucmVnaW9uZS5hYnJ1enpvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0s3PFKN64KY2+Al0S167+CSzwFpuZf579pzDaLEAtPbvPT4u7copOq2ulypxsCrXL1kDI36VLdp5obsrbo4fTQwyNlFfWqUAQQVZ8HFQ/H5hrN+ORtEozpzYrKqzqcd6woz3MOlhYoMaNpq6ET8NL6b3kF6x1RHCvj5+pj4YGmBb7+41WA5zn/G1yDrpXkGGKbxigGxdNaWIEzd5WPwa5oJSaxrk6qcaCzkdm9mV20jtLa4vwnVJSB6to3Hj3j3XkqNJzkPwyDHiq1PNEs7VojdJbTNmjd22ow6d6tiF8bxQphFhUMwhPLehW/37VkHbg1XhcP7FTYOmaZPx2Bs6SwIDAQABo1AwTjAdBgNVHQ4EFgQUbSR9NltLeDkiqhyOx5nAxoLaE54wHwYDVR0jBBgwFoAUbSR9NltLeDkiqhyOx5nAxoLaE54wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAp4pErgasxw84nZK5qBpZfGm3mPdWUT+lWQCThP3cKSc9hv3LrzZ0YnoDXBAUIn1X+MuYC63zYU6Owvn8JBIkgNN78ouqgoypV8s2Vrq++Zx/d/Fr0hSIo6NPNVcm257EyzUgfGbAvl9cjMppKkxIwJHLgp+ljGu4nsuh0o0fJNJ4PCvaHiB14bYnJSESvjSprD3gs6Ai7Y446nzbHnd08uuKIpdd8ICV59+aCNkF0KX479RwLtJXPAaQGcFvnnRWTFW5N0xYVBvmabQ+3IBX5nsp3PE3ofmfOcZLETaTBM8L+YEzxokDeOqmN5rgLzyVe432NQ0zPXPXKxRP+BwD3Q==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIDyzCCArOgAwIBAgIJAP6x7BB1M9sBMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhMJ0FxdWlsYTERMA8GA1UEBwwITCdBcXVpbGExGDAWBgNVBAoMD1JlZ2lvbmUgQWJydXp6bzELMAkGA1UECwwCSVQxIDAeBgNVBAMMF2FkZnMucmVnaW9uZS5hYnJ1enpvLml0MB4XDTE5MDcwNDIzMDYwOFoXDTIxMDcwMzIzMDYwOFowfDELMAkGA1UEBhMCSVQxETAPBgNVBAgMCEwnQXF1aWxhMREwDwYDVQQHDAhMJ0FxdWlsYTEYMBYGA1UECgwPUmVnaW9uZSBBYnJ1enpvMQswCQYDVQQLDAJJVDEgMB4GA1UEAwwXYWRmcy5yZWdpb25lLmFicnV6em8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC52Zf2I1P9QnnPSBMY7T1P1Hoq1cHNnmmt00XWDpmrlG+TM1/GYkEaIL9mPikada5gPMc12z/1Ot0DwgBWWFNWuOoq3O4tHQn1YtH6zkysUhjVclUgaqxL1glfRaKNaU8dUG5yG22xraiDwr4VZsbfQhUJ0JKLczwHwiU0TNU4pr+V70mDLqZPdyB8qGilnppBxvkI2IK8cw0ZqCP5L5cR4wHj8foha82OeX/Ut/rWQiBS+zZ17rXSjr8riC4mW8Axx0U3cXzjLQKghKZf0RmAEhio5khM3fqoPl9dTXz3prQx9Fr2DPFJBPNeVLGlcElAXslVSjx23JegaR5ajlBXAgMBAAGjUDBOMB0GA1UdDgQWBBTPAgKhihoRntJL9TGxFC9pfS4kxTAfBgNVHSMEGDAWgBTPAgKhihoRntJL9TGxFC9pfS4kxTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCEia7seRi2yRuWp7ix6+8TBygB7kKmno5zWAfNchPExbmJzWClOHC6U75sggB5bkSIS4gGHRvuckJfm450u78gB1CrQt1zpxHMZJHTGUBOrjCaIpDcLeY/RNAhQu+22afviYTWMMcyTZ+FN67m0nSczD0/oILf1f8l4r9d8UzuIge02MNPGPUGhRY/ClwYwE8hb7N6NXiHqE1jPhJhaXpaFkZ4seUkII7PtUeJVJIbeDRlBreLlLO1BN5AHdwlVzq6iJNEtQ5cvNa1xAZELgI3V24yFrJk3Y+XdEohE6zX1MqOGobbw9vNCaLmT/HSxESkU0kk+PXRYOnACNDO2Lo9</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adfs.regione.abruzzo.it/adfs/ls/" />
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adfs.regione.abruzzo.it/adfs/ls/" />
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adfs.regione.abruzzo.it/adfs/ls/" index="0" isDefault="true" />
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adfs.regione.abruzzo.it/adfs/ls/" index="2" />
+        <AttributeConsumingService index="0">
+            <ServiceName xml:lang="it">SetMinimum</ServiceName>
+            <ServiceDescription xml:lang="it">Attributi servizio minimi</ServiceDescription>
+            <RequestedAttribute Name="familyName" />
+            <RequestedAttribute Name="name" />
+            <RequestedAttribute Name="gender" />
+            <RequestedAttribute Name="email" />
+        </AttributeConsumingService>
+        <AttributeConsumingService index="1">
+            <ServiceName xml:lang="it">SetMedium</ServiceName>
+            <ServiceDescription xml:lang="it">Attributi servizio medi</ServiceDescription>
+            <RequestedAttribute Name="familyName" />
+            <RequestedAttribute Name="name" />
+            <RequestedAttribute Name="gender" />
+            <RequestedAttribute Name="email" />
+            <RequestedAttribute Name="fiscalNumber" />
+            <RequestedAttribute Name="companyName" />
+            <RequestedAttribute Name="registeredOffice" />
+            <RequestedAttribute Name="ivaCode" />
+            <RequestedAttribute Name="idCard" />
+            <RequestedAttribute Name="digitalAddress" />
+        </AttributeConsumingService>
+        <AttributeConsumingService index="2">
+            <ServiceName xml:lang="it">SetFull</ServiceName>
+            <ServiceDescription xml:lang="it">Attributi servizio totali</ServiceDescription>
+            <RequestedAttribute Name="familyName" />
+            <RequestedAttribute Name="name" />
+            <RequestedAttribute Name="gender" />
+            <RequestedAttribute Name="email" />
+            <RequestedAttribute Name="fiscalNumber" />
+            <RequestedAttribute Name="companyName" />
+            <RequestedAttribute Name="registeredOffice" />
+            <RequestedAttribute Name="ivaCode" />
+            <RequestedAttribute Name="idCard" />
+            <RequestedAttribute Name="digitalAddress" />
+            <RequestedAttribute Name="dateOfBirth" />
+            <RequestedAttribute Name="placeOfBirth" />
+            <RequestedAttribute Name="countyOfBirth" />
+            <RequestedAttribute Name="mobilePhone" />
+            <RequestedAttribute Name="address" />
+            <RequestedAttribute Name="expirationDate" />
+            <RequestedAttribute Name="spidCode" />
+        </AttributeConsumingService>
+    </SPSSODescriptor>
+    <Organization>
+        <OrganizationName xml:lang="it">Regione Abruzzo</OrganizationName>
+        <OrganizationDisplayName xml:lang="it">Regione Abruzzo</OrganizationDisplayName>
+        <OrganizationURL xml:lang="it">www.regione.abruzzo.it</OrganizationURL>
+    </Organization>
+</EntityDescriptor>

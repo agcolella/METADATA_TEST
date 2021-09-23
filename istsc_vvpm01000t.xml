@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.istitutocapialbi.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxe7ff4b2a-5518-42a6-1d74-88d24b150ab9"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxe7ff4b2a-5518-42a6-1d74-88d24b150ab9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>J+43xKCqm+72UrRvbbIL3o9o2floO+Fi7HvUP+Pnmfs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>j9VP/jtnMVxTdLehjxwiv8YUobPGQzIRKgXlH9uVlKtVd7q80NeoTJ9cuskQIdWgIvte7NgWEKs7ljGCRujqi6YYI+fz/Wuanv9UVDw3aiLsqmeM12HBp7X+y9CqbBwsCPtMAeCfIsD/63d6J5b54dLC0CByvAxy4dyT7SjHpjSvFqj4f7TOCbnw56W/9QpB+yEwQXDQxPHHnHDT1K5xjO/BcqhdOrchJ9kpPelE/slsSyft35odJ9OPdrkFHvvzYWanNshxfRoDwhiugKsx88WgItjgu8z3GnSIgmePzZ/8xhoh0cHHmLJulbv5oM0JZsFFwo11ZTaPzPVX2b07yg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEaDCCA1CgAwIBAgII3Ik7patQSAAwDQYJKoZIhvcNAQELBQAwgcoxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1WaWJvIFZhbGVudGlhMRYwFAYDVQQHDA1WaWJvIFZhbGVudGlhMSQwIgYDVQQKDBtMaWNlbyBTdGF0YWxlIFZpdG8gQ2FwaWFsYmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJDAiBgNVBAMMG3d3dy5pc3RpdHV0b2NhcGlhbGJpLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdnZwbTAxMDAwdEBpc3RydXppb25lLml0MB4XDTE4MTIxMTEzMzYyMFoXDTM4MTIxMDEzMzYyMFowgcoxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1WaWJvIFZhbGVudGlhMRYwFAYDVQQHDA1WaWJvIFZhbGVudGlhMSQwIgYDVQQKDBtMaWNlbyBTdGF0YWxlIFZpdG8gQ2FwaWFsYmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJDAiBgNVBAMMG3d3dy5pc3RpdHV0b2NhcGlhbGJpLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdnZwbTAxMDAwdEBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtQ8VjtzwEQ+F6hZcAxwEjEs1cBHMAel8JnVlTzpGhQsfaJviPXXPRHLnCLL4Rzx5Do3JhPU9rBuv+LqMlvziBanWsYnvk6jZPt/mOp2E9PfcqTKwKSwiDu9Wq1l8mq2ZOKFLzh8TFHpv9lWWwqImb8vOUU7BkvdyXmphzqU3vplGyzKcy3V7V9h2qNuFD2eH+SonTcpjRLB3MBqRjCFVrPpoSGLG8Kfg2HqZbAPY0XwrnRF9gjc2PLYDXPHyn22IxV4ucZuoUvNzewfxvSBAtzesCfh1STPmbTeUc9OXWV2s4ZWICXOrTAwg89clgI2N35WuDLA305UhFMn096YjFQIDAQABo1AwTjAdBgNVHQ4EFgQUwzlz2He1b17y8WqpAIo3BTX0/fYwHwYDVR0jBBgwFoAUwzlz2He1b17y8WqpAIo3BTX0/fYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhiEVM6UVgMYwzTriE2YxEpAAEA41om4DI6Kgbq8ySlsnjedhdo+bkuPFpI884ZsBAa8ytbB66GU3gct0eRM9nZLmRNeHmt8uQzLElQGwEG5UzYByVeob4+b2au4L3DsHHadz8Wwvf//+ZEOjJfkOJ3LpgxY/uA1TgmGT3Uf/mYoUR1BKi/SijtPsFnJHcrQ6Ap7+raZ4DYZ6tQPaPd5/fbE5+nwIE1bVT5g/SheIWPfCtaJgqSh1VbJjdWrP0B9YU5lOE3yLHW6tRnxv72nXH8uLACdxvVGVKVIeKR4UM7txKqNkPBQFXGLODoK475/u8kJLvpaEp7auVjv2T5N+eg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEaDCCA1CgAwIBAgII3Ik7patQSAAwDQYJKoZIhvcNAQELBQAwgcoxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1WaWJvIFZhbGVudGlhMRYwFAYDVQQHDA1WaWJvIFZhbGVudGlhMSQwIgYDVQQKDBtMaWNlbyBTdGF0YWxlIFZpdG8gQ2FwaWFsYmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJDAiBgNVBAMMG3d3dy5pc3RpdHV0b2NhcGlhbGJpLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdnZwbTAxMDAwdEBpc3RydXppb25lLml0MB4XDTE4MTIxMTEzMzYyMFoXDTM4MTIxMDEzMzYyMFowgcoxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1WaWJvIFZhbGVudGlhMRYwFAYDVQQHDA1WaWJvIFZhbGVudGlhMSQwIgYDVQQKDBtMaWNlbyBTdGF0YWxlIFZpdG8gQ2FwaWFsYmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJDAiBgNVBAMMG3d3dy5pc3RpdHV0b2NhcGlhbGJpLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdnZwbTAxMDAwdEBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtQ8VjtzwEQ+F6hZcAxwEjEs1cBHMAel8JnVlTzpGhQsfaJviPXXPRHLnCLL4Rzx5Do3JhPU9rBuv+LqMlvziBanWsYnvk6jZPt/mOp2E9PfcqTKwKSwiDu9Wq1l8mq2ZOKFLzh8TFHpv9lWWwqImb8vOUU7BkvdyXmphzqU3vplGyzKcy3V7V9h2qNuFD2eH+SonTcpjRLB3MBqRjCFVrPpoSGLG8Kfg2HqZbAPY0XwrnRF9gjc2PLYDXPHyn22IxV4ucZuoUvNzewfxvSBAtzesCfh1STPmbTeUc9OXWV2s4ZWICXOrTAwg89clgI2N35WuDLA305UhFMn096YjFQIDAQABo1AwTjAdBgNVHQ4EFgQUwzlz2He1b17y8WqpAIo3BTX0/fYwHwYDVR0jBBgwFoAUwzlz2He1b17y8WqpAIo3BTX0/fYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhiEVM6UVgMYwzTriE2YxEpAAEA41om4DI6Kgbq8ySlsnjedhdo+bkuPFpI884ZsBAa8ytbB66GU3gct0eRM9nZLmRNeHmt8uQzLElQGwEG5UzYByVeob4+b2au4L3DsHHadz8Wwvf//+ZEOjJfkOJ3LpgxY/uA1TgmGT3Uf/mYoUR1BKi/SijtPsFnJHcrQ6Ap7+raZ4DYZ6tQPaPd5/fbE5+nwIE1bVT5g/SheIWPfCtaJgqSh1VbJjdWrP0B9YU5lOE3yLHW6tRnxv72nXH8uLACdxvVGVKVIeKR4UM7txKqNkPBQFXGLODoK475/u8kJLvpaEp7auVjv2T5N+eg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEaDCCA1CgAwIBAgII3Ik7patQSAAwDQYJKoZIhvcNAQELBQAwgcoxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1WaWJvIFZhbGVudGlhMRYwFAYDVQQHDA1WaWJvIFZhbGVudGlhMSQwIgYDVQQKDBtMaWNlbyBTdGF0YWxlIFZpdG8gQ2FwaWFsYmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJDAiBgNVBAMMG3d3dy5pc3RpdHV0b2NhcGlhbGJpLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdnZwbTAxMDAwdEBpc3RydXppb25lLml0MB4XDTE4MTIxMTEzMzYyMFoXDTM4MTIxMDEzMzYyMFowgcoxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1WaWJvIFZhbGVudGlhMRYwFAYDVQQHDA1WaWJvIFZhbGVudGlhMSQwIgYDVQQKDBtMaWNlbyBTdGF0YWxlIFZpdG8gQ2FwaWFsYmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJDAiBgNVBAMMG3d3dy5pc3RpdHV0b2NhcGlhbGJpLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdnZwbTAxMDAwdEBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtQ8VjtzwEQ+F6hZcAxwEjEs1cBHMAel8JnVlTzpGhQsfaJviPXXPRHLnCLL4Rzx5Do3JhPU9rBuv+LqMlvziBanWsYnvk6jZPt/mOp2E9PfcqTKwKSwiDu9Wq1l8mq2ZOKFLzh8TFHpv9lWWwqImb8vOUU7BkvdyXmphzqU3vplGyzKcy3V7V9h2qNuFD2eH+SonTcpjRLB3MBqRjCFVrPpoSGLG8Kfg2HqZbAPY0XwrnRF9gjc2PLYDXPHyn22IxV4ucZuoUvNzewfxvSBAtzesCfh1STPmbTeUc9OXWV2s4ZWICXOrTAwg89clgI2N35WuDLA305UhFMn096YjFQIDAQABo1AwTjAdBgNVHQ4EFgQUwzlz2He1b17y8WqpAIo3BTX0/fYwHwYDVR0jBBgwFoAUwzlz2He1b17y8WqpAIo3BTX0/fYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhiEVM6UVgMYwzTriE2YxEpAAEA41om4DI6Kgbq8ySlsnjedhdo+bkuPFpI884ZsBAa8ytbB66GU3gct0eRM9nZLmRNeHmt8uQzLElQGwEG5UzYByVeob4+b2au4L3DsHHadz8Wwvf//+ZEOjJfkOJ3LpgxY/uA1TgmGT3Uf/mYoUR1BKi/SijtPsFnJHcrQ6Ap7+raZ4DYZ6tQPaPd5/fbE5+nwIE1bVT5g/SheIWPfCtaJgqSh1VbJjdWrP0B9YU5lOE3yLHW6tRnxv72nXH8uLACdxvVGVKVIeKR4UM7txKqNkPBQFXGLODoK475/u8kJLvpaEp7auVjv2T5N+eg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.istitutocapialbi.edu.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.istitutocapialbi.edu.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ic_capialbi</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Liceo Statale Vito Capialbi / Vibo Valentia (Vibo Valentia)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Liceo Statale Vito Capialbi / Vibo Valentia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Liceo Statale Vito Capialbi / Vibo Valentia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.istitutocapialbi.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

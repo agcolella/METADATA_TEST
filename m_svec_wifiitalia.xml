@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="id_47083437-7e9f-47ca-b34f-605dd550a707" entityID="https://api.wifi.italia.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#id_47083437-7e9f-47ca-b34f-605dd550a707">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LwmogY0Na7GF9oQUXyxjAYzFtOvkp+ehtHcucse/yjk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VDZviW93KrDtfaKgEFwsK5BHN+SJOxDC/Y+dDcwnP11/NbjDsUEhKtDriLP5AVQRlsfAcvcvZysi
+pF3O3DktTy3dV3VyOwo55wC+V9CnQuzLDctyvyxq01yr6sEkrJWLuqkA2JZp2Jx1rYttQlbZaudC
+e2v29wbxrbIJL/kVVLnDJIYnmKbq/Yr4koTbRqFehp5LKSs/bKKfsBD3g69nqCn5e6XUfLtmt1j/
+nl+tW/y1Dxz97LuIawOsDTFI6btGtjvmk6htBym8zA/eWV37Hyk7mVQqhkNlWukwH4ghi6We7dE7
+FnZXEjGZbGLXlNK1ABFt+H1nmDnGHLYzP5iJrg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xjmYkRU26ezrneOaKEUnUgBG5n0P5BrUBnVMrGLSLtPQLfJOu43f8xLaMH5eI3naBkWtMGMcIYsD
+gBf9m4oXycq1a88kSG8tk6dmzePouuwzHQv0hIs5804ThR7TEwCCpgZXydNDSKvSNValqETP+olV
+SgR10z0JYsLDIC6VWm5ueTm7a9LNpuQnO46o2hYqEg+G1L4TsiCEf//MtlVch2ktFuCE7d5A6Yaa
+pKUNPvrWqSjWuIE7ynXk2DEy9L97uXawk5t/iLStmIry5h5YStKV9CqtkrPRrhooBemAr7bdyqZn
+g64VH0K8Je3blJyh3YnslM3o6VpsVBfso1WhGw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEOzCCAyOgAwIBAgIJAPoRmrOU72SiMA0GCSqGSIb3DQEBCwUAMIGzMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSVRBTFkxDTALBgNVBAcMBFJPTUUxHzAdBgNVBAoMFklORlJBVEVMIElUQUxJQSBT
+LlAuQS4xFDASBgNVBAsMC1dJRkkgSVRBTElBMRswGQYDVQQDDBJhcGkud2lmaS5pdGFsaWEuaXQx
+MTAvBgkqhkiG9w0BCQEWIndpZmkuaXRhbGlhLWluZm9AaW5mcmF0ZWxpdGFsaWEuaXQwHhcNMjAw
+MjE4MTQ0ODU4WhcNMjEwMjE3MTQ0ODU4WjCBszELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUlUQUxZ
+MQ0wCwYDVQQHDARST01FMR8wHQYDVQQKDBZJTkZSQVRFTCBJVEFMSUEgUy5QLkEuMRQwEgYDVQQL
+DAtXSUZJIElUQUxJQTEbMBkGA1UEAwwSYXBpLndpZmkuaXRhbGlhLml0MTEwLwYJKoZIhvcNAQkB
+FiJ3aWZpLml0YWxpYS1pbmZvQGluZnJhdGVsaXRhbGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAxjmYkRU26ezrneOaKEUnUgBG5n0P5BrUBnVMrGLSLtPQLfJOu43f8xLaMH5e
+I3naBkWtMGMcIYsDgBf9m4oXycq1a88kSG8tk6dmzePouuwzHQv0hIs5804ThR7TEwCCpgZXydND
+SKvSNValqETP+olVSgR10z0JYsLDIC6VWm5ueTm7a9LNpuQnO46o2hYqEg+G1L4TsiCEf//MtlVc
+h2ktFuCE7d5A6YaapKUNPvrWqSjWuIE7ynXk2DEy9L97uXawk5t/iLStmIry5h5YStKV9CqtkrPR
+rhooBemAr7bdyqZng64VH0K8Je3blJyh3YnslM3o6VpsVBfso1WhGwIDAQABo1AwTjAdBgNVHQ4E
+FgQUdXuoTArBw9hkS46wsT/92sPM++swHwYDVR0jBBgwFoAUdXuoTArBw9hkS46wsT/92sPM++sw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAuKpyXyHarf/KzQUFjPk24OAjLiWy+jUv
+ljrYmcLWVPRVVw02AYTDj+NcWNJ0v9pNz5hYyDMHJo/24ljdCZBHGhlRnzUvMdl+D7IB9bJta+Cl
+rfVfHfV9QOoLaZyRYQRn4BXEqi1PINsJAZq7CvlLDD7XI7viQZRoL4sdywCGRvVrvRcZZL89N9rL
+cdH8iS1yIqvsM74XX5q04JSXiQP7RHUIyQjIUMpZGT5+zLzOdBxKBW69zxJWYQ56uMstW6/GFn2H
+f/Vaz81HSrQxM478Hia1FfH3INng6pzdRJXcWii9l5ksONB9GiZlzi7tXsqAgfOnHMsjc5xW9E84
+gVi2Fw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIEOzCCAyOgAwIBAgIJAPoRmrOU72SiMA0GCSqGSIb3DQEBCwUAMIGzMQswCQYD
+VQQGEwJJVDEOMAwGA1UECAwFSVRBTFkxDTALBgNVBAcMBFJPTUUxHzAdBgNVBAoM
+FklORlJBVEVMIElUQUxJQSBTLlAuQS4xFDASBgNVBAsMC1dJRkkgSVRBTElBMRsw
+GQYDVQQDDBJhcGkud2lmaS5pdGFsaWEuaXQxMTAvBgkqhkiG9w0BCQEWIndpZmku
+aXRhbGlhLWluZm9AaW5mcmF0ZWxpdGFsaWEuaXQwHhcNMjAwMjE4MTQ0ODU4WhcN
+MjEwMjE3MTQ0ODU4WjCBszELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUlUQUxZMQ0w
+CwYDVQQHDARST01FMR8wHQYDVQQKDBZJTkZSQVRFTCBJVEFMSUEgUy5QLkEuMRQw
+EgYDVQQLDAtXSUZJIElUQUxJQTEbMBkGA1UEAwwSYXBpLndpZmkuaXRhbGlhLml0
+MTEwLwYJKoZIhvcNAQkBFiJ3aWZpLml0YWxpYS1pbmZvQGluZnJhdGVsaXRhbGlh
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxjmYkRU26ezrneOa
+KEUnUgBG5n0P5BrUBnVMrGLSLtPQLfJOu43f8xLaMH5eI3naBkWtMGMcIYsDgBf9
+m4oXycq1a88kSG8tk6dmzePouuwzHQv0hIs5804ThR7TEwCCpgZXydNDSKvSNVal
+qETP+olVSgR10z0JYsLDIC6VWm5ueTm7a9LNpuQnO46o2hYqEg+G1L4TsiCEf//M
+tlVch2ktFuCE7d5A6YaapKUNPvrWqSjWuIE7ynXk2DEy9L97uXawk5t/iLStmIry
+5h5YStKV9CqtkrPRrhooBemAr7bdyqZng64VH0K8Je3blJyh3YnslM3o6VpsVBfs
+o1WhGwIDAQABo1AwTjAdBgNVHQ4EFgQUdXuoTArBw9hkS46wsT/92sPM++swHwYD
+VR0jBBgwFoAUdXuoTArBw9hkS46wsT/92sPM++swDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAuKpyXyHarf/KzQUFjPk24OAjLiWy+jUvljrYmcLWVPRV
+Vw02AYTDj+NcWNJ0v9pNz5hYyDMHJo/24ljdCZBHGhlRnzUvMdl+D7IB9bJta+Cl
+rfVfHfV9QOoLaZyRYQRn4BXEqi1PINsJAZq7CvlLDD7XI7viQZRoL4sdywCGRvVr
+vRcZZL89N9rLcdH8iS1yIqvsM74XX5q04JSXiQP7RHUIyQjIUMpZGT5+zLzOdBxK
+BW69zxJWYQ56uMstW6/GFn2Hf/Vaz81HSrQxM478Hia1FfH3INng6pzdRJXcWii9
+l5ksONB9GiZlzi7tXsqAgfOnHMsjc5xW9E84gVi2Fw==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api.wifi.italia.it/ItaliaWiFiServer/rest/v0/spid/authn" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">set1</md:ServiceName><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="mobilePhone"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Ministero dello Sviluppo Economico</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Ministero dello Sviluppo Economico</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">http://www.sviluppoeconomico.gov.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

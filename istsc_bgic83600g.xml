@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.iccarvico.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx151ac821-dc8c-381f-7be7-a161849de47e"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx151ac821-dc8c-381f-7be7-a161849de47e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZddJvcxiJtXo5TbIhQycHUR9c5ZesZAzv29Ii0kYrgw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>dFrwRmeLcFFgI/4aaihJPESymmEhfID70Nm7gWVzXPjjDObcEyhlGq6OcFciUaMqzA1xiWxBhmgJ5dxPro3tX29HC9/legEZ4jhJv1kHrgZVP1w78J4iOuJgSY1uVTyviOqBMsRpzuMDNI0XCBtPHxmcVxJUGGWZkeoK4bP7AZ5BcfGiEUXxeLUbhQnESNpeMjEDcJKXIWUAw91gToPonIHGWcNQMlFXvhkRuU0bPTCWLrhTtZQTh12gPKGbb+yrtoYCOLkOZlhxN+MNrcwdIJ/DfMJlTROCQ6CfkHrxquTdFUeIBxUu0XaIgqd3VBYkl4f6gvDqEqbjdH6vn36Jag==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEQTCCAymgAwIBAgIBADANBgkqhkiG9w0BAQUFADCBujELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB0NhcnZpY28xJjAkBgNVBAoMHUlzdGl0dXRvIENvbXByZW5zaXZvIEUuIEZlcm1pMRcwFQYDVQQLDA5Jc3RydXppb25lIFAgQTEdMBsGA1UEAwwUd3d3LmljY2Fydmljby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGJnaWM4MzYwMHFAaXN0cnV6aW9uZS5pdDAeFw0xNzAzMjIyMTMzMDFaFw0yNzAzMjIyMTMzMDFaMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHQ2FydmljbzEmMCQGA1UECgwdSXN0aXR1dG8gQ29tcHJlbnNpdm8gRS4gRmVybWkxFzAVBgNVBAsMDklzdHJ1emlvbmUgUCBBMR0wGwYDVQQDDBR3d3cuaWNjYXJ2aWNvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYYmdpYzgzNjAwcUBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3d7Xn50ffe9iIPlOgV4NDdygjZ2QlqRGD2e4gPvb/eb0wxneDH60SFPVMXcHghqpxNasppvaNbyDog0T8kDGgXVo513xKQgVl3gBl6DDD5ZxaEo7geaD8DkfQfwlxbQcyOUbq6RLU3wxyIh3bb9G9JBA2Tka8KLBncUMEzxTp7zzfRgJeVq1acY43PZ3dOrdNP6cfxkvDdjE/FIvxzk2nRunzcdr1K9POsQ50wURR+xLZs3xokqU9foL682IhC+q9k1V3vB/MWs72K9KgL1sMzbul1xzwUhYjrtdFNYLheHB/n+WZDLgDtFdZ0J9pBP7B/4B1go8fmrSYEaT21qgTQIDAQABo1AwTjAdBgNVHQ4EFgQUhXdQtSGWU0tsozAPjguTqaC0pEMwHwYDVR0jBBgwFoAUhXdQtSGWU0tsozAPjguTqaC0pEMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAavlVzDTGF2FOwQdfXYacZXVhATGT7FSeu3XrtdNZG88nSbymtoK9FF8d9seTOhZR+atIO9GFRSLq+xkZqMZm7LnvQ2v9TqanFHLZlpTY0mWI6MCdYPLQr41ZScsALanlwj0ize+RHimHhPI3kRCr61lVWVT+H94Gu/2BZD+3hgH2ohxZklFYCPfabqAQDft1LLLNPKElJLOpMreS5GYXbSoklVbXelYlLIIs760WAujMm5dxwR0HbABvWu238J0CzZ/nF17I4EgKQFgrlDxEtaReDpqdoRNS63jd7DC1+LBBuqyC7X+ktqRS7hJQ2/10KxPlCL9QB87/S6++YuotWg==</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEQTCCAymgAwIBAgIBADANBgkqhkiG9w0BAQUFADCBujELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB0NhcnZpY28xJjAkBgNVBAoMHUlzdGl0dXRvIENvbXByZW5zaXZvIEUuIEZlcm1pMRcwFQYDVQQLDA5Jc3RydXppb25lIFAgQTEdMBsGA1UEAwwUd3d3LmljY2Fydmljby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGJnaWM4MzYwMHFAaXN0cnV6aW9uZS5pdDAeFw0xNzAzMjIyMTMzMDFaFw0yNzAzMjIyMTMzMDFaMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHQ2FydmljbzEmMCQGA1UECgwdSXN0aXR1dG8gQ29tcHJlbnNpdm8gRS4gRmVybWkxFzAVBgNVBAsMDklzdHJ1emlvbmUgUCBBMR0wGwYDVQQDDBR3d3cuaWNjYXJ2aWNvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYYmdpYzgzNjAwcUBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3d7Xn50ffe9iIPlOgV4NDdygjZ2QlqRGD2e4gPvb/eb0wxneDH60SFPVMXcHghqpxNasppvaNbyDog0T8kDGgXVo513xKQgVl3gBl6DDD5ZxaEo7geaD8DkfQfwlxbQcyOUbq6RLU3wxyIh3bb9G9JBA2Tka8KLBncUMEzxTp7zzfRgJeVq1acY43PZ3dOrdNP6cfxkvDdjE/FIvxzk2nRunzcdr1K9POsQ50wURR+xLZs3xokqU9foL682IhC+q9k1V3vB/MWs72K9KgL1sMzbul1xzwUhYjrtdFNYLheHB/n+WZDLgDtFdZ0J9pBP7B/4B1go8fmrSYEaT21qgTQIDAQABo1AwTjAdBgNVHQ4EFgQUhXdQtSGWU0tsozAPjguTqaC0pEMwHwYDVR0jBBgwFoAUhXdQtSGWU0tsozAPjguTqaC0pEMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAavlVzDTGF2FOwQdfXYacZXVhATGT7FSeu3XrtdNZG88nSbymtoK9FF8d9seTOhZR+atIO9GFRSLq+xkZqMZm7LnvQ2v9TqanFHLZlpTY0mWI6MCdYPLQr41ZScsALanlwj0ize+RHimHhPI3kRCr61lVWVT+H94Gu/2BZD+3hgH2ohxZklFYCPfabqAQDft1LLLNPKElJLOpMreS5GYXbSoklVbXelYlLIIs760WAujMm5dxwR0HbABvWu238J0CzZ/nF17I4EgKQFgrlDxEtaReDpqdoRNS63jd7DC1+LBBuqyC7X+ktqRS7hJQ2/10KxPlCL9QB87/S6++YuotWg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccarvico.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccarvico.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccarvico.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo E. FERMI -  Carvico</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo E. FERMI -  Carvico</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.iccarvico.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

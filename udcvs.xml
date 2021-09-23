@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___as-spid.unionevallesavio.it" entityID="https://as-spid.unionevallesavio.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#https___as-spid.unionevallesavio.it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7dPEQNOBP/4LGhggYLeW/dKUKvl1JMO8Ryx1wpjf9WA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ptvy2/GqFPWxpeRNZhbw7Ikg1eFz7UISf5jmKRmfCZK1beFtgU5bMPRjVe8zqsq14nk+QIeO4AwtZpoXGUJ190Q7V/ZEZxA1OYq2UyJcdo5Eko7/xGLLwZfGKlvgZkbnTOs4RTP0fL19nxxZ8ckqu2OBhVC9QjOj4mzrPlwf7/p9qATnjYlWJcNWch3vCvPNyefznKO3JJI/L57fup2ICtMFbQI/kx+O1+5ryEScu74JAQ4mh9NwVA7Z/ywowBi2liSqe97vlAZdZ3o+wLnGQmsbAk/BIvQWyV+jkRx/tBdT7i7ZpcMaNpHCauPzpVtDOJ/L1K+ua1XPVfVcGjTv1A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDcjCCAlqgAwIBAgIEXJCkzTANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCRkMxDzANBgNVBAcMBkNlc2VuYTEbMBkGA1UECgwSVW5pb25lIFZhbGxlIFNhdmlvMQswCQYD
+VQQLDAJJVDEkMCIGA1UEAwwbYXMtc3BpZC51bmlvbmV2YWxsZXNhdmlvLml0MB4XDTE5MDMxOTA4
+MTQwNVoXDTM5MDMxOTA4MTQwNVowezELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAkZDMQ8wDQYDVQQH
+DAZDZXNlbmExGzAZBgNVBAoMElVuaW9uZSBWYWxsZSBTYXZpbzELMAkGA1UECwwCSVQxJDAiBgNV
+BAMMG2FzLXNwaWQudW5pb25ldmFsbGVzYXZpby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKyYCVEAdI9lpNJNdqhn7X7YzeSHKffYfiOFJWMUEjy7/cKpqd6MpemDJDPztRCr+th/
+iX/MSXaP5uhlnns4f97HrUJUP9uCFKPlJL4RFDWInhd1l2I3CDwUGEXmJLDW71qxKp1otgDWRQQv
+bDm6fhcXVazFsgK0xYhmOAqz5LfQqxchd+kpdsE2rblACY+UaQTVJ+6TSEGEvm+BF2HrNDXTZjGw
+8TpAuk9iXBxZjscs0RJ4Rrzut7W4OiyP0ELOqKsq6gXqVlnO7Oe4Lebsfcs0ihIVY3ZdAemqSfOz
+VoYO8N/ZHfS3gpQBR/7LFUVvzlnJcfRoYhH5lBV8d7H8fLMCAwEAATANBgkqhkiG9w0BAQsFAAOC
+AQEANE8ktra5vUPrz7JTpmZco47L7PJH6ryza4wDOJr2gTcI7Yj66HwuJn1qszaRlkMoKWZP17kA
+9ydK7pa8o21HcxiVfGoJPTpS1nUYooRyiWqPM4pY5V/2HmaamI0JEMNZEp/a3YY19f8NLIrbcxpf
+2tIvtEScwDa2mAApFK5LZUyBby9FJjhZhBa+9i4Tl49gZfsuV1Sb1UCdNgFFvWbe1td9QVP87jvv
+9SsnUUcdBsrECKIuRtOGwoSJbc/e7jXQsPh0e2u5zSVbAw4S1RyTsIJ+F/F67ebfEnWRDk7XO325
+i/N0D1TPdadWfCBElrXbHzDsLptji5ZEqYb40D4BQw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDcjCCAlqgAwIBAgIEXJCkzTANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCRkMxDzANBgNVBAcMBkNlc2VuYTEbMBkGA1UECgwSVW5pb25lIFZhbGxlIFNhdmlvMQswCQYD
+VQQLDAJJVDEkMCIGA1UEAwwbYXMtc3BpZC51bmlvbmV2YWxsZXNhdmlvLml0MB4XDTE5MDMxOTA4
+MTQwNVoXDTM5MDMxOTA4MTQwNVowezELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAkZDMQ8wDQYDVQQH
+DAZDZXNlbmExGzAZBgNVBAoMElVuaW9uZSBWYWxsZSBTYXZpbzELMAkGA1UECwwCSVQxJDAiBgNV
+BAMMG2FzLXNwaWQudW5pb25ldmFsbGVzYXZpby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKyYCVEAdI9lpNJNdqhn7X7YzeSHKffYfiOFJWMUEjy7/cKpqd6MpemDJDPztRCr+th/
+iX/MSXaP5uhlnns4f97HrUJUP9uCFKPlJL4RFDWInhd1l2I3CDwUGEXmJLDW71qxKp1otgDWRQQv
+bDm6fhcXVazFsgK0xYhmOAqz5LfQqxchd+kpdsE2rblACY+UaQTVJ+6TSEGEvm+BF2HrNDXTZjGw
+8TpAuk9iXBxZjscs0RJ4Rrzut7W4OiyP0ELOqKsq6gXqVlnO7Oe4Lebsfcs0ihIVY3ZdAemqSfOz
+VoYO8N/ZHfS3gpQBR/7LFUVvzlnJcfRoYhH5lBV8d7H8fLMCAwEAATANBgkqhkiG9w0BAQsFAAOC
+AQEANE8ktra5vUPrz7JTpmZco47L7PJH6ryza4wDOJr2gTcI7Yj66HwuJn1qszaRlkMoKWZP17kA
+9ydK7pa8o21HcxiVfGoJPTpS1nUYooRyiWqPM4pY5V/2HmaamI0JEMNZEp/a3YY19f8NLIrbcxpf
+2tIvtEScwDa2mAApFK5LZUyBby9FJjhZhBa+9i4Tl49gZfsuV1Sb1UCdNgFFvWbe1td9QVP87jvv
+9SsnUUcdBsrECKIuRtOGwoSJbc/e7jXQsPh0e2u5zSVbAw4S1RyTsIJ+F/F67ebfEnWRDk7XO325
+i/N0D1TPdadWfCBElrXbHzDsLptji5ZEqYb40D4BQw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDcjCCAlqgAwIBAgIEXJCkzTANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCRkMxDzANBgNVBAcMBkNlc2VuYTEbMBkGA1UECgwSVW5pb25lIFZhbGxlIFNhdmlvMQswCQYD
+VQQLDAJJVDEkMCIGA1UEAwwbYXMtc3BpZC51bmlvbmV2YWxsZXNhdmlvLml0MB4XDTE5MDMxOTA4
+MTQwNVoXDTM5MDMxOTA4MTQwNVowezELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAkZDMQ8wDQYDVQQH
+DAZDZXNlbmExGzAZBgNVBAoMElVuaW9uZSBWYWxsZSBTYXZpbzELMAkGA1UECwwCSVQxJDAiBgNV
+BAMMG2FzLXNwaWQudW5pb25ldmFsbGVzYXZpby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKyYCVEAdI9lpNJNdqhn7X7YzeSHKffYfiOFJWMUEjy7/cKpqd6MpemDJDPztRCr+th/
+iX/MSXaP5uhlnns4f97HrUJUP9uCFKPlJL4RFDWInhd1l2I3CDwUGEXmJLDW71qxKp1otgDWRQQv
+bDm6fhcXVazFsgK0xYhmOAqz5LfQqxchd+kpdsE2rblACY+UaQTVJ+6TSEGEvm+BF2HrNDXTZjGw
+8TpAuk9iXBxZjscs0RJ4Rrzut7W4OiyP0ELOqKsq6gXqVlnO7Oe4Lebsfcs0ihIVY3ZdAemqSfOz
+VoYO8N/ZHfS3gpQBR/7LFUVvzlnJcfRoYhH5lBV8d7H8fLMCAwEAATANBgkqhkiG9w0BAQsFAAOC
+AQEANE8ktra5vUPrz7JTpmZco47L7PJH6ryza4wDOJr2gTcI7Yj66HwuJn1qszaRlkMoKWZP17kA
+9ydK7pa8o21HcxiVfGoJPTpS1nUYooRyiWqPM4pY5V/2HmaamI0JEMNZEp/a3YY19f8NLIrbcxpf
+2tIvtEScwDa2mAApFK5LZUyBby9FJjhZhBa+9i4Tl49gZfsuV1Sb1UCdNgFFvWbe1td9QVP87jvv
+9SsnUUcdBsrECKIuRtOGwoSJbc/e7jXQsPh0e2u5zSVbAw4S1RyTsIJ+F/F67ebfEnWRDk7XO325
+i/N0D1TPdadWfCBElrXbHzDsLptji5ZEqYb40D4BQw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://as-spid.unionevallesavio.it/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://as-spid.unionevallesavio.it/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://as-spid.unionevallesavio.it/saml/SSO" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Base</md:ServiceName><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Avanzato</md:ServiceName><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="2"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Full</md:ServiceName><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Unione Valle Savio</md:OrganizationName><md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Unione Valle Savio</md:OrganizationDisplayName><md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.unionevallesavio.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

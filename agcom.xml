@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_b5b4d4f770af5db2c7f4aba2759728508b277b4f" entityID="https://spid.agcom.it/spidsp">
+
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b5b4d4f770af5db2c7f4aba2759728508b277b4f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>QYkHqES7viU0kKM3zhiPce/0tKBfxCXUTAvDmnLb8ps=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>dPlCGIiRN+4E3rlYx8z24mhaaHyEnImSRg/1+2O2ndcNRE8sR/4NMOrDstSL0H61
+bl+0YGCEUS26jNepjigCdUn4t8UUJQ7xiWVe6D7BRjMgUIuqWt/qHfiyQlW+Wdcs
+6UmlO/2VevPW8bNWuSIcpXSHxbKQ5sMfVTTc2W4No63ppCvmEYnkLVncB4zZhw52
+iv37XP1gIR1mw64aw+XUcjOgzQyIfpeMr7vNONfRZkipw7AB4Oc1052ICgwevMlD
+e8/As4fHgDpJiOzmjD49qf/iGinJIubk7OvjG7ELrgCglJc/JSAcelrzUUngds8V
+WuLB/MjrTV5tgBAAFFdoww==</ds:SignatureValue>
+<ds:KeyInfo><ds:KeyName>agcom.it</ds:KeyName><ds:X509Data><ds:X509SubjectName>CN=agcom.it,OU=agcom.it,O=agcom.it,L=ROMA,ST=Roma,C=IT</ds:X509SubjectName><ds:X509Certificate>MIIDaTCCAlGgAwIBAgIEKCsS1DANBgkqhkiG9w0BAQsFADBkMQswCQYDVQQGEwJJ
+VDENMAsGA1UECBMEUm9tYTENMAsGA1UEBxMEUk9NQTERMA8GA1UEChMIYWdjb20u
+aXQxETAPBgNVBAsTCGFnY29tLml0MREwDwYDVQQDEwhhZ2NvbS5pdDAgFw0xNjA3
+MDExMjI0MDRaGA8yMDY1MDMyNjEyMjQwNFowZDELMAkGA1UEBhMCSVQxDTALBgNV
+BAgTBFJvbWExDTALBgNVBAcTBFJPTUExETAPBgNVBAoTCGFnY29tLml0MREwDwYD
+VQQLEwhhZ2NvbS5pdDERMA8GA1UEAxMIYWdjb20uaXQwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCZlwmJqb/zKOcP7+dtsKBryEjdl8mXDzsWeD2VX3yo
+WB1UAPZu2WpN4MLhrG/m5ZKp4tJlMzR569W7H9UmAITcx6GQ4NIab3GxM78BIxpd
+5PfqfaszAc+hW+iTd5XFF4K3Aqb3wcLCSkL468XnZxVUuui7n+sdAujgHv8KV3E+
+4TrFqPWuOy8dnSPBFZGy21wMOQ3nuYERjskgfnC5x6cX4l6Z/mF5sVagV7KHUrX3
++GYaJkbCW+wDnHipGPEoj6ceJyec9naU4gy4mivMNC5gVhqs+oNuDu0pT+HligUS
+8dZfE/mvfehxF1T/t0l0DBNtPHDF947QccrFP2eu/d4lAgMBAAGjITAfMB0GA1Ud
+DgQWBBQuIZ7ox9yLpdIXGn297qmd4de/WDANBgkqhkiG9w0BAQsFAAOCAQEAWep0
+EuQmFY6jAodUYGcstYL0fusNFYHbB+JOLprPpsIUR/0WRc2AUpEBVBGS2+lH9ePC
+xZW7ouC3uprLY9qwOZSXre/JAQlPh+/+ep7Goih2W22XeYLRDGCaMclsppvLLnoo
+QB/MzJH/lTPkETmDYnLjs9+OhHQ351lgXeKaPwRn1jN0kK3ebt18XgiUJTb9sbbT
+srRihRVC/HLzuj0Dc9u0HmHfIXRDJJ/3gB357KNPrSFTSxmUUVPJ+LWwG8+U1IeL
+NGDb8mX06HZre3lOPLNjzWdPRP2sqL6BuAsMCCoayNZsYYBZQ33yjuJAXIwU5PvW
+TW5snjCSPetk3GInIw==
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+  </md:Extensions>
+  <md:SPSSODescriptor AuthnRequestsSigned="1" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+
+    <md:Extensions>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://spid.agcom.it/Shibboleth.sso/Login"/>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://spid.agcom.it/Shibboleth.sso/LoginEidas"/>
+    </md:Extensions>
+
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>agcom.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=agcom.it,OU=agcom.it,O=agcom.it,L=ROMA,ST=Roma,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDaTCCAlGgAwIBAgIEKCsS1DANBgkqhkiG9w0BAQsFADBkMQswCQYDVQQGEwJJ
+VDENMAsGA1UECBMEUm9tYTENMAsGA1UEBxMEUk9NQTERMA8GA1UEChMIYWdjb20u
+aXQxETAPBgNVBAsTCGFnY29tLml0MREwDwYDVQQDEwhhZ2NvbS5pdDAgFw0xNjA3
+MDExMjI0MDRaGA8yMDY1MDMyNjEyMjQwNFowZDELMAkGA1UEBhMCSVQxDTALBgNV
+BAgTBFJvbWExDTALBgNVBAcTBFJPTUExETAPBgNVBAoTCGFnY29tLml0MREwDwYD
+VQQLEwhhZ2NvbS5pdDERMA8GA1UEAxMIYWdjb20uaXQwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCZlwmJqb/zKOcP7+dtsKBryEjdl8mXDzsWeD2VX3yo
+WB1UAPZu2WpN4MLhrG/m5ZKp4tJlMzR569W7H9UmAITcx6GQ4NIab3GxM78BIxpd
+5PfqfaszAc+hW+iTd5XFF4K3Aqb3wcLCSkL468XnZxVUuui7n+sdAujgHv8KV3E+
+4TrFqPWuOy8dnSPBFZGy21wMOQ3nuYERjskgfnC5x6cX4l6Z/mF5sVagV7KHUrX3
++GYaJkbCW+wDnHipGPEoj6ceJyec9naU4gy4mivMNC5gVhqs+oNuDu0pT+HligUS
+8dZfE/mvfehxF1T/t0l0DBNtPHDF947QccrFP2eu/d4lAgMBAAGjITAfMB0GA1Ud
+DgQWBBQuIZ7ox9yLpdIXGn297qmd4de/WDANBgkqhkiG9w0BAQsFAAOCAQEAWep0
+EuQmFY6jAodUYGcstYL0fusNFYHbB+JOLprPpsIUR/0WRc2AUpEBVBGS2+lH9ePC
+xZW7ouC3uprLY9qwOZSXre/JAQlPh+/+ep7Goih2W22XeYLRDGCaMclsppvLLnoo
+QB/MzJH/lTPkETmDYnLjs9+OhHQ351lgXeKaPwRn1jN0kK3ebt18XgiUJTb9sbbT
+srRihRVC/HLzuj0Dc9u0HmHfIXRDJJ/3gB357KNPrSFTSxmUUVPJ+LWwG8+U1IeL
+NGDb8mX06HZre3lOPLNjzWdPRP2sqL6BuAsMCCoayNZsYYBZQ33yjuJAXIwU5PvW
+TW5snjCSPetk3GInIw==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+    </md:KeyDescriptor>
+
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spid.agcom.it/Shibboleth.sso/Artifact/SOAP" index="0"/>
+
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.agcom.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.agcom.it/Shibboleth.sso/SLO/POST"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.agcom.it/Shibboleth.sso/NIM/Redirect"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.agcom.it/Shibboleth.sso/NIM/POST"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.agcom.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.agcom.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comunicazione delle spese pubblicitarie delle Amministrazioni pubbliche e degli Enti pubblici</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Comunicazione delle spese pubblicitarie delle Amministrazioni pubbliche e degli Enti pubblici</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice spid" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+</md:AttributeConsumingService>    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+</md:AttributeConsumingService>  </md:SPSSODescriptor>
+<md:Organization>
+	  <md:OrganizationName xml:lang="it">Autorità per le Garanzie nelle Comunicazioni</md:OrganizationName>
+	  <md:OrganizationDisplayName xml:lang="it">Agcom</md:OrganizationDisplayName>
+	  <md:OrganizationURL xml:lang="it">https://www.agcom.it/</md:OrganizationURL>
+</md:Organization></md:EntityDescriptor>

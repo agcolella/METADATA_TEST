@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx3465b434-1e0b-c361-b4e5-f80bb040e2b3" entityID="https://www.comune.sanguinetto.vr.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx3465b434-1e0b-c361-b4e5-f80bb040e2b3">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>cvBzSrNvldXCQSLd0oYKZwkoRCpC8wJDCdOAdGh0xfE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+p5a00sp6wzELbW/xl0yGkdIhj+qYZQeB1HTV5sc6RyQ9RvQmYXRHo8esjM44hyk1ZtlZ1uHDvPj8
+/3UsPHAPLkHavc00D5c8t4+G1ExwdHWZ2Mu+2pm5aco9/YvYWcUvcpY81/19K9+TivOG3VHRgE/7
+mztNL5uc+WR75j3KB4y+0+xUFO64RGF07QdXhi0YsFMWt42GNvMIXXaD4y9+xoEf3dDB+YT9J1WB
+LCxz5zls31XfDkzBXeVxrotqbi6/+Cs2wACG9lGE+SLatm800anBBxpbEfCdU3gjA3vPk7IdaBaC
+8lFIlg/bDliHjjgI1E9u/lk4qpHbuwLHxFBDVA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qEYIPXplRM2lSaDvksNJuV/j/XdA6+zzFHYFyXWpEjqA4MFcJ9hxJlqQFyGCOcziBMU0tIsy5LKC
+99FkvgWJIJGSOyJGQxX9ammtTa0HraAqYm7vhXv3/vS6TfAubexqUgAa3Ol0I46Tf6T6OAiHKW3M
+yqmihDYKJn8A8jAuTI0OUuARhSngcVHDCd71thnSBrA8baPZwsk/wPZBq2KMSnilGSMUSQzOXBFy
+WEDCWlVXZZtgwSdpRSO/LQJOrItaYES1bULsp6rWaB0nDDcgquUvZmMIa6veaqod70VvzA3B557T
+4q1zSK+1dVtt7ARUHkyapcbXaYuNeCm8MDA8sw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIERTCCAy2gAwIBAgIJAIWf7oY33Md3MA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBT
+YW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdDAeFw0xODEwMDExMjQ1
+NDlaFw0yODA5MzAxMjQ1NDlaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UE
+BxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMW
+d3d3LnNhbmd1aW5ldHRvLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhG
+CD16ZUTNpUmg75LDSblf4/13QOvs8xR2Bcl1qRI6gODBXCfYcSZakBchgjnM4gTFNLSLMuSygvfR
+ZL4FiSCRkjsiRkMV/WpprU2tB62gKmJu74V79/70uk3wLm3salIAGtzpdCOOk3+k+jgIhyltzMqp
+ooQ2CiZ/APIwLkyNDlLgEYUp4HFRwwne9bYZ0gawPG2j2cLJP8D2QatijEp4pRkjFEkMzlwRclhA
+wlpVV2WbYMEnaUUjvy0CTqyLWmBEtW1C7Keq1mgdJww3IKrlL2ZjCGur3mqqHe9Fb8wNweee0+Kt
+c0ivtXVbbewEVB5MmqXG12mLjXgpvDAwPLMCAwEAAaOB2TCB1jAdBgNVHQ4EFgQUiEEBR61MQ7kM
+GD2nDpMw+Y3c4u4wgaYGA1UdIwSBnjCBm4AUiEEBR61MQ7kMGD2nDpMw+Y3c4u6heKR2MHQxCzAJ
+BgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoT
+FUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdIIJ
+AIWf7oY33Md3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKUu+sl7TgO73bGVFwZx
+h5wYJmtAvm8Lbilg8++CnrhmdSmhHy2OkX/YmH37Qf3Ynos/biIuw1N+XDGPqTUxaxTSoJGz3OIr
+fjwM+t7LCM79YrBtdHGG42DEK8IwuBrjEBxWnjJXANEnj4/cvSBxXpVUhqAMMoK4jQAefMrrXnMH
+p0+b1uG/Hz+WUiDhvuX491+TQbSB3hsJkNe+MzLUJSgV1e63FM8ldRSWpVjQ+0ynCRVTsc5iMoLR
+GocfpqLwCOW9IBQ2GcXE0RLVgEPyuL445NdAhY+56dP4e4REWoe0D9jVJtSgV45M323fkIdgpQkp
+KTEMOvb6jBSYv1pPHPM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERTCCAy2gAwIBAgIJAIWf7oY33Md3MA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdDAeFw0xODEwMDExMjQ1NDlaFw0yODA5MzAxMjQ1NDlaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhGCD16ZUTNpUmg75LDSblf4/13QOvs8xR2Bcl1qRI6gODBXCfYcSZakBchgjnM4gTFNLSLMuSygvfRZL4FiSCRkjsiRkMV/WpprU2tB62gKmJu74V79/70uk3wLm3salIAGtzpdCOOk3+k+jgIhyltzMqpooQ2CiZ/APIwLkyNDlLgEYUp4HFRwwne9bYZ0gawPG2j2cLJP8D2QatijEp4pRkjFEkMzlwRclhAwlpVV2WbYMEnaUUjvy0CTqyLWmBEtW1C7Keq1mgdJww3IKrlL2ZjCGur3mqqHe9Fb8wNweee0+Ktc0ivtXVbbewEVB5MmqXG12mLjXgpvDAwPLMCAwEAAaOB2TCB1jAdBgNVHQ4EFgQUiEEBR61MQ7kMGD2nDpMw+Y3c4u4wgaYGA1UdIwSBnjCBm4AUiEEBR61MQ7kMGD2nDpMw+Y3c4u6heKR2MHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdIIJAIWf7oY33Md3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKUu+sl7TgO73bGVFwZxh5wYJmtAvm8Lbilg8++CnrhmdSmhHy2OkX/YmH37Qf3Ynos/biIuw1N+XDGPqTUxaxTSoJGz3OIrfjwM+t7LCM79YrBtdHGG42DEK8IwuBrjEBxWnjJXANEnj4/cvSBxXpVUhqAMMoK4jQAefMrrXnMHp0+b1uG/Hz+WUiDhvuX491+TQbSB3hsJkNe+MzLUJSgV1e63FM8ldRSWpVjQ+0ynCRVTsc5iMoLRGocfpqLwCOW9IBQ2GcXE0RLVgEPyuL445NdAhY+56dP4e4REWoe0D9jVJtSgV45M323fkIdgpQkpKTEMOvb6jBSYv1pPHPM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERTCCAy2gAwIBAgIJAIWf7oY33Md3MA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdDAeFw0xODEwMDExMjQ1NDlaFw0yODA5MzAxMjQ1NDlaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhGCD16ZUTNpUmg75LDSblf4/13QOvs8xR2Bcl1qRI6gODBXCfYcSZakBchgjnM4gTFNLSLMuSygvfRZL4FiSCRkjsiRkMV/WpprU2tB62gKmJu74V79/70uk3wLm3salIAGtzpdCOOk3+k+jgIhyltzMqpooQ2CiZ/APIwLkyNDlLgEYUp4HFRwwne9bYZ0gawPG2j2cLJP8D2QatijEp4pRkjFEkMzlwRclhAwlpVV2WbYMEnaUUjvy0CTqyLWmBEtW1C7Keq1mgdJww3IKrlL2ZjCGur3mqqHe9Fb8wNweee0+Ktc0ivtXVbbewEVB5MmqXG12mLjXgpvDAwPLMCAwEAAaOB2TCB1jAdBgNVHQ4EFgQUiEEBR61MQ7kMGD2nDpMw+Y3c4u4wgaYGA1UdIwSBnjCBm4AUiEEBR61MQ7kMGD2nDpMw+Y3c4u6heKR2MHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLU2FuZ3VpbmV0dG8xHjAcBgNVBAoTFUNvbXVuZSBkaSBTYW5ndWluZXR0bzEfMB0GA1UEAxMWd3d3LnNhbmd1aW5ldHRvLmdvdi5pdIIJAIWf7oY33Md3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKUu+sl7TgO73bGVFwZxh5wYJmtAvm8Lbilg8++CnrhmdSmhHy2OkX/YmH37Qf3Ynos/biIuw1N+XDGPqTUxaxTSoJGz3OIrfjwM+t7LCM79YrBtdHGG42DEK8IwuBrjEBxWnjJXANEnj4/cvSBxXpVUhqAMMoK4jQAefMrrXnMHp0+b1uG/Hz+WUiDhvuX491+TQbSB3hsJkNe+MzLUJSgV1e63FM8ldRSWpVjQ+0ynCRVTsc5iMoLRGocfpqLwCOW9IBQ2GcXE0RLVgEPyuL445NdAhY+56dP4e4REWoe0D9jVJtSgV45M323fkIdgpQkpKTEMOvb6jBSYv1pPHPM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sanguinetto.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sanguinetto.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sanguinetto</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sanguinetto</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sanguinetto.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

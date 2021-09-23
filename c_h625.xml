@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rubano" entityID="https://www.rubano.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rubano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>gD3HCV0mci4+morvL1BzcSUK4eG2kZ9pmdRxRwb7uWY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+lRrqfeSwl+Q42Vg1PfO0aTmT6kxvaMcNg0yiO5385c9lY3pmARw8tZbbMwclTosRrCBgarjfvLLW
+6artl5lj5uBfHhYpOq4TE2E1V1BAD6hYCJIH8Mdjv07RLM8lfN/BGpJejYXoo7UzuZAEo87FmGTC
+VhDBDy/CVjWOelNUug81UppKPZ6hhwclTPAJK9Jm19j/UL32pIlH4XTagog8NSpuFm/u34dw6tnV
+TsBiDBdOEeQsVTBM5QCLuZIE38OFh3FZkcOw5WXNrlKvTqk/lTtc5rnVsYLcrP1gq+YGOD7LfjgB
+V+lbpSM/pp54D5qrF41bjwy2cs2ip+S7hS+alg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v3frP99xIy7v/+TmaysckQ0rjl7+GBxjM5l+kNUkNRTySqZ6Mytmf4ADaDI8Xu01iOcEPitunMLc
+60hPAd2ED87OapTLqRtPkni4fo9U+JZofXFN/ain9zcLURuj49ZjW5WmhX+dtNW7+v28HTDJF9bh
+wbLeowRW2wtPdbNaWCRbq+78pBkyh8UZK6Nqe83MjWUPmxL9Xcs+0pQsIUC/kHaSXaohAelZ+XR0
+dPb+xPfA231+Y9sE9cMrNF7TA0p9Issir31SLj4FS8v9rl2HYYlAr5ndq2EIRPKeZ+7YGFAWM+Bv
+wMazSwO5NFxnlkefWr/Zh0G14jjjni/CWNB9Ww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDOzCCAiOgAwIBAgIJAPKavCnqHoE/MA0GCSqGSIb3DQEBCwUAMDQxFjAUBgNVBAMMDXd3dy5y
+dWJhbm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA2MzAyMVoXDTI4
+MDgxOTA2MzAyMVowNDEWMBQGA1UEAwwNd3d3LnJ1YmFuby5pdDENMAsGA1UECwwEU1BJRDELMAkG
+A1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/d+s/33EjLu//5OZrKxyR
+DSuOXv4YHGMzmX6Q1SQ1FPJKpnozK2Z/gANoMjxe7TWI5wQ+K26cwtzrSE8B3YQPzs5qlMupG0+S
+eLh+j1T4lmh9cU39qKf3NwtRG6Pj1mNblaaFf5201bv6/bwdMMkX1uHBst6jBFbbC091s1pYJFur
+7vykGTKHxRkro2p7zcyNZQ+bEv1dyz7SlCwhQL+QdpJdqiEB6Vn5dHR09v7E98DbfX5j2wT1wys0
+XtMDSn0iyyKvfVIuPgVLy/2uXYdhiUCvmd2rYQhE8p5n7tgYUBYz4G/AxrNLA7k0XGeWR59av9mH
+QbXiOOOeL8JY0H1bAgMBAAGjUDBOMB0GA1UdDgQWBBT6i+C1QJSm4m+RU53jgL3wTxTDqTAfBgNV
+HSMEGDAWgBT6i+C1QJSm4m+RU53jgL3wTxTDqTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQCuUraS5zbwMJ2nVpI6yFt10IdZMu2aAeTafUCkc/4QUD0IkHQnzuZmUW3E2DlmAlDDw+3p
+xblH3C9gBa9F3fqvbRi79I+mmDPeVFUSaXvJA80En7aybDg0hMmhYSpT6pv4zn+4gNk17e0RXXdj
+Un9aj5lAZ9AlFUrOOS3fSVMv54tufX1i1Cr2WCS56el8+4UEqwi26DMo5KxR9AJu7ikidnop/4dH
+U4eBxHulCaPQeAFuTwq2D43VJcasWNNyLl8Z/9l/E2y7225QlGr1lDb2XcrEbIlCg8RO1naXyLkb
+btu+IgGhstcn0xLqNSI3/PwKfmRscCt/oGEhpFIxqiQ8
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDOzCCAiOgAwIBAgIJAPKavCnqHoE/MA0GCSqGSIb3DQEBCwUAMDQxFjAUBgNVBAMMDXd3dy5ydWJhbm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA2MzAyMVoXDTI4MDgxOTA2MzAyMVowNDEWMBQGA1UEAwwNd3d3LnJ1YmFuby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/d+s/33EjLu//5OZrKxyRDSuOXv4YHGMzmX6Q1SQ1FPJKpnozK2Z/gANoMjxe7TWI5wQ+K26cwtzrSE8B3YQPzs5qlMupG0+SeLh+j1T4lmh9cU39qKf3NwtRG6Pj1mNblaaFf5201bv6/bwdMMkX1uHBst6jBFbbC091s1pYJFur7vykGTKHxRkro2p7zcyNZQ+bEv1dyz7SlCwhQL+QdpJdqiEB6Vn5dHR09v7E98DbfX5j2wT1wys0XtMDSn0iyyKvfVIuPgVLy/2uXYdhiUCvmd2rYQhE8p5n7tgYUBYz4G/AxrNLA7k0XGeWR59av9mHQbXiOOOeL8JY0H1bAgMBAAGjUDBOMB0GA1UdDgQWBBT6i+C1QJSm4m+RU53jgL3wTxTDqTAfBgNVHSMEGDAWgBT6i+C1QJSm4m+RU53jgL3wTxTDqTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuUraS5zbwMJ2nVpI6yFt10IdZMu2aAeTafUCkc/4QUD0IkHQnzuZmUW3E2DlmAlDDw+3pxblH3C9gBa9F3fqvbRi79I+mmDPeVFUSaXvJA80En7aybDg0hMmhYSpT6pv4zn+4gNk17e0RXXdjUn9aj5lAZ9AlFUrOOS3fSVMv54tufX1i1Cr2WCS56el8+4UEqwi26DMo5KxR9AJu7ikidnop/4dHU4eBxHulCaPQeAFuTwq2D43VJcasWNNyLl8Z/9l/E2y7225QlGr1lDb2XcrEbIlCg8RO1naXyLkbbtu+IgGhstcn0xLqNSI3/PwKfmRscCt/oGEhpFIxqiQ8
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDOzCCAiOgAwIBAgIJAPKavCnqHoE/MA0GCSqGSIb3DQEBCwUAMDQxFjAUBgNVBAMMDXd3dy5ydWJhbm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA2MzAyMVoXDTI4MDgxOTA2MzAyMVowNDEWMBQGA1UEAwwNd3d3LnJ1YmFuby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/d+s/33EjLu//5OZrKxyRDSuOXv4YHGMzmX6Q1SQ1FPJKpnozK2Z/gANoMjxe7TWI5wQ+K26cwtzrSE8B3YQPzs5qlMupG0+SeLh+j1T4lmh9cU39qKf3NwtRG6Pj1mNblaaFf5201bv6/bwdMMkX1uHBst6jBFbbC091s1pYJFur7vykGTKHxRkro2p7zcyNZQ+bEv1dyz7SlCwhQL+QdpJdqiEB6Vn5dHR09v7E98DbfX5j2wT1wys0XtMDSn0iyyKvfVIuPgVLy/2uXYdhiUCvmd2rYQhE8p5n7tgYUBYz4G/AxrNLA7k0XGeWR59av9mHQbXiOOOeL8JY0H1bAgMBAAGjUDBOMB0GA1UdDgQWBBT6i+C1QJSm4m+RU53jgL3wTxTDqTAfBgNVHSMEGDAWgBT6i+C1QJSm4m+RU53jgL3wTxTDqTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuUraS5zbwMJ2nVpI6yFt10IdZMu2aAeTafUCkc/4QUD0IkHQnzuZmUW3E2DlmAlDDw+3pxblH3C9gBa9F3fqvbRi79I+mmDPeVFUSaXvJA80En7aybDg0hMmhYSpT6pv4zn+4gNk17e0RXXdjUn9aj5lAZ9AlFUrOOS3fSVMv54tufX1i1Cr2WCS56el8+4UEqwi26DMo5KxR9AJu7ikidnop/4dHU4eBxHulCaPQeAFuTwq2D43VJcasWNNyLl8Z/9l/E2y7225QlGr1lDb2XcrEbIlCg8RO1naXyLkbbtu+IgGhstcn0xLqNSI3/PwKfmRscCt/oGEhpFIxqiQ8
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rubano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rubano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rubano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rubano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rubano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rubano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rubano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rubano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rubano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rubano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rubano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rubano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.rubano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.rubano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.rubano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.rubano.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="https://www.comune.bra.cn.it/SP" ID="id2ebdc35591804410ab66fbd558bf2490" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#id2ebdc35591804410ab66fbd558bf2490"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>56rOarCJ4Fy5f0eeATTQ8Pwll73SRfZhkvuXdTrS4n8=</DigestValue></Reference></SignedInfo><SignatureValue>EQEMIh5+Layd7nXtDMF2BviGb3nIEAE6Edgne6Fp0Ww4d1QvZajOCQB5kPQJNcKRkRub2Tx1eM0ymH54xgBfXbzNfdSS7IalNLPm6YmDfLd49GzlOwqV2alQqSPVXFUoUsDHFvQ4ZT0fe3nYygJtjNdAnDOwEFwwWZ5iHv/fPjHUDMC2bIZS8s+hc3aaJ27xMWwl2ReuDQhvkv18jKU/Q78hYFVGmz/o0jTzxTymLvx2zaM/ghYjfpHyfiCgLK0XktNKCA66HzaJQteMfRlX58wdwm2p07FH8/NYrO2IaSm7m3peMg0S2J9/uJhfkqP4d0XPdPPuSXDYRgnU5NG+vA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEKzCCAxOgAwIBAgIJAPa07b2/FaIqMA0GCSqGSIb3DQEBCwUAMF8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEMMAoGA1UEBwwDQlJBMRYwFAYDVQQKDA1Db211bmUgZGkgQnJhMR0wGwYDVQQDDBR3d3cuY29tdW5lLmJyYS5jbi5pdDAeFw0xNzEwMDkxMDI4MDVaFw0yNzEwMDcxMDI4MDVaMF8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEMMAoGA1UEBwwDQlJBMRYwFAYDVQQKDA1Db211bmUgZGkgQnJhMR0wGwYDVQQDDBR3d3cuY29tdW5lLmJyYS5jbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALzdhNRDzKhfT/C6yUgPa6RvkdYOp9+TQVIfrPGj40TbixtgTjeaGW279y8CyhoSUOS4uDeQnbS+15Ht58tnbpithcogicl1Pfn3r33k6lddY1lFhv/yliVfkIpXbYzU/63ev2ps9wUf4mIv+mjT5Do2eDevzEwcDnnLSYvTaKsuyVowVyo0HbW//hwmgHc9eVJbCYdAEC4aa975+SGXk996Y6XesTnr+67iG5byzsJwCORoBXZz5vlMEtWun9eeEFDZtqs3Ro18itukZPFCWlgMUbsj9NNWZMia6m2Q96yA6EwyVjckSwyR/DgLPc2eWq4/Kk1jUWdZ1OlV6YKLfa0CAwEAAaOB6TCB5jAdBgNVHQ4EFgQUGeyJ1EWes+8quWlTNvegiOxcjlEwgZEGA1UdIwSBiTCBhoAUGeyJ1EWes+8quWlTNvegiOxcjlGhY6RhMF8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEMMAoGA1UEBwwDQlJBMRYwFAYDVQQKDA1Db211bmUgZGkgQnJhMR0wGwYDVQQDDBR3d3cuY29tdW5lLmJyYS5jbi5pdIIJAPa07b2/FaIqMA8GA1UdEwEB/wQFMAMBAf8wEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBCwUAA4IBAQCeVhIcM6wNLGxXKyDPj7aCcO4YWmTtlN6DRe9pAMKwPfqE66nhJsuMDgzcQGUwScvuHGf1X+pbjG/xulyDpj+X5NDKeRCGKJJqTauNGZWeZPiyOsD4rlL8q969ey45SdKTEffZVPPjXEX3iwg0O3M0Wpn5zMezCs1BYXovkmAzhMWNLCQ5LXdVnbRabt5G1JwNyT8/L8pxasMdz7jC3riQbsTyNbuNc7XFNxi7m0pJNsrgAuTOWkYEvR19sM3QN37FvPkN684IRGTcTOSEdx/k+aeX/w70mF6+VcHI5EORwqdXiZNuBNBmy63AZh3ZlnDRM6pNPXgToBNW8aqrMdsZ</X509Certificate></X509Data></KeyInfo></Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <AttributeConsumingService index="0">
+      <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+      <RequestedAttribute Name="fiscalNumber" />
+      <RequestedAttribute Name="name" />
+      <RequestedAttribute Name="familyName" />
+      <RequestedAttribute Name="spidCode" />
+      <RequestedAttribute Name="email" />
+      <RequestedAttribute Name="digitalAddress" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="it">Comune di Bra</OrganizationName>
+    <OrganizationDisplayName xml:lang="it">Comune di Bra</OrganizationDisplayName>
+    <OrganizationURL xml:lang="it">http://www.comune.bra.cn.it</OrganizationURL>
+  </Organization>
+</EntityDescriptor>

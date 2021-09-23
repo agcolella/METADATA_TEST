@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="d7cb427b481940b79ec0e0c602dee829" entityID="https://adc.provincia.tn.it/icar-lp/metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#d7cb427b481940b79ec0e0c602dee829">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>PDhJOUl4z5Jhp6KWhdd3JV0qje8awcMLMYnNPw23/MQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ArN1SEL9ri65+DjUflmvJqyDxn8KaTyQEamIDDZWAqVZMf9KD157xzAoMbCABHi7XQjEbn40nE/i
+/qLN9zLW9LG7HKy50gmilFqzvN1ApNpwqhSuXT28idMiLBf7KBuUU0TEpu69xRC2CtQwj9yTnndE
+cXB3tPoltLNSBVspXzNYLXCi6a8XWpjtVAygLx96OeHRPYqY6AcsZFLsKyubN/MnmPk4nOQnCLUG
+jzqO2uflQ60vv+Eow4Gq/YBjsTULG6xZZBxqq/uSdenCsi5uEAzHRCiJs5M7aGlhu0ZLikYum8pI
+RGN+8i5xEn7WCLRZHcOF2heeVeh3knrV28vFGg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0WnJ6zze1KbWBLXkOcnxnY91EB36YnfIFIhr7EL2+KCcMSf4Doj85+d8amb3AVei5iBI++xPQWz9
+vsfXwVq60eBh+8y+kvapKTLcRMoDTIYOjAdI409sOCfmaGaM7J//GJHxx0HDwyj0Uc0k/ue95gJW
+gLYR62r0BHwr/yORa+iHFn8FI7U55rZ7r2JTsEaKWxwJgEMrSvkSsUZ5kqZR3nNBufWdPq3hoxIL
+XvVtezxLiN9S3u9Mv2FqSQCOlTCPJw4zkKMSQep9cYOxJNNEgSmjTtuclHGG/RFi/0Ou1AlLZvDW
+lYQ6eMJZ+Cx05pkh9WAadiFURlW+841WgCtVGQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEKDCCAxCgAwIBAgIJAIVmQO7P0lSPMA0GCSqGSIb3DQEBCwUAMIGVMSQwIgYDVQQLDBtJbmZv
+cm1hdGljYSBUcmVudGluYSBTLnAuQS4xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJUTjEPMA0GA1UE
+BwwGVHJlbnRvMSQwIgYDVQQKDBtJbmZvcm1hdGljYSBUcmVudGluYSBTLnAuQS4xHDAaBgNVBAMM
+E2FkYy5wcm92aW5jaWEudG4uaXQwHhcNMTkwNzI2MTAzMDI4WhcNMjIwNzI1MTAzMDI4WjCBlTEk
+MCIGA1UECwwbSW5mb3JtYXRpY2EgVHJlbnRpbmEgUy5wLkEuMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCVE4xDzANBgNVBAcMBlRyZW50bzEkMCIGA1UECgwbSW5mb3JtYXRpY2EgVHJlbnRpbmEgUy5w
+LkEuMRwwGgYDVQQDDBNhZGMucHJvdmluY2lhLnRuLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA0WnJ6zze1KbWBLXkOcnxnY91EB36YnfIFIhr7EL2+KCcMSf4Doj85+d8amb3AVei
+5iBI++xPQWz9vsfXwVq60eBh+8y+kvapKTLcRMoDTIYOjAdI409sOCfmaGaM7J//GJHxx0HDwyj0
+Uc0k/ue95gJWgLYR62r0BHwr/yORa+iHFn8FI7U55rZ7r2JTsEaKWxwJgEMrSvkSsUZ5kqZR3nNB
+ufWdPq3hoxILXvVtezxLiN9S3u9Mv2FqSQCOlTCPJw4zkKMSQep9cYOxJNNEgSmjTtuclHGG/RFi
+/0Ou1AlLZvDWlYQ6eMJZ+Cx05pkh9WAadiFURlW+841WgCtVGQIDAQABo3kwdzAdBgNVHSUEFjAU
+BggrBgEFBQcDAQYIKwYBBQUHAwIwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAwHQYDVR0OBBYEFA6k
+Iq8YQ+w+GeWQcWkKs1v9Ud3WMB8GA1UdIwQYMBaAFA6kIq8YQ+w+GeWQcWkKs1v9Ud3WMA0GCSqG
+SIb3DQEBCwUAA4IBAQCX/EgefXc1htdTp4qtcnP4TGlH7flHB6OqJXS3e7CZQal3ssRN8vuu+GC6
+sZ9FWX3bNYieK6ckcqCl4WgEsrwXW1nwuuiE6LDiVtJli6gO00vb1O8gMA4B06q0E9pe8ERQ/8cT
+c8HuoujcBUnEOduKAs32mTR+eyuuyxaU/EgsLttuolXqvO69wTbGiERt3x7Wan2vgDK8iaWXL48H
+0QKnOl4M1yzyinqPEvIbyP+AEPorlKtyf5+3bZfriB+6uPkmVwe+0+6hXshm40eNh0FJa1tWpWdG
+JmfL+Ed1zNM7qfk7EhjMcR5z7BDLlQ/cYpkWPiSpnQYivU4hiBtHc/IC
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIJAIVmQO7P0lSPMA0GCSqGSIb3DQEBCwUAMIGVMSQwIgYDVQQLDBtJbmZv
+cm1hdGljYSBUcmVudGluYSBTLnAuQS4xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJUTjEPMA0GA1UE
+BwwGVHJlbnRvMSQwIgYDVQQKDBtJbmZvcm1hdGljYSBUcmVudGluYSBTLnAuQS4xHDAaBgNVBAMM
+E2FkYy5wcm92aW5jaWEudG4uaXQwHhcNMTkwNzI2MTAzMDI4WhcNMjIwNzI1MTAzMDI4WjCBlTEk
+MCIGA1UECwwbSW5mb3JtYXRpY2EgVHJlbnRpbmEgUy5wLkEuMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCVE4xDzANBgNVBAcMBlRyZW50bzEkMCIGA1UECgwbSW5mb3JtYXRpY2EgVHJlbnRpbmEgUy5w
+LkEuMRwwGgYDVQQDDBNhZGMucHJvdmluY2lhLnRuLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA0WnJ6zze1KbWBLXkOcnxnY91EB36YnfIFIhr7EL2+KCcMSf4Doj85+d8amb3AVei
+5iBI++xPQWz9vsfXwVq60eBh+8y+kvapKTLcRMoDTIYOjAdI409sOCfmaGaM7J//GJHxx0HDwyj0
+Uc0k/ue95gJWgLYR62r0BHwr/yORa+iHFn8FI7U55rZ7r2JTsEaKWxwJgEMrSvkSsUZ5kqZR3nNB
+ufWdPq3hoxILXvVtezxLiN9S3u9Mv2FqSQCOlTCPJw4zkKMSQep9cYOxJNNEgSmjTtuclHGG/RFi
+/0Ou1AlLZvDWlYQ6eMJZ+Cx05pkh9WAadiFURlW+841WgCtVGQIDAQABo3kwdzAdBgNVHSUEFjAU
+BggrBgEFBQcDAQYIKwYBBQUHAwIwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAwHQYDVR0OBBYEFA6k
+Iq8YQ+w+GeWQcWkKs1v9Ud3WMB8GA1UdIwQYMBaAFA6kIq8YQ+w+GeWQcWkKs1v9Ud3WMA0GCSqG
+SIb3DQEBCwUAA4IBAQCX/EgefXc1htdTp4qtcnP4TGlH7flHB6OqJXS3e7CZQal3ssRN8vuu+GC6
+sZ9FWX3bNYieK6ckcqCl4WgEsrwXW1nwuuiE6LDiVtJli6gO00vb1O8gMA4B06q0E9pe8ERQ/8cT
+c8HuoujcBUnEOduKAs32mTR+eyuuyxaU/EgsLttuolXqvO69wTbGiERt3x7Wan2vgDK8iaWXL48H
+0QKnOl4M1yzyinqPEvIbyP+AEPorlKtyf5+3bZfriB+6uPkmVwe+0+6hXshm40eNh0FJa1tWpWdG
+JmfL+Ed1zNM7qfk7EhjMcR5z7BDLlQ/cYpkWPiSpnQYivU4hiBtHc/IC</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adc.provincia.tn.it/icar-lp/Logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adc.provincia.tn.it/icar-lp/AssertionConsumerServiceProxy" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-test.infotn.it/icar-lp/AssertionConsumerServiceProxy" index="1"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">Service Provider JEE Dimostrativo</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">Portale dei Servizi</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">Cartella Clinica del Cittadino - SPID</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">Iscrizione scolastiche online</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="4">
+         <md:ServiceName xml:lang="it">Servizi online del Comune di Trento</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="5">
+         <md:ServiceName xml:lang="it">Portale Pagamenti online</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="6">
+         <md:ServiceName xml:lang="it">Portale formazione per te</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="7">
+         <md:ServiceName xml:lang="it">Portale trentino lavoro</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="8">
+         <md:ServiceName xml:lang="it">Sportello telematico Comune di Trento</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="9">
+         <md:ServiceName xml:lang="it">Certificazione Family Audit</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="10">
+         <md:ServiceName xml:lang="it">Impianti termici civili</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="11">
+         <md:ServiceName xml:lang="it">Harnekinfo - Sportello Tributi</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="12">
+         <md:ServiceName xml:lang="it">Servizi online Comune di Dro</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="13">
+         <md:ServiceName xml:lang="it">SIVA – Sistema Informativo Voucher Apprendistato</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="14">
+         <md:ServiceName xml:lang="it">WGT - Servizio web gis trasversale</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="15">
+         <md:ServiceName xml:lang="it">Stanza del Cittadino - comuni trentini</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="16">
+         <md:ServiceName xml:lang="it">Family card</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="17">
+         <md:ServiceName xml:lang="it">Sportello ITEA online</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="18">
+         <md:ServiceName xml:lang="it">IoVoto - Sistema Educativo Provinciale</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="19">
+         <md:ServiceName xml:lang="it">Portale dei Pagamenti per i cittadini verso le Pubbliche Amministrazioni</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="20">
+         <md:ServiceName xml:lang="it">Servizio simpatico</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="21">
+         <md:ServiceName xml:lang="it">Diritto allo studio Universitario</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="22">
+         <md:ServiceName xml:lang="it">Gestione Servizio civile della provincia</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="23">
+         <md:ServiceName xml:lang="it">Estate family</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="24">
+         <md:ServiceName xml:lang="it">Sportello telematico Comune di Trento</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="25">
+         <md:ServiceName xml:lang="it">ACOP (Autorizz. Concessioni Ordinanze Pubblicità) online per la gestione front-back office interventi suolo pubblico</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="26">
+         <md:ServiceName xml:lang="it">Comunica gli alloggi turistici che offri in affitto</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="27">
+         <md:ServiceName xml:lang="it">Domanda per  fiinanziamenti nel PSR</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="28">
+         <md:ServiceName xml:lang="it">Registro elettronico</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="29">
+         <md:ServiceName xml:lang="it">Sistema integrato Agricoltura Provinciale</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="30">
+         <md:ServiceName xml:lang="it">cot</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="31">
+         <md:ServiceName xml:lang="it">Consegno in trentino</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="32">
+         <md:ServiceName xml:lang="it">Area personale comune di Trento</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="33">
+         <md:ServiceName xml:lang="it">Catalogo delle aziende a supporto della ripartenza delle attività economiche in Trentino</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="34">
+         <md:ServiceName xml:lang="it">Politiche della casa</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="35">
+         <md:ServiceName xml:lang="it">UFF. OSSERVAT. PROV. LE CONTR. PUB.- SERV. REGOLAZIONE E INNOVAZ. NEI CONTR PUB</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="36">
+         <md:ServiceName xml:lang="it">Integrazione SBT</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="37">
+         <md:ServiceName xml:lang="it">Richiesta contributo - LO SPORT PER TUTTI</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="38">
+         <md:ServiceName xml:lang="it">Contributi in favore delle imprese di autotrasporto che salvaguardano l'occupazione</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Provincia autonoma di Trento</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Servizi online del TRENTINO</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">servizionline.trentino.it</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

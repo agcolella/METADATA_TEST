@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://icnavarro.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxa2162b00-2adf-2cb4-d146-dae146965207"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa2162b00-2adf-2cb4-d146-dae146965207"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1KbwMPOqN9jkxv47L5iYHM5BOYdjvWpCsxpAndLfX5o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>AExAPGyndTHrXBj9SP3Rr9r8i12Cj6kSHHbgdtwYV5mcGy+aiyy8lYnWslIJiiMpJv93aUyx+7MgqecdiD/SJjcnvlmrhPaNAVtlqIsnAEo5xhEWZ0sSS7TgwU6u6wkuws3ImpF8BrN+qiaXPqGryzSd7Wj/fotlzkpI/sH3WFu/+uD+DkV9f54qvv0NOOJrf2w8r7I94PuWv3R+dk9gOsC/tWP753tA7FAsegEthow43zFZ7nYPqPXkr7nXFtwoZ3wB9LST5LOTkd0ZCpMWVl3otHu6V5zNiKRTLrzc1UOlm5ljgj8niZJSKJxIgj4rpZcvjX+sL5NM1ofw3OfvMA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEMDCCAxigAwIBAgII1k5zdo47EAAwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNVBAYTAklUMRIwEAYDVQQIDAlBZ3JpZ2VudG8xDzANBgNVBAcMBlJpYmVyYTEeMBwGA1UECgwVSS5DLiBWaW5jZW56byBOYXZhcnJvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMRkwFwYDVQQDDBBpY25hdmFycm8uZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhhZ2ljODQzMDB0QGlzdHJ1emlvbmUuaXQwHhcNMTkwMjEzMTExMTU5WhcNMzkwMjEyMTExMTU5WjCBrjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUFncmlnZW50bzEPMA0GA1UEBwwGUmliZXJhMR4wHAYDVQQKDBVJLkMuIFZpbmNlbnpvIE5hdmFycm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExGTAXBgNVBAMMEGljbmF2YXJyby5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGFnaWM4NDMwMHRAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANepz9CIhIRuCK07mUie5C0nVIF1m6sjbZos/2XJ4OrtFFEA2slbXzr8SeLUCmbWHT/F5fi+j1aMhmpclWM9ofSTVEapOMYkAiJ1IM+oB1gcUYSUFYrRQPaRWAONgz7eGUp3SHmcTOes7kPLl905WsLQNCGJnQpNOnjIGu8CFg3iF6XchD/PXyfzNEaDO4i8DOMKmqHoxmQY1caWKkEhzRcvk5UdAG8SvscwayJMhRD9o8Cy77FGkYiBGPeZx5wth0ZYwIMLJmW3FCJCzKmbRCzzZyE7SH20KUGCkwULIl2zob8T2DszSVCk7GRL29wnLz++LiiCLK3dXA82fh+2ZV8CAwEAAaNQME4wHQYDVR0OBBYEFBQ9DBG80bLB0Dsi1j1k5LoW2mnvMB8GA1UdIwQYMBaAFBQ9DBG80bLB0Dsi1j1k5LoW2mnvMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMn4yH4BvXumnWc8Koq8XJGPTsj0Vs6hFmsJpCkdeAd+Uz5iwE1NX69lac4lpqR93wrLTUNlVJqNl0+t/Zi9IrUIp7admpYxSmJjsasADX6N7Z66ctSW7NBn7XoFzC8FRJ0/wuM/DZ58108qbgEdujJqCxYpatNhOUNnP//8kDP6yzGjVHpIeRpYhvb5GmOmBrEj5vcadCxyPWXHluPzlHsbC4waziOL1Sl+7nIR+aLJLnejXOqAIIbE7xwpTYj9PwklKl7G/PNj5ccpuT30Epe7UTvekhkmHUi/n6c6nlztrKEf91crHTmyhNfp8OD3ZMUy34pmnt2v1OKGArIzJ7s=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMDCCAxigAwIBAgII1k5zdo47EAAwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNVBAYTAklUMRIwEAYDVQQIDAlBZ3JpZ2VudG8xDzANBgNVBAcMBlJpYmVyYTEeMBwGA1UECgwVSS5DLiBWaW5jZW56byBOYXZhcnJvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMRkwFwYDVQQDDBBpY25hdmFycm8uZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhhZ2ljODQzMDB0QGlzdHJ1emlvbmUuaXQwHhcNMTkwMjEzMTExMTU5WhcNMzkwMjEyMTExMTU5WjCBrjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUFncmlnZW50bzEPMA0GA1UEBwwGUmliZXJhMR4wHAYDVQQKDBVJLkMuIFZpbmNlbnpvIE5hdmFycm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExGTAXBgNVBAMMEGljbmF2YXJyby5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGFnaWM4NDMwMHRAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANepz9CIhIRuCK07mUie5C0nVIF1m6sjbZos/2XJ4OrtFFEA2slbXzr8SeLUCmbWHT/F5fi+j1aMhmpclWM9ofSTVEapOMYkAiJ1IM+oB1gcUYSUFYrRQPaRWAONgz7eGUp3SHmcTOes7kPLl905WsLQNCGJnQpNOnjIGu8CFg3iF6XchD/PXyfzNEaDO4i8DOMKmqHoxmQY1caWKkEhzRcvk5UdAG8SvscwayJMhRD9o8Cy77FGkYiBGPeZx5wth0ZYwIMLJmW3FCJCzKmbRCzzZyE7SH20KUGCkwULIl2zob8T2DszSVCk7GRL29wnLz++LiiCLK3dXA82fh+2ZV8CAwEAAaNQME4wHQYDVR0OBBYEFBQ9DBG80bLB0Dsi1j1k5LoW2mnvMB8GA1UdIwQYMBaAFBQ9DBG80bLB0Dsi1j1k5LoW2mnvMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMn4yH4BvXumnWc8Koq8XJGPTsj0Vs6hFmsJpCkdeAd+Uz5iwE1NX69lac4lpqR93wrLTUNlVJqNl0+t/Zi9IrUIp7admpYxSmJjsasADX6N7Z66ctSW7NBn7XoFzC8FRJ0/wuM/DZ58108qbgEdujJqCxYpatNhOUNnP//8kDP6yzGjVHpIeRpYhvb5GmOmBrEj5vcadCxyPWXHluPzlHsbC4waziOL1Sl+7nIR+aLJLnejXOqAIIbE7xwpTYj9PwklKl7G/PNj5ccpuT30Epe7UTvekhkmHUi/n6c6nlztrKEf91crHTmyhNfp8OD3ZMUy34pmnt2v1OKGArIzJ7s=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMDCCAxigAwIBAgII1k5zdo47EAAwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNVBAYTAklUMRIwEAYDVQQIDAlBZ3JpZ2VudG8xDzANBgNVBAcMBlJpYmVyYTEeMBwGA1UECgwVSS5DLiBWaW5jZW56byBOYXZhcnJvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMRkwFwYDVQQDDBBpY25hdmFycm8uZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhhZ2ljODQzMDB0QGlzdHJ1emlvbmUuaXQwHhcNMTkwMjEzMTExMTU5WhcNMzkwMjEyMTExMTU5WjCBrjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUFncmlnZW50bzEPMA0GA1UEBwwGUmliZXJhMR4wHAYDVQQKDBVJLkMuIFZpbmNlbnpvIE5hdmFycm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExGTAXBgNVBAMMEGljbmF2YXJyby5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGFnaWM4NDMwMHRAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANepz9CIhIRuCK07mUie5C0nVIF1m6sjbZos/2XJ4OrtFFEA2slbXzr8SeLUCmbWHT/F5fi+j1aMhmpclWM9ofSTVEapOMYkAiJ1IM+oB1gcUYSUFYrRQPaRWAONgz7eGUp3SHmcTOes7kPLl905WsLQNCGJnQpNOnjIGu8CFg3iF6XchD/PXyfzNEaDO4i8DOMKmqHoxmQY1caWKkEhzRcvk5UdAG8SvscwayJMhRD9o8Cy77FGkYiBGPeZx5wth0ZYwIMLJmW3FCJCzKmbRCzzZyE7SH20KUGCkwULIl2zob8T2DszSVCk7GRL29wnLz++LiiCLK3dXA82fh+2ZV8CAwEAAaNQME4wHQYDVR0OBBYEFBQ9DBG80bLB0Dsi1j1k5LoW2mnvMB8GA1UdIwQYMBaAFBQ9DBG80bLB0Dsi1j1k5LoW2mnvMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMn4yH4BvXumnWc8Koq8XJGPTsj0Vs6hFmsJpCkdeAd+Uz5iwE1NX69lac4lpqR93wrLTUNlVJqNl0+t/Zi9IrUIp7admpYxSmJjsasADX6N7Z66ctSW7NBn7XoFzC8FRJ0/wuM/DZ58108qbgEdujJqCxYpatNhOUNnP//8kDP6yzGjVHpIeRpYhvb5GmOmBrEj5vcadCxyPWXHluPzlHsbC4waziOL1Sl+7nIR+aLJLnejXOqAIIbE7xwpTYj9PwklKl7G/PNj5ccpuT30Epe7UTvekhkmHUi/n6c6nlztrKEf91crHTmyhNfp8OD3ZMUy34pmnt2v1OKGArIzJ7s=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://icnavarro.edu.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://icnavarro.edu.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ic_navarro</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">I.C. Vincenzo Navarro / Ribera (Agrigento)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">I.C. Vincenzo Navarro / Ribera</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">I.C. Vincenzo Navarro / Ribera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://icnavarro.edu.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Direttore</md:GivenName>
+    <md:SurName>SGA</md:SurName>
+    <md:EmailAddress>agic84300t@istruzione.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

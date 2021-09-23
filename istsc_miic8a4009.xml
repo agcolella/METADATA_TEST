@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icdanielamauro.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxbb8d70c2-476e-e499-f659-06816fedc6fd"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxbb8d70c2-476e-e499-f659-06816fedc6fd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>L6dJOBcnRt90FHrjSdYijjJafKq1JVIjAKlJjJ2tg6M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>u0xcJE7FcadizoEw7ddhEkRjYZ7owZFGnA4Xy9kKWRUrVKFCBX/6NaUPI/8zCWbyqAjn1c1QFXqfUkww3VsbCPM/Yg+Z7uyRSU+g1UYwjjiAezK9oz+0zk0PKszdVfMzatAHQEDrBzUyQxGN2QDoffBkMa91WIAzeoV60GN50wNV+dk5F0jAJODeCT0yBm/N77niMVTVwdqpslwa9EzXQ4wFNefuNd7/d1DJQvkCi5cBA70OcbCMGDJw+PZq65GGxBf3MXnlMsABUCwPE3JOsYQEDAvdlgdRG/5qyAn1cQSplw4F2y4APkgAhbdFL3qQVimG90omkrL7IROO+FkNwA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIETDCCAzSgAwIBAgIIiFYsyF4OAAAwDQYJKoZIhvcNAQELBQAwgbwxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xHDAaBgNVBAcME1Blc3Nhbm8gY29uIEJvcm5hZ28xGTAXBgNVBAoMEElDIERhbmllbGEgTWF1cm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY2RhbmllbGFtYXVyby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paWM4YTQwMDlAaXN0cnV6aW9uZS5pdDAeFw0xNzEwMTMyMjE5NTBaFw0zNzEwMTIyMjE5NTBaMIG8MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRwwGgYDVQQHDBNQZXNzYW5vIGNvbiBCb3JuYWdvMRkwFwYDVQQKDBBJQyBEYW5pZWxhIE1hdXJvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSIwIAYDVQQDDBl3d3cuaWNkYW5pZWxhbWF1cm8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhhtaWljOGE0MDA5QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+vHKc2zG0ACp1FruFdOxO5lYUUx7zHYfQPkflWP3ShOa0o7QvrjW8OSb10cKzJl7Ekb2jmstC6+QZFHFnfPO1yKGMMHsU5VRy/A227l71BbEQJn8tx1x+SIzly/Jtl0B5lrIuarJ3QuOGNOFpCoezimRTLvDc1raKi8jhawQTYUvyzIS1iYACR0tMW2F4AKzpV8GsF0YxsDRNQlkqOGNIw1iNAjVrSIRxyXYPTwX+O95KYxyEJPxgPuYvlU8D0aoDi+neLlNXy1xnSVJMGoNQqWo2hJMHSEwCs5e8/NgrG9ZVQVGpVMzqA87cLlby5RtcO7jBgdckrkLtqglOEgNFAgMBAAGjUDBOMB0GA1UdDgQWBBTJGUrmRNVfx49pm0gEALYUDN/m+zAfBgNVHSMEGDAWgBTJGUrmRNVfx49pm0gEALYUDN/m+zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBAFnIypUjbxCQbuoy2iGIm9FAPqP06QT/Cwj6l826K+TLklxHBelYI/Ly7cfANPve3l7wmeGfaE4JuPpsYNhQA7HuhDEmO0yNdxQ/sHdYru0WTk2siKHeWmnLCu1uWC00dwxWGUpATrDBU6Kn7HbbN78usCFpJHlLsRHhJFRJS+JAudvl5zuHdx/X5FKDTV/r4v9daTnQ9aZNktccHPVbS92j5SjJzjMlDWA6TMpmktWtLER2R5q1DUbCC3Md2Pfkzg/mq40nN9YUuMJSIWEfmvXq6d7O+nQ4i9MNrdoNBVERSrQmY1mIh8NdAA/uZombxdKL3Tqo4u7Hnyv8BYNZB</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETDCCAzSgAwIBAgIIiFYsyF4OAAAwDQYJKoZIhvcNAQELBQAwgbwxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xHDAaBgNVBAcME1Blc3Nhbm8gY29uIEJvcm5hZ28xGTAXBgNVBAoMEElDIERhbmllbGEgTWF1cm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY2RhbmllbGFtYXVyby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paWM4YTQwMDlAaXN0cnV6aW9uZS5pdDAeFw0xNzEwMTMyMjE5NTBaFw0zNzEwMTIyMjE5NTBaMIG8MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRwwGgYDVQQHDBNQZXNzYW5vIGNvbiBCb3JuYWdvMRkwFwYDVQQKDBBJQyBEYW5pZWxhIE1hdXJvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSIwIAYDVQQDDBl3d3cuaWNkYW5pZWxhbWF1cm8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhhtaWljOGE0MDA5QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+vHKc2zG0ACp1FruFdOxO5lYUUx7zHYfQPkflWP3ShOa0o7QvrjW8OSb10cKzJl7Ekb2jmstC6+QZFHFnfPO1yKGMMHsU5VRy/A227l71BbEQJn8tx1x+SIzly/Jtl0B5lrIuarJ3QuOGNOFpCoezimRTLvDc1raKi8jhawQTYUvyzIS1iYACR0tMW2F4AKzpV8GsF0YxsDRNQlkqOGNIw1iNAjVrSIRxyXYPTwX+O95KYxyEJPxgPuYvlU8D0aoDi+neLlNXy1xnSVJMGoNQqWo2hJMHSEwCs5e8/NgrG9ZVQVGpVMzqA87cLlby5RtcO7jBgdckrkLtqglOEgNFAgMBAAGjUDBOMB0GA1UdDgQWBBTJGUrmRNVfx49pm0gEALYUDN/m+zAfBgNVHSMEGDAWgBTJGUrmRNVfx49pm0gEALYUDN/m+zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBAFnIypUjbxCQbuoy2iGIm9FAPqP06QT/Cwj6l826K+TLklxHBelYI/Ly7cfANPve3l7wmeGfaE4JuPpsYNhQA7HuhDEmO0yNdxQ/sHdYru0WTk2siKHeWmnLCu1uWC00dwxWGUpATrDBU6Kn7HbbN78usCFpJHlLsRHhJFRJS+JAudvl5zuHdx/X5FKDTV/r4v9daTnQ9aZNktccHPVbS92j5SjJzjMlDWA6TMpmktWtLER2R5q1DUbCC3Md2Pfkzg/mq40nN9YUuMJSIWEfmvXq6d7O+nQ4i9MNrdoNBVERSrQmY1mIh8NdAA/uZombxdKL3Tqo4u7Hnyv8BYNZB</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icdanielamauro.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icdanielamauro.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icdanielamauro.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">I.C. 'Daniela Mauro'</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">I.C. 'Daniela Mauro'</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icdanielamauro.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

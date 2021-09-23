@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___spid.renogalliera.it" entityID="https://spid.renogalliera.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#https___spid.renogalliera.it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eBIQKcw0VciPRLbf9GGGowXDFMWP7KD5k9GS+ZVF77s=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>sWfrpaefUvRqLB4J2oxTYxpVr8Sip37mrquyIMS76SFU1Qbl9MQ6Or+cdseTR+DhugI8I/kLZLBU8XGYsfBCdMZIGcj6dsvS4gX7vlvPEkGFMxSZmYMjzarhvY4lhcidyYS7oUu7IKyhvjYyw28v1/xJDOnNY0cUstlMYVcl5kxPR+SwAYJyQwePXdbjG00FF0GMXMwpNTuMJr6YrROU65r+OEoZZ2sI/cYcfdRZW24tgfDtYz1OUeseZVXEFnuYEdqEr/JzeU2IZzbKAS+r2E+ZCMeUIOY4tG6e3p7RiL2KdgUM8CEezVN2HJwEUt0yk12gZTHBPunVji+zxie3hA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDSjCCAjKgAwIBAgIEWXhoIzANBgkqhkiG9w0BAQsFADBnMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCQk8xEDAOBgNVBAcMB0JvbG9nbmExHTAbBgNVBAoMFFVuaW9uZSBSZW5vIEdhbGxpZXJhMQsw
+CQYDVQQLDAJJVDENMAsGA1UEAwwEc3BpZDAeFw0xNzA3MjYxMDA0NTBaFw0zNzA3MjYxMDA0NTBa
+MGcxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCTzEQMA4GA1UEBwwHQm9sb2duYTEdMBsGA1UECgwU
+VW5pb25lIFJlbm8gR2FsbGllcmExCzAJBgNVBAsMAklUMQ0wCwYDVQQDDARzcGlkMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzrADitrmVhhBSK2EKIJH1DaQ/x3Q7tEcUWCkUwNGAsPj
+tBPOyNETSbV1ebjbpn3IA4shtG4zVqRqn+mBFHGKNHvGQl4gueEz3czZcUtLxLJqcgul7VW+nv2Z
+fvfeuT7f00H989wXX5GYP3M1q5uujFXqTXIMDYy94ZR9m0uFjFesdLt5YiQoUkglWNyc3cQiExfk
+DkioSk7zs879gNnH0KBD8WG2IX2tBdLGoWOKuY+g8gu4E2bvaIqq5EApndQtLVRaEmNpqbGtSGuz
+0/WxaE4WFJdK/OPPLRRAC33VY96iIDNWeaJUkznoSmsIdEV/vDGuCyknXWEueGYg368m/wIDAQAB
+MA0GCSqGSIb3DQEBCwUAA4IBAQBPenPIS/mrV7g6/MgqKCPRo4O3XaqkpRAj+zlSPYhcpxtyK5Ly
+7vFmW3BzkFI/+hLPzf/mNRl8FOTeBg9gcxoFbsvsC8S2lM6vivWr6zqdguFbaMTsoabQrQAezOrc
+wwREEXHTanP5bSD0C0znGwNlyhrugtlmdP1iMrlASjtVRkV2pfbgExuSKhC4b1yq/D6Jr17TdHTd
+GGdv8ZL8F5dHjdLmQp6l9gbmopPa1p8fK41RqbvVJocR8yonfCBYHtP1EqXK80vTAi1Zrhw/jrX7
+IgrBe2fgVMUxa0DtC+luu1Q7ohc2JY7FghfohDgDYpAgRtf4mBRzYxIjjlQorele</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDSjCCAjKgAwIBAgIEWXhoIzANBgkqhkiG9w0BAQsFADBnMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCQk8xEDAOBgNVBAcMB0JvbG9nbmExHTAbBgNVBAoMFFVuaW9uZSBSZW5vIEdhbGxpZXJhMQsw
+CQYDVQQLDAJJVDENMAsGA1UEAwwEc3BpZDAeFw0xNzA3MjYxMDA0NTBaFw0zNzA3MjYxMDA0NTBa
+MGcxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCTzEQMA4GA1UEBwwHQm9sb2duYTEdMBsGA1UECgwU
+VW5pb25lIFJlbm8gR2FsbGllcmExCzAJBgNVBAsMAklUMQ0wCwYDVQQDDARzcGlkMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzrADitrmVhhBSK2EKIJH1DaQ/x3Q7tEcUWCkUwNGAsPj
+tBPOyNETSbV1ebjbpn3IA4shtG4zVqRqn+mBFHGKNHvGQl4gueEz3czZcUtLxLJqcgul7VW+nv2Z
+fvfeuT7f00H989wXX5GYP3M1q5uujFXqTXIMDYy94ZR9m0uFjFesdLt5YiQoUkglWNyc3cQiExfk
+DkioSk7zs879gNnH0KBD8WG2IX2tBdLGoWOKuY+g8gu4E2bvaIqq5EApndQtLVRaEmNpqbGtSGuz
+0/WxaE4WFJdK/OPPLRRAC33VY96iIDNWeaJUkznoSmsIdEV/vDGuCyknXWEueGYg368m/wIDAQAB
+MA0GCSqGSIb3DQEBCwUAA4IBAQBPenPIS/mrV7g6/MgqKCPRo4O3XaqkpRAj+zlSPYhcpxtyK5Ly
+7vFmW3BzkFI/+hLPzf/mNRl8FOTeBg9gcxoFbsvsC8S2lM6vivWr6zqdguFbaMTsoabQrQAezOrc
+wwREEXHTanP5bSD0C0znGwNlyhrugtlmdP1iMrlASjtVRkV2pfbgExuSKhC4b1yq/D6Jr17TdHTd
+GGdv8ZL8F5dHjdLmQp6l9gbmopPa1p8fK41RqbvVJocR8yonfCBYHtP1EqXK80vTAi1Zrhw/jrX7
+IgrBe2fgVMUxa0DtC+luu1Q7ohc2JY7FghfohDgDYpAgRtf4mBRzYxIjjlQorele</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDSjCCAjKgAwIBAgIEWXhoIzANBgkqhkiG9w0BAQsFADBnMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCQk8xEDAOBgNVBAcMB0JvbG9nbmExHTAbBgNVBAoMFFVuaW9uZSBSZW5vIEdhbGxpZXJhMQsw
+CQYDVQQLDAJJVDENMAsGA1UEAwwEc3BpZDAeFw0xNzA3MjYxMDA0NTBaFw0zNzA3MjYxMDA0NTBa
+MGcxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCTzEQMA4GA1UEBwwHQm9sb2duYTEdMBsGA1UECgwU
+VW5pb25lIFJlbm8gR2FsbGllcmExCzAJBgNVBAsMAklUMQ0wCwYDVQQDDARzcGlkMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzrADitrmVhhBSK2EKIJH1DaQ/x3Q7tEcUWCkUwNGAsPj
+tBPOyNETSbV1ebjbpn3IA4shtG4zVqRqn+mBFHGKNHvGQl4gueEz3czZcUtLxLJqcgul7VW+nv2Z
+fvfeuT7f00H989wXX5GYP3M1q5uujFXqTXIMDYy94ZR9m0uFjFesdLt5YiQoUkglWNyc3cQiExfk
+DkioSk7zs879gNnH0KBD8WG2IX2tBdLGoWOKuY+g8gu4E2bvaIqq5EApndQtLVRaEmNpqbGtSGuz
+0/WxaE4WFJdK/OPPLRRAC33VY96iIDNWeaJUkznoSmsIdEV/vDGuCyknXWEueGYg368m/wIDAQAB
+MA0GCSqGSIb3DQEBCwUAA4IBAQBPenPIS/mrV7g6/MgqKCPRo4O3XaqkpRAj+zlSPYhcpxtyK5Ly
+7vFmW3BzkFI/+hLPzf/mNRl8FOTeBg9gcxoFbsvsC8S2lM6vivWr6zqdguFbaMTsoabQrQAezOrc
+wwREEXHTanP5bSD0C0znGwNlyhrugtlmdP1iMrlASjtVRkV2pfbgExuSKhC4b1yq/D6Jr17TdHTd
+GGdv8ZL8F5dHjdLmQp6l9gbmopPa1p8fK41RqbvVJocR8yonfCBYHtP1EqXK80vTAi1Zrhw/jrX7
+IgrBe2fgVMUxa0DtC+luu1Q7ohc2JY7FghfohDgDYpAgRtf4mBRzYxIjjlQorele</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.renogalliera.it/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.renogalliera.it/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.renogalliera.it/saml/SSO" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Base</md:ServiceName><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Avanzato</md:ServiceName><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="2"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Full</md:ServiceName><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Unione Reno Galliera</md:OrganizationName><md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Unione Reno Galliera</md:OrganizationDisplayName><md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.renogalliera.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

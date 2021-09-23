@@ -1,0 +1,53 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://spid.ru.digicamere.it/spid/" ID="0aee866a-cbe0-40a4-9653-86db8f3070da">
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true">
+
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDJjCCAg6gAwIBAgIQfRz43ncZhQNm2AyxBNqyZTANBgkqhkiG9w0BAQsFADAgMR4wHAYDVQQDDBVEaWdpY2FtZXJlIFMuQy5BLlIuTC4wHhcNMTcwMTMxMTMyNDM5WhcNMjAwMTMxMTMyNDM5WjAgMR4wHAYDVQQDDBVEaWdpY2FtZXJlIFMuQy5BLlIuTC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCGaO35IA2VX14dmjZ/e7YM4XbA+rGNm9IR0WY1IVHdiY8Qu1n2CMoYlMfU/6fYxUGrVfFpCAL3H1ybdlT1wkhOTVHOXReGWGUR9jn++nzVW5KVE8hGk+AwAnjWMl+rkL93SaGe+7VdL68SLxIpFDPjx+zlrVOFm8StZiLOE6hARFJAyfaGzYDGjGdaB77Ec4QbXcM+evue1qAQ25/VABsDdjH3G39fbIPeEVcbdzGfkdZO/BYlXD5HkUwqFbzHGI0difPOF8fM0HAavmRwJt1fnoWHDFJ4UGVSbqxwjWwYUjjOUoVpAjLubqMRehpTOcgg0FdUR3f0sa1UvA+mDsmZAgMBAAGjXDBaMAsGA1UdDwQEAwIE8DAsBgNVHSUBAf8EIjAgBggrBgEFBQcDBAYIKwYBBQUHAwIGCisGAQQBgjcKAwwwHQYDVR0OBBYEFANDbAB2vpOt+q5XRP8EIMRqVAwmMA0GCSqGSIb3DQEBCwUAA4IBAQB8jO/ZanekFq0biXVX5FfrjcCEgPX5bxMT0b6yB60f9CRVklMnqePgZGHoPmvS10gdqj7uQDc7+UEPPQpNBiv6OXc6RobW8buwCwIkgovR3emSk67iySNHNdLV/zx1N6N0nHsc8PP+50V6HjVPaaAcbqnZxVVfB5xl5yzgquEFmci64W7LZHrrtQTJsfO+pRhiKOFgsH3zx8FT52MDaQ8fXV0YKZunIC8WyfL7dr3lOHcnrtJ5eGDbNny7pwWwiSrL67ce+bSQ3kTSWs/bKlVzwlBttSjhusGIhzceq5+zGKscnH8FnogLBMs6FQ6skEbxGgA2cmLy5Glg5DjKT1JB</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDJjCCAg6gAwIBAgIQfRz43ncZhQNm2AyxBNqyZTANBgkqhkiG9w0BAQsFADAgMR4wHAYDVQQDDBVEaWdpY2FtZXJlIFMuQy5BLlIuTC4wHhcNMTcwMTMxMTMyNDM5WhcNMjAwMTMxMTMyNDM5WjAgMR4wHAYDVQQDDBVEaWdpY2FtZXJlIFMuQy5BLlIuTC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCGaO35IA2VX14dmjZ/e7YM4XbA+rGNm9IR0WY1IVHdiY8Qu1n2CMoYlMfU/6fYxUGrVfFpCAL3H1ybdlT1wkhOTVHOXReGWGUR9jn++nzVW5KVE8hGk+AwAnjWMl+rkL93SaGe+7VdL68SLxIpFDPjx+zlrVOFm8StZiLOE6hARFJAyfaGzYDGjGdaB77Ec4QbXcM+evue1qAQ25/VABsDdjH3G39fbIPeEVcbdzGfkdZO/BYlXD5HkUwqFbzHGI0difPOF8fM0HAavmRwJt1fnoWHDFJ4UGVSbqxwjWwYUjjOUoVpAjLubqMRehpTOcgg0FdUR3f0sa1UvA+mDsmZAgMBAAGjXDBaMAsGA1UdDwQEAwIE8DAsBgNVHSUBAf8EIjAgBggrBgEFBQcDBAYIKwYBBQUHAwIGCisGAQQBgjcKAwwwHQYDVR0OBBYEFANDbAB2vpOt+q5XRP8EIMRqVAwmMA0GCSqGSIb3DQEBCwUAA4IBAQB8jO/ZanekFq0biXVX5FfrjcCEgPX5bxMT0b6yB60f9CRVklMnqePgZGHoPmvS10gdqj7uQDc7+UEPPQpNBiv6OXc6RobW8buwCwIkgovR3emSk67iySNHNdLV/zx1N6N0nHsc8PP+50V6HjVPaaAcbqnZxVVfB5xl5yzgquEFmci64W7LZHrrtQTJsfO+pRhiKOFgsH3zx8FT52MDaQ8fXV0YKZunIC8WyfL7dr3lOHcnrtJ5eGDbNny7pwWwiSrL67ce+bSQ3kTSWs/bKlVzwlBttSjhusGIhzceq5+zGKscnH8FnogLBMs6FQ6skEbxGgA2cmLy5Glg5DjKT1JB</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ru.digicamere.it/spid/logout" />
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="0" Location="https://spid.ru.digicamere.it/spid/login" />
+
+        <md:AttributeConsumingService index="0">
+
+            <md:ServiceName xml:lang="it">consumingService</md:ServiceName>
+
+            <md:RequestedAttribute Name="name" />
+
+            <md:RequestedAttribute Name="familyName" />
+
+            <md:RequestedAttribute Name="fiscalNumber" />
+
+            <md:RequestedAttribute Name="email" />
+
+        </md:AttributeConsumingService>
+
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+
+        <md:OrganizationName xml:lang="it">DigiCamere S.c.a.r.l.</md:OrganizationName>
+
+        <md:OrganizationDisplayName xml:lang="it">DigiCamere S.c.a.r.l.</md:OrganizationDisplayName>
+
+        <md:OrganizationURL xml:lang="it">http://www.digicamere.it</md:OrganizationURL>
+
+    </md:Organization>
+
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>KRkkrz3M65EihwMG1MgyQmU+PfudQo6nP+Z2n/7io1M=</DigestValue></Reference></SignedInfo><SignatureValue>FJ+5mKAiUPGTKrge/8Sj/pnkzBSoiBoD0gAB+Suo6szNQyX3SRJC3r2H0jBlrnj7kXbrHMz2h/LdyMfBfpAAvWWD3ioVZ4AU2nTwW0GMEdYbveCwbmQ8GKzzp17Jbi+q6OBOSX6gf/6oG+qL4XftUb1rs7cwy/WEnJivOQWhI8Yzajnz4MX00vwQOLJRbfI9/rGWXb9i/SQtWBb4mVg9cX2qVrbFBfO4F2aU9KAt4ZPjGzHp5+duJ3iiXLY8ig7T7fq0dGpNr3YB+jZrYjJrnz3HyDW265b9aqYGVWhXe2HKU4TiNf+gNbL1s+tBx9LYqPIj902UxOMt7LuXOhz0lg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>hmjt+SANlV9eHZo2f3u2DOF2wPqxjZvSEdFmNSFR3YmPELtZ9gjKGJTH1P+n2MVBq1XxaQgC9x9cm3ZU9cJITk1Rzl0XhlhlEfY5/vp81VuSlRPIRpPgMAJ41jJfq5C/d0mhnvu1XS+vEi8SKRQz48fs5a1ThZvErWYizhOoQERSQMn2hs2AxoxnWge+xHOEG13DPnr7ntagENuf1QAbA3Yx9xt/X2yD3hFXG3cxn5HWTvwWJVw+R5FMKhW8xxiNHYnzzhfHzNBwGr5kcCbdX56FhwxSeFBlUm6scI1sGFI4zlKFaQIy7m6jEXoaUznIINBXVEd39LGtVLwPpg7JmQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDJjCCAg6gAwIBAgIQfRz43ncZhQNm2AyxBNqyZTANBgkqhkiG9w0BAQsFADAgMR4wHAYDVQQDDBVEaWdpY2FtZXJlIFMuQy5BLlIuTC4wHhcNMTcwMTMxMTMyNDM5WhcNMjAwMTMxMTMyNDM5WjAgMR4wHAYDVQQDDBVEaWdpY2FtZXJlIFMuQy5BLlIuTC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCGaO35IA2VX14dmjZ/e7YM4XbA+rGNm9IR0WY1IVHdiY8Qu1n2CMoYlMfU/6fYxUGrVfFpCAL3H1ybdlT1wkhOTVHOXReGWGUR9jn++nzVW5KVE8hGk+AwAnjWMl+rkL93SaGe+7VdL68SLxIpFDPjx+zlrVOFm8StZiLOE6hARFJAyfaGzYDGjGdaB77Ec4QbXcM+evue1qAQ25/VABsDdjH3G39fbIPeEVcbdzGfkdZO/BYlXD5HkUwqFbzHGI0difPOF8fM0HAavmRwJt1fnoWHDFJ4UGVSbqxwjWwYUjjOUoVpAjLubqMRehpTOcgg0FdUR3f0sa1UvA+mDsmZAgMBAAGjXDBaMAsGA1UdDwQEAwIE8DAsBgNVHSUBAf8EIjAgBggrBgEFBQcDBAYIKwYBBQUHAwIGCisGAQQBgjcKAwwwHQYDVR0OBBYEFANDbAB2vpOt+q5XRP8EIMRqVAwmMA0GCSqGSIb3DQEBCwUAA4IBAQB8jO/ZanekFq0biXVX5FfrjcCEgPX5bxMT0b6yB60f9CRVklMnqePgZGHoPmvS10gdqj7uQDc7+UEPPQpNBiv6OXc6RobW8buwCwIkgovR3emSk67iySNHNdLV/zx1N6N0nHsc8PP+50V6HjVPaaAcbqnZxVVfB5xl5yzgquEFmci64W7LZHrrtQTJsfO+pRhiKOFgsH3zx8FT52MDaQ8fXV0YKZunIC8WyfL7dr3lOHcnrtJ5eGDbNny7pwWwiSrL67ce+bSQ3kTSWs/bKlVzwlBttSjhusGIhzceq5+zGKscnH8FnogLBMs6FQ6skEbxGgA2cmLy5Glg5DjKT1JB</X509Certificate></X509Data></KeyInfo></Signature></md:EntityDescriptor>

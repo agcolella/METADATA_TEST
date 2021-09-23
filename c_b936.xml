@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx640e468a-4b84-a119-ebae-4ef805d48770" entityID="https://www.comune.casarano.le.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx640e468a-4b84-a119-ebae-4ef805d48770">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OWv9GQLAIoPbhdDQmlMXC5rQ/W1n9gxodE1alPj2CMw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cog+a6CtsupmHCwD48hbvtlLoLmD+8Wdn8Jbqw73qKCaiLC99GoNGk4c2T3sNTHh1pNMJ2wHD9PO
+THfCBU74peRlmJdpnedp0/NjPqkx1eGIl/k+MhYwljtjYwDdN/6W1XvK0BTsFyLKomh5LNt0FRJe
+MDHMKmPhKLgO9lX7zok2ffU75k2a5hVOATHiyug2o+F9NFWY6PclV8QV+0idIFOVBg3+BE3DAghn
+YPVh9VJQatA7uGBJQq20G/KNY6VHJOOJkTwOoHK1P9SZJp1AFg+xG5H8IS6S3+uqg5aXMh+C+Bqp
+G03bNruml2XN5kbHIioHSyPdDTPmrbjM33LigA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4REVD3s2JUaFZK4oKggUJJ5e6wDWSy9WpXMQw8eeVKA688A7u0pCSpLqu0+NUkkWnTJZw5kawkpb
+CLU5RfvkSXQX/5wuOjIyi/DQQzFIh4zNz4+B2FBryOq+cPHIJFJYhIH2YpkW2ssoPX+KhLcQAgXf
+Fc8aUQDno03e3D6nF5MpEyStoVm1zSOyaiTzNP9IS1m39BPvwmFoKzlfX7NiFcPG1qctHq0AaWG7
+hjbLB34zDJyMikwcpj6vedrcr2RVht1WWVW+k1J/IzfJHMXx58zce3nOrWlQoohc8rmi7+WbqtqA
+ijKYmRdj/r54dY8fMeQA1MFA91/+ZqS0skrCpQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDvTCCAqWgAwIBAgIJAMyw6uFzyHiRMA0GCSqGSIb3DQEBCwUAMHUxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQ2FzYXJhbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBDYXNh
+cmFubzEmMCQGA1UEAwwdc2Vydml6aS5jb211bmUuY2FzYXJhbm8ubGUuaXQwHhcNMjAwMjI4MTU1
+ODE0WhcNMzAwMjI3MTU1ODE0WjB1MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNV
+BAcMCENhc2FyYW5vMRswGQYDVQQKDBJDb211bmUgZGkgQ2FzYXJhbm8xJjAkBgNVBAMMHXNlcnZp
+emkuY29tdW5lLmNhc2FyYW5vLmxlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+4REVD3s2JUaFZK4oKggUJJ5e6wDWSy9WpXMQw8eeVKA688A7u0pCSpLqu0+NUkkWnTJZw5kawkpb
+CLU5RfvkSXQX/5wuOjIyi/DQQzFIh4zNz4+B2FBryOq+cPHIJFJYhIH2YpkW2ssoPX+KhLcQAgXf
+Fc8aUQDno03e3D6nF5MpEyStoVm1zSOyaiTzNP9IS1m39BPvwmFoKzlfX7NiFcPG1qctHq0AaWG7
+hjbLB34zDJyMikwcpj6vedrcr2RVht1WWVW+k1J/IzfJHMXx58zce3nOrWlQoohc8rmi7+WbqtqA
+ijKYmRdj/r54dY8fMeQA1MFA91/+ZqS0skrCpQIDAQABo1AwTjAdBgNVHQ4EFgQUB8C/zLdOEX7M
+68Alg+iRqOoqhX4wHwYDVR0jBBgwFoAUB8C/zLdOEX7M68Alg+iRqOoqhX4wDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAMSKNZtDM++BPYW4U20T9ELHDDt3BLC4KwxsbXnZG0xrRy1pg
+8IZQlH/OzGRVN7y/733nsdZ+mmxFO0EXSwtEevgoEBVYvIgE5xdQ07EFx8IB3q8yED5lkrKB9oSc
+6ikL/DLoUqZZcEmYSxOhAsvXSF0ohWoYH61agmWOQWjBXXP9eddTxYp9Y6SB+SC3UI/0HZ19aiRN
+BTUdNJKRTJlmYxWcho+b3vfK9SFYOJxmpaEEEGl9bwwXjSW6gRL6JLrFTQ32wCysxkb2iKTUsLMK
+j0mImo/lq8Rj+Db885pnA52FnhTwaGjSCydyZ94wj4V6yAjNeCKylLTdJFsVMtaluQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvTCCAqWgAwIBAgIJAMyw6uFzyHiRMA0GCSqGSIb3DQEBCwUAMHUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQ2FzYXJhbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBDYXNhcmFubzEmMCQGA1UEAwwdc2Vydml6aS5jb211bmUuY2FzYXJhbm8ubGUuaXQwHhcNMjAwMjI4MTU1ODE0WhcNMzAwMjI3MTU1ODE0WjB1MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCENhc2FyYW5vMRswGQYDVQQKDBJDb211bmUgZGkgQ2FzYXJhbm8xJjAkBgNVBAMMHXNlcnZpemkuY29tdW5lLmNhc2FyYW5vLmxlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4REVD3s2JUaFZK4oKggUJJ5e6wDWSy9WpXMQw8eeVKA688A7u0pCSpLqu0+NUkkWnTJZw5kawkpbCLU5RfvkSXQX/5wuOjIyi/DQQzFIh4zNz4+B2FBryOq+cPHIJFJYhIH2YpkW2ssoPX+KhLcQAgXfFc8aUQDno03e3D6nF5MpEyStoVm1zSOyaiTzNP9IS1m39BPvwmFoKzlfX7NiFcPG1qctHq0AaWG7hjbLB34zDJyMikwcpj6vedrcr2RVht1WWVW+k1J/IzfJHMXx58zce3nOrWlQoohc8rmi7+WbqtqAijKYmRdj/r54dY8fMeQA1MFA91/+ZqS0skrCpQIDAQABo1AwTjAdBgNVHQ4EFgQUB8C/zLdOEX7M68Alg+iRqOoqhX4wHwYDVR0jBBgwFoAUB8C/zLdOEX7M68Alg+iRqOoqhX4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMSKNZtDM++BPYW4U20T9ELHDDt3BLC4KwxsbXnZG0xrRy1pg8IZQlH/OzGRVN7y/733nsdZ+mmxFO0EXSwtEevgoEBVYvIgE5xdQ07EFx8IB3q8yED5lkrKB9oSc6ikL/DLoUqZZcEmYSxOhAsvXSF0ohWoYH61agmWOQWjBXXP9eddTxYp9Y6SB+SC3UI/0HZ19aiRNBTUdNJKRTJlmYxWcho+b3vfK9SFYOJxmpaEEEGl9bwwXjSW6gRL6JLrFTQ32wCysxkb2iKTUsLMKj0mImo/lq8Rj+Db885pnA52FnhTwaGjSCydyZ94wj4V6yAjNeCKylLTdJFsVMtaluQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvTCCAqWgAwIBAgIJAMyw6uFzyHiRMA0GCSqGSIb3DQEBCwUAMHUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQ2FzYXJhbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBDYXNhcmFubzEmMCQGA1UEAwwdc2Vydml6aS5jb211bmUuY2FzYXJhbm8ubGUuaXQwHhcNMjAwMjI4MTU1ODE0WhcNMzAwMjI3MTU1ODE0WjB1MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCENhc2FyYW5vMRswGQYDVQQKDBJDb211bmUgZGkgQ2FzYXJhbm8xJjAkBgNVBAMMHXNlcnZpemkuY29tdW5lLmNhc2FyYW5vLmxlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4REVD3s2JUaFZK4oKggUJJ5e6wDWSy9WpXMQw8eeVKA688A7u0pCSpLqu0+NUkkWnTJZw5kawkpbCLU5RfvkSXQX/5wuOjIyi/DQQzFIh4zNz4+B2FBryOq+cPHIJFJYhIH2YpkW2ssoPX+KhLcQAgXfFc8aUQDno03e3D6nF5MpEyStoVm1zSOyaiTzNP9IS1m39BPvwmFoKzlfX7NiFcPG1qctHq0AaWG7hjbLB34zDJyMikwcpj6vedrcr2RVht1WWVW+k1J/IzfJHMXx58zce3nOrWlQoohc8rmi7+WbqtqAijKYmRdj/r54dY8fMeQA1MFA91/+ZqS0skrCpQIDAQABo1AwTjAdBgNVHQ4EFgQUB8C/zLdOEX7M68Alg+iRqOoqhX4wHwYDVR0jBBgwFoAUB8C/zLdOEX7M68Alg+iRqOoqhX4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMSKNZtDM++BPYW4U20T9ELHDDt3BLC4KwxsbXnZG0xrRy1pg8IZQlH/OzGRVN7y/733nsdZ+mmxFO0EXSwtEevgoEBVYvIgE5xdQ07EFx8IB3q8yED5lkrKB9oSc6ikL/DLoUqZZcEmYSxOhAsvXSF0ohWoYH61agmWOQWjBXXP9eddTxYp9Y6SB+SC3UI/0HZ19aiRNBTUdNJKRTJlmYxWcho+b3vfK9SFYOJxmpaEEEGl9bwwXjSW6gRL6JLrFTQ32wCysxkb2iKTUsLMKj0mImo/lq8Rj+Db885pnA52FnhTwaGjSCydyZ94wj4V6yAjNeCKylLTdJFsVMtaluQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://www.comune.casarano.le.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://www.comune.casarano.le.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Casarano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casarano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.casarano.le.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

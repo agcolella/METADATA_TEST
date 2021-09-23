@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icilariaalpifavaro.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxf47b4014-814e-3503-5861-694e9421238e"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxf47b4014-814e-3503-5861-694e9421238e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jmg4hKTppUiyXLITIG8tSBmMbn4jOlRbE8bs3aMe3Xg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>U15ze1GIXZcc46CakEVumwY22dCaTwBrRLGxcfS8PLknXzNjRdqadGmCy8CmxACxJaJ0QQndr6qu2dnqp4Nd/q3mV/AKAP18k+I2ZcPoFRNVvI0c1jnvsGQZy0C9Gunvwl1S0s1SKxFhNwoc/F4DUxh7hkXzFu53PfS2fh6KnCaxyOma60P7kBkbgacaiiT69h7ldNZyujScxfPw9MDKRa7TyC6ChOcgnSTeTRLUNjXeN36vgq2xijA7zqUSLjmyHLZN0yzuXMUF4NOdtwCWAxdnCgVyYnVJHw5958QkTa254ypWUFtF9h0IEfGMjGHpyJxPkLC5+fwBsx6L9IESuQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEcDCCA1igAwIBAgII+aBmCYmegAAwDQYJKoZIhvcNAQELBQAwgc4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMRYwFAYDVQQHDA1GYXZhcm8gVmVuZXRvMSwwKgYDVQQKDCNJc3RpdHV0byBDb21wcmVuc2l2byAiSWxhcmlhIEFscGkiIDEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEmMCQGA1UEAwwdd3d3LmljaWxhcmlhYWxwaWZhdmFyby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZlaWM4MzQwMHZAaXN0cnV6aW9uZS5pdDAeFw0xNzA4MDYxNTMyNDBaFw0zNzA4MDUxNTMyNDBaMIHOMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmVuZXppYTEWMBQGA1UEBwwNRmF2YXJvIFZlbmV0bzEsMCoGA1UECgwjSXN0aXR1dG8gQ29tcHJlbnNpdm8gIklsYXJpYSBBbHBpIiAxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJjAkBgNVBAMMHXd3dy5pY2lsYXJpYWFscGlmYXZhcm8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhh2ZWljODM0MDB2QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4El1hiw2k0bRJrbBKS3XuM5YMworJ6LcI3m9CAC2F/ujfjokKbdkCE3/7t8z1ytgDCAeh+VnuVegNCr0RpvSxcxAPMD8p56gltR1ROM1Zm2lSaTBmKrFJMVh0+SlcuiIGv3TKZwFOEpP28TwDD2HWOZudsXCPiUm4IyKO5vaETNJbZC4yeONn/Dx2ejMT9Xea4z6/skVczDMW5XWCKGLXf0WhLBYDYnb6t/KHuSZ1YNuQiEAcaerUsiqgZClpjWZb+mJk79J3LCmYdT7uw0QTXBVrAmeMmk2zDQdNjtJ+6dl0tCEIIXj6fVoNx/EJuxNet/VIK1VO/woldPv4zxM7AgMBAAGjUDBOMB0GA1UdDgQWBBQuE7sgHblE8iLVhCp+W0Xh7pEGxTAfBgNVHSMEGDAWgBQuE7sgHblE8iLVhCp+W0Xh7pEGxTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCx4Pxlf/pQN7lzDRoxLGwqLNy8IP7cqe7AlZoiKKbLkVWoXpjkJmfHPiYmLDioNTtndBcDCbACEe/Nhg4J4BHEHDt6rqirgGW803l5sQLcuMdFArEvvEqSz1lH9vOwaQiP5zLDgfyS6n1Yi0skmX7Ke9hRvSCkBAJqcCWMKD+ydkcVV90ERGnXaCqbKrsYJJ1oSUQ4xgUC3592IKo+EhBm4wo5vcaQvRnb6l503aCf0sWHBi6aa7oLd5CMn5TKP7T30iKvuUFf2FglMTC9ua34Ovdaml83OwvGkh897xt5GvK61vf5zDU1+AH1wzUQa6uYNCAn3Qm6MFA7uW/Yn09g</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEcDCCA1igAwIBAgII+aBmCYmegAAwDQYJKoZIhvcNAQELBQAwgc4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMRYwFAYDVQQHDA1GYXZhcm8gVmVuZXRvMSwwKgYDVQQKDCNJc3RpdHV0byBDb21wcmVuc2l2byAiSWxhcmlhIEFscGkiIDEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEmMCQGA1UEAwwdd3d3LmljaWxhcmlhYWxwaWZhdmFyby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZlaWM4MzQwMHZAaXN0cnV6aW9uZS5pdDAeFw0xNzA4MDYxNTMyNDBaFw0zNzA4MDUxNTMyNDBaMIHOMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmVuZXppYTEWMBQGA1UEBwwNRmF2YXJvIFZlbmV0bzEsMCoGA1UECgwjSXN0aXR1dG8gQ29tcHJlbnNpdm8gIklsYXJpYSBBbHBpIiAxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExJjAkBgNVBAMMHXd3dy5pY2lsYXJpYWFscGlmYXZhcm8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhh2ZWljODM0MDB2QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4El1hiw2k0bRJrbBKS3XuM5YMworJ6LcI3m9CAC2F/ujfjokKbdkCE3/7t8z1ytgDCAeh+VnuVegNCr0RpvSxcxAPMD8p56gltR1ROM1Zm2lSaTBmKrFJMVh0+SlcuiIGv3TKZwFOEpP28TwDD2HWOZudsXCPiUm4IyKO5vaETNJbZC4yeONn/Dx2ejMT9Xea4z6/skVczDMW5XWCKGLXf0WhLBYDYnb6t/KHuSZ1YNuQiEAcaerUsiqgZClpjWZb+mJk79J3LCmYdT7uw0QTXBVrAmeMmk2zDQdNjtJ+6dl0tCEIIXj6fVoNx/EJuxNet/VIK1VO/woldPv4zxM7AgMBAAGjUDBOMB0GA1UdDgQWBBQuE7sgHblE8iLVhCp+W0Xh7pEGxTAfBgNVHSMEGDAWgBQuE7sgHblE8iLVhCp+W0Xh7pEGxTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCx4Pxlf/pQN7lzDRoxLGwqLNy8IP7cqe7AlZoiKKbLkVWoXpjkJmfHPiYmLDioNTtndBcDCbACEe/Nhg4J4BHEHDt6rqirgGW803l5sQLcuMdFArEvvEqSz1lH9vOwaQiP5zLDgfyS6n1Yi0skmX7Ke9hRvSCkBAJqcCWMKD+ydkcVV90ERGnXaCqbKrsYJJ1oSUQ4xgUC3592IKo+EhBm4wo5vcaQvRnb6l503aCf0sWHBi6aa7oLd5CMn5TKP7T30iKvuUFf2FglMTC9ua34Ovdaml83OwvGkh897xt5GvK61vf5zDU1+AH1wzUQa6uYNCAn3Qm6MFA7uW/Yn09g</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icilariaalpifavaro.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icilariaalpifavaro.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icilarialpifavaro.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo Ilaria Alpi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo Ilaria Alpi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icilariaalpifavaro.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

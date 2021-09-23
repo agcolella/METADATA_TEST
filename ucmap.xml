@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="http://www.ucap.info"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zLzMX+ysTIgo8bJHxHAgARXgXN9R5Tkks2Su3NmguUs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CCPaAU8+MBzc6F51b5ZbkdtOpcbFHf9Bm0JOhOQM1MDgoFk8Zgfbg5Tf0txm/fx2sGmsKX4vtbD7
+DQcH4FJ8AHsWx1SJq1yV/08rHy0fxkik8pmTGf1ZYvlcux8ScUziwN8Pj8hyPFhIVVFaJW8XIRYd
+nJwIWgWp1l/XvW8chhvnxBrrCuYci7mR+SXHaA7hldkMfwM2rV8+Sb3S6+HOTM5QzUAvK0UWLmrB
+0vkLmYqVDWYza4JymNGkv5ihbGjOdGFwGzvJwdjavClhkJiVw7n8syXXOuKfHL3LS/CcFOkprcXY
+GNcjKiAML1bmKEOYdvQU0055gskRpr4GL8WLIUzm/ZR6YhJEtUZjXUbcLdhqU5UavqIMCZKgkH6X
+tZj9Ln3lJGAQ2h46DvPJDNVS+eZzWbnPY9SdHZs1UopVKxGswUUzHuSv2DkCIGH4wB5RpWJ4QLG4
+gsCqRiQoC5b5DF7pK7IcdoztbSUf8mSpN6w4EYAa1nZmK364iepHbaZE9TIBH2XdFGWmbilOl/a0
+jEDNhlMr7yAmuYiWBH8f2ZJKFljUtw4DFqONAapPtLMA7STaXiPjZGZMYH/zTLM9c0SE7hfAqYs8
+N7HajFjmLBPWL0cYoTBRsVog9VJA6LwdWz/usNCKE33IOfx8zphRmkNyvHXJK5sJInCtmAAUm5Q=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lxtHKXlTA2P/LUsG18qn0ZBnlu8RUo5sX9iZZpE1iDSbvgAkkwFOmlwDY4n6ZBv3+nJT3p+juIBt
+VBK+h/bAD7D9PKn13ixsK//3AkjhYghrWXW1OIkx9JnhRgt+LML6AY6/wnigcBfm6eZ/IxLNRKiU
+Cie/lKmNAgxEFL+dvtD7AjHZ+I3HzzD59KWUlB5X9RVOTpUgo5tsg3IFsalBFVZ3+ftFVTkkk62M
+CvdS1hug9Siniat9bOeeljchtKIWubbQGjTkI3/3c0gW2My8/kl84+Qsr7YdSk7Rwa8lcJjbghEH
+QDFSuixrBX8N0lVUvjkB8WWqZer4l0j9PkKr2vdlCJw1HRhHYeJmR522k8A66mAtSgvDHqU+xWlt
+8ohrmEZBUumtn3oqB608OLRV2UZHJzGRRk3pHe3gcoAL+VMe3W9uhLxd5gHYR/ehDi1dHQultvo9
+inX71+98WpoxsEdbNLxIgBxE/ad+Mbrf3bQCnIDrZ3Y0ihNkSEmMSFfSDFTrvEVvwRq81djWMRCf
+8oEjE1JcOS/VfgVWEt1+hDUuXgGaqFcivrYX7pGHlWrnBBVuLgA5CLeLOdxUkH0m15ngJAxIzmiY
+0IQNonKXpf3KuCQ7FuoiH0DDwerA5lRbTlBfaPI0aaTKY0q6iXSTqCngKwhpCWKy/0YX50K7Wes=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIG6jCCBNKgAwIBAgIJAKIQy4UmFaCSMA0GCSqGSIb3DQEBCwUAMIIBCDELMAkGA1UEBhMCSVQx
+DTALBgNVBAgMBFJvbWExMjAwBgNVBAcMKVVuaW9uZSBDb211bmkgTW9udGFuaSBBcHBlbm5pbm8g
+UGlzdG9pZXNlMTIwMAYDVQQKDClVbmlvbmUgQ29tdW5pIE1vbnRhbmkgQXBwZW5uaW5vIFBpc3Rv
+aWVzZTENMAsGA1UECwwEU3BpZDE9MDsGA1UEAww0Y29tdW5pbW9udGFuaWFwcGVubmlub3Bpc3Rv
+aWVzZS5jb211bmUucGx1Z2FuZHBheS5pdDE0MDIGCSqGSIb3DQEJARYldW5pb25lY29tdW5pYXBw
+ZW5uaW5vcGlzdG9pZXNlQHBlYy5pdDAeFw0xOTAzMjIwNzQzNDNaFw0yMjAzMjEwNzQzNDNaMIIB
+CDELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWExMjAwBgNVBAcMKVVuaW9uZSBDb211bmkgTW9u
+dGFuaSBBcHBlbm5pbm8gUGlzdG9pZXNlMTIwMAYDVQQKDClVbmlvbmUgQ29tdW5pIE1vbnRhbmkg
+QXBwZW5uaW5vIFBpc3RvaWVzZTENMAsGA1UECwwEU3BpZDE9MDsGA1UEAww0Y29tdW5pbW9udGFu
+aWFwcGVubmlub3Bpc3RvaWVzZS5jb211bmUucGx1Z2FuZHBheS5pdDE0MDIGCSqGSIb3DQEJARYl
+dW5pb25lY29tdW5pYXBwZW5uaW5vcGlzdG9pZXNlQHBlYy5pdDCCAiIwDQYJKoZIhvcNAQEBBQAD
+ggIPADCCAgoCggIBAJcbRyl5UwNj/y1LBtfKp9GQZ5bvEVKObF/YmWaRNYg0m74AJJMBTppcA2OJ
++mQb9/pyU96fo7iAbVQSvof2wA+w/Typ9d4sbCv/9wJI4WIIa1l1tTiJMfSZ4UYLfizC+gGOv8J4
+oHAX5unmfyMSzUSolAonv5SpjQIMRBS/nb7Q+wIx2fiNx88w+fSllJQeV/UVTk6VIKObbINyBbGp
+QRVWd/n7RVU5JJOtjAr3UtYboPUop4mrfWznnpY3IbSiFrm20Bo05CN/93NIFtjMvP5JfOPkLK+2
+HUpO0cGvJXCY24IRB0AxUrosawV/DdJVVL45AfFlqmXq+JdI/T5Cq9r3ZQicNR0YR2HiZkedtpPA
+OupgLUoLwx6lPsVpbfKIa5hGQVLprZ96KgetPDi0VdlGRycxkUZN6R3t4HKAC/lTHt1vboS8XeYB
+2Ef3oQ4tXR0Lpbb6PYp1+9fvfFqaMbBHWzS8SIAcRP2nfjG63920ApyA62d2NIoTZEhJjEhX0gxU
+67xFb8EavNXY1jEQn/KBIxNSXDkv1X4FVhLdfoQ1Ll4BmqhXIr62F+6Rh5Vq5wQVbi4AOQi3iznc
+VJB9JteZ4CQMSM5omNCEDaJyl6X9yrgkOxbqIh9Aw8HqwOZUW05QX2jyNGmkymNKuol0k6gp4CsI
+aQlisv9GF+dCu1nrAgMBAAGjUzBRMB0GA1UdDgQWBBTrnrBFK/wKZczCWiob/UMQDUzL0jAfBgNV
+HSMEGDAWgBTrnrBFK/wKZczCWiob/UMQDUzL0jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB
+CwUAA4ICAQCDiR0FvcfR6HZt9B2+KytM6wmmOEanBFGXgTxSlW7X7odgJLxTDpbfQRwuRfAyHnSN
+q9o2oMfEEJyPHOdwMYHvWEGQRvclfP1TgZBb2Pr4cJypp9WQQPCJIV2M/aFs2gZC0P4No5nZDgk8
+DvgZbLLvHs9pdYDepL9t+2r8TyCAJNrp/4wr/a8IBFqVpKDWrwS6LDCYE3erZ808FO3jIyohePHT
+zgLD0a8WFxrSgsMPHA+G7bQ2k1DfGivUk5Vzh+pNC2s1mKbYuLsWwOr9DjB457sDqOjT6sAzAsjr
+i5cn7mfTgqCUAZMz5+qunPExKNhiTwfTvZVwH3EMYE3fDG50ZwHBJakgt8aXnC1yY3s2Fy90WBbp
+18H6td8iRJzzZ+2dHg+C4V/01zu7JCuqqYUhkCZEv0iMRqxO5ilEP2PXvBGYFitd4xd2raQG5YGZ
+eLPhgwzWGRgqLL/2LzObeievXeG4YkAE5bt67+4tvwSYnVPSQHRmWYrTkpysGFdy5arGwF89W8Dp
+YIY1m1JhpEODcD7R5QWyA6oRAFmAbIINRGYSSc1pEJq2edcJZfpzsRiEwB0lXsRsifm339wLfWKN
+AzipdrSCU/w3HM9pcpBOXpAIj9OhCVWDoDHeweOt1oeuxsES56Prbddqr5UvMVt+4QKNfIb4b7yO
+XigBZLwpgQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIG6jCCBNKgAwIBAgIJAKIQy4UmFaCSMA0GCSqGSIb3DQEBCwUAMIIBCDELMAkG
+			A1UEBhMCSVQxDTALBgNVBAgMBFJvbWExMjAwBgNVBAcMKVVuaW9uZSBDb211bmkg
+			TW9udGFuaSBBcHBlbm5pbm8gUGlzdG9pZXNlMTIwMAYDVQQKDClVbmlvbmUgQ29t
+			dW5pIE1vbnRhbmkgQXBwZW5uaW5vIFBpc3RvaWVzZTENMAsGA1UECwwEU3BpZDE9
+			MDsGA1UEAww0Y29tdW5pbW9udGFuaWFwcGVubmlub3Bpc3RvaWVzZS5jb211bmUu
+			cGx1Z2FuZHBheS5pdDE0MDIGCSqGSIb3DQEJARYldW5pb25lY29tdW5pYXBwZW5u
+			aW5vcGlzdG9pZXNlQHBlYy5pdDAeFw0xOTAzMjIwNzQzNDNaFw0yMjAzMjEwNzQz
+			NDNaMIIBCDELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWExMjAwBgNVBAcMKVVu
+			aW9uZSBDb211bmkgTW9udGFuaSBBcHBlbm5pbm8gUGlzdG9pZXNlMTIwMAYDVQQK
+			DClVbmlvbmUgQ29tdW5pIE1vbnRhbmkgQXBwZW5uaW5vIFBpc3RvaWVzZTENMAsG
+			A1UECwwEU3BpZDE9MDsGA1UEAww0Y29tdW5pbW9udGFuaWFwcGVubmlub3Bpc3Rv
+			aWVzZS5jb211bmUucGx1Z2FuZHBheS5pdDE0MDIGCSqGSIb3DQEJARYldW5pb25l
+			Y29tdW5pYXBwZW5uaW5vcGlzdG9pZXNlQHBlYy5pdDCCAiIwDQYJKoZIhvcNAQEB
+			BQADggIPADCCAgoCggIBAJcbRyl5UwNj/y1LBtfKp9GQZ5bvEVKObF/YmWaRNYg0
+			m74AJJMBTppcA2OJ+mQb9/pyU96fo7iAbVQSvof2wA+w/Typ9d4sbCv/9wJI4WII
+			a1l1tTiJMfSZ4UYLfizC+gGOv8J4oHAX5unmfyMSzUSolAonv5SpjQIMRBS/nb7Q
+			+wIx2fiNx88w+fSllJQeV/UVTk6VIKObbINyBbGpQRVWd/n7RVU5JJOtjAr3UtYb
+			oPUop4mrfWznnpY3IbSiFrm20Bo05CN/93NIFtjMvP5JfOPkLK+2HUpO0cGvJXCY
+			24IRB0AxUrosawV/DdJVVL45AfFlqmXq+JdI/T5Cq9r3ZQicNR0YR2HiZkedtpPA
+			OupgLUoLwx6lPsVpbfKIa5hGQVLprZ96KgetPDi0VdlGRycxkUZN6R3t4HKAC/lT
+			Ht1vboS8XeYB2Ef3oQ4tXR0Lpbb6PYp1+9fvfFqaMbBHWzS8SIAcRP2nfjG63920
+			ApyA62d2NIoTZEhJjEhX0gxU67xFb8EavNXY1jEQn/KBIxNSXDkv1X4FVhLdfoQ1
+			Ll4BmqhXIr62F+6Rh5Vq5wQVbi4AOQi3izncVJB9JteZ4CQMSM5omNCEDaJyl6X9
+			yrgkOxbqIh9Aw8HqwOZUW05QX2jyNGmkymNKuol0k6gp4CsIaQlisv9GF+dCu1nr
+			AgMBAAGjUzBRMB0GA1UdDgQWBBTrnrBFK/wKZczCWiob/UMQDUzL0jAfBgNVHSME
+			GDAWgBTrnrBFK/wKZczCWiob/UMQDUzL0jAPBgNVHRMBAf8EBTADAQH/MA0GCSqG
+			SIb3DQEBCwUAA4ICAQCDiR0FvcfR6HZt9B2+KytM6wmmOEanBFGXgTxSlW7X7odg
+			JLxTDpbfQRwuRfAyHnSNq9o2oMfEEJyPHOdwMYHvWEGQRvclfP1TgZBb2Pr4cJyp
+			p9WQQPCJIV2M/aFs2gZC0P4No5nZDgk8DvgZbLLvHs9pdYDepL9t+2r8TyCAJNrp
+			/4wr/a8IBFqVpKDWrwS6LDCYE3erZ808FO3jIyohePHTzgLD0a8WFxrSgsMPHA+G
+			7bQ2k1DfGivUk5Vzh+pNC2s1mKbYuLsWwOr9DjB457sDqOjT6sAzAsjri5cn7mfT
+			gqCUAZMz5+qunPExKNhiTwfTvZVwH3EMYE3fDG50ZwHBJakgt8aXnC1yY3s2Fy90
+			WBbp18H6td8iRJzzZ+2dHg+C4V/01zu7JCuqqYUhkCZEv0iMRqxO5ilEP2PXvBGY
+			Fitd4xd2raQG5YGZeLPhgwzWGRgqLL/2LzObeievXeG4YkAE5bt67+4tvwSYnVPS
+			QHRmWYrTkpysGFdy5arGwF89W8DpYIY1m1JhpEODcD7R5QWyA6oRAFmAbIINRGYS
+			Sc1pEJq2edcJZfpzsRiEwB0lXsRsifm339wLfWKNAzipdrSCU/w3HM9pcpBOXpAI
+			j9OhCVWDoDHeweOt1oeuxsES56Prbddqr5UvMVt+4QKNfIb4b7yOXigBZLwpgQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://comunimontaniappenninopistoiese.unione.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comunimontaniappenninopistoiese.unione.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Comuni Montani Appennino Pistoiese</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Comuni Montani Appennino Pistoiese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.ucap.info</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

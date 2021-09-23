@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx745da3df-3071-260f-6359-4125dd72810f" entityID="https://servizionline.comune.isolarizza.vr.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx745da3df-3071-260f-6359-4125dd72810f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ImyBjVhifff3x2YgmduqllNvwwFVBB/PchOQ+JPnjeY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+tHLD0bheTl1CY1+3QsO3tq/htpRoenNvn0gSuxSmSHt4XczIHSUZ5sGJ1Bl1y8WJcO3FknEy5qia
+zVlgAXZDQqC9LBryq2ewLOivUsLm2ef5hd6IU8xIrlrvtbADEzMLg3/cxDFAAqFtiLaB8bNaxrml
+AEGTm3QGsC8TZzZus4OibED98HSTeQF9Z4q73w5O8C0ItB1p33cuSU17qRbbixgFxj+QLwZNH427
+UE1kpcdO5f1tBGZYAylVx9Rf8H8bc352bobvVQ2F1wIfMvERArfJMNiqq/gsvBY58C56l514HD3B
+O4oG7C9z1KLVwU5wMXh2G7hAJKJZaqpOxMx08Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wgVdJQOQYnV/upBXAT0orwVB50BVxn0/4YxVKA0q/4b0Yip4lNTYWjHqm7Qx+wkLf+I2wKy2rrKo
+/eJOd3lvopITz+H7zDiXivg5IxA0JBVL0IhH9B4NGlK9lIEZvAGBbt/snB4WuDhEsugaZsYxRzXp
+3pslipnKuFQyDVv0zZ+nojhL/WWRRAUN0GkwiHrZyt2QRFkBEEcwTJjB8YbHr2pvjgq1K0NMMj6d
+QEPDEBwJ9OVCFV1z977MIikTcr+gcpmyPzC3Pglqgx8xo67eVpbQ9OqI9UvIr0QgsqqNyPLIqiSi
++Tbj+Bo27hCj8GDMsA7yS49LSiaqGFfkEjcKaQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID2zCCAsOgAwIBAgIJAKM0FCxazphSMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFDASBgNVBAcMC0lzb2xhIFJpenphMR4wHAYDVQQKDBVDb211bmUgZGkg
+SXNvbGEgUml6emExLjAsBgNVBAMMJXNlcnZpemlvbmxpbmUuY29tdW5lLmlzb2xhcml6emEudnIu
+aXQwHhcNMTkwNjExMTIzNDEyWhcNMjkwNjEwMTIzNDEyWjCBgzELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgMBUl0YWx5MRQwEgYDVQQHDAtJc29sYSBSaXp6YTEeMBwGA1UECgwVQ29tdW5lIGRpIElzb2xh
+IFJpenphMS4wLAYDVQQDDCVzZXJ2aXppb25saW5lLmNvbXVuZS5pc29sYXJpenphLnZyLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwgVdJQOQYnV/upBXAT0orwVB50BVxn0/4YxV
+KA0q/4b0Yip4lNTYWjHqm7Qx+wkLf+I2wKy2rrKo/eJOd3lvopITz+H7zDiXivg5IxA0JBVL0IhH
+9B4NGlK9lIEZvAGBbt/snB4WuDhEsugaZsYxRzXp3pslipnKuFQyDVv0zZ+nojhL/WWRRAUN0Gkw
+iHrZyt2QRFkBEEcwTJjB8YbHr2pvjgq1K0NMMj6dQEPDEBwJ9OVCFV1z977MIikTcr+gcpmyPzC3
+Pglqgx8xo67eVpbQ9OqI9UvIr0QgsqqNyPLIqiSi+Tbj+Bo27hCj8GDMsA7yS49LSiaqGFfkEjcK
+aQIDAQABo1AwTjAdBgNVHQ4EFgQUVuxsgo64r0yh+Mk6WfBbqiUFtLIwHwYDVR0jBBgwFoAUVuxs
+go64r0yh+Mk6WfBbqiUFtLIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXWaSQdJP
+uwAzelTJMYQfXr9sGvSxMGvUEQJW6U2GcBb+c5ziYLPER16z992CA5uQLxxiQAr1Sz2h7pPUW699
+2NE5HWLyphhISrzQO/PaWsF2vvx77oa2xVVJhKeTB9b7tjjtQRYYWwZwLFYnj3Cz4q/0lIzqiBdM
+qQ8fmBawAezdeD4XLF+oawLRwhJQNTH0EmcTnCKg6fsKktKTDAH3qhWBfV4tqGaRrTrLehsl3MAw
+GIOcR+0a/ce6B4lP70vuDpwxC59KBcW+fJGhc1pD5f6VswexowH3HVEt1Zqj8hkBnmolULqyMQOT
+BT5kpLBPryUasn8MNIQqk8+YKfPBiw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAKM0FCxazphSMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFDASBgNVBAcMC0lzb2xhIFJpenphMR4wHAYDVQQKDBVDb211bmUgZGkgSXNvbGEgUml6emExLjAsBgNVBAMMJXNlcnZpemlvbmxpbmUuY29tdW5lLmlzb2xhcml6emEudnIuaXQwHhcNMTkwNjExMTIzNDEyWhcNMjkwNjEwMTIzNDEyWjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtJc29sYSBSaXp6YTEeMBwGA1UECgwVQ29tdW5lIGRpIElzb2xhIFJpenphMS4wLAYDVQQDDCVzZXJ2aXppb25saW5lLmNvbXVuZS5pc29sYXJpenphLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwgVdJQOQYnV/upBXAT0orwVB50BVxn0/4YxVKA0q/4b0Yip4lNTYWjHqm7Qx+wkLf+I2wKy2rrKo/eJOd3lvopITz+H7zDiXivg5IxA0JBVL0IhH9B4NGlK9lIEZvAGBbt/snB4WuDhEsugaZsYxRzXp3pslipnKuFQyDVv0zZ+nojhL/WWRRAUN0GkwiHrZyt2QRFkBEEcwTJjB8YbHr2pvjgq1K0NMMj6dQEPDEBwJ9OVCFV1z977MIikTcr+gcpmyPzC3Pglqgx8xo67eVpbQ9OqI9UvIr0QgsqqNyPLIqiSi+Tbj+Bo27hCj8GDMsA7yS49LSiaqGFfkEjcKaQIDAQABo1AwTjAdBgNVHQ4EFgQUVuxsgo64r0yh+Mk6WfBbqiUFtLIwHwYDVR0jBBgwFoAUVuxsgo64r0yh+Mk6WfBbqiUFtLIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXWaSQdJPuwAzelTJMYQfXr9sGvSxMGvUEQJW6U2GcBb+c5ziYLPER16z992CA5uQLxxiQAr1Sz2h7pPUW6992NE5HWLyphhISrzQO/PaWsF2vvx77oa2xVVJhKeTB9b7tjjtQRYYWwZwLFYnj3Cz4q/0lIzqiBdMqQ8fmBawAezdeD4XLF+oawLRwhJQNTH0EmcTnCKg6fsKktKTDAH3qhWBfV4tqGaRrTrLehsl3MAwGIOcR+0a/ce6B4lP70vuDpwxC59KBcW+fJGhc1pD5f6VswexowH3HVEt1Zqj8hkBnmolULqyMQOTBT5kpLBPryUasn8MNIQqk8+YKfPBiw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAKM0FCxazphSMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFDASBgNVBAcMC0lzb2xhIFJpenphMR4wHAYDVQQKDBVDb211bmUgZGkgSXNvbGEgUml6emExLjAsBgNVBAMMJXNlcnZpemlvbmxpbmUuY29tdW5lLmlzb2xhcml6emEudnIuaXQwHhcNMTkwNjExMTIzNDEyWhcNMjkwNjEwMTIzNDEyWjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtJc29sYSBSaXp6YTEeMBwGA1UECgwVQ29tdW5lIGRpIElzb2xhIFJpenphMS4wLAYDVQQDDCVzZXJ2aXppb25saW5lLmNvbXVuZS5pc29sYXJpenphLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwgVdJQOQYnV/upBXAT0orwVB50BVxn0/4YxVKA0q/4b0Yip4lNTYWjHqm7Qx+wkLf+I2wKy2rrKo/eJOd3lvopITz+H7zDiXivg5IxA0JBVL0IhH9B4NGlK9lIEZvAGBbt/snB4WuDhEsugaZsYxRzXp3pslipnKuFQyDVv0zZ+nojhL/WWRRAUN0GkwiHrZyt2QRFkBEEcwTJjB8YbHr2pvjgq1K0NMMj6dQEPDEBwJ9OVCFV1z977MIikTcr+gcpmyPzC3Pglqgx8xo67eVpbQ9OqI9UvIr0QgsqqNyPLIqiSi+Tbj+Bo27hCj8GDMsA7yS49LSiaqGFfkEjcKaQIDAQABo1AwTjAdBgNVHQ4EFgQUVuxsgo64r0yh+Mk6WfBbqiUFtLIwHwYDVR0jBBgwFoAUVuxsgo64r0yh+Mk6WfBbqiUFtLIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXWaSQdJPuwAzelTJMYQfXr9sGvSxMGvUEQJW6U2GcBb+c5ziYLPER16z992CA5uQLxxiQAr1Sz2h7pPUW6992NE5HWLyphhISrzQO/PaWsF2vvx77oa2xVVJhKeTB9b7tjjtQRYYWwZwLFYnj3Cz4q/0lIzqiBdMqQ8fmBawAezdeD4XLF+oawLRwhJQNTH0EmcTnCKg6fsKktKTDAH3qhWBfV4tqGaRrTrLehsl3MAwGIOcR+0a/ce6B4lP70vuDpwxC59KBcW+fJGhc1pD5f6VswexowH3HVEt1Zqj8hkBnmolULqyMQOTBT5kpLBPryUasn8MNIQqk8+YKfPBiw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.isolarizza.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.isolarizza.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Isola Rizza</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Isola Rizza</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.isolarizza.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

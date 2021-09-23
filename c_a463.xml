@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.ascolisatriano.fg.it/" ID="_3e708320b8597c1cc35f3d990ebf260b93ef23cb0cea07e0b9b10ba3c0f6a9e8"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_3e708320b8597c1cc35f3d990ebf260b93ef23cb0cea07e0b9b10ba3c0f6a9e8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Yvd4BG3XTCSQMtr3Tq87oK6hyO/zX1uugoBx9lKHltk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>dAriBbp6n9ctC/7ANGuacV5hRPSdIN9ENwveeU+xOMrChSaTZYElhLSjrXknZqK9sdoLm7BWbXIQ4M8KUjjZDT+t8YytWXysG06VLJVLaSVk4sw1aaYDRB2+SeAONxK6yCImv3aaqACMH8zS8oegyaPrdsJG4xJXbMukU1QWCV545lOmWcJqUcs3o23wPb93ZWrVe4e5TKGGKfFwV28KGgh7yTDSVI+g1dUk0saG66LI+0lwMu29rbkubejQ7SInMM4gmN5Z/8C0KlngRj1amdEftFY+7VmY+a4Q5TtS1kv2EIoJDGyoNr1AyeqMDKUGnJyaBnDeNYn4GS0nzmPr3g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID/jCCAuagAwIBAgIRAJ6xf9FzfiDcXw4+6kcNtRQwDQYJKoZIhvcNAQELBQAwgaUxCzAJBgNVBAYTAklUMRgwFgYDVQQHEw9Bc2NvbGkgU2F0cmlhbm8xIjAgBgNVBAoTGUNvbXVuZSBkaSBBc2NvbGkgU2F0cmlhbm8xQTA/BgNVBAMTOGh0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYXNjb2xpc2F0cmlhbm8uZmcuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX0E0NjMwHhcNMjAwOTI4MTEwNTU1WhcNMzAwOTI2MTEwNTU1WjCBpTELMAkGA1UEBhMCSVQxGDAWBgNVBAcTD0FzY29saSBTYXRyaWFubzEiMCAGA1UEChMZQ29tdW5lIGRpIEFzY29saSBTYXRyaWFubzFBMD8GA1UEAxM4aHR0cHM6Ly9zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hc2NvbGlzYXRyaWFuby5mZy5pdC8xFTATBgNVBAUWDFBBOklULWNfQTQ2MzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOdKrLwTIPrCIhDuwc2ie1v0sE3wMG2J2qBD2x+Xd1GsRQPfkgLjNLOpUUB4o6WnJwOirx6XjyeLkZgO7SNEkGMt4CX/0y6Ev22CsY+xyQljRQVV+43sDb1LaW5R1pio/J4MA0jP95HvwY5iIsmlf5knVKDw31f6RawNdHENrNHJ+ZKORmfFfpILsh+TBYcrCWPovPdiTbOEaQTqPeveeD0jyNSJfzWm0cfiDyX6BHHO/zeNz7tyX7ztyJZmnFJ24FhT6EUNWijwZW1quyZD2ZvCFX9Qc9kWIPE+rGUaHtI/zYOeCs4Ie9XG7w4gQTkZG0vFgid2b4CCedwHrNosUvMCAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQByZFaxrC9jx1KBCfrGRviN8f7HoLjKs2Ly/sBYB8V3ryzu+5/2E5Dom1wbdOFAs1HSRTRVI4FLs13aqqZrfLPxwrZlgu8RsM3E8d3+0ZqCerZvx0R0rkJNcdJTGHFMb4IJjXOvDr59p9ZmxM798ZrlXP/k4Nkyk6EaVoPzJw3yAErVaYSs59vcRF2iq+govfLOadfAdR2XTTiWiyQ4O9UB8kK/aCpbf2hf+H9H0eDkDdYHMCV+s+akxUrT9F/JLZWdIHfm9FgYytBg2XDFdsVC4osjKZdhZ4ozAqq266C4+CM1Bn82Y6GZlxxIWfo0bANw9ZqtjIB4vfCn84uC9l5T</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/jCCAuagAwIBAgIRAJ6xf9FzfiDcXw4+6kcNtRQwDQYJKoZIhvcNAQELBQAwgaUxCzAJBgNVBAYTAklUMRgwFgYDVQQHEw9Bc2NvbGkgU2F0cmlhbm8xIjAgBgNVBAoTGUNvbXVuZSBkaSBBc2NvbGkgU2F0cmlhbm8xQTA/BgNVBAMTOGh0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYXNjb2xpc2F0cmlhbm8uZmcuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX0E0NjMwHhcNMjAwOTI4MTEwNTU1WhcNMzAwOTI2MTEwNTU1WjCBpTELMAkGA1UEBhMCSVQxGDAWBgNVBAcTD0FzY29saSBTYXRyaWFubzEiMCAGA1UEChMZQ29tdW5lIGRpIEFzY29saSBTYXRyaWFubzFBMD8GA1UEAxM4aHR0cHM6Ly9zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hc2NvbGlzYXRyaWFuby5mZy5pdC8xFTATBgNVBAUWDFBBOklULWNfQTQ2MzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOdKrLwTIPrCIhDuwc2ie1v0sE3wMG2J2qBD2x+Xd1GsRQPfkgLjNLOpUUB4o6WnJwOirx6XjyeLkZgO7SNEkGMt4CX/0y6Ev22CsY+xyQljRQVV+43sDb1LaW5R1pio/J4MA0jP95HvwY5iIsmlf5knVKDw31f6RawNdHENrNHJ+ZKORmfFfpILsh+TBYcrCWPovPdiTbOEaQTqPeveeD0jyNSJfzWm0cfiDyX6BHHO/zeNz7tyX7ztyJZmnFJ24FhT6EUNWijwZW1quyZD2ZvCFX9Qc9kWIPE+rGUaHtI/zYOeCs4Ie9XG7w4gQTkZG0vFgid2b4CCedwHrNosUvMCAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQByZFaxrC9jx1KBCfrGRviN8f7HoLjKs2Ly/sBYB8V3ryzu+5/2E5Dom1wbdOFAs1HSRTRVI4FLs13aqqZrfLPxwrZlgu8RsM3E8d3+0ZqCerZvx0R0rkJNcdJTGHFMb4IJjXOvDr59p9ZmxM798ZrlXP/k4Nkyk6EaVoPzJw3yAErVaYSs59vcRF2iq+govfLOadfAdR2XTTiWiyQ4O9UB8kK/aCpbf2hf+H9H0eDkDdYHMCV+s+akxUrT9F/JLZWdIHfm9FgYytBg2XDFdsVC4osjKZdhZ4ozAqq266C4+CM1Bn82Y6GZlxxIWfo0bANw9ZqtjIB4vfCn84uC9l5T</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/jCCAuagAwIBAgIRAJ6xf9FzfiDcXw4+6kcNtRQwDQYJKoZIhvcNAQELBQAwgaUxCzAJBgNVBAYTAklUMRgwFgYDVQQHEw9Bc2NvbGkgU2F0cmlhbm8xIjAgBgNVBAoTGUNvbXVuZSBkaSBBc2NvbGkgU2F0cmlhbm8xQTA/BgNVBAMTOGh0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYXNjb2xpc2F0cmlhbm8uZmcuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX0E0NjMwHhcNMjAwOTI4MTEwNTU1WhcNMzAwOTI2MTEwNTU1WjCBpTELMAkGA1UEBhMCSVQxGDAWBgNVBAcTD0FzY29saSBTYXRyaWFubzEiMCAGA1UEChMZQ29tdW5lIGRpIEFzY29saSBTYXRyaWFubzFBMD8GA1UEAxM4aHR0cHM6Ly9zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hc2NvbGlzYXRyaWFuby5mZy5pdC8xFTATBgNVBAUWDFBBOklULWNfQTQ2MzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOdKrLwTIPrCIhDuwc2ie1v0sE3wMG2J2qBD2x+Xd1GsRQPfkgLjNLOpUUB4o6WnJwOirx6XjyeLkZgO7SNEkGMt4CX/0y6Ev22CsY+xyQljRQVV+43sDb1LaW5R1pio/J4MA0jP95HvwY5iIsmlf5knVKDw31f6RawNdHENrNHJ+ZKORmfFfpILsh+TBYcrCWPovPdiTbOEaQTqPeveeD0jyNSJfzWm0cfiDyX6BHHO/zeNz7tyX7ztyJZmnFJ24FhT6EUNWijwZW1quyZD2ZvCFX9Qc9kWIPE+rGUaHtI/zYOeCs4Ie9XG7w4gQTkZG0vFgid2b4CCedwHrNosUvMCAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQByZFaxrC9jx1KBCfrGRviN8f7HoLjKs2Ly/sBYB8V3ryzu+5/2E5Dom1wbdOFAs1HSRTRVI4FLs13aqqZrfLPxwrZlgu8RsM3E8d3+0ZqCerZvx0R0rkJNcdJTGHFMb4IJjXOvDr59p9ZmxM798ZrlXP/k4Nkyk6EaVoPzJw3yAErVaYSs59vcRF2iq+govfLOadfAdR2XTTiWiyQ4O9UB8kK/aCpbf2hf+H9H0eDkDdYHMCV+s+akxUrT9F/JLZWdIHfm9FgYytBg2XDFdsVC4osjKZdhZ4ozAqq266C4+CM1Bn82Y6GZlxxIWfo0bANw9ZqtjIB4vfCn84uC9l5T</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.ascolisatriano.fg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.ascolisatriano.fg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Ascoli Satriano</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Ascoli Satriano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Ascoli Satriano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Ascoli Satriano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ascoli Satriano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ascoli Satriano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Ascoli Satriano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Ascoli Satriano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.ascolisatriano.fg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.ascolisatriano.fg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.ascolisatriano.fg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.ascolisatriano.fg.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_A463</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:protocollo.ascolisatriano@pec.leonet.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

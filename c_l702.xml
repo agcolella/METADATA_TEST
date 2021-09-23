@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Vecchiano" entityID="https://www.comune.vecchiano.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Vecchiano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>c7s1dWt0o88l+mEBftB0zLmjQfpsuSYfjHLxggoXCKE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QMQwuD+DJV2VYM56rUnwzPySQ+a2kk5RQ+df3OksaAE0pJIi0cOYuJ9S9S2pULScDs/9oGRLn9UL
+c2GbTJC6rFZJd2bRIDohcKF9f47NSiI+km+JuypwoxiMWY1oGXZIs4xvegiqGfQVH9AjU2LuUUBY
+H9ZTHWNHbeEP6Z6RQZ8CXzB0MjCSv7sQ3iYdMu5W5sL2mezV0ma3euArKCEsxkdx3Ii25IBCOdZl
+/4ySzNbLB50PpIGAyRoSy+TbJUYoKValTeJ4GElYal3wTGTnPjPW7TUFm4NiSo0ZksryB71BhAzK
+QSRoNd/XK47JMUDhICdwbVzsOVj0224DmG5LZQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uK6B4T8adXcEO726D9ZodXwt1LkzrQvUgY10kQJedTLC0/HC0KZj7xx5uFI3m2T1A32Kxc/k158K
+wBXoQ0y5NiD4EPB6b93GcYNcx4cE6HKyD0PiQlgyYqOivcSyvVHGVs6EZn70VN8+GKZlScGKwqHf
+oLJNwHY4EfJGmgtLNFiBVzTWO6cP8m2xBQ42R0PjA2cIcSGddS/Z7ETpZrbEJoI6JTXjbMgDwvCA
+/+yG2hlvr3AgB4tz2ctrKrndbGgS3+ITvNL6OUWJW86Ve5r7V276rLJplneZYELpSOXxooDLFTNq
+eZ1KIdSYzu8+H1kAXhw0ex0MvkGswERCdz4Xew==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAK3xy5h3aRGmMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUudmVjY2hpYW5vLnBpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAy
+MTUxMjI5MDRaFw0yODAyMTMxMjI5MDRaMEExIzAhBgNVBAMMGnd3dy5jb211bmUudmVjY2hpYW5v
+LnBpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALiugeE/GnV3BDu9ug/WaHV8LdS5M60L1IGNdJECXnUywtPxwtCmY+8cebhSN5tk
+9QN9isXP5NefCsAV6ENMuTYg+BDwem/dxnGDXMeHBOhysg9D4kJYMmKjor3Esr1RxlbOhGZ+9FTf
+PhimZUnBisKh36CyTcB2OBHyRpoLSzRYgVc01junD/JtsQUONkdD4wNnCHEhnXUv2exE6Wa2xCaC
+OiU142zIA8LwgP/shtoZb69wIAeLc9nLayq53WxoEt/iE7zS+jlFiVvOlXua+1du+qyyaZZ3mWBC
+6Ujl8aKAyxUzanmdSiHUmM7vPh9ZAF4cNHsdDL5BrMBEQnc+F3sCAwEAAaNQME4wHQYDVR0OBBYE
+FPgwZatJSxZ+vSo5ijwqO/V3L/azMB8GA1UdIwQYMBaAFPgwZatJSxZ+vSo5ijwqO/V3L/azMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC1dqsfGbx3IppV2bi2LOb/UjcpLeNBwPHL/
+obCviKJJwCeWN7WOa3qS+AJ8o1MJOFrUl+RX8V2jAWValg5dVuQ4cWMGBXZ3ccufOSJ6ePZcZ15j
+9ai0aKU0fFfeNusBuZ5JNbAkGZhywnCvgLQ9jXmwpcjptz5VOCRSNEphV74PIEbH2AXe8n0iH1oW
+FQxtq+CxEhzxmi9viqH9bclc1xDbELJfdc80SybidCdd/vIxB30fhRoOc55ggBtJLHnMS+yVNo+Q
+OuZO6flU2togID/SmedzeJwVxNnsaS6q81OWvE8shzJAxOSP750epgKboJdg0XplPVQIqjerLn+7
+/Hw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAK3xy5h3aRGmMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUudmVjY2hpYW5vLnBpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAyMTUxMjI5MDRaFw0yODAyMTMxMjI5MDRaMEExIzAhBgNVBAMMGnd3dy5jb211bmUudmVjY2hpYW5vLnBpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiugeE/GnV3BDu9ug/WaHV8LdS5M60L1IGNdJECXnUywtPxwtCmY+8cebhSN5tk9QN9isXP5NefCsAV6ENMuTYg+BDwem/dxnGDXMeHBOhysg9D4kJYMmKjor3Esr1RxlbOhGZ+9FTfPhimZUnBisKh36CyTcB2OBHyRpoLSzRYgVc01junD/JtsQUONkdD4wNnCHEhnXUv2exE6Wa2xCaCOiU142zIA8LwgP/shtoZb69wIAeLc9nLayq53WxoEt/iE7zS+jlFiVvOlXua+1du+qyyaZZ3mWBC6Ujl8aKAyxUzanmdSiHUmM7vPh9ZAF4cNHsdDL5BrMBEQnc+F3sCAwEAAaNQME4wHQYDVR0OBBYEFPgwZatJSxZ+vSo5ijwqO/V3L/azMB8GA1UdIwQYMBaAFPgwZatJSxZ+vSo5ijwqO/V3L/azMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC1dqsfGbx3IppV2bi2LOb/UjcpLeNBwPHL/obCviKJJwCeWN7WOa3qS+AJ8o1MJOFrUl+RX8V2jAWValg5dVuQ4cWMGBXZ3ccufOSJ6ePZcZ15j9ai0aKU0fFfeNusBuZ5JNbAkGZhywnCvgLQ9jXmwpcjptz5VOCRSNEphV74PIEbH2AXe8n0iH1oWFQxtq+CxEhzxmi9viqH9bclc1xDbELJfdc80SybidCdd/vIxB30fhRoOc55ggBtJLHnMS+yVNo+QOuZO6flU2togID/SmedzeJwVxNnsaS6q81OWvE8shzJAxOSP750epgKboJdg0XplPVQIqjerLn+7/Hw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/vecchiano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vecchiano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vecchiano" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vecchiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Vecchiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Vecchiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Vecchiano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vecchiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Vecchiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Vecchiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Vecchiano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.vecchiano.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.vecchiano.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.vecchiano.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.vecchiano.pi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

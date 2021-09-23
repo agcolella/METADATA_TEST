@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxcb338e5b-86d1-becc-dd21-f2cde209d5e2" entityID="https://sit-spid.comune.pistoia.it/metadata/pistoia-spid-sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxcb338e5b-86d1-becc-dd21-f2cde209d5e2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>yq6AGhdnACNTr+1TazdwJt8nPMdpi4oalLQeVYHjEJA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+P7KAA8LV6WSyK0bOdV1opHVV+GPJ5NwutQC9hWD+6RCiKaXKlBIFY/LZOax1iLlEzYmZ2UKBJ3go
+DtsNB3cDa8sixh2tEnYqBPn5+p4k/tcHmctuP4LgIsJcNJbi8sgIpHPzw2K/ZpE7DXfUYqM9bv4c
+6cayBFr0eFomLkFIDCrgkST5DH9xxqMBqtYddbINQUKVm6+xWK/4DC03Mz+yzARr547SGtAjdzle
+PkiTCak39rxakNv+Mu3MYR3mgSpEDThVyk2VjOs9O1cM1s58dGDuj5pKqXOmHMxFBl8FqdLbeHV7
+ZJ7WmzhjYxDBeyVt9W6zqLb3PBK72jX48WSpkw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3bloTGhah6ddWBCvY+SRnIrg/gz74WQ7NoapiyEdIXd42QoFbgubsm+8uzdBO96cExf4n+prv4zM
+Yv1jcTJy53d6X1t3UxA2KwfxQxMrPgj+ral9T0yHBxpOW3BxQlRJfE4UmULDsQW1+QfRChWgMBKk
+QGyq6v00BTRc6Je+bV4jOSXoFOBz/ZG5y0J/SP1Oq7rkSehyi+PnTR4Y6sxZkz6MwIVDYtAG4srm
+xvfmNXM/neJZk0s3qdLwDnGiNfE2UpnXrDisQl2LuX7gLne88aZFl+qpuzFNctjOXlohcGmB2wGj
+zrUNy0d9yjCp1wd2/1Khl/3r9bfbvLlWHCPu2w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJALxDyP/sQiDiMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUucGlzdG9pYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMTAyMTEy
+MzM1WhcNMjgxMjMwMTEyMzM1WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnBpc3RvaWEuaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+3bloTGhah6ddWBCvY+SRnIrg/gz74WQ7NoapiyEdIXd42QoFbgubsm+8uzdBO96cExf4n+prv4zM
+Yv1jcTJy53d6X1t3UxA2KwfxQxMrPgj+ral9T0yHBxpOW3BxQlRJfE4UmULDsQW1+QfRChWgMBKk
+QGyq6v00BTRc6Je+bV4jOSXoFOBz/ZG5y0J/SP1Oq7rkSehyi+PnTR4Y6sxZkz6MwIVDYtAG4srm
+xvfmNXM/neJZk0s3qdLwDnGiNfE2UpnXrDisQl2LuX7gLne88aZFl+qpuzFNctjOXlohcGmB2wGj
+zrUNy0d9yjCp1wd2/1Khl/3r9bfbvLlWHCPu2wIDAQABo1AwTjAdBgNVHQ4EFgQUY+oW8POTIA5C
+tVddodNfgvrkFOkwHwYDVR0jBBgwFoAUY+oW8POTIA5CtVddodNfgvrkFOkwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAR/keeOYfTC3u+i71GJKYQnbt3fzZzWm+5fuFl8FeLFEPuAiI
+RTn/wMtnPhhrG8A7LC5J4K6xoAi0A56IQDtwuJb5gEIYvK8mgT3uJqVfPoq4hplKwHYr/RpxUj2E
+rjPsOtHRoCgOGmc5ODEa5U0XDq0PJUA4gxROdFMZCD8GpulS5TF1OiX5jisRdH6K9PWcOyANBYEE
+TplcihluIrTm8gSxOyQ5Hk6NgYq0g1E3M7pjrTeNGgTFZZ2OFCGEZMMl+kw4nj7G1nQWCH/nMhpr
+IBDzSfMT2KbMpGHbGHkeD+ZeSlHujiDAy4mMgN4u9q/Xf6kJuijmJys/cJmNVdq4Ug==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJALxDyP/sQiDiMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUucGlzdG9pYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMTAyMTEyMzM1WhcNMjgxMjMwMTEyMzM1WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnBpc3RvaWEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3bloTGhah6ddWBCvY+SRnIrg/gz74WQ7NoapiyEdIXd42QoFbgubsm+8uzdBO96cExf4n+prv4zMYv1jcTJy53d6X1t3UxA2KwfxQxMrPgj+ral9T0yHBxpOW3BxQlRJfE4UmULDsQW1+QfRChWgMBKkQGyq6v00BTRc6Je+bV4jOSXoFOBz/ZG5y0J/SP1Oq7rkSehyi+PnTR4Y6sxZkz6MwIVDYtAG4srmxvfmNXM/neJZk0s3qdLwDnGiNfE2UpnXrDisQl2LuX7gLne88aZFl+qpuzFNctjOXlohcGmB2wGjzrUNy0d9yjCp1wd2/1Khl/3r9bfbvLlWHCPu2wIDAQABo1AwTjAdBgNVHQ4EFgQUY+oW8POTIA5CtVddodNfgvrkFOkwHwYDVR0jBBgwFoAUY+oW8POTIA5CtVddodNfgvrkFOkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAR/keeOYfTC3u+i71GJKYQnbt3fzZzWm+5fuFl8FeLFEPuAiIRTn/wMtnPhhrG8A7LC5J4K6xoAi0A56IQDtwuJb5gEIYvK8mgT3uJqVfPoq4hplKwHYr/RpxUj2ErjPsOtHRoCgOGmc5ODEa5U0XDq0PJUA4gxROdFMZCD8GpulS5TF1OiX5jisRdH6K9PWcOyANBYEETplcihluIrTm8gSxOyQ5Hk6NgYq0g1E3M7pjrTeNGgTFZZ2OFCGEZMMl+kw4nj7G1nQWCH/nMhprIBDzSfMT2KbMpGHbGHkeD+ZeSlHujiDAy4mMgN4u9q/Xf6kJuijmJys/cJmNVdq4Ug==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>	
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sit-spid.comune.pistoia.it/simplesaml/module.php/saml/sp/saml2-logout.php/pistoia-cittadino-sp"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/pistoia"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sit-spid.comune.pistoia.it/simplesaml/module.php/saml/sp/saml2-acs.php/pistoia-cittadino-sp" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pistoia" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pistoia" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Consultazione Cruscotto Cittadino</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Consultazione del Cruscotto del Cittadino del Comune di Pistoia</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Consultazione del Cruscotto del Cittadino del Comune di Pistoia</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+	<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>  
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Pistoia</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Pistoia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pistoia - Accesso ai servizi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pistoia - Accesso ai servizi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.pistoia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">http://www.comune.pistoia.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

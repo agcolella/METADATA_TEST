@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icportotolle.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx68b30801-1a0b-1acf-2658-5b72d05111cd"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx68b30801-1a0b-1acf-2658-5b72d05111cd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>biGUc9yl5kxos3sN8nq9+DaVf7NCowlNNgc/TbM0yps=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>fHV7nbn4po3MO7mfPaZGp0b/Ckyf0YQuy7zs8ptMn9TLgycyY4VvnVSYQkWlhAnKkH8ImQabuZ6KHBuNvke/8S705ghps1zJBbb80/3GeKrA4ncG+ZDDOMvTY/uDFmV82w8Z4I7LIVE2MOGZo33F/ZZN0ERru4grPCkPxvfNRPx6lcpXgQb9bXGZ4SBYx+QTY2rlD2Bqx+ZAEAkhxGo6JrnHwlbLSGGR+Kh3kNhQE7+/vQG5n0m6KHW24R3KFiyq2nkaDx6nq9MR59v3tk0k2C7kqMPJ72BuerG/vfjw2kn7ktvG6XfzQRHJthR82ZlWfN8eaVvsdQT+4fdWHAYhPA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEZDCCA0ygAwIBAgIIL+QsRETwFGgwDQYJKoZIhvcNAQELBQAwgcgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xFDASBgNVBAcMC1BvcnRvIFRvbGxlMSwwKgYDVQQKDCNJc3RpdHV0byBDb21wcmVuc2l2byBkaSBQb3J0byBUb2xsZTEZMBcGA1UECwwQaXN0c2Nfcm9pYzgxMzAwbDEgMB4GA1UEAwwXd3d3LmljcG9ydG90b2xsZS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHJvaWM4MTMwMGxAaXN0cnV6aW9uZS5pdDAeFw0xODAyMDMxNzQ3MjhaFw0zODAyMDIxNzQ3MjhaMIHIMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMRQwEgYDVQQHDAtQb3J0byBUb2xsZTEsMCoGA1UECgwjSXN0aXR1dG8gQ29tcHJlbnNpdm8gZGkgUG9ydG8gVG9sbGUxGTAXBgNVBAsMEGlzdHNjX3JvaWM4MTMwMGwxIDAeBgNVBAMMF3d3dy5pY3BvcnRvdG9sbGUuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhyb2ljODEzMDBsQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC32Ehi75xegApDhKJntool6LUGxZCsvND9h2UiA+l/kJ0BjIRdibyICO4GEzDlHNZvqVJiBoxJOh12tZRbC5uh5GOphFAnGUcJXc9fbueBHj/OtnhtaL+x6rGV/uYyoq/EviV/Bx1ILf+YsXo0hdc1LWrOaNpb24PweYd6xnWBqs4nYx8uxKsro+JtoSnuoP8nq2W87BzTVQZZaL80iR8TJci+sMYgHztaFyoJgC1yejU5T0PKJHRT+ii65nHf/ecvUz4iWOuk1NjYHg1+cl+XAMrHXlmc7VZ00bnsctZUXdibskFUhKyRRHZmNFSJMyJ/Qdubew3ncT1kzBHi1HUxAgMBAAGjUDBOMB0GA1UdDgQWBBQc40MHiDN122Q7p+5NbHPkKYo5eDAfBgNVHSMEGDAWgBQc40MHiDN122Q7p+5NbHPkKYo5eDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB1IGrDwbie+bYORhuPajnbnTpbeIeWAckvc5+HMfb135HFYh88+IcHTkhj1ow08n8+vRRchI55MoH/truJw6gmN0skbrdP/N//3ta1ftsTtK7NuoXV/TyufbZUUNsj524NHLKO9RdlqLufqR+3F02Q+6XK0TmqRdUeWT2y9N9LFdUJOdzl///n/j/ts35XCbypuy1jHhPIt8cjkGGHoTSt8yPI1JdjQ0R7VqfHYTi49FQC05ZT51oZc5tiecVuUawRP0PljKd2fsJ7sJ+s5ZRrEF1XkBImsHTgIyrLQacghHMhOGxWf7P+YH0tZ4fBytARad4X27/eAY5aJSW+h0QP</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEZDCCA0ygAwIBAgIIL+QsRETwFGgwDQYJKoZIhvcNAQELBQAwgcgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xFDASBgNVBAcMC1BvcnRvIFRvbGxlMSwwKgYDVQQKDCNJc3RpdHV0byBDb21wcmVuc2l2byBkaSBQb3J0byBUb2xsZTEZMBcGA1UECwwQaXN0c2Nfcm9pYzgxMzAwbDEgMB4GA1UEAwwXd3d3LmljcG9ydG90b2xsZS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHJvaWM4MTMwMGxAaXN0cnV6aW9uZS5pdDAeFw0xODAyMDMxNzQ3MjhaFw0zODAyMDIxNzQ3MjhaMIHIMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMRQwEgYDVQQHDAtQb3J0byBUb2xsZTEsMCoGA1UECgwjSXN0aXR1dG8gQ29tcHJlbnNpdm8gZGkgUG9ydG8gVG9sbGUxGTAXBgNVBAsMEGlzdHNjX3JvaWM4MTMwMGwxIDAeBgNVBAMMF3d3dy5pY3BvcnRvdG9sbGUuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhyb2ljODEzMDBsQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC32Ehi75xegApDhKJntool6LUGxZCsvND9h2UiA+l/kJ0BjIRdibyICO4GEzDlHNZvqVJiBoxJOh12tZRbC5uh5GOphFAnGUcJXc9fbueBHj/OtnhtaL+x6rGV/uYyoq/EviV/Bx1ILf+YsXo0hdc1LWrOaNpb24PweYd6xnWBqs4nYx8uxKsro+JtoSnuoP8nq2W87BzTVQZZaL80iR8TJci+sMYgHztaFyoJgC1yejU5T0PKJHRT+ii65nHf/ecvUz4iWOuk1NjYHg1+cl+XAMrHXlmc7VZ00bnsctZUXdibskFUhKyRRHZmNFSJMyJ/Qdubew3ncT1kzBHi1HUxAgMBAAGjUDBOMB0GA1UdDgQWBBQc40MHiDN122Q7p+5NbHPkKYo5eDAfBgNVHSMEGDAWgBQc40MHiDN122Q7p+5NbHPkKYo5eDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB1IGrDwbie+bYORhuPajnbnTpbeIeWAckvc5+HMfb135HFYh88+IcHTkhj1ow08n8+vRRchI55MoH/truJw6gmN0skbrdP/N//3ta1ftsTtK7NuoXV/TyufbZUUNsj524NHLKO9RdlqLufqR+3F02Q+6XK0TmqRdUeWT2y9N9LFdUJOdzl///n/j/ts35XCbypuy1jHhPIt8cjkGGHoTSt8yPI1JdjQ0R7VqfHYTi49FQC05ZT51oZc5tiecVuUawRP0PljKd2fsJ7sJ+s5ZRrEF1XkBImsHTgIyrLQacghHMhOGxWf7P+YH0tZ4fBytARad4X27/eAY5aJSW+h0QP</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEZDCCA0ygAwIBAgIIL+QsRETwFGgwDQYJKoZIhvcNAQELBQAwgcgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xFDASBgNVBAcMC1BvcnRvIFRvbGxlMSwwKgYDVQQKDCNJc3RpdHV0byBDb21wcmVuc2l2byBkaSBQb3J0byBUb2xsZTEZMBcGA1UECwwQaXN0c2Nfcm9pYzgxMzAwbDEgMB4GA1UEAwwXd3d3LmljcG9ydG90b2xsZS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHJvaWM4MTMwMGxAaXN0cnV6aW9uZS5pdDAeFw0xODAyMDMxNzQ3MjhaFw0zODAyMDIxNzQ3MjhaMIHIMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMRQwEgYDVQQHDAtQb3J0byBUb2xsZTEsMCoGA1UECgwjSXN0aXR1dG8gQ29tcHJlbnNpdm8gZGkgUG9ydG8gVG9sbGUxGTAXBgNVBAsMEGlzdHNjX3JvaWM4MTMwMGwxIDAeBgNVBAMMF3d3dy5pY3BvcnRvdG9sbGUuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhyb2ljODEzMDBsQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC32Ehi75xegApDhKJntool6LUGxZCsvND9h2UiA+l/kJ0BjIRdibyICO4GEzDlHNZvqVJiBoxJOh12tZRbC5uh5GOphFAnGUcJXc9fbueBHj/OtnhtaL+x6rGV/uYyoq/EviV/Bx1ILf+YsXo0hdc1LWrOaNpb24PweYd6xnWBqs4nYx8uxKsro+JtoSnuoP8nq2W87BzTVQZZaL80iR8TJci+sMYgHztaFyoJgC1yejU5T0PKJHRT+ii65nHf/ecvUz4iWOuk1NjYHg1+cl+XAMrHXlmc7VZ00bnsctZUXdibskFUhKyRRHZmNFSJMyJ/Qdubew3ncT1kzBHi1HUxAgMBAAGjUDBOMB0GA1UdDgQWBBQc40MHiDN122Q7p+5NbHPkKYo5eDAfBgNVHSMEGDAWgBQc40MHiDN122Q7p+5NbHPkKYo5eDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB1IGrDwbie+bYORhuPajnbnTpbeIeWAckvc5+HMfb135HFYh88+IcHTkhj1ow08n8+vRRchI55MoH/truJw6gmN0skbrdP/N//3ta1ftsTtK7NuoXV/TyufbZUUNsj524NHLKO9RdlqLufqR+3F02Q+6XK0TmqRdUeWT2y9N9LFdUJOdzl///n/j/ts35XCbypuy1jHhPIt8cjkGGHoTSt8yPI1JdjQ0R7VqfHYTi49FQC05ZT51oZc5tiecVuUawRP0PljKd2fsJ7sJ+s5ZRrEF1XkBImsHTgIyrLQacghHMhOGxWf7P+YH0tZ4fBytARad4X27/eAY5aJSW+h0QP</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icportotolle.gov.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icportotolle.gov.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ic_portotolle</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istituto Comprensivo di Porto Tolle / Porto Tolle (Rovigo)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo di Porto Tolle / Porto Tolle</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo di Porto Tolle / Porto Tolle</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icportotolle.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

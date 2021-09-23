@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx43ada68c-2417-b23d-d19a-117722ed74e6" entityID="https://servizionline.comune.coseano.ud.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx43ada68c-2417-b23d-d19a-117722ed74e6">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hLuJj1N6ypnVRhq3usByqGI+qf2l6bRBEz8c2AKYOyA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kfFSU3KE6dUHUMVGV7Kl44eeUeGBJpZ1Poe0qPjqVaKY2DVx0lHnXhgM6fT1yLd/movdmDXF+fjy
+S4Wh+hCouKRXDhQgZC6ojwL1K7tJXN2bnGK1JZV1JdvjN15S2WDec+lN4g/BcCzvfpcMjUJZaSTA
+1t3bK5Tf1NeC+0rYOboXmGcOIK/p6orYhfChrMtYenOQ5CaDlUcFti6MOJ84amTQJ+IOILiWThGk
+A4sckD/VGnbsKdrk4Kc0bJB88eUnZOrfgxY2rfjXKkgS4ZoycoDXUMK6p5n/IeFnxM+/ofQjHuvv
+Jid9PdnJe/TMY19j/jRebBlqSHizbAe+ls7x1A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wx7upsDKCrzMiv7HphBN3bua5KPmvRtm8JZhcCNoU79N1g5GDYSckrJaK/HjJ3xtOFR+rCk5iYwu
++IY0Pztl3/bQbBxWArBvtxUnq1rjVzlELsoDm0VXkd3W18UKPPQQFAeIQRpv4AIEI9xrYPuhvTGb
+T4bCuDHAgLjatDBiRRg2bCS1BHgqs4tiGnjdAYtsbOQXfcBzhLmHGnOLnSTAatqHT6RI64Ua27PX
+Zy3C9m+NEIkJhfC7TEwcurb4vQ7Cqig1tn5AbyOuQHNQuhS+Cpodo7N6mkABEChOeXiji/1blY33
+m4AnTj+30o4fYm0OVSNwDhcOrQWxBykGgtumww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIJALtWU7PbzhvjMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29zZWFubzEaMBgGA1UECgwRQ29tdW5lIGRpIENvc2Vh
+bm8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmNvc2Vhbm8udWQuaXQwHhcNMTgwOTI0
+MDgwNDU3WhcNMjgwOTIzMDgwNDU3WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAO
+BgNVBAcMB0Nvc2Vhbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBDb3NlYW5vMSswKQYDVQQDDCJzZXJ2
+aXppb25saW5lLmNvbXVuZS5jb3NlYW5vLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAwx7upsDKCrzMiv7HphBN3bua5KPmvRtm8JZhcCNoU79N1g5GDYSckrJaK/HjJ3xtOFR+
+rCk5iYwu+IY0Pztl3/bQbBxWArBvtxUnq1rjVzlELsoDm0VXkd3W18UKPPQQFAeIQRpv4AIEI9xr
+YPuhvTGbT4bCuDHAgLjatDBiRRg2bCS1BHgqs4tiGnjdAYtsbOQXfcBzhLmHGnOLnSTAatqHT6RI
+64Ua27PXZy3C9m+NEIkJhfC7TEwcurb4vQ7Cqig1tn5AbyOuQHNQuhS+Cpodo7N6mkABEChOeXij
+i/1blY33m4AnTj+30o4fYm0OVSNwDhcOrQWxBykGgtumwwIDAQABo1AwTjAdBgNVHQ4EFgQUDtpR
+uVnyYcXGaZ4R+6ayK4uwWcAwHwYDVR0jBBgwFoAUDtpRuVnyYcXGaZ4R+6ayK4uwWcAwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAajgWa0u0PR6ezwjt3S9n5YaNtXRnHfqrK4zOhQo0
+yxvzVL93Yb7++Tbjff5ENa7FUroYbwXvTzlPiEEO0Hk2SO1mp/NK8NmUHi+cZvUKwAGwdz/bKaki
+Y2pajPAdIqE1UGyqMYGADyGyF6MEFLE0n3y5U5QRWcBbPlk3dBCRWBB7dVUlhL2UjE3Kb4XY8C9X
+GEq+AuxcZVn4RiZPRSSwF6iYemET2QFZivrVkW9Xiqdbf8l0JF6QYTlvzni40jrvi+ZXArSMjFSB
+917RowlpHwSTIZYfbpOXR0TSuncR783axhZe4vY0/QCAC2wLy57u92CKVMv/lnha6Uw9MPQzNg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJALtWU7PbzhvjMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29zZWFubzEaMBgGA1UECgwRQ29tdW5lIGRpIENvc2Vhbm8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmNvc2Vhbm8udWQuaXQwHhcNMTgwOTI0MDgwNDU3WhcNMjgwOTIzMDgwNDU3WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0Nvc2Vhbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBDb3NlYW5vMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5jb3NlYW5vLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwx7upsDKCrzMiv7HphBN3bua5KPmvRtm8JZhcCNoU79N1g5GDYSckrJaK/HjJ3xtOFR+rCk5iYwu+IY0Pztl3/bQbBxWArBvtxUnq1rjVzlELsoDm0VXkd3W18UKPPQQFAeIQRpv4AIEI9xrYPuhvTGbT4bCuDHAgLjatDBiRRg2bCS1BHgqs4tiGnjdAYtsbOQXfcBzhLmHGnOLnSTAatqHT6RI64Ua27PXZy3C9m+NEIkJhfC7TEwcurb4vQ7Cqig1tn5AbyOuQHNQuhS+Cpodo7N6mkABEChOeXiji/1blY33m4AnTj+30o4fYm0OVSNwDhcOrQWxBykGgtumwwIDAQABo1AwTjAdBgNVHQ4EFgQUDtpRuVnyYcXGaZ4R+6ayK4uwWcAwHwYDVR0jBBgwFoAUDtpRuVnyYcXGaZ4R+6ayK4uwWcAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAajgWa0u0PR6ezwjt3S9n5YaNtXRnHfqrK4zOhQo0yxvzVL93Yb7++Tbjff5ENa7FUroYbwXvTzlPiEEO0Hk2SO1mp/NK8NmUHi+cZvUKwAGwdz/bKakiY2pajPAdIqE1UGyqMYGADyGyF6MEFLE0n3y5U5QRWcBbPlk3dBCRWBB7dVUlhL2UjE3Kb4XY8C9XGEq+AuxcZVn4RiZPRSSwF6iYemET2QFZivrVkW9Xiqdbf8l0JF6QYTlvzni40jrvi+ZXArSMjFSB917RowlpHwSTIZYfbpOXR0TSuncR783axhZe4vY0/QCAC2wLy57u92CKVMv/lnha6Uw9MPQzNg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJALtWU7PbzhvjMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29zZWFubzEaMBgGA1UECgwRQ29tdW5lIGRpIENvc2Vhbm8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmNvc2Vhbm8udWQuaXQwHhcNMTgwOTI0MDgwNDU3WhcNMjgwOTIzMDgwNDU3WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0Nvc2Vhbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBDb3NlYW5vMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5jb3NlYW5vLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwx7upsDKCrzMiv7HphBN3bua5KPmvRtm8JZhcCNoU79N1g5GDYSckrJaK/HjJ3xtOFR+rCk5iYwu+IY0Pztl3/bQbBxWArBvtxUnq1rjVzlELsoDm0VXkd3W18UKPPQQFAeIQRpv4AIEI9xrYPuhvTGbT4bCuDHAgLjatDBiRRg2bCS1BHgqs4tiGnjdAYtsbOQXfcBzhLmHGnOLnSTAatqHT6RI64Ua27PXZy3C9m+NEIkJhfC7TEwcurb4vQ7Cqig1tn5AbyOuQHNQuhS+Cpodo7N6mkABEChOeXiji/1blY33m4AnTj+30o4fYm0OVSNwDhcOrQWxBykGgtumwwIDAQABo1AwTjAdBgNVHQ4EFgQUDtpRuVnyYcXGaZ4R+6ayK4uwWcAwHwYDVR0jBBgwFoAUDtpRuVnyYcXGaZ4R+6ayK4uwWcAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAajgWa0u0PR6ezwjt3S9n5YaNtXRnHfqrK4zOhQo0yxvzVL93Yb7++Tbjff5ENa7FUroYbwXvTzlPiEEO0Hk2SO1mp/NK8NmUHi+cZvUKwAGwdz/bKakiY2pajPAdIqE1UGyqMYGADyGyF6MEFLE0n3y5U5QRWcBbPlk3dBCRWBB7dVUlhL2UjE3Kb4XY8C9XGEq+AuxcZVn4RiZPRSSwF6iYemET2QFZivrVkW9Xiqdbf8l0JF6QYTlvzni40jrvi+ZXArSMjFSB917RowlpHwSTIZYfbpOXR0TSuncR783axhZe4vY0/QCAC2wLy57u92CKVMv/lnha6Uw9MPQzNg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.coseano.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.coseano.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Coseano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Coseano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.coseano.ud.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

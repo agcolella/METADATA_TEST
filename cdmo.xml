@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Montalcino" entityID="https://www.comunedimontalcino.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Montalcino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0XWt0TPaiA4mZPNyVwnErHT99GyXfw5zIIj/DeoVkDI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RTfe3RCcNxD6r0Dji5ZIMCjxjaJ6S53jetZoGc3oUA0jUnwqE6DZ5XC23Qam1jo/9kT+5jWt6LY7
+8MN1qF8T6bKgdDSRx+xAvvJEjMbDKfykgAqqGsf+SRVMsis10mSnCTGw/ziczR8EAsMxPko6DX0/
+XuGDmbnKMKXkThtd+hwGKNY7m0Dma5fZ6BOeJ3XXGa5fMyPqAT2I0RknHpBd1XmhnW4yWxYSQjRl
+InP112R8oVQKRLHlxoxbcmjxRx1Vp5wcbfpOmLTpIzwU33pVF3t6U09TVAs+bpcbJldiU9JQ4WGa
+WaHGgbFAzIjecWpvMUW63PK36LrjNSHRCk97GQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4SR1NxTkgleIyQN+EO5BOqIwWu6GmAg1hlfO4XvmDjJOQMUT8gDfWOSAmw8AltWYVYLOR86g7RAy
+LZ+jXEZLVZHTAOn08EPcUlbW97hUzfY4CvggtHskPYyDDFlhURe7Tzf4ocH7IF7+I3CO69j43kdv
+9iPJH0ZTyKPPydQXnggFIYmbQ+EYXgAxJ7KOVuxCMjAcIay7y2MuP26PbPEsmTjKOLC3SZ5c9wLs
+AuI4GhapxeJ7LN9WF4Y6luGfL3HjbbW/S3TkGrHk5RjuUSFYtnThWAyIHIdhQPR/KBWQhzpJa6Pm
+78w2fsfafVwL7zSrGLDy+u0pok6MHaNrDn2AGw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWzCCAkOgAwIBAgIJAPeoCR6ZbmdiMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5j
+b211bmVkaW1vbnRhbGNpbm8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0x
+OTA3MjMwODEzNTRaFw0yOTA3MjAwODEzNTRaMEQxJjAkBgNVBAMMHXd3dy5jb211bmVkaW1vbnRh
+bGNpbm8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAOEkdTcU5IJXiMkDfhDuQTqiMFruhpgINYZXzuF75g4yTkDFE/IA31jk
+gJsPAJbVmFWCzkfOoO0QMi2fo1xGS1WR0wDp9PBD3FJW1ve4VM32OAr4ILR7JD2MgwxZYVEXu083
++KHB+yBe/iNwjuvY+N5Hb/YjyR9GU8ijz8nUF54IBSGJm0PhGF4AMSeyjlbsQjIwHCGsu8tjLj9u
+j2zxLJk4yjiwt0meXPcC7ALiOBoWqcXieyzfVheGOpbhny9x4221v0t05Bqx5OUY7lEhWLZ04VgM
+iByHYUD0fygVkIc6SWuj5u/MNn7H2n1cC+80qxiw8vrtKaJOjB2jaw59gBsCAwEAAaNQME4wHQYD
+VR0OBBYEFJaDRDkIeCtzfRF9w1M1z8OaI+5tMB8GA1UdIwQYMBaAFJaDRDkIeCtzfRF9w1M1z8Oa
+I+5tMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJnQvRqVEzLqWryHbIKJy3DC05xx
+P2kkuXl4YADEZphE1cmyeu7K4HuOvAScGnpUyU2cW1CXZHBjVOj+wCaYpvvl3rsCKqACpMX5S4CM
+Xd+/KAmTgaFN8NTgbe/Xuzgpk4mou0XZLpF8yfCwdTWMC0L2QCBhHgAfSA6rt0+FUx0VAhvCtBlQ
+A+MAORfZ2MxH4tEaIevtTN3bCEgpQzkppH6jyS6wbGD68cS7bEXHXAxQ2avo5pA8qJgqmbIVL0DA
+sXv6Pj+FMMf7tjjNwMDz5u0EFGwLNbrE4f804ILarzuQgI9GO0F5P9HZzKiJxz5AnNt8xJHaN9Qj
+JrOmWE3M4bM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWzCCAkOgAwIBAgIJAPeoCR6ZbmdiMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5jb211bmVkaW1vbnRhbGNpbm8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MjMwODEzNTRaFw0yOTA3MjAwODEzNTRaMEQxJjAkBgNVBAMMHXd3dy5jb211bmVkaW1vbnRhbGNpbm8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOEkdTcU5IJXiMkDfhDuQTqiMFruhpgINYZXzuF75g4yTkDFE/IA31jkgJsPAJbVmFWCzkfOoO0QMi2fo1xGS1WR0wDp9PBD3FJW1ve4VM32OAr4ILR7JD2MgwxZYVEXu083+KHB+yBe/iNwjuvY+N5Hb/YjyR9GU8ijz8nUF54IBSGJm0PhGF4AMSeyjlbsQjIwHCGsu8tjLj9uj2zxLJk4yjiwt0meXPcC7ALiOBoWqcXieyzfVheGOpbhny9x4221v0t05Bqx5OUY7lEhWLZ04VgMiByHYUD0fygVkIc6SWuj5u/MNn7H2n1cC+80qxiw8vrtKaJOjB2jaw59gBsCAwEAAaNQME4wHQYDVR0OBBYEFJaDRDkIeCtzfRF9w1M1z8OaI+5tMB8GA1UdIwQYMBaAFJaDRDkIeCtzfRF9w1M1z8OaI+5tMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJnQvRqVEzLqWryHbIKJy3DC05xxP2kkuXl4YADEZphE1cmyeu7K4HuOvAScGnpUyU2cW1CXZHBjVOj+wCaYpvvl3rsCKqACpMX5S4CMXd+/KAmTgaFN8NTgbe/Xuzgpk4mou0XZLpF8yfCwdTWMC0L2QCBhHgAfSA6rt0+FUx0VAhvCtBlQA+MAORfZ2MxH4tEaIevtTN3bCEgpQzkppH6jyS6wbGD68cS7bEXHXAxQ2avo5pA8qJgqmbIVL0DAsXv6Pj+FMMf7tjjNwMDz5u0EFGwLNbrE4f804ILarzuQgI9GO0F5P9HZzKiJxz5AnNt8xJHaN9QjJrOmWE3M4bM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWzCCAkOgAwIBAgIJAPeoCR6ZbmdiMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5jb211bmVkaW1vbnRhbGNpbm8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MjMwODEzNTRaFw0yOTA3MjAwODEzNTRaMEQxJjAkBgNVBAMMHXd3dy5jb211bmVkaW1vbnRhbGNpbm8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOEkdTcU5IJXiMkDfhDuQTqiMFruhpgINYZXzuF75g4yTkDFE/IA31jkgJsPAJbVmFWCzkfOoO0QMi2fo1xGS1WR0wDp9PBD3FJW1ve4VM32OAr4ILR7JD2MgwxZYVEXu083+KHB+yBe/iNwjuvY+N5Hb/YjyR9GU8ijz8nUF54IBSGJm0PhGF4AMSeyjlbsQjIwHCGsu8tjLj9uj2zxLJk4yjiwt0meXPcC7ALiOBoWqcXieyzfVheGOpbhny9x4221v0t05Bqx5OUY7lEhWLZ04VgMiByHYUD0fygVkIc6SWuj5u/MNn7H2n1cC+80qxiw8vrtKaJOjB2jaw59gBsCAwEAAaNQME4wHQYDVR0OBBYEFJaDRDkIeCtzfRF9w1M1z8OaI+5tMB8GA1UdIwQYMBaAFJaDRDkIeCtzfRF9w1M1z8OaI+5tMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJnQvRqVEzLqWryHbIKJy3DC05xxP2kkuXl4YADEZphE1cmyeu7K4HuOvAScGnpUyU2cW1CXZHBjVOj+wCaYpvvl3rsCKqACpMX5S4CMXd+/KAmTgaFN8NTgbe/Xuzgpk4mou0XZLpF8yfCwdTWMC0L2QCBhHgAfSA6rt0+FUx0VAhvCtBlQA+MAORfZ2MxH4tEaIevtTN3bCEgpQzkppH6jyS6wbGD68cS7bEXHXAxQ2avo5pA8qJgqmbIVL0DAsXv6Pj+FMMf7tjjNwMDz5u0EFGwLNbrE4f804ILarzuQgI9GO0F5P9HZzKiJxz5AnNt8xJHaN9QjJrOmWE3M4bM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montalcino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montalcino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montalcino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montalcino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montalcino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Montalcino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Montalcino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Montalcino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montalcino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Montalcino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Montalcino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Montalcino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comunedimontalcino.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comunedimontalcino.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comunedimontalcino.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comunedimontalcino.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

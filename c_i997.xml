@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.suisio.bg.it/" ID="_0cfab38478a2c45e80c18f14dd61ac603ad7ee781f849fadee1e72ce977428a5"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_0cfab38478a2c45e80c18f14dd61ac603ad7ee781f849fadee1e72ce977428a5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>YYcMktknmtSjcYQe/e/929hKNJ9yImAlL9JVT0jmEsI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Z0PXnNmOBeLISFz6LkYq9i1RpG5b9ocghdWLboPu2vY+p8ctS+yUnGuM4RRcxOW6plqYUufD/CCqMYFf+ZiZWNrYQuxwDhNN+Za3yu6QMpguBh6KT6N9bVkoymB8Meh9+4glLH8GjdEcAXrjP9B005DJlVtm/Vrh1RUQDQZbWDByayvaw1qsLiDrRR1U8R1UTNAt6FVIgrfNbBwxumVrxHwaaurB5YWXfUu4t81bmZZ38Jes5zj9ciQuxJViNRskPmAygybvvFIR+i8hS5ikSlLAMlTYbl3KTEr+CyxYa477NjojgSSD8M0ZP9WCkVFUZA2mSITZwBNFppoZwRBEfw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEEDCCAvigAwIBAgIJANHGRy9v9XgsMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEPMA0GA1UEBwwGU3Vpc2lvMRkwFwYDVQQKDBBDb211bmUgZGkgU3Vpc2lvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc3Vpc2lvLmJnLml0MB4XDTIwMDMyNzEwMzUwNFoXDTMwMDMyNTEwMzUwNFowgZwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMQ8wDQYDVQQHDAZTdWlzaW8xGTAXBgNVBAoMEENvbXVuZSBkaSBTdWlzaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zdWlzaW8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+kWruqc4nmiOM8RjBJVL1f95o33vllDvGP/5I0SyfWP0uNZF96l7ftXWLZKqarsnf69spJaelI1GCC3nG0aptHb86Pa+1uE8s/o86hWkc/h+63RXzrVUel697WEkd9ouyIQmQbSYymw+nYRt7c3RHHIqmjL8BlP9C/WJwHsDgHCnRGboJepBQIXCpWplllNEIYyu2mLy63F2ma2YthCWzNfhPEe9GghNsBM2BNH/0MYOrolEPNRYKHIyvvlsXXmcjCvSkWwTH/bTHLLUt6/e59QrCPfGwQZgY+IqnqXzMm7nEnHIn/8g6JnKZwyuka9Hk02FEHcKJTGvjdt4fSuwjAgMBAAGjUzBRMB0GA1UdDgQWBBSYttPbuHnlhNCi6UNWw6896cT5qTAfBgNVHSMEGDAWgBSYttPbuHnlhNCi6UNWw6896cT5qTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBkJPHbVf84BQtvHmMsxPSh42ff1tF0azimbEJJmtAyrYjI1dG5IQTE6kJwhZ0PnuoOc3ckH/iIE4Q10Qt3xHbfk3BXs8qR7dedW25dequD+hDcQOhSFw6GYpd0Q6VkNtxKxJqTDG5xJLI5Pd7sjPMsOSrrp6BWTvA032d7Iszu4DAa3emFP/cHlu3hhKlgNypAP1UrondSj1krcPoGjjNqzn+THeh/iTGzWy8QMwrvB7iFOZFwVJQrDwHODSjHiDFmMJ4TDRZaoaRlfOKa3bJuTDQfX1dP1XHVES18d+1fI2td2z+okoAwMPEqQagTxxBCOICbFvRY6a1iFfY2R/Pb</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEDCCAvigAwIBAgIJANHGRy9v9XgsMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEPMA0GA1UEBwwGU3Vpc2lvMRkwFwYDVQQKDBBDb211bmUgZGkgU3Vpc2lvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc3Vpc2lvLmJnLml0MB4XDTIwMDMyNzEwMzUwNFoXDTMwMDMyNTEwMzUwNFowgZwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMQ8wDQYDVQQHDAZTdWlzaW8xGTAXBgNVBAoMEENvbXVuZSBkaSBTdWlzaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zdWlzaW8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+kWruqc4nmiOM8RjBJVL1f95o33vllDvGP/5I0SyfWP0uNZF96l7ftXWLZKqarsnf69spJaelI1GCC3nG0aptHb86Pa+1uE8s/o86hWkc/h+63RXzrVUel697WEkd9ouyIQmQbSYymw+nYRt7c3RHHIqmjL8BlP9C/WJwHsDgHCnRGboJepBQIXCpWplllNEIYyu2mLy63F2ma2YthCWzNfhPEe9GghNsBM2BNH/0MYOrolEPNRYKHIyvvlsXXmcjCvSkWwTH/bTHLLUt6/e59QrCPfGwQZgY+IqnqXzMm7nEnHIn/8g6JnKZwyuka9Hk02FEHcKJTGvjdt4fSuwjAgMBAAGjUzBRMB0GA1UdDgQWBBSYttPbuHnlhNCi6UNWw6896cT5qTAfBgNVHSMEGDAWgBSYttPbuHnlhNCi6UNWw6896cT5qTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBkJPHbVf84BQtvHmMsxPSh42ff1tF0azimbEJJmtAyrYjI1dG5IQTE6kJwhZ0PnuoOc3ckH/iIE4Q10Qt3xHbfk3BXs8qR7dedW25dequD+hDcQOhSFw6GYpd0Q6VkNtxKxJqTDG5xJLI5Pd7sjPMsOSrrp6BWTvA032d7Iszu4DAa3emFP/cHlu3hhKlgNypAP1UrondSj1krcPoGjjNqzn+THeh/iTGzWy8QMwrvB7iFOZFwVJQrDwHODSjHiDFmMJ4TDRZaoaRlfOKa3bJuTDQfX1dP1XHVES18d+1fI2td2z+okoAwMPEqQagTxxBCOICbFvRY6a1iFfY2R/Pb</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEDCCAvigAwIBAgIJANHGRy9v9XgsMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEPMA0GA1UEBwwGU3Vpc2lvMRkwFwYDVQQKDBBDb211bmUgZGkgU3Vpc2lvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc3Vpc2lvLmJnLml0MB4XDTIwMDMyNzEwMzUwNFoXDTMwMDMyNTEwMzUwNFowgZwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMQ8wDQYDVQQHDAZTdWlzaW8xGTAXBgNVBAoMEENvbXVuZSBkaSBTdWlzaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zdWlzaW8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+kWruqc4nmiOM8RjBJVL1f95o33vllDvGP/5I0SyfWP0uNZF96l7ftXWLZKqarsnf69spJaelI1GCC3nG0aptHb86Pa+1uE8s/o86hWkc/h+63RXzrVUel697WEkd9ouyIQmQbSYymw+nYRt7c3RHHIqmjL8BlP9C/WJwHsDgHCnRGboJepBQIXCpWplllNEIYyu2mLy63F2ma2YthCWzNfhPEe9GghNsBM2BNH/0MYOrolEPNRYKHIyvvlsXXmcjCvSkWwTH/bTHLLUt6/e59QrCPfGwQZgY+IqnqXzMm7nEnHIn/8g6JnKZwyuka9Hk02FEHcKJTGvjdt4fSuwjAgMBAAGjUzBRMB0GA1UdDgQWBBSYttPbuHnlhNCi6UNWw6896cT5qTAfBgNVHSMEGDAWgBSYttPbuHnlhNCi6UNWw6896cT5qTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBkJPHbVf84BQtvHmMsxPSh42ff1tF0azimbEJJmtAyrYjI1dG5IQTE6kJwhZ0PnuoOc3ckH/iIE4Q10Qt3xHbfk3BXs8qR7dedW25dequD+hDcQOhSFw6GYpd0Q6VkNtxKxJqTDG5xJLI5Pd7sjPMsOSrrp6BWTvA032d7Iszu4DAa3emFP/cHlu3hhKlgNypAP1UrondSj1krcPoGjjNqzn+THeh/iTGzWy8QMwrvB7iFOZFwVJQrDwHODSjHiDFmMJ4TDRZaoaRlfOKa3bJuTDQfX1dP1XHVES18d+1fI2td2z+okoAwMPEqQagTxxBCOICbFvRY6a1iFfY2R/Pb</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.suisio.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.suisio.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_i997</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_i997</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Suisio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Suisio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.suisio.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.suisio.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

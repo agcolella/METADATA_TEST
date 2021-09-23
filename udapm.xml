@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://procedimenti.atocittametropolitanadimilano.it/simplesaml/module.php/saml/sp/metadata.php/ato-sp" ID="pfx4abaaff9-9132-93ec-8214-49917710c170"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx4abaaff9-9132-93ec-8214-49917710c170"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>e7vB/0vpVZvE9qH/Nl9G2z+vtoHI/7yj+qUG2pRVtwA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>HQ6T++8oi3+wa5lyivAbtUkNbMQr1lG62Z1Lsi+Fmd5seL1wAs4UZLxasxqQ77fwkQhaMzCtFKfgXB+JEueTN1cxLPwY7s96QZuagraRlltfFPx/Uwbb+1Rocxk1Mp4VD3uFlo4bGv0wpQNgEb0eFIu4hRVrFlcKU1KJRsg+TM88NADW/wXUlPvErkWpfeuY+iXQB3zguvBUXGhQhSPw9mCOEXsA5TZ8B/TUgdFipbelyc0SmkMcsoM6DjZVpZdQl6gbgK/9O0ZXGpk3tMODBLmC18+x9BuaXsrUiK5QhqAdMRsEbgvcmZagk5nR1gkhzIktr0WBoyIJcvP3Szdzcw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAPgD3HK912f/MA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMQ8wDQYDVQQHDAZNaWxhbm8xDDAKBgNVBAoMA0FUTzEMMAoGA1UECwwDQVRPMTYwNAYDVQQDDC1wcm9jZWRpbWVudGkuYXRvY2l0dGFtZXRyb3BvbGl0YW5hZGltaWxhbm8uaXQwHhcNMTYxMjEyMDkwMzU2WhcNMjYxMjEyMDkwMzU2WjCBhjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUxvbWJhcmRpYTEPMA0GA1UEBwwGTWlsYW5vMQwwCgYDVQQKDANBVE8xDDAKBgNVBAsMA0FUTzE2MDQGA1UEAwwtcHJvY2VkaW1lbnRpLmF0b2NpdHRhbWV0cm9wb2xpdGFuYWRpbWlsYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ZhwQrGQWWx5S29dcT4RNiI12ZepxIHCZ9TR+QJeoKJppunv8UDZOv2SaElpleT3RJzKndStyxM2RKDK2CJCjmW1URsQVVybLzCVtOsYLGC+fQ56+7ANNH51Z5mHOp4bEGSYB2uWMYcpsGhuxGJ8gRcrNvkcxsSS49Xpzsra4UC5z5Ro0SKzf0GExMGCPtCbyxcpOA8N4ya/iaBnqRAFctDBo1ykIF8szNs2FKq5GCClffD6oKR2hcVzJNfQieH1Xh23FK8I1BiMRqyzS3BzhUV+8cOl5wHkGfhedvHtt3Kgh/jzphUC89FCi+F8PjxD2o3TFjPqcZd0zVo0W7Y2bwIDAQABo1AwTjAdBgNVHQ4EFgQUUvsacjR54z5HolbhE44vfhqIWSUwHwYDVR0jBBgwFoAUUvsacjR54z5HolbhE44vfhqIWSUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtpFGIkdfOjyZm+KczxvsFzzioGyZ7Z5WTev/tvv97SbYNBf/ZOGUN8PSXMQ3FCCBZ3+Qp9clQ+b2++X+pxCA0wBhYbnBz1cTtE1VGV9WkMOzSaPqx1hYOoHdZ6ZuJAC9Iw6SBTjPy5riB5yEUVBqPA4+1SptMvJFZNQgMP794P1Sw1o0hGW/9PUgNb68dws/a/OTxyl+LGgTBymlT2Jy2es2wYb2vfkzEsa7JFpawPbVME2gOsBpUga0Wbxb27Oz9EJ+J6mIgbLw388Yw4q3PXZCoJuwrhBXQ28FDOMDg08eLUUfcWtiQqnMpQb11luTmEi0NuE/GmVYOCjDlgfdcw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAPgD3HK912f/MA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMQ8wDQYDVQQHDAZNaWxhbm8xDDAKBgNVBAoMA0FUTzEMMAoGA1UECwwDQVRPMTYwNAYDVQQDDC1wcm9jZWRpbWVudGkuYXRvY2l0dGFtZXRyb3BvbGl0YW5hZGltaWxhbm8uaXQwHhcNMTYxMjEyMDkwMzU2WhcNMjYxMjEyMDkwMzU2WjCBhjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUxvbWJhcmRpYTEPMA0GA1UEBwwGTWlsYW5vMQwwCgYDVQQKDANBVE8xDDAKBgNVBAsMA0FUTzE2MDQGA1UEAwwtcHJvY2VkaW1lbnRpLmF0b2NpdHRhbWV0cm9wb2xpdGFuYWRpbWlsYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ZhwQrGQWWx5S29dcT4RNiI12ZepxIHCZ9TR+QJeoKJppunv8UDZOv2SaElpleT3RJzKndStyxM2RKDK2CJCjmW1URsQVVybLzCVtOsYLGC+fQ56+7ANNH51Z5mHOp4bEGSYB2uWMYcpsGhuxGJ8gRcrNvkcxsSS49Xpzsra4UC5z5Ro0SKzf0GExMGCPtCbyxcpOA8N4ya/iaBnqRAFctDBo1ykIF8szNs2FKq5GCClffD6oKR2hcVzJNfQieH1Xh23FK8I1BiMRqyzS3BzhUV+8cOl5wHkGfhedvHtt3Kgh/jzphUC89FCi+F8PjxD2o3TFjPqcZd0zVo0W7Y2bwIDAQABo1AwTjAdBgNVHQ4EFgQUUvsacjR54z5HolbhE44vfhqIWSUwHwYDVR0jBBgwFoAUUvsacjR54z5HolbhE44vfhqIWSUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtpFGIkdfOjyZm+KczxvsFzzioGyZ7Z5WTev/tvv97SbYNBf/ZOGUN8PSXMQ3FCCBZ3+Qp9clQ+b2++X+pxCA0wBhYbnBz1cTtE1VGV9WkMOzSaPqx1hYOoHdZ6ZuJAC9Iw6SBTjPy5riB5yEUVBqPA4+1SptMvJFZNQgMP794P1Sw1o0hGW/9PUgNb68dws/a/OTxyl+LGgTBymlT2Jy2es2wYb2vfkzEsa7JFpawPbVME2gOsBpUga0Wbxb27Oz9EJ+J6mIgbLw388Yw4q3PXZCoJuwrhBXQ28FDOMDg08eLUUfcWtiQqnMpQb11luTmEi0NuE/GmVYOCjDlgfdcw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAPgD3HK912f/MA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMQ8wDQYDVQQHDAZNaWxhbm8xDDAKBgNVBAoMA0FUTzEMMAoGA1UECwwDQVRPMTYwNAYDVQQDDC1wcm9jZWRpbWVudGkuYXRvY2l0dGFtZXRyb3BvbGl0YW5hZGltaWxhbm8uaXQwHhcNMTYxMjEyMDkwMzU2WhcNMjYxMjEyMDkwMzU2WjCBhjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUxvbWJhcmRpYTEPMA0GA1UEBwwGTWlsYW5vMQwwCgYDVQQKDANBVE8xDDAKBgNVBAsMA0FUTzE2MDQGA1UEAwwtcHJvY2VkaW1lbnRpLmF0b2NpdHRhbWV0cm9wb2xpdGFuYWRpbWlsYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ZhwQrGQWWx5S29dcT4RNiI12ZepxIHCZ9TR+QJeoKJppunv8UDZOv2SaElpleT3RJzKndStyxM2RKDK2CJCjmW1URsQVVybLzCVtOsYLGC+fQ56+7ANNH51Z5mHOp4bEGSYB2uWMYcpsGhuxGJ8gRcrNvkcxsSS49Xpzsra4UC5z5Ro0SKzf0GExMGCPtCbyxcpOA8N4ya/iaBnqRAFctDBo1ykIF8szNs2FKq5GCClffD6oKR2hcVzJNfQieH1Xh23FK8I1BiMRqyzS3BzhUV+8cOl5wHkGfhedvHtt3Kgh/jzphUC89FCi+F8PjxD2o3TFjPqcZd0zVo0W7Y2bwIDAQABo1AwTjAdBgNVHQ4EFgQUUvsacjR54z5HolbhE44vfhqIWSUwHwYDVR0jBBgwFoAUUvsacjR54z5HolbhE44vfhqIWSUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtpFGIkdfOjyZm+KczxvsFzzioGyZ7Z5WTev/tvv97SbYNBf/ZOGUN8PSXMQ3FCCBZ3+Qp9clQ+b2++X+pxCA0wBhYbnBz1cTtE1VGV9WkMOzSaPqx1hYOoHdZ6ZuJAC9Iw6SBTjPy5riB5yEUVBqPA4+1SptMvJFZNQgMP794P1Sw1o0hGW/9PUgNb68dws/a/OTxyl+LGgTBymlT2Jy2es2wYb2vfkzEsa7JFpawPbVME2gOsBpUga0Wbxb27Oz9EJ+J6mIgbLw388Yw4q3PXZCoJuwrhBXQ28FDOMDg08eLUUfcWtiQqnMpQb11luTmEi0NuE/GmVYOCjDlgfdcw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.atocittametropolitanadimilano.it/simplesaml/module.php/saml/sp/saml2-logout.php/ato-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.atocittametropolitanadimilano.it/simplesaml/module.php/saml/sp/saml2-acs.php/ato-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale ATO</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Portale al cittadino</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Portale al cittadino</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">ATO - Ambito Territoriale Ottimale del Ciclo Idrico Integrato</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">ATO - Ambito Territoriale Ottimale del Ciclo Idrico Integrato</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">ATO - Accesso ai servizi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">ATO - Accesso ai servizi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.atocittametropolitanadimilano.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">http://www.atocittametropolitanadimilano.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

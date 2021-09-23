@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxd52e7b56-538d-b08f-f9ec-df723f79c15f" entityID="https://www.comune.villaspeciosa.ca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxd52e7b56-538d-b08f-f9ec-df723f79c15f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>QKbZSHrSlqDToDq9QUdHpK9kvCNh/1Thb8PcKDJ4SVQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+DtEV5LTMhNJN7gNmcF+6q7RXq510RZsStoAnrVGZ7AHSU80zb1TUhiFSO7ZSDtMRb2WykcIk1SAn
+0eS2buuUr+JxFzje7XvydE9p/XOkFLdS3W2mziS4nm+QbCJ6eR3KgFfpnYqm1in7Fnd9VQqWe7RP
+BS3xBRmK1L2cnCivuB9v5HfgNvPIu6+NBAaE32NhBW3Mu4WhiSKTPfvpkSjDxePrXseYxKkL29CA
++cdZda90f6eIOIfN/D3PLfCJ2+XEtyXlq7Sv+RveWoCIgGBltRuo0EtE8Fr51o60txpvOdk+RBCb
+N3wqCCiq8YT0ZEWmjxOVDoKLV9+LYM2xqQetyQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0cNAGWgizhVnaSMXiOob5njibgVLwVPdKglmyMS7AV0p5umgOO+7tq0iztv91VbCIitVIkEkO7u2
+DQACp9tIZO7+gzBEwVYGajnj3aoNpNJJ2oAeJ93fL+QLv3kl5weADIu+1dB8yiK4CXCxZqva/kdo
+Mt0PVKIHv1hH38dnI/Z5Z88sTLwCexqT1FuqCIRFZLJXGrZU2AVYkJQ2uC58nuhdHt+2UZG8gEHq
+S48FCtPZDriTeNwDe/nheuN4RIh5SrZ8wNK4LWLuNQUYDgHse73OilpGAeL3Pds0N5sdlHry3PMa
+HWuYykYHM0dZzFSa/NCAhPnRqKqJO3i846UM4Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID1TCCAr2gAwIBAgIJAKvDaCk/9J39MA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVZpbGxhc3BlY2lvc2ExIDAeBgNVBAoMF0NvbXVuZSBk
+aSBWaWxsYXNwZWNpb3NhMScwJQYDVQQDDB53d3cuY29tdW5lLnZpbGxhc3BlY2lvc2EuY2EuaXQw
+HhcNMjAwMTIwMTY0MTA2WhcNMzAwMTE5MTY0MTA2WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgM
+BUl0YWx5MRYwFAYDVQQHDA1WaWxsYXNwZWNpb3NhMSAwHgYDVQQKDBdDb211bmUgZGkgVmlsbGFz
+cGVjaW9zYTEnMCUGA1UEAwwed3d3LmNvbXVuZS52aWxsYXNwZWNpb3NhLmNhLml0MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0cNAGWgizhVnaSMXiOob5njibgVLwVPdKglmyMS7AV0p
+5umgOO+7tq0iztv91VbCIitVIkEkO7u2DQACp9tIZO7+gzBEwVYGajnj3aoNpNJJ2oAeJ93fL+QL
+v3kl5weADIu+1dB8yiK4CXCxZqva/kdoMt0PVKIHv1hH38dnI/Z5Z88sTLwCexqT1FuqCIRFZLJX
+GrZU2AVYkJQ2uC58nuhdHt+2UZG8gEHqS48FCtPZDriTeNwDe/nheuN4RIh5SrZ8wNK4LWLuNQUY
+DgHse73OilpGAeL3Pds0N5sdlHry3PMaHWuYykYHM0dZzFSa/NCAhPnRqKqJO3i846UM4QIDAQAB
+o1AwTjAdBgNVHQ4EFgQUd/KjF3ZU8MMa8a7eBa2BBcDx/s0wHwYDVR0jBBgwFoAUd/KjF3ZU8MMa
+8a7eBa2BBcDx/s0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZxsMyMDhOID4DFfs
+ZpsBjl0mRwG8e2yU1ITy3D2pZJ7DZECPC63kBSgy6npmaUyC46/0vt0lQ7rfRN8xsuR9T8vcERdq
+VovCynaiGKgWawBr9wtMg/HhbyFsunlnMVXEHxE1Z5h/PfUpS10qobV8wWRvU8YO3PnhJNnIJcWi
+DfuK/jZj+PUABXNyt7vNpH1g7V+WNyWad+XXFammjVKumjg0DtL+vfFaR9QPEq8Lxi9ELFe5W6yg
+m20/eaxFhrLvASFmiWwFPQc2bttS60j1LG9TqCwVgA9CBEeM0rNHQKfHMEPIBmbobAY5VNJ+oRac
+fM+oRpn5FbOm0cksyo8Vig==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1TCCAr2gAwIBAgIJAKvDaCk/9J39MA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVZpbGxhc3BlY2lvc2ExIDAeBgNVBAoMF0NvbXVuZSBkaSBWaWxsYXNwZWNpb3NhMScwJQYDVQQDDB53d3cuY29tdW5lLnZpbGxhc3BlY2lvc2EuY2EuaXQwHhcNMjAwMTIwMTY0MTA2WhcNMzAwMTE5MTY0MTA2WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1WaWxsYXNwZWNpb3NhMSAwHgYDVQQKDBdDb211bmUgZGkgVmlsbGFzcGVjaW9zYTEnMCUGA1UEAwwed3d3LmNvbXVuZS52aWxsYXNwZWNpb3NhLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0cNAGWgizhVnaSMXiOob5njibgVLwVPdKglmyMS7AV0p5umgOO+7tq0iztv91VbCIitVIkEkO7u2DQACp9tIZO7+gzBEwVYGajnj3aoNpNJJ2oAeJ93fL+QLv3kl5weADIu+1dB8yiK4CXCxZqva/kdoMt0PVKIHv1hH38dnI/Z5Z88sTLwCexqT1FuqCIRFZLJXGrZU2AVYkJQ2uC58nuhdHt+2UZG8gEHqS48FCtPZDriTeNwDe/nheuN4RIh5SrZ8wNK4LWLuNQUYDgHse73OilpGAeL3Pds0N5sdlHry3PMaHWuYykYHM0dZzFSa/NCAhPnRqKqJO3i846UM4QIDAQABo1AwTjAdBgNVHQ4EFgQUd/KjF3ZU8MMa8a7eBa2BBcDx/s0wHwYDVR0jBBgwFoAUd/KjF3ZU8MMa8a7eBa2BBcDx/s0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZxsMyMDhOID4DFfsZpsBjl0mRwG8e2yU1ITy3D2pZJ7DZECPC63kBSgy6npmaUyC46/0vt0lQ7rfRN8xsuR9T8vcERdqVovCynaiGKgWawBr9wtMg/HhbyFsunlnMVXEHxE1Z5h/PfUpS10qobV8wWRvU8YO3PnhJNnIJcWiDfuK/jZj+PUABXNyt7vNpH1g7V+WNyWad+XXFammjVKumjg0DtL+vfFaR9QPEq8Lxi9ELFe5W6ygm20/eaxFhrLvASFmiWwFPQc2bttS60j1LG9TqCwVgA9CBEeM0rNHQKfHMEPIBmbobAY5VNJ+oRacfM+oRpn5FbOm0cksyo8Vig==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1TCCAr2gAwIBAgIJAKvDaCk/9J39MA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVZpbGxhc3BlY2lvc2ExIDAeBgNVBAoMF0NvbXVuZSBkaSBWaWxsYXNwZWNpb3NhMScwJQYDVQQDDB53d3cuY29tdW5lLnZpbGxhc3BlY2lvc2EuY2EuaXQwHhcNMjAwMTIwMTY0MTA2WhcNMzAwMTE5MTY0MTA2WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1WaWxsYXNwZWNpb3NhMSAwHgYDVQQKDBdDb211bmUgZGkgVmlsbGFzcGVjaW9zYTEnMCUGA1UEAwwed3d3LmNvbXVuZS52aWxsYXNwZWNpb3NhLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0cNAGWgizhVnaSMXiOob5njibgVLwVPdKglmyMS7AV0p5umgOO+7tq0iztv91VbCIitVIkEkO7u2DQACp9tIZO7+gzBEwVYGajnj3aoNpNJJ2oAeJ93fL+QLv3kl5weADIu+1dB8yiK4CXCxZqva/kdoMt0PVKIHv1hH38dnI/Z5Z88sTLwCexqT1FuqCIRFZLJXGrZU2AVYkJQ2uC58nuhdHt+2UZG8gEHqS48FCtPZDriTeNwDe/nheuN4RIh5SrZ8wNK4LWLuNQUYDgHse73OilpGAeL3Pds0N5sdlHry3PMaHWuYykYHM0dZzFSa/NCAhPnRqKqJO3i846UM4QIDAQABo1AwTjAdBgNVHQ4EFgQUd/KjF3ZU8MMa8a7eBa2BBcDx/s0wHwYDVR0jBBgwFoAUd/KjF3ZU8MMa8a7eBa2BBcDx/s0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZxsMyMDhOID4DFfsZpsBjl0mRwG8e2yU1ITy3D2pZJ7DZECPC63kBSgy6npmaUyC46/0vt0lQ7rfRN8xsuR9T8vcERdqVovCynaiGKgWawBr9wtMg/HhbyFsunlnMVXEHxE1Z5h/PfUpS10qobV8wWRvU8YO3PnhJNnIJcWiDfuK/jZj+PUABXNyt7vNpH1g7V+WNyWad+XXFammjVKumjg0DtL+vfFaR9QPEq8Lxi9ELFe5W6ygm20/eaxFhrLvASFmiWwFPQc2bttS60j1LG9TqCwVgA9CBEeM0rNHQKfHMEPIBmbobAY5VNJ+oRacfM+oRpn5FbOm0cksyo8Vig==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.villaspeciosa.ca.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.villaspeciosa.ca.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Villaspeciosa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Villaspeciosa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.villaspeciosa.ca.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

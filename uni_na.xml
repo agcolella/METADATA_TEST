@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://gateway.spid.unina.it/sp" ID="id-caacc96c-7372-4208-92f8-d2e1e1930eaf">
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#id-caacc96c-7372-4208-92f8-d2e1e1930eaf">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>p6OLq3kRCl18Qo9xTM+b8t83H4FgKQKLQbsjMEMxDnU=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>nq8rQG1pF+cn9kiJu1r4ilQ0ALjSzXYCDdI4MqMhxo6UAil9iJWPgEgOcRvraTxW
+4VL2/712q8NjGP0Su51gtpXO2SQCZp94befWKZHJO12sX5c2gSKJ5/sDOfgCVVvr
+/LeH+U3ouZjP6F261ZaJxjNQucAUr0N/B+2gJ6UGtLjt+EUhveGSX6ARinSoTp8w
+1rg4+xniOQVxeNRw8ZoJjMPaWxVUMsy7C80lQwv3fcqOhy80+TEyZCgcjP4REpXs
+FioyM/KcUT9UskiC53MpOtRjJC+8NfvfPlZx64Gw0tvn6JYvkUfxtKcrgZnZ9nvB
+u2GGCcLHpErpVqnjlS0ckQ==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIEFTCCAv2gAwIBAgIJAOysl3V3MTdJMA0GCSqGSIb3DQEBCwUAMGQxHjAcBgNV
+BAMMFWdhdGV3YXkuc3BpZC51bmluYS5pdDEVMBMGA1UECgwMd3d3LnVuaW5hLml0
+MQ0wCwYDVQQLDARzcGlkMQ8wDQYDVQQHDAZOYXBvbGkxCzAJBgNVBAYTAklUMB4X
+DTE3MTEyMTE1NTk1N1oXDTQ3MTExNDE1NTk1N1owZDEeMBwGA1UEAwwVZ2F0ZXdh
+eS5zcGlkLnVuaW5hLml0MRUwEwYDVQQKDAx3d3cudW5pbmEuaXQxDTALBgNVBAsM
+BHNwaWQxDzANBgNVBAcMBk5hcG9saTELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCuDNBl0PMwaE8rpR8/lGC3/giLSoGNhvl74VLe
+jC3A+A2VOajqTCC12zl6vcEe4qLCUnBhPzS79x3z4bxgOwo0RxXcDIURy64116uY
+kWgv0UZ9lKtRpOVQPtY6YS4HYGd44uqY9TkSiTTU3gQLrXssjD9Pku/wTsxzBb4w
+HM26zxa56xf3xlQEdNj8KooMXwh83pVoJNWMNi1YEoP9aLQz6L5oxhiLapJ8MeNU
+uZj4FsM1eMqZYuJhANwFSDPzlKKbPUGx/8A6bsbASbK5XpWLRiNSdsQTpHfYeJnA
+YJnf/5cPB/OLJ1r0EWzEmdVu1w+IdZ8L/YjNLAfEXmr5p4gLAgMBAAGjgckwgcYw
+HQYDVR0OBBYEFPbGeEaaYSJqnelh7aK9Q16VCJMYMIGWBgNVHSMEgY4wgYuAFPbG
+eEaaYSJqnelh7aK9Q16VCJMYoWikZjBkMR4wHAYDVQQDDBVnYXRld2F5LnNwaWQu
+dW5pbmEuaXQxFTATBgNVBAoMDHd3dy51bmluYS5pdDENMAsGA1UECwwEc3BpZDEP
+MA0GA1UEBwwGTmFwb2xpMQswCQYDVQQGEwJJVIIJAOysl3V3MTdJMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGPcRBX+fLhf+9kWqyh0lXL+Q8arZplQ
+cZjz2bam93C+0F/igEtHwhx0GqEghDDAS//qWuqYar2YmEaYDL58uz09fTobxjsr
+gh3B2p9JTRqf8uItmANGD6BKtod90ufVchthWf+Ubci1MWogOgcsswwS7nkP80T3
+EcYwFFBK1a2sz8+hH9ha24c/Vu8thH2B45KURxu12/Ckh2kcRYUqRjiUCTfPHyvb
+CbkFJ5FLZpTD2QxnBozX1pZfnWr7cKbbjtdz/RSqjDCFMiDMd+jvSRkcwqbGHbde
+ccutRQpMKNwTD/AsaQHKqLTALnam0qoH97l8BsO1hkicHQyrjVske0U=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFTCCAv2gAwIBAgIJAOysl3V3MTdJMA0GCSqGSIb3DQEBCwUAMGQxHjAcBgNV
+BAMMFWdhdGV3YXkuc3BpZC51bmluYS5pdDEVMBMGA1UECgwMd3d3LnVuaW5hLml0
+MQ0wCwYDVQQLDARzcGlkMQ8wDQYDVQQHDAZOYXBvbGkxCzAJBgNVBAYTAklUMB4X
+DTE3MTEyMTE1NTk1N1oXDTQ3MTExNDE1NTk1N1owZDEeMBwGA1UEAwwVZ2F0ZXdh
+eS5zcGlkLnVuaW5hLml0MRUwEwYDVQQKDAx3d3cudW5pbmEuaXQxDTALBgNVBAsM
+BHNwaWQxDzANBgNVBAcMBk5hcG9saTELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCuDNBl0PMwaE8rpR8/lGC3/giLSoGNhvl74VLe
+jC3A+A2VOajqTCC12zl6vcEe4qLCUnBhPzS79x3z4bxgOwo0RxXcDIURy64116uY
+kWgv0UZ9lKtRpOVQPtY6YS4HYGd44uqY9TkSiTTU3gQLrXssjD9Pku/wTsxzBb4w
+HM26zxa56xf3xlQEdNj8KooMXwh83pVoJNWMNi1YEoP9aLQz6L5oxhiLapJ8MeNU
+uZj4FsM1eMqZYuJhANwFSDPzlKKbPUGx/8A6bsbASbK5XpWLRiNSdsQTpHfYeJnA
+YJnf/5cPB/OLJ1r0EWzEmdVu1w+IdZ8L/YjNLAfEXmr5p4gLAgMBAAGjgckwgcYw
+HQYDVR0OBBYEFPbGeEaaYSJqnelh7aK9Q16VCJMYMIGWBgNVHSMEgY4wgYuAFPbG
+eEaaYSJqnelh7aK9Q16VCJMYoWikZjBkMR4wHAYDVQQDDBVnYXRld2F5LnNwaWQu
+dW5pbmEuaXQxFTATBgNVBAoMDHd3dy51bmluYS5pdDENMAsGA1UECwwEc3BpZDEP
+MA0GA1UEBwwGTmFwb2xpMQswCQYDVQQGEwJJVIIJAOysl3V3MTdJMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGPcRBX+fLhf+9kWqyh0lXL+Q8arZplQ
+cZjz2bam93C+0F/igEtHwhx0GqEghDDAS//qWuqYar2YmEaYDL58uz09fTobxjsr
+gh3B2p9JTRqf8uItmANGD6BKtod90ufVchthWf+Ubci1MWogOgcsswwS7nkP80T3
+EcYwFFBK1a2sz8+hH9ha24c/Vu8thH2B45KURxu12/Ckh2kcRYUqRjiUCTfPHyvb
+CbkFJ5FLZpTD2QxnBozX1pZfnWr7cKbbjtdz/RSqjDCFMiDMd+jvSRkcwqbGHbde
+ccutRQpMKNwTD/AsaQHKqLTALnam0qoH97l8BsO1hkicHQyrjVske0U=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gateway.spid.unina.it/services/singleLogout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gateway.spid.unina.it/services/singleLogout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gateway.spid.unina.it/services/assertionConsumer" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gateway.spid.unina.it/services/assertionConsumer" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">areaRiservata</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">unina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Università degli Studi di Napoli Federico II</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.unina.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

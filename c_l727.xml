@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="VenariaReale" entityID="https://www.comune.venariareale.to.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#VenariaReale">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>u2ZYcrXKk7H2X216dXHP7MBD4idArpAWhGQMcOufFRM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kbkvLChxAeMyDMiWAWhhv+WmeYTtCXFJ5qHOIkVYxB2hU70MykWjyBct93okYKjGx8/9ErYsM++G
+qPhEbVLXUfOm22T5K6dQHX9TGPPrQqB8CW+LB7OPeKtlmkYAOQ6E3og6q5OEy3hWxRNz0zy+JcZ/
+6H6HzWAOfQ7yUZw2a0L/SEcrZWnLRj1SkS6mJdEA1P6zAk2PA5o6YEA4p0EgFnLFj6RUiDKPGBb2
+gQhJ6K+uFYNnQW6yYmjxv7Ok4Y+71jymNZItAGR2mPU8rdIMTKl6v3PRDpOxN5tke5DeL1gPoc6C
+M1bqv2nACgRUKRHYafl6APKzWlnmaHWkVtOlEQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ogFAX8q/DmNN+zex9u93HBgCRrEIlrDVV1t1ebmvV/PvnQmE4ccYlA4zEM8zE9eCGEGwao1vNsaq
+7eX7ACz38hLt0oRSr+LUEr8ISTjicwYnf/Ap635R1mSpsax3C1k2IdU1WX7gtOmmz/kmODhdsfvp
+TqLKDby1Ff1DaNdEMwlwlc/nrRx9oRX3fCWfJkXNNL+hcPnPWBgN10tq/nzH23quxaaOZGCOVWNj
+cH9/9mkUZHIW+zuUHUqw8lbR+Jc94q6WD6ashhIizk4QqLmjO+koULG7slZhfuNbLGgBIwM2aw5n
+IjYOUd9M6PposA0ndG4tVp7x5fW8Cggy1BbLzQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIELDCCAxSgAwIBAgIJANg41+MPE0dJMA0GCSqGSIb3DQEBCwUAMIG8MSAwHgYDVQQKDBdDb211
+bmUgZGkgVmVuYXJpYSBSZWFsZTEgMB4GA1UEAwwXQ29tdW5lIGRpIFZlbmFyaWEgUmVhbGUxOjA4
+BgNVBFMMMWh0dHBzOi8vd3d3LmNvbXVuZS52ZW5hcmlhcmVhbGUudG8uaXQvc2Vydml6aVNQSUQx
+FTATBgNVBGEMDFBBOklULWNfbDcyNzELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDVZlbmFyaWEgUmVh
+bGUwHhcNMjAxMTA1MTUwNjAzWhcNMzAxMTAzMTUwNjAzWjCBvDEgMB4GA1UECgwXQ29tdW5lIGRp
+IFZlbmFyaWEgUmVhbGUxIDAeBgNVBAMMF0NvbXVuZSBkaSBWZW5hcmlhIFJlYWxlMTowOAYDVQRT
+DDFodHRwczovL3d3dy5jb211bmUudmVuYXJpYXJlYWxlLnRvLml0L3NlcnZpemlTUElEMRUwEwYD
+VQRhDAxQQTpJVC1jX2w3MjcxCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1WZW5hcmlhIFJlYWxlMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAogFAX8q/DmNN+zex9u93HBgCRrEIlrDVV1t1
+ebmvV/PvnQmE4ccYlA4zEM8zE9eCGEGwao1vNsaq7eX7ACz38hLt0oRSr+LUEr8ISTjicwYnf/Ap
+635R1mSpsax3C1k2IdU1WX7gtOmmz/kmODhdsfvpTqLKDby1Ff1DaNdEMwlwlc/nrRx9oRX3fCWf
+JkXNNL+hcPnPWBgN10tq/nzH23quxaaOZGCOVWNjcH9/9mkUZHIW+zuUHUqw8lbR+Jc94q6WD6as
+hhIizk4QqLmjO+koULG7slZhfuNbLGgBIwM2aw5nIjYOUd9M6PposA0ndG4tVp7x5fW8Cggy1BbL
+zQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATAN
+BgkqhkiG9w0BAQsFAAOCAQEAZSqpvhjYkIZI1/9bD2bYqkF7I0eI2yryBuISO9owPHOtHucUKNZS
+oOt3WUclCjtUDrrHlAXjtzuVIZJhXf8Zxzdg2rinfE7UrqhH4it+XSsQ9wobfEoGT+lXJKLChAjd
+yIwqYBMzF9rxKpYYDRSF6y5Z0fs0IY173CLZjihc533jtISyeXj7h5zz/tG8xtkI5vazSBxNSwPd
+0azdZMBatKC19y/GOGntSOOARw2I44P3MhubCj233iNJ0Tljb7xL8cGzOHrIuIAOcQwCDk9dGPaD
+KcNmpqhqKRJA3zeUmshhvWcsyvNQ8D+1sD9msfizsey/2TgrJQebbAe9tmNSnA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIELDCCAxSgAwIBAgIJANg41+MPE0dJMA0GCSqGSIb3DQEBCwUAMIG8MSAwHgYDVQQKDBdDb211bmUgZGkgVmVuYXJpYSBSZWFsZTEgMB4GA1UEAwwXQ29tdW5lIGRpIFZlbmFyaWEgUmVhbGUxOjA4BgNVBFMMMWh0dHBzOi8vd3d3LmNvbXVuZS52ZW5hcmlhcmVhbGUudG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfbDcyNzELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDVZlbmFyaWEgUmVhbGUwHhcNMjAxMTA1MTUwNjAzWhcNMzAxMTAzMTUwNjAzWjCBvDEgMB4GA1UECgwXQ29tdW5lIGRpIFZlbmFyaWEgUmVhbGUxIDAeBgNVBAMMF0NvbXVuZSBkaSBWZW5hcmlhIFJlYWxlMTowOAYDVQRTDDFodHRwczovL3d3dy5jb211bmUudmVuYXJpYXJlYWxlLnRvLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2w3MjcxCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1WZW5hcmlhIFJlYWxlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAogFAX8q/DmNN+zex9u93HBgCRrEIlrDVV1t1ebmvV/PvnQmE4ccYlA4zEM8zE9eCGEGwao1vNsaq7eX7ACz38hLt0oRSr+LUEr8ISTjicwYnf/Ap635R1mSpsax3C1k2IdU1WX7gtOmmz/kmODhdsfvpTqLKDby1Ff1DaNdEMwlwlc/nrRx9oRX3fCWfJkXNNL+hcPnPWBgN10tq/nzH23quxaaOZGCOVWNjcH9/9mkUZHIW+zuUHUqw8lbR+Jc94q6WD6ashhIizk4QqLmjO+koULG7slZhfuNbLGgBIwM2aw5nIjYOUd9M6PposA0ndG4tVp7x5fW8Cggy1BbLzQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZSqpvhjYkIZI1/9bD2bYqkF7I0eI2yryBuISO9owPHOtHucUKNZSoOt3WUclCjtUDrrHlAXjtzuVIZJhXf8Zxzdg2rinfE7UrqhH4it+XSsQ9wobfEoGT+lXJKLChAjdyIwqYBMzF9rxKpYYDRSF6y5Z0fs0IY173CLZjihc533jtISyeXj7h5zz/tG8xtkI5vazSBxNSwPd0azdZMBatKC19y/GOGntSOOARw2I44P3MhubCj233iNJ0Tljb7xL8cGzOHrIuIAOcQwCDk9dGPaDKcNmpqhqKRJA3zeUmshhvWcsyvNQ8D+1sD9msfizsey/2TgrJQebbAe9tmNSnA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIELDCCAxSgAwIBAgIJANg41+MPE0dJMA0GCSqGSIb3DQEBCwUAMIG8MSAwHgYDVQQKDBdDb211bmUgZGkgVmVuYXJpYSBSZWFsZTEgMB4GA1UEAwwXQ29tdW5lIGRpIFZlbmFyaWEgUmVhbGUxOjA4BgNVBFMMMWh0dHBzOi8vd3d3LmNvbXVuZS52ZW5hcmlhcmVhbGUudG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfbDcyNzELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDVZlbmFyaWEgUmVhbGUwHhcNMjAxMTA1MTUwNjAzWhcNMzAxMTAzMTUwNjAzWjCBvDEgMB4GA1UECgwXQ29tdW5lIGRpIFZlbmFyaWEgUmVhbGUxIDAeBgNVBAMMF0NvbXVuZSBkaSBWZW5hcmlhIFJlYWxlMTowOAYDVQRTDDFodHRwczovL3d3dy5jb211bmUudmVuYXJpYXJlYWxlLnRvLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2w3MjcxCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1WZW5hcmlhIFJlYWxlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAogFAX8q/DmNN+zex9u93HBgCRrEIlrDVV1t1ebmvV/PvnQmE4ccYlA4zEM8zE9eCGEGwao1vNsaq7eX7ACz38hLt0oRSr+LUEr8ISTjicwYnf/Ap635R1mSpsax3C1k2IdU1WX7gtOmmz/kmODhdsfvpTqLKDby1Ff1DaNdEMwlwlc/nrRx9oRX3fCWfJkXNNL+hcPnPWBgN10tq/nzH23quxaaOZGCOVWNjcH9/9mkUZHIW+zuUHUqw8lbR+Jc94q6WD6ashhIizk4QqLmjO+koULG7slZhfuNbLGgBIwM2aw5nIjYOUd9M6PposA0ndG4tVp7x5fW8Cggy1BbLzQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZSqpvhjYkIZI1/9bD2bYqkF7I0eI2yryBuISO9owPHOtHucUKNZSoOt3WUclCjtUDrrHlAXjtzuVIZJhXf8Zxzdg2rinfE7UrqhH4it+XSsQ9wobfEoGT+lXJKLChAjdyIwqYBMzF9rxKpYYDRSF6y5Z0fs0IY173CLZjihc533jtISyeXj7h5zz/tG8xtkI5vazSBxNSwPd0azdZMBatKC19y/GOGntSOOARw2I44P3MhubCj233iNJ0Tljb7xL8cGzOHrIuIAOcQwCDk9dGPaDKcNmpqhqKRJA3zeUmshhvWcsyvNQ8D+1sD9msfizsey/2TgrJQebbAe9tmNSnA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/venariareale"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/venariareale" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/venariareale" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/venariareale" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Venaria Reale</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Venaria Reale</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Venaria Reale</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Venaria Reale</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Venaria Reale</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Venaria Reale</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Venaria Reale</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Venaria Reale</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.venariareale.to.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.venariareale.to.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.venariareale.to.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.venariareale.to.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_l727</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>sviluppoinformatico@comune.venariareale.to.it</md:EmailAddress>
+      <md:TelephoneNumber>+393601005160</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Valdidentro" entityID="https://www.comune.valdidentro.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Valdidentro">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>i5RNPBb/e6NmHJ77f+huYy/+qksSi3BGx0wAlR1zegM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+nQcCGvu2NuREjcyOdFbwyVeNzGvSoRmhTOzfZvVkegF62D2PqU5XFt5U+p83+ZC1iwjgTKdeJKej
+UYeMS4F54lEL/iqSnuj9osTtA1qc4p+dz15C0DuOeIdLegoY6IpqvsgdAaPvWXQZ2yUDMgTgr5N6
+kmwG/HUQjlV1q8Ax+aGMQNlpLqjtporEVUQGQFs56ev/dsZRgszHxzjufZxcbl4+qafUmXp1C9jV
+aWssNDeEsXrt3fGzp3diEPngKv7znboEjqtPDaeYdIJdxRg8+4G4Yf+VR3aSUehrT9n9CnUgB/UO
+49dj4ZhMMUgY+IcNjNqDlrbOw+qJY8G3JD+zmg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ov3LvL1aK/M6MmEBadzHHbadeECGR14mvtalfYSQ5taVH7YT5B1YSHLOOu41ZpsM3j3Fecb/GMmU
+G0+OADm1KfNYIV3bAt1mlqd1vbbhEQXl7t3r67YLE3beF5bLNfQjo4wh3Kv92jUFGbl0k8p8Www8
+CkkUCpg1s+b91lXrHZlsqEYJN+GAs8uNhkP7SvSE2C2urKmUS3nfGjvIfUAXWgWDNtpUeG1nPmGG
+352PnD4mwDymTYaGYEFrKW2l3k6hq+1Pl8h1W9zV1c6mr76jSFkc95LJpOUWgG0zByWwnnfBytQe
+rAylMTK40rbRsYWqQfofQ68KcS7ZQTPq8/sqUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAKbtsFX9BV8bMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUudmFsZGlkZW50cm8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4
+MDgyMjA3MDEyN1oXDTI4MDgxOTA3MDEyN1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52YWxkaWRl
+bnRyby5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCi/cu8vVor8zoyYQFp3Mcdtp14QIZHXia+1qV9hJDm1pUfthPkHVhIcs46
+7jVmmwzePcV5xv8YyZQbT44AObUp81ghXdsC3WaWp3W9tuERBeXu3evrtgsTdt4Xlss19COjjCHc
+q/3aNQUZuXSTynxbDDwKSRQKmDWz5v3WVesdmWyoRgk34YCzy42GQ/tK9ITYLa6sqZRLed8aO8h9
+QBdaBYM22lR4bWc+YYbfnY+cPibAPKZNhoZgQWspbaXeTqGr7U+XyHVb3NXVzqavvqNIWRz3ksmk
+5RaAbTMHJbCed8HK1B6sDKUxMrjSttGxhapB+h9DrwpxLtlBM+rz+ypRAgMBAAGjUDBOMB0GA1Ud
+DgQWBBQFj0wqDKkH/PtEgU5TlT59uwBs0jAfBgNVHSMEGDAWgBQFj0wqDKkH/PtEgU5TlT59uwBs
+0jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBYHaEiydyOLOtxVQIBu4eNuqKEoDSr
+oOfCRxMIjWWEJ8dhpk6jo/KT1AjZNVywDdpYOSpy1hV4NG7B0yx2fowRLTFsc7l5yWP1+vtGYS1h
+AjfIrsH/5SZ/aMnT98RixOaFPMFSHJydYgkcciP0QfVI3hLsgi2d9IsD/9JiYJHNdBWyghEMPOBD
+ZPwfgrd8xvb1yk5wNNdojwCdYiKuUzZuH6QQowCEvK0If4LrU5A5+tlc8/43Gr6xLn5r3Fadj3Qn
+Z4na2GHF8WMDfwmeFnrsdiOdwJsMJcR2HvjLNwy5FOtltVDujKmWEKYSkHFEBiogTbke1o/U8FXE
+DlT30TFF
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAKbtsFX9BV8bMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUudmFsZGlkZW50cm8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA3MDEyN1oXDTI4MDgxOTA3MDEyN1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52YWxkaWRlbnRyby5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCi/cu8vVor8zoyYQFp3Mcdtp14QIZHXia+1qV9hJDm1pUfthPkHVhIcs467jVmmwzePcV5xv8YyZQbT44AObUp81ghXdsC3WaWp3W9tuERBeXu3evrtgsTdt4Xlss19COjjCHcq/3aNQUZuXSTynxbDDwKSRQKmDWz5v3WVesdmWyoRgk34YCzy42GQ/tK9ITYLa6sqZRLed8aO8h9QBdaBYM22lR4bWc+YYbfnY+cPibAPKZNhoZgQWspbaXeTqGr7U+XyHVb3NXVzqavvqNIWRz3ksmk5RaAbTMHJbCed8HK1B6sDKUxMrjSttGxhapB+h9DrwpxLtlBM+rz+ypRAgMBAAGjUDBOMB0GA1UdDgQWBBQFj0wqDKkH/PtEgU5TlT59uwBs0jAfBgNVHSMEGDAWgBQFj0wqDKkH/PtEgU5TlT59uwBs0jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBYHaEiydyOLOtxVQIBu4eNuqKEoDSroOfCRxMIjWWEJ8dhpk6jo/KT1AjZNVywDdpYOSpy1hV4NG7B0yx2fowRLTFsc7l5yWP1+vtGYS1hAjfIrsH/5SZ/aMnT98RixOaFPMFSHJydYgkcciP0QfVI3hLsgi2d9IsD/9JiYJHNdBWyghEMPOBDZPwfgrd8xvb1yk5wNNdojwCdYiKuUzZuH6QQowCEvK0If4LrU5A5+tlc8/43Gr6xLn5r3Fadj3QnZ4na2GHF8WMDfwmeFnrsdiOdwJsMJcR2HvjLNwy5FOtltVDujKmWEKYSkHFEBiogTbke1o/U8FXEDlT30TFF
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAKbtsFX9BV8bMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUudmFsZGlkZW50cm8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA3MDEyN1oXDTI4MDgxOTA3MDEyN1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52YWxkaWRlbnRyby5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCi/cu8vVor8zoyYQFp3Mcdtp14QIZHXia+1qV9hJDm1pUfthPkHVhIcs467jVmmwzePcV5xv8YyZQbT44AObUp81ghXdsC3WaWp3W9tuERBeXu3evrtgsTdt4Xlss19COjjCHcq/3aNQUZuXSTynxbDDwKSRQKmDWz5v3WVesdmWyoRgk34YCzy42GQ/tK9ITYLa6sqZRLed8aO8h9QBdaBYM22lR4bWc+YYbfnY+cPibAPKZNhoZgQWspbaXeTqGr7U+XyHVb3NXVzqavvqNIWRz3ksmk5RaAbTMHJbCed8HK1B6sDKUxMrjSttGxhapB+h9DrwpxLtlBM+rz+ypRAgMBAAGjUDBOMB0GA1UdDgQWBBQFj0wqDKkH/PtEgU5TlT59uwBs0jAfBgNVHSMEGDAWgBQFj0wqDKkH/PtEgU5TlT59uwBs0jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBYHaEiydyOLOtxVQIBu4eNuqKEoDSroOfCRxMIjWWEJ8dhpk6jo/KT1AjZNVywDdpYOSpy1hV4NG7B0yx2fowRLTFsc7l5yWP1+vtGYS1hAjfIrsH/5SZ/aMnT98RixOaFPMFSHJydYgkcciP0QfVI3hLsgi2d9IsD/9JiYJHNdBWyghEMPOBDZPwfgrd8xvb1yk5wNNdojwCdYiKuUzZuH6QQowCEvK0If4LrU5A5+tlc8/43Gr6xLn5r3Fadj3QnZ4na2GHF8WMDfwmeFnrsdiOdwJsMJcR2HvjLNwy5FOtltVDujKmWEKYSkHFEBiogTbke1o/U8FXEDlT30TFF
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/valdidentro"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdidentro" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdidentro" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdidentro" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Valdidentro</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Valdidentro</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Valdidentro</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Valdidentro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Valdidentro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Valdidentro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Valdidentro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Valdidentro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.valdidentro.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.valdidentro.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.valdidentro.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.valdidentro.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

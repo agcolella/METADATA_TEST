@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.camponogara.ve.it" ID="pfxb36866e0-1b5d-3b42-f766-4e4757e53ddf"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxb36866e0-1b5d-3b42-f766-4e4757e53ddf"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9eaCU7tpeEHgBzFBwc4TeCaoEdGEjk5D0O/5nFiwvNA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>w1Br4qFTWedOlLiOGTRhg/5FTClerxmE1aqSmVxwHdgJ7CNDH5roBgLSyxCrh/06cbOW79DLNsL/ji4Wvtwpjtgr8ZEYJ1b7JDYjcAVI9Q/0wW8ayME6KmpWSzeYJB/ifRFlbWWKsBN1uwT1zE7cxyos6AooC7+RLQxIQ1W2474d9V+xgKqmq/c5ciEfCcP1gHUR5A2JTV9kLw7cvCivoUVlp+FMqbkTMRf+did/J2U9tmfK2rz/kwYhFN1TWfkeEKWWvRCtEdFaObe4Av+URkxnHCF3npcuvVzhgRdssplx8YTxnxkNSJDoJNCBL5qkd+sZlSWZWmg/MroCyCQvCQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJAOVzS6ADgKPPMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FtcG9ub2dhcmExHjAcBgNVBAoMFUNvbXVuZSBkaSBDYW1wb25vZ2FyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYW1wb25vZ2FyYS52ZS5pdDAeFw0xODA0MjAxMDM2MTVaFw0yODA0MTkxMDM2MTVaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FtcG9ub2dhcmExHjAcBgNVBAoMFUNvbXVuZSBkaSBDYW1wb25vZ2FyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYW1wb25vZ2FyYS52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOf3RHx2RbcpIXK8gK4WtxOCRMls1Cz9x3yXmbo2Hzbs8NiWTw3f6fmX/MecYfdVuFLCNf/RrS76hV0eAS+sz5OfIQ/LSrHIqiugcJ+9LW65Yu7YeTv+oGW5dCjkKtKSB+4Wrsbz7y2kBvRjzH0087QfNUFUTREVNFwYwUdB6UYjx8aXvfsAacpPt7L7RTNfpwwZHOVrwsbja6h7PmhhdtCcMxDUnLbWNlN9jMPVnyNjQttgiGyo1IjUeSt7SvTfcaCrRaqTH5IswO5eB2f3AxFZuA0HwcgUAXBKwRL5aesmj1we+UvZub88eXKLzW3LrMFD7otJ9LjDgD3ey5Le/FkCAwEAAaNQME4wHQYDVR0OBBYEFC3r3PLXR+R1hG16oG4LL6j5c9+HMB8GA1UdIwQYMBaAFC3r3PLXR+R1hG16oG4LL6j5c9+HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAgEuSnXHlh42hU8WsZanAlKGu9EnHKEJC5aq4zJtyoeISFaTTG/7CsRl3zkhfpik/FVTKwzNvvqg0JaWHFuOKXIkKlrTfjJVL6UkR9lT4T/5qE/MiIT+5OMkViU1Qw6iR19aqd1DJ0BbFC4InRRf96Jij9JwBSdV+VHX4MPEh/4WcFxOipvKsK29/6GHO1VV1sVVbkiQ3mDWAruFAoLt8k0eoxl6T9c/qkeEZeuTdbShprpK3Vs3FfMqnTOgHEH1d3ot8f/df50aMZ/s8otwcluc0iJrvg4Qv5MjAekJAA4XnkPeOGPfBvbx/UFOojFAs7gP91HICy1qXux1+yhOsk=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJAOVzS6ADgKPPMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FtcG9ub2dhcmExHjAcBgNVBAoMFUNvbXVuZSBkaSBDYW1wb25vZ2FyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYW1wb25vZ2FyYS52ZS5pdDAeFw0xODA0MjAxMDM2MTVaFw0yODA0MTkxMDM2MTVaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FtcG9ub2dhcmExHjAcBgNVBAoMFUNvbXVuZSBkaSBDYW1wb25vZ2FyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYW1wb25vZ2FyYS52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOf3RHx2RbcpIXK8gK4WtxOCRMls1Cz9x3yXmbo2Hzbs8NiWTw3f6fmX/MecYfdVuFLCNf/RrS76hV0eAS+sz5OfIQ/LSrHIqiugcJ+9LW65Yu7YeTv+oGW5dCjkKtKSB+4Wrsbz7y2kBvRjzH0087QfNUFUTREVNFwYwUdB6UYjx8aXvfsAacpPt7L7RTNfpwwZHOVrwsbja6h7PmhhdtCcMxDUnLbWNlN9jMPVnyNjQttgiGyo1IjUeSt7SvTfcaCrRaqTH5IswO5eB2f3AxFZuA0HwcgUAXBKwRL5aesmj1we+UvZub88eXKLzW3LrMFD7otJ9LjDgD3ey5Le/FkCAwEAAaNQME4wHQYDVR0OBBYEFC3r3PLXR+R1hG16oG4LL6j5c9+HMB8GA1UdIwQYMBaAFC3r3PLXR+R1hG16oG4LL6j5c9+HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAgEuSnXHlh42hU8WsZanAlKGu9EnHKEJC5aq4zJtyoeISFaTTG/7CsRl3zkhfpik/FVTKwzNvvqg0JaWHFuOKXIkKlrTfjJVL6UkR9lT4T/5qE/MiIT+5OMkViU1Qw6iR19aqd1DJ0BbFC4InRRf96Jij9JwBSdV+VHX4MPEh/4WcFxOipvKsK29/6GHO1VV1sVVbkiQ3mDWAruFAoLt8k0eoxl6T9c/qkeEZeuTdbShprpK3Vs3FfMqnTOgHEH1d3ot8f/df50aMZ/s8otwcluc0iJrvg4Qv5MjAekJAA4XnkPeOGPfBvbx/UFOojFAs7gP91HICy1qXux1+yhOsk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJAOVzS6ADgKPPMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FtcG9ub2dhcmExHjAcBgNVBAoMFUNvbXVuZSBkaSBDYW1wb25vZ2FyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYW1wb25vZ2FyYS52ZS5pdDAeFw0xODA0MjAxMDM2MTVaFw0yODA0MTkxMDM2MTVaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FtcG9ub2dhcmExHjAcBgNVBAoMFUNvbXVuZSBkaSBDYW1wb25vZ2FyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYW1wb25vZ2FyYS52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOf3RHx2RbcpIXK8gK4WtxOCRMls1Cz9x3yXmbo2Hzbs8NiWTw3f6fmX/MecYfdVuFLCNf/RrS76hV0eAS+sz5OfIQ/LSrHIqiugcJ+9LW65Yu7YeTv+oGW5dCjkKtKSB+4Wrsbz7y2kBvRjzH0087QfNUFUTREVNFwYwUdB6UYjx8aXvfsAacpPt7L7RTNfpwwZHOVrwsbja6h7PmhhdtCcMxDUnLbWNlN9jMPVnyNjQttgiGyo1IjUeSt7SvTfcaCrRaqTH5IswO5eB2f3AxFZuA0HwcgUAXBKwRL5aesmj1we+UvZub88eXKLzW3LrMFD7otJ9LjDgD3ey5Le/FkCAwEAAaNQME4wHQYDVR0OBBYEFC3r3PLXR+R1hG16oG4LL6j5c9+HMB8GA1UdIwQYMBaAFC3r3PLXR+R1hG16oG4LL6j5c9+HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAgEuSnXHlh42hU8WsZanAlKGu9EnHKEJC5aq4zJtyoeISFaTTG/7CsRl3zkhfpik/FVTKwzNvvqg0JaWHFuOKXIkKlrTfjJVL6UkR9lT4T/5qE/MiIT+5OMkViU1Qw6iR19aqd1DJ0BbFC4InRRf96Jij9JwBSdV+VHX4MPEh/4WcFxOipvKsK29/6GHO1VV1sVVbkiQ3mDWAruFAoLt8k0eoxl6T9c/qkeEZeuTdbShprpK3Vs3FfMqnTOgHEH1d3ot8f/df50aMZ/s8otwcluc0iJrvg4Qv5MjAekJAA4XnkPeOGPfBvbx/UFOojFAs7gP91HICy1qXux1+yhOsk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.camponogara.ve.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.camponogara.ve.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Camponogara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Camponogara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.camponogara.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

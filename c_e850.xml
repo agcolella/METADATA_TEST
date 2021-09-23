@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Male" entityID="https://www.comune.male.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Male">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>E6DfEeTgU1LAeFGwKkOP3TztfJ7wpZFkB2lBhu24H58=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ELEiKZbOqSoHlvUOdSTV+GDLODkAFdXQUGLsl6FNpJOK4E1LelmqvAafJ+nNd6rqYCcmmW4Vy1nK
+b1s6bCNerCrwQqxKl5O1i3iY/An24N3DMPeM4qGXHc5bpncQaC9jlWRsBu82s4TJX00JvUHg9Sis
+RWogjOgcNqTPM4ivh5/5oaGSO5/mdKfTXf+LyW+uBEO0wKiszUO9ysniijdY5Vi5PNYSHRzgEGPV
+A6lB1R7THjgY0f2JXzCEhbtlJldIBh5h1+GQo7IyMxfbWnTYX3mqlzSPnuwWIA3YClsezHIepFmH
+r/Jp7ZyES1m5sOi4ZHY8e3zSHkvFtoeQid1ZTw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8JqE0cCxc+op2CJttxzNjYjXs6Qa7Scat9Zrf2FX1AR/XDIRJGirs9ji7j5++wJB9jaSrHSTLGBr
+xylEM8Iovgu+0i+OEVfzzKTc7XWisIXtsSLNE2F7K/mrqpZhdcQOTBuFHZNA0NCc2UzvnWEcZSYi
+N2s9xlCOvSDhNv66oFxf4/hGfdrWdRe8NZMrjNMamP8iEBvDTNUDDHG0rHx6jCq4DL+bM6aqzSoP
+//MIuRnK3WdKpc0JzHkm5dh0eAYWyZpHrtBtNZ1dedy71Qp0eQK2oBsAWJP/PVWLh8HFw9j7Be0L
+boVpgJtes2fGZoilouz5pbp4ahZb4Fz1bijwIQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJANYzcKIaYQbaMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUubWFsZS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjI0MDk0
+NzU1WhcNMzAwNjIyMDk0NzU1WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLm1hbGUudG4uaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+8JqE0cCxc+op2CJttxzNjYjXs6Qa7Scat9Zrf2FX1AR/XDIRJGirs9ji7j5++wJB9jaSrHSTLGBr
+xylEM8Iovgu+0i+OEVfzzKTc7XWisIXtsSLNE2F7K/mrqpZhdcQOTBuFHZNA0NCc2UzvnWEcZSYi
+N2s9xlCOvSDhNv66oFxf4/hGfdrWdRe8NZMrjNMamP8iEBvDTNUDDHG0rHx6jCq4DL+bM6aqzSoP
+//MIuRnK3WdKpc0JzHkm5dh0eAYWyZpHrtBtNZ1dedy71Qp0eQK2oBsAWJP/PVWLh8HFw9j7Be0L
+boVpgJtes2fGZoilouz5pbp4ahZb4Fz1bijwIQIDAQABo1AwTjAdBgNVHQ4EFgQUagMX5a5B2LRa
+nDl3YsXDuYMxe0IwHwYDVR0jBBgwFoAUagMX5a5B2LRanDl3YsXDuYMxe0IwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAUTPZtA4mp9f7MKHR+2oYlZIf6CFcYurMMfhE886PRzzI+75m
+ONSWkOwRzp2x7/SrBeDUftED6CyQ153Vg31nL3S+qeRe3ZnGQvFLtBBqbPyI//UM24+RkK/L/+kl
+a7VuMGJ4QKPY1l02JM/RaX+ashaTTARx2o6oI6LGLytQjtzWNhsHPEx9OWrAkvkA4Nl6MDqrlZI4
++ksK3J7r9C8Nm97Tz22JjwggIUzQYZDWTAQdMQpfPvlpUKB3nuzQlNygwxCmOzzt+dTlBr2YI2wx
+j77NU/TjWQhdeCY/A8rSCI5fgZrr7gXDC0+NP61pmrTxBLTcZLjF5nEnil6vpmPJrQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJANYzcKIaYQbaMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUubWFsZS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjI0MDk0NzU1WhcNMzAwNjIyMDk0NzU1WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLm1hbGUudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8JqE0cCxc+op2CJttxzNjYjXs6Qa7Scat9Zrf2FX1AR/XDIRJGirs9ji7j5++wJB9jaSrHSTLGBrxylEM8Iovgu+0i+OEVfzzKTc7XWisIXtsSLNE2F7K/mrqpZhdcQOTBuFHZNA0NCc2UzvnWEcZSYiN2s9xlCOvSDhNv66oFxf4/hGfdrWdRe8NZMrjNMamP8iEBvDTNUDDHG0rHx6jCq4DL+bM6aqzSoP//MIuRnK3WdKpc0JzHkm5dh0eAYWyZpHrtBtNZ1dedy71Qp0eQK2oBsAWJP/PVWLh8HFw9j7Be0LboVpgJtes2fGZoilouz5pbp4ahZb4Fz1bijwIQIDAQABo1AwTjAdBgNVHQ4EFgQUagMX5a5B2LRanDl3YsXDuYMxe0IwHwYDVR0jBBgwFoAUagMX5a5B2LRanDl3YsXDuYMxe0IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAUTPZtA4mp9f7MKHR+2oYlZIf6CFcYurMMfhE886PRzzI+75mONSWkOwRzp2x7/SrBeDUftED6CyQ153Vg31nL3S+qeRe3ZnGQvFLtBBqbPyI//UM24+RkK/L/+kla7VuMGJ4QKPY1l02JM/RaX+ashaTTARx2o6oI6LGLytQjtzWNhsHPEx9OWrAkvkA4Nl6MDqrlZI4+ksK3J7r9C8Nm97Tz22JjwggIUzQYZDWTAQdMQpfPvlpUKB3nuzQlNygwxCmOzzt+dTlBr2YI2wxj77NU/TjWQhdeCY/A8rSCI5fgZrr7gXDC0+NP61pmrTxBLTcZLjF5nEnil6vpmPJrQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJANYzcKIaYQbaMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUubWFsZS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjI0MDk0NzU1WhcNMzAwNjIyMDk0NzU1WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLm1hbGUudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8JqE0cCxc+op2CJttxzNjYjXs6Qa7Scat9Zrf2FX1AR/XDIRJGirs9ji7j5++wJB9jaSrHSTLGBrxylEM8Iovgu+0i+OEVfzzKTc7XWisIXtsSLNE2F7K/mrqpZhdcQOTBuFHZNA0NCc2UzvnWEcZSYiN2s9xlCOvSDhNv66oFxf4/hGfdrWdRe8NZMrjNMamP8iEBvDTNUDDHG0rHx6jCq4DL+bM6aqzSoP//MIuRnK3WdKpc0JzHkm5dh0eAYWyZpHrtBtNZ1dedy71Qp0eQK2oBsAWJP/PVWLh8HFw9j7Be0LboVpgJtes2fGZoilouz5pbp4ahZb4Fz1bijwIQIDAQABo1AwTjAdBgNVHQ4EFgQUagMX5a5B2LRanDl3YsXDuYMxe0IwHwYDVR0jBBgwFoAUagMX5a5B2LRanDl3YsXDuYMxe0IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAUTPZtA4mp9f7MKHR+2oYlZIf6CFcYurMMfhE886PRzzI+75mONSWkOwRzp2x7/SrBeDUftED6CyQ153Vg31nL3S+qeRe3ZnGQvFLtBBqbPyI//UM24+RkK/L/+kla7VuMGJ4QKPY1l02JM/RaX+ashaTTARx2o6oI6LGLytQjtzWNhsHPEx9OWrAkvkA4Nl6MDqrlZI4+ksK3J7r9C8Nm97Tz22JjwggIUzQYZDWTAQdMQpfPvlpUKB3nuzQlNygwxCmOzzt+dTlBr2YI2wxj77NU/TjWQhdeCY/A8rSCI5fgZrr7gXDC0+NP61pmrTxBLTcZLjF5nEnil6vpmPJrQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/male"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/male" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/male" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/male" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Malè</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Malè</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Malè</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Malè</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Malè</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Malè</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Malè</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Malè</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.male.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.male.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.male.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.male.tn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

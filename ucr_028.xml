@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx6d853d88-6140-5329-4504-9d78c2849f1c" entityID="https://www.retenus.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx6d853d88-6140-5329-4504-9d78c2849f1c">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>9jOAErzH4IdLQC3vr/vQqw5w0sOZNcYqSCJqrQl8H6I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ORBDTqGLoAtdLcCEhlIX9FhWIt8HmpZdji1Orazz01l86a+oLn+gt8GKR/bfbl4vZrKW4kG2ykxS
+7rAJXMmNUPbIzwBNzW8C8WZkrStsuDHB/efrjzD+uw6diSbIK+TJw2PSZ5dwmnc7EPsSkp9oRd1d
+bp8Ewrf8UNM+nohPyX18hkNs7HmcJoLlLU0d6SguBKeqYaSFHumZy1msHUSPruoQpbSH7/Hl5sqZ
+JTe2hS1taUAML08gwZ7qKSNPJmTNoicuVCfkv4hCcV6dbyHLljMjh+YkOm6yubvO8VvT8fydiMZL
+Cbk92TS5ol3uwpLfTEvw+WY3LAPk4fVRILuCaQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2vaUSILpXnhecuPw1oWSXqATLCxYB48bwFGDfbKVTrkIt4BH2gi0tToS6CKjS/xoTAo4+J5t871k
+stbrvCOgX/TNYpM6v79ZND3D87nz52RrJFaCV5e0pwDTecQ5OgncVy+uYQwZMjGhvyDgyi3cwuMZ
+8q+ydaony7QFu/5kSNJtIyaYXU+eEgzRVkSOGJ6DFrZHth84x5a5KxKmqR33hARcLrvyW+BqBs0d
+c1fwj3JlR304DUAerUEJO/96xkJFscxjWwWSEB1m1NyORzluI6m+zPBPd+rklAw8L7xTmkyO0jJR
+zr0jOggijkt/nlgS8atAv9uz9LFKrc5rQLbWrQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEMzCCAxugAwIBAgIJAKAuvHdw3erSMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENv
+bXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdDAeFw0xODEyMjExMDQ4MjJaFw0y
+ODEyMjAxMDQ4MjJaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2Fj
+Y29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cu
+cmV0ZW51cy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANr2lEiC6V54XnLj8NaF
+kl6gEywsWAePG8BRg32ylU65CLeAR9oItLU6Eugio0v8aEwKOPiebfO9ZLLW67wjoF/0zWKTOr+/
+WTQ9w/O58+dkayRWgleXtKcA03nEOToJ3FcvrmEMGTIxob8g4Mot3MLjGfKvsnWqJ8u0Bbv+ZEjS
+bSMmmF1PnhIM0VZEjhiegxa2R7YfOMeWuSsSpqkd94QEXC678lvgagbNHXNX8I9yZUd9OA1AHq1B
+CTv/esZCRbHMY1sFkhAdZtTcjkc5biOpvszwT3fq5JQMPC+8U5pMjtIyUc69IzoIIo5Lf55YEvGr
+QL/bs/SxSq3Oa0C21q0CAwEAAaOB0zCB0DAdBgNVHQ4EFgQUUyk2G7gSOGxuX68RuNxEbCck0/Aw
+gaAGA1UdIwSBmDCBlYAUUyk2G7gSOGxuX68RuNxEbCck0/ChcqRwMG4xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENv
+bXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdIIJAKAuvHdw3erSMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBANi2xrypDiY+E3Ja/Rs1vpj36kqG/GqDelRHXzyO+7WZ
+L8eGmwYxmLH40FmixgTRcYteiTKw4ph/1W49+iG9ggF+MguOokUjrL0R+/+uXIs3xzCDILTpT5az
+JBkzJl/gwrMVjUok752Jc+pjwUXMK9IGaGxiFQnZEk7zGr0MwJz6VynKDKaPSTvDae1Tjajr9bDa
+LbP4GGJ2dm2DGHNGDbgtI+eFg4gOMj4vJL+4VLB+9nhFgfDvMyehOnWxRWRSkr9sLD/w1KPYlD7A
+0aI3iK7AKBDoXGlK2ZaQr08pDV3CVybDBX+gv87AHGm1yHYvP+2h4fPyygeEO0tx0LVeaAg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMzCCAxugAwIBAgIJAKAuvHdw3erSMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdDAeFw0xODEyMjExMDQ4MjJaFw0yODEyMjAxMDQ4MjJaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANr2lEiC6V54XnLj8NaFkl6gEywsWAePG8BRg32ylU65CLeAR9oItLU6Eugio0v8aEwKOPiebfO9ZLLW67wjoF/0zWKTOr+/WTQ9w/O58+dkayRWgleXtKcA03nEOToJ3FcvrmEMGTIxob8g4Mot3MLjGfKvsnWqJ8u0Bbv+ZEjSbSMmmF1PnhIM0VZEjhiegxa2R7YfOMeWuSsSpqkd94QEXC678lvgagbNHXNX8I9yZUd9OA1AHq1BCTv/esZCRbHMY1sFkhAdZtTcjkc5biOpvszwT3fq5JQMPC+8U5pMjtIyUc69IzoIIo5Lf55YEvGrQL/bs/SxSq3Oa0C21q0CAwEAAaOB0zCB0DAdBgNVHQ4EFgQUUyk2G7gSOGxuX68RuNxEbCck0/AwgaAGA1UdIwSBmDCBlYAUUyk2G7gSOGxuX68RuNxEbCck0/ChcqRwMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdIIJAKAuvHdw3erSMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBANi2xrypDiY+E3Ja/Rs1vpj36kqG/GqDelRHXzyO+7WZL8eGmwYxmLH40FmixgTRcYteiTKw4ph/1W49+iG9ggF+MguOokUjrL0R+/+uXIs3xzCDILTpT5azJBkzJl/gwrMVjUok752Jc+pjwUXMK9IGaGxiFQnZEk7zGr0MwJz6VynKDKaPSTvDae1Tjajr9bDaLbP4GGJ2dm2DGHNGDbgtI+eFg4gOMj4vJL+4VLB+9nhFgfDvMyehOnWxRWRSkr9sLD/w1KPYlD7A0aI3iK7AKBDoXGlK2ZaQr08pDV3CVybDBX+gv87AHGm1yHYvP+2h4fPyygeEO0tx0LVeaAg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMzCCAxugAwIBAgIJAKAuvHdw3erSMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdDAeFw0xODEyMjExMDQ4MjJaFw0yODEyMjAxMDQ4MjJaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANr2lEiC6V54XnLj8NaFkl6gEywsWAePG8BRg32ylU65CLeAR9oItLU6Eugio0v8aEwKOPiebfO9ZLLW67wjoF/0zWKTOr+/WTQ9w/O58+dkayRWgleXtKcA03nEOToJ3FcvrmEMGTIxob8g4Mot3MLjGfKvsnWqJ8u0Bbv+ZEjSbSMmmF1PnhIM0VZEjhiegxa2R7YfOMeWuSsSpqkd94QEXC678lvgagbNHXNX8I9yZUd9OA1AHq1BCTv/esZCRbHMY1sFkhAdZtTcjkc5biOpvszwT3fq5JQMPC+8U5pMjtIyUc69IzoIIo5Lf55YEvGrQL/bs/SxSq3Oa0C21q0CAwEAAaOB0zCB0DAdBgNVHQ4EFgQUUyk2G7gSOGxuX68RuNxEbCck0/AwgaAGA1UdIwSBmDCBlYAUUyk2G7gSOGxuX68RuNxEbCck0/ChcqRwMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTETMBEGA1UEBxMKU2FjY29sb25nbzEhMB8GA1UEChMYVW5pb25lIGRpIENvbXVuaSBSZXRlbnVzMRcwFQYDVQQDEw53d3cucmV0ZW51cy5pdIIJAKAuvHdw3erSMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBANi2xrypDiY+E3Ja/Rs1vpj36kqG/GqDelRHXzyO+7WZL8eGmwYxmLH40FmixgTRcYteiTKw4ph/1W49+iG9ggF+MguOokUjrL0R+/+uXIs3xzCDILTpT5azJBkzJl/gwrMVjUok752Jc+pjwUXMK9IGaGxiFQnZEk7zGr0MwJz6VynKDKaPSTvDae1Tjajr9bDaLbP4GGJ2dm2DGHNGDbgtI+eFg4gOMj4vJL+4VLB+9nhFgfDvMyehOnWxRWRSkr9sLD/w1KPYlD7A0aI3iK7AKBDoXGlK2ZaQr08pDV3CVybDBX+gv87AHGm1yHYvP+2h4fPyygeEO0tx0LVeaAg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.retenus.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.retenus.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione di Comuni Retenus</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione di Comuni Retenus</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.retenus.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

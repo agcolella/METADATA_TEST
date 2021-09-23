@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="siracsso-genova" entityID="https://vm-siracsso.comune.genova.it/sirac-sso/metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI="#siracsso-genova"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>wmY5Cm7d0ZWGJ4p4YlFoGzDNoPqISsvrnMf1HGU9B6A=</DigestValue></Reference></SignedInfo><SignatureValue>jHUUg9AKIl0ua6rb5BxHiRd1IdoMAjLhNsHRG7vYl3ekv7NTUo7LIyLwsaHtBQX96aVjC65+X5Eo
+ckb+WVYzTPJs5C4eCh3yucg5AxDA/JDa4fvCnMVnYclq9AtnO8whXGUyyrhvYh4/ATtIjs2lAr7j
+7N9ewHAEcuQlDC5sr1SzjubyL+5QeuUjssuGWauBEJmrQpCNFJ7TkrSTnxS455HnrBdAKAyI0bpR
+jXG5wOVUQkdwcAhNBX3tcbYrbVHyR8gxxeKJNETyi6VvJSV9ivNBEI6PV6pXwtnqJpqU/CdEAFNg
+bFDWhPtQ8VwkS3wSlLkeW9VZXybYMDA8K8b7/w==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIC4zCCAcugAwIBAgIBYTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDExx2bS1zaXJhY3Nzby5j
+b211bmUuZ2Vub3ZhLml0MB4XDTIwMDEwNzE1NTkwMFoXDTIzMDEwNzE1NTkwMFowJzElMCMGA1UE
+AxMcdm0tc2lyYWNzc28uY29tdW5lLmdlbm92YS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAJ2CroxP/mKhNnGU6D1BfEYGOOY5gbMSovtLuKBh+jtckILWzhYLLNFHsfJ+3YEU/9jo
+lWM1kfh3r/2wXSf8iMnamGhWvf3KXCvFVpqweC+Y3sC5kfzqmovw/ban1Dx8yB5AB7bH9Q/OYgYe
+gaHqBCtBCL1zqwTPHGmAUNmUKwcYSyJy5d66zVLLKkbT1k2OqVJc95DUqpf29Hg7D5bxvXy5qh+H
+NKMxMRsOyP1d2VtdEx43R4RGYCtYTMpLSvQJZvLP2ngR4OLAtb1BtpKq7010DjqYuwfXznzHEdF4
+C1isJ5q2vzKnD2YfmcK3rKAhJqVjWe/T7IGUiMFYZM6WOHsCAwEAAaMaMBgwCQYDVR0TBAIwADAL
+BgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggEBAIhhkABXDhUipcZeRszJVmlKR8d7sE/bMHnw
+CGOPPgaM9oSt+JJ/7Srw7ujhRVtNYmGH0sS1vbjIzKvIW/Jw3gKpHxDnB8B8iDdVgvJg1RZIqLzo
+2qToJXPyZ1momY09r2qQWuTVkbqb2hBr6kbSfWOx2fwTfKx7CHtzs69yk2ICfUGOlhoJetwxsedz
+lOOlpK6DRU7VB6rYLDgoam/XoPIcCBCsvssWAT6L7ieMs9N0mMXn2ZKVfWB72uG3vco877RNPY86
+jRB2efGWksrbuB6zJif6ij0Is2jcDJVVTNBe67iQhRi5LC+l78kj1mRdvX9zzz0Jm5NIg5I9teaj
+gUw=</X509Certificate></X509Data></KeyInfo></Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIB0zCCATygAwIBAgIBATANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDExx2bS1zaXJhY3Nzby5jb211bmUuZ2Vub3ZhLml0MB4XDTE3MDExNzExMTUwMFoXDTIwMDExNzExMTUwMFowJzElMCMGA1UEAxMcdm0tc2lyYWNzc28uY29tdW5lLmdlbm92YS5pdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmTmNpKD3qSeYEktHOrsN3gxpmVi6M6Y08lE0PBGwNBVJcvQem6V2s8JXgjJs+NX1KU5XL7E0SH5EgGDb6yfXsbGWarmBXgy9/NShYI9fRFzL5mAu7xqLeLjlShAPTjlKYhs4CMemX0irvfa0AyYfwKwosi/DmZ9+CcrsJLfxyIUCAwEAAaMPMA0wCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4GBAB83qnBz1plSV+barIS8ey2/bu+RTJFEq2WpZsb4zkCItIDzpa4lgw/x78lCbJYe6WZzwgDo1XZO0S9UYnmdOaoA0Dy4l5KUuRD5qGyagKrd6RwnBVjg5PnlFYUy32siHPRd1K6UrxcjCFtIT7kFTJSfDvrOpqEh2sDOAiaCFY4l</ds:X509Certificate>
+				</ds:X509Data>			
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIC4zCCAcugAwIBAgIBYTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDExx2bS1zaXJhY3Nzby5jb211bmUuZ2Vub3ZhLml0MB4XDTIwMDEwNzE1NTkwMFoXDTIzMDEwNzE1NTkwMFowJzElMCMGA1UEAxMcdm0tc2lyYWNzc28uY29tdW5lLmdlbm92YS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ2CroxP/mKhNnGU6D1BfEYGOOY5gbMSovtLuKBh+jtckILWzhYLLNFHsfJ+3YEU/9jolWM1kfh3r/2wXSf8iMnamGhWvf3KXCvFVpqweC+Y3sC5kfzqmovw/ban1Dx8yB5AB7bH9Q/OYgYegaHqBCtBCL1zqwTPHGmAUNmUKwcYSyJy5d66zVLLKkbT1k2OqVJc95DUqpf29Hg7D5bxvXy5qh+HNKMxMRsOyP1d2VtdEx43R4RGYCtYTMpLSvQJZvLP2ngR4OLAtb1BtpKq7010DjqYuwfXznzHEdF4C1isJ5q2vzKnD2YfmcK3rKAhJqVjWe/T7IGUiMFYZM6WOHsCAwEAAaMaMBgwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggEBAIhhkABXDhUipcZeRszJVmlKR8d7sE/bMHnwCGOPPgaM9oSt+JJ/7Srw7ujhRVtNYmGH0sS1vbjIzKvIW/Jw3gKpHxDnB8B8iDdVgvJg1RZIqLzo2qToJXPyZ1momY09r2qQWuTVkbqb2hBr6kbSfWOx2fwTfKx7CHtzs69yk2ICfUGOlhoJetwxsedzlOOlpK6DRU7VB6rYLDgoam/XoPIcCBCsvssWAT6L7ieMs9N0mMXn2ZKVfWB72uG3vco877RNPY86jRB2efGWksrbuB6zJif6ij0Is2jcDJVVTNBe67iQhRi5LC+l78kj1mRdvX9zzz0Jm5NIg5I9teajgUw=</ds:X509Certificate>
+				</ds:X509Data>			
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vm-siracsso.comune.genova.it/sirac-sso/SingleLogoutService"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vm-siracsso.comune.genova.it/sirac-sso/AssertionConsumerService" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Comune di Genova</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="name" Name="name"/>
+			<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+			<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+			<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="email" Name="email"/>
+			<md:RequestedAttribute FriendlyName="address" Name="address"/>
+			<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Genova</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Genova</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.comune.genova.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

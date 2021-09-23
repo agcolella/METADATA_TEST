@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="fd1fbd85-7307-4c54-654e-c547932cfca0" entityID="http://www.bresso.net/home"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#fd1fbd85-7307-4c54-654e-c547932cfca0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6WJIP1MvFhFuBU8UzIsdJlhjNwLKRRqutvVuk7L3CDs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RmSZYbjB7iX+ir1fLyKM/0XxzMp5eznT5m05Gi8oaOmVibQfUg6WFvuDTAxUN2fOBkMOSHWgqGaY
+C9639Lgeol2nIxxYfJrg1eL0EyS7YsPF7loOxcvDNrBk/FIahCYPnJCA3QGDuaF+txSjtqDP7O1E
+0/c86HUQqusI3d0K56MgHuAye2EoBWHey/ymsNGU901cETg/xYjzh3vO9uWprlv26oPNutBUfSDN
+jcNXJg7W1azXr+YytMp+j4JZ8xUoJNH9uhneGQElDXrOUVbVhVKgPGZxa3gHn0RVbw52Gn90NW4O
+W4bksmO3Qmb9kXmJ4YULXItqo6Nu7nOJdelNmQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vKBJCg6u9WqwO8O0v2C2HRe2gZ1tKvJI1V2gpIYbtRe7DyW3akRNdDIlON6mT3KRIoUSNttR4zoc
+um/d20Q7PW8GM39Fp++QpY+L1eogp2cOCs0wUeoEyCdTC+3iQUnG1dYVhpqxZ6yk+KeKSa0euc9t
+WGDf7gLoaWx6S0pV/mzlbo+tjt4zQJb+EUBhrns45IT+awfyYz6u6JuWl3+BZGv9ddJaFAgZ0rja
+/S7LS3jNXdEuPQq6kOne8sxKk3Ug2RAkXOEPvstTDyXmZRcKdl3jGaDQ683C/n7c3bc12oSn11q/
+tAFO4sepTE/OdUNEPTCOSs6hnhmCZwGNJG1j4w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDMTCCAhmgAwIBAgIJAPbL+rgZdK0tMA0GCSqGSIb3DQEBCwUAMCUxIzAhBgNVBAMTGmh0dHA6
+Ly93d3cuYnJlc3NvLm5ldC9ob21lMB4XDTE4MDcwMzA5MjEzMloXDTI4MDYzMDA5MjEzMlowJTEj
+MCEGA1UEAxMaaHR0cDovL3d3dy5icmVzc28ubmV0L2hvbWUwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQC8oEkKDq71arA7w7S/YLYdF7aBnW0q8kjVXaCkhhu1F7sPJbdqRE10MiU43qZP
+cpEihRI221HjOhy6b93bRDs9bwYzf0Wn75Clj4vV6iCnZw4KzTBR6gTIJ1ML7eJBScbV1hWGmrFn
+rKT4p4pJrR65z21YYN/uAuhpbHpLSlX+bOVuj62O3jNAlv4RQGGuezjkhP5rB/JjPq7om5aXf4Fk
+a/110loUCBnSuNr9LstLeM1d0S49CrqQ6d7yzEqTdSDZECRc4Q++y1MPJeZlFwp2XeMZoNDrzcL+
+ftzdtzXahKfXWr+0AU7ix6lMT851Q0Q9MI5KzqGeGYJnAY0kbWPjAgMBAAGjZDBiMEEGA1UdEQQ6
+MDiCGmh0dHA6Ly93d3cuYnJlc3NvLm5ldC9ob21lhhpodHRwOi8vd3d3LmJyZXNzby5uZXQvaG9t
+ZTAdBgNVHQ4EFgQUqzeJq3Pa/8VyCP20zzUC6B1Y6CcwDQYJKoZIhvcNAQELBQADggEBAAJk+1pQ
+Fo0GMQRowU+HbKhFFBzxs+D/uzO2rUT3y4gtDzWFh5fHoyXcpCArRNGV42482i+NUQyHWrMyeC+c
+0vJLJ43cp2gp9rOIbZYk/zJ9GjxLO6OHCc87VK5Ct4oKEMHqkMR6BsxtUhBYblqjcFf87xMKRIjp
+WDTNoCcq63BtUvy07Y9B+3iAmPrCxIwN3/tCTZHr5MSDTFO93GS2zfpAoUVKctLBehRT5zZXrL4z
+C5/ogKLOC25ak+x1URBOCMV+soeuh/Gv+8gZHU++AKLMIAN4ktdJCHVrSASzD2Kj9UzZotD8znAr
+FRBXu+BXYRyCPgxfTT6LhtsA5ml0zk8=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDMTCCAhmgAwIBAgIJAPbL+rgZdK0tMA0GCSqGSIb3DQEBCwUAMCUxIzAhBgNVBAMTGmh0dHA6Ly93d3cuYnJlc3NvLm5ldC9ob21lMB4XDTE4MDcwMzA5MjEzMloXDTI4MDYzMDA5MjEzMlowJTEjMCEGA1UEAxMaaHR0cDovL3d3dy5icmVzc28ubmV0L2hvbWUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8oEkKDq71arA7w7S/YLYdF7aBnW0q8kjVXaCkhhu1F7sPJbdqRE10MiU43qZPcpEihRI221HjOhy6b93bRDs9bwYzf0Wn75Clj4vV6iCnZw4KzTBR6gTIJ1ML7eJBScbV1hWGmrFnrKT4p4pJrR65z21YYN/uAuhpbHpLSlX+bOVuj62O3jNAlv4RQGGuezjkhP5rB/JjPq7om5aXf4Fka/110loUCBnSuNr9LstLeM1d0S49CrqQ6d7yzEqTdSDZECRc4Q++y1MPJeZlFwp2XeMZoNDrzcL+ftzdtzXahKfXWr+0AU7ix6lMT851Q0Q9MI5KzqGeGYJnAY0kbWPjAgMBAAGjZDBiMEEGA1UdEQQ6MDiCGmh0dHA6Ly93d3cuYnJlc3NvLm5ldC9ob21lhhpodHRwOi8vd3d3LmJyZXNzby5uZXQvaG9tZTAdBgNVHQ4EFgQUqzeJq3Pa/8VyCP20zzUC6B1Y6CcwDQYJKoZIhvcNAQELBQADggEBAAJk+1pQFo0GMQRowU+HbKhFFBzxs+D/uzO2rUT3y4gtDzWFh5fHoyXcpCArRNGV42482i+NUQyHWrMyeC+c0vJLJ43cp2gp9rOIbZYk/zJ9GjxLO6OHCc87VK5Ct4oKEMHqkMR6BsxtUhBYblqjcFf87xMKRIjpWDTNoCcq63BtUvy07Y9B+3iAmPrCxIwN3/tCTZHr5MSDTFO93GS2zfpAoUVKctLBehRT5zZXrL4zC5/ogKLOC25ak+x1URBOCMV+soeuh/Gv+8gZHU++AKLMIAN4ktdJCHVrSASzD2Kj9UzZotD8znArFRBXu+BXYRyCPgxfTT6LhtsA5ml0zk8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.bresso.net/cmsbresso/spidsinglelogout.aspx"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.bresso.net/cmsbresso/spidassertionconsumer.aspx" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bresso</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bresso</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.bresso.net/home</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

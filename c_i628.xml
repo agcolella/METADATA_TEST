@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://seriate.dgegovpa.it" ID="dg3a3c7c7f-37b9-4360-95eb-3b7821d45253" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg3a3c7c7f-37b9-4360-95eb-3b7821d45253"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>0hribvlIay5aOlQbrdRYYpGBIhD+l3uQ79MH7/OuOW0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>qYvdURwPYLGOhMNwYKqVBRIze78aXqIYZnIIZs2LG96WJISlJudn/qxNzB+vJRuEI0HOlhcIT9VOqYT/rm93H1QClE0yi/GNdHP1vWbDHdUFH8vB2jmHxlC5VMpKguJAGza3392JC4yRkhOO2cI0nLv/BBYl6igL9JF4jTgEzAlj0g7x/QTXKmQCTkf83vvm9eJBb3VdQtv1WR9Ex7Orw4p1WsmXUxsrb6J8iFXjUnKOwJei0+QNRkiFgK0vB9uV9a+JaYrAnVcVabSsD1hLxT73NXx+3GXy5Rq1stxHcdu4WMCxw5ACgUpjDoTy5e3cjj0YGDbG9dOq2WW9ccfK1fc=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuc2VyaWF0ZS5iZy5pdDAeFw0yMDEwMTUxNTE2NDVaFw0zMDEwMTMxNTE2NDVaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5zZXJpYXRlLmJnLml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAyoX3+8ue+n7742u9DcLE5STkyz/5tZxkXEC45H8YQwolBlZTvsS9jxFgMS+bvbgHPxjonk8JlReODWzEc7RU3xY7BN8on3S4Y3nVLAaMZ3pZtlfRYVh0d0FIljAGIh2eNMqV3qYr6M5CRqrTTPJAhCybC5JNQ73wxEJkNhiqj5zqzmhdax7/3bLfeAI58wILNy5N7M0YOHu96//hyw5Ic6TIl+gbJFIVOmcuQ4iOhUcdQ8za6dYIHCFJaP7y5LGbI6q0bZk+YYzzX2nScrcZtE8o4ivauAs+cYWfnro6J8QYcCl5ZApdihV6lecHQ0ejKXcgKiqgPPmUDbilkPf+yOUCAwEAAaNQME4wHQYDVR0OBBYEFEyKzY9bRm20A/6RDYAs2vVGoxfjMB8GA1UdIwQYMBaAFEyKzY9bRm20A/6RDYAs2vVGoxfjMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAJr3qcIALiOuab13UfXbVjR68l69EfiyMCEeMhCwovOKot2u2VbJRKR2BZY2AI2rmCEHTbZt7MtKpamKKyH7xkxjTBGX5WelDrkfvGVY8pN7rVvBywOP3Lmp5yxfjCQp4SIRfXhvLNPDpJS/N3TEPU6oYgHorx6aRNI9sXwOdlgGhV0ig+/z3wW2uOqIYE9QbQAoFigiM/EBaarW3Ba+h0CbRHxDvKk/XvnKA6hlyvP9vKJK+gz9gut6t7zXoatmOQ9k2x6GJGcCEBQc+W0qbe5RvYZ+I2VhDzAMRs341GACW2VoBeABJooyH4nXtoEv98+FWs8du5N7pY9lwk8tZnRZ</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuc2VyaWF0ZS5iZy5pdDAeFw0yMDEwMTUxNTE2NDVaFw0zMDEwMTMxNTE2NDVaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5zZXJpYXRlLmJnLml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAyoX3+8ue+n7742u9DcLE5STkyz/5tZxkXEC45H8YQwolBlZTvsS9jxFgMS+bvbgHPxjonk8JlReODWzEc7RU3xY7BN8on3S4Y3nVLAaMZ3pZtlfRYVh0d0FIljAGIh2eNMqV3qYr6M5CRqrTTPJAhCybC5JNQ73wxEJkNhiqj5zqzmhdax7/3bLfeAI58wILNy5N7M0YOHu96//hyw5Ic6TIl+gbJFIVOmcuQ4iOhUcdQ8za6dYIHCFJaP7y5LGbI6q0bZk+YYzzX2nScrcZtE8o4ivauAs+cYWfnro6J8QYcCl5ZApdihV6lecHQ0ejKXcgKiqgPPmUDbilkPf+yOUCAwEAAaNQME4wHQYDVR0OBBYEFEyKzY9bRm20A/6RDYAs2vVGoxfjMB8GA1UdIwQYMBaAFEyKzY9bRm20A/6RDYAs2vVGoxfjMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAJr3qcIALiOuab13UfXbVjR68l69EfiyMCEeMhCwovOKot2u2VbJRKR2BZY2AI2rmCEHTbZt7MtKpamKKyH7xkxjTBGX5WelDrkfvGVY8pN7rVvBywOP3Lmp5yxfjCQp4SIRfXhvLNPDpJS/N3TEPU6oYgHorx6aRNI9sXwOdlgGhV0ig+/z3wW2uOqIYE9QbQAoFigiM/EBaarW3Ba+h0CbRHxDvKk/XvnKA6hlyvP9vKJK+gz9gut6t7zXoatmOQ9k2x6GJGcCEBQc+W0qbe5RvYZ+I2VhDzAMRs341GACW2VoBeABJooyH4nXtoEv98+FWs8du5N7pY9lwk8tZnRZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuc2VyaWF0ZS5iZy5pdDAeFw0yMDEwMTUxNTE2NDVaFw0zMDEwMTMxNTE2NDVaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5zZXJpYXRlLmJnLml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAyoX3+8ue+n7742u9DcLE5STkyz/5tZxkXEC45H8YQwolBlZTvsS9jxFgMS+bvbgHPxjonk8JlReODWzEc7RU3xY7BN8on3S4Y3nVLAaMZ3pZtlfRYVh0d0FIljAGIh2eNMqV3qYr6M5CRqrTTPJAhCybC5JNQ73wxEJkNhiqj5zqzmhdax7/3bLfeAI58wILNy5N7M0YOHu96//hyw5Ic6TIl+gbJFIVOmcuQ4iOhUcdQ8za6dYIHCFJaP7y5LGbI6q0bZk+YYzzX2nScrcZtE8o4ivauAs+cYWfnro6J8QYcCl5ZApdihV6lecHQ0ejKXcgKiqgPPmUDbilkPf+yOUCAwEAAaNQME4wHQYDVR0OBBYEFEyKzY9bRm20A/6RDYAs2vVGoxfjMB8GA1UdIwQYMBaAFEyKzY9bRm20A/6RDYAs2vVGoxfjMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAJr3qcIALiOuab13UfXbVjR68l69EfiyMCEeMhCwovOKot2u2VbJRKR2BZY2AI2rmCEHTbZt7MtKpamKKyH7xkxjTBGX5WelDrkfvGVY8pN7rVvBywOP3Lmp5yxfjCQp4SIRfXhvLNPDpJS/N3TEPU6oYgHorx6aRNI9sXwOdlgGhV0ig+/z3wW2uOqIYE9QbQAoFigiM/EBaarW3Ba+h0CbRHxDvKk/XvnKA6hlyvP9vKJK+gz9gut6t7zXoatmOQ9k2x6GJGcCEBQc+W0qbe5RvYZ+I2VhDzAMRs341GACW2VoBeABJooyH4nXtoEv98+FWs8du5N7pY9lwk8tZnRZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/seriate/CNS/idpSpid/logout.ashx" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/seriate/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Seriate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Seriate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.seriate.bg.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <IPACode xmlns="https://spid.gov.it/saml-extensions">c_i628</IPACode>
+      <Public xmlns="https://spid.gov.it/saml-extensions" />
+    </md:Extensions>
+    <md:EmailAddress>spid@comune.seriate.bg.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

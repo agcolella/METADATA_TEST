@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" entityID="https://sportellodigitale.comune.borgomanero.no.it/SP" ID="dgaea92254-9f3f-4fb1-bfbe-16a1aeeddce1" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#dgaea92254-9f3f-4fb1-bfbe-16a1aeeddce1"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>mp8S2WxMXeH0eCQUHGviPO1lzby3M7UlgKTG50hYvtk=</DigestValue></Reference></SignedInfo><SignatureValue>PK/kSmX1jZW+K7kObt9y2dGyWeKEipfBE7WXj8CtDpm/mWYXTF9Dg6vvmimXEFwMgaXjv47B4GkxrdD3SJJn3+5aWwpPMsUNPneD1i7nKCE34O0DYShGHAOmks+sSBXZ2yFWmSfBBLzvqUDvRZpfMETHcKXujrKdpjU7MLO1RA7eVCqu83r3tbxRgdroN9O9Pjz/pC/Gv3zttyw+CiD1FlQajBRZp3SrJ64L8DdPqx/SNR3ji5N8tcUBfCBWxSWCP5jZw6o1zhbQes1xdaQaLUio9rn/yBS2AFd1oAzi3/nBkgNbaLmnPASp41K4HKkZzK7dOZU7BY83uRciIPhHPw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEpDCCA4ygAwIBAgIJAJTN0T+bQHCeMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDELMAkGA1UECAwCTk8xFDASBgNVBAcMC0JPUkdPTUFORVJPMR4wHAYDVQQKDBVDb211bmUgZGkgQm9yZ29tYW5lcm8xMzAxBgNVBAMMKnNwb3J0ZWxsb2RpZ2l0YWxlLmNvbXVuZS5ib3Jnb21hbmVyby5uby5pdDAeFw0xODAzMjMxMzQyMTJaFw0yODAzMjAxMzQyMTJaMIGFMQswCQYDVQQGEwJJVDELMAkGA1UECAwCTk8xFDASBgNVBAcMC0JPUkdPTUFORVJPMR4wHAYDVQQKDBVDb211bmUgZGkgQm9yZ29tYW5lcm8xMzAxBgNVBAMMKnNwb3J0ZWxsb2RpZ2l0YWxlLmNvbXVuZS5ib3Jnb21hbmVyby5uby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALvaNSPxVp/DOzRSCd8/SnX1bD2qNTT7f3w5yG06Qh4U3xePFX4vxS630JJ8irjS3Qt1AP2yKY9SL+cDchkuQSjr3li7qyasp2h4/FjA+Ct50l8JaIkFcUTUQX/R3J+xy+Rhf/Dj5/1J/PDwrBkKSMjnMUO6k7dIjBqtEbesh1Xl0a/2HqvNmvM0vbrU8yzAJQEBc63xeGTFodgH8Dsjz/2A6oU0x439cEl8igilZXqcZHUWktcQa1t3JaK0qh6PrPCXHXq6trq7L7hBOivt/XWLLDctThDkBMmShdqbB4Zwc6M4n6N3dd0AiiL6ZSuqv/ZrOF58CgwUby6f+Ktk/Z0CAwEAAaOCARMwggEPMB0GA1UdDgQWBBSHSz4mG8MPX/6FP7lk/pcd8JHoSjCBugYDVR0jBIGyMIGvgBSHSz4mG8MPX/6FP7lk/pcd8JHoSqGBi6SBiDCBhTELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAk5PMRQwEgYDVQQHDAtCT1JHT01BTkVSTzEeMBwGA1UECgwVQ29tdW5lIGRpIEJvcmdvbWFuZXJvMTMwMQYDVQQDDCpzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuYm9yZ29tYW5lcm8ubm8uaXSCCQCUzdE/m0BwnjAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEAn+mEPqg91A5LcKc2sfoJpygR3vBJzZ7dEpHQtRBzSVfrni9nRlWCEFj35gn4MUK9o+fNGKlfz5FOQEHg1tsHYTe0F7s1ye4zRRxwRuCsR97nPtFSML8vnwul95ILEh6NAevupwi7l3EUveBZ+RtN6fa3vWbIhGNcuozd45OI6Y8h4wGBrFVGC3gBA59I1LF8ykXPEWYP3gYUWYZAaGCgiAFeTmnvDXlHUekJbtea4ze6cfd9qL8dTnViHqq42VGL0k8GiEiXtuRzsW/pGo3RMlUMKg0BDnoe0fbx9HxxzoxrXBEjNHNj/FvsyduBntyxe3RzTqiQhuaq6exoxKWJEQ==</X509Certificate></X509Data></KeyInfo></Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDbTCCAlSgAwIBAgIBADANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUuYm9yZ29tYW5lcm8ubm8uaXQwHhcNMjAwNjE3MDkwMzM3WhcNMzAwNjE1MDkwMzM3WjBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUuYm9yZ29tYW5lcm8ubm8uaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgDAE5JafQH1z47GvxiRP6RzH3HRBoBxnMQe09Z6lZEzQKKTkxKabEUEN4APRQXFXerV6Vy1sCNLD58w4MN+t9n8NzeYbtF2nwPDW/Q54onaJfVP0+tB/dUpYQ9CYxfkYtuae3S8RAYi8CdHpHnKF2I0ar5OEW/i+GTaWANDxREvZwNS1midYWW4AhT9kLhmk/FcYmsFJcun3vJYqbZbKtP2X4mm8iW8Fh4DVRNCTdvhNKbm7Dtdpwh5hoTHskXqfYzeAsrlzwogOAIRyPrJGo8sbJEZf/tKV/c4kIcjU6zGOAi/fk7uv0k3V6UYT70hJgnqalgfNj2VCYPKovLe/JxG1wIDAQABo1AwTjAdBgNVHQ4EFgQUP/F6+a21UtEfUkJaOn/2kv9wjUkwHwYDVR0jBBgwFoAUP/F6+a21UtEfUkJaOn/2kv9wjUkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAZtRlgXCTd+nCcCho/neO6FuBxJJH+PAWlwJHEyNR6X1j6MkPGCHU3riZ4AL0LBnAeFoUFQ/XEkJUl/fwfx17TqQiFUgHu60lomSzUpUBs6r/34uxJIhh2iIgy4Toizn7fUa8j4Bw9/N0bxfK46JJWw23nxQ3+ktbxcOT9Oayq2M3Y8f6H8+T6jGDWNj+Quza49ddeclH6t2e1NZE4jdT6dQolCFvidzV3y8TAKI/ZPtm17bWXvRFgZWDqVwIhHU7ISgCqkeDPSTMcw8Ldsy4tlMVLagmYs/HiZftpAoF/pJQ9D7qIt+gzCBHbZ7yRMAbMqTV/FbBuRXRgDup/JPeYTk=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDbTCCAlSgAwIBAgIBADANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUuYm9yZ29tYW5lcm8ubm8uaXQwHhcNMjAwNjE3MDkwMzM3WhcNMzAwNjE1MDkwMzM3WjBQMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJTAjBgNVBAMMHHd3dy5jb211bmUuYm9yZ29tYW5lcm8ubm8uaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgDAE5JafQH1z47GvxiRP6RzH3HRBoBxnMQe09Z6lZEzQKKTkxKabEUEN4APRQXFXerV6Vy1sCNLD58w4MN+t9n8NzeYbtF2nwPDW/Q54onaJfVP0+tB/dUpYQ9CYxfkYtuae3S8RAYi8CdHpHnKF2I0ar5OEW/i+GTaWANDxREvZwNS1midYWW4AhT9kLhmk/FcYmsFJcun3vJYqbZbKtP2X4mm8iW8Fh4DVRNCTdvhNKbm7Dtdpwh5hoTHskXqfYzeAsrlzwogOAIRyPrJGo8sbJEZf/tKV/c4kIcjU6zGOAi/fk7uv0k3V6UYT70hJgnqalgfNj2VCYPKovLe/JxG1wIDAQABo1AwTjAdBgNVHQ4EFgQUP/F6+a21UtEfUkJaOn/2kv9wjUkwHwYDVR0jBBgwFoAUP/F6+a21UtEfUkJaOn/2kv9wjUkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAZtRlgXCTd+nCcCho/neO6FuBxJJH+PAWlwJHEyNR6X1j6MkPGCHU3riZ4AL0LBnAeFoUFQ/XEkJUl/fwfx17TqQiFUgHu60lomSzUpUBs6r/34uxJIhh2iIgy4Toizn7fUa8j4Bw9/N0bxfK46JJWw23nxQ3+ktbxcOT9Oayq2M3Y8f6H8+T6jGDWNj+Quza49ddeclH6t2e1NZE4jdT6dQolCFvidzV3y8TAKI/ZPtm17bWXvRFgZWDqVwIhHU7ISgCqkeDPSTMcw8Ldsy4tlMVLagmYs/HiZftpAoF/pJQ9D7qIt+gzCBHbZ7yRMAbMqTV/FbBuRXRgDup/JPeYTk=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/borgomanero/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/borgomanero/CNS/idpSpid/ACS.ashx" index="1" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Sportello Unico Digitale</md:ServiceName>
+      <md:RequestedAttribute Name="fiscalNumber" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="email" />
+      <md:RequestedAttribute Name="digitalAddress" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Borgomanero</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Borgomanero</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.borgomanero.no.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

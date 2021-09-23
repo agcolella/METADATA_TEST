@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="pfx75150c18-23d7-9631-b4e8-06cb69dc3ad5" entityID="www.carabinieri.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx75150c18-23d7-9631-b4e8-06cb69dc3ad5">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4V63nH3qRJeQLF8pYpauNvPdaE4ZYvFWHh2ZIOB6qeA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+WQBZWK5J0HruyG4ownHutkJPMkvQHb3LJ5odWxDuuP7wzrlx/ONI2Zj9W8jM3Vh7OfUM5Z2faejn
+/5odH4/4L9AQrk4IIxiOtJJDbHNktc4oTj8ekSxS6TUoODaatGY6UJrBwIIjMLhm/SvrJFEUP/ju
+El83s0i4mSD4VxzmbG2Oj4vbBmw/E7mBj/S4SqeeHqiH7MTrAwGCt8cDC5ixZRmUHY11JdrybXh0
+tU0SuAw1QQUHom9I8kyanuXjDQabsW0ZCRE2qAMAfUH06aS4ZAehT9Nm8xdnnSQioTcu86e8KBf5
+UY6AwjRn8T1VxQYa3vxrrbHdh2TKdR5B2b4gqQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w3QQmV+HblnzMsRGQaWw5XvQo1vrNRC4XcHvmNiAMXQfzpEmeM8MD8yN//FIkaXZu8c/rHnqSh4N
+dHPS1m5GJUjZNZnQcrS8XbD3b9ejmwuBCxoYuyCf2x1DjpHS4Q7O1Pv2jM+0rryXyddLJTYjptCn
+fiOdvlq+DuLCc61SeJr0oZgktKdyoGH3LPefVtre25fmH6bqU3wty7bSyHcsy+rRROKpqBB8TQRC
+DvdHEtoqM6rhe1SicuZ526aPgO/AvqnaxBCckCCn5H0xGwk08LVZWguggxpEpmKfiYrHyDtrFkPf
+YB1DZl3jJ9GhAru8o/lqQ5YZ9Zgf1TbTr2qiNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHPzCCBiegAwIBAgIQAugk6OA49zt30/2k3qZNEDANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMTQw
+MgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVkIFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTE5
+MDYyNDAwMDAwMFoXDTIxMDYyMzEyMDAwMFowgb8xGjAYBgNVBA8MEUdvdmVybm1lbnQgRW50aXR5
+MRMwEQYLKwYBBAGCNzwCAQMTAklUMRQwEgYDVQQFEws4MDIzNjE5MDU4NTELMAkGA1UEBhMCSVQx
+DTALBgNVBAgTBFJPTUExDTALBgNVBAcTBFJPTUExHTAbBgNVBAoTFEFSTUEgREVJIENBUkFCSU5J
+RVJJMRMwEQYDVQQLEwpVZi4gU3RhbXBhMRcwFQYDVQQDEw5jYXJhYmluaWVyaS5pdDCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMN0EJlfh25Z8zLERkGlsOV70KNb6zUQuF3B75jYgDF0
+H86RJnjPDA/Mjf/xSJGl2bvHP6x56koeDXRz0tZuRiVI2TWZ0HK0vF2w92/Xo5sLgQsaGLsgn9sd
+Q46R0uEOztT79ozPtK68l8nXSyU2I6bQp34jnb5avg7iwnOtUnia9KGYJLSncqBh9yz3n1ba3tuX
+5h+m6lN8Lcu20sh3LMvq0UTiqagQfE0EQg73RxLaKjOq4XtUonLmedumj4DvwL6p2sQQnJAgp+R9
+MRsJNPC1WVoLoIMaRKZin4mKx8g7axZD32AdQ2Zd4yfRoQK7vKP5akOWGfWYH9U2069qojcCAwEA
+AaOCA34wggN6MB8GA1UdIwQYMBaAFD3TUKXWoK3u80pgCmXTIdT4+NYPMB0GA1UdDgQWBBQRlzNy
+ahELDQm5PHjvAoJSk8I4dTAtBgNVHREEJjAkghJ3d3cuY2FyYWJpbmllcmkuaXSCDmNhcmFiaW5p
+ZXJpLml0MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdQYD
+VR0fBG4wbDA0oDKgMIYuaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL3NoYTItZXYtc2VydmVyLWcy
+LmNybDA0oDKgMIYuaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL3NoYTItZXYtc2VydmVyLWcyLmNy
+bDBLBgNVHSAERDBCMDcGCWCGSAGG/WwCATAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdp
+Y2VydC5jb20vQ1BTMAcGBWeBDAEBMIGIBggrBgEFBQcBAQR8MHowJAYIKwYBBQUHMAGGGGh0dHA6
+Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBSBggrBgEFBQcwAoZGaHR0cDovL2NhY2VydHMuZGlnaWNlcnQu
+Y29tL0RpZ2lDZXJ0U0hBMkV4dGVuZGVkVmFsaWRhdGlvblNlcnZlckNBLmNydDAJBgNVHRMEAjAA
+MIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2
+jh7RhQAAAWuIc1qvAAAEAwBHMEUCIQDEht+0FP7bp97UEXIfPe4H+dX7YQExA4oLOU2RfJzK4wIg
+MDtS21LfaBYoUVQ8+cgwJQi3/NLakko0Rh5LqtpmbOoAdgBWFAaaL9fC7NP14b1Esj7HRna5vJkR
+XMDvlJhV1onQ3QAAAWuIc1swAAAEAwBHMEUCIQCcIr/Js0OvwRz1iMBd/Jh3oA+iuSpNOM1bp7ug
+qRpyAgIgEGjBonKafYFKnsj9BAeQgKozgmy1bnLWf9/pOYh+l04AdgCHdb/nWXz4jEOZX73zbv9W
+jUdWNv9KtWDBtOr/XqCDDwAAAWuIc1yEAAAEAwBHMEUCIHWeQTltPkERJMpY9SUkoR7ZvOywDVET
+KERlMg+Z8/9MAiEAhwySTIWDM1Adf1bnmZHMluDuJSgp45TwpnKw1MXz0+AwDQYJKoZIhvcNAQEL
+BQADggEBAAl8mZGyxShazg36XLZ4MhcxzdbG2ZUkkHPSWwNGpfEU6IYFdodwHNW4ILh6CLqohUJM
+fULxsjiW4wk9KLF3pu8SJ1M7Jfb7///ar99XPLaCTB6zDsu3gwlqMl6E78q/CnPebdLX8HGwyjXf
+O1YFgI7S7eE7/Pk1CUN7rw5hxaZaiaeBcZyrU7N0nB9WUWvJxKhwBg/prPVwf/Ei1qesUki1cseq
+JvI+d05nrD4riY+K9/V8b31v/1Jn+o0uAyRtDSd2P1es4yv6oFv7tYCdH6dOmZw/ESaciDAF8eaT
+9xkpuDvZN4mqjSmXaNbB6ls6U7JQkMWqn45uyAWL0Ab8HYQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIHPzCCBiegAwIBAgIQAugk6OA49zt30/2k3qZNEDANBgkqhkiG9w0BAQsFADB1
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVk
+IFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTE5MDYyNDAwMDAwMFoXDTIxMDYyMzEy
+MDAwMFowgb8xGjAYBgNVBA8MEUdvdmVybm1lbnQgRW50aXR5MRMwEQYLKwYBBAGC
+NzwCAQMTAklUMRQwEgYDVQQFEws4MDIzNjE5MDU4NTELMAkGA1UEBhMCSVQxDTAL
+BgNVBAgTBFJPTUExDTALBgNVBAcTBFJPTUExHTAbBgNVBAoTFEFSTUEgREVJIENB
+UkFCSU5JRVJJMRMwEQYDVQQLEwpVZi4gU3RhbXBhMRcwFQYDVQQDEw5jYXJhYmlu
+aWVyaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMN0EJlfh25Z
+8zLERkGlsOV70KNb6zUQuF3B75jYgDF0H86RJnjPDA/Mjf/xSJGl2bvHP6x56koe
+DXRz0tZuRiVI2TWZ0HK0vF2w92/Xo5sLgQsaGLsgn9sdQ46R0uEOztT79ozPtK68
+l8nXSyU2I6bQp34jnb5avg7iwnOtUnia9KGYJLSncqBh9yz3n1ba3tuX5h+m6lN8
+Lcu20sh3LMvq0UTiqagQfE0EQg73RxLaKjOq4XtUonLmedumj4DvwL6p2sQQnJAg
+p+R9MRsJNPC1WVoLoIMaRKZin4mKx8g7axZD32AdQ2Zd4yfRoQK7vKP5akOWGfWY
+H9U2069qojcCAwEAAaOCA34wggN6MB8GA1UdIwQYMBaAFD3TUKXWoK3u80pgCmXT
+IdT4+NYPMB0GA1UdDgQWBBQRlzNyahELDQm5PHjvAoJSk8I4dTAtBgNVHREEJjAk
+ghJ3d3cuY2FyYWJpbmllcmkuaXSCDmNhcmFiaW5pZXJpLml0MA4GA1UdDwEB/wQE
+AwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdQYDVR0fBG4wbDA0
+oDKgMIYuaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL3NoYTItZXYtc2VydmVyLWcy
+LmNybDA0oDKgMIYuaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL3NoYTItZXYtc2Vy
+dmVyLWcyLmNybDBLBgNVHSAERDBCMDcGCWCGSAGG/WwCATAqMCgGCCsGAQUFBwIB
+FhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BTMAcGBWeBDAEBMIGIBggrBgEF
+BQcBAQR8MHowJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBS
+BggrBgEFBQcwAoZGaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0
+U0hBMkV4dGVuZGVkVmFsaWRhdGlvblNlcnZlckNBLmNydDAJBgNVHRMEAjAAMIIB
+fgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgC72d+8H4pxtZOUI5eqkntHOFeVCqtS
+6BqQlmQ2jh7RhQAAAWuIc1qvAAAEAwBHMEUCIQDEht+0FP7bp97UEXIfPe4H+dX7
+YQExA4oLOU2RfJzK4wIgMDtS21LfaBYoUVQ8+cgwJQi3/NLakko0Rh5LqtpmbOoA
+dgBWFAaaL9fC7NP14b1Esj7HRna5vJkRXMDvlJhV1onQ3QAAAWuIc1swAAAEAwBH
+MEUCIQCcIr/Js0OvwRz1iMBd/Jh3oA+iuSpNOM1bp7ugqRpyAgIgEGjBonKafYFK
+nsj9BAeQgKozgmy1bnLWf9/pOYh+l04AdgCHdb/nWXz4jEOZX73zbv9WjUdWNv9K
+tWDBtOr/XqCDDwAAAWuIc1yEAAAEAwBHMEUCIHWeQTltPkERJMpY9SUkoR7ZvOyw
+DVETKERlMg+Z8/9MAiEAhwySTIWDM1Adf1bnmZHMluDuJSgp45TwpnKw1MXz0+Aw
+DQYJKoZIhvcNAQELBQADggEBAAl8mZGyxShazg36XLZ4MhcxzdbG2ZUkkHPSWwNG
+pfEU6IYFdodwHNW4ILh6CLqohUJMfULxsjiW4wk9KLF3pu8SJ1M7Jfb7///ar99X
+PLaCTB6zDsu3gwlqMl6E78q/CnPebdLX8HGwyjXfO1YFgI7S7eE7/Pk1CUN7rw5h
+xaZaiaeBcZyrU7N0nB9WUWvJxKhwBg/prPVwf/Ei1qesUki1cseqJvI+d05nrD4r
+iY+K9/V8b31v/1Jn+o0uAyRtDSd2P1es4yv6oFv7tYCdH6dOmZw/ESaciDAF8eaT
+9xkpuDvZN4mqjSmXaNbB6ls6U7JQkMWqn45uyAWL0Ab8HYQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://extranet.carabinieri.it/SPID/logout" ResponseLocation="https://extranet.carabinieri.it/SPID/logout"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://extranet.carabinieri.it/SPID/post" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Concorsi</md:ServiceName>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="address"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Arma dei Carabinieri</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Arma dei Carabinieri</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.carabinieri.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

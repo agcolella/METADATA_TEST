@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___smart.aou-careggi.toscana.it_sp" entityID="https://smart.aou-careggi.toscana.it/sp">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#https___smart.aou-careggi.toscana.it_sp">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ds:DigestValue>PHQqDVUTIkdOUb+AM19GxkbdGjg=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>dgol4houK4Q2J5xQlk8owul7Jfh5AXvofqUjVsSsmsyduKwVgn8gxNOiQsvhcHz/67hpyQncvxtcHVI1KErzv+15nCe1H+MOCGyBpykxGY6nSt6diOnQOKDlvaILq9d2EJCLAkO6jrD2+C8VOfit2awElK+fZ/0T7LKzL+NQ2vwaRse6UN2w66/FJza/Bggk0pZDc7J5z6qDczOEYuL3Va2h98k8mIx7v3lmSQSD0vVuBFCUJBuPkWcINtWlfSNTbGz3K8x6uKWKQIOROEeuuHBrgoaOuskRukUl3gc5npQfv3X8zKcuMMb517+fEjzqTkyxYE+yfJ81llL0nymPUA==</ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>
+                        vMcP/jw50COttk3vb3X49mPxGFArpD6U7aj1F9h93DRO8ViZlK4Zp54UoZ3TvoKoDYwO4FNeDyEM bEwzMn9OEH6wtK6XSu33wHtRK8F3ivKViPQ/6pllHV1lf920Tpk6/UUHUo9l0M4NFo5N6DjP0bTL bS6WhGaKYlRP3ED5lfPnXF3z20M3VCfjaZ/mgwHAPnq+ucQpQDXT9dt5PeBJGpUzy5Q6Oz+nr+cv ZqQsv99tZIsmXn3E682LFHTlF+Uga+a215aBzxCDFTTPgN1hVSGGTXm0wJSpGs/KEZj6B9a3o11v Xo8JvDVL9KOLiuznFM/iwUn3RghpNQLiPWsmIw==
+                    </ds:Modulus>
+                    <ds:Exponent>AQAB</ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>            
+            <ds:X509Data>
+                <ds:X509Certificate>MIIDOjCCAiKgAwIBAgIEWDWFPDANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJJVDEQMA4GA1UE
+                    CAwHVG9zY2FuYTEQMA4GA1UEBwwHRmlyZW56ZTEUMBIGA1UECgwLQU9VIENhcmVnZ2kxFjAUBgNV
+                    BAMMDVNtYXJ0SG9zcGl0YWwwHhcNMTYxMTIzMTIwMzA4WhcNMzYxMTIzMTIwMzA4WjBfMQswCQYD
+                    VQQGEwJJVDEQMA4GA1UECAwHVG9zY2FuYTEQMA4GA1UEBwwHRmlyZW56ZTEUMBIGA1UECgwLQU9V
+                    IENhcmVnZ2kxFjAUBgNVBAMMDVNtYXJ0SG9zcGl0YWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+                    ggEKAoIBAQC8xw/+PDnQI622Te9vdfj2Y/EYUCukPpTtqPUX2H3cNE7xWJmUrhmnnhShndO+gqgN
+                    jA7gU14PIQxsTDMyf04QfrC0rpdK7ffAe1ErwXeK8pWI9D/qmWUdXWV/3bROmTr9RQdSj2XQzg0W
+                    jk3oOM/RtMttLpaEZopiVE/cQPmV8+dcXfPbQzdUJ+Npn+aDAcA+er65xClANdP123k94EkalTPL
+                    lDo7P6ev5y9mpCy/321kiyZefcTrzYsUdOUX5SBr5rbXloHPEIMVNM+A3WFVIYZNebTAlKkaz8oR
+                    mPoH1rejXW9ejwm8NUv0o4uK7OcUz+LBSfdGCGk1AuI9ayYjAgMBAAEwDQYJKoZIhvcNAQELBQAD
+                    ggEBADMTXjavButK8QRDI2qDj76JbGkVd5+ksSxmQ2T0yfsP25XFF5ToIy6oXz6R+K5CUBnQmm/a
+                    oS6F/EaoqEhA33f1P/r7XCi4zSq9adG5h7p6hYegZLjbybjUF6FALDdB41JWGFLd2W0rMqt1dLZJ
+                    yzNimcUZU3uM8p1Y0bUHhuoPCuMV4N/vinSrryu7odvvvelDWayY1JgcywmZ59ACZ/V2sJ0C7kUE
+                    KjxNPfoe49cf4AGJp+Wln2pIbR0wazg6dlOEL05dKGZhogPJlwnPYdQIbxlq9klbKKeR1zJspaYF
+                    QEFPrCL2Vjc/orksChQU21CVBucNmgfo1uPGqhgMv2o=</ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDOjCCAiKgAwIBAgIEWDWFPDANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJJVDEQMA4GA1UE
+                        CAwHVG9zY2FuYTEQMA4GA1UEBwwHRmlyZW56ZTEUMBIGA1UECgwLQU9VIENhcmVnZ2kxFjAUBgNV
+                        BAMMDVNtYXJ0SG9zcGl0YWwwHhcNMTYxMTIzMTIwMzA4WhcNMzYxMTIzMTIwMzA4WjBfMQswCQYD
+                        VQQGEwJJVDEQMA4GA1UECAwHVG9zY2FuYTEQMA4GA1UEBwwHRmlyZW56ZTEUMBIGA1UECgwLQU9V
+                        IENhcmVnZ2kxFjAUBgNVBAMMDVNtYXJ0SG9zcGl0YWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+                        ggEKAoIBAQC8xw/+PDnQI622Te9vdfj2Y/EYUCukPpTtqPUX2H3cNE7xWJmUrhmnnhShndO+gqgN
+                        jA7gU14PIQxsTDMyf04QfrC0rpdK7ffAe1ErwXeK8pWI9D/qmWUdXWV/3bROmTr9RQdSj2XQzg0W
+                        jk3oOM/RtMttLpaEZopiVE/cQPmV8+dcXfPbQzdUJ+Npn+aDAcA+er65xClANdP123k94EkalTPL
+                        lDo7P6ev5y9mpCy/321kiyZefcTrzYsUdOUX5SBr5rbXloHPEIMVNM+A3WFVIYZNebTAlKkaz8oR
+                        mPoH1rejXW9ejwm8NUv0o4uK7OcUz+LBSfdGCGk1AuI9ayYjAgMBAAEwDQYJKoZIhvcNAQELBQAD
+                        ggEBADMTXjavButK8QRDI2qDj76JbGkVd5+ksSxmQ2T0yfsP25XFF5ToIy6oXz6R+K5CUBnQmm/a
+                        oS6F/EaoqEhA33f1P/r7XCi4zSq9adG5h7p6hYegZLjbybjUF6FALDdB41JWGFLd2W0rMqt1dLZJ
+                        yzNimcUZU3uM8p1Y0bUHhuoPCuMV4N/vinSrryu7odvvvelDWayY1JgcywmZ59ACZ/V2sJ0C7kUE
+                        KjxNPfoe49cf4AGJp+Wln2pIbR0wazg6dlOEL05dKGZhogPJlwnPYdQIbxlq9klbKKeR1zJspaYF
+                        QEFPrCL2Vjc/orksChQU21CVBucNmgfo1uPGqhgMv2o=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDOjCCAiKgAwIBAgIEWDWFPDANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJJVDEQMA4GA1UE
+                        CAwHVG9zY2FuYTEQMA4GA1UEBwwHRmlyZW56ZTEUMBIGA1UECgwLQU9VIENhcmVnZ2kxFjAUBgNV
+                        BAMMDVNtYXJ0SG9zcGl0YWwwHhcNMTYxMTIzMTIwMzA4WhcNMzYxMTIzMTIwMzA4WjBfMQswCQYD
+                        VQQGEwJJVDEQMA4GA1UECAwHVG9zY2FuYTEQMA4GA1UEBwwHRmlyZW56ZTEUMBIGA1UECgwLQU9V
+                        IENhcmVnZ2kxFjAUBgNVBAMMDVNtYXJ0SG9zcGl0YWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+                        ggEKAoIBAQC8xw/+PDnQI622Te9vdfj2Y/EYUCukPpTtqPUX2H3cNE7xWJmUrhmnnhShndO+gqgN
+                        jA7gU14PIQxsTDMyf04QfrC0rpdK7ffAe1ErwXeK8pWI9D/qmWUdXWV/3bROmTr9RQdSj2XQzg0W
+                        jk3oOM/RtMttLpaEZopiVE/cQPmV8+dcXfPbQzdUJ+Npn+aDAcA+er65xClANdP123k94EkalTPL
+                        lDo7P6ev5y9mpCy/321kiyZefcTrzYsUdOUX5SBr5rbXloHPEIMVNM+A3WFVIYZNebTAlKkaz8oR
+                        mPoH1rejXW9ejwm8NUv0o4uK7OcUz+LBSfdGCGk1AuI9ayYjAgMBAAEwDQYJKoZIhvcNAQELBQAD
+                        ggEBADMTXjavButK8QRDI2qDj76JbGkVd5+ksSxmQ2T0yfsP25XFF5ToIy6oXz6R+K5CUBnQmm/a
+                        oS6F/EaoqEhA33f1P/r7XCi4zSq9adG5h7p6hYegZLjbybjUF6FALDdB41JWGFLd2W0rMqt1dLZJ
+                        yzNimcUZU3uM8p1Y0bUHhuoPCuMV4N/vinSrryu7odvvvelDWayY1JgcywmZ59ACZ/V2sJ0C7kUE
+                        KjxNPfoe49cf4AGJp+Wln2pIbR0wazg6dlOEL05dKGZhogPJlwnPYdQIbxlq9klbKKeR1zJspaYF
+                        QEFPrCL2Vjc/orksChQU21CVBucNmgfo1uPGqhgMv2o=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://smart.aou-careggi.toscana.it/sp/saml/SingleLogout" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://smart.aou-careggi.toscana.it/sp/saml/SingleLogout" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"/>
+        <md:NameIDFormat xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://smart.aou-careggi.toscana.it/sp/saml/SSO" index="0" isDefault="true" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Servizio di classe 1</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Azienda Ospedaliero-Universitaria Careggi - Firenze</md:OrganizationName>
+        <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">AOU Careggi</md:OrganizationDisplayName>
+        <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.aou-careggi.toscana.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

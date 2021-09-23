@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx2a9be040-7481-67a8-844c-6a2cf718b9a1" entityID="https://www.comune.bracciano.rm.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx2a9be040-7481-67a8-844c-6a2cf718b9a1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>KCjSdGxp9QgKSLJN+0DLcuBFpJF+Xieg7SOTK0nwcS8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fT/FRXLivktY3lQfPhDuN26H4WS+HeHyzHGoZceCzXgiNnbRGBLzUdo4VFm99qezZf19DWcm+67s
+k4Rfrz258uCB/p/lLhNRdxvBe9+t3T7S5TSjB666D3cArRO+5FHQ4ob7XL/iPt0MFzNnjEfr3s/l
+GOXKwPFTQ4lY5zIeMGV3EWN3HB/HH5YRXOYJOXQag2jgiNMZnBxCDoxY92hDDNSPwm3w+1HTHKN/
+xpeR47ZoYDwhjEfLgY6awfdgFQ6gyNHYVi7jZsk2PJERiof6eXo8GSrF18EpBEDbD320hPqJ7sbB
+MTEaH/7caOiaVgScjxHBt4Yc5t4oCfVlIkZmJA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sMJnMe4K9+5PJNcAp0M4Zl6ftnTtvCbvuhBdc2xmGKrKukUbm7YVqsQwIXpuqao+QQHHHeBy8OQY
+lDZr9fDUnw0VN0QUWDOqDxTwGcz+MkeCpAzFDpOWNpOfrNS+1yhbK6E9UvWSl3WK5sDsZbIlTY/Q
+frUD8H9fRSBQ+d0mtApSDl85TjuKmlZL4qE6nl7pxESl4Jr8aZGzxXlyzNXFdkLcq15SXAvxcBm4
+4KCSPooEyPt7Tfnf3v8mU/gwPHIjWQWr9YrkKcWG0Cj7owNk6XEXyA0aKPaetaeHENu0k7x1gX30
+1XcGAY91zefnqRrOmIanVD9DTtkzKzm8255AjQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDuzCCAqOgAwIBAgIJALBulFeFhVoWMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQnJhY2NpYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgQnJh
+Y2NpYW5vMSMwIQYDVQQDDBp3d3cuY29tdW5lLmJyYWNjaWFuby5ybS5pdDAeFw0yMDEyMDIwOTAw
+MzRaFw0zMDEyMDIwOTAwMzRaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UE
+BwwJQnJhY2NpYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgQnJhY2NpYW5vMSMwIQYDVQQDDBp3d3cu
+Y29tdW5lLmJyYWNjaWFuby5ybS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALDC
+ZzHuCvfuTyTXAKdDOGZen7Z07bwm77oQXXNsZhiqyrpFG5u2FarEMCF6bqmqPkEBxx3gcvDkGJQ2
+a/Xw1J8NFTdEFFgzqg8U8BnM/jJHgqQMxQ6TljaTn6zUvtcoWyuhPVL1kpd1iubA7GWyJU2P0H61
+A/B/X0UgUPndJrQKUg5fOU47ippWS+KhOp5e6cREpeCa/GmRs8V5cszVxXZC3KteUlwL8XAZuOCg
+kj6KBMj7e035397/JlP4MDxyI1kFq/WK5CnFhtAo+6MDZOlxF8gNGij2nrWnhxDbtJO8dYF99NV3
+BgGPdc3n56kazpiGp1Q/Q07ZMys5vNueQI0CAwEAAaNQME4wHQYDVR0OBBYEFETv7JVJ/GZ4qJ3/
+sS+Te7/NaJE3MB8GA1UdIwQYMBaAFETv7JVJ/GZ4qJ3/sS+Te7/NaJE3MAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBAAi5fbZLcxFSis+KQIP0qcMKPUxYSsscwAaztSyfmUjhiRPzAnaG
+U9zMW6G5nzTIW0oLZSaDoMpYIEe3AFNB3NUmhEg/xEQi9Apcgc9h9YwIC3vIp/OzmbrvdqDHf1uE
+7HZhz0AiYDdLqv3m0QxFb5YoVlsCL7LGZjtqw6AbXli1IvVgzwdlfyzlv4AQVQnOoE3XJVatezYz
+Vk+uQvBDa+o8IKWzj54Ox8m4k/draG7beXxtTNsWmtgr17qcpKYNAXVTaEA0KZZ5d9rfPA1cVEqN
+ZOMu1or7EnZ6vABKckmSID5qxgZSZ2lEF/yC6mtX9riNBB6f0P3T61qy8bywU3w=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuzCCAqOgAwIBAgIJALBulFeFhVoWMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQnJhY2NpYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgQnJhY2NpYW5vMSMwIQYDVQQDDBp3d3cuY29tdW5lLmJyYWNjaWFuby5ybS5pdDAeFw0yMDEyMDIwOTAwMzRaFw0zMDEyMDIwOTAwMzRaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQnJhY2NpYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgQnJhY2NpYW5vMSMwIQYDVQQDDBp3d3cuY29tdW5lLmJyYWNjaWFuby5ybS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALDCZzHuCvfuTyTXAKdDOGZen7Z07bwm77oQXXNsZhiqyrpFG5u2FarEMCF6bqmqPkEBxx3gcvDkGJQ2a/Xw1J8NFTdEFFgzqg8U8BnM/jJHgqQMxQ6TljaTn6zUvtcoWyuhPVL1kpd1iubA7GWyJU2P0H61A/B/X0UgUPndJrQKUg5fOU47ippWS+KhOp5e6cREpeCa/GmRs8V5cszVxXZC3KteUlwL8XAZuOCgkj6KBMj7e035397/JlP4MDxyI1kFq/WK5CnFhtAo+6MDZOlxF8gNGij2nrWnhxDbtJO8dYF99NV3BgGPdc3n56kazpiGp1Q/Q07ZMys5vNueQI0CAwEAAaNQME4wHQYDVR0OBBYEFETv7JVJ/GZ4qJ3/sS+Te7/NaJE3MB8GA1UdIwQYMBaAFETv7JVJ/GZ4qJ3/sS+Te7/NaJE3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAi5fbZLcxFSis+KQIP0qcMKPUxYSsscwAaztSyfmUjhiRPzAnaGU9zMW6G5nzTIW0oLZSaDoMpYIEe3AFNB3NUmhEg/xEQi9Apcgc9h9YwIC3vIp/OzmbrvdqDHf1uE7HZhz0AiYDdLqv3m0QxFb5YoVlsCL7LGZjtqw6AbXli1IvVgzwdlfyzlv4AQVQnOoE3XJVatezYzVk+uQvBDa+o8IKWzj54Ox8m4k/draG7beXxtTNsWmtgr17qcpKYNAXVTaEA0KZZ5d9rfPA1cVEqNZOMu1or7EnZ6vABKckmSID5qxgZSZ2lEF/yC6mtX9riNBB6f0P3T61qy8bywU3w=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuzCCAqOgAwIBAgIJALBulFeFhVoWMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQnJhY2NpYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgQnJhY2NpYW5vMSMwIQYDVQQDDBp3d3cuY29tdW5lLmJyYWNjaWFuby5ybS5pdDAeFw0yMDEyMDIwOTAwMzRaFw0zMDEyMDIwOTAwMzRaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQnJhY2NpYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgQnJhY2NpYW5vMSMwIQYDVQQDDBp3d3cuY29tdW5lLmJyYWNjaWFuby5ybS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALDCZzHuCvfuTyTXAKdDOGZen7Z07bwm77oQXXNsZhiqyrpFG5u2FarEMCF6bqmqPkEBxx3gcvDkGJQ2a/Xw1J8NFTdEFFgzqg8U8BnM/jJHgqQMxQ6TljaTn6zUvtcoWyuhPVL1kpd1iubA7GWyJU2P0H61A/B/X0UgUPndJrQKUg5fOU47ippWS+KhOp5e6cREpeCa/GmRs8V5cszVxXZC3KteUlwL8XAZuOCgkj6KBMj7e035397/JlP4MDxyI1kFq/WK5CnFhtAo+6MDZOlxF8gNGij2nrWnhxDbtJO8dYF99NV3BgGPdc3n56kazpiGp1Q/Q07ZMys5vNueQI0CAwEAAaNQME4wHQYDVR0OBBYEFETv7JVJ/GZ4qJ3/sS+Te7/NaJE3MB8GA1UdIwQYMBaAFETv7JVJ/GZ4qJ3/sS+Te7/NaJE3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAi5fbZLcxFSis+KQIP0qcMKPUxYSsscwAaztSyfmUjhiRPzAnaGU9zMW6G5nzTIW0oLZSaDoMpYIEe3AFNB3NUmhEg/xEQi9Apcgc9h9YwIC3vIp/OzmbrvdqDHf1uE7HZhz0AiYDdLqv3m0QxFb5YoVlsCL7LGZjtqw6AbXli1IvVgzwdlfyzlv4AQVQnOoE3XJVatezYzVk+uQvBDa+o8IKWzj54Ox8m4k/draG7beXxtTNsWmtgr17qcpKYNAXVTaEA0KZZ5d9rfPA1cVEqNZOMu1or7EnZ6vABKckmSID5qxgZSZ2lEF/yC6mtX9riNBB6f0P3T61qy8bywU3w=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.bracciano.rm.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bracciano.rm.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bracciano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bracciano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bracciano.rm.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_b114</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Bracciano</md:Company>
+    <md:EmailAddress>urp@comune.bracciano.rm.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

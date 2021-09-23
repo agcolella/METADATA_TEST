@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.sanpietroincariano.vr.it" ID="pfx82abf945-e7e2-6576-734b-1dbd02371886"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx82abf945-e7e2-6576-734b-1dbd02371886"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>KtOR1wETCB0IwVCNm9xHeRMf8kG7HCRPg8bbLgik3YU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>khH3AhPfVopyezFfAguLiBCI1H9VLWF8Z2V/Gw3ySuqSLZjAdcBxOE4BJYjCf1N3T2U94eHh3h/BmuWh/rIx2wBWJY+0Kwjd9l3C9KvwXfo90PCuwW3eKh+bzEyI91huE8rikmjc8OIIGVFzb7OrZJE8rREq1uBzSjJAq3V5bLnYb6SDGN4ZatpEK0j4AvbLIGjT+sAnoQxvqy7Jf1bSOuECpMXmmu7JQGWMSpFdpEpC9GepWfV+u2lMwOMkEo8zy8KU7zD2Oe6NXL7S3wCTe6d7i4nEPMfWDXeImf4vaMqQ43DE11WJfRSzDg/It8ic6pndmrWE90RSFLH2I5dwbg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID/zCCAuegAwIBAgIJAIJ3qFojoOXXMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQaWV0cm8gaW4gQ2FyaWFubzEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQaWV0cm8gaW4gQ2FyaWFubzEsMCoGA1UEAwwjd3d3LmNvbXVuZS5zYW5waWV0cm9pbmNhcmlhbm8udnIuaXQwHhcNMTgwNDE4MTUzNjIxWhcNMjgwNDE3MTUzNjIxWjCBlTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR4wHAYDVQQHDBVTYW4gUGlldHJvIGluIENhcmlhbm8xKDAmBgNVBAoMH0NvbXVuZSBkaSBTYW4gUGlldHJvIGluIENhcmlhbm8xLDAqBgNVBAMMI3d3dy5jb211bmUuc2FucGlldHJvaW5jYXJpYW5vLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxsCHEHfkvvkuZ4Dm1OtD3aOoYMBNxm0DQ/JC2rGdew/oELsWtzOKe7h5/Qq8txlJjD9GjDHgkuMtRFZFyvVk4V/KUK+PgcYLpzCRBbZtLQVCOB0J9cd76272L4tmyKws1EkFjxkTATw4zAzteNuZdasvyGsodlpNid6pqvm8JiPhwV5Fy6veAvPeXqzNKJHVNjydWjOY/lKRaCqPxAgYoyNamu3sJBy56fbPbxO7FGC0HTTJvp4z7ag2K0Odf7MXRO9xGblVQeV6CEQ6m/MjmK8gQURgXGlFltz+klu8snxaVzXBuQ9t655Spml1d5YIKwWd5iXNEvCGb7/5ruCqIQIDAQABo1AwTjAdBgNVHQ4EFgQU3Uoene+5qw1KUmT122iB+GDfwRIwHwYDVR0jBBgwFoAU3Uoene+5qw1KUmT122iB+GDfwRIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQ0h1HSXUs4NsCFNVzJNwvjzdGQ8oYMEaSktntY7z8LoqngBvuexzCKSRF1Zo6QOiAbvbUSITzxbo7eVU6WiwnXAXlSOsDtflMOwgfemO8Wo+pvrV4tv7kalkW9bBrZVHYKHe95bUntwb0VlbhxwXj/JJO3P8Q0+4F5H4Ygvv/RUEyFNeLScEizaYzYSeAnNNPubU2w7NH4LKP7XH12Fy8O2sEJZguGV7QJedOOPoDQ+qrZkaLDH4yqyRBVQE0SeIHHpUbWbUczKPywnBpNnULivH0lbdx7WNVoLffmcyRY3gGd1N9bQDAtrQm+dGh/XJISaquo2Irsp2aFgal8/quw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/zCCAuegAwIBAgIJAIJ3qFojoOXXMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQaWV0cm8gaW4gQ2FyaWFubzEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQaWV0cm8gaW4gQ2FyaWFubzEsMCoGA1UEAwwjd3d3LmNvbXVuZS5zYW5waWV0cm9pbmNhcmlhbm8udnIuaXQwHhcNMTgwNDE4MTUzNjIxWhcNMjgwNDE3MTUzNjIxWjCBlTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR4wHAYDVQQHDBVTYW4gUGlldHJvIGluIENhcmlhbm8xKDAmBgNVBAoMH0NvbXVuZSBkaSBTYW4gUGlldHJvIGluIENhcmlhbm8xLDAqBgNVBAMMI3d3dy5jb211bmUuc2FucGlldHJvaW5jYXJpYW5vLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxsCHEHfkvvkuZ4Dm1OtD3aOoYMBNxm0DQ/JC2rGdew/oELsWtzOKe7h5/Qq8txlJjD9GjDHgkuMtRFZFyvVk4V/KUK+PgcYLpzCRBbZtLQVCOB0J9cd76272L4tmyKws1EkFjxkTATw4zAzteNuZdasvyGsodlpNid6pqvm8JiPhwV5Fy6veAvPeXqzNKJHVNjydWjOY/lKRaCqPxAgYoyNamu3sJBy56fbPbxO7FGC0HTTJvp4z7ag2K0Odf7MXRO9xGblVQeV6CEQ6m/MjmK8gQURgXGlFltz+klu8snxaVzXBuQ9t655Spml1d5YIKwWd5iXNEvCGb7/5ruCqIQIDAQABo1AwTjAdBgNVHQ4EFgQU3Uoene+5qw1KUmT122iB+GDfwRIwHwYDVR0jBBgwFoAU3Uoene+5qw1KUmT122iB+GDfwRIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQ0h1HSXUs4NsCFNVzJNwvjzdGQ8oYMEaSktntY7z8LoqngBvuexzCKSRF1Zo6QOiAbvbUSITzxbo7eVU6WiwnXAXlSOsDtflMOwgfemO8Wo+pvrV4tv7kalkW9bBrZVHYKHe95bUntwb0VlbhxwXj/JJO3P8Q0+4F5H4Ygvv/RUEyFNeLScEizaYzYSeAnNNPubU2w7NH4LKP7XH12Fy8O2sEJZguGV7QJedOOPoDQ+qrZkaLDH4yqyRBVQE0SeIHHpUbWbUczKPywnBpNnULivH0lbdx7WNVoLffmcyRY3gGd1N9bQDAtrQm+dGh/XJISaquo2Irsp2aFgal8/quw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/zCCAuegAwIBAgIJAIJ3qFojoOXXMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQaWV0cm8gaW4gQ2FyaWFubzEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQaWV0cm8gaW4gQ2FyaWFubzEsMCoGA1UEAwwjd3d3LmNvbXVuZS5zYW5waWV0cm9pbmNhcmlhbm8udnIuaXQwHhcNMTgwNDE4MTUzNjIxWhcNMjgwNDE3MTUzNjIxWjCBlTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR4wHAYDVQQHDBVTYW4gUGlldHJvIGluIENhcmlhbm8xKDAmBgNVBAoMH0NvbXVuZSBkaSBTYW4gUGlldHJvIGluIENhcmlhbm8xLDAqBgNVBAMMI3d3dy5jb211bmUuc2FucGlldHJvaW5jYXJpYW5vLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxsCHEHfkvvkuZ4Dm1OtD3aOoYMBNxm0DQ/JC2rGdew/oELsWtzOKe7h5/Qq8txlJjD9GjDHgkuMtRFZFyvVk4V/KUK+PgcYLpzCRBbZtLQVCOB0J9cd76272L4tmyKws1EkFjxkTATw4zAzteNuZdasvyGsodlpNid6pqvm8JiPhwV5Fy6veAvPeXqzNKJHVNjydWjOY/lKRaCqPxAgYoyNamu3sJBy56fbPbxO7FGC0HTTJvp4z7ag2K0Odf7MXRO9xGblVQeV6CEQ6m/MjmK8gQURgXGlFltz+klu8snxaVzXBuQ9t655Spml1d5YIKwWd5iXNEvCGb7/5ruCqIQIDAQABo1AwTjAdBgNVHQ4EFgQU3Uoene+5qw1KUmT122iB+GDfwRIwHwYDVR0jBBgwFoAU3Uoene+5qw1KUmT122iB+GDfwRIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQ0h1HSXUs4NsCFNVzJNwvjzdGQ8oYMEaSktntY7z8LoqngBvuexzCKSRF1Zo6QOiAbvbUSITzxbo7eVU6WiwnXAXlSOsDtflMOwgfemO8Wo+pvrV4tv7kalkW9bBrZVHYKHe95bUntwb0VlbhxwXj/JJO3P8Q0+4F5H4Ygvv/RUEyFNeLScEizaYzYSeAnNNPubU2w7NH4LKP7XH12Fy8O2sEJZguGV7QJedOOPoDQ+qrZkaLDH4yqyRBVQE0SeIHHpUbWbUczKPywnBpNnULivH0lbdx7WNVoLffmcyRY3gGd1N9bQDAtrQm+dGh/XJISaquo2Irsp2aFgal8/quw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sanpietroincariano.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sanpietroincariano.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Pietro in Cariano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Pietro in Cariano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sanpietroincariano.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

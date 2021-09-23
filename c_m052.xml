@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Vimercate" entityID="https://www.comune.vimercate.mb.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Vimercate">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>cScBFIatBA0IMZvNf4lqRT9AVZ2IU52iz1T6X+9vnpY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qw5W81YErHp+AaWWPHtxkW0PYh2wHhC5A02UbsXMfRuAQ2N0j0nI7sOtkbFqd7nKDiYtuIFrNAJ9
+0m+AvZY64uvpfGBUPQBQ+g/EmdKoHIX/guWY1j6Dlg90KVnfEOGF4oZdl9IUd7Lhx6xJmD6KLntS
++owXwk+CAR6I6to9pm9vX6auUp6CbJgAMxAOd7185E/0cFnxkNt6KcTBMjwMzCU3pnL560/jdrc7
+l5OwTDu4AEFqYlpbS4zH0g0/uuitE2r1E9TJxHwOf24HmJ2TFuwI6l1Fjsz12JhTvvVePi3Lc+LZ
+WkNbkbvj41bqsMol6NadlmXPzyC1jAUO02p/Kw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1FGy5xJZIrIPsYD0NJVXypdPHrBPGoXtIEaQfwcNt81aP4PkWyVEwkaMr8QPDu3HzHcFekg7bTBl
+Bu19egrigp2QL8K4mkJdaY/pXF6BumPzxYnI+Us/4Hc+QWN7yIr+WEdIkPMi0a/2TQl3X2vZzxxd
+aEelcSR4XKGoVbeyRcA3RicfSnzl+hFyH0bK0zviVM7Cqzc+Uxz1R9xdvtzPDw5ZtaheN9abyrZ7
+L/uJX07ltjs6K6gT+Jn5LCNg0w2oqauiWWRoWvVCGjbzG6IOyXeNvnla8IWLWIzZNGy7Y9pSlio/
+P4gXa+J8fHIIiVyv1KSHnndHCyE4Uy6OkEiKnQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIELjCCAxagAwIBAgIJAISVVS1EBn+RMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEW
+MBQGA1UECAwNTW9uemEtQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRwwGgYDVQQKDBNDb211
+bmUgZGkgVmltZXJjYXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwq
+c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmltZXJjYXRlLm1iLml0MB4XDTE4MDMxNTEyMDk1
+NVoXDTI4MDMxMjEyMDk1NVowgasxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1Nb256YS1Ccmlhbnph
+MRIwEAYDVQQHDAlWaW1lcmNhdGUxHDAaBgNVBAoME0NvbXVuZSBkaSBWaW1lcmNhdGUxHTAbBgNV
+BAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNv
+bXVuZS52aW1lcmNhdGUubWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUUbLn
+Elkisg+xgPQ0lVfKl08esE8ahe0gRpB/Bw23zVo/g+RbJUTCRoyvxA8O7cfMdwV6SDttMGUG7X16
+CuKCnZAvwriaQl1pj+lcXoG6Y/PFicj5Sz/gdz5BY3vIiv5YR0iQ8yLRr/ZNCXdfa9nPHF1oR6Vx
+JHhcoahVt7JFwDdGJx9KfOX6EXIfRsrTO+JUzsKrNz5THPVH3F2+3M8PDlm1qF431pvKtnsv+4lf
+TuW2OzorqBP4mfksI2DTDaipq6JZZGha9UIaNvMbog7Jd42+eVrwhYtYjNk0bLtj2lKWKj8/iBdr
+4nx8cgiJXK/UpIeed0cLIThTLo6QSIqdAgMBAAGjUzBRMB0GA1UdDgQWBBTesM9GvGH4UkDxNNXt
+vvFeqlrWszAfBgNVHSMEGDAWgBTesM9GvGH4UkDxNNXtvvFeqlrWszAPBgNVHRMBAf8EBTADAQH/
+MA0GCSqGSIb3DQEBCwUAA4IBAQCC6urPCaNKRfXim8rGQJRTYqyBHTyXNra9vqXpMYmFeQl50Y7Y
+CkPqh8Emx3e8jtcTKtYfnOWz9MoNzZJnDdLpKVs2umtPTXugYJRpeD74LchIoZ0MGtZY4aJcc1sz
+XtA9vDeQWX39Cl6PvbTDvtX+NHqZ9ZvQTBRfB7u3DLzFjkT3QrLZqcQKRWTA+zPAUGHdWEGbyuid
+JypSvEOtQm4OqF+1sF+7QqinzOIIiXFhrpEtkHUMgYM+nHZjKqYWG0tyS5uWbPLBmKOKDZSXzI61
+WoKXPNQmgdcGjFqcpgkZNso8YD9o8/AhaaxPB08+owYA9PClgLkGpysTHWwRK+IZ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMGvOz1asKfKMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUudmltZXJjYXRlLm1iLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xNzA2MjMwNzA2MTVaFw0yMTA2MjIwNzA2MTVaMEExIzAhBgNVBAMMGnd3dy5jb211bmUudmltZXJjYXRlLm1iLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPE4oeDZPYTCKxf8XOaEQzrrifCJBboarOV5tOCWbQZLIrysIElVXGrIbjbpQjQUUgmbq8QwNMQVJFHFKKlTZ8ZUJ74La6CuJu58aZ/hrfKrD59/5Cpr/xbKuvcNDFzVgHu1DrYOMZ00DXWqV6eu+IyXY5AUMu0egI3qDWd3f4swUGRq/fdmt7/V74D1Rl0SsSK6/Kzv6uR/SExo2l/yUgmUmb4FaYund9pQxGwHTNdjSoXL+Ot3Lf0I+XZRf0VYFPpDXOqoSCm6pO0EoxUtM+bN5nJNkQn6AYa9vorKEV3mf0m3h65FEyhRYlhjYQIe3KFHA1iwrBP6HgYhpscQUrECAwEAAaNQME4wHQYDVR0OBBYEFFcL7jCEo1ArAobbu/u5Q58MCOstMB8GA1UdIwQYMBaAFFcL7jCEo1ArAobbu/u5Q58MCOstMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAO3aSNFVBS4fGOjlorug14c65nJNG3Oqe8V29DZ75oFVlkS9s2NtjKPrHtPoEnfXj6vrfXkfnmU0LpxqD7ce8Yi81RCNpOpNw3xiGLBmIXK7ijUDel5QVpyDqjhlNDEX0fGzLALgTsXLcturCkWKHUeZvb1Bw5eWEeZuBeitqKkvJe4wU8RMGWl/uBwpZFeFLGuusbs6tNYdvRht6PFiJdtttX+IcqtE73sXg4hsXCIBu832eTvE4Mh2cy8tcajWUeANeQlBtPI+KWZULXlP1SJoZOqaO51Jfi4rjI9rEYO+lesfDB41B4pwEEYxj+ScrNR0mEvKmC2BBvpd3XQrbME=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIELjCCAxagAwIBAgIJAISVVS1EBn+RMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEWMBQGA1UECAwNTW9uemEtQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRwwGgYDVQQKDBNDb211bmUgZGkgVmltZXJjYXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmltZXJjYXRlLm1iLml0MB4XDTE4MDMxNTEyMDk1NVoXDTI4MDMxMjEyMDk1NVowgasxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1Nb256YS1CcmlhbnphMRIwEAYDVQQHDAlWaW1lcmNhdGUxHDAaBgNVBAoME0NvbXVuZSBkaSBWaW1lcmNhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS52aW1lcmNhdGUubWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUUbLnElkisg+xgPQ0lVfKl08esE8ahe0gRpB/Bw23zVo/g+RbJUTCRoyvxA8O7cfMdwV6SDttMGUG7X16CuKCnZAvwriaQl1pj+lcXoG6Y/PFicj5Sz/gdz5BY3vIiv5YR0iQ8yLRr/ZNCXdfa9nPHF1oR6VxJHhcoahVt7JFwDdGJx9KfOX6EXIfRsrTO+JUzsKrNz5THPVH3F2+3M8PDlm1qF431pvKtnsv+4lfTuW2OzorqBP4mfksI2DTDaipq6JZZGha9UIaNvMbog7Jd42+eVrwhYtYjNk0bLtj2lKWKj8/iBdr4nx8cgiJXK/UpIeed0cLIThTLo6QSIqdAgMBAAGjUzBRMB0GA1UdDgQWBBTesM9GvGH4UkDxNNXtvvFeqlrWszAfBgNVHSMEGDAWgBTesM9GvGH4UkDxNNXtvvFeqlrWszAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCC6urPCaNKRfXim8rGQJRTYqyBHTyXNra9vqXpMYmFeQl50Y7YCkPqh8Emx3e8jtcTKtYfnOWz9MoNzZJnDdLpKVs2umtPTXugYJRpeD74LchIoZ0MGtZY4aJcc1szXtA9vDeQWX39Cl6PvbTDvtX+NHqZ9ZvQTBRfB7u3DLzFjkT3QrLZqcQKRWTA+zPAUGHdWEGbyuidJypSvEOtQm4OqF+1sF+7QqinzOIIiXFhrpEtkHUMgYM+nHZjKqYWG0tyS5uWbPLBmKOKDZSXzI61WoKXPNQmgdcGjFqcpgkZNso8YD9o8/AhaaxPB08+owYA9PClgLkGpysTHWwRK+IZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIELjCCAxagAwIBAgIJAISVVS1EBn+RMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEWMBQGA1UECAwNTW9uemEtQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRwwGgYDVQQKDBNDb211bmUgZGkgVmltZXJjYXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmltZXJjYXRlLm1iLml0MB4XDTE4MDMxNTEyMDk1NVoXDTI4MDMxMjEyMDk1NVowgasxCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1Nb256YS1CcmlhbnphMRIwEAYDVQQHDAlWaW1lcmNhdGUxHDAaBgNVBAoME0NvbXVuZSBkaSBWaW1lcmNhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS52aW1lcmNhdGUubWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUUbLnElkisg+xgPQ0lVfKl08esE8ahe0gRpB/Bw23zVo/g+RbJUTCRoyvxA8O7cfMdwV6SDttMGUG7X16CuKCnZAvwriaQl1pj+lcXoG6Y/PFicj5Sz/gdz5BY3vIiv5YR0iQ8yLRr/ZNCXdfa9nPHF1oR6VxJHhcoahVt7JFwDdGJx9KfOX6EXIfRsrTO+JUzsKrNz5THPVH3F2+3M8PDlm1qF431pvKtnsv+4lfTuW2OzorqBP4mfksI2DTDaipq6JZZGha9UIaNvMbog7Jd42+eVrwhYtYjNk0bLtj2lKWKj8/iBdr4nx8cgiJXK/UpIeed0cLIThTLo6QSIqdAgMBAAGjUzBRMB0GA1UdDgQWBBTesM9GvGH4UkDxNNXtvvFeqlrWszAfBgNVHSMEGDAWgBTesM9GvGH4UkDxNNXtvvFeqlrWszAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCC6urPCaNKRfXim8rGQJRTYqyBHTyXNra9vqXpMYmFeQl50Y7YCkPqh8Emx3e8jtcTKtYfnOWz9MoNzZJnDdLpKVs2umtPTXugYJRpeD74LchIoZ0MGtZY4aJcc1szXtA9vDeQWX39Cl6PvbTDvtX+NHqZ9ZvQTBRfB7u3DLzFjkT3QrLZqcQKRWTA+zPAUGHdWEGbyuidJypSvEOtQm4OqF+1sF+7QqinzOIIiXFhrpEtkHUMgYM+nHZjKqYWG0tyS5uWbPLBmKOKDZSXzI61WoKXPNQmgdcGjFqcpgkZNso8YD9o8/AhaaxPB08+owYA9PClgLkGpysTHWwRK+IZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/vimercate"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.vimercate.mb.it/simplesaml/module.php/saml/sp/saml2-logout.php/vimercate"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vimercate" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vimercate" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.vimercate.mb.it/simplesaml/module.php/saml/sp/saml2-acs.php/vimercate" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="en">vimercate</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vimercate</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Vimercate</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Vimercate</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Vimercate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vimercate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Vimercate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Vimercate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Vimercate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.vimercate.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.vimercate.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.vimercate.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.vimercate.mb.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

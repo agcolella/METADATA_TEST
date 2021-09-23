@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="MonteSantAngelo" entityID="https://www.montesantangelo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MonteSantAngelo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>aDDjTNAAZEJsklmGskqYhNcz4vp7mhs78l7LJXeuCKw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hTUbbldkX7r9WFfMEcZjTfIr6Oxv4LLO0/7R1fwjuj3ORm6ZIcF/bqDj+DTX/Tr+9BzaFcMC8dPz
+fuyy2/sIrumNZV4BWkxaEo01Y7Nnh04bNvCp047eFhIHyw+S6Z71m01IuVRiDaBJRuQVEecTNHy1
+s/1LvcnwBVgdsAs4eFkysUZvfLD7AwwlbPuzqkYzT+BCEEZKmICjWvDpBp2xvn24LhOWnx39UEuu
+jrg+iyQWg2vQ3ocsI8pRQ5Gug5k47qrxjyoBnASEuCivI5+HgR5HudpQUoDKxlefeOp42+MVMN2U
+XYuOEcyamphiDaZoSeV0p7dwnMJwSeyn73znmw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7ZhLDvoqtqTvxIeA5UNySBKd31Qe6iOOAQmQVeuttOjjE64NrNz/wyXyjJTxDlkTxQs9mWrktiV6
+ix6tCXzudrOkz9gk3Po3RVW5D6Ud4q5ugEzmD5XvvMuiSZzC8Ska+fibwoTZVnWHIKsVFBM8SfJz
+CeNr5Rc2r49xI2k3ew+Et3CJB7ukm3xWdFIS//JRREg+MplxfehSOJg7MzdGqJAmNbkz84JzuV++
+as0YtsjZPI7ssT2sk5jTOy/v0qOE1iZ9HHsiNXyMGbDoiYJhuGp7++Y8GjX81Fnz4AHGMowJV1S+
+czUYTwy+9yo6N2Gd2xRRyrdnX77c4Lp3Ti8pzw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAP77vHxvcFJGMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5t
+b250ZXNhbnRhbmdlbG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQxNDA3
+NTAxNFoXDTMwMDQxMjA3NTAxNFowPTEfMB0GA1UEAwwWd3d3Lm1vbnRlc2FudGFuZ2Vsby5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDtmEsO+iq2pO/Eh4DlQ3JIEp3fVB7qI44BCZBV66206OMTrg2s3P/DJfKMlPEOWRPFCz2ZauS2
+JXqLHq0JfO52s6TP2CTc+jdFVbkPpR3irm6ATOYPle+8y6JJnMLxKRr5+JvChNlWdYcgqxUUEzxJ
+8nMJ42vlFzavj3EjaTd7D4S3cIkHu6SbfFZ0UhL/8lFESD4ymXF96FI4mDszN0aokCY1uTPzgnO5
+X75qzRi2yNk8juyxPayTmNM7L+/So4TWJn0ceyI1fIwZsOiJgmG4anv75jwaNfzUWfPgAcYyjAlX
+VL5zNRhPDL73Kjo3YZ3bFFHKt2dfvtzgundOLynPAgMBAAGjUDBOMB0GA1UdDgQWBBSJ815yHxfz
+Z4PpH/Ukv0BdvLNwzTAfBgNVHSMEGDAWgBSJ815yHxfzZ4PpH/Ukv0BdvLNwzTAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA+XjcZDhRRl3x1uyDIcSYtzBL7bu4cRgYSfQFPirh0LQm1
+9Tc7FDW9N5Pkb6aG2Lg4BZnp8/Ck+IqkI68+jPEzJhs7BYeXHzAA5nlFBELoQH0nCxelW/vIhewD
+as8Zy0qwPkPG6r4gollzNPbdxS54IV8BZWxN6ASIAFp3IdT56Eb5zTPYBSwRcKnZ/Xnl2dqOr7ZM
+P18eazCn9sSAh6gTImQGjftOJ3cW8AJgY6b6IYuoGppznussleEfiDbBx+LZ8wSk0erKl7jO3pPV
+AXGExIHFuz0i3sAA9r0Qwd1ODPyW4+CleqgE2xIHBPnwRxzHyS4nwwDUa7QtAn6KOr/t
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAP77vHxvcFJGMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5tb250ZXNhbnRhbmdlbG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQxNDA3NTAxNFoXDTMwMDQxMjA3NTAxNFowPTEfMB0GA1UEAwwWd3d3Lm1vbnRlc2FudGFuZ2Vsby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDtmEsO+iq2pO/Eh4DlQ3JIEp3fVB7qI44BCZBV66206OMTrg2s3P/DJfKMlPEOWRPFCz2ZauS2JXqLHq0JfO52s6TP2CTc+jdFVbkPpR3irm6ATOYPle+8y6JJnMLxKRr5+JvChNlWdYcgqxUUEzxJ8nMJ42vlFzavj3EjaTd7D4S3cIkHu6SbfFZ0UhL/8lFESD4ymXF96FI4mDszN0aokCY1uTPzgnO5X75qzRi2yNk8juyxPayTmNM7L+/So4TWJn0ceyI1fIwZsOiJgmG4anv75jwaNfzUWfPgAcYyjAlXVL5zNRhPDL73Kjo3YZ3bFFHKt2dfvtzgundOLynPAgMBAAGjUDBOMB0GA1UdDgQWBBSJ815yHxfzZ4PpH/Ukv0BdvLNwzTAfBgNVHSMEGDAWgBSJ815yHxfzZ4PpH/Ukv0BdvLNwzTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA+XjcZDhRRl3x1uyDIcSYtzBL7bu4cRgYSfQFPirh0LQm19Tc7FDW9N5Pkb6aG2Lg4BZnp8/Ck+IqkI68+jPEzJhs7BYeXHzAA5nlFBELoQH0nCxelW/vIhewDas8Zy0qwPkPG6r4gollzNPbdxS54IV8BZWxN6ASIAFp3IdT56Eb5zTPYBSwRcKnZ/Xnl2dqOr7ZMP18eazCn9sSAh6gTImQGjftOJ3cW8AJgY6b6IYuoGppznussleEfiDbBx+LZ8wSk0erKl7jO3pPVAXGExIHFuz0i3sAA9r0Qwd1ODPyW4+CleqgE2xIHBPnwRxzHyS4nwwDUa7QtAn6KOr/t
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAP77vHxvcFJGMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5tb250ZXNhbnRhbmdlbG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQxNDA3NTAxNFoXDTMwMDQxMjA3NTAxNFowPTEfMB0GA1UEAwwWd3d3Lm1vbnRlc2FudGFuZ2Vsby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDtmEsO+iq2pO/Eh4DlQ3JIEp3fVB7qI44BCZBV66206OMTrg2s3P/DJfKMlPEOWRPFCz2ZauS2JXqLHq0JfO52s6TP2CTc+jdFVbkPpR3irm6ATOYPle+8y6JJnMLxKRr5+JvChNlWdYcgqxUUEzxJ8nMJ42vlFzavj3EjaTd7D4S3cIkHu6SbfFZ0UhL/8lFESD4ymXF96FI4mDszN0aokCY1uTPzgnO5X75qzRi2yNk8juyxPayTmNM7L+/So4TWJn0ceyI1fIwZsOiJgmG4anv75jwaNfzUWfPgAcYyjAlXVL5zNRhPDL73Kjo3YZ3bFFHKt2dfvtzgundOLynPAgMBAAGjUDBOMB0GA1UdDgQWBBSJ815yHxfzZ4PpH/Ukv0BdvLNwzTAfBgNVHSMEGDAWgBSJ815yHxfzZ4PpH/Ukv0BdvLNwzTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA+XjcZDhRRl3x1uyDIcSYtzBL7bu4cRgYSfQFPirh0LQm19Tc7FDW9N5Pkb6aG2Lg4BZnp8/Ck+IqkI68+jPEzJhs7BYeXHzAA5nlFBELoQH0nCxelW/vIhewDas8Zy0qwPkPG6r4gollzNPbdxS54IV8BZWxN6ASIAFp3IdT56Eb5zTPYBSwRcKnZ/Xnl2dqOr7ZMP18eazCn9sSAh6gTImQGjftOJ3cW8AJgY6b6IYuoGppznussleEfiDbBx+LZ8wSk0erKl7jO3pPVAXGExIHFuz0i3sAA9r0Qwd1ODPyW4+CleqgE2xIHBPnwRxzHyS4nwwDUa7QtAn6KOr/t
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montesantangelo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montesantangelo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montesantangelo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montesantangelo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Monte Sant'Angelo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Monte Sant'Angelo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Monte Sant'Angelo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Monte Sant'Angelo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Monte Sant'Angelo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Monte Sant'Angelo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Monte Sant'Angelo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Monte Sant'Angelo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.montesantangelo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.montesantangelo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.montesantangelo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.montesantangelo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

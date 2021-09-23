@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx7123d30a-72e6-1a48-4ae3-7c389524f356" entityID="https://www.comune.seravezza.lucca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx7123d30a-72e6-1a48-4ae3-7c389524f356">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>MYaKKm59fjz2Rar82m6tAlpaVcqiB5lpxTTBEVzqVj4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EbrAB9PY50CMfB+vlXv21fYfNfAiE77ugve6I4ma+X/wQCeUOwQG/+yj0WguEUaTBiYjn4XrwLzd
+1PFMSd0vTS+jQS2N4z/jxrlQ48JEToHmF6uQRYDl8jg/bEa7ak0Uu/H5mcWWgipJSvdXtxvh6BCo
+ft69LjNPyaeLvuaYsPJ1Kp9Ixzok5Ry892eVIfj5w83VdE6OioI9FprO0mZMjqnuP/Y1T7O4b1bH
+JsN9RYpV0CvhxEtLbAqHn5M4QdcogWrk7di502bTb/Dci9PrZ5ZCj5WbBmLZiS7dpMdn+7mCtC6U
+9ttMDxJNrQkqW0x3HnjkpqKbArS9QvPgPVUu9w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3MIZ93ZYHEl2U75bnGgTAbukwCNr76HjE7VNC5LomkqrP5sn+pXrCnV8Sg8Uy2xDdXa0l/UKJfhB
+HdnHmxC9K6/TedlKWqh+2XrOCfO65nO4EqMdD7QmYgLSwgcOFVeTyjQBCLAYyHQpbvNpFy928gz4
+qe0UJOSlB3E7YPj+JoXDeXxwSkuXkZ0fKQAtP9EhZLkLUuL77UHVCz+b9GFX/62AIAS7MUZKpQcp
+wLdM3r50Aginmnl5O4NiwiWtDtWKwi06WyQi+KZMfNN7BvcNY+iUo1c5tWgYH4fJdLlfIlMikSx7
+yd0gA/7Ac37g+cErrsmgjKviVN34oyrXa/UVAw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwTCCAqmgAwIBAgIJAMBjJurcvNxZMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU0VSQVZFWlpBMRwwGgYDVQQKDBNDT01VTkUgREkgU0VS
+QVZFWlpBMSYwJAYDVQQDDB13d3cuY29tdW5lLnNlcmF2ZXp6YS5sdWNjYS5pdDAeFw0xOTA2MjYw
+NzQ3MzlaFw0yOTA2MjUwNzQ3MzlaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAG
+A1UEBwwJU0VSQVZFWlpBMRwwGgYDVQQKDBNDT01VTkUgREkgU0VSQVZFWlpBMSYwJAYDVQQDDB13
+d3cuY29tdW5lLnNlcmF2ZXp6YS5sdWNjYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANzCGfd2WBxJdlO+W5xoEwG7pMAja++h4xO1TQuS6JpKqz+bJ/qV6wp1fEoPFMtsQ3V2tJf1
+CiX4QR3Zx5sQvSuv03nZSlqoftl6zgnzuuZzuBKjHQ+0JmIC0sIHDhVXk8o0AQiwGMh0KW7zaRcv
+dvIM+KntFCTkpQdxO2D4/iaFw3l8cEpLl5GdHykALT/RIWS5C1Li++1B1Qs/m/RhV/+tgCAEuzFG
+SqUHKcC3TN6+dAIIp5p5eTuDYsIlrQ7VisItOlskIvimTHzTewb3DWPolKNXObVoGB+HyXS5XyJT
+IpEse8ndIAP+wHN+4PnBK67JoIyr4lTd+KMq12v1FQMCAwEAAaNQME4wHQYDVR0OBBYEFPSY0CAW
+9XpwzOp3dgUIxr3Vsp4KMB8GA1UdIwQYMBaAFPSY0CAW9XpwzOp3dgUIxr3Vsp4KMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKBpux+Cp7NmP7/wZJYAPSMWq6XxL/kbw40o6h/r2bo5
+F6gWOF+Mi3J5LwWT3ypNiB/DImKZS6/pbs4mbV544mhnZJ/I5z04ewNHQeY5P+kUkBCGCkD60HvI
+NwkurP3bq7PZFgCb8C+TMfBZ4fKpBSMj3zqo+zvzVDPTtEERhCnamLprUACC0Ae8Vy0plrPZbM7z
+i9xMt9QBscpWAjFx+ujEJYStplJgeMuP6KbHQivh8dsGkMPhebXSct0vhws9TnIXeNiC5MMr2/HH
+fnY6Q+Eko//p4oLt4epQSap7BgNYnMDzxwnQpL3gbJPsUa29R+ith3fcrXsaR7zlBWjnFV4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMBjJurcvNxZMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU0VSQVZFWlpBMRwwGgYDVQQKDBNDT01VTkUgREkgU0VSQVZFWlpBMSYwJAYDVQQDDB13d3cuY29tdW5lLnNlcmF2ZXp6YS5sdWNjYS5pdDAeFw0xOTA2MjYwNzQ3MzlaFw0yOTA2MjUwNzQ3MzlaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU0VSQVZFWlpBMRwwGgYDVQQKDBNDT01VTkUgREkgU0VSQVZFWlpBMSYwJAYDVQQDDB13d3cuY29tdW5lLnNlcmF2ZXp6YS5sdWNjYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANzCGfd2WBxJdlO+W5xoEwG7pMAja++h4xO1TQuS6JpKqz+bJ/qV6wp1fEoPFMtsQ3V2tJf1CiX4QR3Zx5sQvSuv03nZSlqoftl6zgnzuuZzuBKjHQ+0JmIC0sIHDhVXk8o0AQiwGMh0KW7zaRcvdvIM+KntFCTkpQdxO2D4/iaFw3l8cEpLl5GdHykALT/RIWS5C1Li++1B1Qs/m/RhV/+tgCAEuzFGSqUHKcC3TN6+dAIIp5p5eTuDYsIlrQ7VisItOlskIvimTHzTewb3DWPolKNXObVoGB+HyXS5XyJTIpEse8ndIAP+wHN+4PnBK67JoIyr4lTd+KMq12v1FQMCAwEAAaNQME4wHQYDVR0OBBYEFPSY0CAW9XpwzOp3dgUIxr3Vsp4KMB8GA1UdIwQYMBaAFPSY0CAW9XpwzOp3dgUIxr3Vsp4KMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKBpux+Cp7NmP7/wZJYAPSMWq6XxL/kbw40o6h/r2bo5F6gWOF+Mi3J5LwWT3ypNiB/DImKZS6/pbs4mbV544mhnZJ/I5z04ewNHQeY5P+kUkBCGCkD60HvINwkurP3bq7PZFgCb8C+TMfBZ4fKpBSMj3zqo+zvzVDPTtEERhCnamLprUACC0Ae8Vy0plrPZbM7zi9xMt9QBscpWAjFx+ujEJYStplJgeMuP6KbHQivh8dsGkMPhebXSct0vhws9TnIXeNiC5MMr2/HHfnY6Q+Eko//p4oLt4epQSap7BgNYnMDzxwnQpL3gbJPsUa29R+ith3fcrXsaR7zlBWjnFV4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMBjJurcvNxZMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU0VSQVZFWlpBMRwwGgYDVQQKDBNDT01VTkUgREkgU0VSQVZFWlpBMSYwJAYDVQQDDB13d3cuY29tdW5lLnNlcmF2ZXp6YS5sdWNjYS5pdDAeFw0xOTA2MjYwNzQ3MzlaFw0yOTA2MjUwNzQ3MzlaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU0VSQVZFWlpBMRwwGgYDVQQKDBNDT01VTkUgREkgU0VSQVZFWlpBMSYwJAYDVQQDDB13d3cuY29tdW5lLnNlcmF2ZXp6YS5sdWNjYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANzCGfd2WBxJdlO+W5xoEwG7pMAja++h4xO1TQuS6JpKqz+bJ/qV6wp1fEoPFMtsQ3V2tJf1CiX4QR3Zx5sQvSuv03nZSlqoftl6zgnzuuZzuBKjHQ+0JmIC0sIHDhVXk8o0AQiwGMh0KW7zaRcvdvIM+KntFCTkpQdxO2D4/iaFw3l8cEpLl5GdHykALT/RIWS5C1Li++1B1Qs/m/RhV/+tgCAEuzFGSqUHKcC3TN6+dAIIp5p5eTuDYsIlrQ7VisItOlskIvimTHzTewb3DWPolKNXObVoGB+HyXS5XyJTIpEse8ndIAP+wHN+4PnBK67JoIyr4lTd+KMq12v1FQMCAwEAAaNQME4wHQYDVR0OBBYEFPSY0CAW9XpwzOp3dgUIxr3Vsp4KMB8GA1UdIwQYMBaAFPSY0CAW9XpwzOp3dgUIxr3Vsp4KMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKBpux+Cp7NmP7/wZJYAPSMWq6XxL/kbw40o6h/r2bo5F6gWOF+Mi3J5LwWT3ypNiB/DImKZS6/pbs4mbV544mhnZJ/I5z04ewNHQeY5P+kUkBCGCkD60HvINwkurP3bq7PZFgCb8C+TMfBZ4fKpBSMj3zqo+zvzVDPTtEERhCnamLprUACC0Ae8Vy0plrPZbM7zi9xMt9QBscpWAjFx+ujEJYStplJgeMuP6KbHQivh8dsGkMPhebXSct0vhws9TnIXeNiC5MMr2/HHfnY6Q+Eko//p4oLt4epQSap7BgNYnMDzxwnQpL3gbJPsUa29R+ith3fcrXsaR7zlBWjnFV4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.seravezza.lucca.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.seravezza.lucca.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">COMUNE DI SERAVEZZA</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">COMUNE DI SERAVEZZA</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.seravezza.lucca.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

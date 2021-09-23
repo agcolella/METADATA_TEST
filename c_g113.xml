@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Oristano" entityID="https://www.comune.oristano.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Oristano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WBqNFDOzyVtE87T9CTQycZWgtoa/BhHpETI2Gc1T0Qw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+b4RUbIOt9mWGTB0fpKZdn9MyDK8DJEVMGeMvajIvlQi5Gic1vhcHY4anB8iuUh7xokv3Cqzhi2ub
+g0xSbFTv1PrcQziTIOdeD6+87qvaLvCE4RUGsXoDT8WuwXdYhKGewV0hfxGL+l1wEO5rmDLX+Z90
+6wpJ4K1wZ/r+Cy77cOc+UMwOKGIz82UUA0ezqKQBoyxRq6Ali0mFVVQVvsOPKQFtjR/E8wuiSwda
+V6WKtF74ADFXc/g5JH7XnqYlTMQ5x51V+G6zyPFVT8RpKCoDL1J83BHq2XWC3l6mypjLKaV40a0A
+x4sflwjUOi5/G+kJvxk4RjLXfCeTq/9vUlJDOg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1RhfG/BW1PjE2xJsgcY6Ygp40gmRdE3S1QBzRE5/3EHRHeJwY/ZD+8IGnDL5QlBtv8tbChMbdv5b
+21QPrI+itrQJJLByA0qscdJ4WeFP6Q2TgOGpoug8K+WnZqkLrB7izR5/EccHo4mfa5bE8zjE+IlR
+BJOM7fNKZjVlL6RHS9rHGqMKKgMX8hy8CSuzJIhDHLHlaIbhW3FdzArFhIQYxYkP9z7V3Cu9rNT9
+F1Posy20uvSJgom1uP7cE2L9DUf7hNbthy8Wml7Vo6XjkB+eCnt7sTPxbNL/3w4vRaqjhdIsox5k
+b+Bil/IiBXo/YlnZSiQTGbNo8+k4elyGrKkmXw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEGDCCAwCgAwIBAgIJALp42ST8SwxVMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDER
+MA8GA1UECAwIT3Jpc3Rhbm8xETAPBgNVBAcMCE9yaXN0YW5vMRswGQYDVQQKDBJDb211bmUgZGkg
+T3Jpc3Rhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVs
+bG90ZWxlbWF0aWNvLmNvbXVuZS5vcmlzdGFuby5pdDAeFw0yMDA2MDUxMjI3MzBaFw0zMDA2MDMx
+MjI3MzBaMIGgMQswCQYDVQQGEwJJVDERMA8GA1UECAwIT3Jpc3Rhbm8xETAPBgNVBAcMCE9yaXN0
+YW5vMRswGQYDVQQKDBJDb211bmUgZGkgT3Jpc3Rhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxl
+bWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5vcmlzdGFuby5pdDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANUYXxvwVtT4xNsSbIHGOmIKeNIJkXRN0tUA
+c0ROf9xB0R3icGP2Q/vCBpwy+UJQbb/LWwoTG3b+W9tUD6yPora0CSSwcgNKrHHSeFnhT+kNk4Dh
+qaLoPCvlp2apC6we4s0efxHHB6OJn2uWxPM4xPiJUQSTjO3zSmY1ZS+kR0vaxxqjCioDF/IcvAkr
+sySIQxyx5WiG4VtxXcwKxYSEGMWJD/c+1dwrvazU/RdT6LMttLr0iYKJtbj+3BNi/Q1H+4TW7Ycv
+Fppe1aOl45Afngp7e7Ez8WzS/98OL0Wqo4XSLKMeZG/gYpfyIgV6P2JZ2UokExmzaPPpOHpchqyp
+Jl8CAwEAAaNTMFEwHQYDVR0OBBYEFAj6g2p+l3dKVDr4bEr2SU6nLWeoMB8GA1UdIwQYMBaAFAj6
+g2p+l3dKVDr4bEr2SU6nLWeoMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGRR
++HWmZV8Jqnn8g0jL51QLN4Rr4p2D3n2070qPlhZMPD6H2et1QokBZWyBz00F+CHtD+rEgtXuqFiE
+s1/UNNsnfiYtgRMwybu6I5lMTczVKE1RdcRAr6SzGJUa+4AfV+wms9NouGOlTV6pP0AOBmE4m3ec
+x51BR/fVR+pG1/1DpAgGdBlT1eYsbEDFbDjeR9x626F8qAsKQ1Yq4thydCR3zK/LqyhYVSl+4qoF
+lFIqccTJzAC9XdotOxudUa8pY9Z2061OeL2BRvL8ezUsFpYeYkgtFUhEKNcuVH2xbqMJ4QLU2l0X
+itDwkIRdSJvdqb/i7EbVnU5l8w2BStX8HWM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAJtVABajh6lxMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUub3Jpc3Rhbm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMyODEyNTkwM1oXDTI5MDMyNTEyNTkwM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5vcmlzdGFuby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4wQAniW/s9q3TRxSFPZrJSjeQlHT4moQi6Qavak57Cb/8K2Rs/PIqtlItS/1+8JHhaO0nkmRcKIkWiIsfzUwWiXXryCNCS33H3auAczljZDPVo3Wp8frjgDK/IQX/6APAeZx4AvLVG032w8UwfZKB/gxnljNLrLyjeL75+nV2fsLyfXAaJdvpr01yVBUHM9nzB2uEROBV8EVpiY5kacXZD1E+6yw+S3Yvc5WyHYncTE2DGlRFoyK9IqJg8Sh6xJ7zU7PY0cIc54XLGgkTPEjiwPtXWWn+Wq5NNpbxJJ3++G7PjkC7l1MsV4M7ydZV2iQ/PCfyP7J5YC4/zROu0G09AgMBAAGjUDBOMB0GA1UdDgQWBBS4LgQVhYJ//71Ex59PiBR/yCHrUzAfBgNVHSMEGDAWgBS4LgQVhYJ//71Ex59PiBR/yCHrUzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBPjIuzDJkdLyZ3njvGQnF4Ux0QjbPrMG9+QhSqpNEQAZA3O0ThaPr5ljCEFu47bCmovekrSWTOjHAZVfqDSuO7AeRLlGqa94WG6myKRo6iWDHtYV8GKtiZ85raGVOhjI/JUs39ecxl4Xt0MtvNr+/4jMlyHKLsHyiskbmoPIEaPrpAZITOwLjDZF2k4qopBd+g53LSCHB0Cgt6OYBzcOzxV0vCchSLytnEjRo/v55RmgtGNTfNZ/wSGbKKwdKbfPcI4R8ov53/S01grYipu218Ku89Khmvh31DwqDW8J3rY+KMfERJwYCj9vs1kvzpLxMHRzpwsTs+0oLAD5GXvc5Z
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAJtVABajh6lxMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUub3Jpc3Rhbm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMyODEyNTkwM1oXDTI5MDMyNTEyNTkwM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5vcmlzdGFuby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4wQAniW/s9q3TRxSFPZrJSjeQlHT4moQi6Qavak57Cb/8K2Rs/PIqtlItS/1+8JHhaO0nkmRcKIkWiIsfzUwWiXXryCNCS33H3auAczljZDPVo3Wp8frjgDK/IQX/6APAeZx4AvLVG032w8UwfZKB/gxnljNLrLyjeL75+nV2fsLyfXAaJdvpr01yVBUHM9nzB2uEROBV8EVpiY5kacXZD1E+6yw+S3Yvc5WyHYncTE2DGlRFoyK9IqJg8Sh6xJ7zU7PY0cIc54XLGgkTPEjiwPtXWWn+Wq5NNpbxJJ3++G7PjkC7l1MsV4M7ydZV2iQ/PCfyP7J5YC4/zROu0G09AgMBAAGjUDBOMB0GA1UdDgQWBBS4LgQVhYJ//71Ex59PiBR/yCHrUzAfBgNVHSMEGDAWgBS4LgQVhYJ//71Ex59PiBR/yCHrUzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBPjIuzDJkdLyZ3njvGQnF4Ux0QjbPrMG9+QhSqpNEQAZA3O0ThaPr5ljCEFu47bCmovekrSWTOjHAZVfqDSuO7AeRLlGqa94WG6myKRo6iWDHtYV8GKtiZ85raGVOhjI/JUs39ecxl4Xt0MtvNr+/4jMlyHKLsHyiskbmoPIEaPrpAZITOwLjDZF2k4qopBd+g53LSCHB0Cgt6OYBzcOzxV0vCchSLytnEjRo/v55RmgtGNTfNZ/wSGbKKwdKbfPcI4R8ov53/S01grYipu218Ku89Khmvh31DwqDW8J3rY+KMfERJwYCj9vs1kvzpLxMHRzpwsTs+0oLAD5GXvc5Z
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGDCCAwCgAwIBAgIJALp42ST8SwxVMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDERMA8GA1UECAwIT3Jpc3Rhbm8xETAPBgNVBAcMCE9yaXN0YW5vMRswGQYDVQQKDBJDb211bmUgZGkgT3Jpc3Rhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5vcmlzdGFuby5pdDAeFw0yMDA2MDUxMjI3MzBaFw0zMDA2MDMxMjI3MzBaMIGgMQswCQYDVQQGEwJJVDERMA8GA1UECAwIT3Jpc3Rhbm8xETAPBgNVBAcMCE9yaXN0YW5vMRswGQYDVQQKDBJDb211bmUgZGkgT3Jpc3Rhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5vcmlzdGFuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANUYXxvwVtT4xNsSbIHGOmIKeNIJkXRN0tUAc0ROf9xB0R3icGP2Q/vCBpwy+UJQbb/LWwoTG3b+W9tUD6yPora0CSSwcgNKrHHSeFnhT+kNk4DhqaLoPCvlp2apC6we4s0efxHHB6OJn2uWxPM4xPiJUQSTjO3zSmY1ZS+kR0vaxxqjCioDF/IcvAkrsySIQxyx5WiG4VtxXcwKxYSEGMWJD/c+1dwrvazU/RdT6LMttLr0iYKJtbj+3BNi/Q1H+4TW7YcvFppe1aOl45Afngp7e7Ez8WzS/98OL0Wqo4XSLKMeZG/gYpfyIgV6P2JZ2UokExmzaPPpOHpchqypJl8CAwEAAaNTMFEwHQYDVR0OBBYEFAj6g2p+l3dKVDr4bEr2SU6nLWeoMB8GA1UdIwQYMBaAFAj6g2p+l3dKVDr4bEr2SU6nLWeoMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGRR+HWmZV8Jqnn8g0jL51QLN4Rr4p2D3n2070qPlhZMPD6H2et1QokBZWyBz00F+CHtD+rEgtXuqFiEs1/UNNsnfiYtgRMwybu6I5lMTczVKE1RdcRAr6SzGJUa+4AfV+wms9NouGOlTV6pP0AOBmE4m3ecx51BR/fVR+pG1/1DpAgGdBlT1eYsbEDFbDjeR9x626F8qAsKQ1Yq4thydCR3zK/LqyhYVSl+4qoFlFIqccTJzAC9XdotOxudUa8pY9Z2061OeL2BRvL8ezUsFpYeYkgtFUhEKNcuVH2xbqMJ4QLU2l0XitDwkIRdSJvdqb/i7EbVnU5l8w2BStX8HWM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGDCCAwCgAwIBAgIJALp42ST8SwxVMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDERMA8GA1UECAwIT3Jpc3Rhbm8xETAPBgNVBAcMCE9yaXN0YW5vMRswGQYDVQQKDBJDb211bmUgZGkgT3Jpc3Rhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5vcmlzdGFuby5pdDAeFw0yMDA2MDUxMjI3MzBaFw0zMDA2MDMxMjI3MzBaMIGgMQswCQYDVQQGEwJJVDERMA8GA1UECAwIT3Jpc3Rhbm8xETAPBgNVBAcMCE9yaXN0YW5vMRswGQYDVQQKDBJDb211bmUgZGkgT3Jpc3Rhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5vcmlzdGFuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANUYXxvwVtT4xNsSbIHGOmIKeNIJkXRN0tUAc0ROf9xB0R3icGP2Q/vCBpwy+UJQbb/LWwoTG3b+W9tUD6yPora0CSSwcgNKrHHSeFnhT+kNk4DhqaLoPCvlp2apC6we4s0efxHHB6OJn2uWxPM4xPiJUQSTjO3zSmY1ZS+kR0vaxxqjCioDF/IcvAkrsySIQxyx5WiG4VtxXcwKxYSEGMWJD/c+1dwrvazU/RdT6LMttLr0iYKJtbj+3BNi/Q1H+4TW7YcvFppe1aOl45Afngp7e7Ez8WzS/98OL0Wqo4XSLKMeZG/gYpfyIgV6P2JZ2UokExmzaPPpOHpchqypJl8CAwEAAaNTMFEwHQYDVR0OBBYEFAj6g2p+l3dKVDr4bEr2SU6nLWeoMB8GA1UdIwQYMBaAFAj6g2p+l3dKVDr4bEr2SU6nLWeoMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGRR+HWmZV8Jqnn8g0jL51QLN4Rr4p2D3n2070qPlhZMPD6H2et1QokBZWyBz00F+CHtD+rEgtXuqFiEs1/UNNsnfiYtgRMwybu6I5lMTczVKE1RdcRAr6SzGJUa+4AfV+wms9NouGOlTV6pP0AOBmE4m3ecx51BR/fVR+pG1/1DpAgGdBlT1eYsbEDFbDjeR9x626F8qAsKQ1Yq4thydCR3zK/LqyhYVSl+4qoFlFIqccTJzAC9XdotOxudUa8pY9Z2061OeL2BRvL8ezUsFpYeYkgtFUhEKNcuVH2xbqMJ4QLU2l0XitDwkIRdSJvdqb/i7EbVnU5l8w2BStX8HWM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/oristano"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.oristano.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/oristano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/oristano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/oristano" index="2"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.oristano.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Oristano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Oristano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Oristano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Oristano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Oristano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Oristano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Oristano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Oristano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.oristano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.oristano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.oristano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.oristano.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

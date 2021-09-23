@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://manduria.dgegovpa.it" ID="dg595804c0-7316-4c7c-b00c-9cef252f3313" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg595804c0-7316-4c7c-b00c-9cef252f3313"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>CmcmnK3zhAkEEypZ2OEyd/ji/bbgFJqQGZL4gh4kR7w=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>KfDEIRdWi/O/uXIQUHx1KIa8yo8oz1YY4Jpw58w31Md6zPdCkVd6gSZQzpYXhJbz7cvP7q8wop47LuunnhIEJOlz30UEOvx0e03e9vrUzG1/dXWtA/1Ll3psgqNvKDfHrCH6cVUupo7c1dcNa0hRa55rtSILSNRpKJA1/0O2QtdRn593MRJqv37NkWfZlP/5mBSM48SUYQCKrYlBRY7KgB5PCegYHi38iB3k6jUP8y7KFCq5aG3YR6PcTzjz8yjDJOZ++Slvzxh83RYfDo8f1T5TdW3BS8AB/bnJtSr4lHvXH7SHPh4RGvQTLFv9yuWwiTNCcOKMQowPrLJp/LnaOl8=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDZzCCAk6gAwIBAgIBADANBgkqhkiG9w0BAQsFADBNMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZHVyaWEudGEuaXQwHhcNMjAwNjE3MDkxNTE3WhcNMzAwNjE1MDkxNTE3WjBNMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZHVyaWEudGEuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCwaFnpRoEqv/w7HiqtaRSo5qIbLCMJyueUUCDHdlr3yc7dyhlkvatWWpxlzCmmgfDUksITr2dF7HMJY9dn8qseCSAZ2VqYd+mdVPisOdxV4KAnAve/v0Ei8ea7ZEC37nRTN6RVoi5JfJDErEObQtmGPuX0CVzNKeGcoRb+gOQcboA+fx35VBrmgfqebuTdK117sIsj2gtjFtoaU0RaeDm2pICOo8QfvETOAxpr14sl0EdUm6HriB1R91Ygc2Eb+5s2EBwo6SA8KiWV1kBAl8geYgV1lztg3LYAxP91pNVJsqJ258sYINNkbiXXvK/yNersN7JB5zyhTSJQz/jHTVQHAwIDAQABo1AwTjAdBgNVHQ4EFgQUuNzjWPygrUlxatrRATkKFKfNXj0wHwYDVR0jBBgwFoAUuNzjWPygrUlxatrRATkKFKfNXj0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAcvmotsiX7x554aAmeCEGvlel5cdyVjAs5qKI/vw9gxAXAS4WUJ/j/sJCiTspgMlCMfWRPwAe1rMX7HnFLy6XLB0dQ0NHrWAG7xG5N84mBct4y4Mn04X1k/PqgAicf1tyPH6MtS62JiKDlser//Lj7KQQ/fwtaYgRX99NEH6uehUK6o+mihaJ5rp7ZZW1FnWYQ+aAeXRTd/ApyUaphv2DgwbPK7El2nMJPOu6QzV+jM7FiqcM+K87PR/LhqLCE8zwmjYz+vvt3I3wpJSmwYmhuF8fdD8BsJGaMR0WpY8W+UDAWJhEFMlZrCCSSm2VfEfxyFlvSpNXyFrg0f+8ZyWDJto=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk6gAwIBAgIBADANBgkqhkiG9w0BAQsFADBNMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZHVyaWEudGEuaXQwHhcNMjAwNjE3MDkxNTE3WhcNMzAwNjE1MDkxNTE3WjBNMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZHVyaWEudGEuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCwaFnpRoEqv/w7HiqtaRSo5qIbLCMJyueUUCDHdlr3yc7dyhlkvatWWpxlzCmmgfDUksITr2dF7HMJY9dn8qseCSAZ2VqYd+mdVPisOdxV4KAnAve/v0Ei8ea7ZEC37nRTN6RVoi5JfJDErEObQtmGPuX0CVzNKeGcoRb+gOQcboA+fx35VBrmgfqebuTdK117sIsj2gtjFtoaU0RaeDm2pICOo8QfvETOAxpr14sl0EdUm6HriB1R91Ygc2Eb+5s2EBwo6SA8KiWV1kBAl8geYgV1lztg3LYAxP91pNVJsqJ258sYINNkbiXXvK/yNersN7JB5zyhTSJQz/jHTVQHAwIDAQABo1AwTjAdBgNVHQ4EFgQUuNzjWPygrUlxatrRATkKFKfNXj0wHwYDVR0jBBgwFoAUuNzjWPygrUlxatrRATkKFKfNXj0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAcvmotsiX7x554aAmeCEGvlel5cdyVjAs5qKI/vw9gxAXAS4WUJ/j/sJCiTspgMlCMfWRPwAe1rMX7HnFLy6XLB0dQ0NHrWAG7xG5N84mBct4y4Mn04X1k/PqgAicf1tyPH6MtS62JiKDlser//Lj7KQQ/fwtaYgRX99NEH6uehUK6o+mihaJ5rp7ZZW1FnWYQ+aAeXRTd/ApyUaphv2DgwbPK7El2nMJPOu6QzV+jM7FiqcM+K87PR/LhqLCE8zwmjYz+vvt3I3wpJSmwYmhuF8fdD8BsJGaMR0WpY8W+UDAWJhEFMlZrCCSSm2VfEfxyFlvSpNXyFrg0f+8ZyWDJto=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk6gAwIBAgIBADANBgkqhkiG9w0BAQsFADBNMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZHVyaWEudGEuaXQwHhcNMjAwNjE3MDkxNTE3WhcNMzAwNjE1MDkxNTE3WjBNMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZHVyaWEudGEuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCwaFnpRoEqv/w7HiqtaRSo5qIbLCMJyueUUCDHdlr3yc7dyhlkvatWWpxlzCmmgfDUksITr2dF7HMJY9dn8qseCSAZ2VqYd+mdVPisOdxV4KAnAve/v0Ei8ea7ZEC37nRTN6RVoi5JfJDErEObQtmGPuX0CVzNKeGcoRb+gOQcboA+fx35VBrmgfqebuTdK117sIsj2gtjFtoaU0RaeDm2pICOo8QfvETOAxpr14sl0EdUm6HriB1R91Ygc2Eb+5s2EBwo6SA8KiWV1kBAl8geYgV1lztg3LYAxP91pNVJsqJ258sYINNkbiXXvK/yNersN7JB5zyhTSJQz/jHTVQHAwIDAQABo1AwTjAdBgNVHQ4EFgQUuNzjWPygrUlxatrRATkKFKfNXj0wHwYDVR0jBBgwFoAUuNzjWPygrUlxatrRATkKFKfNXj0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAcvmotsiX7x554aAmeCEGvlel5cdyVjAs5qKI/vw9gxAXAS4WUJ/j/sJCiTspgMlCMfWRPwAe1rMX7HnFLy6XLB0dQ0NHrWAG7xG5N84mBct4y4Mn04X1k/PqgAicf1tyPH6MtS62JiKDlser//Lj7KQQ/fwtaYgRX99NEH6uehUK6o+mihaJ5rp7ZZW1FnWYQ+aAeXRTd/ApyUaphv2DgwbPK7El2nMJPOu6QzV+jM7FiqcM+K87PR/LhqLCE8zwmjYz+vvt3I3wpJSmwYmhuF8fdD8BsJGaMR0WpY8W+UDAWJhEFMlZrCCSSm2VfEfxyFlvSpNXyFrg0f+8ZyWDJto=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/manduria/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/manduria/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Manduria</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Manduria</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.manduria.ta.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

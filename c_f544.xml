@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Montelepre" entityID="https://www.comune.montelepre.pa.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Montelepre">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>CcopyI+KrGycHYDAtKivbIP6SCTrRAeJUqJvckTT83I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+3P7zIMfr2ZSgP47TasiFDKzjE0+P/RW1NOxEztAdwO1P5wWELKCWTb/Q6kT3BWZYK57R5k+Avueb
+f5H4PQ/iYX/LEmhVuvWEEUJLzP9ZJm/LhLMsm+Zvh8f3Amy2IjJrb9FELJ6QrLJ2b3h2L1Dj0iPi
+J5f6K8iXgC1wnzja20TsUOULikfLoADkKV9Vpdpxwkja5cfx/JBa22/W2ajjDiy2d2ZExwhGAR2a
+vlgCTN7aojHfo/BdZSiwUuBkQLDFLggQry299E7nxU3bDwytlXrlATVtCKE8o6OVUB+sjGsZ3urt
+2fhwyUcS2Ot34hzy5iQVKKRV3NLevYnn8ozbFw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3jNAsqlFlgIFdK6gyAxvn2PDg8quhkV4i+8Mz6db891Myv0szcFrMP7uqZ5I8ikimrKni3/eYroa
+v8faM3CC2RBQIQqfm0RkBsRDI4TXPn9TY2nh2YLXNOoZhesezpofeYf8wQ+73kzfEOCJEF8tLM6f
+KFt0ouMUKkLsv695/B6I3bC2DkXkWZhSi4gRB+xUg0DmnUIDZFxPI0UCKi7Tu4HXmZYgBERD3P/1
+Ckco20y+XzL/Mh+yulggsNpa6CPSahu0m1sbbeulvuYctDNmDgZx+fLSqHgQ7PmgHZDEMm0kN8Ra
+WcWKsXGdyS0JScEFAj75oUiEwrSdFkc7JQLH2w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVzCCAj+gAwIBAgIJAIPBNXDReqsxMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5j
+b211bmUubW9udGVsZXByZS5wYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkw
+NzIzMTAxMTM3WhcNMjkwNzIwMTAxMTM3WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLm1vbnRlbGVw
+cmUucGEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA3jNAsqlFlgIFdK6gyAxvn2PDg8quhkV4i+8Mz6db891Myv0szcFrMP7uqZ5I
+8ikimrKni3/eYroav8faM3CC2RBQIQqfm0RkBsRDI4TXPn9TY2nh2YLXNOoZhesezpofeYf8wQ+7
+3kzfEOCJEF8tLM6fKFt0ouMUKkLsv695/B6I3bC2DkXkWZhSi4gRB+xUg0DmnUIDZFxPI0UCKi7T
+u4HXmZYgBERD3P/1Ckco20y+XzL/Mh+yulggsNpa6CPSahu0m1sbbeulvuYctDNmDgZx+fLSqHgQ
+7PmgHZDEMm0kN8RaWcWKsXGdyS0JScEFAj75oUiEwrSdFkc7JQLH2wIDAQABo1AwTjAdBgNVHQ4E
+FgQU9Rt1RhtgV+Ob0sNFIoM0vtYQbqAwHwYDVR0jBBgwFoAU9Rt1RhtgV+Ob0sNFIoM0vtYQbqAw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnAWehoP8IdibY0cEm4JnIen172rTv2qv
+o3j33Nrci/IBeKheLm2sYsTFQb66gF3c8BRD14Tqhvuk9Ad3UlPGeT74xPcBeYBpxtLrWq26Pr3P
+dE5zuASfr2d26R7RX3XjEPJmDunnwP3AZQi6ahKZ7Jm0+Nf9Cr9Df5u5z49JnSTixqmXI6RN802X
+yg65YCXOQrwCYTdeiGu26aI3ApqJBQTyWua7gjbxwZ6OicWgP5bBPeNfmyET6f1pSnn/1Xy1m6p3
+4v7tZyFs89880Mzr7vcEh7wkIaN70A9o92Oxlw/+r+oUJ0uPk2Sl+GAwp1KDWM32RzqnizEEZrCL
+PNDrhQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAIPBNXDReqsxMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUubW9udGVsZXByZS5wYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzIzMTAxMTM3WhcNMjkwNzIwMTAxMTM3WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLm1vbnRlbGVwcmUucGEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3jNAsqlFlgIFdK6gyAxvn2PDg8quhkV4i+8Mz6db891Myv0szcFrMP7uqZ5I8ikimrKni3/eYroav8faM3CC2RBQIQqfm0RkBsRDI4TXPn9TY2nh2YLXNOoZhesezpofeYf8wQ+73kzfEOCJEF8tLM6fKFt0ouMUKkLsv695/B6I3bC2DkXkWZhSi4gRB+xUg0DmnUIDZFxPI0UCKi7Tu4HXmZYgBERD3P/1Ckco20y+XzL/Mh+yulggsNpa6CPSahu0m1sbbeulvuYctDNmDgZx+fLSqHgQ7PmgHZDEMm0kN8RaWcWKsXGdyS0JScEFAj75oUiEwrSdFkc7JQLH2wIDAQABo1AwTjAdBgNVHQ4EFgQU9Rt1RhtgV+Ob0sNFIoM0vtYQbqAwHwYDVR0jBBgwFoAU9Rt1RhtgV+Ob0sNFIoM0vtYQbqAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnAWehoP8IdibY0cEm4JnIen172rTv2qvo3j33Nrci/IBeKheLm2sYsTFQb66gF3c8BRD14Tqhvuk9Ad3UlPGeT74xPcBeYBpxtLrWq26Pr3PdE5zuASfr2d26R7RX3XjEPJmDunnwP3AZQi6ahKZ7Jm0+Nf9Cr9Df5u5z49JnSTixqmXI6RN802Xyg65YCXOQrwCYTdeiGu26aI3ApqJBQTyWua7gjbxwZ6OicWgP5bBPeNfmyET6f1pSnn/1Xy1m6p34v7tZyFs89880Mzr7vcEh7wkIaN70A9o92Oxlw/+r+oUJ0uPk2Sl+GAwp1KDWM32RzqnizEEZrCLPNDrhQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAIPBNXDReqsxMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUubW9udGVsZXByZS5wYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzIzMTAxMTM3WhcNMjkwNzIwMTAxMTM3WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLm1vbnRlbGVwcmUucGEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3jNAsqlFlgIFdK6gyAxvn2PDg8quhkV4i+8Mz6db891Myv0szcFrMP7uqZ5I8ikimrKni3/eYroav8faM3CC2RBQIQqfm0RkBsRDI4TXPn9TY2nh2YLXNOoZhesezpofeYf8wQ+73kzfEOCJEF8tLM6fKFt0ouMUKkLsv695/B6I3bC2DkXkWZhSi4gRB+xUg0DmnUIDZFxPI0UCKi7Tu4HXmZYgBERD3P/1Ckco20y+XzL/Mh+yulggsNpa6CPSahu0m1sbbeulvuYctDNmDgZx+fLSqHgQ7PmgHZDEMm0kN8RaWcWKsXGdyS0JScEFAj75oUiEwrSdFkc7JQLH2wIDAQABo1AwTjAdBgNVHQ4EFgQU9Rt1RhtgV+Ob0sNFIoM0vtYQbqAwHwYDVR0jBBgwFoAU9Rt1RhtgV+Ob0sNFIoM0vtYQbqAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnAWehoP8IdibY0cEm4JnIen172rTv2qvo3j33Nrci/IBeKheLm2sYsTFQb66gF3c8BRD14Tqhvuk9Ad3UlPGeT74xPcBeYBpxtLrWq26Pr3PdE5zuASfr2d26R7RX3XjEPJmDunnwP3AZQi6ahKZ7Jm0+Nf9Cr9Df5u5z49JnSTixqmXI6RN802Xyg65YCXOQrwCYTdeiGu26aI3ApqJBQTyWua7gjbxwZ6OicWgP5bBPeNfmyET6f1pSnn/1Xy1m6p34v7tZyFs89880Mzr7vcEh7wkIaN70A9o92Oxlw/+r+oUJ0uPk2Sl+GAwp1KDWM32RzqnizEEZrCLPNDrhQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montelepre"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montelepre" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montelepre" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montelepre" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montelepre</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Montelepre</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Montelepre</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Montelepre</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montelepre</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Montelepre</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Montelepre</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Montelepre</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.montelepre.pa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.montelepre.pa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.montelepre.pa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.montelepre.pa.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

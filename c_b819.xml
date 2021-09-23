@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="ComuneCarpi" entityID="https://www.comune.carpi.mo.it/sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WAXLJB3vaZJ9SJupf1BbLYrDl40AYZspcGL8yYxKG4I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+msSk1JSGmcgKfxsCaHUnnmNBsDrnxy48pWzl2SZCjsQQg4kSOxAfiaA1gQgAq+aRwcuNyP15xaVo
++hARllXhSp6P47Tfh9BcjBz+Vk8juomtOTu2QyyGf63/jAlVBak5f95IKQHoUNQRRTPIlUN+3SgT
+JB/cwIDaZXseQpzl4fQgDarTsbEjwix9dD8FQH5A0qtBj6GS15jDc1vMOuzR47kyFl0msL6rotKZ
+RiyJzcm7L9vDNu15ZKThb27oSAU5pq3hTAY4be0oBjKUqH9ArY8MLbKY/b8ucDeIkPtSMGKwN9Vb
+yuUFJqcJ5iBP0GCEV2+PQWmogOO9YzyB8UBGaQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0tPgLlnNR8sJaX2hEN8jSWfG9zo32Mr2QcjQ+ozwv0yKeHhc7fI/6e4yRxzRyxtOUlUscx2xz2mk
+6XOOzQNkUZqEZOf+pPtRmEypZY51muW8QeX6TFSEeHnH1N84xi/SZOujZn9X8a7UDja4gC5FYs8n
+Xl6FkO3+AwhTOMeE88GsJrmoIqbxg4rZPekEIuTgw9yQh9vbjR6fnj9js/y9jdcIazWGFZH9dfPy
+UZV9/X2oJ4YL71YzI2mfSmLw+q0MYMjRuUEaNEcfRlXlxsUBv6yBq1MWme9GMM1lz1oLzveFqnqv
+XVSx0QYt3P0BSSAciNlb/iivkTm1A8FFUjschQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGLDCCBRSgAwIBAgIQB2akUlmwVwcSE7sd62+0qDANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR0w
+GwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAeFw0yMDA1MDQwMDAwMDBaFw0yMjA1MDQxMjAw
+MDBaMB8xHTAbBgNVBAMMFCouY29tdW5lLmNhcnBpLm1vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA0tPgLlnNR8sJaX2hEN8jSWfG9zo32Mr2QcjQ+ozwv0yKeHhc7fI/6e4yRxzR
+yxtOUlUscx2xz2mk6XOOzQNkUZqEZOf+pPtRmEypZY51muW8QeX6TFSEeHnH1N84xi/SZOujZn9X
+8a7UDja4gC5FYs8nXl6FkO3+AwhTOMeE88GsJrmoIqbxg4rZPekEIuTgw9yQh9vbjR6fnj9js/y9
+jdcIazWGFZH9dfPyUZV9/X2oJ4YL71YzI2mfSmLw+q0MYMjRuUEaNEcfRlXlxsUBv6yBq1MWme9G
+MM1lz1oLzveFqnqvXVSx0QYt3P0BSSAciNlb/iivkTm1A8FFUjschQIDAQABo4IDIzCCAx8wHwYD
+VR0jBBgwFoAUU8oXWfxrwAMhLxqu5KqoHIJW2nUwHQYDVR0OBBYEFIa29TDMk5J2e/bzJyrD5RbB
+ZZJmMB8GA1UdEQQYMBaCFCouY29tdW5lLmNhcnBpLm1vLml0MA4GA1UdDwEB/wQEAwIFoDAdBgNV
+HSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL2NkcC5y
+YXBpZHNzbC5jb20vUmFwaWRTU0xSU0FDQTIwMTguY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEC
+MCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQIBMHUG
+CCsGAQUFBwEBBGkwZzAmBggrBgEFBQcwAYYaaHR0cDovL3N0YXR1cy5yYXBpZHNzbC5jb20wPQYI
+KwYBBQUHMAKGMWh0dHA6Ly9jYWNlcnRzLnJhcGlkc3NsLmNvbS9SYXBpZFNTTFJTQUNBMjAxOC5j
+cnQwCQYDVR0TBAIwADCCAXsGCisGAQQB1nkCBAIEggFrBIIBZwFlAHUAKXm+8J45OSHwVnOfY6V3
+5b5XfZxgCvj5TV0mXCVdx4QAAAFx37vzNQAABAMARjBEAiBF7SfaKzO8g5s4iD1xGDFeDmv3bgHj
+Xn4uQ59hZGWgdgIgcoX/TvSvwPf9A8o/60j7m3FNkJcRF5NAkkS+i0aiqHYAdQAiRUUHWVUkVpY/
+oS/x922G4CMmY63AS39dxoNcbuIPAgAAAXHfu/NhAAAEAwBGMEQCIFSGkhw4egrDZDP/6RJAyd5U
+nvHMiSJc/As/U/WYs5SmAiAjZS+zYAu4l3Kc4DSbmPzJKpUA7qZtuTB2zL9DKkgW1AB1AFGjsPX9
+AXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAABcd+783cAAAQDAEYwRAIgYXjV0gLU2tC0dScA
+deLsSQUeqbBYgbHjajdpLfdGVz8CIGInQ/orj1Dl0vh5Yv5E68UxfBuX9SYeI4mEmUWbMLBFMA0G
+CSqGSIb3DQEBCwUAA4IBAQBwsog5qc28j4nb8Huc/hJbIJhtm0ne+ICdwzCTO5oixnwR/dbQvIpN
+07QeuMwreYp72MEclNA0VZA+BOnsjpjCT7pavZEULWruBQaf/R32vMoqwVfXxFI3rEERbE89dvYB
+37q5UTIprrCSjZrVLWSdGZ4uflTN1n6ubkQJ7sHtRU2le95aynEJMx1Q4kTgNixDA+xQKTWbh6FT
+Xmz5a73c4yxdAB4Ns8QrHVx5eCzIhjReefjZ2DT8/ZN09LcIZUciqEa/2lh4MqEONfO6UBOby9YE
+bzTTu/dmxMrFzOroWrHhg8xKqzlZBBIUmNBBEPpEyJzb566bNwu/DUtIDSGA
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:KeyDescriptor use="signing">
+
+      <ds:KeyInfo>
+        <ds:KeyName>www.comune.carpi.mo.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIGLDCCBRSgAwIBAgIQB2akUlmwVwcSE7sd62+0qDANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe
+Fw0yMDA1MDQwMDAwMDBaFw0yMjA1MDQxMjAwMDBaMB8xHTAbBgNVBAMMFCouY29t
+dW5lLmNhcnBpLm1vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+0tPgLlnNR8sJaX2hEN8jSWfG9zo32Mr2QcjQ+ozwv0yKeHhc7fI/6e4yRxzRyxtO
+UlUscx2xz2mk6XOOzQNkUZqEZOf+pPtRmEypZY51muW8QeX6TFSEeHnH1N84xi/S
+ZOujZn9X8a7UDja4gC5FYs8nXl6FkO3+AwhTOMeE88GsJrmoIqbxg4rZPekEIuTg
+w9yQh9vbjR6fnj9js/y9jdcIazWGFZH9dfPyUZV9/X2oJ4YL71YzI2mfSmLw+q0M
+YMjRuUEaNEcfRlXlxsUBv6yBq1MWme9GMM1lz1oLzveFqnqvXVSx0QYt3P0BSSAc
+iNlb/iivkTm1A8FFUjschQIDAQABo4IDIzCCAx8wHwYDVR0jBBgwFoAUU8oXWfxr
+wAMhLxqu5KqoHIJW2nUwHQYDVR0OBBYEFIa29TDMk5J2e/bzJyrD5RbBZZJmMB8G
+A1UdEQQYMBaCFCouY29tdW5lLmNhcnBpLm1vLml0MA4GA1UdDwEB/wQEAwIFoDAd
+BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwPgYDVR0fBDcwNTAzoDGgL4Yt
+aHR0cDovL2NkcC5yYXBpZHNzbC5jb20vUmFwaWRTU0xSU0FDQTIwMTguY3JsMEwG
+A1UdIARFMEMwNwYJYIZIAYb9bAECMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3
+LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQIBMHUGCCsGAQUFBwEBBGkwZzAmBggr
+BgEFBQcwAYYaaHR0cDovL3N0YXR1cy5yYXBpZHNzbC5jb20wPQYIKwYBBQUHMAKG
+MWh0dHA6Ly9jYWNlcnRzLnJhcGlkc3NsLmNvbS9SYXBpZFNTTFJTQUNBMjAxOC5j
+cnQwCQYDVR0TBAIwADCCAXsGCisGAQQB1nkCBAIEggFrBIIBZwFlAHUAKXm+8J45
+OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAFx37vzNQAABAMARjBEAiBF7Sfa
+KzO8g5s4iD1xGDFeDmv3bgHjXn4uQ59hZGWgdgIgcoX/TvSvwPf9A8o/60j7m3FN
+kJcRF5NAkkS+i0aiqHYAdQAiRUUHWVUkVpY/oS/x922G4CMmY63AS39dxoNcbuIP
+AgAAAXHfu/NhAAAEAwBGMEQCIFSGkhw4egrDZDP/6RJAyd5UnvHMiSJc/As/U/WY
+s5SmAiAjZS+zYAu4l3Kc4DSbmPzJKpUA7qZtuTB2zL9DKkgW1AB1AFGjsPX9AXmc
+Vm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAABcd+783cAAAQDAEYwRAIgYXjV0gLU
+2tC0dScAdeLsSQUeqbBYgbHjajdpLfdGVz8CIGInQ/orj1Dl0vh5Yv5E68UxfBuX
+9SYeI4mEmUWbMLBFMA0GCSqGSIb3DQEBCwUAA4IBAQBwsog5qc28j4nb8Huc/hJb
+IJhtm0ne+ICdwzCTO5oixnwR/dbQvIpN07QeuMwreYp72MEclNA0VZA+BOnsjpjC
+T7pavZEULWruBQaf/R32vMoqwVfXxFI3rEERbE89dvYB37q5UTIprrCSjZrVLWSd
+GZ4uflTN1n6ubkQJ7sHtRU2le95aynEJMx1Q4kTgNixDA+xQKTWbh6FTXmz5a73c
+4yxdAB4Ns8QrHVx5eCzIhjReefjZ2DT8/ZN09LcIZUciqEa/2lh4MqEONfO6UBOb
+y9YEbzTTu/dmxMrFzOroWrHhg8xKqzlZBBIUmNBBEPpEyJzb566bNwu/DUtIDSGA
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:KeyName>carpi.comune.plugandpay.it</ds:KeyName>
+				<ds:X509Data> 
+<ds:X509Certificate>
+MIIGNDCCBBygAwIBAgIJAPkwRDY7SgvVMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYD
+VQQGEwJJVDENMAsGA1UECAwEUm9tYTEYMBYGA1UEBwwPQ29tdW5lIGRpIENhcnBp
+MRgwFgYDVQQKDA9Db211bmUgZGkgQ2FycGkxDTALBgNVBAsMBFNwaWQxIzAhBgNV
+BAMMGmNhcnBpLmNvbXVuZS5wbHVnYW5kcGF5Lml0MSgwJgYJKoZIhvcNAQkBFhlw
+cm90b2NvbGxvQGNvbXVuZWNhcnBpLml0MB4XDTE5MDcyNTA4MTIyNFoXDTIyMDcy
+NDA4MTIyNFowga4xCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMRgwFgYDVQQH
+DA9Db211bmUgZGkgQ2FycGkxGDAWBgNVBAoMD0NvbXVuZSBkaSBDYXJwaTENMAsG
+A1UECwwEU3BpZDEjMCEGA1UEAwwaY2FycGkuY29tdW5lLnBsdWdhbmRwYXkuaXQx
+KDAmBgkqhkiG9w0BCQEWGXByb3RvY29sbG9AY29tdW5lY2FycGkuaXQwggIiMA0G
+CSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCYgU9etpBi/g/zYSIsgcSCp8o/vtg4
+IN6Wp/J6K330zYW+DE4gEpH3srrp3eJerITx66rwEfUe9OlwZiZote5X4fcOQ0Ps
+mo9Y9mLDqd+GRxVvfiz1e+Z/8ziqlaRr5gmLdt6T15Wq+3JZxtUpIcVL7Fw+He/B
+Dh4fQRnVWBdzeapBUR83sPoN4NqW9yWhCJXu1GOgqF10lFqUvyDgtNOcEN+uVzUl
+QN33GzeW+rt0Q5eQdk3SWVkCAHKhjjhxSclDZrp6tK4p4+uJjJXbTIploZuNOWkc
+R3yMfn73AUDKP1VNzDLD9NZEpH4EZpFkdFF2a37rVZzY9/c/fsAa3uDKdv2OT4Na
+iB+YjGfdF3WU0796pJDWgVVMdWekKmEQ2Dqrl3tY2ECx8RZ1v7X1yMUBayXLyoJ1
+guz+0lppYpfEsIMK9UFruDBzC+CzDk//aLk34nqHSfUB8gzqbUUyQ3R1YYaH8A7L
+qK+KJw1ZxLxbyj/GKicbrhbftr7fSqF7n7jpqu/4FC9dfCd2kTrW8Ta8axLHaCGo
+PuiBxuM5niOVWHJen15hNdItqrSfmabOn9Sw4lDQRop3bq7AC7DJZ1raIgy0C/Xw
+jDhPnZggcamq4GIJBkBLZ1JTcqT5ol3N0jtKa09Hkmuk0QFLt05sOdE+7UDAp+xf
+ket5u/xPFjG3wwIDAQABo1MwUTAdBgNVHQ4EFgQUtfAjWGiLG33WsVNFON/HoTWo
+8aQwHwYDVR0jBBgwFoAUtfAjWGiLG33WsVNFON/HoTWo8aQwDwYDVR0TAQH/BAUw
+AwEB/zANBgkqhkiG9w0BAQsFAAOCAgEATDGkEqfMJ4r8u2DLcV3Z94/w/dKt3iSh
+M8+wi377Ypl3JPCyjfBFjlhtj+kll75A/Xa27uaD2Kyh+GdOqqimwD3PY3RVCa/O
+rTBb0NIGb2Bu4j5thwNvxjI5sk+wmC45GEqXS5I8n96QQvGx+4cn5u/K68caOYmv
+R8H347/n6ZxFAzIOAE5Fk0aJYrgdX+uuLpA9AuGDS9Do1Wuq5eOe4fEMyCnd5zgq
+INj9q7cCYWakiVBKXPMuy/KSQVHBuHLBEdqnCtpTg5x1g+iozuTiklQ2Im3487PT
+2xHXzzGZbfVYJ3cjgd5Su/xE2FrL1NlWvD8Q8D+Ycx75f93rebsjgzyXZEW8M69x
+z0+o4PXPllksUZfYtmiTZK0AFq2eB0BMLGypx+BeCRxdq6i71A6HCmuCY0rwaXeP
+rfZGa37G0zzihGOQAqQBju0yshfiydx2oYDlVwjQYyPAbdc7ngwmn2MAw7aC9xta
+bSXjAODCNI7v3p5FilXdGdN6vm7mlzLGbtDngRa75aWRQ0LMiscswFVmFIbTEZE7
+bVShIodE1tGWoLoML5GQgq6lA4AvLPBJte5l3ZFgqQfMKrWdb2JSzJjj6+1xz2w0
+Q171pDWXJyypGV8Kg91RbnIaCs0wOb9RnLtWiHl9yWbC1ZPrVQjgvIkw3PUAgIDz
+nbAU9sPL6ss=</ds:X509Certificate>
+				</ds:X509Data> 
+			</ds:KeyInfo> 
+
+		</md:KeyDescriptor>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://certificationline.comune.carpi.mo.it/Shibboleth.sso/SLO/SOAP"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://certificationline.comune.carpi.mo.it/Shibboleth.sso/SLO/Redirect"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://certificationline.comune.carpi.mo.it/Shibboleth.sso/SLO/POST"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://carpi.comune.plugandpay.it/spidslo"/>
+		
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://certificationline.comune.carpi.mo.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://carpi.comune.plugandpay.it/spidacs" index="1"/> 
+
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">serviziAnagrafeOnLine</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1"> 
+			<md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName> 
+			<md:RequestedAttribute Name="name"/> 
+			<md:RequestedAttribute Name="familyName"/> 
+			<md:RequestedAttribute Name="companyName"/> 
+			<md:RequestedAttribute Name="fiscalNumber"/> 
+			<md:RequestedAttribute Name="ivaCode"/> 
+			<md:RequestedAttribute Name="gender"/> 
+			<md:RequestedAttribute Name="placeOfBirth"/> 
+			<md:RequestedAttribute Name="countyOfBirth"/> 
+			<md:RequestedAttribute Name="dateOfBirth"/> 
+			<md:RequestedAttribute Name="email"/> 
+			<md:RequestedAttribute Name="spidCode"/> 
+		</md:AttributeConsumingService>
+		
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Carpi</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Carpi</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.carpi.mo.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Alleghe" entityID="https://www.comune.alleghe.bl.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Alleghe">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OQql36GyUBhzxHNeFdH0a99TH2Q+Nhh0B7g5mRKM5JM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FAo0qlUgqfj8IRz2c+7zmwaGuRBRHz+sgoZaoJkXC7WsxcPbdMxoSOaxlVLBJf/LWe6SPLrtkFKo
+kvuSdxnVN6ITyaIMPsZpgClHZJcKVZJZgZkE9v6kpU1zm+00g85j9fxNR52KstVbnROafxQ1fFlD
+QeCKF8qqwRXyW+NVrb2r9vplqRNDYI7lIKGb6cjhlYs1NAivmXsdQ0onElgdVn3eSBdGmrSiWL3X
+R5n7gQWvdFB71mnQnzMHLjOXrfhjJg81csFca0kzyAQpk3XvTCD/mb5oC3QG5Jyi+6b+4abBkIyi
+XGJnaSAJQshBcNd/mf8aNNsXwnwXqi8W7RPGbQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1dOXyI5OvIoiGnDOp5fqdiLIA6WCP11GVpCtnhx4IKKOCO7Yp/nCNlt9lYnjXonZji2Ol+bcj3Kj
+xoKD2edzbsLYjs454HWoTcNRhkh1vX2gN8v5bToukhx3yJ/9SHn7xnhYYe5k0hIyEvrf6F0k4rGC
+CL40K8V65bkRAPRFOGLG+uSxSZoYXoICFBzmxUvO8XqonHF6++l87R0AnyppbQxORhYT9wmckGEj
+NxGqARndCZcQY0B5RWvmPCKH2DmCYprhsgxUuQdXrKwKEX6vKb5Gyoru4ne8jGqB1ociWj+3wUIF
+Avslqeq1VSGX/j+/4Unp3PE/JuuANYVNkGve+w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAPgw0dZ69MbMMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuYWxsZWdoZS5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwODI4
+MTI1NjUyWhcNMzAwODI2MTI1NjUyWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsbGVnaGUuYmwu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA1dOXyI5OvIoiGnDOp5fqdiLIA6WCP11GVpCtnhx4IKKOCO7Yp/nCNlt9lYnjXonZji2O
+l+bcj3KjxoKD2edzbsLYjs454HWoTcNRhkh1vX2gN8v5bToukhx3yJ/9SHn7xnhYYe5k0hIyEvrf
+6F0k4rGCCL40K8V65bkRAPRFOGLG+uSxSZoYXoICFBzmxUvO8XqonHF6++l87R0AnyppbQxORhYT
+9wmckGEjNxGqARndCZcQY0B5RWvmPCKH2DmCYprhsgxUuQdXrKwKEX6vKb5Gyoru4ne8jGqB1oci
+Wj+3wUIFAvslqeq1VSGX/j+/4Unp3PE/JuuANYVNkGve+wIDAQABo1AwTjAdBgNVHQ4EFgQUinSM
+G+kxsvAdMVlS6itsMuj2VeIwHwYDVR0jBBgwFoAUinSMG+kxsvAdMVlS6itsMuj2VeIwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXZMJs/xf/XMuOeK8pfxnH9hHJ0YYnhA9vsujZlwL
+kCWizYdHoJfuO5CkpnXlyJrurX4ZiNxcC8e6VxYRlMESzV9dYGO1+V5D728NGb+ghBB2DcB7XlfO
+S2iNtj2x1MGejQA39EbbrsYAayVYnfZwHjjHCudzdqIykWNIf9SBdoQH6xYNGWjf55VnReB4FH7O
+tHxSEkVukPkUcCXeUq3ifVhFpreKOv4aWAhRKhXqfA2IEPezVy3u8/0gLWh9VZ6NdAbCDsT/ALK1
+ykbPGl5OekvLv4Cbl0cfLASgR/kYy/WlIgcRLF6qRKLz1f0HBtQ2XviHcM4eKBlVmFcJi2hskA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAPgw0dZ69MbMMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuYWxsZWdoZS5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwODI4MTI1NjUyWhcNMzAwODI2MTI1NjUyWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsbGVnaGUuYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1dOXyI5OvIoiGnDOp5fqdiLIA6WCP11GVpCtnhx4IKKOCO7Yp/nCNlt9lYnjXonZji2Ol+bcj3KjxoKD2edzbsLYjs454HWoTcNRhkh1vX2gN8v5bToukhx3yJ/9SHn7xnhYYe5k0hIyEvrf6F0k4rGCCL40K8V65bkRAPRFOGLG+uSxSZoYXoICFBzmxUvO8XqonHF6++l87R0AnyppbQxORhYT9wmckGEjNxGqARndCZcQY0B5RWvmPCKH2DmCYprhsgxUuQdXrKwKEX6vKb5Gyoru4ne8jGqB1ociWj+3wUIFAvslqeq1VSGX/j+/4Unp3PE/JuuANYVNkGve+wIDAQABo1AwTjAdBgNVHQ4EFgQUinSMG+kxsvAdMVlS6itsMuj2VeIwHwYDVR0jBBgwFoAUinSMG+kxsvAdMVlS6itsMuj2VeIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXZMJs/xf/XMuOeK8pfxnH9hHJ0YYnhA9vsujZlwLkCWizYdHoJfuO5CkpnXlyJrurX4ZiNxcC8e6VxYRlMESzV9dYGO1+V5D728NGb+ghBB2DcB7XlfOS2iNtj2x1MGejQA39EbbrsYAayVYnfZwHjjHCudzdqIykWNIf9SBdoQH6xYNGWjf55VnReB4FH7OtHxSEkVukPkUcCXeUq3ifVhFpreKOv4aWAhRKhXqfA2IEPezVy3u8/0gLWh9VZ6NdAbCDsT/ALK1ykbPGl5OekvLv4Cbl0cfLASgR/kYy/WlIgcRLF6qRKLz1f0HBtQ2XviHcM4eKBlVmFcJi2hskA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAPgw0dZ69MbMMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuYWxsZWdoZS5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwODI4MTI1NjUyWhcNMzAwODI2MTI1NjUyWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsbGVnaGUuYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1dOXyI5OvIoiGnDOp5fqdiLIA6WCP11GVpCtnhx4IKKOCO7Yp/nCNlt9lYnjXonZji2Ol+bcj3KjxoKD2edzbsLYjs454HWoTcNRhkh1vX2gN8v5bToukhx3yJ/9SHn7xnhYYe5k0hIyEvrf6F0k4rGCCL40K8V65bkRAPRFOGLG+uSxSZoYXoICFBzmxUvO8XqonHF6++l87R0AnyppbQxORhYT9wmckGEjNxGqARndCZcQY0B5RWvmPCKH2DmCYprhsgxUuQdXrKwKEX6vKb5Gyoru4ne8jGqB1ociWj+3wUIFAvslqeq1VSGX/j+/4Unp3PE/JuuANYVNkGve+wIDAQABo1AwTjAdBgNVHQ4EFgQUinSMG+kxsvAdMVlS6itsMuj2VeIwHwYDVR0jBBgwFoAUinSMG+kxsvAdMVlS6itsMuj2VeIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXZMJs/xf/XMuOeK8pfxnH9hHJ0YYnhA9vsujZlwLkCWizYdHoJfuO5CkpnXlyJrurX4ZiNxcC8e6VxYRlMESzV9dYGO1+V5D728NGb+ghBB2DcB7XlfOS2iNtj2x1MGejQA39EbbrsYAayVYnfZwHjjHCudzdqIykWNIf9SBdoQH6xYNGWjf55VnReB4FH7OtHxSEkVukPkUcCXeUq3ifVhFpreKOv4aWAhRKhXqfA2IEPezVy3u8/0gLWh9VZ6NdAbCDsT/ALK1ykbPGl5OekvLv4Cbl0cfLASgR/kYy/WlIgcRLF6qRKLz1f0HBtQ2XviHcM4eKBlVmFcJi2hskA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/alleghe"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alleghe" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alleghe" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alleghe" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Alleghe</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Alleghe</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Alleghe</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Alleghe</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Alleghe</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Alleghe</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Alleghe</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Alleghe</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.alleghe.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.alleghe.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.alleghe.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.alleghe.bl.it</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

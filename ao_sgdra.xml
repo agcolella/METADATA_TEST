@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_i96z6eduhrsdlfbl0pqdzkyeldi7ud2ai7mnecy1kth" entityID="https://www.sangiovannieruggi.it/spid"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<ds:Reference URI="#_i96z6eduhrsdlfbl0pqdzkyeldi7ud2ai7mnecy1kth">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>qVoS/b+FIfJ046lalfW6J2joFT615Hrsmn3ZGjlpm3Ba9Ey6b+3gPRFFOtk+q7GNb7vzBWNhvpZd
+otvSWkCDow==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+x42WByiXVa+uBDYXuL2liSCpRDgXvcEuLGbjsNUw9xyOlT3Lo5iBsXPM1RDn0dZXCC6MHLOvXp83
+agm8Bk/3yn0mRTYwrvqIpAoWsZszuerbm93jUDmqbZvgKLSchWWLp2DnFXIcd3k3ooqVqOtacffy
+hjfel/rx7UFNysoaL6kErM7z/38h7FC0k6ztY5t3Vfur+oiU5p3jS9ToV9CgTY0IpC13RIJCkz4i
+iiG1yZWLb+Wt93U8gLXSJWG/8CR580l0pB/HTHn8R/ajgg66ybKgRYAesR4vW8xdV7HZVpQP4m+r
+igijmyMxcuGIOM0MQwYhXApUmDmAt5rdxenCushDYv2iyv7VT+oTGhZ8HEMggeTeZ+WbmoR5qqFz
+hdXa7ZRSOOg73q4UITbA1R5ktPrpuvQ+eFw1ew3w6HK201G3nfgeTwQxFBqzZuzy6zHDSqWpLZ9F
+/xvksHrjPlqsnxKi9Wq9t28HeX/hT7vGuLzvb+drI3V+Q2YHijnEHZGm
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3XwLV/vFpV+ShpiyCLC0PaK1wCvseOl0wicBUST9397YO/ky55DNeFdZ133hUPQNedwpfPpgMw9R
+dPdSbQK+gXEW02oXkAc2GyspbWzBUzMZig7SlGkjA4fwcKWIVT0FI0SY4Wl+fxTdiNfB9syL/HUV
+RYsl0/iULZPpz90dBPMNksBrC6loyO7FBql2V7hTxtwAdCgIrcAY+dU+/dYxv5aObjeG7fE/kCAQ
+k1PXlday+B4iioVbiKxLK4QZTxcJWwCYoFaQlGc1he6IsAMktPQH0WcTJN3Pm0FbdfyNwZbVreg6
+g5thU/U2XxSzN7VFfJCnOjpjbpg3Rv/TZUp7JhnrH1f4zgTeiiPmKA/H0dD3B3ME8FUyxic6ppmU
+JJd4VR4gfq6kP4E5s3msPU81GANU4I2j/l6zOajiM2v9MVl2WGtVjVNsQ0/f2rPz555bOH1SfmQk
+08zFth0vG9l2TJ7ZTexx+u/jZauwBEz//visGHKAAgymeweRhU4Vel/b
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEezCCAuOgAwIBAgIJALYrRlJCaidjMA0GCSqGSIb3DQEBCwUAMEcxRTBDBgNVBAMTPEEuTy5V
+LiBTYW4gR2lvdmFubmkgZGkgRGlvIGUgUnVnZ2kgLSBTQU1MIE1ldGFkYXRhIFNpZ25hdHVyZTAe
+Fw0yMDA3MTQxNTM1MjdaFw0zMDA3MTIxNTM1MjdaMEcxRTBDBgNVBAMTPEEuTy5VLiBTYW4gR2lv
+dmFubmkgZGkgRGlvIGUgUnVnZ2kgLSBTQU1MIE1ldGFkYXRhIFNpZ25hdHVyZTCCAaIwDQYJKoZI
+hvcNAQEBBQADggGPADCCAYoCggGBAN18C1f7xaVfkoaYsgiwtD2itcAr7HjpdMInAVEk/d/e2Dv5
+MueQzXhXWdd94VD0DXncKXz6YDMPUXT3Um0CvoFxFtNqF5AHNhsrKW1swVMzGYoO0pRpIwOH8HCl
+iFU9BSNEmOFpfn8U3YjXwfbMi/x1FUWLJdP4lC2T6c/dHQTzDZLAawupaMjuxQapdle4U8bcAHQo
+CK3AGPnVPv3WMb+Wjm43hu3xP5AgEJNT15XWsvgeIoqFW4isSyuEGU8XCVsAmKBWkJRnNYXuiLAD
+JLT0B9FnEyTdz5tBW3X8jcGW1a3oOoObYVP1Nl8Usze1RXyQpzo6Y26YN0b/02VKeyYZ6x9X+M4E
+3ooj5igPx9HQ9wdzBPBVMsYnOqaZlCSXeFUeIH6upD+BObN5rD1PNRgDVOCNo/5eszmo4jNr/TFZ
+dlhrVY1TbENP39qz8+eeWzh9Un5kJNPMxbYdLxvZdkye2U3scfrv42WrsARM//74rBhygAIMpnsH
+kYVOFXpf2wIDAQABo2owaDBHBgNVHREEQDA+gjxBLk8uVS4gU2FuIEdpb3Zhbm5pIGRpIERpbyBl
+IFJ1Z2dpIC0gU0FNTCBNZXRhZGF0YSBTaWduYXR1cmUwHQYDVR0OBBYEFFOdJkVcbM40qKr3P0cR
+pnEXe9wJMA0GCSqGSIb3DQEBCwUAA4IBgQC11uXyRsc9RvxWk2ZVaOs2wq8yRoP+0nrGARER++a0
+XqQZ+uNdZ45nBTTMp4LrzoXf6c+nyKjmSQnhEe4c6rPbWYip4Row8txwAn9FZ5tdw5nW6+6NJJd5
+Eg7Qk58CFcDyKo1TrCnFLHppBh5/4mCj1J18aNibsQyVOVaSTNzSFdwDh5oz4kc7jtdq8EFYgVuz
+BWeBumO+IXJq71fG7bgXWYnr4TCqH0ZdUIpaNzKNobbc3JOt80W6G5/L3IQ/HMSLt/IbE0CSK206
+xalcweuCn83wnn82PKzkras+SoBHywfacp00SbXfwX9jSDWuXKRquqVpZVFH8HaOuSWiO/kF29wt
+Y8nFKkMvplRBIHFvg7DuFUZcG1jeoueksFk436UFBSIaIWL9eP8QBD9mC79uD2fUOPODzPRU1rCu
+vlVv/fdZwhrjS4O7MbJp/xDItKLhSsBSEMU5RTzV+VYJvi/PFC2zyCpq3N3JBknTxToFFVlWUPsU
+MJv1FZvI8b23Tck=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIEYDCCAsigAwIBAgIJALH/JooAveikMA0GCSqGSIb3DQEBCwUAMD4xPDA6BgNV
+BAMTM0EuTy5VLiBTYW4gR2lvdmFubmkgZGkgRGlvIGUgUnVnZ2kgLSBTQU1MIFNp
+Z25hdHVyZTAeFw0yMDA3MTQxNTM1MjZaFw0zMDA3MTIxNTM1MjZaMD4xPDA6BgNV
+BAMTM0EuTy5VLiBTYW4gR2lvdmFubmkgZGkgRGlvIGUgUnVnZ2kgLSBTQU1MIFNp
+Z25hdHVyZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANMFy/niSiZ/
+WxrET67G4AGQETEIGnFJa9U2qvWqrQ/cBC4KnpoRD176y8wAmLFK7zBJuMe2zzGU
+Lzj0WxR0CQWXrayiuUxLJZFtL/2KpcY1He6Q3zaef4gx/g3dB+hmuXxHkOcOHg45
+90LKKLDuWtek0UP4E+y84KQqNu0ZJBoqdWoW25I8rWefnaXovB+Q51q0NuSDezNN
+5tcRL7DkTG5k8c1m1sfhGmYPGWJMTZgDclzN9iioi7uVeTGBeE5ZeXLjPBpATBLM
+GDFg2oF2mlotMBxbAQKjbpdasWYMnj8GEvMYRPbvJdkzgYV2kKsxLb1cM4xa26dM
+k77762SkHIH68V+grWi/G2XZYwdsGbnSR5x0AYlPOjNGOq9hukjl2yj9C9taTql7
+N2UI5i7xpztZx2lEIhEbeJhvqn3fuwQd4M5zbUPLrDWZVGkxhPCcNh588b75GfCH
+lHzUezn0XmQc1/6MpkiCqBTUtZgS6wwUMS/D8vZekNuH4DkhJQCvwQIDAQABo2Ew
+XzA+BgNVHREENzA1gjNBLk8uVS4gU2FuIEdpb3Zhbm5pIGRpIERpbyBlIFJ1Z2dp
+IC0gU0FNTCBTaWduYXR1cmUwHQYDVR0OBBYEFNbT0X2DSwI3jopquBscNjqHaesM
+MA0GCSqGSIb3DQEBCwUAA4IBgQCdcxXqtBctvnqyrjJSbXtOSq9M4X3KI+zq3tk5
+Hxgw8aFGn6rE1otTDsDI78AywugI3nRFXFFd9+zZTlBGZcalrvcT0dPhiKqbzdak
+8d/Czx46FdHwBGdCX6DfCl2/rLfKuFhc99w1uq9Cp4ukRh6G4GZaEzCryE07fRYh
+pFY6Ecn2UYrNoFOaiI8cIiJf085KPIqRMKJHwJroZjpUU+2N3ql7c4z7I0/C2p7D
+mIQmfz7rE0sTF4O91nl+mjH3h7zgJd39Be3MUs3V5gD8DDa42PmuQ8vlumCd8tWD
+f5joMkbbZPxJd5kHiSf292bFF+NeyvLjHNo0qrD9Pu1KY9NEBbl453yMfhbWi2M6
+M58dT6GO8mCbOml+gKhV75t6EvJR6E+OL8f/xzhfBW4w4TcIpsSWvvBWVM646mue
+X6IieuNOVbicFoCim5FzpuJmlC+HMMMbhG8GkXOr37rkVVsdb9iukaVyCDQ/Ewd/
+IKdskKDh52HDNFoAbtFdbzDw4I4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.sangiovannieruggi.it/iam/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.sangiovannieruggi.it/iam/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.sangiovannieruggi.it/iam/SAML2/POST" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="1"> <md:ServiceName xml:lang="it">auth</md:ServiceName> <md:RequestedAttribute Name="fiscalNumber"/> <md:RequestedAttribute Name="spidCode"/> <md:RequestedAttribute Name="name"/> <md:RequestedAttribute Name="familyName"/> <md:RequestedAttribute Name="mobilePhone"/> <md:RequestedAttribute Name="email"/> </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">A.O.U. San Giovanni di Dio e Ruggi d'Aragona</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">A.O.U. San Giovanni di Dio e Ruggi d'Aragona</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.sangiovannieruggi.it/spid</md:OrganizationURL>
+  </md:Organization>
+<md:ContactPerson contactType="other">
+	<md:Extensions>
+		<spid:VATNumber>IT03020860650</spid:VATNumber>
+		<spid:Private/>
+	</md:Extensions>
+	<md:EmailAddress>urp@sangiovannieruggi.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>

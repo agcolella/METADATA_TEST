@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.bareggio.mi.it/" ID="_a329b490c78378636d701c701df3d2d0fed30ef57ad2ccd6641f891dbb790c3c"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_a329b490c78378636d701c701df3d2d0fed30ef57ad2ccd6641f891dbb790c3c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>iCFa4M6f7YGRKmJeHEMwRhD67jtm6HHw1TyB4Z1pa+g=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>EMMe52pRUE/4NhKgMbVSthpd9Wf4aqfLxInp9h/tpjsixFfCfxRCsItkdP1Q+qceSv1RD83EOMHsMpmLNoxCeoFgK3mB4modqiVF5iEIRYE3TRjlf02xGAYHR76w5F0kcqlgcjrLzkk6XhTh6bWMucSIeej3V4jNyJVi7fm7xc/chKqa4thAQyWBNN/ho+SIBNw4qijb7JFIddaxavBoomK34Jlokg8A5ogH8uU5ZypXCTPMCWj5HGpEtoySWQNF/jfoZs33H9rYKC+MhavNUEfoJ0dLwCWyLAqBrtm8QivX/cee/5S+HD8DB5iMXJ6ehXxctJ9HLUapMihEqrp53w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEGjCCAwKgAwIBAgIJAOHb6AY5vFTlMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMREwDwYDVQQHDAhCYXJlZ2dpbzEbMBkGA1UECgwSQ29tdW5lIGRpIEJhcmVnZ2lvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmFyZWdnaW8ubWkuaXQwHhcNMTkxMjExMTQ0NjU0WhcNMjkxMjA4MTQ0NjU0WjCBoTELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzERMA8GA1UEBwwIQmFyZWdnaW8xGzAZBgNVBAoMEkNvbXVuZSBkaSBCYXJlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJhcmVnZ2lvLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr2hq5fqJerfjK0CI07z1afqf0gK6eqpvPLz9wa5/PC5nQRYBKgftAkDUcuwx/3NQQEL/AFtNasc2rLCNG3GiwMQreoXtvYZ6AosH01Nnz3SXYyX0IW9KE4TaUjJViZu2Sk016ueInlNSvD9TuGG4Sxs1t6ontTDhHOUQKpG9n8DKUtvb+zJ5XT586OqolsK0EmVjZ/pTAN/Ft0FKJpuDrz9cXYF489/mXJmmwBRRxh9UfhYkVtUPUvD2QhMJQIflvumiyHf+E+CcCffPB3zPe2qsxLxW8O/si8wtzapPzWADvkw2/OuZcqtdDHUjmJKnMLdw+KhF9Ka2qp1CnFvQIQIDAQABo1MwUTAdBgNVHQ4EFgQUChMIYWlR24Zq0dmELVwyc4W/RTgwHwYDVR0jBBgwFoAUChMIYWlR24Zq0dmELVwyc4W/RTgwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAfH6DOOwDHxelWeo8L5pTeZ47jSuodKQGKld3VnSF1kLGczLYtz1jFEXqwLi4TTnpY5FLAH3zFhgko27XqU/TX3ZeQFUsLZQP2iNMPee4T0StQZQU/Gc/zDm3gYSwA+f6x81rGcc8FL/JBsK6l0aSaoxRlVVu7JlX+Fh6MJhG/+Vs8EuGfsXxku3n37gg+Lo5+271Q35oG18juvqx+DGLHfQjzd0CSl7wyQgb7SsP0wi6Jz+E53y9zDRKgCLlaGq9UcwChLo0NgjzMwDXfDEn+E8ZZpSUz0md8rC4qO2FOMIEK3XHq2Vo8sM8/Vm3pvGkzT6wpFL2YNdb21LRtWe1Hg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGjCCAwKgAwIBAgIJAOHb6AY5vFTlMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMREwDwYDVQQHDAhCYXJlZ2dpbzEbMBkGA1UECgwSQ29tdW5lIGRpIEJhcmVnZ2lvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmFyZWdnaW8ubWkuaXQwHhcNMTkxMjExMTQ0NjU0WhcNMjkxMjA4MTQ0NjU0WjCBoTELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzERMA8GA1UEBwwIQmFyZWdnaW8xGzAZBgNVBAoMEkNvbXVuZSBkaSBCYXJlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJhcmVnZ2lvLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr2hq5fqJerfjK0CI07z1afqf0gK6eqpvPLz9wa5/PC5nQRYBKgftAkDUcuwx/3NQQEL/AFtNasc2rLCNG3GiwMQreoXtvYZ6AosH01Nnz3SXYyX0IW9KE4TaUjJViZu2Sk016ueInlNSvD9TuGG4Sxs1t6ontTDhHOUQKpG9n8DKUtvb+zJ5XT586OqolsK0EmVjZ/pTAN/Ft0FKJpuDrz9cXYF489/mXJmmwBRRxh9UfhYkVtUPUvD2QhMJQIflvumiyHf+E+CcCffPB3zPe2qsxLxW8O/si8wtzapPzWADvkw2/OuZcqtdDHUjmJKnMLdw+KhF9Ka2qp1CnFvQIQIDAQABo1MwUTAdBgNVHQ4EFgQUChMIYWlR24Zq0dmELVwyc4W/RTgwHwYDVR0jBBgwFoAUChMIYWlR24Zq0dmELVwyc4W/RTgwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAfH6DOOwDHxelWeo8L5pTeZ47jSuodKQGKld3VnSF1kLGczLYtz1jFEXqwLi4TTnpY5FLAH3zFhgko27XqU/TX3ZeQFUsLZQP2iNMPee4T0StQZQU/Gc/zDm3gYSwA+f6x81rGcc8FL/JBsK6l0aSaoxRlVVu7JlX+Fh6MJhG/+Vs8EuGfsXxku3n37gg+Lo5+271Q35oG18juvqx+DGLHfQjzd0CSl7wyQgb7SsP0wi6Jz+E53y9zDRKgCLlaGq9UcwChLo0NgjzMwDXfDEn+E8ZZpSUz0md8rC4qO2FOMIEK3XHq2Vo8sM8/Vm3pvGkzT6wpFL2YNdb21LRtWe1Hg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGjCCAwKgAwIBAgIJAOHb6AY5vFTlMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMREwDwYDVQQHDAhCYXJlZ2dpbzEbMBkGA1UECgwSQ29tdW5lIGRpIEJhcmVnZ2lvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmFyZWdnaW8ubWkuaXQwHhcNMTkxMjExMTQ0NjU0WhcNMjkxMjA4MTQ0NjU0WjCBoTELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzERMA8GA1UEBwwIQmFyZWdnaW8xGzAZBgNVBAoMEkNvbXVuZSBkaSBCYXJlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJhcmVnZ2lvLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr2hq5fqJerfjK0CI07z1afqf0gK6eqpvPLz9wa5/PC5nQRYBKgftAkDUcuwx/3NQQEL/AFtNasc2rLCNG3GiwMQreoXtvYZ6AosH01Nnz3SXYyX0IW9KE4TaUjJViZu2Sk016ueInlNSvD9TuGG4Sxs1t6ontTDhHOUQKpG9n8DKUtvb+zJ5XT586OqolsK0EmVjZ/pTAN/Ft0FKJpuDrz9cXYF489/mXJmmwBRRxh9UfhYkVtUPUvD2QhMJQIflvumiyHf+E+CcCffPB3zPe2qsxLxW8O/si8wtzapPzWADvkw2/OuZcqtdDHUjmJKnMLdw+KhF9Ka2qp1CnFvQIQIDAQABo1MwUTAdBgNVHQ4EFgQUChMIYWlR24Zq0dmELVwyc4W/RTgwHwYDVR0jBBgwFoAUChMIYWlR24Zq0dmELVwyc4W/RTgwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAfH6DOOwDHxelWeo8L5pTeZ47jSuodKQGKld3VnSF1kLGczLYtz1jFEXqwLi4TTnpY5FLAH3zFhgko27XqU/TX3ZeQFUsLZQP2iNMPee4T0StQZQU/Gc/zDm3gYSwA+f6x81rGcc8FL/JBsK6l0aSaoxRlVVu7JlX+Fh6MJhG/+Vs8EuGfsXxku3n37gg+Lo5+271Q35oG18juvqx+DGLHfQjzd0CSl7wyQgb7SsP0wi6Jz+E53y9zDRKgCLlaGq9UcwChLo0NgjzMwDXfDEn+E8ZZpSUz0md8rC4qO2FOMIEK3XHq2Vo8sM8/Vm3pvGkzT6wpFL2YNdb21LRtWe1Hg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.bareggio.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.bareggio.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_A652</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_A652</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bareggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bareggio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.bareggio.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.bareggio.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

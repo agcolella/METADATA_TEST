@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Alpago" entityID="https://www.comunealpago.bl.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Alpago">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>05oPwgPgCv+azQim+1ZGgfZzSJZ5YxDuG2Ia67Ddr30=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ImK0UpubQNXXcoRsl6i91Kb9ukEIpcjlv5YK2JjRIArHVrBLGRuc2b7Niul2BJxiieaNyllmrMUz
+wmSpM9iFLxrt1f0uf8D4DF5gcqAy5QDsJhnWbEGlS3D5VW/f/wdw8Z5BeXzNu59w1ODO+R2nfA2E
+e/Qif2BQ0ipca06TsyvAwKad5oQkxdUKiPxlMYLGkMk0oVY58UlzB5PCd7Z/95dJaCndnapOmJPX
+c7FF6IimOHXk/FkZcxWOBN3b0q8Gsew5EbEcsushVYfN3sbEu/gbv2sPNIAee6AkhbtAmOlaq66N
+4nUUfuAATvBlRoerYVVr9yh3mkoT79s/YMHkdg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1m3sf865XioYIAIXLcO3UuV5KE3f3OPMElMcW+gm5+70+Z/YTlxRsdHtMnxj0mOfvHJSzHhcDwR5
+HcRXQo5DfM/xBPw/YoGDOCzHBGAQ8pXm9dQ++ajOC0oAvULxBo8GorODzolFEJb/xSJqKjIF0Hvl
++SFLwrmiB0aWpOUkPH4UBe6TFLJYBvi4Iwtg6Q4K0o1dfG9ED5JtXl1a8NIPq4QiAX+XI9PLxlFk
+yXvwgD+4nrHqoCOHPJvrEBvHZRYj9x37eO/bNcECIqVz0ZA0DVXUE74EAzTkMx0vSdeHxSCDKwN/
+eS42M1TqMddoSZM9BiAlUjpF20Zvi4wQDrJ+UQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAImsG0eDD5eqMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmVhbHBhZ28uYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQwNzA5
+MDEzM1oXDTMwMDQwNTA5MDEzM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZWFscGFnby5ibC5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDWbex/zrleKhggAhctw7dS5XkoTd/c48wSUxxb6Cbn7vT5n9hOXFGx0e0yfGPSY5+8clLMeFwP
+BHkdxFdCjkN8z/EE/D9igYM4LMcEYBDyleb11D75qM4LSgC9QvEGjwais4POiUUQlv/FImoqMgXQ
+e+X5IUvCuaIHRpak5SQ8fhQF7pMUslgG+LgjC2DpDgrSjV18b0QPkm1eXVrw0g+rhCIBf5cj08vG
+UWTJe/CAP7ieseqgI4c8m+sQG8dlFiP3Hft479s1wQIipXPRkDQNVdQTvgQDNOQzHS9J14fFIIMr
+A395LjYzVOox12hJkz0GICVSOkXbRm+LjBAOsn5RAgMBAAGjUDBOMB0GA1UdDgQWBBQJhbpxuOuz
+AHZd7oOtjPFmdjv1gzAfBgNVHSMEGDAWgBQJhbpxuOuzAHZd7oOtjPFmdjv1gzAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBwt9CEzAyMAwZX1u8rIKx+GoW85tqFn82fpM+kAhJlxMF5
+izmMyNQhJLHwsHl1lavkuXza7Bg4sRiS9GR0XElKZyZyEcWW/LRsfvLXrFADiAJ4Gb8w1gZQvfLS
+w0G8zRZjGwjRrKc3jWXpeGyNy+nSteZuzVE2adSP8Y2h5OVhpTehnJKGP1jhiaXdBjA4pdHtU2rB
+Ja0/K13xakR9V50duLu1cdCKN5VlVVu7SxKw80S2ERZIj3dCvYmw+IL5K/IcbI6+pR5ahJEhQWeY
+sPljxIg7V8se+L20Lt3JH6/b/Z3TGfUTIHzi+YZ9Mdbt/RqlAUYvGVf7ps+VI/w15nQd
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAImsG0eDD5eqMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmVhbHBhZ28uYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQwNzA5MDEzM1oXDTMwMDQwNTA5MDEzM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZWFscGFnby5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWbex/zrleKhggAhctw7dS5XkoTd/c48wSUxxb6Cbn7vT5n9hOXFGx0e0yfGPSY5+8clLMeFwPBHkdxFdCjkN8z/EE/D9igYM4LMcEYBDyleb11D75qM4LSgC9QvEGjwais4POiUUQlv/FImoqMgXQe+X5IUvCuaIHRpak5SQ8fhQF7pMUslgG+LgjC2DpDgrSjV18b0QPkm1eXVrw0g+rhCIBf5cj08vGUWTJe/CAP7ieseqgI4c8m+sQG8dlFiP3Hft479s1wQIipXPRkDQNVdQTvgQDNOQzHS9J14fFIIMrA395LjYzVOox12hJkz0GICVSOkXbRm+LjBAOsn5RAgMBAAGjUDBOMB0GA1UdDgQWBBQJhbpxuOuzAHZd7oOtjPFmdjv1gzAfBgNVHSMEGDAWgBQJhbpxuOuzAHZd7oOtjPFmdjv1gzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBwt9CEzAyMAwZX1u8rIKx+GoW85tqFn82fpM+kAhJlxMF5izmMyNQhJLHwsHl1lavkuXza7Bg4sRiS9GR0XElKZyZyEcWW/LRsfvLXrFADiAJ4Gb8w1gZQvfLSw0G8zRZjGwjRrKc3jWXpeGyNy+nSteZuzVE2adSP8Y2h5OVhpTehnJKGP1jhiaXdBjA4pdHtU2rBJa0/K13xakR9V50duLu1cdCKN5VlVVu7SxKw80S2ERZIj3dCvYmw+IL5K/IcbI6+pR5ahJEhQWeYsPljxIg7V8se+L20Lt3JH6/b/Z3TGfUTIHzi+YZ9Mdbt/RqlAUYvGVf7ps+VI/w15nQd
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAImsG0eDD5eqMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmVhbHBhZ28uYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQwNzA5MDEzM1oXDTMwMDQwNTA5MDEzM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZWFscGFnby5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWbex/zrleKhggAhctw7dS5XkoTd/c48wSUxxb6Cbn7vT5n9hOXFGx0e0yfGPSY5+8clLMeFwPBHkdxFdCjkN8z/EE/D9igYM4LMcEYBDyleb11D75qM4LSgC9QvEGjwais4POiUUQlv/FImoqMgXQe+X5IUvCuaIHRpak5SQ8fhQF7pMUslgG+LgjC2DpDgrSjV18b0QPkm1eXVrw0g+rhCIBf5cj08vGUWTJe/CAP7ieseqgI4c8m+sQG8dlFiP3Hft479s1wQIipXPRkDQNVdQTvgQDNOQzHS9J14fFIIMrA395LjYzVOox12hJkz0GICVSOkXbRm+LjBAOsn5RAgMBAAGjUDBOMB0GA1UdDgQWBBQJhbpxuOuzAHZd7oOtjPFmdjv1gzAfBgNVHSMEGDAWgBQJhbpxuOuzAHZd7oOtjPFmdjv1gzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBwt9CEzAyMAwZX1u8rIKx+GoW85tqFn82fpM+kAhJlxMF5izmMyNQhJLHwsHl1lavkuXza7Bg4sRiS9GR0XElKZyZyEcWW/LRsfvLXrFADiAJ4Gb8w1gZQvfLSw0G8zRZjGwjRrKc3jWXpeGyNy+nSteZuzVE2adSP8Y2h5OVhpTehnJKGP1jhiaXdBjA4pdHtU2rBJa0/K13xakR9V50duLu1cdCKN5VlVVu7SxKw80S2ERZIj3dCvYmw+IL5K/IcbI6+pR5ahJEhQWeYsPljxIg7V8se+L20Lt3JH6/b/Z3TGfUTIHzi+YZ9Mdbt/RqlAUYvGVf7ps+VI/w15nQd
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/alpago"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alpago" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alpago" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alpago" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Alpago</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Alpago</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Alpago</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Alpago</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Alpago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Alpago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Alpago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Alpago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comunealpago.bl.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comunealpago.bl.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comunealpago.bl.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comunealpago.bl.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

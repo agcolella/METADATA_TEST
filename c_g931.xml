@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Posina" entityID="https://www.posina.info/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Posina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>iK2iac1DP5YMWYkYD++FXEWBitl7kueXpEl9m1WQRo4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+r0t8XMLVuuFw6LXzloYLkKV7xGpWbubmWelwxb9fR6THwAMv4X7jj1zQO8xnNexyaCou2pyQgnJ9
+1GObfEfvBqm43Rs1M3i1Px9z1VPICByltMj7Km0NRw/+BWIsuMJG0r9EyEn8T/EkS635ICbfhQGM
+pgalYyHpiTSqN4DryRm/daYV9hXCXPjnI5jBrPtyIjjC69gUHbuRZqtlyjH/1ARyxhnJkCjZFr17
+rTV2DvNGbNCGvFjOiT6CcaF6JxT7UlfzEwjJ3dZ4VBekkTRcXIUvLEmEPjJcNKgfbqApo0BvIUey
+r5EgBqdsTXEvZCOROjrtZZVDhfdMwWGT9a62gQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zMv5fh7olZs/gc0oNBbclIMNSObyqF2DTHJbhJ69w0tRr2zpvwILBPghUtKwyg4dKRm4TurmpvDY
+IP1BZecoIbqom/0xWcbouhhPztDdkIdoA+2n1aQH2QLcalbZWdc4MFtgvOD/GY8t7H33J5O0eTcH
+0+zu++oMVBMh/D5F3sKQw1cQtlYN4yzk6xyCmNk1pqq0ZTyM1wevUEubkAaHUprooaiBKIbUTT9v
+iFpVJYvSj1fTJmU9EHfPP8pPQRxcep80xJlY99Y6RyxfGtqJzVY6XJHTBYZkoqhlYdikA9dVoILL
+5xW7lo+GEWr93tJ+v5N2tJSQGKzxCA1ahLM5oQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDPzCCAiegAwIBAgIJAMz9TT1ayPc5MA0GCSqGSIb3DQEBCwUAMDYxGDAWBgNVBAMMD3d3dy5w
+b3NpbmEuaW5mbzENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMzEyMDg1MjEzWhcN
+MjkwMzA5MDg1MjEzWjA2MRgwFgYDVQQDDA93d3cucG9zaW5hLmluZm8xDTALBgNVBAsMBFNQSUQx
+CzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzMv5fh7olZs/gc0o
+NBbclIMNSObyqF2DTHJbhJ69w0tRr2zpvwILBPghUtKwyg4dKRm4TurmpvDYIP1BZecoIbqom/0x
+WcbouhhPztDdkIdoA+2n1aQH2QLcalbZWdc4MFtgvOD/GY8t7H33J5O0eTcH0+zu++oMVBMh/D5F
+3sKQw1cQtlYN4yzk6xyCmNk1pqq0ZTyM1wevUEubkAaHUprooaiBKIbUTT9viFpVJYvSj1fTJmU9
+EHfPP8pPQRxcep80xJlY99Y6RyxfGtqJzVY6XJHTBYZkoqhlYdikA9dVoILL5xW7lo+GEWr93tJ+
+v5N2tJSQGKzxCA1ahLM5oQIDAQABo1AwTjAdBgNVHQ4EFgQUuSha2P6A/iMiJgbESuor0gkQktMw
+HwYDVR0jBBgwFoAUuSha2P6A/iMiJgbESuor0gkQktMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0B
+AQsFAAOCAQEALTXLIe6M1dJ5JHuCaOSY9wbrw6940oj6/3JwCS9YyKCURESPg22hoPx92WYOo0RE
+7SZUkHlmmebXACQcWJOzJpb8n1YsIkkM1b7Xi8HG13eVmHfOlbIQy1MepKdHNzd/eoYDKg6cEBST
+4vKp5/WzdmQXGTAl3FqrBAlCY7tiI7qSuQ/JJT5DZ082T73GwxGksssCv7VtwVqEiCJNSUyWlUh1
+Uo2BaBidIn0pUagokkVrVaG8NyCvjJv6+DqovHqZDjBk8o71g3fG/ETuD7erFMQY7XwYpGBgfGV4
+PGIUCLdvZhRUMSBISpUcbypHnG+Q8tLgfYj4tf4gbajK03EmlQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDPzCCAiegAwIBAgIJAMz9TT1ayPc5MA0GCSqGSIb3DQEBCwUAMDYxGDAWBgNVBAMMD3d3dy5wb3NpbmEuaW5mbzENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMzEyMDg1MjEzWhcNMjkwMzA5MDg1MjEzWjA2MRgwFgYDVQQDDA93d3cucG9zaW5hLmluZm8xDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzMv5fh7olZs/gc0oNBbclIMNSObyqF2DTHJbhJ69w0tRr2zpvwILBPghUtKwyg4dKRm4TurmpvDYIP1BZecoIbqom/0xWcbouhhPztDdkIdoA+2n1aQH2QLcalbZWdc4MFtgvOD/GY8t7H33J5O0eTcH0+zu++oMVBMh/D5F3sKQw1cQtlYN4yzk6xyCmNk1pqq0ZTyM1wevUEubkAaHUprooaiBKIbUTT9viFpVJYvSj1fTJmU9EHfPP8pPQRxcep80xJlY99Y6RyxfGtqJzVY6XJHTBYZkoqhlYdikA9dVoILL5xW7lo+GEWr93tJ+v5N2tJSQGKzxCA1ahLM5oQIDAQABo1AwTjAdBgNVHQ4EFgQUuSha2P6A/iMiJgbESuor0gkQktMwHwYDVR0jBBgwFoAUuSha2P6A/iMiJgbESuor0gkQktMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALTXLIe6M1dJ5JHuCaOSY9wbrw6940oj6/3JwCS9YyKCURESPg22hoPx92WYOo0RE7SZUkHlmmebXACQcWJOzJpb8n1YsIkkM1b7Xi8HG13eVmHfOlbIQy1MepKdHNzd/eoYDKg6cEBST4vKp5/WzdmQXGTAl3FqrBAlCY7tiI7qSuQ/JJT5DZ082T73GwxGksssCv7VtwVqEiCJNSUyWlUh1Uo2BaBidIn0pUagokkVrVaG8NyCvjJv6+DqovHqZDjBk8o71g3fG/ETuD7erFMQY7XwYpGBgfGV4PGIUCLdvZhRUMSBISpUcbypHnG+Q8tLgfYj4tf4gbajK03EmlQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDPzCCAiegAwIBAgIJAMz9TT1ayPc5MA0GCSqGSIb3DQEBCwUAMDYxGDAWBgNVBAMMD3d3dy5wb3NpbmEuaW5mbzENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMzEyMDg1MjEzWhcNMjkwMzA5MDg1MjEzWjA2MRgwFgYDVQQDDA93d3cucG9zaW5hLmluZm8xDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzMv5fh7olZs/gc0oNBbclIMNSObyqF2DTHJbhJ69w0tRr2zpvwILBPghUtKwyg4dKRm4TurmpvDYIP1BZecoIbqom/0xWcbouhhPztDdkIdoA+2n1aQH2QLcalbZWdc4MFtgvOD/GY8t7H33J5O0eTcH0+zu++oMVBMh/D5F3sKQw1cQtlYN4yzk6xyCmNk1pqq0ZTyM1wevUEubkAaHUprooaiBKIbUTT9viFpVJYvSj1fTJmU9EHfPP8pPQRxcep80xJlY99Y6RyxfGtqJzVY6XJHTBYZkoqhlYdikA9dVoILL5xW7lo+GEWr93tJ+v5N2tJSQGKzxCA1ahLM5oQIDAQABo1AwTjAdBgNVHQ4EFgQUuSha2P6A/iMiJgbESuor0gkQktMwHwYDVR0jBBgwFoAUuSha2P6A/iMiJgbESuor0gkQktMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALTXLIe6M1dJ5JHuCaOSY9wbrw6940oj6/3JwCS9YyKCURESPg22hoPx92WYOo0RE7SZUkHlmmebXACQcWJOzJpb8n1YsIkkM1b7Xi8HG13eVmHfOlbIQy1MepKdHNzd/eoYDKg6cEBST4vKp5/WzdmQXGTAl3FqrBAlCY7tiI7qSuQ/JJT5DZ082T73GwxGksssCv7VtwVqEiCJNSUyWlUh1Uo2BaBidIn0pUagokkVrVaG8NyCvjJv6+DqovHqZDjBk8o71g3fG/ETuD7erFMQY7XwYpGBgfGV4PGIUCLdvZhRUMSBISpUcbypHnG+Q8tLgfYj4tf4gbajK03EmlQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/posina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/posina" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/posina" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/posina" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Posina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Posina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Posina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Posina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Posina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Posina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Posina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Posina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.posina.info</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.posina.info</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.posina.info</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.posina.info</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

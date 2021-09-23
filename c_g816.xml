@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.sportellotelematico-pomponescosabbioneta.it/" ID="pfxb6827949-dd9e-3a4e-d8a5-a51ea07fdac8"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxb6827949-dd9e-3a4e-d8a5-a51ea07fdac8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>QIiIT5GQaCwMVAY5yOIwspXxHmf1JJipVA3doArSMKI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bk5I+pa2XZzAUbQF2oMb39OLhY4c/yLUB/XU8DRvayZ5pIRZnF6j8kTjteTZr2Q0Np40Poc4btyr2+XkLOgVxcTtav6z/IN0SVchRzqM00fTw0LtNPymkxT9VpwzXuDiwh9RsJ2jRGrbOPBmpktnmiQRtkCXt5wlnWF9MuVWBvqAMJorA+sNNdwT5WObjZusr3LpRKX4rkzqA2lIbPg8wfnwBlPTke1txObaySzoFGOIU43WZILQxDgHqiJ2Q/K7n54yXeAg7Rljt7HD+5rgbOLRtKIfey9vOh7FlZbiPiGRh0j9zoD1bOah3X/CUaq0S+KJqKKBIuILPB+x5XUK/A==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEMDCCAxigAwIBAgIJAM4jZWunHeVlMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTETMBEGA1UEBwwKUG9tcG9uZXNjbzEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbXBvbmVzY28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC93d3cuc3BvcnRlbGxvdGVsZW1hdGljby1wb21wb25lc2Nvc2FiYmlvbmV0YS5pdDAeFw0xODAzMjIxNjMwMzZaFw0yODAzMTkxNjMwMzZaMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTETMBEGA1UEBwwKUG9tcG9uZXNjbzEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbXBvbmVzY28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC93d3cuc3BvcnRlbGxvdGVsZW1hdGljby1wb21wb25lc2Nvc2FiYmlvbmV0YS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALpIR7I9AjgVqGQrrN46Iv1oza1SPxCoq+4Lm++I9npgHQ0UptulCG/FIYneda7IkJhNsiBYXXsToCpyqoPspZMGidD1XQtFL0FfO8Qq6bWvmWOOWFmsilyML4lbbEzwdOUPLB6uW2Gapp4hskU0HVZO6aHnrw9abZM/X0RCHQweRqzXXUwZ8PlSkpYlfX2v7p1zWWAdM/IFUHTxY5hXOevR4ynz2Y8WBN8w0arf5VAOGCRkzedwRok3dtWx3URQQCeZwRS9eHHir7L5XL77qoqctcXoHDA9IzP5PW64mzhgj8/w3RPVoilLPjVcanUMTevA6t3bnYb5Rgt4nkRxUEcCAwEAAaNTMFEwHQYDVR0OBBYEFDWUV9YVYIqMDDmo7e8fD4roS+bYMB8GA1UdIwQYMBaAFDWUV9YVYIqMDDmo7e8fD4roS+bYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD8W6CQKVVvFt4SCVZ0vn1HIBGX0i+M6/R1ac+1yX8Ed3a/pnw6nqRvjWrFbU6o4YB8AE3h7axIPPy+H/dBcik5j8uV7ocqv+FDjdiHf3udDiq9a6tGQjnNkeTp8A17EVU07y8pDsN1puMd7+fpXKRFiaySAfESUiAItSRfUIVPJB1DmCPXOuUjAJqGkIywti1kaOBuYfW2ffry5C0lwH7+frQAy0FZNMorpeSnr1PDBZQ+8Dn3UrgGx4YosvUXHJHARgzwhEFRE3DZeJnmM8YJ5ur1D8XsvPHTBefZ3UbyMi7MnM759b2K+aDp6PeVpgdbsdBfegEuI8s9DpeT1gsQ=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMDCCAxigAwIBAgIJAM4jZWunHeVlMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTETMBEGA1UEBwwKUG9tcG9uZXNjbzEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbXBvbmVzY28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC93d3cuc3BvcnRlbGxvdGVsZW1hdGljby1wb21wb25lc2Nvc2FiYmlvbmV0YS5pdDAeFw0xODAzMjIxNjMwMzZaFw0yODAzMTkxNjMwMzZaMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTETMBEGA1UEBwwKUG9tcG9uZXNjbzEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbXBvbmVzY28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC93d3cuc3BvcnRlbGxvdGVsZW1hdGljby1wb21wb25lc2Nvc2FiYmlvbmV0YS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALpIR7I9AjgVqGQrrN46Iv1oza1SPxCoq+4Lm++I9npgHQ0UptulCG/FIYneda7IkJhNsiBYXXsToCpyqoPspZMGidD1XQtFL0FfO8Qq6bWvmWOOWFmsilyML4lbbEzwdOUPLB6uW2Gapp4hskU0HVZO6aHnrw9abZM/X0RCHQweRqzXXUwZ8PlSkpYlfX2v7p1zWWAdM/IFUHTxY5hXOevR4ynz2Y8WBN8w0arf5VAOGCRkzedwRok3dtWx3URQQCeZwRS9eHHir7L5XL77qoqctcXoHDA9IzP5PW64mzhgj8/w3RPVoilLPjVcanUMTevA6t3bnYb5Rgt4nkRxUEcCAwEAAaNTMFEwHQYDVR0OBBYEFDWUV9YVYIqMDDmo7e8fD4roS+bYMB8GA1UdIwQYMBaAFDWUV9YVYIqMDDmo7e8fD4roS+bYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD8W6CQKVVvFt4SCVZ0vn1HIBGX0i+M6/R1ac+1yX8Ed3a/pnw6nqRvjWrFbU6o4YB8AE3h7axIPPy+H/dBcik5j8uV7ocqv+FDjdiHf3udDiq9a6tGQjnNkeTp8A17EVU07y8pDsN1puMd7+fpXKRFiaySAfESUiAItSRfUIVPJB1DmCPXOuUjAJqGkIywti1kaOBuYfW2ffry5C0lwH7+frQAy0FZNMorpeSnr1PDBZQ+8Dn3UrgGx4YosvUXHJHARgzwhEFRE3DZeJnmM8YJ5ur1D8XsvPHTBefZ3UbyMi7MnM759b2K+aDp6PeVpgdbsdBfegEuI8s9DpeT1gsQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMDCCAxigAwIBAgIJAM4jZWunHeVlMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTETMBEGA1UEBwwKUG9tcG9uZXNjbzEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbXBvbmVzY28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC93d3cuc3BvcnRlbGxvdGVsZW1hdGljby1wb21wb25lc2Nvc2FiYmlvbmV0YS5pdDAeFw0xODAzMjIxNjMwMzZaFw0yODAzMTkxNjMwMzZaMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTETMBEGA1UEBwwKUG9tcG9uZXNjbzEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbXBvbmVzY28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC93d3cuc3BvcnRlbGxvdGVsZW1hdGljby1wb21wb25lc2Nvc2FiYmlvbmV0YS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALpIR7I9AjgVqGQrrN46Iv1oza1SPxCoq+4Lm++I9npgHQ0UptulCG/FIYneda7IkJhNsiBYXXsToCpyqoPspZMGidD1XQtFL0FfO8Qq6bWvmWOOWFmsilyML4lbbEzwdOUPLB6uW2Gapp4hskU0HVZO6aHnrw9abZM/X0RCHQweRqzXXUwZ8PlSkpYlfX2v7p1zWWAdM/IFUHTxY5hXOevR4ynz2Y8WBN8w0arf5VAOGCRkzedwRok3dtWx3URQQCeZwRS9eHHir7L5XL77qoqctcXoHDA9IzP5PW64mzhgj8/w3RPVoilLPjVcanUMTevA6t3bnYb5Rgt4nkRxUEcCAwEAAaNTMFEwHQYDVR0OBBYEFDWUV9YVYIqMDDmo7e8fD4roS+bYMB8GA1UdIwQYMBaAFDWUV9YVYIqMDDmo7e8fD4roS+bYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD8W6CQKVVvFt4SCVZ0vn1HIBGX0i+M6/R1ac+1yX8Ed3a/pnw6nqRvjWrFbU6o4YB8AE3h7axIPPy+H/dBcik5j8uV7ocqv+FDjdiHf3udDiq9a6tGQjnNkeTp8A17EVU07y8pDsN1puMd7+fpXKRFiaySAfESUiAItSRfUIVPJB1DmCPXOuUjAJqGkIywti1kaOBuYfW2ffry5C0lwH7+frQAy0FZNMorpeSnr1PDBZQ+8Dn3UrgGx4YosvUXHJHARgzwhEFRE3DZeJnmM8YJ5ur1D8XsvPHTBefZ3UbyMi7MnM759b2K+aDp6PeVpgdbsdBfegEuI8s9DpeT1gsQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-pomponescosabbioneta.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-pomponescosabbioneta.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_g816</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_g816</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pomponesco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pomponesco</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.sportellotelematico-pomponescosabbioneta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.sportellotelematico-pomponescosabbioneta.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

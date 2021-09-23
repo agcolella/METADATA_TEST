@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.alatri.fr.it/" ID="pfx0b653829-a374-9ce2-46fb-7b015d437cc3"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx0b653829-a374-9ce2-46fb-7b015d437cc3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/UawqAE+IkcULi+8GFFv4Rm9S4ufsYrMSJ8Z/bcMWUc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cBDUWIl1wbbvA4sYKmU6j/BjsNSD1Nb4sSFLVxGPp81g4mKFCaQPCzFaqAeHcuDqWM5zFrUm3PUdYo0jauLed/4QOOQIhA5RIjPRq/QHpmkTfl/Vm4F0YYWzmx/SKDPaSXkIdU9tVvpJ/VgIqQKUd6jpfBeUrrqRcM9gu5Mh6NyMAEgvVwFKhTFNRsT5iz22nY63f9hijuVEgZSrwDALhCPV8i5M+GLK8In1Px/uesLwng9CHwR320ceL6tClmlvOzpEFvVjeEroE15ATMWFxxX32n1s+gdEVvNR0iV5/QBbsg2l1yzuoDFxNfotbt7yvppy57a7TUaIqdkU90HdWg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEETCCAvmgAwIBAgIJAPR/ijTIvQIsMA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDESMBAGA1UECAwJRnJvc2lub25lMQ8wDQYDVQQHDAZBbGF0cmkxGTAXBgNVBAoMEENvbXVuZSBkaSBBbGF0cmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hbGF0cmkuZnIuaXQwHhcNMTYxMjIyMTEyNjA1WhcNMjYxMjIwMTEyNjA1WjCBnjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUZyb3Npbm9uZTEPMA0GA1UEBwwGQWxhdHJpMRkwFwYDVQQKDBBDb211bmUgZGkgQWxhdHJpMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYWxhdHJpLmZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmmLLF03HZ4FbFrQ27yHaDBEtC73IvasjupY83agZ2Bt2VAwbHzCsgBDzbQSwvo61HBpwkhYXi7DEd5Mz2ZjKA4qLse9sl/kLptb3BlXuGMj65h0t0FYqiSCac1rc+7WGnYJYevZJYf7UsTewU12VwTcBzZGJWGbYPIl/OYpD3GKhloFcOG3BWQxqXdyiInjbW2disNsRautbcj2qbPXTCEcovA77KyQzK0RNV9RR5DwnlZjH4U4uuR+OxosFfM+wKK94NaIVhFyV9Y3IgUxyUP98mNq64xPOFKtdyspe0p7V5pY8h9r3r2Akt099zpD4YoIhgus6J7rkGV9Qf+yIQIDAQABo1AwTjAdBgNVHQ4EFgQUK3oh0v44mQaQiXVOwIQB+PUfAYMwHwYDVR0jBBgwFoAUK3oh0v44mQaQiXVOwIQB+PUfAYMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACyLX0AdZgZok56TAsFi5ovmiA52YpNN1t080EBiQXoKJDoP4mXAsDpIeAiqhN8xWZCLOpTC5LPUf2Z/jNuSvv7HdLAQUJ5lNzYDC3Nlx/hZWey7W8zatHlgU6m9sT0p0vWk+KXNV4eBBlHPDgs43bcOS86smaiZXi92rd4lU/LVC4OvPTZP8zpnjhKVUVtnMKGhc7cQDLMtuqMwlImBGKqrcF/ql9S7Nl8Fw/nFJ9tE+t624Qa2jsdZXgG5uo3+KB1jka8JnTTUFz2MekIwfYvzUAc6UgdXP2TsBAQubuWGdiDbtv+XsZ4VA2V7TraTDYGDKan8T9NOf93THRm6hQQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEETCCAvmgAwIBAgIJAPR/ijTIvQIsMA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDESMBAGA1UECAwJRnJvc2lub25lMQ8wDQYDVQQHDAZBbGF0cmkxGTAXBgNVBAoMEENvbXVuZSBkaSBBbGF0cmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hbGF0cmkuZnIuaXQwHhcNMTYxMjIyMTEyNjA1WhcNMjYxMjIwMTEyNjA1WjCBnjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUZyb3Npbm9uZTEPMA0GA1UEBwwGQWxhdHJpMRkwFwYDVQQKDBBDb211bmUgZGkgQWxhdHJpMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYWxhdHJpLmZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmmLLF03HZ4FbFrQ27yHaDBEtC73IvasjupY83agZ2Bt2VAwbHzCsgBDzbQSwvo61HBpwkhYXi7DEd5Mz2ZjKA4qLse9sl/kLptb3BlXuGMj65h0t0FYqiSCac1rc+7WGnYJYevZJYf7UsTewU12VwTcBzZGJWGbYPIl/OYpD3GKhloFcOG3BWQxqXdyiInjbW2disNsRautbcj2qbPXTCEcovA77KyQzK0RNV9RR5DwnlZjH4U4uuR+OxosFfM+wKK94NaIVhFyV9Y3IgUxyUP98mNq64xPOFKtdyspe0p7V5pY8h9r3r2Akt099zpD4YoIhgus6J7rkGV9Qf+yIQIDAQABo1AwTjAdBgNVHQ4EFgQUK3oh0v44mQaQiXVOwIQB+PUfAYMwHwYDVR0jBBgwFoAUK3oh0v44mQaQiXVOwIQB+PUfAYMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACyLX0AdZgZok56TAsFi5ovmiA52YpNN1t080EBiQXoKJDoP4mXAsDpIeAiqhN8xWZCLOpTC5LPUf2Z/jNuSvv7HdLAQUJ5lNzYDC3Nlx/hZWey7W8zatHlgU6m9sT0p0vWk+KXNV4eBBlHPDgs43bcOS86smaiZXi92rd4lU/LVC4OvPTZP8zpnjhKVUVtnMKGhc7cQDLMtuqMwlImBGKqrcF/ql9S7Nl8Fw/nFJ9tE+t624Qa2jsdZXgG5uo3+KB1jka8JnTTUFz2MekIwfYvzUAc6UgdXP2TsBAQubuWGdiDbtv+XsZ4VA2V7TraTDYGDKan8T9NOf93THRm6hQQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEETCCAvmgAwIBAgIJAPR/ijTIvQIsMA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDESMBAGA1UECAwJRnJvc2lub25lMQ8wDQYDVQQHDAZBbGF0cmkxGTAXBgNVBAoMEENvbXVuZSBkaSBBbGF0cmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hbGF0cmkuZnIuaXQwHhcNMTYxMjIyMTEyNjA1WhcNMjYxMjIwMTEyNjA1WjCBnjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUZyb3Npbm9uZTEPMA0GA1UEBwwGQWxhdHJpMRkwFwYDVQQKDBBDb211bmUgZGkgQWxhdHJpMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYWxhdHJpLmZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmmLLF03HZ4FbFrQ27yHaDBEtC73IvasjupY83agZ2Bt2VAwbHzCsgBDzbQSwvo61HBpwkhYXi7DEd5Mz2ZjKA4qLse9sl/kLptb3BlXuGMj65h0t0FYqiSCac1rc+7WGnYJYevZJYf7UsTewU12VwTcBzZGJWGbYPIl/OYpD3GKhloFcOG3BWQxqXdyiInjbW2disNsRautbcj2qbPXTCEcovA77KyQzK0RNV9RR5DwnlZjH4U4uuR+OxosFfM+wKK94NaIVhFyV9Y3IgUxyUP98mNq64xPOFKtdyspe0p7V5pY8h9r3r2Akt099zpD4YoIhgus6J7rkGV9Qf+yIQIDAQABo1AwTjAdBgNVHQ4EFgQUK3oh0v44mQaQiXVOwIQB+PUfAYMwHwYDVR0jBBgwFoAUK3oh0v44mQaQiXVOwIQB+PUfAYMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACyLX0AdZgZok56TAsFi5ovmiA52YpNN1t080EBiQXoKJDoP4mXAsDpIeAiqhN8xWZCLOpTC5LPUf2Z/jNuSvv7HdLAQUJ5lNzYDC3Nlx/hZWey7W8zatHlgU6m9sT0p0vWk+KXNV4eBBlHPDgs43bcOS86smaiZXi92rd4lU/LVC4OvPTZP8zpnjhKVUVtnMKGhc7cQDLMtuqMwlImBGKqrcF/ql9S7Nl8Fw/nFJ9tE+t624Qa2jsdZXgG5uo3+KB1jka8JnTTUFz2MekIwfYvzUAc6UgdXP2TsBAQubuWGdiDbtv+XsZ4VA2V7TraTDYGDKan8T9NOf93THRm6hQQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.alatri.fr.it/simplesaml/module.php/saml/sp/saml2-logout.php/alatri"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.alatri.fr.it/simplesaml/module.php/saml/sp/saml2-acs.php/alatri" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">alatri</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_a123</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Alatri</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.alatri.fr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

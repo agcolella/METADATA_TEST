@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Avigliana" entityID="https://www.comune.avigliana.to.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Avigliana">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>I2+yyUW8BWDiMdZ2CG9QuE/LpbwvQC8/CtoWmlj+uO4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SClVbtGYU2SwxLAQQcz2tEtwwx8CArySCzhe3MWTm6yG2n9hS+LLTMRKA5JlXkgGc605iIQUBKuD
+EWIGvHQZjAxkNdgBfMH0h19xPkI+kuP4GCJAnZazfuErQL+ayKQE06fRAwRTy6I4L6HjOWQYkf95
+anZLR1yYt7jTtwdLFniGazQoFFRiqa/4INyxJh6Xq9hckvur3rqn99bnWPg4D1LKyqOg3nfHjeOI
+I35v/aJmx/sLGnap7EkVBWdJjM8rOlKpFc7ki4Jy9pLZUeJVofDQvO8NpV8iKZQF/uw1/GxSmX7k
+3sOI5mFNqO4qsdAgKPLQFBUVwhLzg5BaP4+yWQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tvfNGZV8vgR1INU2Q3XtWlIVEjp87A4eYNaNYQ+bdaNxJ1rp+7dcYBHtouJq5N9zknfN2ikr5ga8
+Vnkg9tGSvHqokNzISn+V51srrJMxUx1BmbD+jKpvdDWa0fSSm0i67BdU8Ue8wEl39mEvgKWyZMqh
+rGlJbgAimD2X3NJxuPKxx2MXkN87FopUK8jxMe+MNqkG08wWNZdxVj3n75nCRUi5I4PFAcC5iyX2
+A9CKzdOigeN8mQYhC7tPd2ntYi0qMEpixxwd66dQDC54G1BSnlx5aLhS5YVbXW8v8lGGWYteeAeA
+F542EbykwBTHNw/UuulPXIjpKdyFch9cbXLFFw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAMp0dx93O07ZMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuYXZpZ2xpYW5hLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEx
+MjcxMzU2NTBaFw0yODExMjQxMzU2NTBaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuYXZpZ2xpYW5h
+LnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALb3zRmVfL4EdSDVNkN17VpSFRI6fOwOHmDWjWEPm3WjcSda6fu3XGAR7aLiauTf
+c5J3zdopK+YGvFZ5IPbRkrx6qJDcyEp/ledbK6yTMVMdQZmw/oyqb3Q1mtH0kptIuuwXVPFHvMBJ
+d/ZhL4ClsmTKoaxpSW4AIpg9l9zScbjyscdjF5DfOxaKVCvI8THvjDapBtPMFjWXcVY95++ZwkVI
+uSODxQHAuYsl9gPQis3TooHjfJkGIQu7T3dp7WItKjBKYsccHeunUAwueBtQUp5ceWi4UuWFW11v
+L/JRhlmLXngHgBeeNhG8pMAUxzcP1LrpT1yI6SnchXIfXG1yxRcCAwEAAaNQME4wHQYDVR0OBBYE
+FBtW7Rlxvi1D3xpp1evfMT4S8K/+MB8GA1UdIwQYMBaAFBtW7Rlxvi1D3xpp1evfMT4S8K/+MAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJGZk+IUpornTSRwl5gcdE4vDUTApWfc6AhO
+QkonKOsKWqIP9LyWReMwYILoCmht05VxgaZbNujlV11Pu3MzefRREbcgp3ornHZ/XSMI1T05e1J8
+rwyACysSPSs7FbyvAtU7E5v4MXJzcFu2lnJvQVDWpf/XoiraL9Qy+R/i86e+mm+9GUHjvU/Y1oLb
+z4nLuogiDNJIBqASZ2GBmaORKVoI343QcHV+X/kDpzlGbGAo8AS8XBGC60hsvJQDSwqjyM4+t6JE
+o/UraFTyllxAdXBN/XrzGA3pkoVdzfvLKbs+PuBuhFtYqBd8GqqR7b9xE3wJsy8Kyr+2BIZw2P/9
+2ws=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMp0dx93O07ZMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuYXZpZ2xpYW5hLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODExMjcxMzU2NTBaFw0yODExMjQxMzU2NTBaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuYXZpZ2xpYW5hLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALb3zRmVfL4EdSDVNkN17VpSFRI6fOwOHmDWjWEPm3WjcSda6fu3XGAR7aLiauTfc5J3zdopK+YGvFZ5IPbRkrx6qJDcyEp/ledbK6yTMVMdQZmw/oyqb3Q1mtH0kptIuuwXVPFHvMBJd/ZhL4ClsmTKoaxpSW4AIpg9l9zScbjyscdjF5DfOxaKVCvI8THvjDapBtPMFjWXcVY95++ZwkVIuSODxQHAuYsl9gPQis3TooHjfJkGIQu7T3dp7WItKjBKYsccHeunUAwueBtQUp5ceWi4UuWFW11vL/JRhlmLXngHgBeeNhG8pMAUxzcP1LrpT1yI6SnchXIfXG1yxRcCAwEAAaNQME4wHQYDVR0OBBYEFBtW7Rlxvi1D3xpp1evfMT4S8K/+MB8GA1UdIwQYMBaAFBtW7Rlxvi1D3xpp1evfMT4S8K/+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJGZk+IUpornTSRwl5gcdE4vDUTApWfc6AhOQkonKOsKWqIP9LyWReMwYILoCmht05VxgaZbNujlV11Pu3MzefRREbcgp3ornHZ/XSMI1T05e1J8rwyACysSPSs7FbyvAtU7E5v4MXJzcFu2lnJvQVDWpf/XoiraL9Qy+R/i86e+mm+9GUHjvU/Y1oLbz4nLuogiDNJIBqASZ2GBmaORKVoI343QcHV+X/kDpzlGbGAo8AS8XBGC60hsvJQDSwqjyM4+t6JEo/UraFTyllxAdXBN/XrzGA3pkoVdzfvLKbs+PuBuhFtYqBd8GqqR7b9xE3wJsy8Kyr+2BIZw2P/92ws=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMp0dx93O07ZMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuYXZpZ2xpYW5hLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODExMjcxMzU2NTBaFw0yODExMjQxMzU2NTBaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuYXZpZ2xpYW5hLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALb3zRmVfL4EdSDVNkN17VpSFRI6fOwOHmDWjWEPm3WjcSda6fu3XGAR7aLiauTfc5J3zdopK+YGvFZ5IPbRkrx6qJDcyEp/ledbK6yTMVMdQZmw/oyqb3Q1mtH0kptIuuwXVPFHvMBJd/ZhL4ClsmTKoaxpSW4AIpg9l9zScbjyscdjF5DfOxaKVCvI8THvjDapBtPMFjWXcVY95++ZwkVIuSODxQHAuYsl9gPQis3TooHjfJkGIQu7T3dp7WItKjBKYsccHeunUAwueBtQUp5ceWi4UuWFW11vL/JRhlmLXngHgBeeNhG8pMAUxzcP1LrpT1yI6SnchXIfXG1yxRcCAwEAAaNQME4wHQYDVR0OBBYEFBtW7Rlxvi1D3xpp1evfMT4S8K/+MB8GA1UdIwQYMBaAFBtW7Rlxvi1D3xpp1evfMT4S8K/+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJGZk+IUpornTSRwl5gcdE4vDUTApWfc6AhOQkonKOsKWqIP9LyWReMwYILoCmht05VxgaZbNujlV11Pu3MzefRREbcgp3ornHZ/XSMI1T05e1J8rwyACysSPSs7FbyvAtU7E5v4MXJzcFu2lnJvQVDWpf/XoiraL9Qy+R/i86e+mm+9GUHjvU/Y1oLbz4nLuogiDNJIBqASZ2GBmaORKVoI343QcHV+X/kDpzlGbGAo8AS8XBGC60hsvJQDSwqjyM4+t6JEo/UraFTyllxAdXBN/XrzGA3pkoVdzfvLKbs+PuBuhFtYqBd8GqqR7b9xE3wJsy8Kyr+2BIZw2P/92ws=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/avigliana"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/avigliana" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/avigliana" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/avigliana" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Avigliana</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Avigliana</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Avigliana</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Avigliana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Avigliana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Avigliana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Avigliana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Avigliana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.avigliana.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.avigliana.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.avigliana.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.avigliana.to.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

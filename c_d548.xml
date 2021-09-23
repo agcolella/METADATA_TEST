@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Ferrara" entityID="https://www.comune.fe.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Ferrara">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4fL2obDKSFDhq1BbnlU8e+XiKi+Wlnpl3g4Xn0B+2NA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+xC3Mu8jR3Or2jYTZ0VkMRaEvpFq8PFXJko+zpmI2vkR0v1rmL7n4XeThu70Ev4vOKOEffKj3o0ci
+eD2UYUFXxmoQr6GdyGk25NCrgOyIBTILbmaF5UoHL5iM9z+9EMcR3jeZ6lwFPsupXLdtmSpCASG1
+/OWQm2aCHKprHx6c3fBkHQ6JjqTcWKU0utlJCCGK0hB5arMafgIaQwMLvEounRAg51tijGB+RwwS
+rcRi7SvuVAkD/ZcNoQ+whI/mH78ZDxxlMj3uFjyKFx+KiYBCBHu5WFxY0cp9UUZ9dJGO4dbJkn+8
++EWPkZCwhTxrd3zbqIsErT+UDo6T+8mqHM4mtw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ywtOzaMxQRJN0wA9evq7/PnJ36tBmXG/6QW7ejut1wzoJtOPyUq88ZSx9T5sH+8awHZX9St+P81o
+sCI8RSCRPVN9kvTCXWtzoMWE8nFibCVxhlHbTVJ6QR5ALzF9+Y8jiliNYvNPJgiPxhCeexzRC917
+yBOoX2BYLl4S7tD0OLIAjKw0+AGVFHx0+cL2ykpIcHoB5af+Q5GVHPvflTKj41FTY+6+LsTp/Rat
+E3MFi11UTo4+XlqGE46A60g4qWs1WrD/ov0Fl4JkF1agIYCPWCEFb9XBQBqXpowYqmNmEtog/K7O
+GOoZSraDXZs70rdEWsud/wPpsTXGOWoNC1paFw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDQTCCAimgAwIBAgIJAJysuPpDOSlRMA0GCSqGSIb3DQEBCwUAMDcxGTAXBgNVBAMMEHd3dy5j
+b211bmUuZmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDMyOTA3MjQyM1oX
+DTI4MDMyNjA3MjQyM1owNzEZMBcGA1UEAwwQd3d3LmNvbXVuZS5mZS5pdDENMAsGA1UECwwEU1BJ
+RDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLC07NozFBEk3T
+AD16+rv8+cnfq0GZcb/pBbt6O63XDOgm04/JSrzxlLH1Pmwf7xrAdlf1K34/zWiwIjxFIJE9U32S
+9MJda3OgxYTycWJsJXGGUdtNUnpBHkAvMX35jyOKWI1i808mCI/GEJ57HNEL3XvIE6hfYFguXhLu
+0PQ4sgCMrDT4AZUUfHT5wvbKSkhwegHlp/5DkZUc+9+VMqPjUVNj7r4uxOn9Fq0TcwWLXVROjj5e
+WoYTjoDrSDipazVasP+i/QWXgmQXVqAhgI9YIQVv1cFAGpemjBiqY2YS2iD8rs4Y6hlKtoNdmzvS
+t0Ray53/A+mxNcY5ag0LWloXAgMBAAGjUDBOMB0GA1UdDgQWBBSETPC/oU9QWGCpTuyO5vX+sob8
+oDAfBgNVHSMEGDAWgBSETPC/oU9QWGCpTuyO5vX+sob8oDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQBWSZVe5ZxWYIc6Jwia06DomCvaknB5RQg1jYVnqaZ8C5lkTPDZeI4h5pXfcFS0
+Q269w8gwgaob8lDsxyXvRhtRb0rojUF4GNYzeS+aR7HAl3VV1pEUZNrmnc+ZFPPNjWFQ1gPL50wt
+sKEqo04hjW3FwlpvoXUfUqgouu1akAl6cixCg131JlfVpqSGa8W/ZAr7JQ7txGgvWZbOuGVBXJ3t
+hE/BLAIo+QPZGlAVy1USx7SBbuxsii9kK1W4VeCgnym23NL0x9RoNYN87r2Bg3TzXmZoWNdTlQgu
+UMpUcquDwR4kBOJfDKR+EG55+XNQf0AvFP2jcsYh7uI2UXm/CStp
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDQTCCAimgAwIBAgIJAJysuPpDOSlRMA0GCSqGSIb3DQEBCwUAMDcxGTAXBgNVBAMMEHd3dy5jb211bmUuZmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDMyOTA3MjQyM1oXDTI4MDMyNjA3MjQyM1owNzEZMBcGA1UEAwwQd3d3LmNvbXVuZS5mZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLC07NozFBEk3TAD16+rv8+cnfq0GZcb/pBbt6O63XDOgm04/JSrzxlLH1Pmwf7xrAdlf1K34/zWiwIjxFIJE9U32S9MJda3OgxYTycWJsJXGGUdtNUnpBHkAvMX35jyOKWI1i808mCI/GEJ57HNEL3XvIE6hfYFguXhLu0PQ4sgCMrDT4AZUUfHT5wvbKSkhwegHlp/5DkZUc+9+VMqPjUVNj7r4uxOn9Fq0TcwWLXVROjj5eWoYTjoDrSDipazVasP+i/QWXgmQXVqAhgI9YIQVv1cFAGpemjBiqY2YS2iD8rs4Y6hlKtoNdmzvSt0Ray53/A+mxNcY5ag0LWloXAgMBAAGjUDBOMB0GA1UdDgQWBBSETPC/oU9QWGCpTuyO5vX+sob8oDAfBgNVHSMEGDAWgBSETPC/oU9QWGCpTuyO5vX+sob8oDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBWSZVe5ZxWYIc6Jwia06DomCvaknB5RQg1jYVnqaZ8C5lkTPDZeI4h5pXfcFS0Q269w8gwgaob8lDsxyXvRhtRb0rojUF4GNYzeS+aR7HAl3VV1pEUZNrmnc+ZFPPNjWFQ1gPL50wtsKEqo04hjW3FwlpvoXUfUqgouu1akAl6cixCg131JlfVpqSGa8W/ZAr7JQ7txGgvWZbOuGVBXJ3thE/BLAIo+QPZGlAVy1USx7SBbuxsii9kK1W4VeCgnym23NL0x9RoNYN87r2Bg3TzXmZoWNdTlQguUMpUcquDwR4kBOJfDKR+EG55+XNQf0AvFP2jcsYh7uI2UXm/CStp
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/ferrara"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ferrara" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ferrara" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ferrara</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Ferrara</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Ferrara</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Ferrara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ferrara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ferrara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Ferrara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Ferrara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.fe.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.fe.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.fe.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.fe.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

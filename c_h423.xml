@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.roccamonfina.ce.it/" ID="pfxf93547cf-1c2a-057f-f0df-40ee4a382736"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxf93547cf-1c2a-057f-f0df-40ee4a382736"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wfeNM1PFYV0jb+J/HXQOuH1sTfoyEnol/JT1F2OwpEY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>SHjpyW9/z5pBiHaG03/nEnbToE5J0hyQnXgIWBrk1G1DHawXNMIO5PjNCAGzxi9+nn/UK0nGWKYba7jRkIImojCqnAne0yudo6mYphtlJA8YrvUAAepkHoSYlJMIBKWnqn/CPUw8WL3+PRxy5WzmFAiXqDav7/vv1A1U3glOHJF5zdPzXj73ghPbCzcEMzNwmJWn0CXMpmYI/c4NFxw15TllALfn/Z9Cm3ffhyc0zXHQQiA4Nd4Cu913EPJRj1FsYoaVgwmlSB9eyZ0fF1antuqEHBr3A1mVVjnoyl4kle9dWDfdIOngFf3+mWP8WusihP5yJAKQFNEhbS0/J+bx+g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENDCCAxygAwIBAgIJAJwsalP9Vc2MMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ2FzZXJ0YTEVMBMGA1UEBwwMUm9jY2Ftb25maW5hMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2Ftb25maW5hMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE2MDQGA1UEAwwtc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucm9jY2Ftb25maW5hLmNlLml0MB4XDTE3MTAxODEzMjg1NVoXDTI3MTAxNjEzMjg1NVowga4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXNlcnRhMRUwEwYDVQQHDAxSb2NjYW1vbmZpbmExHzAdBgNVBAoMFkNvbXVuZSBkaSBSb2NjYW1vbmZpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTYwNAYDVQQDDC1zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5yb2NjYW1vbmZpbmEuY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVzKeE8K+dlbZvATpzS5VKJWYBXFcJFQVEmQGySMIANURazvPa9CAyg77NhRAD3uGb7eCpUUj83Lhiv6mAZSc/U4tYUIXVy8HQYRN1893luiuQ4VlL5od4so+rn7s1T+JMBkfQn6Rtme6WAifNjpY4x426h0WIzC7PdWZueizTacQ0psMnvgnDmqYILKdgPwe01d1Rdu79KqfbYiTE6nI76f+CODAtmd3sPAfK3i2SiyQjpXhP0QVkdgPvAr/oR47ClGpLP4X5+krKXlNI+gpJCubcfnOTmUP6IcZhnlGRDu4FWELatj/4a6HRqtym6H6PZtMx6KsY1QrERQXRjVPzAgMBAAGjUzBRMB0GA1UdDgQWBBSKJpc4pcLNA1GCQ+VSUz1Y82lgiTAfBgNVHSMEGDAWgBSKJpc4pcLNA1GCQ+VSUz1Y82lgiTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB6U5zB9n82Pdgn2eHYSSOc6km/tqOquugD/5QyQAp0KNWkDpTrcDN/AiKg7QIe11PKp+ZZ+40VS5Skv9l23WMCsS660deX8IM+QfScvViu74BkLCShWFFw459yxX7WGVCdr3Nu3bPmrphXg+k1R0OXg/7R4jrm9uTPqRkIFTLtxPvT/+X3zWRiyUBJ/HaWoLAqgH7gE2o4oMjIvL5rLccwGGTRn6SvmShpwWvEPziefhLD4Bo/O/re/tglq5rp+XQQO47xSeb1D3s3Y8IEIMI7d7P43XTAQu6GsT3hr8bo9JlUieRgksxnfXq5flT7QmRh5jOTnmUqBO5NBVGug+Aa</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENDCCAxygAwIBAgIJAJwsalP9Vc2MMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ2FzZXJ0YTEVMBMGA1UEBwwMUm9jY2Ftb25maW5hMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2Ftb25maW5hMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE2MDQGA1UEAwwtc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucm9jY2Ftb25maW5hLmNlLml0MB4XDTE3MTAxODEzMjg1NVoXDTI3MTAxNjEzMjg1NVowga4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXNlcnRhMRUwEwYDVQQHDAxSb2NjYW1vbmZpbmExHzAdBgNVBAoMFkNvbXVuZSBkaSBSb2NjYW1vbmZpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTYwNAYDVQQDDC1zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5yb2NjYW1vbmZpbmEuY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVzKeE8K+dlbZvATpzS5VKJWYBXFcJFQVEmQGySMIANURazvPa9CAyg77NhRAD3uGb7eCpUUj83Lhiv6mAZSc/U4tYUIXVy8HQYRN1893luiuQ4VlL5od4so+rn7s1T+JMBkfQn6Rtme6WAifNjpY4x426h0WIzC7PdWZueizTacQ0psMnvgnDmqYILKdgPwe01d1Rdu79KqfbYiTE6nI76f+CODAtmd3sPAfK3i2SiyQjpXhP0QVkdgPvAr/oR47ClGpLP4X5+krKXlNI+gpJCubcfnOTmUP6IcZhnlGRDu4FWELatj/4a6HRqtym6H6PZtMx6KsY1QrERQXRjVPzAgMBAAGjUzBRMB0GA1UdDgQWBBSKJpc4pcLNA1GCQ+VSUz1Y82lgiTAfBgNVHSMEGDAWgBSKJpc4pcLNA1GCQ+VSUz1Y82lgiTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB6U5zB9n82Pdgn2eHYSSOc6km/tqOquugD/5QyQAp0KNWkDpTrcDN/AiKg7QIe11PKp+ZZ+40VS5Skv9l23WMCsS660deX8IM+QfScvViu74BkLCShWFFw459yxX7WGVCdr3Nu3bPmrphXg+k1R0OXg/7R4jrm9uTPqRkIFTLtxPvT/+X3zWRiyUBJ/HaWoLAqgH7gE2o4oMjIvL5rLccwGGTRn6SvmShpwWvEPziefhLD4Bo/O/re/tglq5rp+XQQO47xSeb1D3s3Y8IEIMI7d7P43XTAQu6GsT3hr8bo9JlUieRgksxnfXq5flT7QmRh5jOTnmUqBO5NBVGug+Aa</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENDCCAxygAwIBAgIJAJwsalP9Vc2MMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ2FzZXJ0YTEVMBMGA1UEBwwMUm9jY2Ftb25maW5hMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2Ftb25maW5hMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE2MDQGA1UEAwwtc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucm9jY2Ftb25maW5hLmNlLml0MB4XDTE3MTAxODEzMjg1NVoXDTI3MTAxNjEzMjg1NVowga4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXNlcnRhMRUwEwYDVQQHDAxSb2NjYW1vbmZpbmExHzAdBgNVBAoMFkNvbXVuZSBkaSBSb2NjYW1vbmZpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTYwNAYDVQQDDC1zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5yb2NjYW1vbmZpbmEuY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVzKeE8K+dlbZvATpzS5VKJWYBXFcJFQVEmQGySMIANURazvPa9CAyg77NhRAD3uGb7eCpUUj83Lhiv6mAZSc/U4tYUIXVy8HQYRN1893luiuQ4VlL5od4so+rn7s1T+JMBkfQn6Rtme6WAifNjpY4x426h0WIzC7PdWZueizTacQ0psMnvgnDmqYILKdgPwe01d1Rdu79KqfbYiTE6nI76f+CODAtmd3sPAfK3i2SiyQjpXhP0QVkdgPvAr/oR47ClGpLP4X5+krKXlNI+gpJCubcfnOTmUP6IcZhnlGRDu4FWELatj/4a6HRqtym6H6PZtMx6KsY1QrERQXRjVPzAgMBAAGjUzBRMB0GA1UdDgQWBBSKJpc4pcLNA1GCQ+VSUz1Y82lgiTAfBgNVHSMEGDAWgBSKJpc4pcLNA1GCQ+VSUz1Y82lgiTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB6U5zB9n82Pdgn2eHYSSOc6km/tqOquugD/5QyQAp0KNWkDpTrcDN/AiKg7QIe11PKp+ZZ+40VS5Skv9l23WMCsS660deX8IM+QfScvViu74BkLCShWFFw459yxX7WGVCdr3Nu3bPmrphXg+k1R0OXg/7R4jrm9uTPqRkIFTLtxPvT/+X3zWRiyUBJ/HaWoLAqgH7gE2o4oMjIvL5rLccwGGTRn6SvmShpwWvEPziefhLD4Bo/O/re/tglq5rp+XQQO47xSeb1D3s3Y8IEIMI7d7P43XTAQu6GsT3hr8bo9JlUieRgksxnfXq5flT7QmRh5jOTnmUqBO5NBVGug+Aa</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.roccamonfina.ce.it/simplesaml/module.php/saml/sp/saml2-logout.php/roccamonfina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.roccamonfina.ce.it/simplesaml/module.php/saml/sp/saml2-acs.php/roccamonfina" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">roccamonfina</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_h423</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Roccamonfina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.roccamonfina.ce.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Bussolengo" entityID="https://www.comune.bussolengo.vr.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Bussolengo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FjeVnVEH8rJBkm4bBVv9G8jdtiO8ieUH7zQWbQ4HCOA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RvX28U5LGBZvgwpjja764S65/1Pd/ATb6kd3JxW/ipX6o5TXqJEwWZF08Vbu8zVzPRiE+QFJg19G
+iLixalylhmtpOK1N2nAh2HFz1QrnURvowjKre7WPWBc+LaMXElyZoRz2cA2qPHQDSmcrjqzfpJYX
+bib/muRzWhrF8AicGW8rNC6Uv1fi6Ar8cV5yIdZwGjslIywGHPcRI0HXm6bBWkQxfdQ2ZOvTtO4b
+EsNNobYQuOIm8USHQIeuK5eO/EznG9Ga5qILXsYfyM+3yi0wuxDvA5HU1HS05DCmR4C3qFeDyBI0
+lDnZ2F8X4xCwiyv1HnSPoXcAskQP2/TNuj15Xg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qXjuRA9Vg7QfL95uNobkMydKXsEj2+EtcI+r9W1uDkyo1ffALkGqCnPwBRTIZKl91/e/Tx0GS8/W
+bieawNAdTZSf43+lZEn5yOa7mUcOVOvdCtV/CifsITqy9A8xKDouxCCRMZt17ewZJuBsBjxRgQjM
+MMRHqag6aZqINaX9WfnS98Y9RpXKFRh/SB0AJM3/snUSZUqOuSuizx6nbV6i4Zj2UiHZrVnl9a+h
+BjQ/kw8bVD+pWymUVZ8IUkbWCITdqqOb3Ju3Zmt3qDN1E4Xf7Sv2344T/bWv3dEYRUpNkRP6r6Du
+PzzvZ9vZOSMgy3dkQ0uJAhUkaqY9SysdKIVv9Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVzCCAj+gAwIBAgIJAKwChmWt1dCXMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5j
+b211bmUuYnVzc29sZW5nby52ci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAw
+NjI0MTAxMjUwWhcNMzAwNjIyMTAxMjUwWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLmJ1c3NvbGVu
+Z28udnIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqXjuRA9Vg7QfL95uNobkMydKXsEj2+EtcI+r9W1uDkyo1ffALkGqCnPwBRTI
+ZKl91/e/Tx0GS8/WbieawNAdTZSf43+lZEn5yOa7mUcOVOvdCtV/CifsITqy9A8xKDouxCCRMZt1
+7ewZJuBsBjxRgQjMMMRHqag6aZqINaX9WfnS98Y9RpXKFRh/SB0AJM3/snUSZUqOuSuizx6nbV6i
+4Zj2UiHZrVnl9a+hBjQ/kw8bVD+pWymUVZ8IUkbWCITdqqOb3Ju3Zmt3qDN1E4Xf7Sv2344T/bWv
+3dEYRUpNkRP6r6DuPzzvZ9vZOSMgy3dkQ0uJAhUkaqY9SysdKIVv9QIDAQABo1AwTjAdBgNVHQ4E
+FgQUvqliO30ws34sogV/SnOvkhH54mgwHwYDVR0jBBgwFoAUvqliO30ws34sogV/SnOvkhH54mgw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAM1lTFlh5duaO+rnTM/7eQ+m0VqVl357W
+1TKL0wbOXeydGJj9SESHw1NLfgkisOuOJNa4+RRSi1KnlDe7joM+T3U7eKnXRni+wE3eb/dXWEs9
+EBdyLjOOMH2J++sEoDZeUHmBHk5U2eU2UibHBiarGydl2jl2eWWr9BQPdlr0JOPpJKwxFSdmoeU7
+iD6amXwLCbbFVUPUhtslDsqenDir9A++AQvhqrjVib+YoD3PzSffYKbITeRUI7D9Yp2zY2u/RQ9D
+WFe2pP7Z7CTAj+Z/Okjy+HYHGH2ZFnlfpn8dTGQ9+2lFR+DM2c40qXRcdgA545E1b+FgOvzs26S0
+jN5hxg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAKwChmWt1dCXMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUuYnVzc29sZW5nby52ci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjI0MTAxMjUwWhcNMzAwNjIyMTAxMjUwWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLmJ1c3NvbGVuZ28udnIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqXjuRA9Vg7QfL95uNobkMydKXsEj2+EtcI+r9W1uDkyo1ffALkGqCnPwBRTIZKl91/e/Tx0GS8/WbieawNAdTZSf43+lZEn5yOa7mUcOVOvdCtV/CifsITqy9A8xKDouxCCRMZt17ewZJuBsBjxRgQjMMMRHqag6aZqINaX9WfnS98Y9RpXKFRh/SB0AJM3/snUSZUqOuSuizx6nbV6i4Zj2UiHZrVnl9a+hBjQ/kw8bVD+pWymUVZ8IUkbWCITdqqOb3Ju3Zmt3qDN1E4Xf7Sv2344T/bWv3dEYRUpNkRP6r6DuPzzvZ9vZOSMgy3dkQ0uJAhUkaqY9SysdKIVv9QIDAQABo1AwTjAdBgNVHQ4EFgQUvqliO30ws34sogV/SnOvkhH54mgwHwYDVR0jBBgwFoAUvqliO30ws34sogV/SnOvkhH54mgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAM1lTFlh5duaO+rnTM/7eQ+m0VqVl357W1TKL0wbOXeydGJj9SESHw1NLfgkisOuOJNa4+RRSi1KnlDe7joM+T3U7eKnXRni+wE3eb/dXWEs9EBdyLjOOMH2J++sEoDZeUHmBHk5U2eU2UibHBiarGydl2jl2eWWr9BQPdlr0JOPpJKwxFSdmoeU7iD6amXwLCbbFVUPUhtslDsqenDir9A++AQvhqrjVib+YoD3PzSffYKbITeRUI7D9Yp2zY2u/RQ9DWFe2pP7Z7CTAj+Z/Okjy+HYHGH2ZFnlfpn8dTGQ9+2lFR+DM2c40qXRcdgA545E1b+FgOvzs26S0jN5hxg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAKwChmWt1dCXMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUuYnVzc29sZW5nby52ci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjI0MTAxMjUwWhcNMzAwNjIyMTAxMjUwWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLmJ1c3NvbGVuZ28udnIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqXjuRA9Vg7QfL95uNobkMydKXsEj2+EtcI+r9W1uDkyo1ffALkGqCnPwBRTIZKl91/e/Tx0GS8/WbieawNAdTZSf43+lZEn5yOa7mUcOVOvdCtV/CifsITqy9A8xKDouxCCRMZt17ewZJuBsBjxRgQjMMMRHqag6aZqINaX9WfnS98Y9RpXKFRh/SB0AJM3/snUSZUqOuSuizx6nbV6i4Zj2UiHZrVnl9a+hBjQ/kw8bVD+pWymUVZ8IUkbWCITdqqOb3Ju3Zmt3qDN1E4Xf7Sv2344T/bWv3dEYRUpNkRP6r6DuPzzvZ9vZOSMgy3dkQ0uJAhUkaqY9SysdKIVv9QIDAQABo1AwTjAdBgNVHQ4EFgQUvqliO30ws34sogV/SnOvkhH54mgwHwYDVR0jBBgwFoAUvqliO30ws34sogV/SnOvkhH54mgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAM1lTFlh5duaO+rnTM/7eQ+m0VqVl357W1TKL0wbOXeydGJj9SESHw1NLfgkisOuOJNa4+RRSi1KnlDe7joM+T3U7eKnXRni+wE3eb/dXWEs9EBdyLjOOMH2J++sEoDZeUHmBHk5U2eU2UibHBiarGydl2jl2eWWr9BQPdlr0JOPpJKwxFSdmoeU7iD6amXwLCbbFVUPUhtslDsqenDir9A++AQvhqrjVib+YoD3PzSffYKbITeRUI7D9Yp2zY2u/RQ9DWFe2pP7Z7CTAj+Z/Okjy+HYHGH2ZFnlfpn8dTGQ9+2lFR+DM2c40qXRcdgA545E1b+FgOvzs26S0jN5hxg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bussolengo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bussolengo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bussolengo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bussolengo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bussolengo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bussolengo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bussolengo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bussolengo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bussolengo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bussolengo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bussolengo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bussolengo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bussolengo.vr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bussolengo.vr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.bussolengo.vr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.bussolengo.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

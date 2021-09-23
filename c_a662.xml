@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_9e0804ca3a321d05db65a7ead855f63fd44fbe81" entityID="https://www.comune.bari.it/sp">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                        <ds:Reference URI="#_9e0804ca3a321d05db65a7ead855f63fd44fbe81">
+                                <ds:Transforms>
+                                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                                </ds:Transforms>
+                                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                <ds:DigestValue>Zk09NczBU0eqf+IdekMmJAy2RegcbVjZaaCLJmQQnuM=</ds:DigestValue>
+                        </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue>uVMOeDL6kh//6QaY+mMHyw7ENC6nxsBXzv4MgAb0pffpWHlzYxu/stAf2oQIf93T
+1L0EtM5IO4eyoNHhvwN4w4anZ24uUM82kZL0eXsA9G8xFQSXSCkyFY1og+hoYpRu
+hzzkzoQvrx/mpirGtBVA2pNolIsFCocoIcoPeUxgkaPlGGuGde/zNJgQFqNXY7nI
+rwDZZuv5Ur7skaWa0mm58gYOHarUY3IO7crLsh9OzzVRIFGFHyqtNUd02bdladSM
+VOMx1skx3ZfLJZVx9WY28SlkwYraIAf9h8gF+PeKWwzeg2Jr1OcjBVG0iHQ1JlID
+vVcBWaHLwHQKIGbEFUOJMA==</ds:SignatureValue>
+                <ds:KeyInfo>
+                        <ds:X509Data>
+                                <ds:X509Certificate>MIIHaTCCBlGgAwIBAgIMRmPPy5RUm/lK/lOyMA0GCSqGSIb3DQEBCwUAMGYxCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTwwOgYDVQQDEzNH
+bG9iYWxTaWduIE9yZ2FuaXphdGlvbiBWYWxpZGF0aW9uIENBIC0gU0hBMjU2IC0g
+RzIwHhcNMTgwMjA2MTAwMTUwWhcNMjEwMjA2MTAwMTUwWjCBjjELMAkGA1UEBhMC
+SVQxDTALBgNVBAgTBEJhcmkxDTALBgNVBAcTBEJhcmkxLTArBgNVBAsTJFJpcGFy
+dGl6aW9uZSBJbm5vdmF6aW9uZSBUZWNub2xvZ2ljYTEXMBUGA1UEChMOQ29tdW5l
+IGRpIEJhcmkxGTAXBgNVBAMMECouY29tdW5lLmJhcmkuaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDdu2qccz44vd4D/eW0A6/gR+9MVFC2qZg4u/3o
+LpCGm3S73j8OiaLq+ow/BXyz4yetgIMz/Pb930Bsnk/uzeJqTfR0ykqhbVvkXBTD
+IR93At0NOzv5egFW39PrmgssOiToetowblAmc8nDNfZ69oHhcCYW0trXjx+Bwnj4
+ow0MixFAWpEvIto1Zu5jC8bwH0F7ytM4EhWIV97TEylkbwZv58EhFshlU1nwWmrs
+XZ8KXqkb6rjgf1epgqZTNDh0vOH1b8GY+T0ojXIp+ngNMys8OzLCmm0E7klppyUP
+DQe7FxqGMM2oSHJkqH4WKNlAyRdbIoDTw3JJqN8UTwYNtOT9AgMBAAGjggPsMIID
+6DAOBgNVHQ8BAf8EBAMCBaAwgaAGCCsGAQUFBwEBBIGTMIGQME0GCCsGAQUFBzAC
+hkFodHRwOi8vc2VjdXJlLmdsb2JhbHNpZ24uY29tL2NhY2VydC9nc29yZ2FuaXph
+dGlvbnZhbHNoYTJnMnIxLmNydDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AyLmds
+b2JhbHNpZ24uY29tL2dzb3JnYW5pemF0aW9udmFsc2hhMmcyMFYGA1UdIARPME0w
+QQYJKwYBBAGgMgEUMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNp
+Z24uY29tL3JlcG9zaXRvcnkvMAgGBmeBDAECAjAJBgNVHRMEAjAAMEkGA1UdHwRC
+MEAwPqA8oDqGOGh0dHA6Ly9jcmwuZ2xvYmFsc2lnbi5jb20vZ3MvZ3Nvcmdhbml6
+YXRpb252YWxzaGEyZzIuY3JsMCsGA1UdEQQkMCKCECouY29tdW5lLmJhcmkuaXSC
+DmNvbXVuZS5iYXJpLml0MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAd
+BgNVHQ4EFgQUAQcD2FRgfnNgPV1sn63naio5+gwwHwYDVR0jBBgwFoAUlt5h8b0c
+FilTHMDMfTuDAEDmGnwwggH3BgorBgEEAdZ5AgQCBIIB5wSCAeMB4QB1AN3rHSt6
+DU+mIIuBrYFocH4ujp0B1VyIjT0RxM227L7MAAABYWqQhzsAAAQDAEYwRAIgNoGR
+n+uX6EHBLgnjb0vjLcKK+gkwlPVFdVZjoPzYhSQCIDzVIP4zjygG1NI89YqoFfXU
+JOsyOi5PvwaQqaCGTyGgAHcAVhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ
+0N0AAAFhapCHfwAABAMASDBGAiEAtqtpM/3b8YaEbVevnw9EGvb0mQZSlksaryLR
+/HGapLMCIQDVZ1wmA8WSolTVgc6mi63IEb3CUc2764tWKgcb1+HLTQB2AKS5CZC0
+GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABYWqQifkAAAQDAEcwRQIhANe1
+3IvEl51iQBuwKcMpKt+v/8PGSA4e2U0AX6aSHAPbAiAfZPZNeZ2e1VA29yaNxHiJ
+MGbjjjE/sWnc8A6XkUWVywB3AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6
+qP3LAAABYWqQjPUAAAQDAEgwRgIhAPQCPulmlYiDrts1myTC9ljYw/2xGmw73pdC
+UQ13kUDhAiEAojCzvXx+8DMzs2QqcsFDJog3lxIz8H7GtCUfgmzJ0uowDQYJKoZI
+hvcNAQELBQADggEBALZzgeSMp8yxK+CuOJn+M22XDl/3AKFDg03XpuuwcZRjyPqk
+M4IQtCtdztv7/80yQ1PRhYd2rQj/LA+pbfMbwq/MIh6o0fua15mSJIv33+26AGXl
+uk6G0iwW/HhuyJRW0SjNuZs/0M40zpty4USi388Xhu19eWLHlnKDQ2PidHM8bROx
+622DtfuqwqnzUelq0znVDsRWLhVLVQFTN1MKr7ww+AkKeEaW0V/tQ2iM2Q0jL893
+KtI3DYirXrpt5pAOadxJJ9L7Aq9oMhiUvnGOJeyNvqZi/Edma64aGFFN3SN3xhYU
+3HVaXb8niuuV9T2B7LE3Juz9iSxa+b1q7fG1oTw=</ds:X509Certificate>
+                        </ds:X509Data>
+                </ds:KeyInfo>
+        </ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>comune.bari.it</ds:KeyName>
+	<ds:X509Data>
+          <ds:X509SubjectName>CN=*.comune.bari.it,O=Comune di Bari,OU=Ripartizione Innovazione Tecnologica,L=Bari,ST=Bari,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIHaTCCBlGgAwIBAgIMRmPPy5RUm/lK/lOyMA0GCSqGSIb3DQEBCwUAMGYxCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTwwOgYDVQQDEzNH
+bG9iYWxTaWduIE9yZ2FuaXphdGlvbiBWYWxpZGF0aW9uIENBIC0gU0hBMjU2IC0g
+RzIwHhcNMTgwMjA2MTAwMTUwWhcNMjEwMjA2MTAwMTUwWjCBjjELMAkGA1UEBhMC
+SVQxDTALBgNVBAgTBEJhcmkxDTALBgNVBAcTBEJhcmkxLTArBgNVBAsTJFJpcGFy
+dGl6aW9uZSBJbm5vdmF6aW9uZSBUZWNub2xvZ2ljYTEXMBUGA1UEChMOQ29tdW5l
+IGRpIEJhcmkxGTAXBgNVBAMMECouY29tdW5lLmJhcmkuaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDdu2qccz44vd4D/eW0A6/gR+9MVFC2qZg4u/3o
+LpCGm3S73j8OiaLq+ow/BXyz4yetgIMz/Pb930Bsnk/uzeJqTfR0ykqhbVvkXBTD
+IR93At0NOzv5egFW39PrmgssOiToetowblAmc8nDNfZ69oHhcCYW0trXjx+Bwnj4
+ow0MixFAWpEvIto1Zu5jC8bwH0F7ytM4EhWIV97TEylkbwZv58EhFshlU1nwWmrs
+XZ8KXqkb6rjgf1epgqZTNDh0vOH1b8GY+T0ojXIp+ngNMys8OzLCmm0E7klppyUP
+DQe7FxqGMM2oSHJkqH4WKNlAyRdbIoDTw3JJqN8UTwYNtOT9AgMBAAGjggPsMIID
+6DAOBgNVHQ8BAf8EBAMCBaAwgaAGCCsGAQUFBwEBBIGTMIGQME0GCCsGAQUFBzAC
+hkFodHRwOi8vc2VjdXJlLmdsb2JhbHNpZ24uY29tL2NhY2VydC9nc29yZ2FuaXph
+dGlvbnZhbHNoYTJnMnIxLmNydDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AyLmds
+b2JhbHNpZ24uY29tL2dzb3JnYW5pemF0aW9udmFsc2hhMmcyMFYGA1UdIARPME0w
+QQYJKwYBBAGgMgEUMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNp
+Z24uY29tL3JlcG9zaXRvcnkvMAgGBmeBDAECAjAJBgNVHRMEAjAAMEkGA1UdHwRC
+MEAwPqA8oDqGOGh0dHA6Ly9jcmwuZ2xvYmFsc2lnbi5jb20vZ3MvZ3Nvcmdhbml6
+YXRpb252YWxzaGEyZzIuY3JsMCsGA1UdEQQkMCKCECouY29tdW5lLmJhcmkuaXSC
+DmNvbXVuZS5iYXJpLml0MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAd
+BgNVHQ4EFgQUAQcD2FRgfnNgPV1sn63naio5+gwwHwYDVR0jBBgwFoAUlt5h8b0c
+FilTHMDMfTuDAEDmGnwwggH3BgorBgEEAdZ5AgQCBIIB5wSCAeMB4QB1AN3rHSt6
+DU+mIIuBrYFocH4ujp0B1VyIjT0RxM227L7MAAABYWqQhzsAAAQDAEYwRAIgNoGR
+n+uX6EHBLgnjb0vjLcKK+gkwlPVFdVZjoPzYhSQCIDzVIP4zjygG1NI89YqoFfXU
+JOsyOi5PvwaQqaCGTyGgAHcAVhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ
+0N0AAAFhapCHfwAABAMASDBGAiEAtqtpM/3b8YaEbVevnw9EGvb0mQZSlksaryLR
+/HGapLMCIQDVZ1wmA8WSolTVgc6mi63IEb3CUc2764tWKgcb1+HLTQB2AKS5CZC0
+GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABYWqQifkAAAQDAEcwRQIhANe1
+3IvEl51iQBuwKcMpKt+v/8PGSA4e2U0AX6aSHAPbAiAfZPZNeZ2e1VA29yaNxHiJ
+MGbjjjE/sWnc8A6XkUWVywB3AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6
+qP3LAAABYWqQjPUAAAQDAEgwRgIhAPQCPulmlYiDrts1myTC9ljYw/2xGmw73pdC
+UQ13kUDhAiEAojCzvXx+8DMzs2QqcsFDJog3lxIz8H7GtCUfgmzJ0uowDQYJKoZI
+hvcNAQELBQADggEBALZzgeSMp8yxK+CuOJn+M22XDl/3AKFDg03XpuuwcZRjyPqk
+M4IQtCtdztv7/80yQ1PRhYd2rQj/LA+pbfMbwq/MIh6o0fua15mSJIv33+26AGXl
+uk6G0iwW/HhuyJRW0SjNuZs/0M40zpty4USi388Xhu19eWLHlnKDQ2PidHM8bROx
+622DtfuqwqnzUelq0znVDsRWLhVLVQFTN1MKr7ww+AkKeEaW0V/tQ2iM2Q0jL893
+KtI3DYirXrpt5pAOadxJJ9L7Aq9oMhiUvnGOJeyNvqZi/Edma64aGFFN3SN3xhYU
+3HVaXb8niuuV9T2B7LE3Juz9iSxa+b1q7fG1oTw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sit.egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sit.egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sit.egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://boss.egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://boss.egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://boss.egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://fossg.egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fossg.egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossg.egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://fossm.egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fossm.egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossm.egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://fossp.egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fossp.egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossp.egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://fossb.egov.ba.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fossb.egov.ba.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossb.egov.ba.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.comune.bari.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.bari.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bari.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.bariguestcard.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.bariguestcard.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.bariguestcard.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://concorsi.comune.bari.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://concorsi.comune.bari.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://concorsi.comune.bari.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://partecipa.ba.it/sso/SPSloRedirect/metaAlias/sp1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partecipa.ba.it/sso/SPSloPOST/metaAlias/sp1"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://egov.ba.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sit.egov.ba.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://boss.egov.ba.it/Shibboleth.sso/SAML2/POST" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossg.egov.ba.it/Shibboleth.sso/SAML2/POST" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossm.egov.ba.it/Shibboleth.sso/SAML2/POST" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossp.egov.ba.it/Shibboleth.sso/SAML2/POST" index="5"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fossb.egov.ba.it/Shibboleth.sso/SAML2/POST" index="6"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bari.it/Shibboleth.sso/SAML2/POST" index="7"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.bariguestcard.it/Shibboleth.sso/SAML2/POST" index="8"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://concorsi.comune.bari.it/Shibboleth.sso/SAML2/POST" index="9"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://partecipa.ba.it/sso/Consumer/metaAlias/sp1" index="10"/>
+
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio accesso SPID</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizio di accesso Discovery SPID</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+</md:AttributeConsumingService>  </md:SPSSODescriptor>
+
+<md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bari</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bari</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.bari.it</md:OrganizationURL>
+  </md:Organization></md:EntityDescriptor>

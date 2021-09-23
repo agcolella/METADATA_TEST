@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.correzzana.mb.it/" ID="pfxfe8c86ec-fec1-44c7-a7b8-2cc650c4d4d3"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxfe8c86ec-fec1-44c7-a7b8-2cc650c4d4d3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>i0OROZhJvgyFFnNkXMFP055EX3kngGUkbaegDQtaSEw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>kmSZcosb+cbSeAWlzaWy6m/P+63f0suM/PahLLUdcBcv2BZskFE6HjOiyl32oHGdhlLsBZPn7RTwH9Gt93wgxV476DAM16adGfkc1/fu0nhET9hukfmp41WRJUqQ7JCXfcxoATz2wo9pCFVGaQbny8D7aDqND9UgoLvKrcRmd6TLH252LDnSwH6hIN82Qi+1WNj4ZIGPvaa/pr84PvD56TdtOopoVGujPUSU5W/xymy1BqAmaCTKxWppo7LhYlKlvhM+Y8Snb4QYi2D0QmXxa1gJAgdzce/TK9q1iD8qvcwJSAswguhU+cOdpZelo9QSzJ87bbfRKI6TN8NKkPNzOA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENDCCAxygAwIBAgIJAKSdmtNRY8dfMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJJVDEWMBQGA1UECAwNTW9uemEtQnJpYW56YTETMBEGA1UEBwwKQ29ycmV6emFuYTEdMBsGA1UECgwUQ29tdW5lIGRpIENvcnJlenphbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTQwMgYDVQQDDCtzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jb3JyZXp6YW5hLm1iLml0MB4XDTE5MDQxNzE1MDMzN1oXDTI5MDQxNDE1MDMzN1owga4xCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1Nb256YS1CcmlhbnphMRMwEQYDVQQHDApDb3JyZXp6YW5hMR0wGwYDVQQKDBRDb211bmUgZGkgQ29ycmV6emFuYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNDAyBgNVBAMMK3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNvcnJlenphbmEubWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7BWQAcDzd2By0a/B/m6pQZ8t728HXt38t/dS3RtYPrkwKDgsZsSFtRWr2r4awugfvi7hCn5XhF3DXQk+3RlVIbhPp91tXfL2UKBLhnrpoAT65kQMEBsofDtZ1y6xOk3h6EeWpxgX1dggEsD06KAThE16BQ2ncYh1OMObhfuoyIdtMmqfqm37asPsfdmy+qHgUbeN2nMKG/ToT3LG4NjU6n2ZKikC6Q89FwxzeFcb05vMW89v0lN9qknVSOjmyCb3mpbU387qnBpH9ggSXtrjOw+2Hh0sz67DeHVNAfymc88MWACMEMxKyGtsly0SA9ZFw9zyBB2Ca67J9rKvNK9J5AgMBAAGjUzBRMB0GA1UdDgQWBBRKQuqHDK4mFLUS0MNBzEUQbivfLDAfBgNVHSMEGDAWgBRKQuqHDK4mFLUS0MNBzEUQbivfLDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBgnDmAbSTsfcBAkrLVrkGQieqaol98LPAyZwwIUkr52i6uoLxTETPyt7uiUew9EegG9NcEXdEvPMLVbPIm1tliBPsqtozjsonLNlvQwxjI2zfN9RHnM2JZocpmPi+V87msei4IXe9C6Sav3iIki1BnjH+FNULBYnz4USovbqMlz/ftUJBOscR81lmL/TaJidcCSkVxAOwuOX3Q2mgr3sqSyODYGJ7sF5nSRu8BkcZfCMXZfgStVbIkK6ZgOZ6kNVvLYpZ/asJSntL76mXv4+Spj83cJ94FnTuPFliVGxt1S0C6A7AgIFwlSzXb9xizXvpXJoaoYtoHkKPyPKdl1lOD</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENDCCAxygAwIBAgIJAKSdmtNRY8dfMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJJVDEWMBQGA1UECAwNTW9uemEtQnJpYW56YTETMBEGA1UEBwwKQ29ycmV6emFuYTEdMBsGA1UECgwUQ29tdW5lIGRpIENvcnJlenphbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTQwMgYDVQQDDCtzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jb3JyZXp6YW5hLm1iLml0MB4XDTE5MDQxNzE1MDMzN1oXDTI5MDQxNDE1MDMzN1owga4xCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1Nb256YS1CcmlhbnphMRMwEQYDVQQHDApDb3JyZXp6YW5hMR0wGwYDVQQKDBRDb211bmUgZGkgQ29ycmV6emFuYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNDAyBgNVBAMMK3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNvcnJlenphbmEubWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7BWQAcDzd2By0a/B/m6pQZ8t728HXt38t/dS3RtYPrkwKDgsZsSFtRWr2r4awugfvi7hCn5XhF3DXQk+3RlVIbhPp91tXfL2UKBLhnrpoAT65kQMEBsofDtZ1y6xOk3h6EeWpxgX1dggEsD06KAThE16BQ2ncYh1OMObhfuoyIdtMmqfqm37asPsfdmy+qHgUbeN2nMKG/ToT3LG4NjU6n2ZKikC6Q89FwxzeFcb05vMW89v0lN9qknVSOjmyCb3mpbU387qnBpH9ggSXtrjOw+2Hh0sz67DeHVNAfymc88MWACMEMxKyGtsly0SA9ZFw9zyBB2Ca67J9rKvNK9J5AgMBAAGjUzBRMB0GA1UdDgQWBBRKQuqHDK4mFLUS0MNBzEUQbivfLDAfBgNVHSMEGDAWgBRKQuqHDK4mFLUS0MNBzEUQbivfLDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBgnDmAbSTsfcBAkrLVrkGQieqaol98LPAyZwwIUkr52i6uoLxTETPyt7uiUew9EegG9NcEXdEvPMLVbPIm1tliBPsqtozjsonLNlvQwxjI2zfN9RHnM2JZocpmPi+V87msei4IXe9C6Sav3iIki1BnjH+FNULBYnz4USovbqMlz/ftUJBOscR81lmL/TaJidcCSkVxAOwuOX3Q2mgr3sqSyODYGJ7sF5nSRu8BkcZfCMXZfgStVbIkK6ZgOZ6kNVvLYpZ/asJSntL76mXv4+Spj83cJ94FnTuPFliVGxt1S0C6A7AgIFwlSzXb9xizXvpXJoaoYtoHkKPyPKdl1lOD</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENDCCAxygAwIBAgIJAKSdmtNRY8dfMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJJVDEWMBQGA1UECAwNTW9uemEtQnJpYW56YTETMBEGA1UEBwwKQ29ycmV6emFuYTEdMBsGA1UECgwUQ29tdW5lIGRpIENvcnJlenphbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTQwMgYDVQQDDCtzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jb3JyZXp6YW5hLm1iLml0MB4XDTE5MDQxNzE1MDMzN1oXDTI5MDQxNDE1MDMzN1owga4xCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1Nb256YS1CcmlhbnphMRMwEQYDVQQHDApDb3JyZXp6YW5hMR0wGwYDVQQKDBRDb211bmUgZGkgQ29ycmV6emFuYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNDAyBgNVBAMMK3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNvcnJlenphbmEubWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7BWQAcDzd2By0a/B/m6pQZ8t728HXt38t/dS3RtYPrkwKDgsZsSFtRWr2r4awugfvi7hCn5XhF3DXQk+3RlVIbhPp91tXfL2UKBLhnrpoAT65kQMEBsofDtZ1y6xOk3h6EeWpxgX1dggEsD06KAThE16BQ2ncYh1OMObhfuoyIdtMmqfqm37asPsfdmy+qHgUbeN2nMKG/ToT3LG4NjU6n2ZKikC6Q89FwxzeFcb05vMW89v0lN9qknVSOjmyCb3mpbU387qnBpH9ggSXtrjOw+2Hh0sz67DeHVNAfymc88MWACMEMxKyGtsly0SA9ZFw9zyBB2Ca67J9rKvNK9J5AgMBAAGjUzBRMB0GA1UdDgQWBBRKQuqHDK4mFLUS0MNBzEUQbivfLDAfBgNVHSMEGDAWgBRKQuqHDK4mFLUS0MNBzEUQbivfLDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBgnDmAbSTsfcBAkrLVrkGQieqaol98LPAyZwwIUkr52i6uoLxTETPyt7uiUew9EegG9NcEXdEvPMLVbPIm1tliBPsqtozjsonLNlvQwxjI2zfN9RHnM2JZocpmPi+V87msei4IXe9C6Sav3iIki1BnjH+FNULBYnz4USovbqMlz/ftUJBOscR81lmL/TaJidcCSkVxAOwuOX3Q2mgr3sqSyODYGJ7sF5nSRu8BkcZfCMXZfgStVbIkK6ZgOZ6kNVvLYpZ/asJSntL76mXv4+Spj83cJ94FnTuPFliVGxt1S0C6A7AgIFwlSzXb9xizXvpXJoaoYtoHkKPyPKdl1lOD</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.correzzana.mb.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.correzzana.mb.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_d038</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_d038</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Correzzana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Correzzana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.correzzana.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.correzzana.mb.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

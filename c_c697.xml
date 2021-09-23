@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cimitile" entityID="https://www.comune.cimitile.na.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cimitile">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Dse3Y7wIhikk6hhxG3/yezf7Hmu764241hlZhRnuQWA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+n47E8O6kYMs8jjmV61jWnvJy93+xdS2C1rDVmnDYvA9Qp1ZOWqKvFI7cNeI0cR8gsOwOWF1VU8hN
+LJSfj8dr/sHmzHEXV0MwMHvPzfSlV6L7huZ9sa58PO8Aki+0rxLGwjBGAYLg8fLzmllI+SdCMVHJ
+4iuN4cLib4jChf57iGbnRzKkLTecxF94Z4Rz3d69SoxEbjnTCgpV6+XRjluLfRsdugJZsnOfza2t
+V6NfWPpvso57ZlssBxkS/AwtoY7RkU+8J7NsGfYK/ZFxiqfmGM6xr/mbTDqVJNM/GK4jRZoqVBsJ
+l/94jKSOiRWgPnD48YwupF0SNEwxFB6SoSlxKw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vBj4jJ5MszTsG2CqPAHrGffu1zX/Ol0u05JVgrV/geJo/gVNcIasjx0wBv1OLfk37eI/F2TPBjwK
+KZzm1gc0J6xDMNuC3OKNLwL3GOYjhDjlKHi4RwBe84lE2RRTtGUOpNPHdy396nW90Wj8qoSIICQX
+wFPyQU6LzlE+rFgy9ciGQ5V7Vri6qNQSwmQV/4n6Zb6Ral8ZRHHAKL5/HSa5hGfrLDXjSWFNJijF
+zeVJTfakcPr5h/GQpHlMbGeVLqUK1pjYAk6sdhOrB2Qc0zQeE7OqshJ/Xhm7k4nULXdUi0Furk5M
+wuU81ZpNRumKn9JAYglg5N6Yx9xY0DWZbpWPww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJALzrb8QzrBS9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuY2ltaXRpbGUubmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDMx
+NzEwNTUxMloXDTMwMDMxNTEwNTUxMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5jaW1pdGlsZS5u
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQC8GPiMnkyzNOwbYKo8AesZ9+7XNf86XS7TklWCtX+B4mj+BU1whqyPHTAG/U4t+Tft
+4j8XZM8GPAopnObWBzQnrEMw24Lc4o0vAvcY5iOEOOUoeLhHAF7ziUTZFFO0ZQ6k08d3Lf3qdb3R
+aPyqhIggJBfAU/JBTovOUT6sWDL1yIZDlXtWuLqo1BLCZBX/ifplvpFqXxlEccAovn8dJrmEZ+ss
+NeNJYU0mKMXN5UlN9qRw+vmH8ZCkeUxsZ5UupQrWmNgCTqx2E6sHZBzTNB4Ts6qyEn9eGbuTidQt
+d1SLQW6uTkzC5TzVmk1G6Yqf0kBiCWDk3pjH3FjQNZlulY/DAgMBAAGjUDBOMB0GA1UdDgQWBBTc
+S8VZNLjZ6/GQqdPj8rRR2SDw8DAfBgNVHSMEGDAWgBTcS8VZNLjZ6/GQqdPj8rRR2SDw8DAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAI9/WNE44npeEBPN7prX5rDjKB8H1pczzjqqT8
+EfD2Okaaq63OW+U4huSoch7+SeN7Rgn3apfTqLkWeoup9A9KjRF9nkDkF/OwzxrCDcPLV6fIqiBJ
+GTLwybRnEB5cy2ZfAJHK+kUxrt6ShUN44w8S7Tc1jhtZAefNVVxM5jDSpAJfjB1CQhRFhfpDR8VK
+w+eEy8VYmiy5Vc1TJgWgpZ+xxb8eGAP0knmTK6l1hacAwK/9HrvFWhMiGOS2MCd/H2Fbq6UU4dWa
+FnuPUBZKzLJtLQ5PgthD1hAc7rgUMoYU983QCfIuFg/iWIbnrIfE9S6PHuY8cG+p//Lojhz6KFs5
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJALzrb8QzrBS9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuY2ltaXRpbGUubmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDMxNzEwNTUxMloXDTMwMDMxNTEwNTUxMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5jaW1pdGlsZS5uYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8GPiMnkyzNOwbYKo8AesZ9+7XNf86XS7TklWCtX+B4mj+BU1whqyPHTAG/U4t+Tft4j8XZM8GPAopnObWBzQnrEMw24Lc4o0vAvcY5iOEOOUoeLhHAF7ziUTZFFO0ZQ6k08d3Lf3qdb3RaPyqhIggJBfAU/JBTovOUT6sWDL1yIZDlXtWuLqo1BLCZBX/ifplvpFqXxlEccAovn8dJrmEZ+ssNeNJYU0mKMXN5UlN9qRw+vmH8ZCkeUxsZ5UupQrWmNgCTqx2E6sHZBzTNB4Ts6qyEn9eGbuTidQtd1SLQW6uTkzC5TzVmk1G6Yqf0kBiCWDk3pjH3FjQNZlulY/DAgMBAAGjUDBOMB0GA1UdDgQWBBTcS8VZNLjZ6/GQqdPj8rRR2SDw8DAfBgNVHSMEGDAWgBTcS8VZNLjZ6/GQqdPj8rRR2SDw8DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAI9/WNE44npeEBPN7prX5rDjKB8H1pczzjqqT8EfD2Okaaq63OW+U4huSoch7+SeN7Rgn3apfTqLkWeoup9A9KjRF9nkDkF/OwzxrCDcPLV6fIqiBJGTLwybRnEB5cy2ZfAJHK+kUxrt6ShUN44w8S7Tc1jhtZAefNVVxM5jDSpAJfjB1CQhRFhfpDR8VKw+eEy8VYmiy5Vc1TJgWgpZ+xxb8eGAP0knmTK6l1hacAwK/9HrvFWhMiGOS2MCd/H2Fbq6UU4dWaFnuPUBZKzLJtLQ5PgthD1hAc7rgUMoYU983QCfIuFg/iWIbnrIfE9S6PHuY8cG+p//Lojhz6KFs5
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJALzrb8QzrBS9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuY2ltaXRpbGUubmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDMxNzEwNTUxMloXDTMwMDMxNTEwNTUxMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5jaW1pdGlsZS5uYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8GPiMnkyzNOwbYKo8AesZ9+7XNf86XS7TklWCtX+B4mj+BU1whqyPHTAG/U4t+Tft4j8XZM8GPAopnObWBzQnrEMw24Lc4o0vAvcY5iOEOOUoeLhHAF7ziUTZFFO0ZQ6k08d3Lf3qdb3RaPyqhIggJBfAU/JBTovOUT6sWDL1yIZDlXtWuLqo1BLCZBX/ifplvpFqXxlEccAovn8dJrmEZ+ssNeNJYU0mKMXN5UlN9qRw+vmH8ZCkeUxsZ5UupQrWmNgCTqx2E6sHZBzTNB4Ts6qyEn9eGbuTidQtd1SLQW6uTkzC5TzVmk1G6Yqf0kBiCWDk3pjH3FjQNZlulY/DAgMBAAGjUDBOMB0GA1UdDgQWBBTcS8VZNLjZ6/GQqdPj8rRR2SDw8DAfBgNVHSMEGDAWgBTcS8VZNLjZ6/GQqdPj8rRR2SDw8DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAI9/WNE44npeEBPN7prX5rDjKB8H1pczzjqqT8EfD2Okaaq63OW+U4huSoch7+SeN7Rgn3apfTqLkWeoup9A9KjRF9nkDkF/OwzxrCDcPLV6fIqiBJGTLwybRnEB5cy2ZfAJHK+kUxrt6ShUN44w8S7Tc1jhtZAefNVVxM5jDSpAJfjB1CQhRFhfpDR8VKw+eEy8VYmiy5Vc1TJgWgpZ+xxb8eGAP0knmTK6l1hacAwK/9HrvFWhMiGOS2MCd/H2Fbq6UU4dWaFnuPUBZKzLJtLQ5PgthD1hAc7rgUMoYU983QCfIuFg/iWIbnrIfE9S6PHuY8cG+p//Lojhz6KFs5
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cimitile"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cimitile" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cimitile" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cimitile" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cimitile</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cimitile</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cimitile</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cimitile</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cimitile</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cimitile</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cimitile</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cimitile</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cimitile.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cimitile.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cimitile.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cimitile.na.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

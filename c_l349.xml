@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sue.comune.trebaseleghe.pd.it/" ID="pfx0550e6e2-a5ee-ae55-0caf-e598b7560403"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx0550e6e2-a5ee-ae55-0caf-e598b7560403"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>lciNIQRljbABDRi0YLwhS7Z6iNxEqdEajWVMlhUVTIc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ArIbehhzXVBiW3PRnLmp1fsqyILKcHI7wWkiF3TKYAmCgBGpamuFEqmy9zlDYNlL+vVIZSYM6l4w3SjxpYrZ5dW5uMOPEFtSxisPMhOlEwXxr+qgADtsXMLeBhGkzXJe5LU23ZCY5O/AwsaSPPr6+LNyAvFR6tiPOrvoJVTy6r1EO7JikRhpdw6OK0EJlQNZzNyFeMttLzTqk3pnzK6qIJge7cxst9CB0V8nOnK+T0ehSdw8YbPFg+KZwOsjXa0AqnPwwdv5fCHN5msvRXs8UIYyeDigz40jh7Yg7OWHQk1N8ByV2O6C5+T1aCFtoHqgAcPwkjS5lrtpcpV5DNELlA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEEjCCAvqgAwIBAgIJAPQbTzmdm5V1MA0GCSqGSIb3DQEBCwUAMIGdMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMRUwEwYDVQQHDAxUcmViYXNlbGVnaGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBUcmViYXNlbGVnaGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSYwJAYDVQQDDB1zdWUuY29tdW5lLnRyZWJhc2VsZWdoZS5wZC5pdDAeFw0xOTAzMjExNDAzMThaFw0yOTAzMTgxNDAzMThaMIGdMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMRUwEwYDVQQHDAxUcmViYXNlbGVnaGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBUcmViYXNlbGVnaGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSYwJAYDVQQDDB1zdWUuY29tdW5lLnRyZWJhc2VsZWdoZS5wZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALThLom4JWUubXylTSce6V9Jgpgdsghy1ixwtKrknoQNidkMYDkLMucfyjvlb+FUEosV9yQQi0daKzqC/jAkZUhNCcumRC2mqAho+0RtMhzAMnZsT72sn73iJf7kbMhHiiXkd8FONMfE+rX43tkjde8p1mJgG6hdLmp+McvGuzXB9pKHfsf3/GZ2jgHrgWfAsaNA+KcF01atVdSi2W61MmmP3quxpqxbPuFDym9x9UImPf+HtsTD0Ec050MesuLmCaq2vZ8rWvGVgvdfJ0GZGzPFV1StB1Ed7Wi0nERT7TKBZq/siVb6xMwmQgf5JGFObrXmOUPqTaYKRAYblXEbUTUCAwEAAaNTMFEwHQYDVR0OBBYEFIi9gRXc9IlIkxYBGnxN1p0BLU/GMB8GA1UdIwQYMBaAFIi9gRXc9IlIkxYBGnxN1p0BLU/GMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF84YbrwkF2cJinMolfBYFBmHnFlBr6bwInlUiTTmmuChkPd2yofnWpUbfG3TEQ5NNmeKSnaddPtDpycx82pEPuP00jMk0Vm2kQkNnmfwTil+I5fl40EU+RFs27LvwG8CiUkhETLebaJ28/2Hx/Xd5wlMMSG8zDquSMtv3CMePMDYLZb4kjTlC4lvuc5Kc67sWAN1MaFgmLvhS+amWLGpG1wDDfdqfx3pj5ZhThB1WUunCLCzXy5R+MSzh0l8UozkS294acdzYdfABnIzIRnc7gvvjQ2+tDsyy1HBmMIHvD2MQvr/xW/o8YpOQf1qQR8Z+1GoFHR2Ta/gva/CtoC3CE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEjCCAvqgAwIBAgIJAPQbTzmdm5V1MA0GCSqGSIb3DQEBCwUAMIGdMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMRUwEwYDVQQHDAxUcmViYXNlbGVnaGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBUcmViYXNlbGVnaGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSYwJAYDVQQDDB1zdWUuY29tdW5lLnRyZWJhc2VsZWdoZS5wZC5pdDAeFw0xOTAzMjExNDAzMThaFw0yOTAzMTgxNDAzMThaMIGdMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMRUwEwYDVQQHDAxUcmViYXNlbGVnaGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBUcmViYXNlbGVnaGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSYwJAYDVQQDDB1zdWUuY29tdW5lLnRyZWJhc2VsZWdoZS5wZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALThLom4JWUubXylTSce6V9Jgpgdsghy1ixwtKrknoQNidkMYDkLMucfyjvlb+FUEosV9yQQi0daKzqC/jAkZUhNCcumRC2mqAho+0RtMhzAMnZsT72sn73iJf7kbMhHiiXkd8FONMfE+rX43tkjde8p1mJgG6hdLmp+McvGuzXB9pKHfsf3/GZ2jgHrgWfAsaNA+KcF01atVdSi2W61MmmP3quxpqxbPuFDym9x9UImPf+HtsTD0Ec050MesuLmCaq2vZ8rWvGVgvdfJ0GZGzPFV1StB1Ed7Wi0nERT7TKBZq/siVb6xMwmQgf5JGFObrXmOUPqTaYKRAYblXEbUTUCAwEAAaNTMFEwHQYDVR0OBBYEFIi9gRXc9IlIkxYBGnxN1p0BLU/GMB8GA1UdIwQYMBaAFIi9gRXc9IlIkxYBGnxN1p0BLU/GMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF84YbrwkF2cJinMolfBYFBmHnFlBr6bwInlUiTTmmuChkPd2yofnWpUbfG3TEQ5NNmeKSnaddPtDpycx82pEPuP00jMk0Vm2kQkNnmfwTil+I5fl40EU+RFs27LvwG8CiUkhETLebaJ28/2Hx/Xd5wlMMSG8zDquSMtv3CMePMDYLZb4kjTlC4lvuc5Kc67sWAN1MaFgmLvhS+amWLGpG1wDDfdqfx3pj5ZhThB1WUunCLCzXy5R+MSzh0l8UozkS294acdzYdfABnIzIRnc7gvvjQ2+tDsyy1HBmMIHvD2MQvr/xW/o8YpOQf1qQR8Z+1GoFHR2Ta/gva/CtoC3CE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEjCCAvqgAwIBAgIJAPQbTzmdm5V1MA0GCSqGSIb3DQEBCwUAMIGdMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMRUwEwYDVQQHDAxUcmViYXNlbGVnaGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBUcmViYXNlbGVnaGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSYwJAYDVQQDDB1zdWUuY29tdW5lLnRyZWJhc2VsZWdoZS5wZC5pdDAeFw0xOTAzMjExNDAzMThaFw0yOTAzMTgxNDAzMThaMIGdMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMRUwEwYDVQQHDAxUcmViYXNlbGVnaGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBUcmViYXNlbGVnaGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSYwJAYDVQQDDB1zdWUuY29tdW5lLnRyZWJhc2VsZWdoZS5wZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALThLom4JWUubXylTSce6V9Jgpgdsghy1ixwtKrknoQNidkMYDkLMucfyjvlb+FUEosV9yQQi0daKzqC/jAkZUhNCcumRC2mqAho+0RtMhzAMnZsT72sn73iJf7kbMhHiiXkd8FONMfE+rX43tkjde8p1mJgG6hdLmp+McvGuzXB9pKHfsf3/GZ2jgHrgWfAsaNA+KcF01atVdSi2W61MmmP3quxpqxbPuFDym9x9UImPf+HtsTD0Ec050MesuLmCaq2vZ8rWvGVgvdfJ0GZGzPFV1StB1Ed7Wi0nERT7TKBZq/siVb6xMwmQgf5JGFObrXmOUPqTaYKRAYblXEbUTUCAwEAAaNTMFEwHQYDVR0OBBYEFIi9gRXc9IlIkxYBGnxN1p0BLU/GMB8GA1UdIwQYMBaAFIi9gRXc9IlIkxYBGnxN1p0BLU/GMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF84YbrwkF2cJinMolfBYFBmHnFlBr6bwInlUiTTmmuChkPd2yofnWpUbfG3TEQ5NNmeKSnaddPtDpycx82pEPuP00jMk0Vm2kQkNnmfwTil+I5fl40EU+RFs27LvwG8CiUkhETLebaJ28/2Hx/Xd5wlMMSG8zDquSMtv3CMePMDYLZb4kjTlC4lvuc5Kc67sWAN1MaFgmLvhS+amWLGpG1wDDfdqfx3pj5ZhThB1WUunCLCzXy5R+MSzh0l8UozkS294acdzYdfABnIzIRnc7gvvjQ2+tDsyy1HBmMIHvD2MQvr/xW/o8YpOQf1qQR8Z+1GoFHR2Ta/gva/CtoC3CE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sue.comune.trebaseleghe.pd.it/simplesaml/module.php/saml/sp/saml2-logout.php/trebaseleghe"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sue.comune.trebaseleghe.pd.it/simplesaml/module.php/saml/sp/saml2-acs.php/trebaseleghe" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">trebaseleghe</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l349</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Trebaseleghe</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sue.comune.trebaseleghe.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

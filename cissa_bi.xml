@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="ConsorzioIRIS" entityID="https://www.consorzioiris.net/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#ConsorzioIRIS">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>X5pORwmANHv9Pfl6GYi3sPXWstuQrbMSXb6N60/BPOY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SHLCpX8NQy4lkT8BYwrYyHExbfwq/imM5ugPruAwNomOhORNW2zlG0YAOIFZZkqP3cdctPa49VnW
+hmKrITTZND6pUKW+TJJnB7vEojyo0vO41QUXcKqLtSHO03yd5+xjbMBVeUYSHQNScNTdEBCIkw6q
+6Pr8zB0Jq4SZkckbis7Ctmr5ZOaUp0/m4Ljt0SsVQXi9NvngicPoX7MsUJKDP5vew0H/lVVC5zDF
+/DWqbGleaxmaWsyZuCbW1pnMxDhI9rhdu5eTloQ/Hrs89+YR+s7nq+35qUcJx8AsRfSS4iUO12TI
+mUUc3/s+RpHDD7wWaT1QTF6HQdKLooBzzSQQfA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vaQlykOm07mmR4EqwuQwFtGqmQkElsqMwhSzZoXO4QULCIjrA/I1C2+BvMYuMN/qgoGv8BzVy/Fb
+eAPFxYUI3YsEuWVaqt8OyJKvOw9jL+lQR8mhg+7uBUHxammE4g+wJNPw3VD1PIDRN5PC+/jalBt6
+VoSR+cadIOb0vwSTqCAe1XiKeEqYMPoa6uSwaFKsjkswJTgzujULQ8WxfoacN1llzf1lvGz7YYzL
+iS23SHIc0TxmOpk6lh2ouM6z2kGvmNZ1e3RFDGkIPR2SwNuvYnUlUbbADmPFafRQrTxzc3q4NHiq
+VbhPytfeYPhpTMgwU/vSKW57Lf+RlVUBHP78lQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJAJWeXDycZNP4MA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b25zb3J6aW9pcmlzLm5ldDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcwOTA0MTI1
+NDUxWhcNMjEwOTAzMTI1NDUxWjA8MR4wHAYDVQQDDBV3d3cuY29uc29yemlvaXJpcy5uZXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+vaQlykOm07mmR4EqwuQwFtGqmQkElsqMwhSzZoXO4QULCIjrA/I1C2+BvMYuMN/qgoGv8BzVy/Fb
+eAPFxYUI3YsEuWVaqt8OyJKvOw9jL+lQR8mhg+7uBUHxammE4g+wJNPw3VD1PIDRN5PC+/jalBt6
+VoSR+cadIOb0vwSTqCAe1XiKeEqYMPoa6uSwaFKsjkswJTgzujULQ8WxfoacN1llzf1lvGz7YYzL
+iS23SHIc0TxmOpk6lh2ouM6z2kGvmNZ1e3RFDGkIPR2SwNuvYnUlUbbADmPFafRQrTxzc3q4NHiq
+VbhPytfeYPhpTMgwU/vSKW57Lf+RlVUBHP78lQIDAQABo1AwTjAdBgNVHQ4EFgQUpGzDqOI+RobD
+LW+tYfIDHPXbQhEwHwYDVR0jBBgwFoAUpGzDqOI+RobDLW+tYfIDHPXbQhEwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAGexppcfKssY6QOwCNW3EsbufTMtbkYzCmpDDNGW15AFyzMJY
+zRNrMhQf1CsBdRuYEvRE/vVTujk2lgvfWSnGKPGbF+ABqtQRvDK9NUl4jBkbQimPEuOglBmtmkGW
+IOB02uxxmjqYEDCw36+43+R9AifWcP0S9FSfDj2p11J0NAs6TuI5OssYRY47eFzht8FKiQjTQ+ze
+g588pJMoD0rtAkbH9Y4cB0WbaRFI0gbrO63R+PKs15OpwBfyMvCjBi9bphbZquYSLKlfvwIJK0DS
+nhL7hemoQqBRSbCt0XxSvNeWDmU03PLtnHdaeeNhc5pdGrDtPx4Jl0H/vINR6q2WvQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAJWeXDycZNP4MA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb25zb3J6aW9pcmlzLm5ldDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcwOTA0MTI1NDUxWhcNMjEwOTAzMTI1NDUxWjA8MR4wHAYDVQQDDBV3d3cuY29uc29yemlvaXJpcy5uZXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvaQlykOm07mmR4EqwuQwFtGqmQkElsqMwhSzZoXO4QULCIjrA/I1C2+BvMYuMN/qgoGv8BzVy/FbeAPFxYUI3YsEuWVaqt8OyJKvOw9jL+lQR8mhg+7uBUHxammE4g+wJNPw3VD1PIDRN5PC+/jalBt6VoSR+cadIOb0vwSTqCAe1XiKeEqYMPoa6uSwaFKsjkswJTgzujULQ8WxfoacN1llzf1lvGz7YYzLiS23SHIc0TxmOpk6lh2ouM6z2kGvmNZ1e3RFDGkIPR2SwNuvYnUlUbbADmPFafRQrTxzc3q4NHiqVbhPytfeYPhpTMgwU/vSKW57Lf+RlVUBHP78lQIDAQABo1AwTjAdBgNVHQ4EFgQUpGzDqOI+RobDLW+tYfIDHPXbQhEwHwYDVR0jBBgwFoAUpGzDqOI+RobDLW+tYfIDHPXbQhEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAGexppcfKssY6QOwCNW3EsbufTMtbkYzCmpDDNGW15AFyzMJYzRNrMhQf1CsBdRuYEvRE/vVTujk2lgvfWSnGKPGbF+ABqtQRvDK9NUl4jBkbQimPEuOglBmtmkGWIOB02uxxmjqYEDCw36+43+R9AifWcP0S9FSfDj2p11J0NAs6TuI5OssYRY47eFzht8FKiQjTQ+zeg588pJMoD0rtAkbH9Y4cB0WbaRFI0gbrO63R+PKs15OpwBfyMvCjBi9bphbZquYSLKlfvwIJK0DSnhL7hemoQqBRSbCt0XxSvNeWDmU03PLtnHdaeeNhc5pdGrDtPx4Jl0H/vINR6q2WvQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/consorzioiris"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/consorzioiris" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/consorzioiris" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Consorzio IRIS</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Consorzio IRIS</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Consorzio IRIS</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Consorzio IRIS</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Consorzio IRIS</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Consorzio IRIS</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Consorzio IRIS</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Consorzio IRIS</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.consorzioiris.net</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.consorzioiris.net</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.consorzioiris.net</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.consorzioiris.net</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

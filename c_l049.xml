@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="a2a3a833-6016-4442-b314-a702d5d476c9" entityID="https://servizi.areavastatarantina.it/"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a2a3a833-6016-4442-b314-a702d5d476c9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TfVQIaMDoqQQhozs6cU+/7rkNjXx3EhPHoU1C9xrLdk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+j3bwCkbuIIZsF3Io/w3eCvxle+bskjBQlrO7Wau7mHEQISanwvaEm/Bq8VyQAZU+qFznKJYPOmNm
+jYdujXTOQy+AzIULG5UL9XCtLCsj/J8aPWeyCAjA23nuM6C0t/baW+aogsXgdnIlx9fPl+H3OHBx
+xj1snpsOsWG6BfPsC4hs6nhlXs78sYIf6g1C9l6z8JbmXA7no3qEyUkKeO+RI4xA7Nf37BC7SOPI
+a5wHcALWuNTbhja8neWP0l47kk6WjE/gf5AYBK48tST6V+YQZIKVrcs/CEx44dy1JeJMxW5m8J4e
+e/yy8l9uR5Q0AeYxBR8LUxt+3NkHALQ8cnozmw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+43PC3hKU692bR8NlZpfEuvfbwvDE/ByFucOA8zLB3dCOy0n3v7K4Q0StPWXZELwWdZVmu7xGQJ+F
+Ndq4F+P2FI+0CmzT+8gzKJuRPhYGqjkUQANMozYquN1zp5MX8J1MbuMWXZY7Mr4H+nl4IhHBE4Xe
+3rqGbQYuXKOVZ3TVa741Wqi01tB1r+3eZUsvUdrc4xts43wrHlFlFXQkBuuAKiFR8OH/TXXnDDNo
+wCiqAwdnfp1kR3qZHJGvilzYyKtdAyCSB1uGWR6JBMMNfv7N0wkPT9N+vvQSds/dHuM9hI82BgZF
+Mw026sOiPw2UEz0Ne3HC86b8CGs8yaBrbfX5jQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDojCCAooCCQCS5Y9xNLnKxjANBgkqhkiG9w0BAQUFADCBkjELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgMBUl0YWx5MRAwDgYDVQQHDAdUYXJhbnRvMRowGAYDVQQKDBFDb211bmUgZGkgVGFyYW50bzEd
+MBsGA1UECwwUQXJlYSBWYXN0YSBUYXJhbnRpbmExJjAkBgNVBAMMHXNlcnZpemkuYXJlYXZhc3Rh
+dGFyYW50aW5hLml0MB4XDTE4MDEwOTA4NDcyOVoXDTI4MDEwNzA4NDcyOVowgZIxCzAJBgNVBAYT
+AklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHVGFyYW50bzEaMBgGA1UECgwRQ29tdW5lIGRp
+IFRhcmFudG8xHTAbBgNVBAsMFEFyZWEgVmFzdGEgVGFyYW50aW5hMSYwJAYDVQQDDB1zZXJ2aXpp
+LmFyZWF2YXN0YXRhcmFudGluYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAONz
+wt4SlOvdm0fDZWaXxLr328LwxPwchbnDgPMywd3QjstJ97+yuENErT1l2RC8FnWVZru8RkCfhTXa
+uBfj9hSPtAps0/vIMyibkT4WBqo5FEADTKM2Krjdc6eTF/CdTG7jFl2WOzK+B/p5eCIRwROF3t66
+hm0GLlyjlWd01Wu+NVqotNbQda/t3mVLL1Ha3OMbbON8Kx5RZRV0JAbrgCohUfDh/0115wwzaMAo
+qgMHZ36dZEd6mRyRr4pc2MirXQMgkgdbhlkeiQTDDX7+zdMJD0/Tfr70EnbP3R7jPYSPNgYGRTMN
+NurDoj8NlBM9DXtxwvOm/AhrPMmga231+Y0CAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAEDtvljAG
+xc0PUjJOtsnsnT3hY/j5dEI4O4EvMakylPfDb2Grp7g4MXr9oBF7mYpm1euPuh36NY5RWTpABkjT
+gqX/YWQxFwzd+6/ROVuviP2+BbJNWf7H7D1SEKERxzqiZQmKWDXlNgOUDD5kqDuszefMjhWnErig
+/P+TgnI/LWDBtmRPTbjE/EQcY8Haza2D1wyZadl1uEO2VglLs/HzBTWvA+iKJem/nMwSOuO+gcbY
+aHpl3lnDcRzVCjotgwo03H5t8bk1Xohd6DVyMAe6J7W7BSW6f1n6JI4hRtLPOvZzHbIQpak/AIE5
+oiId1LEMpJhQz7VZXmz/ovJUw9BRKw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+	<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>servizi.areavastatarantina.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=servizi.areavastatarantina.it,OU=Area Vasta Tarantina,O=Comune di Taranto,L=Taranto,ST=Italy,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDojCCAooCCQCS5Y9xNLnKxjANBgkqhkiG9w0BAQUFADCBkjELMAkGA1UEBhMC
+SVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdUYXJhbnRvMRowGAYDVQQKDBFD
+b211bmUgZGkgVGFyYW50bzEdMBsGA1UECwwUQXJlYSBWYXN0YSBUYXJhbnRpbmEx
+JjAkBgNVBAMMHXNlcnZpemkuYXJlYXZhc3RhdGFyYW50aW5hLml0MB4XDTE4MDEw
+OTA4NDcyOVoXDTI4MDEwNzA4NDcyOVowgZIxCzAJBgNVBAYTAklUMQ4wDAYDVQQI
+DAVJdGFseTEQMA4GA1UEBwwHVGFyYW50bzEaMBgGA1UECgwRQ29tdW5lIGRpIFRh
+cmFudG8xHTAbBgNVBAsMFEFyZWEgVmFzdGEgVGFyYW50aW5hMSYwJAYDVQQDDB1z
+ZXJ2aXppLmFyZWF2YXN0YXRhcmFudGluYS5pdDCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAONzwt4SlOvdm0fDZWaXxLr328LwxPwchbnDgPMywd3QjstJ
+97+yuENErT1l2RC8FnWVZru8RkCfhTXauBfj9hSPtAps0/vIMyibkT4WBqo5FEAD
+TKM2Krjdc6eTF/CdTG7jFl2WOzK+B/p5eCIRwROF3t66hm0GLlyjlWd01Wu+NVqo
+tNbQda/t3mVLL1Ha3OMbbON8Kx5RZRV0JAbrgCohUfDh/0115wwzaMAoqgMHZ36d
+ZEd6mRyRr4pc2MirXQMgkgdbhlkeiQTDDX7+zdMJD0/Tfr70EnbP3R7jPYSPNgYG
+RTMNNurDoj8NlBM9DXtxwvOm/AhrPMmga231+Y0CAwEAATANBgkqhkiG9w0BAQUF
+AAOCAQEAEDtvljAGxc0PUjJOtsnsnT3hY/j5dEI4O4EvMakylPfDb2Grp7g4MXr9
+oBF7mYpm1euPuh36NY5RWTpABkjTgqX/YWQxFwzd+6/ROVuviP2+BbJNWf7H7D1S
+EKERxzqiZQmKWDXlNgOUDD5kqDuszefMjhWnErig/P+TgnI/LWDBtmRPTbjE/EQc
+Y8Haza2D1wyZadl1uEO2VglLs/HzBTWvA+iKJem/nMwSOuO+gcbYaHpl3lnDcRzV
+Cjotgwo03H5t8bk1Xohd6DVyMAe6J7W7BSW6f1n6JI4hRtLPOvZzHbIQpak/AIE5
+oiId1LEMpJhQz7VZXmz/ovJUw9BRKw==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.areavastatarantina.it/Shibboleth.sso/SLO/POST"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.areavastatarantina.it/Shibboleth.sso/Login" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.areavastatarantina.it/Shibboleth.sso/SAML2/POST" index="1"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">serviziPortale</md:ServiceName>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Taranto</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Taranto</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://servizi.areavastatarantina.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

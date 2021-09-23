@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Lonigo" entityID="https://www.comune.lonigo.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Lonigo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>P0I07BCKaNELemQY6C6fYOHglvVbSZYDm0D0jMNLulI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+yfIyhcWTU8Ka+rXtgLskmHHM0RrHJapQik/WSulrIq+/ClJxsmlmkr81bx3G9VjDpgnVaVn/e2gi
+xqJOAPWKvU0c60CxaYeVTQhMSTCFfmgC3afWC9WD5zUh1SgiHH8IIAgEYbprw5Pk6Bs/qg7RgKUM
+aDqWrMWk4UzM1ixrPmTvJXGqP9J1kK5UkiY3Yt+X4XTn/VCcaPFBOa2zGSNkjHoEFdVBDLizRQJl
+8BAwvn9JB0xAEVCvu1aGoeLSbdxzh+Qir4ryr5Zz5P1jqCq+z7fuJgP1Zp9yjBeSJW6bT9K29xyX
+2jYsBsMSz0L9R0vcW5XiChIiRbjytA2PUAkVjQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0ytGsPJ17X719948fhJvjeLPLkNpISV/Dvrc+tIgd68msxcUpqmrs8MTqj1Hx+CT0fddkcjlsFE/
+d71WbElUgPY/dBDPygqrhZ9pPKsQSGUO7L0zQmejLrZnACHT7AWetdaYM8ugzGk8kKi9RK3qm8/v
+mCdUuS+K4HtwMWsMc3le1O+2Bv51fV5Aa1jzxLyNJkohPieqUbhqWMaIJTwse+uATdBxr5Y2W7FB
+ARXK+p8Lq3gLFQ2nwjY3e3SccSZnyLqcc3WalX/kpXQqS6gNrEBBE0deE0W5wkyVFkyNxzE9Tq3J
+9n9mRiJo0Ep4Ye+cu2S+z7ga5ouRuqXcNmt49w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAKa6zUQ6Rn+LMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUubG9uaWdvLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEyMDQx
+MjU2NTdaFw0yODEyMDExMjU2NTdaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubG9uaWdvLnZpLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANMrRrDyde1+9ffePH4Sb43izy5DaSElfw763PrSIHevJrMXFKapq7PDE6o9R8fgk9H3XZHI
+5bBRP3e9VmxJVID2P3QQz8oKq4WfaTyrEEhlDuy9M0Jnoy62ZwAh0+wFnrXWmDPLoMxpPJCovUSt
+6pvP75gnVLkviuB7cDFrDHN5XtTvtgb+dX1eQGtY88S8jSZKIT4nqlG4aljGiCU8LHvrgE3Qca+W
+NluxQQEVyvqfC6t4CxUNp8I2N3t0nHEmZ8i6nHN1mpV/5KV0KkuoDaxAQRNHXhNFucJMlRZMjccx
+PU6tyfZ/ZkYiaNBKeGHvnLtkvs+4GuaLkbql3DZrePcCAwEAAaNQME4wHQYDVR0OBBYEFF9Siswt
+L4RNfdhH/uxpjlBknNrqMB8GA1UdIwQYMBaAFF9SiswtL4RNfdhH/uxpjlBknNrqMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFCtxNdeh4o2KVj6t/tLUun/JNvek1iLfASUsJKZzXWf
+uPwbnrAt3338QjGxv9tGNMuhS9sJBYMntCFOGXcB4zRaRwnLQxn8xNoa7uGpDr50TWsOw28lQeNy
+AGuaYomLp2IF5HDqJhm7GAn4iGPQ6JvCM3SYJ5fccRspi80R7f4xq110UXftYkIpCAzhCpUBw3ce
+r6nB3VhzNJiN3eDsfd29yTqiHopAK6jkgyKHekYaQ7/p56tZUX0Ii25kWM8mUc8bLGkwzeS6AUs0
+WJJW+9xh8Nv8eqFTG+KSnZnq8rdmKMS5k5WlOxnmNpzBng2SviCw3p3c3VUGB18wz+yPs/E=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAKa6zUQ6Rn+LMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubG9uaWdvLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEyMDQxMjU2NTdaFw0yODEyMDExMjU2NTdaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubG9uaWdvLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMrRrDyde1+9ffePH4Sb43izy5DaSElfw763PrSIHevJrMXFKapq7PDE6o9R8fgk9H3XZHI5bBRP3e9VmxJVID2P3QQz8oKq4WfaTyrEEhlDuy9M0Jnoy62ZwAh0+wFnrXWmDPLoMxpPJCovUSt6pvP75gnVLkviuB7cDFrDHN5XtTvtgb+dX1eQGtY88S8jSZKIT4nqlG4aljGiCU8LHvrgE3Qca+WNluxQQEVyvqfC6t4CxUNp8I2N3t0nHEmZ8i6nHN1mpV/5KV0KkuoDaxAQRNHXhNFucJMlRZMjccxPU6tyfZ/ZkYiaNBKeGHvnLtkvs+4GuaLkbql3DZrePcCAwEAAaNQME4wHQYDVR0OBBYEFF9SiswtL4RNfdhH/uxpjlBknNrqMB8GA1UdIwQYMBaAFF9SiswtL4RNfdhH/uxpjlBknNrqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFCtxNdeh4o2KVj6t/tLUun/JNvek1iLfASUsJKZzXWfuPwbnrAt3338QjGxv9tGNMuhS9sJBYMntCFOGXcB4zRaRwnLQxn8xNoa7uGpDr50TWsOw28lQeNyAGuaYomLp2IF5HDqJhm7GAn4iGPQ6JvCM3SYJ5fccRspi80R7f4xq110UXftYkIpCAzhCpUBw3cer6nB3VhzNJiN3eDsfd29yTqiHopAK6jkgyKHekYaQ7/p56tZUX0Ii25kWM8mUc8bLGkwzeS6AUs0WJJW+9xh8Nv8eqFTG+KSnZnq8rdmKMS5k5WlOxnmNpzBng2SviCw3p3c3VUGB18wz+yPs/E=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAKa6zUQ6Rn+LMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubG9uaWdvLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEyMDQxMjU2NTdaFw0yODEyMDExMjU2NTdaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubG9uaWdvLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMrRrDyde1+9ffePH4Sb43izy5DaSElfw763PrSIHevJrMXFKapq7PDE6o9R8fgk9H3XZHI5bBRP3e9VmxJVID2P3QQz8oKq4WfaTyrEEhlDuy9M0Jnoy62ZwAh0+wFnrXWmDPLoMxpPJCovUSt6pvP75gnVLkviuB7cDFrDHN5XtTvtgb+dX1eQGtY88S8jSZKIT4nqlG4aljGiCU8LHvrgE3Qca+WNluxQQEVyvqfC6t4CxUNp8I2N3t0nHEmZ8i6nHN1mpV/5KV0KkuoDaxAQRNHXhNFucJMlRZMjccxPU6tyfZ/ZkYiaNBKeGHvnLtkvs+4GuaLkbql3DZrePcCAwEAAaNQME4wHQYDVR0OBBYEFF9SiswtL4RNfdhH/uxpjlBknNrqMB8GA1UdIwQYMBaAFF9SiswtL4RNfdhH/uxpjlBknNrqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFCtxNdeh4o2KVj6t/tLUun/JNvek1iLfASUsJKZzXWfuPwbnrAt3338QjGxv9tGNMuhS9sJBYMntCFOGXcB4zRaRwnLQxn8xNoa7uGpDr50TWsOw28lQeNyAGuaYomLp2IF5HDqJhm7GAn4iGPQ6JvCM3SYJ5fccRspi80R7f4xq110UXftYkIpCAzhCpUBw3cer6nB3VhzNJiN3eDsfd29yTqiHopAK6jkgyKHekYaQ7/p56tZUX0Ii25kWM8mUc8bLGkwzeS6AUs0WJJW+9xh8Nv8eqFTG+KSnZnq8rdmKMS5k5WlOxnmNpzBng2SviCw3p3c3VUGB18wz+yPs/E=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lonigo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lonigo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lonigo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lonigo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lonigo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Lonigo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Lonigo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Lonigo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lonigo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Lonigo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Lonigo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Lonigo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lonigo.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lonigo.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.lonigo.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.lonigo.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.iccremonatre.edu.it/microspid_metadata" ID="pfx2d43070b-6b9c-4144-6872-270b689d093a"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx2d43070b-6b9c-4144-6872-270b689d093a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>joTINA8T7qJ3zM1rSMtPsgKmb0rRc/YxnNdQX3QQxQM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>t4cbB60fqxWYbFsTd6gJd53uaiFa528IlMHYqlPcj6NhwaU91fQijsQiMAYZ0uEGsIlPuPpZAFU+HLmZdJPQiVFOKBJeF3npD7enjXbC7367v8lA/ZfQiv2rBIxIAzd+vmIrQyIy/+LvpVifhIB0EYFObc2eScMymS7d/1WjH5YnazAwp2pTkKef77mSJza3DaMErAlyNYJODxiZpJSMvdsbBVWNRe62Dlvs+hY3wQrht8nmVPFRN/VCgD2DJ6kQ30Em4lukhfjJDnXLgzo5giJ7ymRsktDqknvy8S0Td1wS0gOx3dg/fITn2VFQKpTo0WArYWnBk7nLRUU3TW4+Rg==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEXTCCA0WgAwIBAgIHBb+HFBI8QTANBgkqhkiG9w0BAQsFADCBxTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB0NyZW1vbmExKTAnBgNVBAoMIElzdGl0dXRvIENvbXByZW5zaXZvIENyZW1vbmEgVHJlMRwwGgYDVQQLDBNJc3RydXppb25lIHB1YmJsaWNhMSAwHgYDVQQDDBd3d3cuaWNjcmVtb25hdHJlLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYY3JpYzgyMDAweEBpc3RydXppb25lLml0MB4XDTE4MTEyMzIxMjkzN1oXDTM4MTEyMjIxMjkzN1owgcUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMRAwDgYDVQQHDAdDcmVtb25hMSkwJwYDVQQKDCBJc3RpdHV0byBDb21wcmVuc2l2byBDcmVtb25hIFRyZTEcMBoGA1UECwwTSXN0cnV6aW9uZSBwdWJibGljYTEgMB4GA1UEAwwXd3d3LmljY3JlbW9uYXRyZS5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGNyaWM4MjAwMHhAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZcH5MvjVEj0giKY/vgMao++i3dkQtNIA1YGcInrfiWDtnhwtbwmLNRlUUEDpcPD20lHI1cTG6Ns26h/aFeAXvHxAQ1VfkJGiRx9PsKEM/nY6mx/Uh8WAeDSXm8F2gxaYnfiuO/zlRcTVQIhq0AmaM+9ql54qpV+NHbQvIRrJnnIEOlarZwAp3FRoWZRmzq4Qqf89DDwlZnDQYHMTxCkwAWHs1M+MG7PPtlGXVdLI/KdR7YqgUyr4TsdSX4H26GrVSvfP38KlLLCISziSyIbYRI/gqMlxphID2k+u7wAKBr2uPrgtW4OVdNr2AJnTbzcVZMpbyXpIuNfVwIe+toStcCAwEAAaNQME4wHQYDVR0OBBYEFJYboGBsb7isSyHyhoRLQmBb6PwWMB8GA1UdIwQYMBaAFJYboGBsb7isSyHyhoRLQmBb6PwWMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACVPtDzv/CHkhwGBj3U33SAp+vZhVo09r0QiiSnPBEA/BdRnMSbFme8GCosLczE4YbP1rwNqI9E92CYrBmXMoRHAP/KG/k0UKf9ljIK6dY16qYspP3oVLRDcAhJeggq86ql4aE9n13pX0JICp5osUV/EmY++e3yPerSzV8PAY51e67oinc+DBnyLkooOdAagH1nT/+BkwHmRYUvvx18jOAHVxl6MPD6tA0IEYGTNQBIq4l3Xxs1HfRADdkoRSJjxhXzTSqBTDYgYHLeXqpvKitZJCrpJ7ZTNEZoFvfNTa3XYx81C++qZ1YQXEuEjMcVBlzMMaI6OLfUUyhRPvHa0JdM=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEXTCCA0WgAwIBAgIHBb+HFBI8QTANBgkqhkiG9w0BAQsFADCBxTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB0NyZW1vbmExKTAnBgNVBAoMIElzdGl0dXRvIENvbXByZW5zaXZvIENyZW1vbmEgVHJlMRwwGgYDVQQLDBNJc3RydXppb25lIHB1YmJsaWNhMSAwHgYDVQQDDBd3d3cuaWNjcmVtb25hdHJlLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYY3JpYzgyMDAweEBpc3RydXppb25lLml0MB4XDTE4MTEyMzIxMjkzN1oXDTM4MTEyMjIxMjkzN1owgcUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMRAwDgYDVQQHDAdDcmVtb25hMSkwJwYDVQQKDCBJc3RpdHV0byBDb21wcmVuc2l2byBDcmVtb25hIFRyZTEcMBoGA1UECwwTSXN0cnV6aW9uZSBwdWJibGljYTEgMB4GA1UEAwwXd3d3LmljY3JlbW9uYXRyZS5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGNyaWM4MjAwMHhAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZcH5MvjVEj0giKY/vgMao++i3dkQtNIA1YGcInrfiWDtnhwtbwmLNRlUUEDpcPD20lHI1cTG6Ns26h/aFeAXvHxAQ1VfkJGiRx9PsKEM/nY6mx/Uh8WAeDSXm8F2gxaYnfiuO/zlRcTVQIhq0AmaM+9ql54qpV+NHbQvIRrJnnIEOlarZwAp3FRoWZRmzq4Qqf89DDwlZnDQYHMTxCkwAWHs1M+MG7PPtlGXVdLI/KdR7YqgUyr4TsdSX4H26GrVSvfP38KlLLCISziSyIbYRI/gqMlxphID2k+u7wAKBr2uPrgtW4OVdNr2AJnTbzcVZMpbyXpIuNfVwIe+toStcCAwEAAaNQME4wHQYDVR0OBBYEFJYboGBsb7isSyHyhoRLQmBb6PwWMB8GA1UdIwQYMBaAFJYboGBsb7isSyHyhoRLQmBb6PwWMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACVPtDzv/CHkhwGBj3U33SAp+vZhVo09r0QiiSnPBEA/BdRnMSbFme8GCosLczE4YbP1rwNqI9E92CYrBmXMoRHAP/KG/k0UKf9ljIK6dY16qYspP3oVLRDcAhJeggq86ql4aE9n13pX0JICp5osUV/EmY++e3yPerSzV8PAY51e67oinc+DBnyLkooOdAagH1nT/+BkwHmRYUvvx18jOAHVxl6MPD6tA0IEYGTNQBIq4l3Xxs1HfRADdkoRSJjxhXzTSqBTDYgYHLeXqpvKitZJCrpJ7ZTNEZoFvfNTa3XYx81C++qZ1YQXEuEjMcVBlzMMaI6OLfUUyhRPvHa0JdM=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccremonatre.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccremonatre.edu.it/microspid_acs" index="0" isDefault="true"/>
+		        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccremonatre.edu.it/mad/microspid_acs" index="1"/> 
+			        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccremonatre.edu.it/operatori-economici/microspid_acs" index="2"/>
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService>
+		        <md:AttributeConsumingService index="1"> 
+            <md:ServiceName xml:lang="it">mad</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area MAD</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+		        <md:AttributeConsumingService index="2"> 
+            <md:ServiceName xml:lang="it">operatori_economici</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area Operatori economici</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService>  
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto Comprensivo Cremona Tre</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo Cremona Tre</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.iccremonatre.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

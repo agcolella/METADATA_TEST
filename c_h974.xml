@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://spid.comune.sanluri.su.it" ID="dgc2aeac4e-4854-4ef4-91a3-8d8989a29224" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dgc2aeac4e-4854-4ef4-91a3-8d8989a29224"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>ZyJmBb2Slcv58YL9klH/3Girx8qLKj5YY20OQKwl3v8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Y7Tc8EmMrs0y52USUQTJ1NNNeBx7FPH5c9hOVGzNRsJxOWNiEliVvXCDCyJ3Yvp0Pdj5eNZVe7hSYatnQngZS0CnSp5dnSMwrT1SX86ZZxaBtn0AmJoZz+j3YB+BaXZoHcYlhKc1tJKqbnqvrICEYkhAv1Rym24cg5axA3Cg/ukXI6elrRlN7antf/Pn8pGbRUzPeQVyZEo+H7K8sssolvgd41SGEDDYK9cgS7RLYJrRVxs4XSV8sUJiLXUI5JAFN1RNMa8yJWa1A/SftEGzip6nCURnuLD0c7tkjbd2zjwlxShaFBKRN5x5GRo6MtzN/yqElvHDUA3MrOAJWsjgklY=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuc2FubHVyaS5zdS5pdDAeFw0xODA3MTAwOTE0MjRaFw0yODA1MjgwOTE0MjRaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5zYW5sdXJpLnN1Lml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIA7ijtA1n2ToqkOXDE49CKOAcVC+QXmQ2W9VbwwRO7X63Jk2w+SJXP8Ueg/q6X9XjDGoXWhlFGntJrjifjfoRybKjwaeh2DuEMRukCa3YBYMGDUmO3wOaXe72Rha/dwkDWh9rYHw3LOeLxHc4D9VDKx6cX8p6piL3khQC6jgSfZgddoaXOg5lfEPFiZwG+s8AeT9LgqkTkToRd5JbFoewOjct1z6M/UKw3DTNhrbrLFQ7YHY7qWeEvhqt85CF3LDGEHLQdlTlnSIZa0+IYKm9UTdaLow8Akws24oxmwK2h1/kEDF8b0wdVWtJvNwgKMbeawxh7ReGdVhDs8H5G0nT1H0cCAwEAAaNQME4wHQYDVR0OBBYEFPhxubzX4SMVTdHodzedoL7AqGeBMB8GA1UdIwQYMBaAFPhxubzX4SMVTdHodzedoL7AqGeBMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECADBQ82VbODWik+vd4BVL+ffqDGtv/9r44dZLUUqxEmoDnGZBwoeDkBOzgSj2n2dLVtv0akuKR4T21rlEykHoNUdi9dzJdgLFdnD3lQ8BTnSwnC+dyfBs2NN+6VsP5N8vjVfgzTMD7vNj0/uI2rg5H7y+WJ8myO3o54Q9+5lU6XF9kESGryIBMTz918ktfoMm9cMstS5B1nHWOK9arIqzu8Y60dGewxZMR1fs7lpv2NQVCk0LMIEsLWiBf1aGdL3/9TOU2/gDimDR/mNj0PxxODbII0tlcMrQ63NxeqN5eV3UlvxQ1eeK6nCGWF0KxHgUdpuHBNkz/jn8GtlWb0prOG1z</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuc2FubHVyaS5zdS5pdDAeFw0xODA3MTAwOTE0MjRaFw0yODA1MjgwOTE0MjRaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5zYW5sdXJpLnN1Lml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIA7ijtA1n2ToqkOXDE49CKOAcVC+QXmQ2W9VbwwRO7X63Jk2w+SJXP8Ueg/q6X9XjDGoXWhlFGntJrjifjfoRybKjwaeh2DuEMRukCa3YBYMGDUmO3wOaXe72Rha/dwkDWh9rYHw3LOeLxHc4D9VDKx6cX8p6piL3khQC6jgSfZgddoaXOg5lfEPFiZwG+s8AeT9LgqkTkToRd5JbFoewOjct1z6M/UKw3DTNhrbrLFQ7YHY7qWeEvhqt85CF3LDGEHLQdlTlnSIZa0+IYKm9UTdaLow8Akws24oxmwK2h1/kEDF8b0wdVWtJvNwgKMbeawxh7ReGdVhDs8H5G0nT1H0cCAwEAAaNQME4wHQYDVR0OBBYEFPhxubzX4SMVTdHodzedoL7AqGeBMB8GA1UdIwQYMBaAFPhxubzX4SMVTdHodzedoL7AqGeBMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECADBQ82VbODWik+vd4BVL+ffqDGtv/9r44dZLUUqxEmoDnGZBwoeDkBOzgSj2n2dLVtv0akuKR4T21rlEykHoNUdi9dzJdgLFdnD3lQ8BTnSwnC+dyfBs2NN+6VsP5N8vjVfgzTMD7vNj0/uI2rg5H7y+WJ8myO3o54Q9+5lU6XF9kESGryIBMTz918ktfoMm9cMstS5B1nHWOK9arIqzu8Y60dGewxZMR1fs7lpv2NQVCk0LMIEsLWiBf1aGdL3/9TOU2/gDimDR/mNj0PxxODbII0tlcMrQ63NxeqN5eV3UlvxQ1eeK6nCGWF0KxHgUdpuHBNkz/jn8GtlWb0prOG1z</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuc2FubHVyaS5zdS5pdDAeFw0xODA3MTAwOTE0MjRaFw0yODA1MjgwOTE0MjRaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5zYW5sdXJpLnN1Lml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIA7ijtA1n2ToqkOXDE49CKOAcVC+QXmQ2W9VbwwRO7X63Jk2w+SJXP8Ueg/q6X9XjDGoXWhlFGntJrjifjfoRybKjwaeh2DuEMRukCa3YBYMGDUmO3wOaXe72Rha/dwkDWh9rYHw3LOeLxHc4D9VDKx6cX8p6piL3khQC6jgSfZgddoaXOg5lfEPFiZwG+s8AeT9LgqkTkToRd5JbFoewOjct1z6M/UKw3DTNhrbrLFQ7YHY7qWeEvhqt85CF3LDGEHLQdlTlnSIZa0+IYKm9UTdaLow8Akws24oxmwK2h1/kEDF8b0wdVWtJvNwgKMbeawxh7ReGdVhDs8H5G0nT1H0cCAwEAAaNQME4wHQYDVR0OBBYEFPhxubzX4SMVTdHodzedoL7AqGeBMB8GA1UdIwQYMBaAFPhxubzX4SMVTdHodzedoL7AqGeBMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECADBQ82VbODWik+vd4BVL+ffqDGtv/9r44dZLUUqxEmoDnGZBwoeDkBOzgSj2n2dLVtv0akuKR4T21rlEykHoNUdi9dzJdgLFdnD3lQ8BTnSwnC+dyfBs2NN+6VsP5N8vjVfgzTMD7vNj0/uI2rg5H7y+WJ8myO3o54Q9+5lU6XF9kESGryIBMTz918ktfoMm9cMstS5B1nHWOK9arIqzu8Y60dGewxZMR1fs7lpv2NQVCk0LMIEsLWiBf1aGdL3/9TOU2/gDimDR/mNj0PxxODbII0tlcMrQ63NxeqN5eV3UlvxQ1eeK6nCGWF0KxHgUdpuHBNkz/jn8GtlWb0prOG1z</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/Sanluri/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/Sanluri/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sanluri</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sanluri</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.sanluri.su.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

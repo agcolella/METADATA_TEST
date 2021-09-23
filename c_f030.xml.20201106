@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://stu.comunemassalubrense.gov.it/" ID="pfx9a58c558-3f43-0281-68b3-336024f1e632"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx9a58c558-3f43-0281-68b3-336024f1e632"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>tOTukcJ+aJvr6+8+F/2DP0uIeLgDZVlB8z85MSzcIb4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>JXBFt5BVRe3cHz2SjQrLGRdFeMbHxdMrO1xWmQjRWoZ1WrVNpDxs79P5BI0eUWdRjinR/UIGIotqmqZXWQkDBdkBrjpI1CYimr9RJUFPvjC70zXQlqeq1BoXlp1gRikBZvjaI2S6GQxUychtq/g0j7/hjMpeF/WpK1a64SL5oDs4DBq8kUJkcfSlScIH5qZTknXBFIf3io1RLESOuxgh2fOcT8EOZGNJ7tG17VzUfUaOSvD3LXjyZFVaZtxONmsQJTmyU5GvVEz5otoMPIP4DmCFvNow3iCauFTc8IsN6YTVNJ9OHI+VIYXvo2GhIT51HwTw+3euEfG/RForAKYAeQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAL6lN9FmmFJlMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTmFwb2xpMRcwFQYDVQQHDA5NYXNzYSBMdWJyZW5zZTEhMB8GA1UECgwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEnMCUGA1UEAwwec3R1LmNvbXVuZW1hc3NhbHVicmVuc2UuZ292Lml0MB4XDTE5MDMyNTE1NTAxNVoXDTI5MDMyMjE1NTAxNVowgaIxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxFzAVBgNVBAcMDk1hc3NhIEx1YnJlbnNlMSEwHwYDVQQKDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMScwJQYDVQQDDB5zdHUuY29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtmeaSYaC56zSilZnKP51dWUmyr2/8SFLQxxIT+DWzK1w+Jm1SnvNUAAXDAqoNrlloiYr7lacO9F5eLL6IlnrepMROkkzz0P7aOzp7UdrVjI3LDi6t0naCbSqjAg3oRjhdd1uCq6HJH8aGLUk4VaJgQzrfIOXh8OVpD7QoKk0YrMDp9zb5viuXEIc5/Z0sNL/MA7FySulPNLsc+Z3MBxoj6zRR82Vgznu5hJTFgxusokP0w+F6AKDow5y0MDlJnzMaiudh68ZLZoJ/QRNWTkNDCgAG3XFdPpHmUFUJSe7qT09UcBE7YjLdZVF7Sya7oRUtYxZZG3YTFSLHaLpmeUBJAgMBAAGjUzBRMB0GA1UdDgQWBBQJdgJPQvAhhCnKCpGbQyamPFHR/jAfBgNVHSMEGDAWgBQJdgJPQvAhhCnKCpGbQyamPFHR/jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiZRAVYWy1uRXOF31ZItRHdaNSTBJtPpuWk88MKQADvj0qGLZjZtqn46xYtYR9go25DrkBJIt0rWl+DGEHJjxaJfLONCkWxwwM+LRy42EeZe2hhHFQ7I8LAfzHYezWa5JFzcjV2E7buelaoXMAT/vOAxtophpfjxE/EMmCCCX/bmNnfzCsqYQO3ec312tP4wZkq0r5RAyzg6/fAbeDh4DYru3Z7w7Re4IXriyEIlr2xoiNuaL36sWOUdp+26Y9upVOQdxG50VTQcQ+VhGTf7s84IW+qFtXEUEUmU6w1sBb1Jnpr06M7lnDpsqQLWoIJOcg6yFes8N0ahCqI7hWTSFI</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAL6lN9FmmFJlMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTmFwb2xpMRcwFQYDVQQHDA5NYXNzYSBMdWJyZW5zZTEhMB8GA1UECgwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEnMCUGA1UEAwwec3R1LmNvbXVuZW1hc3NhbHVicmVuc2UuZ292Lml0MB4XDTE5MDMyNTE1NTAxNVoXDTI5MDMyMjE1NTAxNVowgaIxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxFzAVBgNVBAcMDk1hc3NhIEx1YnJlbnNlMSEwHwYDVQQKDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMScwJQYDVQQDDB5zdHUuY29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtmeaSYaC56zSilZnKP51dWUmyr2/8SFLQxxIT+DWzK1w+Jm1SnvNUAAXDAqoNrlloiYr7lacO9F5eLL6IlnrepMROkkzz0P7aOzp7UdrVjI3LDi6t0naCbSqjAg3oRjhdd1uCq6HJH8aGLUk4VaJgQzrfIOXh8OVpD7QoKk0YrMDp9zb5viuXEIc5/Z0sNL/MA7FySulPNLsc+Z3MBxoj6zRR82Vgznu5hJTFgxusokP0w+F6AKDow5y0MDlJnzMaiudh68ZLZoJ/QRNWTkNDCgAG3XFdPpHmUFUJSe7qT09UcBE7YjLdZVF7Sya7oRUtYxZZG3YTFSLHaLpmeUBJAgMBAAGjUzBRMB0GA1UdDgQWBBQJdgJPQvAhhCnKCpGbQyamPFHR/jAfBgNVHSMEGDAWgBQJdgJPQvAhhCnKCpGbQyamPFHR/jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiZRAVYWy1uRXOF31ZItRHdaNSTBJtPpuWk88MKQADvj0qGLZjZtqn46xYtYR9go25DrkBJIt0rWl+DGEHJjxaJfLONCkWxwwM+LRy42EeZe2hhHFQ7I8LAfzHYezWa5JFzcjV2E7buelaoXMAT/vOAxtophpfjxE/EMmCCCX/bmNnfzCsqYQO3ec312tP4wZkq0r5RAyzg6/fAbeDh4DYru3Z7w7Re4IXriyEIlr2xoiNuaL36sWOUdp+26Y9upVOQdxG50VTQcQ+VhGTf7s84IW+qFtXEUEUmU6w1sBb1Jnpr06M7lnDpsqQLWoIJOcg6yFes8N0ahCqI7hWTSFI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAL6lN9FmmFJlMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTmFwb2xpMRcwFQYDVQQHDA5NYXNzYSBMdWJyZW5zZTEhMB8GA1UECgwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEnMCUGA1UEAwwec3R1LmNvbXVuZW1hc3NhbHVicmVuc2UuZ292Lml0MB4XDTE5MDMyNTE1NTAxNVoXDTI5MDMyMjE1NTAxNVowgaIxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxFzAVBgNVBAcMDk1hc3NhIEx1YnJlbnNlMSEwHwYDVQQKDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMScwJQYDVQQDDB5zdHUuY29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtmeaSYaC56zSilZnKP51dWUmyr2/8SFLQxxIT+DWzK1w+Jm1SnvNUAAXDAqoNrlloiYr7lacO9F5eLL6IlnrepMROkkzz0P7aOzp7UdrVjI3LDi6t0naCbSqjAg3oRjhdd1uCq6HJH8aGLUk4VaJgQzrfIOXh8OVpD7QoKk0YrMDp9zb5viuXEIc5/Z0sNL/MA7FySulPNLsc+Z3MBxoj6zRR82Vgznu5hJTFgxusokP0w+F6AKDow5y0MDlJnzMaiudh68ZLZoJ/QRNWTkNDCgAG3XFdPpHmUFUJSe7qT09UcBE7YjLdZVF7Sya7oRUtYxZZG3YTFSLHaLpmeUBJAgMBAAGjUzBRMB0GA1UdDgQWBBQJdgJPQvAhhCnKCpGbQyamPFHR/jAfBgNVHSMEGDAWgBQJdgJPQvAhhCnKCpGbQyamPFHR/jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiZRAVYWy1uRXOF31ZItRHdaNSTBJtPpuWk88MKQADvj0qGLZjZtqn46xYtYR9go25DrkBJIt0rWl+DGEHJjxaJfLONCkWxwwM+LRy42EeZe2hhHFQ7I8LAfzHYezWa5JFzcjV2E7buelaoXMAT/vOAxtophpfjxE/EMmCCCX/bmNnfzCsqYQO3ec312tP4wZkq0r5RAyzg6/fAbeDh4DYru3Z7w7Re4IXriyEIlr2xoiNuaL36sWOUdp+26Y9upVOQdxG50VTQcQ+VhGTf7s84IW+qFtXEUEUmU6w1sBb1Jnpr06M7lnDpsqQLWoIJOcg6yFes8N0ahCqI7hWTSFI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comunemassalubrense.gov.it/simplesaml/module.php/saml/sp/saml2-logout.php/massalubrense"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comunemassalubrense.gov.it/simplesaml/module.php/saml/sp/saml2-acs.php/massalubrense" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">massalubrense</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_f030</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Massa Lubrense</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://stu.comunemassalubrense.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

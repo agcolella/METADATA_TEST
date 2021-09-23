@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Manerbio" entityID="https://www.comune.manerbio.bs.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Manerbio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/CrqWVXISvDqsTk6GTDFbn1Mz1TOokf8HwShhVDNdFM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sP5rtUsgYLm+r9IRswE96AnICJHjAHWuHS5ZZ74eRyeWLeE0JlGcKgNdbW1K43Lpj/ikp4lLdBgo
+OdbuPfwWqSGmjr2mO/uw3WbN8TnoMed/LhCeFgpELIyzfwcz0ePYZaMchh7U+xlVA7hBoWFwqusT
+w+TrC+ze1x88/jy7QSaB+W/yGI2374ZjZTAubYr7Cr1fq6WXjltlyaybqEGqDY0v92zfcKoF2kGK
+Jv6HzRVlIpW6CApvlIG0yi3LacWtp4MkyQ9GBroDhO7RohEl9ByCB6MzPZ2YaAJSpQ1JlG/3Mqe4
+r5X28PmnoO0Fet5BQC66scKBjePGqZy5PEXbLQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
++Or1WUwjRUlh/KJNy2VcNYcFhmgEx/FcptpvRc/ChyO34IRSFP3UK0oOM86MXXXv4BYq153G3Dn3
+Rp3WcI90NshFZvlQsiZTl4Npi3kxQ42r8ISU0GCArf+CyrblulzbCyin+m7melGxlj8aqWcd/vg5
+xlNEHIue4/hsCnQyyNNmjY6aRNd/lJb5TcG2H6ubCYHqoYarv5h9B9dJnWrZ6BjTpSQV7gUTzkUs
+QVdyDrJnQS3nbMSHmpdsaeUyt5bcDQvaIUcOMQ+8SfIg/nI0Inlhwe5KUkbsmgPCPSyyX2a62erw
+k2Kzm0/7q7p7/NHidKxn+zkiXbkF++61/of+6Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAO70G4frTtdXMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUubWFuZXJiaW8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEy
+NjA4NDQwMloXDTI4MDEyNDA4NDQwMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYW5lcmJpby5i
+cy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQD46vVZTCNFSWH8ok3LZVw1hwWGaATH8Vym2m9Fz8KHI7fghFIU/dQrSg4zzoxdde/g
+FirXncbcOfdGndZwj3Q2yEVm+VCyJlOXg2mLeTFDjavwhJTQYICt/4LKtuW6XNsLKKf6buZ6UbGW
+PxqpZx3++DnGU0Qci57j+GwKdDLI02aNjppE13+UlvlNwbYfq5sJgeqhhqu/mH0H10mdatnoGNOl
+JBXuBRPORSxBV3IOsmdBLedsxIeal2xp5TK3ltwNC9ohRw4xD7xJ8iD+cjQieWHB7kpSRuyaA8I9
+LLJfZrrZ6vCTYrObT/urunv80eJ0rGf7OSJduQX77rX+h/7pAgMBAAGjUDBOMB0GA1UdDgQWBBQt
+yUqm79w1SFsD53duj9lhGaqocjAfBgNVHSMEGDAWgBQtyUqm79w1SFsD53duj9lhGaqocjAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDSVe+3WbEMgoNemb4aQxbJ1t75PdMJUmHn9wWH
+jtdjyPlaiLlljfGU3D4jX4W5kVSFY0SmGjT1EuC7XGB+jtD2SIEk8zIYdkPQqvHSCMxT8PT6o8Kd
+PVzahI3HZyB3Rk67KEhX6X16coMGdTPSzsgb5orief9OdS8ovg27ezaE9DZm1EKVMFY6JzAXloOY
+LE793D2q7m/Ly5lHlye/06c9D2CF5w/s0xKjRNu7mz0cv3/eeXrq+uobKuMmWAmdWgzPQ5McM8iJ
+mEhfJskSPwcVIsj93s6F2iRUzaqjoOH6vvUrp95iXbc0fRhi4tiX6zMIXllLRvBqfdAEMJfTUgHl
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAO70G4frTtdXMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuZXJiaW8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEyNjA4NDQwMloXDTI4MDEyNDA4NDQwMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYW5lcmJpby5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD46vVZTCNFSWH8ok3LZVw1hwWGaATH8Vym2m9Fz8KHI7fghFIU/dQrSg4zzoxdde/gFirXncbcOfdGndZwj3Q2yEVm+VCyJlOXg2mLeTFDjavwhJTQYICt/4LKtuW6XNsLKKf6buZ6UbGWPxqpZx3++DnGU0Qci57j+GwKdDLI02aNjppE13+UlvlNwbYfq5sJgeqhhqu/mH0H10mdatnoGNOlJBXuBRPORSxBV3IOsmdBLedsxIeal2xp5TK3ltwNC9ohRw4xD7xJ8iD+cjQieWHB7kpSRuyaA8I9LLJfZrrZ6vCTYrObT/urunv80eJ0rGf7OSJduQX77rX+h/7pAgMBAAGjUDBOMB0GA1UdDgQWBBQtyUqm79w1SFsD53duj9lhGaqocjAfBgNVHSMEGDAWgBQtyUqm79w1SFsD53duj9lhGaqocjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDSVe+3WbEMgoNemb4aQxbJ1t75PdMJUmHn9wWHjtdjyPlaiLlljfGU3D4jX4W5kVSFY0SmGjT1EuC7XGB+jtD2SIEk8zIYdkPQqvHSCMxT8PT6o8KdPVzahI3HZyB3Rk67KEhX6X16coMGdTPSzsgb5orief9OdS8ovg27ezaE9DZm1EKVMFY6JzAXloOYLE793D2q7m/Ly5lHlye/06c9D2CF5w/s0xKjRNu7mz0cv3/eeXrq+uobKuMmWAmdWgzPQ5McM8iJmEhfJskSPwcVIsj93s6F2iRUzaqjoOH6vvUrp95iXbc0fRhi4tiX6zMIXllLRvBqfdAEMJfTUgHl
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/manerbio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/manerbio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/manerbio" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Manerbio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Manerbio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Manerbio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Manerbio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Manerbio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Manerbio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Manerbio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Manerbio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.manerbio.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.manerbio.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.manerbio.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.manerbio.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

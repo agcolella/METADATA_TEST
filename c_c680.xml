@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_6f4aa65ac6fcaad458a6f14bdfb2e152392e8261" entityID="https://spid.ciglianodigitale.it:4431/shibboleth"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_6f4aa65ac6fcaad458a6f14bdfb2e152392e8261">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>W+B90/BEQRKWvKy1OIKad0rBgAtTOc3pvRg7Xl5HOUE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+HvqbJ3hZOhcA5AH5wUxPPGVrdhUPKeodBhg3A7Lo616UGxlPqqxWfakBM6shLdNGumTSNSL/rdQM
+4fFVgwBYyQOGn3q718cR06iEQJYzpKW/lCuggT2bJSexel42OTIBL20tIgnIxbba5JCky85TzfyJ
+MLdgNECg7vHrCnJ8H3JC2LlyoMhOsR2H/gV7NCZ8B9/OhahKHgp4OBSwCr+jCEF0nY8hOW/xDorJ
+POLCAl8ExlLHD7v+M+4K/Y1L1M2jTBktI1BMd2g4JgjaboSVMEwFRjtHb2uSai23ltnD1ioxxw4L
+sVi6OL0qdHClMkF+hVZsxW9DUckIUcEvNA7CzrUQSePOr8lGsh0xQKiMXuULGYg2DIH2Sf/hjgtT
+keDsAH27lCK9lJL3MF++W5Y1HqoDx/lx7ukhAh1DPbkJK2fK98n+hT/+jSV0bZyHpdB76b4QhOan
+sO6TSI8cVwF+VqgvCnPm4f6pyAqnk+Aq+oW6fuWqwaD2hxNJJHAT78xC
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oiw6tHMHGhZ+FqA9jKWQ+PFyCDU4nKwOi4tnWJtRmwphFzEIp01fvjnvtIfvc1WdfdL3QP6eFZRD
++FXhEqXhDe6/MWWq5f195hvM0h0pVRD9oZ34rt9QFs0lgPlS7O/BIXoI+UWDcZbxwQBgDxRjrb8F
+6KE4a7nB9guuuOHhbZONXjEfxkPJNROUDTOK/2M9vARZD8SqWuPnNYWG/guyl3b6CUAsS2Pa8pkS
+ZVUiTQznSmVsfGjPP1LGrjtAjkcOa6L2G+eE70lXW8byjJaxJeUZtlcme5VOLsODSrpDUo+rZkWJ
+VpKb9SjRhhJuC3tEvKH9ExGJL8pHXGj0IXzxbLi1LwIEyMQisZ/hyG9pag0MJiN9N17WlUWRp984
+JJTS5Nc0I54PZi1925+OKVCaFl4sz6LIFgM+BFgg4Z211I7W1U4FGdhr/T8F3Cbzs4OPb5UV88yJ
+2XG/Xc6GQRYlNSBilmZ4z6UZTHD01WwG4NLd2LgpP4KxVW+ikCFGuB65
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEDzCCAnegAwIBAgIJAKql33AtTjzzMA0GCSqGSIb3DQEBCwUAMCMxITAfBgNVBAMTGHNwaWQu
+Y2lnbGlhbm9kaWdpdGFsZS5pdDAeFw0xOTAxMjExMDQzMDlaFw0yOTAxMTgxMDQzMDlaMCMxITAf
+BgNVBAMTGHNwaWQuY2lnbGlhbm9kaWdpdGFsZS5pdDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCC
+AYoCggGBAKIsOrRzBxoWfhagPYylkPjxcgg1OJysDouLZ1ibUZsKYRcxCKdNX74577SH73NVnX3S
+90D+nhWUQ/hV4RKl4Q3uvzFlquX9feYbzNIdKVUQ/aGd+K7fUBbNJYD5UuzvwSF6CPlFg3GW8cEA
+YA8UY62/BeihOGu5wfYLrrjh4W2TjV4xH8ZDyTUTlA0ziv9jPbwEWQ/Eqlrj5zWFhv4Lspd2+glA
+LEtj2vKZEmVVIk0M50plbHxozz9Sxq47QI5HDmui9hvnhO9JV1vG8oyWsSXlGbZXJnuVTi7Dg0q6
+Q1KPq2ZFiVaSm/Uo0YYSbgt7RLyh/RMRiS/KR1xo9CF88Wy4tS8CBMjEIrGf4chvaWoNDCYjfTde
+1pVFkaffOCSU0uTXNCOeD2YtfdufjilQmhZeLM+iyBYDPgRYIOGdtdSO1tVOBRnYa/0/Bdwm87OD
+j2+VFfPMidlxv13OhkEWJTUgYpZmeM+lGUxw9NVsBuDS3di4KT+CsVVvopAhRrgeuQIDAQABo0Yw
+RDAjBgNVHREEHDAaghhzcGlkLmNpZ2xpYW5vZGlnaXRhbGUuaXQwHQYDVR0OBBYEFADwJI5n7YuQ
+0w58XYPeJk0Z/peDMA0GCSqGSIb3DQEBCwUAA4IBgQAl0RcYgAL2TAe/k9u1/L6Nl2PHe9kA6UF0
+sFBboWNO2l22AOajtyEFJ7DaWIq663adPLe3mlH2XU2/nwyxHWHJviBm6ZjdI8/yEKCtPqG08VYg
+yfNJ96LWWW4ObAVqTvd0nvuZGU9g9a+6h1uFGrgwnuZBH56KoW8NEjuDBCP/8HrOTyfCEvadHvkD
+xS/Su5efZH1D40hdh6shQME1HLvjwhMiFw5DnGS6BihvZbB+twNSW1CGuOkBPqOC9jg+vr7/t5RY
+s1kf027BQ4U2LPZxYxMofRTHFMlYHv0KKVbLbJbwLai3LKWLlmX7L0ypAATOJbfGZPPrFMkxlT0y
+CfWDGnEVRj5F0U1Zz4iEr793yjykHpeEAlyLoBxmv55DQTVziVqJ08HsLrH8VNrsYpDd5mzTx31s
+Oi4kNpa8wHanv3veTOXDq65OJJdipXTblEVbokcM9f6Rxzkwu8nvtO1rW1G9MGmjxsz5oV39H31S
+gQWSYcB+phsX5uM/nNIcIZQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.ciglianodigitale.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.ciglianodigitale.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEDzCCAnegAwIBAgIJAKql33AtTjzzMA0GCSqGSIb3DQEBCwUAMCMxITAfBgNV
+BAMTGHNwaWQuY2lnbGlhbm9kaWdpdGFsZS5pdDAeFw0xOTAxMjExMDQzMDlaFw0y
+OTAxMTgxMDQzMDlaMCMxITAfBgNVBAMTGHNwaWQuY2lnbGlhbm9kaWdpdGFsZS5p
+dDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKIsOrRzBxoWfhagPYyl
+kPjxcgg1OJysDouLZ1ibUZsKYRcxCKdNX74577SH73NVnX3S90D+nhWUQ/hV4RKl
+4Q3uvzFlquX9feYbzNIdKVUQ/aGd+K7fUBbNJYD5UuzvwSF6CPlFg3GW8cEAYA8U
+Y62/BeihOGu5wfYLrrjh4W2TjV4xH8ZDyTUTlA0ziv9jPbwEWQ/Eqlrj5zWFhv4L
+spd2+glALEtj2vKZEmVVIk0M50plbHxozz9Sxq47QI5HDmui9hvnhO9JV1vG8oyW
+sSXlGbZXJnuVTi7Dg0q6Q1KPq2ZFiVaSm/Uo0YYSbgt7RLyh/RMRiS/KR1xo9CF8
+8Wy4tS8CBMjEIrGf4chvaWoNDCYjfTde1pVFkaffOCSU0uTXNCOeD2YtfdufjilQ
+mhZeLM+iyBYDPgRYIOGdtdSO1tVOBRnYa/0/Bdwm87ODj2+VFfPMidlxv13OhkEW
+JTUgYpZmeM+lGUxw9NVsBuDS3di4KT+CsVVvopAhRrgeuQIDAQABo0YwRDAjBgNV
+HREEHDAaghhzcGlkLmNpZ2xpYW5vZGlnaXRhbGUuaXQwHQYDVR0OBBYEFADwJI5n
+7YuQ0w58XYPeJk0Z/peDMA0GCSqGSIb3DQEBCwUAA4IBgQAl0RcYgAL2TAe/k9u1
+/L6Nl2PHe9kA6UF0sFBboWNO2l22AOajtyEFJ7DaWIq663adPLe3mlH2XU2/nwyx
+HWHJviBm6ZjdI8/yEKCtPqG08VYgyfNJ96LWWW4ObAVqTvd0nvuZGU9g9a+6h1uF
+GrgwnuZBH56KoW8NEjuDBCP/8HrOTyfCEvadHvkDxS/Su5efZH1D40hdh6shQME1
+HLvjwhMiFw5DnGS6BihvZbB+twNSW1CGuOkBPqOC9jg+vr7/t5RYs1kf027BQ4U2
+LPZxYxMofRTHFMlYHv0KKVbLbJbwLai3LKWLlmX7L0ypAATOJbfGZPPrFMkxlT0y
+CfWDGnEVRj5F0U1Zz4iEr793yjykHpeEAlyLoBxmv55DQTVziVqJ08HsLrH8VNrs
+YpDd5mzTx31sOi4kNpa8wHanv3veTOXDq65OJJdipXTblEVbokcM9f6Rxzkwu8nv
+tO1rW1G9MGmjxsz5oV39H31SgQWSYcB+phsX5uM/nNIcIZQ=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ciglianodigitale.it:4431/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ciglianodigitale.it:4431/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://asp.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AttributeConsumingService index="0">
+				  <md:ServiceName xml:lang="it">set0</md:ServiceName>
+				  <md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+				  <md:RequestedAttribute FriendlyName="name" Name="name"/>
+				  <md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+				  <md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+				  <md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+				  <md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+				  <md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+				  <md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+				  <md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+				  <md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+				  <md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+				  <md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+				  <md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+				  <md:RequestedAttribute FriendlyName="email" Name="email"/>
+				  <md:RequestedAttribute FriendlyName="address" Name="address"/>
+				  <md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+				</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+				<md:OrganizationName xml:lang="it">Comune di Cigliano</md:OrganizationName>
+				<md:OrganizationDisplayName xml:lang="it">Comune di Cigliano</md:OrganizationDisplayName>
+				<md:OrganizationURL xml:lang="it">http://www.cigliano.net</md:OrganizationURL>
+				</md:Organization></md:EntityDescriptor>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://pontedera.dgegovpa.it" ID="dgc1b0c2e2-42f9-449f-b314-492f198f8f64" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dgc1b0c2e2-42f9-449f-b314-492f198f8f64"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>xPe/ERLEPL4iOhaEYCkPMWSFqMcdtUEC4nmOn4GvqW0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nvftYZm6TrYHJCc2dXiFtes7ymiErgqBGgaR+dbEBQyuy+/1hza22ovlexonEfEwo1t+roVOYthvgxrkhUswY6qV7SRMGnUZinLspjv4AjT2HBQVBQ2kNynIfT+28Bmj8VU3chBnvXXl21yzbxI8HLWNRQCOM9w6jzhUAEgpHn0pXtOSWsgYAn6YnRkDtwPBEVjcVOLPo1+z2cTPFISQ5HZicFbXVvTHkCeEUgK8aNP8ghOjE2/2vDbcAdLIfnyzZav29WGR2o7qQKc03zyuoKutfoXXIy49WHL8udrIK3Ergb+1DyKQDMCEUBYADeWVkgedfY9dBVnUR8IWTwNu9Pc=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDaTCCAlCgAwIBAgIBADANBgkqhkiG9w0BAQsFADBOMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIzAhBgNVBAMMGnd3dy5jb211bmUucG9udGVkZXJhLnBpLml0MB4XDTIwMDQyOTA4NTI1M1oXDTMwMDQyNzA4NTI1M1owTjELMAkGA1UEBhMCaXQxCzAJBgNVBAgMAklUMQ0wCwYDVQQKDARTUElEMSMwIQYDVQQDDBp3d3cuY29tdW5lLnBvbnRlZGVyYS5waS5pdDCCASMwDQYJKoZIhvcNAQEBBQADggEQADCCAQsCggECALz2SWi/ykNkXjMWxWKvFYq7Yt0a0G1bCgV8HOhkXQeBdxs+jsfb++uDHPgCd8SNCbFrT+poVi90QBkBzQErF8FE3sCj1CQcEhofYDpm3lrsvvMDQrkHSpegUlLw6YjfxO+aMCbL3tHqNTPviR6j4qMURlIhsrbTcBXWH5QBFeknrUenqg5NjOXOnHO9rsQjR2nmSvVjN94kYcpHbiERh1HNYzYLpqCF2bEaJ16CIF0+8n5i0ssO6ZGykmXvpeSI23lJVCydDt/Mhjtie2wm4Ri9R1Ng690gLkGtjpQjYbvcwoU0gADugUSinRhQ63p32zkd2pY1IPN+eQwDnr7mKLo7AgMBAAGjUDBOMB0GA1UdDgQWBBSZ/Zx5IAvjnL6dVqefzlSWzxCVpDAfBgNVHSMEGDAWgBSZ/Zx5IAvjnL6dVqefzlSWzxCVpDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAgA29+E4wXnPD4gjog0rfqOpr/pd3QvBGgkdGJuEm8Cc5MKTPOnNthM3nqNGAfmlIvSWq7v4YM01Dh/BneRHv0EVnp9zXVgiilCII0CdM9nPiUUJ1xIzheBFgX0R0qDW+80gth63ptPg3+73i4taPIGNB/XStEaTu18WFKUDzhvhuXUjh8cxMiVVUjTqXcvGzqp4zylwT1bTYoy3cIs1SHx19HKYkpZRDkuMKZyo9sXc3iODp7pCJz7F6xBmNQSZTO1c4uDXZokvrQO3T3pRRrFyjyc9VXfuuxO1c01Q/OIv3iSQX+ZVamIBgUG5CZus4wSncNlWfKefbW333WC9ZzKpDg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDaTCCAlCgAwIBAgIBADANBgkqhkiG9w0BAQsFADBOMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIzAhBgNVBAMMGnd3dy5jb211bmUucG9udGVkZXJhLnBpLml0MB4XDTIwMDQyOTA4NTI1M1oXDTMwMDQyNzA4NTI1M1owTjELMAkGA1UEBhMCaXQxCzAJBgNVBAgMAklUMQ0wCwYDVQQKDARTUElEMSMwIQYDVQQDDBp3d3cuY29tdW5lLnBvbnRlZGVyYS5waS5pdDCCASMwDQYJKoZIhvcNAQEBBQADggEQADCCAQsCggECALz2SWi/ykNkXjMWxWKvFYq7Yt0a0G1bCgV8HOhkXQeBdxs+jsfb++uDHPgCd8SNCbFrT+poVi90QBkBzQErF8FE3sCj1CQcEhofYDpm3lrsvvMDQrkHSpegUlLw6YjfxO+aMCbL3tHqNTPviR6j4qMURlIhsrbTcBXWH5QBFeknrUenqg5NjOXOnHO9rsQjR2nmSvVjN94kYcpHbiERh1HNYzYLpqCF2bEaJ16CIF0+8n5i0ssO6ZGykmXvpeSI23lJVCydDt/Mhjtie2wm4Ri9R1Ng690gLkGtjpQjYbvcwoU0gADugUSinRhQ63p32zkd2pY1IPN+eQwDnr7mKLo7AgMBAAGjUDBOMB0GA1UdDgQWBBSZ/Zx5IAvjnL6dVqefzlSWzxCVpDAfBgNVHSMEGDAWgBSZ/Zx5IAvjnL6dVqefzlSWzxCVpDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAgA29+E4wXnPD4gjog0rfqOpr/pd3QvBGgkdGJuEm8Cc5MKTPOnNthM3nqNGAfmlIvSWq7v4YM01Dh/BneRHv0EVnp9zXVgiilCII0CdM9nPiUUJ1xIzheBFgX0R0qDW+80gth63ptPg3+73i4taPIGNB/XStEaTu18WFKUDzhvhuXUjh8cxMiVVUjTqXcvGzqp4zylwT1bTYoy3cIs1SHx19HKYkpZRDkuMKZyo9sXc3iODp7pCJz7F6xBmNQSZTO1c4uDXZokvrQO3T3pRRrFyjyc9VXfuuxO1c01Q/OIv3iSQX+ZVamIBgUG5CZus4wSncNlWfKefbW333WC9ZzKpDg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDaTCCAlCgAwIBAgIBADANBgkqhkiG9w0BAQsFADBOMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxIzAhBgNVBAMMGnd3dy5jb211bmUucG9udGVkZXJhLnBpLml0MB4XDTIwMDQyOTA4NTI1M1oXDTMwMDQyNzA4NTI1M1owTjELMAkGA1UEBhMCaXQxCzAJBgNVBAgMAklUMQ0wCwYDVQQKDARTUElEMSMwIQYDVQQDDBp3d3cuY29tdW5lLnBvbnRlZGVyYS5waS5pdDCCASMwDQYJKoZIhvcNAQEBBQADggEQADCCAQsCggECALz2SWi/ykNkXjMWxWKvFYq7Yt0a0G1bCgV8HOhkXQeBdxs+jsfb++uDHPgCd8SNCbFrT+poVi90QBkBzQErF8FE3sCj1CQcEhofYDpm3lrsvvMDQrkHSpegUlLw6YjfxO+aMCbL3tHqNTPviR6j4qMURlIhsrbTcBXWH5QBFeknrUenqg5NjOXOnHO9rsQjR2nmSvVjN94kYcpHbiERh1HNYzYLpqCF2bEaJ16CIF0+8n5i0ssO6ZGykmXvpeSI23lJVCydDt/Mhjtie2wm4Ri9R1Ng690gLkGtjpQjYbvcwoU0gADugUSinRhQ63p32zkd2pY1IPN+eQwDnr7mKLo7AgMBAAGjUDBOMB0GA1UdDgQWBBSZ/Zx5IAvjnL6dVqefzlSWzxCVpDAfBgNVHSMEGDAWgBSZ/Zx5IAvjnL6dVqefzlSWzxCVpDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAgA29+E4wXnPD4gjog0rfqOpr/pd3QvBGgkdGJuEm8Cc5MKTPOnNthM3nqNGAfmlIvSWq7v4YM01Dh/BneRHv0EVnp9zXVgiilCII0CdM9nPiUUJ1xIzheBFgX0R0qDW+80gth63ptPg3+73i4taPIGNB/XStEaTu18WFKUDzhvhuXUjh8cxMiVVUjTqXcvGzqp4zylwT1bTYoy3cIs1SHx19HKYkpZRDkuMKZyo9sXc3iODp7pCJz7F6xBmNQSZTO1c4uDXZokvrQO3T3pRRrFyjyc9VXfuuxO1c01Q/OIv3iSQX+ZVamIBgUG5CZus4wSncNlWfKefbW333WC9ZzKpDg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/pontedera/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/pontedera/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pontedera</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pontedera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pontedera.pi.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

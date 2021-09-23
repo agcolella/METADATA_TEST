@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.liceobanfi.edu.it/microspid_metadata" ID="pfxa482f7b8-3fbe-3592-ce2b-9b294cf67685"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa482f7b8-3fbe-3592-ce2b-9b294cf67685"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>BHfju92I6gGXWyod11ebY0K+GRCKqRTuNMdg2Ep1iyk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>KuaJlGtxSUOjXrhL/scxWqZ1t4bjpRtFs+VDE+YfVgBeOoRr70hvDABRcRi0XOmKpZ0vwVkIgajWDDRroV8zqmEhqjl0ULIVysj6FGznI+gJtxigpkGfpt07VtfT1YPy6vMx8UozYhDRE6vOGc2L8TcssYDr21X9LLSqfb5vkl63GjtOzAmlJhLFLym+09qlfolIfCoJGtQmXEXGNavZnvXowvYCcRjBx6wsdm5QH4fIa8Kk8pSXA7lc4Bfpj//U1gjf7WWcg3ndlRQ7a6OqjE/f3AtnAFq+LXixVD7q7KOfthG4o7BOfUIP3q6qbxpmg08R//LD1qoOQmhqgGrqWQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIENzCCAx+gAwIBAgIHBceHLtrf0jANBgkqhkiG9w0BAQsFADCBsjELMAkGA1UEBhMCSVQxGDAWBgNVBAgMD01vbnphIGUgQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRQwEgYDVQQKDAtMaWNlbyBCYW5maTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3LmxpY2VvYmFuZmkuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhtaXBzMjQwMDA1QGlzdHJ1emlvbmUuaXQwHhcNMTkwMjI4MjM0NjUzWhcNMzkwMjI3MjM0NjUzWjCBsjELMAkGA1UEBhMCSVQxGDAWBgNVBAgMD01vbnphIGUgQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRQwEgYDVQQKDAtMaWNlbyBCYW5maTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3LmxpY2VvYmFuZmkuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhtaXBzMjQwMDA1QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdUAc0h2iryNS9/aqTpZWWRJVZhdUYlh2SLBXsdxvlm5zmbsu55PPJsL62TErDdrjP+jC0vNtB4WObhXehf/8Uc4NZ3MgYO0n7qf7TU7IBHhTIQxorUu+1ONYVyJJV53TxsoAnh235bHERaU6glGuYSCRqi6KFSaR/0N+M0wLjqGRDUb+G5OrxXb3yn3IcbZnO8Npo4vR+nkqxhhsssEFSYZKAMKGA8rP3Spn5aPQbS3nV5Qy3TWQzQFf6Tyr1SHAEwRBzWG6aBUoJmdWC9W1u0f3BFdh3yM580sDQFGyuJszr6LachxPFEIbYQcCktwxir5gy4+dU1ZEO6kRmqvAHAgMBAAGjUDBOMB0GA1UdDgQWBBTv2sUVjtk6iAXWlpisNjpNeCcZeTAfBgNVHSMEGDAWgBTv2sUVjtk6iAXWlpisNjpNeCcZeTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCc00cidXdmSdcvEvxSULgG7CdCqWW/MTffD4HzOh8AbjkAV43RHuionpYyjAP3uFcTSRo2wqxUsFOVSK9BLGVYjS6sFPKqkNzV7JVI6RSKlIps/flD8+jqZtYbKKxsNc7QJhH4lTwr9W0liR5s3zdOcvzruT4UsFLfpPRqIIo/wxJA29ncHOAHxQSEGUZ3lDeEmbsJDLsz5QpcbsXhTga083k2g7CK+hfjkodH1PhnQ0MS3dw9rDtk7UQxrp9R74DPxhFQJzUAnOnTior4b2cnLVewuM8sOqKT1pQT3iN6wJZH+CczhxziXNX+bLqKai4DLDKV1gz6uRrA7ZuhFVv7</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIENzCCAx+gAwIBAgIHBceHLtrf0jANBgkqhkiG9w0BAQsFADCBsjELMAkGA1UEBhMCSVQxGDAWBgNVBAgMD01vbnphIGUgQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRQwEgYDVQQKDAtMaWNlbyBCYW5maTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3LmxpY2VvYmFuZmkuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhtaXBzMjQwMDA1QGlzdHJ1emlvbmUuaXQwHhcNMTkwMjI4MjM0NjUzWhcNMzkwMjI3MjM0NjUzWjCBsjELMAkGA1UEBhMCSVQxGDAWBgNVBAgMD01vbnphIGUgQnJpYW56YTESMBAGA1UEBwwJVmltZXJjYXRlMRQwEgYDVQQKDAtMaWNlbyBCYW5maTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3LmxpY2VvYmFuZmkuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhtaXBzMjQwMDA1QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdUAc0h2iryNS9/aqTpZWWRJVZhdUYlh2SLBXsdxvlm5zmbsu55PPJsL62TErDdrjP+jC0vNtB4WObhXehf/8Uc4NZ3MgYO0n7qf7TU7IBHhTIQxorUu+1ONYVyJJV53TxsoAnh235bHERaU6glGuYSCRqi6KFSaR/0N+M0wLjqGRDUb+G5OrxXb3yn3IcbZnO8Npo4vR+nkqxhhsssEFSYZKAMKGA8rP3Spn5aPQbS3nV5Qy3TWQzQFf6Tyr1SHAEwRBzWG6aBUoJmdWC9W1u0f3BFdh3yM580sDQFGyuJszr6LachxPFEIbYQcCktwxir5gy4+dU1ZEO6kRmqvAHAgMBAAGjUDBOMB0GA1UdDgQWBBTv2sUVjtk6iAXWlpisNjpNeCcZeTAfBgNVHSMEGDAWgBTv2sUVjtk6iAXWlpisNjpNeCcZeTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCc00cidXdmSdcvEvxSULgG7CdCqWW/MTffD4HzOh8AbjkAV43RHuionpYyjAP3uFcTSRo2wqxUsFOVSK9BLGVYjS6sFPKqkNzV7JVI6RSKlIps/flD8+jqZtYbKKxsNc7QJhH4lTwr9W0liR5s3zdOcvzruT4UsFLfpPRqIIo/wxJA29ncHOAHxQSEGUZ3lDeEmbsJDLsz5QpcbsXhTga083k2g7CK+hfjkodH1PhnQ0MS3dw9rDtk7UQxrp9R74DPxhFQJzUAnOnTior4b2cnLVewuM8sOqKT1pQT3iN6wJZH+CczhxziXNX+bLqKai4DLDKV1gz6uRrA7ZuhFVv7</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.liceobanfi.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.liceobanfi.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Liceo Statale "A.Banfi" di Vimercate</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Liceo Statale "A.Banfi" di Vimercate</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.liceobanfi.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

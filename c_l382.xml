@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx56ebbeaa-fd3b-5e2b-5c63-4a47f3c96cfe" entityID="https://servizionline.comune.treppogrande.ud.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx56ebbeaa-fd3b-5e2b-5c63-4a47f3c96cfe">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tDRg7EUYVE9J4Fxn/oX4TNyRApFUIzWmt3RULp6y3PY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dG6GUB0OMotKBg9Bf5S8rwR48+cYVK0oWFucQHdoHk2+hy99fkKBC7LgcjRv/pNoUldDE+9+9Dyh
+wrJaGG5Dkss3qp3H7r1QgkpWnSHFy164DLxyIn4tVJHVyyAfBYTrmppJf/UzJ7am7tz5rH2ZZNID
+vtByAfH/hB/qsInBAufPzBQbjh77+tPzz9vrNL60KW5O7ZFHYrStg42DvRyHSiZCbwKMbHjg4gop
+o91xy+cj9CFYtlNxWZGofk6Nk/0xKg6KHjlxX9jBQrnIscZjpykAzVlD0ZR2w3vujqkJoWnSzdRn
+cQJ6UhP7/1fMamHiPTYLX783h8uP1UFblvWzrA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lEZqBGHmkiqEg6xkSOIEDEIjo8wuE4Yyp3XZe9MUr5RfDfECN15l/+vdtYMDUoKNN0eK3WBWv624
+eSbUdkVLpyP1pl86uxJ+aw+3UdnXH+3djmyAq5P7IiU2K1WvkTE3e+x4zdaYbJTXrVYId1WSqonT
+afDepCB3H+Ij7JUrTcRl+ggEtIZNwlrEANTvH6rEn8CAo4viwOBjViCdk8yrstnSHdWAUTreAkQf
+IAObX6lJ2A2Lv3RYHFrHFfPknzf9wiz3JhneCCXvQpxnQForumADgGaB2TCpTDJBTOEFPzUrODlF
+Qol+BdLa/SXbOiB4v7Eiq3R5DqDplgKl9Fi8Mw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID5zCCAs+gAwIBAgIJAL73ioAjHs/GMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVRyZXBwbyBHcmFuZGUxIDAeBgNVBAoMF0NvbXVuZSBk
+aSBUcmVwcG8gR3JhbmRlMTAwLgYDVQQDDCdzZXJ2aXppb25saW5lLmNvbXVuZS50cmVwcG9ncmFu
+ZGUudWQuaXQwHhcNMTgwOTI1MDc1NDA4WhcNMjgwOTI0MDc1NDA4WjCBiTELMAkGA1UEBhMCSVQx
+DjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1UcmVwcG8gR3JhbmRlMSAwHgYDVQQKDBdDb211bmUg
+ZGkgVHJlcHBvIEdyYW5kZTEwMC4GA1UEAwwnc2Vydml6aW9ubGluZS5jb211bmUudHJlcHBvZ3Jh
+bmRlLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlEZqBGHmkiqEg6xkSOIE
+DEIjo8wuE4Yyp3XZe9MUr5RfDfECN15l/+vdtYMDUoKNN0eK3WBWv624eSbUdkVLpyP1pl86uxJ+
+aw+3UdnXH+3djmyAq5P7IiU2K1WvkTE3e+x4zdaYbJTXrVYId1WSqonTafDepCB3H+Ij7JUrTcRl
++ggEtIZNwlrEANTvH6rEn8CAo4viwOBjViCdk8yrstnSHdWAUTreAkQfIAObX6lJ2A2Lv3RYHFrH
+FfPknzf9wiz3JhneCCXvQpxnQForumADgGaB2TCpTDJBTOEFPzUrODlFQol+BdLa/SXbOiB4v7Ei
+q3R5DqDplgKl9Fi8MwIDAQABo1AwTjAdBgNVHQ4EFgQUxv9LTG0p4+OOrCPcGJNSlyxHha0wHwYD
+VR0jBBgwFoAUxv9LTG0p4+OOrCPcGJNSlyxHha0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsF
+AAOCAQEAN/4c7ni+FaYtPfuhWsOXnCSxVLhwgFkL9VUaNO7G8yg8nqZcivoLUMEpLOcBmnHzdhWX
+KAHdcGCqs8slOBUoYSG+debMNWUw1Yv9lYC291Gcydjvq9aAQWIbgBfm2l50RXY+3VjB36YaHNvz
+ss/YdgMmvJjeIZE2pbVcsQzR4IYwJ1zqZlMPlTrDgtx7npGg9LSK74GuA9iTAMiXY0a8b+aujBiu
+5N8obM/wqvfmTCok2vWaXJPkXlSOR3pL8ZtX2DrtI3+GRfvjDjqkzX1cNiblzDkZAz6zNrjgzkAU
+GQTr5Gii5JtKxTyiMjgggB9ScMrI79atNvBGdHOrz7uOcA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAL73ioAjHs/GMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVRyZXBwbyBHcmFuZGUxIDAeBgNVBAoMF0NvbXVuZSBkaSBUcmVwcG8gR3JhbmRlMTAwLgYDVQQDDCdzZXJ2aXppb25saW5lLmNvbXVuZS50cmVwcG9ncmFuZGUudWQuaXQwHhcNMTgwOTI1MDc1NDA4WhcNMjgwOTI0MDc1NDA4WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1UcmVwcG8gR3JhbmRlMSAwHgYDVQQKDBdDb211bmUgZGkgVHJlcHBvIEdyYW5kZTEwMC4GA1UEAwwnc2Vydml6aW9ubGluZS5jb211bmUudHJlcHBvZ3JhbmRlLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlEZqBGHmkiqEg6xkSOIEDEIjo8wuE4Yyp3XZe9MUr5RfDfECN15l/+vdtYMDUoKNN0eK3WBWv624eSbUdkVLpyP1pl86uxJ+aw+3UdnXH+3djmyAq5P7IiU2K1WvkTE3e+x4zdaYbJTXrVYId1WSqonTafDepCB3H+Ij7JUrTcRl+ggEtIZNwlrEANTvH6rEn8CAo4viwOBjViCdk8yrstnSHdWAUTreAkQfIAObX6lJ2A2Lv3RYHFrHFfPknzf9wiz3JhneCCXvQpxnQForumADgGaB2TCpTDJBTOEFPzUrODlFQol+BdLa/SXbOiB4v7Eiq3R5DqDplgKl9Fi8MwIDAQABo1AwTjAdBgNVHQ4EFgQUxv9LTG0p4+OOrCPcGJNSlyxHha0wHwYDVR0jBBgwFoAUxv9LTG0p4+OOrCPcGJNSlyxHha0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN/4c7ni+FaYtPfuhWsOXnCSxVLhwgFkL9VUaNO7G8yg8nqZcivoLUMEpLOcBmnHzdhWXKAHdcGCqs8slOBUoYSG+debMNWUw1Yv9lYC291Gcydjvq9aAQWIbgBfm2l50RXY+3VjB36YaHNvzss/YdgMmvJjeIZE2pbVcsQzR4IYwJ1zqZlMPlTrDgtx7npGg9LSK74GuA9iTAMiXY0a8b+aujBiu5N8obM/wqvfmTCok2vWaXJPkXlSOR3pL8ZtX2DrtI3+GRfvjDjqkzX1cNiblzDkZAz6zNrjgzkAUGQTr5Gii5JtKxTyiMjgggB9ScMrI79atNvBGdHOrz7uOcA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAL73ioAjHs/GMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVRyZXBwbyBHcmFuZGUxIDAeBgNVBAoMF0NvbXVuZSBkaSBUcmVwcG8gR3JhbmRlMTAwLgYDVQQDDCdzZXJ2aXppb25saW5lLmNvbXVuZS50cmVwcG9ncmFuZGUudWQuaXQwHhcNMTgwOTI1MDc1NDA4WhcNMjgwOTI0MDc1NDA4WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1UcmVwcG8gR3JhbmRlMSAwHgYDVQQKDBdDb211bmUgZGkgVHJlcHBvIEdyYW5kZTEwMC4GA1UEAwwnc2Vydml6aW9ubGluZS5jb211bmUudHJlcHBvZ3JhbmRlLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlEZqBGHmkiqEg6xkSOIEDEIjo8wuE4Yyp3XZe9MUr5RfDfECN15l/+vdtYMDUoKNN0eK3WBWv624eSbUdkVLpyP1pl86uxJ+aw+3UdnXH+3djmyAq5P7IiU2K1WvkTE3e+x4zdaYbJTXrVYId1WSqonTafDepCB3H+Ij7JUrTcRl+ggEtIZNwlrEANTvH6rEn8CAo4viwOBjViCdk8yrstnSHdWAUTreAkQfIAObX6lJ2A2Lv3RYHFrHFfPknzf9wiz3JhneCCXvQpxnQForumADgGaB2TCpTDJBTOEFPzUrODlFQol+BdLa/SXbOiB4v7Eiq3R5DqDplgKl9Fi8MwIDAQABo1AwTjAdBgNVHQ4EFgQUxv9LTG0p4+OOrCPcGJNSlyxHha0wHwYDVR0jBBgwFoAUxv9LTG0p4+OOrCPcGJNSlyxHha0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN/4c7ni+FaYtPfuhWsOXnCSxVLhwgFkL9VUaNO7G8yg8nqZcivoLUMEpLOcBmnHzdhWXKAHdcGCqs8slOBUoYSG+debMNWUw1Yv9lYC291Gcydjvq9aAQWIbgBfm2l50RXY+3VjB36YaHNvzss/YdgMmvJjeIZE2pbVcsQzR4IYwJ1zqZlMPlTrDgtx7npGg9LSK74GuA9iTAMiXY0a8b+aujBiu5N8obM/wqvfmTCok2vWaXJPkXlSOR3pL8ZtX2DrtI3+GRfvjDjqkzX1cNiblzDkZAz6zNrjgzkAUGQTr5Gii5JtKxTyiMjgggB9ScMrI79atNvBGdHOrz7uOcA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.treppogrande.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.treppogrande.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Treppo Grande</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Treppo Grande</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.treppogrande.ud.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comprensivoturbigo.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxdb6c2950-12a6-4320-8474-74f2d56c6538"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxdb6c2950-12a6-4320-8474-74f2d56c6538"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1OAC7zZiDisJq90Iy1Ec/zizAcmeP/5iFq7spV15nKQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DqVNLTxRes17NLHmtMV0vz2BMxCIwNzn7GJJc2pW7M5I2qvoPkjw2bA+bu2hT6QYh1/j92K+7RCTqWlg/XUxHgOWOPpzVQAl1Jrfx6V916UpZedY776Wzn/OPqxsE8Yk0JlS04TdcXoPJejHLyFRZjaRf0xYiW1TQtn1zn0qNvEDrartcRkWZHatJv8ty2XyF4kF6O9cEUDlyKNVQPPWAuouSraZ8tUmdYUmb2urqcdrYAKQapViOYGSxQ1n5XqhTQ89HioQyf/8t9KeyLXa/0Sy2OyQuXm6bGOPDt1O7TxE7ywQAoEkNpmKZxDe4g7CKIryZ6hYYbamBPNU39C2HA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIESjCCAzKgAwIBAgIIFmUYo4Jua4wwDQYJKoZIhvcNAQELBQAwgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEDAOBgNVBAcMB1R1cmJpZ28xIDAeBgNVBAoMF0lDICdkb24gTG9yZW56byBNaWxhbmknMRYwFAYDVQQLDA1Jc3RydXppb25lIFBTMSYwJAYDVQQDDB13d3cuY29tcHJlbnNpdm90dXJiaWdvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYTUlJQzgzNjAwNkBpc3RydXppb25lLml0MB4XDTE3MDcxOTE0MTY0M1oXDTM3MDcxODE0MTY0M1owgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEDAOBgNVBAcMB1R1cmJpZ28xIDAeBgNVBAoMF0lDICdkb24gTG9yZW56byBNaWxhbmknMRYwFAYDVQQLDA1Jc3RydXppb25lIFBTMSYwJAYDVQQDDB13d3cuY29tcHJlbnNpdm90dXJiaWdvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYTUlJQzgzNjAwNkBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Q6qLu9CVaNBfxQeDY08AlgIx1rCUXR9QsDW2D8cqVwJckfLqUhJVl+D3xKk4s1TIZdJNfFNWMQQDBoWoPe3No+xD3x1OPUbXkj5ycXL4Wm9JXbFDgHPB636K5gp03/Zsf6EinyUxaddboy29ss2PnlOsp4avmhWc7UFipLr2lJi7XRaYOOAQagfDg6P5701Lz4Thl+PxgmFunCNF+xCNcdfzQzTC7KWQDZVXJhaX+TJ+/NceuH95AlXGAZyE9D+twGJQ0nMSNbyye4iRZMcSSRa/6NckDretLcRz8vG2txkTMFxCsUN7jE7IDDgYv7fsN9MhchKr4DgPEkldTsy6wIDAQABo1AwTjAdBgNVHQ4EFgQUk57roPXM7WlvMCHljZv7KLTIz/swHwYDVR0jBBgwFoAUk57roPXM7WlvMCHljZv7KLTIz/swDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEABDxwshXS7sdsMCsYJqQ8a4auA/trHGxDsHcKJFT38vts/10iQ+CUvV+R4DfrzPBomyCEUTp5KlPFFqyX0gbhxO2TIQXHKvvAtWPJQ4uhL850g96lAwHAcCb6IZODtAzyBMIEDHxrKv7aG6L4DfmobvJxaX6DAOVUueSsbV7uzcItphbcYBNb0bJA5ZJ3lOm/n64bKUu/j7QoitAK7NAKYtrTNwRelYfAev/8uGko7NeyZZhrGTFn5ZttrFM3EHD/cgvveVbNsD2QsDS16FGlnOd6attYUw+Ld+JoAHxfVHaFU0xGrua1Rkdvsz0rIHEYcobCRpu5/fxM3aVLrYfB6w==</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIESjCCAzKgAwIBAgIIFmUYo4Jua4wwDQYJKoZIhvcNAQELBQAwgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEDAOBgNVBAcMB1R1cmJpZ28xIDAeBgNVBAoMF0lDICdkb24gTG9yZW56byBNaWxhbmknMRYwFAYDVQQLDA1Jc3RydXppb25lIFBTMSYwJAYDVQQDDB13d3cuY29tcHJlbnNpdm90dXJiaWdvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYTUlJQzgzNjAwNkBpc3RydXppb25lLml0MB4XDTE3MDcxOTE0MTY0M1oXDTM3MDcxODE0MTY0M1owgbsxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEDAOBgNVBAcMB1R1cmJpZ28xIDAeBgNVBAoMF0lDICdkb24gTG9yZW56byBNaWxhbmknMRYwFAYDVQQLDA1Jc3RydXppb25lIFBTMSYwJAYDVQQDDB13d3cuY29tcHJlbnNpdm90dXJiaWdvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYTUlJQzgzNjAwNkBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Q6qLu9CVaNBfxQeDY08AlgIx1rCUXR9QsDW2D8cqVwJckfLqUhJVl+D3xKk4s1TIZdJNfFNWMQQDBoWoPe3No+xD3x1OPUbXkj5ycXL4Wm9JXbFDgHPB636K5gp03/Zsf6EinyUxaddboy29ss2PnlOsp4avmhWc7UFipLr2lJi7XRaYOOAQagfDg6P5701Lz4Thl+PxgmFunCNF+xCNcdfzQzTC7KWQDZVXJhaX+TJ+/NceuH95AlXGAZyE9D+twGJQ0nMSNbyye4iRZMcSSRa/6NckDretLcRz8vG2txkTMFxCsUN7jE7IDDgYv7fsN9MhchKr4DgPEkldTsy6wIDAQABo1AwTjAdBgNVHQ4EFgQUk57roPXM7WlvMCHljZv7KLTIz/swHwYDVR0jBBgwFoAUk57roPXM7WlvMCHljZv7KLTIz/swDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEABDxwshXS7sdsMCsYJqQ8a4auA/trHGxDsHcKJFT38vts/10iQ+CUvV+R4DfrzPBomyCEUTp5KlPFFqyX0gbhxO2TIQXHKvvAtWPJQ4uhL850g96lAwHAcCb6IZODtAzyBMIEDHxrKv7aG6L4DfmobvJxaX6DAOVUueSsbV7uzcItphbcYBNb0bJA5ZJ3lOm/n64bKUu/j7QoitAK7NAKYtrTNwRelYfAev/8uGko7NeyZZhrGTFn5ZttrFM3EHD/cgvveVbNsD2QsDS16FGlnOd6attYUw+Ld+JoAHxfVHaFU0xGrua1Rkdvsz0rIHEYcobCRpu5/fxM3aVLrYfB6w==</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comprensivoturbigo.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comprensivoturbigo.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto comprensivo 'don Lorenzo Milani'</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto comprensivo 'don Lorenzo Milani'</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comprensivoturbigo.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

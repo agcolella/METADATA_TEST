@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comunenegrar.it" ID="pfx4adf9a70-9090-800e-7bf3-1707c2a561a2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx4adf9a70-9090-800e-7bf3-1707c2a561a2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XAyq2fbK8h9vrkLiih0rc+I3qJ5ETm3VVHoW1oWMTCg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>GXegXwh+x91QleXlb6T4b2+TmqOcwMyQIFFZv/0ZoeQlueAz2iLEL2zhubl0QY9D5UIkf3OnR00g8I5SBCEWXsoJ/eWOaEhzC5E/f1ONHazUatDYSQUYRAkUPH+JnARZBZhbxGCEh6PsB3gvV06bhGkMleiGU5WUcVBW6TE3F8niUq97vZ7YIwNpSUcJFuyO2NJ/OPb1YGKOW9SmTJtu6rMokS+0X3Izq59xQPoTx1jsO6AbkHQt/B8oc9kTpHUfZ/+PUrLF2IuWssH2AF/gJy4zUN3tkWg83EdHN0Jl12yApmJdQxbTjL6yihKHA6qklJ2MKD+pfMnfJKmL5MX8Vg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDoTCCAomgAwIBAgIJANEssF6sXLAcMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTmVncmFyMRkwFwYDVQQKDBBDb211bmUgZGkgTmVncmFyMRwwGgYDVQQDDBN3d3cuY29tdW5lbmVncmFyLml0MB4XDTE4MDQyNjE0NTIzM1oXDTI4MDQyNTE0NTIzM1owZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZOZWdyYXIxGTAXBgNVBAoMEENvbXVuZSBkaSBOZWdyYXIxHDAaBgNVBAMME3d3dy5jb211bmVuZWdyYXIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHvmgG8XRlpB2LeqXpxeSTsUrbQD7JBVQq4mrNpNXyp63rZDN2RzznMcqU9FYdQker+9Tq69In/CdeVyPskEkWBcFZ0fbiRdOiSbhlhGcLY8rL9RVCvfX4/d6hn7N4vqeGvM3rj+nyx1LOHH7wv8JmboUKMOpp/Nlhv8YUrE8RmqI3xGOnJd8mUaiT3W89eQL+xugI6kjXVF90avXW1+rb1T33FTwgihox4gpldcKxcyMhgAVi81hgWb2s64dFBwpcxypAXlKlUtCdFTkF+Wmub5aNRiuO1FZ9d92jXW4R7c7laSGfoYYXW5S98G3RDNUU22/5zNG1UuWPUyQILTlRAgMBAAGjUDBOMB0GA1UdDgQWBBQ3pwErOQvyKoKKEq+GvUxT8hbpCjAfBgNVHSMEGDAWgBQ3pwErOQvyKoKKEq+GvUxT8hbpCjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBfsUXqS4SoJzKLqA/BcJGXarRaO00NWcjD8V12wNLb3QPThJq7c49fobFmP6WPDh7syOX6Efy58/pWUfCCSPygm3nxjiUiAymmBvTq1taR0KPXQ/+44yVdDmYQmniqpJ/1P0Nvi68htFZTLZwZZVPVJwMkqLv9KngqXib5UKfIfiP9ClFPgrIVDVbaEutfmUQN4i+weDIKBbQerBOUsk7fhLrCX4Wr/Zo2ZfgvNvJBKYw3utQwfrB9A+582t6m8yYaJN51H+vNsDI5s1zCYdxFw26A3X39hLp12SKs1N5WDbx7MoRRiUg9LumN6Xjw7CFjf65+0EKGszBkuf2LH1mI</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDoTCCAomgAwIBAgIJANEssF6sXLAcMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTmVncmFyMRkwFwYDVQQKDBBDb211bmUgZGkgTmVncmFyMRwwGgYDVQQDDBN3d3cuY29tdW5lbmVncmFyLml0MB4XDTE4MDQyNjE0NTIzM1oXDTI4MDQyNTE0NTIzM1owZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZOZWdyYXIxGTAXBgNVBAoMEENvbXVuZSBkaSBOZWdyYXIxHDAaBgNVBAMME3d3dy5jb211bmVuZWdyYXIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHvmgG8XRlpB2LeqXpxeSTsUrbQD7JBVQq4mrNpNXyp63rZDN2RzznMcqU9FYdQker+9Tq69In/CdeVyPskEkWBcFZ0fbiRdOiSbhlhGcLY8rL9RVCvfX4/d6hn7N4vqeGvM3rj+nyx1LOHH7wv8JmboUKMOpp/Nlhv8YUrE8RmqI3xGOnJd8mUaiT3W89eQL+xugI6kjXVF90avXW1+rb1T33FTwgihox4gpldcKxcyMhgAVi81hgWb2s64dFBwpcxypAXlKlUtCdFTkF+Wmub5aNRiuO1FZ9d92jXW4R7c7laSGfoYYXW5S98G3RDNUU22/5zNG1UuWPUyQILTlRAgMBAAGjUDBOMB0GA1UdDgQWBBQ3pwErOQvyKoKKEq+GvUxT8hbpCjAfBgNVHSMEGDAWgBQ3pwErOQvyKoKKEq+GvUxT8hbpCjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBfsUXqS4SoJzKLqA/BcJGXarRaO00NWcjD8V12wNLb3QPThJq7c49fobFmP6WPDh7syOX6Efy58/pWUfCCSPygm3nxjiUiAymmBvTq1taR0KPXQ/+44yVdDmYQmniqpJ/1P0Nvi68htFZTLZwZZVPVJwMkqLv9KngqXib5UKfIfiP9ClFPgrIVDVbaEutfmUQN4i+weDIKBbQerBOUsk7fhLrCX4Wr/Zo2ZfgvNvJBKYw3utQwfrB9A+582t6m8yYaJN51H+vNsDI5s1zCYdxFw26A3X39hLp12SKs1N5WDbx7MoRRiUg9LumN6Xjw7CFjf65+0EKGszBkuf2LH1mI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDoTCCAomgAwIBAgIJANEssF6sXLAcMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTmVncmFyMRkwFwYDVQQKDBBDb211bmUgZGkgTmVncmFyMRwwGgYDVQQDDBN3d3cuY29tdW5lbmVncmFyLml0MB4XDTE4MDQyNjE0NTIzM1oXDTI4MDQyNTE0NTIzM1owZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZOZWdyYXIxGTAXBgNVBAoMEENvbXVuZSBkaSBOZWdyYXIxHDAaBgNVBAMME3d3dy5jb211bmVuZWdyYXIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHvmgG8XRlpB2LeqXpxeSTsUrbQD7JBVQq4mrNpNXyp63rZDN2RzznMcqU9FYdQker+9Tq69In/CdeVyPskEkWBcFZ0fbiRdOiSbhlhGcLY8rL9RVCvfX4/d6hn7N4vqeGvM3rj+nyx1LOHH7wv8JmboUKMOpp/Nlhv8YUrE8RmqI3xGOnJd8mUaiT3W89eQL+xugI6kjXVF90avXW1+rb1T33FTwgihox4gpldcKxcyMhgAVi81hgWb2s64dFBwpcxypAXlKlUtCdFTkF+Wmub5aNRiuO1FZ9d92jXW4R7c7laSGfoYYXW5S98G3RDNUU22/5zNG1UuWPUyQILTlRAgMBAAGjUDBOMB0GA1UdDgQWBBQ3pwErOQvyKoKKEq+GvUxT8hbpCjAfBgNVHSMEGDAWgBQ3pwErOQvyKoKKEq+GvUxT8hbpCjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBfsUXqS4SoJzKLqA/BcJGXarRaO00NWcjD8V12wNLb3QPThJq7c49fobFmP6WPDh7syOX6Efy58/pWUfCCSPygm3nxjiUiAymmBvTq1taR0KPXQ/+44yVdDmYQmniqpJ/1P0Nvi68htFZTLZwZZVPVJwMkqLv9KngqXib5UKfIfiP9ClFPgrIVDVbaEutfmUQN4i+weDIKBbQerBOUsk7fhLrCX4Wr/Zo2ZfgvNvJBKYw3utQwfrB9A+582t6m8yYaJN51H+vNsDI5s1zCYdxFw26A3X39hLp12SKs1N5WDbx7MoRRiUg9LumN6Xjw7CFjf65+0EKGszBkuf2LH1mI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunenegrar.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunenegrar.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Negrar</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Negrar</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comunenegrar.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

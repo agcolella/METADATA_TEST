@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Valdera" entityID="https://www.unione.valdera.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Valdera">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7hAY4rA5Hk5BAoNze5RUxMp1AkdrgOUQQZMegdk7p9g=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Kqu2/5ol+vnrXc2SYOCMlHDgGdIjlITNi5XwsW0jxxyg1SkL1dr9RJhvAWeZ4dpSKL6s4gPl3As1
+teX0EbCJQSyOQhYlr6anRP8pK4Zw5yBPygE8CyxZlWydS7W7JA7xpNqcC6jdh7wh/SjaCpdmkgon
+54Y8KpFGF2obByq7/N74qZyAnHCDlt4DwKN0L20swB+WB/cfoVPcT888BK0UJb5W0ij39HStNc00
+oJRdjaQWSiTwTsn1MGsDa0GGz66YiuYoRbasM+NOVF2BiQc2yjyEnUA/LcA1mP+XyKpZAamlJC9l
+0r+i22+te3WOYs25WjvmNqWbH4CD4Zund/qe1g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+z3J+ghI/E8CcIM42efbWXr9LKst7Wlnm0saHjSsS1oDgLZu7DozCujxzg2cZnHd8gIW5CL8wq59c
+3HOVT8HjZihxzEmCgTcvybrOFK+bOUVV/JjR+ZqmwYEnCx8WPzr9/FmPyXVZ433uvL0xj3bzblky
+F8/bd1MrkK9eEiR//wtPy1I+qejCqAcPEnqgueEijeo7h6asV2E6aHoQFLXKmrRxA8YvkDALwDX3
+0ry/rFNPvxTpuqSZ8gDxYwV3h09CuV6phVoQcUl6gN9O+jfRDtV2Sy/m2DqafGhSR+mjLet8suG9
+NA31enugeY0gTD6zGCo1iDAkG7a8+HSwxF8lvw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJANACja2g3RUZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy51
+bmlvbmUudmFsZGVyYS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgxMjE3
+MTM1NDQ2WhcNMjgxMjE0MTM1NDQ2WjA/MSEwHwYDVQQDDBh3d3cudW5pb25lLnZhbGRlcmEucGku
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAz3J+ghI/E8CcIM42efbWXr9LKst7Wlnm0saHjSsS1oDgLZu7DozCujxzg2cZnHd8gIW5
+CL8wq59c3HOVT8HjZihxzEmCgTcvybrOFK+bOUVV/JjR+ZqmwYEnCx8WPzr9/FmPyXVZ433uvL0x
+j3bzblkyF8/bd1MrkK9eEiR//wtPy1I+qejCqAcPEnqgueEijeo7h6asV2E6aHoQFLXKmrRxA8Yv
+kDALwDX30ry/rFNPvxTpuqSZ8gDxYwV3h09CuV6phVoQcUl6gN9O+jfRDtV2Sy/m2DqafGhSR+mj
+Let8suG9NA31enugeY0gTD6zGCo1iDAkG7a8+HSwxF8lvwIDAQABo1AwTjAdBgNVHQ4EFgQUrE2r
+tfgJtFfscsw20NPRSX5JfHIwHwYDVR0jBBgwFoAUrE2rtfgJtFfscsw20NPRSX5JfHIwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAWK5FjWcZHknIxycneb3o7X29qp4T+ecyIcAOSeS0
+bafs52k8/X7vMCVXTKwv1QCKTYWd5aHZ9Ed1jZSylgysTSrVjhW5K201iYxhEvX1pdsoG2u3zD9z
+oi2NlXAQn/GeFL1DJN4H9U9ZtdNlAQoMmaHYMkxISc0TsAh3zAMOS2s/gwv0ZSrOI6RTqksdMlmh
+iLwnC/dwHZO1jBC+ffO2yJQAiGRkTPR+u/GeLDFwrcQ19/S9aChd5wX6MOTY3neY+p6nEFq0iQjH
+rNZtBANdJlcqE4tJFqcE7OiB+m72GM9Q3RYPT8pEkemmZ7ybRk1WS4Mz7kPJadqQB3apic0ldA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJANACja2g3RUZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy51bmlvbmUudmFsZGVyYS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgxMjE3MTM1NDQ2WhcNMjgxMjE0MTM1NDQ2WjA/MSEwHwYDVQQDDBh3d3cudW5pb25lLnZhbGRlcmEucGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz3J+ghI/E8CcIM42efbWXr9LKst7Wlnm0saHjSsS1oDgLZu7DozCujxzg2cZnHd8gIW5CL8wq59c3HOVT8HjZihxzEmCgTcvybrOFK+bOUVV/JjR+ZqmwYEnCx8WPzr9/FmPyXVZ433uvL0xj3bzblkyF8/bd1MrkK9eEiR//wtPy1I+qejCqAcPEnqgueEijeo7h6asV2E6aHoQFLXKmrRxA8YvkDALwDX30ry/rFNPvxTpuqSZ8gDxYwV3h09CuV6phVoQcUl6gN9O+jfRDtV2Sy/m2DqafGhSR+mjLet8suG9NA31enugeY0gTD6zGCo1iDAkG7a8+HSwxF8lvwIDAQABo1AwTjAdBgNVHQ4EFgQUrE2rtfgJtFfscsw20NPRSX5JfHIwHwYDVR0jBBgwFoAUrE2rtfgJtFfscsw20NPRSX5JfHIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAWK5FjWcZHknIxycneb3o7X29qp4T+ecyIcAOSeS0bafs52k8/X7vMCVXTKwv1QCKTYWd5aHZ9Ed1jZSylgysTSrVjhW5K201iYxhEvX1pdsoG2u3zD9zoi2NlXAQn/GeFL1DJN4H9U9ZtdNlAQoMmaHYMkxISc0TsAh3zAMOS2s/gwv0ZSrOI6RTqksdMlmhiLwnC/dwHZO1jBC+ffO2yJQAiGRkTPR+u/GeLDFwrcQ19/S9aChd5wX6MOTY3neY+p6nEFq0iQjHrNZtBANdJlcqE4tJFqcE7OiB+m72GM9Q3RYPT8pEkemmZ7ybRk1WS4Mz7kPJadqQB3apic0ldA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJANACja2g3RUZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy51bmlvbmUudmFsZGVyYS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgxMjE3MTM1NDQ2WhcNMjgxMjE0MTM1NDQ2WjA/MSEwHwYDVQQDDBh3d3cudW5pb25lLnZhbGRlcmEucGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz3J+ghI/E8CcIM42efbWXr9LKst7Wlnm0saHjSsS1oDgLZu7DozCujxzg2cZnHd8gIW5CL8wq59c3HOVT8HjZihxzEmCgTcvybrOFK+bOUVV/JjR+ZqmwYEnCx8WPzr9/FmPyXVZ433uvL0xj3bzblkyF8/bd1MrkK9eEiR//wtPy1I+qejCqAcPEnqgueEijeo7h6asV2E6aHoQFLXKmrRxA8YvkDALwDX30ry/rFNPvxTpuqSZ8gDxYwV3h09CuV6phVoQcUl6gN9O+jfRDtV2Sy/m2DqafGhSR+mjLet8suG9NA31enugeY0gTD6zGCo1iDAkG7a8+HSwxF8lvwIDAQABo1AwTjAdBgNVHQ4EFgQUrE2rtfgJtFfscsw20NPRSX5JfHIwHwYDVR0jBBgwFoAUrE2rtfgJtFfscsw20NPRSX5JfHIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAWK5FjWcZHknIxycneb3o7X29qp4T+ecyIcAOSeS0bafs52k8/X7vMCVXTKwv1QCKTYWd5aHZ9Ed1jZSylgysTSrVjhW5K201iYxhEvX1pdsoG2u3zD9zoi2NlXAQn/GeFL1DJN4H9U9ZtdNlAQoMmaHYMkxISc0TsAh3zAMOS2s/gwv0ZSrOI6RTqksdMlmhiLwnC/dwHZO1jBC+ffO2yJQAiGRkTPR+u/GeLDFwrcQ19/S9aChd5wX6MOTY3neY+p6nEFq0iQjHrNZtBANdJlcqE4tJFqcE7OiB+m72GM9Q3RYPT8pEkemmZ7ybRk1WS4Mz7kPJadqQB3apic0ldA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/valdera"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdera" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdera" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdera" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Valdera</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Unione Valdera</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Unione Valdera</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Unione Valdera</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Valdera</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Unione Valdera</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Unione Valdera</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Unione Valdera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.unione.valdera.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.unione.valdera.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.unione.valdera.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.unione.valdera.pi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

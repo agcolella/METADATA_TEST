@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="123456789" entityID="https://www.comune.gioiadelcolle.ba.it">
+
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#123456789">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ZKUIhoSzqOQFxodtmRcVB4iM8b3/XzyZr8kCXSMCd5A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+emSe6JKV+w6rKPQGl6KK5+8Ng8cJw7lPjs9MhRdc7UbBP5vsuRdc2bktkp4iR8sjZsi5y5U0CN5t
+rKgaMP104FKbQL1AwABXh1oxE98KVCfprPMzvsXpN5M+77KikCdHe4dfizg/7vEXgIfZZhMrL+7x
+xO5a7SN8WujEekwnJMyFV2KMH1HbaLk2ckO8FAonZqFTgEQUFXEZ2iBZ7wsV6ZizhIt562rm4aY0
+tbgsoxywhTRhDlnN2A5InfXyAGPJ/izAKOf3RFQepQQDd4z9HWo/tPuRnr6SyvuRLqP086UAUpMl
+iJ0vm6HsrZCLW7VK09mDyfKpWZtQ/D9pl5/v1Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+48kvUS14uX8K8WCXXpWM9J/Pb559wlvRIFDROYIymEuUS3HS1/C7ykVUOCQXJLNg3FeAD5eYLOxI
+dhf8KVR5wL4J9jakMrlsl/2HG9tL8/P/MmHGNVvmyPqaPeUCrjg44Q5ItTeqimtSL3G0W/b04R/H
+Dza2FYjq6XcmgyWdVcFUwwS98nXnPA6IUnLYcAV09oQs+3Sf9mfysd6GPI3i8qpwQ+fcdjO9i/cv
+GYg4Eojl5hzCO9HS2fyQ94z8OZvlkiD2nm5mk1EchNt590kfW1RGF5lKKfEGcNX6Zr8516bKL7Fw
+TJd/pbCJ3AYkgvfyUZoM+hrc0lr2F4sGfDrf5Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIF5zCCBM+gAwIBAgIQeGEg5P0bSTMM/MXtZmV3qTANBgkqhkiG9w0BAQsFADCBjzELMAkGA1UE
+BhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEYMBYG
+A1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQDEy5TZWN0aWdvIFJTQSBEb21haW4gVmFsaWRh
+dGlvbiBTZWN1cmUgU2VydmVyIENBMB4XDTIwMDYxMTAwMDAwMFoXDTIxMDYxMTIzNTk1OVowKTEn
+MCUGA1UEAxMed3d3LmNvbXVuZS5naW9pYWRlbGNvbGxlLmJhLml0MIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA48kvUS14uX8K8WCXXpWM9J/Pb559wlvRIFDROYIymEuUS3HS1/C7ykVU
+OCQXJLNg3FeAD5eYLOxIdhf8KVR5wL4J9jakMrlsl/2HG9tL8/P/MmHGNVvmyPqaPeUCrjg44Q5I
+tTeqimtSL3G0W/b04R/HDza2FYjq6XcmgyWdVcFUwwS98nXnPA6IUnLYcAV09oQs+3Sf9mfysd6G
+PI3i8qpwQ+fcdjO9i/cvGYg4Eojl5hzCO9HS2fyQ94z8OZvlkiD2nm5mk1EchNt590kfW1RGF5lK
+KfEGcNX6Zr8516bKL7FwTJd/pbCJ3AYkgvfyUZoM+hrc0lr2F4sGfDrf5QIDAQABo4ICojCCAp4w
+HwYDVR0jBBgwFoAUjYxexFStiuF36Zv5mwXhuAGNYeEwHQYDVR0OBBYEFDY1+ZE2Ps2E5UIoPTUI
+ARg6rTUXMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMB
+BggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEBAgIHMCUwIwYIKwYBBQUHAgEWF2h0dHBz
+Oi8vc2VjdGlnby5jb20vQ1BTMAgGBmeBDAECATCBhAYIKwYBBQUHAQEEeDB2ME8GCCsGAQUFBzAC
+hkNodHRwOi8vY3J0LnNlY3RpZ28uY29tL1NlY3RpZ29SU0FEb21haW5WYWxpZGF0aW9uU2VjdXJl
+U2VydmVyQ0EuY3J0MCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5zZWN0aWdvLmNvbTBFBgNVHREE
+PjA8gh53d3cuY29tdW5lLmdpb2lhZGVsY29sbGUuYmEuaXSCGmNvbXVuZS5naW9pYWRlbGNvbGxl
+LmJhLml0MIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHYAfT7y+I//iFVoJMLAyp5SiXkrxQ54CX8u
+apdomX4i8NcAAAFyo6bFEwAABAMARzBFAiBw3zAODML41SicO+kTAeyupYUiP7hXZLMfK815CoVl
+UgIhAJS33BGxIWIjutkvmCAdZp8wq7t4UVEvtuOjS/Ew0qGEAHYAlCC8Ho7VjWyIcx+CiyIsDdHa
+TV5sT5Q9YdtOL1hNosIAAAFyo6bFPAAABAMARzBFAiBv3XEm7ZGGwu0DcYd+179EqUdwJuwl65vT
+ZOSA4QyqUgIhAOx7X5O6UydJFpBbGCLy29WtevahzuVR031Ahw7riMIgMA0GCSqGSIb3DQEBCwUA
+A4IBAQB4NLu3E3FAS/n0yDTHpgAvPbvmU3+AGz8HVnbYDSwzfN1fax/yG/kZkX/QdqTp292nAXRV
+4sC1OpybmlIwOrbQj/HztLN0Mgj2h58K5X+RhTiza4kGNZUbOrsPc7+3bfuUsGShQ4DhWLmkzZ3X
+tpM9P5hP1U48Q8CuTJvMN1qGUVOOHsuxvZ9WaiJRqdyLfKJqB11TXt0uEPbKDbWFNVRwQsOrMTYj
+WPvFEzK5wHuHczYCbfxJ3oQFg4m3064vZHC15CrLLfm0v8DDb9BmL5vMUkA67VQnFuiLBAYu+sbe
+YUGEzEsz+CFmEVq94kIv6Zf3RgiKkG7bi5R1FjqXcXOb
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+ 
+ 
+ 
+		
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	
+
+		
+		<!-- MUNICIPIA - Signing Key  - BEGIN -->		 		
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIDcTCCAlmgAwIBAgIEXzIvJzANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJJ
+VDELMAkGA1UECBMCQk8xEDAOBgNVBAcTB0JvbG9nbmExEjAQBgNVBAoTCU11bmlj
+aXBpYTETMBEGA1UECxMKT3BlcmF0aW9uczESMBAGA1UEAxMJbG9jYWxob3N0MB4X
+DTE4MDcxNzE1NDY1NloXDTI4MDcxNDE1NDY1NlowaTELMAkGA1UEBhMCSVQxCzAJ
+BgNVBAgTAkJPMRAwDgYDVQQHEwdCb2xvZ25hMRIwEAYDVQQKEwlNdW5pY2lwaWEx
+EzARBgNVBAsTCk9wZXJhdGlvbnMxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKj61RtVuZRzF5VtWO62rV2w0KQD69kW
+JITfcJu1BAZdEimDSmTYtwRZeXMoK7iVwioj2K9G0mm7W5YXjwaReEzzLhr/FfYp
+UCrlVHONdmcF1k716qKGIlTC48Xxz3t51lCmeOrMpq6UfX9kU5CoSaEzB2OpWoxs
+C4TU42CI9jxCsLlth0ucUtFKrs2UxlEJm3lGiG+BafS6JK0C4ltoLEj8leR/5ofB
+BbPVyvksTYZCDPtVAsgamvSxiZ+wr7Af2F13e1BNyWMOuJe4xkqIlto/V54nGFjX
+D7XTrAK3nftnK8RW0ZfOAd1kLDy+Wq/KyCkmt4JmocjYnEWCbIV0nnMCAwEAAaMh
+MB8wHQYDVR0OBBYEFMxUIz9pyKP7ypluWp9qN8GZgMsMMA0GCSqGSIb3DQEBCwUA
+A4IBAQCADGJcwiJ2YeIgLcjCFO6PPTEnPx8PfEGg9jpUHU7cXocuGQWha0SwxxLo
+ObAVSuptFK9k8GMFHZ5VjwT2nsjpuEubfrvLeIKRnzCGAbnL/ZBYE6L1PNtup/T9
+9196dPDHtTDWXlGw6pKyokk3oEWYxAy+htV6XdPtUWQysZFAhh80i6ik3alOOWyi
+ii74Fn0Mh7R80LZQBE6r/B9pRt3OTJiF4aTxBHm2JVniWWJu8luSnMhuwEL2Wg9U
+JtWvvP11YRreRWxaTWurwhqfZF/gsvKRUPHx+ZIEh74zFvBhq5MWtDHxLKNCMVRf
+ly/DUosV2BQ3akE1fx92rzzS5pqC</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+		<!-- MUNICIPIA - Signing Key  - END -->		 		
+		
+		<!-- ARGO - SingleLogout  - BEGIN -->		 
+		 <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cizrm.municipia.eng.it/logout"/> 
+		<!-- ARGO - SingleLogout  - END -->		 
+
+		<md:NameIDFormat/>
+		
+		<!-- ARGO - ACS  - BEGIN -->
+		 <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cizrm-be.municipia.eng.it/auth-middleware/acs" index="1" isDefault="false"/>
+		<!-- ARGO - ACS - END -->
+				
+		<!-- ARGO - Attributes  - BEGIN -->
+        <md:AttributeConsumingService index="2"> 
+          <md:ServiceName xml:lang="it">fe-cittadino</md:ServiceName> 
+          <md:ServiceDescription xml:lang="it">ARGO - Portale Cittadino</md:ServiceDescription> 
+		  <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+		  <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+		  <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+		  <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+		  <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+		  <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+        </md:AttributeConsumingService> 
+		<!-- ARGO - Attributes  - END -->
+		
+		
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Gioia del Colle</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Gioia del Colle</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en">https://www.comune.gioiadelcolle.ba.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

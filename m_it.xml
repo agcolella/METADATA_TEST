@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Id-9d389166-c0e2-4448-b697-bee4ffefadb6" entityID="https://spid.interno.gov.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Id-9d389166-c0e2-4448-b697-bee4ffefadb6">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6MlHJmghJ6w5QSddaJ+FQtLD9KwHpHy7k7f9J030zwM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+AIOSOQBeub9fBN1FqANEJRkTt0inQvjA/It4xvAN88XCIAK4RSN/hDnT9ZPfHY9vqcsBQDhrhFUx
+X22E7yI65YMgMu/q3+fq3pQ3AR0iifrKFupgwLvl4ZHAO/5cymzr9wn5eubu1bA55YtbElHXxfjA
+hCXE2WR1JY7z9HyVbL0rdqmhHiWhpvTNNEQTUikxL2B5h+v+uD1ewXpvDvIYNG694UNd+G0Hz+49
+M5UBfYpmjwV/9yxKJnU0eXUgELYdib/g27+mka0Wkwg+59DjLq0Krwk+nha99gQGOj+XZv8UCh8d
+qYFsmdWXdpUn2pmDlcYBreVaZLd3EACIqZek0g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uP+ca+8/oJyvt/yThGyuOnymn3nTDO9JuzA4mnSXMF36yWN/3KBsVPqO+7Ca6WeJoo/kGYb9TVlr
+YxfpYAH5uLMM8GYD0PMzp+xBcvNMnfdKvo6cYFxW0c6RxTwowMjID+YL+6/5vWFP1gCeCejQrR4h
+Gx6u93MZaoTxWEUfC4RWjv0f0wR9bDmMWo+XfcOAfWuo1aNOimIl8w0MEq/qj4uGwQ4dygHAjGWs
+OfGEfRi4BZR8yVgnwa/D+9p6/n9AJ38qWSQPTgitE4KQys58+PKeyxdXJ6vs98I8N40VauPxgwno
+avkeEV/+zU2YF2fW7dLAvDsqzSDyyeHbo8/lmw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEFDCCAvygAwIBAgIJAOADkmuwC4stMA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBFJvbWUxDTALBgNVBAoMBEFnSUQxIDAeBgNVBAsMF1Nl
+cnZpemlvIEFjY3JlZGl0YW1lbnRvMRkwFwYDVQQDDBBzcGlkLmFnaWQuZ292Lml0MSQwIgYJKoZI
+hvcNAQkBFhVzcGlkLnRlY2hAYWdpZC5nb3YuaXQwHhcNMTkwMzI3MTUyMzM1WhcNMjAwMzI2MTUy
+MzM1WjCBnjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ0wCwYDVQQHDARSb21lMQ0wCwYD
+VQQKDARBZ0lEMSAwHgYDVQQLDBdTZXJ2aXppbyBBY2NyZWRpdGFtZW50bzEZMBcGA1UEAwwQc3Bp
+ZC5hZ2lkLmdvdi5pdDEkMCIGCSqGSIb3DQEJARYVc3BpZC50ZWNoQGFnaWQuZ292Lml0MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuP+ca+8/oJyvt/yThGyuOnymn3nTDO9JuzA4mnSX
+MF36yWN/3KBsVPqO+7Ca6WeJoo/kGYb9TVlrYxfpYAH5uLMM8GYD0PMzp+xBcvNMnfdKvo6cYFxW
+0c6RxTwowMjID+YL+6/5vWFP1gCeCejQrR4hGx6u93MZaoTxWEUfC4RWjv0f0wR9bDmMWo+XfcOA
+fWuo1aNOimIl8w0MEq/qj4uGwQ4dygHAjGWsOfGEfRi4BZR8yVgnwa/D+9p6/n9AJ38qWSQPTgit
+E4KQys58+PKeyxdXJ6vs98I8N40VauPxgwnoavkeEV/+zU2YF2fW7dLAvDsqzSDyyeHbo8/lmwID
+AQABo1MwUTAdBgNVHQ4EFgQUaVDGilDmLHVMZgbxsrxu7/qP4/AwHwYDVR0jBBgwFoAUaVDGilDm
+LHVMZgbxsrxu7/qP4/AwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEANXOhiFnF
+8OIb30PzzOtDYrjHCi/+YBRknglSexG570/vrpoSoQp3MqG5Iw3tMKs5iiVpNd/awxGV8wyqRon1
+ayDbYuL4yk4rTJHBNulNqeDsOGeH6qKK5QpBk6WC9t5lL64iGYr5N1VPMDljuf3Ax0sMuH3Rsnmn
+4k4+p3aLdLLq2BulDijqmTOCkFqdz4XYnFVWON/M7JuehLAQ2d8qMa2LisSFW3H2+lWqoWZNRGcv
+wZHV5CyNN8C1pI9vqS4hqlaRzTM33INv2SdjVy9h70giBqYSYhQjWU+ON2G7X/a9kmBAaifHqWJ4
+VWsAt9GF8CLcRGV5jjIeilc5YgJyEA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<!--ANPR-->
+    	<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIICVTCCAb6gAwIBAgIBATANBgkqhkiG9w0BAQsFADA4MQswCQYDVQQGEwJJVDEO
+MAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwHhcNMTYw
+NDA1MDAwMDAwWhcNMzYwNDA0MjM1OTU5WjA4MQswCQYDVQQGEwJJVDEOMAwGA1UE
+ChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwgZ8wDQYJKoZIhvcN
+AQEBBQADgY0AMIGJAoGBANvyjZ89m39BNYtwpOW3gpSt1uHOrwo/6U0GfzS2Xdpj
+rr54zboaSfzMvLUAjtsL39sH1bJ5eqF0qgw4bVnEEfrMlAD2OoJ45K+USlAizxx6
+A9r+/Tm3PZHUEbcm+fjrF/C6005/BE3WVQcvd0eci/G0R8niPy2xxdijG10psRWT
+AgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFF6rklv/QJyKRgz7Ll6E
+2Qt6ER5lMAsGA1UdDwQEAwIF4DARBglghkgBhvhCAQEEBAMCBkAwHgYJYIZIAYb4
+QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOBgQC+B+wXsrLY
+87WtTLMa7b2L+7uJPS5VGJ0H/6PJFmc8w+MjZ1fxLYtoVLUBIczbhArjinCUS0sw
+sC+3bR5GtBGcJNOZBY7wrL1iuSRQgbzs1Sg5rPAT2H0jPaj/kj/SQxnCTKLHmXJC
+YyWmZgkkVenVbFbwBvBA5Z0Hm/9VxkT5kg==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<!-- AGENDA CIE -->
+    	<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:KeyName>sp.servizicie.interno.gov.it</ds:KeyName>
+				<ds:X509Data>
+					<ds:X509SubjectName>C=IT,O=Ministero dell'Interno,OU=Direz. Centr. per i Servizi Demografici - CNSD,CN=sp.servizicie.interno.gov.it,UID=SIGN</ds:X509SubjectName>
+					<ds:X509Certificate>MIIFNjCCAx6gAwIBAgIIawLDOyY5mgIwDQYJKoZIhvcNAQELBQAwga4xRTBDBgNV
+						BAMMPFN1YiBDQSBmb3IgdGhlIEl0YWxpYW4gRWxlY3Ryb25pYyBJZGVudGl0eSBD
+						YXJkIC0gU1VCQ0EgRU5USTE3MDUGA1UECwwuRGlyZXouIENlbnRyLiBwZXIgaSBT
+						ZXJ2aXppIERlbW9ncmFmaWNpIC0gQ05TRDEfMB0GA1UECgwWTWluaXN0ZXJvIGRl
+						bGwnSW50ZXJubzELMAkGA1UEBhMCSVQwHhcNMTkwMjI3MTIxMTIwWhcNMjIwMjI2
+						MTIxMTIwWjCBpDEUMBIGCgmSJomT8ixkAQEMBFNJR04xJTAjBgNVBAMMHHNwLnNl
+						cnZpemljaWUuaW50ZXJuby5nb3YuaXQxNzA1BgNVBAsMLkRpcmV6LiBDZW50ci4g
+						cGVyIGkgU2Vydml6aSBEZW1vZ3JhZmljaSAtIENOU0QxHzAdBgNVBAoMFk1pbmlz
+						dGVybyBkZWxsJ0ludGVybm8xCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEF
+						AAOCAQ8AMIIBCgKCAQEAw3PwDGURVqGIEi+v9UdvB2YrvopO8yJYTZ/TDSx3S/s0
+						nbGtemx3kfi8atb2eNmTVQi9+bI2HgN4fqq1zyToHuUYHTKs897rw7hVVQVSHGWa
+						mWrD+trSnzM3eCvIJNxoJLRRlLEQ+E7vDCRf/yeUZfsgXUm6zCW86CyJWi6oKgyE
+						i8joztEkdGXB2a+xFK6g3x0WIl0/B6ElV9y52hd4USzdEpXD3LPrO8pcko7D6/7L
+						8yX8gV7HRNTS8ye05skjj4Pz9Bgn9oDWhfoa8U1JkY+Yyk0gkEhTtMQ7yJF1I99H
+						XYAlgXd468n5flvBbp7kNL+OJjL52oCtk40Cr+vYqQIDAQABo2AwXjAdBgNVHQ4E
+						FgQU4Yw6wCY6QNkGBOugkKGpWuiP0iMwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAW
+						gBTYLllS/GekhqRleDW8/R86oma2eDAOBgNVHQ8BAf8EBAMCBkAwDQYJKoZIhvcN
+						AQELBQADggIBAJ8hwVESq75OWiHCxwrmZmHPn3eoMlC/5bblgn/3pIlEZZN0EmGR
+						u6B+9vJx22u6RVIA5lzR7NFSHGromhdTnkXUhdJecANJGRTFdDg1VWJ+5pUwxtWX
+						D6uG92iNOpqRNbmbibLSjj0iIwipw2fQxqDNwqsDOZkNbT5Y1gwNFiZW/JQnfAcr
+						6+0gV2Jtla3zmk3+wRJ46ulFRj4RCR28al0OB7Uu+JhPWDB9Y9G5QDiqbBr5LmaD
+						FNXQ680uJmb58l1rcEl1YP7//Qf9VYYtusW4B104t/7gXMrIqpGGLqeB3nMmeI+9
+						3TDIRGm5iU93Lg6K3S2YKXEBJVzlMSmYs7GCn466dmvAsEKG02VbPgoGdVLr9WiG
+						2WsBkLpLe08Qh5t+mwbVU4TAdEdUZ9gw53JS/sh9Q8R09hpb0UMZd6ejdJkhjNwO
+						1fZRxggsNOYHh0YUD1qhobDFOn8r5p/inHHeB5/q5pD8dCJylt/WaGTp2S+jUj+U
+						SgjzV38Z4BVK4Cf545swduoMYa0+VAtH2FjzBQw4X9R59i0DYtS9TjXscs6PkmMG
+						WXCbp4tWS0weP5nrwWq3Zbayflb0Qo82zghu6DUKsLK7T50Ylijx5IMm93+cr/a5
+						nJb7cvkkDUH1BHyVWDc/Zp4RYaoQAACSVrlH3U4SAGVkw0d9jBQMijxA
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<!-- SPIDGW DAIT -->
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIID3DCCAsSgAwIBAgIBBDANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCSVQxDzANBgNVBAgTBklUQUxJQTENMAsGA1UEBxMEUk9NQTEfMB0GA1UEChMWTWluaXN0ZXJvIGRlbGwnSW50ZXJubzE5MDcGA1UECxMwUy5JLkUuIFNlcnZpemkgSW5mb3JtYXRpY2kgRWxldHRvcmFsaSBVZmZpY2lvIElWMREwDwYDVQQDEwhDQUNlZFNpZTEhMB8GCSqGSIb3DQEJARYSc2FsYWNlZEBpbnRlcm5vLml0MB4XDTE4MDYwMTExNDAwMFoXDTI4MDUyODEwMjIwMFowgYkxCzAJBgNVBAYTAklUMQswCQYDVQQIEwJSTTENMAsGA1UEBxMEUk9NQTEfMB0GA1UEChMWTUlOSVNURVJPIERFTEwnSU5URVJOTzEnMCUGA1UECxMeU0VSVklaSSBJTkZPUk1BVElDSSBFTEVUVE9SQUxJMRQwEgYDVQQDEwtzcGlkZ3ctZGFpdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEQxNQujTGNRjEYSnrKMEeSsMb3CDqkcN24nM3MrmYj7DclqK5KVIQCJCnWvu71tuhd0kyEbE+/b0lSSgBJzz+yrN+AQN+PbUdSC8//xHRaCQEziJzcl7rFa7vDzSJycd4ikAtOS6ZVEVzUNxATeF8lbWzl382DRRAklkg2SZgtZaa2o2CGHPhJgwVFq0d6g3F2PQMgKZhSxgo+e8BPGTZcVkbiVGbVy83ppCKjroU1UDcNibiXCfgEhaMbbd3FnWdZH+YikBH0AXlQcF8nzys2btCVxZiXfItmKOe22N98eBeNi03B1Kw95xuPY7UYHrtnzj8eMHNep3+kCeSUanECAwEAAaMXMBUwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcNAQELBQADggEBAC/X+no8EBeYxQqb0Cc9JKhp0m2LWwpkLEIcZj/OkQHcu19HGcRV6Vo+jpLpO6IHGnLljQIpMitq2O2rL9wAnSKnuLoxoja4eCsEwGtwkds6rj2xeDD23pjwKJeVO7mvo5YhnM36VizhTAG2I6+n3j6aSP4ENq0b8qaUZiLLaOevBcSurUe+rkUCFesCBUn0YH+mQ7ZrxGJUA8PfNuBXgKC/lxS+8NLiSFv6SR3p8EVcWn8ojRZinLb8lsGpEC9t7dZhTXr8DcPxw2SqVfGF+89NsqpFM9ytnZ4VktfYd3o58eYXbJa1wuKR5j4Um0OyipbFNdZj44EGKC9pM0LcU+s=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+    	<!-- ANPR-->
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.anpr.interno.it/sp/SingleLogoutService" ResponseLocation="https://spid.anpr.interno.it/sp/SingleLogoutService/response"/>
+    	<!-- AGENDA CIE-->
+    	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sp.servizicie.interno.gov.it/Shibboleth.sso/SLO/SOAP"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sp.servizicie.interno.gov.it/Shibboleth.sso/SLO/Redirect"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp.servizicie.interno.gov.it/Shibboleth.sso/SLO/POST"/>
+		<!-- SPIDGW DAIT -->
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw-dait.interno.gov.it/spSLO"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    	<!-- ANPR-->
+    	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.anpr.interno.it/sp/AssertionConsumerService" index="0" isDefault="true"/>
+    	<!-- AGENDA CIE-->
+    	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp.servizicie.interno.gov.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    	<!-- SPIDGW DAIT -->
+    	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw-dait.interno.gov.it/spJWT" index="2"/>
+    	<!-- ANPR-->
+    	<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">serviziClasse1</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+    	<!-- AGENDA CIE-->
+    	<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">serviziClasse2</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Telefono" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<!-- SPIDGW DAIT -->
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Servizio DAIT Base</md:ServiceName>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="digitalAddress"/>
+			<md:RequestedAttribute Name="familyName"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Ministero dell Interno - Dipartimento per gli Affari Interni e Territoriali</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Ministero dell Interno - Dipartimento per gli Affari Interni e Territoriali</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://dait.interno.gov.it/</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

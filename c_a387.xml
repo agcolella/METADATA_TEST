@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="fd1fbd85-7307-4c54-624e-c547932cfca0" entityID="http://www.comunearenapo.it/it-it/home"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#fd1fbd85-7307-4c54-624e-c547932cfca0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>NQV8oSrK+sxeaHkbPVh5BZ99YzDh+b1OmS+tdIh5B7E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+j5lhLylbQd8ThbBblUA+/klyjh4oI/rJHSNBHDn+AGo7k42IT2Xa5lVTWNGnh71Ufg+7zJEi7EjK
+iyVNE0WHaM5lbzul2P3J1rwlW46+fuylOn41EMVJwQnnVvJXMM/lu++Fo1BCsN5TdEmj9a9GNArd
+BYayK7dhqlubd/m80WWEUxaiqi69gSe+jRFtrsXN/1xP036BOJmCa+OAW3lO8KkW/JHSfwXC7Zsl
+Haxdn5Lrn72YmdirclLYwjbut00ZB5znjCQgJP2RHreEjJZA/ePwqV/y64b06GUT41NV+clTQEQ7
+JMKwEYrYY8nse5FgfTEW6WCyGjd4KeoZI8LB9w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wTpfwCe5zctLb9eX0SEwQ71zfPFzG/ALWkDT2MWInd1qky3iaF0t5r9vjp7Hlg2mNEs8DeRWjM72
+kv59cFt3ciX/bc4WuPbMMnZkNQj+nnz3/+3wY/MyBQdaBH8nhnXkbAAVz+VByO6XVRvs9sZfr+TD
+tyVWb7q5dqKSNqgXbQMw0sS7WUi6RhGRJtqdSXMPaNb0nLkR+eEcfF1vOkMs07bQh/scM3YnfwqX
+zM50tbyL8vJm5eGJTb3S628ayJVQ9KbLXnMzAG1PUDWmta8DULP0aUw+zIvqiKjsgKZxB/J7uyEm
+4rmprz/f3ZTIvYAZ7NFYuwAPplOMu0s+K2UGQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYTCCAkmgAwIBAgIJAKNNjeJ/r5oNMA0GCSqGSIb3DQEBCwUAMDExLzAtBgNVBAMTJmh0dHA6
+Ly93d3cuY29tdW5lYXJlbmFwby5pdC9pdC1pdC9ob21lMB4XDTE4MDUyMTEzMDEwNFoXDTI4MDUx
+ODEzMDEwNFowMTEvMC0GA1UEAxMmaHR0cDovL3d3dy5jb211bmVhcmVuYXBvLml0L2l0LWl0L2hv
+bWUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBOl/AJ7nNy0tv15fRITBDvXN88XMb
+8AtaQNPYxYid3WqTLeJoXS3mv2+OnseWDaY0SzwN5FaMzvaS/n1wW3dyJf9tzha49swydmQ1CP6e
+fPf/7fBj8zIFB1oEfyeGdeRsABXP5UHI7pdVG+z2xl+v5MO3JVZvurl2opI2qBdtAzDSxLtZSLpG
+EZEm2p1Jcw9o1vScuRH54Rx8XW86QyzTttCH+xwzdid/CpfMznS1vIvy8mbl4YlNvdLrbxrIlVD0
+psteczMAbU9QNaa1rwNQs/RpTD7Mi+qIqOyApnEH8nu7ISbiuamvP9/dlMi9gBns0Vi7AA+mU4y7
+Sz4rZQZDAgMBAAGjfDB6MFkGA1UdEQRSMFCCJmh0dHA6Ly93d3cuY29tdW5lYXJlbmFwby5pdC9p
+dC1pdC9ob21lhiZodHRwOi8vd3d3LmNvbXVuZWFyZW5hcG8uaXQvaXQtaXQvaG9tZTAdBgNVHQ4E
+FgQUnOBShQjlVAPw3kVVNtT/hl978jswDQYJKoZIhvcNAQELBQADggEBAGWBum6TpxaxT1nmrRQb
+iG4c/dGcHk9U8eghq5H+WlXHG0bDQ1NVr1zA/phOdK1Lu517BttdoMb6edxmRqvaNnZEOdI0WujQ
+vf2cPEc3Dvpp1McifC2SdwlacEITEsQOIfWOce2BgNRkZJYaSaaxkyjQBP3ZPPJ1QKbjC7Eh9u2V
+ugcTbr3ryu84UZNqfmSxgf3uMYxoHldBkXEM8rm0oa2F0AZXklhWNNwVvBrHbdjCcNKbU1gluM4j
+BlzjnLjCrRlHVnHpDvg762EQUpXmu/bJVo7iclJAb/FZGOjpQZkBzy/UOpWBQDCz0oAnYJdp9WsS
+hq1nfXSR1Qcn9Kv/MwI=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJALl7sQL41DtoMA0GCSqGSIb3DQEBCwUAMDExLzAtBgNVBAMTJmh0dHA6Ly93d3cuY29tdW5lYXJlbmFwby5pdC9pdC1pdC9ob21lMB4XDTE4MDUyMTEyNTg1N1oXDTI4MDUxODEyNTg1N1owMTEvMC0GA1UEAxMmaHR0cDovL3d3dy5jb211bmVhcmVuYXBvLml0L2l0LWl0L2hvbWUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC6zsfxZYPVLKmBMZj6aY2JMJfs9tC5kN8QAqoktQzKIVl3ImQMgrrnftql4O5OMgbvNbZ3BfMkjrEFHgg8274dCDdJAeGq7hxflcy/MVkxBs2jgfQ3FOp3ShZPbiJF56Idp8nGwdt6ZgyuaNRFNV3uw2TdcfoLSPMvDExENIIKkb9G0vhjLmHVQxBw9Tvvgii1TIMjvboPnpQIiA7wIqzLCi4mdZUwdmZNph2ugQwwCW+B/i86NCNnJ2GSOn5SVYVumBiAz2TqDA5hWkuBQZzalzL9hh7KGXWB+R3Upl9vzKZAFNlwxfh3Za2Lv+/hyPEWWDbIJ+6bvCLpMXiufc9fAgMBAAGjfDB6MFkGA1UdEQRSMFCCJmh0dHA6Ly93d3cuY29tdW5lYXJlbmFwby5pdC9pdC1pdC9ob21lhiZodHRwOi8vd3d3LmNvbXVuZWFyZW5hcG8uaXQvaXQtaXQvaG9tZTAdBgNVHQ4EFgQUtfzD8r+Tu8WVNmJaGL402cx4BmAwDQYJKoZIhvcNAQELBQADggEBAJVR4PFc+ZzovCrNomEomhJ975GUG9FSkTrH/R9GsE7Tg5mKcYMFOrqBxj77ddzmsramW22BKPQrDTbiuRnYPcgOdAADpxVCgNj5u4xyRtLBnlSXtRoDl1IM87aScgnQBGR2qOFIMtqCLspnWnRSBVxgZjtajBsgcdDjxsseF2mGcLfK8a4BHa++q7oDni+Q1aoEjqLDXyREtD/VxSHQnIPpifKM74/0Jr4h8Y2iQKxr5WOJ8Kddo5X/2pfGpCc58rTXPDYrxpawtCE8ZFjFQOdQ9Zu61lEFC8jliuS0IACzwyp9sRgFaD2EwN3fApDJcjn5SLC4NOzic2skQCtMK4U=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.arenapo.pv.it/cmsarenapo/spidsinglelogout.aspx"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.arenapo.pv.it/cmsarenapo/spidassertionconsumer.aspx" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Arena PO</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">comune di Arena PO</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comunearenapo.it/it-it/home</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

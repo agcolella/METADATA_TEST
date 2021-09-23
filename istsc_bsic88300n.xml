@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://www.icnord1brescia.gov.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/metadata.php/default-sp" ID="pfx8808fa86-856f-49ba-21e8-eacc6f6b0418"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8808fa86-856f-49ba-21e8-eacc6f6b0418"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>SIBBatn8p8SY7TrKG50qEmuXIEBVj3h0ok9/tkJBJlc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>1GVENZZk6N8SMf6fPMPnGMbSA9hiAgU9+e2QfZ6jWIrAjOJGh7W/oCzCvcTMfEeFicW7iuC0HizqEacTXbBggZeUIgZZyrBjme11j0ouAi6VzSXPhtkBkOfya5m5Ifjw3C52sxSKt9jgn6lLAb3/mmoBRjA6Vnp7RiwAPLNMlvG5vribt6YMmiEmK6TegRWcAyZqMYI/09rP6miAaXbTyCwwWA5GPRosRcRTKM5U9Hoogb59i0BLPzfY2djbEyPOW1NdWjOXH0CaZuNUFOYbsImZatxjVAZ0go78HBJ3iS3Hx5sgLNYV6Z8I1ezFHNOPoCz2mXEWaHWrCN9CorkoBg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEGDCCAwCgAwIBAgII3WfxgyJVwAAwDQYJKoZIhvcNAQELBQAwgaIxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRAwDgYDVQQHDAdCcmVzY2lhMRAwDgYDVQQKDAdJY25vcmQxMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSIwIAYDVQQDDBl3d3cuaWNub3JkMWJyZXNjaWEuZ292Lml0MSEwHwYJKoZIhvcNAQkBFhJhbGVwaWF0QHRpc2NhbGkuaXQwHhcNMTgwMTA4MjIxMjI4WhcNMzgwMTA3MjIxMjI4WjCBojELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExEDAOBgNVBAcMB0JyZXNjaWExEDAOBgNVBAoMB0ljbm9yZDExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY25vcmQxYnJlc2NpYS5nb3YuaXQxITAfBgkqhkiG9w0BCQEWEmFsZXBpYXRAdGlzY2FsaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVtE/nBi14Btw1r6+OA+agbXg7iQu7zjg0eDykZULFMaq/NAw7t9FS+VcKqO11QveFwDu641pIh46ghdUVnZSornEpNVaLGy0Q07Yo5Grpo+fQGenQhFCdfWf93PTAIB89MQrs1omc6Xx0XPmb+DkcvhUjB6Ml94qYOJyz+KdPjqU+Tcx6KN4OI1tzRSnLkmlx7WVAtMzHB4YBoyI6daswSLz8yEgdq5GUeqvnqOy2mD8rPi2ajq7Vioa9aVVfRMROMjxzN+fcI4/+d4hMyM01Cf0Y0UTFAdALbpeMSUyJG6OhGQvr3ykM2xMebDazEDg+1WXsFawIC0hocZDfXe4cCAwEAAaNQME4wHQYDVR0OBBYEFNyYyPWb75cKvXgBrnP6Yq/hYEHqMB8GA1UdIwQYMBaAFNyYyPWb75cKvXgBrnP6Yq/hYEHqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAgoUhKIFFn6LrHENpD1o6TX4BJ/9mUcZlYDkexY6iLNQPhRHDBQppuFVe2W7JjOL1P/SugWWTk4ADNfrNreluSQoFgYr9Rav8DbrLLk0V1LEYhX5xn6eP7uv7otXpWtl+bHYYnwyLFlChp8fFCxNZLJXwyrxRVtkXl5wiFUiBLqx1YXYNKsS4RyD6dyZAHUG8A/Hfspcf09Ua+RiJ/XSgQ6dC2NqUqxMBdAzLyU3X8HXKHgtdZyl0RXGUZ44IQqvvXwkI9P0U6SZFJF6tPOlgakdhg0Cj/WwyoFipNMa84iOnoG6PHNYA5Wz0OUA7hqAHpkO290z8wRxkA8Fv28y8U=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGDCCAwCgAwIBAgII3WfxgyJVwAAwDQYJKoZIhvcNAQELBQAwgaIxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRAwDgYDVQQHDAdCcmVzY2lhMRAwDgYDVQQKDAdJY25vcmQxMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSIwIAYDVQQDDBl3d3cuaWNub3JkMWJyZXNjaWEuZ292Lml0MSEwHwYJKoZIhvcNAQkBFhJhbGVwaWF0QHRpc2NhbGkuaXQwHhcNMTgwMTA4MjIxMjI4WhcNMzgwMTA3MjIxMjI4WjCBojELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExEDAOBgNVBAcMB0JyZXNjaWExEDAOBgNVBAoMB0ljbm9yZDExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY25vcmQxYnJlc2NpYS5nb3YuaXQxITAfBgkqhkiG9w0BCQEWEmFsZXBpYXRAdGlzY2FsaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVtE/nBi14Btw1r6+OA+agbXg7iQu7zjg0eDykZULFMaq/NAw7t9FS+VcKqO11QveFwDu641pIh46ghdUVnZSornEpNVaLGy0Q07Yo5Grpo+fQGenQhFCdfWf93PTAIB89MQrs1omc6Xx0XPmb+DkcvhUjB6Ml94qYOJyz+KdPjqU+Tcx6KN4OI1tzRSnLkmlx7WVAtMzHB4YBoyI6daswSLz8yEgdq5GUeqvnqOy2mD8rPi2ajq7Vioa9aVVfRMROMjxzN+fcI4/+d4hMyM01Cf0Y0UTFAdALbpeMSUyJG6OhGQvr3ykM2xMebDazEDg+1WXsFawIC0hocZDfXe4cCAwEAAaNQME4wHQYDVR0OBBYEFNyYyPWb75cKvXgBrnP6Yq/hYEHqMB8GA1UdIwQYMBaAFNyYyPWb75cKvXgBrnP6Yq/hYEHqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAgoUhKIFFn6LrHENpD1o6TX4BJ/9mUcZlYDkexY6iLNQPhRHDBQppuFVe2W7JjOL1P/SugWWTk4ADNfrNreluSQoFgYr9Rav8DbrLLk0V1LEYhX5xn6eP7uv7otXpWtl+bHYYnwyLFlChp8fFCxNZLJXwyrxRVtkXl5wiFUiBLqx1YXYNKsS4RyD6dyZAHUG8A/Hfspcf09Ua+RiJ/XSgQ6dC2NqUqxMBdAzLyU3X8HXKHgtdZyl0RXGUZ44IQqvvXwkI9P0U6SZFJF6tPOlgakdhg0Cj/WwyoFipNMa84iOnoG6PHNYA5Wz0OUA7hqAHpkO290z8wRxkA8Fv28y8U=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGDCCAwCgAwIBAgII3WfxgyJVwAAwDQYJKoZIhvcNAQELBQAwgaIxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRAwDgYDVQQHDAdCcmVzY2lhMRAwDgYDVQQKDAdJY25vcmQxMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSIwIAYDVQQDDBl3d3cuaWNub3JkMWJyZXNjaWEuZ292Lml0MSEwHwYJKoZIhvcNAQkBFhJhbGVwaWF0QHRpc2NhbGkuaXQwHhcNMTgwMTA4MjIxMjI4WhcNMzgwMTA3MjIxMjI4WjCBojELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExEDAOBgNVBAcMB0JyZXNjaWExEDAOBgNVBAoMB0ljbm9yZDExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY25vcmQxYnJlc2NpYS5nb3YuaXQxITAfBgkqhkiG9w0BCQEWEmFsZXBpYXRAdGlzY2FsaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVtE/nBi14Btw1r6+OA+agbXg7iQu7zjg0eDykZULFMaq/NAw7t9FS+VcKqO11QveFwDu641pIh46ghdUVnZSornEpNVaLGy0Q07Yo5Grpo+fQGenQhFCdfWf93PTAIB89MQrs1omc6Xx0XPmb+DkcvhUjB6Ml94qYOJyz+KdPjqU+Tcx6KN4OI1tzRSnLkmlx7WVAtMzHB4YBoyI6daswSLz8yEgdq5GUeqvnqOy2mD8rPi2ajq7Vioa9aVVfRMROMjxzN+fcI4/+d4hMyM01Cf0Y0UTFAdALbpeMSUyJG6OhGQvr3ykM2xMebDazEDg+1WXsFawIC0hocZDfXe4cCAwEAAaNQME4wHQYDVR0OBBYEFNyYyPWb75cKvXgBrnP6Yq/hYEHqMB8GA1UdIwQYMBaAFNyYyPWb75cKvXgBrnP6Yq/hYEHqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAgoUhKIFFn6LrHENpD1o6TX4BJ/9mUcZlYDkexY6iLNQPhRHDBQppuFVe2W7JjOL1P/SugWWTk4ADNfrNreluSQoFgYr9Rav8DbrLLk0V1LEYhX5xn6eP7uv7otXpWtl+bHYYnwyLFlChp8fFCxNZLJXwyrxRVtkXl5wiFUiBLqx1YXYNKsS4RyD6dyZAHUG8A/Hfspcf09Ua+RiJ/XSgQ6dC2NqUqxMBdAzLyU3X8HXKHgtdZyl0RXGUZ44IQqvvXwkI9P0U6SZFJF6tPOlgakdhg0Cj/WwyoFipNMa84iOnoG6PHNYA5Wz0OUA7hqAHpkO290z8wRxkA8Fv28y8U=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://www.icnord1brescia.gov.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://www.icnord1brescia.gov.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ic_nord1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Icnord1 / Brescia (Brescia)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Icnord1 / Brescia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Icnord1 / Brescia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icnord1brescia.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

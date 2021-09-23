@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="LonaLases" entityID="https://www.comune.lonalases.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#LonaLases">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Z24rQ1C4GovQxUjHkA5KJgh00Y68G9+18QsHtUUfbY4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hwr3EieGIV9BBpjTWc5QULt+as+Jr+lJpnro0ycHAeOWrXGCNDIBU/u/tae9RT35bGc4guFLye6y
+cXittz0bDww5UlJ2LdKG8uAZkRSU9pC21+5DydYKEl0u0n2DFERVN/iBJY4zM9MWCaTw4L5I/+gq
+3rnQO9CljJM8tIRMYHTBSxOpmjV917xVhKWJQqqWSa/bC/mywOwxeuSMw0q4U6kLfnfIngv+rpGk
+J+XYLZqT2PM9slfV1j7z51XY+2MV2p/63bPxN997ZVgXmxE8Zk4ac5JzQEeYDANpaaVgHf27e906
+7T6gCesJNL2IWJdxuvtAUuW0fkU0q+Aey2AZdw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qxoY8qTl6wZbMZjQpKy7Nx4zcqKV3dIL43+xWRqVvRZAl28yweBoOpRyQtjMBeLngPEh8L6OkBvH
+tAhYGS6WsGQM9JMzS/CXB5gRs+0/BeMWNKjIjHAp+ZMcQj64rMXcHB3lFeUxEz5rYNNnfPUl2/mi
+ahamAqOeCrnO/m1FfenwUU1M/7wEpGGaIhqosgnASxFuItLCNfPTMJ7WT8mCB+AmNjkAlujL9dN6
+IZjzFQc+y3ef8VPxkLrri2lPLCKKBjXz9oxyqN1EbSybN1bucKSqOC0lie5tkOVum+FSTjglkOBs
+rtV28wBuIcuqi9aKMnp7p3vrJ0eGulp2dcz36w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAOBe3PPh1Jl7MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUubG9uYWxhc2VzLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA4
+MjgwNzMxMjZaFw0zMDA4MjYwNzMxMjZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubG9uYWxhc2Vz
+LnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAKsaGPKk5esGWzGY0KSsuzceM3Kild3SC+N/sVkalb0WQJdvMsHgaDqUckLYzAXi
+54DxIfC+jpAbx7QIWBkulrBkDPSTM0vwlweYEbPtPwXjFjSoyIxwKfmTHEI+uKzF3Bwd5RXlMRM+
+a2DTZ3z1Jdv5omoWpgKjngq5zv5tRX3p8FFNTP+8BKRhmiIaqLIJwEsRbiLSwjXz0zCe1k/Jggfg
+JjY5AJboy/XTeiGY8xUHPst3n/FT8ZC664tpTywiigY18/aMcqjdRG0smzdW7nCkqjgtJYnubZDl
+bpvhUk44JZDgbK7VdvMAbiHLqovWijJ6e6d76ydHhrpadnXM9+sCAwEAAaNQME4wHQYDVR0OBBYE
+FDYoZSmc9/7ieensCOZlyuqYBZfnMB8GA1UdIwQYMBaAFDYoZSmc9/7ieensCOZlyuqYBZfnMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGGOWMwG6CC3PnhlZZVhF7OJqMB3MYjhV4NP
+AfIFKr41vXooN0gII50BBOSX/uvH6w7INhkqESKKg+VZgdMfTx6Rf3SzDIx7mY9D9DBbbDjTkfFZ
+vP0D2TbetjG6ylynbNIMPSaUWz5fJ9qtvAV3DgEHo7K0FCb+80TfgJtjFkxNwa3b2MIUp2sjTPhs
+vWv6uUgfr9tkOQbnWLDrVa9a8gauGi9NH44yqdXLzVgyJ91U6TMElOu2WjPqP64R9HPoNJlpj0YQ
+YJsCRCpP1kGw8PPkLiJ4C4cNPRtvY45Onb3IfA8ZnndfumFf0Wlvz3ClIM4fbDOU4DXEA4CZEEwO
+iVY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAOBe3PPh1Jl7MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubG9uYWxhc2VzLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA4MjgwNzMxMjZaFw0zMDA4MjYwNzMxMjZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubG9uYWxhc2VzLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKsaGPKk5esGWzGY0KSsuzceM3Kild3SC+N/sVkalb0WQJdvMsHgaDqUckLYzAXi54DxIfC+jpAbx7QIWBkulrBkDPSTM0vwlweYEbPtPwXjFjSoyIxwKfmTHEI+uKzF3Bwd5RXlMRM+a2DTZ3z1Jdv5omoWpgKjngq5zv5tRX3p8FFNTP+8BKRhmiIaqLIJwEsRbiLSwjXz0zCe1k/JggfgJjY5AJboy/XTeiGY8xUHPst3n/FT8ZC664tpTywiigY18/aMcqjdRG0smzdW7nCkqjgtJYnubZDlbpvhUk44JZDgbK7VdvMAbiHLqovWijJ6e6d76ydHhrpadnXM9+sCAwEAAaNQME4wHQYDVR0OBBYEFDYoZSmc9/7ieensCOZlyuqYBZfnMB8GA1UdIwQYMBaAFDYoZSmc9/7ieensCOZlyuqYBZfnMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGGOWMwG6CC3PnhlZZVhF7OJqMB3MYjhV4NPAfIFKr41vXooN0gII50BBOSX/uvH6w7INhkqESKKg+VZgdMfTx6Rf3SzDIx7mY9D9DBbbDjTkfFZvP0D2TbetjG6ylynbNIMPSaUWz5fJ9qtvAV3DgEHo7K0FCb+80TfgJtjFkxNwa3b2MIUp2sjTPhsvWv6uUgfr9tkOQbnWLDrVa9a8gauGi9NH44yqdXLzVgyJ91U6TMElOu2WjPqP64R9HPoNJlpj0YQYJsCRCpP1kGw8PPkLiJ4C4cNPRtvY45Onb3IfA8ZnndfumFf0Wlvz3ClIM4fbDOU4DXEA4CZEEwOiVY=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAOBe3PPh1Jl7MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubG9uYWxhc2VzLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA4MjgwNzMxMjZaFw0zMDA4MjYwNzMxMjZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubG9uYWxhc2VzLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKsaGPKk5esGWzGY0KSsuzceM3Kild3SC+N/sVkalb0WQJdvMsHgaDqUckLYzAXi54DxIfC+jpAbx7QIWBkulrBkDPSTM0vwlweYEbPtPwXjFjSoyIxwKfmTHEI+uKzF3Bwd5RXlMRM+a2DTZ3z1Jdv5omoWpgKjngq5zv5tRX3p8FFNTP+8BKRhmiIaqLIJwEsRbiLSwjXz0zCe1k/JggfgJjY5AJboy/XTeiGY8xUHPst3n/FT8ZC664tpTywiigY18/aMcqjdRG0smzdW7nCkqjgtJYnubZDlbpvhUk44JZDgbK7VdvMAbiHLqovWijJ6e6d76ydHhrpadnXM9+sCAwEAAaNQME4wHQYDVR0OBBYEFDYoZSmc9/7ieensCOZlyuqYBZfnMB8GA1UdIwQYMBaAFDYoZSmc9/7ieensCOZlyuqYBZfnMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGGOWMwG6CC3PnhlZZVhF7OJqMB3MYjhV4NPAfIFKr41vXooN0gII50BBOSX/uvH6w7INhkqESKKg+VZgdMfTx6Rf3SzDIx7mY9D9DBbbDjTkfFZvP0D2TbetjG6ylynbNIMPSaUWz5fJ9qtvAV3DgEHo7K0FCb+80TfgJtjFkxNwa3b2MIUp2sjTPhsvWv6uUgfr9tkOQbnWLDrVa9a8gauGi9NH44yqdXLzVgyJ91U6TMElOu2WjPqP64R9HPoNJlpj0YQYJsCRCpP1kGw8PPkLiJ4C4cNPRtvY45Onb3IfA8ZnndfumFf0Wlvz3ClIM4fbDOU4DXEA4CZEEwOiVY=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lonalases"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lonalases" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lonalases" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lonalases" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Lona Lases</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Lona Lases</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Lona Lases</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Lona Lases</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Lona Lases</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Lona Lases</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Lona Lases</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Lona Lases</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.lonalases.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.lonalases.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.lonalases.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.lonalases.tn.it</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx95ae2304-a344-8858-4c17-4b9558b37642" entityID="https://stu.comunemassalubrense.gov.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx95ae2304-a344-8858-4c17-4b9558b37642">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>y1YUoKcNLjQH41hjlFBPPmJ4SDxv4H8EBPLt9jctol4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+DSPnjhstc9XiJqEu5HuDNQJHu1jYpc66yOSwVwEVsca2VecQkX5tMMb1UafmtI4ZiFhueCr8/aA0
+ENWfQ/oeMWvtQGqq9BqSZrIC/t7m01s6sGDCQeHHcd37OXPIfxPXzQpjdSYLGsUWVVoK0vc9IIt5
+QnP3SjLzbb3CzUkAP2DQt5+XSm/B0wBOFKgmTsGRUVhLccTtYPI98iM0jNUJbx5Plwb5cYvmLZ06
+KHuOUMPyVA5OsP0oZRH7seYmKDZ6eBr1ArDtisKS5qqpisaWbEvwrEjXnoftnmDtzZIDbC1ELU7u
+2Sr2/iFJ7ZuOZlv5MbiEsycLpnlex8nur5msuw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4wI0W4e9/Y1ZsqyqDpdTwI+mjcPUXgt+91qjh9AskVFHT1lUdKns12fMCzegLnVkIZkScLmrQjR4
+lyK97MHuQHoK2p2Pwimxdlm3cbnRJ0lW9rb7qZcDAcNcoKU1BnhA01yLAcyuyO5YwNdrheqyViJV
+Xy0jHRj8iyoK5lzRpZBojeEcztfgbDnJOLR+gGfKJLlDdZSrBaQPgEjrlCz7KB9AKSV/28UnjrNs
+eD/6EDQn/HLWwaeHdwVRvil/fk1CgnalnN3oNGD9qBsrfDXnzBHJ2SAzQh+fjwDrMDnpu+Ei+xUz
+nvtJuRRJvxo1R7MnuTgYnGDhv0Cc5JjhsDG0gQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID2jCCAsKgAwIBAgIJAJlRZr23YZkDMA0GCSqGSIb3DQEBCwUAMIGTMScwJQYDVQQDDB53d3cu
+Y29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQxITAfBgNVBAoMGENvbXVuZSBkaSBNYXNzYSBMdWJy
+ZW5zZTEVMBMGA1UEBAwMUEE6SVQtY19mMDMwMQswCQYDVQQGEwJJVDEhMB8GA1UEBwwYQ29tdW5l
+IGRpIE1hc3NhIEx1YnJlbnNlMB4XDTIwMTAyNjA5MjEwNVoXDTMwMTAyNDA5MjEwNVowgZMxJzAl
+BgNVBAMMHnd3dy5jb211bmVtYXNzYWx1YnJlbnNlLmdvdi5pdDEhMB8GA1UECgwYQ29tdW5lIGRp
+IE1hc3NhIEx1YnJlbnNlMRUwEwYDVQQEDAxQQTpJVC1jX2YwMzAxCzAJBgNVBAYTAklUMSEwHwYD
+VQQHDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDjAjRbh739jVmyrKoOl1PAj6aNw9ReC373WqOH0CyRUUdPWVR0qezXZ8wLN6AudWQhmRJw
+uatCNHiXIr3swe5AegranY/CKbF2WbdxudEnSVb2tvuplwMBw1ygpTUGeEDTXIsBzK7I7ljA12uF
+6rJWIlVfLSMdGPyLKgrmXNGlkGiN4RzO1+BsOck4tH6AZ8okuUN1lKsFpA+ASOuULPsoH0ApJX/b
+xSeOs2x4P/oQNCf8ctbBp4d3BVG+KX9+TUKCdqWc3eg0YP2oGyt8NefMEcnZIDNCH5+PAOswOem7
+4SL7FTOe+0m5FEm/GjVHsye5OBicYOG/QJzkmOGwMbSBAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYD
+VR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQAVoDSIbAmD
+zyyHEiZ7KrNRreVWHhMVNbmXgAPOwN8QWaWRizDmErV8R9af7k1T1pMlovmp3pcGpRDHVCfu7GTT
+rD0BkW872rNRfC1S1kpbKMVnJXpBflK547jhLwSUEBxm8Kk0Iugw5fhTtDB541PGZgDzA1FNzvhs
+sKc1rpbhIj1Eup9VKDPimajcvllqpZhWi5NWLTrKRSxiOidluzbKxDhbP06+JAR9rNaA1lXgGynw
+RKRkLfI8wAuwcuYuTCjnAKv1gU5LxiGAAm+6VflgaTH3soC4G6tDKUwikGSUUCDLWNePYX+SpvlP
+0R1BuNf+6q36ITlmxC5rB+6iMOCr
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAL6lN9FmmFJlMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTmFwb2xpMRcwFQYDVQQHDA5NYXNzYSBMdWJyZW5zZTEhMB8GA1UECgwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEnMCUGA1UEAwwec3R1LmNvbXVuZW1hc3NhbHVicmVuc2UuZ292Lml0MB4XDTE5MDMyNTE1NTAxNVoXDTI5MDMyMjE1NTAxNVowgaIxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxFzAVBgNVBAcMDk1hc3NhIEx1YnJlbnNlMSEwHwYDVQQKDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMScwJQYDVQQDDB5zdHUuY29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtmeaSYaC56zSilZnKP51dWUmyr2/8SFLQxxIT+DWzK1w+Jm1SnvNUAAXDAqoNrlloiYr7lacO9F5eLL6IlnrepMROkkzz0P7aOzp7UdrVjI3LDi6t0naCbSqjAg3oRjhdd1uCq6HJH8aGLUk4VaJgQzrfIOXh8OVpD7QoKk0YrMDp9zb5viuXEIc5/Z0sNL/MA7FySulPNLsc+Z3MBxoj6zRR82Vgznu5hJTFgxusokP0w+F6AKDow5y0MDlJnzMaiudh68ZLZoJ/QRNWTkNDCgAG3XFdPpHmUFUJSe7qT09UcBE7YjLdZVF7Sya7oRUtYxZZG3YTFSLHaLpmeUBJAgMBAAGjUzBRMB0GA1UdDgQWBBQJdgJPQvAhhCnKCpGbQyamPFHR/jAfBgNVHSMEGDAWgBQJdgJPQvAhhCnKCpGbQyamPFHR/jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiZRAVYWy1uRXOF31ZItRHdaNSTBJtPpuWk88MKQADvj0qGLZjZtqn46xYtYR9go25DrkBJIt0rWl+DGEHJjxaJfLONCkWxwwM+LRy42EeZe2hhHFQ7I8LAfzHYezWa5JFzcjV2E7buelaoXMAT/vOAxtophpfjxE/EMmCCCX/bmNnfzCsqYQO3ec312tP4wZkq0r5RAyzg6/fAbeDh4DYru3Z7w7Re4IXriyEIlr2xoiNuaL36sWOUdp+26Y9upVOQdxG50VTQcQ+VhGTf7s84IW+qFtXEUEUmU6w1sBb1Jnpr06M7lnDpsqQLWoIJOcg6yFes8N0ahCqI7hWTSFI</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAL6lN9FmmFJlMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTmFwb2xpMRcwFQYDVQQHDA5NYXNzYSBMdWJyZW5zZTEhMB8GA1UECgwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEnMCUGA1UEAwwec3R1LmNvbXVuZW1hc3NhbHVicmVuc2UuZ292Lml0MB4XDTE5MDMyNTE1NTAxNVoXDTI5MDMyMjE1NTAxNVowgaIxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxFzAVBgNVBAcMDk1hc3NhIEx1YnJlbnNlMSEwHwYDVQQKDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMScwJQYDVQQDDB5zdHUuY29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtmeaSYaC56zSilZnKP51dWUmyr2/8SFLQxxIT+DWzK1w+Jm1SnvNUAAXDAqoNrlloiYr7lacO9F5eLL6IlnrepMROkkzz0P7aOzp7UdrVjI3LDi6t0naCbSqjAg3oRjhdd1uCq6HJH8aGLUk4VaJgQzrfIOXh8OVpD7QoKk0YrMDp9zb5viuXEIc5/Z0sNL/MA7FySulPNLsc+Z3MBxoj6zRR82Vgznu5hJTFgxusokP0w+F6AKDow5y0MDlJnzMaiudh68ZLZoJ/QRNWTkNDCgAG3XFdPpHmUFUJSe7qT09UcBE7YjLdZVF7Sya7oRUtYxZZG3YTFSLHaLpmeUBJAgMBAAGjUzBRMB0GA1UdDgQWBBQJdgJPQvAhhCnKCpGbQyamPFHR/jAfBgNVHSMEGDAWgBQJdgJPQvAhhCnKCpGbQyamPFHR/jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiZRAVYWy1uRXOF31ZItRHdaNSTBJtPpuWk88MKQADvj0qGLZjZtqn46xYtYR9go25DrkBJIt0rWl+DGEHJjxaJfLONCkWxwwM+LRy42EeZe2hhHFQ7I8LAfzHYezWa5JFzcjV2E7buelaoXMAT/vOAxtophpfjxE/EMmCCCX/bmNnfzCsqYQO3ec312tP4wZkq0r5RAyzg6/fAbeDh4DYru3Z7w7Re4IXriyEIlr2xoiNuaL36sWOUdp+26Y9upVOQdxG50VTQcQ+VhGTf7s84IW+qFtXEUEUmU6w1sBb1Jnpr06M7lnDpsqQLWoIJOcg6yFes8N0ahCqI7hWTSFI</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIID2jCCAsKgAwIBAgIJAJlRZr23YZkDMA0GCSqGSIb3DQEBCwUAMIGTMScwJQYDVQQDDB53d3cuY29tdW5lbWFzc2FsdWJyZW5zZS5nb3YuaXQxITAfBgNVBAoMGENvbXVuZSBkaSBNYXNzYSBMdWJyZW5zZTEVMBMGA1UEBAwMUEE6SVQtY19mMDMwMQswCQYDVQQGEwJJVDEhMB8GA1UEBwwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMB4XDTIwMTAyNjA5MjEwNVoXDTMwMTAyNDA5MjEwNVowgZMxJzAlBgNVBAMMHnd3dy5jb211bmVtYXNzYWx1YnJlbnNlLmdvdi5pdDEhMB8GA1UECgwYQ29tdW5lIGRpIE1hc3NhIEx1YnJlbnNlMRUwEwYDVQQEDAxQQTpJVC1jX2YwMzAxCzAJBgNVBAYTAklUMSEwHwYDVQQHDBhDb211bmUgZGkgTWFzc2EgTHVicmVuc2UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDjAjRbh739jVmyrKoOl1PAj6aNw9ReC373WqOH0CyRUUdPWVR0qezXZ8wLN6AudWQhmRJwuatCNHiXIr3swe5AegranY/CKbF2WbdxudEnSVb2tvuplwMBw1ygpTUGeEDTXIsBzK7I7ljA12uF6rJWIlVfLSMdGPyLKgrmXNGlkGiN4RzO1+BsOck4tH6AZ8okuUN1lKsFpA+ASOuULPsoH0ApJX/bxSeOs2x4P/oQNCf8ctbBp4d3BVG+KX9+TUKCdqWc3eg0YP2oGyt8NefMEcnZIDNCH5+PAOswOem74SL7FTOe+0m5FEm/GjVHsye5OBicYOG/QJzkmOGwMbSBAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQAVoDSIbAmDzyyHEiZ7KrNRreVWHhMVNbmXgAPOwN8QWaWRizDmErV8R9af7k1T1pMlovmp3pcGpRDHVCfu7GTTrD0BkW872rNRfC1S1kpbKMVnJXpBflK547jhLwSUEBxm8Kk0Iugw5fhTtDB541PGZgDzA1FNzvhssKc1rpbhIj1Eup9VKDPimajcvllqpZhWi5NWLTrKRSxiOidluzbKxDhbP06+JAR9rNaA1lXgGynwRKRkLfI8wAuwcuYuTCjnAKv1gU5LxiGAAm+6VflgaTH3soC4G6tDKUwikGSUUCDLWNePYX+SpvlP0R1BuNf+6q36ITlmxC5rB+6iMOCr</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comunemassalubrense.gov.it/simplesaml/module.php/saml/sp/saml2-logout.php/massalubrense"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/massalubrense"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comunemassalubrense.gov.it/simplesaml/module.php/saml/sp/saml2-acs.php/massalubrense" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/massalubrense" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/massalubrense" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/massalubrense" index="3"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">massalubrense</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">c_f030</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">c_f030</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Massa Lubrense</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Massa Lubrense</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://stu.comunemassalubrense.gov.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://stu.comunemassalubrense.gov.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_f030</spid:IPACode>
+         <spid:FiscalCode>00637560632</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>protocollo.massalubrense@pec.it</md:EmailAddress>
+      <md:TelephoneNumber>3391898124</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

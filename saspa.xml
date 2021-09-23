@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="SimetoAmbiente" entityID="https://www.simetoambiente.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SimetoAmbiente">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>u++lfN0Jyb+iMKtbk7k2F2sx+TSLTfCxoUItP56Y8a8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+f3Cvx94yXrcjNWxJOxk0m72xatzJ8pIFEX9JLyfGs29QV+o/OCawKP37QlLMIuFv15zg/XVwQvav
+dRoOtdHVPNMA/qIE1OhauAPq19O1cQ8pgfuWLxCHtJZ807rSjb39LAaeuojO2pwT7A/eHFobxDh7
+tCrPMJsmbpye349tjdzg1CNn2keW2mlWs/WjN9xKztzNNsGRHB2tgEZBKdvA5t/cv8+I30qAfSWh
+nGlbZVs4icqR4g722y2Kf2JuqqSLJsF233xENlTgpPg0MOYv08H5fWoPLWiagegjB+gJuYwmbPIy
+A33IBZvoLmqE1VGNvTXKcfbbIXK3VK1y2vw6Zg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+o9823gVQoYvUsZIfqgRF3kW4qcJ8HOc5vtcjlgwpxweOaJRtAP0Dx79t9yIYsR3pCAlwQBw2C0K0
+Jwbv4BkfhKLTakX3IIW4vpm3VgZYFG7pgcpRJlM0R6yJwRrBdVurHteVOLxYs35T7m7oy6AJAIfA
+YJNxp9IecJ4kA/+UDjRC1XJnVO0xRX0JCITh7yMYH5iF4updYh+k/n2n44udBt4uCcAJH1BI3Ghd
+BcwOiffvMgj006quBiism3kuQNmRlagnZDEs2QrzDs3Ui0AHl5+t431d1JEw8jQgTTH8mqcYFbzA
+7G4Nc9I3tZfg/VoY+1LSLiEl4x23C7E7lDinrQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID7jCCAtagAwIBAgIJAKmTWMNoaK2LMA0GCSqGSIb3DQEBCwUAMIGdMRgwFgYDVQQKDA9TaW1l
+dG8gQW1iaWVudGUxGDAWBgNVBAMMD1NpbWV0byBBbWJpZW50ZTEyMDAGA1UEUwwpaHR0cHM6Ly93
+d3cuc2ltZXRvYW1iaWVudGUuaXQvc2Vydml6aVNQSUQxFDASBgNVBGEMC1BBOklULXNhc3BhMQsw
+CQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2F0YW5pYTAeFw0yMDExMTkxMDIyMjlaFw0zMDExMTcxMDIy
+MjlaMIGdMRgwFgYDVQQKDA9TaW1ldG8gQW1iaWVudGUxGDAWBgNVBAMMD1NpbWV0byBBbWJpZW50
+ZTEyMDAGA1UEUwwpaHR0cHM6Ly93d3cuc2ltZXRvYW1iaWVudGUuaXQvc2Vydml6aVNQSUQxFDAS
+BgNVBGEMC1BBOklULXNhc3BhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2F0YW5pYTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPfNt4FUKGL1LGSH6oERd5FuKnCfBznOb7XI5YMKccH
+jmiUbQD9A8e/bfciGLEd6QgJcEAcNgtCtCcG7+AZH4Si02pF9yCFuL6Zt1YGWBRu6YHKUSZTNEes
+icEawXVbqx7XlTi8WLN+U+5u6MugCQCHwGCTcafSHnCeJAP/lA40QtVyZ1TtMUV9CQiE4e8jGB+Y
+heLqXWIfpP59p+OLnQbeLgnACR9QSNxoXQXMDon37zII9NOqrgYorJt5LkDZkZWoJ2QxLNkK8w7N
+1ItAB5efreN9XdSRMPI0IE0x/JqnGBW8wOxuDXPSN7WX4P1aGPtS0i4hJeMdtwuxO5Q4p60CAwEA
+AaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZI
+hvcNAQELBQADggEBAAlvUl7vKzl0tm5J+ZZL1kJHxaePCeM33vPOIIqrhImcch6mMM3UlxTg/c1f
+okVVZL+Ajma2uBgt6dJFQLrYrTxg7IRoQbKX6em6GOYe4sizuZ0ygxJUsGYtKkFkLHbLigECCilL
+rUcyB/FFdwBZkzxAYmBQSEdVlCTzZH3ueCSALIF/usoBoqcsGEoOy3GGX/LeGWS1PAvuNUHncPIQ
+C4RJFVdrtwxT0iiVFP35Bn76u6hTIphOz911b8Naq6Qa0NorZLe43zaRwcqeSTgun65mt4RERx8K
+toCNyfjqoxucMzAe77vCBXoiTTV73nYWxeXhet/riajGBbRYDjHm3LE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID7jCCAtagAwIBAgIJAKmTWMNoaK2LMA0GCSqGSIb3DQEBCwUAMIGdMRgwFgYDVQQKDA9TaW1ldG8gQW1iaWVudGUxGDAWBgNVBAMMD1NpbWV0byBBbWJpZW50ZTEyMDAGA1UEUwwpaHR0cHM6Ly93d3cuc2ltZXRvYW1iaWVudGUuaXQvc2Vydml6aVNQSUQxFDASBgNVBGEMC1BBOklULXNhc3BhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2F0YW5pYTAeFw0yMDExMTkxMDIyMjlaFw0zMDExMTcxMDIyMjlaMIGdMRgwFgYDVQQKDA9TaW1ldG8gQW1iaWVudGUxGDAWBgNVBAMMD1NpbWV0byBBbWJpZW50ZTEyMDAGA1UEUwwpaHR0cHM6Ly93d3cuc2ltZXRvYW1iaWVudGUuaXQvc2Vydml6aVNQSUQxFDASBgNVBGEMC1BBOklULXNhc3BhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2F0YW5pYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPfNt4FUKGL1LGSH6oERd5FuKnCfBznOb7XI5YMKccHjmiUbQD9A8e/bfciGLEd6QgJcEAcNgtCtCcG7+AZH4Si02pF9yCFuL6Zt1YGWBRu6YHKUSZTNEesicEawXVbqx7XlTi8WLN+U+5u6MugCQCHwGCTcafSHnCeJAP/lA40QtVyZ1TtMUV9CQiE4e8jGB+YheLqXWIfpP59p+OLnQbeLgnACR9QSNxoXQXMDon37zII9NOqrgYorJt5LkDZkZWoJ2QxLNkK8w7N1ItAB5efreN9XdSRMPI0IE0x/JqnGBW8wOxuDXPSN7WX4P1aGPtS0i4hJeMdtwuxO5Q4p60CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAAlvUl7vKzl0tm5J+ZZL1kJHxaePCeM33vPOIIqrhImcch6mMM3UlxTg/c1fokVVZL+Ajma2uBgt6dJFQLrYrTxg7IRoQbKX6em6GOYe4sizuZ0ygxJUsGYtKkFkLHbLigECCilLrUcyB/FFdwBZkzxAYmBQSEdVlCTzZH3ueCSALIF/usoBoqcsGEoOy3GGX/LeGWS1PAvuNUHncPIQC4RJFVdrtwxT0iiVFP35Bn76u6hTIphOz911b8Naq6Qa0NorZLe43zaRwcqeSTgun65mt4RERx8KtoCNyfjqoxucMzAe77vCBXoiTTV73nYWxeXhet/riajGBbRYDjHm3LE=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID7jCCAtagAwIBAgIJAKmTWMNoaK2LMA0GCSqGSIb3DQEBCwUAMIGdMRgwFgYDVQQKDA9TaW1ldG8gQW1iaWVudGUxGDAWBgNVBAMMD1NpbWV0byBBbWJpZW50ZTEyMDAGA1UEUwwpaHR0cHM6Ly93d3cuc2ltZXRvYW1iaWVudGUuaXQvc2Vydml6aVNQSUQxFDASBgNVBGEMC1BBOklULXNhc3BhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2F0YW5pYTAeFw0yMDExMTkxMDIyMjlaFw0zMDExMTcxMDIyMjlaMIGdMRgwFgYDVQQKDA9TaW1ldG8gQW1iaWVudGUxGDAWBgNVBAMMD1NpbWV0byBBbWJpZW50ZTEyMDAGA1UEUwwpaHR0cHM6Ly93d3cuc2ltZXRvYW1iaWVudGUuaXQvc2Vydml6aVNQSUQxFDASBgNVBGEMC1BBOklULXNhc3BhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2F0YW5pYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPfNt4FUKGL1LGSH6oERd5FuKnCfBznOb7XI5YMKccHjmiUbQD9A8e/bfciGLEd6QgJcEAcNgtCtCcG7+AZH4Si02pF9yCFuL6Zt1YGWBRu6YHKUSZTNEesicEawXVbqx7XlTi8WLN+U+5u6MugCQCHwGCTcafSHnCeJAP/lA40QtVyZ1TtMUV9CQiE4e8jGB+YheLqXWIfpP59p+OLnQbeLgnACR9QSNxoXQXMDon37zII9NOqrgYorJt5LkDZkZWoJ2QxLNkK8w7N1ItAB5efreN9XdSRMPI0IE0x/JqnGBW8wOxuDXPSN7WX4P1aGPtS0i4hJeMdtwuxO5Q4p60CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAAlvUl7vKzl0tm5J+ZZL1kJHxaePCeM33vPOIIqrhImcch6mMM3UlxTg/c1fokVVZL+Ajma2uBgt6dJFQLrYrTxg7IRoQbKX6em6GOYe4sizuZ0ygxJUsGYtKkFkLHbLigECCilLrUcyB/FFdwBZkzxAYmBQSEdVlCTzZH3ueCSALIF/usoBoqcsGEoOy3GGX/LeGWS1PAvuNUHncPIQC4RJFVdrtwxT0iiVFP35Bn76u6hTIphOz911b8Naq6Qa0NorZLe43zaRwcqeSTgun65mt4RERx8KtoCNyfjqoxucMzAe77vCBXoiTTV73nYWxeXhet/riajGBbRYDjHm3LE=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/simeto"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/simeto" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/simeto" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/simeto" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Simeto Ambiente</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Simeto Ambiente</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Simeto Ambiente</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Simeto Ambiente</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Simeto Ambiente</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Simeto Ambiente</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Simeto Ambiente</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Simeto Ambiente</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.simetoambiente.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.simetoambiente.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.simetoambiente.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.simetoambiente.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>saspa</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ottavio.ecora@simetoambiente.it</md:EmailAddress>
+      <md:TelephoneNumber>+390957282820</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

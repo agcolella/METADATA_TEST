@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="CanaleDAgordo" entityID="https://www.comune.canaledagordo.bl.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CanaleDAgordo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>5OlTvPZTfqAFCjsFQNHEQDWoID2mx1PdnsKEix8CwXc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+nHU9DxcZX9hFlzPYEFOe+ZGFHwwL6+GC7EKRbjuCeY5Sk/3tXfDZDW4iNCI5xRopuACC+5LzzQrU
+g/jnhca4nHCwF4XRg2/+bD70mdosaq97tnRE5jd5ONRUSlre/j5IpPFaRbKBf1SH0xBbSD5AMNg1
+cvVoT8aFERnGeeNUTljgdKz0rdybxzzM93j9wX1y2jJ9R/gd4QAxwbI05z9kEEMTrcnd5q9bPp22
+GBPdgl8WkwNMJ/SELOYwH8EvS6KFIcrqCw1F7Z8lR87DUwvL/SwXwvr34FXH2k6h09x8y2eBLnJX
+yPxIhHFd6P0vu8m6XQ9AVVSPKrNlvfCMeywxrA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8lhx3B8FVV96opxZ6VFUwx/KriAwkv5CdMFdaSAJiQ4eTPnrMWj/Jk2aWIqnuay47utDlUF+ZJoL
+jek/AZkFlzyQrWcsPwoq0swUgEFhIuhInuGW8pFEryCzucP+o2j+9XxWS4Rfl3uIO3L5bC/tN+xw
+w0VhmTz/2sz/1GFyC0Ysu9C53Cb823uN/cV8rvpDj/J5VcKH2eCutDyIzuEMKCGFOTZtJpFKowiW
+hhi8iZg5yhLOiU0j2M2hwEhp4ut1S68Ju4jFEi/9cVXrX8Up6oruiX/z8qf/+0y6DhZGQpmFnTdo
+Ul10V67xdAseyORASExDQe7FpcwHBn6oI89qgQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEOjCCAyKgAwIBAgIJAJjHfONZ2nhsMA0GCSqGSIb3DQEBCwUAMIHDMSIwIAYDVQQKDBlDb211
+bmUgZGkgQ2FuYWxlIGQnQWdvcmRvMSIwIAYDVQQDDBlDb211bmUgZGkgQ2FuYWxlIGQnQWdvcmRv
+MTswOQYDVQRTDDJodHRwczovL3d3dy5jb211bmUuY2FuYWxlZGFnb3Jkby5ibC5pdC9zZXJ2aXpp
+U1BJRDEVMBMGA1UEYQwMUEE6SVQtY19iNTc0MQswCQYDVQQGEwJJVDEYMBYGA1UEBwwPQ2FuYWxl
+IGQnQWdvcmRvMB4XDTIwMTEwNTE1NDAwNloXDTMwMTEwMzE1NDAwNlowgcMxIjAgBgNVBAoMGUNv
+bXVuZSBkaSBDYW5hbGUgZCdBZ29yZG8xIjAgBgNVBAMMGUNvbXVuZSBkaSBDYW5hbGUgZCdBZ29y
+ZG8xOzA5BgNVBFMMMmh0dHBzOi8vd3d3LmNvbXVuZS5jYW5hbGVkYWdvcmRvLmJsLml0L3NlcnZp
+emlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2I1NzQxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9DYW5h
+bGUgZCdBZ29yZG8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDyWHHcHwVVX3qinFnp
+UVTDH8quIDCS/kJ0wV1pIAmJDh5M+esxaP8mTZpYiqe5rLju60OVQX5kmguN6T8BmQWXPJCtZyw/
+CirSzBSAQWEi6Eie4ZbykUSvILO5w/6jaP71fFZLhF+Xe4g7cvlsL+037HDDRWGZPP/azP/UYXIL
+Riy70LncJvzbe439xXyu+kOP8nlVwofZ4K60PIjO4QwoIYU5Nm0mkUqjCJaGGLyJmDnKEs6JTSPY
+zaHASGni63VLrwm7iMUSL/1xVetfxSnqiu6Jf/Pyp//7TLoOFkZCmYWdN2hSXXRXrvF0Cx7I5EBI
+TENB7sWlzAcGfqgjz2qBAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQM
+MAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQBrokUsG97mekbBpDRW0iyY5P3V1fjnJDhh
+Cpfze8aihf47scxr3KDIcQCNk6IlOb8gucgfFr2OT3x075kzuaNLJXbpuolLqFkvt3+w5ldhhQhU
+0ql/l9yDayaNuoZoYG+R9wCMmCsqtlv5slBvBWpFRfQ+RPUMehKyvU5pkHiyMndu1rQTpxahFQ/7
+PqdptNozSVyXzSPFWkMuPHpD4TJrd5Aq9U5182oTpwJioTYn1HB1U0ju/pyfftxPExF460mdi89L
+hKAj6t3Nb0Q73CqT+Ky1ruAnRqd+YjWxHbNVppN8bSWiwih+qv1IQptPCdxgRB52T+sUzLqI1yCL
+/Uf0
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAJjHfONZ2nhsMA0GCSqGSIb3DQEBCwUAMIHDMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FuYWxlIGQnQWdvcmRvMSIwIAYDVQQDDBlDb211bmUgZGkgQ2FuYWxlIGQnQWdvcmRvMTswOQYDVQRTDDJodHRwczovL3d3dy5jb211bmUuY2FuYWxlZGFnb3Jkby5ibC5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19iNTc0MQswCQYDVQQGEwJJVDEYMBYGA1UEBwwPQ2FuYWxlIGQnQWdvcmRvMB4XDTIwMTEwNTE1NDAwNloXDTMwMTEwMzE1NDAwNlowgcMxIjAgBgNVBAoMGUNvbXVuZSBkaSBDYW5hbGUgZCdBZ29yZG8xIjAgBgNVBAMMGUNvbXVuZSBkaSBDYW5hbGUgZCdBZ29yZG8xOzA5BgNVBFMMMmh0dHBzOi8vd3d3LmNvbXVuZS5jYW5hbGVkYWdvcmRvLmJsLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2I1NzQxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9DYW5hbGUgZCdBZ29yZG8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDyWHHcHwVVX3qinFnpUVTDH8quIDCS/kJ0wV1pIAmJDh5M+esxaP8mTZpYiqe5rLju60OVQX5kmguN6T8BmQWXPJCtZyw/CirSzBSAQWEi6Eie4ZbykUSvILO5w/6jaP71fFZLhF+Xe4g7cvlsL+037HDDRWGZPP/azP/UYXILRiy70LncJvzbe439xXyu+kOP8nlVwofZ4K60PIjO4QwoIYU5Nm0mkUqjCJaGGLyJmDnKEs6JTSPYzaHASGni63VLrwm7iMUSL/1xVetfxSnqiu6Jf/Pyp//7TLoOFkZCmYWdN2hSXXRXrvF0Cx7I5EBITENB7sWlzAcGfqgjz2qBAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQBrokUsG97mekbBpDRW0iyY5P3V1fjnJDhhCpfze8aihf47scxr3KDIcQCNk6IlOb8gucgfFr2OT3x075kzuaNLJXbpuolLqFkvt3+w5ldhhQhU0ql/l9yDayaNuoZoYG+R9wCMmCsqtlv5slBvBWpFRfQ+RPUMehKyvU5pkHiyMndu1rQTpxahFQ/7PqdptNozSVyXzSPFWkMuPHpD4TJrd5Aq9U5182oTpwJioTYn1HB1U0ju/pyfftxPExF460mdi89LhKAj6t3Nb0Q73CqT+Ky1ruAnRqd+YjWxHbNVppN8bSWiwih+qv1IQptPCdxgRB52T+sUzLqI1yCL/Uf0</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAJjHfONZ2nhsMA0GCSqGSIb3DQEBCwUAMIHDMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FuYWxlIGQnQWdvcmRvMSIwIAYDVQQDDBlDb211bmUgZGkgQ2FuYWxlIGQnQWdvcmRvMTswOQYDVQRTDDJodHRwczovL3d3dy5jb211bmUuY2FuYWxlZGFnb3Jkby5ibC5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19iNTc0MQswCQYDVQQGEwJJVDEYMBYGA1UEBwwPQ2FuYWxlIGQnQWdvcmRvMB4XDTIwMTEwNTE1NDAwNloXDTMwMTEwMzE1NDAwNlowgcMxIjAgBgNVBAoMGUNvbXVuZSBkaSBDYW5hbGUgZCdBZ29yZG8xIjAgBgNVBAMMGUNvbXVuZSBkaSBDYW5hbGUgZCdBZ29yZG8xOzA5BgNVBFMMMmh0dHBzOi8vd3d3LmNvbXVuZS5jYW5hbGVkYWdvcmRvLmJsLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2I1NzQxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9DYW5hbGUgZCdBZ29yZG8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDyWHHcHwVVX3qinFnpUVTDH8quIDCS/kJ0wV1pIAmJDh5M+esxaP8mTZpYiqe5rLju60OVQX5kmguN6T8BmQWXPJCtZyw/CirSzBSAQWEi6Eie4ZbykUSvILO5w/6jaP71fFZLhF+Xe4g7cvlsL+037HDDRWGZPP/azP/UYXILRiy70LncJvzbe439xXyu+kOP8nlVwofZ4K60PIjO4QwoIYU5Nm0mkUqjCJaGGLyJmDnKEs6JTSPYzaHASGni63VLrwm7iMUSL/1xVetfxSnqiu6Jf/Pyp//7TLoOFkZCmYWdN2hSXXRXrvF0Cx7I5EBITENB7sWlzAcGfqgjz2qBAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQBrokUsG97mekbBpDRW0iyY5P3V1fjnJDhhCpfze8aihf47scxr3KDIcQCNk6IlOb8gucgfFr2OT3x075kzuaNLJXbpuolLqFkvt3+w5ldhhQhU0ql/l9yDayaNuoZoYG+R9wCMmCsqtlv5slBvBWpFRfQ+RPUMehKyvU5pkHiyMndu1rQTpxahFQ/7PqdptNozSVyXzSPFWkMuPHpD4TJrd5Aq9U5182oTpwJioTYn1HB1U0ju/pyfftxPExF460mdi89LhKAj6t3Nb0Q73CqT+Ky1ruAnRqd+YjWxHbNVppN8bSWiwih+qv1IQptPCdxgRB52T+sUzLqI1yCL/Uf0</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/canaledagordo"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/canaledagordo" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/canaledagordo" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/canaledagordo" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Canale d'Agordo</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Canale d'Agordo</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Canale d'Agordo</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Canale d'Agordo</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Canale d'Agordo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Canale d'Agordo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Canale d'Agordo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Canale d'Agordo</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.canaledagordo.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.canaledagordo.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.canaledagordo.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.canaledagordo.bl.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_b574</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ragioneria.canale@agordino.bl.it</md:EmailAddress>
+      <md:TelephoneNumber>+390437590323</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

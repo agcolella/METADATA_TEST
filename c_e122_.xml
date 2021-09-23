@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Gradara" entityID="https://www.comune.gradara.pu.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Gradara">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Mvuks7v5NnjfuRPcdYRUHnaw8h47fE/NoyJ27vqPj3Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+iK4igOKWemuPX5e5Ryq8SVJ/epP/mtOSiXhfubNUYhqX2Gi2WVKjY1l0Va4HOOj60ki/lbKLZVqJ
+A6yBRWanBKBRI6Nrr5IKzUbM4EUFZ/JzznZpKNPNAkS6PWGMZ0v7HbTSmhp+TnQ2W/dMFFtspwm3
+QdLHUE/KeyTO/mMFS2V8+Hf3nzlPID+LnNv/N1aOFc0Bw9N4Tf7RlxLq5F0Cu0sJQ0kuwLW5z8Fw
+F4VNYDpIhLea0Goj3daY1zeZpK3VToAatwqKTHthCaoFdXSYIkcHGpyV75NoA79y/0Mt+1JSWzpJ
++NEhGK5MplG8gz4fkdfc6sWmNHJ0f+8/V7DSJQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pEse7B5GqllCJNiVvgDvSpFnaMWM/vzHYpW/YTxA+ysR0OpPeKxb3bE3b4Fxb+Mdy1tc0QPCQ6ns
+xSAwXSwEHCuGYk7LX2kLdDXMevnEaQuDmWRpzCLBTAsA9MOlnAU37c4+3VPFioq+dy1YMbp0qv1n
+jb++LmgXImsl00AlboGnKzTOsfA6qjK1B3pvDR4wruBqwvy2D9Yy5fd88/duJtouw0ujE+rNXe3+
+d1fP5gIQtaUooBYws/dQjFDkotR/nWAJdhVQXmyeaeF0XKXzgG+mBebarJyd8MOHousgslAbI+IM
+Q+ckcleQkMY2NZTPjCApb0rEx9o7jdT7oaoUYw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDsDCCApigAwIBAgIJAJpMxSGafA65MA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5j
+b211bmUuZ3JhZGFyYS5wdS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIEdyYWRhcmExFTATBgNVBAQM
+DFBBOklULWNfZTEyMjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBHcmFkYXJhMB4X
+DTIwMTAxOTEzMTUyM1oXDTMwMTAxNzEzMTUyM1owfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5ncmFk
+YXJhLnB1Lml0MRowGAYDVQQKDBFDb211bmUgZGkgR3JhZGFyYTEVMBMGA1UEBAwMUEE6SVQtY19l
+MTIyMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIEdyYWRhcmEwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCkSx7sHkaqWUIk2JW+AO9KkWdoxYz+/Mdilb9hPED7KxHQ6k94
+rFvdsTdvgXFv4x3LW1zRA8JDqezFIDBdLAQcK4ZiTstfaQt0Ncx6+cRpC4OZZGnMIsFMCwD0w6Wc
+BTftzj7dU8WKir53LVgxunSq/WeNv74uaBciayXTQCVugacrNM6x8DqqMrUHem8NHjCu4GrC/LYP
+1jLl93zz924m2i7DS6MT6s1d7f53V8/mAhC1pSigFjCz91CMUOSi1H+dYAl2FVBebJ5p4XRcpfOA
+b6YF5tqsnJ3ww4ei6yCyUBsj4gxD5yRyV5CQxjY1lM+MIClvSsTH2juN1PuhqhRjAgMBAAGjLzAt
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB
+CwUAA4IBAQBW/K01pqttFeH4PNfnYBrG7tpOp2ZBMoXTVZeZgn2tPXrtQlJki3tmGKSZ2g04amID
+OEcZWLVqGMlWBDGrQbmXP9zVUZxdnlOFlE40/GpUWQNVFBKRzsMiNljnRFyaJzVJc1sGLYx9sDdX
+/spbdh2HCMDicnUaw5glC0A+vDD7epFiodU9faOdMpFAMiufQf2WgPQ64+iknoIleAwKYb2ROb18
+w4+LEhdXkv2T3cTz1t1M4FNwYL+L/mJhSkcRlqPoHq11KtSP0w7DQON4Qe8XV2a9Ajt91fDXAknt
+RNdgpcthaP6YMnarYldeK1hBBzxtKPhRKlYgnopSfDOrQFmD
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJALqqhP25tM0dMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuZ3JhZGFyYS5wdS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIEdyYWRhcmExFTATBgNVBAQMDFBBOklULWNfZTEyMjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBHcmFkYXJhMB4XDTIwMTAxOTEwMzM1M1oXDTMwMTAxNzEwMzM1M1owfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5ncmFkYXJhLnB1Lml0MRowGAYDVQQKDBFDb211bmUgZGkgR3JhZGFyYTEVMBMGA1UEBAwMUEE6SVQtY19lMTIyMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIEdyYWRhcmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+0WJ+gRKWhkqmd5XeKHZmkZBQ+sS+Lh4vti+OYTWoJ2jp6HaurCc5PxLOqoX/kvHi5DN5sjA7TTCalE5rCoQ/X5jmtyNQGUdR8EKOJudXWk6i5WzFiknKBW4oXjcvppd0ptyHKi3/p6BpF0YxpnanOU4xLb1+zzcxCEPF7prRjbSZsjJIj/YxA+lwwsGb/hkSWoGxGlcR4Og39JXXxl1uLchktdx8KmDL/L+4D74BJ9QUAyudhMVxNA4tune8LG2RkK5Avz1/UTWfixybjTJ7nSfGBGsJhUbIA34/gzRHshhcr2uJ+hWsAA7m4KhUHld3gb91ias/OL4gsJ85ZQtdAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCQSI/0G8XHSCKbHxAnEsA4pzSooki6fFoeFX9HpXS8SJifghMigS8x+UBQ3oAS2ho7uuL5m4ooyznRBs/+Mmie94E0ZE/coa/JwvH1q3dSBUsvEG7nyJmcQVhwjb9PZmUyn2upAjBOAOIdhdZFN15jptn8/53szgM93N5AzXOCxhJ3Uxqf5D5bwgaZVeUXwTGi78Wvndo4pDzO0Uaff1qQ4ndbTEROKbYKVmSq/IX84EZC9wXYaXPpQgLR3T0AXXA31QwaHPHuu9lMxgcXoc3XSjcRw76p2CWe5FZqtYNtgxw4+UNeowg09bcPmv/dNKA/HG4X8o9M+ht84YAodWL9</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJALqqhP25tM0dMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuZ3JhZGFyYS5wdS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIEdyYWRhcmExFTATBgNVBAQMDFBBOklULWNfZTEyMjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBHcmFkYXJhMB4XDTIwMTAxOTEwMzM1M1oXDTMwMTAxNzEwMzM1M1owfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5ncmFkYXJhLnB1Lml0MRowGAYDVQQKDBFDb211bmUgZGkgR3JhZGFyYTEVMBMGA1UEBAwMUEE6SVQtY19lMTIyMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIEdyYWRhcmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+0WJ+gRKWhkqmd5XeKHZmkZBQ+sS+Lh4vti+OYTWoJ2jp6HaurCc5PxLOqoX/kvHi5DN5sjA7TTCalE5rCoQ/X5jmtyNQGUdR8EKOJudXWk6i5WzFiknKBW4oXjcvppd0ptyHKi3/p6BpF0YxpnanOU4xLb1+zzcxCEPF7prRjbSZsjJIj/YxA+lwwsGb/hkSWoGxGlcR4Og39JXXxl1uLchktdx8KmDL/L+4D74BJ9QUAyudhMVxNA4tune8LG2RkK5Avz1/UTWfixybjTJ7nSfGBGsJhUbIA34/gzRHshhcr2uJ+hWsAA7m4KhUHld3gb91ias/OL4gsJ85ZQtdAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCQSI/0G8XHSCKbHxAnEsA4pzSooki6fFoeFX9HpXS8SJifghMigS8x+UBQ3oAS2ho7uuL5m4ooyznRBs/+Mmie94E0ZE/coa/JwvH1q3dSBUsvEG7nyJmcQVhwjb9PZmUyn2upAjBOAOIdhdZFN15jptn8/53szgM93N5AzXOCxhJ3Uxqf5D5bwgaZVeUXwTGi78Wvndo4pDzO0Uaff1qQ4ndbTEROKbYKVmSq/IX84EZC9wXYaXPpQgLR3T0AXXA31QwaHPHuu9lMxgcXoc3XSjcRw76p2CWe5FZqtYNtgxw4+UNeowg09bcPmv/dNKA/HG4X8o9M+ht84YAodWL9</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/gradara"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gradara" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gradara" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gradara" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+	  <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+	  <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Gradara</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Gradara</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Gradara</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Gradara</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Gradara</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Gradara</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Gradara</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Gradara</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.gradara.pu.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.gradara.pu.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.gradara.pu.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.gradara.pu.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_e122</spid:IPACode>
+         <spid:FiscalCode>00347330417</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>enrica.giommi@comune.gradara.pu.it</md:EmailAddress>
+      <md:TelephoneNumber>0541823905</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

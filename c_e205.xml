@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://spid.comune.grottaglie.ta.it" ID="dge91c9492-1648-45c0-b3b6-b5bbe8f435df" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dge91c9492-1648-45c0-b3b6-b5bbe8f435df"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>YW9pAJQJ/Cni+m1VGrvWH0xfhefvG0wRylBvPWcDFqM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>skngto9MR4jFXFed5CWkY1fiKcEaajDZSPLadm02b7vjW9zhqhnw4+hL39aS/U55J5vSDAfnkIEDD2WgOIPfwWLMo6C7+sS3PbVNiAappU6c7rc6ZMv4pCdZR32H3R01QXi6nxp2cgVnnmLk2tFfe2pilCtNn8EWWRpdubM1sTtJbPHS4moTmTdC+9ISYy1es/I3RzUq2xAsARN5xiPIolJ+/eZCt8yRYMkIgCVI3+/Yf9TgxAA1vHZPDBbzXvT6wOoY/FwWZ5FSBI7rHV6UJ1n1HCnSB//6VPQpvakAv7EGt4yrxIHteiw0273+OBLfMKE8/TCaqEehGHX7HfnVElU=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDazCCAlKgAwIBAgIBADANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJDAiBgNVBAMMG3d3dy5jb211bmUuZ3JvdHRhZ2xpZS50YS5pdDAeFw0xODA3MjMwODQyNTZaFw0yODA3MTkwODQyNTZaME8xCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEkMCIGA1UEAwwbd3d3LmNvbXVuZS5ncm90dGFnbGllLnRhLml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAt4q13fIFfBM8EWdcwaohzIPTCI/QcwXOnfzXHxwZ25xzW28VzZ6/mlPUj2XHACQGe8dT4hg5bvkq075WEBRDfW+RvxrpT6P3i40t0BNewJHmLnjBx8Ws/cAl9sFeaTgDbOzUh8c6yuGjMgRzKNF/lSFGG0FYVm6bmy1lFFZKoQ+0SyRyJ7VT4XMjf4M0ZorUzV5j2wR8aTb2hPnLvMJQMsVXF16Fv4WEOmWeF/MRzDTPjDY/KqPQnIVj399MeQiDWTDkBwQ1cri24+0hhpXkQFLZw5rwxUumAASdpFLup3/q7+u9fb9tjD5DOFQ+MvwV9YcOSBhLDpQ/iiDImBPnPs8CAwEAAaNQME4wHQYDVR0OBBYEFBvyFYweJzMis/NXZn6+NcU18J3NMB8GA1UdIwQYMBaAFBvyFYweJzMis/NXZn6+NcU18J3NMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECADtEro3kIPjxQZjzHNCkIuKjNIGvVt0sXLbCyC8a3JujSzNCuWgvEvzKYX9Cjz/2ThYfyM4pkBMp3OrVsg2q2KzAvKFXBscWyPGgN5X7lVCi5H8inXIuv6PL2W1iWHAW2/NmPp1wDQTCF+c/5qVyxLLNz6qvgtMQ3oGU5hmJdPknfymNfgkC4+FpEwfvBpfUru1rbbXhzICyXKpU//ZqdUFRGSjVQ1+0HrfPHv5n3gMTefngAMxAX6BF0JY2N0wXiZgS0fmWNpqfFNiqFjNppKGG8q9SQdD5Z3awfqk/vIsOz6RPuMS8evTH8mdlDtO6ndbdg2fFV0FZeZpJHo6CSeaT</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDazCCAlKgAwIBAgIBADANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJDAiBgNVBAMMG3d3dy5jb211bmUuZ3JvdHRhZ2xpZS50YS5pdDAeFw0xODA3MjMwODQyNTZaFw0yODA3MTkwODQyNTZaME8xCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEkMCIGA1UEAwwbd3d3LmNvbXVuZS5ncm90dGFnbGllLnRhLml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAt4q13fIFfBM8EWdcwaohzIPTCI/QcwXOnfzXHxwZ25xzW28VzZ6/mlPUj2XHACQGe8dT4hg5bvkq075WEBRDfW+RvxrpT6P3i40t0BNewJHmLnjBx8Ws/cAl9sFeaTgDbOzUh8c6yuGjMgRzKNF/lSFGG0FYVm6bmy1lFFZKoQ+0SyRyJ7VT4XMjf4M0ZorUzV5j2wR8aTb2hPnLvMJQMsVXF16Fv4WEOmWeF/MRzDTPjDY/KqPQnIVj399MeQiDWTDkBwQ1cri24+0hhpXkQFLZw5rwxUumAASdpFLup3/q7+u9fb9tjD5DOFQ+MvwV9YcOSBhLDpQ/iiDImBPnPs8CAwEAAaNQME4wHQYDVR0OBBYEFBvyFYweJzMis/NXZn6+NcU18J3NMB8GA1UdIwQYMBaAFBvyFYweJzMis/NXZn6+NcU18J3NMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECADtEro3kIPjxQZjzHNCkIuKjNIGvVt0sXLbCyC8a3JujSzNCuWgvEvzKYX9Cjz/2ThYfyM4pkBMp3OrVsg2q2KzAvKFXBscWyPGgN5X7lVCi5H8inXIuv6PL2W1iWHAW2/NmPp1wDQTCF+c/5qVyxLLNz6qvgtMQ3oGU5hmJdPknfymNfgkC4+FpEwfvBpfUru1rbbXhzICyXKpU//ZqdUFRGSjVQ1+0HrfPHv5n3gMTefngAMxAX6BF0JY2N0wXiZgS0fmWNpqfFNiqFjNppKGG8q9SQdD5Z3awfqk/vIsOz6RPuMS8evTH8mdlDtO6ndbdg2fFV0FZeZpJHo6CSeaT</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDazCCAlKgAwIBAgIBADANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxJDAiBgNVBAMMG3d3dy5jb211bmUuZ3JvdHRhZ2xpZS50YS5pdDAeFw0xODA3MjMwODQyNTZaFw0yODA3MTkwODQyNTZaME8xCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEkMCIGA1UEAwwbd3d3LmNvbXVuZS5ncm90dGFnbGllLnRhLml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAt4q13fIFfBM8EWdcwaohzIPTCI/QcwXOnfzXHxwZ25xzW28VzZ6/mlPUj2XHACQGe8dT4hg5bvkq075WEBRDfW+RvxrpT6P3i40t0BNewJHmLnjBx8Ws/cAl9sFeaTgDbOzUh8c6yuGjMgRzKNF/lSFGG0FYVm6bmy1lFFZKoQ+0SyRyJ7VT4XMjf4M0ZorUzV5j2wR8aTb2hPnLvMJQMsVXF16Fv4WEOmWeF/MRzDTPjDY/KqPQnIVj399MeQiDWTDkBwQ1cri24+0hhpXkQFLZw5rwxUumAASdpFLup3/q7+u9fb9tjD5DOFQ+MvwV9YcOSBhLDpQ/iiDImBPnPs8CAwEAAaNQME4wHQYDVR0OBBYEFBvyFYweJzMis/NXZn6+NcU18J3NMB8GA1UdIwQYMBaAFBvyFYweJzMis/NXZn6+NcU18J3NMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECADtEro3kIPjxQZjzHNCkIuKjNIGvVt0sXLbCyC8a3JujSzNCuWgvEvzKYX9Cjz/2ThYfyM4pkBMp3OrVsg2q2KzAvKFXBscWyPGgN5X7lVCi5H8inXIuv6PL2W1iWHAW2/NmPp1wDQTCF+c/5qVyxLLNz6qvgtMQ3oGU5hmJdPknfymNfgkC4+FpEwfvBpfUru1rbbXhzICyXKpU//ZqdUFRGSjVQ1+0HrfPHv5n3gMTefngAMxAX6BF0JY2N0wXiZgS0fmWNpqfFNiqFjNppKGG8q9SQdD5Z3awfqk/vIsOz6RPuMS8evTH8mdlDtO6ndbdg2fFV0FZeZpJHo6CSeaT</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/Grottaglie/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/Grottaglie/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Grottaglie</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Grottaglie</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.grottaglie.ta.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

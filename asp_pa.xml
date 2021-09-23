@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportello.asppalermo.org" ID="pfxa436fd69-d25d-9a13-bdea-2deb97bf69ea"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa436fd69-d25d-9a13-bdea-2deb97bf69ea"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gDbSOszBoAzDff73iw6iT1e1uUXQ2/KMwaLXc/aqgWU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>lMmR7dpE2ShrNKShgCWnegBEeF8FDO3PVs+VSV4IWzKUGJVnCCenjiyFP00xXdw0lOQ7E20z077iU1mq1Vnu4sDQ7SpjO6ZDJCi0tj4wQWZWoI9IhzWb3telV7+vk35C6D3TslKzceYxvSDS+uZIzyFSRWTFoCmE4x5+xO5CCnbljONC50cMkYF79kCueEAST21WG2gcc8Y+vG+u2/vZ38uaB0LUE5Km5C9izYCTaJxxMANgD/HgYA7z1xpnjZ7xyY1amvm5FDTe3UWVe2E2KcUUr7b/QRffjzgA2vRf579ymmyR5CpFcSadSPCdM0EJlDg3I5oaCQtnbyMB8xGKog==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECzCCAvOgAwIBAgIJAKnPJ6cGmlV5MA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFsZXJtbzEXMBUGA1UECgwOQXNwIGRpIFRyYXBhbmkxFzAVBgNVBAsMDkFzcCBkaSBUcmFwYW5pMRUwEwYDVQQDDAxPbG9tZWRpYSBzcmwxHzAdBgkqhkiG9w0BCQEWEGluZm9Ab2xvbWVkaWEuaXQwHhcNMTcwOTE1MTUwNzM1WhcNMjcwOTE1MTUwNzM1WjCBmzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BhbGVybW8xEDAOBgNVBAcMB1BhbGVybW8xFzAVBgNVBAoMDkFzcCBkaSBUcmFwYW5pMRcwFQYDVQQLDA5Bc3AgZGkgVHJhcGFuaTEVMBMGA1UEAwwMT2xvbWVkaWEgc3JsMR8wHQYJKoZIhvcNAQkBFhBpbmZvQG9sb21lZGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwoA8VsUY13idCJ13XgtarkhD+WrCbTu1LN0VIdc7Vlhq+45N1fnanLz3WQ53oMFWPDNzLRGdXqeC35rLZlN1hcxRAyjIquJEH5kb2VOYZa9U2pfpe7BR62yfWS4zeD+Xb4nHcvZCj7FjzLU0gfdYNUR7TEsZbJpGNeghJavGtJoOcT7wdaxICz9XngpySPtMRAExrcb1L7OfwPaP1okgZ6/G6FEpAPvxL4qyqHTyCho7Ez8DxL3NcFwW4ZBix2ZR9kW+ULBMWGBKKt6XW+f/GTwKfeUQZLnJF0TNINMxzOwbKO7upATpKKnP1npuT9n0/J7k/ijFPH6dEHEQSs5MYQIDAQABo1AwTjAdBgNVHQ4EFgQUEAuzIQ1vvUUpOe4r987sk3+wwUUwHwYDVR0jBBgwFoAUEAuzIQ1vvUUpOe4r987sk3+wwUUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAAruKQl475Fi5/DYkqMnB5/Fg2QyPckSd2OAHW+fio11psOCE2THOdr7o6De7CfzX4WL0ND1Pkslus5/zytaqmosk5Or/JRTkb/mlfHIzi0LgS0xSSmj6f4vGA0BhzfDbxFLUSOQZzMM4EYcv8LKZjuvb4z09jmwMU8/YKmy2qNwEkTyLh11ve0cUWsEDREohLoeM6qYc0Pxj+SpyMoP7iOTwJ3fsz3zey1yCk97ZV53NUfrD1bcfVODiqN/0ersoRuKEfjnI5z1cekLN6JocpLdn1skF0xR0HuDQRH6p57AD3s/YSoHiA8IngZuRFvBdb09fbmyzpnHPvp4wDuFJXQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECzCCAvOgAwIBAgIJAKnPJ6cGmlV5MA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFsZXJtbzEXMBUGA1UECgwOQXNwIGRpIFRyYXBhbmkxFzAVBgNVBAsMDkFzcCBkaSBUcmFwYW5pMRUwEwYDVQQDDAxPbG9tZWRpYSBzcmwxHzAdBgkqhkiG9w0BCQEWEGluZm9Ab2xvbWVkaWEuaXQwHhcNMTcwOTE1MTUwNzM1WhcNMjcwOTE1MTUwNzM1WjCBmzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BhbGVybW8xEDAOBgNVBAcMB1BhbGVybW8xFzAVBgNVBAoMDkFzcCBkaSBUcmFwYW5pMRcwFQYDVQQLDA5Bc3AgZGkgVHJhcGFuaTEVMBMGA1UEAwwMT2xvbWVkaWEgc3JsMR8wHQYJKoZIhvcNAQkBFhBpbmZvQG9sb21lZGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwoA8VsUY13idCJ13XgtarkhD+WrCbTu1LN0VIdc7Vlhq+45N1fnanLz3WQ53oMFWPDNzLRGdXqeC35rLZlN1hcxRAyjIquJEH5kb2VOYZa9U2pfpe7BR62yfWS4zeD+Xb4nHcvZCj7FjzLU0gfdYNUR7TEsZbJpGNeghJavGtJoOcT7wdaxICz9XngpySPtMRAExrcb1L7OfwPaP1okgZ6/G6FEpAPvxL4qyqHTyCho7Ez8DxL3NcFwW4ZBix2ZR9kW+ULBMWGBKKt6XW+f/GTwKfeUQZLnJF0TNINMxzOwbKO7upATpKKnP1npuT9n0/J7k/ijFPH6dEHEQSs5MYQIDAQABo1AwTjAdBgNVHQ4EFgQUEAuzIQ1vvUUpOe4r987sk3+wwUUwHwYDVR0jBBgwFoAUEAuzIQ1vvUUpOe4r987sk3+wwUUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAAruKQl475Fi5/DYkqMnB5/Fg2QyPckSd2OAHW+fio11psOCE2THOdr7o6De7CfzX4WL0ND1Pkslus5/zytaqmosk5Or/JRTkb/mlfHIzi0LgS0xSSmj6f4vGA0BhzfDbxFLUSOQZzMM4EYcv8LKZjuvb4z09jmwMU8/YKmy2qNwEkTyLh11ve0cUWsEDREohLoeM6qYc0Pxj+SpyMoP7iOTwJ3fsz3zey1yCk97ZV53NUfrD1bcfVODiqN/0ersoRuKEfjnI5z1cekLN6JocpLdn1skF0xR0HuDQRH6p57AD3s/YSoHiA8IngZuRFvBdb09fbmyzpnHPvp4wDuFJXQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECzCCAvOgAwIBAgIJAKnPJ6cGmlV5MA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFsZXJtbzEXMBUGA1UECgwOQXNwIGRpIFRyYXBhbmkxFzAVBgNVBAsMDkFzcCBkaSBUcmFwYW5pMRUwEwYDVQQDDAxPbG9tZWRpYSBzcmwxHzAdBgkqhkiG9w0BCQEWEGluZm9Ab2xvbWVkaWEuaXQwHhcNMTcwOTE1MTUwNzM1WhcNMjcwOTE1MTUwNzM1WjCBmzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BhbGVybW8xEDAOBgNVBAcMB1BhbGVybW8xFzAVBgNVBAoMDkFzcCBkaSBUcmFwYW5pMRcwFQYDVQQLDA5Bc3AgZGkgVHJhcGFuaTEVMBMGA1UEAwwMT2xvbWVkaWEgc3JsMR8wHQYJKoZIhvcNAQkBFhBpbmZvQG9sb21lZGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwoA8VsUY13idCJ13XgtarkhD+WrCbTu1LN0VIdc7Vlhq+45N1fnanLz3WQ53oMFWPDNzLRGdXqeC35rLZlN1hcxRAyjIquJEH5kb2VOYZa9U2pfpe7BR62yfWS4zeD+Xb4nHcvZCj7FjzLU0gfdYNUR7TEsZbJpGNeghJavGtJoOcT7wdaxICz9XngpySPtMRAExrcb1L7OfwPaP1okgZ6/G6FEpAPvxL4qyqHTyCho7Ez8DxL3NcFwW4ZBix2ZR9kW+ULBMWGBKKt6XW+f/GTwKfeUQZLnJF0TNINMxzOwbKO7upATpKKnP1npuT9n0/J7k/ijFPH6dEHEQSs5MYQIDAQABo1AwTjAdBgNVHQ4EFgQUEAuzIQ1vvUUpOe4r987sk3+wwUUwHwYDVR0jBBgwFoAUEAuzIQ1vvUUpOe4r987sk3+wwUUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAAruKQl475Fi5/DYkqMnB5/Fg2QyPckSd2OAHW+fio11psOCE2THOdr7o6De7CfzX4WL0ND1Pkslus5/zytaqmosk5Or/JRTkb/mlfHIzi0LgS0xSSmj6f4vGA0BhzfDbxFLUSOQZzMM4EYcv8LKZjuvb4z09jmwMU8/YKmy2qNwEkTyLh11ve0cUWsEDREohLoeM6qYc0Pxj+SpyMoP7iOTwJ3fsz3zey1yCk97ZV53NUfrD1bcfVODiqN/0ersoRuKEfjnI5z1cekLN6JocpLdn1skF0xR0HuDQRH6p57AD3s/YSoHiA8IngZuRFvBdb09fbmyzpnHPvp4wDuFJXQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportello.asppalermo.org/release/olo-spid/module.php/saml/sp/saml2-logout.php/sp-sportello-palermo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportello.asppalermo.org/release/olo-spid/module.php/saml/sp/saml2-acs.php/sp-sportello-palermo" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Asp di Palermo</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Piattaforma Sportello Online - Powered by Olomedia</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Asp di Palermo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Asp di Palermo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://sportello.asppalermo.org</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

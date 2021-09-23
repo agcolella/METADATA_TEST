@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_2800b75c0fca49328e8c6d0a9bb6e6d6b2858f899a8" entityID="https://dat.salute.gov.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_2800b75c0fca49328e8c6d0a9bb6e6d6b2858f899a8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>gMo6g31CchmSOn+fJJn9idZxack4TVzeGmQ/ICWQ2BQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EMJVAJec5VJOSKLgBCh9aF2lmJR1wgZH0FAtKcy7suLc1pDEf2T/BE8HI/qvq/8dax+i88UFRv1a
+vmF/oUeuFLl0+5UmZTU0wSY0OyzLDcEwFcewSFJka0XJsmtLJYA06YRfMyMHvZbRqjxEGaEKdqfP
+9wLb4OvgtsZ/VXnsDE4vtCTgsFRpTWVe6qhLP9OOUpqNt5sZf6mcurCsMUkPbnSFWOXYlL6llLgb
+kqdotnncPWaB+SIEsVeyyJuVVHWIKlfW8xBIzmOR1Q4eU6Evf9jZtNUHa81YZywYI67cWE7z4C6j
+msyKi5B5dyQfmarLijP6H6lBja3881hJiRfnhQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tuCj6uaEiWKjKM8Vr4Xu7e3TDxvkhZ6Qva4ccINDubcsgTZ69h/iy992XUgsPFLE1nVcrZQxynGQ
+5wmU5S8FyO6KiTCGEiPBKIfTcsdBEuFTySw/uID465by+ahX0ey6v99uXBGgX8w27jvMfMAY2znV
+Q1aVn37SBzZV5JqbgJZEzVQUSqDwZuu/u0cNceJzFVwv/VycA+9NOk804EWgEhqqfyNg9LCFOcLt
+xx2Pdnw54nzyjo+Ftc0xZXX+ydNU7P42Yv1Ao6zQHFzr637xqyN0i8K+dZVLzzR+9MJOKIJ4af5f
+ZCGvp+ZCwTROv0Z5k8i1oRla4KwbiGS89xo1lw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHuTCCBaGgAwIBAgIQLKBdcS/uzycgHrks6t18aTANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UE
+BhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRlIFNhbiBQaWV0cm8xFzAVBgNV
+BAoMDkFjdGFsaXMgUy5wLkEuMTEwLwYDVQQDDChBY3RhbGlzIEV4dGVuZGVkIFZhbGlkYXRpb24g
+U2VydmVyIENBIEczMB4XDTIwMDkwNzE0NDk1NFoXDTIxMDkwNzE0NDk1NFowgeIxCzAJBgNVBAYT
+AklUMQ0wCwYDVQQIDARSb21hMQ0wCwYDVQQHDARSb21hMR8wHQYDVQQKDBZNaW5pc3Rlcm8gZGVs
+bGEgU2FsdXRlMQ8wDQYDVQQLDAZER1NJU1MxFDASBgNVBAUTCzgwMjQyMjUwNTg5MRowGAYDVQQD
+DBFkYXQuc2FsdXRlLmdvdi5pdDEaMBgGA1UEDwwRR292ZXJubWVudCBFbnRpdHkxIDAeBgNVBAkM
+F1ZpYWxlIEdpb3JnaW8gUmlib3R0YSA1MRMwEQYLKwYBBAGCNzwCAQMTAklUMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtuCj6uaEiWKjKM8Vr4Xu7e3TDxvkhZ6Qva4ccINDubcsgTZ6
+9h/iy992XUgsPFLE1nVcrZQxynGQ5wmU5S8FyO6KiTCGEiPBKIfTcsdBEuFTySw/uID465by+ahX
+0ey6v99uXBGgX8w27jvMfMAY2znVQ1aVn37SBzZV5JqbgJZEzVQUSqDwZuu/u0cNceJzFVwv/Vyc
+A+9NOk804EWgEhqqfyNg9LCFOcLtxx2Pdnw54nzyjo+Ftc0xZXX+ydNU7P42Yv1Ao6zQHFzr637x
+qyN0i8K+dZVLzzR+9MJOKIJ4af5fZCGvp+ZCwTROv0Z5k8i1oRla4KwbiGS89xo1lwIDAQABo4IC
+wzCCAr8wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSrQXPwb1DQaf1zF6uJs2ti7b18SzB9Bggr
+BgEFBQcBAQRxMG8wOgYIKwYBBQUHMAKGLmh0dHA6Ly9jYWNlcnQuYWN0YWxpcy5pdC9jZXJ0cy9h
+Y3RhbGlzLWF1dGV2ZzMwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwMDUuYWN0YWxpcy5pdC9WQS9B
+VVRIRVYtRzMwHAYDVR0RBBUwE4IRZGF0LnNhbHV0ZS5nb3YuaXQwUAYDVR0gBEkwRzA8BgYrgR8B
+EQEwMjAwBggrBgEFBQcCARYkaHR0cHM6Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25sb2FkMAcG
+BWeBDAEBMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATBIBgNVHR8EQTA/MD2gO6A5hjdo
+dHRwOi8vY3JsMDUuYWN0YWxpcy5pdC9SZXBvc2l0b3J5L0FVVEhFVi1HMy9nZXRMYXN0Q1JMMB0G
+A1UdDgQWBBS2v06U711oO7tNw1NjKCKBuOmpBjAOBgNVHQ8BAf8EBAMCBaAwggEFBgorBgEEAdZ5
+AgQCBIH2BIHzAPEAdgCUILwejtWNbIhzH4KLIiwN0dpNXmxPlD1h204vWE2iwgAAAXRpFKWoAAAE
+AwBHMEUCIBK04u7O6pa+1mh0kHaX+SvpJyC/BKQRWJxVBHPq21XDAiEAzk1dpSL37caF9W5Q/rnS
+9RHi+KUDNNYIZHDPgcVVk0IAdwB9PvL4j/+IVWgkwsDKnlKJeSvFDngJfy5ql2iZfiLw1wAAAXRp
+FKV4AAAEAwBIMEYCIQDaO/XZ/LIIKbkcqohJ41BVurgLP9MqE5hDVTbN2JFp5gIhAPg1/aPqmxwg
+2SfEEVQrJ46gs6tAGUK8sJ2UnaVHdiQhMA0GCSqGSIb3DQEBCwUAA4ICAQCZvMurhY1eyEdE0pK7
+uim1xD05xr2y/jqAaKoho5wArgBSbtA6wdU7BOPG9lVXuKozBpqniOwKqg9chQ1DHew/wTNT2zYh
+ZZrDqZb/zKEnsw2lwBqlvdsrATjywcgVudCH3rp/mIg11y6HwlpKmNcaLhQO7TwzVpCem/gJq8aN
+6DPTomtj4Wpin4kGL8VECFBRIFc7k5GVRA6mpX9y/5cWjfIAyQgLYKLu3vDqXps6hZ7b4azWEnBo
+9h7FzI/KsXzRsO97nN2Q+vWWQAtG2b14Vyd7Jc9habU+wBUbfFWJTLPuz8GhivJ+Y2b9ULyIne/r
+YUGDyHkCLNEobEyafLvENxR5y8sozdWz+ox8bHNuQH/8bp53Iy09iJqMV+YTpT4Js1rD/645UjKe
+oZZE/onG4zUyn7fGmwgfAwyjQvNYaJg9E17OarV1FnucJ1vnG33zA0EnNl6epsrjkqDFVh5VeDtv
+SodTtHD5ikh/AuLq+ozLROzB3tQ/xbKpAhcW3EwKZ4+Rtyh5kGlsPNzYK3suR2zmjzjA0Zk2y9El
+Wur/A5wxdapvJQt4JH4S9tYhJ8XigklA7bgzfy30TxHUzoPWj8sc+QNW3J+rx4k2MepQJBtKXRZ8
+ASyX6S9FnDRnQC1tQQ/SDzGPxg5c3deXqBf3DfIVFULxudt+gsX1dNOFjQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIHuTCCBaGgAwIBAgIQLKBdcS/uzycgHrks6t18aTANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UE BhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRlIFNhbiBQaWV0cm8xFzAVBgNV BAoMDkFjdGFsaXMgUy5wLkEuMTEwLwYDVQQDDChBY3RhbGlzIEV4dGVuZGVkIFZhbGlkYXRpb24g U2VydmVyIENBIEczMB4XDTIwMDkwNzE0NDk1NFoXDTIxMDkwNzE0NDk1NFowgeIxCzAJBgNVBAYT AklUMQ0wCwYDVQQIDARSb21hMQ0wCwYDVQQHDARSb21hMR8wHQYDVQQKDBZNaW5pc3Rlcm8gZGVs bGEgU2FsdXRlMQ8wDQYDVQQLDAZER1NJU1MxFDASBgNVBAUTCzgwMjQyMjUwNTg5MRowGAYDVQQD DBFkYXQuc2FsdXRlLmdvdi5pdDEaMBgGA1UEDwwRR292ZXJubWVudCBFbnRpdHkxIDAeBgNVBAkM F1ZpYWxlIEdpb3JnaW8gUmlib3R0YSA1MRMwEQYLKwYBBAGCNzwCAQMTAklUMIIBIjANBgkqhkiG 9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtuCj6uaEiWKjKM8Vr4Xu7e3TDxvkhZ6Qva4ccINDubcsgTZ6 9h/iy992XUgsPFLE1nVcrZQxynGQ5wmU5S8FyO6KiTCGEiPBKIfTcsdBEuFTySw/uID465by+ahX 0ey6v99uXBGgX8w27jvMfMAY2znVQ1aVn37SBzZV5JqbgJZEzVQUSqDwZuu/u0cNceJzFVwv/Vyc A+9NOk804EWgEhqqfyNg9LCFOcLtxx2Pdnw54nzyjo+Ftc0xZXX+ydNU7P42Yv1Ao6zQHFzr637x qyN0i8K+dZVLzzR+9MJOKIJ4af5fZCGvp+ZCwTROv0Z5k8i1oRla4KwbiGS89xo1lwIDAQABo4IC wzCCAr8wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSrQXPwb1DQaf1zF6uJs2ti7b18SzB9Bggr BgEFBQcBAQRxMG8wOgYIKwYBBQUHMAKGLmh0dHA6Ly9jYWNlcnQuYWN0YWxpcy5pdC9jZXJ0cy9h Y3RhbGlzLWF1dGV2ZzMwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwMDUuYWN0YWxpcy5pdC9WQS9B VVRIRVYtRzMwHAYDVR0RBBUwE4IRZGF0LnNhbHV0ZS5nb3YuaXQwUAYDVR0gBEkwRzA8BgYrgR8B EQEwMjAwBggrBgEFBQcCARYkaHR0cHM6Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25sb2FkMAcG BWeBDAEBMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATBIBgNVHR8EQTA/MD2gO6A5hjdo dHRwOi8vY3JsMDUuYWN0YWxpcy5pdC9SZXBvc2l0b3J5L0FVVEhFVi1HMy9nZXRMYXN0Q1JMMB0G A1UdDgQWBBS2v06U711oO7tNw1NjKCKBuOmpBjAOBgNVHQ8BAf8EBAMCBaAwggEFBgorBgEEAdZ5 AgQCBIH2BIHzAPEAdgCUILwejtWNbIhzH4KLIiwN0dpNXmxPlD1h204vWE2iwgAAAXRpFKWoAAAE AwBHMEUCIBK04u7O6pa+1mh0kHaX+SvpJyC/BKQRWJxVBHPq21XDAiEAzk1dpSL37caF9W5Q/rnS 9RHi+KUDNNYIZHDPgcVVk0IAdwB9PvL4j/+IVWgkwsDKnlKJeSvFDngJfy5ql2iZfiLw1wAAAXRp FKV4AAAEAwBIMEYCIQDaO/XZ/LIIKbkcqohJ41BVurgLP9MqE5hDVTbN2JFp5gIhAPg1/aPqmxwg 2SfEEVQrJ46gs6tAGUK8sJ2UnaVHdiQhMA0GCSqGSIb3DQEBCwUAA4ICAQCZvMurhY1eyEdE0pK7 uim1xD05xr2y/jqAaKoho5wArgBSbtA6wdU7BOPG9lVXuKozBpqniOwKqg9chQ1DHew/wTNT2zYh ZZrDqZb/zKEnsw2lwBqlvdsrATjywcgVudCH3rp/mIg11y6HwlpKmNcaLhQO7TwzVpCem/gJq8aN 6DPTomtj4Wpin4kGL8VECFBRIFc7k5GVRA6mpX9y/5cWjfIAyQgLYKLu3vDqXps6hZ7b4azWEnBo 9h7FzI/KsXzRsO97nN2Q+vWWQAtG2b14Vyd7Jc9habU+wBUbfFWJTLPuz8GhivJ+Y2b9ULyIne/r YUGDyHkCLNEobEyafLvENxR5y8sozdWz+ox8bHNuQH/8bp53Iy09iJqMV+YTpT4Js1rD/645UjKe oZZE/onG4zUyn7fGmwgfAwyjQvNYaJg9E17OarV1FnucJ1vnG33zA0EnNl6epsrjkqDFVh5VeDtv SodTtHD5ikh/AuLq+ozLROzB3tQ/xbKpAhcW3EwKZ4+Rtyh5kGlsPNzYK3suR2zmjzjA0Zk2y9El Wur/A5wxdapvJQt4JH4S9tYhJ8XigklA7bgzfy30TxHUzoPWj8sc+QNW3J+rx4k2MepQJBtKXRZ8 ASyX6S9FnDRnQC1tQQ/SDzGPxg5c3deXqBf3DfIVFULxudt+gsX1dNOFjQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dat.salute.gov.it/datsso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dat.salute.gov.it/datsso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dat.salute.gov.it/datsso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="it">Portale DAT</md:ServiceName>
+        <md:RequestedAttribute Name="spidCode"/>
+        <md:RequestedAttribute Name="name"/>
+        <md:RequestedAttribute Name="familyName"/>
+        <md:RequestedAttribute Name="placeOfBirth"/>
+        <md:RequestedAttribute Name="countyOfBirth"/>
+        <md:RequestedAttribute Name="dateOfBirth"/>
+        <md:RequestedAttribute Name="gender"/>
+        <md:RequestedAttribute Name="fiscalNumber"/>
+        <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ministero della Salute</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ministero della Salute</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://dat.salute.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

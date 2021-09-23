@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="pmo_69fg-6531-5aa4-9c77-649fcde215c4" entityID="https://www.comune.palermo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pmo_69fg-6531-5aa4-9c77-649fcde215c4">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EFBDYhJq1pI4CMobTdaUo9LCEAN3qcLr61wma8hp844=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PH8WbOENeiRP0D+MKGy0lRpjJ6v2l6zFpMN9FRUsxi+X5wYbnfhPsA8VLq6pZ6n/jxnvta+iqnzr
+dHM58/b0LEFGU04sQHpCludWUcf/8b9xA7yToFt4NujyBt8/w30uFBob1kQbJi8gim3y8JV5k0Xf
+6tGY53rIPMGN6esoF85/dlum4UgQ9vqWfFZCpziXDko8BznK8ogwZrtrna22YWEcga7krH7SpvHN
+g+MaxSODMf3bUU2G5uEGkPxwFaeWdRy7D/GPIzdj0vRrBIoUMt0I4Yqx2Z8lpuUYrbeC9MyVprGt
+iRJ95U1WY0RNzD2bNpMnPj2MoczWULN5vsEc1g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8kGkFHHrlzdAoLKyDFsjFwWgvrm2OIWMA+t5c7rA6wt7yYLNLwshqe/nn9zi06UPk0Db/nvETFzN
+aAQV75rYQzx/q+6fS70zNbRIitX6PDTNvDHan/TZ5znBLiMdZl85KxwENRXwzt4wX+GTfh4JzZG0
+lLjmfXS0iSoXiCLelVbus8T21hcHdoIUxB4ggaH0imjb+2UMB1AMVMhVQDDS5EOUt/6B02YAslcy
+qbdkYFG3B38/Myn5n8ND35ZXeOPE4bso50RY57uefkhkNTnMKoz9rNBXtFH74n4EIimiBSkq4MFY
+1onR7my3W5wpCzi1xDVvMWxqw4RURJ+xENlpqw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEHjCCAwagAwIBAgIJALpdPSPoZwqSMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFsZXJtbzEaMBgGA1UECgwRQ29tdW5lIGRpIFBh
+bGVybW8xFTATBgNVBAsMDFNpc3BpIHMucC5hLjEfMB0GA1UEAwwWc3BpZC5jb211bmUucGFsZXJt
+by5pdDEcMBoGCSqGSIb3DQEJARYNc3BpZEBzaXNwaS5pdDAeFw0xODAxMzExNTEyMDFaFw0zODAx
+MjYxNTEyMDFaMIGjMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFs
+ZXJtbzEaMBgGA1UECgwRQ29tdW5lIGRpIFBhbGVybW8xFTATBgNVBAsMDFNpc3BpIHMucC5hLjEf
+MB0GA1UEAwwWc3BpZC5jb211bmUucGFsZXJtby5pdDEcMBoGCSqGSIb3DQEJARYNc3BpZEBzaXNw
+aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPJBpBRx65c3QKCysgxbIxcFoL65
+tjiFjAPreXO6wOsLe8mCzS8LIanv55/c4tOlD5NA2/57xExczWgEFe+a2EM8f6vun0u9MzW0SIrV
++jw0zbwx2p/02ec5wS4jHWZfOSscBDUV8M7eMF/hk34eCc2RtJS45n10tIkqF4gi3pVW7rPE9tYX
+B3aCFMQeIIGh9Ipo2/tlDAdQDFTIVUAw0uRDlLf+gdNmALJXMqm3ZGBRtwd/PzMp+Z/DQ9+WV3jj
+xOG7KOdEWOe7nn5IZDU5zCqM/azQV7RR++J+BCIpogUpKuDBWNaJ0e5st1ucKQs4tcQ1bzFsasOE
+VESfsRDZaasCAwEAAaNTMFEwHQYDVR0OBBYEFFa32x13j8rUMsQxAPUEg5DYwpzrMB8GA1UdIwQY
+MBaAFFa32x13j8rUMsQxAPUEg5DYwpzrMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQAD
+ggEBAJXt+7QPpEG8zePUUrocxjGt3iHBLx43bVLgoyxXTW4KId4FL9Q+gSboWYghznOSzs846ytz
+0h4k2rXwXgxtzI9rEolip4UZMZsk+W67ifttIVIxbe4tl1gJfVqnBgO84u80VBBfj2hsriNe+84Y
+0pxf4ztSDTyho9oFX9hU6aQ/bM0MTrEm23XndGk8SZxHauAN5Cv012AhDdX0PfhIDcKYcIjvStqa
+pO2qKO23TSSYMYHScZI9HRMZtLg861Xsjm6IdwX7Hy4shkWmlu7bCXDcYhZPZX23a0oQQlJb1D7V
+hnOaKKUl2jdCM5Qd064B3T9mHR/hK7HAFE49UjfB3WU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAL+L+5CwdqxKMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUucGFsZXJtby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcwODE2MTAyNjE5WhcNMjEwODE1MTAyNjE5WjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnBhbGVybW8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAocrWqhAieG55PdJapHTXwoOu9S0WfzhgC2sdT97gqDoIVosLwqUH2J834/1vIJfBWti2zn2kCQYMNtBVyLyTcDx+4xCKaPAmTbtXv7s2geoVDgycQs0zaxv4kxFeUnNc7Ge91PRkKr+JMCd6MJYJ+28ATZM8FasisNG0HdsAqIEwtRcUSXNK5tyFOK8BRvkfcssFEbBieldF1fPxmtqVBaFvuTpdK0x0mmaOX5ZYfJEu33JWe3R7J23wtKgyDv7m/D8RI8Ii41R0FvdwRQxq7gOQq7w37DQPYb6p/yJ+4HXqTHBE4G1vQ0xGArSfUCb9U0bWNrUjKZ1/oL+6UHY6eQIDAQABo1AwTjAdBgNVHQ4EFgQUhQUGsSCbHXb7VrlFHrylGYOYSPcwHwYDVR0jBBgwFoAUhQUGsSCbHXb7VrlFHrylGYOYSPcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAfc4odt0JXpyo4mhAaapVVfbaC4fSubxM5ytXEhY+2PO/kSNjsfJQY6QGicu71kp6RPyahU94dbx/+Pim6L14D8HZmhEVjd79N1fQPLFFtvZOPg6f50io+IkH7HiHcvEBmGofYY5Vv8SMpj9p3A70b+Vpqm/XbOyy9wiakHMaqA8T1uMhlWBCOz4Mv5qCGr5Z+2XCLPEznlG0AALk4edT8jQJO/n+tX7zddOxyPIIX7qeLqPM3T5VHi/tgaYLcamLQINokCMPw3h9z9rznIiJdIJ0oBSXk1kUt6BuypZBMkBuKZhMz8w9IvOs5AqAuD552qtleB6h3RpS0gh2K9fiKQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHjCCAwagAwIBAgIJALpdPSPoZwqSMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFsZXJtbzEaMBgGA1UECgwRQ29tdW5lIGRpIFBhbGVybW8xFTATBgNVBAsMDFNpc3BpIHMucC5hLjEfMB0GA1UEAwwWc3BpZC5jb211bmUucGFsZXJtby5pdDEcMBoGCSqGSIb3DQEJARYNc3BpZEBzaXNwaS5pdDAeFw0xODAxMzExNTEyMDFaFw0zODAxMjYxNTEyMDFaMIGjMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHUGFsZXJtbzEQMA4GA1UEBwwHUGFsZXJtbzEaMBgGA1UECgwRQ29tdW5lIGRpIFBhbGVybW8xFTATBgNVBAsMDFNpc3BpIHMucC5hLjEfMB0GA1UEAwwWc3BpZC5jb211bmUucGFsZXJtby5pdDEcMBoGCSqGSIb3DQEJARYNc3BpZEBzaXNwaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPJBpBRx65c3QKCysgxbIxcFoL65tjiFjAPreXO6wOsLe8mCzS8LIanv55/c4tOlD5NA2/57xExczWgEFe+a2EM8f6vun0u9MzW0SIrV+jw0zbwx2p/02ec5wS4jHWZfOSscBDUV8M7eMF/hk34eCc2RtJS45n10tIkqF4gi3pVW7rPE9tYXB3aCFMQeIIGh9Ipo2/tlDAdQDFTIVUAw0uRDlLf+gdNmALJXMqm3ZGBRtwd/PzMp+Z/DQ9+WV3jjxOG7KOdEWOe7nn5IZDU5zCqM/azQV7RR++J+BCIpogUpKuDBWNaJ0e5st1ucKQs4tcQ1bzFsasOEVESfsRDZaasCAwEAAaNTMFEwHQYDVR0OBBYEFFa32x13j8rUMsQxAPUEg5DYwpzrMB8GA1UdIwQYMBaAFFa32x13j8rUMsQxAPUEg5DYwpzrMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJXt+7QPpEG8zePUUrocxjGt3iHBLx43bVLgoyxXTW4KId4FL9Q+gSboWYghznOSzs846ytz0h4k2rXwXgxtzI9rEolip4UZMZsk+W67ifttIVIxbe4tl1gJfVqnBgO84u80VBBfj2hsriNe+84Y0pxf4ztSDTyho9oFX9hU6aQ/bM0MTrEm23XndGk8SZxHauAN5Cv012AhDdX0PfhIDcKYcIjvStqapO2qKO23TSSYMYHScZI9HRMZtLg861Xsjm6IdwX7Hy4shkWmlu7bCXDcYhZPZX23a0oQQlJb1D7VhnOaKKUl2jdCM5Qd064B3T9mHR/hK7HAFE49UjfB3WU=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>        
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/palermo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/palermo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.comune.palermo.it/auth/realms/sispi4pa/broker/spid/endpoint" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.palermo.it/portcitt/spid/sso" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.sispi.it/auth/realms/sispi4cloud/broker/spid/endpoint" index="3"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Palermo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Palermo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Palermo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Palermo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Palermo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Palermo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Palermo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Palermo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.palermo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.palermo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.palermo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.palermo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

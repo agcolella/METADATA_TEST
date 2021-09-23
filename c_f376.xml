@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Monopoli" entityID="https://www.comune.monopoli.ba.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Monopoli">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EnxiVOm6ZfrcSR4yXpEAEKgoliUJjmAQYr0n1h2z6So=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+nHhyGj1+QRMc/4QX+QP6P53LMc2u8854wb7qG684wt8PsxzjmEcFQ71Z4xe7rEoOki5FhoA3sG3R
+4gxZFHuDQT+zC6IauuTvs5bmocGv5ZBs9YIrkVC0FbDRPuZzsa8YGkmr+YI/isNRtcN5XvH7N3UN
+Snq1j0hxr3YhpI5f4JwkVzvotChJrwC/5PyxoVGpCMq6E64YETVU8+fLhhYYznwaa3hnpCm3XxrV
+JGa26k8I5hdmOWFXWdJfQIbbuuIwhz2r7vC9z+QANzbz5MGlZz4YMKdCAn5a+ZCkBDat4VTXiZbG
++KH0elRv2toXf01pvQwX9HdC9c6/VTQWK2XxXA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4UBb03ObAR3cHBZG+xHUHtZGRd0tOUR6vEg2Sz5quyKWvcpQjsPFFS4YJilGpvJXljH5+YUDpjbv
+1Nh5eJRN5rHeNvo7lZX0nJkbR2cArASo79yOAs6fMyaOOkzGT1/hW8TBX7v9lliQt6kNR5ua2VQd
+4RXvgFDgZEJscB0HTHDvZXpgzabjZeoa5lI7jAXpArVne3eB6DNFX3sYM9YbA2FsggnObN3xMYL9
+LsKxdItk7uf27KMi8jSO2Vd3i9TPDgzSKE9K/J44flYr88iiLUAVrjaJeqTL4p1J99UUaBiaOzci
+0Y8sr1rus1/fM3OsLWsJNSMYMn3wM+Uwc6u7vQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAKRH6YIDyb6xMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUubW9ub3BvbGkuYmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDIy
+MTEzNTU1MloXDTI4MDIxOTEzNTU1MlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tb25vcG9saS5i
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDhQFvTc5sBHdwcFkb7EdQe1kZF3S05RHq8SDZLPmq7Ipa9ylCOw8UVLhgmKUam8leW
+Mfn5hQOmNu/U2Hl4lE3msd42+juVlfScmRtHZwCsBKjv3I4Czp8zJo46TMZPX+FbxMFfu/2WWJC3
+qQ1Hm5rZVB3hFe+AUOBkQmxwHQdMcO9lemDNpuNl6hrmUjuMBekCtWd7d4HoM0Vfexgz1hsDYWyC
+Cc5s3fExgv0uwrF0i2Tu5/bsoyLyNI7ZV3eL1M8ODNIoT0r8njh+VivzyKItQBWuNol6pMvinUn3
+1RRoGJo7NyLRjyyvWu6zX98zc6wtawk1IxgyffAz5TBzq7u9AgMBAAGjUDBOMB0GA1UdDgQWBBRK
+/8qtKMsRoaF5SDcMPhikCjMAwzAfBgNVHSMEGDAWgBRK/8qtKMsRoaF5SDcMPhikCjMAwzAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCw4nDNDIwtk6uniHLj4J140U3fzgRshcipbbGM
+5MguKXUo1LmG6amYMYGV326Pqxz+IpAfV8V+j+E6FWxs6UuI8BtqnWCUOm9CIKYZTczTufYR/wln
+ztU6BzYrcVWU1xp/tdNW+B614NeCFhG4Z+rsPrdg0Ptf+9lGj/ZVpaEjiDCNMs3m+oRzeAQwp0de
+Ayj+gCMiJAPmpbZ0c5J4bXWLglvoURCyI3Wm6CGBbV08fwaMWJmmpu48ydRZ0byu492I2XlQe/Ta
+wd292Chuy/odIVIvY1FFqMFgnIzIpcoxwVapZ/7/qjj1irLcepsdW5jZen8nnBEVE7Mzh/dS/u1x
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAKRH6YIDyb6xMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubW9ub3BvbGkuYmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDIyMTEzNTU1MloXDTI4MDIxOTEzNTU1MlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tb25vcG9saS5iYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDhQFvTc5sBHdwcFkb7EdQe1kZF3S05RHq8SDZLPmq7Ipa9ylCOw8UVLhgmKUam8leWMfn5hQOmNu/U2Hl4lE3msd42+juVlfScmRtHZwCsBKjv3I4Czp8zJo46TMZPX+FbxMFfu/2WWJC3qQ1Hm5rZVB3hFe+AUOBkQmxwHQdMcO9lemDNpuNl6hrmUjuMBekCtWd7d4HoM0Vfexgz1hsDYWyCCc5s3fExgv0uwrF0i2Tu5/bsoyLyNI7ZV3eL1M8ODNIoT0r8njh+VivzyKItQBWuNol6pMvinUn31RRoGJo7NyLRjyyvWu6zX98zc6wtawk1IxgyffAz5TBzq7u9AgMBAAGjUDBOMB0GA1UdDgQWBBRK/8qtKMsRoaF5SDcMPhikCjMAwzAfBgNVHSMEGDAWgBRK/8qtKMsRoaF5SDcMPhikCjMAwzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCw4nDNDIwtk6uniHLj4J140U3fzgRshcipbbGM5MguKXUo1LmG6amYMYGV326Pqxz+IpAfV8V+j+E6FWxs6UuI8BtqnWCUOm9CIKYZTczTufYR/wlnztU6BzYrcVWU1xp/tdNW+B614NeCFhG4Z+rsPrdg0Ptf+9lGj/ZVpaEjiDCNMs3m+oRzeAQwp0deAyj+gCMiJAPmpbZ0c5J4bXWLglvoURCyI3Wm6CGBbV08fwaMWJmmpu48ydRZ0byu492I2XlQe/Tawd292Chuy/odIVIvY1FFqMFgnIzIpcoxwVapZ/7/qjj1irLcepsdW5jZen8nnBEVE7Mzh/dS/u1x
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/monopoli"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monopoli" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monopoli" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Monopoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Monopoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Monopoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Monopoli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Monopoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Monopoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Monopoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Monopoli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.monopoli.ba.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.monopoli.ba.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.monopoli.ba.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.monopoli.ba.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

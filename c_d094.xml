@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="https://www.comune.cossato.bi.it/SP" ID="id99227472b9494094987fb8c8096441e3" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#id99227472b9494094987fb8c8096441e3"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>dPc5lOcvQ2CXMmF189C3IsWUQ6abHvPP+yUZFoF/lC0=</DigestValue></Reference></SignedInfo><SignatureValue>J49AI57tjqB+L+i4JQ2rAzqSo4NUPO0x0hgWfQxsrG+or+g7LyYu8mNuSWrETnQLmlUOyBiw6LM6yW9EsDJ6ecqQnYQauWm2SojZ99Qchuse6Lxaod/e4QTdmg098IzRPdaW6HVhvFaVRzfGw5X/Q5qUQtMgKf20Jtr9Rpz+xN9jXxb+EnxIHelqjXnQKzkuWOJ5+id0zI/Pr6enSg7PCrmc92IWo79c3kLu1AlllwQIUaahkVU/Ixjl0NOeZhZP59zwZisE9PtrhuQaSl09cLqktQFJyUenJUFJt6G+JKOZUWvGcHHTgkx74cn3cD61csrZTbbpUhD3kj0d1uWCRg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIETzCCAzegAwIBAgIJAKhlsnYpG+s/MA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCSTEQMA4GA1UEBwwHQ29zc2F0bzEaMBgGA1UECgwRQ29tdW5lIGRpIENvc3NhdG8xITAfBgNVBAMMGHd3dy5jb211bmUuY29zc2F0by5iaS5pdDAeFw0yMDAzMjUxNDA5NDdaFw0zMDAzMjMxNDA5NDdaMGsxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCSTEQMA4GA1UEBwwHQ29zc2F0bzEaMBgGA1UECgwRQ29tdW5lIGRpIENvc3NhdG8xITAfBgNVBAMMGHd3dy5jb211bmUuY29zc2F0by5iaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMQLDE6v0chVTvgjB1ey/Ll/Wak5idRwxcSY33gL2Uelu0PDHq4nHfnmtOjlLvNtHiJzrmKoi3oVsRp51bZN18b1CyMS3ta+PuOAnh0AtfXeMT5q48lrycRzbndPQFvM0ybA2DpsrwqMoqhhJhFPcpO4AMSa4AQbQoGVD1VzPLqIJPT8TR69i4VClpbGTaYuzaYYYDBB0hdW/lMxsPHiGE3yRop6MTSyzC/YJJWY3nBTsr2XIjvNJDfPW5EYCat0nB7PbdZRPVslcrIoVlYu5R31KDoz8hPSXj6sl9RFhVK0ZAfsoBMt8zX/VxWBWjl5UFIvuzE0yZmP991oVMgdLOsCAwEAAaOB9TCB8jAdBgNVHQ4EFgQU0LD9RKW9C5TI4hBNNUthmV/fpiUwgZ0GA1UdIwSBlTCBkoAU0LD9RKW9C5TI4hBNNUthmV/fpiWhb6RtMGsxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCSTEQMA4GA1UEBwwHQ29zc2F0bzEaMBgGA1UECgwRQ29tdW5lIGRpIENvc3NhdG8xITAfBgNVBAMMGHd3dy5jb211bmUuY29zc2F0by5iaS5pdIIJAKhlsnYpG+s/MA8GA1UdEwEB/wQFMAMBAf8wEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBCwUAA4IBAQABQatHAsjU31B1LR3Wrp1IVBsHLurcv2XjMHxgJhRNvbJJ15P9MaUHb5thsvucnOMIt5npi6juvsYZxCdE3v9yiXBBeGa3+DwLsuyGar8pKLkQ0PWSt69SDLwFGvWZCYR66p4bvhrUPwHS1ZM0GsPXHqVNHM4NsbDwd/f6ltc+wXgVtwvpkF7QF7Nxx8mqBP0Tcf8B76vIFPnAzQzW+h+T/rkiHYhkA0aCTIhyLwz/8dJuhsQOCeIHVluG83k26Vut+FazzppoYQYYgioG9TH8joVPRx7ecQMcHlZ/say7074047XC2v/1pNU0FQzA5NV/ND5Tu2EcsMTQ7wHRVcwW</X509Certificate></X509Data></KeyInfo></Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <AttributeConsumingService index="0">
+      <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+      <RequestedAttribute Name="fiscalNumber" />
+      <RequestedAttribute Name="name" />
+      <RequestedAttribute Name="familyName" />
+      <RequestedAttribute Name="spidCode" />
+      <RequestedAttribute Name="email" />
+      <RequestedAttribute Name="digitalAddress" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="it">Comune di Cossato</OrganizationName>
+    <OrganizationDisplayName xml:lang="it">Comune di Cossato</OrganizationDisplayName>
+    <OrganizationURL xml:lang="it">https://www.comune.cossato.bi.it</OrganizationURL>
+  </Organization>
+</EntityDescriptor>

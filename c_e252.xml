@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://guasila.comune.it" ID="dg97e57da0-4f90-4341-882f-a7a296c0d803" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg97e57da0-4f90-4341-882f-a7a296c0d803"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>BDtAxjirXcg7xHGGUDbUY/9QLSG0Cv8k2krT7wCLc5M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>wdUuj43+fnKQZxvgjmloNGwVzz4WHYFJCIQIwHCiTElSHzRrK4xsC7IEtT0XYj3MKgus5lp/90WW618j3PzVotG8hmBeUQR/+u9bAzCEATz6rnQ7UkDbdLC2ETUni/MhQRMlKUuMYgkIzM+pS3AkylXUKHZWzKVR/doP5hYTD2f1wDZnRAZeO7G368hb92fzpLilrTPL55tC6xUz5k0VCrHv+S8IwtH8vNsiCVetVAdJB8oPSXij6ZWXLfivAQ7xeXfXJ22FfMapv6iEqrQmS7H3eaV0ern/vPpNtclpKZTaSxl/i8vy7R2nX4c7mxv3x0i52BUNEuPjBErEF3OUK8M=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuZ3Vhc2lsYS5zdS5pdDAeFw0yMDA2MTcwOTQ2NDRaFw0zMDA2MTUwOTQ2NDRaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5ndWFzaWxhLnN1Lml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIA5dmFjTCmmJGQVyMlQ89ozLc8ZtWRG+N17An3sG9RYd7ol7C8i72bEIwyDs0WDxsI8vymW7yx5tItNSLBD4sjeEYyf03PiVsya6F7ioKcvPLBM+x8QqdfpSHoU5L0SpLWrQGwvLSBOnhhk7xV9U28ygtPTbsAGQhMJB6EqatAV0+1LOTXD9t3JT8Yi+PiQ7K0jMvtv1d+GQqsvF2E4Rt5QE1yUpKa7loJr87TyX7qwCohPj8Y2la7Tipup5zH1CeQapwct1l5c+5sesSyaSFGTwozctD08/AiLScMbAmNsR7azP61l82525rWwXgVfs+EjK3AdMYr94ey4a4tRoohik8CAwEAAaNQME4wHQYDVR0OBBYEFFZPZGePsX13k0+KE+eHiruFu1U2MB8GA1UdIwQYMBaAFFZPZGePsX13k0+KE+eHiruFu1U2MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAFBgNcaiNbfJ+T0zX3VsJHhlc23EhxZy92WaKkCRSgqGRErdq2kKtWeLS7f2jQrXm3A0mf3FDJQbll/jcCbrklJjYEhs2Dj3fNvXfKVx5jcUzdVVKBlJ+/Ko5uEKpAI6Y/HilLwrUSz8+xKLTMJiXgV3X1b0zuyq7bV71Q2WGak45uGq+OeVWlEdIkX5ajunD/R1Uqv7jIDRfVZXQfjLkGaG7Zw0OLmcxyMm5cYvBoZzOPC2wzS4K9QwnKwMB5FtcoEHEp3K53wwNmnnC6SGscCXmD+wOLkTZabr/+p/G22anw7vUQQ0plXfN09ad1jjOf44zqcdfJ6qFyKB0C9Xk/e8</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuZ3Vhc2lsYS5zdS5pdDAeFw0yMDA2MTcwOTQ2NDRaFw0zMDA2MTUwOTQ2NDRaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5ndWFzaWxhLnN1Lml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIA5dmFjTCmmJGQVyMlQ89ozLc8ZtWRG+N17An3sG9RYd7ol7C8i72bEIwyDs0WDxsI8vymW7yx5tItNSLBD4sjeEYyf03PiVsya6F7ioKcvPLBM+x8QqdfpSHoU5L0SpLWrQGwvLSBOnhhk7xV9U28ygtPTbsAGQhMJB6EqatAV0+1LOTXD9t3JT8Yi+PiQ7K0jMvtv1d+GQqsvF2E4Rt5QE1yUpKa7loJr87TyX7qwCohPj8Y2la7Tipup5zH1CeQapwct1l5c+5sesSyaSFGTwozctD08/AiLScMbAmNsR7azP61l82525rWwXgVfs+EjK3AdMYr94ey4a4tRoohik8CAwEAAaNQME4wHQYDVR0OBBYEFFZPZGePsX13k0+KE+eHiruFu1U2MB8GA1UdIwQYMBaAFFZPZGePsX13k0+KE+eHiruFu1U2MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAFBgNcaiNbfJ+T0zX3VsJHhlc23EhxZy92WaKkCRSgqGRErdq2kKtWeLS7f2jQrXm3A0mf3FDJQbll/jcCbrklJjYEhs2Dj3fNvXfKVx5jcUzdVVKBlJ+/Ko5uEKpAI6Y/HilLwrUSz8+xKLTMJiXgV3X1b0zuyq7bV71Q2WGak45uGq+OeVWlEdIkX5ajunD/R1Uqv7jIDRfVZXQfjLkGaG7Zw0OLmcxyMm5cYvBoZzOPC2wzS4K9QwnKwMB5FtcoEHEp3K53wwNmnnC6SGscCXmD+wOLkTZabr/+p/G22anw7vUQQ0plXfN09ad1jjOf44zqcdfJ6qFyKB0C9Xk/e8</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBMMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxITAfBgNVBAMMGHd3dy5jb211bmUuZ3Vhc2lsYS5zdS5pdDAeFw0yMDA2MTcwOTQ2NDRaFw0zMDA2MTUwOTQ2NDRaMEwxCzAJBgNVBAYTAml0MQswCQYDVQQIDAJJVDENMAsGA1UECgwEU1BJRDEhMB8GA1UEAwwYd3d3LmNvbXVuZS5ndWFzaWxhLnN1Lml0MIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIA5dmFjTCmmJGQVyMlQ89ozLc8ZtWRG+N17An3sG9RYd7ol7C8i72bEIwyDs0WDxsI8vymW7yx5tItNSLBD4sjeEYyf03PiVsya6F7ioKcvPLBM+x8QqdfpSHoU5L0SpLWrQGwvLSBOnhhk7xV9U28ygtPTbsAGQhMJB6EqatAV0+1LOTXD9t3JT8Yi+PiQ7K0jMvtv1d+GQqsvF2E4Rt5QE1yUpKa7loJr87TyX7qwCohPj8Y2la7Tipup5zH1CeQapwct1l5c+5sesSyaSFGTwozctD08/AiLScMbAmNsR7azP61l82525rWwXgVfs+EjK3AdMYr94ey4a4tRoohik8CAwEAAaNQME4wHQYDVR0OBBYEFFZPZGePsX13k0+KE+eHiruFu1U2MB8GA1UdIwQYMBaAFFZPZGePsX13k0+KE+eHiruFu1U2MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAFBgNcaiNbfJ+T0zX3VsJHhlc23EhxZy92WaKkCRSgqGRErdq2kKtWeLS7f2jQrXm3A0mf3FDJQbll/jcCbrklJjYEhs2Dj3fNvXfKVx5jcUzdVVKBlJ+/Ko5uEKpAI6Y/HilLwrUSz8+xKLTMJiXgV3X1b0zuyq7bV71Q2WGak45uGq+OeVWlEdIkX5ajunD/R1Uqv7jIDRfVZXQfjLkGaG7Zw0OLmcxyMm5cYvBoZzOPC2wzS4K9QwnKwMB5FtcoEHEp3K53wwNmnnC6SGscCXmD+wOLkTZabr/+p/G22anw7vUQQ0plXfN09ad1jjOf44zqcdfJ6qFyKB0C9Xk/e8</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/guasila/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/guasila/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Guasila</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Guasila</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.guasila.su.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

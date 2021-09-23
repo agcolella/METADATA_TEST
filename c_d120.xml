@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="CostiglioleSaluzzo" entityID="https://www.comune.costigliolesaluzzo.cn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CostiglioleSaluzzo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OjwLiI/2R7XkYmGtGXNarUmyYBhPJJLLZa/wO8/7XdA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CuQD/u431ATDYdEAWmfxFtaknGMjgJLKHxMg4ZAhAOYqsQfKrKZlzRxQ9GMalhzqX92TeXKHcs8a
+vwAVvf/xvXpK2KtQy/UQgvHCtEc1s/e2qmpBrhC1R6ouOBenkn35g6PnLp2xIiJ2BgRTL7g3UIJ/
+y4wj/gbS3zG9oHcd0wAgX1oo2K0X2ptjigSPvD9gE898GoVyRwxbCKaXLesyAxvspFWbfbCOfioh
+fZfpo2Uq7u1NNoeGZgUKcURelnJyqBKtShtY+YYMtb0V80fk0qnykVbwdek7D2hyXdGnndXCna32
+k6FZKSCoxWe65F/smypQ6eFPHsJMIb0xfQrF6A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v92dJttgZj+CvXlm/Z4cB+Wk/4G6MzqVjU5N+cyF0NrMDspuXkbjG3VzbQVg8dzbKXptmS8eIRDU
+wObQERooxUu72Yy1ivgkkIX0vTNTM8wPhCdZMqls+bYZIn1fPGa9R9oFNCgxo1pySfzeprP5q233
+eLBRpamLN4n1wxfd5ZjCeXN61Th+dV2MQgnWg8m/jY3qzAcbw7E1C/tzcawVrLaaV4BeWUiqYdA8
+2Y6BCu/HiTgIPdeUT+pPmGTaSbdtjDHvRPaRUYFdkZ7FzZKIwHgAdEDWiFWhaKv6Kd6ej2UNC4aZ
++zvFmK3oYW618dQ0/DhDfbbV8chtXVTnHgGmQQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEXDCCA0SgAwIBAgIJAL+OzFImGfmIMA0GCSqGSIb3DQEBCwUAMIHUMSYwJAYDVQQKDB1Db211
+bmUgZGkgQ29zdGlnbGlvbGUgU2FsdXp6bzEmMCQGA1UEAwwdQ29tdW5lIGRpIENvc3RpZ2xpb2xl
+IFNhbHV6em8xQDA+BgNVBFMMN2h0dHBzOi8vd3d3LmNvbXVuZS5jb3N0aWdsaW9sZXNhbHV6em8u
+Y24uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfZDEyMDELMAkGA1UEBhMCSVQxHDAa
+BgNVBAcME0Nvc3RpZ2xpb2xlIFNhbHV6em8wHhcNMjAxMjAxMTEyNzA4WhcNMzAxMTI5MTEyNzA4
+WjCB1DEmMCQGA1UECgwdQ29tdW5lIGRpIENvc3RpZ2xpb2xlIFNhbHV6em8xJjAkBgNVBAMMHUNv
+bXVuZSBkaSBDb3N0aWdsaW9sZSBTYWx1enpvMUAwPgYDVQRTDDdodHRwczovL3d3dy5jb211bmUu
+Y29zdGlnbGlvbGVzYWx1enpvLmNuLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2Qx
+MjAxCzAJBgNVBAYTAklUMRwwGgYDVQQHDBNDb3N0aWdsaW9sZSBTYWx1enpvMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv92dJttgZj+CvXlm/Z4cB+Wk/4G6MzqVjU5N+cyF0NrMDspu
+XkbjG3VzbQVg8dzbKXptmS8eIRDUwObQERooxUu72Yy1ivgkkIX0vTNTM8wPhCdZMqls+bYZIn1f
+PGa9R9oFNCgxo1pySfzeprP5q233eLBRpamLN4n1wxfd5ZjCeXN61Th+dV2MQgnWg8m/jY3qzAcb
+w7E1C/tzcawVrLaaV4BeWUiqYdA82Y6BCu/HiTgIPdeUT+pPmGTaSbdtjDHvRPaRUYFdkZ7FzZKI
+wHgAdEDWiFWhaKv6Kd6ej2UNC4aZ+zvFmK3oYW618dQ0/DhDfbbV8chtXVTnHgGmQQIDAQABoy8w
+LTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0B
+AQsFAAOCAQEAfJISZ8SD2AHjhAd/T0EIR6Q72r9JIi8Fmui1nuklDGdWdPMtACoBhkq5Lfyt7j5X
+ThA/gVbqzFu9v+bMqlAiViPxcL5ff/T1bsvfvt7P6qQsiI0XzF0d9Mnpa1NzYrA26fn5bLSjp7Sn
+7chO8UgpZTKDa68uanmWofXsAU6tRbY/tqvWq/B+saxw2EIdtoHeMfej4W6MzoawWpa7bk48P69Y
+zVbuLRr8KHaZs2TXKYt5FBLmSKvvKy/jZLw6DsaD0eTLYHPVaN25huz9Gq9Y/R4pNp9w9b3wu0NS
+t0y2wIq8adOoXE2DzXzvRucYaRqKY15T5hScxBY+XR0o20EXqw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEXDCCA0SgAwIBAgIJAL+OzFImGfmIMA0GCSqGSIb3DQEBCwUAMIHUMSYwJAYDVQQKDB1Db211bmUgZGkgQ29zdGlnbGlvbGUgU2FsdXp6bzEmMCQGA1UEAwwdQ29tdW5lIGRpIENvc3RpZ2xpb2xlIFNhbHV6em8xQDA+BgNVBFMMN2h0dHBzOi8vd3d3LmNvbXVuZS5jb3N0aWdsaW9sZXNhbHV6em8uY24uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfZDEyMDELMAkGA1UEBhMCSVQxHDAaBgNVBAcME0Nvc3RpZ2xpb2xlIFNhbHV6em8wHhcNMjAxMjAxMTEyNzA4WhcNMzAxMTI5MTEyNzA4WjCB1DEmMCQGA1UECgwdQ29tdW5lIGRpIENvc3RpZ2xpb2xlIFNhbHV6em8xJjAkBgNVBAMMHUNvbXVuZSBkaSBDb3N0aWdsaW9sZSBTYWx1enpvMUAwPgYDVQRTDDdodHRwczovL3d3dy5jb211bmUuY29zdGlnbGlvbGVzYWx1enpvLmNuLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2QxMjAxCzAJBgNVBAYTAklUMRwwGgYDVQQHDBNDb3N0aWdsaW9sZSBTYWx1enpvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv92dJttgZj+CvXlm/Z4cB+Wk/4G6MzqVjU5N+cyF0NrMDspuXkbjG3VzbQVg8dzbKXptmS8eIRDUwObQERooxUu72Yy1ivgkkIX0vTNTM8wPhCdZMqls+bYZIn1fPGa9R9oFNCgxo1pySfzeprP5q233eLBRpamLN4n1wxfd5ZjCeXN61Th+dV2MQgnWg8m/jY3qzAcbw7E1C/tzcawVrLaaV4BeWUiqYdA82Y6BCu/HiTgIPdeUT+pPmGTaSbdtjDHvRPaRUYFdkZ7FzZKIwHgAdEDWiFWhaKv6Kd6ej2UNC4aZ+zvFmK3oYW618dQ0/DhDfbbV8chtXVTnHgGmQQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAfJISZ8SD2AHjhAd/T0EIR6Q72r9JIi8Fmui1nuklDGdWdPMtACoBhkq5Lfyt7j5XThA/gVbqzFu9v+bMqlAiViPxcL5ff/T1bsvfvt7P6qQsiI0XzF0d9Mnpa1NzYrA26fn5bLSjp7Sn7chO8UgpZTKDa68uanmWofXsAU6tRbY/tqvWq/B+saxw2EIdtoHeMfej4W6MzoawWpa7bk48P69YzVbuLRr8KHaZs2TXKYt5FBLmSKvvKy/jZLw6DsaD0eTLYHPVaN25huz9Gq9Y/R4pNp9w9b3wu0NSt0y2wIq8adOoXE2DzXzvRucYaRqKY15T5hScxBY+XR0o20EXqw==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEXDCCA0SgAwIBAgIJAL+OzFImGfmIMA0GCSqGSIb3DQEBCwUAMIHUMSYwJAYDVQQKDB1Db211bmUgZGkgQ29zdGlnbGlvbGUgU2FsdXp6bzEmMCQGA1UEAwwdQ29tdW5lIGRpIENvc3RpZ2xpb2xlIFNhbHV6em8xQDA+BgNVBFMMN2h0dHBzOi8vd3d3LmNvbXVuZS5jb3N0aWdsaW9sZXNhbHV6em8uY24uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfZDEyMDELMAkGA1UEBhMCSVQxHDAaBgNVBAcME0Nvc3RpZ2xpb2xlIFNhbHV6em8wHhcNMjAxMjAxMTEyNzA4WhcNMzAxMTI5MTEyNzA4WjCB1DEmMCQGA1UECgwdQ29tdW5lIGRpIENvc3RpZ2xpb2xlIFNhbHV6em8xJjAkBgNVBAMMHUNvbXVuZSBkaSBDb3N0aWdsaW9sZSBTYWx1enpvMUAwPgYDVQRTDDdodHRwczovL3d3dy5jb211bmUuY29zdGlnbGlvbGVzYWx1enpvLmNuLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2QxMjAxCzAJBgNVBAYTAklUMRwwGgYDVQQHDBNDb3N0aWdsaW9sZSBTYWx1enpvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv92dJttgZj+CvXlm/Z4cB+Wk/4G6MzqVjU5N+cyF0NrMDspuXkbjG3VzbQVg8dzbKXptmS8eIRDUwObQERooxUu72Yy1ivgkkIX0vTNTM8wPhCdZMqls+bYZIn1fPGa9R9oFNCgxo1pySfzeprP5q233eLBRpamLN4n1wxfd5ZjCeXN61Th+dV2MQgnWg8m/jY3qzAcbw7E1C/tzcawVrLaaV4BeWUiqYdA82Y6BCu/HiTgIPdeUT+pPmGTaSbdtjDHvRPaRUYFdkZ7FzZKIwHgAdEDWiFWhaKv6Kd6ej2UNC4aZ+zvFmK3oYW618dQ0/DhDfbbV8chtXVTnHgGmQQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAfJISZ8SD2AHjhAd/T0EIR6Q72r9JIi8Fmui1nuklDGdWdPMtACoBhkq5Lfyt7j5XThA/gVbqzFu9v+bMqlAiViPxcL5ff/T1bsvfvt7P6qQsiI0XzF0d9Mnpa1NzYrA26fn5bLSjp7Sn7chO8UgpZTKDa68uanmWofXsAU6tRbY/tqvWq/B+saxw2EIdtoHeMfej4W6MzoawWpa7bk48P69YzVbuLRr8KHaZs2TXKYt5FBLmSKvvKy/jZLw6DsaD0eTLYHPVaN25huz9Gq9Y/R4pNp9w9b3wu0NSt0y2wIq8adOoXE2DzXzvRucYaRqKY15T5hScxBY+XR0o20EXqw==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/costigliolesaluzzo"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/costigliolesaluzzo" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/costigliolesaluzzo" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/costigliolesaluzzo" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Costigliole Saluzzo</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Costigliole Saluzzo</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Costigliole Saluzzo</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Costigliole Saluzzo</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Costigliole Saluzzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Costigliole Saluzzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Costigliole Saluzzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Costigliole Saluzzo</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.costigliolesaluzzo.cn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.costigliolesaluzzo.cn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.costigliolesaluzzo.cn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.costigliolesaluzzo.cn.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_d120</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>finanziario@comune.costigliolesaluzzo.cn.it</md:EmailAddress>
+      <md:TelephoneNumber>+390175230121</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

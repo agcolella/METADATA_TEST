@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.torbole-casaglia.bs.it/" ID="pfxcf8d70c0-9802-ac6f-62ac-3978eaeb28a9"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxcf8d70c0-9802-ac6f-62ac-3978eaeb28a9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>yR7NqLNRB0mao/XMcgSGI2CUx2BHbfSM9XVx+S8Vt7s=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>pnIh4ebgHhfkzNMgO9M5kqLPJcWr2/tEYHgV7oDEfLRt1KpP0nRTs7dGQV69LFTWZKagzP08RTMnfXgw35AERiMCh3ITZPzfYPQ9g20yuKMxg2qkSSSj6IhK8g70PCns8e0OFX8tqwIr9BXNb9eF2u/TGm6Ls2afDU7I7HUjUMUiI5VvT998oO7ZTkawThTzS7TScn7Mgw0SQEiPERLI/eIoPwHT1I9iQCaILKFi4U2pmrFVVPyIyYdTwApZGmVPCLWxf1JuTAPc5OiOTXnJLIPiyHhBG9fUCc5DlWcIsOTFOBnsfaln7iriNnAqyqPhYWPPjsXktnsk84mw2g5Y2g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIETDCCAzSgAwIBAgIJAOUzuDG+As6MMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQVG9yYm9sZSBDYXNhZ2xpYTEjMCEGA1UECgwaQ29tdW5lIGRpIFRvcmJvbGUgQ2FzYWdsaWExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS50b3Jib2xlLWNhc2FnbGlhLmJzLml0MB4XDTE4MTEyODE0MjYzNVoXDTI4MTEyNTE0MjYzNVowgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRkwFwYDVQQHDBBUb3Jib2xlIENhc2FnbGlhMSMwIQYDVQQKDBpDb211bmUgZGkgVG9yYm9sZSBDYXNhZ2xpYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOjA4BgNVBAMMMXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnRvcmJvbGUtY2FzYWdsaWEuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbD15YdZ0inmLYTUTFw7rnbzdHB8XAlrkgk1i1A9yXDsHYPTIsM8mTLsD+JziU2wqKenVwgtwOokrBuyT6YBAFZIxMxYfQ5whn/lBBpBz5R3h0eDaXJcyXVEm02OxcRLPkdG6kerB1uoRe9VXKSv7604TQCJlnMt+xpUfO4a+Wdz5CP6DiWAfmb4LZCYfc0RudT1NgJJS16GZxKovXVRLRKlHFin1nyv2416dLnfOKgTz8kAvlfWv8h7mfozxq+50PO/ztoyUBfOCKZH6uHLLPVQyR9Qkl0zQh0VAR0JXz/UOqvswi47rKyQx+Jd6URj3d/9oVkUU6bSlpJPtQZs8LAgMBAAGjUzBRMB0GA1UdDgQWBBT6pDVME3gE3NkWwiW+U82VneLFYDAfBgNVHSMEGDAWgBT6pDVME3gE3NkWwiW+U82VneLFYDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB7mVqhOBeVE59/vwZjmxnl+v7westZgTXB60k2oocP0lKWw/4gbRBMcC54S4tFK/KmA4G80E9bqbmSYVRsXSefaJir1GV+OCyir1UsqnIjB3NLXbZ1fsmmwoaJBeWkPbGuOjwVFKDolyenYYdN2F6pNOjo5HHPaag+/6E5uAl/S8aL7/1dcnoQAWDl24k6TgRKTLrQjzm37PNXy3Qy+T3/5V33rLGO6PKrnxAYmxp0eowAfMC5bKsghl9FSPNo5FV9DY/vijkRDflzlFD6TB152sUtlu44OT2AumWSR/4gQUCN6S7O7AyjXoEYBdGkQnt2V4oXD2HqWODo0RyAjJIh</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETDCCAzSgAwIBAgIJAOUzuDG+As6MMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQVG9yYm9sZSBDYXNhZ2xpYTEjMCEGA1UECgwaQ29tdW5lIGRpIFRvcmJvbGUgQ2FzYWdsaWExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS50b3Jib2xlLWNhc2FnbGlhLmJzLml0MB4XDTE4MTEyODE0MjYzNVoXDTI4MTEyNTE0MjYzNVowgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRkwFwYDVQQHDBBUb3Jib2xlIENhc2FnbGlhMSMwIQYDVQQKDBpDb211bmUgZGkgVG9yYm9sZSBDYXNhZ2xpYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOjA4BgNVBAMMMXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnRvcmJvbGUtY2FzYWdsaWEuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbD15YdZ0inmLYTUTFw7rnbzdHB8XAlrkgk1i1A9yXDsHYPTIsM8mTLsD+JziU2wqKenVwgtwOokrBuyT6YBAFZIxMxYfQ5whn/lBBpBz5R3h0eDaXJcyXVEm02OxcRLPkdG6kerB1uoRe9VXKSv7604TQCJlnMt+xpUfO4a+Wdz5CP6DiWAfmb4LZCYfc0RudT1NgJJS16GZxKovXVRLRKlHFin1nyv2416dLnfOKgTz8kAvlfWv8h7mfozxq+50PO/ztoyUBfOCKZH6uHLLPVQyR9Qkl0zQh0VAR0JXz/UOqvswi47rKyQx+Jd6URj3d/9oVkUU6bSlpJPtQZs8LAgMBAAGjUzBRMB0GA1UdDgQWBBT6pDVME3gE3NkWwiW+U82VneLFYDAfBgNVHSMEGDAWgBT6pDVME3gE3NkWwiW+U82VneLFYDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB7mVqhOBeVE59/vwZjmxnl+v7westZgTXB60k2oocP0lKWw/4gbRBMcC54S4tFK/KmA4G80E9bqbmSYVRsXSefaJir1GV+OCyir1UsqnIjB3NLXbZ1fsmmwoaJBeWkPbGuOjwVFKDolyenYYdN2F6pNOjo5HHPaag+/6E5uAl/S8aL7/1dcnoQAWDl24k6TgRKTLrQjzm37PNXy3Qy+T3/5V33rLGO6PKrnxAYmxp0eowAfMC5bKsghl9FSPNo5FV9DY/vijkRDflzlFD6TB152sUtlu44OT2AumWSR/4gQUCN6S7O7AyjXoEYBdGkQnt2V4oXD2HqWODo0RyAjJIh</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETDCCAzSgAwIBAgIJAOUzuDG+As6MMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQVG9yYm9sZSBDYXNhZ2xpYTEjMCEGA1UECgwaQ29tdW5lIGRpIFRvcmJvbGUgQ2FzYWdsaWExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTowOAYDVQQDDDFzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS50b3Jib2xlLWNhc2FnbGlhLmJzLml0MB4XDTE4MTEyODE0MjYzNVoXDTI4MTEyNTE0MjYzNVowgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRkwFwYDVQQHDBBUb3Jib2xlIENhc2FnbGlhMSMwIQYDVQQKDBpDb211bmUgZGkgVG9yYm9sZSBDYXNhZ2xpYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOjA4BgNVBAMMMXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnRvcmJvbGUtY2FzYWdsaWEuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbD15YdZ0inmLYTUTFw7rnbzdHB8XAlrkgk1i1A9yXDsHYPTIsM8mTLsD+JziU2wqKenVwgtwOokrBuyT6YBAFZIxMxYfQ5whn/lBBpBz5R3h0eDaXJcyXVEm02OxcRLPkdG6kerB1uoRe9VXKSv7604TQCJlnMt+xpUfO4a+Wdz5CP6DiWAfmb4LZCYfc0RudT1NgJJS16GZxKovXVRLRKlHFin1nyv2416dLnfOKgTz8kAvlfWv8h7mfozxq+50PO/ztoyUBfOCKZH6uHLLPVQyR9Qkl0zQh0VAR0JXz/UOqvswi47rKyQx+Jd6URj3d/9oVkUU6bSlpJPtQZs8LAgMBAAGjUzBRMB0GA1UdDgQWBBT6pDVME3gE3NkWwiW+U82VneLFYDAfBgNVHSMEGDAWgBT6pDVME3gE3NkWwiW+U82VneLFYDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB7mVqhOBeVE59/vwZjmxnl+v7westZgTXB60k2oocP0lKWw/4gbRBMcC54S4tFK/KmA4G80E9bqbmSYVRsXSefaJir1GV+OCyir1UsqnIjB3NLXbZ1fsmmwoaJBeWkPbGuOjwVFKDolyenYYdN2F6pNOjo5HHPaag+/6E5uAl/S8aL7/1dcnoQAWDl24k6TgRKTLrQjzm37PNXy3Qy+T3/5V33rLGO6PKrnxAYmxp0eowAfMC5bKsghl9FSPNo5FV9DY/vijkRDflzlFD6TB152sUtlu44OT2AumWSR/4gQUCN6S7O7AyjXoEYBdGkQnt2V4oXD2HqWODo0RyAjJIh</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.torbole-casaglia.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.torbole-casaglia.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l210</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_l210</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Torbole Casaglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Torbole Casaglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.torbole-casaglia.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.torbole-casaglia.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

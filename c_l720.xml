@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.vellezzobellini.pv.it/" ID="pfx6c8e6872-1bc9-e03a-f205-63997112d940"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx6c8e6872-1bc9-e03a-f205-63997112d940"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>X3CBeyii8UkyUl/ymghINzqQmN2Rrt3+wjeH1A10SxM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>05ntiKdKbLzQql+vXuQOJvKE4nbbFNiMX5oUJlk9wleSuxBCqqj9pHqrjdF/TlUKK0LGkg4uqFvV686jAsIHMuvHrCExGnFHkqCNDscylm4im4cy8ZzSaaG5Pz2zDrWIwwLmV9X0s4RH1E2MsSgW8pfHkJC3AWYs6GVT8eSvGLYtgCTNeP+DXewh4gatBxFRHOe5DOoUoJcbOyA+PLrfEvD5Ued3UFzXR00M+Jhqok78yIAAR2QNP/xUIZgLeL05oyM6YPFTZyrYTldsWNdL2zfZg97n2Y2Ci5EE5KpfHHlNhrYXmxDWk4uOZhwieff3EtzGhrFDTruZ78vrp3y7kg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAPn9GiNIXjxEMA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExGTAXBgNVBAcMEFZlbGxlenpvIEJlbGxpbmkxIzAhBgNVBAoMGkNvbXVuZSBkaSBWZWxsZXp6byBCZWxsaW5pMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmVsbGV6em9iZWxsaW5pLnB2Lml0MB4XDTE4MTAwMjExMTM1OVoXDTI4MDkyOTExMTM1OVowgbcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEZMBcGA1UEBwwQVmVsbGV6em8gQmVsbGluaTEjMCEGA1UECgwaQ29tdW5lIGRpIFZlbGxlenpvIEJlbGxpbmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS52ZWxsZXp6b2JlbGxpbmkucHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDhB68gGk8sJVhWKLfXFTJU4ou6zLHwvG/xoMP3gkDqLVO5V93C4km6IFUq3kp3u/jkiguN1RSqHIjqUieIvESWgwhnl43lD1jV4V25+sDCd9Fk5EbthJQ221P12LLbwQvd2WH2qPoN6BXrUkGkado5RXu3lPyk+EchiaszTUdXlZGn1VwDZeswkv5C/8FweGDY5F2jI1nXGwuYkkZksbSvajN+7vhQwO27bjKjeNyXLePWGVlRc9VjH87/MG5s9UXNokF0UB6esaxYNaIW9gfb2HBRZmdTZonbgGap7nfdJlBCEqLQETnvlFHZ9GJlCWlEZTFiErddsYuuzNF68GbfAgMBAAGjUzBRMB0GA1UdDgQWBBSXNvakXG30sH/cq4jS6yeuRUB4iTAfBgNVHSMEGDAWgBSXNvakXG30sH/cq4jS6yeuRUB4iTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDC7x00KHo7MEpMVziVNh6mEs0PgEXHQs0HAxRJLbZ1Wn3GjZLn6uxsLB9hIpH6n7YdmbS3ld1o2XxKW8ZN9E+xOBRH2AHkYGsNlMCBrgwNkoKilLxcZtUS1q5JMsvcIfMYCaH925zzSxHoTIXoBxJql5AsiBfFd3spWXB/9U0ioXc5ZK/RRjbH7F/GM0RlI9zZZmAE5uhp2IwRMtHrs3ITv0devS7FJV1mvev/jbBUFl2xmNRZJ1rwLavNQuZVxg0nmk5cch1F8h9mLonOLN8CMW58q1cgCNMEnb7KMFM5yH2wmFJGT6N8afUe9y26xDFVR4w4n2z3KxTCHbnUZPlt</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAPn9GiNIXjxEMA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExGTAXBgNVBAcMEFZlbGxlenpvIEJlbGxpbmkxIzAhBgNVBAoMGkNvbXVuZSBkaSBWZWxsZXp6byBCZWxsaW5pMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmVsbGV6em9iZWxsaW5pLnB2Lml0MB4XDTE4MTAwMjExMTM1OVoXDTI4MDkyOTExMTM1OVowgbcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEZMBcGA1UEBwwQVmVsbGV6em8gQmVsbGluaTEjMCEGA1UECgwaQ29tdW5lIGRpIFZlbGxlenpvIEJlbGxpbmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS52ZWxsZXp6b2JlbGxpbmkucHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDhB68gGk8sJVhWKLfXFTJU4ou6zLHwvG/xoMP3gkDqLVO5V93C4km6IFUq3kp3u/jkiguN1RSqHIjqUieIvESWgwhnl43lD1jV4V25+sDCd9Fk5EbthJQ221P12LLbwQvd2WH2qPoN6BXrUkGkado5RXu3lPyk+EchiaszTUdXlZGn1VwDZeswkv5C/8FweGDY5F2jI1nXGwuYkkZksbSvajN+7vhQwO27bjKjeNyXLePWGVlRc9VjH87/MG5s9UXNokF0UB6esaxYNaIW9gfb2HBRZmdTZonbgGap7nfdJlBCEqLQETnvlFHZ9GJlCWlEZTFiErddsYuuzNF68GbfAgMBAAGjUzBRMB0GA1UdDgQWBBSXNvakXG30sH/cq4jS6yeuRUB4iTAfBgNVHSMEGDAWgBSXNvakXG30sH/cq4jS6yeuRUB4iTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDC7x00KHo7MEpMVziVNh6mEs0PgEXHQs0HAxRJLbZ1Wn3GjZLn6uxsLB9hIpH6n7YdmbS3ld1o2XxKW8ZN9E+xOBRH2AHkYGsNlMCBrgwNkoKilLxcZtUS1q5JMsvcIfMYCaH925zzSxHoTIXoBxJql5AsiBfFd3spWXB/9U0ioXc5ZK/RRjbH7F/GM0RlI9zZZmAE5uhp2IwRMtHrs3ITv0devS7FJV1mvev/jbBUFl2xmNRZJ1rwLavNQuZVxg0nmk5cch1F8h9mLonOLN8CMW58q1cgCNMEnb7KMFM5yH2wmFJGT6N8afUe9y26xDFVR4w4n2z3KxTCHbnUZPlt</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAPn9GiNIXjxEMA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExGTAXBgNVBAcMEFZlbGxlenpvIEJlbGxpbmkxIzAhBgNVBAoMGkNvbXVuZSBkaSBWZWxsZXp6byBCZWxsaW5pMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmVsbGV6em9iZWxsaW5pLnB2Lml0MB4XDTE4MTAwMjExMTM1OVoXDTI4MDkyOTExMTM1OVowgbcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEZMBcGA1UEBwwQVmVsbGV6em8gQmVsbGluaTEjMCEGA1UECgwaQ29tdW5lIGRpIFZlbGxlenpvIEJlbGxpbmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS52ZWxsZXp6b2JlbGxpbmkucHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDhB68gGk8sJVhWKLfXFTJU4ou6zLHwvG/xoMP3gkDqLVO5V93C4km6IFUq3kp3u/jkiguN1RSqHIjqUieIvESWgwhnl43lD1jV4V25+sDCd9Fk5EbthJQ221P12LLbwQvd2WH2qPoN6BXrUkGkado5RXu3lPyk+EchiaszTUdXlZGn1VwDZeswkv5C/8FweGDY5F2jI1nXGwuYkkZksbSvajN+7vhQwO27bjKjeNyXLePWGVlRc9VjH87/MG5s9UXNokF0UB6esaxYNaIW9gfb2HBRZmdTZonbgGap7nfdJlBCEqLQETnvlFHZ9GJlCWlEZTFiErddsYuuzNF68GbfAgMBAAGjUzBRMB0GA1UdDgQWBBSXNvakXG30sH/cq4jS6yeuRUB4iTAfBgNVHSMEGDAWgBSXNvakXG30sH/cq4jS6yeuRUB4iTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDC7x00KHo7MEpMVziVNh6mEs0PgEXHQs0HAxRJLbZ1Wn3GjZLn6uxsLB9hIpH6n7YdmbS3ld1o2XxKW8ZN9E+xOBRH2AHkYGsNlMCBrgwNkoKilLxcZtUS1q5JMsvcIfMYCaH925zzSxHoTIXoBxJql5AsiBfFd3spWXB/9U0ioXc5ZK/RRjbH7F/GM0RlI9zZZmAE5uhp2IwRMtHrs3ITv0devS7FJV1mvev/jbBUFl2xmNRZJ1rwLavNQuZVxg0nmk5cch1F8h9mLonOLN8CMW58q1cgCNMEnb7KMFM5yH2wmFJGT6N8afUe9y26xDFVR4w4n2z3KxTCHbnUZPlt</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.vellezzobellini.pv.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.vellezzobellini.pv.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l720</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_l720</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Vellezzo Bellini</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vellezzo Bellini</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.vellezzobellini.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.vellezzobellini.pv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

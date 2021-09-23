@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxbfaefeda-a7fa-ca53-ebf4-178bbdae5daa" entityID="https://sportellotelematico.comune.cazzago.bs.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxbfaefeda-a7fa-ca53-ebf4-178bbdae5daa">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1qpxNjsUTIyZ+GZqow6a+0w2A3PV9wvmUKN3/cQsNC0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sUVgqmGRNXuUCNaPNIxS39b06vyzeLoVCF/LEA5RwB6RIE2CiWKRgCJCHNClRsduffjuxGT2e6VN
+ZN0IMUttyz0Z/Q37uM/hl4DB6qCr7UrE/3Oa4Cqa+BV8a+0A8V1NUHL2LVJOGt1Aev4PQYwCTTVt
+cMDbofYL1yV8UFjrDnnSaG9Cbi7f62CSWhjTQ5Q2P1+JoA/NmsSRo0FA1wD7dQxHzp0c3l0xPNRe
+T/4DDuEfka12NZVondSmY1PBfxKijelNH2d97ZYaWDQG/bBOtG9JlEKvQmKrpf6sU59hw5CSaWf4
+FgDGrADYh41ABqVHvc6Dn9VBAERlN1fyiwfbBQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2Xh5se8eDk+u4UNVXCW6+fLWLixwkS27qF+t1w7Zy7sA3y56el4KA1kd/lxIY7hbVBOF6G8I5Byw
+eVmpRSU1pfO4ssw8Kmea9ZQ//yFzfe3DOy0UnDKBWIW70bi74AkFEX/YLuCB0CSlbcxwEB5DcOgn
+ZPMyY4hgYet9M4ogoXW2L1KLACbXkRdRbxE9Osl0aytipcu24W6loosp5I9ldC6zuQwbo8cJVTwV
+727M2oj494lDiM5+qFuICml4Ze0DZYLdmCE6zPLQPo3RuZ7pQbcn9x4ssx4EfgjHSdzFcthROlMM
+iPReuzR/2znfPdhQoOoVXiwMitqi+iVmHwcBnQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIERjCCAy6gAwIBAgIJAOx2+OskVexmMA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHQnJlc2NpYTEcMBoGA1UEBwwTQ2F6emFnbyBTYW4gTWFydGlubzEmMCQGA1UECgwd
+Q29tdW5lIGRpIENhenphZ28gU2FuIE1hcnRpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0
+aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXp6YWdvLmJzLml0MB4X
+DTE4MDUyNDEwMTgxN1oXDTI4MDUyMTEwMTgxN1owgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdC
+cmVzY2lhMRwwGgYDVQQHDBNDYXp6YWdvIFNhbiBNYXJ0aW5vMSYwJAYDVQQKDB1Db211bmUgZGkg
+Q2F6emFnbyBTYW4gTWFydGlubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNV
+BAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhenphZ28uYnMuaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDZeHmx7x4OT67hQ1VcJbr58tYuLHCRLbuoX63XDtnLuwDfLnp6
+XgoDWR3+XEhjuFtUE4XobwjkHLB5WalFJTWl87iyzDwqZ5r1lD//IXN97cM7LRScMoFYhbvRuLvg
+CQURf9gu4IHQJKVtzHAQHkNw6Cdk8zJjiGBh630ziiChdbYvUosAJteRF1FvET06yXRrK2Kly7bh
+bqWiiynkj2V0LrO5DBujxwlVPBXvbszaiPj3iUOIzn6oW4gKaXhl7QNlgt2YITrM8tA+jdG5nulB
+tyf3HiyzHgR+CMdJ3MVy2FE6UwyI9F67NH/bOd892FCg6hVeLAyK2qL6JWYfBwGdAgMBAAGjUzBR
+MB0GA1UdDgQWBBSV+UvAhtRIGcM6fZyOuRfXah0I2DAfBgNVHSMEGDAWgBSV+UvAhtRIGcM6fZyO
+uRfXah0I2DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBjbSwM17T0I8IYcz2Y
+lRE6U4+5wOZTsO3dqo+0BRLJ0FqEKiFcrLj0pH8Y7Db+0TU7c8ZlxHUS1yiiZOlKaLckijIV3CTP
+I7dnVXKusmjbup8IZnLgOlRvEHFrXIT2aEJb9LZi00SIvC++oe2ozE2bkaiiiyoUnsnw2ASPwM4X
+DiInXzyiVN83UMf9yHfq87V55Vsf5xdgzEiDxr56U/PhVAajClJbcVfqSMttwMeZe0qdxGixIBSA
+Oq3phzdPM83V9uJvqYr+BZO/VbPDSZ6B21xJmdjMu7cNVP5riT/us39us5ckV81tYdViUC5jlkfN
+qvuwfkDpRzdyJFyoiX0Y
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAOx2+OskVexmMA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEcMBoGA1UEBwwTQ2F6emFnbyBTYW4gTWFydGlubzEmMCQGA1UECgwdQ29tdW5lIGRpIENhenphZ28gU2FuIE1hcnRpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXp6YWdvLmJzLml0MB4XDTE4MDUyNDEwMTgxN1oXDTI4MDUyMTEwMTgxN1owgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRwwGgYDVQQHDBNDYXp6YWdvIFNhbiBNYXJ0aW5vMSYwJAYDVQQKDB1Db211bmUgZGkgQ2F6emFnbyBTYW4gTWFydGlubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhenphZ28uYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZeHmx7x4OT67hQ1VcJbr58tYuLHCRLbuoX63XDtnLuwDfLnp6XgoDWR3+XEhjuFtUE4XobwjkHLB5WalFJTWl87iyzDwqZ5r1lD//IXN97cM7LRScMoFYhbvRuLvgCQURf9gu4IHQJKVtzHAQHkNw6Cdk8zJjiGBh630ziiChdbYvUosAJteRF1FvET06yXRrK2Kly7bhbqWiiynkj2V0LrO5DBujxwlVPBXvbszaiPj3iUOIzn6oW4gKaXhl7QNlgt2YITrM8tA+jdG5nulBtyf3HiyzHgR+CMdJ3MVy2FE6UwyI9F67NH/bOd892FCg6hVeLAyK2qL6JWYfBwGdAgMBAAGjUzBRMB0GA1UdDgQWBBSV+UvAhtRIGcM6fZyOuRfXah0I2DAfBgNVHSMEGDAWgBSV+UvAhtRIGcM6fZyOuRfXah0I2DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBjbSwM17T0I8IYcz2YlRE6U4+5wOZTsO3dqo+0BRLJ0FqEKiFcrLj0pH8Y7Db+0TU7c8ZlxHUS1yiiZOlKaLckijIV3CTPI7dnVXKusmjbup8IZnLgOlRvEHFrXIT2aEJb9LZi00SIvC++oe2ozE2bkaiiiyoUnsnw2ASPwM4XDiInXzyiVN83UMf9yHfq87V55Vsf5xdgzEiDxr56U/PhVAajClJbcVfqSMttwMeZe0qdxGixIBSAOq3phzdPM83V9uJvqYr+BZO/VbPDSZ6B21xJmdjMu7cNVP5riT/us39us5ckV81tYdViUC5jlkfNqvuwfkDpRzdyJFyoiX0Y</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAOx2+OskVexmMA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEcMBoGA1UEBwwTQ2F6emFnbyBTYW4gTWFydGlubzEmMCQGA1UECgwdQ29tdW5lIGRpIENhenphZ28gU2FuIE1hcnRpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXp6YWdvLmJzLml0MB4XDTE4MDUyNDEwMTgxN1oXDTI4MDUyMTEwMTgxN1owgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRwwGgYDVQQHDBNDYXp6YWdvIFNhbiBNYXJ0aW5vMSYwJAYDVQQKDB1Db211bmUgZGkgQ2F6emFnbyBTYW4gTWFydGlubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhenphZ28uYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZeHmx7x4OT67hQ1VcJbr58tYuLHCRLbuoX63XDtnLuwDfLnp6XgoDWR3+XEhjuFtUE4XobwjkHLB5WalFJTWl87iyzDwqZ5r1lD//IXN97cM7LRScMoFYhbvRuLvgCQURf9gu4IHQJKVtzHAQHkNw6Cdk8zJjiGBh630ziiChdbYvUosAJteRF1FvET06yXRrK2Kly7bhbqWiiynkj2V0LrO5DBujxwlVPBXvbszaiPj3iUOIzn6oW4gKaXhl7QNlgt2YITrM8tA+jdG5nulBtyf3HiyzHgR+CMdJ3MVy2FE6UwyI9F67NH/bOd892FCg6hVeLAyK2qL6JWYfBwGdAgMBAAGjUzBRMB0GA1UdDgQWBBSV+UvAhtRIGcM6fZyOuRfXah0I2DAfBgNVHSMEGDAWgBSV+UvAhtRIGcM6fZyOuRfXah0I2DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBjbSwM17T0I8IYcz2YlRE6U4+5wOZTsO3dqo+0BRLJ0FqEKiFcrLj0pH8Y7Db+0TU7c8ZlxHUS1yiiZOlKaLckijIV3CTPI7dnVXKusmjbup8IZnLgOlRvEHFrXIT2aEJb9LZi00SIvC++oe2ozE2bkaiiiyoUnsnw2ASPwM4XDiInXzyiVN83UMf9yHfq87V55Vsf5xdgzEiDxr56U/PhVAajClJbcVfqSMttwMeZe0qdxGixIBSAOq3phzdPM83V9uJvqYr+BZO/VbPDSZ6B21xJmdjMu7cNVP5riT/us39us5ckV81tYdViUC5jlkfNqvuwfkDpRzdyJFyoiX0Y</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIFDzCCAvegAwIBAgIID5YAX4IVIK8wDQYJKoZIhvcNAQELBQAwfjELMAkGA1UEBhMCSVQxHzAdBgNVBAoMFk1pbmlzdGVybyBkZWxsJ0ludGVybm8xMTAvBgNVBAsMKEFuYWdyYWZlIE5hemlvbmFsZSBQb3BvbGF6aW9uZSBSZXNpZGVudGUxGzAZBgNVBAMMEkNBIFBvc3RhemlvbmkgQU5QUjAeFw0xODAzMjIyMTI0MDlaFw0yNDAzMjEyMTI0MDlaMIGZMRcwFQYDVQQDDA4wMTcwNDYtUEMtMDAwMTEdMBsGA1UECwwUUG9zdGF6aW9uaSBkaSBsYXZvcm8xMTAvBgNVBAsMKEFuYWdyYWZlIE5hemlvbmFsZSBQb3BvbGF6aW9uZSBSZXNpZGVudGUxHzAdBgNVBAoMFk1pbmlzdGVybyBkZWxsJ0ludGVybm8xCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjovUCFPYosHIga397v+9eOKHMDdd8wPCOFwSmADV2Lwe3lMpAOLiDFH5pOH5WmbLVjyN9NXnrMqo/jNkFmyU8T1ZMDSWJlREMKSpdZYhkBdBkzv8nK9BtzbnwBilNGmQB+zxv7dUEqMtHd3PcvJ7E5W79ULiX7mdsbSvctArPYBeEvOEQf3Th6bh7iBJqlxnf4zf8pfBCIMd8/6acVKw5z/dLURxOShMII57HfGPutUQqt0NYJ7DoBatiaQBVuI7x0VTPPugDogTYahXQuRmaiZWU2JNVxdExQjHE6NhUxrfaxSfqElv1gi7IeAhBtAIu3LPDnIRxzux8OSgvCyqYQIDAQABo3UwczAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFJBiVSsIq5bMyifPAU6dBr6l5pvNMBMGA1UdJQQMMAoGCCsGAQUFBwMCMB0GA1UdDgQWBBQQuldQKO9s5EDjUQIlW79kGgBoHjAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZIhvcNAQELBQADggIBAJLWk9ZQkyR/u3fLrn22A9oFjVjf7Ac/9Itq8h3AyWZpWii2LezFDcTeJsybeZQ+vN+Gj1i0eMStR6LT3lxEViu22i7Im0QHC7S2TupkmwZ7JpXq2ivGxoX9e4tpuQH8yZ7dMiUBnDbN4Q6uimVYXN5pBVxDYPNTavljL9QNZlwq5NZewVGCsFi831+5Sea+G48ek9D3kU45UObJzZ4T2EfOYM8ZIcDYAG3L3G6DVGFSRPmYfBoyFf5PBvR9mKCgMBv70ro+goeRd2tGasoMXdeMGCxmCMLDek7fhSXpVPR5c4Ds5s9FAYCNRAzBkqLfQpLU+nlIwCfgW896yFLXh51Mhbm+CXn/75qIgcaB4DeweE1I7YZdd3UjSfTJPv5yJSGblloUcYJC5hXnu3oPy3yr+DDCPybR6gXs7MVYjJ0ho6Jn6i81heEd8r4jCSXDF9420aQFFUVnWNBvnt92E07Io1aCPDm4oE7zPDIiSRbqYIIIpTXlQ5DWBgxmJb0Eqsmzj1qHcz6aL5Cx2HPJmjPW3Z8PhFxURSy60FEoBmdMidA00dkHdh3oubTZWRah8W5dFZ2WGKfnfPwuxL8ooda4sXwZQPKKVw/kUK3IMGIZavrTndTLOeNpn3xePBVdJxPKEu471IsT1X1XVDO/39b2UUU79RUtEhK70EDx8zx4</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.cazzago.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/cazzagosanmartino"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.cazzago.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/cazzagosanmartino" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="1"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="en">cazzagosanmartino</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+            <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+            <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+            <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+            <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+            <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">SOL</md:ServiceName>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">c_c408</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">Comune di Cazzago San Martino</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.cazzago.bs.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

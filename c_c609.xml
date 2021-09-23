@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Chianni" entityID="https://www.comune.chianni.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Chianni">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>I2s5t6ruYvJugK/0dTtqYLpYBogxcYF7Jd7v+Kraupc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+llPqwBjS6Mqs0OBUtNxfZoOXPIFd5kAbVMyvcm3cuDRmAnLDNZtEqGQFAe1lN3nIlLAukBVoE78n
+nJzATXofa/J5Vxi+ke1aMLoChXk5pcx2DIJ6drEjJYUhZh6kzbJUdOEGhnEzKzmcIhFWAyFsQoUr
+FmCDg5h1is2ErYE31f2IvK2997lS7l79OOyhq8XuBhbRMCtJjKB4sIPqImuX0fMvVSjTpkSJfP1W
++vPx/NQv5NfFH56qu3IHVPwZzZUYi6VhKTwlpMgkOrsNejT86tAHY+aWstP2w48YKfD0kBmQmdMR
+U5LvWl8gA+cinafG3eLd8Fs+mWlxJ3H9ngNJAA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+respxyK6smtOWjS5dmb3FoGm5v7hEbM3Wgi+I/1W29Pez2ub4gUqcrj9yBU816utYQgEniaLojnk
+YwElFpdiHjk5jkO1hvNZdu0C+e9X0Djo/UjkwpvWp3QMJiSgUnmZgIZl37hTiIo48eIrzb7nD7o1
+xuSr4ONdpo+ZOy7TdEMcVWAZPvVERf3nAhhrJ/j4jeFJ5XP8h80OM1pXjre1gWgjVKFhBIV2KKGp
+NmD48jcB9iNtyJ0ICqJiIBtQcNamhJKYugmPL1kV1xrQ8aM6qOeM6YVXrjI+QIdUAZ1rx2xZrW81
+sX394s9ivxTTF7azyr7lDzlSD5UXVOllvfV8OQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDsDCCApigAwIBAgIJALETFH4kEnCcMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5j
+b211bmUuY2hpYW5uaS5waS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIENoaWFubmkxFTATBgNVBAQM
+DFBBOklULWNfYzYwOTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBDaGlhbm5pMB4X
+DTIwMTAyNjExNTUyMloXDTMwMTAyNDExNTUyMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5jaGlh
+bm5pLnBpLml0MRowGAYDVQQKDBFDb211bmUgZGkgQ2hpYW5uaTEVMBMGA1UEBAwMUEE6SVQtY19j
+NjA5MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIENoaWFubmkwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCt6ynHIrqya05aNLl2ZvcWgabm/uERszdaCL4j/Vbb097Pa5vi
+BSpyuP3IFTzXq61hCASeJouiOeRjASUWl2IeOTmOQ7WG81l27QL571fQOOj9SOTCm9andAwmJKBS
+eZmAhmXfuFOIijjx4ivNvucPujXG5Kvg412mj5k7LtN0QxxVYBk+9URF/ecCGGsn+PiN4Unlc/yH
+zQ4zWleOt7WBaCNUoWEEhXYooak2YPjyNwH2I23InQgKomIgG1Bw1qaEkpi6CY8vWRXXGtDxozqo
+54zphVeuMj5Ah1QBnWvHbFmtbzWxff3iz2K/FNMXtrPKvuUPOVIPlRdU6WW99Xw5AgMBAAGjLzAt
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB
+CwUAA4IBAQAmKmMvoyeyF8+1wjXuxGZ2cL+5OOKcXV9e8Phkf16s8yPIoP2b6dQNsrJOgNwTuRE8
+shkI1/0+gYzyXCLDtDpJCptrQ4ZJXI/QDhpLMcXnij8s020z46yq35SRhxb+1lBO3p4ZHLYhu3mS
+QiaA7aPatqEa3hfLN5ZW3t9dFyC97K6bmukWObJ2jIv8dp7u5xLYR+rSiB8nuBh0oWOV4gMeIDN5
+ciM2q09UmXCHx/+kAKwc1mfZSQACiC4XXJ1w1k7m9IVfbXigsUBwCe+JnHapGDzrWHaCZykdtzvT
+Frh+cvuuaJJ1zEBaqJ5odt9G20nN++SG6y/cB6EkJLEsN1Dd
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJALETFH4kEnCcMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuY2hpYW5uaS5waS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIENoaWFubmkxFTATBgNVBAQMDFBBOklULWNfYzYwOTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBDaGlhbm5pMB4XDTIwMTAyNjExNTUyMloXDTMwMTAyNDExNTUyMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5jaGlhbm5pLnBpLml0MRowGAYDVQQKDBFDb211bmUgZGkgQ2hpYW5uaTEVMBMGA1UEBAwMUEE6SVQtY19jNjA5MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIENoaWFubmkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCt6ynHIrqya05aNLl2ZvcWgabm/uERszdaCL4j/Vbb097Pa5viBSpyuP3IFTzXq61hCASeJouiOeRjASUWl2IeOTmOQ7WG81l27QL571fQOOj9SOTCm9andAwmJKBSeZmAhmXfuFOIijjx4ivNvucPujXG5Kvg412mj5k7LtN0QxxVYBk+9URF/ecCGGsn+PiN4Unlc/yHzQ4zWleOt7WBaCNUoWEEhXYooak2YPjyNwH2I23InQgKomIgG1Bw1qaEkpi6CY8vWRXXGtDxozqo54zphVeuMj5Ah1QBnWvHbFmtbzWxff3iz2K/FNMXtrPKvuUPOVIPlRdU6WW99Xw5AgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQAmKmMvoyeyF8+1wjXuxGZ2cL+5OOKcXV9e8Phkf16s8yPIoP2b6dQNsrJOgNwTuRE8shkI1/0+gYzyXCLDtDpJCptrQ4ZJXI/QDhpLMcXnij8s020z46yq35SRhxb+1lBO3p4ZHLYhu3mSQiaA7aPatqEa3hfLN5ZW3t9dFyC97K6bmukWObJ2jIv8dp7u5xLYR+rSiB8nuBh0oWOV4gMeIDN5ciM2q09UmXCHx/+kAKwc1mfZSQACiC4XXJ1w1k7m9IVfbXigsUBwCe+JnHapGDzrWHaCZykdtzvTFrh+cvuuaJJ1zEBaqJ5odt9G20nN++SG6y/cB6EkJLEsN1Dd</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJALETFH4kEnCcMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuY2hpYW5uaS5waS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIENoaWFubmkxFTATBgNVBAQMDFBBOklULWNfYzYwOTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBDaGlhbm5pMB4XDTIwMTAyNjExNTUyMloXDTMwMTAyNDExNTUyMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5jaGlhbm5pLnBpLml0MRowGAYDVQQKDBFDb211bmUgZGkgQ2hpYW5uaTEVMBMGA1UEBAwMUEE6SVQtY19jNjA5MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIENoaWFubmkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCt6ynHIrqya05aNLl2ZvcWgabm/uERszdaCL4j/Vbb097Pa5viBSpyuP3IFTzXq61hCASeJouiOeRjASUWl2IeOTmOQ7WG81l27QL571fQOOj9SOTCm9andAwmJKBSeZmAhmXfuFOIijjx4ivNvucPujXG5Kvg412mj5k7LtN0QxxVYBk+9URF/ecCGGsn+PiN4Unlc/yHzQ4zWleOt7WBaCNUoWEEhXYooak2YPjyNwH2I23InQgKomIgG1Bw1qaEkpi6CY8vWRXXGtDxozqo54zphVeuMj5Ah1QBnWvHbFmtbzWxff3iz2K/FNMXtrPKvuUPOVIPlRdU6WW99Xw5AgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQAmKmMvoyeyF8+1wjXuxGZ2cL+5OOKcXV9e8Phkf16s8yPIoP2b6dQNsrJOgNwTuRE8shkI1/0+gYzyXCLDtDpJCptrQ4ZJXI/QDhpLMcXnij8s020z46yq35SRhxb+1lBO3p4ZHLYhu3mSQiaA7aPatqEa3hfLN5ZW3t9dFyC97K6bmukWObJ2jIv8dp7u5xLYR+rSiB8nuBh0oWOV4gMeIDN5ciM2q09UmXCHx/+kAKwc1mfZSQACiC4XXJ1w1k7m9IVfbXigsUBwCe+JnHapGDzrWHaCZykdtzvTFrh+cvuuaJJ1zEBaqJ5odt9G20nN++SG6y/cB6EkJLEsN1Dd</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/chianni"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/chianni" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/chianni" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/chianni" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Chianni</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Chianni</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Chianni</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Chianni</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Chianni</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Chianni</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Chianni</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Chianni</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.chianni.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.chianni.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.chianni.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.chianni.pi.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_c609</spid:IPACode>
+         <spid:FiscalCode>81000610501</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>contabilita@comune.chianni.pisa.it</md:EmailAddress>
+      <md:TelephoneNumber>0587648810</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

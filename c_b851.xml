@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Carugo" entityID="https://www.comune.carugo.co.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Carugo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>S/wPhC9ehcNGlwRUczB//wxBRPc6N+1CNBZflSHhk0M=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RkwWkrXL7xEQhT9kBS9AFQaAgyd+g5yxYZARWryb+g4sbK5gMr+Tdj7Z9G0S/zx9K8qRkbBdFoEk
+72HK1tIz6wiIxmkuIuDMY/J4X8WmlHrm1ev0cQR8TZ8XdubrJmfhpPTaTNKNi33ZEPJiRNfABpem
+pknnVCwpSOqgWM7rsE3+xoJmCF38s7f9/S7AeiAeCYv9q6WE4fNDrZyFCGiOeTzx+4wz6Fxkp6KG
+hPvkCTMzvxPJOZbTdIFEw76pwQpYZPjuGjeXHefAS+jkDCh3jkiSHI4ZknJQkylZsyLFR88MB/rR
+GECn2UhOttOyGTTEE/mV3Q0/416e2gU5QzkUAA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ys0ywCEPu1NIVaZ7ea51iAT0IvfbCIYL92qrGYObXxuXVZl4YrZlOY2ioQyIMCqU5Ms9yQo1t61A
+RiyZf1nLJV3qjeq4AYtdwXVt20cQ65QpmHYGI91F2VSzOogv7pSOiJTWi00VYI19EzeeXGnDjoqQ
+26JsePpOnW7vCbqShyls30Oa2Dy/sn1jet1kvGz/C0rYfjY+gzghXceoYCziKnQC4E6voBVbL5Q+
+lwy021ZkkDLeAMr8lPqZhbpgZG8tGLhJS+hudzT4Urt+/X1fBMcgsM4eBt7qB61kkFZH9fYDthqK
+iAnfyMHi6qBMr2WqXGhdmKnsj0kTslrfIIddPQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAKekUJlh9rGnMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuY2FydWdvLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA0MDkw
+NzU2MTZaFw0zMDA0MDcwNzU2MTZaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2FydWdvLmNvLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAMrNMsAhD7tTSFWme3mudYgE9CL32wiGC/dqqxmDm18bl1WZeGK2ZTmNoqEMiDAqlOTLPckK
+NbetQEYsmX9ZyyVd6o3quAGLXcF1bdtHEOuUKZh2BiPdRdlUszqIL+6UjoiU1otNFWCNfRM3nlxp
+w46KkNuibHj6Tp1u7wm6kocpbN9Dmtg8v7J9Y3rdZLxs/wtK2H42PoM4IV3HqGAs4ip0AuBOr6AV
+Wy+UPpcMtNtWZJAy3gDK/JT6mYW6YGRvLRi4SUvobnc0+FK7fv19XwTHILDOHgbe6getZJBWR/X2
+A7YaiogJ38jB4uqgTK9lqlxoXZip7I9JE7Ja3yCHXT0CAwEAAaNQME4wHQYDVR0OBBYEFK1qQKje
+COdCl1SDks4KVBnOesutMB8GA1UdIwQYMBaAFK1qQKjeCOdCl1SDks4KVBnOesutMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB8yrLZa0EUONRR5YvYC0nl8QpBDuhjvb46JXCJQx6Hh
+LdRBQpVy2VQAr3TCeqNxH4wUyc3C7+NJ9Lmc362IPEn60abl6gw0Ms0tizdqx/19hBkbh8Xk6Sjw
+h0awe3IZxfdKPd5+4HZal3S+8ue1Ee4P18ZXhlC+PpGr4/pTNaywuPWDnLmhv/6xEh56Q2QNs0xS
+iocd95Bb4xxdPotr8BThNmyRWGNOUIvKKy6BZD6K1ldiZ4DVEwd4scGtwpzxDc5uv4l9MRK9OnJ7
+tljNBeL4x1ERIATc/FVgVdCkTX7j90RjT6kDkMGuQ4+w0dgaaKZcFhgQiZcJ7bcnl/LpDiA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAKekUJlh9rGnMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2FydWdvLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA0MDkwNzU2MTZaFw0zMDA0MDcwNzU2MTZaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2FydWdvLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMrNMsAhD7tTSFWme3mudYgE9CL32wiGC/dqqxmDm18bl1WZeGK2ZTmNoqEMiDAqlOTLPckKNbetQEYsmX9ZyyVd6o3quAGLXcF1bdtHEOuUKZh2BiPdRdlUszqIL+6UjoiU1otNFWCNfRM3nlxpw46KkNuibHj6Tp1u7wm6kocpbN9Dmtg8v7J9Y3rdZLxs/wtK2H42PoM4IV3HqGAs4ip0AuBOr6AVWy+UPpcMtNtWZJAy3gDK/JT6mYW6YGRvLRi4SUvobnc0+FK7fv19XwTHILDOHgbe6getZJBWR/X2A7YaiogJ38jB4uqgTK9lqlxoXZip7I9JE7Ja3yCHXT0CAwEAAaNQME4wHQYDVR0OBBYEFK1qQKjeCOdCl1SDks4KVBnOesutMB8GA1UdIwQYMBaAFK1qQKjeCOdCl1SDks4KVBnOesutMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB8yrLZa0EUONRR5YvYC0nl8QpBDuhjvb46JXCJQx6HhLdRBQpVy2VQAr3TCeqNxH4wUyc3C7+NJ9Lmc362IPEn60abl6gw0Ms0tizdqx/19hBkbh8Xk6Sjwh0awe3IZxfdKPd5+4HZal3S+8ue1Ee4P18ZXhlC+PpGr4/pTNaywuPWDnLmhv/6xEh56Q2QNs0xSiocd95Bb4xxdPotr8BThNmyRWGNOUIvKKy6BZD6K1ldiZ4DVEwd4scGtwpzxDc5uv4l9MRK9OnJ7tljNBeL4x1ERIATc/FVgVdCkTX7j90RjT6kDkMGuQ4+w0dgaaKZcFhgQiZcJ7bcnl/LpDiA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAKekUJlh9rGnMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2FydWdvLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA0MDkwNzU2MTZaFw0zMDA0MDcwNzU2MTZaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2FydWdvLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMrNMsAhD7tTSFWme3mudYgE9CL32wiGC/dqqxmDm18bl1WZeGK2ZTmNoqEMiDAqlOTLPckKNbetQEYsmX9ZyyVd6o3quAGLXcF1bdtHEOuUKZh2BiPdRdlUszqIL+6UjoiU1otNFWCNfRM3nlxpw46KkNuibHj6Tp1u7wm6kocpbN9Dmtg8v7J9Y3rdZLxs/wtK2H42PoM4IV3HqGAs4ip0AuBOr6AVWy+UPpcMtNtWZJAy3gDK/JT6mYW6YGRvLRi4SUvobnc0+FK7fv19XwTHILDOHgbe6getZJBWR/X2A7YaiogJ38jB4uqgTK9lqlxoXZip7I9JE7Ja3yCHXT0CAwEAAaNQME4wHQYDVR0OBBYEFK1qQKjeCOdCl1SDks4KVBnOesutMB8GA1UdIwQYMBaAFK1qQKjeCOdCl1SDks4KVBnOesutMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB8yrLZa0EUONRR5YvYC0nl8QpBDuhjvb46JXCJQx6HhLdRBQpVy2VQAr3TCeqNxH4wUyc3C7+NJ9Lmc362IPEn60abl6gw0Ms0tizdqx/19hBkbh8Xk6Sjwh0awe3IZxfdKPd5+4HZal3S+8ue1Ee4P18ZXhlC+PpGr4/pTNaywuPWDnLmhv/6xEh56Q2QNs0xSiocd95Bb4xxdPotr8BThNmyRWGNOUIvKKy6BZD6K1ldiZ4DVEwd4scGtwpzxDc5uv4l9MRK9OnJ7tljNBeL4x1ERIATc/FVgVdCkTX7j90RjT6kDkMGuQ4+w0dgaaKZcFhgQiZcJ7bcnl/LpDiA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/carugo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carugo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carugo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carugo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Carugo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Carugo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Carugo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Carugo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Carugo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Carugo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Carugo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Carugo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.carugo.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.carugo.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.carugo.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.carugo.co.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

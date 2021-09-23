@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="_3e366a59-cbef-4982-8567-8719b0378ac9" entityID="https://servizi.comune.castelsangiorgio.sa.it/kauth/sp/shibboleth" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_3e366a59-cbef-4982-8567-8719b0378ac9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+NiC+/uwdti5piWsEKTdrlwMUGI5LEOpgxJ7fnvk+pw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FkfTwJhGQ7eDbWre7S5MLcy47qmQkby6e5J/0CbWA+VzpVbHl756X0KpxKynzHLmT35nPCX05nhb&#xd;
+bz5IHMS0jVnWQHondAFmOKsX3ne+AdFzGhDqJj2DVsECswsBBQDrSvCw+/IusqEAdsUhKPkK6D+B&#xd;
+BKWvet8JtrnsItCvb7vvk7nq3NG3X4eKpg/zxlu/XJSE0xUep7iUnn4XPffXPpTNaM10BQWbL5fk&#xd;
+PNMzkCrbKN81567Z7rsTYBeCGmJEOM5yqlrSbqf36PE4ai4967FzZp654yLwjXvcqrdSCLO0cAD6&#xd;
+HOyR1jIAHreoy+GM6H1Glp+SG23Oq0374YC5gg==
+</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIG/DCCBeSgAwIBAgIJAN6hG2dbUljDMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJVUzEQ
+MA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEaMBgGA1UEChMRR29EYWRkeS5j
+b20sIEluYy4xLTArBgNVBAsTJGh0dHA6Ly9jZXJ0cy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzEz
+MDEGA1UEAxMqR28gRGFkZHkgU2VjdXJlIENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTIw
+MDUyOTA5MTA1OFoXDTIyMDUzMTA5NDkxOFowUzEhMB8GA1UECxMYRG9tYWluIENvbnRyb2wgVmFs
+aWRhdGVkMS4wLAYDVQQDEyVzZXJ2aXppLmNvbXVuZS5jYXN0ZWxzYW5naW9yZ2lvLnNhLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsmSyb9It/LwHxepS/ebOoRpBDzu0fdnOztdH
+uMkA5l/wnR0gqVWK3Ox3YJUsA1/X5Gq/kkQjCk48QaStBoxo6Ns196+hPEf2eTGXgoJ+WM7MweU1
+yrU/8VLZC8CoivRioCorFlZLf2yDn5bRAHp1L06we6JtnO00UHjBYjYj2V2ha40OsugaPXtIAkhi
+9z3vxdGX6u5PfG4fvTehdkjfP2MI+P00tblFQxBpKydoyohZ6HUeCWTLE+1EMTklh7G6zXcrtxDa
+7fN7GGxNj+z/iW+2nSEUIbtUT3GdvBgDfnrOSOGx7z60HPn6YK7Z8505n0NAGHrsM3AiQD/+59cc
+DwIDAQABo4IDbzCCA2swDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH
+AwIwDgYDVR0PAQH/BAQDAgWgMDgGA1UdHwQxMC8wLaAroCmGJ2h0dHA6Ly9jcmwuZ29kYWRkeS5j
+b20vZ2RpZzJzMS0yMDAwLmNybDBdBgNVHSAEVjBUMEgGC2CGSAGG/W0BBxcBMDkwNwYIKwYBBQUH
+AgEWK2h0dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQIB
+MHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZ29kYWRkeS5jb20vMEAG
+CCsGAQUFBzAChjRodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvZ2Rp
+ZzIuY3J0MB8GA1UdIwQYMBaAFEDCvSeOzDSDMKIz1/tss/C0LIDOMFsGA1UdEQRUMFKCJXNlcnZp
+emkuY29tdW5lLmNhc3RlbHNhbmdpb3JnaW8uc2EuaXSCKXd3dy5zZXJ2aXppLmNvbXVuZS5jYXN0
+ZWxzYW5naW9yZ2lvLnNhLml0MB0GA1UdDgQWBBRwBz4hO6Dc3RmpvcSzI8MwNlq0dzCCAXwGCisG
+AQQB1nkCBAIEggFsBIIBaAFmAHUAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAFy
+X7QfaQAABAMARjBEAiAeSNfP4aD/sx/yQJUgKXHN+7QDHNBQnQwdDay32UtZDgIgJtUUt7LLed1C
+pKdUDKDWSTmkdsSjMLewNSNOEB94/lkAdQAiRUUHWVUkVpY/oS/x922G4CMmY63AS39dxoNcbuIP
+AgAAAXJftCF4AAAEAwBGMEQCIHDz0SzrGFMfNW9mj8Xj2rVrxwbwwdHvxtN1SA5d1f53AiATPJN1
+SmAuzfKVn/CwKFxF7W06X6op5tXb8OvghmnUlQB2AEHIyrHfIkZKEMahOglCh15OMYsbA+vrS8do
+8JBilgb2AAABcl+0If4AAAQDAEcwRQIgZx+M6zVQC7R0+YzdID3QIgbO5zryzfyZD1v9acgGP7gC
+IQCbYln0U2kg3cV5zp4euXCFEbkICXDDfbaPfvs2CwITBDANBgkqhkiG9w0BAQsFAAOCAQEAAKdi
+XLsTqLfrt8CyjM5fF3V/c93+RQenoJx6D3dpYnJ4zvfoHeucqfHxv/TcLgzzSwXN+Jj3NNFjIRso
+qsD1jvh8k2g+t+S+chj2XABtH2pLYvRKzwMlpxlO0RqvcEp8X1mte4Y0siElfiz5HGjunLcD0L3g
+5UnDviLtoa/NCuP1rkYq9aDm3xFaeOBZSzjvXINW22RgYihtemrjJGNKfRqgrIKDJWd5djwQuDYH
+EIMR/mu5hxjUvWSTQxuiLU1+ts1GjE89nN3Dsyq19YXzsKbdigBKiASFJxP+I2a32t+LC+uCZYrW
+1lUlngo9L7oin0WlGLC4YU2wQbgUWuliVQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDMzCCAhugAwIBAgIJAJERiFBxgQ5fMA0GCSqGSIb3DQEBCwUAMDAxLjAsBgNV
+BAMMJXNlcnZpemkuY29tdW5lLmNhc3RlbHNhbmdpb3JnaW8uc2EuaXQwHhcNMjAw
+NzIyMDk1MzQ2WhcNMzAwNzIwMDk1MzQ2WjAwMS4wLAYDVQQDDCVzZXJ2aXppLmNv
+bXVuZS5jYXN0ZWxzYW5naW9yZ2lvLnNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAvFCPY53XgHnG5BEUVbuecp2AcwpG6xFMYAafqJXv6sOqHDs3
+MW4i2WMXN2c61pXuQNRm7sOXERlc1KUKpQI2JG5tkLG0rr1zQEWiJtA/+/Px1+PA
+tYqHphJG8KHuVu7oS2bLJzSuv6PnD29zbJeFHHT3BwdtyJkH0CGCOAmdeM7v03kd
+/6jgeqWDMnXszV8d6u2bZ+6J48F8mxjNTXOaCaKhcGFEX9Ka22PVOIjgPmRzwQyj
+L0kn1H646LKoHzy5zoMKbTAPwxtoW2WlQ9G9CSDDUwxPS75VugT7DjPIj9QrQeUJ
+31y8/zqgTxe3hlYfNISSu6dPJPkOn7Q/VSS5kQIDAQABo1AwTjAdBgNVHQ4EFgQU
+npT48WIsIriXjSwpkrOfNKAbJcEwHwYDVR0jBBgwFoAUnpT48WIsIriXjSwpkrOf
+NKAbJcEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAoruXhfuN2cNC
+/HvJCsIY9Ohp9C6ACs/yUy51qL0gPNBP8qvAah6UUnJgs2x6iQwwy4E3lYq19xGy
+5v4T23Cp3fZ0xlbUPBYtn9LCG2HMJv88WlFXPCaj9snK7SKzDKE00qp3Dee/NSzX
+l3Ex1DlW2p4a9VYWYivhkBc85zdJvlyUcMYLsA/Hl3z4ylHXuxqTYw+d++FsQcZG
+VFgvxpWGMGoM4tcBwEEeK+S6HmRPJJ2iPax+JhbOO/z/1d/xIGR40LcEYyUx9APP
+ifpXJqlgptKlsx44BRxhVWEf1b92dQjegb5UZJQTc4kVwSgQucWOikopzMv8ITAZ
+Pv74R3nhSA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.castelsangiorgio.sa.it/kauth/sso/spid/logout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.castelsangiorgio.sa.it/kauth/sso/spid/logout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.castelsangiorgio.sa.it/kauth/sso/spid/acs" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">SP SPID</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="mobilePhone"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Comune di Castel San Giorgio</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Comune di Castel San Giorgio</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">http://www.comune.castelsangiorgio.sa.it/</md:OrganizationURL></md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_c259</spid:IPACode><spid:Public/></md:Extensions><md:Company>Comune di Castel San Giorgio</md:Company><md:EmailAddress>ced@comune.castelsangiorgio.sa.it</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>

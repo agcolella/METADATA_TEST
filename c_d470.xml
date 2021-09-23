@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Falcade" entityID="https://www.comune.falcade.bl.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Falcade">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>mcS71AcEgZyqK7ocruxSZ3tcYP2YNshQSKAzxyWT5H0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jPf8kTV9YfcyK1Su1AYKrYAs7e1tMFC4u5tMl3nNVm5vv806F151/0dLjhvJvzRXRJ2mn2XqgMnN
+gu47AuyK+ClbJcs4Ct4t1J10ZmhHgu1ruA0k44cVH2CjFqsFo8kVKPf3RhvFBD9YNnzq9riTXjFA
+zsskm16ZpJYioy4JX4T1LrRmM2M3I2gMpnsJqRwTzSV3j1yUwjWKibvb1xdzzYd0PQf4CV57AIpv
+1DS6Q1O5yyjRVsE9MwE8/yIczBjRWBRlHrU6Cq8nyY6C7xdI5ETegWSn8NQWZUKstMI/GtfRGHJl
+lWZgoE8ViMAI04du3rd3xyzSX5/iYEjM/iqsoQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wPsWVXjbGDWta8eVrPZje8M8DpL97Md7IDsKWiaTMPv4Jel2PEmSoyRrgxvTH1ay8dh3SGfsK4zZ
+VXch3Gs9kB0OPoFi/F0xThCRjLGr0c/TkoGM6qFO4yh9Xlg+iNg7lDyxw6dISfvIpxvoO6u41Odo
+zSxQjkUvyEuXmI2XWGh69AxFFvpml7y+uSYA3tB520+XSve1xmNfJPH8aBOG+g7ERcNCv9cXAwGZ
+lP8hiYp2JTduD7LeKhJaiOq3wYSFCefSpAd07OHuox9MW5iZ4X8qj2k3IF4BVftYOBw8vTf7HHoz
+LfBoTCqwGDQCA0wOT4JbXu9S9cHtSvVDOicfHQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/jCCAuagAwIBAgIJAJ+si2QDPB9tMA0GCSqGSIb3DQEBCwUAMIGlMRowGAYDVQQKDBFDb211
+bmUgZGkgRmFsY2FkZTEaMBgGA1UEAwwRQ29tdW5lIGRpIEZhbGNhZGUxNTAzBgNVBFMMLGh0dHBz
+Oi8vd3d3LmNvbXVuZS5mYWxjYWRlLmJsLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1j
+X2Q0NzAxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdGYWxjYWRlMB4XDTIwMTExMjEzMjUxNFoXDTMw
+MTExMDEzMjUxNFowgaUxGjAYBgNVBAoMEUNvbXVuZSBkaSBGYWxjYWRlMRowGAYDVQQDDBFDb211
+bmUgZGkgRmFsY2FkZTE1MDMGA1UEUwwsaHR0cHM6Ly93d3cuY29tdW5lLmZhbGNhZGUuYmwuaXQv
+c2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfZDQ3MDELMAkGA1UEBhMCSVQxEDAOBgNVBAcM
+B0ZhbGNhZGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA+xZVeNsYNa1rx5Ws9mN7
+wzwOkv3sx3sgOwpaJpMw+/gl6XY8SZKjJGuDG9MfVrLx2HdIZ+wrjNlVdyHcaz2QHQ4+gWL8XTFO
+EJGMsavRz9OSgYzqoU7jKH1eWD6I2DuUPLHDp0hJ+8inG+g7q7jU52jNLFCORS/IS5eYjZdYaHr0
+DEUW+maXvL65JgDe0HnbT5dK97XGY18k8fxoE4b6DsRFw0K/1xcDAZmU/yGJinYlN24Pst4qElqI
+6rfBhIUJ59KkB3Ts4e6jH0xbmJnhfyqPaTcgXgFV+1g4HDy9N/scejMt8GhMKrAYNAIDTA5Pglte
+71L1we1K9UM6Jx8dAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAow
+CAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQC/xE70tnNvup27DycpPK8BuqrT7alvv66g2O8D
+vTnf5SBQC2StsafmpglpeyOhFIP0rhA3DLR6NUFmB3epznAzcQqWk/VG5J8R5suYjyqBDkvqUePQ
+XObBYShetrxMv7jD/1bbHmcqwRjKPQN2Cisu+AGChcaJ6B7VUoPjKCN5YM5Ma1q+D3gDUiunyw4V
+AlgyusvclhQukSOUMf6RGgEX1qRwQWYojIc3V2Gkouz6jwaq+mYRj4blKbykbxLgrDDvGEVMH9Nh
+xBOtdR+R+2LUdDBPNLOqykRC5DhfxLxIDo65CwDu9XaS3AEmp+sp1SYCAz8Ekr1Vfk2Si3D58BMr
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAJ+si2QDPB9tMA0GCSqGSIb3DQEBCwUAMIGlMRowGAYDVQQKDBFDb211bmUgZGkgRmFsY2FkZTEaMBgGA1UEAwwRQ29tdW5lIGRpIEZhbGNhZGUxNTAzBgNVBFMMLGh0dHBzOi8vd3d3LmNvbXVuZS5mYWxjYWRlLmJsLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2Q0NzAxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdGYWxjYWRlMB4XDTIwMTExMjEzMjUxNFoXDTMwMTExMDEzMjUxNFowgaUxGjAYBgNVBAoMEUNvbXVuZSBkaSBGYWxjYWRlMRowGAYDVQQDDBFDb211bmUgZGkgRmFsY2FkZTE1MDMGA1UEUwwsaHR0cHM6Ly93d3cuY29tdW5lLmZhbGNhZGUuYmwuaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfZDQ3MDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB0ZhbGNhZGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA+xZVeNsYNa1rx5Ws9mN7wzwOkv3sx3sgOwpaJpMw+/gl6XY8SZKjJGuDG9MfVrLx2HdIZ+wrjNlVdyHcaz2QHQ4+gWL8XTFOEJGMsavRz9OSgYzqoU7jKH1eWD6I2DuUPLHDp0hJ+8inG+g7q7jU52jNLFCORS/IS5eYjZdYaHr0DEUW+maXvL65JgDe0HnbT5dK97XGY18k8fxoE4b6DsRFw0K/1xcDAZmU/yGJinYlN24Pst4qElqI6rfBhIUJ59KkB3Ts4e6jH0xbmJnhfyqPaTcgXgFV+1g4HDy9N/scejMt8GhMKrAYNAIDTA5Pglte71L1we1K9UM6Jx8dAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQC/xE70tnNvup27DycpPK8BuqrT7alvv66g2O8DvTnf5SBQC2StsafmpglpeyOhFIP0rhA3DLR6NUFmB3epznAzcQqWk/VG5J8R5suYjyqBDkvqUePQXObBYShetrxMv7jD/1bbHmcqwRjKPQN2Cisu+AGChcaJ6B7VUoPjKCN5YM5Ma1q+D3gDUiunyw4VAlgyusvclhQukSOUMf6RGgEX1qRwQWYojIc3V2Gkouz6jwaq+mYRj4blKbykbxLgrDDvGEVMH9NhxBOtdR+R+2LUdDBPNLOqykRC5DhfxLxIDo65CwDu9XaS3AEmp+sp1SYCAz8Ekr1Vfk2Si3D58BMr</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAJ+si2QDPB9tMA0GCSqGSIb3DQEBCwUAMIGlMRowGAYDVQQKDBFDb211bmUgZGkgRmFsY2FkZTEaMBgGA1UEAwwRQ29tdW5lIGRpIEZhbGNhZGUxNTAzBgNVBFMMLGh0dHBzOi8vd3d3LmNvbXVuZS5mYWxjYWRlLmJsLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2Q0NzAxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdGYWxjYWRlMB4XDTIwMTExMjEzMjUxNFoXDTMwMTExMDEzMjUxNFowgaUxGjAYBgNVBAoMEUNvbXVuZSBkaSBGYWxjYWRlMRowGAYDVQQDDBFDb211bmUgZGkgRmFsY2FkZTE1MDMGA1UEUwwsaHR0cHM6Ly93d3cuY29tdW5lLmZhbGNhZGUuYmwuaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfZDQ3MDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB0ZhbGNhZGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA+xZVeNsYNa1rx5Ws9mN7wzwOkv3sx3sgOwpaJpMw+/gl6XY8SZKjJGuDG9MfVrLx2HdIZ+wrjNlVdyHcaz2QHQ4+gWL8XTFOEJGMsavRz9OSgYzqoU7jKH1eWD6I2DuUPLHDp0hJ+8inG+g7q7jU52jNLFCORS/IS5eYjZdYaHr0DEUW+maXvL65JgDe0HnbT5dK97XGY18k8fxoE4b6DsRFw0K/1xcDAZmU/yGJinYlN24Pst4qElqI6rfBhIUJ59KkB3Ts4e6jH0xbmJnhfyqPaTcgXgFV+1g4HDy9N/scejMt8GhMKrAYNAIDTA5Pglte71L1we1K9UM6Jx8dAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQC/xE70tnNvup27DycpPK8BuqrT7alvv66g2O8DvTnf5SBQC2StsafmpglpeyOhFIP0rhA3DLR6NUFmB3epznAzcQqWk/VG5J8R5suYjyqBDkvqUePQXObBYShetrxMv7jD/1bbHmcqwRjKPQN2Cisu+AGChcaJ6B7VUoPjKCN5YM5Ma1q+D3gDUiunyw4VAlgyusvclhQukSOUMf6RGgEX1qRwQWYojIc3V2Gkouz6jwaq+mYRj4blKbykbxLgrDDvGEVMH9NhxBOtdR+R+2LUdDBPNLOqykRC5DhfxLxIDo65CwDu9XaS3AEmp+sp1SYCAz8Ekr1Vfk2Si3D58BMr</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/falcade"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/falcade" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/falcade" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/falcade" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Falcade</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Falcade</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Falcade</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Falcade</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Falcade</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Falcade</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Falcade</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Falcade</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.falcade.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.falcade.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.falcade.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.falcade.bl.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_d470</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ragioneria.falcade@agordino.bl.it</md:EmailAddress>
+      <md:TelephoneNumber>+390437599735</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

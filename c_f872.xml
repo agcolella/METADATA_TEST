@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx4ac3d161-8c4b-e74e-0c18-f689b8d75ff6" entityID="https://www.comune.nervesa.tv.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx4ac3d161-8c4b-e74e-0c18-f689b8d75ff6">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>HIM3ZWNdtegtMWS0DJJsswDlB8DCTwQl0dYDImDdxnI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+B/CVKD0nRQxmeWcWFn8jXezsl+pLV1pSYSTCwnDvQXcJdzojCHJ3WMjl6PNFlX+fuPxcDf0f/utg
+dkgoIcLHrQhCYiVEXsvzhIlW3ryNAt+s463ES9fuxFknAPDQcUtV0F6C4HM0yuDSdAYVN65GS/5z
+TSH9BHklHbMhoxZLIlfuCHSJzbupR/zZqsSG1I5Z8Z435fXBYLqZFUUNenRu8hEZVX7ZN+sJAcEN
+Rn5s21ah70AYMXbOqZuwnCUEE8bXBGYc1GIHKpOjXITbCAH5XfDPqy7DH9T2JHtuJCEOyetkzcpb
+T+dypuDYTXGx12/rv/dTnN5rsMMl69yChp9Gzw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qEXN13sHf6skeM//sEUB5g3/b8+Sk2yxaxKmMn2mk9uef7qekhfAxTJoW5T68dYB7ZQrZaYBH1rf
+0xvj2aroyv60LNnnZOKHndPlsb4gB+STCOs2IuKHX+4OcyEQNl8Pz0nrLdzpUFNX8YfVWaL6eJpv
+k1M87FFnydTZvMXl9+jxIK0e1xSxuekEIsO9etcEJvZGmsr9cbIgQdIOTyydX86WmincRZ7iCMny
+30k4p7EF2+Hc6nYhU2MJmj6jA0JXtfA/IAzBblHpwmP17DQ7uu8T5NyFgKGH20Xt9b0FDyaNAP13
+w5ghfLIyAjT8VssBFWUgCGJ5+RHLdbTnl573mw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID8TCCAtmgAwIBAgIJAKbYzWxCJTOeMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF05lcnZlc2EgZGVsbGEgQmF0dGFnbGlhMSowKAYDVQQK
+DCFDb211bmUgZGkgTmVydmVzYSBkZWxsYSBCYXR0YWdsaWExITAfBgNVBAMMGHd3dy5jb211bmUu
+bmVydmVzYS50di5pdDAeFw0xOTA3MjYwODQ5MThaFw0yOTA3MjUwODQ5MThaMIGOMQswCQYDVQQG
+EwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF05lcnZlc2EgZGVsbGEgQmF0dGFnbGlhMSow
+KAYDVQQKDCFDb211bmUgZGkgTmVydmVzYSBkZWxsYSBCYXR0YWdsaWExITAfBgNVBAMMGHd3dy5j
+b211bmUubmVydmVzYS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhFzdd7
+B3+rJHjP/7BFAeYN/2/PkpNssWsSpjJ9ppPbnn+6npIXwMUyaFuU+vHWAe2UK2WmAR9a39Mb49mq
+6Mr+tCzZ52Tih53T5bG+IAfkkwjrNiLih1/uDnMhEDZfD89J6y3c6VBTV/GH1Vmi+niab5NTPOxR
+Z8nU2bzF5ffo8SCtHtcUsbnpBCLDvXrXBCb2RprK/XGyIEHSDk8snV/Olpop3EWe4gjJ8t9JOKex
+Bdvh3Op2IVNjCZo+owNCV7XwPyAMwW5R6cJj9ew0O7rvE+TchYChh9tF7fW9BQ8mjQD9d8OYIXyy
+MgI0/FbLARVlIAhiefkRy3W055ee95sCAwEAAaNQME4wHQYDVR0OBBYEFGUrPdj+3B8+leCc51K1
+RbSFGbiwMB8GA1UdIwQYMBaAFGUrPdj+3B8+leCc51K1RbSFGbiwMAwGA1UdEwQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggEBAEqeSXcQMRUnP2BXsQm3Su772mnFGtr7yzWQ4foSsY2w4YqdJGIwPzf1
+XEZr45ZHO02c9OleIQi6VWJ7v6bV7XUFJUlOhAKfFdiLy//e+Vc09myH0qjw8L/Ybtv9Jp8Dik6N
+zHbn5P3isY71MOsmTUW6JHgfS9CbOpqDIrCCtRNMQ7L3bP0CIuVAOc9TJv3RN9v7cRikPxIn76Wk
+cz6lNd4jUYX6pO/X1+II+3LguL1xi4XqbpQzWyn/ezT/NSLVIXaLfkNtB0+uPXbs/1GgdffgXPUe
+NqBBpYNLP0PjCgU8myCTYTY3n/korGntskJ/K2TXGoCw5PG5DEqv62Ds8PE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8TCCAtmgAwIBAgIJAKbYzWxCJTOeMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF05lcnZlc2EgZGVsbGEgQmF0dGFnbGlhMSowKAYDVQQKDCFDb211bmUgZGkgTmVydmVzYSBkZWxsYSBCYXR0YWdsaWExITAfBgNVBAMMGHd3dy5jb211bmUubmVydmVzYS50di5pdDAeFw0xOTA3MjYwODQ5MThaFw0yOTA3MjUwODQ5MThaMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF05lcnZlc2EgZGVsbGEgQmF0dGFnbGlhMSowKAYDVQQKDCFDb211bmUgZGkgTmVydmVzYSBkZWxsYSBCYXR0YWdsaWExITAfBgNVBAMMGHd3dy5jb211bmUubmVydmVzYS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhFzdd7B3+rJHjP/7BFAeYN/2/PkpNssWsSpjJ9ppPbnn+6npIXwMUyaFuU+vHWAe2UK2WmAR9a39Mb49mq6Mr+tCzZ52Tih53T5bG+IAfkkwjrNiLih1/uDnMhEDZfD89J6y3c6VBTV/GH1Vmi+niab5NTPOxRZ8nU2bzF5ffo8SCtHtcUsbnpBCLDvXrXBCb2RprK/XGyIEHSDk8snV/Olpop3EWe4gjJ8t9JOKexBdvh3Op2IVNjCZo+owNCV7XwPyAMwW5R6cJj9ew0O7rvE+TchYChh9tF7fW9BQ8mjQD9d8OYIXyyMgI0/FbLARVlIAhiefkRy3W055ee95sCAwEAAaNQME4wHQYDVR0OBBYEFGUrPdj+3B8+leCc51K1RbSFGbiwMB8GA1UdIwQYMBaAFGUrPdj+3B8+leCc51K1RbSFGbiwMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEqeSXcQMRUnP2BXsQm3Su772mnFGtr7yzWQ4foSsY2w4YqdJGIwPzf1XEZr45ZHO02c9OleIQi6VWJ7v6bV7XUFJUlOhAKfFdiLy//e+Vc09myH0qjw8L/Ybtv9Jp8Dik6NzHbn5P3isY71MOsmTUW6JHgfS9CbOpqDIrCCtRNMQ7L3bP0CIuVAOc9TJv3RN9v7cRikPxIn76Wkcz6lNd4jUYX6pO/X1+II+3LguL1xi4XqbpQzWyn/ezT/NSLVIXaLfkNtB0+uPXbs/1GgdffgXPUeNqBBpYNLP0PjCgU8myCTYTY3n/korGntskJ/K2TXGoCw5PG5DEqv62Ds8PE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8TCCAtmgAwIBAgIJAKbYzWxCJTOeMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF05lcnZlc2EgZGVsbGEgQmF0dGFnbGlhMSowKAYDVQQKDCFDb211bmUgZGkgTmVydmVzYSBkZWxsYSBCYXR0YWdsaWExITAfBgNVBAMMGHd3dy5jb211bmUubmVydmVzYS50di5pdDAeFw0xOTA3MjYwODQ5MThaFw0yOTA3MjUwODQ5MThaMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF05lcnZlc2EgZGVsbGEgQmF0dGFnbGlhMSowKAYDVQQKDCFDb211bmUgZGkgTmVydmVzYSBkZWxsYSBCYXR0YWdsaWExITAfBgNVBAMMGHd3dy5jb211bmUubmVydmVzYS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhFzdd7B3+rJHjP/7BFAeYN/2/PkpNssWsSpjJ9ppPbnn+6npIXwMUyaFuU+vHWAe2UK2WmAR9a39Mb49mq6Mr+tCzZ52Tih53T5bG+IAfkkwjrNiLih1/uDnMhEDZfD89J6y3c6VBTV/GH1Vmi+niab5NTPOxRZ8nU2bzF5ffo8SCtHtcUsbnpBCLDvXrXBCb2RprK/XGyIEHSDk8snV/Olpop3EWe4gjJ8t9JOKexBdvh3Op2IVNjCZo+owNCV7XwPyAMwW5R6cJj9ew0O7rvE+TchYChh9tF7fW9BQ8mjQD9d8OYIXyyMgI0/FbLARVlIAhiefkRy3W055ee95sCAwEAAaNQME4wHQYDVR0OBBYEFGUrPdj+3B8+leCc51K1RbSFGbiwMB8GA1UdIwQYMBaAFGUrPdj+3B8+leCc51K1RbSFGbiwMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEqeSXcQMRUnP2BXsQm3Su772mnFGtr7yzWQ4foSsY2w4YqdJGIwPzf1XEZr45ZHO02c9OleIQi6VWJ7v6bV7XUFJUlOhAKfFdiLy//e+Vc09myH0qjw8L/Ybtv9Jp8Dik6NzHbn5P3isY71MOsmTUW6JHgfS9CbOpqDIrCCtRNMQ7L3bP0CIuVAOc9TJv3RN9v7cRikPxIn76Wkcz6lNd4jUYX6pO/X1+II+3LguL1xi4XqbpQzWyn/ezT/NSLVIXaLfkNtB0+uPXbs/1GgdffgXPUeNqBBpYNLP0PjCgU8myCTYTY3n/korGntskJ/K2TXGoCw5PG5DEqv62Ds8PE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.nervesa.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.nervesa.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Nervesa della Battaglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Nervesa della Battaglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.nervesa.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

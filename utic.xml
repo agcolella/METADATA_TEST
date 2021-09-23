@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx00d31e80-b0f3-dc10-4ad5-4921391525ad" entityID="https://servizionline.collinare.utifvg.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx00d31e80-b0f3-dc10-4ad5-4921391525ad">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ur7+CZqjn9HGIIb8rSV45jXCDfEFO1R2CJueXZVROpU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rMqsMtfhaCH5YPvgSFbtBUv3jJcUIAlE1JKhEFVih3VTEoShIzyv97FiAavuYSEAEBzjW4ubXOlH
+EDDVwqJva8tBGZ5dmhlxG8MugfuxOjoodKavGr+ahx5JAR/prZwolduXh7YzWQtLJsPUxVXIeD9N
+Nxh6nH7JVz/CuaUCrXaHzbnwgKB5iSFbM7kLClpHfEfG00+FRujQlYtpxiwILMQy3ip35YVK+/gQ
+XJitjsT/EpAoqJIF7C+6LtYIkXmtdIXC7bq/Q8woNErOEH6tL9cmnNSM26vaY79u3y0UVVOUO/ku
+eetqWUnANXAxd+lxZZ2io4eRUDIQMSrV5EzZAg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zcI2d77UXbCsUczrEFteeDSJfX7KvWct5caW1rTl9yiMnUOrgxBMl76b0b+iZMmkA+5jD12+tdpi
+8BKkIe1qMvW7O9JWYBQEM0r4QTVHsZNx5x21irS5GH9eISlp8Rvx2KXp/SK9zIyxMpVHW7rFZEP6
+D87eXYWQWAnm0zXYO6kZbtOOwa0e7psvY5kK8oSNhlOZPG+AnBWcI9qY+aEnBZaU+vWILtDTrpf0
+GUe8ROgQLBSJNncrnD0ctsaxuI3lXqid/ezZV40ca7IqE369T1SNt7ZAhLUzOT2SBQGCoAPJPbsa
+LN/Hij/B4WBfv/H6NTgykEN7BucfYDjX3ar9wQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID9zCCAt+gAwIBAgIJAM6C0y7tZNPFMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0ZhZ2FnbmExNDAyBgNVBAoMK1VuaW9uZSBUZXJyaXRv
+cmlhbGUgSW50ZXJjb211bmFsZSBDb2xsaW5hcmUxKjAoBgNVBAMMIXNlcnZpemlvbmxpbmUuY29s
+bGluYXJlLnV0aWZ2Zy5pdDAeFw0xODEwMTcwODE1NTVaFw0yODEwMTYwODE1NTVaMIGRMQswCQYD
+VQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0ZhZ2FnbmExNDAyBgNVBAoMK1VuaW9u
+ZSBUZXJyaXRvcmlhbGUgSW50ZXJjb211bmFsZSBDb2xsaW5hcmUxKjAoBgNVBAMMIXNlcnZpemlv
+bmxpbmUuY29sbGluYXJlLnV0aWZ2Zy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AM3CNne+1F2wrFHM6xBbXng0iX1+yr1nLeXGlta05fcojJ1Dq4MQTJe+m9G/omTJpAPuYw9dvrXa
+YvASpCHtajL1uzvSVmAUBDNK+EE1R7GTcecdtYq0uRh/XiEpafEb8dil6f0ivcyMsTKVR1u6xWRD
++g/O3l2FkFgJ5tM12DupGW7TjsGtHu6bL2OZCvKEjYZTmTxvgJwVnCPamPmhJwWWlPr1iC7Q066X
+9BlHvEToECwUiTZ3K5w9HLbGsbiN5V6onf3s2VeNHGuyKhN+vU9Ujbe2QIS1Mzk9kgUBgqADyT27
+Gizfx4o/weFgX7/x+jU4MpBDewbnH2A4192q/cECAwEAAaNQME4wHQYDVR0OBBYEFAJGFHuQswwo
+vhnLl2kM2fzzMkFmMB8GA1UdIwQYMBaAFAJGFHuQswwovhnLl2kM2fzzMkFmMAwGA1UdEwQFMAMB
+Af8wDQYJKoZIhvcNAQELBQADggEBAK/SotdOi3zNwR8eivuWAtd/zme78aoRnDNk/lYcHp6k9Z88
+xzHZWWLsoZKLYwilsJyCZJYKAEBrjUjHcT9ilG+z+hlwaxATILu/pkiyBCIjpkAoL1lkhvWQFIId
+OrZO1bUuF9App+BgKDMPih0ZOOXNCf2xfEHE+UoWa1GeSeVjcgbb+Vi1jqlu47HCrodX+PeCYUsO
+nl/ojXiHg003bOEdM1ZjMWeu7q06IwRi1eGZFmCOG+l4WT44dLC3nzYF+ikL918TD8+3VDWjNlNq
+3qIpYEZ3O3mTKeoHW0A/Kqugbk9hiXL+3kwOA/FSN2uQgHHoAg9AkDXlreY7R3Gp1oA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9zCCAt+gAwIBAgIJAM6C0y7tZNPFMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0ZhZ2FnbmExNDAyBgNVBAoMK1VuaW9uZSBUZXJyaXRvcmlhbGUgSW50ZXJjb211bmFsZSBDb2xsaW5hcmUxKjAoBgNVBAMMIXNlcnZpemlvbmxpbmUuY29sbGluYXJlLnV0aWZ2Zy5pdDAeFw0xODEwMTcwODE1NTVaFw0yODEwMTYwODE1NTVaMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0ZhZ2FnbmExNDAyBgNVBAoMK1VuaW9uZSBUZXJyaXRvcmlhbGUgSW50ZXJjb211bmFsZSBDb2xsaW5hcmUxKjAoBgNVBAMMIXNlcnZpemlvbmxpbmUuY29sbGluYXJlLnV0aWZ2Zy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3CNne+1F2wrFHM6xBbXng0iX1+yr1nLeXGlta05fcojJ1Dq4MQTJe+m9G/omTJpAPuYw9dvrXaYvASpCHtajL1uzvSVmAUBDNK+EE1R7GTcecdtYq0uRh/XiEpafEb8dil6f0ivcyMsTKVR1u6xWRD+g/O3l2FkFgJ5tM12DupGW7TjsGtHu6bL2OZCvKEjYZTmTxvgJwVnCPamPmhJwWWlPr1iC7Q066X9BlHvEToECwUiTZ3K5w9HLbGsbiN5V6onf3s2VeNHGuyKhN+vU9Ujbe2QIS1Mzk9kgUBgqADyT27Gizfx4o/weFgX7/x+jU4MpBDewbnH2A4192q/cECAwEAAaNQME4wHQYDVR0OBBYEFAJGFHuQswwovhnLl2kM2fzzMkFmMB8GA1UdIwQYMBaAFAJGFHuQswwovhnLl2kM2fzzMkFmMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAK/SotdOi3zNwR8eivuWAtd/zme78aoRnDNk/lYcHp6k9Z88xzHZWWLsoZKLYwilsJyCZJYKAEBrjUjHcT9ilG+z+hlwaxATILu/pkiyBCIjpkAoL1lkhvWQFIIdOrZO1bUuF9App+BgKDMPih0ZOOXNCf2xfEHE+UoWa1GeSeVjcgbb+Vi1jqlu47HCrodX+PeCYUsOnl/ojXiHg003bOEdM1ZjMWeu7q06IwRi1eGZFmCOG+l4WT44dLC3nzYF+ikL918TD8+3VDWjNlNq3qIpYEZ3O3mTKeoHW0A/Kqugbk9hiXL+3kwOA/FSN2uQgHHoAg9AkDXlreY7R3Gp1oA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9zCCAt+gAwIBAgIJAM6C0y7tZNPFMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0ZhZ2FnbmExNDAyBgNVBAoMK1VuaW9uZSBUZXJyaXRvcmlhbGUgSW50ZXJjb211bmFsZSBDb2xsaW5hcmUxKjAoBgNVBAMMIXNlcnZpemlvbmxpbmUuY29sbGluYXJlLnV0aWZ2Zy5pdDAeFw0xODEwMTcwODE1NTVaFw0yODEwMTYwODE1NTVaMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0ZhZ2FnbmExNDAyBgNVBAoMK1VuaW9uZSBUZXJyaXRvcmlhbGUgSW50ZXJjb211bmFsZSBDb2xsaW5hcmUxKjAoBgNVBAMMIXNlcnZpemlvbmxpbmUuY29sbGluYXJlLnV0aWZ2Zy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3CNne+1F2wrFHM6xBbXng0iX1+yr1nLeXGlta05fcojJ1Dq4MQTJe+m9G/omTJpAPuYw9dvrXaYvASpCHtajL1uzvSVmAUBDNK+EE1R7GTcecdtYq0uRh/XiEpafEb8dil6f0ivcyMsTKVR1u6xWRD+g/O3l2FkFgJ5tM12DupGW7TjsGtHu6bL2OZCvKEjYZTmTxvgJwVnCPamPmhJwWWlPr1iC7Q066X9BlHvEToECwUiTZ3K5w9HLbGsbiN5V6onf3s2VeNHGuyKhN+vU9Ujbe2QIS1Mzk9kgUBgqADyT27Gizfx4o/weFgX7/x+jU4MpBDewbnH2A4192q/cECAwEAAaNQME4wHQYDVR0OBBYEFAJGFHuQswwovhnLl2kM2fzzMkFmMB8GA1UdIwQYMBaAFAJGFHuQswwovhnLl2kM2fzzMkFmMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAK/SotdOi3zNwR8eivuWAtd/zme78aoRnDNk/lYcHp6k9Z88xzHZWWLsoZKLYwilsJyCZJYKAEBrjUjHcT9ilG+z+hlwaxATILu/pkiyBCIjpkAoL1lkhvWQFIIdOrZO1bUuF9App+BgKDMPih0ZOOXNCf2xfEHE+UoWa1GeSeVjcgbb+Vi1jqlu47HCrodX+PeCYUsOnl/ojXiHg003bOEdM1ZjMWeu7q06IwRi1eGZFmCOG+l4WT44dLC3nzYF+ikL918TD8+3VDWjNlNq3qIpYEZ3O3mTKeoHW0A/Kqugbk9hiXL+3kwOA/FSN2uQgHHoAg9AkDXlreY7R3Gp1oA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.collinare.utifvg.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.collinare.utifvg.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Territoriale Intercomunale Collinare</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Territoriale Intercomunale Collinare</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.collinare.utifvg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

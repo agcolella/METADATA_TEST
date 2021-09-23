@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.provincia.avellino.it/" ID="pfxc3d74fd8-5366-01ef-1351-ff863c5e49c8"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxc3d74fd8-5366-01ef-1351-ff863c5e49c8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>xCxftJ+SiSX+NCrFZHaUfMRpyx/RmnlhmGCJ/UzOqz4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>PQHSy/gppJ9M3Z6uyCBFVov9GafrPUvR9LVLkw9ZYGoiSNpy2/bKQ3Ghj37mLCkU60rv8kbra6TRx5QXIlqScRKGWD+guk08PI68bOALHKF8GCdcs0FwBdl0pGqzecHttKg+fW7ewkQbRSU2x+3Z0EcPL8ooRvE8ncGcCBqasvU7v84c9qZImUpbfJdmcHeGXXGmhgN7jeh5IOTgjj74ymgDinGkODQm0rXsSdzB+f10UKdiR5l7hCAGoT6lPBmxHZGa6OSrs1HrwAFgBhWNWd5dUYwg+GiaHnupCkSwVeX27NEIZJoq/bGtCdRFU01l70oMKpOxJWJAyOgqaASTtQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEJDCCAwygAwIBAgIJAIDn68fQdSzSMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xETAPBgNVBAcMCEF2ZWxsaW5vMR4wHAYDVQQKDBVQcm92aW5jaWEgZGkgQXZlbGxpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTIwMAYDVQQDDClzcG9ydGVsbG90ZWxlbWF0aWNvLnByb3ZpbmNpYS5hdmVsbGluby5pdDAeFw0xOTAzMjIwOTQ3MzlaFw0yOTAzMTkwOTQ3MzlaMIGmMQswCQYDVQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xETAPBgNVBAcMCEF2ZWxsaW5vMR4wHAYDVQQKDBVQcm92aW5jaWEgZGkgQXZlbGxpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTIwMAYDVQQDDClzcG9ydGVsbG90ZWxlbWF0aWNvLnByb3ZpbmNpYS5hdmVsbGluby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMHD771/qpL5WMRM3iBS+zsf/wPt1WsttvjIBtRHHeA0DFO4gfYuKKGYS57PK6fKXFCP+sa9glopchygRp03I33fMyKi1bmCV3zSGq/s0qzYh1hlWf856Xaixb+KWYJ4/MMp5pgjM+ELRV9r5VI704H3fFcbb1uNyOd14gVhbR5R0KXczlhz3hvTRDP9dBqFgTdDkn/JGm2AMiCu4wdP4uy707uwOoxyodLzZxkvoUQiuLTaWtmaCw9U930LwIFtUiPylcMGk8zb7EDIyaTHlMiLwo4QbVVJX0smcCUu5V6Lo4rWUrVv7yDTc++iyQISpsHJCwy9dRNslsjjwjAC90MCAwEAAaNTMFEwHQYDVR0OBBYEFFE6s61zHmQY75rYKINCjewQUbnpMB8GA1UdIwQYMBaAFFE6s61zHmQY75rYKINCjewQUbnpMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADcYWZpf6gHf7j9XUlNUKy5gWnu/14H66W1x0M7bi/X1qblaZqQBDs3HwH3z1hgWDJKiQI/1H6z51r6P2GK8TT1qzuptXHcFuZkJ41gHu4B+cL8vQzfNM2y0sy7ovJYHjjHCML18WtJoMX5uJfbgAg/fOXp2kgWMsnh/svXN6rFKdNtUgncq16BdYjp5NOqvv8LSdYpydohZ8ocVZAZ/yB21LSTrrJLjo8w/AbNUBwjI6OI3+oKpHvbOLxkMenkZJKuONthjtsesRAFU/C6m8vsdHdhWaTVit+S6B613iG3mhmJOf41AaZIyvGVHw6MgUKOkWV64EkgKQe0Xepeitwc=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEJDCCAwygAwIBAgIJAIDn68fQdSzSMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xETAPBgNVBAcMCEF2ZWxsaW5vMR4wHAYDVQQKDBVQcm92aW5jaWEgZGkgQXZlbGxpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTIwMAYDVQQDDClzcG9ydGVsbG90ZWxlbWF0aWNvLnByb3ZpbmNpYS5hdmVsbGluby5pdDAeFw0xOTAzMjIwOTQ3MzlaFw0yOTAzMTkwOTQ3MzlaMIGmMQswCQYDVQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xETAPBgNVBAcMCEF2ZWxsaW5vMR4wHAYDVQQKDBVQcm92aW5jaWEgZGkgQXZlbGxpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTIwMAYDVQQDDClzcG9ydGVsbG90ZWxlbWF0aWNvLnByb3ZpbmNpYS5hdmVsbGluby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMHD771/qpL5WMRM3iBS+zsf/wPt1WsttvjIBtRHHeA0DFO4gfYuKKGYS57PK6fKXFCP+sa9glopchygRp03I33fMyKi1bmCV3zSGq/s0qzYh1hlWf856Xaixb+KWYJ4/MMp5pgjM+ELRV9r5VI704H3fFcbb1uNyOd14gVhbR5R0KXczlhz3hvTRDP9dBqFgTdDkn/JGm2AMiCu4wdP4uy707uwOoxyodLzZxkvoUQiuLTaWtmaCw9U930LwIFtUiPylcMGk8zb7EDIyaTHlMiLwo4QbVVJX0smcCUu5V6Lo4rWUrVv7yDTc++iyQISpsHJCwy9dRNslsjjwjAC90MCAwEAAaNTMFEwHQYDVR0OBBYEFFE6s61zHmQY75rYKINCjewQUbnpMB8GA1UdIwQYMBaAFFE6s61zHmQY75rYKINCjewQUbnpMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADcYWZpf6gHf7j9XUlNUKy5gWnu/14H66W1x0M7bi/X1qblaZqQBDs3HwH3z1hgWDJKiQI/1H6z51r6P2GK8TT1qzuptXHcFuZkJ41gHu4B+cL8vQzfNM2y0sy7ovJYHjjHCML18WtJoMX5uJfbgAg/fOXp2kgWMsnh/svXN6rFKdNtUgncq16BdYjp5NOqvv8LSdYpydohZ8ocVZAZ/yB21LSTrrJLjo8w/AbNUBwjI6OI3+oKpHvbOLxkMenkZJKuONthjtsesRAFU/C6m8vsdHdhWaTVit+S6B613iG3mhmJOf41AaZIyvGVHw6MgUKOkWV64EkgKQe0Xepeitwc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEJDCCAwygAwIBAgIJAIDn68fQdSzSMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xETAPBgNVBAcMCEF2ZWxsaW5vMR4wHAYDVQQKDBVQcm92aW5jaWEgZGkgQXZlbGxpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTIwMAYDVQQDDClzcG9ydGVsbG90ZWxlbWF0aWNvLnByb3ZpbmNpYS5hdmVsbGluby5pdDAeFw0xOTAzMjIwOTQ3MzlaFw0yOTAzMTkwOTQ3MzlaMIGmMQswCQYDVQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xETAPBgNVBAcMCEF2ZWxsaW5vMR4wHAYDVQQKDBVQcm92aW5jaWEgZGkgQXZlbGxpbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTIwMAYDVQQDDClzcG9ydGVsbG90ZWxlbWF0aWNvLnByb3ZpbmNpYS5hdmVsbGluby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMHD771/qpL5WMRM3iBS+zsf/wPt1WsttvjIBtRHHeA0DFO4gfYuKKGYS57PK6fKXFCP+sa9glopchygRp03I33fMyKi1bmCV3zSGq/s0qzYh1hlWf856Xaixb+KWYJ4/MMp5pgjM+ELRV9r5VI704H3fFcbb1uNyOd14gVhbR5R0KXczlhz3hvTRDP9dBqFgTdDkn/JGm2AMiCu4wdP4uy707uwOoxyodLzZxkvoUQiuLTaWtmaCw9U930LwIFtUiPylcMGk8zb7EDIyaTHlMiLwo4QbVVJX0smcCUu5V6Lo4rWUrVv7yDTc++iyQISpsHJCwy9dRNslsjjwjAC90MCAwEAAaNTMFEwHQYDVR0OBBYEFFE6s61zHmQY75rYKINCjewQUbnpMB8GA1UdIwQYMBaAFFE6s61zHmQY75rYKINCjewQUbnpMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADcYWZpf6gHf7j9XUlNUKy5gWnu/14H66W1x0M7bi/X1qblaZqQBDs3HwH3z1hgWDJKiQI/1H6z51r6P2GK8TT1qzuptXHcFuZkJ41gHu4B+cL8vQzfNM2y0sy7ovJYHjjHCML18WtJoMX5uJfbgAg/fOXp2kgWMsnh/svXN6rFKdNtUgncq16BdYjp5NOqvv8LSdYpydohZ8ocVZAZ/yB21LSTrrJLjo8w/AbNUBwjI6OI3+oKpHvbOLxkMenkZJKuONthjtsesRAFU/C6m8vsdHdhWaTVit+S6B613iG3mhmJOf41AaZIyvGVHw6MgUKOkWV64EkgKQe0Xepeitwc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.provincia.avellino.it/simplesaml/module.php/saml/sp/saml2-logout.php/provavellino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.provincia.avellino.it/simplesaml/module.php/saml/sp/saml2-acs.php/provavellino" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">provavellino</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">p_av</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Provincia di Avellino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.provincia.avellino.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

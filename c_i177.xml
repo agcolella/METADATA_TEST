@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Santacroce" entityID="https://www.comune.santacroce.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Santacroce">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Pml2bP4W+WG9cIrykC37uBG2satP8bjOfuWfjTfy9GY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+weLbUvL2+Aoh4WXbiZqsjymCj1HITkptrO7vVO7djN4ls0nYlnoBtFLy3/8FSkMlJ666QS6f6DXo
+2gy/fytHlGdfAi0DvXrrGkD2lsnBrkCQWLTHHg2Oaa/ktKg+67NYZ+Daw72p932jZYVvubrXyNtB
+YTeqijD+D5BZVYe+qCOFFsJ9Wx1Af3m/rYWTV9mIchVts5Zbs+x/flubx2++bFepWBKtAKi5l+cW
+50q+QdBjP5e+OwAm81XXp8VhJXp/O9Q9uprgqO9N5h0vT4jZRbxS2UZPDVTLt091WJB17vC2glps
+/cSJW3S9Izeaov3Vfpa36iufyArKz7BvWRUErQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7OlUSKPaajW3DUyaWo/pla2uEMJMtv9H11EGmhdYadbSbz1oNE7TpWguxeG1w+p2qfXj78I142SE
+40epvNIR1Zb18p62iLMkJjKdGFxJ1WNSEy4Oi+L27MEpa3rsNJw9BWQGEvGzuym4zuKVstgwKhN+
+RQ3R1T9t5fJOo/KQp+SCW7LK2Foxw6nI1oPCQp7dIld6RW11sE5Bw9/BQg1GZ277oy6Zd4++w6HV
+gumEx+PjlT8TYAByW4WJ+ri9SHxFsNOhiqV9e5YFd5D/w7ZWnAHBtZlQG8N8KA3lxoHStyXg0L9Y
+zZFqhtBmDfcOLwLgBDVR+KpwG06UYWYD3skx9w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVzCCAj+gAwIBAgIJAKA4v/wZuKfRMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5j
+b211bmUuc2FudGFjcm9jZS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgw
+MjE1MTIzMTUzWhcNMjgwMjEzMTIzMTUzWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnNhbnRhY3Jv
+Y2UucGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA7OlUSKPaajW3DUyaWo/pla2uEMJMtv9H11EGmhdYadbSbz1oNE7TpWguxeG1
+w+p2qfXj78I142SE40epvNIR1Zb18p62iLMkJjKdGFxJ1WNSEy4Oi+L27MEpa3rsNJw9BWQGEvGz
+uym4zuKVstgwKhN+RQ3R1T9t5fJOo/KQp+SCW7LK2Foxw6nI1oPCQp7dIld6RW11sE5Bw9/BQg1G
+Z277oy6Zd4++w6HVgumEx+PjlT8TYAByW4WJ+ri9SHxFsNOhiqV9e5YFd5D/w7ZWnAHBtZlQG8N8
+KA3lxoHStyXg0L9YzZFqhtBmDfcOLwLgBDVR+KpwG06UYWYD3skx9wIDAQABo1AwTjAdBgNVHQ4E
+FgQU2DxfYYFZ6NhFNT5GdD0i0j/M28YwHwYDVR0jBBgwFoAU2DxfYYFZ6NhFNT5GdD0i0j/M28Yw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAz+Ji8LaeH8ibV9ZlKHU62yo9hfb4xNlG
+mIrBx/rU0buJXQxypH2cP63eh6Ug9Olcbv4m7Ykx93CQiK0ZQnMAu7+cLJE8CnuKaD1qcEak8Q9c
+TGFMzE4czQOQNyZ/ugIr3ruvvkCYPQ4C6HaW5T8N33YERql6gVdhqCU+hAXgHxb+MsRDf96fw0yE
+Am5pgGJwR89J02ZANwNMKnFR7Qt7rwBVE/cHUqx0UQsuCAFtG6nJXSj9BIq1XQFtNA9gADJ77PfO
+h7ItGydaOs4oEJ5/DYmvD4cQibAIU4zpj1FW3iLg1GT7yRYK/7xftsIU0Iq0G0zn5lQir8dMKn7+
+HrzKnQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAKA4v/wZuKfRMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUuc2FudGFjcm9jZS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMjE1MTIzMTUzWhcNMjgwMjEzMTIzMTUzWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnNhbnRhY3JvY2UucGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7OlUSKPaajW3DUyaWo/pla2uEMJMtv9H11EGmhdYadbSbz1oNE7TpWguxeG1w+p2qfXj78I142SE40epvNIR1Zb18p62iLMkJjKdGFxJ1WNSEy4Oi+L27MEpa3rsNJw9BWQGEvGzuym4zuKVstgwKhN+RQ3R1T9t5fJOo/KQp+SCW7LK2Foxw6nI1oPCQp7dIld6RW11sE5Bw9/BQg1GZ277oy6Zd4++w6HVgumEx+PjlT8TYAByW4WJ+ri9SHxFsNOhiqV9e5YFd5D/w7ZWnAHBtZlQG8N8KA3lxoHStyXg0L9YzZFqhtBmDfcOLwLgBDVR+KpwG06UYWYD3skx9wIDAQABo1AwTjAdBgNVHQ4EFgQU2DxfYYFZ6NhFNT5GdD0i0j/M28YwHwYDVR0jBBgwFoAU2DxfYYFZ6NhFNT5GdD0i0j/M28YwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAz+Ji8LaeH8ibV9ZlKHU62yo9hfb4xNlGmIrBx/rU0buJXQxypH2cP63eh6Ug9Olcbv4m7Ykx93CQiK0ZQnMAu7+cLJE8CnuKaD1qcEak8Q9cTGFMzE4czQOQNyZ/ugIr3ruvvkCYPQ4C6HaW5T8N33YERql6gVdhqCU+hAXgHxb+MsRDf96fw0yEAm5pgGJwR89J02ZANwNMKnFR7Qt7rwBVE/cHUqx0UQsuCAFtG6nJXSj9BIq1XQFtNA9gADJ77PfOh7ItGydaOs4oEJ5/DYmvD4cQibAIU4zpj1FW3iLg1GT7yRYK/7xftsIU0Iq0G0zn5lQir8dMKn7+HrzKnQ==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAJuiSEiMncliMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYD
+VQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMRQwEgYDVQQHDAtPcm5hZ28gKE1C
+KTETMBEGA1UECgwKU3RhcmNoIHNybDEPMA0GA1UECwwGU3RhcmNoMQ8wDQYDVQQD
+DAZTdGFyY2gxIzAhBgkqhkiG9w0BCQEWFGFzc2lzdGVuemFAc3RhcmNoLml0MB4X
+DTE4MDQwODA2NTg1OVoXDTIzMDQwNzA2NTg1OVowgZMxCzAJBgNVBAYTAklUMRIw
+EAYDVQQIDAlMb21iYXJkaWExFDASBgNVBAcMC09ybmFnbyAoTUIpMRMwEQYDVQQK
+DApTdGFyY2ggc3JsMQ8wDQYDVQQLDAZTdGFyY2gxDzANBgNVBAMMBlN0YXJjaDEj
+MCEGCSqGSIb3DQEJARYUYXNzaXN0ZW56YUBzdGFyY2guaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC1OUQnR0sDZKy+YEpD4wBnmemnRtoW2QOjwH2g
+PngKEwzm+hwfSTcdA6IGQDgs2uLgwYIWiYlCvLI7es/EbWXyIGmXuTjCkorxHjqt
++hx5C7jQ5jFwdZDgDIv+wVVoWmKRucr4saDqDs5UgE+1c2/zW7gqfQAFF2j8Fsbk
+DfajeO7iFE86+qyPyAdzuomfMGA6L3zhjRZKzdizlqZqeZX20tV334LJCchMhG9E
+XH6FPi1uqBV/wGOuh4NX3ZMI7M+RDVTDBqw78JW1cutOmAAbsST9UaPVsuobNxt3
+oAKp25I8O+BaV3ouI/OV4DFo6sEBVnqB0bSeuaGfJDW0WL1HAgMBAAGjUzBRMB0G
+A1UdDgQWBBQXlNLs0Flt1uKKjXYivYewHkedmDAfBgNVHSMEGDAWgBQXlNLs0Flt
+1uKKjXYivYewHkedmDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQBS56xaq5v32wj9Yj2jXAwWPeLsvBx313QTL5ctqgGjpYMoUZmUZIhsqARm/MLd
+9d5j+vdGHOaFgzMC+PxfdO5bXg1cvqa5TtE+1qetudMXdzZDLeXOrifSzXCujaLO
+/Wrs6GX17v3rOPvm9xIrdItTMzIXi4t0qy6Tu64Z2VrMMeAR0HkXrmRZfY0vjW5P
+Q9RVNrU8wubdlIVFlf8RQrN9tv3tFPRlVq0oDhUQGTGRsQnSqeOeaEiU7ksPoQnk
+rDD0GeoH6BDx2kONVgLqHIWfhtv7Cs2iNtXEqFFxuLWli+li6jtecBF6o/Muk/Zq
+ejmZpyojs84slWysyS5l3eaF</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+	</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/santacroce"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_I177/Shibboleth.sso/Logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santacroce" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santacroce" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_I177/Shibboleth.sso/SAML2/POST" index="2"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+			<md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+			<md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+			<md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Santa Croce sull'Arno</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Comune di Santa Croce sull'Arno</md:OrganizationName>
+		<md:OrganizationName xml:lang="fr">Comune di Santa Croce sull'Arno</md:OrganizationName>
+		<md:OrganizationName xml:lang="de">Comune di Santa Croce sull'Arno</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Santa Croce sull'Arno</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Santa Croce sull'Arno</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="fr">Comune di Santa Croce sull'Arno</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="de">Comune di Santa Croce sull'Arno</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.santacroce.pi.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://www.comune.santacroce.pi.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="fr">https://www.comune.santacroce.pi.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="de">https://www.comune.santacroce.pi.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_7f115b5b-7173-46ca-8184-cb4156fb9b2f" entityID="https://comune.settimomilanese.mi.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_7f115b5b-7173-46ca-8184-cb4156fb9b2f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>gYmbjbLJAK3iQq7nebA92X70aHAyWcMwij7oItvY93A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+lKRf1CU9Nu5G5ptgJbLoLCig+jh+zt9CB+HGdWd485Bm4unZU9a6RaAcnrWg3WO/K+iWgYhCZVtS
+fJ9ZQt2tv754nIayr0ugtFqS/LwOeBZAdYBXQtT/TJH3qOw3dBbayCdAyHbfDDHVq9xHSv3XqAPO
+xpJH1r6OGvh/P0f4CnkWDpeKc5lB4fEbXYgfV/3kfY3bDkVpvsm/qmHiTm6PmBXKDFoOUyNhTeA3
+YSbXf0AbxbEn66lBHFK5aZTt8iCTwxSrsy7XWnC4oPldO340uOhI3CKckgM//yUeE0sscm7TDIzj
+OfErIlaxgXeGHzQiAMiLsjCLQKTnwEwrkk8P7Mhw70P3Jbq6vNiaLuDKE2ZHv3MMEmkQmB92bswc
+hs0158IaDDy6TyCjFlHD43HtPxuCwub18oJnrMQEA8WQSD3hAaBbbblFjB6ia0+i+9EIERQNUU2Z
+v/4GahM3bwkyxyhMHcRPfft3NhCnspeXPfTQB0oobycLcsDmZxDRoR1XayYmndmCUNF8jgIDAxEk
+xHeG9+xsR3aGh2Kgibxn/Y7EdPc+S+F/Bj8BNmaJ0Caolx8drHLZNKb5M3y6vnqQukwpuOOhab2P
+3+7UfuxlxehN+A0O054qFpoumrR9ASkqZO9Y9rm25N4o4jeyiwG9YPiRm2sN443iEDuQ49pFfMk=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5yi6li+5xxUM3M3j88f3mY2zyThK8BZUg7B34xt/ETs/jfQ0Q50XXOaeYMx5icJNMFLCr5blDI/V
+OdN/xZP819oCupYBQZzkc/APkGF36n24rtFFSUEh/9rl2b9iuIgIU6flihv82QEZqMXJKyekYbSF
+q52GjUBCzhbZIYpYZCHAOtcRp9WufmdtQ3KrXGyWH4OTeyJbX5wOAAEI6wKMvYjl8+4clrwNBLbt
+V6MW2iRKUoghpuOV+nH4CR+iUgoTnvAq4MeT1mRsfcf45W3fQMCYS6hKDUVRJRetIE6csUcpgghe
+8BQRZ+8hPhW4ligoMP5MhhJYgt9f5uI7mJI3n4J1Yc7/oPO9mQXMQ8QGIPooT4u0pOssRQO2FMQN
+tsSxQuMbrHKPmy9ZlUmJydgWstMJ9ds2TzZj5I4Va7l0339L8DBaut8PJMqBfO9GjF3YH4dzWD8m
+97rnlxxJxApq8VD2X1dby8U0t6rLEHsbRd/6vglPZEgcqwvHMmg4AtyUN2ClOrdJJQSooAiRkZad
+bPJOrq4rCcRt8nEgDc+DpWGmDt7y44ZORzSoCXXC+cFtTHGotCda8XTTJTPUerx0jH+G1J+smrgl
+7I59IyKxHCV0fNdp6mRGV+iJM6L7TFRW355iwGIZ2Qoh4NyMPVkISIyqi2ltmFXAXPyujR1J3h8=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGdDCCBFygAwIBAgIJALR4Rqj8GTnXMA0GCSqGSIb3DQEBCwUAMIHOMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFNldHRpbW8gTWlsYW5lc2UxIzAhBgNVBAoMGkNvbXVu
+ZSBkaSBTZXR0aW1vIE1pbGFuZXNlMRcwFQYDVQQLDA5TZXJ2aXppIE9ubGluZTElMCMGA1UEAwwc
+Y29tdW5lLnNldHRpbW9taWxhbmVzZS5taS5pdDEvMC0GCSqGSIb3DQEJARYgY2VkQGNvbXVuZS5z
+ZXR0aW1vbWlsYW5lc2UubWkuaXQwHhcNMjAwNzAxMDc0NDEwWhcNMzAwNjI5MDc0NDEwWjCBzjEL
+MAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRkwFwYDVQQHDBBTZXR0aW1vIE1pbGFuZXNlMSMw
+IQYDVQQKDBpDb211bmUgZGkgU2V0dGltbyBNaWxhbmVzZTEXMBUGA1UECwwOU2Vydml6aSBPbmxp
+bmUxJTAjBgNVBAMMHGNvbXVuZS5zZXR0aW1vbWlsYW5lc2UubWkuaXQxLzAtBgkqhkiG9w0BCQEW
+IGNlZEBjb211bmUuc2V0dGltb21pbGFuZXNlLm1pLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8A
+MIICCgKCAgEA5yi6li+5xxUM3M3j88f3mY2zyThK8BZUg7B34xt/ETs/jfQ0Q50XXOaeYMx5icJN
+MFLCr5blDI/VOdN/xZP819oCupYBQZzkc/APkGF36n24rtFFSUEh/9rl2b9iuIgIU6flihv82QEZ
+qMXJKyekYbSFq52GjUBCzhbZIYpYZCHAOtcRp9WufmdtQ3KrXGyWH4OTeyJbX5wOAAEI6wKMvYjl
+8+4clrwNBLbtV6MW2iRKUoghpuOV+nH4CR+iUgoTnvAq4MeT1mRsfcf45W3fQMCYS6hKDUVRJRet
+IE6csUcpgghe8BQRZ+8hPhW4ligoMP5MhhJYgt9f5uI7mJI3n4J1Yc7/oPO9mQXMQ8QGIPooT4u0
+pOssRQO2FMQNtsSxQuMbrHKPmy9ZlUmJydgWstMJ9ds2TzZj5I4Va7l0339L8DBaut8PJMqBfO9G
+jF3YH4dzWD8m97rnlxxJxApq8VD2X1dby8U0t6rLEHsbRd/6vglPZEgcqwvHMmg4AtyUN2ClOrdJ
+JQSooAiRkZadbPJOrq4rCcRt8nEgDc+DpWGmDt7y44ZORzSoCXXC+cFtTHGotCda8XTTJTPUerx0
+jH+G1J+smrgl7I59IyKxHCV0fNdp6mRGV+iJM6L7TFRW355iwGIZ2Qoh4NyMPVkISIyqi2ltmFXA
+XPyujR1J3h8CAwEAAaNTMFEwHQYDVR0OBBYEFKetUVz1SHR7y4yBLjklzoJv5YRKMB8GA1UdIwQY
+MBaAFKetUVz1SHR7y4yBLjklzoJv5YRKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQAD
+ggIBAJm8PhexhwxH4gx66zGovMM4WxzrESiO0UGuMziUqvykvIka66rTHxPkxz4EFebm0zZJAc9t
+lpvqp6CzrjiW/lnhlzl6ggQccO7ySeze249EFH/1tR63kVtp/w37ln+fQ+Mmm4X/gSiVTtxmpqYk
+yFe+qKxK7OPrwgrqHwDj7Cfr6pQMH4fWxG0r8aRA9xGqZPH6Y24GMmDlMzwB1GVHpe+Oy1LRz6u3
+aXisfcbeb9jLeLDs3jaU24Nvu9Kvj2wvrigvj1gGTHqcDgQC7smgmBL3iT7YRgUt2vOLSc2g4JXP
+gGFb7Ty16TnIrqU88nePDa4vOpWhQx2dhbm0MGFTNnzTdiSm1vCUUy1ZMLaFkcrNbNJK4MS51osJ
+NxBL0kvhEqCU45Z6YaoJ68znaoFkGCeuGYwYZrFM9E1OdodTXr323c8Zigx342eiuVb3pGDuV4uc
+8dxasV6Trz9ax3HhCi0k4QhHIkUofnrfoN330lL3dUfs8DO7NrXFUAdnL9o+n2Yigg9OQWJQFntD
+5JdL5xE3/Q7RyJ9rflVlxYkvU+n3QK22o5RXeP1doQBeZPMfFPTymDLy3049LLLOUiVTdapbW1LG
+4mj3la5xJI8PyHX63OizPsJ8KH4GrzBRcbXmBXZq6GoAGBi5I4+qPQe1faXCqCIa8Um7A9MT5OJ7
+eXjI
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   
+   <md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDRTCCAi2gAwIBAgIERXNtozANBgkqhkiG9w0BAQsFADBTMQswCQYDVQQGEwJwYTEMMAoGA1UE
+CBMDcGFkMQwwCgYDVQQHEwNwYWQxDDAKBgNVBAoTA3BhZDEMMAoGA1UECxMDcGFkMQwwCgYDVQQD
+EwNwYWQwHhcNMjAwNDE0MTIwMTEyWhcNMjUwNDEzMTIwMTEyWjBTMQswCQYDVQQGEwJwYTEMMAoG
+A1UECBMDcGFkMQwwCgYDVQQHEwNwYWQxDDAKBgNVBAoTA3BhZDEMMAoGA1UECxMDcGFkMQwwCgYD
+VQQDEwNwYWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxBecco2dAwolfmeaCYomq
+ltAHJJtgN1bPscMpdl8CQXZycJXlpO1B1wNmhKTdbsUHQfRPdnegldhJnDJbbfFXTcb+kjvGGSLS
+lUspN38GBUZwS963P9zTKVbAd9MFaIyxi6aDu6zPCnfJFdjV8qRnSLqa0A8mf+JuHXuV0ZG5SZ3H
+SwMy5DUQ4H+u/7vHESiXZKYfM6Tnrbllf3VbnRZmSPzXX2dxCIxy+Ptl5aZo6LYcKfSQUoca3WT0
+4m1Bi7i+4o0SNEXaSYCWV8TbR0r+n0qSq+aXWNwzBGMRWv+4iAenJog5Y3z7suriAojn2RujEL4m
+w9ErF/lc/tDrA/9LAgMBAAGjITAfMB0GA1UdDgQWBBQotOVjUvgZ//XrFu7NlJWqMoglOzANBgkq
+hkiG9w0BAQsFAAOCAQEAlJOpxj4RGmsO7xjU5lV36D71BsX+ph3c4awctB5NWHxBD4VP7P8mXJG4
+60lcm7zscEIUzkEAGHgFjfnf+N3YwBnl2AlJcHoRDehtd0IOge2tytUoloNs+Ue/WYK5Z1dBH+jV
+Uq4Hk4S2WmzuiXqmzKvtrUdYqJN8v1ZbgrRfKiqluHdjGzDcY5LPJ31FtHETNENoXI12pgK9NduI
+0P3g5C4ycgUczPR1AC1OQsuBGUhaxdVaJ41NAFlC4cOwnbFdXDmCr4NW6vufbUX9yG3qh20ZdH/r
+vbnXtSNoF67ntAGizabsOMf/mtJENPPsI+diwcq/zfY8WNL1DD9O93sbqQ==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+	  <!-- SINET -->
+	  <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEbzCCA1egAwIBAgIJAMrAbSROKjHMMA0GCSqGSIb3DQEBCwUAMIHNMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFNldHRpbW8gTWlsYW5lc2UxIzAhBgNVBAoMGkNvbXVuZSBkaSBTZXR0aW1vIE1pbGFuZXNlMQ8wDQYDVQQLDAZIZXJhbGQxMjAwBgNVBAMMKXByb2NlZGltZW50aS5jb211bmUuc2V0dGltb21pbGFuZXNlLm1pLml0MSkwJwYJKoZIhvcNAQkBFhpoZXJhbGRAc2luZXRpbmZvcm1hdGljYS5pdDAeFw0xOTAzMjAxMzU0MTRaFw0yOTAzMTkxMzU0MTRaMIHNMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFNldHRpbW8gTWlsYW5lc2UxIzAhBgNVBAoMGkNvbXVuZSBkaSBTZXR0aW1vIE1pbGFuZXNlMQ8wDQYDVQQLDAZIZXJhbGQxMjAwBgNVBAMMKXByb2NlZGltZW50aS5jb211bmUuc2V0dGltb21pbGFuZXNlLm1pLml0MSkwJwYJKoZIhvcNAQkBFhpoZXJhbGRAc2luZXRpbmZvcm1hdGljYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMlvZm2sTpqSJw+qlzynd+PPbYpD+yMPc4mAYnSC5UN2xSzm/3FSVkGS3BDPMZC3haAFrXpqHxooaCNI/yW4Gzk9q1IrwKN6DJSPNFAZ1ne9vQlD2qCVB3TgDd8RHT5/2vB6OC5sm88sv+Beoz4fG1bqGwNmj4b1ETNoMh5TZexR7H7+uD2Eh1FQtC2XZ+MWOSIvO4V4gvtPm4xGc9EvOrWBl1Ftc6Rw97zerE3huBNmxj2P+COlNkN9/VVwCj3LHYhwQqxu5JFKGRYR8m2XeKa2mEvZqyTTDwBsiJO+BvtweVn4rfPPrNzjm50eoMmLsAAk13fDkMOBpuFPCtk3CUCAwEAAaNQME4wHQYDVR0OBBYEFHqX5I8hvDemBhRUaJD+H5VgZcV8MB8GA1UdIwQYMBaAFHqX5I8hvDemBhRUaJD+H5VgZcV8MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBANFXdwvoY93ceU9idsWu3qU9Q6MkincmAGI5Lce9pB1ZYqyNd+7+1SO7eJ0jQvPgqofcFE8gsUJ3x3HpFtkS4KSw3Q5vDuW1RBhZA7ncrhaVmHBIjcx6F21wR8V/wkuMt3VgDANa+fATae/3vjrFzK4pNac/xoVhpaVAYh4fjFJ5Y4l2fl9pNFuFSJMIK8SnxReEpmx2L1ylvRVhT2gtiw7y5VRfzj5oR7z8FRhbFExq3RpwmUSB+vGuOS+QhHsYVfFnUK5tYZCxRw2gZcbyvwgN8s6+AkA3ZMADuBnDxjopeelHxYV6xp07ezGknmWOD+lMDk9UlP/mg/g37SdOudM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<!-- /SINET -->
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+	  <!-- SINET -->
+	  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.settimomilanese.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/settimomilanese-sp"/>
+	  <!-- /SINET -->
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+	  <!-- SINET -->
+	  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.settimomilanese.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/settimomilanese-sp" index="1"/>
+	  <!-- /SINET -->
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">SOL</md:ServiceName>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="gender"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="email"/>
+         <md:RequestedAttribute Name="address"/>
+      </md:AttributeConsumingService>
+	  <!-- SINET -->
+	  <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Herald Settimo Milanese</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Portale al cittadino</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Portale al cittadino</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+	<!-- /SINET -->
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">COMUNE DI SETTIMO MILANESE</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">COMUNE DI SETTIMO MILANESE</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://comune.settimomilanese.mi.it</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

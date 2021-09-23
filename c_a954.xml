@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx83ce49c9-99d4-d259-de9a-12b63fde4cbf" entityID="https://www.comune.bolzanovicentino.vi.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx83ce49c9-99d4-d259-de9a-12b63fde4cbf">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>DxPkLmYbfcrlC8m+7lF9WASL9vy7/sSgwdMF7+z8LbU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+D9cvXHYxa/pcj8lFlGLotMugfoHAP8AeEm5YghKrgBWC1RJ5Isnm9/ynDZUfD9fLOFP9q1uvLhP9
+5o4p4z9msQuCOl1Fa99Sg2Q6xAP6NTTZb0TNtaWUtEPmTk7kQKj8rKTdNsIkADafwTecWfPJl6Fl
+bIa4ezlO/ESyPtzxrtRWBL1yVj1sRWyuJYZyNd+IPi9+ACtOxx2TeW/vWrOeD7p24AK8TyCf31E/
+oIzDWNYoIOYQrvVZxp4HdZfvMjrCgQ9s+UtBhW0Yr91O2YUi60w7ReeWDzjUWxuLSlWM3UgL2BXH
+jfClYyOge5X1rSj1R12lwkDW1nxnrBbYiWBXbQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xoU7pCy+d1Es3M8JgUfo4QYnyDlEQTLHKZ0jb420K6Zteb5dTJG8gAZT/78YQQq7b5FPszblNNIC
+OFJhh5qGwnBR/I2dyQ1NI++qdoZrNeN6Uwhr5Sh3s7PuJNsPihs9rc1ckT637q/J4raK/dmU6VqE
+HjLwSpefchQje7v3zWK8QQLPaRnP+aUQwfPekhpYmdY5elckljAp0EN7vWTR5B8ZESlTQb7XvPBe
+IoDdixsGN0ecym+bCJaD86ztPSZC59D5sPtSspaC03JRYqMbnBeqTam4QjY74HB41AqNij2/3AmZ
+lz2Y/m72rjD4FEWBNsYLIOvAqRc0jKhU/Zz3gQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID6zCCAtOgAwIBAgIJAIRIsAYdbg0IMA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUJvbHphbm8gVmljZW50aW5vMSQwIgYDVQQKDBtDb211
+bmUgZGkgQm9semFubyBWaWNlbnRpbm8xKjAoBgNVBAMMIXd3dy5jb211bmUuYm9semFub3ZpY2Vu
+dGluby52aS5pdDAeFw0xOTA2MTAxMzUzMzhaFw0yOTA2MDkxMzUzMzhaMIGLMQswCQYDVQQGEwJJ
+VDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUJvbHphbm8gVmljZW50aW5vMSQwIgYDVQQKDBtD
+b211bmUgZGkgQm9semFubyBWaWNlbnRpbm8xKjAoBgNVBAMMIXd3dy5jb211bmUuYm9semFub3Zp
+Y2VudGluby52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMaFO6QsvndRLNzP
+CYFH6OEGJ8g5REEyxymdI2+NtCumbXm+XUyRvIAGU/+/GEEKu2+RT7M25TTSAjhSYYeahsJwUfyN
+nckNTSPvqnaGazXjelMIa+Uod7Oz7iTbD4obPa3NXJE+t+6vyeK2iv3ZlOlahB4y8EqXn3IUI3u7
+981ivEECz2kZz/mlEMHz3pIaWJnWOXpXJJYwKdBDe71k0eQfGREpU0G+17zwXiKA3YsbBjdHnMpv
+mwiWg/Os7T0mQufQ+bD7UrKWgtNyUWKjG5wXqk2puEI2O+BweNQKjYo9v9wJmZc9mP5u9q4w+BRF
+gTbGCyDrwKkXNIyoVP2c94ECAwEAAaNQME4wHQYDVR0OBBYEFIkX2ZLBwnVNI7E46W3qsYfp6BXp
+MB8GA1UdIwQYMBaAFIkX2ZLBwnVNI7E46W3qsYfp6BXpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcN
+AQELBQADggEBAH45pcqa+q8OU9Wx6n2uH7UGVQgyEWcX5M4NEnTmQN2i1ZI2Ov0GP7zGN0l1bi9G
+a1wcARIBUlhfXYnoqThsYa5Q++xYGkzkaOw1jsk4CfRXke7pNn8CTdQCtd5ojOsYrV+UbEPmCeUk
+nAYCz2frGtobt0G9Elw9tT2Hs/zcx/Ulx2s0wb3gUt66Q13CmhYT2raLu5oHRSgGOhH7dbPgWZ+K
+EeMOsYUUnZTstvZlmO+COsi9lXX6Qkhy5S9hndEkFlAJpkVVggNwmBe93KzfwWqf77Tlnk6j/cJA
+X1uLXPIMfSyR2oTqJZxDMR5yo9MYBz8q2NyIv5fg0VVfNYUqNCQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6zCCAtOgAwIBAgIJAIRIsAYdbg0IMA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUJvbHphbm8gVmljZW50aW5vMSQwIgYDVQQKDBtDb211bmUgZGkgQm9semFubyBWaWNlbnRpbm8xKjAoBgNVBAMMIXd3dy5jb211bmUuYm9semFub3ZpY2VudGluby52aS5pdDAeFw0xOTA2MTAxMzUzMzhaFw0yOTA2MDkxMzUzMzhaMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUJvbHphbm8gVmljZW50aW5vMSQwIgYDVQQKDBtDb211bmUgZGkgQm9semFubyBWaWNlbnRpbm8xKjAoBgNVBAMMIXd3dy5jb211bmUuYm9semFub3ZpY2VudGluby52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMaFO6QsvndRLNzPCYFH6OEGJ8g5REEyxymdI2+NtCumbXm+XUyRvIAGU/+/GEEKu2+RT7M25TTSAjhSYYeahsJwUfyNnckNTSPvqnaGazXjelMIa+Uod7Oz7iTbD4obPa3NXJE+t+6vyeK2iv3ZlOlahB4y8EqXn3IUI3u7981ivEECz2kZz/mlEMHz3pIaWJnWOXpXJJYwKdBDe71k0eQfGREpU0G+17zwXiKA3YsbBjdHnMpvmwiWg/Os7T0mQufQ+bD7UrKWgtNyUWKjG5wXqk2puEI2O+BweNQKjYo9v9wJmZc9mP5u9q4w+BRFgTbGCyDrwKkXNIyoVP2c94ECAwEAAaNQME4wHQYDVR0OBBYEFIkX2ZLBwnVNI7E46W3qsYfp6BXpMB8GA1UdIwQYMBaAFIkX2ZLBwnVNI7E46W3qsYfp6BXpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH45pcqa+q8OU9Wx6n2uH7UGVQgyEWcX5M4NEnTmQN2i1ZI2Ov0GP7zGN0l1bi9Ga1wcARIBUlhfXYnoqThsYa5Q++xYGkzkaOw1jsk4CfRXke7pNn8CTdQCtd5ojOsYrV+UbEPmCeUknAYCz2frGtobt0G9Elw9tT2Hs/zcx/Ulx2s0wb3gUt66Q13CmhYT2raLu5oHRSgGOhH7dbPgWZ+KEeMOsYUUnZTstvZlmO+COsi9lXX6Qkhy5S9hndEkFlAJpkVVggNwmBe93KzfwWqf77Tlnk6j/cJAX1uLXPIMfSyR2oTqJZxDMR5yo9MYBz8q2NyIv5fg0VVfNYUqNCQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6zCCAtOgAwIBAgIJAIRIsAYdbg0IMA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUJvbHphbm8gVmljZW50aW5vMSQwIgYDVQQKDBtDb211bmUgZGkgQm9semFubyBWaWNlbnRpbm8xKjAoBgNVBAMMIXd3dy5jb211bmUuYm9semFub3ZpY2VudGluby52aS5pdDAeFw0xOTA2MTAxMzUzMzhaFw0yOTA2MDkxMzUzMzhaMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUJvbHphbm8gVmljZW50aW5vMSQwIgYDVQQKDBtDb211bmUgZGkgQm9semFubyBWaWNlbnRpbm8xKjAoBgNVBAMMIXd3dy5jb211bmUuYm9semFub3ZpY2VudGluby52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMaFO6QsvndRLNzPCYFH6OEGJ8g5REEyxymdI2+NtCumbXm+XUyRvIAGU/+/GEEKu2+RT7M25TTSAjhSYYeahsJwUfyNnckNTSPvqnaGazXjelMIa+Uod7Oz7iTbD4obPa3NXJE+t+6vyeK2iv3ZlOlahB4y8EqXn3IUI3u7981ivEECz2kZz/mlEMHz3pIaWJnWOXpXJJYwKdBDe71k0eQfGREpU0G+17zwXiKA3YsbBjdHnMpvmwiWg/Os7T0mQufQ+bD7UrKWgtNyUWKjG5wXqk2puEI2O+BweNQKjYo9v9wJmZc9mP5u9q4w+BRFgTbGCyDrwKkXNIyoVP2c94ECAwEAAaNQME4wHQYDVR0OBBYEFIkX2ZLBwnVNI7E46W3qsYfp6BXpMB8GA1UdIwQYMBaAFIkX2ZLBwnVNI7E46W3qsYfp6BXpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH45pcqa+q8OU9Wx6n2uH7UGVQgyEWcX5M4NEnTmQN2i1ZI2Ov0GP7zGN0l1bi9Ga1wcARIBUlhfXYnoqThsYa5Q++xYGkzkaOw1jsk4CfRXke7pNn8CTdQCtd5ojOsYrV+UbEPmCeUknAYCz2frGtobt0G9Elw9tT2Hs/zcx/Ulx2s0wb3gUt66Q13CmhYT2raLu5oHRSgGOhH7dbPgWZ+KEeMOsYUUnZTstvZlmO+COsi9lXX6Qkhy5S9hndEkFlAJpkVVggNwmBe93KzfwWqf77Tlnk6j/cJAX1uLXPIMfSyR2oTqJZxDMR5yo9MYBz8q2NyIv5fg0VVfNYUqNCQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.bolzanovicentino.vi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bolzanovicentino.vi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bolzano Vicentino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bolzano Vicentino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bolzanovicentino.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

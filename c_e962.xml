@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.marmirolo.mn.it/" ID="_6b23f6d26e9816f41640d4a9cf1245e3f3dd20d0476c4c041e11c203fb59def2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_6b23f6d26e9816f41640d4a9cf1245e3f3dd20d0476c4c041e11c203fb59def2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>w8lVl0NoB6buM49zfo1QOR+3j+8YIi8UvbUncvlKHNs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>NTZ0Q/n4N7hNWmZyz8anfCNrz6XQ7zZdJ8WC58Ay93lnLnagAtSmxhDlR1uCcUcvNyVpm4DxX9DdFpIlTgkS2G2DP4T8RmMgmWlAYY30xXIoptw74x94W54aVAlRbbKlDlxR4VxIIirLuoHp/0J32NpDptlmI6D4FnsPnFSDk7ncyc8geuB5/90xa9/WqE8moSsVz/PPtPBeOmwCpvyfnY10uo3+n0fsa5r7+nT0pSbLVVcVTkm76vgRklAupyCxV1MMUVTi74ajjZe2sDPgwoGf5wSMcE+cr/PHVemWP3TUD4D0COEw8EGE/VaOiRMieb8xeKYJNHXOuo7Wi2Ihjw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEIjCCAwqgAwIBAgIJAN0EtIkjQFd2MA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTESMBAGA1UEBwwJTWFybWlyb2xvMRwwGgYDVQQKDBNDb211bmUgZGkgTWFybWlyb2xvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubWFybWlyb2xvLm1uLml0MB4XDTIwMDMxMjE2NDYwNloXDTMwMDMxMDE2NDYwNlowgaUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRIwEAYDVQQHDAlNYXJtaXJvbG8xHDAaBgNVBAoME0NvbXVuZSBkaSBNYXJtaXJvbG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5tYXJtaXJvbG8ubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC87LRwWwBpGyYQI9H86Ao997+8ZKPdtEjkp5X9rPHrro4UN2vKyprhg8QjSqn0d5xQ7gDaNovRBGtMU8c6MTad134U17YQrjQlTSo2MafgXgBhX93qSdXI9IqHSIiVybE3v9V2j7Wica819MVI9xM3TwpdSzjV8Rg9zanVE2NwAVna24dEA7mQcheIn8BrHGdpppHh3kSGICLazVKUidbljP0hf2+sWRX+VrNFdkvasAb/eICoTXdqSr0YtewdFx+loy3v2l599+oGpP8I/FXx8WRoEvmW1aMyWptZRi8i7qMMnxKsTNXc96pxA6tElXnErS1Cel2HSlZlsxcZ8gX3AgMBAAGjUzBRMB0GA1UdDgQWBBRyboodZoJosR+dozvgsm6K3RztADAfBgNVHSMEGDAWgBRyboodZoJosR+dozvgsm6K3RztADAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCNpUr2l+KoXq2NlyyLb/+ohGb4TqcUR+TriYZigEi3tB6+AKwRLs+83E5x2cToJsvYx+AnvUSlQZJbRuUIknudtZL27DvOxpUeHzLNIVP1rO8YH3mFigfMPteoceVu1bH5GUGFAUPOWa2Em3Iw0yZLFg1AvC0eRuZna4UxnIFJBzpmVc5Nh+1WSrhxifaHy0wcs2XnExi83HyPutd+He4GN6UySW+YFz3QUU3J4J8Pwww+rO0gJfgIPbZ6mvppAJLc/jr9kyqUT+Pg3Tb6XcG1jO1i2hq3rxa2T52zdkTxx6GNAFgBY/YbzHdBKbBKmKgpzPB+X19dZ+LkmFbwnHa2</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEIjCCAwqgAwIBAgIJAN0EtIkjQFd2MA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTESMBAGA1UEBwwJTWFybWlyb2xvMRwwGgYDVQQKDBNDb211bmUgZGkgTWFybWlyb2xvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubWFybWlyb2xvLm1uLml0MB4XDTIwMDMxMjE2NDYwNloXDTMwMDMxMDE2NDYwNlowgaUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRIwEAYDVQQHDAlNYXJtaXJvbG8xHDAaBgNVBAoME0NvbXVuZSBkaSBNYXJtaXJvbG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5tYXJtaXJvbG8ubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC87LRwWwBpGyYQI9H86Ao997+8ZKPdtEjkp5X9rPHrro4UN2vKyprhg8QjSqn0d5xQ7gDaNovRBGtMU8c6MTad134U17YQrjQlTSo2MafgXgBhX93qSdXI9IqHSIiVybE3v9V2j7Wica819MVI9xM3TwpdSzjV8Rg9zanVE2NwAVna24dEA7mQcheIn8BrHGdpppHh3kSGICLazVKUidbljP0hf2+sWRX+VrNFdkvasAb/eICoTXdqSr0YtewdFx+loy3v2l599+oGpP8I/FXx8WRoEvmW1aMyWptZRi8i7qMMnxKsTNXc96pxA6tElXnErS1Cel2HSlZlsxcZ8gX3AgMBAAGjUzBRMB0GA1UdDgQWBBRyboodZoJosR+dozvgsm6K3RztADAfBgNVHSMEGDAWgBRyboodZoJosR+dozvgsm6K3RztADAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCNpUr2l+KoXq2NlyyLb/+ohGb4TqcUR+TriYZigEi3tB6+AKwRLs+83E5x2cToJsvYx+AnvUSlQZJbRuUIknudtZL27DvOxpUeHzLNIVP1rO8YH3mFigfMPteoceVu1bH5GUGFAUPOWa2Em3Iw0yZLFg1AvC0eRuZna4UxnIFJBzpmVc5Nh+1WSrhxifaHy0wcs2XnExi83HyPutd+He4GN6UySW+YFz3QUU3J4J8Pwww+rO0gJfgIPbZ6mvppAJLc/jr9kyqUT+Pg3Tb6XcG1jO1i2hq3rxa2T52zdkTxx6GNAFgBY/YbzHdBKbBKmKgpzPB+X19dZ+LkmFbwnHa2</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEIjCCAwqgAwIBAgIJAN0EtIkjQFd2MA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTESMBAGA1UEBwwJTWFybWlyb2xvMRwwGgYDVQQKDBNDb211bmUgZGkgTWFybWlyb2xvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubWFybWlyb2xvLm1uLml0MB4XDTIwMDMxMjE2NDYwNloXDTMwMDMxMDE2NDYwNlowgaUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRIwEAYDVQQHDAlNYXJtaXJvbG8xHDAaBgNVBAoME0NvbXVuZSBkaSBNYXJtaXJvbG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5tYXJtaXJvbG8ubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC87LRwWwBpGyYQI9H86Ao997+8ZKPdtEjkp5X9rPHrro4UN2vKyprhg8QjSqn0d5xQ7gDaNovRBGtMU8c6MTad134U17YQrjQlTSo2MafgXgBhX93qSdXI9IqHSIiVybE3v9V2j7Wica819MVI9xM3TwpdSzjV8Rg9zanVE2NwAVna24dEA7mQcheIn8BrHGdpppHh3kSGICLazVKUidbljP0hf2+sWRX+VrNFdkvasAb/eICoTXdqSr0YtewdFx+loy3v2l599+oGpP8I/FXx8WRoEvmW1aMyWptZRi8i7qMMnxKsTNXc96pxA6tElXnErS1Cel2HSlZlsxcZ8gX3AgMBAAGjUzBRMB0GA1UdDgQWBBRyboodZoJosR+dozvgsm6K3RztADAfBgNVHSMEGDAWgBRyboodZoJosR+dozvgsm6K3RztADAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCNpUr2l+KoXq2NlyyLb/+ohGb4TqcUR+TriYZigEi3tB6+AKwRLs+83E5x2cToJsvYx+AnvUSlQZJbRuUIknudtZL27DvOxpUeHzLNIVP1rO8YH3mFigfMPteoceVu1bH5GUGFAUPOWa2Em3Iw0yZLFg1AvC0eRuZna4UxnIFJBzpmVc5Nh+1WSrhxifaHy0wcs2XnExi83HyPutd+He4GN6UySW+YFz3QUU3J4J8Pwww+rO0gJfgIPbZ6mvppAJLc/jr9kyqUT+Pg3Tb6XcG1jO1i2hq3rxa2T52zdkTxx6GNAFgBY/YbzHdBKbBKmKgpzPB+X19dZ+LkmFbwnHa2</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.marmirolo.mn.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.marmirolo.mn.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_e962</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_e962</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Marmirolo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Marmirolo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.marmirolo.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.marmirolo.mn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.castelvolturno.ce.it/" ID="_2a4e3bb8f1ff5725f033c2c0cfe30be2c51d1931a8e911d19c0dbc1c6730b82c"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_2a4e3bb8f1ff5725f033c2c0cfe30be2c51d1931a8e911d19c0dbc1c6730b82c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2gGUbYEKZZGHC5fZ7YjLOD/d5BxhFgMDn3bBGHR3vV0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>QnZtHICOgrRvGcC6OTOJk99c/hvRctWhp5B81OtAvtJl+iYqV3BhkL1VY/pxltrj30Gw8PUrfOIWJxQsgVfQuRWGErORg6ESMihFpQmDiC7j5eboGi4U9pPhBPDJqvGSU4kRS4SMcco12/tp6Ay/z6sDp2J/pfqrKNYxrqGmRum5N+lP3Hp4pt+O3xfpkUNuOjKFJyIc3qSdbVSbp9QPTQwEf8f06uMdnUhmfn9xmIquFpXQk/QxZgKqM+kYE08bOPs6kJFETUgaaoPuAvLp0iihAUOO+CDWkFPY3iLcRpi0m1C9zQoSGraWI8G1yHSm3HyxP8zpXbhjMNvqb3epHw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIETzCCAzegAwIBAgIUDp0iFP5MxchUTi9/oq+SpE3ECrUwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXNlcnRhMRgwFgYDVQQHDA9DYXN0ZWwgVm9sdHVybm8xIjAgBgNVBAoMGUNvbXVuZSBkaSBDYXN0ZWwgVm9sdHVybm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC9zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXN0ZWx2b2x0dXJuby5jZS5pdDAeFw0yMDA3MjMxMjIzMzJaFw0zMDA3MjExMjIzMzJaMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ2FzZXJ0YTEYMBYGA1UEBwwPQ2FzdGVsIFZvbHR1cm5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIFZvbHR1cm5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE4MDYGA1UEAwwvc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FzdGVsdm9sdHVybm8uY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsQ5r0D5TPGiRQZVcmBtkws0Z+dSqGFYsJEHeB2ghUtuANdt0U3Jka+M1Oqo1S7heTWWHO3nxH9Y6mgkQVDO9d++IdzOxt3fguFFn9/NYmj75BlTnc17KzWtWDjtySPwwmNczUkiIj+fgm/qOJkg+ku6HaoFDhXd3+83wpgl1AzNuGK1zw0JjYEdipb6UlbxC2lYgxGLWBvNWVFbG5vJc00mZ0i4cte37vxQEOL701gwxFDqrHo8zhCvUkmAP7hiBag1LkBrjU9LldJS9BUc2dk4x6y1Es9Nzker69oQE4eRsXIvxO+hVUI4OZEnYKCfJsn6ZB8wfREarWJnmj9YfnAgMBAAGjUzBRMB0GA1UdDgQWBBQdQAe4fu3cpr/s7BrCWFZbD85cejAfBgNVHSMEGDAWgBQdQAe4fu3cpr/s7BrCWFZbD85cejAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAJDSxb9FNdzI3cTpkLzQn8YL/Q1OvsVvELrn5uZW/Ni+TvG0aYlQIO9EmnDLwIBh4UHpf52dPnv8V/JpSw6KeZaBsZnhuglf7vpl4nUdXNLJqR1X4e3siaR1L2Z+P8nyajTP0X0uGkPdYBoKF1AAuZWCfdxcZC4EjGPR9IFW1LGwY78ksFX+Rg7cGby+UMjCgiXWDOMOY/3UiErc8vhUWGlJA4Ne6WVLNrjwZ6+LdZM3H29WjQlO+4khsAAH5VE4EPQYmy78rSY9KR+L/9rhbpxcglkq3hg7/2gpUUeJIOeNHzc59yDaoJMW0Zc5dCQpHW75OCXOwcoF2io+DJNnDB</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETzCCAzegAwIBAgIUDp0iFP5MxchUTi9/oq+SpE3ECrUwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXNlcnRhMRgwFgYDVQQHDA9DYXN0ZWwgVm9sdHVybm8xIjAgBgNVBAoMGUNvbXVuZSBkaSBDYXN0ZWwgVm9sdHVybm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC9zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXN0ZWx2b2x0dXJuby5jZS5pdDAeFw0yMDA3MjMxMjIzMzJaFw0zMDA3MjExMjIzMzJaMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ2FzZXJ0YTEYMBYGA1UEBwwPQ2FzdGVsIFZvbHR1cm5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIFZvbHR1cm5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE4MDYGA1UEAwwvc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FzdGVsdm9sdHVybm8uY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsQ5r0D5TPGiRQZVcmBtkws0Z+dSqGFYsJEHeB2ghUtuANdt0U3Jka+M1Oqo1S7heTWWHO3nxH9Y6mgkQVDO9d++IdzOxt3fguFFn9/NYmj75BlTnc17KzWtWDjtySPwwmNczUkiIj+fgm/qOJkg+ku6HaoFDhXd3+83wpgl1AzNuGK1zw0JjYEdipb6UlbxC2lYgxGLWBvNWVFbG5vJc00mZ0i4cte37vxQEOL701gwxFDqrHo8zhCvUkmAP7hiBag1LkBrjU9LldJS9BUc2dk4x6y1Es9Nzker69oQE4eRsXIvxO+hVUI4OZEnYKCfJsn6ZB8wfREarWJnmj9YfnAgMBAAGjUzBRMB0GA1UdDgQWBBQdQAe4fu3cpr/s7BrCWFZbD85cejAfBgNVHSMEGDAWgBQdQAe4fu3cpr/s7BrCWFZbD85cejAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAJDSxb9FNdzI3cTpkLzQn8YL/Q1OvsVvELrn5uZW/Ni+TvG0aYlQIO9EmnDLwIBh4UHpf52dPnv8V/JpSw6KeZaBsZnhuglf7vpl4nUdXNLJqR1X4e3siaR1L2Z+P8nyajTP0X0uGkPdYBoKF1AAuZWCfdxcZC4EjGPR9IFW1LGwY78ksFX+Rg7cGby+UMjCgiXWDOMOY/3UiErc8vhUWGlJA4Ne6WVLNrjwZ6+LdZM3H29WjQlO+4khsAAH5VE4EPQYmy78rSY9KR+L/9rhbpxcglkq3hg7/2gpUUeJIOeNHzc59yDaoJMW0Zc5dCQpHW75OCXOwcoF2io+DJNnDB</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETzCCAzegAwIBAgIUDp0iFP5MxchUTi9/oq+SpE3ECrUwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXNlcnRhMRgwFgYDVQQHDA9DYXN0ZWwgVm9sdHVybm8xIjAgBgNVBAoMGUNvbXVuZSBkaSBDYXN0ZWwgVm9sdHVybm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTgwNgYDVQQDDC9zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXN0ZWx2b2x0dXJuby5jZS5pdDAeFw0yMDA3MjMxMjIzMzJaFw0zMDA3MjExMjIzMzJaMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ2FzZXJ0YTEYMBYGA1UEBwwPQ2FzdGVsIFZvbHR1cm5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIFZvbHR1cm5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE4MDYGA1UEAwwvc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FzdGVsdm9sdHVybm8uY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsQ5r0D5TPGiRQZVcmBtkws0Z+dSqGFYsJEHeB2ghUtuANdt0U3Jka+M1Oqo1S7heTWWHO3nxH9Y6mgkQVDO9d++IdzOxt3fguFFn9/NYmj75BlTnc17KzWtWDjtySPwwmNczUkiIj+fgm/qOJkg+ku6HaoFDhXd3+83wpgl1AzNuGK1zw0JjYEdipb6UlbxC2lYgxGLWBvNWVFbG5vJc00mZ0i4cte37vxQEOL701gwxFDqrHo8zhCvUkmAP7hiBag1LkBrjU9LldJS9BUc2dk4x6y1Es9Nzker69oQE4eRsXIvxO+hVUI4OZEnYKCfJsn6ZB8wfREarWJnmj9YfnAgMBAAGjUzBRMB0GA1UdDgQWBBQdQAe4fu3cpr/s7BrCWFZbD85cejAfBgNVHSMEGDAWgBQdQAe4fu3cpr/s7BrCWFZbD85cejAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAJDSxb9FNdzI3cTpkLzQn8YL/Q1OvsVvELrn5uZW/Ni+TvG0aYlQIO9EmnDLwIBh4UHpf52dPnv8V/JpSw6KeZaBsZnhuglf7vpl4nUdXNLJqR1X4e3siaR1L2Z+P8nyajTP0X0uGkPdYBoKF1AAuZWCfdxcZC4EjGPR9IFW1LGwY78ksFX+Rg7cGby+UMjCgiXWDOMOY/3UiErc8vhUWGlJA4Ne6WVLNrjwZ6+LdZM3H29WjQlO+4khsAAH5VE4EPQYmy78rSY9KR+L/9rhbpxcglkq3hg7/2gpUUeJIOeNHzc59yDaoJMW0Zc5dCQpHW75OCXOwcoF2io+DJNnDB</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.castelvolturno.ce.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.castelvolturno.ce.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_c291</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_c291</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castel Volturno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castel Volturno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.castelvolturno.ce.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.castelvolturno.ce.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

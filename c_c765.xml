@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CivitaCastellana" entityID="https://www.comune.civitacastellana.vt.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CivitaCastellana">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1lgaHa9FwdDkUKwITTdKZ/ICyWnEP9nDIfNWLK3zlAY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ImR0f37Gspd/zOn4xJsrYmheRmZMsa1Y2qhBO+k5OhOUTG1EoYMHunn7u9JanKpyphv2SbmVeFLU
+lxMR7LzEutxHeP0fmyW/kYmnzHGQf9bJYlBgnSlngzEMX4dxY7Gw41DR1lU4RJ8mMTNdjrpULh9h
+Y4D698LsuRgfPNxYUT32QDh7hh1PS+d36QnLsG+SaexEyWK1QT7gGe7lbedk6tBF/8ODF5tA0mey
+VE3Ipus8yI2kq3K3sodV+HgsYfH/UT84C3q/rg2M0X8em866v4w6DxcWKygTg8sRnesOdijXeJj9
+VfhuUviLOQL+IIjXkjboiNqoFeBXrA8Kn6mt9Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+r7FvxC5CSAP7W8zbu75nwey3ZrKMnZqfEVUL3T2bJXDo879Sl4nosyld3pV2mx1kmzT+J0PzBu0U
+3g6mIS4uYb1A8uVgYOqdTxUH/0fyg47rJlbEk2B+nJZk8NtJbqRNGccac4VOu+/bsNcpY+kCznxf
+tdynCBgdCPBgZuzCUpmqRpZggLBK7pSXRmNRgPiBYDsHqZ8sksf6ZnjI328bwuBBk0Nzz8Rk7jqJ
+gi78CxAiSf37AsjWf57U5LzSV/WhA/9nnMu5PsTkYSSJQFe1ez0KBp0OEfR4SF479a0yKN53hBJP
+1IU0H1CWiBQoAj/DopLu8hADcueDJ+oDfKmvVQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYzCCAkugAwIBAgIJAL/+T9+QTTu3MA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5j
+b211bmUuY2l2aXRhY2FzdGVsbGFuYS52dC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQw
+HhcNMTgwODI3MTMzOTE2WhcNMjgwODI0MTMzOTE2WjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLmNp
+dml0YWNhc3RlbGxhbmEudnQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr7FvxC5CSAP7W8zbu75nwey3ZrKMnZqfEVUL3T2bJXDo
+879Sl4nosyld3pV2mx1kmzT+J0PzBu0U3g6mIS4uYb1A8uVgYOqdTxUH/0fyg47rJlbEk2B+nJZk
+8NtJbqRNGccac4VOu+/bsNcpY+kCznxftdynCBgdCPBgZuzCUpmqRpZggLBK7pSXRmNRgPiBYDsH
+qZ8sksf6ZnjI328bwuBBk0Nzz8Rk7jqJgi78CxAiSf37AsjWf57U5LzSV/WhA/9nnMu5PsTkYSSJ
+QFe1ez0KBp0OEfR4SF479a0yKN53hBJP1IU0H1CWiBQoAj/DopLu8hADcueDJ+oDfKmvVQIDAQAB
+o1AwTjAdBgNVHQ4EFgQUvcz2sm4DWW6AhgPsAQuOlhK9TpQwHwYDVR0jBBgwFoAUvcz2sm4DWW6A
+hgPsAQuOlhK9TpQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARSNaRkiA+oWCr4Os
+G0iQRQTUtOe7ovlIKCa+s8E4EievP9UOn8yyHn4tzUj+gmuP4WcpI/bGFCrX7+zMkqyb0S9TDVjH
+UCIOg9Fu3kJWXvnQ1pwglY4Y100I4fgEhNQimYv2YQFqb2Bq97C1qH/+bMT27rIxb1tbFIwg9AI2
+BmYb0nhx7L2Tk4aLd4Aqw5kThkvRoG1YbGlrggnuypXdORwv1QDM0HTppg0oPTHGqDP1rYCbrYEy
+UAMOipgY2/+zgGvHe1ROYKKEiQVeRPZIOWJkrIAYRBKS92Gw1l9NSpp9lQI1cu70P2XtL51h8eGy
+RuIwbZTdg8CAZf9ldEXRGQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAL/+T9+QTTu3MA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUuY2l2aXRhY2FzdGVsbGFuYS52dC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODI3MTMzOTE2WhcNMjgwODI0MTMzOTE2WjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLmNpdml0YWNhc3RlbGxhbmEudnQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr7FvxC5CSAP7W8zbu75nwey3ZrKMnZqfEVUL3T2bJXDo879Sl4nosyld3pV2mx1kmzT+J0PzBu0U3g6mIS4uYb1A8uVgYOqdTxUH/0fyg47rJlbEk2B+nJZk8NtJbqRNGccac4VOu+/bsNcpY+kCznxftdynCBgdCPBgZuzCUpmqRpZggLBK7pSXRmNRgPiBYDsHqZ8sksf6ZnjI328bwuBBk0Nzz8Rk7jqJgi78CxAiSf37AsjWf57U5LzSV/WhA/9nnMu5PsTkYSSJQFe1ez0KBp0OEfR4SF479a0yKN53hBJP1IU0H1CWiBQoAj/DopLu8hADcueDJ+oDfKmvVQIDAQABo1AwTjAdBgNVHQ4EFgQUvcz2sm4DWW6AhgPsAQuOlhK9TpQwHwYDVR0jBBgwFoAUvcz2sm4DWW6AhgPsAQuOlhK9TpQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARSNaRkiA+oWCr4OsG0iQRQTUtOe7ovlIKCa+s8E4EievP9UOn8yyHn4tzUj+gmuP4WcpI/bGFCrX7+zMkqyb0S9TDVjHUCIOg9Fu3kJWXvnQ1pwglY4Y100I4fgEhNQimYv2YQFqb2Bq97C1qH/+bMT27rIxb1tbFIwg9AI2BmYb0nhx7L2Tk4aLd4Aqw5kThkvRoG1YbGlrggnuypXdORwv1QDM0HTppg0oPTHGqDP1rYCbrYEyUAMOipgY2/+zgGvHe1ROYKKEiQVeRPZIOWJkrIAYRBKS92Gw1l9NSpp9lQI1cu70P2XtL51h8eGyRuIwbZTdg8CAZf9ldEXRGQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAL/+T9+QTTu3MA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUuY2l2aXRhY2FzdGVsbGFuYS52dC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODI3MTMzOTE2WhcNMjgwODI0MTMzOTE2WjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLmNpdml0YWNhc3RlbGxhbmEudnQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr7FvxC5CSAP7W8zbu75nwey3ZrKMnZqfEVUL3T2bJXDo879Sl4nosyld3pV2mx1kmzT+J0PzBu0U3g6mIS4uYb1A8uVgYOqdTxUH/0fyg47rJlbEk2B+nJZk8NtJbqRNGccac4VOu+/bsNcpY+kCznxftdynCBgdCPBgZuzCUpmqRpZggLBK7pSXRmNRgPiBYDsHqZ8sksf6ZnjI328bwuBBk0Nzz8Rk7jqJgi78CxAiSf37AsjWf57U5LzSV/WhA/9nnMu5PsTkYSSJQFe1ez0KBp0OEfR4SF479a0yKN53hBJP1IU0H1CWiBQoAj/DopLu8hADcueDJ+oDfKmvVQIDAQABo1AwTjAdBgNVHQ4EFgQUvcz2sm4DWW6AhgPsAQuOlhK9TpQwHwYDVR0jBBgwFoAUvcz2sm4DWW6AhgPsAQuOlhK9TpQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARSNaRkiA+oWCr4OsG0iQRQTUtOe7ovlIKCa+s8E4EievP9UOn8yyHn4tzUj+gmuP4WcpI/bGFCrX7+zMkqyb0S9TDVjHUCIOg9Fu3kJWXvnQ1pwglY4Y100I4fgEhNQimYv2YQFqb2Bq97C1qH/+bMT27rIxb1tbFIwg9AI2BmYb0nhx7L2Tk4aLd4Aqw5kThkvRoG1YbGlrggnuypXdORwv1QDM0HTppg0oPTHGqDP1rYCbrYEyUAMOipgY2/+zgGvHe1ROYKKEiQVeRPZIOWJkrIAYRBKS92Gw1l9NSpp9lQI1cu70P2XtL51h8eGyRuIwbZTdg8CAZf9ldEXRGQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/civitacastellana"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/civitacastellana" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/civitacastellana" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/civitacastellana" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Civita Castellana</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Civita Castellana</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Civita Castellana</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Civita Castellana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Civita Castellana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Civita Castellana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Civita Castellana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Civita Castellana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.civitacastellana.vt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.civitacastellana.vt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.civitacastellana.vt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.civitacastellana.vt.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

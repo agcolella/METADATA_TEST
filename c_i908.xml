@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Spinea" entityID="https://www.comune.spinea.ve.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Spinea">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>f6luw2ryypCydnzw+qzVDGsiWlLBNfLXTZqUiUGTeE8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SDaQpIykidixXGKAlr0Iz56HF7x9qbTVpkQ3+BDCjgF8hIRbwhsOkjd0r/fIUTG4aqGCEhfakyBk
+GOrAkwmV/9CiH8P12J2tAVgf47kN1PZ8LJZ3gboeN7WNkP7K5KengXUqs/ZhEM38oFDTl9FY89kh
+m1DcAsQbfrHJzeFWoAgRQJ9+eVCM/a95fTru/3Vls87HUKJojQGHvN6ChF4nmsxGD1pxj8kgOy9Q
+8QV/Rw0bhygyfkMoyjGpns9b48T+6XHdGaQ/jk/RIxK4/qH8Rxp/IyII58E4HDJXFPi1FZujpYQu
+3BI28DLlHCxpqFgiNtHfaOAwGvgZvHt5fx3raw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vpl14xbQ7HW2JWOZPUNfMZr8ZjUhaE9RBBfck8IRZtV7328L1+XcyUUCpJYyZTsyL2ccwsvIlEnA
+5+GZyoucrvJJN5GVpjaE5cKEkTCbCayqe6CtNizKk9vTUp0VfsO/ukot30DE+VFC/NR41o9uCM0d
+rOz+x6X1jAuqeYjyymWk5S5khJuRNCUxvAWYyIih1/cyReawXCrdb5AhXcKtbzXb2OIh20em9SYf
+7vqFtLweJVV5VdObVYrtDx1O9ku/nBru8dDgrha0Mlp7v3Ug8/QUD2ZLzno489ER1FbI98MQWr06
+w9vcxA/5iC8SEzRItS6B0r7k/iaLkvnyExMAfw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAP5L12rqifocMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuc3BpbmVhLnZlLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAyMDMx
+MDMwNDRaFw0yOTAxMzExMDMwNDRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc3BpbmVhLnZlLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAL6ZdeMW0Ox1tiVjmT1DXzGa/GY1IWhPUQQX3JPCEWbVe99vC9fl3MlFAqSWMmU7Mi9nHMLL
+yJRJwOfhmcqLnK7ySTeRlaY2hOXChJEwmwmsqnugrTYsypPb01KdFX7Dv7pKLd9AxPlRQvzUeNaP
+bgjNHazs/sel9YwLqnmI8splpOUuZISbkTQlMbwFmMiIodf3MkXmsFwq3W+QIV3CrW8129jiIdtH
+pvUmH+76hbS8HiVVeVXTm1WK7Q8dTvZLv5wa7vHQ4K4WtDJae791IPP0FA9mS856OPPREdRWyPfD
+EFq9OsPb3MQP+YgvEhM0SLUugdK+5P4mi5L58hMTAH8CAwEAAaNQME4wHQYDVR0OBBYEFJjhFdC1
+Nytcbahzfbn2Qf1LnRmQMB8GA1UdIwQYMBaAFJjhFdC1Nytcbahzfbn2Qf1LnRmQMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGEpDvijwWVyc5i++3GjNeFk/tVw6im/PZ2ESIOYlu99
+A/d89jxdoFecQfOQnpbCIpLb/l1zapIR3ki0u2qsRxL4cEkmp/niq7Qw1jdkBYp2wOo2Y7v1uVVQ
+BEG+MCEMHkTno9SGGhFRb8rRCLP02bpFqU6AUChDfK8P9R4q5/yvi+ksqZBFXcblbPovIytIZSjF
+0Z8RRUkkjgR0Zx6rnI+TgMd1ZjRK1US/2C6wSZye0mLuqV9y1HnEtlA9x0Ok07EaGtukWUejxXQ9
+bRkJur8ylBfV0aElziF8cS+Vh6ZQIcExWZScSCBSE41+iXIRY5Ba6lAZ/Zpi9pJ1GY7Mhn8=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAP5L12rqifocMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc3BpbmVhLnZlLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAyMDMxMDMwNDRaFw0yOTAxMzExMDMwNDRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc3BpbmVhLnZlLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL6ZdeMW0Ox1tiVjmT1DXzGa/GY1IWhPUQQX3JPCEWbVe99vC9fl3MlFAqSWMmU7Mi9nHMLLyJRJwOfhmcqLnK7ySTeRlaY2hOXChJEwmwmsqnugrTYsypPb01KdFX7Dv7pKLd9AxPlRQvzUeNaPbgjNHazs/sel9YwLqnmI8splpOUuZISbkTQlMbwFmMiIodf3MkXmsFwq3W+QIV3CrW8129jiIdtHpvUmH+76hbS8HiVVeVXTm1WK7Q8dTvZLv5wa7vHQ4K4WtDJae791IPP0FA9mS856OPPREdRWyPfDEFq9OsPb3MQP+YgvEhM0SLUugdK+5P4mi5L58hMTAH8CAwEAAaNQME4wHQYDVR0OBBYEFJjhFdC1Nytcbahzfbn2Qf1LnRmQMB8GA1UdIwQYMBaAFJjhFdC1Nytcbahzfbn2Qf1LnRmQMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGEpDvijwWVyc5i++3GjNeFk/tVw6im/PZ2ESIOYlu99A/d89jxdoFecQfOQnpbCIpLb/l1zapIR3ki0u2qsRxL4cEkmp/niq7Qw1jdkBYp2wOo2Y7v1uVVQBEG+MCEMHkTno9SGGhFRb8rRCLP02bpFqU6AUChDfK8P9R4q5/yvi+ksqZBFXcblbPovIytIZSjF0Z8RRUkkjgR0Zx6rnI+TgMd1ZjRK1US/2C6wSZye0mLuqV9y1HnEtlA9x0Ok07EaGtukWUejxXQ9bRkJur8ylBfV0aElziF8cS+Vh6ZQIcExWZScSCBSE41+iXIRY5Ba6lAZ/Zpi9pJ1GY7Mhn8=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAP5L12rqifocMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc3BpbmVhLnZlLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAyMDMxMDMwNDRaFw0yOTAxMzExMDMwNDRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc3BpbmVhLnZlLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL6ZdeMW0Ox1tiVjmT1DXzGa/GY1IWhPUQQX3JPCEWbVe99vC9fl3MlFAqSWMmU7Mi9nHMLLyJRJwOfhmcqLnK7ySTeRlaY2hOXChJEwmwmsqnugrTYsypPb01KdFX7Dv7pKLd9AxPlRQvzUeNaPbgjNHazs/sel9YwLqnmI8splpOUuZISbkTQlMbwFmMiIodf3MkXmsFwq3W+QIV3CrW8129jiIdtHpvUmH+76hbS8HiVVeVXTm1WK7Q8dTvZLv5wa7vHQ4K4WtDJae791IPP0FA9mS856OPPREdRWyPfDEFq9OsPb3MQP+YgvEhM0SLUugdK+5P4mi5L58hMTAH8CAwEAAaNQME4wHQYDVR0OBBYEFJjhFdC1Nytcbahzfbn2Qf1LnRmQMB8GA1UdIwQYMBaAFJjhFdC1Nytcbahzfbn2Qf1LnRmQMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGEpDvijwWVyc5i++3GjNeFk/tVw6im/PZ2ESIOYlu99A/d89jxdoFecQfOQnpbCIpLb/l1zapIR3ki0u2qsRxL4cEkmp/niq7Qw1jdkBYp2wOo2Y7v1uVVQBEG+MCEMHkTno9SGGhFRb8rRCLP02bpFqU6AUChDfK8P9R4q5/yvi+ksqZBFXcblbPovIytIZSjF0Z8RRUkkjgR0Zx6rnI+TgMd1ZjRK1US/2C6wSZye0mLuqV9y1HnEtlA9x0Ok07EaGtukWUejxXQ9bRkJur8ylBfV0aElziF8cS+Vh6ZQIcExWZScSCBSE41+iXIRY5Ba6lAZ/Zpi9pJ1GY7Mhn8=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/spinea"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/spinea" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/spinea" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/spinea" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Spinea</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Spinea</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Spinea</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Spinea</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Spinea</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Spinea</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Spinea</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Spinea</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.spinea.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.spinea.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.spinea.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.spinea.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

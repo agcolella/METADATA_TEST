@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.castelcucco.tv.it" ID="pfxc62b5fdd-db37-c1d8-91ce-f9d7b12979b2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxc62b5fdd-db37-c1d8-91ce-f9d7b12979b2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>sQmb1du4NBZQW1dRVpYFQQGQP3M3lYpzlux+N/ZZDs0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>A0kjvGmSif3lkLFGY3wG8qR+40zBgF7C2KVoxnuIGQOP1mk3I51lRVu1pqcV4RHde8SMo53CXdN5C7YL+bjarX2Eu8YtH72v/Vgg/wncwa/IrN/YNqkqvAeAZR6qvAnOcUw+Rk7bkCtvVEGde7B11detSNz4+VEfPMJ1S0H9MwtExuPB2yyM0fU0u0y6NVYTngDAVi3LwuTbZOECF1xUYrH+nL9BfZlyra+aWsMEkBSUuYRM4db6/eLKdy4GAZIUFwq+HmLkCdsGYLl/EkgLXAMW86SSNG/Xzy85eFj/hT5NDLvqRAGJhoWAkptr9xEDirKNGZGICU6C0g+W1hhVGQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJALug4/lZjw7YMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FzdGVsY3VjY28xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXN0ZWxjdWNjbzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWxjdWNjby50di5pdDAeFw0xODA0MDQwOTEyMjBaFw0yODA0MDMwOTEyMjBaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FzdGVsY3VjY28xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXN0ZWxjdWNjbzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWxjdWNjby50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKnJSdkaGpJifyFjuOsmdcbJXr9sinjX9Y8wOuWYihTTKQyfjHXgn/mwFp9gNuxepcntHO7FIZWP8ErCmXG3YX8PkaA7LZpqpGD2xp/VykIQj2IPxQduibs2b324wi5INI/AvqL2vhyhk+370MooZ1+Bf9eHgEkXnNGej31q4auEpVrP+2bN7zJh2mow1jwjIxrOMuCi185rNa0WE86EoDABBVASpT5ctfSBalm+DV4mYvofyJQRiuZUvpno36mxfxfSQAPE7ZDUXpkiecLJDxkFXelk53Xo3L7CVtUCjEZs6krG872FwctOxVSBiFdbetU2T960OPvNkPq/G5HILVkCAwEAAaNQME4wHQYDVR0OBBYEFE3uMVne1CKrtlXO+Ewh1gtZ29MNMB8GA1UdIwQYMBaAFE3uMVne1CKrtlXO+Ewh1gtZ29MNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADn8+cHrFntafh4Ryz4p1r+j3ek8f8KEwJzgqhQehEQ5N0k0xd1WYiuczkz5mi4zDyZw3eM3/SnEhibtOxd10cjk6XWClB3jk4NcpgtcwWjnf0+H1aY4nZvvt+A0s0Px2NWXz1mmaCaOjiC9M9emsHb0q9ThL7U/i9ZNJaaGyRxMJ9eaYp7kyDen0tbyhWFsPOAJvlqc+gFkr8bdUiadsnBRohkVVvRfQe2qBqvIm48F8PzKLIR96cXjXhRqqv52HLGjJqFu4N41w5v0HtDJz9NM5UQvJnWdnTXZ02/za7ru8MryzCdy4mJXqiqKTjw+hGWPKi150N/3wvZIdz4lPs4=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJALug4/lZjw7YMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FzdGVsY3VjY28xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXN0ZWxjdWNjbzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWxjdWNjby50di5pdDAeFw0xODA0MDQwOTEyMjBaFw0yODA0MDMwOTEyMjBaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FzdGVsY3VjY28xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXN0ZWxjdWNjbzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWxjdWNjby50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKnJSdkaGpJifyFjuOsmdcbJXr9sinjX9Y8wOuWYihTTKQyfjHXgn/mwFp9gNuxepcntHO7FIZWP8ErCmXG3YX8PkaA7LZpqpGD2xp/VykIQj2IPxQduibs2b324wi5INI/AvqL2vhyhk+370MooZ1+Bf9eHgEkXnNGej31q4auEpVrP+2bN7zJh2mow1jwjIxrOMuCi185rNa0WE86EoDABBVASpT5ctfSBalm+DV4mYvofyJQRiuZUvpno36mxfxfSQAPE7ZDUXpkiecLJDxkFXelk53Xo3L7CVtUCjEZs6krG872FwctOxVSBiFdbetU2T960OPvNkPq/G5HILVkCAwEAAaNQME4wHQYDVR0OBBYEFE3uMVne1CKrtlXO+Ewh1gtZ29MNMB8GA1UdIwQYMBaAFE3uMVne1CKrtlXO+Ewh1gtZ29MNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADn8+cHrFntafh4Ryz4p1r+j3ek8f8KEwJzgqhQehEQ5N0k0xd1WYiuczkz5mi4zDyZw3eM3/SnEhibtOxd10cjk6XWClB3jk4NcpgtcwWjnf0+H1aY4nZvvt+A0s0Px2NWXz1mmaCaOjiC9M9emsHb0q9ThL7U/i9ZNJaaGyRxMJ9eaYp7kyDen0tbyhWFsPOAJvlqc+gFkr8bdUiadsnBRohkVVvRfQe2qBqvIm48F8PzKLIR96cXjXhRqqv52HLGjJqFu4N41w5v0HtDJz9NM5UQvJnWdnTXZ02/za7ru8MryzCdy4mJXqiqKTjw+hGWPKi150N/3wvZIdz4lPs4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJALug4/lZjw7YMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FzdGVsY3VjY28xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXN0ZWxjdWNjbzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWxjdWNjby50di5pdDAeFw0xODA0MDQwOTEyMjBaFw0yODA0MDMwOTEyMjBaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQ2FzdGVsY3VjY28xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXN0ZWxjdWNjbzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWxjdWNjby50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKnJSdkaGpJifyFjuOsmdcbJXr9sinjX9Y8wOuWYihTTKQyfjHXgn/mwFp9gNuxepcntHO7FIZWP8ErCmXG3YX8PkaA7LZpqpGD2xp/VykIQj2IPxQduibs2b324wi5INI/AvqL2vhyhk+370MooZ1+Bf9eHgEkXnNGej31q4auEpVrP+2bN7zJh2mow1jwjIxrOMuCi185rNa0WE86EoDABBVASpT5ctfSBalm+DV4mYvofyJQRiuZUvpno36mxfxfSQAPE7ZDUXpkiecLJDxkFXelk53Xo3L7CVtUCjEZs6krG872FwctOxVSBiFdbetU2T960OPvNkPq/G5HILVkCAwEAAaNQME4wHQYDVR0OBBYEFE3uMVne1CKrtlXO+Ewh1gtZ29MNMB8GA1UdIwQYMBaAFE3uMVne1CKrtlXO+Ewh1gtZ29MNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADn8+cHrFntafh4Ryz4p1r+j3ek8f8KEwJzgqhQehEQ5N0k0xd1WYiuczkz5mi4zDyZw3eM3/SnEhibtOxd10cjk6XWClB3jk4NcpgtcwWjnf0+H1aY4nZvvt+A0s0Px2NWXz1mmaCaOjiC9M9emsHb0q9ThL7U/i9ZNJaaGyRxMJ9eaYp7kyDen0tbyhWFsPOAJvlqc+gFkr8bdUiadsnBRohkVVvRfQe2qBqvIm48F8PzKLIR96cXjXhRqqv52HLGjJqFu4N41w5v0HtDJz9NM5UQvJnWdnTXZ02/za7ru8MryzCdy4mJXqiqKTjw+hGWPKi150N/3wvZIdz4lPs4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.castelcucco.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castelcucco.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castelcucco</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castelcucco</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castelcucco.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

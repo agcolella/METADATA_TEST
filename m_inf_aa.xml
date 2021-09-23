@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx1e3ecbe6-5682-d7a1-aab9-3a44393f3279" entityID="https://auth.lautotrasportosicura.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx1e3ecbe6-5682-d7a1-aab9-3a44393f3279">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>oKv6YsJw/AgKixGKoRDCkd1Ue3xDygHprtMSsmyD2fQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+in56jAYVV+jSsUau/lOfQA92G8+IQVoXj43rmWhzHxBydCrKs9S5KzCLFDECkY3nFfWOH8VhiQTX
+u4i8PPPBJwm28jGmnBm7em8WNIjMwOqk3/r5Lngw9dNqsnSVIG9RA5Z6Rp0WVlBN92phssXHnQmr
++lZbVsG90vrYO0hgKvVR3pMZZ0V0+2Nw4TXHKVED1HVpCFLE7eQS/egAfvwjVryAyGcN8l4In2qQ
+Fjcm8WOBsiG25uO62xisUktqDC3a2A4TY0cfqTOaWO6kyudjZ9C3dGPDjvD/2xVGKAF+P21YjEaK
+bQVFNhS4PELG7QRV21+4h6corgV5qwGIv3wsoQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2YlB7bIxbOcfr3QIGy6LqDOK5GYY+A3gzt+6wgQn2Iq8B0UbuwPVSeVImz17TbV7fcY9Uh4S8N8Y
+PI0zSVQoaTfz3nDqAFMQHV2ejQCVcX3n8r77z8d75C1ZRdjkTU/5/yA6U9aHdBOT0NnhnnS6s8cF
+T4q+fallRaQFnGz7eBssFCsbQRA4dfBwhGlx7vvrnM7ktLXny1KUGE+0TCcH0VkUIBTPGmdkQLva
+aQmNdvv+/CJv/XcjWfTSrtA2mz8L2KbBaAGtO79L5Ijdd7HSTDFOrDGuFy5wIr77Jh8bjN1TBa8H
+zJ0sW75SksqMMW9mWnCNkSU2I5ORjm4YkNJ/ow==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIE0TCCA7mgAwIBAgIUYzaPYnNduRIQS9hEW3Z/R9D6sBIwDQYJKoZIhvcNAQELBQAwgfcxCzAJ
+BgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBFJvbWExNTAzBgNVBAoMLE1pbmlz
+dGVybyBkZWxsZSBJbmZyYXN0cnV0dHVyZSBkZWkgVHJhc3BvcnRpMR0wGwYDVQQLDBRsYXV0b3Ry
+YXNwb3J0b3NpY3VyYTEtMCsGA1UEAwwkaHR0cHM6Ly9hdXRoLmxhdXRvdHJhc3BvcnRvc2ljdXJh
+Lml0MRcwFQYDVQRhDA5QQTpJVC1tX2luZl9hYTEqMCgGCSqGSIb3DQEJARYbZnJhbmNlc2NhLmFp
+ZWxsaUBtaXQuZ292Lml0MB4XDTIwMTAxMTIxMDU1MloXDTIxMTAxMTIxMDU1MlowgfcxCzAJBgNV
+BAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBFJvbWExNTAzBgNVBAoMLE1pbmlzdGVy
+byBkZWxsZSBJbmZyYXN0cnV0dHVyZSBkZWkgVHJhc3BvcnRpMR0wGwYDVQQLDBRsYXV0b3RyYXNw
+b3J0b3NpY3VyYTEtMCsGA1UEAwwkaHR0cHM6Ly9hdXRoLmxhdXRvdHJhc3BvcnRvc2ljdXJhLml0
+MRcwFQYDVQRhDA5QQTpJVC1tX2luZl9hYTEqMCgGCSqGSIb3DQEJARYbZnJhbmNlc2NhLmFpZWxs
+aUBtaXQuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2YlB7bIxbOcfr3QI
+Gy6LqDOK5GYY+A3gzt+6wgQn2Iq8B0UbuwPVSeVImz17TbV7fcY9Uh4S8N8YPI0zSVQoaTfz3nDq
+AFMQHV2ejQCVcX3n8r77z8d75C1ZRdjkTU/5/yA6U9aHdBOT0NnhnnS6s8cFT4q+fallRaQFnGz7
+eBssFCsbQRA4dfBwhGlx7vvrnM7ktLXny1KUGE+0TCcH0VkUIBTPGmdkQLvaaQmNdvv+/CJv/Xcj
+WfTSrtA2mz8L2KbBaAGtO79L5Ijdd7HSTDFOrDGuFy5wIr77Jh8bjN1TBa8HzJ0sW75SksqMMW9m
+WnCNkSU2I5ORjm4YkNJ/owIDAQABo1MwUTAdBgNVHQ4EFgQUfgtt32vbK07rtYU58ALpjYhx0Skw
+HwYDVR0jBBgwFoAUfgtt32vbK07rtYU58ALpjYhx0SkwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG
+9w0BAQsFAAOCAQEAGhZfqhaIRD6nfxf7X6RgmF+qUMHSiMrvUhN0AUsw2f2pvz7a3tPSHLgGQR9C
+hMniGWezIF27kanwbYFr4SHXX9q7swjNrc2/dFp1LdpScC8qowlzp2H/dLd/53vWYqEra6mZ/vZC
+8hFQzmFgM5wRN1nkzCIZzQf+ESnBbh8rRiGZ7wjU7v0z6/PBFmUHVt2v1oXKQkxpnmMqKs3gTqrk
+6NuX+PIf1DZ7OZZKPwE9tcu2CffmYjxrgvanP+GGSwuD8szmCWOqpaL/dCwLtaREyZ6t/7Qu4FlG
+Uu7/16R7hVnEXhDVJInBThqE8yrfjM+6AQ/NjmjwOWFaqe5tlL8Hug==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIE0TCCA7mgAwIBAgIUYzaPYnNduRIQS9hEW3Z/R9D6sBIwDQYJKoZIhvcNAQELBQAwgfcxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBFJvbWExNTAzBgNVBAoMLE1pbmlzdGVybyBkZWxsZSBJbmZyYXN0cnV0dHVyZSBkZWkgVHJhc3BvcnRpMR0wGwYDVQQLDBRsYXV0b3RyYXNwb3J0b3NpY3VyYTEtMCsGA1UEAwwkaHR0cHM6Ly9hdXRoLmxhdXRvdHJhc3BvcnRvc2ljdXJhLml0MRcwFQYDVQRhDA5QQTpJVC1tX2luZl9hYTEqMCgGCSqGSIb3DQEJARYbZnJhbmNlc2NhLmFpZWxsaUBtaXQuZ292Lml0MB4XDTIwMTAxMTIxMDU1MloXDTIxMTAxMTIxMDU1MlowgfcxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBFJvbWExNTAzBgNVBAoMLE1pbmlzdGVybyBkZWxsZSBJbmZyYXN0cnV0dHVyZSBkZWkgVHJhc3BvcnRpMR0wGwYDVQQLDBRsYXV0b3RyYXNwb3J0b3NpY3VyYTEtMCsGA1UEAwwkaHR0cHM6Ly9hdXRoLmxhdXRvdHJhc3BvcnRvc2ljdXJhLml0MRcwFQYDVQRhDA5QQTpJVC1tX2luZl9hYTEqMCgGCSqGSIb3DQEJARYbZnJhbmNlc2NhLmFpZWxsaUBtaXQuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2YlB7bIxbOcfr3QIGy6LqDOK5GYY+A3gzt+6wgQn2Iq8B0UbuwPVSeVImz17TbV7fcY9Uh4S8N8YPI0zSVQoaTfz3nDqAFMQHV2ejQCVcX3n8r77z8d75C1ZRdjkTU/5/yA6U9aHdBOT0NnhnnS6s8cFT4q+fallRaQFnGz7eBssFCsbQRA4dfBwhGlx7vvrnM7ktLXny1KUGE+0TCcH0VkUIBTPGmdkQLvaaQmNdvv+/CJv/XcjWfTSrtA2mz8L2KbBaAGtO79L5Ijdd7HSTDFOrDGuFy5wIr77Jh8bjN1TBa8HzJ0sW75SksqMMW9mWnCNkSU2I5ORjm4YkNJ/owIDAQABo1MwUTAdBgNVHQ4EFgQUfgtt32vbK07rtYU58ALpjYhx0SkwHwYDVR0jBBgwFoAUfgtt32vbK07rtYU58ALpjYhx0SkwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAGhZfqhaIRD6nfxf7X6RgmF+qUMHSiMrvUhN0AUsw2f2pvz7a3tPSHLgGQR9ChMniGWezIF27kanwbYFr4SHXX9q7swjNrc2/dFp1LdpScC8qowlzp2H/dLd/53vWYqEra6mZ/vZC8hFQzmFgM5wRN1nkzCIZzQf+ESnBbh8rRiGZ7wjU7v0z6/PBFmUHVt2v1oXKQkxpnmMqKs3gTqrk6NuX+PIf1DZ7OZZKPwE9tcu2CffmYjxrgvanP+GGSwuD8szmCWOqpaL/dCwLtaREyZ6t/7Qu4FlGUu7/16R7hVnEXhDVJInBThqE8yrfjM+6AQ/NjmjwOWFaqe5tlL8Hug==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIE0TCCA7mgAwIBAgIUYzaPYnNduRIQS9hEW3Z/R9D6sBIwDQYJKoZIhvcNAQELBQAwgfcxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBFJvbWExNTAzBgNVBAoMLE1pbmlzdGVybyBkZWxsZSBJbmZyYXN0cnV0dHVyZSBkZWkgVHJhc3BvcnRpMR0wGwYDVQQLDBRsYXV0b3RyYXNwb3J0b3NpY3VyYTEtMCsGA1UEAwwkaHR0cHM6Ly9hdXRoLmxhdXRvdHJhc3BvcnRvc2ljdXJhLml0MRcwFQYDVQRhDA5QQTpJVC1tX2luZl9hYTEqMCgGCSqGSIb3DQEJARYbZnJhbmNlc2NhLmFpZWxsaUBtaXQuZ292Lml0MB4XDTIwMTAxMTIxMDU1MloXDTIxMTAxMTIxMDU1MlowgfcxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBFJvbWExNTAzBgNVBAoMLE1pbmlzdGVybyBkZWxsZSBJbmZyYXN0cnV0dHVyZSBkZWkgVHJhc3BvcnRpMR0wGwYDVQQLDBRsYXV0b3RyYXNwb3J0b3NpY3VyYTEtMCsGA1UEAwwkaHR0cHM6Ly9hdXRoLmxhdXRvdHJhc3BvcnRvc2ljdXJhLml0MRcwFQYDVQRhDA5QQTpJVC1tX2luZl9hYTEqMCgGCSqGSIb3DQEJARYbZnJhbmNlc2NhLmFpZWxsaUBtaXQuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2YlB7bIxbOcfr3QIGy6LqDOK5GYY+A3gzt+6wgQn2Iq8B0UbuwPVSeVImz17TbV7fcY9Uh4S8N8YPI0zSVQoaTfz3nDqAFMQHV2ejQCVcX3n8r77z8d75C1ZRdjkTU/5/yA6U9aHdBOT0NnhnnS6s8cFT4q+fallRaQFnGz7eBssFCsbQRA4dfBwhGlx7vvrnM7ktLXny1KUGE+0TCcH0VkUIBTPGmdkQLvaaQmNdvv+/CJv/XcjWfTSrtA2mz8L2KbBaAGtO79L5Ijdd7HSTDFOrDGuFy5wIr77Jh8bjN1TBa8HzJ0sW75SksqMMW9mWnCNkSU2I5ORjm4YkNJ/owIDAQABo1MwUTAdBgNVHQ4EFgQUfgtt32vbK07rtYU58ALpjYhx0SkwHwYDVR0jBBgwFoAUfgtt32vbK07rtYU58ALpjYhx0SkwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAGhZfqhaIRD6nfxf7X6RgmF+qUMHSiMrvUhN0AUsw2f2pvz7a3tPSHLgGQR9ChMniGWezIF27kanwbYFr4SHXX9q7swjNrc2/dFp1LdpScC8qowlzp2H/dLd/53vWYqEra6mZ/vZC8hFQzmFgM5wRN1nkzCIZzQf+ESnBbh8rRiGZ7wjU7v0z6/PBFmUHVt2v1oXKQkxpnmMqKs3gTqrk6NuX+PIf1DZ7OZZKPwE9tcu2CffmYjxrgvanP+GGSwuD8szmCWOqpaL/dCwLtaREyZ6t/7Qu4FlGUu7/16R7hVnEXhDVJInBThqE8yrfjM+6AQ/NjmjwOWFaqe5tlL8Hug==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.lautotrasportosicura.it/lautotrasportosicura/module.php/saml/sp/saml2-logout.php/service"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.lautotrasportosicura.it/lautotrasportosicura/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">lautotrasportosicura</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Accesso richiesta contributo lautotrasportosicura</md:ServiceDescription>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Ministero delle Infrastrutture dei Trasporti</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">MIT</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">www.mit.gov.it</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:IPACode>m_inf</spid:IPACode>
+<spid:Public/>
+</md:Extensions>
+<md:EmailAddress>francesca.aielli@mit.gov.it</md:EmailAddress>
+<md:TelephoneNumber>0641584510</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>

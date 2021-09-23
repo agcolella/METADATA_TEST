@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="ComuneSoliera" entityID="https://www.comune.soliera.mo.it/sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>NqBrIMpKZv3hYz01nkxppS6bwpUFWwf1m3dZxl5hpdQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+myGWTHCO8SZEi799aocRsCNVBMge1kPQaFgUiaknu/W5+tyfoS+hL+JHNuD/zDOxOIrc8qjMmGA0
+66FCdvj+zvsG2wBQB7MI2HFj0fBcluYlp6hAp3HH6A3YLoxToHQHgZ44p47JV9iNNf6wzkKvpwy/
+SmynYLqwVgmZHFW9vWZQVurIJ3Gbu+mjS5n7GSK8WlfPDX0w22KOyXMJlc+DibmUmvAj+e+ZzKuS
+IZ4Um40rt2QSy7enNLB/jTc62jcAsH6txw5ImK4mBvRQ3lqdicnUzIEHi3yPD/CT+tUPsuZxmpAF
+TMkEkfavE34cC76Nv/EVTRot3HOGX2uEjhkUoA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1DpXwcZLLFKT4jgcZvql62f8eP/k/fX7gnGBz9v6CaA8QP2Xq0hxgn3HU+5MQ9Cp/wu3snXzy2ZZ
+nWkipaNyk+R1D20Eds4KNvudCXA/GuUvAKAOrL3uVLlyEqL8efaKIpp8IUKflProP9N28ECD2e/l
+TH4DA7rYpFTSNva+3kJNev1UZ50IdayTeyVe/3MGeinOnSjbKV5DoPplFnL1/5v6itt3vVuwyQvM
+lOgzeM3tRnxkk1MyiJ6vyunTTVNaBBcqLeNPetFwCM9rq0ZGPwKPV/xnKZsmXiBlq8ag1K55SMsk
++SiE1zoyYO56tuiVTYcLOj4jYkC9cWOGqz3/ww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGMTCCBRmgAwIBAgIQCHLNnofhekyqMfnPb6zg2DANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR0w
+GwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAeFw0xOTA4MDkwMDAwMDBaFw0yMTExMDcxMjAw
+MDBaMCExHzAdBgNVBAMMFiouY29tdW5lLnNvbGllcmEubW8uaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDUOlfBxkssUpPiOBxm+qXrZ/x4/+T99fuCcYHP2/oJoDxA/ZerSHGCfcdT
+7kxD0Kn/C7eydfPLZlmdaSKlo3KT5HUPbQR2zgo2+50JcD8a5S8AoA6sve5UuXISovx59ooimnwh
+Qp+U+ug/03bwQIPZ7+VMfgMDutikVNI29r7eQk16/VRnnQh1rJN7JV7/cwZ6Kc6dKNspXkOg+mUW
+cvX/m/qK23e9W7DJC8yU6DN4ze1GfGSTUzKInq/K6dNNU1oEFyot40960XAIz2urRkY/Ao9X/Gcp
+myZeIGWrxqDUrnlIyyT5KITXOjJg7nq26JVNhws6PiNiQL1xY4arPf/DAgMBAAGjggMmMIIDIjAf
+BgNVHSMEGDAWgBRTyhdZ/GvAAyEvGq7kqqgcglbadTAdBgNVHQ4EFgQU2ax6NWsk5lWhwWQhWxTv
+tlqXUiMwIQYDVR0RBBowGIIWKi5jb211bmUuc29saWVyYS5tby5pdDAOBgNVHQ8BAf8EBAMCBaAw
+HQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMD4GA1UdHwQ3MDUwM6AxoC+GLWh0dHA6Ly9j
+ZHAucmFwaWRzc2wuY29tL1JhcGlkU1NMUlNBQ0EyMDE4LmNybDBMBgNVHSAERTBDMDcGCWCGSAGG
+/WwBAjAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BTMAgGBmeBDAEC
+ATB1BggrBgEFBQcBAQRpMGcwJgYIKwYBBQUHMAGGGmh0dHA6Ly9zdGF0dXMucmFwaWRzc2wuY29t
+MD0GCCsGAQUFBzAChjFodHRwOi8vY2FjZXJ0cy5yYXBpZHNzbC5jb20vUmFwaWRTU0xSU0FDQTIw
+MTguY3J0MAkGA1UdEwQCMAAwggF8BgorBgEEAdZ5AgQCBIIBbASCAWgBZgB1AO5Lvbd1zmC64UJp
+H6vhnmajD35fsHLYgwDEe4l6qP3LAAABbHZSTTgAAAQDAEYwRAIgcq/LQY4c2Vpx9+M8bb0vJWTP
+xPyfnarh3qXLCsxrUrsCIAU2E9yUk0UD31zTZeESU9d+Xen+D6IuKKCe7xNgM5seAHYAh3W/51l8
++IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8AAAFsdlJNhgAABAMARzBFAiEAsKKe4tLUSffy5fV9
+G1C2bBHRrYi7OdcGpU0E1gDSr/ICIBAtVyGv0MvZWVK/gLrnRIG3Qq4u8vqTplBo2Lnx4UL5AHUA
+RJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFsdlJMlgAABAMARjBEAiAS76rTkbQ5
+SHnuTLyivJddFMSiHBIJ6tg8GHRieullDAIgVkPFFy97JnNOvDf717TRInDQqaiRZeHddmklVKlC
+u7kwDQYJKoZIhvcNAQELBQADggEBAAdhGUVihIr2i1i9c+F8w6zTsG0c2yDg03IwnrLWedEPi0sq
+P7ePqo9eEu78RiVss1lZLqGwXNxGY9V/8eyV+/uqO+vVRqdrPK+ksCePnSX7Ee8cUxJqjJh6t8qv
+A5eSCqcPOzV9vyn+0XBSYkG1fZNPBThG8LICj0wrU5GltpIfp922cB+4uMAgg2st7fQ2q1zJJzFs
+UaL0VicRQX9gfZ0CVAXugoJ6TiaVbSJVbOJd+WgbqNB5lyXbsVDb+mE0gAAaQDHG+El2mmjHek71
+lBIR/L9p0iMdFc2avkeUtGfRA7M/eZAHvG9cs8xY9PvAmmbxCRb1FcL+yL5JeB8qCw4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:KeyName>certificationline.comune.soliera.mo.it</ds:KeyName>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIGMTCCBRmgAwIBAgIQCHLNnofhekyqMfnPb6zg2DANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe
+Fw0xOTA4MDkwMDAwMDBaFw0yMTExMDcxMjAwMDBaMCExHzAdBgNVBAMMFiouY29t
+dW5lLnNvbGllcmEubW8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDUOlfBxkssUpPiOBxm+qXrZ/x4/+T99fuCcYHP2/oJoDxA/ZerSHGCfcdT7kxD
+0Kn/C7eydfPLZlmdaSKlo3KT5HUPbQR2zgo2+50JcD8a5S8AoA6sve5UuXISovx5
+9ooimnwhQp+U+ug/03bwQIPZ7+VMfgMDutikVNI29r7eQk16/VRnnQh1rJN7JV7/
+cwZ6Kc6dKNspXkOg+mUWcvX/m/qK23e9W7DJC8yU6DN4ze1GfGSTUzKInq/K6dNN
+U1oEFyot40960XAIz2urRkY/Ao9X/GcpmyZeIGWrxqDUrnlIyyT5KITXOjJg7nq2
+6JVNhws6PiNiQL1xY4arPf/DAgMBAAGjggMmMIIDIjAfBgNVHSMEGDAWgBRTyhdZ
+/GvAAyEvGq7kqqgcglbadTAdBgNVHQ4EFgQU2ax6NWsk5lWhwWQhWxTvtlqXUiMw
+IQYDVR0RBBowGIIWKi5jb211bmUuc29saWVyYS5tby5pdDAOBgNVHQ8BAf8EBAMC
+BaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jZHAucmFwaWRzc2wuY29tL1JhcGlkU1NMUlNBQ0EyMDE4LmNy
+bDBMBgNVHSAERTBDMDcGCWCGSAGG/WwBAjAqMCgGCCsGAQUFBwIBFhxodHRwczov
+L3d3dy5kaWdpY2VydC5jb20vQ1BTMAgGBmeBDAECATB1BggrBgEFBQcBAQRpMGcw
+JgYIKwYBBQUHMAGGGmh0dHA6Ly9zdGF0dXMucmFwaWRzc2wuY29tMD0GCCsGAQUF
+BzAChjFodHRwOi8vY2FjZXJ0cy5yYXBpZHNzbC5jb20vUmFwaWRTU0xSU0FDQTIw
+MTguY3J0MAkGA1UdEwQCMAAwggF8BgorBgEEAdZ5AgQCBIIBbASCAWgBZgB1AO5L
+vbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAABbHZSTTgAAAQDAEYwRAIg
+cq/LQY4c2Vpx9+M8bb0vJWTPxPyfnarh3qXLCsxrUrsCIAU2E9yUk0UD31zTZeES
+U9d+Xen+D6IuKKCe7xNgM5seAHYAh3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq
+/16ggw8AAAFsdlJNhgAABAMARzBFAiEAsKKe4tLUSffy5fV9G1C2bBHRrYi7OdcG
+pU0E1gDSr/ICIBAtVyGv0MvZWVK/gLrnRIG3Qq4u8vqTplBo2Lnx4UL5AHUARJRl
+LrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFsdlJMlgAABAMARjBEAiAS
+76rTkbQ5SHnuTLyivJddFMSiHBIJ6tg8GHRieullDAIgVkPFFy97JnNOvDf717TR
+InDQqaiRZeHddmklVKlCu7kwDQYJKoZIhvcNAQELBQADggEBAAdhGUVihIr2i1i9
+c+F8w6zTsG0c2yDg03IwnrLWedEPi0sqP7ePqo9eEu78RiVss1lZLqGwXNxGY9V/
+8eyV+/uqO+vVRqdrPK+ksCePnSX7Ee8cUxJqjJh6t8qvA5eSCqcPOzV9vyn+0XBS
+YkG1fZNPBThG8LICj0wrU5GltpIfp922cB+4uMAgg2st7fQ2q1zJJzFsUaL0VicR
+QX9gfZ0CVAXugoJ6TiaVbSJVbOJd+WgbqNB5lyXbsVDb+mE0gAAaQDHG+El2mmjH
+ek71lBIR/L9p0iMdFc2avkeUtGfRA7M/eZAHvG9cs8xY9PvAmmbxCRb1FcL+yL5J
+eB8qCw4=					
+</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:KeyName>soliera.comune.plugandpay.it</ds:KeyName>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIGVDCCBDygAwIBAgIJAKPaNBc3O3JAMA0GCSqGSIb3DQEBCwUAMIG+MQswCQYD
+VQQGEwJJVDENMAsGA1UECAwEUm9tYTEaMBgGA1UEBwwRQ29tdW5lIGRpIFNvbGll
+cmExGjAYBgNVBAoMEUNvbXVuZSBkaSBTb2xpZXJhMQ0wCwYDVQQLDARTcGlkMSUw
+IwYDVQQDDBxzb2xpZXJhLmNvbXVuZS5wbHVnYW5kcGF5Lml0MTIwMAYJKoZIhvcN
+AQkBFiNwcm90b2NvbGxvQHBlYy5jb211bmUuc29saWVyYS5tby5pdDAeFw0xOTEw
+MTAwODE3MzZaFw0yMjEwMDkwODE3MzZaMIG+MQswCQYDVQQGEwJJVDENMAsGA1UE
+CAwEUm9tYTEaMBgGA1UEBwwRQ29tdW5lIGRpIFNvbGllcmExGjAYBgNVBAoMEUNv
+bXVuZSBkaSBTb2xpZXJhMQ0wCwYDVQQLDARTcGlkMSUwIwYDVQQDDBxzb2xpZXJh
+LmNvbXVuZS5wbHVnYW5kcGF5Lml0MTIwMAYJKoZIhvcNAQkBFiNwcm90b2NvbGxv
+QHBlYy5jb211bmUuc29saWVyYS5tby5pdDCCAiIwDQYJKoZIhvcNAQEBBQADggIP
+ADCCAgoCggIBAL11/kqN3HqkSi5hSJD2QNl+b8gyCFdRAz7kzjOLn7CflDxTUzP6
+1uxapNWfGtAr7sLH50wcJprjHN27Zf+yo8RzGUezYOiNlVX7VtE4R/dgmYwBwwII
+0KEXyFbFUxnvmyqyU2q3DPutAMauhUgVJgcNAZYjCpYBs7Zkk/0MHYeMIb/7w1g9
+QjKxmQyiUpytGx93ni8TskCJdJ4cxmADBbzZRlduIYKWighCpECelAUJNqHZHh55
+l6DhrSxnQNwJBDtMpy82Hk+2AokuJRpQEHWLeVJzXKG+LC/5vizByxr2qU55J0Ta
+bZ29zjNTdWWc6rkfEmE3KVawAH7vMU0lNRzQVPjHNK4Rz3UVpAF/p1bT82C2RjaO
+JkstjBJFFz3lYuWvDfn1kTmW8e5wN9fN2GAhVMLW08FXVU2TGj3NQ5AwWpCsg6gt
+eviBWZwC0NdkXpeobFnOE6SpuRulrz6no68TPdz9OrCjhB9RSYn9EcvIKv55Bc2p
+gjMNqYY+Up9AYAkN+7dBfhNDeyFEeeZ7tYop/pNDwGgIukaXEQYP//2b0OUtsQau
+T3Dmq/iTL4aHZXy/o2sVQQ29ur0SvbHnwPv7cpK0fu64K+FANvRg41OSkK6GI0RX
+12Ixj7ctH0FHF6CtYTPxv+HMuFqtkIx7Va3XPbmVPQQ+Y9zpJTFY2Zh1AgMBAAGj
+UzBRMB0GA1UdDgQWBBSP1VriSDkUvG3CwxpKfKYp3ISqSDAfBgNVHSMEGDAWgBSP
+1VriSDkUvG3CwxpKfKYp3ISqSDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB
+CwUAA4ICAQCBdwx8F/+e8fg83d1HkagITSiBXiTBaU0Fj/7NzJaYt85Ov00Y8X4n
+0dGyNRxnfEI0B+fmgQ/if/zOnlpygCQnHvhn65Myn3ak9OYNUl9ACXPcXax8QQQf
+ua6lIVEZrKsK55CpyKI3tAVS75HgNAxUPk44JkHLVaJPsQDhcCam1kimV1IRLmWf
+Gcz5RhwfSRo0fV4ZWZjKN2EcVlL6yelHa1lR8hHlMLj/4PoOCGqNLYe9Zav5oB5i
++Xl0XY+s4OSCvKVSBt1Jn31etGvLOm7RCt2+FmhGekbTUeEtZiFVVb3qC7z+9jrm
+GJXYVq7+JLv6xUJTjYGwTqF1iJqpgDExcZC93jxqmpok43zC/LJeFL//Q51BP8MB
+3GPiyPhOQpEJvCULz1bgyV8QY0TR9QWFpgborFD07y9kUBijfJWWR3tpHFG/Q3VF
+0dKYwbunr78JMbvGlfyjslDTEzO4qyY6E7WYZIIrPg45bmwwjALqxjN52C02XGsr
+auB8nBfwj3hNl146O2RXAUy7+o+dxFXZFLrc5WWdURj7kyLi5bNvYq/RtxIeFzPa
+QxfIhvtxd8gk1ewmblcubN/1TRkLbAVX9cKq3oYa2cvgs6CeBRBxB1B3o4VN5s3V
+Ns3aPz+PCjs1E4xeWIJWkFejiWmghxzqkEuuhvgOF7rCTqlJfMjjhw==
+</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://certificationline.comune.soliera.mo.it/Shibboleth.sso/SLO/SOAP"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://certificationline.comune.soliera.mo.it/Shibboleth.sso/SLO/Redirect"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://certificationline.comune.soliera.mo.it/Shibboleth.sso/SLO/POST"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://soliera.comune.plugandpay.it/spidslo"/>
+
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://certificationline.comune.soliera.mo.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://soliera.comune.plugandpay.it/spidacs" index="1"/>
+
+
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">serviziAnagrafeOnLine</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1"> 
+			<md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName> 
+			<md:ServiceDescription xml:lang="it"/> 
+			<md:RequestedAttribute Name="name"/> 
+			<md:RequestedAttribute Name="familyName"/> 
+			<md:RequestedAttribute Name="companyName"/> 
+			<md:RequestedAttribute Name="fiscalNumber"/> 
+			<md:RequestedAttribute Name="ivaCode"/> 
+			<md:RequestedAttribute Name="gender"/> 
+			<md:RequestedAttribute Name="placeOfBirth"/> 
+			<md:RequestedAttribute Name="countyOfBirth"/> 
+			<md:RequestedAttribute Name="dateOfBirth"/> 
+			<md:RequestedAttribute Name="email"/> 
+			<md:RequestedAttribute Name="spidCode"/> 
+		</md:AttributeConsumingService> 
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Soliera</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Soliera</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.comune.soliera.mo.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

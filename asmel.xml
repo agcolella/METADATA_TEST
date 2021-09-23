@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" cacheDuration="PT604800S" entityID="https://www.asmelab.it/spid" ID="pfx84410d30-00f2-c07a-1ace-dea853ec6e24"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx84410d30-00f2-c07a-1ace-dea853ec6e24"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>D1DPpW0KIgDx3ePcPIMEKR61228USEpzIJgRjDQ3XUs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ZzZcJh7HqW34b0xjl7N34/ltn/0oZHvu3Fq7CFNopw/ORlTeQ+OiotQGL70CcKft1AfQPAysAmhozmK0MCNJA8tZ8tUZbJyTP7ZX0XvO6vZT5Na9Co30i9e6BVQ0Ol6fsyYC+0XwCOVqv5s9CW+BHsJ25WzIGKdvIfLAcAgt2kouc2VgAwBnKJlvfovK55T73YH+y3gRgT+IsgUqkly8Xzl7ENI0sjuGZpgRrcmx11acNQ/2pIQx2PkygCW5NX1sJ2nTtLrbVMgogp45QLx397Hko5vX4Xhnxt4EFcsALRagWk4OWxw/uTIF32IMF4k0MUB1z9BFqnVMMJ6TbLWVOQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFYTCCBEmgAwIBAgISA5vvhD8+tXN+xVcH+R5DDVdQMA0GCSqGSIb3DQEBCwUAMEoxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MSMwIQYDVQQDExpMZXQncyBFbmNyeXB0IEF1dGhvcml0eSBYMzAeFw0yMDEwMjEyMzM4MThaFw0yMTAxMTkyMzM4MThaMBkxFzAVBgNVBAMTDnd3dy5hc21lbGFiLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnkXDj4Py7XacFzlcBVSt0RBsZHyHaHw3qvgqVJlgfvq3ya2kaMh0dmU4vo3xHH8U67AE6AHN62oBku7vtAlnJaxBoGJ28EeSzQlBkQJkRSJUFz/H/XA0eYhl1EPcFH3CT6LJO/fj+NyOdNRXaaVQXXXxAS71s5gi8tmDNX/YG/5Q4YZsCYcKnpZqO3mkOeR3p/gbUCTmw8uRFRdYq+rH8jbp65AHmJDEFGnypHnmqD3HmVMsav7O5UtJ4i48L30sQvXwhciOa3do6yg+OZSAuyKM0GpDENOEmHQxvr0CjAW9f7wcuGYD4mnn2IQbjFjO9mUBVf0NG3vz7wV4kLCF2wIDAQABo4ICcDCCAmwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQ4ygv5+DbBmx798s71wdcAN3wjdDAfBgNVHSMEGDAWgBSoSmpjBH3duubRObemRWXv86jsoTBvBggrBgEFBQcBAQRjMGEwLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwLmludC14My5sZXRzZW5jcnlwdC5vcmcwLwYIKwYBBQUHMAKGI2h0dHA6Ly9jZXJ0LmludC14My5sZXRzZW5jcnlwdC5vcmcvMCUGA1UdEQQeMByCCmFzbWVsYWIuaXSCDnd3dy5hc21lbGFiLml0MEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgwJgYIKwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYARJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAF1Tb39gQAABAMARzBFAiEA1KMrKVCYQgzOs04HZHKilcErXpde/s+bl96X+9DxOUQCIF8s3kl2utZ6RsbYPNv3y149vpO5qAdy4qxoLcGCsEq0AHcA9lyUL9F3MCIUVBgIMJRWjuNNExkzv98MLyALzE7xZOMAAAF1Tb39dgAABAMASDBGAiEA/nVH9jY6H7Rve2DOad/2pKK1vcTPlF9rzAy8QWfKY4sCIQCW/hePTKp3PkQDbrhMY0C0zMhjzMMZbwKg2RSsiEDBjTANBgkqhkiG9w0BAQsFAAOCAQEADKUvQ8Ac6qkgI2oM0wImP5CSl2Jw6etB7kqNOofLFKkA6FZUNCAmp9FHkRpMQKMI0eSXc3OoqlptjkV4XJ/o29NzdToYNcgo/CUdqz+UJKB3YJzzMdTFInzFhmalW9PMzxet/6iuR1xHsgYQD02pQr35DUSQSAmfYzNBxKCRP1aThzXvepkU9DBw/xOoUIjR2X25eQOhZJOVvMsfdJr8Y2xgAfuF2m9B3B9AUG1A9HrMJlUKhtMHLSwpmWL7DrB1ZZgdmLUhA8UU8hpMQJ5f/bRI2Z0SlPSErRd1vK594BCiiO6mo3jDPQMXDI6GdpfyL/uTlJlxvcR8R3uIAAin7A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFYTCCBEmgAwIBAgISA5vvhD8+tXN+xVcH+R5DDVdQMA0GCSqGSIb3DQEBCwUAMEoxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MSMwIQYDVQQDExpMZXQncyBFbmNyeXB0IEF1dGhvcml0eSBYMzAeFw0yMDEwMjEyMzM4MThaFw0yMTAxMTkyMzM4MThaMBkxFzAVBgNVBAMTDnd3dy5hc21lbGFiLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnkXDj4Py7XacFzlcBVSt0RBsZHyHaHw3qvgqVJlgfvq3ya2kaMh0dmU4vo3xHH8U67AE6AHN62oBku7vtAlnJaxBoGJ28EeSzQlBkQJkRSJUFz/H/XA0eYhl1EPcFH3CT6LJO/fj+NyOdNRXaaVQXXXxAS71s5gi8tmDNX/YG/5Q4YZsCYcKnpZqO3mkOeR3p/gbUCTmw8uRFRdYq+rH8jbp65AHmJDEFGnypHnmqD3HmVMsav7O5UtJ4i48L30sQvXwhciOa3do6yg+OZSAuyKM0GpDENOEmHQxvr0CjAW9f7wcuGYD4mnn2IQbjFjO9mUBVf0NG3vz7wV4kLCF2wIDAQABo4ICcDCCAmwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQ4ygv5+DbBmx798s71wdcAN3wjdDAfBgNVHSMEGDAWgBSoSmpjBH3duubRObemRWXv86jsoTBvBggrBgEFBQcBAQRjMGEwLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwLmludC14My5sZXRzZW5jcnlwdC5vcmcwLwYIKwYBBQUHMAKGI2h0dHA6Ly9jZXJ0LmludC14My5sZXRzZW5jcnlwdC5vcmcvMCUGA1UdEQQeMByCCmFzbWVsYWIuaXSCDnd3dy5hc21lbGFiLml0MEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgwJgYIKwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYARJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAF1Tb39gQAABAMARzBFAiEA1KMrKVCYQgzOs04HZHKilcErXpde/s+bl96X+9DxOUQCIF8s3kl2utZ6RsbYPNv3y149vpO5qAdy4qxoLcGCsEq0AHcA9lyUL9F3MCIUVBgIMJRWjuNNExkzv98MLyALzE7xZOMAAAF1Tb39dgAABAMASDBGAiEA/nVH9jY6H7Rve2DOad/2pKK1vcTPlF9rzAy8QWfKY4sCIQCW/hePTKp3PkQDbrhMY0C0zMhjzMMZbwKg2RSsiEDBjTANBgkqhkiG9w0BAQsFAAOCAQEADKUvQ8Ac6qkgI2oM0wImP5CSl2Jw6etB7kqNOofLFKkA6FZUNCAmp9FHkRpMQKMI0eSXc3OoqlptjkV4XJ/o29NzdToYNcgo/CUdqz+UJKB3YJzzMdTFInzFhmalW9PMzxet/6iuR1xHsgYQD02pQr35DUSQSAmfYzNBxKCRP1aThzXvepkU9DBw/xOoUIjR2X25eQOhZJOVvMsfdJr8Y2xgAfuF2m9B3B9AUG1A9HrMJlUKhtMHLSwpmWL7DrB1ZZgdmLUhA8UU8hpMQJ5f/bRI2Z0SlPSErRd1vK594BCiiO6mo3jDPQMXDI6GdpfyL/uTlJlxvcR8R3uIAAin7A==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.asmelab.it/spid/logout.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.asmelab.it/spid/acs.php" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="en">SPID Test</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">SPID Service Test</md:ServiceDescription>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Data Nascita"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Luogo Nascita"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Pv Nascita"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">ASMEL ASSOCIAZIONE</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ASMEL ASSOCIAZIONE</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.asmel.eu</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>asmel</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>amministrazione@asmel.eu</md:EmailAddress>
+    <md:TelephoneNumber>0817504527</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

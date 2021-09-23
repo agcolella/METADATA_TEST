@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_b5e0056e44eec8bb105fedf45a6f10413b2d465a" entityID="https://spid.crabruzzo.it/O4S.sso"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b5e0056e44eec8bb105fedf45a6f10413b2d465a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>V25X0TB5ZfFxwI2CxS0060/CAgGktwKWwfCVBSmkQ88=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jHH1NgSzk2GWDAyxZyh9J1KbRbWFyqs3qA4MDKjVg56kaU/ca/3r/S9XXd8e1KwU0y03rGaCW3Qb
+2Yxh88XU5QjTxfx714IX6uHgKG4IQSrXaKpD4UDDwZ4K3bedBtC3okdpxkEbBAGcvRQywIchW6Ui
+o6jAd6kOgxZwijV43C6657kkCyAql2YdmF+C61UqYl9eAfWZWnHXaLp+BmKns+ew/jl5WHEoibOs
+7HcfTWjMHWzqlX1+402W9V0dR+BfTfQsrZHScL6Q14jjKsqKj+xKbdRdbza7+cCeDG56sTS2bqvg
+PTAuf32TATSRhfl4P3ErKvhfPHvV/KFwAd+ecg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sAwF/6dUmpfzaiCmQd7fEkVC9R0TnpLQlMnwyMNNR0UvqView0c6PgLWYXhPqzHYsFVJfvga8BYc
+4CxOwpp3cBJ/Z1gshhIfqkYkplpNvPDvED/BRQ/OCIqDUhrh2lIzKYRjHdWWj4dyFhynYh7XD//h
+aLIe+76a4076+gSbr5KMmd5vWrrUxSS5uBQqRFqUk9Rz/3TIInBpZcrx+TIW1C4GugpCnnDfgQby
+YSJV9hYO/0HLOMwD7+84RcRWziHgNQ6Or4gPojfQGWoc60xfbZRqH3zMiB21kh/8hy8P88Fccz0m
+CObFcZbD8o/V5KesiUL+PexFLbp4nnJrgXZ2UQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGMDCCBRigAwIBAgIQCNmzPAmG/NAClZPRe8SrlDANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR0w
+GwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAeFw0xODA1MTUwMDAwMDBaFw0yMDA1MTQxMjAw
+MDBaMBkxFzAVBgNVBAMMDiouY3JhYnJ1enpvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAsAwF/6dUmpfzaiCmQd7fEkVC9R0TnpLQlMnwyMNNR0UvqView0c6PgLWYXhPqzHYsFVJ
+fvga8BYc4CxOwpp3cBJ/Z1gshhIfqkYkplpNvPDvED/BRQ/OCIqDUhrh2lIzKYRjHdWWj4dyFhyn
+Yh7XD//haLIe+76a4076+gSbr5KMmd5vWrrUxSS5uBQqRFqUk9Rz/3TIInBpZcrx+TIW1C4GugpC
+nnDfgQbyYSJV9hYO/0HLOMwD7+84RcRWziHgNQ6Or4gPojfQGWoc60xfbZRqH3zMiB21kh/8hy8P
+88Fccz0mCObFcZbD8o/V5KesiUL+PexFLbp4nnJrgXZ2UQIDAQABo4IDLTCCAykwHwYDVR0jBBgw
+FoAUU8oXWfxrwAMhLxqu5KqoHIJW2nUwHQYDVR0OBBYEFDTKxgMIkMhNBY27yL8Clv69+hc+MCcG
+A1UdEQQgMB6CDiouY3JhYnJ1enpvLml0ggxjcmFicnV6em8uaXQwDgYDVR0PAQH/BAQDAgWgMB0G
+A1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY2Rw
+LnJhcGlkc3NsLmNvbS9SYXBpZFNTTFJTQUNBMjAxOC5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1s
+AQIwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgEw
+dQYIKwYBBQUHAQEEaTBnMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3NsLmNvbTA9
+BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMucmFwaWRzc2wuY29tL1JhcGlkU1NMUlNBQ0EyMDE4
+LmNydDAJBgNVHRMEAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdQCkuQmQtBhYFIe7E6LM
+Z3AKPDWYBPkb37jjd80OyA3cEAAAAWNkg2Z+AAAEAwBGMEQCIAi+zxlQNUCY6X4NyMj4mm+RQJcn
+qctT8PSvAPPjm0YyAiAVlD/saJu99uqdFUNjz9RtHjI98ev3dxkgE0JXgBHOpgB2AG9Tdqwx8DEZ
+2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABY2SDaBUAAAQDAEcwRQIgVgCd1mWx9u7tfRLLyaXW
+et6QSSQNWkcJrucsz900YhMCIQCdAwRxFvsQFQLQAFids2CyBM3u0ByHdCPvz7bsopWC8QB2ALvZ
+37wfinG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaOHtGFAAABY2SDZ3kAAAQDAEcwRQIgK3Wz4f4ZnCJt
+qjY5Je9s/9EynW3iq/1hBytMkFOUSa8CIQCjZtkZ+ScGgvFJdzp2o4KVSeuw8WkK/BC5as3jgPwn
+MTANBgkqhkiG9w0BAQsFAAOCAQEAAAlbxHUsm2QghPO4e9JsgV0G3Q+5zkDISztPyknfMnI95WPL
+DifI12BGtqlniGp0t9CxzEz+Vvcu77Fh5Z3UKZ1meIiCGynqZ+ee0OCbgIp7O+vycWXK+moBuejd
+XiAflMek9A5mFigsbxmx2vBYSCfEypGyVhwiJQNjl/1H0ANp5DiFOEEBU3Ld71UDQaQPAHclRft6
+SLDiapvR5d7CxbPyp1SrnaPfH2v1xxeWJuKO9RudYPYWUyAM3EAnDKhNayuwr72kI7Jtv1omtVgs
+2RJcbma7GTlIZJle82OlCnNsyFD93BoszOEi5An22VEhxNVcHhKfUSp/EBrlrPmJ5g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>*.crabruzzo.it</ds:KeyName>
+        <ds:KeyName>crabruzzo.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=*.crabruzzo.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIGMDCCBRigAwIBAgIQCNmzPAmG/NAClZPRe8SrlDANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe
+Fw0xODA1MTUwMDAwMDBaFw0yMDA1MTQxMjAwMDBaMBkxFzAVBgNVBAMMDiouY3Jh
+YnJ1enpvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsAwF/6dU
+mpfzaiCmQd7fEkVC9R0TnpLQlMnwyMNNR0UvqView0c6PgLWYXhPqzHYsFVJfvga
+8BYc4CxOwpp3cBJ/Z1gshhIfqkYkplpNvPDvED/BRQ/OCIqDUhrh2lIzKYRjHdWW
+j4dyFhynYh7XD//haLIe+76a4076+gSbr5KMmd5vWrrUxSS5uBQqRFqUk9Rz/3TI
+InBpZcrx+TIW1C4GugpCnnDfgQbyYSJV9hYO/0HLOMwD7+84RcRWziHgNQ6Or4gP
+ojfQGWoc60xfbZRqH3zMiB21kh/8hy8P88Fccz0mCObFcZbD8o/V5KesiUL+PexF
+Lbp4nnJrgXZ2UQIDAQABo4IDLTCCAykwHwYDVR0jBBgwFoAUU8oXWfxrwAMhLxqu
+5KqoHIJW2nUwHQYDVR0OBBYEFDTKxgMIkMhNBY27yL8Clv69+hc+MCcGA1UdEQQg
+MB6CDiouY3JhYnJ1enpvLml0ggxjcmFicnV6em8uaXQwDgYDVR0PAQH/BAQDAgWg
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA+BgNVHR8ENzA1MDOgMaAv
+hi1odHRwOi8vY2RwLnJhcGlkc3NsLmNvbS9SYXBpZFNTTFJTQUNBMjAxOC5jcmww
+TAYDVR0gBEUwQzA3BglghkgBhv1sAQIwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93
+d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgEwdQYIKwYBBQUHAQEEaTBnMCYG
+CCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3NsLmNvbTA9BggrBgEFBQcw
+AoYxaHR0cDovL2NhY2VydHMucmFwaWRzc2wuY29tL1JhcGlkU1NMUlNBQ0EyMDE4
+LmNydDAJBgNVHRMEAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdQCkuQmQ
+tBhYFIe7E6LMZ3AKPDWYBPkb37jjd80OyA3cEAAAAWNkg2Z+AAAEAwBGMEQCIAi+
+zxlQNUCY6X4NyMj4mm+RQJcnqctT8PSvAPPjm0YyAiAVlD/saJu99uqdFUNjz9Rt
+HjI98ev3dxkgE0JXgBHOpgB2AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgia
+N9kTAAABY2SDaBUAAAQDAEcwRQIgVgCd1mWx9u7tfRLLyaXWet6QSSQNWkcJrucs
+z900YhMCIQCdAwRxFvsQFQLQAFids2CyBM3u0ByHdCPvz7bsopWC8QB2ALvZ37wf
+inG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaOHtGFAAABY2SDZ3kAAAQDAEcwRQIgK3Wz
+4f4ZnCJtqjY5Je9s/9EynW3iq/1hBytMkFOUSa8CIQCjZtkZ+ScGgvFJdzp2o4KV
+Seuw8WkK/BC5as3jgPwnMTANBgkqhkiG9w0BAQsFAAOCAQEAAAlbxHUsm2QghPO4
+e9JsgV0G3Q+5zkDISztPyknfMnI95WPLDifI12BGtqlniGp0t9CxzEz+Vvcu77Fh
+5Z3UKZ1meIiCGynqZ+ee0OCbgIp7O+vycWXK+moBuejdXiAflMek9A5mFigsbxmx
+2vBYSCfEypGyVhwiJQNjl/1H0ANp5DiFOEEBU3Ld71UDQaQPAHclRft6SLDiapvR
+5d7CxbPyp1SrnaPfH2v1xxeWJuKO9RudYPYWUyAM3EAnDKhNayuwr72kI7Jtv1om
+tVgs2RJcbma7GTlIZJle82OlCnNsyFD93BoszOEi5An22VEhxNVcHhKfUSp/EBrl
+rPmJ5g==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.crabruzzo.it/O4S.sso/SLO/POST"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.crabruzzo.it/O4S.sso/SAML2/POST" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="it">Consiglio Regione Abruzzo</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+</md:SPSSODescriptor>
+        <md:Organization>
+                <md:OrganizationName xml:lang="it"> Consiglio Regione Abruzzo </md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it"> Consiglio Regione Abruzzo </md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it"> https://www.consiglio.regione.abruzzo.it </md:OrganizationURL>
+        </md:Organization>
+</md:EntityDescriptor>

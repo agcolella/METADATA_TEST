@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Capannori" entityID="https://www.comune.capannori.lu.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Capannori">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>mC1W1BKt1Y0ccNd24tP5sOJlSnR5TanX/D38tE4Df00=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sDsScG3vfRjSwWleacMpDE58IlYgPhHTSannmCwGm8SApLf31Ldlm5G/bWK/wcho+xvUwzfjqfZh
+C/rJ55FVooWrtdS/3qHuP7qjRc4H8m91p5qhEEOuSlgO5zUApwwOdUVEikUI32j6e+qo9l4SfbcX
+5cn84KMbQONZMwz7W59N4Ds7dQ0bHW2xQ1BXCOQJaATKQM+DZj5T2AtVIUtRd1rOOYBg/n3I28Pi
+zQBk22+3JJ8nesnlNEGWJVgE3U+aepMJHY7rfApbqt175FIaO2fy1UN8QtJeiQUc72RndgM8AiDb
+LQmfqXYibAhv9FGqOCafHff4ROMc74JsuKpqLg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zIpjt78mNYXZ0dWZ0K6RjgqU+qmQ5Dgwu41XJkGN+1u3+Lclr2/omb9UIvMG5HqGuwHYqwVM3CQ/
+AgSpx1jWJhzmpw2R4lMi5imssk5Mq9NyoEM1F39+gzdW1KtVMR6QyoaGQuYgkM/mZEJXlyTI2RZq
+ALbtWJwjfE/tFLykc6rHMlsIH+5/ZPO+NkSCmMUADlLpJC4/MJtbhfJ1dIPKyHWrTFHDJnSw9R3B
+ib76G4SVeQOpyOM38tTY8ggOAOalPf8EdVney1FhA7bWwB3XT0+2k9MyntAinvIFxY+3TBHZpELP
++AxZJMROWiYxTxqfKBwXFEa9i/b6Shd6y7albw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAPGOjw7Z88NeMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2FwYW5ub3JpLmx1Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA2
+MTQwNjQ5MDRaFw0yODA2MTEwNjQ5MDRaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FwYW5ub3Jp
+Lmx1Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMyKY7e/JjWF2dHVmdCukY4KlPqpkOQ4MLuNVyZBjftbt/i3Ja9v6Jm/VCLzBuR6
+hrsB2KsFTNwkPwIEqcdY1iYc5qcNkeJTIuYprLJOTKvTcqBDNRd/foM3VtSrVTEekMqGhkLmIJDP
+5mRCV5ckyNkWagC27VicI3xP7RS8pHOqxzJbCB/uf2TzvjZEgpjFAA5S6SQuPzCbW4XydXSDysh1
+q0xRwyZ0sPUdwYm++huElXkDqcjjN/LU2PIIDgDmpT3/BHVZ3stRYQO21sAd109PtpPTMp7QIp7y
+BcWPt0wR2aRCz/gMWSTETlomMU8anygcFxRGvYv2+koXesu2pW8CAwEAAaNQME4wHQYDVR0OBBYE
+FOrUhiglAo3a7NYieahJlmqI3ndOMB8GA1UdIwQYMBaAFOrUhiglAo3a7NYieahJlmqI3ndOMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEdfhzlAvKg+i+YqfUpRexG++bYeOUjTGtPO
+dqrsWTqLz3TATzCJ8xI7ufygsqs+Vnal7WOlOysFNOppKo6OX+KfhwmocO+whw5p8HQko/wOeeIa
+TP8mvrbkTs43gi0SFuIuA8Uc9IPI0pTJhp+bFo5EfZc6RJ4wd7RVpLyXbn+XNHRr2BVwfSXCmpD0
+BXhRS1Fy9Lot40FJTCWll4huvlQ9sLzGZf5DbiuCqAmbEHU0MT95nJHj6VCykm9vmBIcyiWPb3B+
+ITVy4oosoejPdTME3tv7I1cE8cWcDuwjD9lOZMc/FAKkNecu1gbbIIIHaDJVBIJmLYq3ClyLQsjn
+hus=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAPGOjw7Z88NeMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FwYW5ub3JpLmx1Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA2MTQwNjQ5MDRaFw0yODA2MTEwNjQ5MDRaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FwYW5ub3JpLmx1Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMyKY7e/JjWF2dHVmdCukY4KlPqpkOQ4MLuNVyZBjftbt/i3Ja9v6Jm/VCLzBuR6hrsB2KsFTNwkPwIEqcdY1iYc5qcNkeJTIuYprLJOTKvTcqBDNRd/foM3VtSrVTEekMqGhkLmIJDP5mRCV5ckyNkWagC27VicI3xP7RS8pHOqxzJbCB/uf2TzvjZEgpjFAA5S6SQuPzCbW4XydXSDysh1q0xRwyZ0sPUdwYm++huElXkDqcjjN/LU2PIIDgDmpT3/BHVZ3stRYQO21sAd109PtpPTMp7QIp7yBcWPt0wR2aRCz/gMWSTETlomMU8anygcFxRGvYv2+koXesu2pW8CAwEAAaNQME4wHQYDVR0OBBYEFOrUhiglAo3a7NYieahJlmqI3ndOMB8GA1UdIwQYMBaAFOrUhiglAo3a7NYieahJlmqI3ndOMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEdfhzlAvKg+i+YqfUpRexG++bYeOUjTGtPOdqrsWTqLz3TATzCJ8xI7ufygsqs+Vnal7WOlOysFNOppKo6OX+KfhwmocO+whw5p8HQko/wOeeIaTP8mvrbkTs43gi0SFuIuA8Uc9IPI0pTJhp+bFo5EfZc6RJ4wd7RVpLyXbn+XNHRr2BVwfSXCmpD0BXhRS1Fy9Lot40FJTCWll4huvlQ9sLzGZf5DbiuCqAmbEHU0MT95nJHj6VCykm9vmBIcyiWPb3B+ITVy4oosoejPdTME3tv7I1cE8cWcDuwjD9lOZMc/FAKkNecu1gbbIIIHaDJVBIJmLYq3ClyLQsjnhus=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/capannori"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/capannori" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/capannori" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Capannori</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Capannori</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Capannori</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Capannori</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Capannori</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Capannori</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Capannori</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Capannori</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.capannori.lu.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.capannori.lu.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.capannori.lu.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.capannori.lu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

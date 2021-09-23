@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="SanVitoDiLeguzzano" entityID="https://www.comune.sanvitodileguzzano.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SanVitoDiLeguzzano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>XzPlKw2fdP2MxWNIoWJPSVRk1XgmXESLF9NAHpEhefc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+j3A2ITioXGRkfYoYU6xxyfsfh1HqLtt0mJLOzSbElGK0Kl7Nf+oGSKNJ2R61CGsdOtK9Hbqnsl+v
+eAeTI/eHq6K6E0CGhwdbHdUIqIAjAPbXR5tFxd8q7zYEKERrdw/ueY9UGnutF8gTIYYMjpOjtzzo
+Xa9tvrPP9fw8Xy6nTR7gLosVOxqOq32sbPxVBgEpqrtr28AvjkKb7DoXEvKqbVQj5wIgHLIBC90A
+KU7XFgMnnUy5PFJwsPHspeP3RB1SMP1Ag0TPRsOYQSOPypKip1gbvx9mfKz7v1OgUOalG9h0urK8
+VMGrE0ncintDqOsIY6t1LdE/16Gv2k64YkeC4w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lpcBW2leil7YkgVOK+cylpSpbweSLPB3g3f4oK0Bx72+bYrv9LryjtOnDB6xeOK+lRxRR3V49Lm/
+EgROqKdu79DEuV9u/ExuqNrNO13o76G69jBMXIKa6SxxEGG98D5xWUX5KFWPCQzLPdbNg3JC8XWp
+m+PgLSm6CBJb39AvIrSNZmhNYhkpZRHx1kA7pCz0+STrX5wVBwJkwosaTl7sQEYXPrrYcYV0BLHh
+v9wKv2zaKlAR4gtsNQFaxzhHMqK8AXFsJGrVaXGuBR5rS8J3Ib9sQ62GHyo7t+O0SNrBZFCrVAgL
+1Psxt5n7rEW/+7d7tQCab0rXCTtt4w5uXYRrAQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDZzCCAk+gAwIBAgIJAOuXTrHC0wEVMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5j
+b211bmUuc2Fudml0b2RpbGVndXp6YW5vLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJ
+VDAeFw0xOTAzMTIwODQ4MDNaFw0yOTAzMDkwODQ4MDRaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUu
+c2Fudml0b2RpbGVndXp6YW5vLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJaXAVtpXope2JIFTivnMpaUqW8Hkizwd4N3+KCt
+Ace9vm2K7/S68o7TpwwesXjivpUcUUd1ePS5vxIETqinbu/QxLlfbvxMbqjazTtd6O+huvYwTFyC
+mukscRBhvfA+cVlF+ShVjwkMyz3WzYNyQvF1qZvj4C0puggSW9/QLyK0jWZoTWIZKWUR8dZAO6Qs
+9Pkk61+cFQcCZMKLGk5e7EBGFz662HGFdASx4b/cCr9s2ipQEeILbDUBWsc4RzKivAFxbCRq1Wlx
+rgUea0vCdyG/bEOthh8qO7fjtEjawWRQq1QIC9T7MbeZ+6xFv/u3e7UAmm9K1wk7beMObl2EawEC
+AwEAAaNQME4wHQYDVR0OBBYEFJwZyHd3T1PY6uFECZFuUNVbKQfTMB8GA1UdIwQYMBaAFJwZyHd3
+T1PY6uFECZFuUNVbKQfTMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFB7Wo/BENOw
+CNKU/zbNAatyWZHiqkPJFM0AF7j1wLfENoExQG5NZRSY0x7UYkuWPRGIHmC7Vws3AbIMOXoA9/lA
+tFU+tka27bA6ZFaJESos1TEKEcigSpSRT9Ad+QROcSyfjTwws7PACLTfmMIe53sgqz2FLyIGjWQq
+2q1QCQZZopzYbTmBnYawzhWKiiUwe+0cQERPyVWZOqC3c0IYTV7VrbJktGTLwtA/SMu3mhj/3PZ8
+c3pYGkAPUXKyuxW3NItMXPY33XZX9qYRfbmuBqQBbODrTdr3RgwXZTVPHrNA5pvwlcoAAXPwWh3Z
+Y+SLXkGdnDLj6BY9czR5FnSDQqA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJAOuXTrHC0wEVMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RpbGVndXp6YW5vLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMTIwODQ4MDNaFw0yOTAzMDkwODQ4MDRaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RpbGVndXp6YW5vLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJaXAVtpXope2JIFTivnMpaUqW8Hkizwd4N3+KCtAce9vm2K7/S68o7TpwwesXjivpUcUUd1ePS5vxIETqinbu/QxLlfbvxMbqjazTtd6O+huvYwTFyCmukscRBhvfA+cVlF+ShVjwkMyz3WzYNyQvF1qZvj4C0puggSW9/QLyK0jWZoTWIZKWUR8dZAO6Qs9Pkk61+cFQcCZMKLGk5e7EBGFz662HGFdASx4b/cCr9s2ipQEeILbDUBWsc4RzKivAFxbCRq1WlxrgUea0vCdyG/bEOthh8qO7fjtEjawWRQq1QIC9T7MbeZ+6xFv/u3e7UAmm9K1wk7beMObl2EawECAwEAAaNQME4wHQYDVR0OBBYEFJwZyHd3T1PY6uFECZFuUNVbKQfTMB8GA1UdIwQYMBaAFJwZyHd3T1PY6uFECZFuUNVbKQfTMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFB7Wo/BENOwCNKU/zbNAatyWZHiqkPJFM0AF7j1wLfENoExQG5NZRSY0x7UYkuWPRGIHmC7Vws3AbIMOXoA9/lAtFU+tka27bA6ZFaJESos1TEKEcigSpSRT9Ad+QROcSyfjTwws7PACLTfmMIe53sgqz2FLyIGjWQq2q1QCQZZopzYbTmBnYawzhWKiiUwe+0cQERPyVWZOqC3c0IYTV7VrbJktGTLwtA/SMu3mhj/3PZ8c3pYGkAPUXKyuxW3NItMXPY33XZX9qYRfbmuBqQBbODrTdr3RgwXZTVPHrNA5pvwlcoAAXPwWh3ZY+SLXkGdnDLj6BY9czR5FnSDQqA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJAOuXTrHC0wEVMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RpbGVndXp6YW5vLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMTIwODQ4MDNaFw0yOTAzMDkwODQ4MDRaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RpbGVndXp6YW5vLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJaXAVtpXope2JIFTivnMpaUqW8Hkizwd4N3+KCtAce9vm2K7/S68o7TpwwesXjivpUcUUd1ePS5vxIETqinbu/QxLlfbvxMbqjazTtd6O+huvYwTFyCmukscRBhvfA+cVlF+ShVjwkMyz3WzYNyQvF1qZvj4C0puggSW9/QLyK0jWZoTWIZKWUR8dZAO6Qs9Pkk61+cFQcCZMKLGk5e7EBGFz662HGFdASx4b/cCr9s2ipQEeILbDUBWsc4RzKivAFxbCRq1WlxrgUea0vCdyG/bEOthh8qO7fjtEjawWRQq1QIC9T7MbeZ+6xFv/u3e7UAmm9K1wk7beMObl2EawECAwEAAaNQME4wHQYDVR0OBBYEFJwZyHd3T1PY6uFECZFuUNVbKQfTMB8GA1UdIwQYMBaAFJwZyHd3T1PY6uFECZFuUNVbKQfTMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFB7Wo/BENOwCNKU/zbNAatyWZHiqkPJFM0AF7j1wLfENoExQG5NZRSY0x7UYkuWPRGIHmC7Vws3AbIMOXoA9/lAtFU+tka27bA6ZFaJESos1TEKEcigSpSRT9Ad+QROcSyfjTwws7PACLTfmMIe53sgqz2FLyIGjWQq2q1QCQZZopzYbTmBnYawzhWKiiUwe+0cQERPyVWZOqC3c0IYTV7VrbJktGTLwtA/SMu3mhj/3PZ8c3pYGkAPUXKyuxW3NItMXPY33XZX9qYRfbmuBqQBbODrTdr3RgwXZTVPHrNA5pvwlcoAAXPwWh3ZY+SLXkGdnDLj6BY9czR5FnSDQqA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sanvitodileguzzano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanvitodileguzzano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanvitodileguzzano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanvitodileguzzano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Vito di Leguzzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di San Vito di Leguzzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di San Vito di Leguzzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di San Vito di Leguzzano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Vito di Leguzzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Vito di Leguzzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di San Vito di Leguzzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di San Vito di Leguzzano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sanvitodileguzzano.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sanvitodileguzzano.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.sanvitodileguzzano.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.sanvitodileguzzano.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

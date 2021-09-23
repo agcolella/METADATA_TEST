@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.parcodeltapo.it/" ID="_8ecba28e2229a820b528681a1108e3578e87ef8948632653ffb2b2b1efa7f26d"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_8ecba28e2229a820b528681a1108e3578e87ef8948632653ffb2b2b1efa7f26d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OqeZaI5R1aIP7JcBjAAdUzUNoJVZVtdK4QL/+f5QNAw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Mci6Lzj8NnjTvm7FVqh3eTfVZ906sfuYa76PJF1FJGVDEe3JXn5Gd4Dr4Iw5B5jQ8y0YeZrCBcn0HqxW2ridFp2bOoEaSnNRjkmhcOTGkr5oyMvCirvcEf0H0Qv6Yqm7Kfv4T5I7U3wqYNLkrRKYBru/Y8HOUNre6ITpuDNSz+NQjt4wFMf7cQmQ9amI0w4qtUNZltEJWoT/zsWVs5Afm3MfJWmTVWdJotXciquEwSqT8W4qYwTrHbtY3stGZnf0zfytGFp06Fk5/Mjkbp3kaxyuMqwtw0omjck+W9XG1aSuXgpQgTvDp/AYkjuQJ/nkCxBW5y0CJ/xdi8h3xNz8dw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEKTCCAxGgAwIBAgIQFg8bYllKP5Xf5X9bxbFJxDANBgkqhkiG9w0BAQsFADCBuzELMAkGA1UEBhMCSVQxEjAQBgNVBAcTCUNvbWFjY2hpbzFIMEYGA1UECgw/RW50ZSBkaSBHZXN0aW9uZSBwZXIgSSBQYXJjaGkgZSBMYSBCaW9kaXZlcnNpdMOgIC0gRGVsdGEgZGVsIFBvMTUwMwYDVQQDEyxodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0LzEXMBUGA1UEBRYOUEE6SVQtZWdpcGxfMzgwHhcNMjAxMDI4MDc1MjI3WhcNMzAxMDI2MDc1MjI3WjCBuzELMAkGA1UEBhMCSVQxEjAQBgNVBAcTCUNvbWFjY2hpbzFIMEYGA1UECgw/RW50ZSBkaSBHZXN0aW9uZSBwZXIgSSBQYXJjaGkgZSBMYSBCaW9kaXZlcnNpdMOgIC0gRGVsdGEgZGVsIFBvMTUwMwYDVQQDEyxodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0LzEXMBUGA1UEBRYOUEE6SVQtZWdpcGxfMzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCk4AX+yVqggaAu/cnKdNfTDDqyjHFNY+yzoAjmnmXQxfTAzDCQAy3vjHdAU2jIF5x3jL6NWdl701zxDxKK2gvLUS2qmCC4oiO3eKHJpHVnepXnijuoCbZuJaMDM6ez+HK5D7SSG8s3Gylqwt2hFgysxutnyPwpmjBdyBwyfHJSvzYnjwZfGHUkDmNjAnVCj28M1OQQbWNS3A4kZYgxpIctMApwwfBm98Fe+WMPyDklDwoYnzPxq5CUUTYRs3QpTRJKfpe77RIm0c3vC6quCKIqj+k8lY+AHS9IT9gWItZHblpu6YSy0QzzBsAUxlx14Tt+1plVGR+Wpr4Ww3rk76uDAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAV3q5fBimICE0Hsysoa2knmt/8cWlSWHgMF6K7YpEXfqkGUl9PqZ7YTBLTQuWugssawg9fitmA2LXrKsiiSvPCURUM4bKy0aRyiLkNyZL50OtFNIBTcO+goa+SuGPiFUgxh5Z2sELddtr8dqNndFyR8AnTOFOgcIpk+HY48NFFZ96aLOaTXw5OeXTqDQdsR+nFKMkIZ3YsVWA3ms4N3MrtQul9H3ZpSs2Pwl6ewTlfSYLV8r68kCxBxDBYZYEeJWwxVjs2q4PKjjqWEEO9LNoEGu/iprNd0oC4EHrDGhyVISeeAnqSCEd1qYy8EA4CQllx5kbAAWoqUDIRvMZ8igClw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKTCCAxGgAwIBAgIQFg8bYllKP5Xf5X9bxbFJxDANBgkqhkiG9w0BAQsFADCBuzELMAkGA1UEBhMCSVQxEjAQBgNVBAcTCUNvbWFjY2hpbzFIMEYGA1UECgw/RW50ZSBkaSBHZXN0aW9uZSBwZXIgSSBQYXJjaGkgZSBMYSBCaW9kaXZlcnNpdMOgIC0gRGVsdGEgZGVsIFBvMTUwMwYDVQQDEyxodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0LzEXMBUGA1UEBRYOUEE6SVQtZWdpcGxfMzgwHhcNMjAxMDI4MDc1MjI3WhcNMzAxMDI2MDc1MjI3WjCBuzELMAkGA1UEBhMCSVQxEjAQBgNVBAcTCUNvbWFjY2hpbzFIMEYGA1UECgw/RW50ZSBkaSBHZXN0aW9uZSBwZXIgSSBQYXJjaGkgZSBMYSBCaW9kaXZlcnNpdMOgIC0gRGVsdGEgZGVsIFBvMTUwMwYDVQQDEyxodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0LzEXMBUGA1UEBRYOUEE6SVQtZWdpcGxfMzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCk4AX+yVqggaAu/cnKdNfTDDqyjHFNY+yzoAjmnmXQxfTAzDCQAy3vjHdAU2jIF5x3jL6NWdl701zxDxKK2gvLUS2qmCC4oiO3eKHJpHVnepXnijuoCbZuJaMDM6ez+HK5D7SSG8s3Gylqwt2hFgysxutnyPwpmjBdyBwyfHJSvzYnjwZfGHUkDmNjAnVCj28M1OQQbWNS3A4kZYgxpIctMApwwfBm98Fe+WMPyDklDwoYnzPxq5CUUTYRs3QpTRJKfpe77RIm0c3vC6quCKIqj+k8lY+AHS9IT9gWItZHblpu6YSy0QzzBsAUxlx14Tt+1plVGR+Wpr4Ww3rk76uDAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAV3q5fBimICE0Hsysoa2knmt/8cWlSWHgMF6K7YpEXfqkGUl9PqZ7YTBLTQuWugssawg9fitmA2LXrKsiiSvPCURUM4bKy0aRyiLkNyZL50OtFNIBTcO+goa+SuGPiFUgxh5Z2sELddtr8dqNndFyR8AnTOFOgcIpk+HY48NFFZ96aLOaTXw5OeXTqDQdsR+nFKMkIZ3YsVWA3ms4N3MrtQul9H3ZpSs2Pwl6ewTlfSYLV8r68kCxBxDBYZYEeJWwxVjs2q4PKjjqWEEO9LNoEGu/iprNd0oC4EHrDGhyVISeeAnqSCEd1qYy8EA4CQllx5kbAAWoqUDIRvMZ8igClw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKTCCAxGgAwIBAgIQFg8bYllKP5Xf5X9bxbFJxDANBgkqhkiG9w0BAQsFADCBuzELMAkGA1UEBhMCSVQxEjAQBgNVBAcTCUNvbWFjY2hpbzFIMEYGA1UECgw/RW50ZSBkaSBHZXN0aW9uZSBwZXIgSSBQYXJjaGkgZSBMYSBCaW9kaXZlcnNpdMOgIC0gRGVsdGEgZGVsIFBvMTUwMwYDVQQDEyxodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0LzEXMBUGA1UEBRYOUEE6SVQtZWdpcGxfMzgwHhcNMjAxMDI4MDc1MjI3WhcNMzAxMDI2MDc1MjI3WjCBuzELMAkGA1UEBhMCSVQxEjAQBgNVBAcTCUNvbWFjY2hpbzFIMEYGA1UECgw/RW50ZSBkaSBHZXN0aW9uZSBwZXIgSSBQYXJjaGkgZSBMYSBCaW9kaXZlcnNpdMOgIC0gRGVsdGEgZGVsIFBvMTUwMwYDVQQDEyxodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0LzEXMBUGA1UEBRYOUEE6SVQtZWdpcGxfMzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCk4AX+yVqggaAu/cnKdNfTDDqyjHFNY+yzoAjmnmXQxfTAzDCQAy3vjHdAU2jIF5x3jL6NWdl701zxDxKK2gvLUS2qmCC4oiO3eKHJpHVnepXnijuoCbZuJaMDM6ez+HK5D7SSG8s3Gylqwt2hFgysxutnyPwpmjBdyBwyfHJSvzYnjwZfGHUkDmNjAnVCj28M1OQQbWNS3A4kZYgxpIctMApwwfBm98Fe+WMPyDklDwoYnzPxq5CUUTYRs3QpTRJKfpe77RIm0c3vC6quCKIqj+k8lY+AHS9IT9gWItZHblpu6YSy0QzzBsAUxlx14Tt+1plVGR+Wpr4Ww3rk76uDAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAV3q5fBimICE0Hsysoa2knmt/8cWlSWHgMF6K7YpEXfqkGUl9PqZ7YTBLTQuWugssawg9fitmA2LXrKsiiSvPCURUM4bKy0aRyiLkNyZL50OtFNIBTcO+goa+SuGPiFUgxh5Z2sELddtr8dqNndFyR8AnTOFOgcIpk+HY48NFFZ96aLOaTXw5OeXTqDQdsR+nFKMkIZ3YsVWA3ms4N3MrtQul9H3ZpSs2Pwl6ewTlfSYLV8r68kCxBxDBYZYEeJWwxVjs2q4PKjjqWEEO9LNoEGu/iprNd0oC4EHrDGhyVISeeAnqSCEd1qYy8EA4CQllx5kbAAWoqUDIRvMZ8igClw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.parcodeltapo.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.parcodeltapo.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Ente di Gestione per I Parchi e La Biodiversit&#xE0; - Delta del Po</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.parcodeltapo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.parcodeltapo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.parcodeltapo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.parcodeltapo.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">egipl_38</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:parcodeltapo@cert.parcodeltapo.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.casorateprimo.pv.it/" ID="pfxaacd0a60-0e78-5c2f-c5ec-d613475271d0"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxaacd0a60-0e78-5c2f-c5ec-d613475271d0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>D5l+9RFAd1qkMUfoMZWOxbqr8nXdtTsm0YRhsa3O7c4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>up2+t0U2fLyGdXJXc7xvG5mAfXDUoqP/tmMr8BwX0sQ6F/OP/YzmbDvx6NjZMgi1DycYvUOhbf5DkR+WdtqW8qBx2Zmz+pC1RRh1KjJjfxokxI+Qj7XoM2tXw0ztqtFHcHXcI1Oi9+YHbeQmZBAqDFohSw4iqHRpjzpSm6Lu7rbwEi2Lsp8DHpEh4n49DtsUCiADru9JcgmR/mGMxGOxSZd9j1hUn9Yv/+4I3ylE8O7WILOQmRWo2lF4wqNLcEqeL7fVQqLzns79wDXR36lJrTBUDWkEbimhcC66MvCeGzWy6OxuYtZKgc4keV28NuGe+RtvWwqsFaWFCqQzDoP5ZA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAMI0vxmyftGDMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExFzAVBgNVBAcMDkNhc29yYXRlIFByaW1vMSEwHwYDVQQKDBhDb211bmUgZGkgQ2Fzb3JhdGUgUHJpbW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTcwNQYDVQQDDC5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXByaW1vLnB2Lml0MB4XDTE4MDcxMjE0MjYyNFoXDTI4MDcwOTE0MjYyNFowgbExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEXMBUGA1UEBwwOQ2Fzb3JhdGUgUHJpbW8xITAfBgNVBAoMGENvbXVuZSBkaSBDYXNvcmF0ZSBQcmltbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNzA1BgNVBAMMLnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhc29yYXRlcHJpbW8ucHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDftcAk9DosjVK5zcXqUk42bnEho0Km7jsgj9OkdrxCdctrkbLSs2JcGG+XsCy0deL3xdQT/Hz66ZYE2llKjZcArDejjFBHn+nJ2oZcJIcYqWJKieWdvwkgfwppZiKi0bS3IyJ9dv38Qyzk3icFov8nhvkyA3Yi3CoCzWECfCnjxqneD532TYuCKpRaeKzSJ5W32U7GS2VLMbrywvQ6iIfzhc2qrs/9toq6q/ohjkTrdVO67En46i8Jp5R9/GTY+1IFu8zoMdFKQoaUoulWO3JQW9EcIJ11whmcHHNxU5+CnBtIfnr8pQ9UrfnYrncIEG5vXUA8hKcgHO+vwoQ90MJvAgMBAAGjUzBRMB0GA1UdDgQWBBQ4V5wopRQLqwYh1s2QGYrJOGc97jAfBgNVHSMEGDAWgBQ4V5wopRQLqwYh1s2QGYrJOGc97jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJLZ4vwFeDKo3ShXP/mXuzEfXXdvt1MzkdkjNeRDUqL+1/a8JYyflUMPy97uvfsfVLyLMP8ZQUe1O1oaKsV92PY34UTYBIpQkzB39Upv0yw6B1AhoMvy9KIzVjuaotI0sHDwrrkw+C3BANmcgx1Mr7CaJdWzH063QOShZL8nm8Aja+UsRMZZgK5cVXRsCFunWQZk8Gbz9WHkdmLQPTBXbKuDgl4gL8Lai6r4m6NiT245axN+ZiJcM6yZk06+CrOujI8Vvndh7xxPbCKWsvhfOGztTxjlCP3WcnGoEcXxZX7Y2EpAv+1dUBJ7vIxfh5hwfUE9cKULMc7vVQyGI5XZt7</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAMI0vxmyftGDMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExFzAVBgNVBAcMDkNhc29yYXRlIFByaW1vMSEwHwYDVQQKDBhDb211bmUgZGkgQ2Fzb3JhdGUgUHJpbW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTcwNQYDVQQDDC5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXByaW1vLnB2Lml0MB4XDTE4MDcxMjE0MjYyNFoXDTI4MDcwOTE0MjYyNFowgbExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEXMBUGA1UEBwwOQ2Fzb3JhdGUgUHJpbW8xITAfBgNVBAoMGENvbXVuZSBkaSBDYXNvcmF0ZSBQcmltbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNzA1BgNVBAMMLnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhc29yYXRlcHJpbW8ucHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDftcAk9DosjVK5zcXqUk42bnEho0Km7jsgj9OkdrxCdctrkbLSs2JcGG+XsCy0deL3xdQT/Hz66ZYE2llKjZcArDejjFBHn+nJ2oZcJIcYqWJKieWdvwkgfwppZiKi0bS3IyJ9dv38Qyzk3icFov8nhvkyA3Yi3CoCzWECfCnjxqneD532TYuCKpRaeKzSJ5W32U7GS2VLMbrywvQ6iIfzhc2qrs/9toq6q/ohjkTrdVO67En46i8Jp5R9/GTY+1IFu8zoMdFKQoaUoulWO3JQW9EcIJ11whmcHHNxU5+CnBtIfnr8pQ9UrfnYrncIEG5vXUA8hKcgHO+vwoQ90MJvAgMBAAGjUzBRMB0GA1UdDgQWBBQ4V5wopRQLqwYh1s2QGYrJOGc97jAfBgNVHSMEGDAWgBQ4V5wopRQLqwYh1s2QGYrJOGc97jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJLZ4vwFeDKo3ShXP/mXuzEfXXdvt1MzkdkjNeRDUqL+1/a8JYyflUMPy97uvfsfVLyLMP8ZQUe1O1oaKsV92PY34UTYBIpQkzB39Upv0yw6B1AhoMvy9KIzVjuaotI0sHDwrrkw+C3BANmcgx1Mr7CaJdWzH063QOShZL8nm8Aja+UsRMZZgK5cVXRsCFunWQZk8Gbz9WHkdmLQPTBXbKuDgl4gL8Lai6r4m6NiT245axN+ZiJcM6yZk06+CrOujI8Vvndh7xxPbCKWsvhfOGztTxjlCP3WcnGoEcXxZX7Y2EpAv+1dUBJ7vIxfh5hwfUE9cKULMc7vVQyGI5XZt7</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAMI0vxmyftGDMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExFzAVBgNVBAcMDkNhc29yYXRlIFByaW1vMSEwHwYDVQQKDBhDb211bmUgZGkgQ2Fzb3JhdGUgUHJpbW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTcwNQYDVQQDDC5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXNvcmF0ZXByaW1vLnB2Lml0MB4XDTE4MDcxMjE0MjYyNFoXDTI4MDcwOTE0MjYyNFowgbExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEXMBUGA1UEBwwOQ2Fzb3JhdGUgUHJpbW8xITAfBgNVBAoMGENvbXVuZSBkaSBDYXNvcmF0ZSBQcmltbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNzA1BgNVBAMMLnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhc29yYXRlcHJpbW8ucHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDftcAk9DosjVK5zcXqUk42bnEho0Km7jsgj9OkdrxCdctrkbLSs2JcGG+XsCy0deL3xdQT/Hz66ZYE2llKjZcArDejjFBHn+nJ2oZcJIcYqWJKieWdvwkgfwppZiKi0bS3IyJ9dv38Qyzk3icFov8nhvkyA3Yi3CoCzWECfCnjxqneD532TYuCKpRaeKzSJ5W32U7GS2VLMbrywvQ6iIfzhc2qrs/9toq6q/ohjkTrdVO67En46i8Jp5R9/GTY+1IFu8zoMdFKQoaUoulWO3JQW9EcIJ11whmcHHNxU5+CnBtIfnr8pQ9UrfnYrncIEG5vXUA8hKcgHO+vwoQ90MJvAgMBAAGjUzBRMB0GA1UdDgQWBBQ4V5wopRQLqwYh1s2QGYrJOGc97jAfBgNVHSMEGDAWgBQ4V5wopRQLqwYh1s2QGYrJOGc97jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJLZ4vwFeDKo3ShXP/mXuzEfXXdvt1MzkdkjNeRDUqL+1/a8JYyflUMPy97uvfsfVLyLMP8ZQUe1O1oaKsV92PY34UTYBIpQkzB39Upv0yw6B1AhoMvy9KIzVjuaotI0sHDwrrkw+C3BANmcgx1Mr7CaJdWzH063QOShZL8nm8Aja+UsRMZZgK5cVXRsCFunWQZk8Gbz9WHkdmLQPTBXbKuDgl4gL8Lai6r4m6NiT245axN+ZiJcM6yZk06+CrOujI8Vvndh7xxPbCKWsvhfOGztTxjlCP3WcnGoEcXxZX7Y2EpAv+1dUBJ7vIxfh5hwfUE9cKULMc7vVQyGI5XZt7</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.casorateprimo.pv.it/simplesaml/module.php/saml/sp/saml2-logout.php/casorateprimo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.casorateprimo.pv.it/simplesaml/module.php/saml/sp/saml2-acs.php/casorateprimo" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">casorateprimo</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_b988</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Casorate Primo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.casorateprimo.pv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

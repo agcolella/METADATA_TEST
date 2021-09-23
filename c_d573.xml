@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Fierozzo" entityID="https://www.comune.fierozzo.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Fierozzo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1wM5eoCZv8iyED2PWJ21dVatL5wUWyTWw5z9+2nI54E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+chmOOOSP7FEL3jGqklsIvVX7hrTxogi1bEbixdL7PhsVWeoGGSelhHLyv2OtJfh9IMKui3GnkRdk
+FgTWVL2+t+euY//rUiOaBqfxrmOhWClC7/0IT1cK0pFhv8qDiMpK79E2AUnrSJIOyEG3V4kSY7t9
+rnI5M43GMI6SlcEXgAj1q59OMOl7Dsd05s2lyh3lyQtoZLDdtwm2u2ex9LQrjEKbdLgeNpThp4h7
+1sHrvBtbdsOSA5t9LWPoraJ3ixYNBPsKw/Hweq3TSlNlsn5B38wsIooOl4oaSQ6qXUctGMSVOv3+
+Rf9+zfh+nauR2oudgHiTxxaB8udemTPuUMTNzQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qDf0/V9a86Xmgr3TXq8qN3sBe3QrJN+pzqdaMcJr+sqgsZNEZB7gHeswWKADq3fs6KfIRJ2P1Jxd
+cIGRdUFfuChUNh5b+P6aq8YwzfF6JzSthNxl9hqUY0qu926PIP0kLiKO7GXrQSh2lAHejDn9NooU
+2JjUcQr0cGwjgfbr3qdp2Zwa6MCH9jpVpY7OW9I1UK6TCce7+MkwmRs3aewQMiQkZLAfsnjshr0K
+YI94jQOabBbeTcv95I9RS1Avy+H0J8DvsXjBmaRW2DF+6Tdlq7+INcCAE783KzQCqabK0SwbAT9T
+d2ujHX+GlAuZMpZ9Fv8Af3ZKnwIcze02JB1tmw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDuDCCAqCgAwIBAgIJAJzL6RebRgWkMA0GCSqGSIb3DQEBCwUAMIGCMSIwIAYDVQQDDBl3d3cu
+Y29tdW5lLmZpZXJvenpvLnRuLml0MRswGQYDVQQKDBJDb211bmUgZGkgRmllcm96em8xFTATBgNV
+BAQMDFBBOklULWNfZDU3MzELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEkNvbXVuZSBkaSBGaWVyb3p6
+bzAeFw0yMDEwMjYxNDIzNTVaFw0zMDEwMjQxNDIzNTVaMIGCMSIwIAYDVQQDDBl3d3cuY29tdW5l
+LmZpZXJvenpvLnRuLml0MRswGQYDVQQKDBJDb211bmUgZGkgRmllcm96em8xFTATBgNVBAQMDFBB
+OklULWNfZDU3MzELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEkNvbXVuZSBkaSBGaWVyb3p6bzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKg39P1fWvOl5oK9016vKjd7AXt0KyTfqc6nWjHC
+a/rKoLGTRGQe4B3rMFigA6t37OinyESdj9ScXXCBkXVBX7goVDYeW/j+mqvGMM3xeic0rYTcZfYa
+lGNKrvdujyD9JC4ijuxl60EodpQB3ow5/TaKFNiY1HEK9HBsI4H2696nadmcGujAh/Y6VaWOzlvS
+NVCukwnHu/jJMJkbN2nsEDIkJGSwH7J47Ia9CmCPeI0DmmwW3k3L/eSPUUtQL8vh9CfA77F4wZmk
+Vtgxfuk3Zau/iDXAgBO/Nys0AqmmytEsGwE/U3drox1/hpQLmTKWfRb/AH92Sp8CHM3tNiQdbZsC
+AwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJ
+KoZIhvcNAQELBQADggEBAC2doaoid2CdE1MCug2g2gy8/prVHDvUxSfjDWIQn88Unkd3gAGXTItH
+N02ztgpT2VZ4AHjgkIl1T12wgyHRALB3HrFbaG7qBWr1tMcXr07z9HY3OGjpwoIHVGq0k9vy5YPV
+MjBpSMhLpNfxXJL8o/9N+cnLnbv5MJ2m/gh6jywE69pqMNQLtwILbEETTh8WtqKKJBp2YH3yCSxa
+wkD5pUkNw97d8bPar8G0nq8wdij0PJql05BKo3FTJoAdL4Zhuwut679Caf9xDf5SY2HYo/zdpcJu
+/rVK51uoVsAD+isjtShUgCC6RfLWRNdv4AYESmacmBB6BgrWmP3dXiF0sZQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDuDCCAqCgAwIBAgIJAJzL6RebRgWkMA0GCSqGSIb3DQEBCwUAMIGCMSIwIAYDVQQDDBl3d3cuY29tdW5lLmZpZXJvenpvLnRuLml0MRswGQYDVQQKDBJDb211bmUgZGkgRmllcm96em8xFTATBgNVBAQMDFBBOklULWNfZDU3MzELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEkNvbXVuZSBkaSBGaWVyb3p6bzAeFw0yMDEwMjYxNDIzNTVaFw0zMDEwMjQxNDIzNTVaMIGCMSIwIAYDVQQDDBl3d3cuY29tdW5lLmZpZXJvenpvLnRuLml0MRswGQYDVQQKDBJDb211bmUgZGkgRmllcm96em8xFTATBgNVBAQMDFBBOklULWNfZDU3MzELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEkNvbXVuZSBkaSBGaWVyb3p6bzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKg39P1fWvOl5oK9016vKjd7AXt0KyTfqc6nWjHCa/rKoLGTRGQe4B3rMFigA6t37OinyESdj9ScXXCBkXVBX7goVDYeW/j+mqvGMM3xeic0rYTcZfYalGNKrvdujyD9JC4ijuxl60EodpQB3ow5/TaKFNiY1HEK9HBsI4H2696nadmcGujAh/Y6VaWOzlvSNVCukwnHu/jJMJkbN2nsEDIkJGSwH7J47Ia9CmCPeI0DmmwW3k3L/eSPUUtQL8vh9CfA77F4wZmkVtgxfuk3Zau/iDXAgBO/Nys0AqmmytEsGwE/U3drox1/hpQLmTKWfRb/AH92Sp8CHM3tNiQdbZsCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAC2doaoid2CdE1MCug2g2gy8/prVHDvUxSfjDWIQn88Unkd3gAGXTItHN02ztgpT2VZ4AHjgkIl1T12wgyHRALB3HrFbaG7qBWr1tMcXr07z9HY3OGjpwoIHVGq0k9vy5YPVMjBpSMhLpNfxXJL8o/9N+cnLnbv5MJ2m/gh6jywE69pqMNQLtwILbEETTh8WtqKKJBp2YH3yCSxawkD5pUkNw97d8bPar8G0nq8wdij0PJql05BKo3FTJoAdL4Zhuwut679Caf9xDf5SY2HYo/zdpcJu/rVK51uoVsAD+isjtShUgCC6RfLWRNdv4AYESmacmBB6BgrWmP3dXiF0sZQ=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDuDCCAqCgAwIBAgIJAJzL6RebRgWkMA0GCSqGSIb3DQEBCwUAMIGCMSIwIAYDVQQDDBl3d3cuY29tdW5lLmZpZXJvenpvLnRuLml0MRswGQYDVQQKDBJDb211bmUgZGkgRmllcm96em8xFTATBgNVBAQMDFBBOklULWNfZDU3MzELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEkNvbXVuZSBkaSBGaWVyb3p6bzAeFw0yMDEwMjYxNDIzNTVaFw0zMDEwMjQxNDIzNTVaMIGCMSIwIAYDVQQDDBl3d3cuY29tdW5lLmZpZXJvenpvLnRuLml0MRswGQYDVQQKDBJDb211bmUgZGkgRmllcm96em8xFTATBgNVBAQMDFBBOklULWNfZDU3MzELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEkNvbXVuZSBkaSBGaWVyb3p6bzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKg39P1fWvOl5oK9016vKjd7AXt0KyTfqc6nWjHCa/rKoLGTRGQe4B3rMFigA6t37OinyESdj9ScXXCBkXVBX7goVDYeW/j+mqvGMM3xeic0rYTcZfYalGNKrvdujyD9JC4ijuxl60EodpQB3ow5/TaKFNiY1HEK9HBsI4H2696nadmcGujAh/Y6VaWOzlvSNVCukwnHu/jJMJkbN2nsEDIkJGSwH7J47Ia9CmCPeI0DmmwW3k3L/eSPUUtQL8vh9CfA77F4wZmkVtgxfuk3Zau/iDXAgBO/Nys0AqmmytEsGwE/U3drox1/hpQLmTKWfRb/AH92Sp8CHM3tNiQdbZsCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAC2doaoid2CdE1MCug2g2gy8/prVHDvUxSfjDWIQn88Unkd3gAGXTItHN02ztgpT2VZ4AHjgkIl1T12wgyHRALB3HrFbaG7qBWr1tMcXr07z9HY3OGjpwoIHVGq0k9vy5YPVMjBpSMhLpNfxXJL8o/9N+cnLnbv5MJ2m/gh6jywE69pqMNQLtwILbEETTh8WtqKKJBp2YH3yCSxawkD5pUkNw97d8bPar8G0nq8wdij0PJql05BKo3FTJoAdL4Zhuwut679Caf9xDf5SY2HYo/zdpcJu/rVK51uoVsAD+isjtShUgCC6RfLWRNdv4AYESmacmBB6BgrWmP3dXiF0sZQ=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/fierozzo"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/fierozzo" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/fierozzo" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/fierozzo" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Fierozzo</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Fierozzo</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Fierozzo</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Fierozzo</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Fierozzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Fierozzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Fierozzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Fierozzo</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.fierozzo.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.fierozzo.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.fierozzo.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.fierozzo.tn.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_d573</spid:IPACode>
+         <spid:FiscalCode>80005230224</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ict@comune.pergine.tn.it</md:EmailAddress>
+      <md:TelephoneNumber>0461502340</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

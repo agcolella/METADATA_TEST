@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Agropoli" entityID="https://www.comune.agropoli.sa.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Agropoli">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>76S+FtEvD6Wt5ZI0BoQ2C+h0ZfbpFK614z+kWZmA/3A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+aOJHkhHurhkW1PhMPYjLWr9IoZ2vw4/+f30tcr1F9hXg+Va//fWIHWrwFCZKr+zt98zseXLxLDZ5
+tHt9QDkvj2HgyK2BxlI+UxZe09XHXc76CypbvMPt9ppbmAIJsPFXQdS738OpI8GYCl9WnuAykPt7
+3o0/EydqgGkiyJACZkO1ZZue+e2FwNGLD4aJ36g66/hxdilALoz+IYBRrq7EXbZeAzcDEQP3CfHM
+PUcNqkfQgAOtGH8wYUgJVUrpq0ds7uHSF9wgg3s+TJLVUH1WZ2qfhASqeCTyUFV2mwmxJTbME4A3
+OHPTi/7ed39yUJ0cg1eZZUbiqfu1m42GMjbdGw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+/N1BrIooMjZfKWggbrV7ax7cg1l6TRrPhMA/n59U2sKFgkeGKFCWptWMpSMcmM9ynCXC/F5WI/3L
+aZywj6C1+oYODrEPCJjQOtsTa1hdOqC96GtUsf6penNsLjDnFlmG06tbgFkcELqDsUs53IAMbN8N
+E+3MzD+mnFH1OlLdJ/xDaHKyjp+xOvScGhvgEYqAI2TYWobAuAnlQ6Quh2jhw7zyLnVIsZXD5DOL
+1dmPHY3zGgR3IRXX1TlF5+wiOqHgY4ncuXNou+Lc8YHRAdr2HB9bs71WhBL8e98EQqsRQfuUPeWJ
+BGpKfUi9zqJNGtmlmAVxO7Z0dtfx3OmCdPvzfQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAKskRYq7j3uNMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuYWdyb3BvbGkuc2EuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMy
+NzA4MjcyMFoXDTI5MDMyNDA4MjcyMFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hZ3JvcG9saS5z
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQD83UGsiigyNl8paCButXtrHtyDWXpNGs+EwD+fn1TawoWCR4YoUJam1YylIxyYz3Kc
+JcL8XlYj/ctpnLCPoLX6hg4OsQ8ImNA62xNrWF06oL3oa1Sx/ql6c2wuMOcWWYbTq1uAWRwQuoOx
+SzncgAxs3w0T7czMP6acUfU6Ut0n/ENocrKOn7E69JwaG+ARioAjZNhahsC4CeVDpC6HaOHDvPIu
+dUixlcPkM4vV2Y8djfMaBHchFdfVOUXn7CI6oeBjidy5c2i74tzxgdEB2vYcH1uzvVaEEvx73wRC
+qxFB+5Q95YkEakp9SL3Ook0a2aWYBXE7tnR21/Hc6YJ0+/N9AgMBAAGjUDBOMB0GA1UdDgQWBBQ9
+HMVuPoE1gA0+CzmB2T/81pKwkTAfBgNVHSMEGDAWgBQ9HMVuPoE1gA0+CzmB2T/81pKwkTAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAyKYu4L9BlBBI7t2EZVdntlCbZKKZhYjLuSjbB
+HNm6FVMj/n9qWtd8C2+0fT3VY63o5QReTdof4r9fRFb7JKebS9TRtDSRgOUQVGQJIiBF3QSsZmpC
+eJYp/E7/d1qKFvoJ17sFjO6CWMxZh7QVH6XG1edG1J0/FTuoWAowxkHemTf3KDnNP2DtPe6NzP76
+RJs2SzLpw7aJ1Ra7sgmmMzW9sVT1FUT+f8fSR9uL0QLRq6Wy0R7XU/ZnTKV0ZqaR7OVRZDOiJ1ci
+vttfJSSwXnochQ8X+xSp541eREIj2ZFiezpNQNYArTzbY2X6MkVqEfwdDCmkhEHt0kj6HPNXdX3N
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAKskRYq7j3uNMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuYWdyb3BvbGkuc2EuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMyNzA4MjcyMFoXDTI5MDMyNDA4MjcyMFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hZ3JvcG9saS5zYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD83UGsiigyNl8paCButXtrHtyDWXpNGs+EwD+fn1TawoWCR4YoUJam1YylIxyYz3KcJcL8XlYj/ctpnLCPoLX6hg4OsQ8ImNA62xNrWF06oL3oa1Sx/ql6c2wuMOcWWYbTq1uAWRwQuoOxSzncgAxs3w0T7czMP6acUfU6Ut0n/ENocrKOn7E69JwaG+ARioAjZNhahsC4CeVDpC6HaOHDvPIudUixlcPkM4vV2Y8djfMaBHchFdfVOUXn7CI6oeBjidy5c2i74tzxgdEB2vYcH1uzvVaEEvx73wRCqxFB+5Q95YkEakp9SL3Ook0a2aWYBXE7tnR21/Hc6YJ0+/N9AgMBAAGjUDBOMB0GA1UdDgQWBBQ9HMVuPoE1gA0+CzmB2T/81pKwkTAfBgNVHSMEGDAWgBQ9HMVuPoE1gA0+CzmB2T/81pKwkTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAyKYu4L9BlBBI7t2EZVdntlCbZKKZhYjLuSjbBHNm6FVMj/n9qWtd8C2+0fT3VY63o5QReTdof4r9fRFb7JKebS9TRtDSRgOUQVGQJIiBF3QSsZmpCeJYp/E7/d1qKFvoJ17sFjO6CWMxZh7QVH6XG1edG1J0/FTuoWAowxkHemTf3KDnNP2DtPe6NzP76RJs2SzLpw7aJ1Ra7sgmmMzW9sVT1FUT+f8fSR9uL0QLRq6Wy0R7XU/ZnTKV0ZqaR7OVRZDOiJ1civttfJSSwXnochQ8X+xSp541eREIj2ZFiezpNQNYArTzbY2X6MkVqEfwdDCmkhEHt0kj6HPNXdX3N
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAKskRYq7j3uNMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuYWdyb3BvbGkuc2EuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMyNzA4MjcyMFoXDTI5MDMyNDA4MjcyMFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hZ3JvcG9saS5zYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD83UGsiigyNl8paCButXtrHtyDWXpNGs+EwD+fn1TawoWCR4YoUJam1YylIxyYz3KcJcL8XlYj/ctpnLCPoLX6hg4OsQ8ImNA62xNrWF06oL3oa1Sx/ql6c2wuMOcWWYbTq1uAWRwQuoOxSzncgAxs3w0T7czMP6acUfU6Ut0n/ENocrKOn7E69JwaG+ARioAjZNhahsC4CeVDpC6HaOHDvPIudUixlcPkM4vV2Y8djfMaBHchFdfVOUXn7CI6oeBjidy5c2i74tzxgdEB2vYcH1uzvVaEEvx73wRCqxFB+5Q95YkEakp9SL3Ook0a2aWYBXE7tnR21/Hc6YJ0+/N9AgMBAAGjUDBOMB0GA1UdDgQWBBQ9HMVuPoE1gA0+CzmB2T/81pKwkTAfBgNVHSMEGDAWgBQ9HMVuPoE1gA0+CzmB2T/81pKwkTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAyKYu4L9BlBBI7t2EZVdntlCbZKKZhYjLuSjbBHNm6FVMj/n9qWtd8C2+0fT3VY63o5QReTdof4r9fRFb7JKebS9TRtDSRgOUQVGQJIiBF3QSsZmpCeJYp/E7/d1qKFvoJ17sFjO6CWMxZh7QVH6XG1edG1J0/FTuoWAowxkHemTf3KDnNP2DtPe6NzP76RJs2SzLpw7aJ1Ra7sgmmMzW9sVT1FUT+f8fSR9uL0QLRq6Wy0R7XU/ZnTKV0ZqaR7OVRZDOiJ1civttfJSSwXnochQ8X+xSp541eREIj2ZFiezpNQNYArTzbY2X6MkVqEfwdDCmkhEHt0kj6HPNXdX3N
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/agropoli"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/agropoli" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/agropoli" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/agropoli" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Agropoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Agropoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Agropoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Agropoli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Agropoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Agropoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Agropoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Agropoli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.agropoli.sa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.agropoli.sa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.agropoli.sa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.agropoli.sa.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

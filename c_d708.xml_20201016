@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Formia" entityID="https://www.comune.formia.lt.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Formia">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>shJkFsJaG1upu0zH/Z0lOHvcMVNBtkZ8+0wHvEYUxuM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+xB7kPuzjtDriN/LehFiz1ZzvOd+pbeT2mZpw6orWhgM7I/J/bEOckE07yRCUeBfkBINfeP9jaNoh
+RFpsOy5yXUwXpeNZM032Zv5F6m2WAcwDIBIIX9rIfAQjKj527akdwfYnKgcPL2ukHnw9DOVW3rP5
+3ouIIzMQ4m3yR32FfbzIedfU0+LxRfmioX0PL5LzMUq8HBqERb9mSGGxcEcMrmDCS3F1NsKiFZ4v
+SH0p0PJ3w65d9+Go0WDqtemfbPSspaToGj9T3V2n9OgGkEWVpTmc75+9Ks/rXaaTJTd6MsllpmgS
+xJnfRIQz00epPLGvMcOx89dDl9iMBCZmaoHFoA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1Kf5sLbu64rgRMh3qAKXlnZhAadPCCXiQwyh8Y6+epDR5aHBJLfFnlaUnQAV4fwepdFjCer40iHS
+kS1wyMPyipyl73vv8nVZ81jOg7iG+ZGW5f9b4pod/rsPdYKswCGCYPfBCoxUBamfIUy/alMaEhlu
+YaymNFy5As/gPBrav8mPlQsKYfUFCOSp9w+pxHqyoGzBGKKvaIeAKSE6OddW4sbgkKGIqj0KrMjk
+64J3wQBpxMGXK20/ZjJQuJGWRen5+a0u2mYiVOsb7zDjCbxu7SVt+s54Fyr7ekyRuCxLoWMn+xxB
+N4XjD6xXj2aVs6almIdOhiwm6Hu+8ByLjQ5Wcw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAJqPrPEtOPCqMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuZm9ybWlhLmx0Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA1Mjkw
+ODA5MDBaFw0yOTA1MjYwODA5MDBaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuZm9ybWlhLmx0Lml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANSn+bC27uuK4ETId6gCl5Z2YQGnTwgl4kMMofGOvnqQ0eWhwSS3xZ5WlJ0AFeH8HqXRYwnq
++NIh0pEtcMjD8oqcpe977/J1WfNYzoO4hvmRluX/W+KaHf67D3WCrMAhgmD3wQqMVAWpnyFMv2pT
+GhIZbmGspjRcuQLP4Dwa2r/Jj5ULCmH1BQjkqfcPqcR6sqBswRiir2iHgCkhOjnXVuLG4JChiKo9
+CqzI5OuCd8EAacTBlyttP2YyULiRlkXp+fmtLtpmIlTrG+8w4wm8bu0lbfrOeBcq+3pMkbgsS6Fj
+J/scQTeF4w+sV49mlbOmpZiHToYsJuh7vvAci40OVnMCAwEAAaNQME4wHQYDVR0OBBYEFOOqfIAR
+qUvlLqqGWzdD5oRZ0as+MB8GA1UdIwQYMBaAFOOqfIARqUvlLqqGWzdD5oRZ0as+MAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJ9TXaYmCblwJ4eR82j7mhvWQNNW70R09SLB4wyj6XDL
+/7YLk0SrThReySAIvntQApUsXrGwDUJFWvoV6E3JF+oD6+czhADDybYCYH8ImUutmeZsCZWg1FgR
+ZRpDLaRl15jdyc/66LK2bz4ZFH5Th+Mfj4SKcBKC4hGfgHLS+v0tJee8PYLOigfwJw/EqOsfYGsf
+zK8BOydXO8hG+Sn765h391PRmQiaecTA8rVxhLd6mjNEcTjPGyP1w5/Tu7BiTAWJF/xK8nm84cSx
+ppOeL5ZS460AAa9YPDhoiUkAaRhxkZqw+d0/EAMX42phvEcKxoEbk2HZ5kAf7Wuezpykfdo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAJqPrPEtOPCqMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuZm9ybWlhLmx0Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA1MjkwODA5MDBaFw0yOTA1MjYwODA5MDBaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuZm9ybWlhLmx0Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANSn+bC27uuK4ETId6gCl5Z2YQGnTwgl4kMMofGOvnqQ0eWhwSS3xZ5WlJ0AFeH8HqXRYwnq+NIh0pEtcMjD8oqcpe977/J1WfNYzoO4hvmRluX/W+KaHf67D3WCrMAhgmD3wQqMVAWpnyFMv2pTGhIZbmGspjRcuQLP4Dwa2r/Jj5ULCmH1BQjkqfcPqcR6sqBswRiir2iHgCkhOjnXVuLG4JChiKo9CqzI5OuCd8EAacTBlyttP2YyULiRlkXp+fmtLtpmIlTrG+8w4wm8bu0lbfrOeBcq+3pMkbgsS6FjJ/scQTeF4w+sV49mlbOmpZiHToYsJuh7vvAci40OVnMCAwEAAaNQME4wHQYDVR0OBBYEFOOqfIARqUvlLqqGWzdD5oRZ0as+MB8GA1UdIwQYMBaAFOOqfIARqUvlLqqGWzdD5oRZ0as+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJ9TXaYmCblwJ4eR82j7mhvWQNNW70R09SLB4wyj6XDL/7YLk0SrThReySAIvntQApUsXrGwDUJFWvoV6E3JF+oD6+czhADDybYCYH8ImUutmeZsCZWg1FgRZRpDLaRl15jdyc/66LK2bz4ZFH5Th+Mfj4SKcBKC4hGfgHLS+v0tJee8PYLOigfwJw/EqOsfYGsfzK8BOydXO8hG+Sn765h391PRmQiaecTA8rVxhLd6mjNEcTjPGyP1w5/Tu7BiTAWJF/xK8nm84cSxppOeL5ZS460AAa9YPDhoiUkAaRhxkZqw+d0/EAMX42phvEcKxoEbk2HZ5kAf7Wuezpykfdo=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAJqPrPEtOPCqMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuZm9ybWlhLmx0Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA1MjkwODA5MDBaFw0yOTA1MjYwODA5MDBaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuZm9ybWlhLmx0Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANSn+bC27uuK4ETId6gCl5Z2YQGnTwgl4kMMofGOvnqQ0eWhwSS3xZ5WlJ0AFeH8HqXRYwnq+NIh0pEtcMjD8oqcpe977/J1WfNYzoO4hvmRluX/W+KaHf67D3WCrMAhgmD3wQqMVAWpnyFMv2pTGhIZbmGspjRcuQLP4Dwa2r/Jj5ULCmH1BQjkqfcPqcR6sqBswRiir2iHgCkhOjnXVuLG4JChiKo9CqzI5OuCd8EAacTBlyttP2YyULiRlkXp+fmtLtpmIlTrG+8w4wm8bu0lbfrOeBcq+3pMkbgsS6FjJ/scQTeF4w+sV49mlbOmpZiHToYsJuh7vvAci40OVnMCAwEAAaNQME4wHQYDVR0OBBYEFOOqfIARqUvlLqqGWzdD5oRZ0as+MB8GA1UdIwQYMBaAFOOqfIARqUvlLqqGWzdD5oRZ0as+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJ9TXaYmCblwJ4eR82j7mhvWQNNW70R09SLB4wyj6XDL/7YLk0SrThReySAIvntQApUsXrGwDUJFWvoV6E3JF+oD6+czhADDybYCYH8ImUutmeZsCZWg1FgRZRpDLaRl15jdyc/66LK2bz4ZFH5Th+Mfj4SKcBKC4hGfgHLS+v0tJee8PYLOigfwJw/EqOsfYGsfzK8BOydXO8hG+Sn765h391PRmQiaecTA8rVxhLd6mjNEcTjPGyP1w5/Tu7BiTAWJF/xK8nm84cSxppOeL5ZS460AAa9YPDhoiUkAaRhxkZqw+d0/EAMX42phvEcKxoEbk2HZ5kAf7Wuezpykfdo=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/formia"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/formia" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/formia" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/formia" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Formia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Formia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Formia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Formia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Formia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Formia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Formia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Formia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.formia.lt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.formia.lt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.formia.lt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.formia.lt.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

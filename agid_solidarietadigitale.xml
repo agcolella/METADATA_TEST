@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://solidarietadigitale.agid.gov.it" ID="pfx812f44a7-365b-2b60-7f61-b2168cae3536"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx812f44a7-365b-2b60-7f61-b2168cae3536"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>BA/d0p1Ea/GPfxmzDA2iHbSlSDB9RmBNbSbYHqR/K5U=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LfVwbY/GI29xZgObZoSKmATg21yNdhA0hbJ3dOfDnzdIH79Bgg6xouWgNcj2ey+bUVRwXH9Ei4460hypYjuclDXXj2bdfZ2VeHdf6vw0B+u4axk6HyULqpPmdmy8Ju7mswzXfcVKT1YgLaPWMNWJjURF3PIgS/VBewmOeVgD3NaQsyCcRaUup4vA3YY3x1pWBK/qI9ynAP+fwnBO/0vSsGajETauUO/Df2NZwdKhqV7X3zlNIukqlt13RcCkp6q4F+Ej/LDp7P1hwDOg2BNCsAw6TMb6OPNZhOOtITJcT9d3OGlrXD96hKlrh8wXzEEbE+i/nQWMkCx9EiWIo29E9w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAMVcf13YKV8SMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMQ0wCwYDVQQKDARBZ0lEMQ0wCwYDVQQLDARBZ0lEMTAwLgYDVQQDDCdodHRwczovL3NvbGlkYXJpZXRhZGlnaXRhbGUuYWdpZC5nb3YuaXQwHhcNMjAwMzE2MDk0MjMzWhcNMjEwMzE2MDk0MjMzWjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEwMC4GA1UEAwwnaHR0cHM6Ly9zb2xpZGFyaWV0YWRpZ2l0YWxlLmFnaWQuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzcSWuMeAzBmibFZ6biDprmg7edefGuqss+pRb8480kDmqu24mQc6gvmlRn/1pqX/dXmQu1r+MlQYlubfKtZScr6ARvsxU4kuyRfo5O6SpsHG/oEODUHZy4zZtPG6Zxhd6oxEnuUedgOmdIjAnDKXC/T7HpDFNITAlTuUmkOMtWJ42l948IRo7PRoMy9uBjAN3l5mqLk67r1c3qTPprN9m7YfnNZ+bgBb7ht81qxpr23n1tbUoRfVrUIOBfUCc8kiCd9G/+2+Nzp9S+OIm8LRdNf1PjqW6MZtHemt+TU1j5cu+HVuNgganvgTmDO1pMkyx8m/11FcDu4DBj399nV39QIDAQABo1AwTjAdBgNVHQ4EFgQUkeqbm4rIa0ZQg/L3KUkkVqmKRCMwHwYDVR0jBBgwFoAUkeqbm4rIa0ZQg/L3KUkkVqmKRCMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALnv6+m+7bdPM3B/MhaXCv6IgNFnVBFAgnf1ySezannC6yEV7iYd8yXbC6d2UOgR8h03TY6UKQsz3ugPQQjKXlThjjVWXRtHRJz06NQmcvVVIwb7EF7Ul6w+RP5A5RUiwN5MxUB5B1vbdTZAvREKIgWd6ZVEKUgS8T92kGKSxXhgdJ3zteshT3MnPqJbvs9ehSsbasd66/qnr7nYOSvxXVTdmd4n2HvoWJUYzps0uwxCLbpWETKCjA1iVy9yDlZenGEIWJT01AdApAoL5RLWnaA0v+hZ0J0EYr/htQtfmalid3aIMkE+UudoWJWjkPeipmil7M2GzCci7A7bfeiSkow==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAMVcf13YKV8SMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMQ0wCwYDVQQKDARBZ0lEMQ0wCwYDVQQLDARBZ0lEMTAwLgYDVQQDDCdodHRwczovL3NvbGlkYXJpZXRhZGlnaXRhbGUuYWdpZC5nb3YuaXQwHhcNMjAwMzE2MDk0MjMzWhcNMjEwMzE2MDk0MjMzWjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEwMC4GA1UEAwwnaHR0cHM6Ly9zb2xpZGFyaWV0YWRpZ2l0YWxlLmFnaWQuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzcSWuMeAzBmibFZ6biDprmg7edefGuqss+pRb8480kDmqu24mQc6gvmlRn/1pqX/dXmQu1r+MlQYlubfKtZScr6ARvsxU4kuyRfo5O6SpsHG/oEODUHZy4zZtPG6Zxhd6oxEnuUedgOmdIjAnDKXC/T7HpDFNITAlTuUmkOMtWJ42l948IRo7PRoMy9uBjAN3l5mqLk67r1c3qTPprN9m7YfnNZ+bgBb7ht81qxpr23n1tbUoRfVrUIOBfUCc8kiCd9G/+2+Nzp9S+OIm8LRdNf1PjqW6MZtHemt+TU1j5cu+HVuNgganvgTmDO1pMkyx8m/11FcDu4DBj399nV39QIDAQABo1AwTjAdBgNVHQ4EFgQUkeqbm4rIa0ZQg/L3KUkkVqmKRCMwHwYDVR0jBBgwFoAUkeqbm4rIa0ZQg/L3KUkkVqmKRCMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALnv6+m+7bdPM3B/MhaXCv6IgNFnVBFAgnf1ySezannC6yEV7iYd8yXbC6d2UOgR8h03TY6UKQsz3ugPQQjKXlThjjVWXRtHRJz06NQmcvVVIwb7EF7Ul6w+RP5A5RUiwN5MxUB5B1vbdTZAvREKIgWd6ZVEKUgS8T92kGKSxXhgdJ3zteshT3MnPqJbvs9ehSsbasd66/qnr7nYOSvxXVTdmd4n2HvoWJUYzps0uwxCLbpWETKCjA1iVy9yDlZenGEIWJT01AdApAoL5RLWnaA0v+hZ0J0EYr/htQtfmalid3aIMkE+UudoWJWjkPeipmil7M2GzCci7A7bfeiSkow==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAMVcf13YKV8SMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMQ0wCwYDVQQKDARBZ0lEMQ0wCwYDVQQLDARBZ0lEMTAwLgYDVQQDDCdodHRwczovL3NvbGlkYXJpZXRhZGlnaXRhbGUuYWdpZC5nb3YuaXQwHhcNMjAwMzE2MDk0MjMzWhcNMjEwMzE2MDk0MjMzWjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEwMC4GA1UEAwwnaHR0cHM6Ly9zb2xpZGFyaWV0YWRpZ2l0YWxlLmFnaWQuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzcSWuMeAzBmibFZ6biDprmg7edefGuqss+pRb8480kDmqu24mQc6gvmlRn/1pqX/dXmQu1r+MlQYlubfKtZScr6ARvsxU4kuyRfo5O6SpsHG/oEODUHZy4zZtPG6Zxhd6oxEnuUedgOmdIjAnDKXC/T7HpDFNITAlTuUmkOMtWJ42l948IRo7PRoMy9uBjAN3l5mqLk67r1c3qTPprN9m7YfnNZ+bgBb7ht81qxpr23n1tbUoRfVrUIOBfUCc8kiCd9G/+2+Nzp9S+OIm8LRdNf1PjqW6MZtHemt+TU1j5cu+HVuNgganvgTmDO1pMkyx8m/11FcDu4DBj399nV39QIDAQABo1AwTjAdBgNVHQ4EFgQUkeqbm4rIa0ZQg/L3KUkkVqmKRCMwHwYDVR0jBBgwFoAUkeqbm4rIa0ZQg/L3KUkkVqmKRCMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALnv6+m+7bdPM3B/MhaXCv6IgNFnVBFAgnf1ySezannC6yEV7iYd8yXbC6d2UOgR8h03TY6UKQsz3ugPQQjKXlThjjVWXRtHRJz06NQmcvVVIwb7EF7Ul6w+RP5A5RUiwN5MxUB5B1vbdTZAvREKIgWd6ZVEKUgS8T92kGKSxXhgdJ3zteshT3MnPqJbvs9ehSsbasd66/qnr7nYOSvxXVTdmd4n2HvoWJUYzps0uwxCLbpWETKCjA1iVy9yDlZenGEIWJT01AdApAoL5RLWnaA0v+hZ0J0EYr/htQtfmalid3aIMkE+UudoWJWjkPeipmil7M2GzCci7A7bfeiSkow==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.agid.gov.it/saml-solidarietadigitale/module.php/saml/sp/saml2-logout.php/service"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.agid.gov.it/saml-solidarietadigitale/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Solidariet&#xE0; Digitale</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">AgID - Solidariet&#xE0; Digitale</md:ServiceDescription>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">AgID</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Agenzia per l'Italia Digitale</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.agid.gov.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>AgID</md:GivenName>
+    <md:EmailAddress>solidarietadigitale@agid.gov.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+

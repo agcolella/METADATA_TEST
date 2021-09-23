@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_6a8b78ea1bf4a909bda2a3477067cafb704066c1" entityID="https://spid.comune.romentino.no.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_6a8b78ea1bf4a909bda2a3477067cafb704066c1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0iLjQ3/37b61kYzb9fVktEE6K3jxRA2F+pjvWV+JN60=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+vhpFaQFG38iajyY1ydNIlSzakMo6EZe99EGuSl/4yQl6qOzyTWPqkW1DnKRzKwj5ZGKtOiMXtHkT
+VIPVCld5T1g5B3ajrp2JVwoC5t/q4971jTNumHrOKJrBHlIMGoLzAf4NQaX3hnt27LNc9B8allBI
+vq7ioLwLmFDrvbiOfnAL5LMWPMyAzds022PPxeNVNYC6JhzjSkpOPSbWmPVDuj5xgyucO2uYA3C4
+0KNXr0GXGBmE1BgpBWab4REkYwYELVxIKy91gNE3YPZ8/L/sifnsaR0/xh7GN8umlJzc+iugojlr
+j+4ITTOeNIKCpDURR5/FGMnwkHgVZmHX0tWQn3DCZXpkKYjF1DQB6KzpCISgJjaJaomg5IoiD+Z+
+GhV1URRgytnbNGoi1ArVr+qKq1wFMQyBS9sGCWu18wx4YtrjLbmTeU6BGfD8tV89qNv0k/JDj+TG
+sEqyv88NsasbFeSDa9OZjd7D8TRMHZZgZZLvnPzs5nIKAXBY+b2Hgysb
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8Ae1WB4ks4FrE/wScNaaM2FGFQh9k4+4SAyqOaDEI2yp0UtYVbqDHFsnpRV42lUFeH6Lww7s6AEg
+kpYTDi513qvRrierp291A7jRwzTVE7gqOp+9txzLlOlk3Z/88KNob+VOLAUYq5hOwMk3MHqTNsyS
+cgt4IH8zAvYnWsVlrhIPhPkRXWMM5Fhgix4+luNMHdS4gQ4mQPPhj/2Em9vTu9Ra5wfnTNr2/JKl
+Dg/G/do7SJJwisapkXhQ5/1VHcx3FVh0+rFnMZzCZ7eUTb9vAtQhuf3CSWmskG0yyttqmf08kEUu
+aVlm9xAL5IOWNzh122tYp4nIKn3YDDu/grjmWvxsSYKeBqzre14CXRI0fprYmio6DyIdOT9PSmGB
+dktJlYe936WKaP48S9wUSYg2KLQ8tKU05kIlAihYIuuxBrGeeMiYH7+ccqJN1KhNd+b6QNVYFNsP
++Cm77JV47Iu8AUmv/P1vJ88sqWYouTPhpFM0fQE48+EG9vIgo4SGY3uR
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEGDCCAoCgAwIBAgIJAJ8JHIeqlps/MA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNVBAMTG3NwaWQu
+Y29tdW5lLnJvbWVudGluby5uby5pdDAeFw0xODExMDUxNDQ3NTJaFw0yODExMDIxNDQ3NTJaMCYx
+JDAiBgNVBAMTG3NwaWQuY29tdW5lLnJvbWVudGluby5uby5pdDCCAaIwDQYJKoZIhvcNAQEBBQAD
+ggGPADCCAYoCggGBAPAHtVgeJLOBaxP8EnDWmjNhRhUIfZOPuEgMqjmgxCNsqdFLWFW6gxxbJ6UV
+eNpVBXh+i8MO7OgBIJKWEw4udd6r0a4nq6dvdQO40cM01RO4Kjqfvbccy5TpZN2f/PCjaG/lTiwF
+GKuYTsDJNzB6kzbMknILeCB/MwL2J1rFZa4SD4T5EV1jDORYYIsePpbjTB3UuIEOJkDz4Y/9hJvb
+07vUWucH50za9vySpQ4Pxv3aO0iScIrGqZF4UOf9VR3MdxVYdPqxZzGcwme3lE2/bwLUIbn9wklp
+rJBtMsrbapn9PJBFLmlZZvcQC+SDljc4ddtrWKeJyCp92Aw7v4K45lr8bEmCngas63teAl0SNH6a
+2JoqOg8iHTk/T0phgXZLSZWHvd+limj+PEvcFEmINii0PLSlNOZCJQIoWCLrsQaxnnjImB+/nHKi
+TdSoTXfm+kDVWBTbD/gpu+yVeOyLvAFJr/z9byfPLKlmKLkz4aRTNH0BOPPhBvbyIKOEhmN7kQID
+AQABo0kwRzAmBgNVHREEHzAdghtzcGlkLmNvbXVuZS5yb21lbnRpbm8ubm8uaXQwHQYDVR0OBBYE
+FGaXOCoobToXi9SMimtyX3S7pgzJMA0GCSqGSIb3DQEBCwUAA4IBgQC+yeoVaJCrUv3M8lCnBt7c
+3os8+gPnrk+AJ1BeM0dI8gaDTEgpqTEP8fQNg1N4vJZEJ1UAwAR4yffSnL0sDsshipD3BAEKvtuF
+sP2hKseUuIoGxtLEIvOCJ0g/V/H3x/zS/1d4PsAAUZ4rH6SW5/3yGnwIFyVpkKwKslryktFdIjm2
+F/4CAIR6cU3Srjw3x6iEqRx1cdrzPV2h+RZPw4Zbiqp9u48yPk1mQ7lnB6zaEp2ilHj9gmlIr1yJ
+lATsGQ2fN3MXfhNp5XZwfJ4/rCkqGAgfeqZYukx7KFSOUdvjrzwSsh2ODXIyz8KW3rtEn2yrZIV0
+LtuWSnknFY8jpzQUYLGAYvabSe1kNTgtBKLC6SRPtZn0jg5HEjcNpHN61b1YlV0gzpxv7XnUqGKu
+DJ1ferNPZr/EqaygBXqSP/ZEEUmQPpUGrJX3I4d18We5irb72fdu2gaGxYmF0OdqtyhNMvifr/tw
+qEUt8Us2/MgHbILGYDsTY8SxnPIUEXNuPzQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.comune.romentino.no.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.comune.romentino.no.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEGDCCAoCgAwIBAgIJAJ8JHIeqlps/MA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNV
+BAMTG3NwaWQuY29tdW5lLnJvbWVudGluby5uby5pdDAeFw0xODExMDUxNDQ3NTJa
+Fw0yODExMDIxNDQ3NTJaMCYxJDAiBgNVBAMTG3NwaWQuY29tdW5lLnJvbWVudGlu
+by5uby5pdDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAPAHtVgeJLOB
+axP8EnDWmjNhRhUIfZOPuEgMqjmgxCNsqdFLWFW6gxxbJ6UVeNpVBXh+i8MO7OgB
+IJKWEw4udd6r0a4nq6dvdQO40cM01RO4Kjqfvbccy5TpZN2f/PCjaG/lTiwFGKuY
+TsDJNzB6kzbMknILeCB/MwL2J1rFZa4SD4T5EV1jDORYYIsePpbjTB3UuIEOJkDz
+4Y/9hJvb07vUWucH50za9vySpQ4Pxv3aO0iScIrGqZF4UOf9VR3MdxVYdPqxZzGc
+wme3lE2/bwLUIbn9wklprJBtMsrbapn9PJBFLmlZZvcQC+SDljc4ddtrWKeJyCp9
+2Aw7v4K45lr8bEmCngas63teAl0SNH6a2JoqOg8iHTk/T0phgXZLSZWHvd+limj+
+PEvcFEmINii0PLSlNOZCJQIoWCLrsQaxnnjImB+/nHKiTdSoTXfm+kDVWBTbD/gp
+u+yVeOyLvAFJr/z9byfPLKlmKLkz4aRTNH0BOPPhBvbyIKOEhmN7kQIDAQABo0kw
+RzAmBgNVHREEHzAdghtzcGlkLmNvbXVuZS5yb21lbnRpbm8ubm8uaXQwHQYDVR0O
+BBYEFGaXOCoobToXi9SMimtyX3S7pgzJMA0GCSqGSIb3DQEBCwUAA4IBgQC+yeoV
+aJCrUv3M8lCnBt7c3os8+gPnrk+AJ1BeM0dI8gaDTEgpqTEP8fQNg1N4vJZEJ1UA
+wAR4yffSnL0sDsshipD3BAEKvtuFsP2hKseUuIoGxtLEIvOCJ0g/V/H3x/zS/1d4
+PsAAUZ4rH6SW5/3yGnwIFyVpkKwKslryktFdIjm2F/4CAIR6cU3Srjw3x6iEqRx1
+cdrzPV2h+RZPw4Zbiqp9u48yPk1mQ7lnB6zaEp2ilHj9gmlIr1yJlATsGQ2fN3MX
+fhNp5XZwfJ4/rCkqGAgfeqZYukx7KFSOUdvjrzwSsh2ODXIyz8KW3rtEn2yrZIV0
+LtuWSnknFY8jpzQUYLGAYvabSe1kNTgtBKLC6SRPtZn0jg5HEjcNpHN61b1YlV0g
+zpxv7XnUqGKuDJ1ferNPZr/EqaygBXqSP/ZEEUmQPpUGrJX3I4d18We5irb72fdu
+2gaGxYmF0OdqtyhNMvifr/twqEUt8Us2/MgHbILGYDsTY8SxnPIUEXNuPzQ=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidromentino.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidromentino.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://multi2.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set0</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+					<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+					<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+					<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+					<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+					<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+					<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+					<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					<md:RequestedAttribute FriendlyName="address" Name="address"/>
+					<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Comune di Romentino</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Comune di Romentino</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">http://www.comune.romentino.no.it</md:OrganizationURL>
+					</md:Organization></md:EntityDescriptor>

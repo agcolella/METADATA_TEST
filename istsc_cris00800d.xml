@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.istitutostradivariservizi.it/didattica/microspid_metadata" ID="pfx34913a25-612d-aa5f-467a-697bee2f770d"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx34913a25-612d-aa5f-467a-697bee2f770d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>revEt/4I7BxSASxQwo7d1iPflHvXabrXxYsAOk3Y07E=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>utMM8/pUJMrfNudQ6avBLSO47rHRF4DJjhqVyDeyxuh8webveciKx0YkD4YF1leF3OtKG5JPtXAdXvG9nk5O7qAcn65PLynmDX+gM0OvMv2j+cLFrjZs/j3VjDNbj2DJAPqLVH4RWdlEkdeo+sUwxOkdifk/lnTltO5XxDPwYBZVL7KtSKaDGEbILNiE+dijibBlDdn/P6o/4u8jtnjOaydu9BQSrNIvEPBJll8Q49+cmbiZ00OmiENbQGPoqueJYXjJJ4kvSWHHkN8wASRltjU17LAdMppTCVsHpzZVkDE9dGlzGKEitY3YFWHOs9WNXQRAvlIUYIfbvSo2LNsWfQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIElzCCA3+gAwIBAgIHBcbn9EVPlDANBgkqhkiG9w0BAQsFADCB4jELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB0NyZW1vbmExQzBBBgNVBAoMOklzdGl0dXRvIGQnSXN0cnV6aW9uZSBTdXBlcmlvcmUgQW50b25pbyBTdHJhZGl2YXJpIENyZW1vbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExKTAnBgNVBAMMIHd3dy5pc3RpdHV0b3N0cmFkaXZhcmlzZXJ2aXppLml0MScwJQYJKoZIhvcNAQkBFhhDUklTMDA4MDBEQGlzdHJ1emlvbmUuaXQwHhcNMTkwMjIxMTAzNjUyWhcNMzkwMjIwMTAzNjUyWjCB4jELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB0NyZW1vbmExQzBBBgNVBAoMOklzdGl0dXRvIGQnSXN0cnV6aW9uZSBTdXBlcmlvcmUgQW50b25pbyBTdHJhZGl2YXJpIENyZW1vbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExKTAnBgNVBAMMIHd3dy5pc3RpdHV0b3N0cmFkaXZhcmlzZXJ2aXppLml0MScwJQYJKoZIhvcNAQkBFhhDUklTMDA4MDBEQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVVYurkLxuPWOd67B+NJ2GhVqYe3gW8GryNlvuXdR8K+xzZbkZHlU9RVap5mHb+bY0/drDM+r+H/el5TT+/pcL+TwbBkrvX6a0bgf+FtPie/6CUPZCqjNsWzJ978FFXNv9M93Or2UC2/2sVEbAq13bdJlKfNFd+jXh+K0tRNqbolDX2hlSkzjIV4DalSaypld4205313a58Ls/Ub0wo5xQ/R4+15l6xvm6te9orYL8z6fuX4Go7n3Pp/Av4wEIyGp+b/LXuVO9utDJNps0A0nEu0+X11ONvuw2Y7Iij7ywU8PgPP5sdTq6GYiGTdcKbhZSfqoK6xJjiTQTxpZqZC6fAgMBAAGjUDBOMB0GA1UdDgQWBBSyaFI5uPWpApi60iKWAFgmTqQtLzAfBgNVHSMEGDAWgBSyaFI5uPWpApi60iKWAFgmTqQtLzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAL/kojfk1HWKuX/71zlhFT7iEF7D2Dq5HcIRvpwaNdtnbNZ8Yjk6VMgrxUJDEnaU5arPIDZS8AOEbILiFMRf5qb7iTscYv+kp9LYANwyo1ZmFr3rtI0btKwBxhOdnQQGLdHE7HjzkHLLV5UnkzY21AkP+pB+D9BjFXVErTsYjqxQcPE6isT/xTQDvFN5tmMqVNNZYL94qRf5HsPFVOQRZSSvk4tN9cas2mSUGSXesqjJIR53oyWCA2nkXYburqYSbP/6vNg6WJ3OfLg8hqSHVnPPjSqprTort7xB/HAHHg+2nBBEDwUVK8HuCorikhVrF5ZXVmptPzoOJQ3KN8ppGP</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIElzCCA3+gAwIBAgIHBcbn9EVPlDANBgkqhkiG9w0BAQsFADCB4jELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB0NyZW1vbmExQzBBBgNVBAoMOklzdGl0dXRvIGQnSXN0cnV6aW9uZSBTdXBlcmlvcmUgQW50b25pbyBTdHJhZGl2YXJpIENyZW1vbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExKTAnBgNVBAMMIHd3dy5pc3RpdHV0b3N0cmFkaXZhcmlzZXJ2aXppLml0MScwJQYJKoZIhvcNAQkBFhhDUklTMDA4MDBEQGlzdHJ1emlvbmUuaXQwHhcNMTkwMjIxMTAzNjUyWhcNMzkwMjIwMTAzNjUyWjCB4jELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB0NyZW1vbmExQzBBBgNVBAoMOklzdGl0dXRvIGQnSXN0cnV6aW9uZSBTdXBlcmlvcmUgQW50b25pbyBTdHJhZGl2YXJpIENyZW1vbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExKTAnBgNVBAMMIHd3dy5pc3RpdHV0b3N0cmFkaXZhcmlzZXJ2aXppLml0MScwJQYJKoZIhvcNAQkBFhhDUklTMDA4MDBEQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVVYurkLxuPWOd67B+NJ2GhVqYe3gW8GryNlvuXdR8K+xzZbkZHlU9RVap5mHb+bY0/drDM+r+H/el5TT+/pcL+TwbBkrvX6a0bgf+FtPie/6CUPZCqjNsWzJ978FFXNv9M93Or2UC2/2sVEbAq13bdJlKfNFd+jXh+K0tRNqbolDX2hlSkzjIV4DalSaypld4205313a58Ls/Ub0wo5xQ/R4+15l6xvm6te9orYL8z6fuX4Go7n3Pp/Av4wEIyGp+b/LXuVO9utDJNps0A0nEu0+X11ONvuw2Y7Iij7ywU8PgPP5sdTq6GYiGTdcKbhZSfqoK6xJjiTQTxpZqZC6fAgMBAAGjUDBOMB0GA1UdDgQWBBSyaFI5uPWpApi60iKWAFgmTqQtLzAfBgNVHSMEGDAWgBSyaFI5uPWpApi60iKWAFgmTqQtLzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAL/kojfk1HWKuX/71zlhFT7iEF7D2Dq5HcIRvpwaNdtnbNZ8Yjk6VMgrxUJDEnaU5arPIDZS8AOEbILiFMRf5qb7iTscYv+kp9LYANwyo1ZmFr3rtI0btKwBxhOdnQQGLdHE7HjzkHLLV5UnkzY21AkP+pB+D9BjFXVErTsYjqxQcPE6isT/xTQDvFN5tmMqVNNZYL94qRf5HsPFVOQRZSSvk4tN9cas2mSUGSXesqjJIR53oyWCA2nkXYburqYSbP/6vNg6WJ3OfLg8hqSHVnPPjSqprTort7xB/HAHHg+2nBBEDwUVK8HuCorikhVrF5ZXVmptPzoOJQ3KN8ppGP</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.istitutostradivariservizi.it/didattica/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.istitutostradivariservizi.it/didattica/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">IIS Stradivari - Didattica</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">IIS Stradivari - Didattica</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.istitutostradivariservizi.it/didattica</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e1de34b4ea268dd1c263b2335f2b1da839dea94cc6bdd56b4778305b374403a0" entityID="https://www.ariccia.rm.gov.it/serviziSPID"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e1de34b4ea268dd1c263b2335f2b1da839dea94cc6bdd56b4778305b374403a0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Vi6hb+6/vceSQUqMfezF+A4/uc31VHmj3sjnX6+RPK4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qJwBm4FcXLvgaPyZ736etXsjCcWkR548ywlrI8uEAqvuvQXiRsDhp/WRYttHwRl9mr/kAIZiz5bH
+vqfG5CJWcCu2aO0LHyjNnS6SvFywI44xi5jO0p2Z9KgWrl2ZACvUI/RHYpkY0oozOGuTmnnU/m+w
+5bbf7EqUZF2f5Ox2/yXB7I8b+f32sIGej4Jd61kRm1ExePv3xV4S0/wGYivLZnyvQIr3yuzFu5r9
+WhJXP3RE/I7LG2r2xRBT63JK9QHY9LIxRzJUN62wPDJZ3aZ6VEBXKjyqK6AbQGMPWs9fKajSu3B8
+mMgbSZUGooxEY51yYDGPkOSqe9IZIv9uIX/2VA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yBPY12DjPcwERwcNj7P85EUGFCu2A5CFz6oN2z1JbeUtvuwupP0DLx+iyhxJDCVlIKRsS/m5Sd9t
+Nc9SAz+vOCL55UqeiXiphPwxItslSgBeu7go2Wsi8KOmwKeNU9j9i4tBio9Jus44PkcbYO7SHsVv
+GhIeNc9sSwK21YUz6slOR4WmzNUmxRIuOSt6FnDxVDtxdRFrv+tRnXaVQ5LmFs8+mKq51mo22tQk
+MObQI2AAugXyVecdGtpknC2WXKAekZHSYFANXLtZ431MQp6t7WcfcTz4B0xauOxoEGGJpc18qFFH
+KYk+ob/7QP+QO/seqJMqpJ+nWMrQNi4e7upl8Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDvzCCAqegAwIBAgIQEHVER1Zi//LSBDZ8RupBKzANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UE
+BhMCSVQxEDAOBgNVBAcTB0FyaWNjaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBBcmljY2lhMTIwMAYD
+VQQDEylodHRwczovL3d3dy5hcmljY2lhLnJtLmdvdi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEBRYM
+UEE6SVQtY19hNDAxMB4XDTIwMTExMTE1MjM0NFoXDTMwMTEwOTE1MjM0NFowgYYxCzAJBgNVBAYT
+AklUMRAwDgYDVQQHEwdBcmljY2lhMRowGAYDVQQKExFDb211bmUgZGkgQXJpY2NpYTEyMDAGA1UE
+AxMpaHR0cHM6Ly93d3cuYXJpY2NpYS5ybS5nb3YuaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBB
+OklULWNfYTQwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgT2Ndg4z3MBEcHDY+z
+/ORFBhQrtgOQhc+qDds9SW3lLb7sLqT9Ay8fosocSQwlZSCkbEv5uUnfbTXPUgM/rzgi+eVKnol4
+qYT8MSLbJUoAXru4KNlrIvCjpsCnjVPY/YuLQYqPSbrOOD5HG2Du0h7FbxoSHjXPbEsCttWFM+rJ
+TkeFpszVJsUSLjkrehZw8VQ7cXURa7/rUZ12lUOS5hbPPpiqudZqNtrUJDDm0CNgALoF8lXnHRra
+ZJwtllygHpGR0mBQDVy7WeN9TEKere1nH3E8+AdMWrjsaBBhiaXNfKhRRymJPqG/+0D/kDv7HqiT
+KqSfp1jK0DYuHu7qZfECAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQ
+BAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCWPX+//ocaP2kelgkJxANEu8v2CODK0QuBHLTHboR/+C6T
+jKi8T/s79KnPKvt10PVfCbxSVdMWw2L/e8Ry3Hy2ZKj4Yt1kcl6/f3GBrslbgmWQ0hgCUGeCmTR+
+RHiYyoXaBxPNPWRR0AckFBeyMvr/Cn/8OFWyS8xbFcRyzDaIl12XAulb8ZcSj3C4AzDlvWZ6BywT
+QXvT90NhTrPyzQCbbfmhzeMKClXdlJXhQA3DpZbR24add34IxxhNnEyOgxv/07zHEXEssRiEcssb
+5TOY6cM4IYeWXu9/QgMr9txoIOSmmOhiH8w2ChVUqvaCNUoj0uw6BmTTpWtddDJFBeX+
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJALFwX+77XEa0MA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5hcmljY2lhLnJtLmdvdi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcxMDMxMTA0OTQzWhcNMjExMDMwMTA0OTQzWjA8MR4wHAYDVQQDDBV3d3cuYXJpY2NpYS5ybS5nb3YuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApdOrsCXcOXST3DCjJTNydyHNvIRGpplslMarPk1rnClJr0sNG5q53EpmcKNqnlcpE8HoLcfxJ2nP3lMVBfpiwaHLYtvMUwJ6mZhpw6NqJkuBCu9tfXrvYaHzyXFRkm3kFuRV85DLCZehIIKjgqrq5yaosC1R0Ha4fUK2PtAlfiGrn23gDKdZWY67smVObz0kZN8wH/a5xYcJT6VP4tNh76TzpstVqFGzf1l5jMYfK0jOTV4Q5Ld35NBNbCCyJ3sT5AD+twhjVIXLSArKYu1Wv8gAZerCX4ys/HTYXJ3MLXFfi0hfIKFUd/Bj1k4qIQtvdJq0l3iQCQiVpv8/6BcvqwIDAQABo1AwTjAdBgNVHQ4EFgQUyWQx7GddVI9fW8FmG9kZD02SJHAwHwYDVR0jBBgwFoAUyWQx7GddVI9fW8FmG9kZD02SJHAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAC9mGKO8x0in5Wp6am9b2nDhMMlYMjuIGJ7tsk4ZY2+4nnkAzTIJrQ4Cu1ziuzW/6h0v4pFkjlVi51p+pkFHCbg68RrGbtZCBGBB89Osl6VnPD5MXL3WqT7WCfuGAHwQ87vC7fs2BLHLTgjJ64NCi+3/gLvhoeirTdDrGRi7NwlB5JvjzRXe3YFshOIy5rwcOlbMiYfW/SAG6Y4g3eo9vvDT/gUaQfnBfONZytamgqg8F5O3CAmg4Y5xi3jTNJYX4hVfXeh1ssL5rfIGUuoTUWu7x9qmK4ykNwTTsd0zpTnsHQJzUnEdSHglUKCdXFMvD8qPc4fnFdPxDAQVPNk6rZg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvzCCAqegAwIBAgIQEHVER1Zi//LSBDZ8RupBKzANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB0FyaWNjaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBBcmljY2lhMTIwMAYDVQQDEylodHRwczovL3d3dy5hcmljY2lhLnJtLmdvdi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEBRYMUEE6SVQtY19hNDAxMB4XDTIwMTExMTE1MjM0NFoXDTMwMTEwOTE1MjM0NFowgYYxCzAJBgNVBAYTAklUMRAwDgYDVQQHEwdBcmljY2lhMRowGAYDVQQKExFDb211bmUgZGkgQXJpY2NpYTEyMDAGA1UEAxMpaHR0cHM6Ly93d3cuYXJpY2NpYS5ybS5nb3YuaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBBOklULWNfYTQwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgT2Ndg4z3MBEcHDY+z/ORFBhQrtgOQhc+qDds9SW3lLb7sLqT9Ay8fosocSQwlZSCkbEv5uUnfbTXPUgM/rzgi+eVKnol4qYT8MSLbJUoAXru4KNlrIvCjpsCnjVPY/YuLQYqPSbrOOD5HG2Du0h7FbxoSHjXPbEsCttWFM+rJTkeFpszVJsUSLjkrehZw8VQ7cXURa7/rUZ12lUOS5hbPPpiqudZqNtrUJDDm0CNgALoF8lXnHRraZJwtllygHpGR0mBQDVy7WeN9TEKere1nH3E8+AdMWrjsaBBhiaXNfKhRRymJPqG/+0D/kDv7HqiTKqSfp1jK0DYuHu7qZfECAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCWPX+//ocaP2kelgkJxANEu8v2CODK0QuBHLTHboR/+C6TjKi8T/s79KnPKvt10PVfCbxSVdMWw2L/e8Ry3Hy2ZKj4Yt1kcl6/f3GBrslbgmWQ0hgCUGeCmTR+RHiYyoXaBxPNPWRR0AckFBeyMvr/Cn/8OFWyS8xbFcRyzDaIl12XAulb8ZcSj3C4AzDlvWZ6BywTQXvT90NhTrPyzQCbbfmhzeMKClXdlJXhQA3DpZbR24add34IxxhNnEyOgxv/07zHEXEssRiEcssb5TOY6cM4IYeWXu9/QgMr9txoIOSmmOhiH8w2ChVUqvaCNUoj0uw6BmTTpWtddDJFBeX+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvzCCAqegAwIBAgIQEHVER1Zi//LSBDZ8RupBKzANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB0FyaWNjaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBBcmljY2lhMTIwMAYDVQQDEylodHRwczovL3d3dy5hcmljY2lhLnJtLmdvdi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEBRYMUEE6SVQtY19hNDAxMB4XDTIwMTExMTE1MjM0NFoXDTMwMTEwOTE1MjM0NFowgYYxCzAJBgNVBAYTAklUMRAwDgYDVQQHEwdBcmljY2lhMRowGAYDVQQKExFDb211bmUgZGkgQXJpY2NpYTEyMDAGA1UEAxMpaHR0cHM6Ly93d3cuYXJpY2NpYS5ybS5nb3YuaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBBOklULWNfYTQwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgT2Ndg4z3MBEcHDY+z/ORFBhQrtgOQhc+qDds9SW3lLb7sLqT9Ay8fosocSQwlZSCkbEv5uUnfbTXPUgM/rzgi+eVKnol4qYT8MSLbJUoAXru4KNlrIvCjpsCnjVPY/YuLQYqPSbrOOD5HG2Du0h7FbxoSHjXPbEsCttWFM+rJTkeFpszVJsUSLjkrehZw8VQ7cXURa7/rUZ12lUOS5hbPPpiqudZqNtrUJDDm0CNgALoF8lXnHRraZJwtllygHpGR0mBQDVy7WeN9TEKere1nH3E8+AdMWrjsaBBhiaXNfKhRRymJPqG/+0D/kDv7HqiTKqSfp1jK0DYuHu7qZfECAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCWPX+//ocaP2kelgkJxANEu8v2CODK0QuBHLTHboR/+C6TjKi8T/s79KnPKvt10PVfCbxSVdMWw2L/e8Ry3Hy2ZKj4Yt1kcl6/f3GBrslbgmWQ0hgCUGeCmTR+RHiYyoXaBxPNPWRR0AckFBeyMvr/Cn/8OFWyS8xbFcRyzDaIl12XAulb8ZcSj3C4AzDlvWZ6BywTQXvT90NhTrPyzQCbbfmhzeMKClXdlJXhQA3DpZbR24add34IxxhNnEyOgxv/07zHEXEssRiEcssb5TOY6cM4IYeWXu9/QgMr9txoIOSmmOhiH8w2ChVUqvaCNUoj0uw6BmTTpWtddDJFBeX+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/ariccia"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellopolifunzionale.comune.ariccia.rm.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ariccia" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ariccia" index="1"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellopolifunzionale.comune.ariccia.rm.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="2"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Ariccia</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Ariccia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Ariccia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Ariccia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ariccia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ariccia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Ariccia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Ariccia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellopolifunzionale.comune.ariccia.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellopolifunzionale.comune.ariccia.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellopolifunzionale.comune.ariccia.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellopolifunzionale.comune.ariccia.rm.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a401</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>protocollo@pec.comunediariccia.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

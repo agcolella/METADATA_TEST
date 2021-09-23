@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icstraina.edu.it/microspid_metadata" ID="pfxa853c0b0-928b-c81e-47f8-a1ec44bd3abf"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa853c0b0-928b-c81e-47f8-a1ec44bd3abf"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>k212xfCr5RQL9DbKeqtBM2Uo0RMJ5e7WbhMLJmsLUfQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bGCEqvxHRdDgKV0shpz51GCCnMRxnqgrL4jkxvOOOmjigXsAHZA7AyLzz2Zefwx0pw5Bjim39mv7SWaGzO/UF8BxgpYoxY/2cTZ9pQcOMwW4KVOrBjjMh+1G1/VJzw6aLg679J9azpdtf4Wkc3OxFNIy69YGTGBFO8i9V/EEpbXo8agk59TOZqAkhVrl0Oae9DPIl07f9OK1eH3eTPIgezVJcPIGC/m8pLtbvys1paoNh1IMI+WlhgY05hqcCkTrSNJb5g/O1lcx2ny/s8oMQfH+EECiA68BHgThFMoaSm5nso0bMVQkvVNz2MoxbWquHmmZ3LvyukdwJXgXOkXUZQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEYTCCA0mgAwIBAgIHBb3YNqXMPDANBgkqhkiG9w0BAQsFADCBxzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlJhZ3VzYTERMA8GA1UEBwwIVml0dG9yaWExNDAyBgNVBAoMK0lzdGl0dXRvIENvbXByZW5zaXZvIFN0YXRhbGUgRmlsaXBwbyBUcmFpbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHTAbBgNVBAMMFHd3dy5pY3N0cmFpbmEuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhyZ2ljODI4MDBjQGlzdHJ1emlvbmUuaXQwHhcNMTgxMTAzMTExNTU0WhcNMzgxMTAyMTExNTU0WjCBxzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlJhZ3VzYTERMA8GA1UEBwwIVml0dG9yaWExNDAyBgNVBAoMK0lzdGl0dXRvIENvbXByZW5zaXZvIFN0YXRhbGUgRmlsaXBwbyBUcmFpbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHTAbBgNVBAMMFHd3dy5pY3N0cmFpbmEuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhyZ2ljODI4MDBjQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNOc5fq4MZJqH45uBXosWgR+nYpTs/Iv5WMdcIng09QFJF1erFHO2nNdvsCE4Wb7TrCvwHLEFp11v8hpptkw26MDA5xZrvvgSvGgbp6I+xiqoSrF5stPMlCFr3V5jXn+DmCOG0bkiu9wDIPf4OsFx4wLuAP2THNJ9RLprvPphVg0UIRS9e1n70rwSrueGUMOofUwyxZ68LIf+o0vySkBVB8lXIokgcOwHIHaOzE1Fr07plmlzrOVV8GKahj3t3hzrVN936V5U1f53dsF4QrTPGlXHXa037ORTcxGyiEBG4JpgCZQTQMjQN25bWijgqkxph+FioJHAkWxR8bKAh8kvzAgMBAAGjUDBOMB0GA1UdDgQWBBRR+Gp8b0V4wdrznLJyoQm+eHM+fzAfBgNVHSMEGDAWgBRR+Gp8b0V4wdrznLJyoQm+eHM+fzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCwS0Pg4gikonM/fDhxhJpT949jRHNFKE+SzTJukxrwmErIejhc72H7tXwP9fJbiKfyaPrVnzNbeEgc/Zg+X2FT20aZwe97+KztUDE/Ma/e/v+3WbcN57yiirl5I7fbVMUxiZvHsInrHNNgGbAD5O3NlDmDdAK9uyCwrdiHqPI+G9qyeawuafQUPxbM+PhsNd/wVljjLipP2THL3wbxG2J6WikLObxvu001yid3/CwIXZFmd2sgvziQxie2M7zDsbEk4PWK/Xvxg7HGMAh2QfBCuy3Y3c/fAP1l+vXsqJRMd4X8grUYKapuhPFvMFxPuETRiT+uK472/GbrGB3HltFX</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEYTCCA0mgAwIBAgIHBb3YNqXMPDANBgkqhkiG9w0BAQsFADCBxzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlJhZ3VzYTERMA8GA1UEBwwIVml0dG9yaWExNDAyBgNVBAoMK0lzdGl0dXRvIENvbXByZW5zaXZvIFN0YXRhbGUgRmlsaXBwbyBUcmFpbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHTAbBgNVBAMMFHd3dy5pY3N0cmFpbmEuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhyZ2ljODI4MDBjQGlzdHJ1emlvbmUuaXQwHhcNMTgxMTAzMTExNTU0WhcNMzgxMTAyMTExNTU0WjCBxzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlJhZ3VzYTERMA8GA1UEBwwIVml0dG9yaWExNDAyBgNVBAoMK0lzdGl0dXRvIENvbXByZW5zaXZvIFN0YXRhbGUgRmlsaXBwbyBUcmFpbmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHTAbBgNVBAMMFHd3dy5pY3N0cmFpbmEuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhyZ2ljODI4MDBjQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNOc5fq4MZJqH45uBXosWgR+nYpTs/Iv5WMdcIng09QFJF1erFHO2nNdvsCE4Wb7TrCvwHLEFp11v8hpptkw26MDA5xZrvvgSvGgbp6I+xiqoSrF5stPMlCFr3V5jXn+DmCOG0bkiu9wDIPf4OsFx4wLuAP2THNJ9RLprvPphVg0UIRS9e1n70rwSrueGUMOofUwyxZ68LIf+o0vySkBVB8lXIokgcOwHIHaOzE1Fr07plmlzrOVV8GKahj3t3hzrVN936V5U1f53dsF4QrTPGlXHXa037ORTcxGyiEBG4JpgCZQTQMjQN25bWijgqkxph+FioJHAkWxR8bKAh8kvzAgMBAAGjUDBOMB0GA1UdDgQWBBRR+Gp8b0V4wdrznLJyoQm+eHM+fzAfBgNVHSMEGDAWgBRR+Gp8b0V4wdrznLJyoQm+eHM+fzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCwS0Pg4gikonM/fDhxhJpT949jRHNFKE+SzTJukxrwmErIejhc72H7tXwP9fJbiKfyaPrVnzNbeEgc/Zg+X2FT20aZwe97+KztUDE/Ma/e/v+3WbcN57yiirl5I7fbVMUxiZvHsInrHNNgGbAD5O3NlDmDdAK9uyCwrdiHqPI+G9qyeawuafQUPxbM+PhsNd/wVljjLipP2THL3wbxG2J6WikLObxvu001yid3/CwIXZFmd2sgvziQxie2M7zDsbEk4PWK/Xvxg7HGMAh2QfBCuy3Y3c/fAP1l+vXsqJRMd4X8grUYKapuhPFvMFxPuETRiT+uK472/GbrGB3HltFX</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icstraina.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icstraina.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">ISTITUTO COMPRENSIVO FILIPPO TRAINA</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">ISTITUTO COMPRENSIVO FILIPPO TRAINA</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.icstraina.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

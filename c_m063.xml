@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="https://www.comune.viola.cn.it/SP" ID="id0a07a955fff943efabdb3596ddb4b257" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#id0a07a955fff943efabdb3596ddb4b257"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>lr9b1x+6I9GmZScGqhIr8l8aSVi/TuOAulFGUJFDmQk=</DigestValue></Reference></SignedInfo><SignatureValue>1C80SiC4Av7KcUZj3kN3vBzkqzZ+PNI/bOXACDBCD9igCGtXx1V32v2YqacL7ImigBv24zmNscMjM19/KDJ4yvJ8uCaar2OWwWpbPWy/SkGAsuSONTo7OW6qK58ATRjvcIgofYfo8t0wYZF/hBnUmF8t6MKMol5n0+Z+tG+5Npml4+dPX9bmwzAkuFBqGX0AyqOq954zJvEPknF8Us3YDXZb3+bwnZuZ7lpGmlNYLE60n2wEzCSs93VdsfhPq+AVDb6pAMoGLZtnJSuQB7maGAdZOAnp+aNe50ghN157nmpvcYDQfOdGLyY6UODXds5G6g+sQp9DaIfbpvtDeiW/JA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEPTCCAyWgAwIBAgIJAJdxN1XhhlIHMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFVmlvbGExGDAWBgNVBAoMD0NvbXVuZSBkaSBWaW9sYTEfMB0GA1UEAwwWd3d3LmNvbXVuZS52aW9sYS5jbi5pdDAeFw0yMDAzMjUxNDI1NTFaFw0zMDAzMjMxNDI1NTFaMGUxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFVmlvbGExGDAWBgNVBAoMD0NvbXVuZSBkaSBWaW9sYTEfMB0GA1UEAwwWd3d3LmNvbXVuZS52aW9sYS5jbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANkixanJa1cnDiyvxU2PZOKrs5vH9G+x6P3TeI7lN6/nThUsSPT14c7T/sYx/rCTsX60fXbu0v9N1PeTbUKKpibJj2MBecvxNUReAGiFcwCif7ju8cCim/l26uZuAx7dR/HtHXXDRLMpO7Au9Vhw40vHYUR1HmqfAkrb714J4NtfktaULLTc1Um+8VtK1/JlRoIdf8d3+prVAEEvBS8IrgcyX0jfoavxZKCqyDlZKdRy+8x8otIStObR5t2y78Jt6F6yHxrX9Qn3LY1/Ibte0q8egm0jjR0KMgltteR2uaykI2Hmpy8jG5aWeIvsXc1QsoiPJZcRfPM/gPk0v+OG9WkCAwEAAaOB7zCB7DAdBgNVHQ4EFgQUb+JMTpXda24koM4mzqwkILwSTN0wgZcGA1UdIwSBjzCBjIAUb+JMTpXda24koM4mzqwkILwSTN2haaRnMGUxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFVmlvbGExGDAWBgNVBAoMD0NvbXVuZSBkaSBWaW9sYTEfMB0GA1UEAwwWd3d3LmNvbXVuZS52aW9sYS5jbi5pdIIJAJdxN1XhhlIHMA8GA1UdEwEB/wQFMAMBAf8wEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBCwUAA4IBAQDQouFJ3ygj9OCPA6R5ze6E2GAKgOAu6XrHjm3V0SUCL//s5a6is9ePYidYaGg7XAo1I50wSD+NcJN+0VAlHh2s0JSl9jnflUqKRKq45th4s0CuWTc4T0FQ943t/VEnlVIwe3aE9qEai0u6rHr0VEkg9DVsPQo0+Ut6EAEB6SjqV7kLy+gVqCnibPxQGExfCMzm/rnIGehwEYeaWMnVqp+Q4G9evX/dbobxpmnbUVz2QICSCbgOfkBp4OZFM9u0XZDD3x6EGYN+EPblNouDEsBXPPa2hEDJFTu7ze+Y9djcxkkzae2v8001YDT/K7LSY+Dy/3hec7UXhAoiF32xR9IP</X509Certificate></X509Data></KeyInfo></Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <AttributeConsumingService index="0">
+      <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+      <RequestedAttribute Name="fiscalNumber" />
+      <RequestedAttribute Name="name" />
+      <RequestedAttribute Name="familyName" />
+      <RequestedAttribute Name="spidCode" />
+      <RequestedAttribute Name="email" />
+      <RequestedAttribute Name="digitalAddress" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="it">Comune di Viola</OrganizationName>
+    <OrganizationDisplayName xml:lang="it">Comune di Viola</OrganizationDisplayName>
+    <OrganizationURL xml:lang="it">http://www.comune.viola.cn.it</OrganizationURL>
+  </Organization>
+</EntityDescriptor>

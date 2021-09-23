@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_4ed8124391d87855d9a4c3855dd5b2fc8b2ab56" entityID="http://www.regione.piemonte.it/sp"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3ZqnUo/e3qoEFNVey3UdxGbz3JkwcFJcl90BZsrTZkE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Sw9cta7J6djUoqQBW5BDQUJ0bthm08zreytuGlLMCymIE53hBTig6Fsksb2qyrLLkWn+Q3cCVJG6
+3iIckQ0tfjsq895PYaUbWrjlXAwlYmP0B83oQkeb5VvQHGFduBFIENIHCBsN26rnIZXz7O8eAoXR
+kRzG2viR55YUzB0p2Tt1f6EZ7tOYJJXgLS9hFc6xhdN1lrkSVjdhP8uCzbeS0cZI0mk+RF770ZFx
+4a2qIkKO0xuhmSNRQOskXu6eOJZ0W0se+amlxRf9eUYiz0wIpnWL+C7LgJyk7e3J6fnV1L8CD13g
+jIYK/8JoaPCad3eBqhm9zKEtz6cRmY1wXWFw8A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+gpAzh0967rw5swM6XR2PbyoETY3afj4CuZn0NY+vwKNTFOPBg5M5x5NgNAzZFiI5LzNkYpGGoXRx
+tg7nx9lIryLIJyFrMnCT8IYAaShWhLp/XYztQFf8PUSORx5DYVSga+jBfeyQPrmDoFAreO7cAvtl
+GAG+/QWyoBRnzDFTIvHpIcq8th6XaWLEjif6EFJea6ZAIAD2VCrrR0NFk1Hc5RPjPRJmeKCU6aNn
+uvpQSfsyrDbt78ADIJey2y4Z6RPBhIY7RzisAo577M/om8UjgQ+XUBe96IipNimJDox73laFm8xs
+QTtsdmPvQZaGx1ag/DVilPoKsppOM6t4QUQt1Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGfDCCBWSgAwIBAgIDBvFkMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEVMBMGA1UE
+CgwMSU5GT0NFUlQgU1BBMRswGQYDVQQLDBJFbnRlIENlcnRpZmljYXRvcmUxFDASBgNVBAUTCzA3
+OTQ1MjExMDA2MS0wKwYDVQQDDCRJbmZvQ2VydCBTZXJ2aXppIGRpIENlcnRpZmljYXppb25lIDIw
+HhcNMTYwNzI1MTI0NTUzWhcNMTcwNzI1MDAwMDAwWjCBkTEZMBcGA1UELhMQMjAxNjk5NzUwMUEy
+NzkzMDEoMCYGCSqGSIb3DQEJARYZY2VydGlmaWNhdGlfc2VydmVyQGNzaS5pdDEVMBMGA1UEAwwM
+c2hpYmJvbGV0aFNQMRUwEwYDVQQKDAxDU0kgUGllbW9udGUxDzANBgNVBAcMBlRvcmlubzELMAkG
+A1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCCkDOHT3ruvDmzAzpdHY9v
+KgRNjdp+PgK5mfQ1j6/Ao1MU48GDkznHk2A0DNkWIjkvM2RikYahdHG2DufH2UivIsgnIWsycJPw
+hgBpKFaEun9djO1AV/w9RI5HHkNhVKBr6MF97JA+uYOgUCt47twC+2UYAb79BbKgFGfMMVMi8ekh
+yry2HpdpYsSOJ/oQUl5rpkAgAPZUKutHQ0WTUdzlE+M9EmZ4oJTpo2e6+lBJ+zKsNu3vwAMgl7Lb
+LhnpE8GEhjtHOKwCjnvsz+ibxSOBD5dQF73oiKk2KYkOjHveVoWbzGxBO2x2Y+9BlobHVqD8NWKU
++gqymk4zq3hBRC3VAgMBAAGjggLkMIIC4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQw
+JQYDVR0SBB4wHIEaZmlybWEuZGlnaXRhbGVAaW5mb2NlcnQuaXQwZQYDVR0gBF4wXDBaBgYrTCQB
+AQgwUDBOBggrBgEFBQcCAjBCDEBJbmZvQ2VydCBTcEEgU1NMLCBTTUlNRSBhbmQgZGlnaXRhbCBz
+aWduYXR1cmUgQ2xpZW50IENlcnRpZmljYXRlMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYb
+aHR0cDovL29jc3Auc2MuaW5mb2NlcnQuaXQvMIHsBgNVHR8EgeQwgeEwNKAyoDCGLmh0dHA6Ly9j
+cmwuaW5mb2NlcnQuaXQvY3Jscy9zZXJ2aXppMi9DUkwwMS5jcmwwgaiggaWggaKGgZ9sZGFwOi8v
+bGRhcC5pbmZvY2VydC5pdC9jbiUzREluZm9DZXJ0JTIwU2Vydml6aSUyMGRpJTIwQ2VydGlmaWNh
+emlvbmUlMjAyJTIwQ1JMMDEsb3UlM0RFbnRlJTIwQ2VydGlmaWNhdG9yZSxvJTNESU5GT0NFUlQl
+MjBTUEEsQyUzRElUP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwDgYDVR0PAQH/BAQDAgSwMCQG
+A1UdEQQdMBuBGWNlcnRpZmljYXRpX3NlcnZlckBjc2kuaXQwgbMGA1UdIwSBqzCBqIAU6TaaZClS
+oVr+aaTEg7eAfQ9qEnihgYykgYkwgYYxCzAJBgNVBAYTAklUMRUwEwYDVQQKDAxJTkZPQ0VSVCBT
+UEExGzAZBgNVBAsMEkVudGUgQ2VydGlmaWNhdG9yZTEUMBIGA1UEBRMLMDc5NDUyMTEwMDYxLTAr
+BgNVBAMMJEluZm9DZXJ0IFNlcnZpemkgZGkgQ2VydGlmaWNhemlvbmUgMoIBAjAdBgNVHQ4EFgQU
+YmUA+ttpMrrXGDVnWc0Vhx+jINAwDQYJKoZIhvcNAQELBQADggEBAGyG+0EsvITyy6ISQhXiE2T2
+9DcqlqJuWIYh9rBRD8tKpHtd5+D8atS1uRO4Pyas5qDum1ZOWz1e4AgNTLYnI5tdZi4nYtfHvDCq
+MhvmwnK4UT6g964ombz8CEqRhLAI3IWu6a3wfvjqb9FBhK+tum1QoiLeUA3AGE/Y01xXH/O8O6ot
+Q7fgK1IaTU4nKNAF7a+0mC5bIUMIObK9N81l5a/3mFTD9hj2JmrrFmXPSVqLI1G3Z6I3WtCoCYX4
+aVJU+7tozp4MAm+bT6//wWdSlxwc+gWvoiUrh4ZzLYMtPIUVAHzr0EFpZrkbNzjmDey8N6C7Le0C
+w1dZBxL06kpAYKw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+				    <ds:X509Certificate>
+MIIEGjCCAwKgAwIBAgIJAOzvQts89pE4MA0GCSqGSIb3DQEBCwUAMIGuMQswCQYD
+VQQGEwJJVDERMA8GA1UECAwIUGllbW9udGUxDzANBgNVBAcMBlRvcmlubzEVMBMG
+A1UECgwMQ1NJIFBpZW1vbnRlMSQwIgYDVQQLDBtDZW50cm8gVGVjbmljbyBDU0kg
+UGllbW9udGUxFTATBgNVBAMMDHNoaWJib2xldGhTUDEnMCUGCSqGSIb3DQEJARYY
+aWRlbnRpdGEuZGlnaXRhbGVAY3NpLml0MB4XDTE2MDIwMTExMDAwN1oXDTM2MDEy
+NzExMDAwN1owga4xCzAJBgNVBAYTAklUMREwDwYDVQQIDAhQaWVtb250ZTEPMA0G
+A1UEBwwGVG9yaW5vMRUwEwYDVQQKDAxDU0kgUGllbW9udGUxJDAiBgNVBAsMG0Nl
+bnRybyBUZWNuaWNvIENTSSBQaWVtb250ZTEVMBMGA1UEAwwMc2hpYmJvbGV0aFNQ
+MScwJQYJKoZIhvcNAQkBFhhpZGVudGl0YS5kaWdpdGFsZUBjc2kuaXQwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8CYppl86JKeShGQRUQTbExT+uhIOB
+BMcwjZ63imbQtmc6z8LJe32cZRliT83hue8JIKMFAiz218WjgK4wdoktRpoPEdAh
+lced09TRUaFGh8NZAjYsDIoIR2n3kE8Dpj5Nts97FZazMw8T8A3T/SIF9SJM4nK+
+QUrMpNhUPSk5BMSxnk1+ZCHvJpKjFNfSevKW1GIku5IMM+f2KAEXl3KhJ+RuHRKi
+PX5IaT1G2LHfDwQqbjc9QIXjewdfHRefkVvVsaR5q2pN1wvtdvYPj1V0BxEaCwrS
+KPnKvRaZXAE3PXg/8Jgbi97Vu23fiWajD4fqw1lz2024TgK5MKNX+7DJAgMBAAGj
+OTA3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMB
+BggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAQEAHP5rctOPwSBrndQ4TVIbpVY4
+xHPfgC7oi/cqQ3PN+/ZPiiZXCW2cJBOIF66BOZaZwI2QfONlEj9K5EotOfvsCbu9
+aaPQ1Nn6Tr+d2LiRTkByX86ZUUgmU177PWgMMUH9484FbXJ6uIvRoWcX/MncdrRG
+brPMjQwmPfIO2csFhZSpqCu+rFjRM3Rm6tYjBFAyFSJswYgizSxpS9ivc+wDTK1O
+u3CBi+pgp7RCCOByggtwhXBIDfUhrfsDkXiKZJrpLUoQHfeSpu0vR4IJfzMc+ncK
+6rUpfT8cCdqFo7UKUhZTGHX3l+VzwUdkcmhdFqLUFShMyQE9Uovj0Z0nyoFzQg==
+					</ds:X509Certificate>				
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+				    <ds:X509Certificate>
+MIIEJjCCAw6gAwIBAgIJAN7n26Qh1dKWMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYD
+VQQGEwJJVDERMA8GA1UECBMIUGllbW9udGUxDzANBgNVBAcTBlRvcmlubzEVMBMG
+A1UEChMMQ1NJIFBpZW1vbnRlMSQwIgYDVQQLExtDZW50cm8gVGVjbmljbyBDU0kg
+UGllbW9udGUxHTAbBgNVBAMTFHNoaWJib2xldGhTUGlzb2xlMjU2MSUwIwYJKoZI
+hvcNAQkBFhZzaXN0ZW1pc3RpLm5tc2ZAY3NpLml0MB4XDTE2MDIyNjE0NTQ0N1oX
+DTM2MDIyMTE0NTQ0N1owgbQxCzAJBgNVBAYTAklUMREwDwYDVQQIEwhQaWVtb250
+ZTEPMA0GA1UEBxMGVG9yaW5vMRUwEwYDVQQKEwxDU0kgUGllbW9udGUxJDAiBgNV
+BAsTG0NlbnRybyBUZWNuaWNvIENTSSBQaWVtb250ZTEdMBsGA1UEAxMUc2hpYmJv
+bGV0aFNQaXNvbGUyNTYxJTAjBgkqhkiG9w0BCQEWFnNpc3RlbWlzdGkubm1zZkBj
+c2kuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDwX3AWwWv+4o8f
+dW7jDhdfV73L3Ln6VnBJNyadMXjn0qTrrdpYKtq5yOz75sJ9zxh2N0dyVyho8fD4
+98JUofHvHJTz1Wd+vhiClrLt5Jlid0PZSPYMsldLj4+UiAu6g246+3LtFSyruixk
+hWaazgClqGzKjr7Sg3StK3P6Uf2DR/WUunvJKa9mfDkLWimY0a8Ep0SSEgtk82JV
+lqtM2Y16MKoLjxDkNOpl9wy5J0l4fv8AfS13hsBLTfgyJ2rhXcgJGqgeGoCT2yE5
+BfN96c78b8c6HKP8+ucACU1rLp7CrYyE/LaRoNeG/TpiDAMby1JdIVtHNtYvHLd6
+Mw5Mikd9AgMBAAGjOTA3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAQEAkKaD4DPj
+3wccFVFW7RjtezhOtGR3ur5ZR4R8NNMdRRj320USzjZPsalDc2hEQsEW0TGNJPhn
+dVl4GHSIFr5KrSh8EZw7aNwDDVp+0m4N6Efo0mY3TJFOS63J1D6pwL2XLK0RlILH
+p3fV2FTqD0R3heiXoFaLMBQZISCYHulZ+Q5VjjbB6gSVLJqN2ZtBiIyc3a7y93Ob
+BxBZTfcB6h41ujtud2akHcuDnURKEPX/4emrRFvaS/CXNmMLw8OSrOguxxrbDE/d
+MmoPZTsPNEM3nq9kmNApNx4nUhrdPVpi2DyiSwgzaU6MklfCI+C4pcgNe0baXJCj
+c6cw35yrukGWUw==
+					</ds:X509Certificate>				
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIEGjCCAwKgAwIBAgIJAPN3rOyBTUN/MA0GCSqGSIb3DQEBBQUAMIGuMQswCQYD
+VQQGEwJJVDERMA8GA1UECBMIUGllbW9udGUxDzANBgNVBAcTBlRvcmlubzEVMBMG
+A1UEChMMQ1NJIFBpZW1vbnRlMSQwIgYDVQQLExtDZW50cm8gVGVjbmljbyBDU0kg
+UGllbW9udGUxFTATBgNVBAMTDHNoaWJib2xldGhTUDEnMCUGCSqGSIb3DQEJARYY
+aWRlbnRpdGEuZGlnaXRhbGVAY3NpLml0MB4XDTE0MDYxNzEzMTgyMloXDTM0MDYx
+MjEzMTgyMlowga4xCzAJBgNVBAYTAklUMREwDwYDVQQIEwhQaWVtb250ZTEPMA0G
+A1UEBxMGVG9yaW5vMRUwEwYDVQQKEwxDU0kgUGllbW9udGUxJDAiBgNVBAsTG0Nl
+bnRybyBUZWNuaWNvIENTSSBQaWVtb250ZTEVMBMGA1UEAxMMc2hpYmJvbGV0aFNQ
+MScwJQYJKoZIhvcNAQkBFhhpZGVudGl0YS5kaWdpdGFsZUBjc2kuaXQwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8CYppl86JKeShGQRUQTbExT+uhIOB
+BMcwjZ63imbQtmc6z8LJe32cZRliT83hue8JIKMFAiz218WjgK4wdoktRpoPEdAh
+lced09TRUaFGh8NZAjYsDIoIR2n3kE8Dpj5Nts97FZazMw8T8A3T/SIF9SJM4nK+
+QUrMpNhUPSk5BMSxnk1+ZCHvJpKjFNfSevKW1GIku5IMM+f2KAEXl3KhJ+RuHRKi
+PX5IaT1G2LHfDwQqbjc9QIXjewdfHRefkVvVsaR5q2pN1wvtdvYPj1V0BxEaCwrS
+KPnKvRaZXAE3PXg/8Jgbi97Vu23fiWajD4fqw1lz2024TgK5MKNX+7DJAgMBAAGj
+OTA3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMB
+BggrBgEFBQcDAjANBgkqhkiG9w0BAQUFAAOCAQEAEExYc0lohaLqlM3lblTrLo/m
+0Z56A937WUCSbL7IPY8fHEydRVMlj3KZdj12OqilpgBGq887UUxki//sanR39iCk
+/DzI3hNfiUKnAnsQvuCaCWkYuGharT8QjuI0xW6IxV2mxAgKnMC8DWkHi1koLswM
+O6yxPEeLpSfeuGAFsu2WXiADCFmZiPJ+W5ExcuRzBywd2wU2iE7t1cf9SLAzXhB7
+5LhFDfQ5+85hLKcz68xxVAKiQvNpIXSz8k7ydK9oOSLLPkDoRxTIj6U7siY8uQ7s
+ke4KDmrN7zAWg/GxqKc/coy3ynTbusqYd8KQMZ++Ct6mxa+6Qa51xlJDFzJB7A==
+					</ds:X509Certificate>    
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasp_regione/logout.do" ResponseLocation="https://www.spid.piemonte.it/gasp_regione/logout.do"/>							 
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.spid.piemonte.it/gasp_regione/logout.do" ResponseLocation="https://www.spid.piemonte.it/gasp_regione/logout.do"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.spid.piemonte.it/gasp_regione/logout.do" ResponseLocation="https://www.spid.piemonte.it/gasp_regione/logout.do"/>
+		
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+			
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://secure.sistemapiemonte.it/sisps_liv1_spid/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>	
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://secure.sistemapiemonte.it/sisps_liv2_spid/Shibboleth.sso/SAML2/POST" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidisan.sistemapiemonte.it/isansliv1spid/Shibboleth.sso/SAML2/POST" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidisan.sistemapiemonte.it/isansliv2sisp/Shibboleth.sso/SAML2/POST" index="3"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasp_regione/authnResponseAction.do" index="4"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_agric/authnResponseAction.do" index="5"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_ambiente/authnResponseAction.do" index="6"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_attpro/authnResponseAction.do" index="7"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_fprof/authnResponseAction.do" index="8"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_istruzione/authnResponseAction.do" index="9"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_lavoro/authnResponseAction.do" index="10"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_salute/authnResponseAction.do" index="11"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_sempl/authnResponseAction.do" index="12"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_strasv/authnResponseAction.do" index="13"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_terr/authnResponseAction.do" index="14"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_traspamm/authnResponseAction.do" index="15"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_tributi/authnResponseAction.do" index="16"/>
+									 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.spid.piemonte.it/gasprp_turismo/authnResponseAction.do" index="17"/>
+         
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Regione Piemonte</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Shib-Identita-CodiceFiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Shib-Identita-Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Shib-Identita-Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Codice-identificativo-SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Regione Piemonte</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Regione Piemonte</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">Regione Piemonte</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="4">
+			<md:ServiceName xml:lang="it">Regione Piemonte</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+					
+	</md:SPSSODescriptor>
+	
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Regione Piemonte</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Regione Piemonte</md:OrganizationName>
+		<md:OrganizationName xml:lang="de">Regione Piemonte</md:OrganizationName>
+		<md:OrganizationName xml:lang="fr">Regione Piemonte</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Regione Piemonte</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Regione Piemonte</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="de">Regione Piemonte</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="fr">Regione Piemonte</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.regione.piemonte.it/</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">http://www.regione.piemonte.it/</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="de">http://www.regione.piemonte.it/</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="fr">http://www.regione.piemonte.it/</md:OrganizationURL>
+	</md:Organization>
+	
+</md:EntityDescriptor>

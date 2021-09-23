@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Padula" entityID="https://www.comune.padula.sa.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Padula">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6XK29dIACcWNVySTVXQxy/8vAfRfmOAn/QtOMVsa6AI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cfL41bu74gvRJa0JYeBy2Kferg7DELx4Ha0NA3bXLb8tLrzqqGgNfN4XMWrj52chqlFbA4t3g/c8
+f12Nw4HrVgMBGyRHoOZq7WPBIwlNkUY4xvKLA2UWu3v4n0ME3cwCphgNIpPdEDHwYamw3rGhYYq/
+NyAtMi+hpdyCGgKk+qOYw4oRDekV7TpQ+y2+Qo/7gJBxgn+Tl9rLxo7R1GPKQFCOkPzUbJ63XNav
+QHGse5gFnd3y60FEdGhEdn5AWnHCZX+6KDY21+LJ+vPBritfrp+5rcg0+60JOqxn3K+PrNmjyIa+
+RPIfleTXtYyzQsm+lafOT/WqQuvKSaB7bUr84Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wqrj0uQK04Dmh1Im5esuyEMAiENwjf+HTm2EZSyP61SMBaW24Gj47lIjgKEgrxbHPEk5q8HgAUcq
+e3fK2Pd99LMFCZbr4ldQ9QWqRUxtEUd1Wo7YTLQsozTcFufw8d96tbttj3BwsUgy7TafMVp/KjjB
+Oc3gzVVxKNqLNnkhTouACZnLCO13yUoelHux6IjSyPACPr9Cphw8fKemO8ht+Oxb09qdUdE6pePJ
+DPDvZNYEKP0Rpo/aIUuG748tFNlf0ApIRw6ns89DtysjKC868DEwiXVQZaPvzpcNB/u53zLt2Rb7
+WX/tZ8OT21s7ECKcIIRnofSN7WTwgfdi2JeADQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDqjCCApKgAwIBAgIJAOxzuJoEUZOMMA0GCSqGSIb3DQEBCwUAMHwxIDAeBgNVBAMMF3d3dy5j
+b211bmUucGFkdWxhLnNhLml0MRkwFwYDVQQKDBBDb211bmUgZGkgUGFkdWxhMRUwEwYDVQQEDAxQ
+QTpJVC1jX2cyMjYxCzAJBgNVBAYTAklUMRkwFwYDVQQHDBBDb211bmUgZGkgUGFkdWxhMB4XDTIw
+MTAxNjEzNDU0MloXDTMwMTAxNDEzNDU0MlowfDEgMB4GA1UEAwwXd3d3LmNvbXVuZS5wYWR1bGEu
+c2EuaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBQYWR1bGExFTATBgNVBAQMDFBBOklULWNfZzIyNjEL
+MAkGA1UEBhMCSVQxGTAXBgNVBAcMEENvbXVuZSBkaSBQYWR1bGEwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDCquPS5ArTgOaHUibl6y7IQwCIQ3CN/4dObYRlLI/rVIwFpbbgaPjuUiOA
+oSCvFsc8STmrweABRyp7d8rY9330swUJluviV1D1BapFTG0RR3VajthMtCyjNNwW5/Dx33q1u22P
+cHCxSDLtNp8xWn8qOME5zeDNVXEo2os2eSFOi4AJmcsI7XfJSh6Ue7HoiNLI8AI+v0KmHDx8p6Y7
+yG347FvT2p1R0Tql48kM8O9k1gQo/RGmj9ohS4bvjy0U2V/QCkhHDqezz0O3KyMoLzrwMTCJdVBl
+o+/Olw0H+7nfMu3ZFvtZf+1nw5PbWzsQIpwghGeh9I3tZPCB92LYl4ANAgMBAAGjLzAtMAkGA1Ud
+EwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IB
+AQA4ISET7ybf/wch0p7BeulLC0i5waGovu6SzFBmdFABoXGBuxSwsiroHq1hW1KlELm9iCUCoyBd
+VGpo7tH7ozI8VOU7WLswbX6AST3glaQvLEWIY8rYojaSEzzNwQkdEpuZkA0+6KpnOiYawPTFNqnl
+x9i+sivXTv9pQDKVUX/ncM9miDqOFJdrqxfoiT9xA2hRuQ5d46S29+Ty5PbZcq9h2wwsL8tnE4Gc
+j4pG3zNFtA8ZW8Of/Eo6MGbK+q9Zp/8WVqfQneINg5Z5/FxaImf30501uE3pCjz4g/YMdbp+JlUk
+vd7izuz4Ag4dH/xS9xXBJ7QU85z6adOt06ajHd5J
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDqjCCApKgAwIBAgIJAOxzuJoEUZOMMA0GCSqGSIb3DQEBCwUAMHwxIDAeBgNVBAMMF3d3dy5jb211bmUucGFkdWxhLnNhLml0MRkwFwYDVQQKDBBDb211bmUgZGkgUGFkdWxhMRUwEwYDVQQEDAxQQTpJVC1jX2cyMjYxCzAJBgNVBAYTAklUMRkwFwYDVQQHDBBDb211bmUgZGkgUGFkdWxhMB4XDTIwMTAxNjEzNDU0MloXDTMwMTAxNDEzNDU0MlowfDEgMB4GA1UEAwwXd3d3LmNvbXVuZS5wYWR1bGEuc2EuaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBQYWR1bGExFTATBgNVBAQMDFBBOklULWNfZzIyNjELMAkGA1UEBhMCSVQxGTAXBgNVBAcMEENvbXVuZSBkaSBQYWR1bGEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCquPS5ArTgOaHUibl6y7IQwCIQ3CN/4dObYRlLI/rVIwFpbbgaPjuUiOAoSCvFsc8STmrweABRyp7d8rY9330swUJluviV1D1BapFTG0RR3VajthMtCyjNNwW5/Dx33q1u22PcHCxSDLtNp8xWn8qOME5zeDNVXEo2os2eSFOi4AJmcsI7XfJSh6Ue7HoiNLI8AI+v0KmHDx8p6Y7yG347FvT2p1R0Tql48kM8O9k1gQo/RGmj9ohS4bvjy0U2V/QCkhHDqezz0O3KyMoLzrwMTCJdVBlo+/Olw0H+7nfMu3ZFvtZf+1nw5PbWzsQIpwghGeh9I3tZPCB92LYl4ANAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQA4ISET7ybf/wch0p7BeulLC0i5waGovu6SzFBmdFABoXGBuxSwsiroHq1hW1KlELm9iCUCoyBdVGpo7tH7ozI8VOU7WLswbX6AST3glaQvLEWIY8rYojaSEzzNwQkdEpuZkA0+6KpnOiYawPTFNqnlx9i+sivXTv9pQDKVUX/ncM9miDqOFJdrqxfoiT9xA2hRuQ5d46S29+Ty5PbZcq9h2wwsL8tnE4Gcj4pG3zNFtA8ZW8Of/Eo6MGbK+q9Zp/8WVqfQneINg5Z5/FxaImf30501uE3pCjz4g/YMdbp+JlUkvd7izuz4Ag4dH/xS9xXBJ7QU85z6adOt06ajHd5J</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDqjCCApKgAwIBAgIJAOxzuJoEUZOMMA0GCSqGSIb3DQEBCwUAMHwxIDAeBgNVBAMMF3d3dy5jb211bmUucGFkdWxhLnNhLml0MRkwFwYDVQQKDBBDb211bmUgZGkgUGFkdWxhMRUwEwYDVQQEDAxQQTpJVC1jX2cyMjYxCzAJBgNVBAYTAklUMRkwFwYDVQQHDBBDb211bmUgZGkgUGFkdWxhMB4XDTIwMTAxNjEzNDU0MloXDTMwMTAxNDEzNDU0MlowfDEgMB4GA1UEAwwXd3d3LmNvbXVuZS5wYWR1bGEuc2EuaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBQYWR1bGExFTATBgNVBAQMDFBBOklULWNfZzIyNjELMAkGA1UEBhMCSVQxGTAXBgNVBAcMEENvbXVuZSBkaSBQYWR1bGEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCquPS5ArTgOaHUibl6y7IQwCIQ3CN/4dObYRlLI/rVIwFpbbgaPjuUiOAoSCvFsc8STmrweABRyp7d8rY9330swUJluviV1D1BapFTG0RR3VajthMtCyjNNwW5/Dx33q1u22PcHCxSDLtNp8xWn8qOME5zeDNVXEo2os2eSFOi4AJmcsI7XfJSh6Ue7HoiNLI8AI+v0KmHDx8p6Y7yG347FvT2p1R0Tql48kM8O9k1gQo/RGmj9ohS4bvjy0U2V/QCkhHDqezz0O3KyMoLzrwMTCJdVBlo+/Olw0H+7nfMu3ZFvtZf+1nw5PbWzsQIpwghGeh9I3tZPCB92LYl4ANAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQA4ISET7ybf/wch0p7BeulLC0i5waGovu6SzFBmdFABoXGBuxSwsiroHq1hW1KlELm9iCUCoyBdVGpo7tH7ozI8VOU7WLswbX6AST3glaQvLEWIY8rYojaSEzzNwQkdEpuZkA0+6KpnOiYawPTFNqnlx9i+sivXTv9pQDKVUX/ncM9miDqOFJdrqxfoiT9xA2hRuQ5d46S29+Ty5PbZcq9h2wwsL8tnE4Gcj4pG3zNFtA8ZW8Of/Eo6MGbK+q9Zp/8WVqfQneINg5Z5/FxaImf30501uE3pCjz4g/YMdbp+JlUkvd7izuz4Ag4dH/xS9xXBJ7QU85z6adOt06ajHd5J</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/padula"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/padula" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/padula" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/padula" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Padula</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Padula</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Padula</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Padula</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Padula</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Padula</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Padula</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Padula</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.padula.sa.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.padula.sa.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.padula.sa.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.padula.sa.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_g226</spid:IPACode>
+         <spid:FiscalCode>00532480654</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>tributi@comune.padula.sa.it</md:EmailAddress>
+      <md:TelephoneNumber>0925561277</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

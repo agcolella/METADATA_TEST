@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="UnioneTerraDiCascine" entityID="https://www.comune.castelverde.cr.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#UnioneTerraDiCascine">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4M3Nvb/S+n3YHUZBAc6agQmX8jDO2RbQLK2lyltJkAA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+o3NpgF1Nh8B5SL9AoZ49dcqh0HsSlRnXze8z0l4zJBcfDc08uABjmR8HrCaumgB94s/wY2/i13qU
+81DwaA6ulQ6ApT61Refbe9ZeTzoVEq2ZzNF10SfbIpKkqZwqTXLKsSh4LDYzPxK7Glu5gx6/J6PU
++HRIICW+QifQhPDF+GAUtdKfGOzi8byCOtNltUxW24r45D+d1q8pQDNXJzU9jzQEChc/nitof9Qe
+NJgcg+s22V/bhJce8QUNpOh6E3jTb7oB+ULHyJgE51qY4mN98KWVmSX/A2oC+NBTlMkzH0/ExgEP
+STiPPOQoS+pJvs4LkwB+W7oM0LkbMGiQBF2sXw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zxdm/69gCixUd7cIrtFpy0Iyi7ht6tiW+//Kzs2/ZLXeVbc8y44P3YxwYEcpXOU8mhaE3NvZDT3T
+HsxXzbtPhgO8529tH0o63wTQMBoQk5esAK2T9KCwlkHARCKRnlOa9LS3JoeB2eCubyWclWi2m2r/
+91BXGtTnHMpkONy2jJTG2TeanYZEedSoSRrX2b1BYO8IgetZlLhXqQdZvlYGpTMVMdoSUzk1BxiJ
+BzjK8FfNaJ+Wt3HqEghXUBZrnUWIP41w8w9EW32JUbE6aaOoV2r2cPfeRgQoU6lIJhhV1R9OAvAO
+MKcCY8X2wm1dJU2yHxtInw3ovWVgvOwpYXnfGQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAM7gX8WAnqtRMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUuY2FzdGVsdmVyZGUuY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIw
+MDUwODEyMTA1MVoXDTMwMDUwNjEyMTA1MVowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWx2
+ZXJkZS5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDPF2b/r2AKLFR3twiu0WnLQjKLuG3q2Jb7/8rOzb9ktd5VtzzLjg/djHBg
+Rylc5TyaFoTc29kNPdMezFfNu0+GA7znb20fSjrfBNAwGhCTl6wArZP0oLCWQcBEIpGeU5r0tLcm
+h4HZ4K5vJZyVaLabav/3UFca1OccymQ43LaMlMbZN5qdhkR51KhJGtfZvUFg7wiB61mUuFepB1m+
+VgalMxUx2hJTOTUHGIkHOMrwV81on5a3ceoSCFdQFmudRYg/jXDzD0RbfYlRsTppo6hXavZw995G
+BChTqUgmGFXVH04C8A4wpwJjxfbCbV0lTbIfG0ifDei9ZWC87Clhed8ZAgMBAAGjUDBOMB0GA1Ud
+DgQWBBRGBZM9gTBPgPPXzt9h/eHQN94zbzAfBgNVHSMEGDAWgBRGBZM9gTBPgPPXzt9h/eHQN94z
+bzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAH93zEviyHLe/YZs6UM0h7PLUVZfQj
+ahfLkKdt2aUT5Qq7bxyB86e3N8gWc4Q/lRp+uAFKNjuwO1lk6MWLYlcQh9/hOKMwCqRRfx4frCWS
+60idLF+bsgEbJRphjBXwZqoBNhy509zo7ZWnINkpwG7goOrSrrUSGy8Iq1jSENibLn4xc393JVdi
+7A/EyyJiWalQZeMif4BACKkZw4AQesLvP+bIqZD2WBY1O2bxMSrCyPeLcw2XuwPOZFdc+DyemJL+
+i3DxfLncjWqh5nQO1ReLc42QpPEqn6kwsbCd3lmbJD7RHF8WS+Ir1iS2FKbn79K4QYpPG24Kp0Ma
+Q+XySuk+
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAM7gX8WAnqtRMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuY2FzdGVsdmVyZGUuY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUwODEyMTA1MVoXDTMwMDUwNjEyMTA1MVowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWx2ZXJkZS5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPF2b/r2AKLFR3twiu0WnLQjKLuG3q2Jb7/8rOzb9ktd5VtzzLjg/djHBgRylc5TyaFoTc29kNPdMezFfNu0+GA7znb20fSjrfBNAwGhCTl6wArZP0oLCWQcBEIpGeU5r0tLcmh4HZ4K5vJZyVaLabav/3UFca1OccymQ43LaMlMbZN5qdhkR51KhJGtfZvUFg7wiB61mUuFepB1m+VgalMxUx2hJTOTUHGIkHOMrwV81on5a3ceoSCFdQFmudRYg/jXDzD0RbfYlRsTppo6hXavZw995GBChTqUgmGFXVH04C8A4wpwJjxfbCbV0lTbIfG0ifDei9ZWC87Clhed8ZAgMBAAGjUDBOMB0GA1UdDgQWBBRGBZM9gTBPgPPXzt9h/eHQN94zbzAfBgNVHSMEGDAWgBRGBZM9gTBPgPPXzt9h/eHQN94zbzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAH93zEviyHLe/YZs6UM0h7PLUVZfQjahfLkKdt2aUT5Qq7bxyB86e3N8gWc4Q/lRp+uAFKNjuwO1lk6MWLYlcQh9/hOKMwCqRRfx4frCWS60idLF+bsgEbJRphjBXwZqoBNhy509zo7ZWnINkpwG7goOrSrrUSGy8Iq1jSENibLn4xc393JVdi7A/EyyJiWalQZeMif4BACKkZw4AQesLvP+bIqZD2WBY1O2bxMSrCyPeLcw2XuwPOZFdc+DyemJL+i3DxfLncjWqh5nQO1ReLc42QpPEqn6kwsbCd3lmbJD7RHF8WS+Ir1iS2FKbn79K4QYpPG24Kp0MaQ+XySuk+
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAM7gX8WAnqtRMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuY2FzdGVsdmVyZGUuY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUwODEyMTA1MVoXDTMwMDUwNjEyMTA1MVowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXN0ZWx2ZXJkZS5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPF2b/r2AKLFR3twiu0WnLQjKLuG3q2Jb7/8rOzb9ktd5VtzzLjg/djHBgRylc5TyaFoTc29kNPdMezFfNu0+GA7znb20fSjrfBNAwGhCTl6wArZP0oLCWQcBEIpGeU5r0tLcmh4HZ4K5vJZyVaLabav/3UFca1OccymQ43LaMlMbZN5qdhkR51KhJGtfZvUFg7wiB61mUuFepB1m+VgalMxUx2hJTOTUHGIkHOMrwV81on5a3ceoSCFdQFmudRYg/jXDzD0RbfYlRsTppo6hXavZw995GBChTqUgmGFXVH04C8A4wpwJjxfbCbV0lTbIfG0ifDei9ZWC87Clhed8ZAgMBAAGjUDBOMB0GA1UdDgQWBBRGBZM9gTBPgPPXzt9h/eHQN94zbzAfBgNVHSMEGDAWgBRGBZM9gTBPgPPXzt9h/eHQN94zbzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAH93zEviyHLe/YZs6UM0h7PLUVZfQjahfLkKdt2aUT5Qq7bxyB86e3N8gWc4Q/lRp+uAFKNjuwO1lk6MWLYlcQh9/hOKMwCqRRfx4frCWS60idLF+bsgEbJRphjBXwZqoBNhy509zo7ZWnINkpwG7goOrSrrUSGy8Iq1jSENibLn4xc393JVdi7A/EyyJiWalQZeMif4BACKkZw4AQesLvP+bIqZD2WBY1O2bxMSrCyPeLcw2XuwPOZFdc+DyemJL+i3DxfLncjWqh5nQO1ReLc42QpPEqn6kwsbCd3lmbJD7RHF8WS+Ir1iS2FKbn79K4QYpPG24Kp0MaQ+XySuk+
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/unioneterradicascine"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/unioneterradicascine" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/unioneterradicascine" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/unioneterradicascine" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Terra di Cascine</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Unione Terra di Cascine</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Unione Terra di Cascine</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Unione Terra di Cascine</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Terra di Cascine</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Unione Terra di Cascine</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Unione Terra di Cascine</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Unione Terra di Cascine</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.castelverde.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castelverde.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.castelverde.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.castelverde.cr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

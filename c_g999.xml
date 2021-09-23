@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizi.comune.prato.it/" ID="pfxe12dfa50-62a2-4477-76f3-8c61507618f6"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxe12dfa50-62a2-4477-76f3-8c61507618f6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>zDOn5bkj941bpsd59tYSYkICxZkikBXvpIjwoHBkM3c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>x9Xe48Zf/Wz24AR3tSJEfJ4QsU13LHUjtjn7xrUcS6ZzxtJXV86ctAnsSZPMwbHxYZt52XPOCAAZouI5mT+Mo26bQKvc9X3z6EAMNTq/+UMECSLIKWtD0X8JD3HXjxC5imQEfjpCOmrqRScDyQecwdPbCj+IUCRWbQLhng9SUoEos7VRJ1DovX+dIeydTap27dgfkc+m1U3z+M4aUcOw+ZJv4uGAIUjS5oQz8gMZ/in/gPwh8Vu+mJt/vQD/FtBT3KJq0FHVabq7r1OQJN18WQ+JD7jHATWwp+of0z0Aq2VoHGbYgaquD19EsbycstNrw1cxMc3dGXr+JXYbcPi4Mg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID6DCCAtCgAwIBAgIJAKX/0xrq05NNMA0GCSqGSIb3DQEBCwUAMIGIMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUHJhdG8xDjAMBgNVBAcMBVByYXRvMRgwFgYDVQQKDA9Db211bmUgZGkgUHJhdG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBdzZXJ2aXppLmNvbXVuZS5wcmF0by5pdDAeFw0xOTA1MDIxNTU1NTNaFw0yOTA0MjkxNTU1NTNaMIGIMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUHJhdG8xDjAMBgNVBAcMBVByYXRvMRgwFgYDVQQKDA9Db211bmUgZGkgUHJhdG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBdzZXJ2aXppLmNvbXVuZS5wcmF0by5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANQ5YA0RNfNwd/B3vnM61vIbxZVGHz/ce+dyy28IAXnhJDXwEmtOr1QL2/K5Q+jGRscuhAqt0u8sYaejkH2O6gWPUOIw0Ua4IRlitXhssZAFf4/X4fKhdMSHkBXHVpC+8Mfl66u5ddlFOVRKNLcZEg9JGJITkM2LdkayKcJxlphD/OrUQzXSy/vWJv9UVSWVmbt0QFw0W7D3hLUdN69Goka9SDGzNSgooAE3tJXYwU4c0mEX5n6l7SLNyb0fsQV7vNe5sJ+2YYGo36M1+7yAWKRON3s/cixDPUsxeq9vvnUcXp/b4G+CN/F41PhFf83h/45gZ1LZxnw/f0sNocuSYT8CAwEAAaNTMFEwHQYDVR0OBBYEFAXgvYWH3fcmXjYnQ4EHzTjipMpKMB8GA1UdIwQYMBaAFAXgvYWH3fcmXjYnQ4EHzTjipMpKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABqwRQ+rrdc8HoNA6/nn1H+2zIoLpm7fGQjYriPLUHb6YrA6mDhVCmsUXyvUrttr3Z6CVhokysbslTmuOs0AbUGkWbb08Pb2deV6SzHZcd+JlO/DPO/iyHvYnABGvuPdXZFuNMVhw7myGYFpeV3HNEALEbIeeZRcU1wKRbYPDrhiwh+h0Gemqg5SwkXt0qJdhxgKDcEbD2pGZLgciqw6xbm7850vkRCycCwPirrFIHeUoVzLG2zvE+Nq/nXuqeaFDa8qJiEgzdJvi88rskRn4oP1zD8DpdXZQpT5k4teezqcgk22GVm72MUdHJqEAF1mLGhoRMCGA0fKMZxqZEcQpvE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6DCCAtCgAwIBAgIJAKX/0xrq05NNMA0GCSqGSIb3DQEBCwUAMIGIMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUHJhdG8xDjAMBgNVBAcMBVByYXRvMRgwFgYDVQQKDA9Db211bmUgZGkgUHJhdG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBdzZXJ2aXppLmNvbXVuZS5wcmF0by5pdDAeFw0xOTA1MDIxNTU1NTNaFw0yOTA0MjkxNTU1NTNaMIGIMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUHJhdG8xDjAMBgNVBAcMBVByYXRvMRgwFgYDVQQKDA9Db211bmUgZGkgUHJhdG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBdzZXJ2aXppLmNvbXVuZS5wcmF0by5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANQ5YA0RNfNwd/B3vnM61vIbxZVGHz/ce+dyy28IAXnhJDXwEmtOr1QL2/K5Q+jGRscuhAqt0u8sYaejkH2O6gWPUOIw0Ua4IRlitXhssZAFf4/X4fKhdMSHkBXHVpC+8Mfl66u5ddlFOVRKNLcZEg9JGJITkM2LdkayKcJxlphD/OrUQzXSy/vWJv9UVSWVmbt0QFw0W7D3hLUdN69Goka9SDGzNSgooAE3tJXYwU4c0mEX5n6l7SLNyb0fsQV7vNe5sJ+2YYGo36M1+7yAWKRON3s/cixDPUsxeq9vvnUcXp/b4G+CN/F41PhFf83h/45gZ1LZxnw/f0sNocuSYT8CAwEAAaNTMFEwHQYDVR0OBBYEFAXgvYWH3fcmXjYnQ4EHzTjipMpKMB8GA1UdIwQYMBaAFAXgvYWH3fcmXjYnQ4EHzTjipMpKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABqwRQ+rrdc8HoNA6/nn1H+2zIoLpm7fGQjYriPLUHb6YrA6mDhVCmsUXyvUrttr3Z6CVhokysbslTmuOs0AbUGkWbb08Pb2deV6SzHZcd+JlO/DPO/iyHvYnABGvuPdXZFuNMVhw7myGYFpeV3HNEALEbIeeZRcU1wKRbYPDrhiwh+h0Gemqg5SwkXt0qJdhxgKDcEbD2pGZLgciqw6xbm7850vkRCycCwPirrFIHeUoVzLG2zvE+Nq/nXuqeaFDa8qJiEgzdJvi88rskRn4oP1zD8DpdXZQpT5k4teezqcgk22GVm72MUdHJqEAF1mLGhoRMCGA0fKMZxqZEcQpvE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6DCCAtCgAwIBAgIJAKX/0xrq05NNMA0GCSqGSIb3DQEBCwUAMIGIMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUHJhdG8xDjAMBgNVBAcMBVByYXRvMRgwFgYDVQQKDA9Db211bmUgZGkgUHJhdG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBdzZXJ2aXppLmNvbXVuZS5wcmF0by5pdDAeFw0xOTA1MDIxNTU1NTNaFw0yOTA0MjkxNTU1NTNaMIGIMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUHJhdG8xDjAMBgNVBAcMBVByYXRvMRgwFgYDVQQKDA9Db211bmUgZGkgUHJhdG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBdzZXJ2aXppLmNvbXVuZS5wcmF0by5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANQ5YA0RNfNwd/B3vnM61vIbxZVGHz/ce+dyy28IAXnhJDXwEmtOr1QL2/K5Q+jGRscuhAqt0u8sYaejkH2O6gWPUOIw0Ua4IRlitXhssZAFf4/X4fKhdMSHkBXHVpC+8Mfl66u5ddlFOVRKNLcZEg9JGJITkM2LdkayKcJxlphD/OrUQzXSy/vWJv9UVSWVmbt0QFw0W7D3hLUdN69Goka9SDGzNSgooAE3tJXYwU4c0mEX5n6l7SLNyb0fsQV7vNe5sJ+2YYGo36M1+7yAWKRON3s/cixDPUsxeq9vvnUcXp/b4G+CN/F41PhFf83h/45gZ1LZxnw/f0sNocuSYT8CAwEAAaNTMFEwHQYDVR0OBBYEFAXgvYWH3fcmXjYnQ4EHzTjipMpKMB8GA1UdIwQYMBaAFAXgvYWH3fcmXjYnQ4EHzTjipMpKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABqwRQ+rrdc8HoNA6/nn1H+2zIoLpm7fGQjYriPLUHb6YrA6mDhVCmsUXyvUrttr3Z6CVhokysbslTmuOs0AbUGkWbb08Pb2deV6SzHZcd+JlO/DPO/iyHvYnABGvuPdXZFuNMVhw7myGYFpeV3HNEALEbIeeZRcU1wKRbYPDrhiwh+h0Gemqg5SwkXt0qJdhxgKDcEbD2pGZLgciqw6xbm7850vkRCycCwPirrFIHeUoVzLG2zvE+Nq/nXuqeaFDa8qJiEgzdJvi88rskRn4oP1zD8DpdXZQpT5k4teezqcgk22GVm72MUdHJqEAF1mLGhoRMCGA0fKMZxqZEcQpvE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.prato.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.prato.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_g999</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_g999</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Prato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Prato</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://servizi.comune.prato.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://servizi.comune.prato.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

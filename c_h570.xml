@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="RosignanoSPID" entityID="https://www.comune.rosignano.livorno.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#RosignanoSPID">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FHYME/SNv9I4zilaD2wBLMUaC9SEBZ2Qxncd+ZJgw8I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jrDJGoM/s0rGyLBM+C/sbV7GhTgvtJhLg1JG9leuFPhdC/i0xONavBEnnzoEo6GGdWScEvFuA3Zs
+ipk0EErFYlki8KCP3T08rTDFjpmix5ZRXQdhwLqYeMUiBx6j6+j+oW0S2PwHsaQ50D7rtGZBs2HY
+TQaQRYFbabpV7vZKBDwDJBtXj5qmzmC7d4xqkCwBcfPr8vFOXQX+kJdDeYijtJEO4osuKOCLylIa
+MtelBk32nXHGEbRvaoxMCp1OmdtAquyzrG+byLDQDZ6NVugrLn3/0L55wjgzecsTE1BhsjOgdh5S
+BXharX5YcWfPII/fHyhyAAcywGwIy/DZfHSBKw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tvuuXUvTLRU+IahXw0OafrPko/vgB+HU8WWiqb/RAXMnDZx+iMURECgG9wSuuZC/RX4yMSsr+Mqf
+QHG/yQ6X3kHEKgaAmrka9J3+aqsrHsLKEkVuxtF2oGKev5nUShfPc3asdFiT3bS0fhDvrXvZlTvg
+OTRzHEEw8lYgvEb5MpqOm/Kamo+KpBhjOjVm9yjoiVFUx/JZZ7EcTvrsEYbLsCJH1kv2flMqDpok
++UlOIp5jREeez+8mBvNrfJC0yn31GTUZRzf2uzj/hpJkh4tw7CE3NwkMnu8bI6eYO/zKWBAZD/lk
+kzpTYriNQrLW3GoyAhhZ2DjCyaNIwlzD3mFUhw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAMvssggMKBY+MA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUucm9zaWduYW5vLmxpdm9ybm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE5MDIxNTExMzQ0NloXDTI5MDIxMjExMzQ0NlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5yb3Np
+Z25hbm8ubGl2b3Juby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC2+65dS9MtFT4hqFfDQ5p+s+Sj++AH4dTxZaKpv9EBcycNnH6I
+xREQKAb3BK65kL9FfjIxKyv4yp9Acb/JDpfeQcQqBoCauRr0nf5qqysewsoSRW7G0XagYp6/mdRK
+F89zdqx0WJPdtLR+EO+te9mVO+A5NHMcQTDyViC8Rvkymo6b8pqaj4qkGGM6NWb3KOiJUVTH8lln
+sRxO+uwRhsuwIkfWS/Z+UyoOmiT5SU4inmNER57P7yYG82t8kLTKffUZNRlHN/a7OP+GkmSHi3Ds
+ITc3CQye7xsjp5g7/MpYEBkP+WSTOlNiuI1CstbcajICGFnYOMLJo0jCXMPeYVSHAgMBAAGjUDBO
+MB0GA1UdDgQWBBTOaFRi4XN1LDzRQORbSXB/X5l+JDAfBgNVHSMEGDAWgBTOaFRi4XN1LDzRQORb
+SXB/X5l+JDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBLPMrzXwbx0Dh3sYb+Uj1D
+VHno8rNozm4b2J+BsrlN9/7TzxMUbysdlO9kP+K+ak231+oREkCL3v4QusYDtg2zDEgwG8nTtOap
+WCefDJ9Gn3zMQJfiw4P7TR3kF8fZlisEeAF9JBkfAvXHtJKbn7cphdSF6fbyREWeOYA/gT3bKWyz
+AhLKh8Z3mETmOaOBKjsQ71hPL35Z7/ZF/WmlAnHsYZvHWU82k9QdEQw4Lj6Q3UVh4GACSNxQtJDA
+KK9xAI8Djbn697k3sBKTwpHsLB4Sxn/p66q++gOCHNYlOgbbwPMFSXCXULL91s8VviVPKUi8NCyP
+IRJLyMn/Nqp3J7tW
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMvssggMKBY+MA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUucm9zaWduYW5vLmxpdm9ybm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDIxNTExMzQ0NloXDTI5MDIxMjExMzQ0NlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5yb3NpZ25hbm8ubGl2b3Juby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2+65dS9MtFT4hqFfDQ5p+s+Sj++AH4dTxZaKpv9EBcycNnH6IxREQKAb3BK65kL9FfjIxKyv4yp9Acb/JDpfeQcQqBoCauRr0nf5qqysewsoSRW7G0XagYp6/mdRKF89zdqx0WJPdtLR+EO+te9mVO+A5NHMcQTDyViC8Rvkymo6b8pqaj4qkGGM6NWb3KOiJUVTH8llnsRxO+uwRhsuwIkfWS/Z+UyoOmiT5SU4inmNER57P7yYG82t8kLTKffUZNRlHN/a7OP+GkmSHi3DsITc3CQye7xsjp5g7/MpYEBkP+WSTOlNiuI1CstbcajICGFnYOMLJo0jCXMPeYVSHAgMBAAGjUDBOMB0GA1UdDgQWBBTOaFRi4XN1LDzRQORbSXB/X5l+JDAfBgNVHSMEGDAWgBTOaFRi4XN1LDzRQORbSXB/X5l+JDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBLPMrzXwbx0Dh3sYb+Uj1DVHno8rNozm4b2J+BsrlN9/7TzxMUbysdlO9kP+K+ak231+oREkCL3v4QusYDtg2zDEgwG8nTtOapWCefDJ9Gn3zMQJfiw4P7TR3kF8fZlisEeAF9JBkfAvXHtJKbn7cphdSF6fbyREWeOYA/gT3bKWyzAhLKh8Z3mETmOaOBKjsQ71hPL35Z7/ZF/WmlAnHsYZvHWU82k9QdEQw4Lj6Q3UVh4GACSNxQtJDAKK9xAI8Djbn697k3sBKTwpHsLB4Sxn/p66q++gOCHNYlOgbbwPMFSXCXULL91s8VviVPKUi8NCyPIRJLyMn/Nqp3J7tW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rosignano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rosignano" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      </md:AttributeConsumingService>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rosignano"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rosignano Marittimo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rosignano Marittimo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rosignano Marittimo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rosignano Marittimo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rosignano Marittimo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rosignano Marittimo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rosignano Marittimo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rosignano Marittimo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rosignano.livorno.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rosignano.livorno.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rosignano.livorno.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rosignano.livorno.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

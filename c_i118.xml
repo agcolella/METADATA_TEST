@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxd1d9513d-a669-3a03-6c2c-88a809a9a722" entityID="https://www.comune.villasanpietro.ca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxd1d9513d-a669-3a03-6c2c-88a809a9a722">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OZbTIY6HQ3llR+5FqoMZAjkAEXOP+MonFvTtfTzFc/A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QFICQ6yethJ63Zb32vTn6aSjGCCSat9surWOlz9vl3xeQNA+eDG3XxCezaQY2JbvFk5lY6KsBU9P
+Sg8szYt7sYjZAVcCOUwbM07lnyPbVXGTe8j14bMAJL/Y6nLK0Po+2HxALwTZh0pKJaY7aed5MWID
+wNvMa928w67yIX0UxnE6jPJypb7PERCvuzGK221u3ZpDtxLn/7J6bzoLH3tKM7yPiCZUqLwv/I26
+0/NBVEvxxjRlBKZBrGeLE3nKd1/v7eRyXfhJPPIq5fbCJZCD+xOYjlFjrxL/AUnZw24hCGwRXzy7
+cI6GxE5tO8TcoPdJX5GpRVBhKF2gGNZVUU28PQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uNO5usdEs0B3QftWhGUUMjZVlwshARUKdrMyqpFrzb9MIDhAayskzZH+0vN+n1nku555PLEDYJCs
+9K8lpla+U+SdZAyQvnR9cxxmEWk5qiH+/mhtz9G007ht6uRkegGQiSpsy0VHQW4lTcx8PNDzBJwX
+L3kZ+cAdS02xW0HVhSrYD5A1w6J4OLB1E5bF1Mgrk2Qa412NCKken7QLLih0IGNuzgpNNHyfGHEC
+V6n2kLR3CT1EEhjBQ3I/gvBToIMHgXczrcgtcdQlmdo/iRuvt9fYP7R8g1Eg7iaj9qaUJ0p6SYZL
+foVSmPHd7K06JAs+R/gfRaXWWsgtMlZoFLDusw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4zCCAsugAwIBAgIJAMWjnkPNKt61MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFZpbGxhIFNhbiBQaWV0cm8xIzAhBgNVBAoMGkNvbXVu
+ZSBkaSBWaWxsYSBTYW4gUGlldHJvMSgwJgYDVQQDDB93d3cuY29tdW5lLnZpbGxhc2FucGlldHJv
+LmNhLml0MB4XDTE5MDIyMjExNDYyN1oXDTI5MDIyMTExNDYyN1owgYcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQVmlsbGEgU2FuIFBpZXRybzEjMCEGA1UECgwaQ29tdW5l
+IGRpIFZpbGxhIFNhbiBQaWV0cm8xKDAmBgNVBAMMH3d3dy5jb211bmUudmlsbGFzYW5waWV0cm8u
+Y2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC407m6x0SzQHdB+1aEZRQyNlWX
+CyEBFQp2szKqkWvNv0wgOEBrKyTNkf7S836fWeS7nnk8sQNgkKz0ryWmVr5T5J1kDJC+dH1zHGYR
+aTmqIf7+aG3P0bTTuG3q5GR6AZCJKmzLRUdBbiVNzHw80PMEnBcveRn5wB1LTbFbQdWFKtgPkDXD
+ong4sHUTlsXUyCuTZBrjXY0IqR6ftAsuKHQgY27OCk00fJ8YcQJXqfaQtHcJPUQSGMFDcj+C8FOg
+gweBdzOtyC1x1CWZ2j+JG6+319g/tHyDUSDuJqP2ppQnSnpJhkt+hVKY8d3srTokCz5H+B9FpdZa
+yC0yVmgUsO6zAgMBAAGjUDBOMB0GA1UdDgQWBBR5fYQc37XdXRRsgV+ZE7OC3pd3RDAfBgNVHSME
+GDAWgBR5fYQc37XdXRRsgV+ZE7OC3pd3RDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQCZ5JJjEnXeA9OoH56162dbbMYdeAQcl+C8uhlTjefPHmO0rti+nYY75qc13/xOaJq10BKC2tA6
+VmgFIVv7+kTz515q+TCGdbwxbgz3oL0+bmitjW0KdwSMp8ttqtnXv1TnY4iqyUL+nesB0a/zaln0
+u/vBV8m3SFP7jj39WWMEbg/5vItvQvGKFdywoDID1W5QSooosGAZU5s33Hsu0D3rbdUJX1KtrPhs
+Cf8mJTXE+epRUirX4ypzVtLJL5Y2805kKvvg32UyOzEEAdRUjGEQ4zN5P5+IihIOeWn2uvxdbo9W
+xNiQikQ9gUBQnKI5gMJZdMpcUQi1cKDxxWy5qiHQ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAMWjnkPNKt61MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFZpbGxhIFNhbiBQaWV0cm8xIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWxsYSBTYW4gUGlldHJvMSgwJgYDVQQDDB93d3cuY29tdW5lLnZpbGxhc2FucGlldHJvLmNhLml0MB4XDTE5MDIyMjExNDYyN1oXDTI5MDIyMTExNDYyN1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQVmlsbGEgU2FuIFBpZXRybzEjMCEGA1UECgwaQ29tdW5lIGRpIFZpbGxhIFNhbiBQaWV0cm8xKDAmBgNVBAMMH3d3dy5jb211bmUudmlsbGFzYW5waWV0cm8uY2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC407m6x0SzQHdB+1aEZRQyNlWXCyEBFQp2szKqkWvNv0wgOEBrKyTNkf7S836fWeS7nnk8sQNgkKz0ryWmVr5T5J1kDJC+dH1zHGYRaTmqIf7+aG3P0bTTuG3q5GR6AZCJKmzLRUdBbiVNzHw80PMEnBcveRn5wB1LTbFbQdWFKtgPkDXDong4sHUTlsXUyCuTZBrjXY0IqR6ftAsuKHQgY27OCk00fJ8YcQJXqfaQtHcJPUQSGMFDcj+C8FOggweBdzOtyC1x1CWZ2j+JG6+319g/tHyDUSDuJqP2ppQnSnpJhkt+hVKY8d3srTokCz5H+B9FpdZayC0yVmgUsO6zAgMBAAGjUDBOMB0GA1UdDgQWBBR5fYQc37XdXRRsgV+ZE7OC3pd3RDAfBgNVHSMEGDAWgBR5fYQc37XdXRRsgV+ZE7OC3pd3RDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCZ5JJjEnXeA9OoH56162dbbMYdeAQcl+C8uhlTjefPHmO0rti+nYY75qc13/xOaJq10BKC2tA6VmgFIVv7+kTz515q+TCGdbwxbgz3oL0+bmitjW0KdwSMp8ttqtnXv1TnY4iqyUL+nesB0a/zaln0u/vBV8m3SFP7jj39WWMEbg/5vItvQvGKFdywoDID1W5QSooosGAZU5s33Hsu0D3rbdUJX1KtrPhsCf8mJTXE+epRUirX4ypzVtLJL5Y2805kKvvg32UyOzEEAdRUjGEQ4zN5P5+IihIOeWn2uvxdbo9WxNiQikQ9gUBQnKI5gMJZdMpcUQi1cKDxxWy5qiHQ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAMWjnkPNKt61MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFZpbGxhIFNhbiBQaWV0cm8xIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWxsYSBTYW4gUGlldHJvMSgwJgYDVQQDDB93d3cuY29tdW5lLnZpbGxhc2FucGlldHJvLmNhLml0MB4XDTE5MDIyMjExNDYyN1oXDTI5MDIyMTExNDYyN1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQVmlsbGEgU2FuIFBpZXRybzEjMCEGA1UECgwaQ29tdW5lIGRpIFZpbGxhIFNhbiBQaWV0cm8xKDAmBgNVBAMMH3d3dy5jb211bmUudmlsbGFzYW5waWV0cm8uY2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC407m6x0SzQHdB+1aEZRQyNlWXCyEBFQp2szKqkWvNv0wgOEBrKyTNkf7S836fWeS7nnk8sQNgkKz0ryWmVr5T5J1kDJC+dH1zHGYRaTmqIf7+aG3P0bTTuG3q5GR6AZCJKmzLRUdBbiVNzHw80PMEnBcveRn5wB1LTbFbQdWFKtgPkDXDong4sHUTlsXUyCuTZBrjXY0IqR6ftAsuKHQgY27OCk00fJ8YcQJXqfaQtHcJPUQSGMFDcj+C8FOggweBdzOtyC1x1CWZ2j+JG6+319g/tHyDUSDuJqP2ppQnSnpJhkt+hVKY8d3srTokCz5H+B9FpdZayC0yVmgUsO6zAgMBAAGjUDBOMB0GA1UdDgQWBBR5fYQc37XdXRRsgV+ZE7OC3pd3RDAfBgNVHSMEGDAWgBR5fYQc37XdXRRsgV+ZE7OC3pd3RDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCZ5JJjEnXeA9OoH56162dbbMYdeAQcl+C8uhlTjefPHmO0rti+nYY75qc13/xOaJq10BKC2tA6VmgFIVv7+kTz515q+TCGdbwxbgz3oL0+bmitjW0KdwSMp8ttqtnXv1TnY4iqyUL+nesB0a/zaln0u/vBV8m3SFP7jj39WWMEbg/5vItvQvGKFdywoDID1W5QSooosGAZU5s33Hsu0D3rbdUJX1KtrPhsCf8mJTXE+epRUirX4ypzVtLJL5Y2805kKvvg32UyOzEEAdRUjGEQ4zN5P5+IihIOeWn2uvxdbo9WxNiQikQ9gUBQnKI5gMJZdMpcUQi1cKDxxWy5qiHQ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.villasanpietro.ca.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.villasanpietro.ca.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Villa San Pietro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Villa San Pietro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.villasanpietro.ca.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

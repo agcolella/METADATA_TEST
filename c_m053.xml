@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.vimodrone.milano.it/" ID="_4104759744012d29b4b63074ff808365697fba640b603cad8c1d363d18d7347a"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_4104759744012d29b4b63074ff808365697fba640b603cad8c1d363d18d7347a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>0R4lzE/KrXNT3UxVk86nTnteCL430RWLsGqSkd67VLs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>NxW9S8wMdNQ7XU64oOlDrkiZ+syJ4AZa60dhZxSPCjax4klc9LL2EHZd97YNL73Ge0CLNOe6HlBcyKVxThCTQbeKXLrwPCKIAQhnetEYN6NhRE8xfHL2WjLNe2+EauXE+Zoqw79qnaIocNWZLGBZFbh50Mww6SV/qXADq3ZENJns7LNWK5jbwQZ5easG1RVjfWkJ9JMWB+h7sX0mvdLOt+kVJGNtauX1HDkYBSMex9X1IeXm9fKVpURSJVo6pkPhZN1f5v2nvjOXjqH4M9e78KHp2IDZV6deytNjIz9XdUVxpfS2BDnj3Kl040MHB3HZepMKcPNMrvzoZC8b3uHFYg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID5DCCAsygAwIBAgIRAK2aRPcw2BhHMsw+Js6XaBAwDQYJKoZIhvcNAQELBQAwgZgxCzAJBgNVBAYTAklUMRIwEAYDVQQHEwlWaW1vZHJvbmUxHDAaBgNVBAoTE0NvbXVuZSBkaSBWaW1vZHJvbmUxQDA+BgNVBAMTN2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmltb2Ryb25lLm1pbGFuby5pdC8xFTATBgNVBAUWDFBBOklULWNfbTA1MzAeFw0yMDExMDQxNDM1NDBaFw0zMDExMDIxNDM1NDBaMIGYMQswCQYDVQQGEwJJVDESMBAGA1UEBxMJVmltb2Ryb25lMRwwGgYDVQQKExNDb211bmUgZGkgVmltb2Ryb25lMUAwPgYDVQQDEzdodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnZpbW9kcm9uZS5taWxhbm8uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX20wNTMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+pU5hv5p5v3JDOIHa9yebs0M5sj6KOdm/mSTTe2Sezzwkszp9ej+T28Kbn51s3S7wG2ZmJJqy+wBRQjXQC4E0wE+n2gJ73S7g3Rs6xB1XeiPZ36q25akgQobDDhfyD9hNfGdcJHmMygpCCNR/oNn6Zsewxml5JAw3vii/8GtPvOlRUOpaclTYYiSjiU6sNuMwjsXwEtFSsnttrSnE55tU4Prvn3IKyrf4nwymKmyPu3XJAMX6Du+6UUlv+0SHJxTp43i76yALVR8vhPdraPf7fYoPBTi71ASS5LKZ2YzBcpXhxD+GlOG+ICeZ+2kiRIa+17YVK6HtI7s/3zO8E8m5AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZTYSw0IEqk1W1qmZ6Uju9AEfNARq+tUNuCaGZhq242guNgbseZJy4b9dVZxhbdvkSaNvr5zIy39cMqN2w70/im7B36qeK/mFJEKRsdtkzG7ELDld5B+41koLgqKTY90jUUpr3Pr+q9H9qoCbEiqwEI8RuFglVFRHoMvNP23pGWvOatdMoTBmGlpm097/TF+totzAAmiEeYtJ/C7l0/btxmNIw5rgefo1qYMydM6nzXyL6Ix6kbcVbl7Kr1UE1MOOmQvMf59I4o/NFFBIJdhBNAO+H8ffCd3R65Qi8bCdv7fDhRk5CISwnHG783KNHiezlNCPFp78DpbEt3XJRQXxbg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5DCCAsygAwIBAgIRAK2aRPcw2BhHMsw+Js6XaBAwDQYJKoZIhvcNAQELBQAwgZgxCzAJBgNVBAYTAklUMRIwEAYDVQQHEwlWaW1vZHJvbmUxHDAaBgNVBAoTE0NvbXVuZSBkaSBWaW1vZHJvbmUxQDA+BgNVBAMTN2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmltb2Ryb25lLm1pbGFuby5pdC8xFTATBgNVBAUWDFBBOklULWNfbTA1MzAeFw0yMDExMDQxNDM1NDBaFw0zMDExMDIxNDM1NDBaMIGYMQswCQYDVQQGEwJJVDESMBAGA1UEBxMJVmltb2Ryb25lMRwwGgYDVQQKExNDb211bmUgZGkgVmltb2Ryb25lMUAwPgYDVQQDEzdodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnZpbW9kcm9uZS5taWxhbm8uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX20wNTMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+pU5hv5p5v3JDOIHa9yebs0M5sj6KOdm/mSTTe2Sezzwkszp9ej+T28Kbn51s3S7wG2ZmJJqy+wBRQjXQC4E0wE+n2gJ73S7g3Rs6xB1XeiPZ36q25akgQobDDhfyD9hNfGdcJHmMygpCCNR/oNn6Zsewxml5JAw3vii/8GtPvOlRUOpaclTYYiSjiU6sNuMwjsXwEtFSsnttrSnE55tU4Prvn3IKyrf4nwymKmyPu3XJAMX6Du+6UUlv+0SHJxTp43i76yALVR8vhPdraPf7fYoPBTi71ASS5LKZ2YzBcpXhxD+GlOG+ICeZ+2kiRIa+17YVK6HtI7s/3zO8E8m5AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZTYSw0IEqk1W1qmZ6Uju9AEfNARq+tUNuCaGZhq242guNgbseZJy4b9dVZxhbdvkSaNvr5zIy39cMqN2w70/im7B36qeK/mFJEKRsdtkzG7ELDld5B+41koLgqKTY90jUUpr3Pr+q9H9qoCbEiqwEI8RuFglVFRHoMvNP23pGWvOatdMoTBmGlpm097/TF+totzAAmiEeYtJ/C7l0/btxmNIw5rgefo1qYMydM6nzXyL6Ix6kbcVbl7Kr1UE1MOOmQvMf59I4o/NFFBIJdhBNAO+H8ffCd3R65Qi8bCdv7fDhRk5CISwnHG783KNHiezlNCPFp78DpbEt3XJRQXxbg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5DCCAsygAwIBAgIRAK2aRPcw2BhHMsw+Js6XaBAwDQYJKoZIhvcNAQELBQAwgZgxCzAJBgNVBAYTAklUMRIwEAYDVQQHEwlWaW1vZHJvbmUxHDAaBgNVBAoTE0NvbXVuZSBkaSBWaW1vZHJvbmUxQDA+BgNVBAMTN2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUudmltb2Ryb25lLm1pbGFuby5pdC8xFTATBgNVBAUWDFBBOklULWNfbTA1MzAeFw0yMDExMDQxNDM1NDBaFw0zMDExMDIxNDM1NDBaMIGYMQswCQYDVQQGEwJJVDESMBAGA1UEBxMJVmltb2Ryb25lMRwwGgYDVQQKExNDb211bmUgZGkgVmltb2Ryb25lMUAwPgYDVQQDEzdodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnZpbW9kcm9uZS5taWxhbm8uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX20wNTMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+pU5hv5p5v3JDOIHa9yebs0M5sj6KOdm/mSTTe2Sezzwkszp9ej+T28Kbn51s3S7wG2ZmJJqy+wBRQjXQC4E0wE+n2gJ73S7g3Rs6xB1XeiPZ36q25akgQobDDhfyD9hNfGdcJHmMygpCCNR/oNn6Zsewxml5JAw3vii/8GtPvOlRUOpaclTYYiSjiU6sNuMwjsXwEtFSsnttrSnE55tU4Prvn3IKyrf4nwymKmyPu3XJAMX6Du+6UUlv+0SHJxTp43i76yALVR8vhPdraPf7fYoPBTi71ASS5LKZ2YzBcpXhxD+GlOG+ICeZ+2kiRIa+17YVK6HtI7s/3zO8E8m5AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZTYSw0IEqk1W1qmZ6Uju9AEfNARq+tUNuCaGZhq242guNgbseZJy4b9dVZxhbdvkSaNvr5zIy39cMqN2w70/im7B36qeK/mFJEKRsdtkzG7ELDld5B+41koLgqKTY90jUUpr3Pr+q9H9qoCbEiqwEI8RuFglVFRHoMvNP23pGWvOatdMoTBmGlpm097/TF+totzAAmiEeYtJ/C7l0/btxmNIw5rgefo1qYMydM6nzXyL6Ix6kbcVbl7Kr1UE1MOOmQvMf59I4o/NFFBIJdhBNAO+H8ffCd3R65Qi8bCdv7fDhRk5CISwnHG783KNHiezlNCPFp78DpbEt3XJRQXxbg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.vimodrone.milano.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.vimodrone.milano.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Vimodrone</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Vimodrone</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Vimodrone</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Vimodrone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Vimodrone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vimodrone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Vimodrone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Vimodrone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.vimodrone.milano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.vimodrone.milano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.vimodrone.milano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.vimodrone.milano.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_m053</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>comune.vimodrone@pec.regione.lombardia.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

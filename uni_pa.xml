@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="unipa201704131543" entityID="https://spid.unipa.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#unipa201704131543">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>bR3GmwZ+jyUndXCob1ZoD48Nwnr601MroMTG14TpKFY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jyJXpgwNIPdRmAkzJ4HStZN5IslYOP+3rwXcf/XukR7D8uY8NvSB0oylq1Bf43E+EW2FCHdndOT3
+QjD9p33VlxkKqxYJb6MvrjhP9oq8oOtW0nYcOpoWPKHjFpkszt5bDvQXyuS9tDPIJhCaFjPsEwn9
+2MDYBjsoXyNxrdpxGI815VdoY+TVu/k+BIxZoDSpoWmc0szwmhaysJRwpJlvDU42DBYnp+3lGsk2
+AEOQZ9gMZFAujHG4uhzBTvlisMFQk0rPfkoLoeI+30OuLhafu9BLIGVhslCGfUONoKCnShdzgbtz
+bkOHWI57mXiuE2bKAXfpF096DZPThJMJLLRpPg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nDQTxpi1VKC6vXEAAybBZii+a7xBzfPups/O4BrfblRnJuaWEy6WVL6b/vVwGPxuCzKe0UBF22SJ
+XHhfx1C/lThFLbXoKrH/g6lpd5WuGZVDoAz8/XNvlKGboSveIVVO+6+fbKRU8v3J/LiR+Xa9SESm
+BDMOEMxjZyHxyTYZ86VyH1hUh/Bz84+HTQj7A+8GeTTpvMgCLsadMajwXQQBvbNzqapE2NOfC+wE
+Siv9Kl4Z9zU6pvCChASF2KoeaRzC8ju45FMnVDpBc7UgP39xeU7zCl75q9sVkI1ELCx7aO9ecPwx
+6mssY0j7xacZ4meCmMnSrb1L6WR6Ekxr7/XyfQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEaTCCA1GgAwIBAgIJAMrDiwLk6SGlMA0GCSqGSIb3DQEBCwUAMIHKMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGSXRhbGlhMRAwDgYDVQQHDAdQYWxlcm1vMSswKQYDVQQKDCJVbml2ZXJzaXRhJyBk
+ZWdsaSBTdHVkaSBkaSBQYWxlcm1vMTUwMwYDVQQLDCxBcmVhIFNpc3RlbWkgSW5mb3JtYXRpdmkg
+ZSBQb3J0YWxlIGRpIEF0ZW5lbzEWMBQGA1UEAwwNc3BpZC51bmlwYS5pdDEcMBoGCSqGSIb3DQEJ
+ARYNc3BpZEB1bmlwYS5pdDAeFw0xNzA0MjgwOTEwMjFaFw0yNzA0MjYwOTEwMjFaMIHKMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGSXRhbGlhMRAwDgYDVQQHDAdQYWxlcm1vMSswKQYDVQQKDCJVbml2
+ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBQYWxlcm1vMTUwMwYDVQQLDCxBcmVhIFNpc3RlbWkgSW5m
+b3JtYXRpdmkgZSBQb3J0YWxlIGRpIEF0ZW5lbzEWMBQGA1UEAwwNc3BpZC51bmlwYS5pdDEcMBoG
+CSqGSIb3DQEJARYNc3BpZEB1bmlwYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AJw0E8aYtVSgur1xAAMmwWYovmu8Qc3z7qbPzuAa325UZybmlhMullS+m/71cBj8bgsyntFARdtk
+iVx4X8dQv5U4RS216Cqx/4OpaXeVrhmVQ6AM/P1zb5Shm6Er3iFVTvuvn2ykVPL9yfy4kfl2vUhE
+pgQzDhDMY2ch8ck2GfOlch9YVIfwc/OPh00I+wPvBnk06bzIAi7GnTGo8F0EAb2zc6mqRNjTnwvs
+BEor/SpeGfc1OqbwgoQEhdiqHmkcwvI7uORTJ1Q6QXO1ID9/cXlO8wpe+avbFZCNRCwse2jvXnD8
+MeprLGNI+8WnGeJngpjJ0q29S+lkehJMa+/18n0CAwEAAaNQME4wHQYDVR0OBBYEFCkg1TD49Pxu
+sup2a924TVWYC4v3MB8GA1UdIwQYMBaAFCkg1TD49Pxusup2a924TVWYC4v3MAwGA1UdEwQFMAMB
+Af8wDQYJKoZIhvcNAQELBQADggEBABH8944agDRxS1hVsrToebTrE/Djgresl5mPEBl2PGGG3nW+
+LJs5lkdHKRJb1OGHh89kyjOG9B5gi3c249flIBbrlQcQcyxU0NcOjZQ8Z3tKYvG2ovdV2Ly3Eklq
+7UJ2aQSAzshg/5fMUrFXmA/crOVHl2vyCAfgDHPLleDAvcV+tZC44F55ilqqKmfrTHdDLQR5tMi7
+v+cPdAczl5q6QEPvwaFIzN7fkWoYXxdE6zNwWtNxu0FRz/gk2Z1lX4A7N6VAL9KakBkTydujK2ij
+hPY+PJXuySCjTn9/Hrzrw8vqyBqR6DkKScUOi+7I/mV7FO7K5X7KNSgozqWfI+w6Ta8=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:KeyName>https://spid.unipa.it</ds:KeyName>
+                <ds:KeyName>spid.unipa.it</ds:KeyName>
+                <ds:X509Data>
+                    <ds:X509SubjectName>CN=spid.unipa.it</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEaTCCA1GgAwIBAgIJAMrDiwLk6SGlMA0GCSqGSIb3DQEBCwUAMIHKMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGSXRhbGlhMRAwDgYDVQQHDAdQYWxlcm1vMSswKQYD
+VQQKDCJVbml2ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBQYWxlcm1vMTUwMwYDVQQL
+DCxBcmVhIFNpc3RlbWkgSW5mb3JtYXRpdmkgZSBQb3J0YWxlIGRpIEF0ZW5lbzEW
+MBQGA1UEAwwNc3BpZC51bmlwYS5pdDEcMBoGCSqGSIb3DQEJARYNc3BpZEB1bmlw
+YS5pdDAeFw0xNzA0MjgwOTEwMjFaFw0yNzA0MjYwOTEwMjFaMIHKMQswCQYDVQQG
+EwJJVDEPMA0GA1UECAwGSXRhbGlhMRAwDgYDVQQHDAdQYWxlcm1vMSswKQYDVQQK
+DCJVbml2ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBQYWxlcm1vMTUwMwYDVQQLDCxB
+cmVhIFNpc3RlbWkgSW5mb3JtYXRpdmkgZSBQb3J0YWxlIGRpIEF0ZW5lbzEWMBQG
+A1UEAwwNc3BpZC51bmlwYS5pdDEcMBoGCSqGSIb3DQEJARYNc3BpZEB1bmlwYS5p
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJw0E8aYtVSgur1xAAMm
+wWYovmu8Qc3z7qbPzuAa325UZybmlhMullS+m/71cBj8bgsyntFARdtkiVx4X8dQ
+v5U4RS216Cqx/4OpaXeVrhmVQ6AM/P1zb5Shm6Er3iFVTvuvn2ykVPL9yfy4kfl2
+vUhEpgQzDhDMY2ch8ck2GfOlch9YVIfwc/OPh00I+wPvBnk06bzIAi7GnTGo8F0E
+Ab2zc6mqRNjTnwvsBEor/SpeGfc1OqbwgoQEhdiqHmkcwvI7uORTJ1Q6QXO1ID9/
+cXlO8wpe+avbFZCNRCwse2jvXnD8MeprLGNI+8WnGeJngpjJ0q29S+lkehJMa+/1
+8n0CAwEAAaNQME4wHQYDVR0OBBYEFCkg1TD49Pxusup2a924TVWYC4v3MB8GA1Ud
+IwQYMBaAFCkg1TD49Pxusup2a924TVWYC4v3MAwGA1UdEwQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBABH8944agDRxS1hVsrToebTrE/Djgresl5mPEBl2PGGG3nW+
+LJs5lkdHKRJb1OGHh89kyjOG9B5gi3c249flIBbrlQcQcyxU0NcOjZQ8Z3tKYvG2
+ovdV2Ly3Eklq7UJ2aQSAzshg/5fMUrFXmA/crOVHl2vyCAfgDHPLleDAvcV+tZC4
+4F55ilqqKmfrTHdDLQR5tMi7v+cPdAczl5q6QEPvwaFIzN7fkWoYXxdE6zNwWtNx
+u0FRz/gk2Z1lX4A7N6VAL9KakBkTydujK2ijhPY+PJXuySCjTn9/Hrzrw8vqyBqR
+6DkKScUOi+7I/mV7FO7K5X7KNSgozqWfI+w6Ta8=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.unipa.it/Shibboleth.sso/SLO/POST"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.unipa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.unipa.it/Shibboleth.sso/SAML2/POST" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-develop.unipa.it/Shibboleth.sso/SAML2/POST" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-local.unipa.it/Shibboleth.sso/SAML2/POST" index="3"/>
+
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">SPID Service for Unipa</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">Unipa</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">Universita' degli Studi di
+            Palermo</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">http://www.unipa.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

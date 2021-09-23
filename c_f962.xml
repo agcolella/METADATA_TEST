@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizionline.comune.noventa.pd.it" ID="pfxd1f26b3c-8166-bc65-48a1-e6b02ec52b3a"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxd1f26b3c-8166-bc65-48a1-e6b02ec52b3a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8UsmVjnvDw5gpoXHXKSE0mdNWWQ2EpuJL2Gemaw1Phc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>L66Wkay7AlD9lPTlJcrpZqIjR6q43n9kkc/7SRJyQhJdroTYNGmGKDVQrYnWw4ubmPBjUPMxLgF8nCj+95fEU+9QlKXILHvJa0Quqv4RXwsS7yJ+CrrrVkbvfxCi0ZubptUrib9nQO58mHV9o2yclwM5bM6RC1VaD1EdnKHzMPDz6t6lGlODxr1npDw2aMLsbTtjYPD4FPavQ27hrwqIf5KkrvJpjqojjqs9ehRoZCZmexXfZiz9rWDSI8Rlt5uuz6cmDq0wlK/cBImxysjVdmBzjPGpbHLO9wEM28jZDUkaF/kXFoBSlF99hzyKLpQbjzLjJcxgYkWv/fyCRNhn4g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID6TCCAtGgAwIBAgIJAN8PWHxHBR90MA0GCSqGSIb3DQEBCwUAMIGKMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEE5vdmVudGEgUGFkb3ZhbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBOb3ZlbnRhIFBhZG92YW5hMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5ub3ZlbnRhLnBkLml0MB4XDTE4MDQyNzA2NDA0OVoXDTI4MDQyNjA2NDA0OVowgYoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQTm92ZW50YSBQYWRvdmFuYTEjMCEGA1UECgwaQ29tdW5lIGRpIE5vdmVudGEgUGFkb3ZhbmExKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLm5vdmVudGEucGQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK22EtiYGE48SXQKRLI6EGylOksbm0BpYwpZS7NuL6OVNetqCYpS+TitdG3DVVwdy517HuxL9T4gfixaKr/Rs1inArWEw2eQ8EmE96UUokqVx2GxNZhPMlgOgNHlZ3gpTBv57tzM80b9pOZCnAfVTQkDIxaoZ3Pe9D2DEXdmHL8TsSLmMKfXxxT01jZTdhHkFsKUsVdn2MezfNrmiPGi2DdelXdKf2o59YjyxfKjm/Y3VJRXdxJNK9xLSuPKxwKI430XHZPuoVdhCtgBpAdurnGh7/Ey02bneC+qYfMHtcjqNmfvW6gqGWj8K1rf2QjtTijQ34u3vkCq3V7Sn2Ol0ZAgMBAAGjUDBOMB0GA1UdDgQWBBRNN4ClXuFy1EAtnljpXPFfUpN6YjAfBgNVHSMEGDAWgBRNN4ClXuFy1EAtnljpXPFfUpN6YjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB8wUQTjAkrWibRFo2sDTexwTH1jhPUtfDBAqV+xpIcb35QXr1ODqaA2aI3jkgWZCimwHnDVTgkl5gHuvvrasuNWjBKJwOznM2CtX5hkWrn7bT8EWlBc5Os/MbryotWvp+taSScyu8DR+sxWitClagoTE0+3w3HWc9JMS8WcmcqksMRhT0wNPvs+QS0nVzgMfyFoPLs/Ew1IrUPMPzVEb2bnMXYprl8u6hzwx3NNxCQnxkRrcSglpm5bM0ClvSEContOCAcZtXyAQkgHF5SbFJd5vqYHyB660bufvyHao7L0lzQiQf9rZ27HV1ZrnHpMX+WEHF2mYe4nwSwO9G0pTEp</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6TCCAtGgAwIBAgIJAN8PWHxHBR90MA0GCSqGSIb3DQEBCwUAMIGKMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEE5vdmVudGEgUGFkb3ZhbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBOb3ZlbnRhIFBhZG92YW5hMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5ub3ZlbnRhLnBkLml0MB4XDTE4MDQyNzA2NDA0OVoXDTI4MDQyNjA2NDA0OVowgYoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQTm92ZW50YSBQYWRvdmFuYTEjMCEGA1UECgwaQ29tdW5lIGRpIE5vdmVudGEgUGFkb3ZhbmExKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLm5vdmVudGEucGQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK22EtiYGE48SXQKRLI6EGylOksbm0BpYwpZS7NuL6OVNetqCYpS+TitdG3DVVwdy517HuxL9T4gfixaKr/Rs1inArWEw2eQ8EmE96UUokqVx2GxNZhPMlgOgNHlZ3gpTBv57tzM80b9pOZCnAfVTQkDIxaoZ3Pe9D2DEXdmHL8TsSLmMKfXxxT01jZTdhHkFsKUsVdn2MezfNrmiPGi2DdelXdKf2o59YjyxfKjm/Y3VJRXdxJNK9xLSuPKxwKI430XHZPuoVdhCtgBpAdurnGh7/Ey02bneC+qYfMHtcjqNmfvW6gqGWj8K1rf2QjtTijQ34u3vkCq3V7Sn2Ol0ZAgMBAAGjUDBOMB0GA1UdDgQWBBRNN4ClXuFy1EAtnljpXPFfUpN6YjAfBgNVHSMEGDAWgBRNN4ClXuFy1EAtnljpXPFfUpN6YjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB8wUQTjAkrWibRFo2sDTexwTH1jhPUtfDBAqV+xpIcb35QXr1ODqaA2aI3jkgWZCimwHnDVTgkl5gHuvvrasuNWjBKJwOznM2CtX5hkWrn7bT8EWlBc5Os/MbryotWvp+taSScyu8DR+sxWitClagoTE0+3w3HWc9JMS8WcmcqksMRhT0wNPvs+QS0nVzgMfyFoPLs/Ew1IrUPMPzVEb2bnMXYprl8u6hzwx3NNxCQnxkRrcSglpm5bM0ClvSEContOCAcZtXyAQkgHF5SbFJd5vqYHyB660bufvyHao7L0lzQiQf9rZ27HV1ZrnHpMX+WEHF2mYe4nwSwO9G0pTEp</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6TCCAtGgAwIBAgIJAN8PWHxHBR90MA0GCSqGSIb3DQEBCwUAMIGKMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEE5vdmVudGEgUGFkb3ZhbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBOb3ZlbnRhIFBhZG92YW5hMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5ub3ZlbnRhLnBkLml0MB4XDTE4MDQyNzA2NDA0OVoXDTI4MDQyNjA2NDA0OVowgYoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQTm92ZW50YSBQYWRvdmFuYTEjMCEGA1UECgwaQ29tdW5lIGRpIE5vdmVudGEgUGFkb3ZhbmExKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLm5vdmVudGEucGQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK22EtiYGE48SXQKRLI6EGylOksbm0BpYwpZS7NuL6OVNetqCYpS+TitdG3DVVwdy517HuxL9T4gfixaKr/Rs1inArWEw2eQ8EmE96UUokqVx2GxNZhPMlgOgNHlZ3gpTBv57tzM80b9pOZCnAfVTQkDIxaoZ3Pe9D2DEXdmHL8TsSLmMKfXxxT01jZTdhHkFsKUsVdn2MezfNrmiPGi2DdelXdKf2o59YjyxfKjm/Y3VJRXdxJNK9xLSuPKxwKI430XHZPuoVdhCtgBpAdurnGh7/Ey02bneC+qYfMHtcjqNmfvW6gqGWj8K1rf2QjtTijQ34u3vkCq3V7Sn2Ol0ZAgMBAAGjUDBOMB0GA1UdDgQWBBRNN4ClXuFy1EAtnljpXPFfUpN6YjAfBgNVHSMEGDAWgBRNN4ClXuFy1EAtnljpXPFfUpN6YjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB8wUQTjAkrWibRFo2sDTexwTH1jhPUtfDBAqV+xpIcb35QXr1ODqaA2aI3jkgWZCimwHnDVTgkl5gHuvvrasuNWjBKJwOznM2CtX5hkWrn7bT8EWlBc5Os/MbryotWvp+taSScyu8DR+sxWitClagoTE0+3w3HWc9JMS8WcmcqksMRhT0wNPvs+QS0nVzgMfyFoPLs/Ew1IrUPMPzVEb2bnMXYprl8u6hzwx3NNxCQnxkRrcSglpm5bM0ClvSEContOCAcZtXyAQkgHF5SbFJd5vqYHyB660bufvyHao7L0lzQiQf9rZ27HV1ZrnHpMX+WEHF2mYe4nwSwO9G0pTEp</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.noventa.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.noventa.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Noventa Padovana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Noventa Padovana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.noventa.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

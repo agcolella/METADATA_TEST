@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.iisinveruno.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx8c5fb8ab-c390-4c50-5013-c29a2f32daea"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8c5fb8ab-c390-4c50-5013-c29a2f32daea"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>uxQDjLRLvdDeeCgQMJYYUIeuJH7FGrl+L6pL+3RpYlo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>KbyPePJfkuh8KM7hqsdFza2/JobNIYarvr8J7mB3WPpYUphjGwzfBo4JX63uQf+gYZ8yS5aHx9VTVZdQ/tUedYtPVSgOpYf1rb1Gu9J8vtHpDtTJ9rSL2rYUSJz9zsh4AzI9WfCRW+lw0pJHqepGCo0ynLhVdfwZHeyZ1F/zPl8UgfwD1tRxz9xjFSmXJa/n2Lr4TXHYuVMjI++ei3psHu/4ywg6G+UiMN6yTDU4iFB1MuYE2r4MRWK+YutpKj8r6DPAIT1t4HvdkikA8/FNRGLOaRRO6K2KvQqhTH5US9bu+YIxtdoAt5zb1Lu5bAPkDbq/mw4w1mXDb5igLytvjw==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIIwe6OvI4HwAAwDQYJKoZIhvcNAQELBQAwgaoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xETAPBgNVBAcMCEludmVydW5vMRUwEwYDVQQKDAxJSVMgSW52ZXJ1bm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHzAdBgNVBAMMFnd3dy5paXNpbnZlcnVuby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paXMwMTYwMDVAaXN0cnV6aW9uZS5pdDAeFw0xNzA1MjkyMDIwNTRaFw0zNzA1MjgyMDIwNTRaMIGqMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMREwDwYDVQQHDAhJbnZlcnVubzEVMBMGA1UECgwMSUlTIEludmVydW5vMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMR8wHQYDVQQDDBZ3d3cuaWlzaW52ZXJ1bm8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhhtaWlzMDE2MDA1QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGS1MIzIM8ldBMyqoxgwuCzPd0RB6rhPew8yTXp2BjPpG/keQUNCbbfn/CQ8wgpSizrn6MUGbMpYHs4CxaZsZoAIps0FD0irivy0USIH74LGq6zAg7tmnl7c5w5un0VTCGkuNCu0q1/NsE5KL5eiQQk3T2wIzAfViZ2Qj8NNhWsJebdx+6IyO/28Y7Ev9Q59ov/pYBT4SHO/fVcNoJ5Hq3pd8NAtYREY9jzt+7n/4S4x+9VUGNlSvH0jzaCmaDtHMVeNR8gvQQJXKWypSo0zuxdVMy9AF/23J/YuyzzU8EUlyFhv4dOYLXioiQ6ZUVBR4oC+RoXLh9tYgzkx7DbsARAgMBAAGjUDBOMB0GA1UdDgQWBBQ8i9nZhuKhV5LqyhiihxhZzJ+L6zAfBgNVHSMEGDAWgBQ8i9nZhuKhV5LqyhiihxhZzJ+L6zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB21a1tGN/lS6R182i3uz5wkDwHRwby0oQbkq7D41h0sI6VpYoQZ7Oj/H+aXIh4FzOiUEri9pb/5oSvQGH5+Exf8pIt4226q6uwuirXlRas3rPaG3GLXdOh/29Y0fEy6j8TyxRTFbr4xp2h3Kcozy2Xt69u/95XfLCzaPO0Gh53AP7bUBqa91qKeUPRCZI5LHQXsKzgOs/WflEjF5FSv+xoImlPx0zmaOGK1xZAtEhqN3/UkX6kURRS0oxoE8wy0cHfGJMsgRoukbzXOckhkb0F0pdGZg84rWAzlpv42JOutlbpDpAH24n9B7AvDpdMr+SdHsPKgE6nUgRp0jslhJr0</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIIwe6OvI4HwAAwDQYJKoZIhvcNAQELBQAwgaoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xETAPBgNVBAcMCEludmVydW5vMRUwEwYDVQQKDAxJSVMgSW52ZXJ1bm8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHzAdBgNVBAMMFnd3dy5paXNpbnZlcnVuby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paXMwMTYwMDVAaXN0cnV6aW9uZS5pdDAeFw0xNzA1MjkyMDIwNTRaFw0zNzA1MjgyMDIwNTRaMIGqMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMREwDwYDVQQHDAhJbnZlcnVubzEVMBMGA1UECgwMSUlTIEludmVydW5vMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMR8wHQYDVQQDDBZ3d3cuaWlzaW52ZXJ1bm8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhhtaWlzMDE2MDA1QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGS1MIzIM8ldBMyqoxgwuCzPd0RB6rhPew8yTXp2BjPpG/keQUNCbbfn/CQ8wgpSizrn6MUGbMpYHs4CxaZsZoAIps0FD0irivy0USIH74LGq6zAg7tmnl7c5w5un0VTCGkuNCu0q1/NsE5KL5eiQQk3T2wIzAfViZ2Qj8NNhWsJebdx+6IyO/28Y7Ev9Q59ov/pYBT4SHO/fVcNoJ5Hq3pd8NAtYREY9jzt+7n/4S4x+9VUGNlSvH0jzaCmaDtHMVeNR8gvQQJXKWypSo0zuxdVMy9AF/23J/YuyzzU8EUlyFhv4dOYLXioiQ6ZUVBR4oC+RoXLh9tYgzkx7DbsARAgMBAAGjUDBOMB0GA1UdDgQWBBQ8i9nZhuKhV5LqyhiihxhZzJ+L6zAfBgNVHSMEGDAWgBQ8i9nZhuKhV5LqyhiihxhZzJ+L6zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB21a1tGN/lS6R182i3uz5wkDwHRwby0oQbkq7D41h0sI6VpYoQZ7Oj/H+aXIh4FzOiUEri9pb/5oSvQGH5+Exf8pIt4226q6uwuirXlRas3rPaG3GLXdOh/29Y0fEy6j8TyxRTFbr4xp2h3Kcozy2Xt69u/95XfLCzaPO0Gh53AP7bUBqa91qKeUPRCZI5LHQXsKzgOs/WflEjF5FSv+xoImlPx0zmaOGK1xZAtEhqN3/UkX6kURRS0oxoE8wy0cHfGJMsgRoukbzXOckhkb0F0pdGZg84rWAzlpv42JOutlbpDpAH24n9B7AvDpdMr+SdHsPKgE6nUgRp0jslhJr0</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iisinveruno.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iisinveruno.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">IIS Inveruno</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">IIS Inveruno</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.iisinveruno.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

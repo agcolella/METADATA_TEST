@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_5af8f4dcbe8c4501fc918dcff0539f3ffc472f710f53dd0843d7ddd51529bbc3" entityID="https://sportellotelematico.comune.paullo.mi.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_5af8f4dcbe8c4501fc918dcff0539f3ffc472f710f53dd0843d7ddd51529bbc3">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>vqjogsrTNP42ZvvHj59OtHPRuzyNxACYJdncUPW+spo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QCzGQTdZUs6TTnoCoqK8lEtBGm51fRrlfbApM7YVa6/K7fvFf/eZ/lBNqhae7ljwpR/cb1RT4OTI
+1W5nHtx8rT90/mKH0ykYuoMqGqVWlOiTlVJNHxewkDDWVTIl00F0tD938/U0VtHtbsbG+R8GtN+H
+BJhn6qkEhSR3wYVeajC0zI+wzfP621yWpLTNqNiqF2nZwi7N9UZcuylADE3CZkRX8XjrhharQOUO
+ZN4uhIxcPxMz1RUQzUy9xlk2d4378Mx7Qehp1tnEFskJJAETUND/mbz/PIvn5s4A2QTNs6aimfTT
+sMuPK4Q+wx5FtAsRJ/euAfH51TLdVYckV/MPfw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rtOigKWvDBUErhgUywCVfzBWwniUmHTBuOEIzRyNFLx+gX0G7IgE9exHYbgnBwABnbMDuWiIHz1Z
+HI5UOVy1oQvTomdMvt9swURzwPvu9PQk5MHgdyUHuc3CRIK9VnbmGw7Cf47irm5Tuq922yEnz1sd
+2zj2eJHA0viubwmcoMvZizXPxQRp54A7kRkQxQZsaev9AW3vOpH1K72wP3lvReR05VdjUvdLKJEH
+pX2hH/WC+8XouQbRB4X2B1saIZfa9w4FAXwY7moWsHIPoEYpy2DkiJQ1SiPtPgluPwh4lvGwbn/p
+l5o3OhljzhYcRSrg+TBnvrPL1pevCu3mr42RWw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEADCCAuigAwIBAgIJAOlbl7KkJPRtMA0GCSqGSIb3DQEBCwUAMIGmMRkwFwYDVQQKDBBDb211
+bmUgZGkgUGF1bGxvMRkwFwYDVQQDDBBDb211bmUgZGkgUGF1bGxvMTkwNwYDVQRTDDBodHRwczov
+L3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnBhdWxsby5taS5pdC8xFTATBgNVBGEMDFBBOklU
+LWNfZzM4NTELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlBhdWxsbzAeFw0yMDExMDYxMzI0MDJaFw0z
+MDExMDQxMzI0MDJaMIGmMRkwFwYDVQQKDBBDb211bmUgZGkgUGF1bGxvMRkwFwYDVQQDDBBDb211
+bmUgZGkgUGF1bGxvMTkwNwYDVQRTDDBodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5l
+LnBhdWxsby5taS5pdC8xFTATBgNVBGEMDFBBOklULWNfZzM4NTELMAkGA1UEBhMCSVQxDzANBgNV
+BAcMBlBhdWxsbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK7TooClrwwVBK4YFMsA
+lX8wVsJ4lJh0wbjhCM0cjRS8foF9BuyIBPXsR2G4JwcAAZ2zA7loiB89WRyOVDlctaEL06JnTL7f
+bMFEc8D77vT0JOTB4HclB7nNwkSCvVZ25hsOwn+O4q5uU7qvdtshJ89bHds49niRwNL4rm8JnKDL
+2Ys1z8UEaeeAO5EZEMUGbGnr/QFt7zqR9Su9sD95b0XkdOVXY1L3SyiRB6V9oR/1gvvF6LkG0QeF
+9gdbGiGX2vcOBQF8GO5qFrByD6BGKctg5IiUNUoj7T4Jbj8IeJbxsG5/6ZeaNzoZY84WHEUq4Pkw
+Z76zy9aXrwrt5q+NkVsCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAww
+CjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAJhQ3jNPj/iJV/+sdJedAM87YOIIddRphKi2
+qFJIGhAmGUHdeP66cLGGDKPIyDSc5YEGjjmFFmQ/S+yRm3Te/I6l2ytJ3rXPBMTSzW6EcsgNAU31
+0eQrdavR/TimUCWVb8pa8AhrV8zL0W3/tWLZ1ntk3N4doqGN4qkMJM2mltDeQF6YeAPYBHUzNT92
+QXvElg8BRwkkoJB/tJwdWCowSvjVsl+4/+jKmcIEbFeRjCJEjaIbZtm5viA/jWukJDAeKp/Ymg74
+/lllW21hFOwcgqKixTeQ0gBS99qTBL9XP4gs5LKer7TcCvOHssKrumG+qom+WJiTtwFcyNRKRVj/
+HaA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEDjCCAvagAwIBAgIJAOwUanS/ia2sMA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMQ8wDQYDVQQHDAZQYXVsbG8xGTAXBgNVBAoMEENvbXVuZSBkaSBQYXVsbG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5wYXVsbG8ubWkuaXQwHhcNMTgwODI5MDgxMzMyWhcNMjgwODI2MDgxMzMyWjCBmzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UEBwwGUGF1bGxvMRkwFwYDVQQKDBBDb211bmUgZGkgUGF1bGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucGF1bGxvLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJJr4RtbOvHnJwn301mGY5/Y5Nykxda3QobKax71sCWICHna6kCWWNByQbhu5P3slxkzElpaTeTZclqir4MyzKYvoJPfT1PASvPgx+vHMpulksyAQ8dijNaYHURQWQDrQx1tJY922bwahLoTjzV9fTbR+svUN5sSdzoxNeeY/JmH3UHaU5umMapcEeTWwDjWW83McWMY0yuLYvGg+pQas7MvaG6yFdD78IMi+NENcKPRmtsyM6XMnhLNDKzvd10+Hys6ibFJIi3XSgA3EFauew3e8PiKN8f9nXHe4jRAg8rrGxcYAwavXQuWajMofZqgOvn3k1cQUqlhg0++u7Vv6wIDAQABo1MwUTAdBgNVHQ4EFgQUzzYreYhH0oZYeLrtrgcnZlIhr0QwHwYDVR0jBBgwFoAUzzYreYhH0oZYeLrtrgcnZlIhr0QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAG1bSwxPxTEMxu0q74PbrQaOoULtsMIsxjD1b/NA24+BYvWaDVzCSY6VaaHZsYkQZZpR+P2m53aY3saJthg/sK1/pcPx3aX5UZ3cg3QenxRt7ib+wOTBrHDuDQd7BgodMvmtDO0PJnaZjw/w9rOp8ByCr1Z6huZqXaQkU+ePH/xqpualo3ahXtuuQefi78bVOEK/ygSJi9JTgZLtNHi9CvxzrpJ4WgsURZcw4v+25+XG1+dA3d8xVXA8eCq8BWM1kOVJ/ewvHQxAFiSBSWNsjKJXRhvv3QS9RtBbIOei6nSj9eDzA49LJPH354s9AcBMJPypWNXnKedbDC4Uu1hzrZA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEDjCCAvagAwIBAgIJAOwUanS/ia2sMA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMQ8wDQYDVQQHDAZQYXVsbG8xGTAXBgNVBAoMEENvbXVuZSBkaSBQYXVsbG8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5wYXVsbG8ubWkuaXQwHhcNMTgwODI5MDgxMzMyWhcNMjgwODI2MDgxMzMyWjCBmzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UEBwwGUGF1bGxvMRkwFwYDVQQKDBBDb211bmUgZGkgUGF1bGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucGF1bGxvLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJJr4RtbOvHnJwn301mGY5/Y5Nykxda3QobKax71sCWICHna6kCWWNByQbhu5P3slxkzElpaTeTZclqir4MyzKYvoJPfT1PASvPgx+vHMpulksyAQ8dijNaYHURQWQDrQx1tJY922bwahLoTjzV9fTbR+svUN5sSdzoxNeeY/JmH3UHaU5umMapcEeTWwDjWW83McWMY0yuLYvGg+pQas7MvaG6yFdD78IMi+NENcKPRmtsyM6XMnhLNDKzvd10+Hys6ibFJIi3XSgA3EFauew3e8PiKN8f9nXHe4jRAg8rrGxcYAwavXQuWajMofZqgOvn3k1cQUqlhg0++u7Vv6wIDAQABo1MwUTAdBgNVHQ4EFgQUzzYreYhH0oZYeLrtrgcnZlIhr0QwHwYDVR0jBBgwFoAUzzYreYhH0oZYeLrtrgcnZlIhr0QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAG1bSwxPxTEMxu0q74PbrQaOoULtsMIsxjD1b/NA24+BYvWaDVzCSY6VaaHZsYkQZZpR+P2m53aY3saJthg/sK1/pcPx3aX5UZ3cg3QenxRt7ib+wOTBrHDuDQd7BgodMvmtDO0PJnaZjw/w9rOp8ByCr1Z6huZqXaQkU+ePH/xqpualo3ahXtuuQefi78bVOEK/ygSJi9JTgZLtNHi9CvxzrpJ4WgsURZcw4v+25+XG1+dA3d8xVXA8eCq8BWM1kOVJ/ewvHQxAFiSBSWNsjKJXRhvv3QS9RtBbIOei6nSj9eDzA49LJPH354s9AcBMJPypWNXnKedbDC4Uu1hzrZA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEADCCAuigAwIBAgIJAOlbl7KkJPRtMA0GCSqGSIb3DQEBCwUAMIGmMRkwFwYDVQQKDBBDb211bmUgZGkgUGF1bGxvMRkwFwYDVQQDDBBDb211bmUgZGkgUGF1bGxvMTkwNwYDVQRTDDBodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnBhdWxsby5taS5pdC8xFTATBgNVBGEMDFBBOklULWNfZzM4NTELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlBhdWxsbzAeFw0yMDExMDYxMzI0MDJaFw0zMDExMDQxMzI0MDJaMIGmMRkwFwYDVQQKDBBDb211bmUgZGkgUGF1bGxvMRkwFwYDVQQDDBBDb211bmUgZGkgUGF1bGxvMTkwNwYDVQRTDDBodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnBhdWxsby5taS5pdC8xFTATBgNVBGEMDFBBOklULWNfZzM4NTELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlBhdWxsbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK7TooClrwwVBK4YFMsAlX8wVsJ4lJh0wbjhCM0cjRS8foF9BuyIBPXsR2G4JwcAAZ2zA7loiB89WRyOVDlctaEL06JnTL7fbMFEc8D77vT0JOTB4HclB7nNwkSCvVZ25hsOwn+O4q5uU7qvdtshJ89bHds49niRwNL4rm8JnKDL2Ys1z8UEaeeAO5EZEMUGbGnr/QFt7zqR9Su9sD95b0XkdOVXY1L3SyiRB6V9oR/1gvvF6LkG0QeF9gdbGiGX2vcOBQF8GO5qFrByD6BGKctg5IiUNUoj7T4Jbj8IeJbxsG5/6ZeaNzoZY84WHEUq4PkwZ76zy9aXrwrt5q+NkVsCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAJhQ3jNPj/iJV/+sdJedAM87YOIIddRphKi2qFJIGhAmGUHdeP66cLGGDKPIyDSc5YEGjjmFFmQ/S+yRm3Te/I6l2ytJ3rXPBMTSzW6EcsgNAU310eQrdavR/TimUCWVb8pa8AhrV8zL0W3/tWLZ1ntk3N4doqGN4qkMJM2mltDeQF6YeAPYBHUzNT92QXvElg8BRwkkoJB/tJwdWCowSvjVsl+4/+jKmcIEbFeRjCJEjaIbZtm5viA/jWukJDAeKp/Ymg74/lllW21hFOwcgqKixTeQ0gBS99qTBL9XP4gs5LKer7TcCvOHssKrumG+qom+WJiTtwFcyNRKRVj/HaA=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.paullo.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/paullo"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.paullo.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paullo" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paullo" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paullo" index="3"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">stu</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="99">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="100">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="address"/>
+         <md:RequestedAttribute Name="gender"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="en">Comune di Paullo</md:OrganizationName>
+      <md:OrganizationName xml:lang="it">Comune di Paullo</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Paullo</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Paullo</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Paullo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Paullo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Paullo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Paullo</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.paullo.mi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.paullo.mi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.paullo.mi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.paullo.mi.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_g385</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>mailto:protocollo@pec.comune.paullo.mi.it</md:EmailAddress>
+   </md:ContactPerson>
+</md:EntityDescriptor>

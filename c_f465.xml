@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="MontecchioPrecalcino" entityID="https://www.comune.montecchioprecalcino.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MontecchioPrecalcino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/rDijVfd5Lhp3RVNCRqxjCDZRr8kQIn6mk0HiP8ZS1s=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SOe3YW8nQ/bc05NYprCZQdTGwyTu8PnmOMjfqwcAhqsfFUxEYnUeLs8angqePpj7dkP/OnfhIWM3
+wOcrSuxVN7BHtluQ0ZTrhvT38KPoamOliJ5KxSiVq1y4hdlyt/UcHXqe/60S5dhsdwDjA9e6AGTU
+kIg9rNquGUCNLg0s/Nzne+A0XvXuOLRK7FxFFGd7YiwBjGH1r0J99woIkBAQqHeDRPq9iOmw46k1
+8w1JMLit4R5JI2Lrv7d5JCSQfuDLLFlubVdnNE+zjqm3nFaIpuf1M8kCMcPAieDUFByuPi6wSEE4
+UdVi2q0bypW5i4bXGLnMJIx8aLR5vIbhzT2Jfw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wEQ7WcOx86r9p+OgKzXq9QhKCZ874yQ/mRjsk5OD1XrEE2c7qN6GJ7wdfJoDLX8IXaVSvDzrHg3s
+z4sex7kvx9IuqzfdFZp/yUgGfwWEIEJVnsQ233Uu8lrSEMOob8nofrt70lWZJhNLrAmla7oxnXWJ
+c6KQoAMS4BkW721Jpt5PjV3zEEFddp9uFEiIaeHDgZ55NgysyotqWn4plzpAsZrcIqwwgbtX944a
++6Ids3NEj6vyvKHzN85+8tTokd3Wg0TEOeP0dliNyuVUfUUfde2RZH7JFj7iyAlNXFejSYzyYxJY
+cCA8jpbVC3s3sqffgCTNKo1mhDn3uWPe2MB+BQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDazCCAlOgAwIBAgIJAOdlLIxtqUNVMA0GCSqGSIb3DQEBCwUAMEwxLjAsBgNVBAMMJXd3dy5j
+b211bmUubW9udGVjY2hpb3ByZWNhbGNpbm8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYT
+AklUMB4XDTIwMDgwNzA3NDQzOFoXDTMwMDgwNTA3NDQzOFowTDEuMCwGA1UEAwwld3d3LmNvbXVu
+ZS5tb250ZWNjaGlvcHJlY2FsY2luby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDARDtZw7Hzqv2n46ArNer1CEoJnzvjJD+Z
+GOyTk4PVesQTZzuo3oYnvB18mgMtfwhdpVK8POseDezPix7HuS/H0i6rN90Vmn/JSAZ/BYQgQlWe
+xDbfdS7yWtIQw6hvyeh+u3vSVZkmE0usCaVrujGddYlzopCgAxLgGRbvbUmm3k+NXfMQQV12n24U
+SIhp4cOBnnk2DKzKi2pafimXOkCxmtwirDCBu1f3jhr7oh2zc0SPq/K8ofM3zn7y1OiR3daDRMQ5
+4/R2WI3K5VR9RR917ZFkfskWPuLICU1cV6NJjPJjElhwIDyOltULezeyp9+AJM0qjWaEOfe5Y97Y
+wH4FAgMBAAGjUDBOMB0GA1UdDgQWBBR5rJnw8qstjONRYHl4CLRMXUqs/DAfBgNVHSMEGDAWgBR5
+rJnw8qstjONRYHl4CLRMXUqs/DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuBRLp
+YwYFI2CQiNfFgqeK+v+7i99SdQJX2uvRHY+GMr2FlekPJ1H4K+Ik88LhB19Ai5oPYsjBG9CoMSOq
+rUtctr3NuTXlZLWZGRmI2F1d8Vm4ty6EFGQzDE7SvRAknUeJIhDYEdeepfWhhmSY97t306kOoznJ
+CjMu9lNKNAgzl8Mxg/grj3GXOis2dinsC97P4quemthHl7VeX0fTcP4TbROpMb+WBgyX3QDHLrvD
+sR46J8FKNaSVkIND9pvlSj+tTTHCjwDJkxDr6dLXNz//MycMs5DGZctJMRorZ9okGfJ0SyT5Mz5T
+sZcx2pARuffeDHvXjERJ3OnxqThF3WjI
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDazCCAlOgAwIBAgIJAOdlLIxtqUNVMA0GCSqGSIb3DQEBCwUAMEwxLjAsBgNVBAMMJXd3dy5jb211bmUubW9udGVjY2hpb3ByZWNhbGNpbm8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDgwNzA3NDQzOFoXDTMwMDgwNTA3NDQzOFowTDEuMCwGA1UEAwwld3d3LmNvbXVuZS5tb250ZWNjaGlvcHJlY2FsY2luby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDARDtZw7Hzqv2n46ArNer1CEoJnzvjJD+ZGOyTk4PVesQTZzuo3oYnvB18mgMtfwhdpVK8POseDezPix7HuS/H0i6rN90Vmn/JSAZ/BYQgQlWexDbfdS7yWtIQw6hvyeh+u3vSVZkmE0usCaVrujGddYlzopCgAxLgGRbvbUmm3k+NXfMQQV12n24USIhp4cOBnnk2DKzKi2pafimXOkCxmtwirDCBu1f3jhr7oh2zc0SPq/K8ofM3zn7y1OiR3daDRMQ54/R2WI3K5VR9RR917ZFkfskWPuLICU1cV6NJjPJjElhwIDyOltULezeyp9+AJM0qjWaEOfe5Y97YwH4FAgMBAAGjUDBOMB0GA1UdDgQWBBR5rJnw8qstjONRYHl4CLRMXUqs/DAfBgNVHSMEGDAWgBR5rJnw8qstjONRYHl4CLRMXUqs/DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuBRLpYwYFI2CQiNfFgqeK+v+7i99SdQJX2uvRHY+GMr2FlekPJ1H4K+Ik88LhB19Ai5oPYsjBG9CoMSOqrUtctr3NuTXlZLWZGRmI2F1d8Vm4ty6EFGQzDE7SvRAknUeJIhDYEdeepfWhhmSY97t306kOoznJCjMu9lNKNAgzl8Mxg/grj3GXOis2dinsC97P4quemthHl7VeX0fTcP4TbROpMb+WBgyX3QDHLrvDsR46J8FKNaSVkIND9pvlSj+tTTHCjwDJkxDr6dLXNz//MycMs5DGZctJMRorZ9okGfJ0SyT5Mz5TsZcx2pARuffeDHvXjERJ3OnxqThF3WjI
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDazCCAlOgAwIBAgIJAOdlLIxtqUNVMA0GCSqGSIb3DQEBCwUAMEwxLjAsBgNVBAMMJXd3dy5jb211bmUubW9udGVjY2hpb3ByZWNhbGNpbm8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDgwNzA3NDQzOFoXDTMwMDgwNTA3NDQzOFowTDEuMCwGA1UEAwwld3d3LmNvbXVuZS5tb250ZWNjaGlvcHJlY2FsY2luby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDARDtZw7Hzqv2n46ArNer1CEoJnzvjJD+ZGOyTk4PVesQTZzuo3oYnvB18mgMtfwhdpVK8POseDezPix7HuS/H0i6rN90Vmn/JSAZ/BYQgQlWexDbfdS7yWtIQw6hvyeh+u3vSVZkmE0usCaVrujGddYlzopCgAxLgGRbvbUmm3k+NXfMQQV12n24USIhp4cOBnnk2DKzKi2pafimXOkCxmtwirDCBu1f3jhr7oh2zc0SPq/K8ofM3zn7y1OiR3daDRMQ54/R2WI3K5VR9RR917ZFkfskWPuLICU1cV6NJjPJjElhwIDyOltULezeyp9+AJM0qjWaEOfe5Y97YwH4FAgMBAAGjUDBOMB0GA1UdDgQWBBR5rJnw8qstjONRYHl4CLRMXUqs/DAfBgNVHSMEGDAWgBR5rJnw8qstjONRYHl4CLRMXUqs/DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuBRLpYwYFI2CQiNfFgqeK+v+7i99SdQJX2uvRHY+GMr2FlekPJ1H4K+Ik88LhB19Ai5oPYsjBG9CoMSOqrUtctr3NuTXlZLWZGRmI2F1d8Vm4ty6EFGQzDE7SvRAknUeJIhDYEdeepfWhhmSY97t306kOoznJCjMu9lNKNAgzl8Mxg/grj3GXOis2dinsC97P4quemthHl7VeX0fTcP4TbROpMb+WBgyX3QDHLrvDsR46J8FKNaSVkIND9pvlSj+tTTHCjwDJkxDr6dLXNz//MycMs5DGZctJMRorZ9okGfJ0SyT5Mz5TsZcx2pARuffeDHvXjERJ3OnxqThF3WjI
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montecchioprecalcino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montecchioprecalcino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montecchioprecalcino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montecchioprecalcino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montecchio Precalcino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Montecchio Precalcino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Montecchio Precalcino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Montecchio Precalcino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montecchio Precalcino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Montecchio Precalcino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Montecchio Precalcino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Montecchio Precalcino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.montecchioprecalcino.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.montecchioprecalcino.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.montecchioprecalcino.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.montecchioprecalcino.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

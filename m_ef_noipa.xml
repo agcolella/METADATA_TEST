@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_0de4b00500764cb2a0c1497344e30701" entityID="https://accessnoipa.mef.gov.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_0de4b00500764cb2a0c1497344e30701">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zz7EicnY+3k2jE8XWMhRJDlgkSU5q+EY4S2MgmiM9Tg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ZRuJMpn3EcGlxrdEa691Y9wJkks43czr68KS+FlWy6plXKocGQAjRwH/sIwl65S/trhyIHx+SjBq
+W17QlKx+0A2T4s5l0ZlFQu5eprSarYAMtFYb6CkI6bGm91QOoCccz7zC1MYZIky/reqP2TPPBzSj
+g7IUxpmy1WXxMyQIB2/fhU9COqpuQiSWPD3m8NYXkdDUG63j9Dc5AZRGbKGSXJnDaufFN0OK4AL3
+DC8CzLjxGCSdQaJEz3R4gap0FU117onbmORhEP6ku9vrId/Y7gPEwr5scN39mPNlRdOJNesI1S9P
+6NlWOFAyQuL1yWwrHfj6hBwCEjRMfhhd8MEXaw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1/KDwLgZUdUFWW1AVmDG1ST7Xg1xlGKCloXca3PP/6yCsKd/ZuJ6ZsPBkivoMFHgxwdai3+FqBXq
+ppdXgUmknlde5HvebJJMk0hLh1/D7jhXRhReyIgdESVzqYy7pAfad/7IjYgv72Bb51HG7aFwSwqo
+e9ioK8Z3VPxI0gZab+EzPzY5vbb3MJ+GJCeSjWhI58+l1AKfD8ZboJT5r8K9m2ASy4/7M8HQJZnB
+TfI9F0TGoaiKz+TIRoXK0wFH2KP/8Q/pvu2Id4pmcdySHZV5iN04xPM4tRbOY8YXDDhpwnqjQBvH
+2SKXVGrp5w2DKoiLV9W5Z5pyI14U7eVuEgHRJQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDMjCCAhoCCQDi4xPhl3OnrzANBgkqhkiG9w0BAQsFADBbMQswCQYDVQQGEwJJVDENMAsGA1UE
+CAwEUk9NRTENMAsGA1UEBwwEUk9NRTEMMAoGA1UECgwDTUVGMQwwCgYDVQQLDANNRUYxEjAQBgNV
+BAMMCU1FRi5OT0lQQTAeFw0yMDA1MDgxNTQ1NTJaFw0zMDA1MDYxNTQ1NTJaMFsxCzAJBgNVBAYT
+AklUMQ0wCwYDVQQIDARST01FMQ0wCwYDVQQHDARST01FMQwwCgYDVQQKDANNRUYxDDAKBgNVBAsM
+A01FRjESMBAGA1UEAwwJTUVGLk5PSVBBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+1/KDwLgZUdUFWW1AVmDG1ST7Xg1xlGKCloXca3PP/6yCsKd/ZuJ6ZsPBkivoMFHgxwdai3+FqBXq
+ppdXgUmknlde5HvebJJMk0hLh1/D7jhXRhReyIgdESVzqYy7pAfad/7IjYgv72Bb51HG7aFwSwqo
+e9ioK8Z3VPxI0gZab+EzPzY5vbb3MJ+GJCeSjWhI58+l1AKfD8ZboJT5r8K9m2ASy4/7M8HQJZnB
+TfI9F0TGoaiKz+TIRoXK0wFH2KP/8Q/pvu2Id4pmcdySHZV5iN04xPM4tRbOY8YXDDhpwnqjQBvH
+2SKXVGrp5w2DKoiLV9W5Z5pyI14U7eVuEgHRJQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQC3/YmW
+dYhJ+8vyIeKwcX/tPBuDo8usMG7s12EDswSL9uSP6fd3VZNys0Jp82xVZaHdCJUYGYprfsburY14
+gn1hDKBrBJksCSr5hQ/leaj6BHNch00kNRUz7E0VhNgQovlGz38HNSyVqbORJYPdE+zpHgSALGmP
+us77sQGJoGz+LWrxFL7YGwmWbSQy1o1v4xCYX5znFm3/cNqSDyS6jPROIz+Php+iWnM1fNa4t6A6
+UYOotnzccis/R1aR2JIc5BDhlErixKJ0q4sHKGtxFcqW9f7ZL5q5IY75wdVuLaGI/ahI1yIijl/U
+ct2B6IRa+mYZcBrv3gT6p1AnRyUoMC3E
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDMjCCAhoCCQDi4xPhl3OnrzANBgkqhkiG9w0BAQsFADBbMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUk9NRTENMAsGA1UEBwwEUk9NRTEMMAoGA1UECgwDTUVGMQwwCgYDVQQLDANNRUYxEjAQBgNVBAMMCU1FRi5OT0lQQTAeFw0yMDA1MDgxNTQ1NTJaFw0zMDA1MDYxNTQ1NTJaMFsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARST01FMQ0wCwYDVQQHDARST01FMQwwCgYDVQQKDANNRUYxDDAKBgNVBAsMA01FRjESMBAGA1UEAwwJTUVGLk5PSVBBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1/KDwLgZUdUFWW1AVmDG1ST7Xg1xlGKCloXca3PP/6yCsKd/ZuJ6ZsPBkivoMFHgxwdai3+FqBXqppdXgUmknlde5HvebJJMk0hLh1/D7jhXRhReyIgdESVzqYy7pAfad/7IjYgv72Bb51HG7aFwSwqoe9ioK8Z3VPxI0gZab+EzPzY5vbb3MJ+GJCeSjWhI58+l1AKfD8ZboJT5r8K9m2ASy4/7M8HQJZnBTfI9F0TGoaiKz+TIRoXK0wFH2KP/8Q/pvu2Id4pmcdySHZV5iN04xPM4tRbOY8YXDDhpwnqjQBvH2SKXVGrp5w2DKoiLV9W5Z5pyI14U7eVuEgHRJQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQC3/YmWdYhJ+8vyIeKwcX/tPBuDo8usMG7s12EDswSL9uSP6fd3VZNys0Jp82xVZaHdCJUYGYprfsburY14gn1hDKBrBJksCSr5hQ/leaj6BHNch00kNRUz7E0VhNgQovlGz38HNSyVqbORJYPdE+zpHgSALGmPus77sQGJoGz+LWrxFL7YGwmWbSQy1o1v4xCYX5znFm3/cNqSDyS6jPROIz+Php+iWnM1fNa4t6A6UYOotnzccis/R1aR2JIc5BDhlErixKJ0q4sHKGtxFcqW9f7ZL5q5IY75wdVuLaGI/ahI1yIijl/Uct2B6IRa+mYZcBrv3gT6p1AnRyUoMC3E</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessnoipa.mef.gov.it/oamfed/sp/samlv20"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessnoipacoll.mef.gov.it/oamfed/sp/samlv20"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessnoipa.mef.gov.it/oam/server/fed/sp/sso" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessnoipacoll.mef.gov.it/oam/server/fed/sp/sso" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set Attributi 1</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Set Attributi 2</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="address"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ministero dell'Economia e delle Finanze</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">MEF</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://noipa.mef.gov.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>m_ef</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>giuseppina.senzatela@mef.gov.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

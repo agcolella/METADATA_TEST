@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Locorotondo" entityID="https://www.comune.locorotondo.ba.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Locorotondo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>IaCy04+4TxDzLwrUc/wgEpvVkVGH9r1Aajnvxv8b4lc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rIg5CkX+hmTm5+WG+fRHCzInJcolkBcJG2hoY1KzQbPCFNVtW5xj3bcJ9cGnfgVYjkp2W1jsw6lJ
+CDrzx41DLwPW9Uu7cEaHNorSWzBbbE1pLPoY3cORfe6rBoNeOZPXWB02PV2Z/gM2hXX/jCIaa1jF
+82OibHwF+0dzmx68oU8svq7XreQ5G2CSHoBIN8ApLjMoCzfViLaDGR5sLLxbhsqXZVztlGXzbsCf
+3y8ybezIS4zElVF1sO9DBZZd8gLf1trtONBwShs4obVdsOPuMb3csbN0lIILFKuQtob2idnfeagd
+yWNBrKZJ58piF1bRaHB0E8xSTF66IJrnglSwpA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tJ5OK/kddbwTHiMLfilBY0Sz9lQQHgzbNcyk5+dAHqwZVSvjK5XjS/l8hGNdB5gPc8wrWMzogfRZ
+anaZnuChYKEvIftli9VUb6v4rw4mPrBF9wMvkZ7cxOD5s0wEB2yzcyfyp2rVPa4/cxCxkUTuca4r
+PRfvct3oT62sKan2pAJANMPudWZWQMXBDSwitkciTLT39qdrTYFZa9yoO5jp1YiJ6F6QLIjOpL8K
+dZdH7RxOOOcArmPDa0JzZWW206NEpb3u4t3kDCOrLVec/sVSaSlrSVF+iPrRmcBiDcZ2yRzT7yvB
+7IsKc9fsgnuzHjjwf4G/9Uy7PHX4qyyTsUFRbw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJALfPmMOpAJXbMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUubG9jb3JvdG9uZG8uYmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5
+MDMxMzE1MDgxNloXDTI5MDMxMDE1MDgxNlowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5sb2Nvcm90
+b25kby5iYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC0nk4r+R11vBMeIwt+KUFjRLP2VBAeDNs1zKTn50AerBlVK+MrleNL+XyE
+Y10HmA9zzCtYzOiB9Flqdpme4KFgoS8h+2WL1VRvq/ivDiY+sEX3Ay+RntzE4PmzTAQHbLNzJ/Kn
+atU9rj9zELGRRO5xris9F+9y3ehPrawpqfakAkA0w+51ZlZAxcENLCK2RyJMtPf2p2tNgVlr3Kg7
+mOnViInoXpAsiM6kvwp1l0ftHE445wCuY8NrQnNlZbbTo0Slve7i3eQMI6stV5z+xVJpKWtJUX6I
++tGZwGINxnbJHNPvK8Hsiwpz1+yCe7MeOPB/gb/1TLs8dfirLJOxQVFvAgMBAAGjUDBOMB0GA1Ud
+DgQWBBTgDaM0+p0gJ6rScncl7j6+1BOxvDAfBgNVHSMEGDAWgBTgDaM0+p0gJ6rScncl7j6+1BOx
+vDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA58UE+Nnnq51a71fdqekeQYe4intT7
+FRg63wom0hCof/+5w+LV1xwXfRFnuSg2Ftt9ImpQ92gY3a+K/yyoyfVCuPhe93W/1IvKeUVmsePa
+5zuFh2bwh22uEh++4g/ZmxIyamm27IO+fXAmWPpY1R0nHsSLaRgZrL+2JkEA+NbBwGK0doitFJrB
+pjbN9mWCKJV4pg/1NqoVhdaJkXM1UYrQbZw8kBVIEviC8QQDro/k+yfqi9WgtTNaCpmEgG1Vw2Ht
+wQMXtFlIrS6qcWTxYgSQZ5PlMiky4QJE+V/D5yfTnT7L7RaKyFUDgFN8lYOfBq/15ndBU5lbhVxP
+xNum2LoD
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJALfPmMOpAJXbMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUubG9jb3JvdG9uZG8uYmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMxMzE1MDgxNloXDTI5MDMxMDE1MDgxNlowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5sb2Nvcm90b25kby5iYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC0nk4r+R11vBMeIwt+KUFjRLP2VBAeDNs1zKTn50AerBlVK+MrleNL+XyEY10HmA9zzCtYzOiB9Flqdpme4KFgoS8h+2WL1VRvq/ivDiY+sEX3Ay+RntzE4PmzTAQHbLNzJ/KnatU9rj9zELGRRO5xris9F+9y3ehPrawpqfakAkA0w+51ZlZAxcENLCK2RyJMtPf2p2tNgVlr3Kg7mOnViInoXpAsiM6kvwp1l0ftHE445wCuY8NrQnNlZbbTo0Slve7i3eQMI6stV5z+xVJpKWtJUX6I+tGZwGINxnbJHNPvK8Hsiwpz1+yCe7MeOPB/gb/1TLs8dfirLJOxQVFvAgMBAAGjUDBOMB0GA1UdDgQWBBTgDaM0+p0gJ6rScncl7j6+1BOxvDAfBgNVHSMEGDAWgBTgDaM0+p0gJ6rScncl7j6+1BOxvDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA58UE+Nnnq51a71fdqekeQYe4intT7FRg63wom0hCof/+5w+LV1xwXfRFnuSg2Ftt9ImpQ92gY3a+K/yyoyfVCuPhe93W/1IvKeUVmsePa5zuFh2bwh22uEh++4g/ZmxIyamm27IO+fXAmWPpY1R0nHsSLaRgZrL+2JkEA+NbBwGK0doitFJrBpjbN9mWCKJV4pg/1NqoVhdaJkXM1UYrQbZw8kBVIEviC8QQDro/k+yfqi9WgtTNaCpmEgG1Vw2HtwQMXtFlIrS6qcWTxYgSQZ5PlMiky4QJE+V/D5yfTnT7L7RaKyFUDgFN8lYOfBq/15ndBU5lbhVxPxNum2LoD
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJALfPmMOpAJXbMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUubG9jb3JvdG9uZG8uYmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMxMzE1MDgxNloXDTI5MDMxMDE1MDgxNlowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5sb2Nvcm90b25kby5iYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC0nk4r+R11vBMeIwt+KUFjRLP2VBAeDNs1zKTn50AerBlVK+MrleNL+XyEY10HmA9zzCtYzOiB9Flqdpme4KFgoS8h+2WL1VRvq/ivDiY+sEX3Ay+RntzE4PmzTAQHbLNzJ/KnatU9rj9zELGRRO5xris9F+9y3ehPrawpqfakAkA0w+51ZlZAxcENLCK2RyJMtPf2p2tNgVlr3Kg7mOnViInoXpAsiM6kvwp1l0ftHE445wCuY8NrQnNlZbbTo0Slve7i3eQMI6stV5z+xVJpKWtJUX6I+tGZwGINxnbJHNPvK8Hsiwpz1+yCe7MeOPB/gb/1TLs8dfirLJOxQVFvAgMBAAGjUDBOMB0GA1UdDgQWBBTgDaM0+p0gJ6rScncl7j6+1BOxvDAfBgNVHSMEGDAWgBTgDaM0+p0gJ6rScncl7j6+1BOxvDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA58UE+Nnnq51a71fdqekeQYe4intT7FRg63wom0hCof/+5w+LV1xwXfRFnuSg2Ftt9ImpQ92gY3a+K/yyoyfVCuPhe93W/1IvKeUVmsePa5zuFh2bwh22uEh++4g/ZmxIyamm27IO+fXAmWPpY1R0nHsSLaRgZrL+2JkEA+NbBwGK0doitFJrBpjbN9mWCKJV4pg/1NqoVhdaJkXM1UYrQbZw8kBVIEviC8QQDro/k+yfqi9WgtTNaCpmEgG1Vw2HtwQMXtFlIrS6qcWTxYgSQZ5PlMiky4QJE+V/D5yfTnT7L7RaKyFUDgFN8lYOfBq/15ndBU5lbhVxPxNum2LoD
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/locorotondo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/locorotondo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/locorotondo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/locorotondo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Locorotondo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Locorotondo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Locorotondo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Locorotondo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Locorotondo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Locorotondo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Locorotondo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Locorotondo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.locorotondo.ba.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.locorotondo.ba.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.locorotondo.ba.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.locorotondo.ba.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

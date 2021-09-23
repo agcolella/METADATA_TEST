@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.fagagna.ud.it" ID="pfxb4935b9a-2c3c-3c3a-1837-535320e6b849"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxb4935b9a-2c3c-3c3a-1837-535320e6b849"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UIMjoiuRyYaMLyp7VuLLHwt2JB81D1lgW2R+i7rMIo4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bfQZ74QYVr6q5UsMYWgbfLyEkboIinZ42xKRPxUYUce+rz4ZJFi2fRWeOukSnlWD7OXTDXG/LPak3kDcBX6BCuXCnN5ACZW1YBxevjL70kqXdcQ8+d/bDVvOglDADQuT2QxfschvFt2eYAeFAtiim8YJTbY1IMoHfiUIxZSXmn1PXx/GkKTP+9DVV18AHy6gOuwtlvlvXgBKTUFdnOeAYZIoAeVe+C6NJZ/RyMjfB8iYPxg/k1tUCFBXTZYNGcBglmb4BUiFqo+F2jvFpGBARfR8IVJlNXpE+XqnbTyboprbRg8lg4JHSQYgYa4KHNacyyHSt6KF11JZvfKuf6ceLg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDrzCCApegAwIBAgIJAI+1fu8knEy3MA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHRmFnYWduYTEaMBgGA1UECgwRQ29tdW5lIGRpIEZhZ2FnbmExITAfBgNVBAMMGHd3dy5jb211bmUuZmFnYWduYS51ZC5pdDAeFw0xODA0MTYwODA1MjhaFw0yODA0MTUwODA1MjhaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHRmFnYWduYTEaMBgGA1UECgwRQ29tdW5lIGRpIEZhZ2FnbmExITAfBgNVBAMMGHd3dy5jb211bmUuZmFnYWduYS51ZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN2rSKEoQKHABn3C2Tf8mUno6TCkhwNjhRnV/s/yDAdCm5Fnj6KoNEL7dkKba0LD+0NMaHrocRKX55BwVMnwm0CWrrNW3JeYiT76z7QddsuEi1QMrIDN4GQVnikhPXHJ2jg10LBXFPh2JZCYFTDc0WUSDOJFKBbYgxLkSuia484uwc5x7XU3TRgvPuPfC7wdMjsDPHgIK98CSm2nNLjGpBT3oOVAbNmj92Y9fJIP785r9O9txLS8fh1x+by4VktiSM/ike5Qfk1D8VZ8WVfZzNfzJu8Nrr2c7OItWL/F6w0lrxYGFIwXjGS+K1wyEHx0Km8ikxVm3kmPDtp/t7BS/48CAwEAAaNQME4wHQYDVR0OBBYEFCF06M9NXmIC/qo2VHI7ov7g+KgKMB8GA1UdIwQYMBaAFCF06M9NXmIC/qo2VHI7ov7g+KgKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEh4htG3NJJCf4MxT6Ae/i06atLmMvi/8R9aAwTaTjQBlR8LCsyH2m2vA2diNewnH8lWqhuw0abVy2OIdpGJKbcUQqEEE6V4WLOWSoq3Mqv4Y937wOvs8ai4VWyHbRnDclwJRoSR7OWOTPTMNNzHSFQv05qgVyaqzF4qwauM47G6bG0dnBTQy27FSTmuSkogyqymCQAyd5DmKsqCYs2/h2VnWAsH4UL/42TGyHHUClwG2/Rx2GIyCvyVf30hTxzenQ+58lmRnMSjI3WeZxEMYBMZnO1TPc9Yg+lrhF8fTslOhadq8M/Vi3wBFOj9BK4c1nH3Uwn1ZiumrLwkSDZwhAw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAI+1fu8knEy3MA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHRmFnYWduYTEaMBgGA1UECgwRQ29tdW5lIGRpIEZhZ2FnbmExITAfBgNVBAMMGHd3dy5jb211bmUuZmFnYWduYS51ZC5pdDAeFw0xODA0MTYwODA1MjhaFw0yODA0MTUwODA1MjhaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHRmFnYWduYTEaMBgGA1UECgwRQ29tdW5lIGRpIEZhZ2FnbmExITAfBgNVBAMMGHd3dy5jb211bmUuZmFnYWduYS51ZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN2rSKEoQKHABn3C2Tf8mUno6TCkhwNjhRnV/s/yDAdCm5Fnj6KoNEL7dkKba0LD+0NMaHrocRKX55BwVMnwm0CWrrNW3JeYiT76z7QddsuEi1QMrIDN4GQVnikhPXHJ2jg10LBXFPh2JZCYFTDc0WUSDOJFKBbYgxLkSuia484uwc5x7XU3TRgvPuPfC7wdMjsDPHgIK98CSm2nNLjGpBT3oOVAbNmj92Y9fJIP785r9O9txLS8fh1x+by4VktiSM/ike5Qfk1D8VZ8WVfZzNfzJu8Nrr2c7OItWL/F6w0lrxYGFIwXjGS+K1wyEHx0Km8ikxVm3kmPDtp/t7BS/48CAwEAAaNQME4wHQYDVR0OBBYEFCF06M9NXmIC/qo2VHI7ov7g+KgKMB8GA1UdIwQYMBaAFCF06M9NXmIC/qo2VHI7ov7g+KgKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEh4htG3NJJCf4MxT6Ae/i06atLmMvi/8R9aAwTaTjQBlR8LCsyH2m2vA2diNewnH8lWqhuw0abVy2OIdpGJKbcUQqEEE6V4WLOWSoq3Mqv4Y937wOvs8ai4VWyHbRnDclwJRoSR7OWOTPTMNNzHSFQv05qgVyaqzF4qwauM47G6bG0dnBTQy27FSTmuSkogyqymCQAyd5DmKsqCYs2/h2VnWAsH4UL/42TGyHHUClwG2/Rx2GIyCvyVf30hTxzenQ+58lmRnMSjI3WeZxEMYBMZnO1TPc9Yg+lrhF8fTslOhadq8M/Vi3wBFOj9BK4c1nH3Uwn1ZiumrLwkSDZwhAw=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAI+1fu8knEy3MA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHRmFnYWduYTEaMBgGA1UECgwRQ29tdW5lIGRpIEZhZ2FnbmExITAfBgNVBAMMGHd3dy5jb211bmUuZmFnYWduYS51ZC5pdDAeFw0xODA0MTYwODA1MjhaFw0yODA0MTUwODA1MjhaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHRmFnYWduYTEaMBgGA1UECgwRQ29tdW5lIGRpIEZhZ2FnbmExITAfBgNVBAMMGHd3dy5jb211bmUuZmFnYWduYS51ZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN2rSKEoQKHABn3C2Tf8mUno6TCkhwNjhRnV/s/yDAdCm5Fnj6KoNEL7dkKba0LD+0NMaHrocRKX55BwVMnwm0CWrrNW3JeYiT76z7QddsuEi1QMrIDN4GQVnikhPXHJ2jg10LBXFPh2JZCYFTDc0WUSDOJFKBbYgxLkSuia484uwc5x7XU3TRgvPuPfC7wdMjsDPHgIK98CSm2nNLjGpBT3oOVAbNmj92Y9fJIP785r9O9txLS8fh1x+by4VktiSM/ike5Qfk1D8VZ8WVfZzNfzJu8Nrr2c7OItWL/F6w0lrxYGFIwXjGS+K1wyEHx0Km8ikxVm3kmPDtp/t7BS/48CAwEAAaNQME4wHQYDVR0OBBYEFCF06M9NXmIC/qo2VHI7ov7g+KgKMB8GA1UdIwQYMBaAFCF06M9NXmIC/qo2VHI7ov7g+KgKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEh4htG3NJJCf4MxT6Ae/i06atLmMvi/8R9aAwTaTjQBlR8LCsyH2m2vA2diNewnH8lWqhuw0abVy2OIdpGJKbcUQqEEE6V4WLOWSoq3Mqv4Y937wOvs8ai4VWyHbRnDclwJRoSR7OWOTPTMNNzHSFQv05qgVyaqzF4qwauM47G6bG0dnBTQy27FSTmuSkogyqymCQAyd5DmKsqCYs2/h2VnWAsH4UL/42TGyHHUClwG2/Rx2GIyCvyVf30hTxzenQ+58lmRnMSjI3WeZxEMYBMZnO1TPc9Yg+lrhF8fTslOhadq8M/Vi3wBFOj9BK4c1nH3Uwn1ZiumrLwkSDZwhAw=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.fagagna.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.fagagna.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Fagagna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Fagagna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.fagagna.ud.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

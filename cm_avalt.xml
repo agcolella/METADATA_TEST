@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cmav" entityID="https://www.cmav.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cmav">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hRnZsZyI0dGHoggDpz4MXlyqhxnvcSMc+C4RkXYW4gE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ckRGdPLA5p4TaWDPCWGve4SX0nE87xCWBph+bQy5aII7ngFLgGb5K8o+mDC1L4/cnbyH2AVNevOf
+as/URLXZQ5eMKpcNJwpBUz4dW/cmG8xgxmOh83jepEHYAhEhJr1+uExPhKDe2ZbIV594gi0nXxTF
+VQ6+uaLu7cr8MngYAquqSI7odQD0T/Uq+DKyqoz5HseotC69TskbGnDSaEk0J8R/tq+TociFgjck
+mNqLB8mClGqXbuR4+jUprzzrZcdb941l4V2wDKARIX7ys9d1JNomUzPKye0i9IUnzh5rnm9wG0as
+SdmfZ71D3UFxwNgo8C+tDHGvkTKt+Kt+qGB4oQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t1UGW+6NrAZtoMSSJH9KQ2BAmUX9ScahUg4+u2BoAho5X9u7n7JzRx81uaFP9rqJivu+qHeRcv3K
+LYfimthr8mmLeMYlRxcrQn0B4siLD7v6gaC3BvJqOMVtG1x9Qi8fNZQHmqA5mh9IQQVJ8cvSGr0e
+OjYt5T7RBQgGuTx8ieEloHe2MAUwGpJ4D/4wAmWkfpSuLXeGlOrTDgbEwXxGj8YijYVC7vZCPTRl
+KUATedAUmE7ZatvJgbuzrqJimern/ljWCJgKMCs1+hZc/slY4Yqo6lcY4ra93CiEBkrzbBOO9+5W
+YPisINMk24RLMjmDvw91BIvXp0m1pFR/zBbDqw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDPTCCAiWgAwIBAgIJAOtzy0O4za/GMA0GCSqGSIb3DQEBCwUAMDUxFzAVBgNVBAMMDnd3dy5j
+bWF2LnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMTQxNTQ1NTlaFw0y
+OTAzMTExNTQ1NTlaMDUxFzAVBgNVBAMMDnd3dy5jbWF2LnNvLml0MQ0wCwYDVQQLDARTUElEMQsw
+CQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALdVBlvujawGbaDEkiR/
+SkNgQJlF/UnGoVIOPrtgaAIaOV/bu5+yc0cfNbmhT/a6iYr7vqh3kXL9yi2H4prYa/Jpi3jGJUcX
+K0J9AeLIiw+7+oGgtwbyajjFbRtcfUIvHzWUB5qgOZofSEEFSfHL0hq9Hjo2LeU+0QUIBrk8fInh
+JaB3tjAFMBqSeA/+MAJlpH6Uri13hpTq0w4GxMF8Ro/GIo2FQu72Qj00ZSlAE3nQFJhO2WrbyYG7
+s66iYpnq5/5Y1giYCjArNfoWXP7JWOGKqOpXGOK2vdwohAZK82wTjvfuVmD4rCDTJNuESzI5g78P
+dQSL16dJtaRUf8wWw6sCAwEAAaNQME4wHQYDVR0OBBYEFJdnco8CHZwHlH2sjPLBvqSGa+uVMB8G
+A1UdIwQYMBaAFJdnco8CHZwHlH2sjPLBvqSGa+uVMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEL
+BQADggEBAJe134HqR9bsCNjH670hrndCvA5ZKH3YDOPVKltsO221VcZ+6ntSSEl6G8ilGnrJUQMd
+qnYqzKhoBbLguXKsbHPsC4IQjc2M3VxFyhLHjDluxOOnwD2/iDFa7zJrI3k7VTuebVHk2zg5mSXH
+8n7aEFFG5i02UlhKUdtzI/9YUTCnyDmt/7Q/qHvbHIBpFq1Mmp+UJ+GWa62QlmfNd/cAlDfhVq/E
+6C7bu17wm7vBDXw3lm9luuS2jQAJbMV1IOfF4CAEW4uKtBpxe4owN83LODbRI8StHmnFeONhozw5
+EvGQeVOJvHqX4EfikZkAIQ7JDGErujV+GIiLzRPoythUZf8=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDPTCCAiWgAwIBAgIJAOtzy0O4za/GMA0GCSqGSIb3DQEBCwUAMDUxFzAVBgNVBAMMDnd3dy5jbWF2LnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMTQxNTQ1NTlaFw0yOTAzMTExNTQ1NTlaMDUxFzAVBgNVBAMMDnd3dy5jbWF2LnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALdVBlvujawGbaDEkiR/SkNgQJlF/UnGoVIOPrtgaAIaOV/bu5+yc0cfNbmhT/a6iYr7vqh3kXL9yi2H4prYa/Jpi3jGJUcXK0J9AeLIiw+7+oGgtwbyajjFbRtcfUIvHzWUB5qgOZofSEEFSfHL0hq9Hjo2LeU+0QUIBrk8fInhJaB3tjAFMBqSeA/+MAJlpH6Uri13hpTq0w4GxMF8Ro/GIo2FQu72Qj00ZSlAE3nQFJhO2WrbyYG7s66iYpnq5/5Y1giYCjArNfoWXP7JWOGKqOpXGOK2vdwohAZK82wTjvfuVmD4rCDTJNuESzI5g78PdQSL16dJtaRUf8wWw6sCAwEAAaNQME4wHQYDVR0OBBYEFJdnco8CHZwHlH2sjPLBvqSGa+uVMB8GA1UdIwQYMBaAFJdnco8CHZwHlH2sjPLBvqSGa+uVMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJe134HqR9bsCNjH670hrndCvA5ZKH3YDOPVKltsO221VcZ+6ntSSEl6G8ilGnrJUQMdqnYqzKhoBbLguXKsbHPsC4IQjc2M3VxFyhLHjDluxOOnwD2/iDFa7zJrI3k7VTuebVHk2zg5mSXH8n7aEFFG5i02UlhKUdtzI/9YUTCnyDmt/7Q/qHvbHIBpFq1Mmp+UJ+GWa62QlmfNd/cAlDfhVq/E6C7bu17wm7vBDXw3lm9luuS2jQAJbMV1IOfF4CAEW4uKtBpxe4owN83LODbRI8StHmnFeONhozw5EvGQeVOJvHqX4EfikZkAIQ7JDGErujV+GIiLzRPoythUZf8=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDPTCCAiWgAwIBAgIJAOtzy0O4za/GMA0GCSqGSIb3DQEBCwUAMDUxFzAVBgNVBAMMDnd3dy5jbWF2LnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMTQxNTQ1NTlaFw0yOTAzMTExNTQ1NTlaMDUxFzAVBgNVBAMMDnd3dy5jbWF2LnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALdVBlvujawGbaDEkiR/SkNgQJlF/UnGoVIOPrtgaAIaOV/bu5+yc0cfNbmhT/a6iYr7vqh3kXL9yi2H4prYa/Jpi3jGJUcXK0J9AeLIiw+7+oGgtwbyajjFbRtcfUIvHzWUB5qgOZofSEEFSfHL0hq9Hjo2LeU+0QUIBrk8fInhJaB3tjAFMBqSeA/+MAJlpH6Uri13hpTq0w4GxMF8Ro/GIo2FQu72Qj00ZSlAE3nQFJhO2WrbyYG7s66iYpnq5/5Y1giYCjArNfoWXP7JWOGKqOpXGOK2vdwohAZK82wTjvfuVmD4rCDTJNuESzI5g78PdQSL16dJtaRUf8wWw6sCAwEAAaNQME4wHQYDVR0OBBYEFJdnco8CHZwHlH2sjPLBvqSGa+uVMB8GA1UdIwQYMBaAFJdnco8CHZwHlH2sjPLBvqSGa+uVMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJe134HqR9bsCNjH670hrndCvA5ZKH3YDOPVKltsO221VcZ+6ntSSEl6G8ilGnrJUQMdqnYqzKhoBbLguXKsbHPsC4IQjc2M3VxFyhLHjDluxOOnwD2/iDFa7zJrI3k7VTuebVHk2zg5mSXH8n7aEFFG5i02UlhKUdtzI/9YUTCnyDmt/7Q/qHvbHIBpFq1Mmp+UJ+GWa62QlmfNd/cAlDfhVq/E6C7bu17wm7vBDXw3lm9luuS2jQAJbMV1IOfF4CAEW4uKtBpxe4owN83LODbRI8StHmnFeONhozw5EvGQeVOJvHqX4EfikZkAIQ7JDGErujV+GIiLzRPoythUZf8=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cmav"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cmav" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cmav" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cmav" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comunità Montana Alta Valtellina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comunità Montana Alta Valtellina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comunità Montana Alta Valtellina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comunità Montana Alta Valtellina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comunità Montana Alta Valtellina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comunità Montana Alta Valtellina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comunità Montana Alta Valtellina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comunità Montana Alta Valtellina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.cmav.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.cmav.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.cmav.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.cmav.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.selvazzano-dentro.pd.it" ID="pfx1d5213ee-3ed7-31fd-24f8-69fd65312c8b"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx1d5213ee-3ed7-31fd-24f8-69fd65312c8b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Leej6KESbX1OgE/LUjNjoCGGtrgN5Ddj+fNmsU9Lq6M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>x6rY1hoS68nk5X54YzbFvJg33+54IpN8ajGYjpVzVDq5tQMXTmybNrWRGz19oNBY6OmtWy1j8UY07DIvGitRQwiV1hLRm5y+GdNxAAPgZqXAR1vd29aIHMoRdXVPoQaGKTZrnkP2cxrIi+q9q/ZqQAsN/GvyuBSRvzjDIRAujSjwzI10AFPnPZYgTb50C5/NTNkNtjspO2e3bBS/DXE29vkVPdX2WSI0pUshDLnQzCyYR7mOZAbaj/5qaFoTiDX14dUwP/sXYzBcN5BD27esGNXGMvkqACNpOiR2fLw+AlEgwkA+16Tua+4ta9BUK7p78ezhA1q1I0alk5LmhXCXFg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAJTfRDc/g5uXMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEVNlbHZhenphbm8gRGVudHJvMSQwIgYDVQQKDBtDb211bmUgZGkgU2VsdmF6emFubyBEZW50cm8xKzApBgNVBAMMInd3dy5jb211bmUuc2VsdmF6emFuby1kZW50cm8ucGQuaXQwHhcNMTgwNDIzMTAxMTU4WhcNMjgwNDIyMTAxMTU4WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRowGAYDVQQHDBFTZWx2YXp6YW5vIERlbnRybzEkMCIGA1UECgwbQ29tdW5lIGRpIFNlbHZhenphbm8gRGVudHJvMSswKQYDVQQDDCJ3d3cuY29tdW5lLnNlbHZhenphbm8tZGVudHJvLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7SmlV3Ll9JY6wLdwn589K19gDw6IYu+FXSMv066NxwJcw9BCLqDytrZpx21LuIQQ3V4E80V3ITWXV2F5sggX3sNmW+f4Jk+fSWo4nMo1LyhkETEZgp9eRKK9DIc9znWmPAxmXAY/8LMwuAFYDcC1L3pme2C9C8rIHfRIgY5y9lw6xaqXPcI8hjLIkO0FjGNiOnWY0me6N68Y0BtEcsvZ/Yk6yTVplFa/qYz4DsZybIKO4Fwl/dXQeKNC8HOEMaDvWK+HxNfGTOf7US1C3/10Y0vdz0Q2XA9C04UepwPAa0d0ELHYv1Qme764fjRemUT34OQZxFDQa9g7OuX+6WxOrQIDAQABo1AwTjAdBgNVHQ4EFgQUPxtZOvPU6E5lNMIxlJX9XWkC89kwHwYDVR0jBBgwFoAUPxtZOvPU6E5lNMIxlJX9XWkC89kwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAJhS6jz2/dTEyJK5zIzpRJUsr33g0kyX4CraCSabAlOZ9W8f6jCO37eXtFSExIHwT46wcKAMljtZHw0VM7sold+1FxRtMhoMAsEwhY98b+zjEkluPKb2F3//HLJ0N38CdG7eOeTpMx1ROo83aMpVOULvHV9scOUQno9/B3UynGM13a0MTUZIM68gVCjGL1TDqqOyPogVr0dIDdD1R165aeDz6wH+7/4X9agKOSRc64rTuFSzDQC3tOS3a6x9wBtjRLLM4xTf9kenEdjO9GGixgeIlFRzHAq90H82K51CXICqFWH8SCK7SUiFWmFl8jqDn6AVGjRg+yAlZq7A6zztVLQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAJTfRDc/g5uXMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEVNlbHZhenphbm8gRGVudHJvMSQwIgYDVQQKDBtDb211bmUgZGkgU2VsdmF6emFubyBEZW50cm8xKzApBgNVBAMMInd3dy5jb211bmUuc2VsdmF6emFuby1kZW50cm8ucGQuaXQwHhcNMTgwNDIzMTAxMTU4WhcNMjgwNDIyMTAxMTU4WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRowGAYDVQQHDBFTZWx2YXp6YW5vIERlbnRybzEkMCIGA1UECgwbQ29tdW5lIGRpIFNlbHZhenphbm8gRGVudHJvMSswKQYDVQQDDCJ3d3cuY29tdW5lLnNlbHZhenphbm8tZGVudHJvLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7SmlV3Ll9JY6wLdwn589K19gDw6IYu+FXSMv066NxwJcw9BCLqDytrZpx21LuIQQ3V4E80V3ITWXV2F5sggX3sNmW+f4Jk+fSWo4nMo1LyhkETEZgp9eRKK9DIc9znWmPAxmXAY/8LMwuAFYDcC1L3pme2C9C8rIHfRIgY5y9lw6xaqXPcI8hjLIkO0FjGNiOnWY0me6N68Y0BtEcsvZ/Yk6yTVplFa/qYz4DsZybIKO4Fwl/dXQeKNC8HOEMaDvWK+HxNfGTOf7US1C3/10Y0vdz0Q2XA9C04UepwPAa0d0ELHYv1Qme764fjRemUT34OQZxFDQa9g7OuX+6WxOrQIDAQABo1AwTjAdBgNVHQ4EFgQUPxtZOvPU6E5lNMIxlJX9XWkC89kwHwYDVR0jBBgwFoAUPxtZOvPU6E5lNMIxlJX9XWkC89kwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAJhS6jz2/dTEyJK5zIzpRJUsr33g0kyX4CraCSabAlOZ9W8f6jCO37eXtFSExIHwT46wcKAMljtZHw0VM7sold+1FxRtMhoMAsEwhY98b+zjEkluPKb2F3//HLJ0N38CdG7eOeTpMx1ROo83aMpVOULvHV9scOUQno9/B3UynGM13a0MTUZIM68gVCjGL1TDqqOyPogVr0dIDdD1R165aeDz6wH+7/4X9agKOSRc64rTuFSzDQC3tOS3a6x9wBtjRLLM4xTf9kenEdjO9GGixgeIlFRzHAq90H82K51CXICqFWH8SCK7SUiFWmFl8jqDn6AVGjRg+yAlZq7A6zztVLQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAJTfRDc/g5uXMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEVNlbHZhenphbm8gRGVudHJvMSQwIgYDVQQKDBtDb211bmUgZGkgU2VsdmF6emFubyBEZW50cm8xKzApBgNVBAMMInd3dy5jb211bmUuc2VsdmF6emFuby1kZW50cm8ucGQuaXQwHhcNMTgwNDIzMTAxMTU4WhcNMjgwNDIyMTAxMTU4WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRowGAYDVQQHDBFTZWx2YXp6YW5vIERlbnRybzEkMCIGA1UECgwbQ29tdW5lIGRpIFNlbHZhenphbm8gRGVudHJvMSswKQYDVQQDDCJ3d3cuY29tdW5lLnNlbHZhenphbm8tZGVudHJvLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7SmlV3Ll9JY6wLdwn589K19gDw6IYu+FXSMv066NxwJcw9BCLqDytrZpx21LuIQQ3V4E80V3ITWXV2F5sggX3sNmW+f4Jk+fSWo4nMo1LyhkETEZgp9eRKK9DIc9znWmPAxmXAY/8LMwuAFYDcC1L3pme2C9C8rIHfRIgY5y9lw6xaqXPcI8hjLIkO0FjGNiOnWY0me6N68Y0BtEcsvZ/Yk6yTVplFa/qYz4DsZybIKO4Fwl/dXQeKNC8HOEMaDvWK+HxNfGTOf7US1C3/10Y0vdz0Q2XA9C04UepwPAa0d0ELHYv1Qme764fjRemUT34OQZxFDQa9g7OuX+6WxOrQIDAQABo1AwTjAdBgNVHQ4EFgQUPxtZOvPU6E5lNMIxlJX9XWkC89kwHwYDVR0jBBgwFoAUPxtZOvPU6E5lNMIxlJX9XWkC89kwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAJhS6jz2/dTEyJK5zIzpRJUsr33g0kyX4CraCSabAlOZ9W8f6jCO37eXtFSExIHwT46wcKAMljtZHw0VM7sold+1FxRtMhoMAsEwhY98b+zjEkluPKb2F3//HLJ0N38CdG7eOeTpMx1ROo83aMpVOULvHV9scOUQno9/B3UynGM13a0MTUZIM68gVCjGL1TDqqOyPogVr0dIDdD1R165aeDz6wH+7/4X9agKOSRc64rTuFSzDQC3tOS3a6x9wBtjRLLM4xTf9kenEdjO9GGixgeIlFRzHAq90H82K51CXICqFWH8SCK7SUiFWmFl8jqDn6AVGjRg+yAlZq7A6zztVLQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.selvazzano-dentro.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.selvazzano-dentro.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Selvazzano Dentro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Selvazzano Dentro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.selvazzano-dentro.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

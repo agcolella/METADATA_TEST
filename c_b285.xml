@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="https://www.comune.busca.cn.it" ID="id38f2492815fa4927aed728f3a46488b3" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#id38f2492815fa4927aed728f3a46488b3"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>Qi3ESFplKta+aBXdTUTuTg1KcqNuHVlmmgJGFxlhZ/U=</DigestValue></Reference></SignedInfo><SignatureValue>pk/WCokrBWne8qgjnMIxHp+hjmveF1gNzLkQh/3Lii6w0v4ZuyNsmyC9z/TDVAmW3fugD863kqJr+YPcaolJ6+EZhg5IYYY0Y/ku4rJLVl0PVjYQ9pFihcAON9my0N1bvIaUhrDqFtTE1R5ZhYgj22saasE73TAr+RHa95UC3nUi1vl3VLjH+8ehyQL9k52mSpQoP7ZdJlTxRTBHEy6p18aFI9XJaFRcrY9LwtcxfUYLMRWqCTMC+IRnqel4JOILEWl+7SMwCvNlqUedPiiLuIGnijgPAUTFdhwSj6R1yacPyC/wJjSIeWNqGVOlgiFLHmPP8P6ySbrbAN1qUF45TQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIERjCCAy6gAwIBAgIJAIra/QQLreg1MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVDVU5FTzEOMAwGA1UEBwwFQnVzY2ExGDAWBgNVBAoMD0NvbXVuZSBkaSBCdXNjYTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5idXNjYS5jbi5pdDAeFw0xODA3MjQxMDI2MTZaFw0yODA3MjExMDI2MTZaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVDVU5FTzEOMAwGA1UEBwwFQnVzY2ExGDAWBgNVBAoMD0NvbXVuZSBkaSBCdXNjYTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5idXNjYS5jbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMESgmqtN5ROIap8mxm35cEdPCBL1twSGIwKJV7Bfto+53Mx2sOEEJd1iepZaQZuhZxlG7bhqlD5xQWQ5ATo1y8QuNRQ9C0CHvJfC7nxxk3IB2T/YTeEAVkOuOZLn+OXc9fUw99ZsllAAv7QtMsGdbvAxmqXpFopdiljnIOGmhcZLSbr2LnBhxQUyIMZYv1zxfupMEhSlXg6A9z58SyYByHz/wv1z03oWLhQNZdKEpGwk0juQzYd93Cw+MqtYwIGHOMKl9zoORd0Hcg6Rdu4TIS5za9L1WC3jjALADRjezd/Pb3zh89cQqz6Hz/ffLFpqKW4ZfsTlxclvRlh9ililmUCAwEAAaOB8jCB7zAdBgNVHQ4EFgQU1JMtwA7aVdXmGccJGsAQILUNn4cwgZoGA1UdIwSBkjCBj4AU1JMtwA7aVdXmGccJGsAQILUNn4ehbKRqMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVDVU5FTzEOMAwGA1UEBwwFQnVzY2ExGDAWBgNVBAoMD0NvbXVuZSBkaSBCdXNjYTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5idXNjYS5jbi5pdIIJAIra/QQLreg1MA8GA1UdEwEB/wQFMAMBAf8wEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgQwMA0GCSqGSIb3DQEBCwUAA4IBAQBBIM4eZ3zJjdms8mP5BI3T47biJsCir3vCyhvyU1kmUD9w502e8oFEJSxo+wBzsj0d/8Zrl/yb4li2J7UkEU4cGHwdSeHsQzgQGlOCQH921w9+YfOpzlf7mDrAQ7bCjjy/SftZz7awDb2LmVQz81uJ52gnriywr5uP1ISYp5ysQdlEy/5USXDuD/TfGwkIAWhG/G2VAEYKfkn+VPniqEhzm1Y5FNOQDQZ3sZvcSbppG1aFTqx0pCOcyo+BdXa8Vyw8qvEx06p5viTgIV1H25dundhNakMqyYhyWdtFD6l5A1Zu1tlovjagAqlPGOgjuqjISPuibjrN0XVBWZn+9Z7g</X509Certificate></X509Data></KeyInfo></Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDtzCCAp+gAwIBAgIJAJdkBZbu/jhcMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJVEFMSUExDjAMBgNVBAcMBUJVU0NBMRgwFgYDVQQKDA9DT01VTkUgREkgQlVTQ0ExKDAmBgkqhkiG9w0BCQEWGXNlcnZpemlkaWdpdGFsaUBzaXNjb20uZXUwHhcNMjAwMzA5MTY0NTU1WhcNMzAwMzA3MTY0NTU1WjByMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGSVRBTElBMQ4wDAYDVQQHDAVCVVNDQTEYMBYGA1UECgwPQ09NVU5FIERJIEJVU0NBMSgwJgYJKoZIhvcNAQkBFhlzZXJ2aXppZGlnaXRhbGlAc2lzY29tLmV1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwA1HcjL7Pz2PIxohxtrQR/yyxCXNAd5klCa7+oDHwHmKyHH9X8MdKBD8Pwny4AeiGRewKBywU0D3rQkr9LduMY28FUGS0qPN3L0C7K4PBr8mm+tF0epAcR4hHunNP3tVnFq5YvQXx4xBECN4HgyfvHfAAdXuyywAHh3+GqXjkbPRIKhgWJbOIcTKqkIUqisCaYsdqY0xFS2p8Myy3WjlQ1+npCm9ukjdjGIFXabPPH88Ri9ydODgjd+Xb7nX2gIxToJUYpDDQ7CJQ381mkAiHXH75F3fUl1stjNkHEjzwTsjepEs7s1SxHohxvmDDyN5DXHQqNVni2Do1uAkjaaIYQIDAQABo1AwTjAdBgNVHQ4EFgQUS5zJCcH1UazRYmS7fE9UUKNk288wHwYDVR0jBBgwFoAUS5zJCcH1UazRYmS7fE9UUKNk288wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnNktI6eWKsQmOYsCcrJvu1kC9vBz5S5gDFvQI/o2FcymAZWBmaiplV+RZrVdTYLassRz0om9zDiY2IXVf8YCNlPg5vvRpH5P50+Fa67J+L0UkDK/J5Lt4SCx03oHcd6uxNBMl9e3zov3cwSM/8FOq+mQhhR98pX6gpjF7sy7zi6upS/VuBVdd2HxLV23VR57DzUizxdBXqcZYvyHw9Yxo4v8Ull5a655EMinjjOcdmgTVUGBVYrQXLsL7NCjnBW4Qg+FABYVdsVM9H0pnXXCXaxnuu6J3fwuHl5uk5gQyUkV9pKVMWRaiB8uh6i9xNyg8ga0NzDjmGWOSE0Ni/G5LQ==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.servizipubblicaamministrazione.it/servizi/siscloginweb45/Home.aspx?ce=bsc064&amp;spid=1" />
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.servizipubblicaamministrazione.it/servizi/siscloginweb45/Home.aspx?ce=bsc064&amp;spid=1" index="0" isDefault="true" />
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="1" />
+    <AttributeConsumingService index="0">
+      <ServiceName xml:lang="it">Servizi Web</ServiceName>
+      <RequestedAttribute Name="spidCode" />
+      <RequestedAttribute Name="name" />
+      <RequestedAttribute Name="familyName" />
+      <RequestedAttribute Name="fiscalNumber" />
+      <RequestedAttribute Name="dateOfBirth" />
+      <RequestedAttribute Name="mobilePhone" />
+      <RequestedAttribute Name="email" />
+    </AttributeConsumingService>
+    <AttributeConsumingService index="1">
+      <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+      <RequestedAttribute Name="fiscalNumber" />
+      <RequestedAttribute Name="name" />
+      <RequestedAttribute Name="familyName" />
+      <RequestedAttribute Name="spidCode" />
+      <RequestedAttribute Name="email" />
+      <RequestedAttribute Name="digitalAddress" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="it">Comune di Busca</OrganizationName>
+    <OrganizationDisplayName xml:lang="it">Comune di Busca</OrganizationDisplayName>
+    <OrganizationURL xml:lang="it">https://www.comune.busca.cn.it</OrganizationURL>
+  </Organization>
+</EntityDescriptor>

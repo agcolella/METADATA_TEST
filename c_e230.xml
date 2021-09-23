@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxab6adbd2-42c2-d806-d4bd-9bd9298f6705" entityID="https://servizicittadino.tadino.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxab6adbd2-42c2-d806-d4bd-9bd9298f6705">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ANLD45QxISoG4knyjAjdiev9ukq7HYc1Ox52UfkZ6+4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CskBSEFefympXdw5yYBX2KU+8MUGiTchVf00qVVe2bYr2HDrmQnsmGT8qAdVu2XCLsp9EpUACa9G
+4ajC9MTLpenzPj8l1KmBRjfD/8+ZD+D9u3JXdAz+HoFsgVei6n65IcAly+vV5XwDW15VApjtGSWK
+/BeOO4EWRVSVdSuM1lPwUiqfNnYkxXjunQm+vBKQIrjsEJOG4iFUgnLStpohiOdkvePhRjyRPXzw
+YPZX6kdUy65/CXLhYmF/lL14WIUGBJiEAxd8AOmyZHhxVJp/cIgX703viziPf1Jj3q9l6hkOFHGY
+3O9FN2QxObdn+QOiIhQliJwCrfGoc8wMvIiH/w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uQ5rkhMg8tUJWQUbGpfFah0aFiQoZppb1rDlVYf3Ycb8UZRCvYKSthtMSQLckpa6d5d6bT0MAk+1
+ppxW46FPmaullkyv+K7r4kyesPnJIJKdUNYdokLZIrKkbgdI7saaH/qPa9/IH5uJheJ5OHxxMJbh
+R9y4HDuDl9xEME8oHNxQepmF17ijY+dBnzmRtvk+K4BrxVh6IlUKc5IsDZxb+k6V3900JWMNWnXw
+8GPhjLEj0aL620DcIt1pISv7hAJof+iOBM5gg5qvIV9i7o7T5wvuxSJKN9Saga0sKmCbCHTOKlkI
+huz11LiUdKlQiODUF2SySBkxxvm5HbvRy+UXLw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyzCCArOgAwIBAgIJAMZpFLJdu3TFMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNR3VhbGRvIFRhZGlubzEgMB4GA1UECgwXQ29tdW5lIGRp
+IEd1YWxkbyBUYWRpbm8xIzAhBgNVBAMMGnNlcnZpemljaXR0YWRpbm8udGFkaW5vLml0MB4XDTIw
+MDMyNjE1MDEyNFoXDTMwMDMyNjE1MDEyNFowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5
+MRYwFAYDVQQHDA1HdWFsZG8gVGFkaW5vMSAwHgYDVQQKDBdDb211bmUgZGkgR3VhbGRvIFRhZGlu
+bzEjMCEGA1UEAwwac2Vydml6aWNpdHRhZGluby50YWRpbm8uaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC5DmuSEyDy1QlZBRsal8VqHRoWJChmmlvWsOVVh/dhxvxRlEK9gpK2G0xJ
+AtySlrp3l3ptPQwCT7WmnFbjoU+Zq6WWTK/4ruviTJ6w+ckgkp1Q1h2iQtkisqRuB0juxpof+o9r
+38gfm4mF4nk4fHEwluFH3LgcO4OX3EQwTygc3FB6mYXXuKNj50GfOZG2+T4rgGvFWHoiVQpzkiwN
+nFv6TpXf3TQlYw1adfDwY+GMsSPRovrbQNwi3WkhK/uEAmh/6I4EzmCDmq8hX2LujtPnC+7FIko3
+1JqBrSwqYJsIdM4qWQiG7PXUuJR0qVCI4NQXZLJIGTHG+bkdu9HL5RcvAgMBAAGjUDBOMB0GA1Ud
+DgQWBBRY6GeEEC+wdYWmqXbLw4f6yOaopjAfBgNVHSMEGDAWgBRY6GeEEC+wdYWmqXbLw4f6yOao
+pjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQApvR4Q0H0/H2wnoQIpjVNBynZqLFPT
+S4lr0tyRuA2uYVcqzmmUeZHRDgrJfp2Pd/9xKqPVatib1ieXTEVR/utTkWNhDWpHLsSCXJduwWHy
+Va3KLO7I9dldSk/SlhIpnRhOxMunzNbai3SD/Q9O+Tpdc6NrbXdbKGZ0ISP6yl8OaMS3zPkeU6Qa
+6+5DYBOuOEG6YrLrQV2y78ujCRxP7sOGqav7hBmQPk/XZ/z2+61r+rfUn4G6PcuLlyP0f2Q7J6n9
+dLzCPa/bPIqQrFrXKKT+770rXUacPrIRhxEUjXYCi8Q+OjYhOk+4kOKwsPdnmM01zbRNZlYqCg46
+P101k/Rm
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAMZpFLJdu3TFMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNR3VhbGRvIFRhZGlubzEgMB4GA1UECgwXQ29tdW5lIGRpIEd1YWxkbyBUYWRpbm8xIzAhBgNVBAMMGnNlcnZpemljaXR0YWRpbm8udGFkaW5vLml0MB4XDTIwMDMyNjE1MDEyNFoXDTMwMDMyNjE1MDEyNFowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1HdWFsZG8gVGFkaW5vMSAwHgYDVQQKDBdDb211bmUgZGkgR3VhbGRvIFRhZGlubzEjMCEGA1UEAwwac2Vydml6aWNpdHRhZGluby50YWRpbm8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5DmuSEyDy1QlZBRsal8VqHRoWJChmmlvWsOVVh/dhxvxRlEK9gpK2G0xJAtySlrp3l3ptPQwCT7WmnFbjoU+Zq6WWTK/4ruviTJ6w+ckgkp1Q1h2iQtkisqRuB0juxpof+o9r38gfm4mF4nk4fHEwluFH3LgcO4OX3EQwTygc3FB6mYXXuKNj50GfOZG2+T4rgGvFWHoiVQpzkiwNnFv6TpXf3TQlYw1adfDwY+GMsSPRovrbQNwi3WkhK/uEAmh/6I4EzmCDmq8hX2LujtPnC+7FIko31JqBrSwqYJsIdM4qWQiG7PXUuJR0qVCI4NQXZLJIGTHG+bkdu9HL5RcvAgMBAAGjUDBOMB0GA1UdDgQWBBRY6GeEEC+wdYWmqXbLw4f6yOaopjAfBgNVHSMEGDAWgBRY6GeEEC+wdYWmqXbLw4f6yOaopjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQApvR4Q0H0/H2wnoQIpjVNBynZqLFPTS4lr0tyRuA2uYVcqzmmUeZHRDgrJfp2Pd/9xKqPVatib1ieXTEVR/utTkWNhDWpHLsSCXJduwWHyVa3KLO7I9dldSk/SlhIpnRhOxMunzNbai3SD/Q9O+Tpdc6NrbXdbKGZ0ISP6yl8OaMS3zPkeU6Qa6+5DYBOuOEG6YrLrQV2y78ujCRxP7sOGqav7hBmQPk/XZ/z2+61r+rfUn4G6PcuLlyP0f2Q7J6n9dLzCPa/bPIqQrFrXKKT+770rXUacPrIRhxEUjXYCi8Q+OjYhOk+4kOKwsPdnmM01zbRNZlYqCg46P101k/Rm</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAMZpFLJdu3TFMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNR3VhbGRvIFRhZGlubzEgMB4GA1UECgwXQ29tdW5lIGRpIEd1YWxkbyBUYWRpbm8xIzAhBgNVBAMMGnNlcnZpemljaXR0YWRpbm8udGFkaW5vLml0MB4XDTIwMDMyNjE1MDEyNFoXDTMwMDMyNjE1MDEyNFowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1HdWFsZG8gVGFkaW5vMSAwHgYDVQQKDBdDb211bmUgZGkgR3VhbGRvIFRhZGlubzEjMCEGA1UEAwwac2Vydml6aWNpdHRhZGluby50YWRpbm8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5DmuSEyDy1QlZBRsal8VqHRoWJChmmlvWsOVVh/dhxvxRlEK9gpK2G0xJAtySlrp3l3ptPQwCT7WmnFbjoU+Zq6WWTK/4ruviTJ6w+ckgkp1Q1h2iQtkisqRuB0juxpof+o9r38gfm4mF4nk4fHEwluFH3LgcO4OX3EQwTygc3FB6mYXXuKNj50GfOZG2+T4rgGvFWHoiVQpzkiwNnFv6TpXf3TQlYw1adfDwY+GMsSPRovrbQNwi3WkhK/uEAmh/6I4EzmCDmq8hX2LujtPnC+7FIko31JqBrSwqYJsIdM4qWQiG7PXUuJR0qVCI4NQXZLJIGTHG+bkdu9HL5RcvAgMBAAGjUDBOMB0GA1UdDgQWBBRY6GeEEC+wdYWmqXbLw4f6yOaopjAfBgNVHSMEGDAWgBRY6GeEEC+wdYWmqXbLw4f6yOaopjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQApvR4Q0H0/H2wnoQIpjVNBynZqLFPTS4lr0tyRuA2uYVcqzmmUeZHRDgrJfp2Pd/9xKqPVatib1ieXTEVR/utTkWNhDWpHLsSCXJduwWHyVa3KLO7I9dldSk/SlhIpnRhOxMunzNbai3SD/Q9O+Tpdc6NrbXdbKGZ0ISP6yl8OaMS3zPkeU6Qa6+5DYBOuOEG6YrLrQV2y78ujCRxP7sOGqav7hBmQPk/XZ/z2+61r+rfUn4G6PcuLlyP0f2Q7J6n9dLzCPa/bPIqQrFrXKKT+770rXUacPrIRhxEUjXYCi8Q+OjYhOk+4kOKwsPdnmM01zbRNZlYqCg46P101k/Rm</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizicittadino.tadino.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizicittadino.tadino.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gualdo Tadino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gualdo Tadino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://comune.tadino.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Valdisotto" entityID="https://www.comune.valdisotto.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Valdisotto">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FHOq2rDAXNaVnkDnvOWNmhYreD6NayM8pVfYqmJqx/c=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Hb9wpD/cRZ+2RWYO5Z39d3q8JdKrxUz3E1lpJPXAbqQHmHS246IO/mYQTdZpKYIBaqCVHQSagAgw
+yy9GsPAUMKWVCshMNqwwKwWpr8PN0t/2mkl35TNPcDc89bG1Igkc07uM2gOLMHBFIiFXi97cbhvy
+PmTn4ddtdP6gbhFc+bNRdU5CISoWqIplsjawhRjBO71Ah2RusP/eohn1lFiaafrNR+330Fjm8VoE
+/ss3/Him15FvHwHBa9hH9gwSc8bOHvQxoEQ+h7OIGx80xvEzAohmwxb05OHsQVGzcj8h6QNkMaC4
+USR2/3e6XU2d6b4GeWsE+W+/HfLZOwWoc1/5PQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+n9mJEhtV9B/xc7gItFWqrcMNqyFYlur7SNbmET16KfjuTT8EoABCwfKyTzIiv0vtpEFAurxEWxGc
+VDqGwmsgXb4bMwgNB6WXunQ9yxApW/SelG9R4r4rqqdxr6Wy7B0eqsdFrXTE8wwrmRvAfS/pQLAT
+OMiZS2YeI2sCsEcX0UmbDsEuTMliiRuTKqLZ0VzNepve34Rv6QQKiUB8DoYfjkBaxwGuOmaiiSvl
+ZpcWyzfQJXUzNN288RbQGh1CXa8ZSR8c15L9S35XEHkKr/AUJvssJcuEiohUcf/6xies+a4Lz6u5
+VtsyfuMFfmW27Y+9KwYhYdHmzZA40trpaHAJ2Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVzCCAj+gAwIBAgIJAJ7A+h+2TvrUMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5j
+b211bmUudmFsZGlzb3R0by5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgw
+ODIyMDcwMzA2WhcNMjgwODE5MDcwMzA2WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnZhbGRpc290
+dG8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAn9mJEhtV9B/xc7gItFWqrcMNqyFYlur7SNbmET16KfjuTT8EoABCwfKyTzIi
+v0vtpEFAurxEWxGcVDqGwmsgXb4bMwgNB6WXunQ9yxApW/SelG9R4r4rqqdxr6Wy7B0eqsdFrXTE
+8wwrmRvAfS/pQLATOMiZS2YeI2sCsEcX0UmbDsEuTMliiRuTKqLZ0VzNepve34Rv6QQKiUB8DoYf
+jkBaxwGuOmaiiSvlZpcWyzfQJXUzNN288RbQGh1CXa8ZSR8c15L9S35XEHkKr/AUJvssJcuEiohU
+cf/6xies+a4Lz6u5VtsyfuMFfmW27Y+9KwYhYdHmzZA40trpaHAJ2QIDAQABo1AwTjAdBgNVHQ4E
+FgQUGhToRb8Q3P39NVYPloOLfpFnYkEwHwYDVR0jBBgwFoAUGhToRb8Q3P39NVYPloOLfpFnYkEw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjgXYOMJ8F3V7KKPErbObsnD/wq8vWV6b
+rLpLWkCQ6688W/1qf4RxPo8aKpNVB4Ec1/4PSBiMjTMpJIZrKWrM7ZccDVRgcGGei40xzlZ6QPI2
+kROPUKtosX8VfCbn1Y5shAirSpKI4vWUuTjo3N6YFX46KuuG1zh9LpwXxJ/K1VzYw6tzYLFkEktj
+RI9Fw8uA2kcHTTJ7WntglFoxjPAvGjvdTxNh41DPcOVMg3L9jFcjQXbP4p5zKli/GOPrmn4sJVLd
+yKT6jPX/ceJAlyIFbQjjn04xah9AuTEZGzhf8kmqznF5UVG8IkFB6E3cyI8OwVVaIMXvjmNKdImL
+ufuL+g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAJ7A+h+2TvrUMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUudmFsZGlzb3R0by5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODIyMDcwMzA2WhcNMjgwODE5MDcwMzA2WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnZhbGRpc290dG8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn9mJEhtV9B/xc7gItFWqrcMNqyFYlur7SNbmET16KfjuTT8EoABCwfKyTzIiv0vtpEFAurxEWxGcVDqGwmsgXb4bMwgNB6WXunQ9yxApW/SelG9R4r4rqqdxr6Wy7B0eqsdFrXTE8wwrmRvAfS/pQLATOMiZS2YeI2sCsEcX0UmbDsEuTMliiRuTKqLZ0VzNepve34Rv6QQKiUB8DoYfjkBaxwGuOmaiiSvlZpcWyzfQJXUzNN288RbQGh1CXa8ZSR8c15L9S35XEHkKr/AUJvssJcuEiohUcf/6xies+a4Lz6u5VtsyfuMFfmW27Y+9KwYhYdHmzZA40trpaHAJ2QIDAQABo1AwTjAdBgNVHQ4EFgQUGhToRb8Q3P39NVYPloOLfpFnYkEwHwYDVR0jBBgwFoAUGhToRb8Q3P39NVYPloOLfpFnYkEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjgXYOMJ8F3V7KKPErbObsnD/wq8vWV6brLpLWkCQ6688W/1qf4RxPo8aKpNVB4Ec1/4PSBiMjTMpJIZrKWrM7ZccDVRgcGGei40xzlZ6QPI2kROPUKtosX8VfCbn1Y5shAirSpKI4vWUuTjo3N6YFX46KuuG1zh9LpwXxJ/K1VzYw6tzYLFkEktjRI9Fw8uA2kcHTTJ7WntglFoxjPAvGjvdTxNh41DPcOVMg3L9jFcjQXbP4p5zKli/GOPrmn4sJVLdyKT6jPX/ceJAlyIFbQjjn04xah9AuTEZGzhf8kmqznF5UVG8IkFB6E3cyI8OwVVaIMXvjmNKdImLufuL+g==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAJ7A+h+2TvrUMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUudmFsZGlzb3R0by5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODIyMDcwMzA2WhcNMjgwODE5MDcwMzA2WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnZhbGRpc290dG8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn9mJEhtV9B/xc7gItFWqrcMNqyFYlur7SNbmET16KfjuTT8EoABCwfKyTzIiv0vtpEFAurxEWxGcVDqGwmsgXb4bMwgNB6WXunQ9yxApW/SelG9R4r4rqqdxr6Wy7B0eqsdFrXTE8wwrmRvAfS/pQLATOMiZS2YeI2sCsEcX0UmbDsEuTMliiRuTKqLZ0VzNepve34Rv6QQKiUB8DoYfjkBaxwGuOmaiiSvlZpcWyzfQJXUzNN288RbQGh1CXa8ZSR8c15L9S35XEHkKr/AUJvssJcuEiohUcf/6xies+a4Lz6u5VtsyfuMFfmW27Y+9KwYhYdHmzZA40trpaHAJ2QIDAQABo1AwTjAdBgNVHQ4EFgQUGhToRb8Q3P39NVYPloOLfpFnYkEwHwYDVR0jBBgwFoAUGhToRb8Q3P39NVYPloOLfpFnYkEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjgXYOMJ8F3V7KKPErbObsnD/wq8vWV6brLpLWkCQ6688W/1qf4RxPo8aKpNVB4Ec1/4PSBiMjTMpJIZrKWrM7ZccDVRgcGGei40xzlZ6QPI2kROPUKtosX8VfCbn1Y5shAirSpKI4vWUuTjo3N6YFX46KuuG1zh9LpwXxJ/K1VzYw6tzYLFkEktjRI9Fw8uA2kcHTTJ7WntglFoxjPAvGjvdTxNh41DPcOVMg3L9jFcjQXbP4p5zKli/GOPrmn4sJVLdyKT6jPX/ceJAlyIFbQjjn04xah9AuTEZGzhf8kmqznF5UVG8IkFB6E3cyI8OwVVaIMXvjmNKdImLufuL+g==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/valdisotto"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdisotto" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdisotto" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valdisotto" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Valdisotto</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Valdisotto</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Valdisotto</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Valdisotto</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Valdisotto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Valdisotto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Valdisotto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Valdisotto</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.valdisotto.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.valdisotto.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.valdisotto.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.valdisotto.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

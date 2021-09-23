@@ -1,0 +1,90 @@
+<md0:EntityDescriptor xmlns:md0="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.uniroma1.it">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference>
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>PsCJ2O9JQJj9mP4PmVTKp4AhfnnvBe6LZaB4F8kESaA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>LCOHE1MGZW10B/36WissgoVFzw/g0oXo7ylPxT44v+gctTNwx5ay2TnF7uVupA2N
+KpepvDCke5jwEtrOsN17I0aIIBy2YTrvWhtjHnEzuLWtX2Y7uSS+BNiKmYzPrci8
+PahQKSkfI+yzYEhU/ttyhBVYIiCBeyv0Giaa0BSLidJ9RFCUhiE0wusVY57N4h7Q
+0WQ5pPPFU9D5KjJDyvbImZNeelE62tVr6BHv+4Z8i+oQjiKoLvasVOe8sfJneUYG
+HYgOw+vcq00pTv45A3QNXxowAkinSwiMaSP5X/MdTCjcFgYIOCok4+MhjIpG0U8W
+u9SwYEzoFcIFEoSl7Nee2w==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIGyTCCBbGgAwIBAgIQBlXfxGWdWugKtmTo30BatjANBgkqhkiG9w0BAQ0FADBk
+MQswCQYDVQQGEwJOTDEWMBQGA1UECBMNTm9vcmQtSG9sbGFuZDESMBAGA1UEBxMJ
+QW1zdGVyZGFtMQ8wDQYDVQQKEwZURVJFTkExGDAWBgNVBAMTD1RFUkVOQSBTU0wg
+Q0EgMzAeFw0xOTA3MDQwMDAwMDBaFw0yMTA4MjcxMjAwMDBaMIGLMQswCQYDVQQG
+EwJJVDENMAsGA1UEBxMEUm9tYTE2MDQGA1UECgwtVW5pdmVyc2l0w6AgZGVnbGkg
+c3R1ZGkgZGkgUm9tYSAiTGEgU2FwaWVuemEiMRowGAYDVQQLExFBcmVhIEluZm9T
+YXBpZW56YTEZMBcGA1UEAxMQc3BpZC51bmlyb21hMS5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBALIyih0XIHICCx8+pfA8cTy8tVUbdeu1rcGCOe4F
+RoiVCkGGUZyA66qZjcK6g/Y+E24UFip6L6B/FQB3LIjvBEe20MUsF2CWxu5pDsEa
+y+FNlFWXFPpLRgHHKGQZY8457qUomj0u/VgqhxkWhoCDF5NISvvlY93Lo7TooQfH
+Dde47d/ON1j7TsNmnKNMrJRsYb1twhqGFzmWhFAuXXYSSRBIBpFhVZREQ3IqzKt3
+QtXrti1NCfw/GVrr8p9gsd7GXeXpGpR/ikFp9xKSEyOO1ZHqC28Kw/o4nSjYyBnD
+Bb0lHLY6bqEzbRv0e/OoFj1ckeqMURGneGItg2YSGo+lo3ECAwEAAaOCA00wggNJ
+MB8GA1UdIwQYMBaAFGf9iCAUJ5jHCdIlGbvpURFjdVBiMB0GA1UdDgQWBBQk6/6J
+23szcKgytb3Q/EGHVB4LXDAbBgNVHREEFDASghBzcGlkLnVuaXJvbWExLml0MA4G
+A1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwawYD
+VR0fBGQwYjAvoC2gK4YpaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL1RFUkVOQVNT
+TENBMy5jcmwwL6AtoCuGKWh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9URVJFTkFT
+U0xDQTMuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEW
+HGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQICMG4GCCsGAQUF
+BwEBBGIwYDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMDgG
+CCsGAQUFBzAChixodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vVEVSRU5BU1NM
+Q0EzLmNydDAMBgNVHRMBAf8EAjAAMIIBgAYKKwYBBAHWeQIEAgSCAXAEggFsAWoA
+dgCkuQmQtBhYFIe7E6LMZ3AKPDWYBPkb37jjd80OyA3cEAAAAWu8f9XoAAAEAwBH
+MEUCIQC/5gGDfqPnAefqaghLTJApz/ytT6iypZlFdBmWrJ1uiwIgD0rJhusgqRbH
+I2tUsTlTanTWX0Qx/oajeV62eJwlR1sAdwCHdb/nWXz4jEOZX73zbv9WjUdWNv9K
+tWDBtOr/XqCDDwAAAWu8f9H/AAAEAwBIMEYCIQCwC2Dy+6jb352zGYkfVu5xFHU2
+UoHszwrzsV8T0Ez38gIhAMTPnzpBHwzWCAkvkZFKB9CNkwFP3epfrFVsd0ZE5ZvL
+AHcARJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFrvH/RCAAABAMA
+SDBGAiEAkGvlzRnhhvI/ktJlxmTrN/vUAoreoV1dI36FZsq0EmICIQDhncS0rx8+
+swr6FDPXPCLf/2A2CxY9WjmXLl1lQlpvfTANBgkqhkiG9w0BAQ0FAAOCAQEAbPQf
+Tlc+UnG3pTzV2SYMxoEK9aaCoxJWRIZJ2bvG97TyizyyMC5EWwTNF+am13jc6aMi
+9P7A1zvcmICc/r1Ty2dv7vz50rLtwJEb7pcs/QjiacPWofGbruKty3kKmgFIwIJ8
+RXq+VltsC7P9O531cP6Z+v1ZTtpjOEfljItJ2RafquNBesPqCR0SdIMgxjv9QqFe
+iTU2PjWZPsq8LsrIexLUOV+83TvvkSGD4Ikibs4ogf1G2mnuzj3Uj2e04S+mOkm0
+cGkPAEohFHOepYWazp9cgH2eKLlyr1pTQTiDYd/JJyaslQpXZIS0YmQTNMX1Tg3J
+XsJ/mcse7dQ4FyjKcw==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md0:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md0:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md0:KeyDescriptor><md0:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md0:KeyDescriptor><md0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma1.it/ssosignout"/>
+        <md0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md0:NameIDFormat>
+        <md0:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma1.it/api/consume" index="0" isDefault="true"/>
+        <md0:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma1.it/api/consume" index="1"/><md0:AttributeConsumingService index="0">
+            <md0:ServiceName xml:lang="it">Infostud-login</md0:ServiceName>
+            <md0:ServiceDescription xml:lang="it">Infostud Login</md0:ServiceDescription>
+            <md0:RequestedAttribute FriendlyName="Cognome" Name="familyName" isRequired="true"/>
+            <md0:RequestedAttribute FriendlyName="Nome" Name="name" isRequired="true"/>
+            <md0:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber" isRequired="true"/>
+            <md0:RequestedAttribute FriendlyName="Sesso" Name="gender" isRequired="true"/>
+            <md0:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" isRequired="true"/>
+            <md0:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" isRequired="true"/>
+        </md0:AttributeConsumingService>
+    <md0:AttributeConsumingService index="1"><md0:ServiceName xml:lang="it">Infostud-reg</md0:ServiceName><md0:ServiceDescription xml:lang="it">Infostud Registrazione</md0:ServiceDescription><md0:RequestedAttribute FriendlyName="Cognome" Name="familyName" isRequired="true"/><md0:RequestedAttribute FriendlyName="Nome" Name="name" isRequired="true"/><md0:RequestedAttribute FriendlyName="Codice identificativo" Name="spidCode" isRequired="true"/><md0:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" isRequired="true"/><md0:RequestedAttribute FriendlyName="Sesso" Name="gender" isRequired="true"/><md0:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" isRequired="true"/><md0:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" isRequired="true"/><md0:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth" isRequired="true"/><md0:RequestedAttribute FriendlyName="Documento d'identit&#224;" Name="idCard" isRequired="true"/><md0:RequestedAttribute FriendlyName="Domicilio fisico" Name="address" isRequired="false"/><md0:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress" isRequired="false"/><md0:RequestedAttribute FriendlyName="Data di scadenza identit&#224;" Name="expirationDate" isRequired="false"/><md0:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" isRequired="false"/><md0:RequestedAttribute FriendlyName="Numero di telefono mobile" Name="mobilePhone" isRequired="false"/></md0:AttributeConsumingService></md0:SPSSODescriptor>
+    <md0:Organization>
+        <md0:OrganizationName xml:lang="it">Sapienza Universit&#224; di Roma</md0:OrganizationName>
+        <md0:OrganizationDisplayName xml:lang="it">Universit&#224; degli Studi di Roma "La Sapienza"</md0:OrganizationDisplayName>
+        <md0:OrganizationURL xml:lang="it">https://www.uniroma1.it</md0:OrganizationURL>
+    </md0:Organization>
+    <md0:ContactPerson contactType="support">
+        <md0:GivenName>InfoSapienza</md0:GivenName>
+        <md0:EmailAddress>infostud@uniroma1.it</md0:EmailAddress>
+    </md0:ContactPerson>
+    <md0:ContactPerson contactType="technical">
+        <md0:GivenName>InfoSapienza</md0:GivenName>
+        <md0:EmailAddress>infostud@uniroma1.it</md0:EmailAddress>
+    </md0:ContactPerson>
+</md0:EntityDescriptor>

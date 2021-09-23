@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Alghero" entityID="https://www.comune.alghero.ss.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Alghero">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>9Q/OV64zoAnte6rZSNWyhAR5HRozKC5cfnx0lud/9FA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+o9B5F04n7XC16oRfmkuosTzXow0PUJQfvC7GZBxkwT9xxI/zubHIj8y1KcleiDdyqSxj5KZWAgR1
+wg4qPMpLZht+lDvqrWWazZiAJ30XOtppG5AVp5oP9ifOGCEkTErYyVs62HkxIfIHOeuCakuB2leS
+9HOvvqLADRyVsjcOlnGFZyNz9GNImf8PAxBnNK5Ze1trSbAnZc6gr4/IZxdBEXg4rfqgQXuppImE
+5YCW4Ky3EgUj96QaTbO7fzfPwv0Un6Svn0f3lzWlbxeTo1z0Jzls3Ao3j814uiMf9BJblv9wQxtJ
+nJv8pBR3JU8FyKfvCY6buvpJEzHFmz2iq5eItg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xEUjE04isskC2yQfmmeqEk9kXbrNu+vK5lUjDisbWr5bytUjsu5NXW5Q8ggr6K24/sUfH70Sxzzc
+fhGn7+fprj/V9ZDiAqlSChNPZiOpFtiw8PHPpQyxJcgo5etKJoFRA9M0KjgBpr0kRid7hfncWFqA
+4UyH/3qj4Tnq2w5fw0c1XNFsE+CbcCuqVP9axPeonB7uvVQ57biLzyFvnGfegj3wA/ShGY72+bmK
+d0cvFfl8TLP7LF7KTvD8jYU4zqOj2CCP/NHvxwnnNkzxbG7StGLaAPND4siydw19WVThXK3xMkKh
+pl9RmxH+nkBb4PvT0D/YReisQI6V48/w0xnsmw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJALPxonBRFxv0MA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuYWxnaGVyby5zcy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMDEx
+MTIxMTA2WhcNMjkxMDA4MTIxMTA2WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsZ2hlcm8uc3Mu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAxEUjE04isskC2yQfmmeqEk9kXbrNu+vK5lUjDisbWr5bytUjsu5NXW5Q8ggr6K24/sUf
+H70SxzzcfhGn7+fprj/V9ZDiAqlSChNPZiOpFtiw8PHPpQyxJcgo5etKJoFRA9M0KjgBpr0kRid7
+hfncWFqA4UyH/3qj4Tnq2w5fw0c1XNFsE+CbcCuqVP9axPeonB7uvVQ57biLzyFvnGfegj3wA/Sh
+GY72+bmKd0cvFfl8TLP7LF7KTvD8jYU4zqOj2CCP/NHvxwnnNkzxbG7StGLaAPND4siydw19WVTh
+XK3xMkKhpl9RmxH+nkBb4PvT0D/YReisQI6V48/w0xnsmwIDAQABo1AwTjAdBgNVHQ4EFgQULR+T
+cZhxBIYPXV1TbqekpDil0QUwHwYDVR0jBBgwFoAULR+TcZhxBIYPXV1TbqekpDil0QUwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAf8ptEwlp5IPrz5dQW6t7miBuKfoY43B/xFdzgu+0
++e3rbxLC+53A6MJwSZM42tbeAOHtNyuBGDzZjtKouHAhZurpbQJT+S4nnbmYetB6AmegPgXRsJy9
+5Lkom/JgpGr/3AEuk55uFVyiG89a9NrMnQ4K7TCPndTi2E5NN2DeGpc2DteHnEz4OC2ENearVN5C
+HW1gf5YHdYyUQBUyRco4LHYE28+LBg2YvpHN2o1dWhPaSU095kApv21g1XbqxHvmqimaMYfBw70x
+rprFG3z6TT9TDgvZFrNCVaPiz/h55kyfWF1rP+cUfX/ia68wQHhLiNONMfylp9XYrBjPKP8upA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALPxonBRFxv0MA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuYWxnaGVyby5zcy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMDExMTIxMTA2WhcNMjkxMDA4MTIxMTA2WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsZ2hlcm8uc3MuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxEUjE04isskC2yQfmmeqEk9kXbrNu+vK5lUjDisbWr5bytUjsu5NXW5Q8ggr6K24/sUfH70SxzzcfhGn7+fprj/V9ZDiAqlSChNPZiOpFtiw8PHPpQyxJcgo5etKJoFRA9M0KjgBpr0kRid7hfncWFqA4UyH/3qj4Tnq2w5fw0c1XNFsE+CbcCuqVP9axPeonB7uvVQ57biLzyFvnGfegj3wA/ShGY72+bmKd0cvFfl8TLP7LF7KTvD8jYU4zqOj2CCP/NHvxwnnNkzxbG7StGLaAPND4siydw19WVThXK3xMkKhpl9RmxH+nkBb4PvT0D/YReisQI6V48/w0xnsmwIDAQABo1AwTjAdBgNVHQ4EFgQULR+TcZhxBIYPXV1TbqekpDil0QUwHwYDVR0jBBgwFoAULR+TcZhxBIYPXV1TbqekpDil0QUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAf8ptEwlp5IPrz5dQW6t7miBuKfoY43B/xFdzgu+0+e3rbxLC+53A6MJwSZM42tbeAOHtNyuBGDzZjtKouHAhZurpbQJT+S4nnbmYetB6AmegPgXRsJy95Lkom/JgpGr/3AEuk55uFVyiG89a9NrMnQ4K7TCPndTi2E5NN2DeGpc2DteHnEz4OC2ENearVN5CHW1gf5YHdYyUQBUyRco4LHYE28+LBg2YvpHN2o1dWhPaSU095kApv21g1XbqxHvmqimaMYfBw70xrprFG3z6TT9TDgvZFrNCVaPiz/h55kyfWF1rP+cUfX/ia68wQHhLiNONMfylp9XYrBjPKP8upA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALPxonBRFxv0MA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuYWxnaGVyby5zcy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMDExMTIxMTA2WhcNMjkxMDA4MTIxMTA2WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsZ2hlcm8uc3MuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxEUjE04isskC2yQfmmeqEk9kXbrNu+vK5lUjDisbWr5bytUjsu5NXW5Q8ggr6K24/sUfH70SxzzcfhGn7+fprj/V9ZDiAqlSChNPZiOpFtiw8PHPpQyxJcgo5etKJoFRA9M0KjgBpr0kRid7hfncWFqA4UyH/3qj4Tnq2w5fw0c1XNFsE+CbcCuqVP9axPeonB7uvVQ57biLzyFvnGfegj3wA/ShGY72+bmKd0cvFfl8TLP7LF7KTvD8jYU4zqOj2CCP/NHvxwnnNkzxbG7StGLaAPND4siydw19WVThXK3xMkKhpl9RmxH+nkBb4PvT0D/YReisQI6V48/w0xnsmwIDAQABo1AwTjAdBgNVHQ4EFgQULR+TcZhxBIYPXV1TbqekpDil0QUwHwYDVR0jBBgwFoAULR+TcZhxBIYPXV1TbqekpDil0QUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAf8ptEwlp5IPrz5dQW6t7miBuKfoY43B/xFdzgu+0+e3rbxLC+53A6MJwSZM42tbeAOHtNyuBGDzZjtKouHAhZurpbQJT+S4nnbmYetB6AmegPgXRsJy95Lkom/JgpGr/3AEuk55uFVyiG89a9NrMnQ4K7TCPndTi2E5NN2DeGpc2DteHnEz4OC2ENearVN5CHW1gf5YHdYyUQBUyRco4LHYE28+LBg2YvpHN2o1dWhPaSU095kApv21g1XbqxHvmqimaMYfBw70xrprFG3z6TT9TDgvZFrNCVaPiz/h55kyfWF1rP+cUfX/ia68wQHhLiNONMfylp9XYrBjPKP8upA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/alghero"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alghero" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alghero" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alghero" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Alghero</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Alghero</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Alghero</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Alghero</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Alghero</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Alghero</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Alghero</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Alghero</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.alghero.ss.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.alghero.ss.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.alghero.ss.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.alghero.ss.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

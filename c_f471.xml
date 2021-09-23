@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Montichiari" entityID="https://www.comune.montichiari.bs.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Montichiari">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>bNqvOjPwFv4S8oEOF41EbaoFF7v57AzU9y+xxOeVezw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+h9augJe299CJrazG1xhZ1lbdyNjdp+wgAddu+N1RIctg85FFLiAg507GBU6vkNsD+at9ZJxyGMuA
+jvCLLKtlTU75o3180WYgmMz7mBk1he8CXjKkkGiEBEux07Uy2XluTvWuuPc0M/cmwszyJidO7LJb
+sqEL7EKOFLVXD2im2acQ9V7Ar0I9eLTO1gyfjWYx+bsuOKSn0VBI4J3eJfaH8G2ofDumQuSNhV/q
+0sdjgcNemAq9t42yzJPjmOxHZTvDPp4MIlOlWxW3cXufXU+cVFRU+dm1fdJiX8QSflOi7OkeSM+Q
+Smrpf8D3zmVOzRAM35XUr+cnts1EUAczGBdEPQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5JFMInpnbDfoNWTGef8yxToH7dT0J0JaCsdYdTZmIDHI6xLb39yv60HF5SJgsPuJZLI1NdnPr0Y+
+iSerYLv81t//soGhKNKlyC7i2iKIye/LTOxGQpy+Yui3M9ndpzNa2/rMzT4vp3qwW7xK0yKqwXQk
+tadqj+EB8V8YwFF7W1t5v1zaxle67I2QC3EhS4jHhrZBStA3CEQJ53qHi1oWG5LVKsvp6qFb/CLx
+qE1l+q1P0dFCFmui0+S/6F2nPjm/lLiMKpZXOo9Kfd7AJ3dKiyb+VQNcAzYqpgu46OORTv4OT6gU
+7B2P08MNCtqhSA0gr8t/O3bbMaHWEcHlEx1HPQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAIsKl19/xkMqMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUubW9udGljaGlhcmkuYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5
+MDkwNDA4MjUwMloXDTI5MDkwMTA4MjUwMlowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5tb250aWNo
+aWFyaS5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDkkUwiemdsN+g1ZMZ5/zLFOgft1PQnQloKx1h1NmYgMcjrEtvf3K/rQcXl
+ImCw+4lksjU12c+vRj6JJ6tgu/zW3/+ygaEo0qXILuLaIojJ78tM7EZCnL5i6Lcz2d2nM1rb+szN
+Pi+nerBbvErTIqrBdCS1p2qP4QHxXxjAUXtbW3m/XNrGV7rsjZALcSFLiMeGtkFK0DcIRAnneoeL
+WhYbktUqy+nqoVv8IvGoTWX6rU/R0UIWa6LT5L/oXac+Ob+UuIwqllc6j0p93sAnd0qLJv5VA1wD
+NiqmC7jo45FO/g5PqBTsHY/Tww0K2qFIDSCvy387dtsxodYRweUTHUc9AgMBAAGjUDBOMB0GA1Ud
+DgQWBBTvkWqHvWyX0be4HWvulGcYBXT3iDAfBgNVHSMEGDAWgBTvkWqHvWyX0be4HWvulGcYBXT3
+iDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuuzB6t8cbc3AoOFdiCUqTuivYSwiN
+bl9hXHfiEd5/f6V84UKXOiRUGVnSk3vo8ywPMUpnJ/zt6NuxOKwxwtrRdjL/ytzq6NjA3HqMyXyD
+UL8Q3OEKQJZ2Qrk4K1LLBY4XVEsHTNJCJGUMRFjpp0oiMxuEBWZzQLqrNNVy+iQmey5GmaSWRxtk
+p31THbWyamDmovsX5gt/uj31gbLA2utMcz5FJeg6OvxwOP3oQnk1feVoQ7IxfSm6qpDuucFd7gmo
+/Nfzsifl9aaZ2/W00w4U6gB9CDq4caPBiFQOTbaU/UkpALvKiyPRG/4F0qScXMtsEJS4hLTGIAO5
+m1IGrrX8
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAIsKl19/xkMqMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGljaGlhcmkuYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDkwNDA4MjUwMloXDTI5MDkwMTA4MjUwMlowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5tb250aWNoaWFyaS5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkkUwiemdsN+g1ZMZ5/zLFOgft1PQnQloKx1h1NmYgMcjrEtvf3K/rQcXlImCw+4lksjU12c+vRj6JJ6tgu/zW3/+ygaEo0qXILuLaIojJ78tM7EZCnL5i6Lcz2d2nM1rb+szNPi+nerBbvErTIqrBdCS1p2qP4QHxXxjAUXtbW3m/XNrGV7rsjZALcSFLiMeGtkFK0DcIRAnneoeLWhYbktUqy+nqoVv8IvGoTWX6rU/R0UIWa6LT5L/oXac+Ob+UuIwqllc6j0p93sAnd0qLJv5VA1wDNiqmC7jo45FO/g5PqBTsHY/Tww0K2qFIDSCvy387dtsxodYRweUTHUc9AgMBAAGjUDBOMB0GA1UdDgQWBBTvkWqHvWyX0be4HWvulGcYBXT3iDAfBgNVHSMEGDAWgBTvkWqHvWyX0be4HWvulGcYBXT3iDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuuzB6t8cbc3AoOFdiCUqTuivYSwiNbl9hXHfiEd5/f6V84UKXOiRUGVnSk3vo8ywPMUpnJ/zt6NuxOKwxwtrRdjL/ytzq6NjA3HqMyXyDUL8Q3OEKQJZ2Qrk4K1LLBY4XVEsHTNJCJGUMRFjpp0oiMxuEBWZzQLqrNNVy+iQmey5GmaSWRxtkp31THbWyamDmovsX5gt/uj31gbLA2utMcz5FJeg6OvxwOP3oQnk1feVoQ7IxfSm6qpDuucFd7gmo/Nfzsifl9aaZ2/W00w4U6gB9CDq4caPBiFQOTbaU/UkpALvKiyPRG/4F0qScXMtsEJS4hLTGIAO5m1IGrrX8
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAIsKl19/xkMqMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUubW9udGljaGlhcmkuYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDkwNDA4MjUwMloXDTI5MDkwMTA4MjUwMlowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5tb250aWNoaWFyaS5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkkUwiemdsN+g1ZMZ5/zLFOgft1PQnQloKx1h1NmYgMcjrEtvf3K/rQcXlImCw+4lksjU12c+vRj6JJ6tgu/zW3/+ygaEo0qXILuLaIojJ78tM7EZCnL5i6Lcz2d2nM1rb+szNPi+nerBbvErTIqrBdCS1p2qP4QHxXxjAUXtbW3m/XNrGV7rsjZALcSFLiMeGtkFK0DcIRAnneoeLWhYbktUqy+nqoVv8IvGoTWX6rU/R0UIWa6LT5L/oXac+Ob+UuIwqllc6j0p93sAnd0qLJv5VA1wDNiqmC7jo45FO/g5PqBTsHY/Tww0K2qFIDSCvy387dtsxodYRweUTHUc9AgMBAAGjUDBOMB0GA1UdDgQWBBTvkWqHvWyX0be4HWvulGcYBXT3iDAfBgNVHSMEGDAWgBTvkWqHvWyX0be4HWvulGcYBXT3iDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCuuzB6t8cbc3AoOFdiCUqTuivYSwiNbl9hXHfiEd5/f6V84UKXOiRUGVnSk3vo8ywPMUpnJ/zt6NuxOKwxwtrRdjL/ytzq6NjA3HqMyXyDUL8Q3OEKQJZ2Qrk4K1LLBY4XVEsHTNJCJGUMRFjpp0oiMxuEBWZzQLqrNNVy+iQmey5GmaSWRxtkp31THbWyamDmovsX5gt/uj31gbLA2utMcz5FJeg6OvxwOP3oQnk1feVoQ7IxfSm6qpDuucFd7gmo/Nfzsifl9aaZ2/W00w4U6gB9CDq4caPBiFQOTbaU/UkpALvKiyPRG/4F0qScXMtsEJS4hLTGIAO5m1IGrrX8
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montichiari"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montichiari" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montichiari" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montichiari" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune Di Montichiari</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune Di Montichiari</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune Di Montichiari</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune Di Montichiari</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune Di Montichiari</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune Di Montichiari</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune Di Montichiari</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune Di Montichiari</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.montichiari.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.montichiari.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.montichiari.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.montichiari.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,90 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="s503e94b07bbbeec5174820058218b11661f88524" entityID="https://identificazione.055055.it:443/lineacomune-spid">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#s503e94b07bbbeec5174820058218b11661f88524">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tmjM9pQM/MRUTMNYZe0GYjux8rQlO4VIdAOtwB8I+hg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+breoWwIaAofPthOWsapzbXTB9gr9CYzXoGI6+Z/tdmZpTtlT+wdVGlC8MgHobniyt5nAOieCBHUn
+3kmufNGrTYaxRW7xHy1Km10X3QJ8fVrAmA+H6KqLZ6LBkQ/cRIAlgD3bUPy33x9TgLdyt4L4c78H
+XXg1vYhwoY8dzxfSKGM=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIICaTCCAdKgAwIBAgIEVNvxfjANBgkqhkiG9w0BAQUFADB5MQswCQYDVQQGEwJJVDEOMAwGA1UE
+CBMFSXRhbHkxETAPBgNVBAcTCEZsb3JlbmNlMRUwEwYDVQQKEwxMaW5lYSBDb211bmUxFTATBgNV
+BAsTDExpbmVhIENvbXVuZTEZMBcGA1UEAxMQbGluZWFjb211bmUtc3BpZDAeFw0xNTAyMTIwMDE5
+MTBaFw0yNTAyMDkwMDE5MTBaMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTERMA8GA1UE
+BxMIRmxvcmVuY2UxFTATBgNVBAoTDExpbmVhIENvbXVuZTEVMBMGA1UECxMMTGluZWEgQ29tdW5l
+MRkwFwYDVQQDExBsaW5lYWNvbXVuZS1zcGlkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr
+3I7QoKSAz8CwR168i0n6+ASdNHVSd58jQSfSzABjpxPW0so/a2g1D8Updliybt7twWKDvSn8eXAo
+f50axTNEz/AYOeQaQPi+bsJAg4sOpOofQCpAX/qWYATTDUqBXaMflqbkf/X9hNIOton5ZytrcZrW
+HE8B2SArxsCg+ZWdBwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAF3QEyiVlthgfaZJZLef5BLHKH5T
+dFRIZr5otNfTv89rR9STlN5N4/zSRgqYnD1JoecBN+M83RayYDqygxUbln6wgghIhcgPfXbLpPxC
+UyV3pTiImFtP/bjruPyVh1YNsgcecO8YdDu8EAVL5wS1mm1xS/Jq7QZdNQP9fRDNlWSS
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIICaTCCAdKgAwIBAgIEVNvxfjANBgkqhkiG9w0BAQUFADB5MQswCQYDVQQGEwJJVDEOMAwGA1UE
+CBMFSXRhbHkxETAPBgNVBAcTCEZsb3JlbmNlMRUwEwYDVQQKEwxMaW5lYSBDb211bmUxFTATBgNV
+BAsTDExpbmVhIENvbXVuZTEZMBcGA1UEAxMQbGluZWFjb211bmUtc3BpZDAeFw0xNTAyMTIwMDE5
+MTBaFw0yNTAyMDkwMDE5MTBaMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTERMA8GA1UE
+BxMIRmxvcmVuY2UxFTATBgNVBAoTDExpbmVhIENvbXVuZTEVMBMGA1UECxMMTGluZWEgQ29tdW5l
+MRkwFwYDVQQDExBsaW5lYWNvbXVuZS1zcGlkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr
+3I7QoKSAz8CwR168i0n6+ASdNHVSd58jQSfSzABjpxPW0so/a2g1D8Updliybt7twWKDvSn8eXAo
+f50axTNEz/AYOeQaQPi+bsJAg4sOpOofQCpAX/qWYATTDUqBXaMflqbkf/X9hNIOton5ZytrcZrW
+HE8B2SArxsCg+ZWdBwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAF3QEyiVlthgfaZJZLef5BLHKH5T
+dFRIZr5otNfTv89rR9STlN5N4/zSRgqYnD1JoecBN+M83RayYDqygxUbln6wgghIhcgPfXbLpPxC
+UyV3pTiImFtP/bjruPyVh1YNsgcecO8YdDu8EAVL5wS1mm1xS/Jq7QZdNQP9fRDNlWSS
+                    </ds:X509Certificate>
+                </ds:X509Data>
+			</ds:KeyInfo>
+        </KeyDescriptor>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://identificazione.055055.it:443/iam/SPSloPOST/metaAlias/forcns/sp" ResponseLocation="https://identificazione.055055.it:443/iam/SPSloPOST/metaAlias/forcns/sp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://identificazione.055055.it:443/iam/SPSloRedirect/metaAlias/forcns/sp" ResponseLocation="https://identificazione.055055.it:443/iam/SPSloRedirect/metaAlias/forcns/sp"/>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://identificazione.055055.it:443/iam/Consumer/metaAlias/forcns/sp" index="0" isDefault="true"/>
+        <AttributeConsumingService index="0">
+            <ServiceName xml:lang="it">https://identificazione.055055.it</ServiceName>
+            <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </AttributeConsumingService>
+    </SPSSODescriptor>
+    <Organization>
+        <OrganizationName xml:lang="it">Linea Comune S.p.A.</OrganizationName>
+        <OrganizationName xml:lang="en">Linea Comune S.p.A.</OrganizationName>
+        <OrganizationName xml:lang="fr">Linea Comune S.p.A.</OrganizationName>
+        <OrganizationName xml:lang="de">Linea Comune S.p.A.</OrganizationName>
+        <OrganizationDisplayName xml:lang="it">Linea Comune S.p.A.</OrganizationDisplayName>
+        <OrganizationDisplayName xml:lang="en">Linea Comune S.p.A.</OrganizationDisplayName>
+        <OrganizationDisplayName xml:lang="fr">Linea Comune S.p.A.</OrganizationDisplayName>
+        <OrganizationDisplayName xml:lang="de">Linea Comune S.p.A.</OrganizationDisplayName>
+        <OrganizationURL xml:lang="it">https://identificazione.055055.it</OrganizationURL>
+        <OrganizationURL xml:lang="en">https://identificazione.055055.it</OrganizationURL>
+        <OrganizationURL xml:lang="fr">https://identificazione.055055.it</OrganizationURL>
+        <OrganizationURL xml:lang="de">https://identificazione.055055.it</OrganizationURL>
+    </Organization>
+</EntityDescriptor>

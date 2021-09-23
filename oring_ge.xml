@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://spid.ordineingegneri.genova.it" ID="pfxd251649c-66ec-f820-f802-01993f6466cd"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxd251649c-66ec-f820-f802-01993f6466cd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>usxxFaGiu5Cxpo6GtKb/TY1nD4BuQYaW7z23bthyIdE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DaXGsJ61l1mB/07R5qCrvp3OFdY1VODu+RFltrJXndzhXv93ZLfzNdl3B+7Pk4Ti/J+i6MQTwooTzoTJ4wfIDnoq7MRm1XlGCgPdzMQ4WzIIo4+SawdP6X2s1Wk9vuIJwhas7iDsT5aOBvhZrBvI2/SBgcZ9Yc9Xh3j/iM1yKMhe5BPtcXJCq/HczWtkkFXWz0nJYGL6ycvktbEQsP0fhjyp6H5FWI00ZePYtfQrXmYYnctjyG231rYedQZQsnpwFRvBz64G37YuGjf3RjnbTCKPzhsUDso9KuBRTIVTT0Cdqtj/fNGTLK0wTkqgrhZpq7hg4aCsM5c6+nD8vPZ7dQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDkDCCAngCCQCJZkwvVw/hWzANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCaXQxEDAOBgNVBAgMB1R1c2NhbnkxEDAOBgNVBAcMB1Bpc3RvaWExEDAOBgNVBAoMB0VMYnVpbGQxEDAOBgNVBAsMB0VMYnVpbGQxEzARBgNVBAMMCmVsYnVpbGQuaXQxHTAbBgkqhkiG9w0BCQEWDmV2ZUBlbGJ1aWxkLml0MB4XDTE5MDUwODE0NDgzNVoXDTIwMDUwNzE0NDgzNVowgYkxCzAJBgNVBAYTAml0MRAwDgYDVQQIDAdUdXNjYW55MRAwDgYDVQQHDAdQaXN0b2lhMRAwDgYDVQQKDAdFTGJ1aWxkMRAwDgYDVQQLDAdFTGJ1aWxkMRMwEQYDVQQDDAplbGJ1aWxkLml0MR0wGwYJKoZIhvcNAQkBFg5ldmVAZWxidWlsZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK2vMSHywsKhy9LHUkJGBxc/Q0yStIQ0nGsjwfgCLQYWQOLYoPEY54cXYcqhn2UaPZb/7cnywIx5G+daSYGxIzdXAqcBdlqgB/tueL90kt7ZJxGB2WHW1g4GaLhy/mxe7TZrXqSju/LdPWOF4EP3nhOR0ReljqzDLDwccJiKFdzQtPd0BhvrF36lMNNwbulJa2WJzU3V+HH92VGJqFBUUnEpovC5Lq/+haWms1nzGGI9PFZD/asJx35QjpsPdWfdQFTqUxcjU1FVMHme6b0UIRNicQJfOpAANB6yqLDARsmKOuDqEJInUAYDYdRvA/m5HpEhl8ND1su7jieR0PHFoGsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEACY5LVa93AGuIzxEsb43lf47OWl+3C3l8OfSKVUECuaofISXQWUavkx/Lwp1T9oLvOSjwcHVcyNW7vV9PxpD/AKag4sMun1MabbM1nRMLbjROY6PbiYIWodyfWwYnLBczqjyMeRRDh+8iAQtSjjLDRyOMcslTd9+ME9C2tuGBWCdnAAhFW8NzENOkaykeNFqlCsrSGLlVTFL68cInui9rpT54uFjK85PaYvNBIjmFSoPpul7c/8VJvWJVRYF0p6bWNGfwVo8QO3A4pRJmi3sjbhXPupfg1G5dWGge4ZIoQkQPoMwLzRzQEJ4SUHjdKx7ONeqKwKsRjFO1s0Ien/IfCA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDkDCCAngCCQCJZkwvVw/hWzANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCaXQxEDAOBgNVBAgMB1R1c2NhbnkxEDAOBgNVBAcMB1Bpc3RvaWExEDAOBgNVBAoMB0VMYnVpbGQxEDAOBgNVBAsMB0VMYnVpbGQxEzARBgNVBAMMCmVsYnVpbGQuaXQxHTAbBgkqhkiG9w0BCQEWDmV2ZUBlbGJ1aWxkLml0MB4XDTE5MDUwODE0NDgzNVoXDTIwMDUwNzE0NDgzNVowgYkxCzAJBgNVBAYTAml0MRAwDgYDVQQIDAdUdXNjYW55MRAwDgYDVQQHDAdQaXN0b2lhMRAwDgYDVQQKDAdFTGJ1aWxkMRAwDgYDVQQLDAdFTGJ1aWxkMRMwEQYDVQQDDAplbGJ1aWxkLml0MR0wGwYJKoZIhvcNAQkBFg5ldmVAZWxidWlsZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK2vMSHywsKhy9LHUkJGBxc/Q0yStIQ0nGsjwfgCLQYWQOLYoPEY54cXYcqhn2UaPZb/7cnywIx5G+daSYGxIzdXAqcBdlqgB/tueL90kt7ZJxGB2WHW1g4GaLhy/mxe7TZrXqSju/LdPWOF4EP3nhOR0ReljqzDLDwccJiKFdzQtPd0BhvrF36lMNNwbulJa2WJzU3V+HH92VGJqFBUUnEpovC5Lq/+haWms1nzGGI9PFZD/asJx35QjpsPdWfdQFTqUxcjU1FVMHme6b0UIRNicQJfOpAANB6yqLDARsmKOuDqEJInUAYDYdRvA/m5HpEhl8ND1su7jieR0PHFoGsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEACY5LVa93AGuIzxEsb43lf47OWl+3C3l8OfSKVUECuaofISXQWUavkx/Lwp1T9oLvOSjwcHVcyNW7vV9PxpD/AKag4sMun1MabbM1nRMLbjROY6PbiYIWodyfWwYnLBczqjyMeRRDh+8iAQtSjjLDRyOMcslTd9+ME9C2tuGBWCdnAAhFW8NzENOkaykeNFqlCsrSGLlVTFL68cInui9rpT54uFjK85PaYvNBIjmFSoPpul7c/8VJvWJVRYF0p6bWNGfwVo8QO3A4pRJmi3sjbhXPupfg1G5dWGge4ZIoQkQPoMwLzRzQEJ4SUHjdKx7ONeqKwKsRjFO1s0Ien/IfCA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDkDCCAngCCQCJZkwvVw/hWzANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCaXQxEDAOBgNVBAgMB1R1c2NhbnkxEDAOBgNVBAcMB1Bpc3RvaWExEDAOBgNVBAoMB0VMYnVpbGQxEDAOBgNVBAsMB0VMYnVpbGQxEzARBgNVBAMMCmVsYnVpbGQuaXQxHTAbBgkqhkiG9w0BCQEWDmV2ZUBlbGJ1aWxkLml0MB4XDTE5MDUwODE0NDgzNVoXDTIwMDUwNzE0NDgzNVowgYkxCzAJBgNVBAYTAml0MRAwDgYDVQQIDAdUdXNjYW55MRAwDgYDVQQHDAdQaXN0b2lhMRAwDgYDVQQKDAdFTGJ1aWxkMRAwDgYDVQQLDAdFTGJ1aWxkMRMwEQYDVQQDDAplbGJ1aWxkLml0MR0wGwYJKoZIhvcNAQkBFg5ldmVAZWxidWlsZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK2vMSHywsKhy9LHUkJGBxc/Q0yStIQ0nGsjwfgCLQYWQOLYoPEY54cXYcqhn2UaPZb/7cnywIx5G+daSYGxIzdXAqcBdlqgB/tueL90kt7ZJxGB2WHW1g4GaLhy/mxe7TZrXqSju/LdPWOF4EP3nhOR0ReljqzDLDwccJiKFdzQtPd0BhvrF36lMNNwbulJa2WJzU3V+HH92VGJqFBUUnEpovC5Lq/+haWms1nzGGI9PFZD/asJx35QjpsPdWfdQFTqUxcjU1FVMHme6b0UIRNicQJfOpAANB6yqLDARsmKOuDqEJInUAYDYdRvA/m5HpEhl8ND1su7jieR0PHFoGsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEACY5LVa93AGuIzxEsb43lf47OWl+3C3l8OfSKVUECuaofISXQWUavkx/Lwp1T9oLvOSjwcHVcyNW7vV9PxpD/AKag4sMun1MabbM1nRMLbjROY6PbiYIWodyfWwYnLBczqjyMeRRDh+8iAQtSjjLDRyOMcslTd9+ME9C2tuGBWCdnAAhFW8NzENOkaykeNFqlCsrSGLlVTFL68cInui9rpT54uFjK85PaYvNBIjmFSoPpul7c/8VJvWJVRYF0p6bWNGfwVo8QO3A4pRJmi3sjbhXPupfg1G5dWGge4ZIoQkQPoMwLzRzQEJ4SUHjdKx7ONeqKwKsRjFO1s0Ien/IfCA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.ordineingegneri.genova.it/ordineingegnerigenova/module.php/saml/sp/saml2-logout.php/service"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ordineingegneri.genova.it/ordineingegnerigenova/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Ordine Ingegneri Genova SPID Service Provider</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Ordine Ingegneri Genova Accesso SPID</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine Ingegneri Genova</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine Ingegneri Genova</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.ordineingegneri.genova.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rozzano" entityID="https://www.comune.rozzano.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rozzano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Uy9S3BpYuu49pLls6nN+hbHpwkcoUgjHl0a6DlLT9pA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+bb9nEwAvQrNia1dNXi3iF0Y1FhQwutR0Y4B+hQgkojrBKd9NGafMJ0g3HpWRbQAnfGXwpm48GeIC
+ThJZOTON+ydk4MU0LlI7eVlYAlcqvl6p6fhz2+zIEQjhMhxmhSXzrazh8uYfjttMJFM5llFlb+4c
+qRW8PqyEQtMpN6B9OW+NxmG4g5q9gc+7ULYC6CT9dmANXH747YPjUPNeWqK3CgBnaepHXhprG82D
+IdBoOPyoqzyog0HEydU7hMxKqP09iDNtU9ZeqD9s4a4YiQiTeo070ZJ+jgBzPCNZIosOprnDjp2i
+BK6KqEKG4+EsN0Sa0ET/Al1u6CZRsyR6RV+mjA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5PgFGxDg2pOWlNwkYUwzUn8htGx8HgJOMUaddf+csFIF9UZzACuUcJOhdMqgNa9nN6WTmOPGWAVO
+lpoEx5jpdP7qjJ71LgJp06RpBiHsz97MFlhypC8vOZKE+NBcR816EC4ASjVI2IJoC0v/a8ebCYW7
+pQlwUiLw2RT/3K1t8K7ZnpTJT6m2kkcrsp0s3ryW+60JzL67jjOkjkXfm3rQyDEdC6m/Buj9NA59
+qtTXGFiy5acAgJxI8zGBHN7DcTqftwkLTCQbeB0fo9tMaew9JWhtZbgTEbpqlsg2BhU4WBYZKI+C
+rlENgtZc6dZkr/wm+w7yGRq/CRVW3YSXN70gHw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAIzyBq6IMUgVMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUucm96emFuby5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMTEy
+MDg1NzI3WhcNMjkxMTA5MDg1NzI3WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnJvenphbm8ubWku
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA5PgFGxDg2pOWlNwkYUwzUn8htGx8HgJOMUaddf+csFIF9UZzACuUcJOhdMqgNa9nN6WT
+mOPGWAVOlpoEx5jpdP7qjJ71LgJp06RpBiHsz97MFlhypC8vOZKE+NBcR816EC4ASjVI2IJoC0v/
+a8ebCYW7pQlwUiLw2RT/3K1t8K7ZnpTJT6m2kkcrsp0s3ryW+60JzL67jjOkjkXfm3rQyDEdC6m/
+Buj9NA59qtTXGFiy5acAgJxI8zGBHN7DcTqftwkLTCQbeB0fo9tMaew9JWhtZbgTEbpqlsg2BhU4
+WBYZKI+CrlENgtZc6dZkr/wm+w7yGRq/CRVW3YSXN70gHwIDAQABo1AwTjAdBgNVHQ4EFgQUdgqe
+75ePa5nTG6PO0ODSijTsNmYwHwYDVR0jBBgwFoAUdgqe75ePa5nTG6PO0ODSijTsNmYwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOvZZzksqWmVgBLGAmZzdLh3G6vnWDMwdRy/f4ome
+PuVoLvEKRoi9Z/YNecXmiRt3+DX8hB9a9e7Y1Oh3r/BJJITEoRJ3RTY4koARfxf9baJiD68k4y8A
+GZWU7LNjN7OO/spmiwAPXNp34HpfJALABrXrTEep610WgKNHypSX2+yYP1nBB6MsgSwLQj1mtone
+gVPI61sMFhFRGPPJdhC3Ggv20V3Lg3rDmAriVo9+KAHdJlpyf/sd40lLDQoly4Mq/weZVYyLakkb
+Csr5HtcyOHR0SxIug1Nz8U4AG1vC+bwulFNtuS7IHsso8IWME6eJQIvZ1kP2W9VvxDuKofbiIg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAIzyBq6IMUgVMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUucm96emFuby5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMTEyMDg1NzI3WhcNMjkxMTA5MDg1NzI3WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnJvenphbm8ubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PgFGxDg2pOWlNwkYUwzUn8htGx8HgJOMUaddf+csFIF9UZzACuUcJOhdMqgNa9nN6WTmOPGWAVOlpoEx5jpdP7qjJ71LgJp06RpBiHsz97MFlhypC8vOZKE+NBcR816EC4ASjVI2IJoC0v/a8ebCYW7pQlwUiLw2RT/3K1t8K7ZnpTJT6m2kkcrsp0s3ryW+60JzL67jjOkjkXfm3rQyDEdC6m/Buj9NA59qtTXGFiy5acAgJxI8zGBHN7DcTqftwkLTCQbeB0fo9tMaew9JWhtZbgTEbpqlsg2BhU4WBYZKI+CrlENgtZc6dZkr/wm+w7yGRq/CRVW3YSXN70gHwIDAQABo1AwTjAdBgNVHQ4EFgQUdgqe75ePa5nTG6PO0ODSijTsNmYwHwYDVR0jBBgwFoAUdgqe75ePa5nTG6PO0ODSijTsNmYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOvZZzksqWmVgBLGAmZzdLh3G6vnWDMwdRy/f4omePuVoLvEKRoi9Z/YNecXmiRt3+DX8hB9a9e7Y1Oh3r/BJJITEoRJ3RTY4koARfxf9baJiD68k4y8AGZWU7LNjN7OO/spmiwAPXNp34HpfJALABrXrTEep610WgKNHypSX2+yYP1nBB6MsgSwLQj1mtonegVPI61sMFhFRGPPJdhC3Ggv20V3Lg3rDmAriVo9+KAHdJlpyf/sd40lLDQoly4Mq/weZVYyLakkbCsr5HtcyOHR0SxIug1Nz8U4AG1vC+bwulFNtuS7IHsso8IWME6eJQIvZ1kP2W9VvxDuKofbiIg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAIzyBq6IMUgVMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUucm96emFuby5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMTEyMDg1NzI3WhcNMjkxMTA5MDg1NzI3WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnJvenphbm8ubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PgFGxDg2pOWlNwkYUwzUn8htGx8HgJOMUaddf+csFIF9UZzACuUcJOhdMqgNa9nN6WTmOPGWAVOlpoEx5jpdP7qjJ71LgJp06RpBiHsz97MFlhypC8vOZKE+NBcR816EC4ASjVI2IJoC0v/a8ebCYW7pQlwUiLw2RT/3K1t8K7ZnpTJT6m2kkcrsp0s3ryW+60JzL67jjOkjkXfm3rQyDEdC6m/Buj9NA59qtTXGFiy5acAgJxI8zGBHN7DcTqftwkLTCQbeB0fo9tMaew9JWhtZbgTEbpqlsg2BhU4WBYZKI+CrlENgtZc6dZkr/wm+w7yGRq/CRVW3YSXN70gHwIDAQABo1AwTjAdBgNVHQ4EFgQUdgqe75ePa5nTG6PO0ODSijTsNmYwHwYDVR0jBBgwFoAUdgqe75ePa5nTG6PO0ODSijTsNmYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOvZZzksqWmVgBLGAmZzdLh3G6vnWDMwdRy/f4omePuVoLvEKRoi9Z/YNecXmiRt3+DX8hB9a9e7Y1Oh3r/BJJITEoRJ3RTY4koARfxf9baJiD68k4y8AGZWU7LNjN7OO/spmiwAPXNp34HpfJALABrXrTEep610WgKNHypSX2+yYP1nBB6MsgSwLQj1mtonegVPI61sMFhFRGPPJdhC3Ggv20V3Lg3rDmAriVo9+KAHdJlpyf/sd40lLDQoly4Mq/weZVYyLakkbCsr5HtcyOHR0SxIug1Nz8U4AG1vC+bwulFNtuS7IHsso8IWME6eJQIvZ1kP2W9VvxDuKofbiIg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rozzano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rozzano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rozzano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rozzano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rozzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rozzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rozzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rozzano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rozzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rozzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rozzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rozzano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rozzano.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rozzano.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rozzano.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rozzano.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

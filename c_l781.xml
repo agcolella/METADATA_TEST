@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="idXRgzXdy_sR7v5k_YNMnaiIxUaCA" entityID="https://login.comune.verona.it/nidp/saml2/metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#idXRgzXdy_sR7v5k_YNMnaiIxUaCA">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/OR5+pNbxrY3yZWwfdsL+Kj+HPMZ7bzTOLGCDTwPrJg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+G8erzasnjA8DY0u94x7IWpO/8mAfwLhJIv6xglMYl9+FEr2TwoUOA4hyaYecI2E5/fzzlcLLXKlP
+gXK1sHdBUqBbDl7ecwmE9jbA363yF8ZDKSS6VZtS0A1l32uTUsEPTQ4f9pQZSiq9S2LTXEm9K89z
+Bz7o/FKVn0kgz4es+52B/3AjB4s3p+FpF4dHDUMmoqg852lT5x62nsPJ+AcrG+rV/FbX6tUmWV6K
+Gkd7Af/DekykpEZbeGLyzAwWYe72cwOUA7psZKQpRVbvg5bxIVukMsthPn+TgGFcoy3TIcaDazT/
+O+Ro1lrAy4ss5ELxxptS5pqpq/iNP3qgDB/Umw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w67UTZ7oTe29ShCHGW4hT9lGaJmfJfT0a38UXsHCx4jKc4pvfVQNwutv/WuZI2Y9bHpBVvT4TrwV
+4MxAKVHdiMx9V3Xi8C/8bA+sVDnWFULWQoi/j02vb0m9nL0N4Y2xaSEAzG/Qiu84i+megWJ9dW8D
+KcPRZpDLQHZC6BHCSRPBD1aJlHcaGx1SiZTULsUtyLobxLUYAVFi6h0QZPZbthlRaFpCInl9lkLI
+hDMQlcy3RbwUzeyiJ16tNyvD9hZGVk6cOFZEuvS3VtEkfh10aTWprXAqElinswujEuy12466lse7
+lQBwhklLGrDf3Dx+Koq535347LbxEqYC/gt0+Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFGDCCBACgAwIBAgIUBkVPYzhOGhQZQR2MXSWDTERSzU0wDQYJKoZIhvcNAQELBQAwNDEaMBgG
+A1UECxMRT3JnYW5pemF0aW9uYWwgQ0ExFjAUBgNVBAoUDXNsZXMxMl80X3RyZWUwHhcNMTgxMTEz
+MTYxNjU4WhcNMjgxMTEzMTYxNjU4WjBAMRUwEwYDVQQDEwx0ZXN0LXNpZ25pbmcxFjAUBgNVBAsT
+DWFjY2Vzc01hbmFnZXIxDzANBgNVBAoTBm5vdmVsbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMOu1E2e6E3tvUoQhxluIU/ZRmiZnyX09Gt/FF7BwseIynOKb31UDcLrb/1rmSNmPWx6
+QVb0+E68FeDMQClR3YjMfVd14vAv/GwPrFQ51hVC1kKIv49Nr29JvZy9DeGNsWkhAMxv0IrvOIvp
+noFifXVvAynD0WaQy0B2QugRwkkTwQ9WiZR3GhsdUomU1C7FLci6G8S1GAFRYuodEGT2W7YZUWha
+QiJ5fZZCyIQzEJXMt0W8FM3soiderTcrw/YWRlZOnDhWRLr0t1bRJH4ddGk1qa1wKhJYp7MLoxLs
+tduOupbHu5UAcIZJSxqw39w8fiqKud+d+Oy28RKmAv4LdPkCAwEAAaOCAhQwggIQMB0GA1UdDgQW
+BBTxr9aSN3U1mjyrkgK948K01tFyrzAfBgNVHSMEGDAWgBRdT8atcvM9P+hLTp7OGSY391Oj7zCC
+AcwGC2CGSAGG+DcBCQQBBIIBuzCCAbcEAgEAAQH/Ex1Ob3ZlbGwgU2VjdXJpdHkgQXR0cmlidXRl
+KHRtKRZDaHR0cDovL2RldmVsb3Blci5ub3ZlbGwuY29tL3JlcG9zaXRvcnkvYXR0cmlidXRlcy9j
+ZXJ0YXR0cnNfdjEwLmh0bTCCAUigGgEBADAIMAYCAQECAUYwCDAGAgEBAgEKAgFpoRoBAQAwCDAG
+AgEBAgEAMAgwBgIBAQIBAAIBAKIGAgEXAQH/o4IBBKBYAgECAgIA/wIBAAMNAIAAAAAAAAAAAAAA
+AAMJAIAAAAAAAAAAMBgwEAIBAAIIf/////////8BAQACBAbw30gwGDAQAgEAAgh//////////wEB
+AAIEBvDfSKFYAgECAgIA/wIBAAMNAEAAAAAAAAAAAAAAAAMJAEAAAAAAAAAAMBgwEAIBAAIIf///
+//////8BAQACBBH/qmcwGDAQAgEAAgh//////////wEBAAIEEf+qZ6JOMEwCAQICAQACAgD/Aw0A
+gAAAAAAAAAAAAAAAAwkAgAAAAAAAAAAwEjAQAgEAAgh//////////wEBADASMBACAQACCH//////
+////AQEAMA0GCSqGSIb3DQEBCwUAA4IBAQB/bm7EBI0Og6psZIvnZiC6dIWd6xwqZY4NBq7FJ4Ez
+Fycd2Kvp5aj1sTvIEv61RaWa6ZjsVIli5ylrkFyjngzRKxr6WD8ecuBByihF9eNXn/ciTyW0SNMc
+Qq/O7MGjt+QN9JC7AorYFZvZo6yBtAJ12Uy1fUB/oPmkLduQRZ0qA4NYkXn5IxFuVUZXDP5MN+7V
+Lc53iQgfONn6Mb72dzLYU2gsd86VioekLS76yfegsasZdOM+xuYKHo3F3/iKBu3ZYWunGKKVOsn4
+lgp5L6vuqPF2FjLR5mlJrcekhrILSyCrIBYRe5GmKkGX8ryLQW6P0XNFXvQVXAjioT+mVEje
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:X509Data>
+			<ds:X509Certificate>
+MIIFGDCCBACgAwIBAgIUBkVPYzhOGhQZQR2MXSWDTERSzU0wDQYJKoZIhvcNAQELBQAwNDEaMBgG
+A1UECxMRT3JnYW5pemF0aW9uYWwgQ0ExFjAUBgNVBAoUDXNsZXMxMl80X3RyZWUwHhcNMTgxMTEz
+MTYxNjU4WhcNMjgxMTEzMTYxNjU4WjBAMRUwEwYDVQQDEwx0ZXN0LXNpZ25pbmcxFjAUBgNVBAsT
+DWFjY2Vzc01hbmFnZXIxDzANBgNVBAoTBm5vdmVsbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMOu1E2e6E3tvUoQhxluIU/ZRmiZnyX09Gt/FF7BwseIynOKb31UDcLrb/1rmSNmPWx6
+QVb0+E68FeDMQClR3YjMfVd14vAv/GwPrFQ51hVC1kKIv49Nr29JvZy9DeGNsWkhAMxv0IrvOIvp
+noFifXVvAynD0WaQy0B2QugRwkkTwQ9WiZR3GhsdUomU1C7FLci6G8S1GAFRYuodEGT2W7YZUWha
+QiJ5fZZCyIQzEJXMt0W8FM3soiderTcrw/YWRlZOnDhWRLr0t1bRJH4ddGk1qa1wKhJYp7MLoxLs
+tduOupbHu5UAcIZJSxqw39w8fiqKud+d+Oy28RKmAv4LdPkCAwEAAaOCAhQwggIQMB0GA1UdDgQW
+BBTxr9aSN3U1mjyrkgK948K01tFyrzAfBgNVHSMEGDAWgBRdT8atcvM9P+hLTp7OGSY391Oj7zCC
+AcwGC2CGSAGG+DcBCQQBBIIBuzCCAbcEAgEAAQH/Ex1Ob3ZlbGwgU2VjdXJpdHkgQXR0cmlidXRl
+KHRtKRZDaHR0cDovL2RldmVsb3Blci5ub3ZlbGwuY29tL3JlcG9zaXRvcnkvYXR0cmlidXRlcy9j
+ZXJ0YXR0cnNfdjEwLmh0bTCCAUigGgEBADAIMAYCAQECAUYwCDAGAgEBAgEKAgFpoRoBAQAwCDAG
+AgEBAgEAMAgwBgIBAQIBAAIBAKIGAgEXAQH/o4IBBKBYAgECAgIA/wIBAAMNAIAAAAAAAAAAAAAA
+AAMJAIAAAAAAAAAAMBgwEAIBAAIIf/////////8BAQACBAbw30gwGDAQAgEAAgh//////////wEB
+AAIEBvDfSKFYAgECAgIA/wIBAAMNAEAAAAAAAAAAAAAAAAMJAEAAAAAAAAAAMBgwEAIBAAIIf///
+//////8BAQACBBH/qmcwGDAQAgEAAgh//////////wEBAAIEEf+qZ6JOMEwCAQICAQACAgD/Aw0A
+gAAAAAAAAAAAAAAAAwkAgAAAAAAAAAAwEjAQAgEAAgh//////////wEBADASMBACAQACCH//////
+////AQEAMA0GCSqGSIb3DQEBCwUAA4IBAQB/bm7EBI0Og6psZIvnZiC6dIWd6xwqZY4NBq7FJ4Ez
+Fycd2Kvp5aj1sTvIEv61RaWa6ZjsVIli5ylrkFyjngzRKxr6WD8ecuBByihF9eNXn/ciTyW0SNMc
+Qq/O7MGjt+QN9JC7AorYFZvZo6yBtAJ12Uy1fUB/oPmkLduQRZ0qA4NYkXn5IxFuVUZXDP5MN+7V
+Lc53iQgfONn6Mb72dzLYU2gsd86VioekLS76yfegsasZdOM+xuYKHo3F3/iKBu3ZYWunGKKVOsn4
+lgp5L6vuqPF2FjLR5mlJrcekhrILSyCrIBYRe5GmKkGX8ryLQW6P0XNFXvQVXAjioT+mVEje
+			</ds:X509Certificate>
+			</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.verona.it/nidp/saml2/spslo" ResponseLocation="https://login.comune.verona.it/nidp/saml2/spslo_return"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.verona.it/nidp/saml2/spassertion_consumer" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0" isDefault="true">
+            <md:ServiceName xml:lang="it">Base</md:ServiceName>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1" isDefault="false">
+            <md:ServiceName xml:lang="it">Avanzato</md:ServiceName>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2" isDefault="false">
+            <md:ServiceName xml:lang="it">Full</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">WIFI Service Provider</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="en">Comune di Verona</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Verona</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en">www.comune.verona.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="ProvinciaCuneo" entityID="https://www.provincia.cuneo.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#ProvinciaCuneo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>5sGLsMsgriO6OTAeqTn4w1e8vQtR4dLez6gNMx63Nfc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Q5Ri8cjaJZmxFqcg/swasOeGuT+NEthhSGTbYA2tzLcLT7cjAyuBtrPA/DJ7xBXsa3vG+eKBOSO5
+d3rPpvmFS4Gp+QXOynlFaTohr8BlK5LYc8kIZNBrJHiuQHI9JBe/0G9V47w7qSnDKJkl0Q1eZI3/
+87+BHdF3dzdItSuK8n26x4dElH12ZS/48cjl0woN1NNA+CinKvztXGbxz0hfC+Kb4pK0qyduL4Y1
+eKMk4Yj3NVnYDPdG/4vuL3qRwHgAkQJy1Hy05sd9shiJQMaA9mNhTOaYsCJK/wmDGIy1Iz5BL86c
+pz/xurWftx7Kr8Hea1wcImIBb+xpoxU8Sc6OqQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yhKojVuhZBMAm6Z+GL8uj7aG8XvVBqDZxCpyC36hKFZXOV2HVTQcpCZ24HSfCFE5si8hPC20B9c7
+IRLfpanYd2H36zQHBcm7vI/kwMZAs43Ghpn1OVInZ7CnYpRufjX+myaFNGFtyFA9M3ABd5hxoWWd
+7IoPXDWyoahdTMw7To6s+MFNH9T6kS2D+5ICAxoMXVuS3h5DZfQcmhTyQDQ8nWVTnWUuzfkDoiYc
+r86HxpxhkktKLiuCdPnwerpCxTo2M0AWEGoET9iZepeyavJtpsrMpkAmmU3V4N17If2fyZ5B9Twh
+7NYjOWidRKMkeSdvaWnzg6tB6nKYhtU8VY7lQQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJALPdDncBiE10MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5w
+cm92aW5jaWEuY3VuZW8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAx
+MjgwODExMDRaFw0zMDAxMjUwODExMDRaMEExIzAhBgNVBAMMGnd3dy5wcm92aW5jaWEuY3VuZW8u
+Z292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMoSqI1boWQTAJumfhi/Lo+2hvF71Qag2cQqcgt+oShWVzldh1U0HKQmduB0nwhR
+ObIvITwttAfXOyES36Wp2Hdh9+s0BwXJu7yP5MDGQLONxoaZ9TlSJ2ewp2KUbn41/psmhTRhbchQ
+PTNwAXeYcaFlneyKD1w1sqGoXUzMO06OrPjBTR/U+pEtg/uSAgMaDF1bkt4eQ2X0HJoU8kA0PJ1l
+U51lLs35A6ImHK/Oh8acYZJLSi4rgnT58Hq6QsU6NjNAFhBqBE/YmXqXsmrybabKzKZAJplN1eDd
+eyH9n8meQfU8IezWIzlonUSjJHknb2lp84OrQepymIbVPFWO5UECAwEAAaNQME4wHQYDVR0OBBYE
+FO7CHOojeiO7PWcW/UFUwDI6OVvBMB8GA1UdIwQYMBaAFO7CHOojeiO7PWcW/UFUwDI6OVvBMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADvWKadhlanqJC9NiaIJc+87teKdrQpmoJ39
+ruT+mqHjtu3SiZpvvbXeVJa2kAs4an4OAsBWq2BUOWjzxibwKgLNVzk/1yijW8yEqDbmOu+b26XB
+H0MJsb/7exlutATMvSWNJ9CxrlcMwpOFTyoZHmXFKbQH87M04/vXFDlaKn+IGdoCDqW3thUEJ7s0
+d4KKTn/4d+AqNkHQiGeneYwX+HLzrKd5hlX1U/X7xE8dxS01qFUyCJuBhkm3d0G9wVIr8M3sdKyK
+K4Anb180eQWb0yv6UHgu5NySHlNv5id7EPHs7kmYf1C+6Nbz0wTbWFtXBxCEM6eZIdO7BJt+MldE
+1+I=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJALPdDncBiE10MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5wcm92aW5jaWEuY3VuZW8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAxMjgwODExMDRaFw0zMDAxMjUwODExMDRaMEExIzAhBgNVBAMMGnd3dy5wcm92aW5jaWEuY3VuZW8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMoSqI1boWQTAJumfhi/Lo+2hvF71Qag2cQqcgt+oShWVzldh1U0HKQmduB0nwhRObIvITwttAfXOyES36Wp2Hdh9+s0BwXJu7yP5MDGQLONxoaZ9TlSJ2ewp2KUbn41/psmhTRhbchQPTNwAXeYcaFlneyKD1w1sqGoXUzMO06OrPjBTR/U+pEtg/uSAgMaDF1bkt4eQ2X0HJoU8kA0PJ1lU51lLs35A6ImHK/Oh8acYZJLSi4rgnT58Hq6QsU6NjNAFhBqBE/YmXqXsmrybabKzKZAJplN1eDdeyH9n8meQfU8IezWIzlonUSjJHknb2lp84OrQepymIbVPFWO5UECAwEAAaNQME4wHQYDVR0OBBYEFO7CHOojeiO7PWcW/UFUwDI6OVvBMB8GA1UdIwQYMBaAFO7CHOojeiO7PWcW/UFUwDI6OVvBMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADvWKadhlanqJC9NiaIJc+87teKdrQpmoJ39ruT+mqHjtu3SiZpvvbXeVJa2kAs4an4OAsBWq2BUOWjzxibwKgLNVzk/1yijW8yEqDbmOu+b26XBH0MJsb/7exlutATMvSWNJ9CxrlcMwpOFTyoZHmXFKbQH87M04/vXFDlaKn+IGdoCDqW3thUEJ7s0d4KKTn/4d+AqNkHQiGeneYwX+HLzrKd5hlX1U/X7xE8dxS01qFUyCJuBhkm3d0G9wVIr8M3sdKyKK4Anb180eQWb0yv6UHgu5NySHlNv5id7EPHs7kmYf1C+6Nbz0wTbWFtXBxCEM6eZIdO7BJt+MldE1+I=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJALPdDncBiE10MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5wcm92aW5jaWEuY3VuZW8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAxMjgwODExMDRaFw0zMDAxMjUwODExMDRaMEExIzAhBgNVBAMMGnd3dy5wcm92aW5jaWEuY3VuZW8uZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMoSqI1boWQTAJumfhi/Lo+2hvF71Qag2cQqcgt+oShWVzldh1U0HKQmduB0nwhRObIvITwttAfXOyES36Wp2Hdh9+s0BwXJu7yP5MDGQLONxoaZ9TlSJ2ewp2KUbn41/psmhTRhbchQPTNwAXeYcaFlneyKD1w1sqGoXUzMO06OrPjBTR/U+pEtg/uSAgMaDF1bkt4eQ2X0HJoU8kA0PJ1lU51lLs35A6ImHK/Oh8acYZJLSi4rgnT58Hq6QsU6NjNAFhBqBE/YmXqXsmrybabKzKZAJplN1eDdeyH9n8meQfU8IezWIzlonUSjJHknb2lp84OrQepymIbVPFWO5UECAwEAAaNQME4wHQYDVR0OBBYEFO7CHOojeiO7PWcW/UFUwDI6OVvBMB8GA1UdIwQYMBaAFO7CHOojeiO7PWcW/UFUwDI6OVvBMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADvWKadhlanqJC9NiaIJc+87teKdrQpmoJ39ruT+mqHjtu3SiZpvvbXeVJa2kAs4an4OAsBWq2BUOWjzxibwKgLNVzk/1yijW8yEqDbmOu+b26XBH0MJsb/7exlutATMvSWNJ9CxrlcMwpOFTyoZHmXFKbQH87M04/vXFDlaKn+IGdoCDqW3thUEJ7s0d4KKTn/4d+AqNkHQiGeneYwX+HLzrKd5hlX1U/X7xE8dxS01qFUyCJuBhkm3d0G9wVIr8M3sdKyKK4Anb180eQWb0yv6UHgu5NySHlNv5id7EPHs7kmYf1C+6Nbz0wTbWFtXBxCEM6eZIdO7BJt+MldE1+I=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/provinciacuneo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/provinciacuneo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/provinciacuneo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/provinciacuneo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Provincia di Cuneo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Provincia di Cuneo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Provincia di Cuneo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Provincia di Cuneo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Provincia di Cuneo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Provincia di Cuneo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Provincia di Cuneo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Provincia di Cuneo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.provincia.cuneo.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.provincia.cuneo.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.provincia.cuneo.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.provincia.cuneo.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

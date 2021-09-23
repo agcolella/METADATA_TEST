@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="_e04e820c0414e5e19a4bc8135ea720885de08b89" entityID="https://idp1.univaq.it/sp/shibboleth"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>eeFHN9cq4eYO8UDHHDLu7/CYkTlgt2r+ILo1CSaFl14=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+r5FRvDPv8Wd8WO/bnTNCxMbQ2YeJ+ja45C7FZb5fHb354AL+GS32LWeZinh4No3vfPTgRZu/cIsk
+fXIdUevBDqAdyHo5KdQzhhBsxxPHue69xsc0Ty6iwPHhT54/2Xyw0cKw1n+ALn6TjoUIJUidQhvG
+1Li98RTu/vZAZQXb3AS+s+5Uw6g4gJepBy52QeYh4jSKK9f0GfZ4bx5dKu/ymjWbNQcyEnnU4hgU
+DH5TLB5BjsLft0XviJNsFcme8+OqXguEu4szkOC5BRLp8RGadp9Dph692p0E7HVjcUaNYDyPl9UR
+ECghMyjm/xoQaKGO8JoFr3/BydWAwNlAKmawug==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xjXP9oj/w58I/lrXB4Zj/gXBXdHrU2P5Tj2B85RRNkDlfQjZkFHLyZzjBPjqFx0dYpELGIotw8EO
+g7KDB1k51ODilE8vHJehsGHzGke5QSJsz2M563Ze3lRmA3N12HsRFX2oJp5rBraFgDsb4KU+QNS3
+F+vUF+Rp0JoQBdl7lL86tV805ILKpm6uvy0P1hBYbbCdquxc8hx8NDtJVey8VpZzXq7ZAm+oDwO/
+pDgxNeJ9m9812racJLZFLzPN6Jek1YdwQ/Kb0n8qv/LSG9uGEAb43FTCjY36aGCAfDOS2tdXKvgo
+/dVpoXKDxlqy02vP+zMoVwwAeaD5tPqz2mhOtw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDDTCCAfWgAwIBAgIJANgc9EB5LbZdMA0GCSqGSIb3DQEBCwUAMB0xGzAZBgNVBAMMEnNwaWRH
+Vy11bml2YXEtcHJvZDAeFw0xNzA2MDcwNjM4NTZaFw0zNzA2MDYwNjM4NTZaMB0xGzAZBgNVBAMM
+EnNwaWRHVy11bml2YXEtcHJvZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMY1z/aI
+/8OfCP5a1weGY/4FwV3R61Nj+U49gfOUUTZA5X0I2ZBRy8mc4wT46hcdHWKRCxiKLcPBDoOygwdZ
+OdTg4pRPLxyXobBh8xpHuUEibM9jOet2Xt5UZgNzddh7ERV9qCaeawa2hYA7G+ClPkDUtxfr1Bfk
+adCaEAXZe5S/OrVfNOSCyqZurr8tD9YQWG2wnarsXPIcfDQ7SVXsvFaWc16u2QJvqA8Dv6Q4MTXi
+fZvfNdq2nCS2RS8zzeiXpNWHcEPym9J/Kr/y0hvbhhAG+NxUwo2N+mhggHwzktrXVyr4KP3VaaFy
+g8ZastNrz/szKFcMAHmg+bT6s9poTrcCAwEAAaNQME4wHQYDVR0OBBYEFHdZ8QHgF8dTod9n+TPZ
+ylqFiAlpMB8GA1UdIwQYMBaAFHdZ8QHgF8dTod9n+TPZylqFiAlpMAwGA1UdEwQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggEBAG4Gw+/GCbTHADV7CBK3PDZ0CdRBXkp8K9hzoB9oJyng0xYy4VokbbL7
+Hna/JSUItw8v+i4Zt5e08XGcZRZ4XWCNquAExUuAzjzyA7D1cxgwc0lsJzE5VLSyhCVutgcnK4C2
+OwR7FkYUlYn31r5ct/Sr5QvI/ezasfRySfS7WuvnFfVBoFaIeUJRBLtUXI1l7r452JcztBNnzyUU
+0wCwk4P6x2IkEAfx9edWXKZqdGHlpaW7jIu3AjDd7Z11lCur/N/B6dQwQoo3jSOMgREKi5P6LRNs
+kQpJYLIp3EslZsyHveHsyof1fBSCfBgQcCQ1U4kOAcbVQ6zdXoMOLvMSc5Y=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIDDTCCAfWgAwIBAgIJANgc9EB5LbZdMA0GCSqGSIb3DQEBCwUAMB0xGzAZBgNV
+BAMMEnNwaWRHVy11bml2YXEtcHJvZDAeFw0xNzA2MDcwNjM4NTZaFw0zNzA2MDYw
+NjM4NTZaMB0xGzAZBgNVBAMMEnNwaWRHVy11bml2YXEtcHJvZDCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAMY1z/aI/8OfCP5a1weGY/4FwV3R61Nj+U49
+gfOUUTZA5X0I2ZBRy8mc4wT46hcdHWKRCxiKLcPBDoOygwdZOdTg4pRPLxyXobBh
+8xpHuUEibM9jOet2Xt5UZgNzddh7ERV9qCaeawa2hYA7G+ClPkDUtxfr1BfkadCa
+EAXZe5S/OrVfNOSCyqZurr8tD9YQWG2wnarsXPIcfDQ7SVXsvFaWc16u2QJvqA8D
+v6Q4MTXifZvfNdq2nCS2RS8zzeiXpNWHcEPym9J/Kr/y0hvbhhAG+NxUwo2N+mhg
+gHwzktrXVyr4KP3VaaFyg8ZastNrz/szKFcMAHmg+bT6s9poTrcCAwEAAaNQME4w
+HQYDVR0OBBYEFHdZ8QHgF8dTod9n+TPZylqFiAlpMB8GA1UdIwQYMBaAFHdZ8QHg
+F8dTod9n+TPZylqFiAlpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+AG4Gw+/GCbTHADV7CBK3PDZ0CdRBXkp8K9hzoB9oJyng0xYy4VokbbL7Hna/JSUI
+tw8v+i4Zt5e08XGcZRZ4XWCNquAExUuAzjzyA7D1cxgwc0lsJzE5VLSyhCVutgcn
+K4C2OwR7FkYUlYn31r5ct/Sr5QvI/ezasfRySfS7WuvnFfVBoFaIeUJRBLtUXI1l
+7r452JcztBNnzyUU0wCwk4P6x2IkEAfx9edWXKZqdGHlpaW7jIu3AjDd7Z11lCur
+/N/B6dQwQoo3jSOMgREKi5P6LRNskQpJYLIp3EslZsyHveHsyof1fBSCfBgQcCQ1
+U4kOAcbVQ6zdXoMOLvMSc5Y=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIDCTCCAfGgAwIBAgIJAPGJxtRIF3f/MA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV
+BAMMEHNwaWRHVy11bml2YXEtcHAwHhcNMTcwNjA3MDYzODQ4WhcNMzcwNjA2MDYz
+ODQ4WjAbMRkwFwYDVQQDDBBzcGlkR1ctdW5pdmFxLXBwMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA16Aklru8t/maufY3fvzjpdyx/kEjIuuj4PvHLJAs
+a/N4ESH5q81l3h7Yd8pAKUg3rnlZa/yrPPkLie9kow0JvxYHRfiQbTAu0ouazrjA
+RvprZOmvwSQKp5pFq0mHbpi4BL57ZEGqBccyjehVmQnyTQ9g105KRi3Ej2E+VlHs
+uGrEzM0spBcbDjCoXd7yxu8ls509FJqPVqW88MhYJlEkBksH9YY7wzwi9j5f7Xzi
+db7qfFmnzCtVHn4VW/2V7E0G9XfM0KB2eYVgMmbhxr/NZ5rC8m+jDFT1dcW6ZiGd
+re6Y/9gGtJu5cCSLc1Zetgh6B6XEwMLlF8pnR943ogVQkQIDAQABo1AwTjAdBgNV
+HQ4EFgQUjBwlaKF71zaGHuo0wUC44qql9OQwHwYDVR0jBBgwFoAUjBwlaKF71zaG
+Huo0wUC44qql9OQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAC/kK
+1W7PmzknyEXBqCWnsSR2bTaioquPp8emXID/yhgVE2gHJTBG9+Vxs7MYEUCMrUlb
+WoWy4n2x4bp/oCpAMY9FZx0ZbmyVs/f2TRfWFQcyKHLY73YvScWF0+7sGN6Q4LV0
+c+ixxUXhBd5K1qgUGwBn8p0/rDrvY39BdZUVjdrjyWQ22tRl3vqu4E0kcoz5J4VK
+ZkkCZDehz5Tf9xDqn1x5ghhzX5QpIXinNmxpXow9OapDDWyfbfXrO/ro4WSXoVWf
+5UTx2dhc4CuIxH3HXcZh8+vA3N5QexIsVQ4Dq51sdtXW64Lccu7bAUetW2+jnh0X
+9NjD4RspW9DzYaVmLw==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://univaq.idp.pp.cineca.it/Shibboleth.sso/SLO/POST"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://univaq.idp.pp.cineca.it/Shibboleth.sso/SLO/Redirect"/>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp1.univaq.it/Shibboleth.sso/SLO/POST"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp1.univaq.it/Shibboleth.sso/SLO/Redirect"/>
+
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp1.univaq.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://univaq.idp.pp.cineca.it/Shibboleth.sso/SAML2/POST" index="1"/>
+
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">UnivAQ SPID - Login Pre-prod</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">UnivAQ SPID - Login Prod</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">UnivAQ SPID - Registrazione Pre-prod</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">UnivAQ SPID - Registrazione Prod</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+		</md:AttributeConsumingService>
+
+	</md:SPSSODescriptor>
+
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Universita' degli Studi dell'Aquila</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">UnivAQ</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.univaq.it</md:OrganizationURL>
+	</md:Organization>
+
+</md:EntityDescriptor>

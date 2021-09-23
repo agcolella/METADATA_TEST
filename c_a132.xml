@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxf4967116-f51a-435c-15b1-dc735ad9d720" entityID="https://spid.comune.albanolaziale.rm.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxf4967116-f51a-435c-15b1-dc735ad9d720">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>U4hmOOt0IPum1t1BpRi0QYwubmUJenIP9Dju/6Zp3ZM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+e4lNw5lKOxcnPKW99HfLS7IXGgCGoedH9mequYdTCNgwuXSp/0Um40ojshacviaUfigPu94UrdHm
+azJn5Iy0g20zmdw0KRZofi+8TSe5TA4QU6UGMSor+SLlmZRo/Ht7OYkEVp33M714iPrVlIFldjwH
+waZBLCTmj5gpGV62HZ6Fy54dhr2aCiDvbYeV6IK5OodnTHU4YmxQ7RFFvpK1BQWDdtnCOx+8YCdk
+ae5akHPnR5yvDcw/TmMGHncgE1JvKtKhQf1KTKlZ+A8EbFy2MJ/aAGTdHywkxlZ94ePIBy2aW6Lo
+0MgfliRB1KdQXg6d8yeimyJ0Md0XXb6czRPZcA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4O7MFY/XwQPa8C5dvkMWJgsBwRuCWrbPw40OTTdHRbvSnSJEQVCGIADcCclOLBxfKCKKLm91O0mz
+bgnFUpiGc+sPNqkMdM6mfLdZlx/PYtdUDEESIoRe3mZsaH3Gbe+xljh1Gxpm95eAcZrvn1i27NMr
+CiMClcLEWSDnNq/P0bE1Vh+UjiSXcoVTnM/wr62M2ez19tIMkJT7srBFbGz8oLtut6ovvZqtH28O
+xKMPGMfK2QC2swrkXqd+hLwHfpDpHvtPvmRI/Q/mBcV8p/eK8zEMBuaZB9usz5bsmGX3LqsIHMVk
+UklTNWlhQiiFldVlzLKxPeukiEU3QaKi3YHyjw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID2zCCAsOgAwIBAgIJAKa3rOJ2cBh0MA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkFsYmFubyBMYXppYWxlMSEwHwYDVQQKDBhDb211bmUg
+ZGkgQWxiYW5vIExhemlhbGUxKDAmBgNVBAMMH3NwaWQuY29tdW5lLmFsYmFub2xhemlhbGUucm0u
+aXQwHhcNMTkwMTI1MTQ1MzI0WhcNMjkwMTI0MTQ1MzI0WjCBgzELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgMBUl0YWx5MRcwFQYDVQQHDA5BbGJhbm8gTGF6aWFsZTEhMB8GA1UECgwYQ29tdW5lIGRpIEFs
+YmFubyBMYXppYWxlMSgwJgYDVQQDDB9zcGlkLmNvbXVuZS5hbGJhbm9sYXppYWxlLnJtLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4O7MFY/XwQPa8C5dvkMWJgsBwRuCWrbPw40O
+TTdHRbvSnSJEQVCGIADcCclOLBxfKCKKLm91O0mzbgnFUpiGc+sPNqkMdM6mfLdZlx/PYtdUDEES
+IoRe3mZsaH3Gbe+xljh1Gxpm95eAcZrvn1i27NMrCiMClcLEWSDnNq/P0bE1Vh+UjiSXcoVTnM/w
+r62M2ez19tIMkJT7srBFbGz8oLtut6ovvZqtH28OxKMPGMfK2QC2swrkXqd+hLwHfpDpHvtPvmRI
+/Q/mBcV8p/eK8zEMBuaZB9usz5bsmGX3LqsIHMVkUklTNWlhQiiFldVlzLKxPeukiEU3QaKi3YHy
+jwIDAQABo1AwTjAdBgNVHQ4EFgQUiCq9h151HkZ7Jra4v811Ww3Vv60wHwYDVR0jBBgwFoAUiCq9
+h151HkZ7Jra4v811Ww3Vv60wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAT+NeMK3q
+YnQVUoLWUN4Aq71hPjcf0je4EgEgEPoIkq8MGofu1SRC9LvPtfE21Dfil0Juloj+YOmiosPtTdBd
+AIAZwkrXqyon7GATgyi0QQAwB/eL0qiSM5x+/+SgamI0hRGpLCA2DYo1oCFhzVKbuMpjff+YN0ps
+xKu1Te9mKKmQJoO7bthWq+rNRpwAL5CLN5PLPv77I+2u63UN+B3yLLqevQh+XxMAdR4oGoVfDuV2
+J1pPc9yYsPRBM3IjLMviy4bItYvU9qU2795wrE3mj5zIVQKOYCi0WyCI6qLSJiVVhkc4bVxHrxfs
+JMsnPRTxnR/onHzJAWwKNrJmUn0nCg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAKa3rOJ2cBh0MA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkFsYmFubyBMYXppYWxlMSEwHwYDVQQKDBhDb211bmUgZGkgQWxiYW5vIExhemlhbGUxKDAmBgNVBAMMH3NwaWQuY29tdW5lLmFsYmFub2xhemlhbGUucm0uaXQwHhcNMTkwMTI1MTQ1MzI0WhcNMjkwMTI0MTQ1MzI0WjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5BbGJhbm8gTGF6aWFsZTEhMB8GA1UECgwYQ29tdW5lIGRpIEFsYmFubyBMYXppYWxlMSgwJgYDVQQDDB9zcGlkLmNvbXVuZS5hbGJhbm9sYXppYWxlLnJtLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4O7MFY/XwQPa8C5dvkMWJgsBwRuCWrbPw40OTTdHRbvSnSJEQVCGIADcCclOLBxfKCKKLm91O0mzbgnFUpiGc+sPNqkMdM6mfLdZlx/PYtdUDEESIoRe3mZsaH3Gbe+xljh1Gxpm95eAcZrvn1i27NMrCiMClcLEWSDnNq/P0bE1Vh+UjiSXcoVTnM/wr62M2ez19tIMkJT7srBFbGz8oLtut6ovvZqtH28OxKMPGMfK2QC2swrkXqd+hLwHfpDpHvtPvmRI/Q/mBcV8p/eK8zEMBuaZB9usz5bsmGX3LqsIHMVkUklTNWlhQiiFldVlzLKxPeukiEU3QaKi3YHyjwIDAQABo1AwTjAdBgNVHQ4EFgQUiCq9h151HkZ7Jra4v811Ww3Vv60wHwYDVR0jBBgwFoAUiCq9h151HkZ7Jra4v811Ww3Vv60wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAT+NeMK3qYnQVUoLWUN4Aq71hPjcf0je4EgEgEPoIkq8MGofu1SRC9LvPtfE21Dfil0Juloj+YOmiosPtTdBdAIAZwkrXqyon7GATgyi0QQAwB/eL0qiSM5x+/+SgamI0hRGpLCA2DYo1oCFhzVKbuMpjff+YN0psxKu1Te9mKKmQJoO7bthWq+rNRpwAL5CLN5PLPv77I+2u63UN+B3yLLqevQh+XxMAdR4oGoVfDuV2J1pPc9yYsPRBM3IjLMviy4bItYvU9qU2795wrE3mj5zIVQKOYCi0WyCI6qLSJiVVhkc4bVxHrxfsJMsnPRTxnR/onHzJAWwKNrJmUn0nCg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAKa3rOJ2cBh0MA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkFsYmFubyBMYXppYWxlMSEwHwYDVQQKDBhDb211bmUgZGkgQWxiYW5vIExhemlhbGUxKDAmBgNVBAMMH3NwaWQuY29tdW5lLmFsYmFub2xhemlhbGUucm0uaXQwHhcNMTkwMTI1MTQ1MzI0WhcNMjkwMTI0MTQ1MzI0WjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5BbGJhbm8gTGF6aWFsZTEhMB8GA1UECgwYQ29tdW5lIGRpIEFsYmFubyBMYXppYWxlMSgwJgYDVQQDDB9zcGlkLmNvbXVuZS5hbGJhbm9sYXppYWxlLnJtLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4O7MFY/XwQPa8C5dvkMWJgsBwRuCWrbPw40OTTdHRbvSnSJEQVCGIADcCclOLBxfKCKKLm91O0mzbgnFUpiGc+sPNqkMdM6mfLdZlx/PYtdUDEESIoRe3mZsaH3Gbe+xljh1Gxpm95eAcZrvn1i27NMrCiMClcLEWSDnNq/P0bE1Vh+UjiSXcoVTnM/wr62M2ez19tIMkJT7srBFbGz8oLtut6ovvZqtH28OxKMPGMfK2QC2swrkXqd+hLwHfpDpHvtPvmRI/Q/mBcV8p/eK8zEMBuaZB9usz5bsmGX3LqsIHMVkUklTNWlhQiiFldVlzLKxPeukiEU3QaKi3YHyjwIDAQABo1AwTjAdBgNVHQ4EFgQUiCq9h151HkZ7Jra4v811Ww3Vv60wHwYDVR0jBBgwFoAUiCq9h151HkZ7Jra4v811Ww3Vv60wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAT+NeMK3qYnQVUoLWUN4Aq71hPjcf0je4EgEgEPoIkq8MGofu1SRC9LvPtfE21Dfil0Juloj+YOmiosPtTdBdAIAZwkrXqyon7GATgyi0QQAwB/eL0qiSM5x+/+SgamI0hRGpLCA2DYo1oCFhzVKbuMpjff+YN0psxKu1Te9mKKmQJoO7bthWq+rNRpwAL5CLN5PLPv77I+2u63UN+B3yLLqevQh+XxMAdR4oGoVfDuV2J1pPc9yYsPRBM3IjLMviy4bItYvU9qU2795wrE3mj5zIVQKOYCi0WyCI6qLSJiVVhkc4bVxHrxfsJMsnPRTxnR/onHzJAWwKNrJmUn0nCg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.comune.albanolaziale.rm.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.albanolaziale.rm.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Albano Laziale</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Albano Laziale</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.albanolaziale.rm.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

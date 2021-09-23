@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___spid.terredicastelli.mo.it" entityID="https://spid.terredicastelli.mo.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#https___spid.terredicastelli.mo.it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>5S3yC3+8GUMIlg2jiPgqsDTWVWcip+LFyrxQO+GLFwk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>IctgDipMY2eA21UD1LzOx92tN+/Sujyy4wEm8AdNyBGHdhf9Fz2+oyRFulgl/Ct5pcc1Y8Hiyl4RaFtnM6KzeNyIuT1vNs/OFOXWiSvzeDNuo3YRk+WILaUJn73m6Y6oVIesBJFfQNKtz8+O7HS5XBUUkLB7QdsGxRGP5TFSF28abYcLjtV1Crk836UGmaVUvHyA66SoNLNMYx06L1O1iLAowPHVB3X+JvZJ5odFgG/2VJVhC8OcOtmC9fJhtsSTU+TYetNNk26uAOOA7leYeEtJfZ/GrK5NN9xQ6G4si5W4RpCvkxyubEX/K6t8nsB5d7qvQhGRCMmRHJ70BOoAnA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDdTCCAl2gAwIBAgIEGIoNvzANBgkqhkiG9w0BAQsFADBrMQswCQYDVQQGEwJJVDELMAkGA1UE
+CBMCTU8xEDAOBgNVBAcTB1ZpZ25vbGExITAfBgNVBAoTGFVuaW9uZSBUZXJyZSBkaSBDYXN0ZWxs
+aTELMAkGA1UECxMCSVQxDTALBgNVBAMTBHNwaWQwHhcNMTcwNTI0MTIxODMzWhcNMzkwNDE5MTIx
+ODMzWjBrMQswCQYDVQQGEwJJVDELMAkGA1UECBMCTU8xEDAOBgNVBAcTB1ZpZ25vbGExITAfBgNV
+BAoTGFVuaW9uZSBUZXJyZSBkaSBDYXN0ZWxsaTELMAkGA1UECxMCSVQxDTALBgNVBAMTBHNwaWQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZkQcrxcQf/zfN88jyyDT8IgGUgG+tnK2q
+QGlgCcV9Mg/nyOUV5PTqPneh68vzWFuCxJuU2YGFMrVyh3ZpIP73rE9AkJfyJyCmAFvo+jhDZCdO
+SOeRxxixJtGFxQLLge2AxSPoXE/BAmP1+7fsJTqJSm380Cs2GljNqtjx6pm1p/9stQBm9LX6X8dc
+FyuSgVEwtO88Qo2J9+WwdaJqa8GClF8Zv2UqYW0Jyyrs+l2wRN6Z6tRs13hr57QJ+PWW1sg1Hri6
+RdGnGbG7Lgvfa7bIL4qa+AS2hW5vka7DrO1ojJmRmCweUoHI0U1hS3uaJjEDIO2WJiZuUUJv2ecr
+obMvAgMBAAGjITAfMB0GA1UdDgQWBBToZw/ZOHZckL/XeFOMZ+XsCJHs3zANBgkqhkiG9w0BAQsF
+AAOCAQEAaCjzCKWF8WafG2RJRnchSOZKlatfFBlBefGEUOUl3ZEskmuQ8M/HnhHZIKTnv1bPql6N
+xfSiVnf/uit7eUQeee+UZ0KayyVCSX0azs1JuldHVZN9YgUD8h0Aiq9e7pUbPZtFBpBGi12Ql8pB
+hI9vDcNMGbJ3pmbvif+jhd1WvLdAaquJpkkOepSR0LBXA33HKn8AjzZ2b6DddbeD3TUu3esGJ1in
++7kithYnPl8lHIzAHxW3BPdlIylSi4XDJITpLMuY3t4FONwjKSCNIMZ3lsoZOAuKfDCQgadk2+r5
+iriqKoSYOQ6cl256jeUnIR4Jlr6SIi1VLwqw4QwT7zwySA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDdTCCAl2gAwIBAgIEGIoNvzANBgkqhkiG9w0BAQsFADBrMQswCQYDVQQGEwJJVDELMAkGA1UE
+CBMCTU8xEDAOBgNVBAcTB1ZpZ25vbGExITAfBgNVBAoTGFVuaW9uZSBUZXJyZSBkaSBDYXN0ZWxs
+aTELMAkGA1UECxMCSVQxDTALBgNVBAMTBHNwaWQwHhcNMTcwNTI0MTIxODMzWhcNMzkwNDE5MTIx
+ODMzWjBrMQswCQYDVQQGEwJJVDELMAkGA1UECBMCTU8xEDAOBgNVBAcTB1ZpZ25vbGExITAfBgNV
+BAoTGFVuaW9uZSBUZXJyZSBkaSBDYXN0ZWxsaTELMAkGA1UECxMCSVQxDTALBgNVBAMTBHNwaWQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZkQcrxcQf/zfN88jyyDT8IgGUgG+tnK2q
+QGlgCcV9Mg/nyOUV5PTqPneh68vzWFuCxJuU2YGFMrVyh3ZpIP73rE9AkJfyJyCmAFvo+jhDZCdO
+SOeRxxixJtGFxQLLge2AxSPoXE/BAmP1+7fsJTqJSm380Cs2GljNqtjx6pm1p/9stQBm9LX6X8dc
+FyuSgVEwtO88Qo2J9+WwdaJqa8GClF8Zv2UqYW0Jyyrs+l2wRN6Z6tRs13hr57QJ+PWW1sg1Hri6
+RdGnGbG7Lgvfa7bIL4qa+AS2hW5vka7DrO1ojJmRmCweUoHI0U1hS3uaJjEDIO2WJiZuUUJv2ecr
+obMvAgMBAAGjITAfMB0GA1UdDgQWBBToZw/ZOHZckL/XeFOMZ+XsCJHs3zANBgkqhkiG9w0BAQsF
+AAOCAQEAaCjzCKWF8WafG2RJRnchSOZKlatfFBlBefGEUOUl3ZEskmuQ8M/HnhHZIKTnv1bPql6N
+xfSiVnf/uit7eUQeee+UZ0KayyVCSX0azs1JuldHVZN9YgUD8h0Aiq9e7pUbPZtFBpBGi12Ql8pB
+hI9vDcNMGbJ3pmbvif+jhd1WvLdAaquJpkkOepSR0LBXA33HKn8AjzZ2b6DddbeD3TUu3esGJ1in
++7kithYnPl8lHIzAHxW3BPdlIylSi4XDJITpLMuY3t4FONwjKSCNIMZ3lsoZOAuKfDCQgadk2+r5
+iriqKoSYOQ6cl256jeUnIR4Jlr6SIi1VLwqw4QwT7zwySA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDdTCCAl2gAwIBAgIEGIoNvzANBgkqhkiG9w0BAQsFADBrMQswCQYDVQQGEwJJVDELMAkGA1UE
+CBMCTU8xEDAOBgNVBAcTB1ZpZ25vbGExITAfBgNVBAoTGFVuaW9uZSBUZXJyZSBkaSBDYXN0ZWxs
+aTELMAkGA1UECxMCSVQxDTALBgNVBAMTBHNwaWQwHhcNMTcwNTI0MTIxODMzWhcNMzkwNDE5MTIx
+ODMzWjBrMQswCQYDVQQGEwJJVDELMAkGA1UECBMCTU8xEDAOBgNVBAcTB1ZpZ25vbGExITAfBgNV
+BAoTGFVuaW9uZSBUZXJyZSBkaSBDYXN0ZWxsaTELMAkGA1UECxMCSVQxDTALBgNVBAMTBHNwaWQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZkQcrxcQf/zfN88jyyDT8IgGUgG+tnK2q
+QGlgCcV9Mg/nyOUV5PTqPneh68vzWFuCxJuU2YGFMrVyh3ZpIP73rE9AkJfyJyCmAFvo+jhDZCdO
+SOeRxxixJtGFxQLLge2AxSPoXE/BAmP1+7fsJTqJSm380Cs2GljNqtjx6pm1p/9stQBm9LX6X8dc
+FyuSgVEwtO88Qo2J9+WwdaJqa8GClF8Zv2UqYW0Jyyrs+l2wRN6Z6tRs13hr57QJ+PWW1sg1Hri6
+RdGnGbG7Lgvfa7bIL4qa+AS2hW5vka7DrO1ojJmRmCweUoHI0U1hS3uaJjEDIO2WJiZuUUJv2ecr
+obMvAgMBAAGjITAfMB0GA1UdDgQWBBToZw/ZOHZckL/XeFOMZ+XsCJHs3zANBgkqhkiG9w0BAQsF
+AAOCAQEAaCjzCKWF8WafG2RJRnchSOZKlatfFBlBefGEUOUl3ZEskmuQ8M/HnhHZIKTnv1bPql6N
+xfSiVnf/uit7eUQeee+UZ0KayyVCSX0azs1JuldHVZN9YgUD8h0Aiq9e7pUbPZtFBpBGi12Ql8pB
+hI9vDcNMGbJ3pmbvif+jhd1WvLdAaquJpkkOepSR0LBXA33HKn8AjzZ2b6DddbeD3TUu3esGJ1in
++7kithYnPl8lHIzAHxW3BPdlIylSi4XDJITpLMuY3t4FONwjKSCNIMZ3lsoZOAuKfDCQgadk2+r5
+iriqKoSYOQ6cl256jeUnIR4Jlr6SIi1VLwqw4QwT7zwySA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.terredicastelli.mo.it/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.terredicastelli.mo.it/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.terredicastelli.mo.it/saml/SSO" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Base</md:ServiceName><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Avanzato</md:ServiceName><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="2"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Full</md:ServiceName><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Unione Terre di Castelli</md:OrganizationName><md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Unione Terre di Castelli</md:OrganizationDisplayName><md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.terredicastelli.mo.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

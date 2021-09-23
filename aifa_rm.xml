@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://servizionline.aifa.gov.it/" ID="sd50e6f01e1e57123dad6cb395576711cc93764af">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#sd50e6f01e1e57123dad6cb395576711cc93764af">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>mJi1lR3hiqClMo3+Vdnlw3LMd2k2QPkTuV7F9fQ+fhk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>YWzRocrTdJt9eIKPGZp4+2f9gOpDKrs9WGXvKdSm9iWnZH1QJpfU/7y9VJ3+uq/C
+1uaQ0Vy/97d/DkVdgdWvoBfKXbGYz3ruCHvfLTi3b21H+HAkvGyL2nr2eyzJtRar
+vZKCbvTBWCLIJzxXTUqW1wRdJGlEKmLTEpTMKalvw6wpBOdiVmNGXOMFjPxxvjtf
+9z5a21mpn40aITzRaLqt3063VdGQ9DwPW1r+Qk7sOypSn00tDYnSwRCNrqFTrt/v
++NY7JIr29fE2W2VmF2zE4nLiA4YHk751nOFmoe1MnPo5U2oeYqRFTWaZkXrc1Lww
+7f7EcTUK4s2DGE346UQCEA==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+
+<ds:X509Certificate>MIIGaDCCBVCgAwIBAgIQGegpcuQiFUd9Iu4/NoEIHDANBgkqhkiG9w0BAQsFADCB
+lTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRl
+IFNhbiBQaWV0cm8xIzAhBgNVBAoMGkFjdGFsaXMgUy5wLkEuLzAzMzU4NTIwOTY3
+MTQwMgYDVQQDDCtBY3RhbGlzIE9yZ2FuaXphdGlvbiBWYWxpZGF0ZWQgU2VydmVy
+IENBIEcyMB4XDTIwMDYwOTE1NTkxMFoXDTIxMDYxMzA4MjIxMFoweTELMAkGA1UE
+BhMCSVQxDTALBgNVBAgMBFJvbWExDTALBgNVBAcMBFJvbWExJTAjBgNVBAoMHEFn
+ZW56aWEgSXRhbGlhbmEgZGVsIEZhcm1hY28xDTALBgNVBAsMBEFJRkExFjAUBgNV
+BAMMDSouYWlmYS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCMuCzOJHizqlGXQAwsA3ORurmh5qH/pFn0g8hTrtjeWmsyOE9YstvSW+mB2eRO
+jVzkhf378Q+AGoYrvX7kMfGGo2juIygeHh3LK6EozwS9jgxvUJldj5B2gIJX+94Z
+PTKMWgWUpkTdJJ/1cqleZzFkCzzOfEkPWPh/XA5ur9G6EBR59B2HM4RmzvLk+ZTy
+evStb/nLu+tB+gEZPWucuxVpLzDtp4zCNbN3oKwxlO62FZHSHLaj2Po/5iNTBlzo
+yaKDtGn/dZdWmyvz7wsSvaz3vaStFDrbVvd0WdLZcxXhHsvPQ44Mvf+9+3Dx8CfL
+U+aPgYVdGwJkod01omVLwhTHAgMBAAGjggLNMIICyTAMBgNVHRMBAf8EAjAAMB8G
+A1UdIwQYMBaAFGL+uyeKZETtaJZaWHmh21omrf+7MH4GCCsGAQUFBwEBBHIwcDA7
+BggrBgEFBQcwAoYvaHR0cDovL2NhY2VydC5hY3RhbGlzLml0L2NlcnRzL2FjdGFs
+aXMtYXV0aG92ZzIwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwMDkuYWN0YWxpcy5p
+dC9WQS9BVVRIT1YtRzIwJQYDVR0RBB4wHIILYWlmYS5nb3YuaXSCDSouYWlmYS5n
+b3YuaXQwUQYDVR0gBEowSDA8BgYrgR8BEwEwMjAwBggrBgEFBQcCARYkaHR0cHM6
+Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25sb2FkMAgGBmeBDAECAjAdBgNVHSUE
+FjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwSAYDVR0fBEEwPzA9oDugOYY3aHR0cDov
+L2NybDA5LmFjdGFsaXMuaXQvUmVwb3NpdG9yeS9BVVRIT1YtRzIvZ2V0TGFzdENS
+TDAdBgNVHQ4EFgQUpbesO7k9yDFFt3CsOyF9HRzJab0wDgYDVR0PAQH/BAQDAgWg
+MIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHUAXNxDkv7mq0VEsV6a1FbmEDf71fpH
+3KFzlLJe5vbHDsoAAAFymde7CwAABAMARjBEAiAcjn7wlAz7DLW9N2hGcc1fhjDv
+S9savdfi9+C9hfE2mgIgO2oekcHMSG0xk4gwtDijrs3yuTBOwFdYWHpGKep7XA0A
+dwD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAAAXKZ17p+AAAEAwBI
+MEYCIQD0ZIaEoAOeM69PALik4LuJswjIBBxCZyKITXp8SGjoKAIhANbPQktMyh8L
+MA/ccOzuAHwB4XyUbHH/A6t7vyg/vF2cMA0GCSqGSIb3DQEBCwUAA4IBAQAhYXVv
+yK84TGhM3rcygIvLVdTPfl7N5geD43Ww39J/yZNb6smpVyJQkNKLhkFYBgxgX+0M
+vRrZ/mLK4/6P6PAKrbOBCloNghdoMJ+CHMcBRk8Ha/+IvInGOnJNQ6/yZ5FUgELB
+dzTmHHFm8Z0sygwZof4QUZbnyHyqXxl5pm/A2FC4/ltog1ekxfXZjcYl1R/+dLYz
+ouUXT0og+j+pw7HAmcq0OcE/wfyeKHlxNM7I0T68wc6cFxtVHPQXC7t4M0pkZsHF
+GM4pN/m+BVrI2FmGfrhJNna8GU6cBg0INIc/5rXZTCeNSo3dRtqwq5AVaZR9cB45
+/OfMepQ1816SJzLF</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+ <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIGaDCCBVCgAwIBAgIQGegpcuQiFUd9Iu4/NoEIHDANBgkqhkiG9w0BAQsFADCB
+lTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRl
+IFNhbiBQaWV0cm8xIzAhBgNVBAoMGkFjdGFsaXMgUy5wLkEuLzAzMzU4NTIwOTY3
+MTQwMgYDVQQDDCtBY3RhbGlzIE9yZ2FuaXphdGlvbiBWYWxpZGF0ZWQgU2VydmVy
+IENBIEcyMB4XDTIwMDYwOTE1NTkxMFoXDTIxMDYxMzA4MjIxMFoweTELMAkGA1UE
+BhMCSVQxDTALBgNVBAgMBFJvbWExDTALBgNVBAcMBFJvbWExJTAjBgNVBAoMHEFn
+ZW56aWEgSXRhbGlhbmEgZGVsIEZhcm1hY28xDTALBgNVBAsMBEFJRkExFjAUBgNV
+BAMMDSouYWlmYS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCMuCzOJHizqlGXQAwsA3ORurmh5qH/pFn0g8hTrtjeWmsyOE9YstvSW+mB2eRO
+jVzkhf378Q+AGoYrvX7kMfGGo2juIygeHh3LK6EozwS9jgxvUJldj5B2gIJX+94Z
+PTKMWgWUpkTdJJ/1cqleZzFkCzzOfEkPWPh/XA5ur9G6EBR59B2HM4RmzvLk+ZTy
+evStb/nLu+tB+gEZPWucuxVpLzDtp4zCNbN3oKwxlO62FZHSHLaj2Po/5iNTBlzo
+yaKDtGn/dZdWmyvz7wsSvaz3vaStFDrbVvd0WdLZcxXhHsvPQ44Mvf+9+3Dx8CfL
+U+aPgYVdGwJkod01omVLwhTHAgMBAAGjggLNMIICyTAMBgNVHRMBAf8EAjAAMB8G
+A1UdIwQYMBaAFGL+uyeKZETtaJZaWHmh21omrf+7MH4GCCsGAQUFBwEBBHIwcDA7
+BggrBgEFBQcwAoYvaHR0cDovL2NhY2VydC5hY3RhbGlzLml0L2NlcnRzL2FjdGFs
+aXMtYXV0aG92ZzIwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwMDkuYWN0YWxpcy5p
+dC9WQS9BVVRIT1YtRzIwJQYDVR0RBB4wHIILYWlmYS5nb3YuaXSCDSouYWlmYS5n
+b3YuaXQwUQYDVR0gBEowSDA8BgYrgR8BEwEwMjAwBggrBgEFBQcCARYkaHR0cHM6
+Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25sb2FkMAgGBmeBDAECAjAdBgNVHSUE
+FjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwSAYDVR0fBEEwPzA9oDugOYY3aHR0cDov
+L2NybDA5LmFjdGFsaXMuaXQvUmVwb3NpdG9yeS9BVVRIT1YtRzIvZ2V0TGFzdENS
+TDAdBgNVHQ4EFgQUpbesO7k9yDFFt3CsOyF9HRzJab0wDgYDVR0PAQH/BAQDAgWg
+MIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHUAXNxDkv7mq0VEsV6a1FbmEDf71fpH
+3KFzlLJe5vbHDsoAAAFymde7CwAABAMARjBEAiAcjn7wlAz7DLW9N2hGcc1fhjDv
+S9savdfi9+C9hfE2mgIgO2oekcHMSG0xk4gwtDijrs3yuTBOwFdYWHpGKep7XA0A
+dwD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAAAXKZ17p+AAAEAwBI
+MEYCIQD0ZIaEoAOeM69PALik4LuJswjIBBxCZyKITXp8SGjoKAIhANbPQktMyh8L
+MA/ccOzuAHwB4XyUbHH/A6t7vyg/vF2cMA0GCSqGSIb3DQEBCwUAA4IBAQAhYXVv
+yK84TGhM3rcygIvLVdTPfl7N5geD43Ww39J/yZNb6smpVyJQkNKLhkFYBgxgX+0M
+vRrZ/mLK4/6P6PAKrbOBCloNghdoMJ+CHMcBRk8Ha/+IvInGOnJNQ6/yZ5FUgELB
+dzTmHHFm8Z0sygwZof4QUZbnyHyqXxl5pm/A2FC4/ltog1ekxfXZjcYl1R/+dLYz
+ouUXT0og+j+pw7HAmcq0OcE/wfyeKHlxNM7I0T68wc6cFxtVHPQXC7t4M0pkZsHF
+GM4pN/m+BVrI2FmGfrhJNna8GU6cBg0INIc/5rXZTCeNSo3dRtqwq5AVaZR9cB45
+/OfMepQ1816SJzLF
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.aifa.gov.it/jam/SPSloPOST/metaAlias/spid" ResponseLocation="https://servizionline.aifa.gov.it/jam/SPSloPOST/metaAlias/spid"/>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.aifa.gov.it/jam/Consumer/metaAlias/spid"/>
+        <AttributeConsumingService index="0">
+            <ServiceName xml:lang="it">Portale AIFA</ServiceName>
+            <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </AttributeConsumingService>
+    </SPSSODescriptor>
+    <Organization>
+        <OrganizationName xml:lang="it">Aifa</OrganizationName>
+        <OrganizationDisplayName xml:lang="it">AIFA</OrganizationDisplayName>
+        <OrganizationURL xml:lang="it">https://servizionline.aifa.gov.it</OrganizationURL>
+    </Organization>
+</EntityDescriptor>

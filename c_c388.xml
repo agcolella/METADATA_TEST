@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor
+	xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+	xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:spid="https://spid.gov.it/saml-extensions"
+	ID="c388-214829d3-e4eb-4c4e-9659-639a4e102b47"
+	entityID="https://www.comune.jesolo.ve.it/metadato-ComuneJesolo-SPID.xml">
+
+	<md:SPSSODescriptor AuthnRequestsSigned="true"
+		WantAssertionsSigned="true"
+		protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIHNzCCBh+gAwIBAgIQE9+iKYKZH3xCiSwdSBmlrjANBgkqhkiG9w0BAQsFADCB
+						lTELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+						A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMT0wOwYDVQQD
+						EzRTZWN0aWdvIFJTQSBPcmdhbml6YXRpb24gVmFsaWRhdGlvbiBTZWN1cmUgU2Vy
+						dmVyIENBMB4XDTIwMDQxNTAwMDAwMFoXDTIyMDQxNjIzNTk1OVowgaYxCzAJBgNV
+						BAYTAklUMQ4wDAYDVQQREwUzMDAxNjEPMA0GA1UECBMGVmVuZXRvMQ8wDQYDVQQH
+						EwZKZXNvbG8xHTAbBgNVBAkTFFZJQSBTQU5UJyBBTlRPTklPIDExMRkwFwYDVQQK
+						ExBDb211bmUgZGkgSmVzb2xvMQswCQYDVQQLEwJJVDEeMBwGA1UEAwwVKi5jb211
+						bmUuamVzb2xvLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+						tm/CRyrLZ/yCM02vWGhDIIpE1YysrocMF6+cg5uSrnDDQ5k4exzsSkY/YwmiNQML
+						hlMg8rgUi66sWscUWR/gwNBUcqQlLPLZcWIkMXKIFm4CFgZzi2wCXRZhdkMtWBLC
+						BwaBIS3iIfrK3Rzt8aI/yE0AQPqHHd3oS6u/0MjNnA05VMYlB4q9DoqZOjVEz73i
+						6XBXFobIsAMAXBf9ZH67N8vPB745Q8rUWj1qsVEHEn/JbUXlImV7bkiP1fcV1+2g
+						ceTPV6/YdPk9JFv8s6TIUdLqxoaqMtZKSYAMxTJHpD8Wtdbl6ow0/J08Z1V6wMvH
+						gKYlzBhPOZ+BjRYnX8ofLwIDAQABo4IDbjCCA2owHwYDVR0jBBgwFoAUF9nWJSdn
+						+THCSUPZMDZEjGypT+swHQYDVR0OBBYEFJQphyIxkF2j/+kiSuoE8QJeWAhhMA4G
+						A1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMB
+						BggrBgEFBQcDAjBKBgNVHSAEQzBBMDUGDCsGAQQBsjEBAgEDBDAlMCMGCCsGAQUF
+						BwIBFhdodHRwczovL3NlY3RpZ28uY29tL0NQUzAIBgZngQwBAgIwWgYDVR0fBFMw
+						UTBPoE2gS4ZJaHR0cDovL2NybC5zZWN0aWdvLmNvbS9TZWN0aWdvUlNBT3JnYW5p
+						emF0aW9uVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBLmNybDCBigYIKwYBBQUHAQEE
+						fjB8MFUGCCsGAQUFBzAChklodHRwOi8vY3J0LnNlY3RpZ28uY29tL1NlY3RpZ29S
+						U0FPcmdhbml6YXRpb25WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EuY3J0MCMGCCsG
+						AQUFBzABhhdodHRwOi8vb2NzcC5zZWN0aWdvLmNvbTA1BgNVHREELjAsghUqLmNv
+						bXVuZS5qZXNvbG8udmUuaXSCE2NvbXVuZS5qZXNvbG8udmUuaXQwggF9BgorBgEE
+						AdZ5AgQCBIIBbQSCAWkBZwB2AEalVet1+pEgMLWiiWn0830RLEF0vv1JuIWr8vxw
+						/m1HAAABcXy27YUAAAQDAEcwRQIgfr+VOWlaiWqQljR46qPRgaX8oblG2SLLbtan
+						ym4MY1sCIQDrNtlb3XdPMqa6wouYviVe+46ShDz2WBjOLpiIW7aC3AB2AN+lXqto
+						gk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABcXy27lYAAAQDAEcwRQIhAJ66
+						VonsIiAyi8LAqtJ0iF+HY/yoRAV4J1LPU1fn2aXrAiAKQhKsb2As/GqHr2ZRq4zD
+						6eYqp61hA1QBoebxxhXbAQB1AEHIyrHfIkZKEMahOglCh15OMYsbA+vrS8do8JBi
+						lgb2AAABcXy27ckAAAQDAEYwRAIgIPaQ/P73v42q+svkV4SAFSBG+hA5CD08623Z
+						kb655ZwCIEneBLZrWjDWmZhfSRo1NrWfs7Ym81UX0IRrQxUgby27MA0GCSqGSIb3
+						DQEBCwUAA4IBAQAE6Uv73/6MpknFfkn/5mlnOcxi3CJgkquWvIdXLrnk6hXl3FS2
+						TNJobQkaz5U0gV5ADZl7raLs6epQP50QWpDIhvJJ2lBsuyg06eF7RXuKRZf2M0M6
+						0r8sttnNyJ0kkjCBTO/oD9huGvAlB7oyXbI7J0aPWIRye75hd0EJxxjA/wOPZJmp
+						2/kA8/YSD6KYlD7dvTv5hVluRU/OY4sK3f6yqV1ox0EIyoL6QlujjbV5z2rv+FGZ
+						C2Ybt/ZUKQtA+Wl/q733e5fX3p1A74ChM1lPnjMFcxcaIKixcLWJBi6jUfG0vbUb
+						1gXcPW8MAFpSJkSqMVxnqDz27XuyF2RUSOdK
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<!-- MUNICIPIA - Signing Key - BEGIN -->
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDcTCCAlmgAwIBAgIEXzIvJzANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJJ
+						VDELMAkGA1UECBMCQk8xEDAOBgNVBAcTB0JvbG9nbmExEjAQBgNVBAoTCU11bmlj
+						aXBpYTETMBEGA1UECxMKT3BlcmF0aW9uczESMBAGA1UEAxMJbG9jYWxob3N0MB4X
+						DTE4MDcxNzE1NDY1NloXDTI4MDcxNDE1NDY1NlowaTELMAkGA1UEBhMCSVQxCzAJ
+						BgNVBAgTAkJPMRAwDgYDVQQHEwdCb2xvZ25hMRIwEAYDVQQKEwlNdW5pY2lwaWEx
+						EzARBgNVBAsTCk9wZXJhdGlvbnMxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIwDQYJ
+						KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKj61RtVuZRzF5VtWO62rV2w0KQD69kW
+						JITfcJu1BAZdEimDSmTYtwRZeXMoK7iVwioj2K9G0mm7W5YXjwaReEzzLhr/FfYp
+						UCrlVHONdmcF1k716qKGIlTC48Xxz3t51lCmeOrMpq6UfX9kU5CoSaEzB2OpWoxs
+						C4TU42CI9jxCsLlth0ucUtFKrs2UxlEJm3lGiG+BafS6JK0C4ltoLEj8leR/5ofB
+						BbPVyvksTYZCDPtVAsgamvSxiZ+wr7Af2F13e1BNyWMOuJe4xkqIlto/V54nGFjX
+						D7XTrAK3nftnK8RW0ZfOAd1kLDy+Wq/KyCkmt4JmocjYnEWCbIV0nnMCAwEAAaMh
+						MB8wHQYDVR0OBBYEFMxUIz9pyKP7ypluWp9qN8GZgMsMMA0GCSqGSIb3DQEBCwUA
+						A4IBAQCADGJcwiJ2YeIgLcjCFO6PPTEnPx8PfEGg9jpUHU7cXocuGQWha0SwxxLo
+						ObAVSuptFK9k8GMFHZ5VjwT2nsjpuEubfrvLeIKRnzCGAbnL/ZBYE6L1PNtup/T9
+						9196dPDHtTDWXlGw6pKyokk3oEWYxAy+htV6XdPtUWQysZFAhh80i6ik3alOOWyi
+						ii74Fn0Mh7R80LZQBE6r/B9pRt3OTJiF4aTxBHm2JVniWWJu8luSnMhuwEL2Wg9U
+						JtWvvP11YRreRWxaTWurwhqfZF/gsvKRUPHx+ZIEh74zFvBhq5MWtDHxLKNCMVRf
+						ly/DUosV2BQ3akE1fx92rzzS5pqC
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<!-- MUNICIPIA - Signing Key - END -->
+
+		<!-- ARGO - SingleLogout - BEGIN -->
+		<md:SingleLogoutService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+			Location="https://cizrm.municipia.eng.it/logout" />
+		<!-- ARGO - SingleLogout - END -->
+
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		
+		<!-- ARGO - ACS - BEGIN -->
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+			Location="https://cizrm-be.municipia.eng.it/auth-middleware/acs"
+			index="0" isDefault="true" />
+		<!-- ARGO - ACS - END -->
+
+		<!-- ARGO - Attributes - BEGIN -->
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">fe-cittadino</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">ARGO - Portale
+				Cittadino</md:ServiceDescription>
+			<md:RequestedAttribute
+				FriendlyName="Codice identificativo SPID" Name="spidCode"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Codice fiscale" Name="fiscalNumber"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute FriendlyName="Cognome"
+				Name="familyName"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute FriendlyName="Nome"
+				Name="name"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute FriendlyName="Sesso"
+				Name="gender"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Data di nascita" Name="dateOfBirth"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Nazione di nascita" Name="countyOfBirth"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Luogo di nascita" Name="placeOfBirth"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Partita IVA" Name="ivaCode"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute FriendlyName="Azienda"
+				Name="companyName"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Numero di telefono (mobile)" Name="mobilePhone"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Indirizzo e-mail" Name="email"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute
+				FriendlyName="Indirizzo digitale" Name="digitalAddress"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+			<md:RequestedAttribute FriendlyName="Indirizzo"
+				Name="address"
+				NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+		</md:AttributeConsumingService>
+		<!-- ARGO - Attributes - END -->
+
+
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Jesolo
+		</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune
+			di Jesolo</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.jesolo.ve.it
+		</md:OrganizationURL>
+	</md:Organization>
+		<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>c_c388</spid:IPACode>
+			<spid:Public />
+		</md:Extensions>
+		<md:EmailAddress>sistemi.informativi@comune.jesolo.ve.it</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>

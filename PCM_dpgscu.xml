@@ -1,0 +1,115 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_24B862E9-E93E-4E74-BBE5-C5668495560D" entityID="https://spid.politichegiovanilieserviziocivile.gov.it" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance">
+  <Signature Id="Signature-3e94cf32-bf0a-47d2-a97f-84e1d8e2756b" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>IFcIjQWSluMPfxuo7d34nHwgmsZNmS7snFHkDVymjBk=</DigestValue></Reference></SignedInfo><SignatureValue>IV3v3DBvcWZyxbeVvqUS2CDJnoyeYaAOtyEpYnmoCkAOUVqll9Tkm2Hq6NvBjCbEK3kkrFP9U/LvXmJF7iHcjqJK2fEv0CNmVoChNFoEUGs53CMSwwAEtz3YmxSRH+6Zykw3b7XkhnsRVxJFqZCODLyepC4GO6vfx3j3G1o7/VrhtFI6AikET6l8pod2nnVj2kOb4WrEYn1Afnvk7DDcxifFbw5sFf6BiFvUBYko0NAGS9cmyt8ykfuOLiQ9gE6JeayE0btqPyNWTnRNonS6uU1oO4raR4G46/Q04qSFBlswdeTARmMw7KQdf3b7jjPhSGQQfdnIpb0b/tbE3YYknQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo><Object><xds:QualifyingProperties Target="#Signature-3e94cf32-bf0a-47d2-a97f-84e1d8e2756b" xmlns:xds="http://uri.etsi.org/01903/v1.3.2#"><xds:SignedProperties Id="SignedPropertiesId"><ds:SignedSignatureProperties xmlns:ds="http://uri.etsi.org/01903/v1.3.2#"><xds:SigningTime>2020-04-22T13:25:30Z</xds:SigningTime><xds:SigningCertificate><xds:Cert><ds:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" xmlns:ds="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue xmlns:ds="http://www.w3.org/2001/04/xmlenc#sha256">b7Uno2eqrSUXNZeLfRD/9j+t0vywFABonB9LrR2xBQg=</ds:DigestValue></ds:CertDigest><ds:IssuerSerial><ds:X509IssuerName xmlns:ds="http://www.w3.org/2002/06/xmldsig-filter2">CN=Poste Italiane EU Qualified Certificates CA, OID.2.5.4.97=VATIT-01114601006, O=Poste Italiane S.p.A., C=IT</ds:X509IssuerName><ds:X509SerialNumber xmlns:ds="http://www.w3.org/2002/06/xmldsig-filter2">35B687A71DE2BBC9</ds:X509SerialNumber></ds:IssuerSerial></xds:Cert></xds:SigningCertificate></ds:SignedSignatureProperties></xds:SignedProperties></xds:QualifyingProperties></Object></Signature><md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509SubjectName>emailAddress=gi.rossi@governo.it,CN=spid.politichegiovanilieserviziocivile.gov.it,OU=PositiveSSL,O=DGSCU,L=Roma,ST=Roma,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>
+	MIIGHDCCBQSgAwIBAgIRANVNO/0EjVBfpr9skIxeJuQwDQYJKoZIhvcNAQELBQAw
+	gY8xCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO
+	BgNVBAcTB1NhbGZvcmQxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE3MDUGA1UE
+	AxMuU2VjdGlnbyBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBD
+	QTAeFw0yMDA0MTcwMDAwMDBaFw0yMTA1MTcyMzU5NTlaMDgxNjA0BgNVBAMTLXNw
+	aWQucG9saXRpY2hlZ2lvdmFuaWxpZXNlcnZpemlvY2l2aWxlLmdvdi5pdDCCASIw
+	DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMamdXB7jP0LcThjJtMbTaPKtmvO
+	qVl7OQyrbw+spfJIrLWPTE99RNJTcMrVGID8LtfHylAx7NOG6a2JOp+15tUF0/Po
+	/ODq+d8KEFxpLznBz27wczYHLfrMwNOO2UaM9HPuHoP17M/zE8EVHlqi4Z4Oh8+c
+	cgshAas/kC61DUV9mCSfb174s89ITT2Eyf/34taeiFU4RQqXdUe1diAUIoXydfhy
+	2Dlj2QNJjjChC+L/Ugenf8ea3UdYz+LTG8bJ5j9bXLcexYivEv15LPfDKxiGsSb2
+	50tJ2qZBq+DtxgO72jp0u05AEjEg+XTVx3RDx9t51GhoQTBycvT8Tj7G1AMCAwEA
+	AaOCAscwggLDMB8GA1UdIwQYMBaAFI2MXsRUrYrhd+mb+ZsF4bgBjWHhMB0GA1Ud
+	DgQWBBRbVUdG7lfrqTJxqbPXTEVOgFrmeTAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0T
+	AQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwSQYDVR0gBEIw
+	QDA0BgsrBgEEAbIxAQICBzAlMCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3RpZ28u
+	Y29tL0NQUzAIBgZngQwBAgEwgYQGCCsGAQUFBwEBBHgwdjBPBggrBgEFBQcwAoZD
+	aHR0cDovL2NydC5zZWN0aWdvLmNvbS9TZWN0aWdvUlNBRG9tYWluVmFsaWRhdGlv
+	blNlY3VyZVNlcnZlckNBLmNydDAjBggrBgEFBQcwAYYXaHR0cDovL29jc3Auc2Vj
+	dGlnby5jb20wawYDVR0RBGQwYoItc3BpZC5wb2xpdGljaGVnaW92YW5pbGllc2Vy
+	dml6aW9jaXZpbGUuZ292Lml0gjF3d3cuc3BpZC5wb2xpdGljaGVnaW92YW5pbGll
+	c2Vydml6aW9jaXZpbGUuZ292Lml0MIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHUA
+	fT7y+I//iFVoJMLAyp5SiXkrxQ54CX8uapdomX4i8NcAAAFxh6ph/QAABAMARjBE
+	AiBIZpEJUhDJjBNxCO8ZtNmcLtxkujA1OGW+oEuaUCTQKQIgBCRsni+PTc0K4lUj
+	kv/UrARbac6uztzzHGIVRXSXM64AdgCUILwejtWNbIhzH4KLIiwN0dpNXmxPlD1h
+	204vWE2iwgAAAXGHqmIkAAAEAwBHMEUCIQCKSaF2lj8U++7IOE0Tca15Wy6eU9E/
+	NnyyTI2SdXSYeQIgF28lJkZIplo0S36GfzJ2Y6BdFh+LH3UX0VsC92k6ggswDQYJ
+	KoZIhvcNAQELBQADggEBAF3KDITa0TZLv4OycuSRdIucb01cLEBNe45xOesBxHeR
+	4zLqUKlvQeOWikB1awPYJNyNUT8kFQIUh9DcwYxZRKuRpPzlIVDwSw6a2zdtDBIp
+	BKqHu9T2HTVgS7jZGrgJJqkKHTThHAyp99BHrY0COkqyMzsH1X55wIbWQ2eA6RD8
+	/SetAcmHT5wyqAYcP4P6uYtnlBr7FFKNrciQ8N7ga1QX7l6SMD2gE8fAxs3REvY+
+	nLnSzcv6nbxVouuqTTu7A1o9Z83bC/GK1fLx8w6WUTg5dIgikaN6HgxW/taz+G0g
+	J9t+WCGrqCt85ceHZmN/iL3gtsLg6Zak9aiArukEVZA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.politichegiovanilieserviziocivile.gov.it/ACS/Logout" />   
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.politichegiovanilieserviziocivile.gov.it/nodo1/assertionConsumerService/POST" isDefault="true" index="0" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.politichegiovanilieserviziocivile.gov.it/ACS/" index="1" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.politichegiovanilieserviziocivile.gov.it/nodo2/assertionConsumerService/POST" index="2" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.politichegiovanilieserviziocivile.gov.it/nodo2/assertionConsumerService/redirect" index="3" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">serviziClasse1</md:ServiceName>
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="gender" />
+      <md:RequestedAttribute Name="dateOfBirth" />
+      <md:RequestedAttribute Name="fiscalNumber" />
+      <md:RequestedAttribute Name="email" />
+      <md:RequestedAttribute Name="placeOfBirth" />
+      <md:RequestedAttribute Name="countyOfBirth" />
+      <md:RequestedAttribute Name="idCard" />
+      <md:RequestedAttribute Name="mobilePhone" />
+      <md:RequestedAttribute Name="address" />
+      <md:RequestedAttribute Name="expirationDate" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">serviziClasse2</md:ServiceName>
+      <md:RequestedAttribute Name="fiscalNumber" />
+      <md:RequestedAttribute Name="spidCode" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">serviziClasse3</md:ServiceName>
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="gender" />
+      <md:RequestedAttribute Name="dateOfBirth" />
+      <md:RequestedAttribute Name="fiscalNumber" />
+      <md:RequestedAttribute Name="email" />
+      <md:RequestedAttribute Name="placeOfBirth" />
+      <md:RequestedAttribute Name="countyOfBirth" />
+      <md:RequestedAttribute Name="idCard" />
+      <md:RequestedAttribute Name="mobilePhone" />
+      <md:RequestedAttribute Name="address" />
+      <md:RequestedAttribute Name="companyName" />
+      <md:RequestedAttribute Name="registeredOffice" />
+      <md:RequestedAttribute Name="ivaCode" />
+      <md:RequestedAttribute Name="digitalAddress" />
+      <md:RequestedAttribute Name="expirationDate" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="spidCode" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address" />
+      <md:RequestedAttribute Name="dateOfBirth" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="gender" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="placeOfBirth" />
+      <md:RequestedAttribute Name="spidCode" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">DGSCU</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Presidenza del Consiglio dei Ministri - Dipartimento per le politiche giovanili e il Servizio civile universale</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.politichegiovanilieserviziocivile.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

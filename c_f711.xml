@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Morazzone" entityID="https://www.comune.morazzone.va.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Morazzone">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>n5K0GzYPM9iuUhodhHFgZTHWBD57Cuxb71Nm7lqVyZI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+tovfCGKNLAMLOZzylMV03O6GMr4Kbl5M0YbEf0sWBTeJeNj7F6RLPlSWq+X48n+Gtb/wCNwZ0z0X
+78nGVPZcbJl/TqSlRJAhjZzVrEglouH6hRXHltWbTyw/rBXLCmC4Zw5sRMelOC3C+wR13VZu9zRb
+ijg4joAR9l6Z8bwpyjL+4nVnzwcunZAfiVQqTSigs9Y/fx+u7sr0SQiAE0njVtntJp/6jiAvWSc3
+iEO4+ttMC32Xr4pLiR79giRGeRDpUPe1UaP2OQ6hCsRDlDSnt5a3jO9oCMrf3ZO6dDke2ZdLWX6P
+Uq20OmFaC0QBWFjbh2uJTMbJZ+Tvhr0kFTOMcQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vCOaXjiWnOkpvR6UGjSKoY+JPFzYfthKY8pNTsKj0hOZqosMHRR69uFPMNdxf1OOD/OFhSSS74el
+xVRYeTG0IRY8/5QOeqGoQ6B6msCUg+rn5h6UJtOJbth+sILMgc29O/fSYPR5hC4kzhSt3YzbymN5
+7fbBaq8+mrFDxFA4d7Wkk4cpCJVuI/udDwBB9yTliEigsFuAsC5OJ8oVXfujNroWWe9koeW2xu0H
+iqKeg0KW6qQ0XVj7oHzWToW3yF9PJQUHZx+0AAKs01yOev2bUCvNa1t8EaTcGfkCHHxnH9cw3I/W
+klIvzBgo4H7F90aIqfxGCMrS4nzdQaN2EXPdKw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJALUmtOw/wq/wMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUubW9yYXp6b25lLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA4
+MDcwODA4MjVaFw0zMDA4MDUwODA4MjVaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9yYXp6b25l
+LnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALwjml44lpzpKb0elBo0iqGPiTxc2H7YSmPKTU7Co9ITmaqLDB0UevbhTzDXcX9T
+jg/zhYUkku+HpcVUWHkxtCEWPP+UDnqhqEOgeprAlIPq5+YelCbTiW7YfrCCzIHNvTv30mD0eYQu
+JM4Urd2M28pjee32wWqvPpqxQ8RQOHe1pJOHKQiVbiP7nQ8AQfck5YhIoLBbgLAuTifKFV37oza6
+FlnvZKHltsbtB4qinoNCluqkNF1Y+6B81k6Ft8hfTyUFB2cftAACrNNcjnr9m1ArzWtbfBGk3Bn5
+Ahx8Zx/XMNyP1pJSL8wYKOB+xfdGiKn8RgjK0uJ83UGjdhFz3SsCAwEAAaNQME4wHQYDVR0OBBYE
+FCJJZxo8bKGP3HUNBhlABCdJxpaRMB8GA1UdIwQYMBaAFCJJZxo8bKGP3HUNBhlABCdJxpaRMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAI4Mx/CxOuhy46p0pHFVaRYN2H53fL/QzKhN
+CpmxjNL5AAq5ZR1FgF2HBxuPzuLF9oLJJqvzjYB20xN9ttwRB0RovxHGkaW5cC2e10Ii4yXhp9MC
+aj+7WWLheyg1txu9Y3sXXPhD0n5Y7yY/gcWhYU3M8MDoPA5zYM+9eL082cGyE80xB8GTEJUOh1Bt
+lRtSpp2WHJsWTKY3hnlTYwqBMU3VROu9/8BtcaAStQzZy9NxpvtWsqyXYFESvAsRG7o+WflfXmLU
+Mb6fnxl+cKo9LHhireUG4SRQAZgpk3ETOFE3wxl4YnGM+bBigkRfxvOeqn8OPlIBqmInZtDm9oKW
+Xt4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJALUmtOw/wq/wMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9yYXp6b25lLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA4MDcwODA4MjVaFw0zMDA4MDUwODA4MjVaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9yYXp6b25lLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALwjml44lpzpKb0elBo0iqGPiTxc2H7YSmPKTU7Co9ITmaqLDB0UevbhTzDXcX9Tjg/zhYUkku+HpcVUWHkxtCEWPP+UDnqhqEOgeprAlIPq5+YelCbTiW7YfrCCzIHNvTv30mD0eYQuJM4Urd2M28pjee32wWqvPpqxQ8RQOHe1pJOHKQiVbiP7nQ8AQfck5YhIoLBbgLAuTifKFV37oza6FlnvZKHltsbtB4qinoNCluqkNF1Y+6B81k6Ft8hfTyUFB2cftAACrNNcjnr9m1ArzWtbfBGk3Bn5Ahx8Zx/XMNyP1pJSL8wYKOB+xfdGiKn8RgjK0uJ83UGjdhFz3SsCAwEAAaNQME4wHQYDVR0OBBYEFCJJZxo8bKGP3HUNBhlABCdJxpaRMB8GA1UdIwQYMBaAFCJJZxo8bKGP3HUNBhlABCdJxpaRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAI4Mx/CxOuhy46p0pHFVaRYN2H53fL/QzKhNCpmxjNL5AAq5ZR1FgF2HBxuPzuLF9oLJJqvzjYB20xN9ttwRB0RovxHGkaW5cC2e10Ii4yXhp9MCaj+7WWLheyg1txu9Y3sXXPhD0n5Y7yY/gcWhYU3M8MDoPA5zYM+9eL082cGyE80xB8GTEJUOh1BtlRtSpp2WHJsWTKY3hnlTYwqBMU3VROu9/8BtcaAStQzZy9NxpvtWsqyXYFESvAsRG7o+WflfXmLUMb6fnxl+cKo9LHhireUG4SRQAZgpk3ETOFE3wxl4YnGM+bBigkRfxvOeqn8OPlIBqmInZtDm9oKWXt4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJALUmtOw/wq/wMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9yYXp6b25lLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA4MDcwODA4MjVaFw0zMDA4MDUwODA4MjVaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9yYXp6b25lLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALwjml44lpzpKb0elBo0iqGPiTxc2H7YSmPKTU7Co9ITmaqLDB0UevbhTzDXcX9Tjg/zhYUkku+HpcVUWHkxtCEWPP+UDnqhqEOgeprAlIPq5+YelCbTiW7YfrCCzIHNvTv30mD0eYQuJM4Urd2M28pjee32wWqvPpqxQ8RQOHe1pJOHKQiVbiP7nQ8AQfck5YhIoLBbgLAuTifKFV37oza6FlnvZKHltsbtB4qinoNCluqkNF1Y+6B81k6Ft8hfTyUFB2cftAACrNNcjnr9m1ArzWtbfBGk3Bn5Ahx8Zx/XMNyP1pJSL8wYKOB+xfdGiKn8RgjK0uJ83UGjdhFz3SsCAwEAAaNQME4wHQYDVR0OBBYEFCJJZxo8bKGP3HUNBhlABCdJxpaRMB8GA1UdIwQYMBaAFCJJZxo8bKGP3HUNBhlABCdJxpaRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAI4Mx/CxOuhy46p0pHFVaRYN2H53fL/QzKhNCpmxjNL5AAq5ZR1FgF2HBxuPzuLF9oLJJqvzjYB20xN9ttwRB0RovxHGkaW5cC2e10Ii4yXhp9MCaj+7WWLheyg1txu9Y3sXXPhD0n5Y7yY/gcWhYU3M8MDoPA5zYM+9eL082cGyE80xB8GTEJUOh1BtlRtSpp2WHJsWTKY3hnlTYwqBMU3VROu9/8BtcaAStQzZy9NxpvtWsqyXYFESvAsRG7o+WflfXmLUMb6fnxl+cKo9LHhireUG4SRQAZgpk3ETOFE3wxl4YnGM+bBigkRfxvOeqn8OPlIBqmInZtDm9oKWXt4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/morazzone"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/morazzone" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/morazzone" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/morazzone" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Morazzone</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Morazzone</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Morazzone</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Morazzone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Morazzone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Morazzone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Morazzone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Morazzone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.morazzone.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.morazzone.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.morazzone.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.morazzone.va.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

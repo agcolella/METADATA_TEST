@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Maccagno" entityID="https://www.comune.maccagno.va.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Maccagno">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4+S9jZZP+24NfW4FUuyuy1SPfnV1mY8w9wB0sJ6Fklc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+x2jXn+556hjkchEZ90G48fONr7JcZoW41n0RLUdIGBYqAxJzDyKiyXBy+SKU50+URzs2ImMjkvKh
+tbzzUCXwRC1ss9d92SZ/ZQpL/4FtUqiJoZvAqBGwWImoRU+ETgYPSChtx7+FeQYNu2BNceu2Ninv
++HaiHFN4rKl+7Yo5p8Ud2lubMhGGTSppE/3g+m3+fAzTXR2omHw8ZnqB2m9iX9Jzjwnb9Nn3zOir
+TNiYyj526MelDbhfpSaqsHUh843NfjQOw01xhL5NSaK/Fb4uGFUbxgLDFgUxznv8bobPqf2X8Ifn
+JJogt7HWcC2/QSEsJVEPtnoZTXDUNRcMfywrrA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0XSIUoP6IhLMjTYBQsmS8j7i3LpU7VHyLKImgBIRW/b65hHMghmyJR6E5EqEYY6mUvEqmlPe2zOv
+wVrtN30ZRpqsQud5IHmlajKxlWFSGNfF6x9YhFiQs27j7iU3Q7d2PN/qrfGSHD1Abh6wmW28SqwI
+kPHr+2O+9g/a4IxcS3Mrmss9SUvugma/MWc2gFpL3TxCGw1CX8efBd9pka3PGfQaVytmMJPHUzLj
+J7onVVWg7GdDTyYMBwVuLHpgCHmaK1N/zzg/cjfM+teNz+466VihmVrt9xKvHjyrcpED4McLKPTL
+3s1ttpxmvrFKljUIsqLuAo8paGsWG44Mc5bFMw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAJQKHEqeBOEeMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUubWFjY2Fnbm8udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEw
+ODE0MzA0OFoXDTI4MDEwNjE0MzA0OFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYWNjYWduby52
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDRdIhSg/oiEsyNNgFCyZLyPuLculTtUfIsoiaAEhFb9vrmEcyCGbIlHoTkSoRhjqZS
+8SqaU97bM6/BWu03fRlGmqxC53kgeaVqMrGVYVIY18XrH1iEWJCzbuPuJTdDt3Y83+qt8ZIcPUBu
+HrCZbbxKrAiQ8ev7Y772D9rgjFxLcyuayz1JS+6CZr8xZzaAWkvdPEIbDUJfx58F32mRrc8Z9BpX
+K2Ywk8dTMuMnuidVVaDsZ0NPJgwHBW4semAIeZorU3/POD9yN8z6143P7jrpWKGZWu33Eq8ePKty
+kQPgxwso9MvezW22nGa+sUqWNQiyou4CjyloaxYbjgxzlsUzAgMBAAGjUDBOMB0GA1UdDgQWBBQY
+VZoFxLKfXuFymq+Nm32cqJmsVjAfBgNVHSMEGDAWgBQYVZoFxLKfXuFymq+Nm32cqJmsVjAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQABrIWut1BQxQq/5bEfo1Ru/5mLxngJzFEOYvAX
+dKgTfD+2zNyMF4qhadPmla4nFKJo+FMeoM4istuwFQekq8tzIq0auLI4BNGfXNptVtblViOkreXJ
+NeW1SxcyPvSPyjBT9ZeK7X/ZFEdbkcE8me9iwAc2pkpREcHMIVFW3/2i54XxvzhxelIkUrsBfuF5
+MMdNpA+nyOCpGMKOINwBOktXi+IpZAc+/sSVfUU4qPVYtI0C2pOoCe2oqmdW32721q0lC9bPCFWc
+Raqya3FbcgsHQlI2FUlxncd/QfQg5aIrqUP6qTOFuOZ8rNzJGVfUOXfJ5r1ieCXRPWkVmK1gpdL1
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAJQKHEqeBOEeMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubWFjY2Fnbm8udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEwODE0MzA0OFoXDTI4MDEwNjE0MzA0OFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYWNjYWduby52YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRdIhSg/oiEsyNNgFCyZLyPuLculTtUfIsoiaAEhFb9vrmEcyCGbIlHoTkSoRhjqZS8SqaU97bM6/BWu03fRlGmqxC53kgeaVqMrGVYVIY18XrH1iEWJCzbuPuJTdDt3Y83+qt8ZIcPUBuHrCZbbxKrAiQ8ev7Y772D9rgjFxLcyuayz1JS+6CZr8xZzaAWkvdPEIbDUJfx58F32mRrc8Z9BpXK2Ywk8dTMuMnuidVVaDsZ0NPJgwHBW4semAIeZorU3/POD9yN8z6143P7jrpWKGZWu33Eq8ePKtykQPgxwso9MvezW22nGa+sUqWNQiyou4CjyloaxYbjgxzlsUzAgMBAAGjUDBOMB0GA1UdDgQWBBQYVZoFxLKfXuFymq+Nm32cqJmsVjAfBgNVHSMEGDAWgBQYVZoFxLKfXuFymq+Nm32cqJmsVjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQABrIWut1BQxQq/5bEfo1Ru/5mLxngJzFEOYvAXdKgTfD+2zNyMF4qhadPmla4nFKJo+FMeoM4istuwFQekq8tzIq0auLI4BNGfXNptVtblViOkreXJNeW1SxcyPvSPyjBT9ZeK7X/ZFEdbkcE8me9iwAc2pkpREcHMIVFW3/2i54XxvzhxelIkUrsBfuF5MMdNpA+nyOCpGMKOINwBOktXi+IpZAc+/sSVfUU4qPVYtI0C2pOoCe2oqmdW32721q0lC9bPCFWcRaqya3FbcgsHQlI2FUlxncd/QfQg5aIrqUP6qTOFuOZ8rNzJGVfUOXfJ5r1ieCXRPWkVmK1gpdL1
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/maccagno"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maccagno" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maccagno" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Maccagno con Pino e Veddasca</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Maccagno con Pino e Veddasca</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Maccagno con Pino e Veddasca</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Maccagno con Pino e Veddasca</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Maccagno con Pino e Veddasca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Maccagno con Pino e Veddasca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Maccagno con Pino e Veddasca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Maccagno con Pino e Veddasca</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.maccagno.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.maccagno.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.maccagno.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.maccagno.va.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

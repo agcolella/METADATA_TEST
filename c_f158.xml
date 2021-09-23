@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizicimiteriali.comune.messina.it/" ID="_9366515cb067ecb3ab6596f84873948cb438356d20637d07525ff10f4088d126"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_9366515cb067ecb3ab6596f84873948cb438356d20637d07525ff10f4088d126"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>tpfWu6hLnINVB3UaTa0S5AtlpVK9ZcuKTrWd2ZjH9Oo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>RGeylmbChdODBQKbxr6G79zMXaqRbAuQ0gtXVS6v2b9uk1C5DXebSvpDvFYnJ9f8fAtSUAYofLi4FtHngdFJU8/RnyUMdelFALrv5FLsYaPAG6pgYm2WiDyE94yXp48HKjhi33m+e8n5EuORP1tMQzRa0RozzYglXrnuJKfCN5mgsFfOHCjGAH5e+rMDC6IBU5AX07k+aQhepa0Muzhts7cbe+0kl/cAcF+0nOIVITHPGeUebR+SH6HHgzG0zAK/C+58xyjwFRzNu9YTD6s4Gn/LuxeQQ5audAffJ5Lx6z9KbW115LbbBxkmvU6cyeNKr86dssKG3iXDiq8o08j1fQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEGTCCAwGgAwIBAgIUEOg1SiCAYU5UIqjGlEHxvsi4ho4wDQYJKoZIhvcNAQELBQAwgZsxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNZXNzaW5hMRAwDgYDVQQHDAdNZXNzaW5hMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHNlcnZpemljaW1pdGVyaWFsaS5jb211bmUubWVzc2luYS5pdDAeFw0yMDA4MDUxNTI3NTdaFw0zMDA4MDMxNTI3NTdaMIGbMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWVzc2luYTEQMA4GA1UEBwwHTWVzc2luYTEaMBgGA1UECgwRQ29tdW5lIGRpIE1lc3NpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS0wKwYDVQQDDCRzZXJ2aXppY2ltaXRlcmlhbGkuY29tdW5lLm1lc3NpbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIPiqCMbA+QgVEubIqUeA5mEIG3XEoqTLILJ06hzINBWZfRZjYpf+lkTYr4CsulFoivD0OUIddjw4BKdn6Jcw3EsFrDbGcmd8rp3dfztzOJ4fQZq5cFnRdcog4CY21Q68PPYtqlink68boLFPRH8M+bjW2oJpa1TBYiNv47vovoF1CoF2yJlEnratEVm0XN1FNi2CY/TLAgWRa2fF3qP5s98FhcZCw604Ipi3elRBW2EtG7EBLEt1mOaMuiJjPm3djXC+VFGOdSjstQxNspyJNEh4G3xfO7UGIEEx8FN/l7DgSm4Y/JgsFCgpV/eR5E+3hChNqq5wqLxtqebhsCEx5AgMBAAGjUzBRMB0GA1UdDgQWBBRPNpBQe03Mx6rZ6dvfjo0w62/5+TAfBgNVHSMEGDAWgBRPNpBQe03Mx6rZ6dvfjo0w62/5+TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCIrCEyfIx7FBBRyutK95Dn3XMptKzk06SJkKj+Pft6IWuI1kIZosTFyJz10i05CnwiqXxaTEHNohKhuNKzFHZrxYh4omoLEHa6lJjqRDmdtFEjQvCj1T8fHEUAoh1fy9HXSak3Tb9kMQIWu39hf59rHfWGgfXpdoyryVOJSuTvbbEPgUJl7yNx2//EFYE44U0lHV6jO0CE19xzu0/hi/UyGcC+eM9RBEoDxjjA0OXko9CnvkZdKAHo+/+kWuRQovxmItd62HsmNTG/15Afet0SzUDXja1Z+uh0xIUut7XxxIhNlKPaBTaSo51Uh/fYbcSWKvZ2Wq2lN4Oj2HYAjxLh</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGTCCAwGgAwIBAgIUEOg1SiCAYU5UIqjGlEHxvsi4ho4wDQYJKoZIhvcNAQELBQAwgZsxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNZXNzaW5hMRAwDgYDVQQHDAdNZXNzaW5hMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHNlcnZpemljaW1pdGVyaWFsaS5jb211bmUubWVzc2luYS5pdDAeFw0yMDA4MDUxNTI3NTdaFw0zMDA4MDMxNTI3NTdaMIGbMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWVzc2luYTEQMA4GA1UEBwwHTWVzc2luYTEaMBgGA1UECgwRQ29tdW5lIGRpIE1lc3NpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS0wKwYDVQQDDCRzZXJ2aXppY2ltaXRlcmlhbGkuY29tdW5lLm1lc3NpbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIPiqCMbA+QgVEubIqUeA5mEIG3XEoqTLILJ06hzINBWZfRZjYpf+lkTYr4CsulFoivD0OUIddjw4BKdn6Jcw3EsFrDbGcmd8rp3dfztzOJ4fQZq5cFnRdcog4CY21Q68PPYtqlink68boLFPRH8M+bjW2oJpa1TBYiNv47vovoF1CoF2yJlEnratEVm0XN1FNi2CY/TLAgWRa2fF3qP5s98FhcZCw604Ipi3elRBW2EtG7EBLEt1mOaMuiJjPm3djXC+VFGOdSjstQxNspyJNEh4G3xfO7UGIEEx8FN/l7DgSm4Y/JgsFCgpV/eR5E+3hChNqq5wqLxtqebhsCEx5AgMBAAGjUzBRMB0GA1UdDgQWBBRPNpBQe03Mx6rZ6dvfjo0w62/5+TAfBgNVHSMEGDAWgBRPNpBQe03Mx6rZ6dvfjo0w62/5+TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCIrCEyfIx7FBBRyutK95Dn3XMptKzk06SJkKj+Pft6IWuI1kIZosTFyJz10i05CnwiqXxaTEHNohKhuNKzFHZrxYh4omoLEHa6lJjqRDmdtFEjQvCj1T8fHEUAoh1fy9HXSak3Tb9kMQIWu39hf59rHfWGgfXpdoyryVOJSuTvbbEPgUJl7yNx2//EFYE44U0lHV6jO0CE19xzu0/hi/UyGcC+eM9RBEoDxjjA0OXko9CnvkZdKAHo+/+kWuRQovxmItd62HsmNTG/15Afet0SzUDXja1Z+uh0xIUut7XxxIhNlKPaBTaSo51Uh/fYbcSWKvZ2Wq2lN4Oj2HYAjxLh</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGTCCAwGgAwIBAgIUEOg1SiCAYU5UIqjGlEHxvsi4ho4wDQYJKoZIhvcNAQELBQAwgZsxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNZXNzaW5hMRAwDgYDVQQHDAdNZXNzaW5hMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHNlcnZpemljaW1pdGVyaWFsaS5jb211bmUubWVzc2luYS5pdDAeFw0yMDA4MDUxNTI3NTdaFw0zMDA4MDMxNTI3NTdaMIGbMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWVzc2luYTEQMA4GA1UEBwwHTWVzc2luYTEaMBgGA1UECgwRQ29tdW5lIGRpIE1lc3NpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS0wKwYDVQQDDCRzZXJ2aXppY2ltaXRlcmlhbGkuY29tdW5lLm1lc3NpbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIPiqCMbA+QgVEubIqUeA5mEIG3XEoqTLILJ06hzINBWZfRZjYpf+lkTYr4CsulFoivD0OUIddjw4BKdn6Jcw3EsFrDbGcmd8rp3dfztzOJ4fQZq5cFnRdcog4CY21Q68PPYtqlink68boLFPRH8M+bjW2oJpa1TBYiNv47vovoF1CoF2yJlEnratEVm0XN1FNi2CY/TLAgWRa2fF3qP5s98FhcZCw604Ipi3elRBW2EtG7EBLEt1mOaMuiJjPm3djXC+VFGOdSjstQxNspyJNEh4G3xfO7UGIEEx8FN/l7DgSm4Y/JgsFCgpV/eR5E+3hChNqq5wqLxtqebhsCEx5AgMBAAGjUzBRMB0GA1UdDgQWBBRPNpBQe03Mx6rZ6dvfjo0w62/5+TAfBgNVHSMEGDAWgBRPNpBQe03Mx6rZ6dvfjo0w62/5+TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCIrCEyfIx7FBBRyutK95Dn3XMptKzk06SJkKj+Pft6IWuI1kIZosTFyJz10i05CnwiqXxaTEHNohKhuNKzFHZrxYh4omoLEHa6lJjqRDmdtFEjQvCj1T8fHEUAoh1fy9HXSak3Tb9kMQIWu39hf59rHfWGgfXpdoyryVOJSuTvbbEPgUJl7yNx2//EFYE44U0lHV6jO0CE19xzu0/hi/UyGcC+eM9RBEoDxjjA0OXko9CnvkZdKAHo+/+kWuRQovxmItd62HsmNTG/15Afet0SzUDXja1Z+uh0xIUut7XxxIhNlKPaBTaSo51Uh/fYbcSWKvZ2Wq2lN4Oj2HYAjxLh</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizicimiteriali.comune.messina.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizicimiteriali.comune.messina.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_f158</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_f158</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Messina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Messina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://servizicimiteriali.comune.messina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://servizicimiteriali.comune.messina.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

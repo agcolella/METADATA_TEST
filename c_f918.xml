@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx7142c3f8-2f26-c1f6-d2a7-4c7de175ba2f" entityID="https://www.comune.nogara.vr.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx7142c3f8-2f26-c1f6-d2a7-4c7de175ba2f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>yM29fL3huxLI2QeHPHGax5qJH8aE/fxBySVOl6Quk5k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+MXVeXjwfQBun3BEeMS/3NDRGNN/iivxx8xiSBsycurgRjjr/D+533Zb5nhhWd5NRwwqycsCg6D/Y
+S3rkIMx3OP5FZ5TR0cNvDd9XLrg7iDxdsJUscgEaIfeuraalkVjqxdE22BYXEYvuhgsOPDl67MBN
+70Q8I0Tqur2Gqh8a6c6C87x5/o1XQyHGiEmBvQ0GbpzwYtJSRX1cWFbew4ta1te//SojKIa5tnYi
+jPKBMoo4KRcsALj5dSJqw4d6jY8iqG/nIZWqwp7WkVFA1pb6a5z7UlognWk+XZfzX7T+63re4cdO
+VdbqZTGliv7/q+syrJWkl9de7RpDnQWSyluIZw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3AWX5YxgWBNmGdbRXuWEXp1+t1pMvIidVkKUDFsEuwADsvCVws5XaddApPXlZ9wy4VJyartjuE3u
+OizBG65w21/oEMGgrVn/4FtEbP4zfQN14e6hMlXm1dRRkjqfTpltlefz5FKrIX22c93J8Y+XS7rU
+ABEoQvJJDvGFdyf3G1SPQLPAqso78S2elCedE8kNbUGZci9Yn+GL+/aWhGKGvf70LVdcwq6iD2Ud
+gYsYu8MCYTEWShUdT9PH8qUuna9oW6bpnWDyz8X0o/YtS6sCT3hz7DfJo6Eoo5yLZCnf4N94NKAc
+2ZkVnaIQ+9ajtHOLqaMRsFeZ8CpV4QrbPOqMOw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEKjCCAxKgAwIBAgIJAOPOFaUb7/0HMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJh
+MSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdDAeFw0xODEyMDcxMTQzMjFaFw0yODEy
+MDYxMTQzMjFaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJh
+MRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52
+ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANwFl+WMYFgTZhnW0V7lhF6dfrda
+TLyInVZClAxbBLsAA7LwlcLOV2nXQKT15WfcMuFScmq7Y7hN7joswRuucNtf6BDBoK1Z/+BbRGz+
+M30DdeHuoTJV5tXUUZI6n06ZbZXn8+RSqyF9tnPdyfGPl0u61AARKELySQ7xhXcn9xtUj0CzwKrK
+O/EtnpQnnRPJDW1BmXIvWJ/hi/v2loRihr3+9C1XXMKuog9lHYGLGLvDAmExFkoVHU/Tx/KlLp2v
+aFum6Z1g8s/F9KP2LUurAk94c+w3yaOhKKOci2Qp3+DfeDSgHNmZFZ2iEPvWo7Rzi6mjEbBXmfAq
+VeEK2zzqjDsCAwEAAaOB0DCBzTAdBgNVHQ4EFgQUAQ0e5B3S+qT+iV4LiuhB2Hr47wowgZ0GA1Ud
+IwSBlTCBkoAUAQ0e5B3S+qT+iV4LiuhB2Hr47wqhb6RtMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQI
+EwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYD
+VQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdIIJAOPOFaUb7/0HMAwGA1UdEwQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggEBAIa/+gSac3Ib1JyGtIpwRryMDFU9Ydk3kq40JkcZwwCNHN8sY9fjYR9y
+dIBxozM4XDIFmjr6mAXjPqeDNpPVJlc+cQiKkGGbiH1/f4nye0FVxg9MYhqvqZINhwuBy0lrvW0M
++/3JLabSeSgexuO0kmybH9dyQh1Ak3dZ1zUk+OsnIbEeo37twmVWi5UnvG+x7fBoQdHMsRnDDhSz
+N1wXFfiRXqLugdwOEwYDa4XSoqrW7pherJUWCUnxvYIdBxDMevGAeOtE5mDSe/Yq/U3JkbY0uJ0P
+qR5ZNc8TBKLAlIUt+P3CQqZ7rQX27RxYI0jB7MFVr7agMCS2ZUqLkn1kjvo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKjCCAxKgAwIBAgIJAOPOFaUb7/0HMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdDAeFw0xODEyMDcxMTQzMjFaFw0yODEyMDYxMTQzMjFaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANwFl+WMYFgTZhnW0V7lhF6dfrdaTLyInVZClAxbBLsAA7LwlcLOV2nXQKT15WfcMuFScmq7Y7hN7joswRuucNtf6BDBoK1Z/+BbRGz+M30DdeHuoTJV5tXUUZI6n06ZbZXn8+RSqyF9tnPdyfGPl0u61AARKELySQ7xhXcn9xtUj0CzwKrKO/EtnpQnnRPJDW1BmXIvWJ/hi/v2loRihr3+9C1XXMKuog9lHYGLGLvDAmExFkoVHU/Tx/KlLp2vaFum6Z1g8s/F9KP2LUurAk94c+w3yaOhKKOci2Qp3+DfeDSgHNmZFZ2iEPvWo7Rzi6mjEbBXmfAqVeEK2zzqjDsCAwEAAaOB0DCBzTAdBgNVHQ4EFgQUAQ0e5B3S+qT+iV4LiuhB2Hr47wowgZ0GA1UdIwSBlTCBkoAUAQ0e5B3S+qT+iV4LiuhB2Hr47wqhb6RtMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdIIJAOPOFaUb7/0HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIa/+gSac3Ib1JyGtIpwRryMDFU9Ydk3kq40JkcZwwCNHN8sY9fjYR9ydIBxozM4XDIFmjr6mAXjPqeDNpPVJlc+cQiKkGGbiH1/f4nye0FVxg9MYhqvqZINhwuBy0lrvW0M+/3JLabSeSgexuO0kmybH9dyQh1Ak3dZ1zUk+OsnIbEeo37twmVWi5UnvG+x7fBoQdHMsRnDDhSzN1wXFfiRXqLugdwOEwYDa4XSoqrW7pherJUWCUnxvYIdBxDMevGAeOtE5mDSe/Yq/U3JkbY0uJ0PqR5ZNc8TBKLAlIUt+P3CQqZ7rQX27RxYI0jB7MFVr7agMCS2ZUqLkn1kjvo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKjCCAxKgAwIBAgIJAOPOFaUb7/0HMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdDAeFw0xODEyMDcxMTQzMjFaFw0yODEyMDYxMTQzMjFaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANwFl+WMYFgTZhnW0V7lhF6dfrdaTLyInVZClAxbBLsAA7LwlcLOV2nXQKT15WfcMuFScmq7Y7hN7joswRuucNtf6BDBoK1Z/+BbRGz+M30DdeHuoTJV5tXUUZI6n06ZbZXn8+RSqyF9tnPdyfGPl0u61AARKELySQ7xhXcn9xtUj0CzwKrKO/EtnpQnnRPJDW1BmXIvWJ/hi/v2loRihr3+9C1XXMKuog9lHYGLGLvDAmExFkoVHU/Tx/KlLp2vaFum6Z1g8s/F9KP2LUurAk94c+w3yaOhKKOci2Qp3+DfeDSgHNmZFZ2iEPvWo7Rzi6mjEbBXmfAqVeEK2zzqjDsCAwEAAaOB0DCBzTAdBgNVHQ4EFgQUAQ0e5B3S+qT+iV4LiuhB2Hr47wowgZ0GA1UdIwSBlTCBkoAUAQ0e5B3S+qT+iV4LiuhB2Hr47wqhb6RtMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEPMA0GA1UEBxMGTm9nYXJhMRkwFwYDVQQKExBDb211bmUgZGkgTm9nYXJhMSAwHgYDVQQDExd3d3cuY29tdW5lLm5vZ2FyYS52ci5pdIIJAOPOFaUb7/0HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIa/+gSac3Ib1JyGtIpwRryMDFU9Ydk3kq40JkcZwwCNHN8sY9fjYR9ydIBxozM4XDIFmjr6mAXjPqeDNpPVJlc+cQiKkGGbiH1/f4nye0FVxg9MYhqvqZINhwuBy0lrvW0M+/3JLabSeSgexuO0kmybH9dyQh1Ak3dZ1zUk+OsnIbEeo37twmVWi5UnvG+x7fBoQdHMsRnDDhSzN1wXFfiRXqLugdwOEwYDa4XSoqrW7pherJUWCUnxvYIdBxDMevGAeOtE5mDSe/Yq/U3JkbY0uJ0PqR5ZNc8TBKLAlIUt+P3CQqZ7rQX27RxYI0jB7MFVr7agMCS2ZUqLkn1kjvo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.nogara.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.nogara.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Nogara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Nogara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.nogara.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

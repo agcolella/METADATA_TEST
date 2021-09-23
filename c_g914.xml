@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Portogruaro" entityID="https://www.comune.portogruaro.ve.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Portogruaro">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8nJpkju8nTk7Qkc7oKVLVx9MM2xUIAaZVytBxmHK0JE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PW4bAzuSfAXlzbi4SFgUPMIFaIGYN8ocxlveYyPguIhaFJB5PUoXMJpR9Sr1JFTqodTmSPLiXp9g
+KQL6wuM6G/WwvtxYg1yusi8GN5b+p4e6Gq2lXqaWg4OZOGtReKfFm2DhEOiVtD8QlJTwigtzHo7F
+9TqlXAtexxcMuYdWPrtXjwSa7yUwKzZQcaLaActPeL+s+qgC0r6PenWZ8OceUkbxqsjq9S1dkkQp
+L3dqwF6Plb9vsDIy5LpJIcQSvvlHG1tYp7wWRC+hLjJ7YcK7XfHuIwlcpEJUtWMnDAKBrhb2DYZx
+y4Mw9/nYY0pm0pGhxlsgoENu6BHERVdI6V3owQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xdxWR0HPnTGYV2dfRQduot3XrWbadnYu4jd9++DoEd4X58VBm5ZMtmmbO0/Nc5+346oBqPx6MBmn
+1c7uPykptELvYQgUbtn2bJ4DOhZVbtg0sATNA6r9iSag559nHvMJ5SUXbmQ+ldJtjukzzGG8nOI9
+G2R7i47CsjbtVvMMvSQjG7CPVAkgXqENmeAfVsfuZCChluenNzvoa9yGgDk9NKbYSUXSX9lUd5w8
+xZsBdFTi5iBL1LaiYlUPCvac4jdaxnHcmVKvXPBDffvw1u+ZNsCBB/Iz9GEmUqPAtWWM702uK/+Z
+fMtHxbt/ZcMvYxK66fTCviveB88NVrmPk3LcQQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJANYEi0DkZp7AMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUucG9ydG9ncnVhcm8udmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4
+MDEyNjEzMjU0M1oXDTI4MDEyNDEzMjU0M1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5wb3J0b2dy
+dWFyby52ZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDF3FZHQc+dMZhXZ19FB26i3detZtp2di7iN3374OgR3hfnxUGblky2aZs7
+T81zn7fjqgGo/HowGafVzu4/KSm0Qu9hCBRu2fZsngM6FlVu2DSwBM0Dqv2JJqDnn2ce8wnlJRdu
+ZD6V0m2O6TPMYbyc4j0bZHuLjsKyNu1W8wy9JCMbsI9UCSBeoQ2Z4B9Wx+5kIKGW56c3O+hr3IaA
+OT00pthJRdJf2VR3nDzFmwF0VOLmIEvUtqJiVQ8K9pziN1rGcdyZUq9c8EN9+/DW75k2wIEH8jP0
+YSZSo8C1ZYzvTa4r/5l8y0fFu39lwy9jErrp9MK+K94Hzw1WuY+TctxBAgMBAAGjUDBOMB0GA1Ud
+DgQWBBTCOo2UdRmb6bO+/RUz/Z6z9d7oYjAfBgNVHSMEGDAWgBTCOo2UdRmb6bO+/RUz/Z6z9d7o
+YjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCph4eZv+6Vs0TO3DObIMwNBHyer/jT
+3JsWRvy+C/1ZnbjtIyFA1sox6KvOokbgPLL0JkA28/KsTbSMdex5YtOxkX4LwoI7Swf8Jk5bMx41
+CLd6wuUuSmlhm38Qa9nYjDO5fewVEVvrJsrrg2aUZWyqYl/vJGg1jrpcOeNpJXPqGogfCD6NrO0p
+944Em2F663BXJvVKmWQOlyT/egX+SrFEI+QoH43GWMjH0GQlxP7Aojzx/Ma44ne8fdr4lPrWMpH9
+Ar54HPjobWVH+G/qJm8jmWkjgjPDBRM2g7MowFQI/FHaPxn1TRv9XHhEBroBhcB3zdsVwHOX1jRq
+bukLnL7t
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJANYEi0DkZp7AMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUucG9ydG9ncnVhcm8udmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEyNjEzMjU0M1oXDTI4MDEyNDEzMjU0M1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5wb3J0b2dydWFyby52ZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDF3FZHQc+dMZhXZ19FB26i3detZtp2di7iN3374OgR3hfnxUGblky2aZs7T81zn7fjqgGo/HowGafVzu4/KSm0Qu9hCBRu2fZsngM6FlVu2DSwBM0Dqv2JJqDnn2ce8wnlJRduZD6V0m2O6TPMYbyc4j0bZHuLjsKyNu1W8wy9JCMbsI9UCSBeoQ2Z4B9Wx+5kIKGW56c3O+hr3IaAOT00pthJRdJf2VR3nDzFmwF0VOLmIEvUtqJiVQ8K9pziN1rGcdyZUq9c8EN9+/DW75k2wIEH8jP0YSZSo8C1ZYzvTa4r/5l8y0fFu39lwy9jErrp9MK+K94Hzw1WuY+TctxBAgMBAAGjUDBOMB0GA1UdDgQWBBTCOo2UdRmb6bO+/RUz/Z6z9d7oYjAfBgNVHSMEGDAWgBTCOo2UdRmb6bO+/RUz/Z6z9d7oYjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCph4eZv+6Vs0TO3DObIMwNBHyer/jT3JsWRvy+C/1ZnbjtIyFA1sox6KvOokbgPLL0JkA28/KsTbSMdex5YtOxkX4LwoI7Swf8Jk5bMx41CLd6wuUuSmlhm38Qa9nYjDO5fewVEVvrJsrrg2aUZWyqYl/vJGg1jrpcOeNpJXPqGogfCD6NrO0p944Em2F663BXJvVKmWQOlyT/egX+SrFEI+QoH43GWMjH0GQlxP7Aojzx/Ma44ne8fdr4lPrWMpH9Ar54HPjobWVH+G/qJm8jmWkjgjPDBRM2g7MowFQI/FHaPxn1TRv9XHhEBroBhcB3zdsVwHOX1jRqbukLnL7t
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/portogruaro"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/portogruaro" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/portogruaro" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Portogruaro</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Portogruaro</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Portogruaro</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Portogruaro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Portogruaro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Portogruaro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Portogruaro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Portogruaro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.portogruaro.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.portogruaro.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.portogruaro.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.portogruaro.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

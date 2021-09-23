@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Thiene" entityID="https://www.comune.thiene.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Thiene">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>cEjhTxi3LuiL7ziwdTIPQ7k03ywsSgvHqEGAKgxOyR8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+TWkyn21Ev73cWiFnvGq5nyNr7T5Qd47ReowpdyjNfBp+wWou/cVtJXIubBcery9yWMudgy1KZHqJ
+/9/H4X6C9wZO+zkaXcDYzPqbtsn1fFPF8C2reP6O9gBeNCFnqin1TtV7b1DWEYFgut1AR42cm2xo
+MK+ze5bjFYL7TiuyClRCFjLr0bh5IBT2y4FxIHD8rUtyNBQ03t9QGqhAUeQmGFONewRcKyDzzRXu
+Miv8Sy5T5IX/kBk8iifmE+C0hus6burKn/Gv/mzPL50sdyhZds107zaygapAgYLaAcrz8kDOXR2/
+H9e8qlFx/biRb2lSQMyaoidRkco4ta5QxNw94g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wz5Z1GrE4hKS52wdl+RxaxZ6faxHtFRG4NwrAPXKEeDZom9gUJPmhBeO6z+nJliVvovHeKBSTrLe
+XueiiN6NzObw+iUaxxsnOj/aV+9YfiDZE+/Op9pUZiz8uhzO0KSboU/o5xxE0fAPNrfPm6f69MWs
+7Mah+nRCRv/CIoIX6wy95NxdGV0wpQqhe2HJWKdbYi6fzg9kMJnlB2NAHdjUP40TdrqXybXldzgW
++IKhaUyFsYrESr9ur7W055Q18xtZvOZt/gZlKEMQS71gjX5bU9Mbc0UQEfGU5LoLHNwmcjRQil//
+heADWpiRLoDAU90jEXLUNssL6je6IFviXBztLw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID9jCCAt6gAwIBAgIJAI3u8p15ClgPMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHVmljZW56YTEPMA0GA1UEBwwGVGhpZW5lMRkwFwYDVQQKDBBDb211bmUgZGkgVGhp
+ZW5lMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEjMCEGA1UEAwwab25saW5lLmNvbXVu
+ZS50aGllbmUudmkuaXQwHhcNMjAwNjIyMDcxNDIxWhcNMzAwNjIwMDcxNDIxWjCBjzELMAkGA1UE
+BhMCSVQxEDAOBgNVBAgMB1ZpY2VuemExDzANBgNVBAcMBlRoaWVuZTEZMBcGA1UECgwQQ29tdW5l
+IGRpIFRoaWVuZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xIzAhBgNVBAMMGm9ubGlu
+ZS5jb211bmUudGhpZW5lLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwz5Z
+1GrE4hKS52wdl+RxaxZ6faxHtFRG4NwrAPXKEeDZom9gUJPmhBeO6z+nJliVvovHeKBSTrLeXuei
+iN6NzObw+iUaxxsnOj/aV+9YfiDZE+/Op9pUZiz8uhzO0KSboU/o5xxE0fAPNrfPm6f69MWs7Mah
++nRCRv/CIoIX6wy95NxdGV0wpQqhe2HJWKdbYi6fzg9kMJnlB2NAHdjUP40TdrqXybXldzgW+IKh
+aUyFsYrESr9ur7W055Q18xtZvOZt/gZlKEMQS71gjX5bU9Mbc0UQEfGU5LoLHNwmcjRQil//heAD
+WpiRLoDAU90jEXLUNssL6je6IFviXBztLwIDAQABo1MwUTAdBgNVHQ4EFgQUnPqAMnu8VlES1csh
+aDhUAp6Rm7MwHwYDVR0jBBgwFoAUnPqAMnu8VlES1cshaDhUAp6Rm7MwDwYDVR0TAQH/BAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEANJRtyz+VHViSniikicPFdVDyPG2F8ryeo+2W25vk+3VaPCA/
+myNoCqJ9btpkzcDyLWMDInjYH5bpc17+U2Oh6CNN8SN5q8S6BWLbia8dd4WXmERuk4/voMHG6sLx
+f0skSzjb5h3XaWKiyCbnJEa5M63Yl7nYuu/W80Ju0YOvX6foI0HILtI5FzwGuhAnhZDbOwqeEujy
+2Djx7D5xxFmjLtiD+eR8Klkk1Qx4CBDXKe3Q7gUt766Pl6xR0SqXiOqnWUmvwe7gLTCNK31og9Jq
+wr4NY1F0MaKGz3IZGCmDRJjU3OjmJ/yRObQljKj9OF2HM27hlFnBPGAQnFba8izoXg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJANRbV/hKoehsMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGhpZW5lLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAyMDgwODQ2NDRaFw0yOTAyMDUwODQ2NDRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGhpZW5lLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmXlVWu/nERxlLwYUYCJn05yAF9WzqoiqRHFvWPUgja0B4PYMru10YgjAb/iHYzy2XTWvR4SR3JDc9I099LgzG41UNaFSWw+5RiIF/9QlivkURBksUrEdpDDFcs7P3KeaNn2oeoH2WRddmZBdPSnRiHCVyUSuEfmSo+qcVkWsSIMKqwQ/Gf0XCEPLWuAUP/lKQn1OTH+bNP0hO8Dk9pHIwfh2iDvzIOs213lhMkIJsKEm3Xs+KrDFKNVh8XAa/V2OGxMjHWqd0nb1G1rl4cR1HUP0JMJPXXhU8H90UPBw804rMu8GNxiVP/wdghH3K4uA7vV1QxOBj2iBLK6K+sn38CAwEAAaNQME4wHQYDVR0OBBYEFAYKbo/PFLHQCzD3jUEIZd/Kl6LCMB8GA1UdIwQYMBaAFAYKbo/PFLHQCzD3jUEIZd/Kl6LCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADIekCfXqY6enL7vQWIjrci0TgDRRtJ1ltchWCpDpuPZZFjkqVgXHoEWzkBsFEezVoulOVqNwlALRtgrBPn9agkG3IZkt4MYILQw3QFSYFzQzIxRwFgGKUs723P6v6Z6gZ7BqH4mKVtwLGzZlZ/jeqTiGE3eZr1Hby9rDiU17f0qJz/znuf3J4ZbiHc/ELffjLej/WKi+knKBwlFC0yKh5k5K24ZypywQXk9gJwboFRqu2dvLwYoIugSnCAKgWpWZolRDjCP0BQKSKPxmiJCuEqrPXo+jCjM4Vsr+TQxBUWISeps4XZChTf2Tvd6qww97d2Ky0ZpvcxneDGLW25JUSM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJANRbV/hKoehsMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGhpZW5lLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAyMDgwODQ2NDRaFw0yOTAyMDUwODQ2NDRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGhpZW5lLnZpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmXlVWu/nERxlLwYUYCJn05yAF9WzqoiqRHFvWPUgja0B4PYMru10YgjAb/iHYzy2XTWvR4SR3JDc9I099LgzG41UNaFSWw+5RiIF/9QlivkURBksUrEdpDDFcs7P3KeaNn2oeoH2WRddmZBdPSnRiHCVyUSuEfmSo+qcVkWsSIMKqwQ/Gf0XCEPLWuAUP/lKQn1OTH+bNP0hO8Dk9pHIwfh2iDvzIOs213lhMkIJsKEm3Xs+KrDFKNVh8XAa/V2OGxMjHWqd0nb1G1rl4cR1HUP0JMJPXXhU8H90UPBw804rMu8GNxiVP/wdghH3K4uA7vV1QxOBj2iBLK6K+sn38CAwEAAaNQME4wHQYDVR0OBBYEFAYKbo/PFLHQCzD3jUEIZd/Kl6LCMB8GA1UdIwQYMBaAFAYKbo/PFLHQCzD3jUEIZd/Kl6LCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADIekCfXqY6enL7vQWIjrci0TgDRRtJ1ltchWCpDpuPZZFjkqVgXHoEWzkBsFEezVoulOVqNwlALRtgrBPn9agkG3IZkt4MYILQw3QFSYFzQzIxRwFgGKUs723P6v6Z6gZ7BqH4mKVtwLGzZlZ/jeqTiGE3eZr1Hby9rDiU17f0qJz/znuf3J4ZbiHc/ELffjLej/WKi+knKBwlFC0yKh5k5K24ZypywQXk9gJwboFRqu2dvLwYoIugSnCAKgWpWZolRDjCP0BQKSKPxmiJCuEqrPXo+jCjM4Vsr+TQxBUWISeps4XZChTf2Tvd6qww97d2Ky0ZpvcxneDGLW25JUSM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9jCCAt6gAwIBAgIJAI3u8p15ClgPMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEPMA0GA1UEBwwGVGhpZW5lMRkwFwYDVQQKDBBDb211bmUgZGkgVGhpZW5lMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEjMCEGA1UEAwwab25saW5lLmNvbXVuZS50aGllbmUudmkuaXQwHhcNMjAwNjIyMDcxNDIxWhcNMzAwNjIwMDcxNDIxWjCBjzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZpY2VuemExDzANBgNVBAcMBlRoaWVuZTEZMBcGA1UECgwQQ29tdW5lIGRpIFRoaWVuZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xIzAhBgNVBAMMGm9ubGluZS5jb211bmUudGhpZW5lLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwz5Z1GrE4hKS52wdl+RxaxZ6faxHtFRG4NwrAPXKEeDZom9gUJPmhBeO6z+nJliVvovHeKBSTrLeXueiiN6NzObw+iUaxxsnOj/aV+9YfiDZE+/Op9pUZiz8uhzO0KSboU/o5xxE0fAPNrfPm6f69MWs7Mah+nRCRv/CIoIX6wy95NxdGV0wpQqhe2HJWKdbYi6fzg9kMJnlB2NAHdjUP40TdrqXybXldzgW+IKhaUyFsYrESr9ur7W055Q18xtZvOZt/gZlKEMQS71gjX5bU9Mbc0UQEfGU5LoLHNwmcjRQil//heADWpiRLoDAU90jEXLUNssL6je6IFviXBztLwIDAQABo1MwUTAdBgNVHQ4EFgQUnPqAMnu8VlES1cshaDhUAp6Rm7MwHwYDVR0jBBgwFoAUnPqAMnu8VlES1cshaDhUAp6Rm7MwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEANJRtyz+VHViSniikicPFdVDyPG2F8ryeo+2W25vk+3VaPCA/myNoCqJ9btpkzcDyLWMDInjYH5bpc17+U2Oh6CNN8SN5q8S6BWLbia8dd4WXmERuk4/voMHG6sLxf0skSzjb5h3XaWKiyCbnJEa5M63Yl7nYuu/W80Ju0YOvX6foI0HILtI5FzwGuhAnhZDbOwqeEujy2Djx7D5xxFmjLtiD+eR8Klkk1Qx4CBDXKe3Q7gUt766Pl6xR0SqXiOqnWUmvwe7gLTCNK31og9Jqwr4NY1F0MaKGz3IZGCmDRJjU3OjmJ/yRObQljKj9OF2HM27hlFnBPGAQnFba8izoXg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9jCCAt6gAwIBAgIJAI3u8p15ClgPMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEPMA0GA1UEBwwGVGhpZW5lMRkwFwYDVQQKDBBDb211bmUgZGkgVGhpZW5lMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEjMCEGA1UEAwwab25saW5lLmNvbXVuZS50aGllbmUudmkuaXQwHhcNMjAwNjIyMDcxNDIxWhcNMzAwNjIwMDcxNDIxWjCBjzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZpY2VuemExDzANBgNVBAcMBlRoaWVuZTEZMBcGA1UECgwQQ29tdW5lIGRpIFRoaWVuZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xIzAhBgNVBAMMGm9ubGluZS5jb211bmUudGhpZW5lLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwz5Z1GrE4hKS52wdl+RxaxZ6faxHtFRG4NwrAPXKEeDZom9gUJPmhBeO6z+nJliVvovHeKBSTrLeXueiiN6NzObw+iUaxxsnOj/aV+9YfiDZE+/Op9pUZiz8uhzO0KSboU/o5xxE0fAPNrfPm6f69MWs7Mah+nRCRv/CIoIX6wy95NxdGV0wpQqhe2HJWKdbYi6fzg9kMJnlB2NAHdjUP40TdrqXybXldzgW+IKhaUyFsYrESr9ur7W055Q18xtZvOZt/gZlKEMQS71gjX5bU9Mbc0UQEfGU5LoLHNwmcjRQil//heADWpiRLoDAU90jEXLUNssL6je6IFviXBztLwIDAQABo1MwUTAdBgNVHQ4EFgQUnPqAMnu8VlES1cshaDhUAp6Rm7MwHwYDVR0jBBgwFoAUnPqAMnu8VlES1cshaDhUAp6Rm7MwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEANJRtyz+VHViSniikicPFdVDyPG2F8ryeo+2W25vk+3VaPCA/myNoCqJ9btpkzcDyLWMDInjYH5bpc17+U2Oh6CNN8SN5q8S6BWLbia8dd4WXmERuk4/voMHG6sLxf0skSzjb5h3XaWKiyCbnJEa5M63Yl7nYuu/W80Ju0YOvX6foI0HILtI5FzwGuhAnhZDbOwqeEujy2Djx7D5xxFmjLtiD+eR8Klkk1Qx4CBDXKe3Q7gUt766Pl6xR0SqXiOqnWUmvwe7gLTCNK31og9Jqwr4NY1F0MaKGz3IZGCmDRJjU3OjmJ/yRObQljKj9OF2HM27hlFnBPGAQnFba8izoXg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/thiene"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://online.comune.thiene.vi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/thiene" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/thiene" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/thiene" index="2"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://online.comune.thiene.vi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Thiene</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Thiene</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Thiene</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Thiene</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Thiene</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Thiene</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Thiene</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Thiene</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.thiene.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.thiene.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.thiene.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.thiene.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

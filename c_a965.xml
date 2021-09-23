@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx0108239f-1644-7627-e415-743f699c429d" entityID="https://servizionline.comune.bondeno.fe.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx0108239f-1644-7627-e415-743f699c429d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>oSgRGcBabyBhRZ1GOfFfzOdzCrZFnlv0GR9lsN0e2q4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+i/TdNn22UZ/tSnGVjOSHHfNzFXTbXYhGrVsnPJ7NO880INt4mt9KoW8tLmNxCMVtGgjtcBB/zMeQ
+Ywn6oj0jxvGJBdcf7ms41uCDqRR1fPiuAMjc3U8c00znf80uwC2ANJ9KCBSvNpxKhIYrnvuTriLX
+3QAdIxg7VI1+qKlc0pf3TAkw2wOnrjIVW1R9v/aOpjs8kCvSVYag2ZJfePj53blyLl49slSlKYQA
+XQSdLiwlDxhZaKHaEwRYWRIV8f/iT42DFXg1bMA8sovdfDSJdF01npDt9Hf0eKpVmct71aQhx1lI
+4r85Mp8i+dTmCAn/xvxSEaqrKvkTrmBJHQ3E+w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+9O0x0frVt+/wa1pAmivTRmsrR1LRk3mJuuAKp5RZ9hQA+TURAXyTeOksA94Hktg7evm4nVGesuAb
+JYUQF3DkqyyFtQYIhOXzQgbO7vQI1RK9QcCtDtUKA7XPL7pat0pu3G5h7foHksUp1N9EMYncyId+
+JZyTmwQnbZ4x1pMGKuoukK8ldJ2zg0rOr17OcK4tXqZjFaNiD6zHEpa5pkEAFZCdqwPEr639bJhg
+ad5j2nwDzz1gvAWLrVa/g3r4hgKHhpXDt5b3tjIbSJC+POnoLvo4zFOb4M7/YnDRO+oZqjjJ+7jp
+GUGcMWyeqKJVNNScsfKXgSPRpBAFouZD2y6CXw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIJAJYRBS9K7Bn5MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQm9uZGVubzEaMBgGA1UECgwRQ29tdW5lIGRpIEJvbmRl
+bm8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmJvbmRlbm8uZmUuaXQwHhcNMTkwMjI2
+MDg1MzQ2WhcNMjkwMjI1MDg1MzQ2WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAO
+BgNVBAcMB0JvbmRlbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBCb25kZW5vMSswKQYDVQQDDCJzZXJ2
+aXppb25saW5lLmNvbXVuZS5ib25kZW5vLmZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA9O0x0frVt+/wa1pAmivTRmsrR1LRk3mJuuAKp5RZ9hQA+TURAXyTeOksA94Hktg7evm4
+nVGesuAbJYUQF3DkqyyFtQYIhOXzQgbO7vQI1RK9QcCtDtUKA7XPL7pat0pu3G5h7foHksUp1N9E
+MYncyId+JZyTmwQnbZ4x1pMGKuoukK8ldJ2zg0rOr17OcK4tXqZjFaNiD6zHEpa5pkEAFZCdqwPE
+r639bJhgad5j2nwDzz1gvAWLrVa/g3r4hgKHhpXDt5b3tjIbSJC+POnoLvo4zFOb4M7/YnDRO+oZ
+qjjJ+7jpGUGcMWyeqKJVNNScsfKXgSPRpBAFouZD2y6CXwIDAQABo1AwTjAdBgNVHQ4EFgQUVkHe
+/bg3fgvDBTpxx2nViKltlWIwHwYDVR0jBBgwFoAUVkHe/bg3fgvDBTpxx2nViKltlWIwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAGOF/cIymiEyOT2Tt7sxcQkFWA1qvs54q+r5PzCuH
+MVU4S8Kek37QXQ/S1IxF6a7+usAaexh8S+ZnSQsO7WXVtWx5crGp2BBV7hu2auCs97VQQu/9qZ50
+w+pv87aAnjAQFGgYwD1yAN0vbs3eN1YZmaGLEYPYG7/5FWl7I3tElRaaEKdzaazaUjKXHrYnF/Tm
+nvC3SDPAObcqV30889nS3hqE/8FFcKeLCq4GFCT1ZvAdvj50Ejb8/nifKWE1C3/GjBbFAPndy+pa
+MB+QjtVaLEqIlXEhU0wRROjrisdCFQZK5KrG9ZuzRcGfhnBatBZGhxMFUqDm5UvFIg3kFOfgYA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAJYRBS9K7Bn5MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQm9uZGVubzEaMBgGA1UECgwRQ29tdW5lIGRpIEJvbmRlbm8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmJvbmRlbm8uZmUuaXQwHhcNMTkwMjI2MDg1MzQ2WhcNMjkwMjI1MDg1MzQ2WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0JvbmRlbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBCb25kZW5vMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5ib25kZW5vLmZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9O0x0frVt+/wa1pAmivTRmsrR1LRk3mJuuAKp5RZ9hQA+TURAXyTeOksA94Hktg7evm4nVGesuAbJYUQF3DkqyyFtQYIhOXzQgbO7vQI1RK9QcCtDtUKA7XPL7pat0pu3G5h7foHksUp1N9EMYncyId+JZyTmwQnbZ4x1pMGKuoukK8ldJ2zg0rOr17OcK4tXqZjFaNiD6zHEpa5pkEAFZCdqwPEr639bJhgad5j2nwDzz1gvAWLrVa/g3r4hgKHhpXDt5b3tjIbSJC+POnoLvo4zFOb4M7/YnDRO+oZqjjJ+7jpGUGcMWyeqKJVNNScsfKXgSPRpBAFouZD2y6CXwIDAQABo1AwTjAdBgNVHQ4EFgQUVkHe/bg3fgvDBTpxx2nViKltlWIwHwYDVR0jBBgwFoAUVkHe/bg3fgvDBTpxx2nViKltlWIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAGOF/cIymiEyOT2Tt7sxcQkFWA1qvs54q+r5PzCuHMVU4S8Kek37QXQ/S1IxF6a7+usAaexh8S+ZnSQsO7WXVtWx5crGp2BBV7hu2auCs97VQQu/9qZ50w+pv87aAnjAQFGgYwD1yAN0vbs3eN1YZmaGLEYPYG7/5FWl7I3tElRaaEKdzaazaUjKXHrYnF/TmnvC3SDPAObcqV30889nS3hqE/8FFcKeLCq4GFCT1ZvAdvj50Ejb8/nifKWE1C3/GjBbFAPndy+paMB+QjtVaLEqIlXEhU0wRROjrisdCFQZK5KrG9ZuzRcGfhnBatBZGhxMFUqDm5UvFIg3kFOfgYA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAJYRBS9K7Bn5MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQm9uZGVubzEaMBgGA1UECgwRQ29tdW5lIGRpIEJvbmRlbm8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmJvbmRlbm8uZmUuaXQwHhcNMTkwMjI2MDg1MzQ2WhcNMjkwMjI1MDg1MzQ2WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0JvbmRlbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBCb25kZW5vMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5ib25kZW5vLmZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9O0x0frVt+/wa1pAmivTRmsrR1LRk3mJuuAKp5RZ9hQA+TURAXyTeOksA94Hktg7evm4nVGesuAbJYUQF3DkqyyFtQYIhOXzQgbO7vQI1RK9QcCtDtUKA7XPL7pat0pu3G5h7foHksUp1N9EMYncyId+JZyTmwQnbZ4x1pMGKuoukK8ldJ2zg0rOr17OcK4tXqZjFaNiD6zHEpa5pkEAFZCdqwPEr639bJhgad5j2nwDzz1gvAWLrVa/g3r4hgKHhpXDt5b3tjIbSJC+POnoLvo4zFOb4M7/YnDRO+oZqjjJ+7jpGUGcMWyeqKJVNNScsfKXgSPRpBAFouZD2y6CXwIDAQABo1AwTjAdBgNVHQ4EFgQUVkHe/bg3fgvDBTpxx2nViKltlWIwHwYDVR0jBBgwFoAUVkHe/bg3fgvDBTpxx2nViKltlWIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAGOF/cIymiEyOT2Tt7sxcQkFWA1qvs54q+r5PzCuHMVU4S8Kek37QXQ/S1IxF6a7+usAaexh8S+ZnSQsO7WXVtWx5crGp2BBV7hu2auCs97VQQu/9qZ50w+pv87aAnjAQFGgYwD1yAN0vbs3eN1YZmaGLEYPYG7/5FWl7I3tElRaaEKdzaazaUjKXHrYnF/TmnvC3SDPAObcqV30889nS3hqE/8FFcKeLCq4GFCT1ZvAdvj50Ejb8/nifKWE1C3/GjBbFAPndy+paMB+QjtVaLEqIlXEhU0wRROjrisdCFQZK5KrG9ZuzRcGfhnBatBZGhxMFUqDm5UvFIg3kFOfgYA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.bondeno.fe.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.bondeno.fe.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bondeno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bondeno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.bondeno.fe.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

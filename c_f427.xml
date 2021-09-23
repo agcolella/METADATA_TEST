@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="MontanoLucino" entityID="https://www.comune.montanolucino.co.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MontanoLucino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hva5GLt3PEBVHE/OW/9ePAQnQVhXPJtVWohCpiPyVhY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+vUEVozT22E+NygCSUH7bSXqwnybLoSYVylzUrReLpjPUtQKDQHQsmZbIcIYw8yYvtamaZH6InNwV
+fldo3Twr3NPUZ6Ed68LTUFkv+BE/y/fV4W4ow3UngxwMElVBK8i7/FBNOhoFPZCy3bcZP7rjJsQV
+cB3s+E3bqWxH9xwHDgHBuOO2JTyMz41jA9SIJTbn1c/MkxxYTT6IaMK0FtSK2wJXnYpuLkvcJn7r
+INuRjF0wQs6dc9BWOfoWV1Z5T9Pz7i4VHfbPGY5RV05e+wRucgbQzPrrWXiNdUbegUxgAjvbMJr+
+swFomefyJvpPxP7TP0D2zWmwrwYP10gjVaRx9w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xFwPTFrsCtU4eQ+5ml8EEFQEAinPn7B4UJ9fEElumbOkmjo7AT35nogqFNdzWzPHWuDoFVc6iB2f
+fq6USA7BLecCLzv1H8L07HNpbWBDV5i5fyhQLBz6tc6P87BSKl0SEHAsRFQwqD0MnywHIjKX7RMl
+7Rxp92v0nI/OJUkniuz3QmAqlaBafUJT0ZJ6+SBrxsfWFk4eYEzv//BhJlvamqYFJ6whANrzttNf
+JFqX7o5Z/c8a6oIk0uAnTReL4iumezPWyoPKPM2+5f3ukSTFeTXBh3x42FYCLS2v0+LMQi8/NVWV
+ZIYcc6vzmbgYHxQPdKFpm7/GYU1L0mqCtDKn1w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXTCCAkWgAwIBAgIJAP57UjkLnmKQMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5j
+b211bmUubW9udGFub2x1Y2luby5jby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcN
+MTkwODIwMDgzMjI2WhcNMjkwODE3MDgzMjI2WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRh
+bm9sdWNpbm8uY28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAxFwPTFrsCtU4eQ+5ml8EEFQEAinPn7B4UJ9fEElumbOkmjo7AT35
+nogqFNdzWzPHWuDoFVc6iB2ffq6USA7BLecCLzv1H8L07HNpbWBDV5i5fyhQLBz6tc6P87BSKl0S
+EHAsRFQwqD0MnywHIjKX7RMl7Rxp92v0nI/OJUkniuz3QmAqlaBafUJT0ZJ6+SBrxsfWFk4eYEzv
+//BhJlvamqYFJ6whANrzttNfJFqX7o5Z/c8a6oIk0uAnTReL4iumezPWyoPKPM2+5f3ukSTFeTXB
+h3x42FYCLS2v0+LMQi8/NVWVZIYcc6vzmbgYHxQPdKFpm7/GYU1L0mqCtDKn1wIDAQABo1AwTjAd
+BgNVHQ4EFgQUsFvO9IYfYogx30U85j9m5eUaaRwwHwYDVR0jBBgwFoAUsFvO9IYfYogx30U85j9m
+5eUaaRwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAD4w+RBzTg+L03yqq11AgNi9p
+SJ/459p6hQg3KBfM9+FXoaPrGVfXZR1rPddpvOTjvoV6Bu/5LEtgMW7GXbnNdltzhcJoF3HaDScd
+pcEmnVBfJKGSDLOmRX8uDLY/IKKm24TYXXxtRgCcNVqP3iGnJn20UlZ1L2xFyLv2IZ+qApvfO3p9
+2xBs4RkSIHyzvKfnD0wm8Uvzyz/AXYqkJdLy9z1VuklL6UIriBX0+7dpDJHxJSki0OjzZtGDdchX
+5ebbezfpwAqru9Q5WbCHUF9uUWaMx2N6LnCs8YNrTrQDeWaUte9Ti4tJcQq73qkmv05CTkh7aMdm
+R1R1a6I0HUuHNw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAP57UjkLnmKQMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUubW9udGFub2x1Y2luby5jby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwODIwMDgzMjI2WhcNMjkwODE3MDgzMjI2WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRhbm9sdWNpbm8uY28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFwPTFrsCtU4eQ+5ml8EEFQEAinPn7B4UJ9fEElumbOkmjo7AT35nogqFNdzWzPHWuDoFVc6iB2ffq6USA7BLecCLzv1H8L07HNpbWBDV5i5fyhQLBz6tc6P87BSKl0SEHAsRFQwqD0MnywHIjKX7RMl7Rxp92v0nI/OJUkniuz3QmAqlaBafUJT0ZJ6+SBrxsfWFk4eYEzv//BhJlvamqYFJ6whANrzttNfJFqX7o5Z/c8a6oIk0uAnTReL4iumezPWyoPKPM2+5f3ukSTFeTXBh3x42FYCLS2v0+LMQi8/NVWVZIYcc6vzmbgYHxQPdKFpm7/GYU1L0mqCtDKn1wIDAQABo1AwTjAdBgNVHQ4EFgQUsFvO9IYfYogx30U85j9m5eUaaRwwHwYDVR0jBBgwFoAUsFvO9IYfYogx30U85j9m5eUaaRwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAD4w+RBzTg+L03yqq11AgNi9pSJ/459p6hQg3KBfM9+FXoaPrGVfXZR1rPddpvOTjvoV6Bu/5LEtgMW7GXbnNdltzhcJoF3HaDScdpcEmnVBfJKGSDLOmRX8uDLY/IKKm24TYXXxtRgCcNVqP3iGnJn20UlZ1L2xFyLv2IZ+qApvfO3p92xBs4RkSIHyzvKfnD0wm8Uvzyz/AXYqkJdLy9z1VuklL6UIriBX0+7dpDJHxJSki0OjzZtGDdchX5ebbezfpwAqru9Q5WbCHUF9uUWaMx2N6LnCs8YNrTrQDeWaUte9Ti4tJcQq73qkmv05CTkh7aMdmR1R1a6I0HUuHNw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAP57UjkLnmKQMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUubW9udGFub2x1Y2luby5jby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwODIwMDgzMjI2WhcNMjkwODE3MDgzMjI2WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRhbm9sdWNpbm8uY28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFwPTFrsCtU4eQ+5ml8EEFQEAinPn7B4UJ9fEElumbOkmjo7AT35nogqFNdzWzPHWuDoFVc6iB2ffq6USA7BLecCLzv1H8L07HNpbWBDV5i5fyhQLBz6tc6P87BSKl0SEHAsRFQwqD0MnywHIjKX7RMl7Rxp92v0nI/OJUkniuz3QmAqlaBafUJT0ZJ6+SBrxsfWFk4eYEzv//BhJlvamqYFJ6whANrzttNfJFqX7o5Z/c8a6oIk0uAnTReL4iumezPWyoPKPM2+5f3ukSTFeTXBh3x42FYCLS2v0+LMQi8/NVWVZIYcc6vzmbgYHxQPdKFpm7/GYU1L0mqCtDKn1wIDAQABo1AwTjAdBgNVHQ4EFgQUsFvO9IYfYogx30U85j9m5eUaaRwwHwYDVR0jBBgwFoAUsFvO9IYfYogx30U85j9m5eUaaRwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAD4w+RBzTg+L03yqq11AgNi9pSJ/459p6hQg3KBfM9+FXoaPrGVfXZR1rPddpvOTjvoV6Bu/5LEtgMW7GXbnNdltzhcJoF3HaDScdpcEmnVBfJKGSDLOmRX8uDLY/IKKm24TYXXxtRgCcNVqP3iGnJn20UlZ1L2xFyLv2IZ+qApvfO3p92xBs4RkSIHyzvKfnD0wm8Uvzyz/AXYqkJdLy9z1VuklL6UIriBX0+7dpDJHxJSki0OjzZtGDdchX5ebbezfpwAqru9Q5WbCHUF9uUWaMx2N6LnCs8YNrTrQDeWaUte9Ti4tJcQq73qkmv05CTkh7aMdmR1R1a6I0HUuHNw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montanolucino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montanolucino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montanolucino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montanolucino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montano Lucino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Montano Lucino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Montano Lucino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Montano Lucino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montano Lucino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Montano Lucino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Montano Lucino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Montano Lucino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.montanolucino.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.montanolucino.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.montanolucino.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.montanolucino.co.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

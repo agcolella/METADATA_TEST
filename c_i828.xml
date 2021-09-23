@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Sondalo" entityID="https://www.comune.sondalo.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Sondalo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1taSpgWSUMbsG37Skn1nszl3MfyvNDnGiaPTWh8B75Y=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+y3PTT94A1rqeqrX+WT+YdwkoYwmy7BzgTXuAGhl8+FKnLohRjNoTx4xQa4dkdstpJ16uqZ261Vfa
+f9Wu98Vp7W7u19dokN4PGOh1zRaIQgXQRxy1AzACkO8EI5UVaaq3cYawDfxQHkMyktMHanZcdSNN
+swwx9Bo4xcafJwLo2e6KlC2onXGANIKXJVuaSicny3+uGhqgXyGCn66gPTZ91hW0N/QyTUohWlHN
+7QpBbBSdEagVkKI1kXzkqQ94wuZDPkNcHlxoja/p0uE43rhVCOGxCRzxjNHxJI8+cpq5lGDqigQr
+0IN2zocRLNYPLwY5RXn+u/qDoi7a/DZ0VeRPqg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zwbbXYSjagNk+WdEw/HhW1jZfKrzwZVMEeC76EbNY8sN/ehlFeYuwNg/RPJ7w2ZHLza6sFNFHNJ4
+A7ufONgnFSHLGTr0w9UueRXZAe0uzVp/tgMmCWKsL/COXqBzafTL1daUQXvKeQ9p5TNiIU6Ov3nh
+39SY1gnF3rNS2ljdBH1a0vqu0Q9N7WqOLF9LV8IeYhAeOXgdifpmKusUoBWaSNk++Gy1hB5dlrq/
+iKM7inUhkhprmIalk7ALJod3cBBu/Qz4h289sobEc5X6ErJKz16Ok9yhiiRADljlMaD3U6y4Tma+
+aoU3+gvTY/isQKTI2jeXkFt7dTjJrBhMjI7D2Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAJ008zijHYmkMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuc29uZGFsby5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODIy
+MDY1OTI2WhcNMjgwODE5MDY1OTI2WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnNvbmRhbG8uc28u
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAzwbbXYSjagNk+WdEw/HhW1jZfKrzwZVMEeC76EbNY8sN/ehlFeYuwNg/RPJ7w2ZHLza6
+sFNFHNJ4A7ufONgnFSHLGTr0w9UueRXZAe0uzVp/tgMmCWKsL/COXqBzafTL1daUQXvKeQ9p5TNi
+IU6Ov3nh39SY1gnF3rNS2ljdBH1a0vqu0Q9N7WqOLF9LV8IeYhAeOXgdifpmKusUoBWaSNk++Gy1
+hB5dlrq/iKM7inUhkhprmIalk7ALJod3cBBu/Qz4h289sobEc5X6ErJKz16Ok9yhiiRADljlMaD3
+U6y4Tma+aoU3+gvTY/isQKTI2jeXkFt7dTjJrBhMjI7D2QIDAQABo1AwTjAdBgNVHQ4EFgQUh+4q
+vJ23iPr3SOWkjFWG5Uj6o+EwHwYDVR0jBBgwFoAUh+4qvJ23iPr3SOWkjFWG5Uj6o+EwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEFUqea8+yYtDQmkgFDESBX93dgoP6mEYunwWRqTM
+RqUwkFE3WoPAZAsY2rZ0FePoWys3tD1odD19VdO/KP0Tt/evfuVXdz87AC/lWPZXulpWZ+vgjCg/
+KmgJG92P82XB6En7FvKY6S4yTxZV0EnUbOKcUAte8Mg0DI3PO7rE+kY0AjZS3jD25NascgB3n5OF
+fQ2nAUqBlqLHeFjFQNbkVIbCm7zLR1n5k/8DqUA64O0KdGRXDEdI6ZdXzuqWXoQ8+mewoK4yseQC
+zxmn3jN+gthkbe6yT4xpC5G2JfPrwnceCN4s/J/0ZqORKXgJWIJWGJ9sI61Ebw5QXpfsuGnjSg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAJ008zijHYmkMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuc29uZGFsby5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODIyMDY1OTI2WhcNMjgwODE5MDY1OTI2WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnNvbmRhbG8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzwbbXYSjagNk+WdEw/HhW1jZfKrzwZVMEeC76EbNY8sN/ehlFeYuwNg/RPJ7w2ZHLza6sFNFHNJ4A7ufONgnFSHLGTr0w9UueRXZAe0uzVp/tgMmCWKsL/COXqBzafTL1daUQXvKeQ9p5TNiIU6Ov3nh39SY1gnF3rNS2ljdBH1a0vqu0Q9N7WqOLF9LV8IeYhAeOXgdifpmKusUoBWaSNk++Gy1hB5dlrq/iKM7inUhkhprmIalk7ALJod3cBBu/Qz4h289sobEc5X6ErJKz16Ok9yhiiRADljlMaD3U6y4Tma+aoU3+gvTY/isQKTI2jeXkFt7dTjJrBhMjI7D2QIDAQABo1AwTjAdBgNVHQ4EFgQUh+4qvJ23iPr3SOWkjFWG5Uj6o+EwHwYDVR0jBBgwFoAUh+4qvJ23iPr3SOWkjFWG5Uj6o+EwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEFUqea8+yYtDQmkgFDESBX93dgoP6mEYunwWRqTMRqUwkFE3WoPAZAsY2rZ0FePoWys3tD1odD19VdO/KP0Tt/evfuVXdz87AC/lWPZXulpWZ+vgjCg/KmgJG92P82XB6En7FvKY6S4yTxZV0EnUbOKcUAte8Mg0DI3PO7rE+kY0AjZS3jD25NascgB3n5OFfQ2nAUqBlqLHeFjFQNbkVIbCm7zLR1n5k/8DqUA64O0KdGRXDEdI6ZdXzuqWXoQ8+mewoK4yseQCzxmn3jN+gthkbe6yT4xpC5G2JfPrwnceCN4s/J/0ZqORKXgJWIJWGJ9sI61Ebw5QXpfsuGnjSg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAJ008zijHYmkMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuc29uZGFsby5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwODIyMDY1OTI2WhcNMjgwODE5MDY1OTI2WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnNvbmRhbG8uc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzwbbXYSjagNk+WdEw/HhW1jZfKrzwZVMEeC76EbNY8sN/ehlFeYuwNg/RPJ7w2ZHLza6sFNFHNJ4A7ufONgnFSHLGTr0w9UueRXZAe0uzVp/tgMmCWKsL/COXqBzafTL1daUQXvKeQ9p5TNiIU6Ov3nh39SY1gnF3rNS2ljdBH1a0vqu0Q9N7WqOLF9LV8IeYhAeOXgdifpmKusUoBWaSNk++Gy1hB5dlrq/iKM7inUhkhprmIalk7ALJod3cBBu/Qz4h289sobEc5X6ErJKz16Ok9yhiiRADljlMaD3U6y4Tma+aoU3+gvTY/isQKTI2jeXkFt7dTjJrBhMjI7D2QIDAQABo1AwTjAdBgNVHQ4EFgQUh+4qvJ23iPr3SOWkjFWG5Uj6o+EwHwYDVR0jBBgwFoAUh+4qvJ23iPr3SOWkjFWG5Uj6o+EwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEFUqea8+yYtDQmkgFDESBX93dgoP6mEYunwWRqTMRqUwkFE3WoPAZAsY2rZ0FePoWys3tD1odD19VdO/KP0Tt/evfuVXdz87AC/lWPZXulpWZ+vgjCg/KmgJG92P82XB6En7FvKY6S4yTxZV0EnUbOKcUAte8Mg0DI3PO7rE+kY0AjZS3jD25NascgB3n5OFfQ2nAUqBlqLHeFjFQNbkVIbCm7zLR1n5k/8DqUA64O0KdGRXDEdI6ZdXzuqWXoQ8+mewoK4yseQCzxmn3jN+gthkbe6yT4xpC5G2JfPrwnceCN4s/J/0ZqORKXgJWIJWGJ9sI61Ebw5QXpfsuGnjSg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sondalo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sondalo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sondalo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sondalo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sondalo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Sondalo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Sondalo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Sondalo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sondalo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Sondalo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Sondalo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Sondalo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sondalo.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sondalo.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.sondalo.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.sondalo.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

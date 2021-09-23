@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.castionsdistrada.ud.it" ID="pfxe22432da-e15a-5e99-c704-df6ac8e3b361"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxe22432da-e15a-5e99-c704-df6ac8e3b361"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>CZnNuzcYWXZY8MASZLxgfFeNxRFPKc5CJD6Qjt6KK/Y=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>tPVz446YMXQPuXOaw9vtjofd/EsezW2q97oCBM6c6lyzCounWYrRJt+tqXB5XambLLhBBJDvWECl5Nvt6gsiD0gYrP3C0ldlKqL6jLNkHBENg3xvan7TAiiGHf3P5E6XDpgbKXNxdH8euzvCvNsz8CTPnvYZHAvjHt/iheCVnK12Tr5gvEy0OTvw4uJJsBu1/ybcJI4Eb3QeWy0qRHZ7Y1ITYtevi0HcXuWErfq3/Kc6B6FwQmN4ti+kyU/5VKumtSsaFj3Gy3sNVEP4T6KNLm0mNvvuq3TE+j6pW8gWsMVNbMhPweGvk36ISGHHs1k7crndOIJvCTDCpuJUUA2UBQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID7zCCAtegAwIBAgIJAMh/ZPG3gR/qMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEkNhc3Rpb25zIGRpIFN0cmFkYTElMCMGA1UECgwcQ29tdW5lIGRpIENhc3Rpb25zIGRpIFN0cmFkYTEqMCgGA1UEAwwhd3d3LmNvbXVuZS5jYXN0aW9uc2Rpc3RyYWRhLnVkLml0MB4XDTE4MDQyNDE1MjkwOFoXDTI4MDQyMzE1MjkwOFowgY0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEbMBkGA1UEBwwSQ2FzdGlvbnMgZGkgU3RyYWRhMSUwIwYDVQQKDBxDb211bmUgZGkgQ2FzdGlvbnMgZGkgU3RyYWRhMSowKAYDVQQDDCF3d3cuY29tdW5lLmNhc3Rpb25zZGlzdHJhZGEudWQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWdBmvyrfrysMhoS8mB41BDBJyyVx4y8u4NMbDzs4qxmw20E7VfnBmjOJW5WerFCr+8ihSvIuwMxflcFBjdQofBwP6nqaqac07sUQuMyvwhDAFJoUB9gWA4MypA0KL19kq4tHM7f+DGXJPLNFfTbauPV5TrUduPGAOM12G1eEzMaftjQm0ZzkOPzbHztvX4LGUdliJ3JxO72JjB4m/iheIQO/UnT4kGq+r8FX1DwGgghr9vs68HUtE/Pn1IvjCFE2k/D9x4FdpLz7+zXyEHEMFzttLotW0RA4eswtd5761g2k4F6JOU4ZZtkW+M3Hjgm8XDgJ0aKp04uJeshqrN9unAgMBAAGjUDBOMB0GA1UdDgQWBBSYy9lPK9naDhgGMGQcDCnUdLdEvTAfBgNVHSMEGDAWgBSYy9lPK9naDhgGMGQcDCnUdLdEvTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAOsr4bIUG1VcQ2CcrYZvoWRt/PAEHCn6oAL5pitPiQRBQKnmG1cNQF8FmtRrrSHVTS8PTBhHG8/lq97Uh+BFg+D1H0n5gZbU26bCXohTbGF1fcoevX3vSAgtiZiSZGq4ef6p+fe5XRJeii7MnMKA50MFGkCqkt7bmeB+gHTYUmC82fZbFrFCIi0u9uOeGEQP+X4y1LFQkTxM/w36AOhzaikFqz7X1rZNnwUSLqIgT2iMTwYt3jLPjvDMl1W92Xa6fnz4S6tUFiAcMYrG4IVWvygr7xKZiAhF5JUnolDNF2VUa2FStYvIpNmJwJURQ3R6lEkOC3LVZpiICFus8GMcuD</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID7zCCAtegAwIBAgIJAMh/ZPG3gR/qMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEkNhc3Rpb25zIGRpIFN0cmFkYTElMCMGA1UECgwcQ29tdW5lIGRpIENhc3Rpb25zIGRpIFN0cmFkYTEqMCgGA1UEAwwhd3d3LmNvbXVuZS5jYXN0aW9uc2Rpc3RyYWRhLnVkLml0MB4XDTE4MDQyNDE1MjkwOFoXDTI4MDQyMzE1MjkwOFowgY0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEbMBkGA1UEBwwSQ2FzdGlvbnMgZGkgU3RyYWRhMSUwIwYDVQQKDBxDb211bmUgZGkgQ2FzdGlvbnMgZGkgU3RyYWRhMSowKAYDVQQDDCF3d3cuY29tdW5lLmNhc3Rpb25zZGlzdHJhZGEudWQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWdBmvyrfrysMhoS8mB41BDBJyyVx4y8u4NMbDzs4qxmw20E7VfnBmjOJW5WerFCr+8ihSvIuwMxflcFBjdQofBwP6nqaqac07sUQuMyvwhDAFJoUB9gWA4MypA0KL19kq4tHM7f+DGXJPLNFfTbauPV5TrUduPGAOM12G1eEzMaftjQm0ZzkOPzbHztvX4LGUdliJ3JxO72JjB4m/iheIQO/UnT4kGq+r8FX1DwGgghr9vs68HUtE/Pn1IvjCFE2k/D9x4FdpLz7+zXyEHEMFzttLotW0RA4eswtd5761g2k4F6JOU4ZZtkW+M3Hjgm8XDgJ0aKp04uJeshqrN9unAgMBAAGjUDBOMB0GA1UdDgQWBBSYy9lPK9naDhgGMGQcDCnUdLdEvTAfBgNVHSMEGDAWgBSYy9lPK9naDhgGMGQcDCnUdLdEvTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAOsr4bIUG1VcQ2CcrYZvoWRt/PAEHCn6oAL5pitPiQRBQKnmG1cNQF8FmtRrrSHVTS8PTBhHG8/lq97Uh+BFg+D1H0n5gZbU26bCXohTbGF1fcoevX3vSAgtiZiSZGq4ef6p+fe5XRJeii7MnMKA50MFGkCqkt7bmeB+gHTYUmC82fZbFrFCIi0u9uOeGEQP+X4y1LFQkTxM/w36AOhzaikFqz7X1rZNnwUSLqIgT2iMTwYt3jLPjvDMl1W92Xa6fnz4S6tUFiAcMYrG4IVWvygr7xKZiAhF5JUnolDNF2VUa2FStYvIpNmJwJURQ3R6lEkOC3LVZpiICFus8GMcuD</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID7zCCAtegAwIBAgIJAMh/ZPG3gR/qMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEkNhc3Rpb25zIGRpIFN0cmFkYTElMCMGA1UECgwcQ29tdW5lIGRpIENhc3Rpb25zIGRpIFN0cmFkYTEqMCgGA1UEAwwhd3d3LmNvbXVuZS5jYXN0aW9uc2Rpc3RyYWRhLnVkLml0MB4XDTE4MDQyNDE1MjkwOFoXDTI4MDQyMzE1MjkwOFowgY0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEbMBkGA1UEBwwSQ2FzdGlvbnMgZGkgU3RyYWRhMSUwIwYDVQQKDBxDb211bmUgZGkgQ2FzdGlvbnMgZGkgU3RyYWRhMSowKAYDVQQDDCF3d3cuY29tdW5lLmNhc3Rpb25zZGlzdHJhZGEudWQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWdBmvyrfrysMhoS8mB41BDBJyyVx4y8u4NMbDzs4qxmw20E7VfnBmjOJW5WerFCr+8ihSvIuwMxflcFBjdQofBwP6nqaqac07sUQuMyvwhDAFJoUB9gWA4MypA0KL19kq4tHM7f+DGXJPLNFfTbauPV5TrUduPGAOM12G1eEzMaftjQm0ZzkOPzbHztvX4LGUdliJ3JxO72JjB4m/iheIQO/UnT4kGq+r8FX1DwGgghr9vs68HUtE/Pn1IvjCFE2k/D9x4FdpLz7+zXyEHEMFzttLotW0RA4eswtd5761g2k4F6JOU4ZZtkW+M3Hjgm8XDgJ0aKp04uJeshqrN9unAgMBAAGjUDBOMB0GA1UdDgQWBBSYy9lPK9naDhgGMGQcDCnUdLdEvTAfBgNVHSMEGDAWgBSYy9lPK9naDhgGMGQcDCnUdLdEvTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAOsr4bIUG1VcQ2CcrYZvoWRt/PAEHCn6oAL5pitPiQRBQKnmG1cNQF8FmtRrrSHVTS8PTBhHG8/lq97Uh+BFg+D1H0n5gZbU26bCXohTbGF1fcoevX3vSAgtiZiSZGq4ef6p+fe5XRJeii7MnMKA50MFGkCqkt7bmeB+gHTYUmC82fZbFrFCIi0u9uOeGEQP+X4y1LFQkTxM/w36AOhzaikFqz7X1rZNnwUSLqIgT2iMTwYt3jLPjvDMl1W92Xa6fnz4S6tUFiAcMYrG4IVWvygr7xKZiAhF5JUnolDNF2VUa2FStYvIpNmJwJURQ3R6lEkOC3LVZpiICFus8GMcuD</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.castionsdistrada.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castionsdistrada.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castions di Strada</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castions di Strada</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castionsdistrada.ud.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_abdd8d0-370e-4f76-b281-8eebb276faes" entityID="https://sigma.distrettoalpiorientali.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_abdd8d0-370e-4f76-b281-8eebb276faes">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EZrjVOGXdUCX7Md3+Nt1uyJBV/dxSPYcRhoLCoasUXk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RzsARsdUyIhwVhcg4/hLqfQLTkFmD1/p7XwX1YFQJThh2Tis9zkPWlHbXFe4kp1fYfnbSe/zT78M
+um0y+udRvujY+PoMG5t6HrTimbYLBsZFrNGNa4VcYpppR84CdHdhcpPHnk0qW/f/cGcq/DK/qjhG
+i6whaeT6A7PqbiQ88V17VV2aencoYx9de/IFP+sEAT5sQtfjrUTA1RxV5c6jcfv87cswORaXA8CA
+iSsZZ02kwMf0SesQvGGnzNrTwY6+jjFOkPaTtR5Kod0+8+59mDsSOdDxEdZjJ/WtgX+2hs7xRPPK
+DVcgkCavs6mQKjXrzKONSRWikRHmlnkC2Pk68Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2AfXLa4YBmrMJzIj62HueCP8VsH4LBQybEShOTB3f7IP/v+/JmgriFB8EvoI56fhpqDKbsNfWWWN
+h7bVpjW8cyVhWp24ly6wrCpmekiYNireHjjv82B3R65UpKfaIQqLTDMjI719V9jVPO8SvNdor/FC
+SukHxEF29c5OOpd0etiaptjU4PunSviMLmI6t5dnhT8UW2/Woqld4DCIgkFdo2s8ZQQw+k+q4kpf
+9ifnpuBTeLPGB2jiTQLF+GUYoeAsbt46MSk9XGbonceTqe1M+2ZRDk/wNwdbNc9ga/XnBMHH0uDq
+zl4oDDKagwXUkz8Ec6Dd9FeCEm70MeIF7bHAbQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyTCCArGgAwIBAgIUDlqe2Pabxc+dtGwH0TBLNEOK9oowDQYJKoZIhvcNAQELBQAwdDELMAkG
+A1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UEBwwGTWlsYW5vMQ0wCwYDVQQKDARBZ0lE
+MSUwIwYDVQQLDBxUZXN0IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MQ0wCwYDVQQDDARBZ0lEMB4X
+DTIwMDgwNTExMDQ1OFoXDTMwMDgwMzExMDQ1OFowdDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1p
+bGFubzEPMA0GA1UEBwwGTWlsYW5vMQ0wCwYDVQQKDARBZ0lEMSUwIwYDVQQLDBxUZXN0IENlcnRp
+ZmljYXRpb24gQXV0aG9yaXR5MQ0wCwYDVQQDDARBZ0lEMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA2AfXLa4YBmrMJzIj62HueCP8VsH4LBQybEShOTB3f7IP/v+/JmgriFB8EvoI56fh
+pqDKbsNfWWWNh7bVpjW8cyVhWp24ly6wrCpmekiYNireHjjv82B3R65UpKfaIQqLTDMjI719V9jV
+PO8SvNdor/FCSukHxEF29c5OOpd0etiaptjU4PunSviMLmI6t5dnhT8UW2/Woqld4DCIgkFdo2s8
+ZQQw+k+q4kpf9ifnpuBTeLPGB2jiTQLF+GUYoeAsbt46MSk9XGbonceTqe1M+2ZRDk/wNwdbNc9g
+a/XnBMHH0uDqzl4oDDKagwXUkz8Ec6Dd9FeCEm70MeIF7bHAbQIDAQABo1MwUTAdBgNVHQ4EFgQU
+dAQBV+lfsa1kdYP39gIsKDYLLGEwHwYDVR0jBBgwFoAUdAQBV+lfsa1kdYP39gIsKDYLLGEwDwYD
+VR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAaKXpbnFtt6bsSqqU1EW/88maFauZBlkV
+QB3qEfjg5D8nQ6ur+6vNXerzuGOj4TczHr6ecIULIHUylEX69/7RMUDMhsvE89B5/XC1JDnnwbwK
+h6tDEpDKInryCquh6/LTO2ckM0SB76MaEeZ47c5fmg8vTto+vn842Ab+/UkXonFfsklgfzWwbqfd
+g3DQJAY9+NFnX0S03FqCMrNcQphMWSgLxAhp/v4S4msy12kO7mx3dSJYFiTIBaPZ5jX8BcaRyPMy
+7uz1kmQtTmyPrJWIo7GUmcirjQSBGgh6WVOZvqXz/zlDoOfTt8MXQDYTCdzeMuJZYs2PD3SE2CGf
+Y01ZUA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDyTCCArGgAwIBAgIUDlqe2Pabxc+dtGwH0TBLNEOK9oowDQYJKoZIhvcNAQEL
+BQAwdDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UEBwwGTWls
+YW5vMQ0wCwYDVQQKDARBZ0lEMSUwIwYDVQQLDBxUZXN0IENlcnRpZmljYXRpb24g
+QXV0aG9yaXR5MQ0wCwYDVQQDDARBZ0lEMB4XDTIwMDgwNTExMDQ1OFoXDTMwMDgw
+MzExMDQ1OFowdDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UE
+BwwGTWlsYW5vMQ0wCwYDVQQKDARBZ0lEMSUwIwYDVQQLDBxUZXN0IENlcnRpZmlj
+YXRpb24gQXV0aG9yaXR5MQ0wCwYDVQQDDARBZ0lEMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA2AfXLa4YBmrMJzIj62HueCP8VsH4LBQybEShOTB3f7IP
+/v+/JmgriFB8EvoI56fhpqDKbsNfWWWNh7bVpjW8cyVhWp24ly6wrCpmekiYNire
+Hjjv82B3R65UpKfaIQqLTDMjI719V9jVPO8SvNdor/FCSukHxEF29c5OOpd0etia
+ptjU4PunSviMLmI6t5dnhT8UW2/Woqld4DCIgkFdo2s8ZQQw+k+q4kpf9ifnpuBT
+eLPGB2jiTQLF+GUYoeAsbt46MSk9XGbonceTqe1M+2ZRDk/wNwdbNc9ga/XnBMHH
+0uDqzl4oDDKagwXUkz8Ec6Dd9FeCEm70MeIF7bHAbQIDAQABo1MwUTAdBgNVHQ4E
+FgQUdAQBV+lfsa1kdYP39gIsKDYLLGEwHwYDVR0jBBgwFoAUdAQBV+lfsa1kdYP3
+9gIsKDYLLGEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAaKXp
+bnFtt6bsSqqU1EW/88maFauZBlkVQB3qEfjg5D8nQ6ur+6vNXerzuGOj4TczHr6e
+cIULIHUylEX69/7RMUDMhsvE89B5/XC1JDnnwbwKh6tDEpDKInryCquh6/LTO2ck
+M0SB76MaEeZ47c5fmg8vTto+vn842Ab+/UkXonFfsklgfzWwbqfdg3DQJAY9+NFn
+X0S03FqCMrNcQphMWSgLxAhp/v4S4msy12kO7mx3dSJYFiTIBaPZ5jX8BcaRyPMy
+7uz1kmQtTmyPrJWIo7GUmcirjQSBGgh6WVOZvqXz/zlDoOfTt8MXQDYTCdzeMuJZ
+Ys2PD3SE2CGfY01ZUA==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDyTCCArGgAwIBAgIUDlqe2Pabxc+dtGwH0TBLNEOK9oowDQYJKoZIhvcNAQEL
+BQAwdDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UEBwwGTWls
+YW5vMQ0wCwYDVQQKDARBZ0lEMSUwIwYDVQQLDBxUZXN0IENlcnRpZmljYXRpb24g
+QXV0aG9yaXR5MQ0wCwYDVQQDDARBZ0lEMB4XDTIwMDgwNTExMDQ1OFoXDTMwMDgw
+MzExMDQ1OFowdDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEPMA0GA1UE
+BwwGTWlsYW5vMQ0wCwYDVQQKDARBZ0lEMSUwIwYDVQQLDBxUZXN0IENlcnRpZmlj
+YXRpb24gQXV0aG9yaXR5MQ0wCwYDVQQDDARBZ0lEMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA2AfXLa4YBmrMJzIj62HueCP8VsH4LBQybEShOTB3f7IP
+/v+/JmgriFB8EvoI56fhpqDKbsNfWWWNh7bVpjW8cyVhWp24ly6wrCpmekiYNire
+Hjjv82B3R65UpKfaIQqLTDMjI719V9jVPO8SvNdor/FCSukHxEF29c5OOpd0etia
+ptjU4PunSviMLmI6t5dnhT8UW2/Woqld4DCIgkFdo2s8ZQQw+k+q4kpf9ifnpuBT
+eLPGB2jiTQLF+GUYoeAsbt46MSk9XGbonceTqe1M+2ZRDk/wNwdbNc9ga/XnBMHH
+0uDqzl4oDDKagwXUkz8Ec6Dd9FeCEm70MeIF7bHAbQIDAQABo1MwUTAdBgNVHQ4E
+FgQUdAQBV+lfsa1kdYP39gIsKDYLLGEwHwYDVR0jBBgwFoAUdAQBV+lfsa1kdYP3
+9gIsKDYLLGEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAaKXp
+bnFtt6bsSqqU1EW/88maFauZBlkVQB3qEfjg5D8nQ6ur+6vNXerzuGOj4TczHr6e
+cIULIHUylEX69/7RMUDMhsvE89B5/XC1JDnnwbwKh6tDEpDKInryCquh6/LTO2ck
+M0SB76MaEeZ47c5fmg8vTto+vn842Ab+/UkXonFfsklgfzWwbqfdg3DQJAY9+NFn
+X0S03FqCMrNcQphMWSgLxAhp/v4S4msy12kO7mx3dSJYFiTIBaPZ5jX8BcaRyPMy
+7uz1kmQtTmyPrJWIo7GUmcirjQSBGgh6WVOZvqXz/zlDoOfTt8MXQDYTCdzeMuJZ
+Ys2PD3SE2CGfY01ZUA==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sigma.distrettoalpiorientali.it/sigma/spid/send-logout-response"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sigma.distrettoalpiorientali.it/sigma/spid/send-response" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">SP SPID Distretto Alpi Orientali</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">SP SPID Distretto Alpi Orientali</md:ServiceDescription>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">SP SPID Distretto Alpi Orientali</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">SP SPID Distretto Alpi Orientali</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://sigma.distrettoalpiorientali.it/</md:OrganizationURL>
+   </md:Organization>
+
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>abdda</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:EmailAddress>mailto:support.spid@genegis.net</md:EmailAddress>
+	</md:ContactPerson>
+	
+</md:EntityDescriptor>

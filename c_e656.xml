@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Lomagna" entityID="https://www.comune.lomagna.lc.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Lomagna">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rtt8FGIjf2eBBRJnENgN0YLJyzFdNilx+XpPUmz2tU4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mMTuiVAxVqwz7awEEOLQsVAGgffkIQvDG5gLL5Q7sWsv7f+tEeNepLE5brVIb7x/uF+QMkI/Ccqx
+MZ4Y9KU2XkKZREhUmQ8R9VHH4FU/R3gXY7kC5DrFIaKd/zepKbZspleJLmByxcCpjdFB+4AERk7N
+9BiyMF7oY4AnrijzgzPI+GrDPUIvo7Scjaicav5qCb5e/716GJW2H6SXxEEKq8owkCEjLcpz9v38
+FFVrKNnJXfXYrZyuYpiDelf2hJTLdlgI13NFAOA5dfMDBXb0ZBuBHTC/lMybaANDKVCkG0sMXGVi
+rPH78jQEjEITQAJ5eloUEHbw2C0yOEsX40AVgA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qsSfEmjGkgA3k37bfrFvM6QFWyujROCMBnIM2R+zPVbkO0zU2qMZt/bCKlfHzU17GCNLwwzO2wtw
+WvyWu0/rtWZygyOIY3XYiW/KQpUJbsrAYKGNQ+gP3LAC9vydUEZ+DXO7eYP71ZueE2Am3fdsRk8v
+1W54nrYvGW3X9esL1grMirke7ntUdQz1fXzcIyWRWFndKdPS4cH9nkve3Gs0cEhfnIx24dbu+vAw
+j35qBr7ME5Voj5oSuHAhRrHF0Mu0A1kVfZBfqpoAo45tP7I4qBZitcmT7d+5UJvOXg0kaDE4klH0
+DOeJdCJyWBIAyIvgrdjV38A8WQ71UTm+ORWxOQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDsDCCApigAwIBAgIJAMeJ1s1T4Ax4MA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5j
+b211bmUubG9tYWduYS5sYy5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIExvbWFnbmExFTATBgNVBAQM
+DFBBOklULWNfZTY1NjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBMb21hZ25hMB4X
+DTIwMTAyMTEyMTAzNFoXDTMwMTAxOTEyMTAzNFowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5sb21h
+Z25hLmxjLml0MRowGAYDVQQKDBFDb211bmUgZGkgTG9tYWduYTEVMBMGA1UEBAwMUEE6SVQtY19l
+NjU2MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIExvbWFnbmEwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCqxJ8SaMaSADeTftt+sW8zpAVbK6NE4IwGcgzZH7M9VuQ7TNTa
+oxm39sIqV8fNTXsYI0vDDM7bC3Ba/Ja7T+u1ZnKDI4hjddiJb8pClQluysBgoY1D6A/csAL2/J1Q
+Rn4Nc7t5g/vVm54TYCbd92xGTy/Vbnieti8Zbdf16wvWCsyKuR7ue1R1DPV9fNwjJZFYWd0p09Lh
+wf2eS97cazRwSF+cjHbh1u768DCPfmoGvswTlWiPmhK4cCFGscXQy7QDWRV9kF+qmgCjjm0/sjio
+FmK1yZPt37lQm85eDSRoMTiSUfQM54l0InJYEgDIi+Ct2NXfwDxZDvVROb45FbE5AgMBAAGjLzAt
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB
+CwUAA4IBAQCPY2e5LofE4R82nPf0nItm7cVNHArHM2IgfetLH/Ib8BLG8WiL8h+FFC7jeRLmr6I9
+rPv9X0HncOVy01CBvEg762TwDxKjleUY65MvoQBb9eORW5HZk/skRQYSOuTQDX53DbSdgz7+F3+u
+gLCIl9YC7rX4SWcDe+K7FE1alVJ9VwSMLcB2hF08NLqqZJZ7kXZbPBI/Rvg10SsnSqaUl+9X2aDQ
+DsWjrH5VB5zT6fYxNIvKl2TxXT90sjA/uKCKrxHT0VRHfeh44JaDsP2/SPlqTtC+ZHuVvcyyWaFF
+vNuGndmKF6u2KJm1Qw+SfKsUUcrskYW8jY/1iDZ0IuxNgU7u
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJAMeJ1s1T4Ax4MA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUubG9tYWduYS5sYy5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIExvbWFnbmExFTATBgNVBAQMDFBBOklULWNfZTY1NjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBMb21hZ25hMB4XDTIwMTAyMTEyMTAzNFoXDTMwMTAxOTEyMTAzNFowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5sb21hZ25hLmxjLml0MRowGAYDVQQKDBFDb211bmUgZGkgTG9tYWduYTEVMBMGA1UEBAwMUEE6SVQtY19lNjU2MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIExvbWFnbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqxJ8SaMaSADeTftt+sW8zpAVbK6NE4IwGcgzZH7M9VuQ7TNTaoxm39sIqV8fNTXsYI0vDDM7bC3Ba/Ja7T+u1ZnKDI4hjddiJb8pClQluysBgoY1D6A/csAL2/J1QRn4Nc7t5g/vVm54TYCbd92xGTy/Vbnieti8Zbdf16wvWCsyKuR7ue1R1DPV9fNwjJZFYWd0p09Lhwf2eS97cazRwSF+cjHbh1u768DCPfmoGvswTlWiPmhK4cCFGscXQy7QDWRV9kF+qmgCjjm0/sjioFmK1yZPt37lQm85eDSRoMTiSUfQM54l0InJYEgDIi+Ct2NXfwDxZDvVROb45FbE5AgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCPY2e5LofE4R82nPf0nItm7cVNHArHM2IgfetLH/Ib8BLG8WiL8h+FFC7jeRLmr6I9rPv9X0HncOVy01CBvEg762TwDxKjleUY65MvoQBb9eORW5HZk/skRQYSOuTQDX53DbSdgz7+F3+ugLCIl9YC7rX4SWcDe+K7FE1alVJ9VwSMLcB2hF08NLqqZJZ7kXZbPBI/Rvg10SsnSqaUl+9X2aDQDsWjrH5VB5zT6fYxNIvKl2TxXT90sjA/uKCKrxHT0VRHfeh44JaDsP2/SPlqTtC+ZHuVvcyyWaFFvNuGndmKF6u2KJm1Qw+SfKsUUcrskYW8jY/1iDZ0IuxNgU7u</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJAMeJ1s1T4Ax4MA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUubG9tYWduYS5sYy5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIExvbWFnbmExFTATBgNVBAQMDFBBOklULWNfZTY1NjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBMb21hZ25hMB4XDTIwMTAyMTEyMTAzNFoXDTMwMTAxOTEyMTAzNFowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5sb21hZ25hLmxjLml0MRowGAYDVQQKDBFDb211bmUgZGkgTG9tYWduYTEVMBMGA1UEBAwMUEE6SVQtY19lNjU2MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIExvbWFnbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqxJ8SaMaSADeTftt+sW8zpAVbK6NE4IwGcgzZH7M9VuQ7TNTaoxm39sIqV8fNTXsYI0vDDM7bC3Ba/Ja7T+u1ZnKDI4hjddiJb8pClQluysBgoY1D6A/csAL2/J1QRn4Nc7t5g/vVm54TYCbd92xGTy/Vbnieti8Zbdf16wvWCsyKuR7ue1R1DPV9fNwjJZFYWd0p09Lhwf2eS97cazRwSF+cjHbh1u768DCPfmoGvswTlWiPmhK4cCFGscXQy7QDWRV9kF+qmgCjjm0/sjioFmK1yZPt37lQm85eDSRoMTiSUfQM54l0InJYEgDIi+Ct2NXfwDxZDvVROb45FbE5AgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCPY2e5LofE4R82nPf0nItm7cVNHArHM2IgfetLH/Ib8BLG8WiL8h+FFC7jeRLmr6I9rPv9X0HncOVy01CBvEg762TwDxKjleUY65MvoQBb9eORW5HZk/skRQYSOuTQDX53DbSdgz7+F3+ugLCIl9YC7rX4SWcDe+K7FE1alVJ9VwSMLcB2hF08NLqqZJZ7kXZbPBI/Rvg10SsnSqaUl+9X2aDQDsWjrH5VB5zT6fYxNIvKl2TxXT90sjA/uKCKrxHT0VRHfeh44JaDsP2/SPlqTtC+ZHuVvcyyWaFFvNuGndmKF6u2KJm1Qw+SfKsUUcrskYW8jY/1iDZ0IuxNgU7u</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lomagna"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lomagna" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lomagna" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lomagna" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Lomagna</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Lomagna</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Lomagna</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Lomagna</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Lomagna</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Lomagna</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Lomagna</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Lomagna</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.lomagna.lc.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.lomagna.lc.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.lomagna.lc.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.lomagna.lc.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_e656</spid:IPACode>
+         <spid:FiscalCode>00504810136</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>anagrafe@comune.lomagna.lc.it</md:EmailAddress>
+      <md:TelephoneNumber>0399225118</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.pozzoleone.vi.it" ID="pfx2ae97137-c7c8-79c2-d316-c8b9d4dd118d"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx2ae97137-c7c8-79c2-d316-c8b9d4dd118d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eUb4K4I4IUbq26zdiIQPOYMX39VVZtVEB3UNoWUUScg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>j6Mzm2DECojiBNInB+T/BgGesFNfXUxdLiFlGMAWam74C2dufNZR/zH93ty/okmXVNc2bdKDPVYS7cPVRxYWXqY7xpX8P7ka0x8FQrbJevRt18Cx8Zp80UPgQaFNLaNl5vnFRsH+St5mfSqwnK5YE0AN3lnltYaKpoiYbMfBo4c2HhH5KyuWb3pl9bHcg68ILtCGKQ2qXjvOC8lCQqIDfCvYUP+4lYxwJLQ4DABcpZsEgRulYGkzQ4PN134jJ+Q5qxVvc4qpqTOIwLw1bL82rpIpeAv6dc7GN3iQOO/GFM/Hlkifh9Lw4WjSN1XIgYXlrIsWYE7kA6iySIVMRU+qLw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMU03eF0EqsFMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKUG96em9sZW9uZTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvenpvbGVvbmUxJDAiBgNVBAMMG3d3dy5jb211bmUucG96em9sZW9uZS52aS5pdDAeFw0xODAzMzAxMjQ0MDFaFw0yODAzMjkxMjQ0MDFaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKUG96em9sZW9uZTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvenpvbGVvbmUxJDAiBgNVBAMMG3d3dy5jb211bmUucG96em9sZW9uZS52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxqjcajis/40kyGN6DtOdJQJop/uXeS9FTbDAQjfO5yfyi2i8xsm9HbzNgU6/3A2zrn7yAlclAEBlcDRoHf2Hw7LClcK/CYty9EVTkcFekYvyhJxT6KS1Mz8xSMk0xoC12k7BdsCpQg2xbMhPzhV/jueyZLRquBEgiwRiBcTWxV1XaVIfUyd/so5ZlYyZFo5hYFuzA3hUrN2dzwVw3O+PPMFyetyTo/rAa7MLWAS4eJgXoygq057DymFsX4lsOLD2E1xRr2Eh/Q1+DHq1+tHnzbIpxJTHY53iOmwWejw0b/d93KpIhdOuwwf+KRqxOaFmPAsJeNtVViG7MjgQdU/HMCAwEAAaNQME4wHQYDVR0OBBYEFESxFigU1ZQeAowfE1wqP68Kym0CMB8GA1UdIwQYMBaAFESxFigU1ZQeAowfE1wqP68Kym0CMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIe9/i+KnbcmZXJzbyKuVcOOvCBwlVJTXvaQ7NFKq1k6CEfc9rtboaZKK5vfJURrus+T0zyob5/XNOcEQMVz64ZVPtSMor4Zn5yFqODfaQHFZcX/2aCcBS6wPOdYgVq9rCJZrMD0maED3xZrcTPuK0T9uszeju/Xm7sKh5RaCzzpOtcEQucxcLdjIASpVaHcucqkAZzt+t+CsciBIfd1rcLm4d4Cy6J3sIYiKLw7vyxvwYuQdQiKez6weV956bxj8cnTNjLwl+LtUym8sJuLsFXWPrHT6IMVpK4UE4ovQ1SX6mvusHZRoguicjDE9kb585UyzIbhBaa5OD3P9wZl9tE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMU03eF0EqsFMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKUG96em9sZW9uZTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvenpvbGVvbmUxJDAiBgNVBAMMG3d3dy5jb211bmUucG96em9sZW9uZS52aS5pdDAeFw0xODAzMzAxMjQ0MDFaFw0yODAzMjkxMjQ0MDFaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKUG96em9sZW9uZTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvenpvbGVvbmUxJDAiBgNVBAMMG3d3dy5jb211bmUucG96em9sZW9uZS52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxqjcajis/40kyGN6DtOdJQJop/uXeS9FTbDAQjfO5yfyi2i8xsm9HbzNgU6/3A2zrn7yAlclAEBlcDRoHf2Hw7LClcK/CYty9EVTkcFekYvyhJxT6KS1Mz8xSMk0xoC12k7BdsCpQg2xbMhPzhV/jueyZLRquBEgiwRiBcTWxV1XaVIfUyd/so5ZlYyZFo5hYFuzA3hUrN2dzwVw3O+PPMFyetyTo/rAa7MLWAS4eJgXoygq057DymFsX4lsOLD2E1xRr2Eh/Q1+DHq1+tHnzbIpxJTHY53iOmwWejw0b/d93KpIhdOuwwf+KRqxOaFmPAsJeNtVViG7MjgQdU/HMCAwEAAaNQME4wHQYDVR0OBBYEFESxFigU1ZQeAowfE1wqP68Kym0CMB8GA1UdIwQYMBaAFESxFigU1ZQeAowfE1wqP68Kym0CMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIe9/i+KnbcmZXJzbyKuVcOOvCBwlVJTXvaQ7NFKq1k6CEfc9rtboaZKK5vfJURrus+T0zyob5/XNOcEQMVz64ZVPtSMor4Zn5yFqODfaQHFZcX/2aCcBS6wPOdYgVq9rCJZrMD0maED3xZrcTPuK0T9uszeju/Xm7sKh5RaCzzpOtcEQucxcLdjIASpVaHcucqkAZzt+t+CsciBIfd1rcLm4d4Cy6J3sIYiKLw7vyxvwYuQdQiKez6weV956bxj8cnTNjLwl+LtUym8sJuLsFXWPrHT6IMVpK4UE4ovQ1SX6mvusHZRoguicjDE9kb585UyzIbhBaa5OD3P9wZl9tE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMU03eF0EqsFMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKUG96em9sZW9uZTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvenpvbGVvbmUxJDAiBgNVBAMMG3d3dy5jb211bmUucG96em9sZW9uZS52aS5pdDAeFw0xODAzMzAxMjQ0MDFaFw0yODAzMjkxMjQ0MDFaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKUG96em9sZW9uZTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvenpvbGVvbmUxJDAiBgNVBAMMG3d3dy5jb211bmUucG96em9sZW9uZS52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxqjcajis/40kyGN6DtOdJQJop/uXeS9FTbDAQjfO5yfyi2i8xsm9HbzNgU6/3A2zrn7yAlclAEBlcDRoHf2Hw7LClcK/CYty9EVTkcFekYvyhJxT6KS1Mz8xSMk0xoC12k7BdsCpQg2xbMhPzhV/jueyZLRquBEgiwRiBcTWxV1XaVIfUyd/so5ZlYyZFo5hYFuzA3hUrN2dzwVw3O+PPMFyetyTo/rAa7MLWAS4eJgXoygq057DymFsX4lsOLD2E1xRr2Eh/Q1+DHq1+tHnzbIpxJTHY53iOmwWejw0b/d93KpIhdOuwwf+KRqxOaFmPAsJeNtVViG7MjgQdU/HMCAwEAAaNQME4wHQYDVR0OBBYEFESxFigU1ZQeAowfE1wqP68Kym0CMB8GA1UdIwQYMBaAFESxFigU1ZQeAowfE1wqP68Kym0CMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIe9/i+KnbcmZXJzbyKuVcOOvCBwlVJTXvaQ7NFKq1k6CEfc9rtboaZKK5vfJURrus+T0zyob5/XNOcEQMVz64ZVPtSMor4Zn5yFqODfaQHFZcX/2aCcBS6wPOdYgVq9rCJZrMD0maED3xZrcTPuK0T9uszeju/Xm7sKh5RaCzzpOtcEQucxcLdjIASpVaHcucqkAZzt+t+CsciBIfd1rcLm4d4Cy6J3sIYiKLw7vyxvwYuQdQiKez6weV956bxj8cnTNjLwl+LtUym8sJuLsFXWPrHT6IMVpK4UE4ovQ1SX6mvusHZRoguicjDE9kb585UyzIbhBaa5OD3P9wZl9tE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.pozzoleone.vi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.pozzoleone.vi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pozzoleone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pozzoleone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pozzoleone.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

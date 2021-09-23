@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Schio" entityID="https://www.comune.schio.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Schio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LTQojunFpUHVuOa2sNXiVL9pij031Uq7LqpdqP+Imj8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+M3apwnWx2OuUy4Evw4lWefOfveJR7Q7BsH6HYiPP7A54oNlfrTUBWAYW54W5mANNWqaa4bGgxlxo
+FVk6EhhHxC2OEaYRVRdyfsOM54oSKkCNxQCxyKdNSrCOqSJgRSndeNRjcE4pV04HegC42JFX1MXz
+QwcybQyaVFxFuBONBjm9LuKL++Aai+0XDeb8D80+WQLskP9mlKYRyTFckH8xshQ5FfiwGVMJ0q67
+FksjGoQrI2bK8Fsfo2gqqJhgAo+mqQhkaMpOER+QbhRk5W+n2/rNnx6WA3vxGI/l2EOZB3IN+OF9
+vbiCUVnItflmT0Mhrg9Oc+VfY1Njfi57T+74oQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qZ3j0oZUqdUPGMI8LCJRoXhLkg/3JfOwT82N0LEJxpQQDUjcO8ghiMqk1aXwKrZb7yT+xWKLyfnz
+Jmw5MJkp1PnVr4r/MbkMPO0vOpwA67Qq4lM2gT/gEkYPnwi5CUHMtGFR3uPQZg5bxL3h35Z49489
+sQG+EfaUv3/Jwtn77R44ykmHANDxgmY/X4/hFEau9C3n9qSO4dxAJcw/Bt8lgLUgwigtKGRhFFAa
+4qm3uUwLCTapF9dwYCZCJfDpC/BnxNUKVDC994AKr4lZlBCOo0Ji5eARv2wNDYJwqPJb9NeRId17
+JvIolzXRtg42wRy/ZYMbx7qEOjVaPJQIq+KQfQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID8DCCAtigAwIBAgIJAKsLtlCz9MTcMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHVmljZW56YTEOMAwGA1UEBwwFU2NoaW8xGDAWBgNVBAoMD0NvbXVuZSBkaSBTY2hp
+bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xIjAgBgNVBAMMGW9ubGluZS5jb211bmUu
+c2NoaW8udmkuaXQwHhcNMjAwNjExMDU1NjQwWhcNMzAwNjA5MDU1NjQwWjCBjDELMAkGA1UEBhMC
+SVQxEDAOBgNVBAgMB1ZpY2VuemExDjAMBgNVBAcMBVNjaGlvMRgwFgYDVQQKDA9Db211bmUgZGkg
+U2NoaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSIwIAYDVQQDDBlvbmxpbmUuY29t
+dW5lLnNjaGlvLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZ3j0oZUqdUP
+GMI8LCJRoXhLkg/3JfOwT82N0LEJxpQQDUjcO8ghiMqk1aXwKrZb7yT+xWKLyfnzJmw5MJkp1PnV
+r4r/MbkMPO0vOpwA67Qq4lM2gT/gEkYPnwi5CUHMtGFR3uPQZg5bxL3h35Z49489sQG+EfaUv3/J
+wtn77R44ykmHANDxgmY/X4/hFEau9C3n9qSO4dxAJcw/Bt8lgLUgwigtKGRhFFAa4qm3uUwLCTap
+F9dwYCZCJfDpC/BnxNUKVDC994AKr4lZlBCOo0Ji5eARv2wNDYJwqPJb9NeRId17JvIolzXRtg42
+wRy/ZYMbx7qEOjVaPJQIq+KQfQIDAQABo1MwUTAdBgNVHQ4EFgQUDkwBDRymscBYmaT1mtCiMF9C
+gYEwHwYDVR0jBBgwFoAUDkwBDRymscBYmaT1mtCiMF9CgYEwDwYDVR0TAQH/BAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAqVua8g7oz3QAcpk/8dYoC8WJdQ1mjq9t3YoXU9idGwBcL20g8wbcpxda
+6SY1aKSMMbkT9ZYmYJCGLwzrPADLYFGFec9pETXF56Wp7yg+Rmyx17XCi1u1cGFIgid8lqC8pT+i
+VvzmecKN+kr8GWoPiQeeUBCAFicXjIR0CeW9A3nIh3KemzRRL6ihUt/nvo+9TCOYr+wZ5O4UDR5K
+ahT/FzsbWDjwDtGKSF7FY5uKUIPv8hlZyIhyPhOWGxUGnsTxZsaQWbOtxQm4/CO0hoYdaol2aXcq
+bkC3SVQqz75NVqUu+EFmxhEWIS5uQgB4NGtfftBKvUA66DV3pxUCncFJPQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAMnwdrk7SuBfMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUuc2NoaW8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDIwODA4NDgwNFoXDTI5MDIwNTA4NDgwNFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5zY2hpby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7fy6XaXGieoSdxQCVNTdzgKdoD0zdUfgNJxYQHIxy6NXueRDiEy6C/C1V1c7TIeCq8GMmHScK9yu7VXmhtrIhgzN6htCX9UrIlVcM4CdDrg8JHNqmY+/Gwx9Zz2LS8vhbIewqCY+tTd/yg+cqJghM36F6QNoW+ZAs5pm90TqGOiIIJVhj4ZK2zfJVDmmXREOB9y33Ql6FjGSfVKKD7ZJqQNU79bzwC6esy3gL7ZqAudMylNVInt3eXTPKLz4s5LpLdZfQBm0KgFB1CyXsXxswxYYhGHZLkjrFE61grV+GziGOxJcdaCjIsBYGiz2amaFzsMJkCsh5/SnQ94sCXPlHAgMBAAGjUDBOMB0GA1UdDgQWBBRnvS0xtTM2HPsIMGnSWfh4Z8GHxTAfBgNVHSMEGDAWgBRnvS0xtTM2HPsIMGnSWfh4Z8GHxTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJIlPbQ0NruJdOeh0lkQqq+CRbzFjj1ndOmf3xRr3BGkAI5MXl7IVFLZ36txZCFY6PxHzfYMTTtNGAQs7aIEROklgujoYPZc6aMaMv5VPq0LVnhblCrIDyZM00Mq0l2a8PRdQouSzRe3iwUZQCL/rc6xBG7J6yvLAVayCZ0AOKMBRmjkxie7xc46w1mlbqVmUpz6ZsCui3hie9zKAcunVRku+i2g52/2Fm3OJX3htZ9KW/R9EzWowlcinDr+vrlsX1yks40IZt3KBY26MXsSrh4EsM1JHBCo25qEMjPbvSP6ruyYxewAeUf6oeqaUfz+1zH668GqUda+65QK7bxSjR
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAMnwdrk7SuBfMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUuc2NoaW8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDIwODA4NDgwNFoXDTI5MDIwNTA4NDgwNFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5zY2hpby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7fy6XaXGieoSdxQCVNTdzgKdoD0zdUfgNJxYQHIxy6NXueRDiEy6C/C1V1c7TIeCq8GMmHScK9yu7VXmhtrIhgzN6htCX9UrIlVcM4CdDrg8JHNqmY+/Gwx9Zz2LS8vhbIewqCY+tTd/yg+cqJghM36F6QNoW+ZAs5pm90TqGOiIIJVhj4ZK2zfJVDmmXREOB9y33Ql6FjGSfVKKD7ZJqQNU79bzwC6esy3gL7ZqAudMylNVInt3eXTPKLz4s5LpLdZfQBm0KgFB1CyXsXxswxYYhGHZLkjrFE61grV+GziGOxJcdaCjIsBYGiz2amaFzsMJkCsh5/SnQ94sCXPlHAgMBAAGjUDBOMB0GA1UdDgQWBBRnvS0xtTM2HPsIMGnSWfh4Z8GHxTAfBgNVHSMEGDAWgBRnvS0xtTM2HPsIMGnSWfh4Z8GHxTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJIlPbQ0NruJdOeh0lkQqq+CRbzFjj1ndOmf3xRr3BGkAI5MXl7IVFLZ36txZCFY6PxHzfYMTTtNGAQs7aIEROklgujoYPZc6aMaMv5VPq0LVnhblCrIDyZM00Mq0l2a8PRdQouSzRe3iwUZQCL/rc6xBG7J6yvLAVayCZ0AOKMBRmjkxie7xc46w1mlbqVmUpz6ZsCui3hie9zKAcunVRku+i2g52/2Fm3OJX3htZ9KW/R9EzWowlcinDr+vrlsX1yks40IZt3KBY26MXsSrh4EsM1JHBCo25qEMjPbvSP6ruyYxewAeUf6oeqaUfz+1zH668GqUda+65QK7bxSjR
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8DCCAtigAwIBAgIJAKsLtlCz9MTcMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEOMAwGA1UEBwwFU2NoaW8xGDAWBgNVBAoMD0NvbXVuZSBkaSBTY2hpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xIjAgBgNVBAMMGW9ubGluZS5jb211bmUuc2NoaW8udmkuaXQwHhcNMjAwNjExMDU1NjQwWhcNMzAwNjA5MDU1NjQwWjCBjDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZpY2VuemExDjAMBgNVBAcMBVNjaGlvMRgwFgYDVQQKDA9Db211bmUgZGkgU2NoaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSIwIAYDVQQDDBlvbmxpbmUuY29tdW5lLnNjaGlvLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZ3j0oZUqdUPGMI8LCJRoXhLkg/3JfOwT82N0LEJxpQQDUjcO8ghiMqk1aXwKrZb7yT+xWKLyfnzJmw5MJkp1PnVr4r/MbkMPO0vOpwA67Qq4lM2gT/gEkYPnwi5CUHMtGFR3uPQZg5bxL3h35Z49489sQG+EfaUv3/Jwtn77R44ykmHANDxgmY/X4/hFEau9C3n9qSO4dxAJcw/Bt8lgLUgwigtKGRhFFAa4qm3uUwLCTapF9dwYCZCJfDpC/BnxNUKVDC994AKr4lZlBCOo0Ji5eARv2wNDYJwqPJb9NeRId17JvIolzXRtg42wRy/ZYMbx7qEOjVaPJQIq+KQfQIDAQABo1MwUTAdBgNVHQ4EFgQUDkwBDRymscBYmaT1mtCiMF9CgYEwHwYDVR0jBBgwFoAUDkwBDRymscBYmaT1mtCiMF9CgYEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqVua8g7oz3QAcpk/8dYoC8WJdQ1mjq9t3YoXU9idGwBcL20g8wbcpxda6SY1aKSMMbkT9ZYmYJCGLwzrPADLYFGFec9pETXF56Wp7yg+Rmyx17XCi1u1cGFIgid8lqC8pT+iVvzmecKN+kr8GWoPiQeeUBCAFicXjIR0CeW9A3nIh3KemzRRL6ihUt/nvo+9TCOYr+wZ5O4UDR5KahT/FzsbWDjwDtGKSF7FY5uKUIPv8hlZyIhyPhOWGxUGnsTxZsaQWbOtxQm4/CO0hoYdaol2aXcqbkC3SVQqz75NVqUu+EFmxhEWIS5uQgB4NGtfftBKvUA66DV3pxUCncFJPQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8DCCAtigAwIBAgIJAKsLtlCz9MTcMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEOMAwGA1UEBwwFU2NoaW8xGDAWBgNVBAoMD0NvbXVuZSBkaSBTY2hpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xIjAgBgNVBAMMGW9ubGluZS5jb211bmUuc2NoaW8udmkuaXQwHhcNMjAwNjExMDU1NjQwWhcNMzAwNjA5MDU1NjQwWjCBjDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZpY2VuemExDjAMBgNVBAcMBVNjaGlvMRgwFgYDVQQKDA9Db211bmUgZGkgU2NoaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSIwIAYDVQQDDBlvbmxpbmUuY29tdW5lLnNjaGlvLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZ3j0oZUqdUPGMI8LCJRoXhLkg/3JfOwT82N0LEJxpQQDUjcO8ghiMqk1aXwKrZb7yT+xWKLyfnzJmw5MJkp1PnVr4r/MbkMPO0vOpwA67Qq4lM2gT/gEkYPnwi5CUHMtGFR3uPQZg5bxL3h35Z49489sQG+EfaUv3/Jwtn77R44ykmHANDxgmY/X4/hFEau9C3n9qSO4dxAJcw/Bt8lgLUgwigtKGRhFFAa4qm3uUwLCTapF9dwYCZCJfDpC/BnxNUKVDC994AKr4lZlBCOo0Ji5eARv2wNDYJwqPJb9NeRId17JvIolzXRtg42wRy/ZYMbx7qEOjVaPJQIq+KQfQIDAQABo1MwUTAdBgNVHQ4EFgQUDkwBDRymscBYmaT1mtCiMF9CgYEwHwYDVR0jBBgwFoAUDkwBDRymscBYmaT1mtCiMF9CgYEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqVua8g7oz3QAcpk/8dYoC8WJdQ1mjq9t3YoXU9idGwBcL20g8wbcpxda6SY1aKSMMbkT9ZYmYJCGLwzrPADLYFGFec9pETXF56Wp7yg+Rmyx17XCi1u1cGFIgid8lqC8pT+iVvzmecKN+kr8GWoPiQeeUBCAFicXjIR0CeW9A3nIh3KemzRRL6ihUt/nvo+9TCOYr+wZ5O4UDR5KahT/FzsbWDjwDtGKSF7FY5uKUIPv8hlZyIhyPhOWGxUGnsTxZsaQWbOtxQm4/CO0hoYdaol2aXcqbkC3SVQqz75NVqUu+EFmxhEWIS5uQgB4NGtfftBKvUA66DV3pxUCncFJPQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/schio"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://online.comune.schio.vi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/schio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/schio" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/schio" index="2"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://online.comune.schio.vi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Schio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Schio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Schio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Schio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Schio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Schio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Schio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Schio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.schio.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.schio.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.schio.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.schio.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

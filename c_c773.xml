@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Civitavecchia" entityID="https://www.civitavecchia.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Civitavecchia">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>q5v9Lnn9eQFpsvvfh8an0oljQjorFUP3vcMmIuNXO5k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+d9SaLFYHPDrCrAt4HuEeaIphW5+yQ+EQa5kmTJ3YqtJYr97ib+cZdl2RZRfWhzgRteY7MvCJOSRc
+nEfka/obi3q9kZqL+7VZtJkbijdMPkQVyDgJuaIaN9rH/tU9Eg9eIotmMj2L/LEuFYBfYpEIhKMD
+Lh8bU1K8x6OUI22NMI+Rv4WU8mqRNkl4KHd3XjutE0Ys25NdTGDFmd0z/YiHiAwyeF2Jp/ltSpyO
+o1m5Y23G4pNQUQWXhhVa76p5cof1RQQemhtjCnsO9LAzzmpeqQUl8Bt+JBVPS6AYnHcVb4f9usSO
+shebBiHd7XWTPzHlfM3Ak8H9YT6DKJYztKiFqg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+x2D6H2OnyGRDau9PqsW39vCd4ncean4q4lADpCEqBYe0pn3oQ7BT98drZa+CF8qjpHFdOzstzyrX
+o/E19oWxGhO26bJIjLc27T2rBSCl70OUwDkWje4k1s5uM/3UgjMTVygb8G6yzvFWx4MDTJO/Du/S
+Ufz/joM7RlCW4dcuD+bRmjL/jWqMlQBlm5qJoORbzC7lQXDW+dNVB9H7UJXRSRb/4sV0CQxYQKw/
+nCOxqEGLrOnt5AOwHdEXsFx6Ep/UvPrb+jRIO0qfsb/SKP0RQktOEYdZQmkxKPhVxsO/M5fppBgz
+Pyumh3QZsyxhb6ZsbI5WKKQ2cjmyEVVViiOMIw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAIiG4wElBPSZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+aXZpdGF2ZWNjaGlhLmdvdi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcxMTAz
+MTYxNzEzWhcNMjExMTAyMTYxNzEzWjA/MSEwHwYDVQQDDBh3d3cuY2l2aXRhdmVjY2hpYS5nb3Yu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAx2D6H2OnyGRDau9PqsW39vCd4ncean4q4lADpCEqBYe0pn3oQ7BT98drZa+CF8qjpHFd
+OzstzyrXo/E19oWxGhO26bJIjLc27T2rBSCl70OUwDkWje4k1s5uM/3UgjMTVygb8G6yzvFWx4MD
+TJO/Du/SUfz/joM7RlCW4dcuD+bRmjL/jWqMlQBlm5qJoORbzC7lQXDW+dNVB9H7UJXRSRb/4sV0
+CQxYQKw/nCOxqEGLrOnt5AOwHdEXsFx6Ep/UvPrb+jRIO0qfsb/SKP0RQktOEYdZQmkxKPhVxsO/
+M5fppBgzPyumh3QZsyxhb6ZsbI5WKKQ2cjmyEVVViiOMIwIDAQABo1AwTjAdBgNVHQ4EFgQUlQXT
+inDunBHcwvzkx9yOyydKo9EwHwYDVR0jBBgwFoAUlQXTinDunBHcwvzkx9yOyydKo9EwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAIHJ4KUZHp5/SLVGpvYhSmNAk4LXHYhlziDzO1REH
+EtjPzAqaGWkoMViZZmGWGNfjkLFxb7tvcIcsJOxbz1I9swNow9+LLfoFBcJx6cybCdDNBTLAr1Wy
+VN0YXq19Z2rGeAWwA5MFwi9rZft4v/V5yn56NIb1B9In5hoHyDVqvPJUDg+tNtwdFztNFyeWNlhq
+6uKoV3JS/toeXXlxnKb1nqvSmpzhYjdZok+f5kiqXcArB2K/Ds483to3xEombb47eNTE3chU+Z4D
+LaCHqMwzQv/5QHubgIUyBF1Dzr8MC6O+NzZzdO2kk49x0Fzo//ccO6r/fz1iYAtBEVbEDXzsOg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAIiG4wElBPSZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jaXZpdGF2ZWNjaGlhLmdvdi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcxMTAzMTYxNzEzWhcNMjExMTAyMTYxNzEzWjA/MSEwHwYDVQQDDBh3d3cuY2l2aXRhdmVjY2hpYS5nb3YuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx2D6H2OnyGRDau9PqsW39vCd4ncean4q4lADpCEqBYe0pn3oQ7BT98drZa+CF8qjpHFdOzstzyrXo/E19oWxGhO26bJIjLc27T2rBSCl70OUwDkWje4k1s5uM/3UgjMTVygb8G6yzvFWx4MDTJO/Du/SUfz/joM7RlCW4dcuD+bRmjL/jWqMlQBlm5qJoORbzC7lQXDW+dNVB9H7UJXRSRb/4sV0CQxYQKw/nCOxqEGLrOnt5AOwHdEXsFx6Ep/UvPrb+jRIO0qfsb/SKP0RQktOEYdZQmkxKPhVxsO/M5fppBgzPyumh3QZsyxhb6ZsbI5WKKQ2cjmyEVVViiOMIwIDAQABo1AwTjAdBgNVHQ4EFgQUlQXTinDunBHcwvzkx9yOyydKo9EwHwYDVR0jBBgwFoAUlQXTinDunBHcwvzkx9yOyydKo9EwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAIHJ4KUZHp5/SLVGpvYhSmNAk4LXHYhlziDzO1REHEtjPzAqaGWkoMViZZmGWGNfjkLFxb7tvcIcsJOxbz1I9swNow9+LLfoFBcJx6cybCdDNBTLAr1WyVN0YXq19Z2rGeAWwA5MFwi9rZft4v/V5yn56NIb1B9In5hoHyDVqvPJUDg+tNtwdFztNFyeWNlhq6uKoV3JS/toeXXlxnKb1nqvSmpzhYjdZok+f5kiqXcArB2K/Ds483to3xEombb47eNTE3chU+Z4DLaCHqMwzQv/5QHubgIUyBF1Dzr8MC6O+NzZzdO2kk49x0Fzo//ccO6r/fz1iYAtBEVbEDXzsOg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/civitavecchia"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/civitavecchia" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/civitavecchia" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Civitavecchia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Civitavecchia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Civitavecchia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Civitavecchia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Civitavecchia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Civitavecchia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Civitavecchia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Civitavecchia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.civitavecchia.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.civitavecchia.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.civitavecchia.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.civitavecchia.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

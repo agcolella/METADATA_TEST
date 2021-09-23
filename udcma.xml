@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxd2421b83-2966-6268-4ca9-77cbac767aa1" entityID="https://egov.uc-amiata.gr.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxd2421b83-2966-6268-4ca9-77cbac767aa1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FSGGjB/tnGKAroBdsXwJuFPBPcELjocKtM2IVaJwWTM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rUnGloHuk2xc6ZFaW/Um63aZdihPwpUbCOZX9zusANviwe1KFGoc5e8k/6pXSGqPieMesxsvWZY+
+LeS/bPtn//za1hxs8VSRY0Eq29PZQM4jaMR1CbVwyIJSm+VxUOH8I2/qSGcUka6YRrCETWZFcUBb
+Q2U1G5bT7IJV55AKMYIvHRLyZNOX6FZsZJHHK5Z8+YQ+Kn9kACmawaNW7iRIkKw8rTatI1ChP7bQ
+HVzksMP2CMhlKcU46dpuyNt20KA6lFRZioHjqNzbgiBCxioZLVnfU8gVjl3NUa7bi+QFmnybxgq9
+vVslUZ4pMAKixKXACv56kxusRyeY7ijGDwmYLw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wjpDrbOobXYpnBgrR5g4NuA1xm4oSveHOYbXeygrxovDPTyz4kQIwmQI8bcs+wfpAEAy8WA58YQe
+J5JQLjPExDGmFkbYWW+sV0alJPOQlHZwo/bp5dQmt6waCXuGpJHXZlZ9AGpntLd2LDOabiFYTdKo
+Vs5ZhRetDkvvO/qkeSWjq3QNno2w1PbdCDHHKEgSp0o+GZFm97SXhYHx0F8e9KlbnLIL4dlveqoz
+L5n8OGII6h/vhfmjH/uGq6mVMu4bVUbeI5t+Z1j3O47nVw5phEk0XB2z1n559JJWNf04+/9LOHN7
+y8oj4NG697l6fGVb1oUJDAwOjdeag7HAhuPf2Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4TCCAsmgAwIBAgIJALUVzyS+42/nMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCUFyY2lkb3NzbzE0MDIGA1UECgwrVW5pb25lIERlaSBD
+b211bmkgTW9udGFuaSBBbWlhdGEgR3Jvc3NldGFuYTEdMBsGA1UEAwwUZWdvdi51Yy1hbWlhdGEu
+Z3IuaXQwHhcNMTkwNTAyMTA0MzQxWhcNMjkwNTAxMTA0MzQxWjCBhjELMAkGA1UEBhMCSVQxDjAM
+BgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlBcmNpZG9zc28xNDAyBgNVBAoMK1VuaW9uZSBEZWkgQ29t
+dW5pIE1vbnRhbmkgQW1pYXRhIEdyb3NzZXRhbmExHTAbBgNVBAMMFGVnb3YudWMtYW1pYXRhLmdy
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwjpDrbOobXYpnBgrR5g4NuA1xm4o
+SveHOYbXeygrxovDPTyz4kQIwmQI8bcs+wfpAEAy8WA58YQeJ5JQLjPExDGmFkbYWW+sV0alJPOQ
+lHZwo/bp5dQmt6waCXuGpJHXZlZ9AGpntLd2LDOabiFYTdKoVs5ZhRetDkvvO/qkeSWjq3QNno2w
+1PbdCDHHKEgSp0o+GZFm97SXhYHx0F8e9KlbnLIL4dlveqozL5n8OGII6h/vhfmjH/uGq6mVMu4b
+VUbeI5t+Z1j3O47nVw5phEk0XB2z1n559JJWNf04+/9LOHN7y8oj4NG697l6fGVb1oUJDAwOjdea
+g7HAhuPf2QIDAQABo1AwTjAdBgNVHQ4EFgQU/d5N1m+p6X6sC07sqPc9BbcNHmYwHwYDVR0jBBgw
+FoAU/d5N1m+p6X6sC07sqPc9BbcNHmYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+RZLlhwrHfjDCuYxOe0U3rsstXGSVNvaB4OOMPkYrtRHkfnnlp0RWyMT9NisApB/OWLTgTl3MauR6
+ZK7Dj+DJrK/7hMuWvOI8Uvrn4hhklqkvocVBHFXL2j8Z49LNqtMfnRG6V6oVNrhXJHkevOZGdmq4
+2+n7LqZc/hxWU+NJG380QEtwrXAVruQVHG6FlrfLl/R4KgQ2wdVae3yubVer84qtXMf/ggE9Hrk9
+kNuUCDjC4912VR8v/piQEY+gPLotl31IBScqQ7sHSaNMcKG5ct8yPxIQR4uQFQBsvlvA7vmZgW98
+1LqqWA4sUCihHbQN6C2KELang8IdZban2hQzZg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJALUVzyS+42/nMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCUFyY2lkb3NzbzE0MDIGA1UECgwrVW5pb25lIERlaSBDb211bmkgTW9udGFuaSBBbWlhdGEgR3Jvc3NldGFuYTEdMBsGA1UEAwwUZWdvdi51Yy1hbWlhdGEuZ3IuaXQwHhcNMTkwNTAyMTA0MzQxWhcNMjkwNTAxMTA0MzQxWjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlBcmNpZG9zc28xNDAyBgNVBAoMK1VuaW9uZSBEZWkgQ29tdW5pIE1vbnRhbmkgQW1pYXRhIEdyb3NzZXRhbmExHTAbBgNVBAMMFGVnb3YudWMtYW1pYXRhLmdyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwjpDrbOobXYpnBgrR5g4NuA1xm4oSveHOYbXeygrxovDPTyz4kQIwmQI8bcs+wfpAEAy8WA58YQeJ5JQLjPExDGmFkbYWW+sV0alJPOQlHZwo/bp5dQmt6waCXuGpJHXZlZ9AGpntLd2LDOabiFYTdKoVs5ZhRetDkvvO/qkeSWjq3QNno2w1PbdCDHHKEgSp0o+GZFm97SXhYHx0F8e9KlbnLIL4dlveqozL5n8OGII6h/vhfmjH/uGq6mVMu4bVUbeI5t+Z1j3O47nVw5phEk0XB2z1n559JJWNf04+/9LOHN7y8oj4NG697l6fGVb1oUJDAwOjdeag7HAhuPf2QIDAQABo1AwTjAdBgNVHQ4EFgQU/d5N1m+p6X6sC07sqPc9BbcNHmYwHwYDVR0jBBgwFoAU/d5N1m+p6X6sC07sqPc9BbcNHmYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARZLlhwrHfjDCuYxOe0U3rsstXGSVNvaB4OOMPkYrtRHkfnnlp0RWyMT9NisApB/OWLTgTl3MauR6ZK7Dj+DJrK/7hMuWvOI8Uvrn4hhklqkvocVBHFXL2j8Z49LNqtMfnRG6V6oVNrhXJHkevOZGdmq42+n7LqZc/hxWU+NJG380QEtwrXAVruQVHG6FlrfLl/R4KgQ2wdVae3yubVer84qtXMf/ggE9Hrk9kNuUCDjC4912VR8v/piQEY+gPLotl31IBScqQ7sHSaNMcKG5ct8yPxIQR4uQFQBsvlvA7vmZgW981LqqWA4sUCihHbQN6C2KELang8IdZban2hQzZg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJALUVzyS+42/nMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCUFyY2lkb3NzbzE0MDIGA1UECgwrVW5pb25lIERlaSBDb211bmkgTW9udGFuaSBBbWlhdGEgR3Jvc3NldGFuYTEdMBsGA1UEAwwUZWdvdi51Yy1hbWlhdGEuZ3IuaXQwHhcNMTkwNTAyMTA0MzQxWhcNMjkwNTAxMTA0MzQxWjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlBcmNpZG9zc28xNDAyBgNVBAoMK1VuaW9uZSBEZWkgQ29tdW5pIE1vbnRhbmkgQW1pYXRhIEdyb3NzZXRhbmExHTAbBgNVBAMMFGVnb3YudWMtYW1pYXRhLmdyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwjpDrbOobXYpnBgrR5g4NuA1xm4oSveHOYbXeygrxovDPTyz4kQIwmQI8bcs+wfpAEAy8WA58YQeJ5JQLjPExDGmFkbYWW+sV0alJPOQlHZwo/bp5dQmt6waCXuGpJHXZlZ9AGpntLd2LDOabiFYTdKoVs5ZhRetDkvvO/qkeSWjq3QNno2w1PbdCDHHKEgSp0o+GZFm97SXhYHx0F8e9KlbnLIL4dlveqozL5n8OGII6h/vhfmjH/uGq6mVMu4bVUbeI5t+Z1j3O47nVw5phEk0XB2z1n559JJWNf04+/9LOHN7y8oj4NG697l6fGVb1oUJDAwOjdeag7HAhuPf2QIDAQABo1AwTjAdBgNVHQ4EFgQU/d5N1m+p6X6sC07sqPc9BbcNHmYwHwYDVR0jBBgwFoAU/d5N1m+p6X6sC07sqPc9BbcNHmYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARZLlhwrHfjDCuYxOe0U3rsstXGSVNvaB4OOMPkYrtRHkfnnlp0RWyMT9NisApB/OWLTgTl3MauR6ZK7Dj+DJrK/7hMuWvOI8Uvrn4hhklqkvocVBHFXL2j8Z49LNqtMfnRG6V6oVNrhXJHkevOZGdmq42+n7LqZc/hxWU+NJG380QEtwrXAVruQVHG6FlrfLl/R4KgQ2wdVae3yubVer84qtXMf/ggE9Hrk9kNuUCDjC4912VR8v/piQEY+gPLotl31IBScqQ7sHSaNMcKG5ct8yPxIQR4uQFQBsvlvA7vmZgW981LqqWA4sUCihHbQN6C2KELang8IdZban2hQzZg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://egov.uc-amiata.gr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://egov.uc-amiata.gr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Dei Comuni Montani Amiata Grossetana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Dei Comuni Montani Amiata Grossetana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://uc-amiata.gr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

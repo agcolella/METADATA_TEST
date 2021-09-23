@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.medolago.bg.it/" ID="_69a5818e1c9940d983550eecbd649b3acddfd9329749172c86d45ea85df0c6dd"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_69a5818e1c9940d983550eecbd649b3acddfd9329749172c86d45ea85df0c6dd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8oGABfpEQULknZxfeebvYt79VW/X7GKKXS2X3QGViYE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>pE/FE9GbDcUKjYVbVnIYZQytJ0m7cjngFO+56LPoTk/LqmqbocQ9rvr6kJsaoyQu3gPoU+FWnmQCg2KmYv7mn7kC+E2pufPfePMLEF/e7PmyxpshqBE02JN7YReu60KXasvaNEkYbO23Ez61HJXGAVO/lyyVoLSGXjg8mRmWit24XqRm/lfo6uBLyC6PgvVqxx+TtQzQm7Z+8/TL2WKZrfYkwGYVdHGH++QD8tA22+V8ormZi89iYMb6wKwMzv0AkfS4GgDTT1imY5dQ9UIW3hOcuFGFbogOjjGqaw82q3g5vr+v/kAGMsWPuJCQAzoSIcNMzjUm2ubXXXsIYPU8tA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID1jCCAr6gAwIBAgIRAMGgVqOEDi+YJWznAy5V+dgwDQYJKoZIhvcNAQELBQAwgZExCzAJBgNVBAYTAklUMREwDwYDVQQHEwhNZWRvbGFnbzEbMBkGA1UEChMSQ29tdW5lIGRpIE1lZG9sYWdvMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0LzEVMBMGA1UEBRYMUEE6SVQtY19mMDg1MB4XDTIwMTAxOTE1MDI1OVoXDTMwMTAxNzE1MDI1OVowgZExCzAJBgNVBAYTAklUMREwDwYDVQQHEwhNZWRvbGFnbzEbMBkGA1UEChMSQ29tdW5lIGRpIE1lZG9sYWdvMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0LzEVMBMGA1UEBRYMUEE6SVQtY19mMDg1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7dyc/P4uwrCSqwm5ug8k229wdHtjotfYbaYkLgs6mZOxxX/AMvtaXheDD7HR8XCm+fKi7pury8iNKn5CzqbxsA6sqfg3GlJOSuOOLA+ft5LPr7v0DnWgkKiH1HEPsHFNReneKXl1W9gT8CbbzZipZpubBkoABbBpFoHvHww0Pu6bY/M0XKt7Uj3wKybqkBv8imhhcivp4bSMfG//q+Lk1teuXR65D9GlyOta06xlIEqKrON4ReuZhH7dKgXW32omr9InwA81iot22yZhQxZgFAHQshGV1BAmsmqbyo77zaeiSo4THE9OswmG1Dz7KkRTJlXQcaukuu/IUIj0emq+AwIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFrhh+Aq2naoVq5Wb9pDH0rBTfMLarWljzhZJH7Zz19IjXlrA/YcyHGU5WteneJjnjfnTbGwfq9JP6xRhYTNCaphTOhHDC9i17HGFrjxhViEp3yGeuKmPk6UQdfiLrmEP5KApZwmFizstKDaKIiOJ7zIkMHt4zzAX/1cWP/BysICMi8W90C4gpUps0xxiD1f45MwE5HiKEr/2WwqCZ8LLSMWbTS8VZnBiSnb8GNaG/qICLQOGSHFNI6IKLwQr80YZAu0cLWiwwyWBINt/0nebYnK2yMt2cOygLM0MTgBmpG4jaEBkB9D8yZ5l9hYmAMLMXw13JPwq90Rcvq2l49UUdo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1jCCAr6gAwIBAgIRAMGgVqOEDi+YJWznAy5V+dgwDQYJKoZIhvcNAQELBQAwgZExCzAJBgNVBAYTAklUMREwDwYDVQQHEwhNZWRvbGFnbzEbMBkGA1UEChMSQ29tdW5lIGRpIE1lZG9sYWdvMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0LzEVMBMGA1UEBRYMUEE6SVQtY19mMDg1MB4XDTIwMTAxOTE1MDI1OVoXDTMwMTAxNzE1MDI1OVowgZExCzAJBgNVBAYTAklUMREwDwYDVQQHEwhNZWRvbGFnbzEbMBkGA1UEChMSQ29tdW5lIGRpIE1lZG9sYWdvMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0LzEVMBMGA1UEBRYMUEE6SVQtY19mMDg1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7dyc/P4uwrCSqwm5ug8k229wdHtjotfYbaYkLgs6mZOxxX/AMvtaXheDD7HR8XCm+fKi7pury8iNKn5CzqbxsA6sqfg3GlJOSuOOLA+ft5LPr7v0DnWgkKiH1HEPsHFNReneKXl1W9gT8CbbzZipZpubBkoABbBpFoHvHww0Pu6bY/M0XKt7Uj3wKybqkBv8imhhcivp4bSMfG//q+Lk1teuXR65D9GlyOta06xlIEqKrON4ReuZhH7dKgXW32omr9InwA81iot22yZhQxZgFAHQshGV1BAmsmqbyo77zaeiSo4THE9OswmG1Dz7KkRTJlXQcaukuu/IUIj0emq+AwIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFrhh+Aq2naoVq5Wb9pDH0rBTfMLarWljzhZJH7Zz19IjXlrA/YcyHGU5WteneJjnjfnTbGwfq9JP6xRhYTNCaphTOhHDC9i17HGFrjxhViEp3yGeuKmPk6UQdfiLrmEP5KApZwmFizstKDaKIiOJ7zIkMHt4zzAX/1cWP/BysICMi8W90C4gpUps0xxiD1f45MwE5HiKEr/2WwqCZ8LLSMWbTS8VZnBiSnb8GNaG/qICLQOGSHFNI6IKLwQr80YZAu0cLWiwwyWBINt/0nebYnK2yMt2cOygLM0MTgBmpG4jaEBkB9D8yZ5l9hYmAMLMXw13JPwq90Rcvq2l49UUdo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1jCCAr6gAwIBAgIRAMGgVqOEDi+YJWznAy5V+dgwDQYJKoZIhvcNAQELBQAwgZExCzAJBgNVBAYTAklUMREwDwYDVQQHEwhNZWRvbGFnbzEbMBkGA1UEChMSQ29tdW5lIGRpIE1lZG9sYWdvMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0LzEVMBMGA1UEBRYMUEE6SVQtY19mMDg1MB4XDTIwMTAxOTE1MDI1OVoXDTMwMTAxNzE1MDI1OVowgZExCzAJBgNVBAYTAklUMREwDwYDVQQHEwhNZWRvbGFnbzEbMBkGA1UEChMSQ29tdW5lIGRpIE1lZG9sYWdvMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0LzEVMBMGA1UEBRYMUEE6SVQtY19mMDg1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7dyc/P4uwrCSqwm5ug8k229wdHtjotfYbaYkLgs6mZOxxX/AMvtaXheDD7HR8XCm+fKi7pury8iNKn5CzqbxsA6sqfg3GlJOSuOOLA+ft5LPr7v0DnWgkKiH1HEPsHFNReneKXl1W9gT8CbbzZipZpubBkoABbBpFoHvHww0Pu6bY/M0XKt7Uj3wKybqkBv8imhhcivp4bSMfG//q+Lk1teuXR65D9GlyOta06xlIEqKrON4ReuZhH7dKgXW32omr9InwA81iot22yZhQxZgFAHQshGV1BAmsmqbyo77zaeiSo4THE9OswmG1Dz7KkRTJlXQcaukuu/IUIj0emq+AwIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFrhh+Aq2naoVq5Wb9pDH0rBTfMLarWljzhZJH7Zz19IjXlrA/YcyHGU5WteneJjnjfnTbGwfq9JP6xRhYTNCaphTOhHDC9i17HGFrjxhViEp3yGeuKmPk6UQdfiLrmEP5KApZwmFizstKDaKIiOJ7zIkMHt4zzAX/1cWP/BysICMi8W90C4gpUps0xxiD1f45MwE5HiKEr/2WwqCZ8LLSMWbTS8VZnBiSnb8GNaG/qICLQOGSHFNI6IKLwQr80YZAu0cLWiwwyWBINt/0nebYnK2yMt2cOygLM0MTgBmpG4jaEBkB9D8yZ5l9hYmAMLMXw13JPwq90Rcvq2l49UUdo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.medolago.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.medolago.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Medolago</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Medolago</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Medolago</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Medolago</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Medolago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Medolago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Medolago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Medolago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.medolago.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.medolago.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.medolago.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.medolago.bg.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_f085</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>comune.medolago.bg@halleycert.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

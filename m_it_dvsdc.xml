@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="pfxbccb2bcd-57ed-b02e-ac7c-0d85d9d96ed8" entityID="https://sso.vigilfuoco.it/spid"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxbccb2bcd-57ed-b02e-ac7c-0d85d9d96ed8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>KFH6IxLnWXJ03zc92DXrkRUKyxNr8H8+iyvJcA+VGHw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XkYFO/sjiAf+uMRqrTDTc/ycGWLPAoWiEtXFSfvRp1UeLG8Dgu9Ueel2XKtHk9EoZlDFM0P2mJtY
+/Be70TYUicdg+26ev6NW1NThgPUGvN3IyXI/WcLhPoxrBTyYkDmdodbywkwLyegFyQ4+zFiRIbEt
+ibOV5J9EYfKx1jbwETrF7jFmUSw9HHs4B3l8tS8YOxIeTdJwAI/eq9FJwT7XUAN8lqUKHmsfrFAq
+llFEyz+VqiHfwENiXdms0SH5Cw8tpSe4LSR9KJXRDYySJQNwjfV8TY7lPlYjrEmXOoP/JAa9AzIT
+MIXgIxzX2VPP0gu6dGwFGyH4e9o+oW4UqrlDUg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qTA6QfR84Ifm4fjotQG9Eh2/YmuvTgojFD9ahMZV29W931nuxEbYpXU8zOgRzlFmnd7y3n8enzEZ
+EKORS8J/ZS39yROnfQqWAzPXbY/hjdJyo3XqiXwZNZdstrRR48zRsXB0NRDOk3qHaY9a4IeN2jwA
+AQRBGfE10/zolBgEO2TmwRPOYOKsjc8GKrrapYaG34NK+fDojaDNQkJuCytcBgrOOoEvMUMa6dy1
+X/Z/YhxcPUzJWaeOrRbYKF3328LWJ+3wBXTPjnHmAsSue/FhotJrB0kkAErE0VnblZPLdIq0jujj
+cgk7Y01Zh9j7Lf/sgc/6luCkTiYUjazJRsDrbw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEGjCCAwICCQD0Y80IDHucGDANBgkqhkiG9w0BAQsFADCBzjELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgMBUl0YWx5MQ0wCwYDVQQHDARSb21lMQ4wDAYDVQQKDAVDTlZWRjEqMCgGA1UECwwhVWZmaWNp
+byBwZXIgaSBTZXJ2aXppIEluZm9ybWF0aWNpMSIwIAYDVQQDDBlodHRwczovL3d3dy52aWdpbGZ1
+b2NvLml0MUAwPgYJKoZIhvcNAQkBFjFyaWwuc2lzdGVtaWluZm9ybWF0aXZpYXV0b21hdGl6emF0
+aUB2aWdpbGZ1b2NvLml0MB4XDTE5MDYxODE3MjIyN1oXDTI0MDYxODE3MjIyN1owgc4xCzAJBgNV
+BAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwEUm9tZTEOMAwGA1UECgwFQ05WVkYxKjAo
+BgNVBAsMIVVmZmljaW8gcGVyIGkgU2Vydml6aSBJbmZvcm1hdGljaTEiMCAGA1UEAwwZaHR0cHM6
+Ly93d3cudmlnaWxmdW9jby5pdDFAMD4GCSqGSIb3DQEJARYxcmlsLnNpc3RlbWlpbmZvcm1hdGl2
+aWF1dG9tYXRpenphdGlAdmlnaWxmdW9jby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAKkwOkH0fOCH5uH46LUBvRIdv2Jrr04KIxQ/WoTGVdvVvd9Z7sRG2KV1PMzoEc5RZp3e8t5/
+Hp8xGRCjkUvCf2Ut/ckTp30KlgMz122P4Y3ScqN16ol8GTWXbLa0UePM0bFwdDUQzpN6h2mPWuCH
+jdo8AAEEQRnxNdP86JQYBDtk5sETzmDirI3PBiq62qWGht+DSvnw6I2gzUJCbgsrXAYKzjqBLzFD
+GunctV/2f2IcXD1MyVmnjq0W2Chd99vC1ift8AV0z45x5gLErnvxYaLSawdJJABKxNFZ25WTy3SK
+tI7o43IJO2NNWYfY+y3/7IHP+pbgpE4mFI2syUbA628CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+X+TNc3HHKfxw+CWzzTvAZLm0YtzWSX5FmqwsA5TnBi+t9KsEuIRnFjmMNojGEJOCpOXqSk1zWFd3
+yiXNmKlVxpYeodJ4MrvwbZVIhjLKEWPbAaenPWLYXslbAAb0ESbJoG5wFedXAuoUbO0dEo0iLt+X
+7rzQkKXl8uns4+B2TFIK0FJv/7+iB3c1Oyx7LhSk5tocUiRc+2xBxDRAZBLi63I9/6a7aCcOnGTi
+CIHDykOF7HBwOvMJEJ9YChnYoLTrUhI2LP39XpHXwG3n5m+nUL8/w4MKTYKAxPsqDz6PlaBpzK2l
+ChXLNefqVRcYOiUOnggfDOYPgFfxLgwugNX3tA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">		
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIEGjCCAwICCQD0Y80IDHucGDANBgkqhkiG9w0BAQsFADCBzjELMAkGA1UEBhMC
+SVQxDjAMBgNVBAgMBUl0YWx5MQ0wCwYDVQQHDARSb21lMQ4wDAYDVQQKDAVDTlZW
+RjEqMCgGA1UECwwhVWZmaWNpbyBwZXIgaSBTZXJ2aXppIEluZm9ybWF0aWNpMSIw
+IAYDVQQDDBlodHRwczovL3d3dy52aWdpbGZ1b2NvLml0MUAwPgYJKoZIhvcNAQkB
+FjFyaWwuc2lzdGVtaWluZm9ybWF0aXZpYXV0b21hdGl6emF0aUB2aWdpbGZ1b2Nv
+Lml0MB4XDTE5MDYxODE3MjIyN1oXDTI0MDYxODE3MjIyN1owgc4xCzAJBgNVBAYT
+AklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwEUm9tZTEOMAwGA1UECgwFQ05W
+VkYxKjAoBgNVBAsMIVVmZmljaW8gcGVyIGkgU2Vydml6aSBJbmZvcm1hdGljaTEi
+MCAGA1UEAwwZaHR0cHM6Ly93d3cudmlnaWxmdW9jby5pdDFAMD4GCSqGSIb3DQEJ
+ARYxcmlsLnNpc3RlbWlpbmZvcm1hdGl2aWF1dG9tYXRpenphdGlAdmlnaWxmdW9j
+by5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKkwOkH0fOCH5uH4
+6LUBvRIdv2Jrr04KIxQ/WoTGVdvVvd9Z7sRG2KV1PMzoEc5RZp3e8t5/Hp8xGRCj
+kUvCf2Ut/ckTp30KlgMz122P4Y3ScqN16ol8GTWXbLa0UePM0bFwdDUQzpN6h2mP
+WuCHjdo8AAEEQRnxNdP86JQYBDtk5sETzmDirI3PBiq62qWGht+DSvnw6I2gzUJC
+bgsrXAYKzjqBLzFDGunctV/2f2IcXD1MyVmnjq0W2Chd99vC1ift8AV0z45x5gLE
+rnvxYaLSawdJJABKxNFZ25WTy3SKtI7o43IJO2NNWYfY+y3/7IHP+pbgpE4mFI2s
+yUbA628CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAX+TNc3HHKfxw+CWzzTvAZLm0
+YtzWSX5FmqwsA5TnBi+t9KsEuIRnFjmMNojGEJOCpOXqSk1zWFd3yiXNmKlVxpYe
+odJ4MrvwbZVIhjLKEWPbAaenPWLYXslbAAb0ESbJoG5wFedXAuoUbO0dEo0iLt+X
+7rzQkKXl8uns4+B2TFIK0FJv/7+iB3c1Oyx7LhSk5tocUiRc+2xBxDRAZBLi63I9
+/6a7aCcOnGTiCIHDykOF7HBwOvMJEJ9YChnYoLTrUhI2LP39XpHXwG3n5m+nUL8/
+w4MKTYKAxPsqDz6PlaBpzK2lChXLNefqVRcYOiUOnggfDOYPgFfxLgwugNX3tA==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.vigilfuoco.it/cas/spid/samlsls/post"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.vigilfuoco.it/cas/spid/samlsls/redirect"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.vigilfuoco.it/cas/spid/samlacs/post" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.vigilfuoco.it/cas-test/spid/samlacs/post" index="1"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">SSO light</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">SSO heavy</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo Email" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo PEC" Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">CNVVF</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Corpo Nazionale dei Vigili del Fuoco</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.vigilfuoco.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

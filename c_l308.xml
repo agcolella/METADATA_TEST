@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="www.tortorici.gov.it" entityID="www.tortorici.gov.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#www.tortorici.gov.it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OWXCoDUCako4OahbvdJPLUT/1mooXdh5/ja4izacTkU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>EpnA0gZwB+/1p6PGMsGNTJBJANLvUWlsfARwlEVptbmKqRKmqvTeDygBBMDqomUkCXwKXuROdH6dh31BY4kbBR1KixTCmsmf5ALvVdZvPboPoBpQ7mtVBZaifUQPQKhnkhAWqzTfmkm1Rqdhi50e5VIPNqjW3pGhbePYgM0HeO4ZMnh7IlbjX2T1qkF2zr9WcNTwnIDgCT8vGba3GLP2TVFOMBXwKTqtGU/EQrnqg3urbwVcQFNnCVO2vx5qNqoHYgywR+oAuhhI7k4qFYafF4CTUKobC2su4/lHsaczodjkMZXV+RG3Z2XAeLjwYCPG02fgIjigIqKq7TBQorSMjQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIELTCCAxWgAwIBAgIUHJdTAfX3oWARSb1rYARK7/QVjiMwDQYJKoZIhvcNAQELBQAwgcMxCzAJ
+BgNVBAYTAklUMRAwDgYDVQQIEwdNZXNzaW5hMRIwEAYDVQQHEwlUb3J0b3JpY2kxHDAaBgNVBAoT
+E0NvbXVuZSBkaSBUb3J0b3JpY2kxCzAJBgNVBAsTAklUMRwwGgYDVQQDExNDb211bmUgZGkgVG9y
+dG9yaWNpMS4wLAYDVQRTEyVodHRwczovL3NwaWQuc2Vydml6aWVudGkuaXQvZW50ZS9MMzA4MRUw
+EwYDVQRhFAxQQTpJVC1jX2wzMDgwHhcNMjAxMTE2MTM1OTE1WhcNNDAxMTExMTM1OTE1WjCBwzEL
+MAkGA1UEBhMCSVQxEDAOBgNVBAgTB01lc3NpbmExEjAQBgNVBAcTCVRvcnRvcmljaTEcMBoGA1UE
+ChMTQ29tdW5lIGRpIFRvcnRvcmljaTELMAkGA1UECxMCSVQxHDAaBgNVBAMTE0NvbXVuZSBkaSBU
+b3J0b3JpY2kxLjAsBgNVBFMTJWh0dHBzOi8vc3BpZC5zZXJ2aXppZW50aS5pdC9lbnRlL0wzMDgx
+FTATBgNVBGEUDFBBOklULWNfbDMwODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgl
+2aKl6qzABz2C72kYoWEJWEDxmj+LEPe3V+1HZqfXori/TXPCYSgQGChnW1zuD5TAtDi9oYYJ0f64
+t22IKGnMNYuXKb/jP4rQbf31BIfSMhmWRYIEKls5eKJ5tNuMfcYTDofK5vjXKZ3LMHMBgB5Zjmau
+5DJzQCH5Z94Zme54tOBr5VgUIdE2z9luOTXrYj//Gvbj3ASUe7Jr3XEIY1Moa/uolMCiyZ8mipZQ
+f6KMMbSHVHkE1gdCjDha0N+uidU/N3gHbxJ/JEe1525LIdYv0RCdymcSf7NNQ4oHUTuxx/Y+c6PN
+JWqUyxfnoxqgfWfN1UX1J2LJee7AUBjDX58CAwEAAaMXMBUwEwYDVR0gBAwwCjAIBgYrTBAEAgEw
+DQYJKoZIhvcNAQELBQADggEBAGW64S5Uz/KncGEIobulredeqKpXWXpzLvt2a4gAQfwPgVyC5I18
+RPBIl2yA5Et2F2DA0UafHv1ugM4iqGG1p8lpBzeRE6pe3voTPJFbWAJH2v80OW46cWiKEafavcIs
+hBd/ClTC1LOhGLZbWYMbYta6eSJtPoiKbgYtgEicS8OXiELDgri5J7d3oX1Rls9+toIFD+PagDKd
+DpvZ9G35/O2uCSdK8ESAIP+fnfZr7/hvWTYLsH4RnBjaGXSEUvV8lM5IkE0IZ07wvwThL4/uiXCi
+W6qwNOH4/jJaL596JGndhUppXJ9RYf9uDmliv2JH52v9vy9xyvJxq5m26CErweY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIFGDCCBACgAwIBAgIQP7gaN1aTQS0LlYcOy5zBEzANBgkqhkiG9w0BAQsFADCB0TELMAkGA1UE BhMCSVQxHDAaBgNVBAoTE1RydXN0IEl0YWxpYSBTLnAuQS4xHzAdBgNVBAsTFlZlcmlTaWduIFRy dXN0IE5ldHdvcmsxPTA7BgNVBAsTNFRlcm1zIG9mIHVzZSBhdCBodHRwczovL3d3dy50cnVzdGl0 YWxpYS5pdC9ycGEgKGMpMTAxRDBCBgNVBAMTO1RydXN0IEl0YWxpYSBDbGFzcyAxIENvbnN1bWVy IEluZGl2aWR1YWwgU3Vic2NyaWJlciBDQSAtIEcyMB4XDTE5MTIxODAwMDAwMFoXDTIwMTIxNzIz NTk1OVowgc0xHDAaBgNVBAoME1RydXN0IEl0YWxpYSBTLnAuQS4xLTArBgNVBAsMJENvbnN1bWVy IFNlcnZpY2UgQ2VudGVyIENsYXNzIDEgLSBHMjE2MDQGA1UECwwtVGVybXMgb2YgdXNlIGF0IHd3 dy50cnVzdGl0YWxpYS5pdC9ycGEgKGMpIDEwMRkwFwYDVQQDDBBDb211bmUgVG9ydG9yaWNpMSsw KQYJKoZIhvcNAQkBFhxpbmZvcm1hdGljYUB0b3J0b3JpY2kuZ292Lml0MIIBIjANBgkqhkiG9w0B AQEFAAOCAQ8AMIIBCgKCAQEAxIItGDmTVU5VF3HBUlSzuJogU4k6szVDT6YNtXetiTHI7e/Amkbo A+aReUbR7AmxJrcycnbPO2CN/ZTEV1uan/bPZcPc5OErtHJON7ewzpGAPDcGGw4NV6jBxZtc2ac5 EPpjO8tL8EF9bJuDWcLGvir6WvYgwP+7QNrLpDyKXZsrAjLuWRxZKFMt3I+3M4vDAsrA/rfPPJma 5NCbwUS7YD5rdTj6vMNCcUM/KV55we1WmYRI4n4anN0sdehU0iTfC1zTHeiPL6ZE3WZcIog9tjp9 WiE9mBSFY9HjWpFReGofG09wj9Js4MZx9ofNvpT9OsqR4rHCw4W9JxMaSItKOQIDAQABo4HtMIHq MAkGA1UdEwQCMAAwRQYDVR0gBD4wPDA6BgpghkgBhvhFAQccMCwwKgYIKwYBBQUHAgEWHmh0dHBz Oi8vd3d3LnRydXN0aXRhbGlhLml0L3JwYTALBgNVHQ8EBAMCBaAwagYDVR0fBGMwYTBfoF2gW4ZZ aHR0cDovL29uc2l0ZWNybC50cnVzdGl0YWxpYS5pdC9UcnVzdEl0YWxpYVNwQUNvbnN1bWVyU2Vy dmljZUNlbnRlckNsYXNzMUcyL0xhdGVzdENSTC5jcmwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4IBAQB1MGqodAYPe+sr+tUuKA2qUZnECqkplNP2WqzWWmtb tgezX/wqHuW1T8cu9mM59rU2wUlVH6+rm+z5fxGduMzFzccdLxb/K/oez0JgHqw3sNU7Asy/NsXl 0paW+YrJWw0CGSEcTWYyDq7QD1LZKXLfnYLd4lDaFdKYT4eMbv4wxhDN4l4xv2gpXPDCaXNDASFp lXFpwmkO6eZMsOS8mI4TNcU6GKcoTstUijNlKxjcwsSNgRAVK4O4Pxa6tcOvNjy1MbBdwnt18EUy o+IkRlaGpfW+lk7lM8KlZTV+0uvImHHTasuqANYNsVgpqFVUrYHNi2W4fDjlB+Z5jN+tQSc2</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIELTCCAxWgAwIBAgIUHJdTAfX3oWARSb1rYARK7/QVjiMwDQYJKoZIhvcNAQELBQAwgcMxCzAJ
+BgNVBAYTAklUMRAwDgYDVQQIEwdNZXNzaW5hMRIwEAYDVQQHEwlUb3J0b3JpY2kxHDAaBgNVBAoT
+E0NvbXVuZSBkaSBUb3J0b3JpY2kxCzAJBgNVBAsTAklUMRwwGgYDVQQDExNDb211bmUgZGkgVG9y
+dG9yaWNpMS4wLAYDVQRTEyVodHRwczovL3NwaWQuc2Vydml6aWVudGkuaXQvZW50ZS9MMzA4MRUw
+EwYDVQRhFAxQQTpJVC1jX2wzMDgwHhcNMjAxMTE2MTM1OTE1WhcNNDAxMTExMTM1OTE1WjCBwzEL
+MAkGA1UEBhMCSVQxEDAOBgNVBAgTB01lc3NpbmExEjAQBgNVBAcTCVRvcnRvcmljaTEcMBoGA1UE
+ChMTQ29tdW5lIGRpIFRvcnRvcmljaTELMAkGA1UECxMCSVQxHDAaBgNVBAMTE0NvbXVuZSBkaSBU
+b3J0b3JpY2kxLjAsBgNVBFMTJWh0dHBzOi8vc3BpZC5zZXJ2aXppZW50aS5pdC9lbnRlL0wzMDgx
+FTATBgNVBGEUDFBBOklULWNfbDMwODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgl
+2aKl6qzABz2C72kYoWEJWEDxmj+LEPe3V+1HZqfXori/TXPCYSgQGChnW1zuD5TAtDi9oYYJ0f64
+t22IKGnMNYuXKb/jP4rQbf31BIfSMhmWRYIEKls5eKJ5tNuMfcYTDofK5vjXKZ3LMHMBgB5Zjmau
+5DJzQCH5Z94Zme54tOBr5VgUIdE2z9luOTXrYj//Gvbj3ASUe7Jr3XEIY1Moa/uolMCiyZ8mipZQ
+f6KMMbSHVHkE1gdCjDha0N+uidU/N3gHbxJ/JEe1525LIdYv0RCdymcSf7NNQ4oHUTuxx/Y+c6PN
+JWqUyxfnoxqgfWfN1UX1J2LJee7AUBjDX58CAwEAAaMXMBUwEwYDVR0gBAwwCjAIBgYrTBAEAgEw
+DQYJKoZIhvcNAQELBQADggEBAGW64S5Uz/KncGEIobulredeqKpXWXpzLvt2a4gAQfwPgVyC5I18
+RPBIl2yA5Et2F2DA0UafHv1ugM4iqGG1p8lpBzeRE6pe3voTPJFbWAJH2v80OW46cWiKEafavcIs
+hBd/ClTC1LOhGLZbWYMbYta6eSJtPoiKbgYtgEicS8OXiELDgri5J7d3oX1Rls9+toIFD+PagDKd
+DpvZ9G35/O2uCSdK8ESAIP+fnfZr7/hvWTYLsH4RnBjaGXSEUvV8lM5IkE0IZ07wvwThL4/uiXCi
+W6qwNOH4/jJaL596JGndhUppXJ9RYf9uDmliv2JH52v9vy9xyvJxq5m26CErweY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIELTCCAxWgAwIBAgIUHJdTAfX3oWARSb1rYARK7/QVjiMwDQYJKoZIhvcNAQELBQAwgcMxCzAJ
+BgNVBAYTAklUMRAwDgYDVQQIEwdNZXNzaW5hMRIwEAYDVQQHEwlUb3J0b3JpY2kxHDAaBgNVBAoT
+E0NvbXVuZSBkaSBUb3J0b3JpY2kxCzAJBgNVBAsTAklUMRwwGgYDVQQDExNDb211bmUgZGkgVG9y
+dG9yaWNpMS4wLAYDVQRTEyVodHRwczovL3NwaWQuc2Vydml6aWVudGkuaXQvZW50ZS9MMzA4MRUw
+EwYDVQRhFAxQQTpJVC1jX2wzMDgwHhcNMjAxMTE2MTM1OTE1WhcNNDAxMTExMTM1OTE1WjCBwzEL
+MAkGA1UEBhMCSVQxEDAOBgNVBAgTB01lc3NpbmExEjAQBgNVBAcTCVRvcnRvcmljaTEcMBoGA1UE
+ChMTQ29tdW5lIGRpIFRvcnRvcmljaTELMAkGA1UECxMCSVQxHDAaBgNVBAMTE0NvbXVuZSBkaSBU
+b3J0b3JpY2kxLjAsBgNVBFMTJWh0dHBzOi8vc3BpZC5zZXJ2aXppZW50aS5pdC9lbnRlL0wzMDgx
+FTATBgNVBGEUDFBBOklULWNfbDMwODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgl
+2aKl6qzABz2C72kYoWEJWEDxmj+LEPe3V+1HZqfXori/TXPCYSgQGChnW1zuD5TAtDi9oYYJ0f64
+t22IKGnMNYuXKb/jP4rQbf31BIfSMhmWRYIEKls5eKJ5tNuMfcYTDofK5vjXKZ3LMHMBgB5Zjmau
+5DJzQCH5Z94Zme54tOBr5VgUIdE2z9luOTXrYj//Gvbj3ASUe7Jr3XEIY1Moa/uolMCiyZ8mipZQ
+f6KMMbSHVHkE1gdCjDha0N+uidU/N3gHbxJ/JEe1525LIdYv0RCdymcSf7NNQ4oHUTuxx/Y+c6PN
+JWqUyxfnoxqgfWfN1UX1J2LJee7AUBjDX58CAwEAAaMXMBUwEwYDVR0gBAwwCjAIBgYrTBAEAgEw
+DQYJKoZIhvcNAQELBQADggEBAGW64S5Uz/KncGEIobulredeqKpXWXpzLvt2a4gAQfwPgVyC5I18
+RPBIl2yA5Et2F2DA0UafHv1ugM4iqGG1p8lpBzeRE6pe3voTPJFbWAJH2v80OW46cWiKEafavcIs
+hBd/ClTC1LOhGLZbWYMbYta6eSJtPoiKbgYtgEicS8OXiELDgri5J7d3oX1Rls9+toIFD+PagDKd
+DpvZ9G35/O2uCSdK8ESAIP+fnfZr7/hvWTYLsH4RnBjaGXSEUvV8lM5IkE0IZ07wvwThL4/uiXCi
+W6qwNOH4/jJaL596JGndhUppXJ9RYf9uDmliv2JH52v9vy9xyvJxq5m26CErweY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.servizienti.it/saml/logout/ente/L308"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.servizienti.it/saml/SSO" index="1" isDefault="false"/><md:AttributeConsumingService index="0"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">SOL</md:ServiceName><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="address"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Base</md:ServiceName><md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/><md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/><md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/><md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/><md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Comune di Tortorici</md:OrganizationName><md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Comune di Tortorici</md:OrganizationDisplayName><md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">https://www.tortorici.gov.it</md:OrganizationURL></md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_l308</spid:IPACode><spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/></md:Extensions><md:EmailAddress>informatica@tortorici.gov.it</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="prometeo.secoval.it" ID="pfxf5ef587e-136f-68bd-31bf-758948b18289"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxf5ef587e-136f-68bd-31bf-758948b18289"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>QXizAPhs+zwUWtrS4eXHiS0zsj4XuLuQZ9ZemU58BR8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FgpgqPhg7yQw6Fm67dcqD1fazOhS/m+MqMZQ1qfKjygPx8dXC/+F+waaUvCowTUGJiB22KkYqfcvp6P/0+DAwRQTPa2aIS8rXx9OyEmYWfyJy6CtzCTMZkCbj0DoJ1FC/PzvyKBRNalACvZ/mGjr7tfrlDCBNCrjBg78rMjBpTzoaeBw2Q2D/tXm2R4XV1uN1GnH63/Xlzox+WEm1zcwwrY/5GSKrXiLFisKce5RJ28oBXKW8kXLJOFregdbHdDd5k43QCPo6ntWzetUesX8Qxla0STyZ7iq54rosJaIx5aqwi6clVJdcHvlk5Agb8j91+USWQ0yVlZGLNc1bKoNmQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEATCCAumgAwIBAgIJAPwokO//xyESMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEE5venphIGRpIFZlc3RvbmUxFDASBgNVBAoMC1NlY292YWwgc3JsMSAwHgYDVQQLDBdQcm9tZXRlbyBJc3RhbnplIE9ubGluZTEkMCIGA1UEAwwbaXN0YW56ZS5wcm9tZXRlby5zZWNvdmFsLml0MB4XDTE5MDgwMjEwNTcwMVoXDTI5MDgwMTEwNTcwMVowgZYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQTm96emEgZGkgVmVzdG9uZTEUMBIGA1UECgwLU2Vjb3ZhbCBzcmwxIDAeBgNVBAsMF1Byb21ldGVvIElzdGFuemUgT25saW5lMSQwIgYDVQQDDBtpc3RhbnplLnByb21ldGVvLnNlY292YWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3WisUUNC7SLqPnOfTd1WaDWt+8B6gHf3teGpZucdgsYhpBGuNdiitg8NR2ZD1vYtp35xdt53AJLFA9bpeCTaQZQNseOD8v2DemaVB/w6snOtDXUg56blzoOeoip0uwrU4AhaEQiUk6eWQRpnCAJwkh7l8GxnYdbFZYQ9UB6wy2OMhIlG/J5YRelCtwvPZx2r4Y6mE7HcOoCOnIhEHOwmkpkwUd8dyByYOKCqqCP1yN1fYWXDxijJB2NBjGgC4UDFq2FaIbNOGOpOOk1zRSorvg0MacmOxsDsUmYodXcrz0EBOpCNLOVcH7evfWsUhx/7Oz9k4ikjPqTBlGR05V0WPAgMBAAGjUDBOMB0GA1UdDgQWBBQi114Tpf8xmAq+c8e1oxgWtia/hjAfBgNVHSMEGDAWgBQi114Tpf8xmAq+c8e1oxgWtia/hjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAf8k3Ydfv+07KcbOhsquoWvuwukDogRFRcadWRiNpy4j3Dy8tY2TALttvYtTdlHD6Qt5LAF4gv0Qvp3g/QhaH5sHfYljI9orBqKGzHYuBkMzvc0JwPfkNw7EkLmNC3O0o24MSpawX7Wr9jQJ6tkcYdGuufQZlsf7OljHxlQNefv/gPX9e8U3mEyW9H5ABo9L4xKSJqBaC6RY5RtLU3uw7UE0ohkRDwZZD/zcvbxg4yhEI56+QNvdCHvxzJxCL1n0t3/voL+7AfZsVufCEoFLfbocWvb/UbSvpL4JWzdH+FrNhuKEFV8f+UbDA5taBLAoAzuqLf43COEIxPttyQfsc1</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEATCCAumgAwIBAgIJAPwokO//xyESMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEE5venphIGRpIFZlc3RvbmUxFDASBgNVBAoMC1NlY292YWwgc3JsMSAwHgYDVQQLDBdQcm9tZXRlbyBJc3RhbnplIE9ubGluZTEkMCIGA1UEAwwbaXN0YW56ZS5wcm9tZXRlby5zZWNvdmFsLml0MB4XDTE5MDgwMjEwNTcwMVoXDTI5MDgwMTEwNTcwMVowgZYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQTm96emEgZGkgVmVzdG9uZTEUMBIGA1UECgwLU2Vjb3ZhbCBzcmwxIDAeBgNVBAsMF1Byb21ldGVvIElzdGFuemUgT25saW5lMSQwIgYDVQQDDBtpc3RhbnplLnByb21ldGVvLnNlY292YWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3WisUUNC7SLqPnOfTd1WaDWt+8B6gHf3teGpZucdgsYhpBGuNdiitg8NR2ZD1vYtp35xdt53AJLFA9bpeCTaQZQNseOD8v2DemaVB/w6snOtDXUg56blzoOeoip0uwrU4AhaEQiUk6eWQRpnCAJwkh7l8GxnYdbFZYQ9UB6wy2OMhIlG/J5YRelCtwvPZx2r4Y6mE7HcOoCOnIhEHOwmkpkwUd8dyByYOKCqqCP1yN1fYWXDxijJB2NBjGgC4UDFq2FaIbNOGOpOOk1zRSorvg0MacmOxsDsUmYodXcrz0EBOpCNLOVcH7evfWsUhx/7Oz9k4ikjPqTBlGR05V0WPAgMBAAGjUDBOMB0GA1UdDgQWBBQi114Tpf8xmAq+c8e1oxgWtia/hjAfBgNVHSMEGDAWgBQi114Tpf8xmAq+c8e1oxgWtia/hjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAf8k3Ydfv+07KcbOhsquoWvuwukDogRFRcadWRiNpy4j3Dy8tY2TALttvYtTdlHD6Qt5LAF4gv0Qvp3g/QhaH5sHfYljI9orBqKGzHYuBkMzvc0JwPfkNw7EkLmNC3O0o24MSpawX7Wr9jQJ6tkcYdGuufQZlsf7OljHxlQNefv/gPX9e8U3mEyW9H5ABo9L4xKSJqBaC6RY5RtLU3uw7UE0ohkRDwZZD/zcvbxg4yhEI56+QNvdCHvxzJxCL1n0t3/voL+7AfZsVufCEoFLfbocWvb/UbSvpL4JWzdH+FrNhuKEFV8f+UbDA5taBLAoAzuqLf43COEIxPttyQfsc1</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEATCCAumgAwIBAgIJAPwokO//xyESMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEE5venphIGRpIFZlc3RvbmUxFDASBgNVBAoMC1NlY292YWwgc3JsMSAwHgYDVQQLDBdQcm9tZXRlbyBJc3RhbnplIE9ubGluZTEkMCIGA1UEAwwbaXN0YW56ZS5wcm9tZXRlby5zZWNvdmFsLml0MB4XDTE5MDgwMjEwNTcwMVoXDTI5MDgwMTEwNTcwMVowgZYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQTm96emEgZGkgVmVzdG9uZTEUMBIGA1UECgwLU2Vjb3ZhbCBzcmwxIDAeBgNVBAsMF1Byb21ldGVvIElzdGFuemUgT25saW5lMSQwIgYDVQQDDBtpc3RhbnplLnByb21ldGVvLnNlY292YWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3WisUUNC7SLqPnOfTd1WaDWt+8B6gHf3teGpZucdgsYhpBGuNdiitg8NR2ZD1vYtp35xdt53AJLFA9bpeCTaQZQNseOD8v2DemaVB/w6snOtDXUg56blzoOeoip0uwrU4AhaEQiUk6eWQRpnCAJwkh7l8GxnYdbFZYQ9UB6wy2OMhIlG/J5YRelCtwvPZx2r4Y6mE7HcOoCOnIhEHOwmkpkwUd8dyByYOKCqqCP1yN1fYWXDxijJB2NBjGgC4UDFq2FaIbNOGOpOOk1zRSorvg0MacmOxsDsUmYodXcrz0EBOpCNLOVcH7evfWsUhx/7Oz9k4ikjPqTBlGR05V0WPAgMBAAGjUDBOMB0GA1UdDgQWBBQi114Tpf8xmAq+c8e1oxgWtia/hjAfBgNVHSMEGDAWgBQi114Tpf8xmAq+c8e1oxgWtia/hjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAf8k3Ydfv+07KcbOhsquoWvuwukDogRFRcadWRiNpy4j3Dy8tY2TALttvYtTdlHD6Qt5LAF4gv0Qvp3g/QhaH5sHfYljI9orBqKGzHYuBkMzvc0JwPfkNw7EkLmNC3O0o24MSpawX7Wr9jQJ6tkcYdGuufQZlsf7OljHxlQNefv/gPX9e8U3mEyW9H5ABo9L4xKSJqBaC6RY5RtLU3uw7UE0ohkRDwZZD/zcvbxg4yhEI56+QNvdCHvxzJxCL1n0t3/voL+7AfZsVufCEoFLfbocWvb/UbSvpL4JWzdH+FrNhuKEFV8f+UbDA5taBLAoAzuqLf43COEIxPttyQfsc1</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istanze.prometeo.secoval.it/simplesaml/module.php/saml/sp/saml2-logout.php/secoval-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istanze.prometeo.secoval.it/simplesaml/module.php/saml/sp/saml2-acs.php/secoval-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Prometeo istanze online</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Portale dei servizi al cittadino</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Portale dei servizi al cittadino</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Secoval srl</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Secoval srl</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Secoval srl - Accesso ai servizi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Secoval srl - Accesso ai servizi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.secoval.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.secoval.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

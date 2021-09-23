@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.meolo.ve.it" ID="pfxbe4e4aaa-2ae0-a399-bcda-b97c220e61c2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxbe4e4aaa-2ae0-a399-bcda-b97c220e61c2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>VzC0mL4xWHzD6GWz0nhqRSDXLPTJsWIpB2LqXGp4J7Y=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>OrF2MLXFdTyg25/mEgswnDCePSmQXxXBcNZNyRUNbTqAPbKaRQq6+SeISRr/2svxJ+xb3VBNf4Vr0lp577eZACf3hyNmsJ6qiG4nLv+/sH2GKDkHtV/LQtwKA8oAm+5HLd2C3R3oBxZ7W8WedhdqcT/ZAoQ8xt24wedn7+tI9PT3wgq1Iu99bOkUxBEOYyFged+cg1t8yEpnuoXHQtB5XvSmjtFdfm+tw3J/PxLutakSDSxHjmUzFlhSy8gX5NCdtT6XU/DL3g995vDy9NcCNr3pd3MAKB+RzJVWfwpJ4G6YOoL6UFDjcSjnuwX4Z7ijDLIzKqyoA83IVu6Le9NJ/A==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDozCCAougAwIBAgIJAJhI+PiifC5/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWVvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBNZW9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5tZW9sby52ZS5pdDAeFw0xODA0MTAwODI4NDFaFw0yODA0MDkwODI4NDFaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWVvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBNZW9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5tZW9sby52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOgpnQ/JEQFl3vMEP1DPhQ/6Gy6/qrQBiaZm4DJq6cXRNSx5NX0q911SZm+XSrHNfQjjmZ0xxFu/pmyzvEHIsVedORzigD1gsMaJthokI6PNrfHjZGVVNXkGcxIwtCS79FCdjNG7s5UF7HbEXIIXCfoNgJC0rGWyjhwmr9RYJ/K80kYjnc/2HCxJ8AP6V7bl1jODFA82sOPKe3WMBbkLnMSrBrj9oefInFFG4kHeJqmc4ZZqH37yqftYis7GeIydG4g8FqDVdHE69C59VEDMWWNdA9vQC06/cDeSkPjeyvs7vjqCrfBXFMI33FmDScN5rJbcGXeS/+ZTKP9JWHGzfEMCAwEAAaNQME4wHQYDVR0OBBYEFI3Wd7iFaud0PgebOddCS9sm5knCMB8GA1UdIwQYMBaAFI3Wd7iFaud0PgebOddCS9sm5knCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACUu91eKa9djKBalHyr0pgWZ4iJ78H1VQMWESG9Y2+C3BL5vj6R+DWIc4rby67y5WgLSbcLQCSmVw8YjjPAtqx63VZMXlxuj6FlN7jt6ov3R5aCj4ReTlRDhC96pFyfyhQhYClE4zrMqXrQLz6QGLY1KFrfxq/BYJKRF6TRO5CXv0GZARJPwobxkfUYZE+fTCTTnBXBZ0WHuxsFgwWKycWMyqb+wze2MCYCjaRT7R8V1Wll6n4Q4JCHgYXFRhSk/QV7Mp0z5r9ykkjX4lYDT3tq2UHQ/m01+pkiDf1D4et3jBlO4Qzqkfd2VVxy1SQpY4TKgV2WvM7hx5nRhx/FtT+Y=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDozCCAougAwIBAgIJAJhI+PiifC5/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWVvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBNZW9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5tZW9sby52ZS5pdDAeFw0xODA0MTAwODI4NDFaFw0yODA0MDkwODI4NDFaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWVvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBNZW9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5tZW9sby52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOgpnQ/JEQFl3vMEP1DPhQ/6Gy6/qrQBiaZm4DJq6cXRNSx5NX0q911SZm+XSrHNfQjjmZ0xxFu/pmyzvEHIsVedORzigD1gsMaJthokI6PNrfHjZGVVNXkGcxIwtCS79FCdjNG7s5UF7HbEXIIXCfoNgJC0rGWyjhwmr9RYJ/K80kYjnc/2HCxJ8AP6V7bl1jODFA82sOPKe3WMBbkLnMSrBrj9oefInFFG4kHeJqmc4ZZqH37yqftYis7GeIydG4g8FqDVdHE69C59VEDMWWNdA9vQC06/cDeSkPjeyvs7vjqCrfBXFMI33FmDScN5rJbcGXeS/+ZTKP9JWHGzfEMCAwEAAaNQME4wHQYDVR0OBBYEFI3Wd7iFaud0PgebOddCS9sm5knCMB8GA1UdIwQYMBaAFI3Wd7iFaud0PgebOddCS9sm5knCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACUu91eKa9djKBalHyr0pgWZ4iJ78H1VQMWESG9Y2+C3BL5vj6R+DWIc4rby67y5WgLSbcLQCSmVw8YjjPAtqx63VZMXlxuj6FlN7jt6ov3R5aCj4ReTlRDhC96pFyfyhQhYClE4zrMqXrQLz6QGLY1KFrfxq/BYJKRF6TRO5CXv0GZARJPwobxkfUYZE+fTCTTnBXBZ0WHuxsFgwWKycWMyqb+wze2MCYCjaRT7R8V1Wll6n4Q4JCHgYXFRhSk/QV7Mp0z5r9ykkjX4lYDT3tq2UHQ/m01+pkiDf1D4et3jBlO4Qzqkfd2VVxy1SQpY4TKgV2WvM7hx5nRhx/FtT+Y=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDozCCAougAwIBAgIJAJhI+PiifC5/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWVvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBNZW9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5tZW9sby52ZS5pdDAeFw0xODA0MTAwODI4NDFaFw0yODA0MDkwODI4NDFaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTWVvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBNZW9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5tZW9sby52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOgpnQ/JEQFl3vMEP1DPhQ/6Gy6/qrQBiaZm4DJq6cXRNSx5NX0q911SZm+XSrHNfQjjmZ0xxFu/pmyzvEHIsVedORzigD1gsMaJthokI6PNrfHjZGVVNXkGcxIwtCS79FCdjNG7s5UF7HbEXIIXCfoNgJC0rGWyjhwmr9RYJ/K80kYjnc/2HCxJ8AP6V7bl1jODFA82sOPKe3WMBbkLnMSrBrj9oefInFFG4kHeJqmc4ZZqH37yqftYis7GeIydG4g8FqDVdHE69C59VEDMWWNdA9vQC06/cDeSkPjeyvs7vjqCrfBXFMI33FmDScN5rJbcGXeS/+ZTKP9JWHGzfEMCAwEAAaNQME4wHQYDVR0OBBYEFI3Wd7iFaud0PgebOddCS9sm5knCMB8GA1UdIwQYMBaAFI3Wd7iFaud0PgebOddCS9sm5knCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACUu91eKa9djKBalHyr0pgWZ4iJ78H1VQMWESG9Y2+C3BL5vj6R+DWIc4rby67y5WgLSbcLQCSmVw8YjjPAtqx63VZMXlxuj6FlN7jt6ov3R5aCj4ReTlRDhC96pFyfyhQhYClE4zrMqXrQLz6QGLY1KFrfxq/BYJKRF6TRO5CXv0GZARJPwobxkfUYZE+fTCTTnBXBZ0WHuxsFgwWKycWMyqb+wze2MCYCjaRT7R8V1Wll6n4Q4JCHgYXFRhSk/QV7Mp0z5r9ykkjX4lYDT3tq2UHQ/m01+pkiDf1D4et3jBlO4Qzqkfd2VVxy1SQpY4TKgV2WvM7hx5nRhx/FtT+Y=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.meolo.ve.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.meolo.ve.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Meolo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Meolo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.meolo.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

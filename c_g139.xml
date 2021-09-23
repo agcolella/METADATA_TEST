@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx2d868c33-51ba-c3b0-5d96-5571ecfe7f5d" entityID="https://www.comune.ortignano-raggiolo.ar.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx2d868c33-51ba-c3b0-5d96-5571ecfe7f5d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>xJnTZKXfIEzhprUx+ROXd23M0VcFbTP9jilSgsLNdlk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+eQfZzRRIqhsOC34FJFh/TYxMptMZeQ8Hj+T20QFZPdilOSAxKl3ukBHe5jqXdOVfJY4QdxTda+dj
+7AAbn0Vbc5ISKPqQVd1/gN7rcbCr8O5ua/NLx+pGzg/UPcm72FZIGjG9TU2/ACU50Y1cpDkwDvIN
+4Id38pU5aP9w1J2lz5lPDTL87XOM+urar5kHISryJtdKEkm+1iXn734uRf8YIq1WNzn88OL8+QCG
+ZVfkeL7vZM8ImvpymV5n5sNl1eWD5hJ04GBYD4TxB5vySnmZ/1eu5/+htW+vJGlCw+++4BngjHeW
+7DWa/+PgF94wxpJlakHClZBlfQaI4NRDljYljg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vZaIUrBbsQPnF89OcwK5YZ548qYfEEQYKUtgTpVkHMslINDha+L76obGPwXhuRGw9+YlV5/exAhM
+DHwdgban/lkxVLHrWswqeV7zB9kagAm/VsEAluVY21gqRaAr2bGbM2dNSbGukO+wf78WA5V8gPjb
+maTGxcxRpMKZzAty3mRgS5omcfecQEQeO4PY9r/Cy6eruLkVdYaNdoJnTicyaoQZJeRzcyvHODHt
+kdHzbX8ccYrBUJyLW9s2rnJrIYJKCU/yVpbyrOcbTD0UdKLoupVgYsbJJuHgVuh0iLS3n70Npfux
+BidEU06FY5oMnes0Z8F/1ju6p4jWScDoRRHVUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID8zCCAtugAwIBAgIJAOA6037ID0srMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk9ydGlnbmFubyBSYWdnaW9sbzElMCMGA1UECgwcQ29t
+dW5lIGRpIE9ydGlnbmFubyBSYWdnaW9sbzEsMCoGA1UEAwwjd3d3LmNvbXVuZS5vcnRpZ25hbm8t
+cmFnZ2lvbG8uYXIuaXQwHhcNMjAwNTI4MDgwNDU2WhcNMzAwNTI4MDgwNDU2WjCBjzELMAkGA1UE
+BhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJPcnRpZ25hbm8gUmFnZ2lvbG8xJTAjBgNV
+BAoMHENvbXVuZSBkaSBPcnRpZ25hbm8gUmFnZ2lvbG8xLDAqBgNVBAMMI3d3dy5jb211bmUub3J0
+aWduYW5vLXJhZ2dpb2xvLmFyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvZaI
+UrBbsQPnF89OcwK5YZ548qYfEEQYKUtgTpVkHMslINDha+L76obGPwXhuRGw9+YlV5/exAhMDHwd
+gban/lkxVLHrWswqeV7zB9kagAm/VsEAluVY21gqRaAr2bGbM2dNSbGukO+wf78WA5V8gPjbmaTG
+xcxRpMKZzAty3mRgS5omcfecQEQeO4PY9r/Cy6eruLkVdYaNdoJnTicyaoQZJeRzcyvHODHtkdHz
+bX8ccYrBUJyLW9s2rnJrIYJKCU/yVpbyrOcbTD0UdKLoupVgYsbJJuHgVuh0iLS3n70NpfuxBidE
+U06FY5oMnes0Z8F/1ju6p4jWScDoRRHVUQIDAQABo1AwTjAdBgNVHQ4EFgQUYxTZ1c+f+ebNOhEg
+NnmaTiLMXDQwHwYDVR0jBBgwFoAUYxTZ1c+f+ebNOhEgNnmaTiLMXDQwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQsFAAOCAQEAEvgwdHkvwEGl6b5/3bCopPYJRPCRaGzbM/o42OF3w9MYFsW6cuou
+7Gi0sEsYS8G7uZlWoEGImNUzt7+LWf3nkRijEm5XauXfm/F7ilMTAK8zv8EoJw1pk3dQ1H9qs8QL
+Ryo1yjNjjaL1NsETeLorxQARWVnTr0EddpgvwGCYe/aWHMLSScU30uow5DIjiodnEe7panb1Czs3
+DmMzKc9vEr+1HaXCeLfh/0JcRnJmSHlHetquQEeq+UV31IILaTbmoPaYvZpun7x4L4Hwpr5AbXzs
+RWwH8fo4EhbKkn+KrkPbdxXwu07U3/c7cUaUSKPDOQx6uwaqUYdOQeyEWqWnIw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8zCCAtugAwIBAgIJAOA6037ID0srMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk9ydGlnbmFubyBSYWdnaW9sbzElMCMGA1UECgwcQ29tdW5lIGRpIE9ydGlnbmFubyBSYWdnaW9sbzEsMCoGA1UEAwwjd3d3LmNvbXVuZS5vcnRpZ25hbm8tcmFnZ2lvbG8uYXIuaXQwHhcNMjAwNTI4MDgwNDU2WhcNMzAwNTI4MDgwNDU2WjCBjzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJPcnRpZ25hbm8gUmFnZ2lvbG8xJTAjBgNVBAoMHENvbXVuZSBkaSBPcnRpZ25hbm8gUmFnZ2lvbG8xLDAqBgNVBAMMI3d3dy5jb211bmUub3J0aWduYW5vLXJhZ2dpb2xvLmFyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvZaIUrBbsQPnF89OcwK5YZ548qYfEEQYKUtgTpVkHMslINDha+L76obGPwXhuRGw9+YlV5/exAhMDHwdgban/lkxVLHrWswqeV7zB9kagAm/VsEAluVY21gqRaAr2bGbM2dNSbGukO+wf78WA5V8gPjbmaTGxcxRpMKZzAty3mRgS5omcfecQEQeO4PY9r/Cy6eruLkVdYaNdoJnTicyaoQZJeRzcyvHODHtkdHzbX8ccYrBUJyLW9s2rnJrIYJKCU/yVpbyrOcbTD0UdKLoupVgYsbJJuHgVuh0iLS3n70NpfuxBidEU06FY5oMnes0Z8F/1ju6p4jWScDoRRHVUQIDAQABo1AwTjAdBgNVHQ4EFgQUYxTZ1c+f+ebNOhEgNnmaTiLMXDQwHwYDVR0jBBgwFoAUYxTZ1c+f+ebNOhEgNnmaTiLMXDQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEvgwdHkvwEGl6b5/3bCopPYJRPCRaGzbM/o42OF3w9MYFsW6cuou7Gi0sEsYS8G7uZlWoEGImNUzt7+LWf3nkRijEm5XauXfm/F7ilMTAK8zv8EoJw1pk3dQ1H9qs8QLRyo1yjNjjaL1NsETeLorxQARWVnTr0EddpgvwGCYe/aWHMLSScU30uow5DIjiodnEe7panb1Czs3DmMzKc9vEr+1HaXCeLfh/0JcRnJmSHlHetquQEeq+UV31IILaTbmoPaYvZpun7x4L4Hwpr5AbXzsRWwH8fo4EhbKkn+KrkPbdxXwu07U3/c7cUaUSKPDOQx6uwaqUYdOQeyEWqWnIw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8zCCAtugAwIBAgIJAOA6037ID0srMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk9ydGlnbmFubyBSYWdnaW9sbzElMCMGA1UECgwcQ29tdW5lIGRpIE9ydGlnbmFubyBSYWdnaW9sbzEsMCoGA1UEAwwjd3d3LmNvbXVuZS5vcnRpZ25hbm8tcmFnZ2lvbG8uYXIuaXQwHhcNMjAwNTI4MDgwNDU2WhcNMzAwNTI4MDgwNDU2WjCBjzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJPcnRpZ25hbm8gUmFnZ2lvbG8xJTAjBgNVBAoMHENvbXVuZSBkaSBPcnRpZ25hbm8gUmFnZ2lvbG8xLDAqBgNVBAMMI3d3dy5jb211bmUub3J0aWduYW5vLXJhZ2dpb2xvLmFyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvZaIUrBbsQPnF89OcwK5YZ548qYfEEQYKUtgTpVkHMslINDha+L76obGPwXhuRGw9+YlV5/exAhMDHwdgban/lkxVLHrWswqeV7zB9kagAm/VsEAluVY21gqRaAr2bGbM2dNSbGukO+wf78WA5V8gPjbmaTGxcxRpMKZzAty3mRgS5omcfecQEQeO4PY9r/Cy6eruLkVdYaNdoJnTicyaoQZJeRzcyvHODHtkdHzbX8ccYrBUJyLW9s2rnJrIYJKCU/yVpbyrOcbTD0UdKLoupVgYsbJJuHgVuh0iLS3n70NpfuxBidEU06FY5oMnes0Z8F/1ju6p4jWScDoRRHVUQIDAQABo1AwTjAdBgNVHQ4EFgQUYxTZ1c+f+ebNOhEgNnmaTiLMXDQwHwYDVR0jBBgwFoAUYxTZ1c+f+ebNOhEgNnmaTiLMXDQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEvgwdHkvwEGl6b5/3bCopPYJRPCRaGzbM/o42OF3w9MYFsW6cuou7Gi0sEsYS8G7uZlWoEGImNUzt7+LWf3nkRijEm5XauXfm/F7ilMTAK8zv8EoJw1pk3dQ1H9qs8QLRyo1yjNjjaL1NsETeLorxQARWVnTr0EddpgvwGCYe/aWHMLSScU30uow5DIjiodnEe7panb1Czs3DmMzKc9vEr+1HaXCeLfh/0JcRnJmSHlHetquQEeq+UV31IILaTbmoPaYvZpun7x4L4Hwpr5AbXzsRWwH8fo4EhbKkn+KrkPbdxXwu07U3/c7cUaUSKPDOQx6uwaqUYdOQeyEWqWnIw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.ortignano-raggiolo.ar.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.ortignano-raggiolo.ar.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ortignano Raggiolo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ortignano Raggiolo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.ortignano-raggiolo.ar.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

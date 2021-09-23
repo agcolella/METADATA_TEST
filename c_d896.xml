@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxe5531120-ab4f-ff1b-187f-12624698d74e" entityID="https://www.comune.gambatesa.cb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxe5531120-ab4f-ff1b-187f-12624698d74e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0Yb5jq942prgCYCUIsi6aIo6dMvfqWB1ePdr9cb21sM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+MH1u4Izyved+PpDIe0OmC98YWLhgi0fHuuk0WDLSkWaLs9Yq0xUhy2y1mVK9OMXaJ8WDZhYyz9Yv
+KnJzwNAKIb78PDxgDUepQWBgp7HRVOQivRa90uutQgzHC2H5feUHcrzupnAQcn8aemQZW00jhp8U
+ABFY7b43WBLl3YIBr9xCjMZl5kgX6I99XwoCL/9r7MkpCCP97VbGFuRnRrrh+cSTEFO8XztWsBZv
+lIrntVgzXkvmaYpBEPRe7qYB5e7aHo2Fzfgxr70/X4iHvx4A1tgWo+DktZlCcayLs7TlJ8XomlaS
+roZFypI6joXTBgOzJrIg3XGBdNOplEVQduKQzg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vLcnoJQt0HuFStC++PLR+nnE4InppTcGMdC39oGkK9UsvE2CHsPysHAYFt9IvhZG7vMV/u3I6GDR
+62lFquIJcLyJ/B/Z/6aQc7I+3rBi5ppfnhvrt/VY0nF+nQum9mgExKEf/khnn6OssSqmOvzemCxu
+TI61XmLolXHN3eWFpS0lx4FfepiSIQWLrmIbJxqG6s1VfS+hmwCCsYfBstqtx4MON9em1id6UjGA
+HqNrj3+mmNH/lLTfHW4dxOmO6EEn+V5aFsg7zQ2TD2eQ6HCm1clPubhcDi5sVNlvtks/Y1OHq5bP
+J3991mfwXzjBHszozPmeIQhrMEDqf7y8pVGRyw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDuzCCAqOgAwIBAgIJAIRDP3h0j7nmMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJR2FtYmF0ZXNhMRwwGgYDVQQKDBNDb211bmUgZGkgR2Ft
+YmF0ZXNhMSMwIQYDVQQDDBp3d3cuY29tdW5lLmdhbWJhdGVzYS5jYi5pdDAeFw0yMDEyMDExMTQ0
+MjVaFw0zMDEyMDExMTQ0MjVaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UE
+BwwJR2FtYmF0ZXNhMRwwGgYDVQQKDBNDb211bmUgZGkgR2FtYmF0ZXNhMSMwIQYDVQQDDBp3d3cu
+Y29tdW5lLmdhbWJhdGVzYS5jYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALy3
+J6CULdB7hUrQvvjy0fp5xOCJ6aU3BjHQt/aBpCvVLLxNgh7D8rBwGBbfSL4WRu7zFf7tyOhg0etp
+RariCXC8ifwf2f+mkHOyPt6wYuaaX54b67f1WNJxfp0LpvZoBMShH/5IZ5+jrLEqpjr83pgsbkyO
+tV5i6JVxzd3lhaUtJceBX3qYkiEFi65iGycahurNVX0voZsAgrGHwbLarceDDjfXptYnelIxgB6j
+a49/ppjR/5S03x1uHcTpjuhBJ/leWhbIO80Nkw9nkOhwptXJT7m4XA4ubFTZb7ZLP2NTh6uWzyd/
+fdZn8F84wR7M6Mz5niEIazBA6n+8vKVRkcsCAwEAAaNQME4wHQYDVR0OBBYEFMU1sgxOWqee1QeU
+S5HmYjEQ8MwgMB8GA1UdIwQYMBaAFMU1sgxOWqee1QeUS5HmYjEQ8MwgMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBAD30WV5JAsilVAwm1H2hH+8ENjM2ubMGd6n88/jm2siw+l2Fhqlz
+0ppFQfOJC55iXK520Rmi6r8P3fXrIioGQV7BnlqeXyxgAouu91hgq9ZButLtonhMgawyGz5TsQme
+Rk5A5PYv7rO7ExHNfE3of8k2lOd7qJyB0mE8HFbQ26YUZ7l0knJ+CaaIg7bAwdq0LJ8tNd5aj3FI
+J9MCYTMqKfzrd+DrTByNnir8ONE7rGNBQ37eDQPwOajd+57z8/mJ0Bp3lUZiGzXhFtVv4DBL3wIc
+WEnbtQeoybOlPV6luqERr+mNEuGVfFnL4PnjnjHlEIXY2Dueb2NE1Sv5ISLYbis=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuzCCAqOgAwIBAgIJAIRDP3h0j7nmMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJR2FtYmF0ZXNhMRwwGgYDVQQKDBNDb211bmUgZGkgR2FtYmF0ZXNhMSMwIQYDVQQDDBp3d3cuY29tdW5lLmdhbWJhdGVzYS5jYi5pdDAeFw0yMDEyMDExMTQ0MjVaFw0zMDEyMDExMTQ0MjVaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJR2FtYmF0ZXNhMRwwGgYDVQQKDBNDb211bmUgZGkgR2FtYmF0ZXNhMSMwIQYDVQQDDBp3d3cuY29tdW5lLmdhbWJhdGVzYS5jYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALy3J6CULdB7hUrQvvjy0fp5xOCJ6aU3BjHQt/aBpCvVLLxNgh7D8rBwGBbfSL4WRu7zFf7tyOhg0etpRariCXC8ifwf2f+mkHOyPt6wYuaaX54b67f1WNJxfp0LpvZoBMShH/5IZ5+jrLEqpjr83pgsbkyOtV5i6JVxzd3lhaUtJceBX3qYkiEFi65iGycahurNVX0voZsAgrGHwbLarceDDjfXptYnelIxgB6ja49/ppjR/5S03x1uHcTpjuhBJ/leWhbIO80Nkw9nkOhwptXJT7m4XA4ubFTZb7ZLP2NTh6uWzyd/fdZn8F84wR7M6Mz5niEIazBA6n+8vKVRkcsCAwEAAaNQME4wHQYDVR0OBBYEFMU1sgxOWqee1QeUS5HmYjEQ8MwgMB8GA1UdIwQYMBaAFMU1sgxOWqee1QeUS5HmYjEQ8MwgMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD30WV5JAsilVAwm1H2hH+8ENjM2ubMGd6n88/jm2siw+l2Fhqlz0ppFQfOJC55iXK520Rmi6r8P3fXrIioGQV7BnlqeXyxgAouu91hgq9ZButLtonhMgawyGz5TsQmeRk5A5PYv7rO7ExHNfE3of8k2lOd7qJyB0mE8HFbQ26YUZ7l0knJ+CaaIg7bAwdq0LJ8tNd5aj3FIJ9MCYTMqKfzrd+DrTByNnir8ONE7rGNBQ37eDQPwOajd+57z8/mJ0Bp3lUZiGzXhFtVv4DBL3wIcWEnbtQeoybOlPV6luqERr+mNEuGVfFnL4PnjnjHlEIXY2Dueb2NE1Sv5ISLYbis=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuzCCAqOgAwIBAgIJAIRDP3h0j7nmMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJR2FtYmF0ZXNhMRwwGgYDVQQKDBNDb211bmUgZGkgR2FtYmF0ZXNhMSMwIQYDVQQDDBp3d3cuY29tdW5lLmdhbWJhdGVzYS5jYi5pdDAeFw0yMDEyMDExMTQ0MjVaFw0zMDEyMDExMTQ0MjVaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJR2FtYmF0ZXNhMRwwGgYDVQQKDBNDb211bmUgZGkgR2FtYmF0ZXNhMSMwIQYDVQQDDBp3d3cuY29tdW5lLmdhbWJhdGVzYS5jYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALy3J6CULdB7hUrQvvjy0fp5xOCJ6aU3BjHQt/aBpCvVLLxNgh7D8rBwGBbfSL4WRu7zFf7tyOhg0etpRariCXC8ifwf2f+mkHOyPt6wYuaaX54b67f1WNJxfp0LpvZoBMShH/5IZ5+jrLEqpjr83pgsbkyOtV5i6JVxzd3lhaUtJceBX3qYkiEFi65iGycahurNVX0voZsAgrGHwbLarceDDjfXptYnelIxgB6ja49/ppjR/5S03x1uHcTpjuhBJ/leWhbIO80Nkw9nkOhwptXJT7m4XA4ubFTZb7ZLP2NTh6uWzyd/fdZn8F84wR7M6Mz5niEIazBA6n+8vKVRkcsCAwEAAaNQME4wHQYDVR0OBBYEFMU1sgxOWqee1QeUS5HmYjEQ8MwgMB8GA1UdIwQYMBaAFMU1sgxOWqee1QeUS5HmYjEQ8MwgMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD30WV5JAsilVAwm1H2hH+8ENjM2ubMGd6n88/jm2siw+l2Fhqlz0ppFQfOJC55iXK520Rmi6r8P3fXrIioGQV7BnlqeXyxgAouu91hgq9ZButLtonhMgawyGz5TsQmeRk5A5PYv7rO7ExHNfE3of8k2lOd7qJyB0mE8HFbQ26YUZ7l0knJ+CaaIg7bAwdq0LJ8tNd5aj3FIJ9MCYTMqKfzrd+DrTByNnir8ONE7rGNBQ37eDQPwOajd+57z8/mJ0Bp3lUZiGzXhFtVv4DBL3wIcWEnbtQeoybOlPV6luqERr+mNEuGVfFnL4PnjnjHlEIXY2Dueb2NE1Sv5ISLYbis=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.gambatesa.cb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.gambatesa.cb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gambatesa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gambatesa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gambatesa.cb.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_d896</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Gambatesa</md:Company>
+    <md:EmailAddress>comunegambatesa@comune.gambatesa.cb.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

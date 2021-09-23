@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_4a5425b6223b418eac87e084fb941d8e" entityID="https://sso.dgiai.gov.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_4a5425b6223b418eac87e084fb941d8e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>iOEzo/THmORkQn7FfsxMkDF8nap+RsOtCTQxYYGJiVg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RAeoyizEWZqI/J1z12aXK9DRueK3NboMt1aCkf0Eabt1HG4hCAPHRbvAwavkstOnnuh6o+Hj1Usb
+tb1jdTf8S7Q1lCeweNwaNK3idYBCrA5T9FyxV4V/dG/ohkXwS5Ndzrp3WiCn9fYdYKjm7gcVCjXP
+OXsN/F+NCMZvURV99ZtsG2xrnjsGqnKcaUE3HsB6gqiRd7DpYV6NdbgryncsX0gEKiTx21imqg39
+QokpA/nQJZvWadZc4wS2m/FsysZ4w05IKFwV6s51Nnbyr5Lrj+2lVWYRVQi/DRLji0cGv57SAolm
+ISbSr0+avxAJ6vYWrCMnJyxo3ueTFnOVnoQuxQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tHR5qbSleGEJjEh3jxWrUftGaw0Y1osYAYpLrrF31wNmQUb4rJZSAPj1Qx5aC9S41ArwF703hBFi
+Q/WQel/RKbdum9CZ4zijf6sgQ81XWj5WGhaH+QxEBMxRJFqQvId9vt80yh2kEoC383cgzno5fuVC
+qhp4CasvimsXb5ZNA2COy0S4ALGeNklWP8OWYZ5x1iHQFgwZBgfGf7NGaLVURMZx2kvjTb3n3dlr
+uXe8xx3mofZFReBOfgLhRpFq+Gs38zjB5tQ1RhFq36bjNvRk3sB2uILMRUQ53Bh1EJ2YuaGseb4B
+ryVPuPWxaIO/78ECCxTLTbWg6MN6l++UrtAG4Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyTCCArGgAwIBAgIJAIeAGBhd8ztWMA0GCSqGSIb3DQEBBQUAMHsxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMRIwEAYDVQQKDAlJbnZpdGFsaWExEjAQBgNVBAsM
+CUludml0YWxpYTEmMCQGA1UEAwwdaHR0cHM6Ly9zc28tY29sbC5kZ2lhaS5nb3YuaXQwHhcNMTcw
+OTA4MDkxOTUyWhcNMjcwOTA2MDkxOTUyWjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTEN
+MAsGA1UEBwwEUm9tZTESMBAGA1UECgwJSW52aXRhbGlhMRIwEAYDVQQLDAlJbnZpdGFsaWExJjAk
+BgNVBAMMHWh0dHBzOi8vc3NvLWNvbGwuZGdpYWkuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAtHR5qbSleGEJjEh3jxWrUftGaw0Y1osYAYpLrrF31wNmQUb4rJZSAPj1Qx5a
+C9S41ArwF703hBFiQ/WQel/RKbdum9CZ4zijf6sgQ81XWj5WGhaH+QxEBMxRJFqQvId9vt80yh2k
+EoC383cgzno5fuVCqhp4CasvimsXb5ZNA2COy0S4ALGeNklWP8OWYZ5x1iHQFgwZBgfGf7NGaLVU
+RMZx2kvjTb3n3dlruXe8xx3mofZFReBOfgLhRpFq+Gs38zjB5tQ1RhFq36bjNvRk3sB2uILMRUQ5
+3Bh1EJ2YuaGseb4BryVPuPWxaIO/78ECCxTLTbWg6MN6l++UrtAG4QIDAQABo1AwTjAdBgNVHQ4E
+FgQUnAMJxf0m5+t7+7x3dZVPIWuC5w8wHwYDVR0jBBgwFoAUnAMJxf0m5+t7+7x3dZVPIWuC5w8w
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAiq3HZB3Rm3iQQfXWG2XpQhvqWVaUNkzo
+iyoXEkXPGUsH4Pb9eVuIqMSVmrUI8EVS+2zMMp0NWif8Wmt29CUxftcZHoZWMHCwLOIiKAs4N+6z
+hxR2i+EKwCv/aEeU1vamPpeXrEq9iNqrW/VzKKvX1aMcPiT6cM368zW/pC1N4e+pZKzAC5vNrfjQ
+8ge1NWv4ONbsd1GV7SLimbp4uO12gBX/zKAtoYLuTGYpnleOskUbTZy5xOKBTmqviCcpVMiG49Gn
+SkyKBbdxlWzlE5EX8IVmfNLqNp0x5+P9oS7G1MT9WAyNLlxtlUpVIBY3hR9BkaNiklPBELn5Md3p
+DiSbIw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAIeAGBhd8ztWMA0GCSqGSIb3DQEBBQUAMHsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMRIwEAYDVQQKDAlJbnZpdGFsaWExEjAQBgNVBAsMCUludml0YWxpYTEmMCQGA1UEAwwdaHR0cHM6Ly9zc28tY29sbC5kZ2lhaS5nb3YuaXQwHhcNMTcwOTA4MDkxOTUyWhcNMjcwOTA2MDkxOTUyWjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTESMBAGA1UECgwJSW52aXRhbGlhMRIwEAYDVQQLDAlJbnZpdGFsaWExJjAkBgNVBAMMHWh0dHBzOi8vc3NvLWNvbGwuZGdpYWkuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtHR5qbSleGEJjEh3jxWrUftGaw0Y1osYAYpLrrF31wNmQUb4rJZSAPj1Qx5aC9S41ArwF703hBFiQ/WQel/RKbdum9CZ4zijf6sgQ81XWj5WGhaH+QxEBMxRJFqQvId9vt80yh2kEoC383cgzno5fuVCqhp4CasvimsXb5ZNA2COy0S4ALGeNklWP8OWYZ5x1iHQFgwZBgfGf7NGaLVURMZx2kvjTb3n3dlruXe8xx3mofZFReBOfgLhRpFq+Gs38zjB5tQ1RhFq36bjNvRk3sB2uILMRUQ53Bh1EJ2YuaGseb4BryVPuPWxaIO/78ECCxTLTbWg6MN6l++UrtAG4QIDAQABo1AwTjAdBgNVHQ4EFgQUnAMJxf0m5+t7+7x3dZVPIWuC5w8wHwYDVR0jBBgwFoAUnAMJxf0m5+t7+7x3dZVPIWuC5w8wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAiq3HZB3Rm3iQQfXWG2XpQhvqWVaUNkzoiyoXEkXPGUsH4Pb9eVuIqMSVmrUI8EVS+2zMMp0NWif8Wmt29CUxftcZHoZWMHCwLOIiKAs4N+6zhxR2i+EKwCv/aEeU1vamPpeXrEq9iNqrW/VzKKvX1aMcPiT6cM368zW/pC1N4e+pZKzAC5vNrfjQ8ge1NWv4ONbsd1GV7SLimbp4uO12gBX/zKAtoYLuTGYpnleOskUbTZy5xOKBTmqviCcpVMiG49GnSkyKBbdxlWzlE5EX8IVmfNLqNp0x5+P9oS7G1MT9WAyNLlxtlUpVIBY3hR9BkaNiklPBELn5Md3pDiSbIw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDvzCCAqegAwIBAgIJAO1XIiZ4X8b6MA0GCSqGSIb3DQEBBQUAMHYxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMRIwEAYDVQQKDAlJbnZpdGFsaWExEjAQBgNVBAsMCUludml0YWxpYTEhMB8GA1UEAwwYaHR0cHM6Ly9zc28uZGdpYWkuZ292Lml0MB4XDTE3MDYxNTEzNDgxMFoXDTI3MDYxMzEzNDgxMFowdjELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWUxDTALBgNVBAcMBFJvbWUxEjAQBgNVBAoMCUludml0YWxpYTESMBAGA1UECwwJSW52aXRhbGlhMSEwHwYDVQQDDBhodHRwczovL3Nzby5kZ2lhaS5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQClMX0t1Kyzo7jK8p9hk9bRywNe8LXV6wuOCEw8E/88MsySY0CALPSCnPrM6M6flNw9XWbD8kerK/Uftmlx4z1jmTp2bpOxIqvUpImzboHGFaxPIVS8/npsh7a7bSvrJeHoxGQWWbM/jt15EKrh/P9eynbJoIKx7jmv4oUswzf6uZbUbgH+HPSEtYFhCNrtOdwFLwBpciHVuVMCMmIRwVDXVf9dsDNVKt5pcSAv1oPPwxG+shX6YeteNosAFMD2kZFEELNapXgh3O0QI+RN7+wJtTixNQzdPLUhKLOY1SlR2EOXtwtjlhsc9CgQr3yHHm4CS+AmsCIsat6X0rVgSKHBAgMBAAGjUDBOMB0GA1UdDgQWBBTFPRH8DTXJi0BQS6yLvokjZcphzTAfBgNVHSMEGDAWgBTFPRH8DTXJi0BQS6yLvokjZcphzTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQCdQoSfPS0x6OmyiHdvX4+T+cqsoSm6Kw++ODIU3UjPo1IPHh1rREuubyN49ZKo86LPRSspI9WJNfJHD39e409NLW3blwudEETB8Cd6/HULfmtfz9/ylRDYRT11cnWimGSpkI9fMeVEzxf12At7TroqNGQKE2Xw2uTV3EVI1oL98LASHlKPbFSUQPkVVZyGpDAABhO2p/5CeTNYF3ZpY9LjtIaWEXZ47iRW6NOn4htjZUE/I8OgYcumn1XJmgS5q4RpSGf4FEx1CcK0MwICuORsX2WJQnEI7PV2AGeffF3v7RVy3ANUd16mGsCq+1DNh421N1K8T5573w5MIwptHq72</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso-coll.dgiai.gov.it/oamfed/sp/samlv20"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.dgiai.gov.it/oamfed/sp/samlv20"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso-coll.dgiai.gov.it/oam/server/fed/sp/sso" index="0"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.dgiai.gov.it/oam/server/fed/sp/sso" index="1" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">set1</md:ServiceName><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xml:lang="it">set2</md:ServiceName><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="registeredOffice"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="idCard"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:Organization><md:OrganizationName xml:lang="it">MISE - DGIAI</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Ministero dello sviluppo economico - Direzione generale per gli incentivi alle imprese</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">http://www.mise.gov.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

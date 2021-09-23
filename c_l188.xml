@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Todi" entityID="https://www.comune.todi.pg.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Todi">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>aDAZFMNw/FNJAFrdI/1B5uERZ2gDvld6BUmWhwpXErs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+NpgWW9t9a1xMfPYEJl6o/Bhhunn1F0QVEeCVXMUfqNp2VcFraz/FC9O54huHBTiwB36vvkAVi6Ke
+u9vAPKam6H/kc8twOxjMs3Elcx7bjQdDd1Uidz/rhKwbgHSjKs3IelfmY6e46oYvSuzOVLhebzTG
+NFHyOzXgR7C9XenJPOcCNaUXaL1EyEsEmziOeQNUx1N1YLUpBx9/+ShPEh0PR8fB9BkU9fBPxI8M
+VtyABRt/wKh1DQ7PsUHbOsdv36RaoUiTkGCGEGGvPsGXEBU5iFffy15KrS3o5Fl8IAph4YDCmoMb
+QHYrAsffPoP3h/FjOct1tm6HvMXUFscLJg8ssA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xg8/LmHuX1q0B3y/JJhmc/+bcvnyhAPkr2R/dSKqeI/OzRW6BYJKsKvTujEIooNHSvuCKnR3gnDR
+3nYz/CJlz38h5t3PtWykk/dp/XJQL2VzvgnQ6VCKzuylj37TAFa+IbsHa5Q585YWVMMcqhZeaRmZ
+Q+nEMDz+v68uC3RfkLgKdeGeRztLkyFdoVt3srPVQNchn98/QRl/CR/Zeno3lQjpmXO/Wi6+9cUE
+RU+QfvjVFCxC7V26bvsRRM6hzDMOfog8X4DME5hDqOz6yiysryCLIjmeDZ1PW2ESnwSUhKZKD/J2
+6yMrq/sq/rklxIFfyBHlmtsR3CF3WgfsUNGkPQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJAN0h6oJGx965MA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUudG9kaS5wZy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzE1MTAy
+MjEyWhcNMjkwNzEyMTAyMjEyWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnRvZGkucGcuaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+xg8/LmHuX1q0B3y/JJhmc/+bcvnyhAPkr2R/dSKqeI/OzRW6BYJKsKvTujEIooNHSvuCKnR3gnDR
+3nYz/CJlz38h5t3PtWykk/dp/XJQL2VzvgnQ6VCKzuylj37TAFa+IbsHa5Q585YWVMMcqhZeaRmZ
+Q+nEMDz+v68uC3RfkLgKdeGeRztLkyFdoVt3srPVQNchn98/QRl/CR/Zeno3lQjpmXO/Wi6+9cUE
+RU+QfvjVFCxC7V26bvsRRM6hzDMOfog8X4DME5hDqOz6yiysryCLIjmeDZ1PW2ESnwSUhKZKD/J2
+6yMrq/sq/rklxIFfyBHlmtsR3CF3WgfsUNGkPQIDAQABo1AwTjAdBgNVHQ4EFgQUK+1/MEnTqlH6
+H8PQ1o0IYALLd+AwHwYDVR0jBBgwFoAUK+1/MEnTqlH6H8PQ1o0IYALLd+AwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEArgUunMYaChXsSBAITAIUZjVngRGAvCn1N9B7FVEzGuMuyhBT
+XmUdUF65uVw3VG5NykzdLKhakaydxLKAhZ1y6oaN703ITmy3WR4y6ZOkfOD/SeHIlqHiSrYBjOkW
+6NM+UNdCLMVtxSUidOyD5FE8eXYe1pNqk2y/VADfDq7xy8wcjrWtKk5fVNjr9J0n63NJNCcyFLdP
+jL9zwGl4qqmp93fGAZmY7OCXd2MjHxcEzTYmmP7SBTzGvntLPRruqixIUR5lYK9cB3Sim+f0KpCa
+19BJjNUUnflZ4Ied8tdxRcPOmoM781N/43q0G3FF31nd5DUS104G4gT91mIDjVewBA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAN0h6oJGx965MA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUudG9kaS5wZy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzE1MTAyMjEyWhcNMjkwNzEyMTAyMjEyWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnRvZGkucGcuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxg8/LmHuX1q0B3y/JJhmc/+bcvnyhAPkr2R/dSKqeI/OzRW6BYJKsKvTujEIooNHSvuCKnR3gnDR3nYz/CJlz38h5t3PtWykk/dp/XJQL2VzvgnQ6VCKzuylj37TAFa+IbsHa5Q585YWVMMcqhZeaRmZQ+nEMDz+v68uC3RfkLgKdeGeRztLkyFdoVt3srPVQNchn98/QRl/CR/Zeno3lQjpmXO/Wi6+9cUERU+QfvjVFCxC7V26bvsRRM6hzDMOfog8X4DME5hDqOz6yiysryCLIjmeDZ1PW2ESnwSUhKZKD/J26yMrq/sq/rklxIFfyBHlmtsR3CF3WgfsUNGkPQIDAQABo1AwTjAdBgNVHQ4EFgQUK+1/MEnTqlH6H8PQ1o0IYALLd+AwHwYDVR0jBBgwFoAUK+1/MEnTqlH6H8PQ1o0IYALLd+AwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArgUunMYaChXsSBAITAIUZjVngRGAvCn1N9B7FVEzGuMuyhBTXmUdUF65uVw3VG5NykzdLKhakaydxLKAhZ1y6oaN703ITmy3WR4y6ZOkfOD/SeHIlqHiSrYBjOkW6NM+UNdCLMVtxSUidOyD5FE8eXYe1pNqk2y/VADfDq7xy8wcjrWtKk5fVNjr9J0n63NJNCcyFLdPjL9zwGl4qqmp93fGAZmY7OCXd2MjHxcEzTYmmP7SBTzGvntLPRruqixIUR5lYK9cB3Sim+f0KpCa19BJjNUUnflZ4Ied8tdxRcPOmoM781N/43q0G3FF31nd5DUS104G4gT91mIDjVewBA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAN0h6oJGx965MA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUudG9kaS5wZy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzE1MTAyMjEyWhcNMjkwNzEyMTAyMjEyWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnRvZGkucGcuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxg8/LmHuX1q0B3y/JJhmc/+bcvnyhAPkr2R/dSKqeI/OzRW6BYJKsKvTujEIooNHSvuCKnR3gnDR3nYz/CJlz38h5t3PtWykk/dp/XJQL2VzvgnQ6VCKzuylj37TAFa+IbsHa5Q585YWVMMcqhZeaRmZQ+nEMDz+v68uC3RfkLgKdeGeRztLkyFdoVt3srPVQNchn98/QRl/CR/Zeno3lQjpmXO/Wi6+9cUERU+QfvjVFCxC7V26bvsRRM6hzDMOfog8X4DME5hDqOz6yiysryCLIjmeDZ1PW2ESnwSUhKZKD/J26yMrq/sq/rklxIFfyBHlmtsR3CF3WgfsUNGkPQIDAQABo1AwTjAdBgNVHQ4EFgQUK+1/MEnTqlH6H8PQ1o0IYALLd+AwHwYDVR0jBBgwFoAUK+1/MEnTqlH6H8PQ1o0IYALLd+AwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArgUunMYaChXsSBAITAIUZjVngRGAvCn1N9B7FVEzGuMuyhBTXmUdUF65uVw3VG5NykzdLKhakaydxLKAhZ1y6oaN703ITmy3WR4y6ZOkfOD/SeHIlqHiSrYBjOkW6NM+UNdCLMVtxSUidOyD5FE8eXYe1pNqk2y/VADfDq7xy8wcjrWtKk5fVNjr9J0n63NJNCcyFLdPjL9zwGl4qqmp93fGAZmY7OCXd2MjHxcEzTYmmP7SBTzGvntLPRruqixIUR5lYK9cB3Sim+f0KpCa19BJjNUUnflZ4Ied8tdxRcPOmoM781N/43q0G3FF31nd5DUS104G4gT91mIDjVewBA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/todi"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/todi" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/todi" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/todi" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Todi</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Todi</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Todi</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Todi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Todi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Todi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Todi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Todi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.todi.pg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.todi.pg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.todi.pg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.todi.pg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

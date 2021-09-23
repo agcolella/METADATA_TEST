@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Melegnano" entityID="https://www.comune.melegnano.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Melegnano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FxXa5zCeZjeLJKPw1fpFYuERVhocS/VnK0cj39n519A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RjPiJ9rg8BTZ/6lA/VxG9g5RD8ChGAV6I1d6ihUn0RjcF1PepWyQX9EO02przq4kf7MdrzTc7ONp
+vOYtYekz2J1mr/R782RDpemfUcwfJ/4wpcBIFIHLi59NlJAXNNOL/96zt6uRCuZBbyapWbJL24ga
+8FuuQJuMgw3U4pJEK0npRhIPqQwGDjVCfme3M/D7hs2s0W0EctE+5fw50JNV/NbJllsm/PHIoTuz
+hX+56jmTbPYFD3RJdqXf8up32tsBpSy/PoK4KIlUfI9ywP8m1OCA5P/jFY8mzY+/QM/ppxaHAFCQ
+48M4R7pdFoxO+Zk6ZGgVVXfWeUrP0ksXf6UkdQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3KP7ILvhf0ZEaQ9KjvCpFRl9oaWZYwFcpgJIZL8GYAqhzRdu2R8UcD/GwSCF3MZsxEyaA0b1xYpp
+PAXqcZlxyZJwodOSxw5vYOZipw31PAu3+2aBlUymIAByRsxRFCkLqXXxeYBf3s9amWe5a4dKfKMw
+rVPNCmyTqSisH7ejnfZ3GvqRotTos+kBlGLhIsc9uxia7kuV8HNLyuHsoXfOwB6JsZ1eBkxm3k15
+wawvYGuAHIsbYsHjG564aZZwnBJ/+HUDKxAIY68u9Ze6FsR/9k5sM4iD5D7uvDnvTq/+0CA7OYgU
+QL1ZvqG7KKTGiQwyKNQYQHTe0/LDRUnvODhNqw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAMlyFsxUtSchMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUubWVsZWduYW5vLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1
+MDYxMjEwMzhaFw0zMDA1MDQxMjEwMzhaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubWVsZWduYW5v
+Lm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANyj+yC74X9GRGkPSo7wqRUZfaGlmWMBXKYCSGS/BmAKoc0XbtkfFHA/xsEghdzG
+bMRMmgNG9cWKaTwF6nGZccmScKHTkscOb2DmYqcN9TwLt/tmgZVMpiAAckbMURQpC6l18XmAX97P
+WplnuWuHSnyjMK1TzQpsk6korB+3o532dxr6kaLU6LPpAZRi4SLHPbsYmu5LlfBzS8rh7KF3zsAe
+ibGdXgZMZt5NecGsL2BrgByLG2LB4xueuGmWcJwSf/h1AysQCGOvLvWXuhbEf/ZObDOIg+Q+7rw5
+706v/tAgOzmIFEC9Wb6huyikxokMMijUGEB03tPyw0VJ7zg4TasCAwEAAaNQME4wHQYDVR0OBBYE
+FIBn3FuKMAC7W9srlqKVMEgLTtYgMB8GA1UdIwQYMBaAFIBn3FuKMAC7W9srlqKVMEgLTtYgMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMNFMXrjn23qW+Q1juCtuBWwrks4WgZEJavg
+VGbxodR5wWO/uWtC7rWqaJhvcJjBkHJtfhCt6mzPsGPdFil6/2GecJ42TiXiswocAIauW5uhMQno
+4VTUGTjK55MKo182dSC1df8h2KS4L0fXkEohFfV8/rXbiOvraa569KAeBgOHV9ifrmXKG8tWY/I0
+Rek50GOXkTBTlQYZmlezEw+hYcn5B0cOa0I2o7g5TMCzHXI2teBIvS6+QR0Je5m0ykMcdfidqxKC
+RbP+XoPH4HoFC4cr3nuJMqFPmFCPvpxv8Oq9d5vgL2WrhI2+NH9w3waN4n8UxSfX4Zw3lqumIEso
+gbM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMlyFsxUtSchMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubWVsZWduYW5vLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MDYxMjEwMzhaFw0zMDA1MDQxMjEwMzhaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubWVsZWduYW5vLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANyj+yC74X9GRGkPSo7wqRUZfaGlmWMBXKYCSGS/BmAKoc0XbtkfFHA/xsEghdzGbMRMmgNG9cWKaTwF6nGZccmScKHTkscOb2DmYqcN9TwLt/tmgZVMpiAAckbMURQpC6l18XmAX97PWplnuWuHSnyjMK1TzQpsk6korB+3o532dxr6kaLU6LPpAZRi4SLHPbsYmu5LlfBzS8rh7KF3zsAeibGdXgZMZt5NecGsL2BrgByLG2LB4xueuGmWcJwSf/h1AysQCGOvLvWXuhbEf/ZObDOIg+Q+7rw5706v/tAgOzmIFEC9Wb6huyikxokMMijUGEB03tPyw0VJ7zg4TasCAwEAAaNQME4wHQYDVR0OBBYEFIBn3FuKMAC7W9srlqKVMEgLTtYgMB8GA1UdIwQYMBaAFIBn3FuKMAC7W9srlqKVMEgLTtYgMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMNFMXrjn23qW+Q1juCtuBWwrks4WgZEJavgVGbxodR5wWO/uWtC7rWqaJhvcJjBkHJtfhCt6mzPsGPdFil6/2GecJ42TiXiswocAIauW5uhMQno4VTUGTjK55MKo182dSC1df8h2KS4L0fXkEohFfV8/rXbiOvraa569KAeBgOHV9ifrmXKG8tWY/I0Rek50GOXkTBTlQYZmlezEw+hYcn5B0cOa0I2o7g5TMCzHXI2teBIvS6+QR0Je5m0ykMcdfidqxKCRbP+XoPH4HoFC4cr3nuJMqFPmFCPvpxv8Oq9d5vgL2WrhI2+NH9w3waN4n8UxSfX4Zw3lqumIEsogbM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMlyFsxUtSchMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubWVsZWduYW5vLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MDYxMjEwMzhaFw0zMDA1MDQxMjEwMzhaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubWVsZWduYW5vLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANyj+yC74X9GRGkPSo7wqRUZfaGlmWMBXKYCSGS/BmAKoc0XbtkfFHA/xsEghdzGbMRMmgNG9cWKaTwF6nGZccmScKHTkscOb2DmYqcN9TwLt/tmgZVMpiAAckbMURQpC6l18XmAX97PWplnuWuHSnyjMK1TzQpsk6korB+3o532dxr6kaLU6LPpAZRi4SLHPbsYmu5LlfBzS8rh7KF3zsAeibGdXgZMZt5NecGsL2BrgByLG2LB4xueuGmWcJwSf/h1AysQCGOvLvWXuhbEf/ZObDOIg+Q+7rw5706v/tAgOzmIFEC9Wb6huyikxokMMijUGEB03tPyw0VJ7zg4TasCAwEAAaNQME4wHQYDVR0OBBYEFIBn3FuKMAC7W9srlqKVMEgLTtYgMB8GA1UdIwQYMBaAFIBn3FuKMAC7W9srlqKVMEgLTtYgMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMNFMXrjn23qW+Q1juCtuBWwrks4WgZEJavgVGbxodR5wWO/uWtC7rWqaJhvcJjBkHJtfhCt6mzPsGPdFil6/2GecJ42TiXiswocAIauW5uhMQno4VTUGTjK55MKo182dSC1df8h2KS4L0fXkEohFfV8/rXbiOvraa569KAeBgOHV9ifrmXKG8tWY/I0Rek50GOXkTBTlQYZmlezEw+hYcn5B0cOa0I2o7g5TMCzHXI2teBIvS6+QR0Je5m0ykMcdfidqxKCRbP+XoPH4HoFC4cr3nuJMqFPmFCPvpxv8Oq9d5vgL2WrhI2+NH9w3waN4n8UxSfX4Zw3lqumIEsogbM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/melegnano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/melegnano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/melegnano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/melegnano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Melegnano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Melegnano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Melegnano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Melegnano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Melegnano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Melegnano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Melegnano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Melegnano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.melegnano.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.melegnano.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.melegnano.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.melegnano.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

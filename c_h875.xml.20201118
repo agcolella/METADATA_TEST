@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://istanze.comune.sangimignano.si.it/" ID="_7220788932460cca00968e273e6d8a59a3533b777c3e8d4bb00f97730931030c"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_7220788932460cca00968e273e6d8a59a3533b777c3e8d4bb00f97730931030c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>kmIIFEApZ9zPwd2jhVCc/UxFwoxsG1LHLefN1zegRcQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>d58jW94K3pmlA1eyp25gGcsbff6D8/FUJA6UDrRcjVMGA7Z64sZ0VwTrA0cgPU8sxXXbGnHWsyp8SY12IUE7hp2uVUdZUfqvtcZFfIeviZng21aJe5B66BcYNmJ00xUAcyeJU6cKjn/FQ6lAcMETmpdnYM4s+Km+7/lPPuP4skEkgxtfommRCfejCCNn6mAJTRnbSolSoHogLWfDzG6IDxzmSYQDbs93qe5EQj9l6N9LKQLY2fKM5nI/8faepww5fGBYMC7qm5CfwTv1oSymZEf0WitnsqD0OZkZjN+vGPHoB72XGXEr/SKPoTsOVRIbABgHXLRvGk8bFLYCsTCDYA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAOQl0qMIntE4MA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFU2llbmExFjAUBgNVBAcMDVNhbiBHaW1pZ25hbm8xIDAeBgNVBAoMF0NvbXVuZSBkaSBTYW4gR2ltaWduYW5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEqMCgGA1UEAwwhaXN0YW56ZS5jb211bmUuc2FuZ2ltaWduYW5vLnNpLml0MB4XDTIwMDMwNTEzNTc0N1oXDTMwMDMwMzEzNTc0N1owgaIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVTaWVuYTEWMBQGA1UEBwwNU2FuIEdpbWlnbmFubzEgMB4GA1UECgwXQ29tdW5lIGRpIFNhbiBHaW1pZ25hbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSowKAYDVQQDDCFpc3RhbnplLmNvbXVuZS5zYW5naW1pZ25hbm8uc2kuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqqtdIc5uVXyVTUSMx7mIA8eSD7985gzy5mD75BEJOrb8juXRf0p0LRQ09GMO7r13mgsc9LM9HKW+bVH/GN6tCWv7ga1c2fxeOtpIYXIiyBUl8x3Qw7AYkoV46SMIfNEfM2npKyltVkD2t8gyvoX800JKv5Z8hzWlUUBzzrDDvkssNwdtdxjro2qNRaI21JXYbI7z5VT6van3tE0nf5BqIm5kK/Y0lShxl6J746y8TpZlvsGdQQSW2abmAkOeltwfJzBOov9dgcxfy6MLPUryJDfKWHyMwnaeTsp32oud61gmffNj6TcVP6cFfq3PJ/X3EC7rg0kfLObkDXXFnurUXAgMBAAGjUzBRMB0GA1UdDgQWBBSJ+af5aI2GOUzf4U4wSfoK7EsAhTAfBgNVHSMEGDAWgBSJ+af5aI2GOUzf4U4wSfoK7EsAhTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBNgc0Jj5Hh6hzqvM91FFrOSp3I4TkTZq1F1lP8DwUKMjRCQaJLz2zXIFfNx8V7ypfHm1nGZ5b+HVnGwM9LFSKdXd7s+TarORyIGhm4HxGUIxMRujncfU0/5kgDaSU1bw+WgM1+evvPWS5MPYIl834yS3lpvzMH7b2P1wqm6oXtxmiG9dmkia9KjURHb1kLQd6nxDRa3XHmyzoQ0vj4noQGnj+7wOOqwha3IEIdvIO1EdnbGXjOa52jqLg2V9Vx7RmtG167JlA0i2ZTpxzMycRKcZuUTdDlatrN++336/bLXrftjVZaZApOww5DTxWPcdlUPJviZcxVXksda1WrxLWH</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAOQl0qMIntE4MA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFU2llbmExFjAUBgNVBAcMDVNhbiBHaW1pZ25hbm8xIDAeBgNVBAoMF0NvbXVuZSBkaSBTYW4gR2ltaWduYW5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEqMCgGA1UEAwwhaXN0YW56ZS5jb211bmUuc2FuZ2ltaWduYW5vLnNpLml0MB4XDTIwMDMwNTEzNTc0N1oXDTMwMDMwMzEzNTc0N1owgaIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVTaWVuYTEWMBQGA1UEBwwNU2FuIEdpbWlnbmFubzEgMB4GA1UECgwXQ29tdW5lIGRpIFNhbiBHaW1pZ25hbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSowKAYDVQQDDCFpc3RhbnplLmNvbXVuZS5zYW5naW1pZ25hbm8uc2kuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqqtdIc5uVXyVTUSMx7mIA8eSD7985gzy5mD75BEJOrb8juXRf0p0LRQ09GMO7r13mgsc9LM9HKW+bVH/GN6tCWv7ga1c2fxeOtpIYXIiyBUl8x3Qw7AYkoV46SMIfNEfM2npKyltVkD2t8gyvoX800JKv5Z8hzWlUUBzzrDDvkssNwdtdxjro2qNRaI21JXYbI7z5VT6van3tE0nf5BqIm5kK/Y0lShxl6J746y8TpZlvsGdQQSW2abmAkOeltwfJzBOov9dgcxfy6MLPUryJDfKWHyMwnaeTsp32oud61gmffNj6TcVP6cFfq3PJ/X3EC7rg0kfLObkDXXFnurUXAgMBAAGjUzBRMB0GA1UdDgQWBBSJ+af5aI2GOUzf4U4wSfoK7EsAhTAfBgNVHSMEGDAWgBSJ+af5aI2GOUzf4U4wSfoK7EsAhTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBNgc0Jj5Hh6hzqvM91FFrOSp3I4TkTZq1F1lP8DwUKMjRCQaJLz2zXIFfNx8V7ypfHm1nGZ5b+HVnGwM9LFSKdXd7s+TarORyIGhm4HxGUIxMRujncfU0/5kgDaSU1bw+WgM1+evvPWS5MPYIl834yS3lpvzMH7b2P1wqm6oXtxmiG9dmkia9KjURHb1kLQd6nxDRa3XHmyzoQ0vj4noQGnj+7wOOqwha3IEIdvIO1EdnbGXjOa52jqLg2V9Vx7RmtG167JlA0i2ZTpxzMycRKcZuUTdDlatrN++336/bLXrftjVZaZApOww5DTxWPcdlUPJviZcxVXksda1WrxLWH</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAOQl0qMIntE4MA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFU2llbmExFjAUBgNVBAcMDVNhbiBHaW1pZ25hbm8xIDAeBgNVBAoMF0NvbXVuZSBkaSBTYW4gR2ltaWduYW5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEqMCgGA1UEAwwhaXN0YW56ZS5jb211bmUuc2FuZ2ltaWduYW5vLnNpLml0MB4XDTIwMDMwNTEzNTc0N1oXDTMwMDMwMzEzNTc0N1owgaIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVTaWVuYTEWMBQGA1UEBwwNU2FuIEdpbWlnbmFubzEgMB4GA1UECgwXQ29tdW5lIGRpIFNhbiBHaW1pZ25hbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSowKAYDVQQDDCFpc3RhbnplLmNvbXVuZS5zYW5naW1pZ25hbm8uc2kuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqqtdIc5uVXyVTUSMx7mIA8eSD7985gzy5mD75BEJOrb8juXRf0p0LRQ09GMO7r13mgsc9LM9HKW+bVH/GN6tCWv7ga1c2fxeOtpIYXIiyBUl8x3Qw7AYkoV46SMIfNEfM2npKyltVkD2t8gyvoX800JKv5Z8hzWlUUBzzrDDvkssNwdtdxjro2qNRaI21JXYbI7z5VT6van3tE0nf5BqIm5kK/Y0lShxl6J746y8TpZlvsGdQQSW2abmAkOeltwfJzBOov9dgcxfy6MLPUryJDfKWHyMwnaeTsp32oud61gmffNj6TcVP6cFfq3PJ/X3EC7rg0kfLObkDXXFnurUXAgMBAAGjUzBRMB0GA1UdDgQWBBSJ+af5aI2GOUzf4U4wSfoK7EsAhTAfBgNVHSMEGDAWgBSJ+af5aI2GOUzf4U4wSfoK7EsAhTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBNgc0Jj5Hh6hzqvM91FFrOSp3I4TkTZq1F1lP8DwUKMjRCQaJLz2zXIFfNx8V7ypfHm1nGZ5b+HVnGwM9LFSKdXd7s+TarORyIGhm4HxGUIxMRujncfU0/5kgDaSU1bw+WgM1+evvPWS5MPYIl834yS3lpvzMH7b2P1wqm6oXtxmiG9dmkia9KjURHb1kLQd6nxDRa3XHmyzoQ0vj4noQGnj+7wOOqwha3IEIdvIO1EdnbGXjOa52jqLg2V9Vx7RmtG167JlA0i2ZTpxzMycRKcZuUTdDlatrN++336/bLXrftjVZaZApOww5DTxWPcdlUPJviZcxVXksda1WrxLWH</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istanze.comune.sangimignano.si.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istanze.comune.sangimignano.si.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_h875</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_h875</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Gimignano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Gimignano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://istanze.comune.sangimignano.si.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://istanze.comune.sangimignano.si.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://centroservizialcittadino.comune.casalmaggiore.cr.it/" ID="_5ed803942393e912f155c0f186e5817c6b321926df00eb124add9d32df98efa6"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_5ed803942393e912f155c0f186e5817c6b321926df00eb124add9d32df98efa6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2yOnK1hJKeF9gmswAcOxcA/8uJ2RDaAlxLQbGTEEF0o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>XyCFLz97KJn/3cXAEJ1ttRCCbR5YpYr2R+b3qt2AL+Ibsxsi4SbqGqrW1IB5VxvYOLUyfWt419m/c2Nlumn9ygxics/K/TCtC9reD+EIzhlIRTgVkLvwfhmrSHv0dZoGonrbCS+pwgb5eL3xJrhJ8LKd4Z3imPtfBa7Ib+UVry19H/uoKey/OhKb3tdg/dCi/LNSNIc5jOnqjmGrScHoWDmJx+MzQ3uEqvhXAEAKLUtca3KKPWv/ShgrRBR6J87L8Ww5Mw3B83w+v/uqCZctiQIJVAZXHfMMdLBMqFcUMnnBJwbwSzIn7POhdk2LSefS0wjTPEonI8m6FdV/IAA5yA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIERDCCAyygAwIBAgIJAJaQEaTG8AGvMA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ3JlbW9uYTEWMBQGA1UEBwwNQ2FzYWxtYWdnaW9yZTEgMB4GA1UECgwXQ29tdW5lIGRpIENhc2FsbWFnZ2lvcmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTwwOgYDVQQDDDNjZW50cm9zZXJ2aXppYWxjaXR0YWRpbm8uY29tdW5lLmNhc2FsbWFnZ2lvcmUuY3IuaXQwHhcNMjAwNjIzMTQ1NjMwWhcNMzAwNjIxMTQ1NjMwWjCBtjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExFjAUBgNVBAcMDUNhc2FsbWFnZ2lvcmUxIDAeBgNVBAoMF0NvbXVuZSBkaSBDYXNhbG1hZ2dpb3JlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE8MDoGA1UEAwwzY2VudHJvc2Vydml6aWFsY2l0dGFkaW5vLmNvbXVuZS5jYXNhbG1hZ2dpb3JlLmNyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAox9JYYmHshL7h4bMZREd7TkRWETLrd9t+3uEryMgl3RggMSuT3abIWaTgYiXUaQaI/lZDBT3vJZQm5Mr4bBjVNGXVoIA+UYCgBzFtZHKZg1kUujaFsYoTmus9Qe074zTmqL21GbA+Q5hWCkZFJOimblcKsbpRZN2fYymibynNjNwwr/1ddG+D/YqqLg664Td0g3+kElvtBu1qO0AUHmv0r2ini+CrK6WFAjVMPMXYQNdqPgjYrQw2Z1aXCChyKEkZgzU/KBGXa6zEMjd/0Pz/BHPenv006ke8K5UYw2IDFYNELXuHOLk6/oLJtkl9DG2oI1LzkUnxxBOrKcYuX26DwIDAQABo1MwUTAdBgNVHQ4EFgQUzw3Y6frI/t3oPrc4ZrBmtNJ7yYYwHwYDVR0jBBgwFoAUzw3Y6frI/t3oPrc4ZrBmtNJ7yYYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKokP4KdLL8vIosfUTdxm6IAP7CSo7XAhSKNbyFqg08q6h7vrD+z/6/QBLWq+dM7pTdFCftIWJvtCiIJVQUspiRBpzOocZ6HpR/+MMtwk1Yx6B6dHGipgg6m7Gwvoq1E4xvio2jyKlswqH0WQQ6Xl39CFA0o9IpvUvQcecduZ5g5ApAh/BksqW1bwMg5zvAy4zdgvRjuNUKX9U1s/xEQTmuEmCdE2+PviwZUOGdOBtumV6QDTlumQmkXKFR4GL1wOcfGEv6mh2PkiRgWG4hu4aSIOzBYIRPKIoaPqbRKypc6xXBR9qcdX8SO9BVoqI9mauP/Lw0znf2t35yqw6nWxMw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERDCCAyygAwIBAgIJAJaQEaTG8AGvMA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ3JlbW9uYTEWMBQGA1UEBwwNQ2FzYWxtYWdnaW9yZTEgMB4GA1UECgwXQ29tdW5lIGRpIENhc2FsbWFnZ2lvcmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTwwOgYDVQQDDDNjZW50cm9zZXJ2aXppYWxjaXR0YWRpbm8uY29tdW5lLmNhc2FsbWFnZ2lvcmUuY3IuaXQwHhcNMjAwNjIzMTQ1NjMwWhcNMzAwNjIxMTQ1NjMwWjCBtjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExFjAUBgNVBAcMDUNhc2FsbWFnZ2lvcmUxIDAeBgNVBAoMF0NvbXVuZSBkaSBDYXNhbG1hZ2dpb3JlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE8MDoGA1UEAwwzY2VudHJvc2Vydml6aWFsY2l0dGFkaW5vLmNvbXVuZS5jYXNhbG1hZ2dpb3JlLmNyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAox9JYYmHshL7h4bMZREd7TkRWETLrd9t+3uEryMgl3RggMSuT3abIWaTgYiXUaQaI/lZDBT3vJZQm5Mr4bBjVNGXVoIA+UYCgBzFtZHKZg1kUujaFsYoTmus9Qe074zTmqL21GbA+Q5hWCkZFJOimblcKsbpRZN2fYymibynNjNwwr/1ddG+D/YqqLg664Td0g3+kElvtBu1qO0AUHmv0r2ini+CrK6WFAjVMPMXYQNdqPgjYrQw2Z1aXCChyKEkZgzU/KBGXa6zEMjd/0Pz/BHPenv006ke8K5UYw2IDFYNELXuHOLk6/oLJtkl9DG2oI1LzkUnxxBOrKcYuX26DwIDAQABo1MwUTAdBgNVHQ4EFgQUzw3Y6frI/t3oPrc4ZrBmtNJ7yYYwHwYDVR0jBBgwFoAUzw3Y6frI/t3oPrc4ZrBmtNJ7yYYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKokP4KdLL8vIosfUTdxm6IAP7CSo7XAhSKNbyFqg08q6h7vrD+z/6/QBLWq+dM7pTdFCftIWJvtCiIJVQUspiRBpzOocZ6HpR/+MMtwk1Yx6B6dHGipgg6m7Gwvoq1E4xvio2jyKlswqH0WQQ6Xl39CFA0o9IpvUvQcecduZ5g5ApAh/BksqW1bwMg5zvAy4zdgvRjuNUKX9U1s/xEQTmuEmCdE2+PviwZUOGdOBtumV6QDTlumQmkXKFR4GL1wOcfGEv6mh2PkiRgWG4hu4aSIOzBYIRPKIoaPqbRKypc6xXBR9qcdX8SO9BVoqI9mauP/Lw0znf2t35yqw6nWxMw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERDCCAyygAwIBAgIJAJaQEaTG8AGvMA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ3JlbW9uYTEWMBQGA1UEBwwNQ2FzYWxtYWdnaW9yZTEgMB4GA1UECgwXQ29tdW5lIGRpIENhc2FsbWFnZ2lvcmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTwwOgYDVQQDDDNjZW50cm9zZXJ2aXppYWxjaXR0YWRpbm8uY29tdW5lLmNhc2FsbWFnZ2lvcmUuY3IuaXQwHhcNMjAwNjIzMTQ1NjMwWhcNMzAwNjIxMTQ1NjMwWjCBtjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExFjAUBgNVBAcMDUNhc2FsbWFnZ2lvcmUxIDAeBgNVBAoMF0NvbXVuZSBkaSBDYXNhbG1hZ2dpb3JlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE8MDoGA1UEAwwzY2VudHJvc2Vydml6aWFsY2l0dGFkaW5vLmNvbXVuZS5jYXNhbG1hZ2dpb3JlLmNyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAox9JYYmHshL7h4bMZREd7TkRWETLrd9t+3uEryMgl3RggMSuT3abIWaTgYiXUaQaI/lZDBT3vJZQm5Mr4bBjVNGXVoIA+UYCgBzFtZHKZg1kUujaFsYoTmus9Qe074zTmqL21GbA+Q5hWCkZFJOimblcKsbpRZN2fYymibynNjNwwr/1ddG+D/YqqLg664Td0g3+kElvtBu1qO0AUHmv0r2ini+CrK6WFAjVMPMXYQNdqPgjYrQw2Z1aXCChyKEkZgzU/KBGXa6zEMjd/0Pz/BHPenv006ke8K5UYw2IDFYNELXuHOLk6/oLJtkl9DG2oI1LzkUnxxBOrKcYuX26DwIDAQABo1MwUTAdBgNVHQ4EFgQUzw3Y6frI/t3oPrc4ZrBmtNJ7yYYwHwYDVR0jBBgwFoAUzw3Y6frI/t3oPrc4ZrBmtNJ7yYYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKokP4KdLL8vIosfUTdxm6IAP7CSo7XAhSKNbyFqg08q6h7vrD+z/6/QBLWq+dM7pTdFCftIWJvtCiIJVQUspiRBpzOocZ6HpR/+MMtwk1Yx6B6dHGipgg6m7Gwvoq1E4xvio2jyKlswqH0WQQ6Xl39CFA0o9IpvUvQcecduZ5g5ApAh/BksqW1bwMg5zvAy4zdgvRjuNUKX9U1s/xEQTmuEmCdE2+PviwZUOGdOBtumV6QDTlumQmkXKFR4GL1wOcfGEv6mh2PkiRgWG4hu4aSIOzBYIRPKIoaPqbRKypc6xXBR9qcdX8SO9BVoqI9mauP/Lw0znf2t35yqw6nWxMw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://centroservizialcittadino.comune.casalmaggiore.cr.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://centroservizialcittadino.comune.casalmaggiore.cr.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_b898</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_b898</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Casalmaggiore</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casalmaggiore</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://centroservizialcittadino.comune.casalmaggiore.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://centroservizialcittadino.comune.casalmaggiore.cr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CastanoPrimo" entityID="https://www.comune.castanoprimo.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CastanoPrimo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qk0iBYJNKgXZYgUAlA/qHUSP+JjvAWktn5YBWyoXf5E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+WFC2b/aGGXwnWOCnwu+ROKpi8cWSXbHsC2dpmkbhgAj+7G1IzVKKajb79Cwvtl56UrO7Dcx1pU9N
+imrhX+QHDyNlBMM/WFrTwL4hysyQFF8ufeC/A068fsUB+YqvlNG6r6s47BQfQF928M2Jm8LFLifk
+caqcfOmx8U0c/dSRjpwUaEPTG8zPFhqbhZk+ZCnDN/uvG8afsXbgbYW80VBPY2yqi7HeipCsGG66
+vlB39m0WWj3GOCLYVzW5v/e3Glo8mMEG6xrUX10KDCL9tAMNZ8CWdPzXViK2LOFUHSATEVq9YmOP
+P5C0wdqJTBQmCa9E5vyACDl0OzWF+yV30li4cQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wqO5nBh42xK7XrGx1Y2DV97OE1oUli7FxDb2rhy45j37O4vs6Tijf2tPaLnlIwEMRZ6biRXKoJOX
+hiXBl9t4AxNOyXqtFu+uYmVV8EkDDWH0rcQobKnVdtEHqSmSIk8CmaEA7wc6NDPxCs+tDX1knfJX
+hG/ll82mEIgp28U9D3ocxJmFpuiVkSS90bAw5Wyj9rYMGyftYtuwk9kk/K5uyw1HeWMBPty0GLTJ
+B+rT3+QJ1fZKNx8F2jwjjDJD56vfoApawHhw2iomGMwreqmmoXjbZOujcU15rmNUV0O/oSWLuDKr
+YGoKcYF+9Ca9q1tz4lsfOAuPJIDGYwi44l60Cw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXTCCAkWgAwIBAgIJAPWIocG7W6D2MA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3d3cu
+Y29tdW5lLmNhc3Rhbm9wcmltby5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcN
+MTkwNTEwMDczODEzWhcNMjkwNTA3MDczODEzWjBFMScwJQYDVQQDDB53d3d3LmNvbXVuZS5jYXN0
+YW5vcHJpbW8ubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAwqO5nBh42xK7XrGx1Y2DV97OE1oUli7FxDb2rhy45j37O4vs6Tij
+f2tPaLnlIwEMRZ6biRXKoJOXhiXBl9t4AxNOyXqtFu+uYmVV8EkDDWH0rcQobKnVdtEHqSmSIk8C
+maEA7wc6NDPxCs+tDX1knfJXhG/ll82mEIgp28U9D3ocxJmFpuiVkSS90bAw5Wyj9rYMGyftYtuw
+k9kk/K5uyw1HeWMBPty0GLTJB+rT3+QJ1fZKNx8F2jwjjDJD56vfoApawHhw2iomGMwreqmmoXjb
+ZOujcU15rmNUV0O/oSWLuDKrYGoKcYF+9Ca9q1tz4lsfOAuPJIDGYwi44l60CwIDAQABo1AwTjAd
+BgNVHQ4EFgQUxi3+q7SjaR82WX3HsKBo/CFReWkwHwYDVR0jBBgwFoAUxi3+q7SjaR82WX3HsKBo
+/CFReWkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhnGvEnN126Dk6iDG+fmD08tn
+S6SaPsyLgQZgeBBjRjoktwGEHX6ELv784G1lDfhhc6+fb7dpxOJwALWrbq8YpWIRATJ607Slmmee
+09jbzJFCrz/ufxuvk8ljfvJt7VPKSKYFjDb3klt5NnNOfoZIT9VEf4hNUystNFYP25teCmw/TGKA
+bQnOfjmNHEvP+PIIbWkby6r1shlnvrLQuza0F5kYrYLj8U/B2wauPa2mrnre21Kr6Z+pYXxj6V3z
+iMYkzBzWPzaSFBf6aOusrRC225fIFvSLG/LKQjoSRkgCP14jBVTpx9eBDlXqEzpCt4z4zIETI1c8
+/3ENTsx97owMUg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAPWIocG7W6D2MA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3d3cuY29tdW5lLmNhc3Rhbm9wcmltby5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNTEwMDczODEzWhcNMjkwNTA3MDczODEzWjBFMScwJQYDVQQDDB53d3d3LmNvbXVuZS5jYXN0YW5vcHJpbW8ubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwqO5nBh42xK7XrGx1Y2DV97OE1oUli7FxDb2rhy45j37O4vs6Tijf2tPaLnlIwEMRZ6biRXKoJOXhiXBl9t4AxNOyXqtFu+uYmVV8EkDDWH0rcQobKnVdtEHqSmSIk8CmaEA7wc6NDPxCs+tDX1knfJXhG/ll82mEIgp28U9D3ocxJmFpuiVkSS90bAw5Wyj9rYMGyftYtuwk9kk/K5uyw1HeWMBPty0GLTJB+rT3+QJ1fZKNx8F2jwjjDJD56vfoApawHhw2iomGMwreqmmoXjbZOujcU15rmNUV0O/oSWLuDKrYGoKcYF+9Ca9q1tz4lsfOAuPJIDGYwi44l60CwIDAQABo1AwTjAdBgNVHQ4EFgQUxi3+q7SjaR82WX3HsKBo/CFReWkwHwYDVR0jBBgwFoAUxi3+q7SjaR82WX3HsKBo/CFReWkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhnGvEnN126Dk6iDG+fmD08tnS6SaPsyLgQZgeBBjRjoktwGEHX6ELv784G1lDfhhc6+fb7dpxOJwALWrbq8YpWIRATJ607Slmmee09jbzJFCrz/ufxuvk8ljfvJt7VPKSKYFjDb3klt5NnNOfoZIT9VEf4hNUystNFYP25teCmw/TGKAbQnOfjmNHEvP+PIIbWkby6r1shlnvrLQuza0F5kYrYLj8U/B2wauPa2mrnre21Kr6Z+pYXxj6V3ziMYkzBzWPzaSFBf6aOusrRC225fIFvSLG/LKQjoSRkgCP14jBVTpx9eBDlXqEzpCt4z4zIETI1c8/3ENTsx97owMUg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAPWIocG7W6D2MA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3d3cuY29tdW5lLmNhc3Rhbm9wcmltby5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNTEwMDczODEzWhcNMjkwNTA3MDczODEzWjBFMScwJQYDVQQDDB53d3d3LmNvbXVuZS5jYXN0YW5vcHJpbW8ubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwqO5nBh42xK7XrGx1Y2DV97OE1oUli7FxDb2rhy45j37O4vs6Tijf2tPaLnlIwEMRZ6biRXKoJOXhiXBl9t4AxNOyXqtFu+uYmVV8EkDDWH0rcQobKnVdtEHqSmSIk8CmaEA7wc6NDPxCs+tDX1knfJXhG/ll82mEIgp28U9D3ocxJmFpuiVkSS90bAw5Wyj9rYMGyftYtuwk9kk/K5uyw1HeWMBPty0GLTJB+rT3+QJ1fZKNx8F2jwjjDJD56vfoApawHhw2iomGMwreqmmoXjbZOujcU15rmNUV0O/oSWLuDKrYGoKcYF+9Ca9q1tz4lsfOAuPJIDGYwi44l60CwIDAQABo1AwTjAdBgNVHQ4EFgQUxi3+q7SjaR82WX3HsKBo/CFReWkwHwYDVR0jBBgwFoAUxi3+q7SjaR82WX3HsKBo/CFReWkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhnGvEnN126Dk6iDG+fmD08tnS6SaPsyLgQZgeBBjRjoktwGEHX6ELv784G1lDfhhc6+fb7dpxOJwALWrbq8YpWIRATJ607Slmmee09jbzJFCrz/ufxuvk8ljfvJt7VPKSKYFjDb3klt5NnNOfoZIT9VEf4hNUystNFYP25teCmw/TGKAbQnOfjmNHEvP+PIIbWkby6r1shlnvrLQuza0F5kYrYLj8U/B2wauPa2mrnre21Kr6Z+pYXxj6V3ziMYkzBzWPzaSFBf6aOusrRC225fIFvSLG/LKQjoSRkgCP14jBVTpx9eBDlXqEzpCt4z4zIETI1c8/3ENTsx97owMUg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/castanoprimo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castanoprimo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castanoprimo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castanoprimo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castano Primo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Castano Primo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Castano Primo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Castano Primo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castano Primo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castano Primo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Castano Primo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Castano Primo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.castanoprimo.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castanoprimo.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.castanoprimo.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.castanoprimo.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="SanMiniato" entityID="https://www.comune.san-miniato.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SanMiniato">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WtRLwAOLh6T/bKVtt/1w9iTO/wI3gpuKl0P9gIG3vjk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+tLvofCEWnjOMvwDN57giStO957BET4DOGYkp1RmewlouAf+cz4fQbjCm10UWiRJciqRXIeiabrtK
+IseyyXdD5TUf/3lMqMQUKwtN+VoB1MN5HuD4/ae5PDLdAqVwFm5UIlynvy+GG1qJJUbad7A62+uy
+iqZo/2zr2kpEpjRmHCcSl8LLCgzwcon1kgGjSA914zJ5jALd1uHYxn82sPSJb9qOlPvTvnFeqgz6
+vZYXaKiaDOAZpx8JJxEam3TW6HWZX+O0hmTjeuqvfRsHOfwwBweqkeaKautjA9Jb68ZBqMprjIdH
+82AdyDTNpYRxoDLLstMiXOFXMJQBsU7iFSt7WA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2ooG4I4Spl6B6bnODGKeWN32EB8ybIQ6kKvJnjrk4uVPG2vug3rmNc3LW6YvBbdSiR0W88U4xUFW
+qQ8N7zrL2rU180gmRVzch4/THOyx1EAJ4cLZvLWgwrBZUrDfh+8j8+Mmob1ZtOICc7H36lgpiqV2
+StEPm7NZQXmdUt+w4hVHVz6a0SsuYiNTOJ6j5aMMCeT3CbdsNfq7/eXDpA+XJvavwmEoZgZWXoMO
+kny/11acZDri8WdxhIaflZBQC34rr0jRMJ9TWjxDtjacTE5LQiVd9+QNL/pVq83kk8L0gtXad1tk
+5v+2Ltkg6MKRMSRijj+I7Scd8POOhq3KAUOVIQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEHjCCAwagAwIBAgIJAIGBFgiIb+O3MA0GCSqGSIb3DQEBCwUAMIG1MR4wHAYDVQQKDBVDb211
+bmUgZGkgU2FuIE1pbmlhdG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBTYW4gTWluaWF0bzE5MDcGA1UE
+UwwwaHR0cHM6Ly93d3cuY29tdW5lLnNhbi1taW5pYXRvLnBpLml0L3NlcnZpemlTUElEMRUwEwYD
+VQRhDAxQQTpJVC1jX2kwNDYxCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtTYW4gTWluaWF0bzAeFw0y
+MDExMDYxMDU0NDdaFw0zMDExMDQxMDU0NDdaMIG1MR4wHAYDVQQKDBVDb211bmUgZGkgU2FuIE1p
+bmlhdG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBTYW4gTWluaWF0bzE5MDcGA1UEUwwwaHR0cHM6Ly93
+d3cuY29tdW5lLnNhbi1taW5pYXRvLnBpLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1j
+X2kwNDYxCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtTYW4gTWluaWF0bzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBANqKBuCOEqZegem5zgxinljd9hAfMmyEOpCryZ465OLlTxtr7oN65jXN
+y1umLwW3UokdFvPFOMVBVqkPDe86y9q1NfNIJkVc3IeP0xzssdRACeHC2by1oMKwWVKw34fvI/Pj
+JqG9WbTiAnOx9+pYKYqldkrRD5uzWUF5nVLfsOIVR1c+mtErLmIjUzieo+WjDAnk9wm3bDX6u/3l
+w6QPlyb2r8JhKGYGVl6DDpJ8v9dWnGQ64vFncYSGn5WQUAt+K69I0TCfU1o8Q7Y2nExOS0IlXffk
+DS/6VavN5JPC9ILV2ndbZOb/ti7ZIOjCkTEkYo4/iO0nHfDzjoatygFDlSECAwEAAaMvMC0wCQYD
+VR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQAD
+ggEBAIXoUq+HQS9LeSf2iE5ckDWNFLsXGnWD3iS9hruXUOwWkgd25Lj1CDdJWti3PFpA+ulxuTFA
+LuZArKs8snKZ2AgFszbtbqCj55vYbz1T4f/gpppW4WGMreXgVlpgVzo1ioxb9pCwZiEYjmh2yQPh
+NyCUuOzC6UUl5s9ABsSbjfFqXuWTqX270yxSvKLTiUjCvEPh1WgzBHbFdMb1MK7QVfKuTOn09nf1
+vlQIVvwim1MwKYljCGNozty/RB0N+Ibkm4waspk/dX6f1zKEhJIqEf52zrUaVuCTsuiUns0hWqFt
+QYISsNtBQXGSFalqxZYuBdt9cdtEyllnJKloHs3uBaM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEHjCCAwagAwIBAgIJAIGBFgiIb+O3MA0GCSqGSIb3DQEBCwUAMIG1MR4wHAYDVQQKDBVDb211bmUgZGkgU2FuIE1pbmlhdG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBTYW4gTWluaWF0bzE5MDcGA1UEUwwwaHR0cHM6Ly93d3cuY29tdW5lLnNhbi1taW5pYXRvLnBpLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kwNDYxCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtTYW4gTWluaWF0bzAeFw0yMDExMDYxMDU0NDdaFw0zMDExMDQxMDU0NDdaMIG1MR4wHAYDVQQKDBVDb211bmUgZGkgU2FuIE1pbmlhdG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBTYW4gTWluaWF0bzE5MDcGA1UEUwwwaHR0cHM6Ly93d3cuY29tdW5lLnNhbi1taW5pYXRvLnBpLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kwNDYxCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtTYW4gTWluaWF0bzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANqKBuCOEqZegem5zgxinljd9hAfMmyEOpCryZ465OLlTxtr7oN65jXNy1umLwW3UokdFvPFOMVBVqkPDe86y9q1NfNIJkVc3IeP0xzssdRACeHC2by1oMKwWVKw34fvI/PjJqG9WbTiAnOx9+pYKYqldkrRD5uzWUF5nVLfsOIVR1c+mtErLmIjUzieo+WjDAnk9wm3bDX6u/3lw6QPlyb2r8JhKGYGVl6DDpJ8v9dWnGQ64vFncYSGn5WQUAt+K69I0TCfU1o8Q7Y2nExOS0IlXffkDS/6VavN5JPC9ILV2ndbZOb/ti7ZIOjCkTEkYo4/iO0nHfDzjoatygFDlSECAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAIXoUq+HQS9LeSf2iE5ckDWNFLsXGnWD3iS9hruXUOwWkgd25Lj1CDdJWti3PFpA+ulxuTFALuZArKs8snKZ2AgFszbtbqCj55vYbz1T4f/gpppW4WGMreXgVlpgVzo1ioxb9pCwZiEYjmh2yQPhNyCUuOzC6UUl5s9ABsSbjfFqXuWTqX270yxSvKLTiUjCvEPh1WgzBHbFdMb1MK7QVfKuTOn09nf1vlQIVvwim1MwKYljCGNozty/RB0N+Ibkm4waspk/dX6f1zKEhJIqEf52zrUaVuCTsuiUns0hWqFtQYISsNtBQXGSFalqxZYuBdt9cdtEyllnJKloHs3uBaM=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEHjCCAwagAwIBAgIJAIGBFgiIb+O3MA0GCSqGSIb3DQEBCwUAMIG1MR4wHAYDVQQKDBVDb211bmUgZGkgU2FuIE1pbmlhdG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBTYW4gTWluaWF0bzE5MDcGA1UEUwwwaHR0cHM6Ly93d3cuY29tdW5lLnNhbi1taW5pYXRvLnBpLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kwNDYxCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtTYW4gTWluaWF0bzAeFw0yMDExMDYxMDU0NDdaFw0zMDExMDQxMDU0NDdaMIG1MR4wHAYDVQQKDBVDb211bmUgZGkgU2FuIE1pbmlhdG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBTYW4gTWluaWF0bzE5MDcGA1UEUwwwaHR0cHM6Ly93d3cuY29tdW5lLnNhbi1taW5pYXRvLnBpLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kwNDYxCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtTYW4gTWluaWF0bzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANqKBuCOEqZegem5zgxinljd9hAfMmyEOpCryZ465OLlTxtr7oN65jXNy1umLwW3UokdFvPFOMVBVqkPDe86y9q1NfNIJkVc3IeP0xzssdRACeHC2by1oMKwWVKw34fvI/PjJqG9WbTiAnOx9+pYKYqldkrRD5uzWUF5nVLfsOIVR1c+mtErLmIjUzieo+WjDAnk9wm3bDX6u/3lw6QPlyb2r8JhKGYGVl6DDpJ8v9dWnGQ64vFncYSGn5WQUAt+K69I0TCfU1o8Q7Y2nExOS0IlXffkDS/6VavN5JPC9ILV2ndbZOb/ti7ZIOjCkTEkYo4/iO0nHfDzjoatygFDlSECAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAIXoUq+HQS9LeSf2iE5ckDWNFLsXGnWD3iS9hruXUOwWkgd25Lj1CDdJWti3PFpA+ulxuTFALuZArKs8snKZ2AgFszbtbqCj55vYbz1T4f/gpppW4WGMreXgVlpgVzo1ioxb9pCwZiEYjmh2yQPhNyCUuOzC6UUl5s9ABsSbjfFqXuWTqX270yxSvKLTiUjCvEPh1WgzBHbFdMb1MK7QVfKuTOn09nf1vlQIVvwim1MwKYljCGNozty/RB0N+Ibkm4waspk/dX6f1zKEhJIqEf52zrUaVuCTsuiUns0hWqFtQYISsNtBQXGSFalqxZYuBdt9cdtEyllnJKloHs3uBaM=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sanminiato"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanminiato" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanminiato" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanminiato" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di San Miniato</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di San Miniato</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di San Miniato</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di San Miniato</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di San Miniato</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di San Miniato</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di San Miniato</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di San Miniato</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.san-miniato.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.san-miniato.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.san-miniato.pi.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.san-miniato.pi.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_i046</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>crusso@comune.san-miniato.pi.it</md:EmailAddress>
+      <md:TelephoneNumber>+390571406282</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

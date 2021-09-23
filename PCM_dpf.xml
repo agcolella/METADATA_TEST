@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://spid.famiglia.governo.it" ID="Id-be49e5a7-98e0-4022-af75-fd570b3aabc6" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<SignedInfo>
+  					<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+  					<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  					<Reference URI="#Id-be49e5a7-98e0-4022-af75-fd570b3aabc6">
+    					<Transforms>
+      						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      						<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    					</Transforms>
+    					<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    					<DigestValue>1BUMFO0TKMI05wQOVrimNZsFfEwUBW9WxGB3RAr7M6w=</DigestValue>
+  					</Reference>
+				</SignedInfo>
+			<SignatureValue>0Vgaqvz7g2q04KoVxzsMnDvvEO/2klM44WBV2V4PqIq2ecaox/M3KSpl/ctNLvg2pXatD1BFBBgQn/CYYnKpbOj3REvAz4LAut82GNvkVKG5ZodqsBh/kdKNJ9oV+1quHr6CAbGBSV6ZD6/mR+bXmg8cAp6il0go1GSAGU5KSgo=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIICVTCCAb6gAwIBAgIBATANBgkqhkiG9w0BAQsFADA4MQswCQYDVQQGEwJJVDEOMAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwHhcNMTYwNDA1MDAwMDAwWhcNMzYwNDA0MjM1OTU5WjA4MQswCQYDVQQGEwJJVDEOMAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANvyjZ89m39BNYtwpOW3gpSt1uHOrwo/6U0GfzS2Xdpjrr54zboaSfzMvLUAjtsL39sH1bJ5eqF0qgw4bVnEEfrMlAD2OoJ45K+USlAizxx6A9r+/Tm3PZHUEbcm+fjrF/C6005/BE3WVQcvd0eci/G0R8niPy2xxdijG10psRWTAgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFF6rklv/QJyKRgz7Ll6E2Qt6ER5lMAsGA1UdDwQEAwIF4DARBglghkgBhvhCAQEEBAMCBkAwHgYJYIZIAYb4QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOBgQC+B+wXsrLY87WtTLMa7b2L+7uJPS5VGJ0H/6PJFmc8w+MjZ1fxLYtoVLUBIczbhArjinCUS0swsC+3bR5GtBGcJNOZBY7wrL1iuSRQgbzs1Sg5rPAT2H0jPaj/kj/SQxnCTKLHmXJCYyWmZgkkVenVbFbwBvBA5Z0Hm/9VxkT5kg==</X509Certificate><X509IssuerSerial><X509IssuerName>CN=federazione SPID, O=Sogei, C=IT</X509IssuerName><X509SerialNumber>1</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature>
+                <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+                               <md:KeyDescriptor use="signing">
+                                               <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                                                               <ds:X509Data>
+                                                                               <ds:X509Certificate>MIICVTCCAb6gAwIBAgIBATANBgkqhkiG9w0BAQsFADA4MQswCQYDVQQGEwJJVDEO
+MAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwHhcNMTYw
+NDA1MDAwMDAwWhcNMzYwNDA0MjM1OTU5WjA4MQswCQYDVQQGEwJJVDEOMAwGA1UE
+ChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwgZ8wDQYJKoZIhvcN
+AQEBBQADgY0AMIGJAoGBANvyjZ89m39BNYtwpOW3gpSt1uHOrwo/6U0GfzS2Xdpj
+rr54zboaSfzMvLUAjtsL39sH1bJ5eqF0qgw4bVnEEfrMlAD2OoJ45K+USlAizxx6
+A9r+/Tm3PZHUEbcm+fjrF/C6005/BE3WVQcvd0eci/G0R8niPy2xxdijG10psRWT
+AgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFF6rklv/QJyKRgz7Ll6E
+2Qt6ER5lMAsGA1UdDwQEAwIF4DARBglghkgBhvhCAQEEBAMCBkAwHgYJYIZIAYb4
+QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOBgQC+B+wXsrLY
+87WtTLMa7b2L+7uJPS5VGJ0H/6PJFmc8w+MjZ1fxLYtoVLUBIczbhArjinCUS0sw
+sC+3bR5GtBGcJNOZBY7wrL1iuSRQgbzs1Sg5rPAT2H0jPaj/kj/SQxnCTKLHmXJC
+YyWmZgkkVenVbFbwBvBA5Z0Hm/9VxkT5kg==
+                                                                               </ds:X509Certificate>
+                                                               </ds:X509Data>
+                                               </ds:KeyInfo>
+                               </md:KeyDescriptor>
+                               <md:KeyDescriptor use="signing">
+                                               <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                                                               <ds:X509Data>
+                                                                               <ds:X509Certificate>MIIDGTCCAgGgAwIBAgIBATANBgkqhkiG9w0BAQsFADAxMQswCQYDVQQGEwJJVDEO
+MAwGA1UEChMFU29nZWkxEjAQBgNVBAMTCXNhbWwtc2lnbjAeFw0xOTEwMTEwODA1
+MDBaFw00OTEwMTEwODA1MDBaMDExCzAJBgNVBAYTAklUMQ4wDAYDVQQKEwVTb2dl
+aTESMBAGA1UEAxMJc2FtbC1zaWduMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA2vgeCTASdYQXZ2QGJPY8jIsHENEf4cZT7ZPJWlpgPoO++qPd8h/LylxD
+4W6bdBlj9WuXnYv5+c4WDNvNptPn1MIYYUe9cg22I+bDpxtYM1Qc7bNF2cFQQv3o
+HAfhFb0dSMZtugzmaa3Bb7ZYESAvzFzhwyZP1tzbkZ2VsXGyGkFT+TFPF4s2AbCq
+xYSQb2XQelGI5zTPBA67hIfrZKPAV2iyW9XeWDkG9wFsS0IS0v1Iwro21UwJubiE
+PXXByvcum58ZOPVnAcF0F/xF4aUshH30g3b18esvi/QqZmvDJJ+9sCYzQNCT4zZx
+CrZvvMfn7w9B+fooF5l/ITAELg1NGQIDAQABozwwOjAJBgNVHRMEAjAAMB0GA1Ud
+DgQWBBQThf3hsQJx/DFYZT8P830K9+zopzAOBgNVHQ8BAf8EBAMCBkAwDQYJKoZI
+hvcNAQELBQADggEBAHpI1c4CIKmF3qXwTj+9STFpS4aEupJ03MOQv7+ZsM7OdWn6
+0BLHSUh8BJchThCOGtgggwrVp3GPn4no3hrj77oW97IaFP/T/TUdiiipzYN+Ie+8
+3uvUfrMyKpo0+P9aJKElhPWXycerlfB0bRdCW6hOB4xnuMl3vaNVQnsTJ5qD5ADr
+QJKU0U9mjia7oOqKVE2MFKsx4DHBUr6N2LC+sJVgOqynRxco3nB0AVRfgnttaLwM
+y/6il3haTB+ahT4EENE4+Pq/iH3eOc/Akr5sZo3Ee2MFoC/aelTFM0lpOHR5p/EL
+vvaarxZW/74UfUwfCyjf1fd+WPwcLd5jbqVAJzk=
+                                                                               </ds:X509Certificate>
+                                                               </ds:X509Data>
+                                               </ds:KeyInfo>
+                               </md:KeyDescriptor>
+                                <md:SingleLogoutService Location="https://sso.cartafamiglia.gov.it/sp/SingleLogoutService" ResponseLocation="https://sso.cartafamiglia.gov.it/sp/SingleLogoutService/response" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+                               <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+                               <md:AssertionConsumerService Location="https://sso.cartafamiglia.gov.it/sp/AssertionConsumerServiceCF" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="0" isDefault="true"/>
+							   <md:AssertionConsumerService Location="https://ssotest.cartafamiglia.gov.it/sp/AssertionConsumerServiceCF" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="1"/>
+                               <md:AttributeConsumingService index="0">
+                                               <md:ServiceName xml:lang="it">Carta della famiglia</md:ServiceName>
+                                               <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+                                               <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+                                               <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+                                               <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+                               </md:AttributeConsumingService>
+							   <md:AttributeConsumingService index="99">
+												<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+												<md:RequestedAttribute FriendlyName="Codice identificativo" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+								</md:AttributeConsumingService>
+								<md:AttributeConsumingService index="100">
+												<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+												<md:RequestedAttribute FriendlyName="Codice identificativo" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Domicilio fisico" Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+												<md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+								</md:AttributeConsumingService>
+                </md:SPSSODescriptor>
+                <md:Organization>
+                               <md:OrganizationName xml:lang="it">DIPOFAM</md:OrganizationName>
+                               <md:OrganizationDisplayName xml:lang="it">DIPOFAM</md:OrganizationDisplayName>
+                               <md:OrganizationURL xml:lang="it">http://famiglia.governo.it/</md:OrganizationURL>
+                </md:Organization>      
+</md:EntityDescriptor>

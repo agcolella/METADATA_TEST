@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="TaibonAgordino" entityID="https://www.comune.taibonagordino.bl.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#TaibonAgordino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>61ygekvVa9k6ZgZT0Fr7CMREfkV3wi9Oo0WqFUhG9Tw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+O5nJs8IGSDJMyiTbPJ7WRKEkylcMqCZMAlGWnpCyaE5P2BNydtXpvHHA6Js97Gw1XlDEpydSTemR
+X50qKmdscFS2B3If+2F3LKas56jqoxCIzv+gMmzKNxXrjokH+E6T2ehk/+X9DI98aqub87sOdG9X
+7qLJl88nBLyC+kpBet7vUMIqZsBesnHFF43H3P/0bi867/G84lJhxGDPDKdyfxtqMinwFxoLxjWN
+tVafNtH7xz5GPbRPy/mh7OzMaA+o5iKkBur0RC5bbFg8EvY9Yyv/+ex+M05ZjzDfhhBx+FUwQ0z2
+BVoqJGOE+KagCW3BDVhnrUJybX6ydm+V42MakQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vOISf7LymWfi25HRmw6G0QhtslC5ScEy6qz0pEENxgQC35alFEndJS+INS7PYJthuBVIJH0b1P/I
+nNC67bOpyxMKVdZWHhD/ZMbTMVj7kw+4VuujNRNMR0D3VEG8Qjqi3ake36L1qgsSlEN2Ca8bm4MB
+hqOeKk+Xb4BxPs8gE2ujnlSJOKtb33EU3i9XOPz+l7s7vCDRZI/BQG9DoI5OwAn+NbBeK3ncTml/
+bHTE6KXN3HORi+auDVV7gKiBZDZeetPp+JvglYTLXbBp/DsiyE8yS51Modk+a+KfA/XUljqmvDJh
+uEweEi0OGAHDcc3zhtPsz/0EYxeayNnc9OuSEw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJALKFiLyHbJN1MA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUudGFpYm9uYWdvcmRpbm8uYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTIwMDgyODEzNDYzN1oXDTMwMDgyNjEzNDYzN1owRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS50YWli
+b25hZ29yZGluby5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC84hJ/svKZZ+LbkdGbDobRCG2yULlJwTLqrPSkQQ3GBALflqUU
+Sd0lL4g1Ls9gm2G4FUgkfRvU/8ic0Lrts6nLEwpV1lYeEP9kxtMxWPuTD7hW66M1E0xHQPdUQbxC
+OqLdqR7fovWqCxKUQ3YJrxubgwGGo54qT5dvgHE+zyATa6OeVIk4q1vfcRTeL1c4/P6Xuzu8INFk
+j8FAb0Ogjk7ACf41sF4redxOaX9sdMTopc3cc5GL5q4NVXuAqIFkNl560+n4m+CVhMtdsGn8OyLI
+TzJLnUyh2T5r4p8D9dSWOqa8MmG4TB4SLQ4YAcNxzfOG0+zP/QRjF5rI2dz065ITAgMBAAGjUDBO
+MB0GA1UdDgQWBBQo5ceIdQrMovlaPu5Vs5q2bbpXYjAfBgNVHSMEGDAWgBQo5ceIdQrMovlaPu5V
+s5q2bbpXYjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnyltXuKGpoE6ZaNHUu7sK
+m0EPItjnExaq59Dh1Tery+11XbK7lDJz2vvO/0Rkz0+osMBVz871gAGc4SNjoDXOtgvvq4lZEyrz
+rEsl1/4OfoQpO/mSzQhY5EUWMp9dnPqv8poE7QT3V3t56Yt/QU/BqmBYYGOjJ5LuqyC54HIt4kS9
++Le+/zaj8yepJRG1kwR6SA21M16gGWucqz4LAMEceOEndiPogiMeWAfICyd6w7pDXw+waZE9RV4S
+9f0Qfldl00f7HFxBqTeGP8o5mFDbLGrfiG47f/QbDq+A3Om15pwEjxqbUASHvQtQV1hTYS/JQ/u+
+P5RNxTaRufqc+EGZ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJALKFiLyHbJN1MA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUudGFpYm9uYWdvcmRpbm8uYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDgyODEzNDYzN1oXDTMwMDgyNjEzNDYzN1owRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS50YWlib25hZ29yZGluby5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC84hJ/svKZZ+LbkdGbDobRCG2yULlJwTLqrPSkQQ3GBALflqUUSd0lL4g1Ls9gm2G4FUgkfRvU/8ic0Lrts6nLEwpV1lYeEP9kxtMxWPuTD7hW66M1E0xHQPdUQbxCOqLdqR7fovWqCxKUQ3YJrxubgwGGo54qT5dvgHE+zyATa6OeVIk4q1vfcRTeL1c4/P6Xuzu8INFkj8FAb0Ogjk7ACf41sF4redxOaX9sdMTopc3cc5GL5q4NVXuAqIFkNl560+n4m+CVhMtdsGn8OyLITzJLnUyh2T5r4p8D9dSWOqa8MmG4TB4SLQ4YAcNxzfOG0+zP/QRjF5rI2dz065ITAgMBAAGjUDBOMB0GA1UdDgQWBBQo5ceIdQrMovlaPu5Vs5q2bbpXYjAfBgNVHSMEGDAWgBQo5ceIdQrMovlaPu5Vs5q2bbpXYjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnyltXuKGpoE6ZaNHUu7sKm0EPItjnExaq59Dh1Tery+11XbK7lDJz2vvO/0Rkz0+osMBVz871gAGc4SNjoDXOtgvvq4lZEyrzrEsl1/4OfoQpO/mSzQhY5EUWMp9dnPqv8poE7QT3V3t56Yt/QU/BqmBYYGOjJ5LuqyC54HIt4kS9+Le+/zaj8yepJRG1kwR6SA21M16gGWucqz4LAMEceOEndiPogiMeWAfICyd6w7pDXw+waZE9RV4S9f0Qfldl00f7HFxBqTeGP8o5mFDbLGrfiG47f/QbDq+A3Om15pwEjxqbUASHvQtQV1hTYS/JQ/u+P5RNxTaRufqc+EGZ</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJALKFiLyHbJN1MA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUudGFpYm9uYWdvcmRpbm8uYmwuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDgyODEzNDYzN1oXDTMwMDgyNjEzNDYzN1owRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS50YWlib25hZ29yZGluby5ibC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC84hJ/svKZZ+LbkdGbDobRCG2yULlJwTLqrPSkQQ3GBALflqUUSd0lL4g1Ls9gm2G4FUgkfRvU/8ic0Lrts6nLEwpV1lYeEP9kxtMxWPuTD7hW66M1E0xHQPdUQbxCOqLdqR7fovWqCxKUQ3YJrxubgwGGo54qT5dvgHE+zyATa6OeVIk4q1vfcRTeL1c4/P6Xuzu8INFkj8FAb0Ogjk7ACf41sF4redxOaX9sdMTopc3cc5GL5q4NVXuAqIFkNl560+n4m+CVhMtdsGn8OyLITzJLnUyh2T5r4p8D9dSWOqa8MmG4TB4SLQ4YAcNxzfOG0+zP/QRjF5rI2dz065ITAgMBAAGjUDBOMB0GA1UdDgQWBBQo5ceIdQrMovlaPu5Vs5q2bbpXYjAfBgNVHSMEGDAWgBQo5ceIdQrMovlaPu5Vs5q2bbpXYjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnyltXuKGpoE6ZaNHUu7sKm0EPItjnExaq59Dh1Tery+11XbK7lDJz2vvO/0Rkz0+osMBVz871gAGc4SNjoDXOtgvvq4lZEyrzrEsl1/4OfoQpO/mSzQhY5EUWMp9dnPqv8poE7QT3V3t56Yt/QU/BqmBYYGOjJ5LuqyC54HIt4kS9+Le+/zaj8yepJRG1kwR6SA21M16gGWucqz4LAMEceOEndiPogiMeWAfICyd6w7pDXw+waZE9RV4S9f0Qfldl00f7HFxBqTeGP8o5mFDbLGrfiG47f/QbDq+A3Om15pwEjxqbUASHvQtQV1hTYS/JQ/u+P5RNxTaRufqc+EGZ</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/taibonagordino"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/taibonagordino" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/taibonagordino" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/taibonagordino" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Taibon Agordino</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Taibon Agordino</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Taibon Agordino</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Taibon Agordino</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Taibon Agordino</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Taibon Agordino</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Taibon Agordino</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Taibon Agordino</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.taibonagordino.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.taibonagordino.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.taibonagordino.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.taibonagordino.bl.it</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

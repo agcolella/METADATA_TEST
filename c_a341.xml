@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Aprilia" entityID="https://www.comune.aprilia.lt.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Aprilia">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Fh7v3C9EOb86zO4dIeMqGrUa3vOqaKqnjIBViSe2MDU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+uKNdzrKrrLZpWFxZHMusCYlJT3YmsrUjIbcRFZh2+v6k4AdywoH3IuDExi2bdntgOYPjju5JlxLv
+y5TRlSs9C2EGgxHBGz8Lit6AzL1unYnnRTWYW83gwZ8xHQHmMCkHyHew+pMtXAeo7Re9RgTfCUMb
+0s9xgopACmQzWfL1OydrqDxk6dy1hkgaM2unGLEmKtlSOOQZyK+rlxwSqMh/+Ba6Rcm0uNIH18/C
+8fVO7IXEcZfCrOBIePkVK7ApAFaA1CbAyzX1j0AsVuBR2Qk/50J1qA9oPOGAJzWsqD8Qmqd1YyY3
+CyOLI7UxiYH2IIRw2mqoJVF5dT562WZRxsaJHg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+z6c/MB0qjZ8upMMXnPPHyqEShF9jAyWdydc6MK2QDqVealB11moYH+RaV1xYRuloGmhAGrGHyKos
+a8f4A0DVRenLIhSVnSvN17qBWU2UksLhNasdm9GdUaQ8vgaVpqcGWM70ACO8OpLmjTlumtcXo0Et
+bdnX5pZd/3IfueeGUxrt6hkL8ywRuXVs6GOs2KzINdW8VG5fAjaIYIF9Pl3HvmJ0s+wFwDptXeo8
+2zaVkJ3JkwLz8aM3j5B+sNdTplcylKEWKs93HmxXR1vlT1m2L0LyXIdpJ1KkZ9pPPRVZ8wJRsboY
+bMRs/av21n8JirVzwuS5OrgfGAlmhLK/I5/Tnw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDsDCCApigAwIBAgIJAL4IPAxHYcuAMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5j
+b211bmUuYXByaWxpYS5sdC5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIEFwcmlsaWExFTATBgNVBAQM
+DFBBOklULWNfYTM0MTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBBcHJpbGlhMB4X
+DTIwMTAyNzEwMzcxMloXDTMwMTAyNTEwMzcxMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5hcHJp
+bGlhLmx0Lml0MRowGAYDVQQKDBFDb211bmUgZGkgQXByaWxpYTEVMBMGA1UEBAwMUEE6SVQtY19h
+MzQxMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIEFwcmlsaWEwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDPpz8wHSqNny6kwxec88fKoRKEX2MDJZ3J1zowrZAOpV5qUHXW
+ahgf5FpXXFhG6WgaaEAasYfIqixrx/gDQNVF6csiFJWdK83XuoFZTZSSwuE1qx2b0Z1RpDy+BpWm
+pwZYzvQAI7w6kuaNOW6a1xejQS1t2dfmll3/ch+554ZTGu3qGQvzLBG5dWzoY6zYrMg11bxUbl8C
+NohggX0+Xce+YnSz7AXAOm1d6jzbNpWQncmTAvPxozePkH6w11OmVzKUoRYqz3cebFdHW+VPWbYv
+QvJch2knUqRn2k89FVnzAlGxuhhsxGz9q/bWfwmKtXPC5Lk6uB8YCWaEsr8jn9OfAgMBAAGjLzAt
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB
+CwUAA4IBAQCDumIejNYI183QuQiXI7BnU8eyxql5voKqGj+vKE0vDsT2CW5Z1Z/DWgrfhpWjw1nV
+Ns2olNvLi0Ypu/I3vGYOrL0pKbMkNc/VLm8QROoXBsc3HKCTo/NXIDSqVtwoR9hrS/prPfvhhKXX
+gW4gzEmiR22wi76tj/9WpEbCy4FP3g3I3WMbpBRKNcSYbDdCT9fDwPa6Oe1nZLbQXICCWAQhIGLj
+vxx8jLv3KIDqUjpJVUspubiDFlTWXYY+qvJa1F17iTnp5KAlSlGa6RbtAxfi6uqHJ+jiUYfwbsEJ
+wHXacAj989xZVRaRrrFb1AiNxFvYFDYnR0SzPM19sCAkD+0g
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJAL4IPAxHYcuAMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuYXByaWxpYS5sdC5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIEFwcmlsaWExFTATBgNVBAQMDFBBOklULWNfYTM0MTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBBcHJpbGlhMB4XDTIwMTAyNzEwMzcxMloXDTMwMTAyNTEwMzcxMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5hcHJpbGlhLmx0Lml0MRowGAYDVQQKDBFDb211bmUgZGkgQXByaWxpYTEVMBMGA1UEBAwMUEE6SVQtY19hMzQxMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIEFwcmlsaWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPpz8wHSqNny6kwxec88fKoRKEX2MDJZ3J1zowrZAOpV5qUHXWahgf5FpXXFhG6WgaaEAasYfIqixrx/gDQNVF6csiFJWdK83XuoFZTZSSwuE1qx2b0Z1RpDy+BpWmpwZYzvQAI7w6kuaNOW6a1xejQS1t2dfmll3/ch+554ZTGu3qGQvzLBG5dWzoY6zYrMg11bxUbl8CNohggX0+Xce+YnSz7AXAOm1d6jzbNpWQncmTAvPxozePkH6w11OmVzKUoRYqz3cebFdHW+VPWbYvQvJch2knUqRn2k89FVnzAlGxuhhsxGz9q/bWfwmKtXPC5Lk6uB8YCWaEsr8jn9OfAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCDumIejNYI183QuQiXI7BnU8eyxql5voKqGj+vKE0vDsT2CW5Z1Z/DWgrfhpWjw1nVNs2olNvLi0Ypu/I3vGYOrL0pKbMkNc/VLm8QROoXBsc3HKCTo/NXIDSqVtwoR9hrS/prPfvhhKXXgW4gzEmiR22wi76tj/9WpEbCy4FP3g3I3WMbpBRKNcSYbDdCT9fDwPa6Oe1nZLbQXICCWAQhIGLjvxx8jLv3KIDqUjpJVUspubiDFlTWXYY+qvJa1F17iTnp5KAlSlGa6RbtAxfi6uqHJ+jiUYfwbsEJwHXacAj989xZVRaRrrFb1AiNxFvYFDYnR0SzPM19sCAkD+0g</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJAL4IPAxHYcuAMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuYXByaWxpYS5sdC5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIEFwcmlsaWExFTATBgNVBAQMDFBBOklULWNfYTM0MTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBBcHJpbGlhMB4XDTIwMTAyNzEwMzcxMloXDTMwMTAyNTEwMzcxMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5hcHJpbGlhLmx0Lml0MRowGAYDVQQKDBFDb211bmUgZGkgQXByaWxpYTEVMBMGA1UEBAwMUEE6SVQtY19hMzQxMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIEFwcmlsaWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPpz8wHSqNny6kwxec88fKoRKEX2MDJZ3J1zowrZAOpV5qUHXWahgf5FpXXFhG6WgaaEAasYfIqixrx/gDQNVF6csiFJWdK83XuoFZTZSSwuE1qx2b0Z1RpDy+BpWmpwZYzvQAI7w6kuaNOW6a1xejQS1t2dfmll3/ch+554ZTGu3qGQvzLBG5dWzoY6zYrMg11bxUbl8CNohggX0+Xce+YnSz7AXAOm1d6jzbNpWQncmTAvPxozePkH6w11OmVzKUoRYqz3cebFdHW+VPWbYvQvJch2knUqRn2k89FVnzAlGxuhhsxGz9q/bWfwmKtXPC5Lk6uB8YCWaEsr8jn9OfAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCDumIejNYI183QuQiXI7BnU8eyxql5voKqGj+vKE0vDsT2CW5Z1Z/DWgrfhpWjw1nVNs2olNvLi0Ypu/I3vGYOrL0pKbMkNc/VLm8QROoXBsc3HKCTo/NXIDSqVtwoR9hrS/prPfvhhKXXgW4gzEmiR22wi76tj/9WpEbCy4FP3g3I3WMbpBRKNcSYbDdCT9fDwPa6Oe1nZLbQXICCWAQhIGLjvxx8jLv3KIDqUjpJVUspubiDFlTWXYY+qvJa1F17iTnp5KAlSlGa6RbtAxfi6uqHJ+jiUYfwbsEJwHXacAj989xZVRaRrrFb1AiNxFvYFDYnR0SzPM19sCAkD+0g</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/aprilia"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/aprilia" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/aprilia" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/aprilia" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Aprilia</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Aprilia</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Aprilia</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Aprilia</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Aprilia</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Aprilia</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Aprilia</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Aprilia</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.aprilia.lt.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.aprilia.lt.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.aprilia.lt.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.aprilia.lt.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_a341</spid:IPACode>
+         <spid:FiscalCode>80003450592</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>paola.dilelio@comune.aprilia.lt.it</md:EmailAddress>
+      <md:TelephoneNumber>0692018232</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

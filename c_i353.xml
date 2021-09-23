@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Santorso" entityID="https://www.comune.santorso.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Santorso">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>QlZ/uKoaGhrsnfwYZ+WQOI5kMFDdDVq++HPT6LzYOUQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sxoFzo0PTayw/85eSU/3vSsvmxwonFDM2rw/PfnMENCfEuwbUAU71inuMAnL3wJxEc2CuSF/5TIC
+QkqKJtGmyZZ3UdN+q44heJBX8bprgLzlcp7Yjk2MdoZfPI0+qvcAp2khup7jpXpOOfUPTewpBPCx
+jkCR4E3zig1t8tSXiLbWLniLhd6T6+F5XxWZqITZptC+rpECWz2VtxunbdXPTa3n4RvSr2WHGpV2
+Ymn1KGSt+OQjZR0k0pEtzuHS/2S0JN5fHfyvjrNTpxF4ds7LU3D6ngKBYrHpRhqv9O8nDnhuX4WB
+UZnMMKDKlB09Wewc0tWhXKCzx8BrwIRU/lGX3w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t8VbJ1DWxYrxBcBIHqkRXoruK7pysNw7w5eLXzVj84PcO4s7X2i75j0d7wKGzY+nduPigACLcq3Y
+K+BdJOdgchX9jCD3MHY3g8eAtJxsCnADQ4onrzR0gO2/22QPzLDwTrF2FnZ0Uqct+Ht9ZCNUS3si
+8iNrCupugwIhRj/Qz/pETs56CXzBcIwbO3zeOyJfhF08N+fsIGKt7jwb5xF3Cl6NHYXqvBLEK5QH
+RNWNv3tSoVZTcylL+d8EXF1iCierP+FkvT7talPmhOudzgb4uPLB6hlVxjZU4d0m/lX5BrsXVtGc
+VP1bS+nmAP58awxf2mrPVkyqhVWeFIEzjNRP8w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAK8SOeMx21aCMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuc2FudG9yc28udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMx
+MjA4NDYxN1oXDTI5MDMwOTA4NDYxN1owQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zYW50b3Jzby52
+aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQC3xVsnUNbFivEFwEgeqRFeiu4runKw3DvDl4tfNWPzg9w7iztfaLvmPR3vAobNj6d2
+4+KAAItyrdgr4F0k52ByFf2MIPcwdjeDx4C0nGwKcANDiievNHSA7b/bZA/MsPBOsXYWdnRSpy34
+e31kI1RLeyLyI2sK6m6DAiFGP9DP+kROznoJfMFwjBs7fN47Il+EXTw35+wgYq3uPBvnEXcKXo0d
+heq8EsQrlAdE1Y2/e1KhVlNzKUv53wRcXWIKJ6s/4WS9Pu1qU+aE653OBvi48sHqGVXGNlTh3Sb+
+VfkGuxdW0ZxU/VtL6eYA/nxrDF/aas9WTKqFVZ4UgTOM1E/zAgMBAAGjUDBOMB0GA1UdDgQWBBTQ
+FwwjbemsAjaHMR19Gps2j+f60DAfBgNVHSMEGDAWgBTQFwwjbemsAjaHMR19Gps2j+f60DAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSE8YOS1HkZwu6to5BS7NQo3wSU/r/IqWlX/6q
+4qiNBZBbxzodCMVSbIhgXO1IfSr3VM3tRF/PI5gFuHDDn8eWIaBEmn+yZh+XJIQaqrHc+XHk+jkL
+KkLhki9GCosFuTJQAAIMNr4AiCyJwiDFnTPuJnsXQkN4mHU9U5HNFabN6Jsz95l7t47rGV7U5pzv
+P50lEA1WYahzuTomcZxLzP009uXYGZwNelmPVq2DbpASROBn+p3915f+00nuo2Pl34B+VASIMECF
+NNUgn8MdGQPl4RgjB120XNN4VZpSRrQiEOxfrmGzYELuO3wkJ6s16704y9MJdMONkRBgahdXFFGE
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAK8SOeMx21aCMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuc2FudG9yc28udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMxMjA4NDYxN1oXDTI5MDMwOTA4NDYxN1owQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zYW50b3Jzby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3xVsnUNbFivEFwEgeqRFeiu4runKw3DvDl4tfNWPzg9w7iztfaLvmPR3vAobNj6d24+KAAItyrdgr4F0k52ByFf2MIPcwdjeDx4C0nGwKcANDiievNHSA7b/bZA/MsPBOsXYWdnRSpy34e31kI1RLeyLyI2sK6m6DAiFGP9DP+kROznoJfMFwjBs7fN47Il+EXTw35+wgYq3uPBvnEXcKXo0dheq8EsQrlAdE1Y2/e1KhVlNzKUv53wRcXWIKJ6s/4WS9Pu1qU+aE653OBvi48sHqGVXGNlTh3Sb+VfkGuxdW0ZxU/VtL6eYA/nxrDF/aas9WTKqFVZ4UgTOM1E/zAgMBAAGjUDBOMB0GA1UdDgQWBBTQFwwjbemsAjaHMR19Gps2j+f60DAfBgNVHSMEGDAWgBTQFwwjbemsAjaHMR19Gps2j+f60DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSE8YOS1HkZwu6to5BS7NQo3wSU/r/IqWlX/6q4qiNBZBbxzodCMVSbIhgXO1IfSr3VM3tRF/PI5gFuHDDn8eWIaBEmn+yZh+XJIQaqrHc+XHk+jkLKkLhki9GCosFuTJQAAIMNr4AiCyJwiDFnTPuJnsXQkN4mHU9U5HNFabN6Jsz95l7t47rGV7U5pzvP50lEA1WYahzuTomcZxLzP009uXYGZwNelmPVq2DbpASROBn+p3915f+00nuo2Pl34B+VASIMECFNNUgn8MdGQPl4RgjB120XNN4VZpSRrQiEOxfrmGzYELuO3wkJ6s16704y9MJdMONkRBgahdXFFGE
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAK8SOeMx21aCMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuc2FudG9yc28udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMxMjA4NDYxN1oXDTI5MDMwOTA4NDYxN1owQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zYW50b3Jzby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3xVsnUNbFivEFwEgeqRFeiu4runKw3DvDl4tfNWPzg9w7iztfaLvmPR3vAobNj6d24+KAAItyrdgr4F0k52ByFf2MIPcwdjeDx4C0nGwKcANDiievNHSA7b/bZA/MsPBOsXYWdnRSpy34e31kI1RLeyLyI2sK6m6DAiFGP9DP+kROznoJfMFwjBs7fN47Il+EXTw35+wgYq3uPBvnEXcKXo0dheq8EsQrlAdE1Y2/e1KhVlNzKUv53wRcXWIKJ6s/4WS9Pu1qU+aE653OBvi48sHqGVXGNlTh3Sb+VfkGuxdW0ZxU/VtL6eYA/nxrDF/aas9WTKqFVZ4UgTOM1E/zAgMBAAGjUDBOMB0GA1UdDgQWBBTQFwwjbemsAjaHMR19Gps2j+f60DAfBgNVHSMEGDAWgBTQFwwjbemsAjaHMR19Gps2j+f60DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSE8YOS1HkZwu6to5BS7NQo3wSU/r/IqWlX/6q4qiNBZBbxzodCMVSbIhgXO1IfSr3VM3tRF/PI5gFuHDDn8eWIaBEmn+yZh+XJIQaqrHc+XHk+jkLKkLhki9GCosFuTJQAAIMNr4AiCyJwiDFnTPuJnsXQkN4mHU9U5HNFabN6Jsz95l7t47rGV7U5pzvP50lEA1WYahzuTomcZxLzP009uXYGZwNelmPVq2DbpASROBn+p3915f+00nuo2Pl34B+VASIMECFNNUgn8MdGQPl4RgjB120XNN4VZpSRrQiEOxfrmGzYELuO3wkJ6s16704y9MJdMONkRBgahdXFFGE
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/santorso"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santorso" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santorso" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santorso" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Santorso</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Santorso</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Santorso</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Santorso</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Santorso</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Santorso</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Santorso</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Santorso</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.santorso.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.santorso.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.santorso.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.santorso.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

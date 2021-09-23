@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Paterno" entityID="https://www.comune.paterno.ct.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Paterno">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>REAR2Mjy4kkTNjVAQ7RKeY8RNDqwqlHNV+YWwvjkTN0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ur8NdNMPC8vutOYWEWNxvdSR7hCLiwOk3v36+4lIGiQ31lXsuqbBVuVECYVtOY6H+Cp0FTHLWnOU
+D+SN2vUbilSHZQy2IrSuVexFdFuLeDouqbNTBtFMrnx5BO/hYu79IRfFl9Iogw48PM3gbaiQ4SQN
+DdC9bkXh86qQh9fOGrCIZQLw935uCyTNrqdxUEQaxUSPTwpliNTOwejiDJOCoPC6corOxET/AIMl
+EgM2SDJ/SfYPZMf2P8vSeg2U+700+KmAIJVGmSYPqZPhT1SuXQuceG1/FjeqUw3PHJTsZn3C+JC9
+NkdVFez3V26b8V7sYgwlPlx890CLSoG/uOmt5g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4yvu0uuUQLflz3AXzqZMVXuv3IwJdehcHS9EfnVt/wuIUVU8udO7kU2IDEiMPgZ2V3TjOGF39/ik
+OeEb9CrqrNGFhzSVJcvVMDoSMmjZV4+H/4H/1WpWEvHryM6bjcYG9IPXMFj42TBYZs+tpqV7zRhs
+AW4wPPsUWaX0aRUiBADFx71Q3S38okKrQAWnHhUN8aWIX1htDmdNKh5uwarpLrMmpy0a9xcb6X1P
+70R97hOdl56RJa7GwqqROKVCGsnaIYMIivRdOj22O8CTgl5nSf6n+FkvLFxzE83yaNlHNtVpm8Xs
+i32whmNxqZ7Fz1MSzbETJ3GjQQyaoYHS7KROnw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJANcDBTBZbyGrMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUucGF0ZXJuby5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMTA4
+MTI0NjAzWhcNMjIwMTA3MTI0NjAzWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnBhdGVybm8uY3Qu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA4yvu0uuUQLflz3AXzqZMVXuv3IwJdehcHS9EfnVt/wuIUVU8udO7kU2IDEiMPgZ2V3Tj
+OGF39/ikOeEb9CrqrNGFhzSVJcvVMDoSMmjZV4+H/4H/1WpWEvHryM6bjcYG9IPXMFj42TBYZs+t
+pqV7zRhsAW4wPPsUWaX0aRUiBADFx71Q3S38okKrQAWnHhUN8aWIX1htDmdNKh5uwarpLrMmpy0a
+9xcb6X1P70R97hOdl56RJa7GwqqROKVCGsnaIYMIivRdOj22O8CTgl5nSf6n+FkvLFxzE83yaNlH
+NtVpm8Xsi32whmNxqZ7Fz1MSzbETJ3GjQQyaoYHS7KROnwIDAQABo1AwTjAdBgNVHQ4EFgQUd4ob
+5GjfHfs4uiDtdTGM5lAAQbEwHwYDVR0jBBgwFoAUd4ob5GjfHfs4uiDtdTGM5lAAQbEwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAllrvMheYasAam9Ztekzreck84YN8GkCYWyMrtwwf
+TEftrEtX7gH58SG4ZkHTp5DIhk9FkxLT1iMwk9LnR65SUoMXn+7vOnF5BKoFGmZ5u4hPt0wKh0SR
+dIiicYPzX8+Ge2keAR6RyhkjEBwJZjvKNxLf49JvFNSCZcInPv1Fda15ptw3Ds44DhVZ76mTRIeQ
+pE5TGM8qDAsHYt0CrH2cDLa96ozAmHvUZEunR0fojR4T62Qjtr/1C3x4kqreIFwqZuZ4mexj0lJH
+ZqwkQEAhHJiovMoSKGJb02xzYZjkRSw9PIlIrIv7tmuV0pJTrmVl1UDMlLyktEJ3aThel8ulBA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJANcDBTBZbyGrMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUucGF0ZXJuby5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMTA4MTI0NjAzWhcNMjIwMTA3MTI0NjAzWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnBhdGVybm8uY3QuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4yvu0uuUQLflz3AXzqZMVXuv3IwJdehcHS9EfnVt/wuIUVU8udO7kU2IDEiMPgZ2V3TjOGF39/ikOeEb9CrqrNGFhzSVJcvVMDoSMmjZV4+H/4H/1WpWEvHryM6bjcYG9IPXMFj42TBYZs+tpqV7zRhsAW4wPPsUWaX0aRUiBADFx71Q3S38okKrQAWnHhUN8aWIX1htDmdNKh5uwarpLrMmpy0a9xcb6X1P70R97hOdl56RJa7GwqqROKVCGsnaIYMIivRdOj22O8CTgl5nSf6n+FkvLFxzE83yaNlHNtVpm8Xsi32whmNxqZ7Fz1MSzbETJ3GjQQyaoYHS7KROnwIDAQABo1AwTjAdBgNVHQ4EFgQUd4ob5GjfHfs4uiDtdTGM5lAAQbEwHwYDVR0jBBgwFoAUd4ob5GjfHfs4uiDtdTGM5lAAQbEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAllrvMheYasAam9Ztekzreck84YN8GkCYWyMrtwwfTEftrEtX7gH58SG4ZkHTp5DIhk9FkxLT1iMwk9LnR65SUoMXn+7vOnF5BKoFGmZ5u4hPt0wKh0SRdIiicYPzX8+Ge2keAR6RyhkjEBwJZjvKNxLf49JvFNSCZcInPv1Fda15ptw3Ds44DhVZ76mTRIeQpE5TGM8qDAsHYt0CrH2cDLa96ozAmHvUZEunR0fojR4T62Qjtr/1C3x4kqreIFwqZuZ4mexj0lJHZqwkQEAhHJiovMoSKGJb02xzYZjkRSw9PIlIrIv7tmuV0pJTrmVl1UDMlLyktEJ3aThel8ulBA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/paterno"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paterno" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paterno" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Paterno</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Paterno</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Paterno</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Paterno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Paterno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Paterno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Paterno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Paterno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.paterno.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.paterno.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.paterno.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.paterno.ct.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

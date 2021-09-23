@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.caseigerola.pv.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx270cb827-9cdf-ba81-1b8f-aed181a2c917"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx270cb827-9cdf-ba81-1b8f-aed181a2c917"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>FI7nIT1lTVynQVSsL7jZLwXK+EZ8zNHD6x3s2Pc2MN0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cLx44namV/EzNdvTPXJ8XXhVvo44OMAs0TdibhTJQRNbhFFvwG3RlmWU1X2KxgkXMi/AVbqHypT5KSdBir8OSBDwqxDHaQHqxaT/rd4FdrNWWCZa7l9G/IgqQdq3bsAYYMkQS3pScFQSu83C0eFgBn3gGgKkQdTviuGlP1GPCLoGwM2ksAZ6K+ZV75sYWIE4TZZ80KlqgY8w0UOfiwfa4ODOVlglRAIUtsFBkdRWlFADyJWrsrRFB1bA+BfWSEsgk2WHGd+SGSG0NzCvFLSCn3oUhfcceeh4JNpmtr3ydSOwlyeCCiBi2ydHtAPoYuNvN2dwkOl19l3j0JVlaeoa0w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIESDCCAzCgAwIBAgIIkv7C8WoYuAAwDQYJKoZIhvcNAQELBQAwgboxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEVMBMGA1UEBwwMQ2FzZWkgR2Vyb2xhMRwwGgYDVQQKDBNDb211bmUgQ2FzZWkgR2Vyb2xhMQswCQYDVQQLDAJJVDElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXNlaWdlcm9sYS5wdi5pdDEyMDAGCSqGSIb3DQEJARYjcG9zdG1hc3RlckBjb211bmUuY2FzZWlnZXJvbGEucHYuaXQwHhcNMTgwMjAzMTMxMTU0WhcNMzgwMjAyMTMxMTU0WjCBujELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVBhdmlhMRUwEwYDVQQHDAxDYXNlaSBHZXJvbGExHDAaBgNVBAoME0NvbXVuZSBDYXNlaSBHZXJvbGExCzAJBgNVBAsMAklUMSUwIwYDVQQDDBx3d3cuY29tdW5lLmNhc2VpZ2Vyb2xhLnB2Lml0MTIwMAYJKoZIhvcNAQkBFiNwb3N0bWFzdGVyQGNvbXVuZS5jYXNlaWdlcm9sYS5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcFJu1CLg1aLxPO/vFfyEJnYnTIH/LA67Ycze41a6YAM95hPrOsZJLVQT1N9DWo3V7D6C00Kb4L5IMmGw+w9TEcBsEqGqQrrF2Ppaj0BkHKkOeuAIc8l8kUEvuChkDp2vb0380PhbKN1Tu7wyd6iP0JJY0WtXuZ8y5R/ur6AQX618aM++mx/3sC+o7RWCcouMAD2/k2Jh/oLhxpOmsUFYm3ZSqUB5FG5FX9FlS3QH+5fQQda7clMqyz4xmIoC/x9sjZOpkxe5wri1k5BGzC8XWxuva8ZD7G92i+Bulk4lcbOLwSLu0U5UvZjPl39GrohbEKjuw2djlL5afZN36tH5kCAwEAAaNQME4wHQYDVR0OBBYEFEA/kJJMoeEQuw5Gnvt3qWFduxH8MB8GA1UdIwQYMBaAFEA/kJJMoeEQuw5Gnvt3qWFduxH8MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAA/fTQdq62Gyot68+FESoGasbYPg3ujLILdv3NRkJ/aBdj1DpCpqbF6rQ2jYaMIj0SPwtVVky6Ku68e7O1bFHCznQJjcQnZGzJdi2agC2fZMVv70VF5JnLgBvQtyekkESjcB+7yNteR3Fx+d2fl6uDqHMFXoZG/K+QlslvEElMvvAPLX5tQnluQlRdetpDdsjTZEsDJlWHuChxvXofP8zt2FZ31Ge3+r7GCzCh8vrUw89qZcmz/bg8kI7JpjwTjPKwwN38536AjhtFlMOq98pLnK6ERLVWAQuR/aIk+hgGTtwEnTKVQzyPvKT7ggOrFbzSSh9mkk1yNW3xnqhgwbgec=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIESDCCAzCgAwIBAgIIkv7C8WoYuAAwDQYJKoZIhvcNAQELBQAwgboxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEVMBMGA1UEBwwMQ2FzZWkgR2Vyb2xhMRwwGgYDVQQKDBNDb211bmUgQ2FzZWkgR2Vyb2xhMQswCQYDVQQLDAJJVDElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXNlaWdlcm9sYS5wdi5pdDEyMDAGCSqGSIb3DQEJARYjcG9zdG1hc3RlckBjb211bmUuY2FzZWlnZXJvbGEucHYuaXQwHhcNMTgwMjAzMTMxMTU0WhcNMzgwMjAyMTMxMTU0WjCBujELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVBhdmlhMRUwEwYDVQQHDAxDYXNlaSBHZXJvbGExHDAaBgNVBAoME0NvbXVuZSBDYXNlaSBHZXJvbGExCzAJBgNVBAsMAklUMSUwIwYDVQQDDBx3d3cuY29tdW5lLmNhc2VpZ2Vyb2xhLnB2Lml0MTIwMAYJKoZIhvcNAQkBFiNwb3N0bWFzdGVyQGNvbXVuZS5jYXNlaWdlcm9sYS5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcFJu1CLg1aLxPO/vFfyEJnYnTIH/LA67Ycze41a6YAM95hPrOsZJLVQT1N9DWo3V7D6C00Kb4L5IMmGw+w9TEcBsEqGqQrrF2Ppaj0BkHKkOeuAIc8l8kUEvuChkDp2vb0380PhbKN1Tu7wyd6iP0JJY0WtXuZ8y5R/ur6AQX618aM++mx/3sC+o7RWCcouMAD2/k2Jh/oLhxpOmsUFYm3ZSqUB5FG5FX9FlS3QH+5fQQda7clMqyz4xmIoC/x9sjZOpkxe5wri1k5BGzC8XWxuva8ZD7G92i+Bulk4lcbOLwSLu0U5UvZjPl39GrohbEKjuw2djlL5afZN36tH5kCAwEAAaNQME4wHQYDVR0OBBYEFEA/kJJMoeEQuw5Gnvt3qWFduxH8MB8GA1UdIwQYMBaAFEA/kJJMoeEQuw5Gnvt3qWFduxH8MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAA/fTQdq62Gyot68+FESoGasbYPg3ujLILdv3NRkJ/aBdj1DpCpqbF6rQ2jYaMIj0SPwtVVky6Ku68e7O1bFHCznQJjcQnZGzJdi2agC2fZMVv70VF5JnLgBvQtyekkESjcB+7yNteR3Fx+d2fl6uDqHMFXoZG/K+QlslvEElMvvAPLX5tQnluQlRdetpDdsjTZEsDJlWHuChxvXofP8zt2FZ31Ge3+r7GCzCh8vrUw89qZcmz/bg8kI7JpjwTjPKwwN38536AjhtFlMOq98pLnK6ERLVWAQuR/aIk+hgGTtwEnTKVQzyPvKT7ggOrFbzSSh9mkk1yNW3xnqhgwbgec=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIESDCCAzCgAwIBAgIIkv7C8WoYuAAwDQYJKoZIhvcNAQELBQAwgboxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTEVMBMGA1UEBwwMQ2FzZWkgR2Vyb2xhMRwwGgYDVQQKDBNDb211bmUgQ2FzZWkgR2Vyb2xhMQswCQYDVQQLDAJJVDElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYXNlaWdlcm9sYS5wdi5pdDEyMDAGCSqGSIb3DQEJARYjcG9zdG1hc3RlckBjb211bmUuY2FzZWlnZXJvbGEucHYuaXQwHhcNMTgwMjAzMTMxMTU0WhcNMzgwMjAyMTMxMTU0WjCBujELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVBhdmlhMRUwEwYDVQQHDAxDYXNlaSBHZXJvbGExHDAaBgNVBAoME0NvbXVuZSBDYXNlaSBHZXJvbGExCzAJBgNVBAsMAklUMSUwIwYDVQQDDBx3d3cuY29tdW5lLmNhc2VpZ2Vyb2xhLnB2Lml0MTIwMAYJKoZIhvcNAQkBFiNwb3N0bWFzdGVyQGNvbXVuZS5jYXNlaWdlcm9sYS5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcFJu1CLg1aLxPO/vFfyEJnYnTIH/LA67Ycze41a6YAM95hPrOsZJLVQT1N9DWo3V7D6C00Kb4L5IMmGw+w9TEcBsEqGqQrrF2Ppaj0BkHKkOeuAIc8l8kUEvuChkDp2vb0380PhbKN1Tu7wyd6iP0JJY0WtXuZ8y5R/ur6AQX618aM++mx/3sC+o7RWCcouMAD2/k2Jh/oLhxpOmsUFYm3ZSqUB5FG5FX9FlS3QH+5fQQda7clMqyz4xmIoC/x9sjZOpkxe5wri1k5BGzC8XWxuva8ZD7G92i+Bulk4lcbOLwSLu0U5UvZjPl39GrohbEKjuw2djlL5afZN36tH5kCAwEAAaNQME4wHQYDVR0OBBYEFEA/kJJMoeEQuw5Gnvt3qWFduxH8MB8GA1UdIwQYMBaAFEA/kJJMoeEQuw5Gnvt3qWFduxH8MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAA/fTQdq62Gyot68+FESoGasbYPg3ujLILdv3NRkJ/aBdj1DpCpqbF6rQ2jYaMIj0SPwtVVky6Ku68e7O1bFHCznQJjcQnZGzJdi2agC2fZMVv70VF5JnLgBvQtyekkESjcB+7yNteR3Fx+d2fl6uDqHMFXoZG/K+QlslvEElMvvAPLX5tQnluQlRdetpDdsjTZEsDJlWHuChxvXofP8zt2FZ31Ge3+r7GCzCh8vrUw89qZcmz/bg8kI7JpjwTjPKwwN38536AjhtFlMOq98pLnK6ERLVWAQuR/aIk+hgGTtwEnTKVQzyPvKT7ggOrFbzSSh9mkk1yNW3xnqhgwbgec=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.caseigerola.pv.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.caseigerola.pv.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">webserver</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Comune Casei Gerola / Casei Gerola (Pavia)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune Casei Gerola / Casei Gerola</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune Casei Gerola / Casei Gerola</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.caseigerola.pv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.dallachiesaspinelli.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx7633837a-e1da-8a6a-e1a3-0d5fe48e137d"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx7633837a-e1da-8a6a-e1a3-0d5fe48e137d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>diZm6G3Ri5Ws3PeNn8K99QD7FNgIbEcfD8j4gFOccNk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>PfS64ohog2CkSKDM4j37G97RKhAjZHzuVuqRBvEwOzL5R+Ojh+W3JuVPm1f5NhuEub/oAOIV7lqwygSJgvZ9OBI8d3ypyL7HAzZb/RXNtNUkpwBOcJ3YZoASwuB1bC5+m/U2JHJKrY/r3BWuOsA9jl+lUxqxkGGwItsse20R2mU6h6YbcUwVYcmjZGQKi+P/khlLyj4rsQsFugybU9Rja9P7i9jQ7iXpMT/ecREZCbWq/n+/an8IHorvPO/5G7Vgfnjf5JcwmvVGJDVQX6Mp4BG8/a1XQXxhHFC2YbfrnRO5as3q923ySBY7rlyO6U/6aS/f4Ck3vPgYl4awEPBGrA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEajCCA1KgAwIBAgIIamG2fU9wzlIwDQYJKoZIhvcNAQELBQAwgcsxCzAJBgNVBAYTAklUMR0wGwYDVQQIDBRWZXJiYW5vLUN1c2lvLU9zc29sYTEPMA0GA1UEBwwGT21lZ25hMSIwIAYDVQQKDBlJSVMgRGFsbGEgQ2hpZXNhIFNwaW5lbGxpMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMScwJQYDVQQDDB53d3cuZGFsbGFjaGllc2FzcGluZWxsaS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGFZCSVMwMDQwMEJAaXN0cnV6aW9uZS5pdDAeFw0xNzA4MDEwODM2NThaFw0zNzA3MzEwODM2NThaMIHLMQswCQYDVQQGEwJJVDEdMBsGA1UECAwUVmVyYmFuby1DdXNpby1Pc3NvbGExDzANBgNVBAcMBk9tZWduYTEiMCAGA1UECgwZSUlTIERhbGxhIENoaWVzYSBTcGluZWxsaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEnMCUGA1UEAwwed3d3LmRhbGxhY2hpZXNhc3BpbmVsbGkuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhWQklTMDA0MDBCQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkqMgQqyKCB9FPHXNnc8RtNph8+K6Z4EL4XK9qmWTgBKJ3FVfPbONaShgDJS4HhgW0Qo9VM9MbR/8/a5BSNQMpVKMjqbgoUHlr+gND/TfMrqiHbjYwwIQ5ZDWnvKIEUEMFMZEEXGUvzWd6a3ZT5iI58/vvxhlIYs+S4JxM5t1Bcj7W/BwqfvSyHBSSWJPbLSTGhU8ngAT20/4zo9PdKodXws5ou0d67EqZk3gxpawwRbQA5nX92RRWeDR5uy3Y8Su5/1F2o7RKp4djyOP8GiGqtrB5Fu4n2v69i4ENabGR+sGty0sC6VsL696e6JMe9oAP0GsFF7u9YgQj/Gx4BksVAgMBAAGjUDBOMB0GA1UdDgQWBBQFVwGLHTbryGpvhyITtrBM7Lx08jAfBgNVHSMEGDAWgBQFVwGLHTbryGpvhyITtrBM7Lx08jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCkiGL3t+pt2Gn6/PJhQsL6EjE/ypPJb0PbUlX/LYHY1jPAr4rrtL2t0lHSLjBumiT5e6QdLzrq92P+LILin/CJd+WQT2w0tQhwJMlgBUJ29EZyOsL27MmN8Nf1AQA5y9bmwQdx4R3ITVsVKdsxotXVZEB2Wsu52Onx8APxCdOZj+wedJuTaWg6ELjAL9P6FNT+nL0b5HdM5K+Y5AZ1gDzekRHs+756PXTc3YNeb3gda2syaoocfRPOCcVX6oSuT/0XLvAZMAZrkgCPKYX5tojtZsXio2fDe4DLhdpNQPQIlgyEheRGNjSts3Zq0LdMZi107jp5va+AdckHh5HGJF+m</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEajCCA1KgAwIBAgIIamG2fU9wzlIwDQYJKoZIhvcNAQELBQAwgcsxCzAJBgNVBAYTAklUMR0wGwYDVQQIDBRWZXJiYW5vLUN1c2lvLU9zc29sYTEPMA0GA1UEBwwGT21lZ25hMSIwIAYDVQQKDBlJSVMgRGFsbGEgQ2hpZXNhIFNwaW5lbGxpMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMScwJQYDVQQDDB53d3cuZGFsbGFjaGllc2FzcGluZWxsaS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGFZCSVMwMDQwMEJAaXN0cnV6aW9uZS5pdDAeFw0xNzA4MDEwODM2NThaFw0zNzA3MzEwODM2NThaMIHLMQswCQYDVQQGEwJJVDEdMBsGA1UECAwUVmVyYmFuby1DdXNpby1Pc3NvbGExDzANBgNVBAcMBk9tZWduYTEiMCAGA1UECgwZSUlTIERhbGxhIENoaWVzYSBTcGluZWxsaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEnMCUGA1UEAwwed3d3LmRhbGxhY2hpZXNhc3BpbmVsbGkuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhWQklTMDA0MDBCQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkqMgQqyKCB9FPHXNnc8RtNph8+K6Z4EL4XK9qmWTgBKJ3FVfPbONaShgDJS4HhgW0Qo9VM9MbR/8/a5BSNQMpVKMjqbgoUHlr+gND/TfMrqiHbjYwwIQ5ZDWnvKIEUEMFMZEEXGUvzWd6a3ZT5iI58/vvxhlIYs+S4JxM5t1Bcj7W/BwqfvSyHBSSWJPbLSTGhU8ngAT20/4zo9PdKodXws5ou0d67EqZk3gxpawwRbQA5nX92RRWeDR5uy3Y8Su5/1F2o7RKp4djyOP8GiGqtrB5Fu4n2v69i4ENabGR+sGty0sC6VsL696e6JMe9oAP0GsFF7u9YgQj/Gx4BksVAgMBAAGjUDBOMB0GA1UdDgQWBBQFVwGLHTbryGpvhyITtrBM7Lx08jAfBgNVHSMEGDAWgBQFVwGLHTbryGpvhyITtrBM7Lx08jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCkiGL3t+pt2Gn6/PJhQsL6EjE/ypPJb0PbUlX/LYHY1jPAr4rrtL2t0lHSLjBumiT5e6QdLzrq92P+LILin/CJd+WQT2w0tQhwJMlgBUJ29EZyOsL27MmN8Nf1AQA5y9bmwQdx4R3ITVsVKdsxotXVZEB2Wsu52Onx8APxCdOZj+wedJuTaWg6ELjAL9P6FNT+nL0b5HdM5K+Y5AZ1gDzekRHs+756PXTc3YNeb3gda2syaoocfRPOCcVX6oSuT/0XLvAZMAZrkgCPKYX5tojtZsXio2fDe4DLhdpNQPQIlgyEheRGNjSts3Zq0LdMZi107jp5va+AdckHh5HGJF+m</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.dallachiesaspinelli.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.dallachiesaspinelli.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.dallachiesaspinelli.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">IIS Dalla Chiesa Spinelli - Omegna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">IIS Dalla Chiesa Spinelli - Omegna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.dallachiesaspinelli.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

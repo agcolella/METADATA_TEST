@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://praticheedilizie.comune.perugia.it/" ID="_ea8af16a603e14173df9304d5744884eff63a3012b08625fbaf079c56069cbd4"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_ea8af16a603e14173df9304d5744884eff63a3012b08625fbaf079c56069cbd4"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ujLtyhwVlg/r8+Brm4urYsEDaKQjAk4nbDmy5RUPUnU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>m49HEYDry3jBYUs5x+8OM1wlxe1HamGR/Yx0+d6pprgL39Ikv7pgCCs5JKC3D+PtSbA6jX4+rrE1Zbq9soTTs5jPzR8Ox8zFuMqqRjcvrR6cXIYz7xoPcS874UcLeDENyBuFxmf6FibjOObicvXzH/hb9fhePZyXfYcp7eTIDWiakTQRDT3ybhgO8W8XGKLLu6+99Q9UxNPEPyommcjsyucFFH7hIP5LiIjk5MWTj7wuMFG7jj/Qx3tM/+2T2lLjPswkW0QQS869UcxxFXZypzMYsJQKZVvloRKDzepPnMjTSssbTtaedTiNsJEMmgMN1ZMBAxt1IKJGfW8L1tyRTA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDwzCCAqugAwIBAgIQWFT/7yizhIpBRzwS1VnIrzANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB1BlcnVnaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBQZXJ1Z2lhMTQwMgYDVQQDEytodHRwczovL3ByYXRpY2hlZWRpbGl6aWUuY29tdW5lLnBlcnVnaWEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2c0NzgwHhcNMjAxMDA1MTQxMzMwWhcNMzAxMDAzMTQxMzMwWjCBiDELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB1BlcnVnaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBQZXJ1Z2lhMTQwMgYDVQQDEytodHRwczovL3ByYXRpY2hlZWRpbGl6aWUuY29tdW5lLnBlcnVnaWEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2c0NzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvu1YAfQUAB9h/4AuJbYkjPt65aJn6/3axOfWohxuCtoNj+GNiFLWAQlGpZhGwmrGSaZ0GHLCyCwO1mrftSv+0RkCxOII+RxlmqypmV6EozZWhwTksDLiqMfN2HxL1uBk7ZCppzyZlMvblZZbdzwutNKwYBbSbvlt3mzszg+JFQmL8/tHi0ydTj8EdgY1+s7rbyVWMxRcUAYkfE/xZ5r60TNFeCl4saDEDRnmQxO5iypKSjLmpHfNQcpH7IHg+Ox09P5xp1g5zPp+PweoDbaReTgJ1QQHpkoRpYtm6RCidJ3vkE+5bfrx3cyLtuqFxnSjkos76u9qNV8MQNocPFik/AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAH+03DIPTPGuUhVD8U1UIF5o3CRQWTCllWFBEhCtazptf11G+BxhqTjZ+QF1ft2s5quVbUOb4AD6FBqmFPpxCKQv5/hvMCdH5QyRsB3bXXhPfRGXV0ljdKLq4KA1aoNK8F60sCqD8AIVTziKJO4I5wOJORWKMgPgbBPb400vAk9DW061LD/y2T1RnQZ6CMw1LI/irdTYH2wLhlFvJG3mNcBO+c1NrC9HFgvHEuvoBfqVk6l5ElYNv+SIlzU9n2x4VPAo66mRGS+WxP8qePEgAEGoJsRxR7+6bwIkHY3QruVkogKrpxJqNPwIAPfm4Ui4I3MybJUX9jOtn1gkMVFZnTg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIQWFT/7yizhIpBRzwS1VnIrzANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB1BlcnVnaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBQZXJ1Z2lhMTQwMgYDVQQDEytodHRwczovL3ByYXRpY2hlZWRpbGl6aWUuY29tdW5lLnBlcnVnaWEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2c0NzgwHhcNMjAxMDA1MTQxMzMwWhcNMzAxMDAzMTQxMzMwWjCBiDELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB1BlcnVnaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBQZXJ1Z2lhMTQwMgYDVQQDEytodHRwczovL3ByYXRpY2hlZWRpbGl6aWUuY29tdW5lLnBlcnVnaWEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2c0NzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvu1YAfQUAB9h/4AuJbYkjPt65aJn6/3axOfWohxuCtoNj+GNiFLWAQlGpZhGwmrGSaZ0GHLCyCwO1mrftSv+0RkCxOII+RxlmqypmV6EozZWhwTksDLiqMfN2HxL1uBk7ZCppzyZlMvblZZbdzwutNKwYBbSbvlt3mzszg+JFQmL8/tHi0ydTj8EdgY1+s7rbyVWMxRcUAYkfE/xZ5r60TNFeCl4saDEDRnmQxO5iypKSjLmpHfNQcpH7IHg+Ox09P5xp1g5zPp+PweoDbaReTgJ1QQHpkoRpYtm6RCidJ3vkE+5bfrx3cyLtuqFxnSjkos76u9qNV8MQNocPFik/AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAH+03DIPTPGuUhVD8U1UIF5o3CRQWTCllWFBEhCtazptf11G+BxhqTjZ+QF1ft2s5quVbUOb4AD6FBqmFPpxCKQv5/hvMCdH5QyRsB3bXXhPfRGXV0ljdKLq4KA1aoNK8F60sCqD8AIVTziKJO4I5wOJORWKMgPgbBPb400vAk9DW061LD/y2T1RnQZ6CMw1LI/irdTYH2wLhlFvJG3mNcBO+c1NrC9HFgvHEuvoBfqVk6l5ElYNv+SIlzU9n2x4VPAo66mRGS+WxP8qePEgAEGoJsRxR7+6bwIkHY3QruVkogKrpxJqNPwIAPfm4Ui4I3MybJUX9jOtn1gkMVFZnTg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIQWFT/7yizhIpBRzwS1VnIrzANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB1BlcnVnaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBQZXJ1Z2lhMTQwMgYDVQQDEytodHRwczovL3ByYXRpY2hlZWRpbGl6aWUuY29tdW5lLnBlcnVnaWEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2c0NzgwHhcNMjAxMDA1MTQxMzMwWhcNMzAxMDAzMTQxMzMwWjCBiDELMAkGA1UEBhMCSVQxEDAOBgNVBAcTB1BlcnVnaWExGjAYBgNVBAoTEUNvbXVuZSBkaSBQZXJ1Z2lhMTQwMgYDVQQDEytodHRwczovL3ByYXRpY2hlZWRpbGl6aWUuY29tdW5lLnBlcnVnaWEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2c0NzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvu1YAfQUAB9h/4AuJbYkjPt65aJn6/3axOfWohxuCtoNj+GNiFLWAQlGpZhGwmrGSaZ0GHLCyCwO1mrftSv+0RkCxOII+RxlmqypmV6EozZWhwTksDLiqMfN2HxL1uBk7ZCppzyZlMvblZZbdzwutNKwYBbSbvlt3mzszg+JFQmL8/tHi0ydTj8EdgY1+s7rbyVWMxRcUAYkfE/xZ5r60TNFeCl4saDEDRnmQxO5iypKSjLmpHfNQcpH7IHg+Ox09P5xp1g5zPp+PweoDbaReTgJ1QQHpkoRpYtm6RCidJ3vkE+5bfrx3cyLtuqFxnSjkos76u9qNV8MQNocPFik/AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAH+03DIPTPGuUhVD8U1UIF5o3CRQWTCllWFBEhCtazptf11G+BxhqTjZ+QF1ft2s5quVbUOb4AD6FBqmFPpxCKQv5/hvMCdH5QyRsB3bXXhPfRGXV0ljdKLq4KA1aoNK8F60sCqD8AIVTziKJO4I5wOJORWKMgPgbBPb400vAk9DW061LD/y2T1RnQZ6CMw1LI/irdTYH2wLhlFvJG3mNcBO+c1NrC9HFgvHEuvoBfqVk6l5ElYNv+SIlzU9n2x4VPAo66mRGS+WxP8qePEgAEGoJsRxR7+6bwIkHY3QruVkogKrpxJqNPwIAPfm4Ui4I3MybJUX9jOtn1gkMVFZnTg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://praticheedilizie.comune.perugia.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://praticheedilizie.comune.perugia.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Perugia</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Perugia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Perugia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Perugia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Perugia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Perugia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Perugia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Perugia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://praticheedilizie.comune.perugia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://praticheedilizie.comune.perugia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://praticheedilizie.comune.perugia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://praticheedilizie.comune.perugia.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_g478</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:comune.perugia@postacert.umbria.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

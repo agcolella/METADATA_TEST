@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.castel-d-azzano.vr.it" ID="pfxbd677b8b-48fe-aed5-9874-d9797fdfc4bc"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxbd677b8b-48fe-aed5-9874-d9797fdfc4bc"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8B+Ez5r84XkTm5ZwVLTYfjaCS0XD79zLYH3btvHDHTs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>naYsywlLzYeJuqvGiB5Y8R6+sNdJZ441RUkyrm+oOhu5fvXKjFepVxnM5ZvsxKqUyqc0xDhVv0BuAuOoKcrdbN0bHN+Nsp/vqt3Ftyoh9PJ73Eh0y+oUqkG1conluLB0BVhkHncMI+rTg2KYCT+KiJDDB5j1ofvjR5ptxxeaNEX0gwY+ceY23tw5pF9idKoOteAnlAGV5Tm8LQZHmU0cmA9m1uvHPx921ZvyfT+vc6oBHLaHkXd0jhb5p2bm8J0Q2xenvqVQH5nL1CRO2l8UMBIb/71bPvt8L92MOEVQsS+WFJ6ujfH7EvO3B7CrhJfOl5PgWzcPYYca30I6WiFqog==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDqTCCApGgAwIBAgIJALbYuyiOmoLmMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzdGVsIGQnQXp6YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIGQnQXp6YW5vMQ4wDAYDVQQDDAVodHRwOjAeFw0xODAzMjIxNjM5NTBaFw0yODAzMjExNjM5NTBaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzdGVsIGQnQXp6YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIGQnQXp6YW5vMQ4wDAYDVQQDDAVodHRwOjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMs9TMD94Ve6QAuzxKaYyFokAXWpOmlwAwtSPePt3DF6Lp2JehGl2ptkeLjBF1wvVJFYM2xvpBi92LWuG26DTqhXe3r3nwydUwZuwaGil0QtfS/CDq4h1GzJ/s58qXt3dxdKiCwaq9WG7LLk77USHUKA+ooesf2BtiswCH6FyvoXP+LeBhgqquUlkjXddosXTxEaaJmTkVQlZBioTWWhbw03fT0SIY9tkJhgBubq/skGIFHMyUyUsdbyuJ+Qrw9P109H9orlzZ2/TLHe2IDzd0I++Cf497Y5eyyw3j2LNlYJVzdFZs6dXLXXlraIQjYJuU5OXjvzQPrg28XlE/oGcycCAwEAAaNQME4wHQYDVR0OBBYEFBauYp24U05kKEmq0azCQ3nKgmniMB8GA1UdIwQYMBaAFBauYp24U05kKEmq0azCQ3nKgmniMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFv6tHmEZsvlQdCvfYuh3BB9orrl8KZdYG6vmYpqtIKxWRdFLtlXZhAqYHn04qLlmIZsbnAUJj4UCbzGtMG/JLXgesHwdKanyUuOgHUEtqXvPLipxv6nn+1EG+pGhk4zhXgTYXg1Y5/tfAeWXc20foOpHDi1lgLbqmlJEjEgrotzGhhDIRkvwAiEGADLN4EUttAGNOxHbAqdEROf6ZGrR64iXUv7HIwpglRrD1dkhfzkga/Z+DreuwZXYwLInJxtA3wcwGyZ7yFYD9ufEFWmPG4bb/BkCSIcIPC4c2FhKomaj/82TlVLXt4sDXIIEwkHKHbCzAAQ+KU6GAqxJj29dm0=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJALbYuyiOmoLmMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzdGVsIGQnQXp6YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIGQnQXp6YW5vMQ4wDAYDVQQDDAVodHRwOjAeFw0xODAzMjIxNjM5NTBaFw0yODAzMjExNjM5NTBaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzdGVsIGQnQXp6YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIGQnQXp6YW5vMQ4wDAYDVQQDDAVodHRwOjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMs9TMD94Ve6QAuzxKaYyFokAXWpOmlwAwtSPePt3DF6Lp2JehGl2ptkeLjBF1wvVJFYM2xvpBi92LWuG26DTqhXe3r3nwydUwZuwaGil0QtfS/CDq4h1GzJ/s58qXt3dxdKiCwaq9WG7LLk77USHUKA+ooesf2BtiswCH6FyvoXP+LeBhgqquUlkjXddosXTxEaaJmTkVQlZBioTWWhbw03fT0SIY9tkJhgBubq/skGIFHMyUyUsdbyuJ+Qrw9P109H9orlzZ2/TLHe2IDzd0I++Cf497Y5eyyw3j2LNlYJVzdFZs6dXLXXlraIQjYJuU5OXjvzQPrg28XlE/oGcycCAwEAAaNQME4wHQYDVR0OBBYEFBauYp24U05kKEmq0azCQ3nKgmniMB8GA1UdIwQYMBaAFBauYp24U05kKEmq0azCQ3nKgmniMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFv6tHmEZsvlQdCvfYuh3BB9orrl8KZdYG6vmYpqtIKxWRdFLtlXZhAqYHn04qLlmIZsbnAUJj4UCbzGtMG/JLXgesHwdKanyUuOgHUEtqXvPLipxv6nn+1EG+pGhk4zhXgTYXg1Y5/tfAeWXc20foOpHDi1lgLbqmlJEjEgrotzGhhDIRkvwAiEGADLN4EUttAGNOxHbAqdEROf6ZGrR64iXUv7HIwpglRrD1dkhfzkga/Z+DreuwZXYwLInJxtA3wcwGyZ7yFYD9ufEFWmPG4bb/BkCSIcIPC4c2FhKomaj/82TlVLXt4sDXIIEwkHKHbCzAAQ+KU6GAqxJj29dm0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJALbYuyiOmoLmMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzdGVsIGQnQXp6YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIGQnQXp6YW5vMQ4wDAYDVQQDDAVodHRwOjAeFw0xODAzMjIxNjM5NTBaFw0yODAzMjExNjM5NTBaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzdGVsIGQnQXp6YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzdGVsIGQnQXp6YW5vMQ4wDAYDVQQDDAVodHRwOjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMs9TMD94Ve6QAuzxKaYyFokAXWpOmlwAwtSPePt3DF6Lp2JehGl2ptkeLjBF1wvVJFYM2xvpBi92LWuG26DTqhXe3r3nwydUwZuwaGil0QtfS/CDq4h1GzJ/s58qXt3dxdKiCwaq9WG7LLk77USHUKA+ooesf2BtiswCH6FyvoXP+LeBhgqquUlkjXddosXTxEaaJmTkVQlZBioTWWhbw03fT0SIY9tkJhgBubq/skGIFHMyUyUsdbyuJ+Qrw9P109H9orlzZ2/TLHe2IDzd0I++Cf497Y5eyyw3j2LNlYJVzdFZs6dXLXXlraIQjYJuU5OXjvzQPrg28XlE/oGcycCAwEAAaNQME4wHQYDVR0OBBYEFBauYp24U05kKEmq0azCQ3nKgmniMB8GA1UdIwQYMBaAFBauYp24U05kKEmq0azCQ3nKgmniMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFv6tHmEZsvlQdCvfYuh3BB9orrl8KZdYG6vmYpqtIKxWRdFLtlXZhAqYHn04qLlmIZsbnAUJj4UCbzGtMG/JLXgesHwdKanyUuOgHUEtqXvPLipxv6nn+1EG+pGhk4zhXgTYXg1Y5/tfAeWXc20foOpHDi1lgLbqmlJEjEgrotzGhhDIRkvwAiEGADLN4EUttAGNOxHbAqdEROf6ZGrR64iXUv7HIwpglRrD1dkhfzkga/Z+DreuwZXYwLInJxtA3wcwGyZ7yFYD9ufEFWmPG4bb/BkCSIcIPC4c2FhKomaj/82TlVLXt4sDXIIEwkHKHbCzAAQ+KU6GAqxJj29dm0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.castel-d-azzano.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castel-d-azzano.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castel d'Azzano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castel d'Azzano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castel-d-azzano.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

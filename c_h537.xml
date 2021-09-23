@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="RoncoBriantino" entityID="https://www.comune.roncobriantino.mb.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#RoncoBriantino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>mDrlhAF/fOO8j3yYved3doZK0GXAbJFWt1qs9eZAj3U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+byaK9M93q+4Kbja8QC2vwe4aFCYYiz48pKfGuIUymcPi/Sv9GWLdZLqjKtYYv6bDmePQPVBXWJd1
+Ii8Jf/h+lnXf65pfQvZvjad3Rl/D+J5DbGFuLOhq8pNTyh0KxGJboG93CdpVjZuYJUOD1XvieI77
+4YjwY+gcTR0yCT7fUD5jwfA3+wssbQzVX7H/J+UkIHUCtaAfFTGMZ8RgF+WWKvMKyB+yliqW9LYA
+7SiVvLokfoM3qHAhLnj9JUBe9367lcIpm0N1pw0YKsJ1DP1SIo6oT8QsgcfrDm2XzM6i232+uQyI
+AIYXw3Fv55ndXJm49BFH9ZE9HUCjg8bDQS5Zhg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sizMLttPc45gUpADBi86BgTO2z/xMMdJPcFdax9usF1LsylxN7KZAjk7hxeq3DcTZwkKx5tSA4EX
+ijDEYuXMkgXawfRpiPM7anQSdzZsqNK36JiNR/IJFX9rb+bGnFYr29j2a83PR1k7efSjPA7hVb2T
+LWKy3ieWRDJdwpefXdZDGezcCPUcxx7kiF571oJTgk9Y7itmIntkinlfD531m6ZNqn4ACUV4iWG1
+3bSCWeuJoPq65/3KGoEnBZgv6rLlDvf9xSE7QX1ZSx2Rfr79GbD+4GSpxFBhvFvKTQdPsfJqrpDI
+HiID0eorMqvGhPkcjsK/KnSwtO54yJYJBFdXFw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAJfK1Wmwki1DMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUucm9uY29icmlhbnRpbm8ubWIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE4MDUwNzEwNTE1MVoXDTI4MDUwNDEwNTE1MVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5yb25j
+b2JyaWFudGluby5tYi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCyLMwu209zjmBSkAMGLzoGBM7bP/Ewx0k9wV1rH26wXUuzKXE3
+spkCOTuHF6rcNxNnCQrHm1IDgReKMMRi5cySBdrB9GmI8ztqdBJ3Nmyo0rfomI1H8gkVf2tv5sac
+Vivb2PZrzc9HWTt59KM8DuFVvZMtYrLeJ5ZEMl3Cl59d1kMZ7NwI9RzHHuSIXnvWglOCT1juK2Yi
+e2SKeV8PnfWbpk2qfgAJRXiJYbXdtIJZ64mg+rrn/coagScFmC/qsuUO9/3FITtBfVlLHZF+vv0Z
+sP7gZKnEUGG8W8pNB0+x8mqukMgeIgPR6isyq8aE+RyOwr8qdLC07njIlgkEV1cXAgMBAAGjUDBO
+MB0GA1UdDgQWBBQBmPOKsTRUxSBa6jUBOjoFR3GJKTAfBgNVHSMEGDAWgBQBmPOKsTRUxSBa6jUB
+OjoFR3GJKTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCFq9++qjkiZPv9ADtZdXLY
+qjZc89kAdc8Gw3SsuguXnBleS0WuZX57C7gkfAFmUPmMOakg939U+PTcc0DLYoqF5GhiRd9VVVRi
+wN2XRtd9jGPm0gqye3LRH5qLk0Y2ROJFVNklLnox/QAc2VGmzOWx9UyeVhF/134tiZAHGPdpyRQa
+jgoPWbtrn58fTXMVQSZrQf/MaHGve+lTR2XIgZy4gqprD/uqm6EzGLQYg2uERtpIpJsktrn+tPy5
+H4+MZdMu+LcqCeMM2VsvJgIbYBCAUCzPU3w76MGEWn7uI1OsA41Iztb3GSnDFmpuguDzMtAHcgVJ
+2bxOQ1TlHf6t+uOj
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAJfK1Wmwki1DMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUucm9uY29icmlhbnRpbm8ubWIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUwNzEwNTE1MVoXDTI4MDUwNDEwNTE1MVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5yb25jb2JyaWFudGluby5tYi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCyLMwu209zjmBSkAMGLzoGBM7bP/Ewx0k9wV1rH26wXUuzKXE3spkCOTuHF6rcNxNnCQrHm1IDgReKMMRi5cySBdrB9GmI8ztqdBJ3Nmyo0rfomI1H8gkVf2tv5sacVivb2PZrzc9HWTt59KM8DuFVvZMtYrLeJ5ZEMl3Cl59d1kMZ7NwI9RzHHuSIXnvWglOCT1juK2Yie2SKeV8PnfWbpk2qfgAJRXiJYbXdtIJZ64mg+rrn/coagScFmC/qsuUO9/3FITtBfVlLHZF+vv0ZsP7gZKnEUGG8W8pNB0+x8mqukMgeIgPR6isyq8aE+RyOwr8qdLC07njIlgkEV1cXAgMBAAGjUDBOMB0GA1UdDgQWBBQBmPOKsTRUxSBa6jUBOjoFR3GJKTAfBgNVHSMEGDAWgBQBmPOKsTRUxSBa6jUBOjoFR3GJKTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCFq9++qjkiZPv9ADtZdXLYqjZc89kAdc8Gw3SsuguXnBleS0WuZX57C7gkfAFmUPmMOakg939U+PTcc0DLYoqF5GhiRd9VVVRiwN2XRtd9jGPm0gqye3LRH5qLk0Y2ROJFVNklLnox/QAc2VGmzOWx9UyeVhF/134tiZAHGPdpyRQajgoPWbtrn58fTXMVQSZrQf/MaHGve+lTR2XIgZy4gqprD/uqm6EzGLQYg2uERtpIpJsktrn+tPy5H4+MZdMu+LcqCeMM2VsvJgIbYBCAUCzPU3w76MGEWn7uI1OsA41Iztb3GSnDFmpuguDzMtAHcgVJ2bxOQ1TlHf6t+uOj
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/roncobriantino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/roncobriantino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/roncobriantino" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ronco Briantino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Ronco Briantino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Ronco Briantino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Ronco Briantino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ronco Briantino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ronco Briantino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Ronco Briantino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Ronco Briantino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.roncobriantino.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.roncobriantino.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.roncobriantino.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.roncobriantino.mb.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

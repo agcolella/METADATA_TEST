@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_5gxo6lan5aptkkcf5ro5rmgnf61uosud91vq9cqxsrn" entityID="https://www.amaroma.it/pub-op-full"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_5gxo6lan5aptkkcf5ro5rmgnf61uosud91vq9cqxsrn">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>89iJYHQsR27eTZ72dRsDGmSrE+xVDJmmdAi5AfENajA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QMWZEYBoYrYwO9FvlKkyOhMySu1Ru2RvnJxYz8GAZftrCUQnKng0IYaRlqCxMhlDyIBfvymMpqCb
+vvB90ZCRSQMelbGJ6D/cH/1N2r3Ih7ImcUG5Bv7WOuKeWhQ1NSMNFblxhHXtsukZlt7A/qjCyJUV
+XsvvGiDh49BjLcAfo6Cp5Ky7gH5XdzYKT1m9opCGjtda1kmpf31fBpuTr8+HHe8ciXjgB6Ev740z
+sToU0VkBpifVw9AnVvlbo1F6Rc6tNCAUUCuJioqQ7KMEaPbvnVQ6bmdo7QB2Dl68pblfQaAkwCGz
+qEC97cYLPNHwW7hTCFGwWzgSMxKIoYz9PtcmQw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nEUk9tgqjublpHDvkrI6mQKEkTAdtjXVeFwSKtMdTaE1WWRsUThuVmY9l6fBQXrXkDx5NI+FdWHI
+68II2GVsNaK19fppLTzprwragNQoEqjdbg3e5DZSSmCvAYxHl+a2LiRMGNpD266FSNfg0i9VFaYF
+2IyXtnaUVBp/CL9U1LWJuOZtYHklBuqWshFjl9wbslvDj9bdGP2d0PDeuqj/JZfC7NsWpna4O8Uf
+EmmgvF/cKFaV2f2oQNgZTlIMsqDPZK3qZiHjrQV6YOyReHYaQ14YUkbFg+LjDdY2J9kY8kqahUTc
+Dv8dZgQ60x7eUo+XReHpWZASFTnEPlR1yqmZpQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGqDCCBJCgAwIBAgIIRu9ue/hIjj8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDkzMDAwMDAw
+MFoXDTM1MDkyOTIzNTk1OVowga4xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTETMBEGA1UECgwKQU1BIFMucC5BLjErMCkGA1UEAwwiaHR0cHM6Ly93d3cuYW1hcm9tYS5p
+dC9wdWItb3AtZnVsbDElMCMGCSqGSIb3DQEJARYWYW1hcm9tYUBwZWMuYW1hcm9tYS5pdDEaMBgG
+A1UEYQwRVkFUSVQtMDU0NDU4OTEwMDQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCc
+RST22CqO5uWkcO+SsjqZAoSRMB22NdV4XBIq0x1NoTVZZGxROG5WZj2Xp8FBeteQPHk0j4V1Ycjr
+wgjYZWw1orX1+mktPOmvCtqA1CgSqN1uDd7kNlJKYK8BjEeX5rYuJEwY2kPbroVI1+DSL1UVpgXY
+jJe2dpRUGn8Iv1TUtYm45m1geSUG6payEWOX3BuyW8OP1t0Y/Z3Q8N66qP8ll8Ls2xamdrg7xR8S
+aaC8X9woVpXZ/ahA2BlOUgyyoM9krepmIeOtBXpg7JF4dhpDXhhSRsWD4uMN1jYn2RjySpqFRNwO
+/x1mBDrTHt5Sj5dF4elZkBIVOcQ+VHXKqZmlAgMBAAGjggGPMIIBizAMBgNVHRMBAf8EAjAAMB0G
+A1UdDgQWBBRwGYlDG03FseoTLIGCMylqfp+qDTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJ
+oEfXNDAOBgNVHQ8BAf8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWg
+M4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3Bggr
+BgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCBmAYD
+VR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0
+L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUa
+I0NlcnRpZmljYXRpIEFnZ3JlZ2F0b3JpIFNQIHB1YmJsaWNpMA0GCSqGSIb3DQEBDQUAA4ICAQAR
+qU++n877SaIYkarP+LdOYOjtBBbOANYS8a8oW2iwYeXhM6XQsvTXIXrgBERvA7qBAUYMEw0u6lTO
+VfDNQQ+pbjS7/ufEijbI8F6R8lvB7uMPqE/LlFuoJlljPBQiiNRQQ0kcpvu9K1wruwu0uP5ThDfd
+ANNFXnitRv6w5vd7H8iVr7xqpF6hAGb6xt1lSZHOqXYv5v+d9FOWccDXznGRRxjngT9Eaqv1D/G+
+Wlt8OcE7sWBbjj09wBGmmhI3Arsd/qxeWFu4LfkvG+J79SiJx+dde/oXfGKPBOIuJ2tOn6kAYkmE
+uMeUzSyykAPPdXfoMjcigboMGlDfXVb5S276xiK/GZaQseUymCf9DR09VDNbUSkImzfaCeGDGvQP
+nZuoIaWSeEJXBhiqaQT5uMgNcmIuniLLXR/CwIuMeu6WxFZJgndF2gI+lGMDB7RxP/RWpaXH9Ca/
+MCZEqRKHfMGmpjiwcV9nwaT2382ogCfhl8k/Cm3DIiVchXLLP8UTZ8HszUVjcogzItIbEoYrR1fE
+VlxWn5edw23b3zGOSMRmIHWP7r4GJ7wahxtqx9AS/sEq6o//usWYCCndYgkI5CjWttrw7WCoBeB9
+PO8kaSpdMLPIM5/zuyNrZC/GJSE2JrAzt5hvP0BwrbHmFGwzzzvd3N4qmDmJ/juw6qpWVY5VfA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+ <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+          
+MIIGqDCCBJCgAwIBAgIIRu9ue/hIjj8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDkzMDAwMDAwMFoX
+DTM1MDkyOTIzNTk1OVowga4xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsG
+A1UEBwwEUm9tYTETMBEGA1UECgwKQU1BIFMucC5BLjErMCkGA1UEAwwiaHR0cHM6
+Ly93d3cuYW1hcm9tYS5pdC9wdWItb3AtZnVsbDElMCMGCSqGSIb3DQEJARYWYW1h
+cm9tYUBwZWMuYW1hcm9tYS5pdDEaMBgGA1UEYQwRVkFUSVQtMDU0NDU4OTEwMDQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCcRST22CqO5uWkcO+SsjqZ
+AoSRMB22NdV4XBIq0x1NoTVZZGxROG5WZj2Xp8FBeteQPHk0j4V1YcjrwgjYZWw1
+orX1+mktPOmvCtqA1CgSqN1uDd7kNlJKYK8BjEeX5rYuJEwY2kPbroVI1+DSL1UV
+pgXYjJe2dpRUGn8Iv1TUtYm45m1geSUG6payEWOX3BuyW8OP1t0Y/Z3Q8N66qP8l
+l8Ls2xamdrg7xR8SaaC8X9woVpXZ/ahA2BlOUgyyoM9krepmIeOtBXpg7JF4dhpD
+XhhSRsWD4uMN1jYn2RjySpqFRNwO/x1mBDrTHt5Sj5dF4elZkBIVOcQ+VHXKqZml
+AgMBAAGjggGPMIIBizAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRwGYlDG03FseoT
+LIGCMylqfp+qDTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNV
+HQ8BAf8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWg
+M4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NB
+LmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9T
+QS5hZ2lkLmdvdi5pdDCBmAYDVR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIB
+FjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RD
+QV9jcHMucGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUaI0NlcnRpZmljYXRp
+IEFnZ3JlZ2F0b3JpIFNQIHB1YmJsaWNpMA0GCSqGSIb3DQEBDQUAA4ICAQARqU++
+n877SaIYkarP+LdOYOjtBBbOANYS8a8oW2iwYeXhM6XQsvTXIXrgBERvA7qBAUYM
+Ew0u6lTOVfDNQQ+pbjS7/ufEijbI8F6R8lvB7uMPqE/LlFuoJlljPBQiiNRQQ0kc
+pvu9K1wruwu0uP5ThDfdANNFXnitRv6w5vd7H8iVr7xqpF6hAGb6xt1lSZHOqXYv
+5v+d9FOWccDXznGRRxjngT9Eaqv1D/G+Wlt8OcE7sWBbjj09wBGmmhI3Arsd/qxe
+WFu4LfkvG+J79SiJx+dde/oXfGKPBOIuJ2tOn6kAYkmEuMeUzSyykAPPdXfoMjci
+gboMGlDfXVb5S276xiK/GZaQseUymCf9DR09VDNbUSkImzfaCeGDGvQPnZuoIaWS
+eEJXBhiqaQT5uMgNcmIuniLLXR/CwIuMeu6WxFZJgndF2gI+lGMDB7RxP/RWpaXH
+9Ca/MCZEqRKHfMGmpjiwcV9nwaT2382ogCfhl8k/Cm3DIiVchXLLP8UTZ8HszUVj
+cogzItIbEoYrR1fEVlxWn5edw23b3zGOSMRmIHWP7r4GJ7wahxtqx9AS/sEq6o//
+usWYCCndYgkI5CjWttrw7WCoBeB9PO8kaSpdMLPIM5/zuyNrZC/GJSE2JrAzt5hv
+P0BwrbHmFGwzzzvd3N4qmDmJ/juw6qpWVY5VfA==
+
+
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.amaroma.it/iam/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.amaroma.it/iam/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.amaroma.it/iam/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">AMA S.p.A.</md:ServiceName>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="domicileStreetAddress"/>
+      <md:RequestedAttribute Name="domicilePostalCode"/>
+      <md:RequestedAttribute Name="domicileMunicipality"/>
+      <md:RequestedAttribute Name="domicileProvince"/>
+      <md:RequestedAttribute Name="domicileNation"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">
+      AMA S.p.A.
+    </md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">
+      AMA
+    </md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">
+      https://www.amaroma.it/spid/
+    </md:OrganizationURL>
+  </md:Organization>
+
+
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:IPACode>asparm</spid:IPACode>
+      <spid:VATNumber>IT05445891004</spid:VATNumber>
+      <spid:FiscalCode>IT05445891004</spid:FiscalCode>
+      <spid:PublicServicesFullOperator/>
+    </md:Extensions>
+    <md:Company>Amaroma S.p.A</md:Company>
+    <md:EmailAddress>amaroma@pec.amaroma.it</md:EmailAddress>
+    <md:TelephoneNumber>+39065169</md:TelephoneNumber>
+  </md:ContactPerson>
+
+  
+</md:EntityDescriptor>

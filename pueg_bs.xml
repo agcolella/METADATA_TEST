@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://suap.puegnagodelgarda.bs.it/" ID="pfx0b7242dc-f8d0-88fa-2642-7c58a7784d25"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx0b7242dc-f8d0-88fa-2642-7c58a7784d25"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>nUpKrpiJghOX+fSFZLRi7hV7DG7Z79VZz4DgLOyVQT4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LllhuNitaQo5F0upXkc/fL5JrnWGyxICFk526QxhhomkNlC3SrduoWomrKlSOwmjHsUCV/F7bO5pFn2PFKUfZYTIb7w66FVv6tTYNNCDlhLIQgCMjdbWPiC+xaGrSAYNyVLXnOHXY/5UbzLgwE0zEZ679upCkOxJAdgKYncYyh/a7dWdQdA6FNL13XFUB+NQ/anx0z2NorcYVe403A/xRGLc1finXhkDNJmHnO0MK0FEu+NQcl7rNbSUqbLKjt/H/U9IXyHGfqQ1Jh/hNfBb3BCM3tl/tvwPttW0Sud97hUFUoeInDZx2nO1XuXNKNJY3uvjm+36sfkuyAmzZFpidA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEKDCCAxCgAwIBAgIJAJsBlTCt4ABLMA0GCSqGSIb3DQEBCwUAMIGoMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEbMBkGA1UEBwwSUHVlZ25hZ28gZGVsIEdhcmRhMSUwIwYDVQQKDBxDb211bmUgZGkgUHVlZ25hZ28gZGVsIEdhcmRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEkMCIGA1UEAwwbc3VhcC5wdWVnbmFnb2RlbGdhcmRhLmJzLml0MB4XDTE4MDYxMzE3NTAyNVoXDTI4MDYxMDE3NTAyNVowgagxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRswGQYDVQQHDBJQdWVnbmFnbyBkZWwgR2FyZGExJTAjBgNVBAoMHENvbXVuZSBkaSBQdWVnbmFnbyBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSQwIgYDVQQDDBtzdWFwLnB1ZWduYWdvZGVsZ2FyZGEuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2OF/XYxOxTPQyx+cIpodU87EAk5z2N9n8ZKNX9calfH45upjlgGWPBfshqASgaUpytLMMt/7iNJgsvEFLvye0h7HWKqfin3xM+/9so4ohX7UKJkuje/OjqhV4pBhleCGtkWsrEBNIwoYM/CUSqMh3s7hF61Bcl9NjfxyG2CN1K2UfLqMI1Vk4WIlfsJZasmHs77uASiiQrb8FA3+qH2DsUwMcyoWQe14EIk9+VAQgZFzF2OB/1/PwrkCvWUmXMRNjfhzC7FBBk4iFvjBP5vO4NysXNvtnX+8GGtdHpPT4C5OPn4soGudKFzgCz7J6I9mzbkWPzTRbb3zjzc/2YoyJAgMBAAGjUzBRMB0GA1UdDgQWBBQDEe/Cmv4l/kkOYxordiQ24BGQrzAfBgNVHSMEGDAWgBQDEe/Cmv4l/kkOYxordiQ24BGQrzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCqMqOwpcGkEkDYGBLMxK9XD/MuteYW8Gty9eFvVVak9nQWtSukK2a774+74AY2OYpH6IC99MGzWBt23kT7Xhd+owSSqdFYXTwISdQuXmJiUWxndaIpmm/y71RZiKzJgSfOynntVfBoCzIv4YGMF5J7WqDhqJd2BWNxpYS5LTBNM7Z02Htjs6eKjOAd5pt3t5Y6W+wXtpO+UhSuSkIeAWLpU5oBbyZScQ4xC+IOyH1791XlXHtqIJKdPf3LxxEbuUI32A8dDlysQtL8M2mBxgA4Zs3CSuuqxQh7V0fxLVcAspGIK9mwdDf88S7HPESH3wpqsDjhjsSlNl+yALsHC0HP</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIJAJsBlTCt4ABLMA0GCSqGSIb3DQEBCwUAMIGoMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEbMBkGA1UEBwwSUHVlZ25hZ28gZGVsIEdhcmRhMSUwIwYDVQQKDBxDb211bmUgZGkgUHVlZ25hZ28gZGVsIEdhcmRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEkMCIGA1UEAwwbc3VhcC5wdWVnbmFnb2RlbGdhcmRhLmJzLml0MB4XDTE4MDYxMzE3NTAyNVoXDTI4MDYxMDE3NTAyNVowgagxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRswGQYDVQQHDBJQdWVnbmFnbyBkZWwgR2FyZGExJTAjBgNVBAoMHENvbXVuZSBkaSBQdWVnbmFnbyBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSQwIgYDVQQDDBtzdWFwLnB1ZWduYWdvZGVsZ2FyZGEuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2OF/XYxOxTPQyx+cIpodU87EAk5z2N9n8ZKNX9calfH45upjlgGWPBfshqASgaUpytLMMt/7iNJgsvEFLvye0h7HWKqfin3xM+/9so4ohX7UKJkuje/OjqhV4pBhleCGtkWsrEBNIwoYM/CUSqMh3s7hF61Bcl9NjfxyG2CN1K2UfLqMI1Vk4WIlfsJZasmHs77uASiiQrb8FA3+qH2DsUwMcyoWQe14EIk9+VAQgZFzF2OB/1/PwrkCvWUmXMRNjfhzC7FBBk4iFvjBP5vO4NysXNvtnX+8GGtdHpPT4C5OPn4soGudKFzgCz7J6I9mzbkWPzTRbb3zjzc/2YoyJAgMBAAGjUzBRMB0GA1UdDgQWBBQDEe/Cmv4l/kkOYxordiQ24BGQrzAfBgNVHSMEGDAWgBQDEe/Cmv4l/kkOYxordiQ24BGQrzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCqMqOwpcGkEkDYGBLMxK9XD/MuteYW8Gty9eFvVVak9nQWtSukK2a774+74AY2OYpH6IC99MGzWBt23kT7Xhd+owSSqdFYXTwISdQuXmJiUWxndaIpmm/y71RZiKzJgSfOynntVfBoCzIv4YGMF5J7WqDhqJd2BWNxpYS5LTBNM7Z02Htjs6eKjOAd5pt3t5Y6W+wXtpO+UhSuSkIeAWLpU5oBbyZScQ4xC+IOyH1791XlXHtqIJKdPf3LxxEbuUI32A8dDlysQtL8M2mBxgA4Zs3CSuuqxQh7V0fxLVcAspGIK9mwdDf88S7HPESH3wpqsDjhjsSlNl+yALsHC0HP</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIJAJsBlTCt4ABLMA0GCSqGSIb3DQEBCwUAMIGoMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEbMBkGA1UEBwwSUHVlZ25hZ28gZGVsIEdhcmRhMSUwIwYDVQQKDBxDb211bmUgZGkgUHVlZ25hZ28gZGVsIEdhcmRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEkMCIGA1UEAwwbc3VhcC5wdWVnbmFnb2RlbGdhcmRhLmJzLml0MB4XDTE4MDYxMzE3NTAyNVoXDTI4MDYxMDE3NTAyNVowgagxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRswGQYDVQQHDBJQdWVnbmFnbyBkZWwgR2FyZGExJTAjBgNVBAoMHENvbXVuZSBkaSBQdWVnbmFnbyBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSQwIgYDVQQDDBtzdWFwLnB1ZWduYWdvZGVsZ2FyZGEuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2OF/XYxOxTPQyx+cIpodU87EAk5z2N9n8ZKNX9calfH45upjlgGWPBfshqASgaUpytLMMt/7iNJgsvEFLvye0h7HWKqfin3xM+/9so4ohX7UKJkuje/OjqhV4pBhleCGtkWsrEBNIwoYM/CUSqMh3s7hF61Bcl9NjfxyG2CN1K2UfLqMI1Vk4WIlfsJZasmHs77uASiiQrb8FA3+qH2DsUwMcyoWQe14EIk9+VAQgZFzF2OB/1/PwrkCvWUmXMRNjfhzC7FBBk4iFvjBP5vO4NysXNvtnX+8GGtdHpPT4C5OPn4soGudKFzgCz7J6I9mzbkWPzTRbb3zjzc/2YoyJAgMBAAGjUzBRMB0GA1UdDgQWBBQDEe/Cmv4l/kkOYxordiQ24BGQrzAfBgNVHSMEGDAWgBQDEe/Cmv4l/kkOYxordiQ24BGQrzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCqMqOwpcGkEkDYGBLMxK9XD/MuteYW8Gty9eFvVVak9nQWtSukK2a774+74AY2OYpH6IC99MGzWBt23kT7Xhd+owSSqdFYXTwISdQuXmJiUWxndaIpmm/y71RZiKzJgSfOynntVfBoCzIv4YGMF5J7WqDhqJd2BWNxpYS5LTBNM7Z02Htjs6eKjOAd5pt3t5Y6W+wXtpO+UhSuSkIeAWLpU5oBbyZScQ4xC+IOyH1791XlXHtqIJKdPf3LxxEbuUI32A8dDlysQtL8M2mBxgA4Zs3CSuuqxQh7V0fxLVcAspGIK9mwdDf88S7HPESH3wpqsDjhjsSlNl+yALsHC0HP</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suap.puegnagodelgarda.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/puegnagodelgarda"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suap.puegnagodelgarda.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/puegnagodelgarda" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">puegnagodelgarda</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_h086</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Puegnago del Garda</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://suap.puegnagodelgarda.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

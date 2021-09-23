@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="c24bdfc6-7636-4f41-a558-cd6ea731f43d" entityID="https://serviziweb.gruppoveritas.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#c24bdfc6-7636-4f41-a558-cd6ea731f43d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>HOwiodfvqH2wQq38odLyWHJFCYkq1VOVBc+UJ0F1jFI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VrakwMfJ+/46f3kVYpLUpymZHlGOXu8x+vPA8suXzB1kBv2J2Ep/minbUHdRPlqptuuGItWxkVO7
+ZqIBdZDTxyiX8CyxWa3PCKUawrgl2Ti6xBfPavaWM4Lb6gvXjPKW6Z6/ukGfTpki0nWbmQYIyptf
+Sv2fwubfJc6wCpMgHhUmV8PPB99om2K5d2qOG0JiK27PhmFbCJbG8jpTKxObCqoqU6sGOygKGXss
+agQbeFG5AulnT752wEtgRu5dsmzBys7Ea07QUQRmH7DJ+EmOG3mLocVGcEDY2QeikMpFZ0q1haXc
+2ElMcIrftJjDVVr6zAkUijsaSvFUtJRMmEabiw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0zo1mEBuLc5zi8t/4oDCQTm1bbJbah8oWeuvFPvhfLCfx9WVvD14csC3hyPDd5dSIarW5bF+jvwX
+4nDN2TqtC1ua3beN3H+HtLl0+mWlnhE5a1Q0MT4FukTKqNhSF8YkRYT7uu6KlypFN/PRJXoZOiG1
++3fqgQ17BaRgasXU8L2MHEXsPVmTprYdYuJwtEt1LozR37mAQQer3vbRJi9VrQ7zUigRX5o8jt0Z
+O2bsYu8JYjnXdPoCG1Y+G4vM50XcfORe6dE7bzGi0ctSIjZa47q98/+0G1vIVugK+gUC4lEvF8gg
+ZVYDZw/JvCYOspXcZITU4A0KId4ZTLoJdlH1SQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+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
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	    <md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIFBzCCA++gAwIBAgIRAOwRlS10cY6cinc5ySfn4t8wDQYJKoZIhvcNAQELBQAw
+bjELMAkGA1UEBhMCR0IxDzANBgNVBAgTBkxvbmRvbjEQMA4GA1UEBxMHQ3JveWRv
+bjEfMB0GA1UEChMWVGhlIFRydXN0aWNvIEdyb3VwIEx0ZDEbMBkGA1UEAxMSVHJ1
+c3RpY28gUlNBIERWIENBMB4XDTE4MDMwMTAwMDAwMFoXDTE5MTExNTIzNTk1OVow
+XDEhMB8GA1UECxMYRG9tYWluIENvbnRyb2wgVmFsaWRhdGVkMRowGAYDVQQLExFU
+cnVzdGljbyBXaWxkY2FyZDEbMBkGA1UEAwwSKi5ncnVwcG92ZXJpdGFzLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAryPenyPhe/lnLUbJCTzc6BnD
+CDkBDsUbo2MWMO5vP0bh1xVtrMfXmhDOykzu1VpH+oQEAdeHngkN6vNpfSqB/E5T
+ye49nOwsMFcdMTSEjyDK8/dUYajksmGyU2KZ1b5j01A6IISOMcldB9fTGyv5vaSB
+3WmzBmFbMrpNgErym8lj9w8So1QDfyon1drymRsZg9fXYla82hTd8hskcfC0ed51
+J6O2iHNSA2FwCCoA5jHb2283ZPqPap6JvCfOoag7Vh5i1K9wOUWolR1wwQU6UpKL
+VGEJaAQ4Zgcu/5YlOUBK78jMkw1IzrRkVlygruul/szi9WS1Z2PO0sBEZINnsQID
+AQABo4IBsDCCAawwHwYDVR0jBBgwFoAUXYrRIwgv4Z2BztkscCi6lx+uGDUwHQYD
+VR0OBBYEFMZzyClGM1awLgjcJ3MCoOMnGrWMMA4GA1UdDwEB/wQEAwIFoDAMBgNV
+HRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBPBgNVHSAE
+SDBGMDoGCysGAQQBsjEBAgI6MCswKQYIKwYBBQUHAgEWHWh0dHBzOi8vc2VjdXJl
+LmNvbW9kby5jb20vQ1BTMAgGBmeBDAECATA8BgNVHR8ENTAzMDGgL6AthitodHRw
+Oi8vY3JsLmNvbW9kb2NhLmNvbS9UcnVzdGljb1JTQURWQ0EuY3JsMG0GCCsGAQUF
+BwEBBGEwXzA3BggrBgEFBQcwAoYraHR0cDovL2NydC5jb21vZG9jYS5jb20vVHJ1
+c3RpY29SU0FEVkNBLmNydDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2Rv
+Y2EuY29tMC8GA1UdEQQoMCaCEiouZ3J1cHBvdmVyaXRhcy5pdIIQZ3J1cHBvdmVy
+aXRhcy5pdDANBgkqhkiG9w0BAQsFAAOCAQEANp/2xi2Gw6rRtkSa/46sO0AkMCO9
+pWIeOvPkAroiRhLyq/ik0FjdU5/HOp8CY1FhGb8nAgvLuqFNdxBouIOTfe18L49Q
+JPzeXMJ6Q458QRPyovr41V+/xh2yFWOCSWbiSRiif59qFrgqq3ai0fjViG2joD4z
+E1aj+x86kym2mP+oJTwp3WTtoBUKXtrIXe5ejqdjSSmcvzarLqraSKlbSoIwmcmO
+UDVBTbtnff+nF0Y0+wd8feyhcyV6J95QCq6I3596pRuEQwYf5LmYcW09UWrIMi+Y
+VlOdXT3GdbBhnlWXEuvu4uNFYw+FcNqYU7g6oSC871KAJjulc0XlUFF4vw==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDOzCCAiOgAwIBAgIJAL+yZnQm12mGMA0GCSqGSIb3DQEBCwUAMDQxCzAJBgNV
+BAYTAklUMRMwEQYDVQQIDApTb21lLVN0YXRlMRAwDgYDVQQKDAdWZXJpdGFzMB4X
+DTE4MTIxMjEzMDQxM1oXDTE5MTIxMjEzMDQxM1owNDELMAkGA1UEBhMCSVQxEzAR
+BgNVBAgMClNvbWUtU3RhdGUxEDAOBgNVBAoMB1Zlcml0YXMwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDO23owuWkNXeHTXwJRr1eUQmEkvcZTogSYg1i5
+v3Bnjc6VcEYEElYqK4hrq+XYRFEjnWKKyzqJHPdirerd+ovsCnQQTKOf5urLJnHg
+EiWkMKSOfn7D4N9IzV1iczEesoBpDHjqlxNaFkJ++8JxtY4sZH+YMWoVuyM7vB6C
+B7HzdKPt8BnYvPU0KvUJRmRPxi0sT5bQ1QGUDHBIwmxfllQXUVBXvHIieTxC5g3S
+9W68DHCnDE0qBJzPyeGNBac6IL9IyXaGOkb52DlQDi8TOcAmfHhJhZR35xh/q2IJ
+56mxRjjF3UxRaPuOV7ydMo5jY09szQ0ORO4tS11mmeH2xp7nAgMBAAGjUDBOMB0G
+A1UdDgQWBBTaMUu9Wn8pm8MmOwVMgy4mLfwqojAfBgNVHSMEGDAWgBTaMUu9Wn8p
+m8MmOwVMgy4mLfwqojAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBD
+L2v0eKtMOb24G1aLsXAAuR9VCrPh8ILiW0arCBRugjLutAohKNp8vycwFagVLdRO
+4gpE9hBpYt9nYqfKEpdnZHM3WzSAcrUeS6e2j4mNiWP3ndfixBwIYiDmroVZ/eCC
+EyQsz64Un0rFfHlAE8+B07LYLeTpAXox9oYE/qGE8HUE/3/a9om1LZnAOTZ72Nh7
+Yv3epfyZc0tqljyQiZ4QzJAAEkIIqOjNI3zkNsb/T9/ZPQAwEKthHkmzAwDiqjTo
+HJxh5zJZDZgpsPSRMTX2oWv0rFAnK1N6l+OphosWpTtOGJsXYoP1J1oKGt74aZlt
+ij2gRdEQVFk01xe4TFQv</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb.gruppoveritas.it/c/portal/logout"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb.gruppoveritas.it" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb-test.gruppoveritas.it" index="1"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Veritas</md:ServiceName>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Veritas test</md:ServiceName>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Veritas</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Veritas</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://gruppoveritas.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

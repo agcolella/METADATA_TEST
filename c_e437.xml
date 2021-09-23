@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.landriano.pv.it/" ID="pfxb58c460a-41f3-0eb4-96e5-400c79cb0c76"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxb58c460a-41f3-0eb4-96e5-400c79cb0c76"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wj/NeW/sIdpobDxrpa3tsbs1OZ5IaTIzC2gDzWOV0XM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>JfyggQzrS+hRkpPtXfwQG4ZqulD68L9POVwsqZ2jMk/DRz7chSCqE3czFD2dd0sBASdQl7sTl5t+kTTb5Iv7CIF73VCv2y63KPQjY4FWke05eR8V8A4uDcUPS/WbPH5mfXrH4t4UjMLFc+Cu2l0J2lF5MyVbCsFNnCcQDdT6TXMFkuMMdO+obHtamGFn3Yjcj7WKItwq2WGjoS360ONPEhUKvXIE1ISANc7GTV+E5kLPBX/HQa4wCRFAJc7LNrxRNjNZkvg7Tv1s7dyHaacAkgpgEH8FgZYVlBZdfgnVhSYetmgpbVWJu4kTcru7/3/BwERXAwb05ISayWCPogkbBA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHjCCAwagAwIBAgIJAPoQosJds9QfMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUxhbmRyaWFubzEcMBoGA1UECgwTQ29tdW5lIGRpIExhbmRyaWFubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMzAxBgNVBAMMKnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmxhbmRyaWFuby5wdi5pdDAeFw0xODEyMTQwNzU4MzJaFw0yODEyMTEwNzU4MzJaMIGjMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUxhbmRyaWFubzEcMBoGA1UECgwTQ29tdW5lIGRpIExhbmRyaWFubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMzAxBgNVBAMMKnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmxhbmRyaWFuby5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrhHtk1CFhN42LU0CMCXKz0JnqB3fk/5O8lCTGJyk5axOrp6rIRmsX9IcnrGPrfwGlb9t9ozGrTkDc51AwwcX7/EJLFFQ29DbN6JrGs3Pg6NYmcsNlmqOsXQduJJg5q/QoNkHtnx4DwU+DCYg3tEDMqypKVPdYzcQEBsdscryGHLGfAVOfBSzLbSq6olI5MYXVOTkQB02THQltjy45VSlL3TI2DAXYzygIdlTs3jYFgHBYO84lFTkIWxCtUXAaDS1vNti4McovXX6nSMHl1I2t9bQKPHwOK+40Og17phCLUxUm0/1lTOyRM1e0ojITVbyccQpjAQ8QfcgjA/MmMLNkCAwEAAaNTMFEwHQYDVR0OBBYEFNjNE5MqNZdHREW4t+RDOp6+uSgKMB8GA1UdIwQYMBaAFNjNE5MqNZdHREW4t+RDOp6+uSgKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABX5Ucu7Zx3Ee1e56dd7CkArLTI9YwRiXcNs4c3aqPGvvP0P+R60+A/JouxKBJnvuFFcDrLcKu6zhcPasofo/7GB1l3asXq6JgPg5DCoxNuEMn4oWbGH4krU+nUYLWxkEowdimrrJp2lrInxvw2ZU63iWUSxFw0jj5ncCO3R0zbLzEoRj558R6C5rd0lDp4ePgf+8Xdf6PVG4vSJYmDi4bmiqF438BMU2R1KNGd9ff2ySx7Iv/9Zvtp1OdHK1qOOjnRGeseSP6B98tvOxn3+YHDn4VStFg4f2C0MiFqw2+0NkfE8yJ4d/GTtb8YrkY0Zm3xG6XROKN1jyWR4vDo0XXc=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHjCCAwagAwIBAgIJAPoQosJds9QfMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUxhbmRyaWFubzEcMBoGA1UECgwTQ29tdW5lIGRpIExhbmRyaWFubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMzAxBgNVBAMMKnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmxhbmRyaWFuby5wdi5pdDAeFw0xODEyMTQwNzU4MzJaFw0yODEyMTEwNzU4MzJaMIGjMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUxhbmRyaWFubzEcMBoGA1UECgwTQ29tdW5lIGRpIExhbmRyaWFubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMzAxBgNVBAMMKnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmxhbmRyaWFuby5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrhHtk1CFhN42LU0CMCXKz0JnqB3fk/5O8lCTGJyk5axOrp6rIRmsX9IcnrGPrfwGlb9t9ozGrTkDc51AwwcX7/EJLFFQ29DbN6JrGs3Pg6NYmcsNlmqOsXQduJJg5q/QoNkHtnx4DwU+DCYg3tEDMqypKVPdYzcQEBsdscryGHLGfAVOfBSzLbSq6olI5MYXVOTkQB02THQltjy45VSlL3TI2DAXYzygIdlTs3jYFgHBYO84lFTkIWxCtUXAaDS1vNti4McovXX6nSMHl1I2t9bQKPHwOK+40Og17phCLUxUm0/1lTOyRM1e0ojITVbyccQpjAQ8QfcgjA/MmMLNkCAwEAAaNTMFEwHQYDVR0OBBYEFNjNE5MqNZdHREW4t+RDOp6+uSgKMB8GA1UdIwQYMBaAFNjNE5MqNZdHREW4t+RDOp6+uSgKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABX5Ucu7Zx3Ee1e56dd7CkArLTI9YwRiXcNs4c3aqPGvvP0P+R60+A/JouxKBJnvuFFcDrLcKu6zhcPasofo/7GB1l3asXq6JgPg5DCoxNuEMn4oWbGH4krU+nUYLWxkEowdimrrJp2lrInxvw2ZU63iWUSxFw0jj5ncCO3R0zbLzEoRj558R6C5rd0lDp4ePgf+8Xdf6PVG4vSJYmDi4bmiqF438BMU2R1KNGd9ff2ySx7Iv/9Zvtp1OdHK1qOOjnRGeseSP6B98tvOxn3+YHDn4VStFg4f2C0MiFqw2+0NkfE8yJ4d/GTtb8YrkY0Zm3xG6XROKN1jyWR4vDo0XXc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHjCCAwagAwIBAgIJAPoQosJds9QfMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUxhbmRyaWFubzEcMBoGA1UECgwTQ29tdW5lIGRpIExhbmRyaWFubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMzAxBgNVBAMMKnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmxhbmRyaWFuby5wdi5pdDAeFw0xODEyMTQwNzU4MzJaFw0yODEyMTEwNzU4MzJaMIGjMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUxhbmRyaWFubzEcMBoGA1UECgwTQ29tdW5lIGRpIExhbmRyaWFubzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMzAxBgNVBAMMKnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmxhbmRyaWFuby5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALrhHtk1CFhN42LU0CMCXKz0JnqB3fk/5O8lCTGJyk5axOrp6rIRmsX9IcnrGPrfwGlb9t9ozGrTkDc51AwwcX7/EJLFFQ29DbN6JrGs3Pg6NYmcsNlmqOsXQduJJg5q/QoNkHtnx4DwU+DCYg3tEDMqypKVPdYzcQEBsdscryGHLGfAVOfBSzLbSq6olI5MYXVOTkQB02THQltjy45VSlL3TI2DAXYzygIdlTs3jYFgHBYO84lFTkIWxCtUXAaDS1vNti4McovXX6nSMHl1I2t9bQKPHwOK+40Og17phCLUxUm0/1lTOyRM1e0ojITVbyccQpjAQ8QfcgjA/MmMLNkCAwEAAaNTMFEwHQYDVR0OBBYEFNjNE5MqNZdHREW4t+RDOp6+uSgKMB8GA1UdIwQYMBaAFNjNE5MqNZdHREW4t+RDOp6+uSgKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABX5Ucu7Zx3Ee1e56dd7CkArLTI9YwRiXcNs4c3aqPGvvP0P+R60+A/JouxKBJnvuFFcDrLcKu6zhcPasofo/7GB1l3asXq6JgPg5DCoxNuEMn4oWbGH4krU+nUYLWxkEowdimrrJp2lrInxvw2ZU63iWUSxFw0jj5ncCO3R0zbLzEoRj558R6C5rd0lDp4ePgf+8Xdf6PVG4vSJYmDi4bmiqF438BMU2R1KNGd9ff2ySx7Iv/9Zvtp1OdHK1qOOjnRGeseSP6B98tvOxn3+YHDn4VStFg4f2C0MiFqw2+0NkfE8yJ4d/GTtb8YrkY0Zm3xG6XROKN1jyWR4vDo0XXc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.landriano.pv.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.landriano.pv.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_e437</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_e437</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Landriano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Landriano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.landriano.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.landriano.pv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

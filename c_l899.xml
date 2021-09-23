@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizionline.comune.vigonovo.ve.it" ID="pfxfaab8f6f-4dc4-48dd-692f-a2d002406ea1"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxfaab8f6f-4dc4-48dd-692f-a2d002406ea1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>xfOi0OrYl090j3Wk7LPH+P/mnMAaoGyinj2emqjpwp8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ewna7VTnqM6i+3ks4EU2fVzO7gn2SrL74ZcuCtypudJjo/Jxox+xyF78k3xhDn1CoYcR50dMPjyTDqYjzObxLNO+pYkOQo5sfDHjoFGs/yIHUuC+ExT6D0/4w1LoXslFrxMGSzIbtVedH4NcnIiN2RkDfmDH924AGmGLM1x2bC4h64kFHdFYqTURSJI33aC8NxRw9+zCN3rIXuagTbr+cft98swBjZrEDdZydCOJLUMHdrOu1Dl94kz8MNfGbukCB+afqdwmj3rtkwHfsTPFsqFcYaDYwAed9/FFAK9e4pJwlPhHylAcXc93rJxuvCcK1iHyut5AoN8TbWpSPJneRw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDyTCCArGgAwIBAgIJALlw5VXqBkJXMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVmlnb25vdm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBWaWdvbm92bzEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUudmlnb25vdm8udmUuaXQwHhcNMTgwNDI2MTAzNjE4WhcNMjgwNDI1MTAzNjE4WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFZpZ29ub3ZvMRswGQYDVQQKDBJDb211bmUgZGkgVmlnb25vdm8xLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLnZpZ29ub3ZvLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApnq3IwIVM+f4Q786IObqooSt8AoyWsL9ujC+WGpE0FQEDzM9MkQn2TJeXC200Mftx74bjqktev3C25IBw5A+4XnsaQAShOVGhgZb01ze9oF8vFgYf+1bAyd9rLGZuFfJCIXSUyqGM7oQqyNxdhiODNeg0mAy08ZxNMBbMEdf20rf0Dn2Wdihet3D3gPeX7UxhIiqlCKZx09mWXCBLhylTUMwbnORiL8eIomtHnoSnFz5ep9UdtW0oUGfNDSOLE/d4ujsM42z0PqFg+anFF5JfMzkQN+BVmyVjzVGUxba2Krd+Q3gM3yNZfubmS5ap9f4KeBZmeb9iD+kYWQIcVTckQIDAQABo1AwTjAdBgNVHQ4EFgQUGp+vZX1U2FWb6h6EZryDxpdZnBUwHwYDVR0jBBgwFoAUGp+vZX1U2FWb6h6EZryDxpdZnBUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMQrsnJrzGalEOLiHxO4Xq1XXdBhjsnUQauGIhnhp96QzV6Dxf+JAXFyKKU+mmCj8dniFltwuTAHbVdljC0kgvVblyII9jTc+I6ap2Da1yMCeMeSIhmJPyGr7AveZjTQGMtdg3joy5PnZTceFCNJAm4VChvdyJmIws0+NjtenqqaXNPqge2ZaPBpObSdYwfapD+9lh6aDEkjgc+ytRW9P7Shqr3FLuoa2RnaYVx/48V8zFFNQVYg7t4JWPNgLSK2X3LAJa+MuqSXeAFWtp32869stvlTZDqBzkKQbNDsrP7ncR19bQwnghY12d7ZIxHZ8yn8ILIfDT4jc70JoMlPx/Q==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJALlw5VXqBkJXMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVmlnb25vdm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBWaWdvbm92bzEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUudmlnb25vdm8udmUuaXQwHhcNMTgwNDI2MTAzNjE4WhcNMjgwNDI1MTAzNjE4WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFZpZ29ub3ZvMRswGQYDVQQKDBJDb211bmUgZGkgVmlnb25vdm8xLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLnZpZ29ub3ZvLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApnq3IwIVM+f4Q786IObqooSt8AoyWsL9ujC+WGpE0FQEDzM9MkQn2TJeXC200Mftx74bjqktev3C25IBw5A+4XnsaQAShOVGhgZb01ze9oF8vFgYf+1bAyd9rLGZuFfJCIXSUyqGM7oQqyNxdhiODNeg0mAy08ZxNMBbMEdf20rf0Dn2Wdihet3D3gPeX7UxhIiqlCKZx09mWXCBLhylTUMwbnORiL8eIomtHnoSnFz5ep9UdtW0oUGfNDSOLE/d4ujsM42z0PqFg+anFF5JfMzkQN+BVmyVjzVGUxba2Krd+Q3gM3yNZfubmS5ap9f4KeBZmeb9iD+kYWQIcVTckQIDAQABo1AwTjAdBgNVHQ4EFgQUGp+vZX1U2FWb6h6EZryDxpdZnBUwHwYDVR0jBBgwFoAUGp+vZX1U2FWb6h6EZryDxpdZnBUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMQrsnJrzGalEOLiHxO4Xq1XXdBhjsnUQauGIhnhp96QzV6Dxf+JAXFyKKU+mmCj8dniFltwuTAHbVdljC0kgvVblyII9jTc+I6ap2Da1yMCeMeSIhmJPyGr7AveZjTQGMtdg3joy5PnZTceFCNJAm4VChvdyJmIws0+NjtenqqaXNPqge2ZaPBpObSdYwfapD+9lh6aDEkjgc+ytRW9P7Shqr3FLuoa2RnaYVx/48V8zFFNQVYg7t4JWPNgLSK2X3LAJa+MuqSXeAFWtp32869stvlTZDqBzkKQbNDsrP7ncR19bQwnghY12d7ZIxHZ8yn8ILIfDT4jc70JoMlPx/Q==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJALlw5VXqBkJXMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVmlnb25vdm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBWaWdvbm92bzEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUudmlnb25vdm8udmUuaXQwHhcNMTgwNDI2MTAzNjE4WhcNMjgwNDI1MTAzNjE4WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFZpZ29ub3ZvMRswGQYDVQQKDBJDb211bmUgZGkgVmlnb25vdm8xLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLnZpZ29ub3ZvLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApnq3IwIVM+f4Q786IObqooSt8AoyWsL9ujC+WGpE0FQEDzM9MkQn2TJeXC200Mftx74bjqktev3C25IBw5A+4XnsaQAShOVGhgZb01ze9oF8vFgYf+1bAyd9rLGZuFfJCIXSUyqGM7oQqyNxdhiODNeg0mAy08ZxNMBbMEdf20rf0Dn2Wdihet3D3gPeX7UxhIiqlCKZx09mWXCBLhylTUMwbnORiL8eIomtHnoSnFz5ep9UdtW0oUGfNDSOLE/d4ujsM42z0PqFg+anFF5JfMzkQN+BVmyVjzVGUxba2Krd+Q3gM3yNZfubmS5ap9f4KeBZmeb9iD+kYWQIcVTckQIDAQABo1AwTjAdBgNVHQ4EFgQUGp+vZX1U2FWb6h6EZryDxpdZnBUwHwYDVR0jBBgwFoAUGp+vZX1U2FWb6h6EZryDxpdZnBUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMQrsnJrzGalEOLiHxO4Xq1XXdBhjsnUQauGIhnhp96QzV6Dxf+JAXFyKKU+mmCj8dniFltwuTAHbVdljC0kgvVblyII9jTc+I6ap2Da1yMCeMeSIhmJPyGr7AveZjTQGMtdg3joy5PnZTceFCNJAm4VChvdyJmIws0+NjtenqqaXNPqge2ZaPBpObSdYwfapD+9lh6aDEkjgc+ytRW9P7Shqr3FLuoa2RnaYVx/48V8zFFNQVYg7t4JWPNgLSK2X3LAJa+MuqSXeAFWtp32869stvlTZDqBzkKQbNDsrP7ncR19bQwnghY12d7ZIxHZ8yn8ILIfDT4jc70JoMlPx/Q==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.vigonovo.ve.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.vigonovo.ve.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vigonovo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vigonovo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.vigonovo.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

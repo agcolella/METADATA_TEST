@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rottofreno" entityID="https://www.comune.rottofreno.pc.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rottofreno">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7ARwS52cbtGnYH2Zofuzr24BdSxvHC7Ym0UYAQijl8s=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qama9YjVxHHiLtLQTl2O1mpyQc7BrhoEFY61Hm8eXapC1ig2i0yM/enpgpwlY13bR41ae5QLgdF2
+ZLpUggoqVna1Tz3hrlWESzAUZzjnVdXNWDJyhuNIFxEepvpwn6CUWI9MkdH5TtNvW9aTCHP5Ynes
+AJhyXkIMOoFL3BiCeN9XyLsSsCfPb5Wvlm20dBkYJdOB3Q4+9RhysLTyK4SBjbuGcmU+hd7Mrni+
+TnfDq+CNdmEiBKdJHSi4CNOB0aSTg2zmi/z5yVIl54W/Z0UzYAB08blblH8QTB03Du1aWwZSnm9p
+3Qzih8EJcHDelXK0CbAkzHrP/Ie/mxCCdyJc1Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6IrPyGiCSa+UvxbKjsOjoB1BpXFvLJNyhKKARDBcxpgIocAzZlHZx114gu/rShFgCuQhOfozAmIe
+Y/3U+BGXSzXHzyUJTgRG0yMYv1HkBxVIsPSev40V31cVppHQKmv5gTPLxERs42TMnL1QkoC7Z+ba
+m1X+7fcg7iuq+eHYdieoIdUd0i8bYagfxxCnGXM5S0dz4lVGLss6pQo0QfCWfc9ElCycK6VdLYrl
+xfBjKtaf6DKIC2suupn6jt/YgJ1eEx9/syPHhCiFC+40aPFlg2HZtUFfFTEm+O0aBhbFu83dFBa5
+IZeBuQ6+xP2Os7mluhz9YieuXTmvGoHMfv34dw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVzCCAj+gAwIBAgIJAPAMNMoViAUsMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5j
+b211bmUucm90dG9mcmVuby5wYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkx
+MTEyMDg1MDUwWhcNMjkxMTA5MDg1MDUwWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnJvdHRvZnJl
+bm8ucGMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA6IrPyGiCSa+UvxbKjsOjoB1BpXFvLJNyhKKARDBcxpgIocAzZlHZx114gu/r
+ShFgCuQhOfozAmIeY/3U+BGXSzXHzyUJTgRG0yMYv1HkBxVIsPSev40V31cVppHQKmv5gTPLxERs
+42TMnL1QkoC7Z+bam1X+7fcg7iuq+eHYdieoIdUd0i8bYagfxxCnGXM5S0dz4lVGLss6pQo0QfCW
+fc9ElCycK6VdLYrlxfBjKtaf6DKIC2suupn6jt/YgJ1eEx9/syPHhCiFC+40aPFlg2HZtUFfFTEm
++O0aBhbFu83dFBa5IZeBuQ6+xP2Os7mluhz9YieuXTmvGoHMfv34dwIDAQABo1AwTjAdBgNVHQ4E
+FgQUG6mZWfnwBxU8GOjn7tBsWNg3xsYwHwYDVR0jBBgwFoAUG6mZWfnwBxU8GOjn7tBsWNg3xsYw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA4FuvkCLThqnD2aPwCMYVAxaaY6DGBJPw
+bSwLAx9Tmvg/5tTCg8EjHwuNZxQhFisAtfjZ2LSFW7Nq65F/3SqI+sybeHDReRdcHYshpasX18KH
+nliWgMhNl5becZTy85zA+QpDrRuPBUeLLkloN4uwbPAu6b60uHRqB8jHi1+xY97sQ8D1rfO8RPXt
+XPWKwJghVrcDyA3CjB3AAU/HhuL6QLCQ+ek32QTuqAsM0lFAw0CtC+TWXZSMElZseuOddKoi5QSJ
+xBP/7VWgxp5LvWRYxPXGMjMzMkjpiafvM3IvjLAKqV8vwBIV8/EI921rdDBKmeX5ASrs/DIS2qXQ
+rHiLXA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAPAMNMoViAUsMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUucm90dG9mcmVuby5wYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMTEyMDg1MDUwWhcNMjkxMTA5MDg1MDUwWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnJvdHRvZnJlbm8ucGMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6IrPyGiCSa+UvxbKjsOjoB1BpXFvLJNyhKKARDBcxpgIocAzZlHZx114gu/rShFgCuQhOfozAmIeY/3U+BGXSzXHzyUJTgRG0yMYv1HkBxVIsPSev40V31cVppHQKmv5gTPLxERs42TMnL1QkoC7Z+bam1X+7fcg7iuq+eHYdieoIdUd0i8bYagfxxCnGXM5S0dz4lVGLss6pQo0QfCWfc9ElCycK6VdLYrlxfBjKtaf6DKIC2suupn6jt/YgJ1eEx9/syPHhCiFC+40aPFlg2HZtUFfFTEm+O0aBhbFu83dFBa5IZeBuQ6+xP2Os7mluhz9YieuXTmvGoHMfv34dwIDAQABo1AwTjAdBgNVHQ4EFgQUG6mZWfnwBxU8GOjn7tBsWNg3xsYwHwYDVR0jBBgwFoAUG6mZWfnwBxU8GOjn7tBsWNg3xsYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA4FuvkCLThqnD2aPwCMYVAxaaY6DGBJPwbSwLAx9Tmvg/5tTCg8EjHwuNZxQhFisAtfjZ2LSFW7Nq65F/3SqI+sybeHDReRdcHYshpasX18KHnliWgMhNl5becZTy85zA+QpDrRuPBUeLLkloN4uwbPAu6b60uHRqB8jHi1+xY97sQ8D1rfO8RPXtXPWKwJghVrcDyA3CjB3AAU/HhuL6QLCQ+ek32QTuqAsM0lFAw0CtC+TWXZSMElZseuOddKoi5QSJxBP/7VWgxp5LvWRYxPXGMjMzMkjpiafvM3IvjLAKqV8vwBIV8/EI921rdDBKmeX5ASrs/DIS2qXQrHiLXA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAPAMNMoViAUsMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUucm90dG9mcmVuby5wYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMTEyMDg1MDUwWhcNMjkxMTA5MDg1MDUwWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLnJvdHRvZnJlbm8ucGMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6IrPyGiCSa+UvxbKjsOjoB1BpXFvLJNyhKKARDBcxpgIocAzZlHZx114gu/rShFgCuQhOfozAmIeY/3U+BGXSzXHzyUJTgRG0yMYv1HkBxVIsPSev40V31cVppHQKmv5gTPLxERs42TMnL1QkoC7Z+bam1X+7fcg7iuq+eHYdieoIdUd0i8bYagfxxCnGXM5S0dz4lVGLss6pQo0QfCWfc9ElCycK6VdLYrlxfBjKtaf6DKIC2suupn6jt/YgJ1eEx9/syPHhCiFC+40aPFlg2HZtUFfFTEm+O0aBhbFu83dFBa5IZeBuQ6+xP2Os7mluhz9YieuXTmvGoHMfv34dwIDAQABo1AwTjAdBgNVHQ4EFgQUG6mZWfnwBxU8GOjn7tBsWNg3xsYwHwYDVR0jBBgwFoAUG6mZWfnwBxU8GOjn7tBsWNg3xsYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA4FuvkCLThqnD2aPwCMYVAxaaY6DGBJPwbSwLAx9Tmvg/5tTCg8EjHwuNZxQhFisAtfjZ2LSFW7Nq65F/3SqI+sybeHDReRdcHYshpasX18KHnliWgMhNl5becZTy85zA+QpDrRuPBUeLLkloN4uwbPAu6b60uHRqB8jHi1+xY97sQ8D1rfO8RPXtXPWKwJghVrcDyA3CjB3AAU/HhuL6QLCQ+ek32QTuqAsM0lFAw0CtC+TWXZSMElZseuOddKoi5QSJxBP/7VWgxp5LvWRYxPXGMjMzMkjpiafvM3IvjLAKqV8vwBIV8/EI921rdDBKmeX5ASrs/DIS2qXQrHiLXA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rottofreno"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rottofreno" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rottofreno" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rottofreno" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rottofreno</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rottofreno</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rottofreno</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rottofreno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rottofreno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rottofreno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rottofreno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rottofreno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rottofreno.pc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rottofreno.pc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rottofreno.pc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rottofreno.pc.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

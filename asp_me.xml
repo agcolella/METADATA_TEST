@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://www.asp.messina.it" ID="pfxb4644abf-7e4b-b680-201a-6f2553f32622"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxb4644abf-7e4b-b680-201a-6f2553f32622"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gzLrS57su/dsdBCBFQFTriBHmUueFDas7kIf4Ph1u04=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>G7GCmuzMtIGEHJSYI0KE8wZ7llXdeUkooOn3h3avZGtCQoHjmeYzlzbfQWOCeHJqFW70JWTe1ulpXPgvzCh3Z3peDOWkBoHaGSDA6UqGYOJng3/T+Wr3Gl6BCBpYISJKvIhCEf8FN89W0xcgCRfENzj6eH3GlSDUFClf+R3ILhuENUSDUsJeNsfaiYN7STjcAvDE05WRs2bamJfl3EQoorFZv6X0moGUbuP8uUJBsDkGUPVc6ZWIW0dIH0THl79GSmDdd0H0YBIMZPQC/o4X3h2ZpnKa3bPn9ArGeAyJwNfbUaNkFUwc0B5vFo3yvHc3X8q+FStMIpwo/RR5qikXrzh/fgDUJD4aeg2+lIsGXxTPVwt43jQpFGx6D6NBS3N5rC6KNDmeu64UKa3r7897rxsWCFs9n083kHPsoHLEMx1DwfZnV4Dacba3wl8JjIItNZEQ5kD3D9q2FhL6/TeWkUWRt41WmT9uGmiG8BW1lFvdB95Zz04I9+mxOkgPVP4U</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECDCCAnCgAwIBAgIJAMrFAb+NmxAgMA0GCSqGSIb3DQEBCwUAMBkxFzAVBgNVBAMTDmFzcC5tZXNzaW5hLml0MB4XDTE4MDUwODEyNTkxNVoXDTM4MDUwMzEyNTkxNVowGTEXMBUGA1UEAxMOYXNwLm1lc3NpbmEuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDQJ0/U7rJouV1IvMWHENUOtSFdYDjcDMYUsV5E87FYARPWs7NC68c0MAZOf03/X9fIldnCFfLbVOvzktPcwOBFqf1LqRD17gtD1bsoHyAxzEHtxupCrXl+MbX+PaNppGRsUrSXv/JfJhHh/PnlQZQsvFIbsGlFNAlmXXZlc9mnJVctVuSVKs9wzKV1RWeqmPcV+C4B3/viTxYXUBJSHioPZCEqvwgea+4J3Ji0Mj2nYQx6WC84y6dIbwLdquz4N1cPsSOGeEWX86P24rogU3/HzCfce7dI/QS11qlL/+inldMOVEJ66HqTDJLjAKwqWMYr6FRllAm4UmvyZa0h5Xo5L+GKPfg2QBR34vZGU6M+EtW3gIK7ZruTtXSrqBK5eOQg08j6WksVFpLLbMTCxag3obNlDM8/p3jUMfmrYaEtOzlTaaNsAty/265qNiqjJY6IRIXm1TMT4BbwfEw1+gdfyMjwdNoOYJzgTDr558icNnqcKdGx/xzmc4aHRPlAvGcCAwEAAaNTMFEwMAYDVR0RBCkwJ4IOYXNwLm1lc3NpbmEuaXSGFWh0dHA6Ly9hc3AubWVzc2luYS5pdDAdBgNVHQ4EFgQUHIZYZiYIqkZPSWjeSQjYbau5uaswDQYJKoZIhvcNAQELBQADggGBAG2NNDUK1dLjSrwzVVr3nbARmpzeqMKI78V93Zz3J4f812Koc4PCODZQUpX5IR2JdcqM0RuWKRAFJOZVsLdMNQGMsPhAldokfE0L7ak/hrT094XKW7Dxf6rVoncPn7YSJZUhvgqfeTEPI1mfC+oO5jdoQD3uQEMKN2NI5Jl+HQHeJxncVEm+PzK9QnqnWFsjf2c7HiAJBfNMwL1CysXuzKCGFm0sq52ElbjgsJzBkhvKEZWWRyoHT/LNqKx6/EW9G9JbAULBqpgdX11/vcDn2mwfFyuULOdYQBgZpTf7zlTCKBu1oQDr9E/+xm5yP422/kppqEM5KDzD3rpzZljJstuZzL6JUpFEMpQkeQ0FL3Z0jBvhjZWEdi3HoaeeA4wtju9p3jJ6PLAAwMN7rKNFQ2QllIS/0leuxuySn/GRBeuYJ4m4MZURmOCnfvAY54QOgfgV6ixvNcux6/lnw92Msbw7ebBluz7cnJGZoseDuQE/39jse8SVCXnXuZC4u3J/kw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECDCCAnCgAwIBAgIJAMrFAb+NmxAgMA0GCSqGSIb3DQEBCwUAMBkxFzAVBgNVBAMTDmFzcC5tZXNzaW5hLml0MB4XDTE4MDUwODEyNTkxNVoXDTM4MDUwMzEyNTkxNVowGTEXMBUGA1UEAxMOYXNwLm1lc3NpbmEuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDQJ0/U7rJouV1IvMWHENUOtSFdYDjcDMYUsV5E87FYARPWs7NC68c0MAZOf03/X9fIldnCFfLbVOvzktPcwOBFqf1LqRD17gtD1bsoHyAxzEHtxupCrXl+MbX+PaNppGRsUrSXv/JfJhHh/PnlQZQsvFIbsGlFNAlmXXZlc9mnJVctVuSVKs9wzKV1RWeqmPcV+C4B3/viTxYXUBJSHioPZCEqvwgea+4J3Ji0Mj2nYQx6WC84y6dIbwLdquz4N1cPsSOGeEWX86P24rogU3/HzCfce7dI/QS11qlL/+inldMOVEJ66HqTDJLjAKwqWMYr6FRllAm4UmvyZa0h5Xo5L+GKPfg2QBR34vZGU6M+EtW3gIK7ZruTtXSrqBK5eOQg08j6WksVFpLLbMTCxag3obNlDM8/p3jUMfmrYaEtOzlTaaNsAty/265qNiqjJY6IRIXm1TMT4BbwfEw1+gdfyMjwdNoOYJzgTDr558icNnqcKdGx/xzmc4aHRPlAvGcCAwEAAaNTMFEwMAYDVR0RBCkwJ4IOYXNwLm1lc3NpbmEuaXSGFWh0dHA6Ly9hc3AubWVzc2luYS5pdDAdBgNVHQ4EFgQUHIZYZiYIqkZPSWjeSQjYbau5uaswDQYJKoZIhvcNAQELBQADggGBAG2NNDUK1dLjSrwzVVr3nbARmpzeqMKI78V93Zz3J4f812Koc4PCODZQUpX5IR2JdcqM0RuWKRAFJOZVsLdMNQGMsPhAldokfE0L7ak/hrT094XKW7Dxf6rVoncPn7YSJZUhvgqfeTEPI1mfC+oO5jdoQD3uQEMKN2NI5Jl+HQHeJxncVEm+PzK9QnqnWFsjf2c7HiAJBfNMwL1CysXuzKCGFm0sq52ElbjgsJzBkhvKEZWWRyoHT/LNqKx6/EW9G9JbAULBqpgdX11/vcDn2mwfFyuULOdYQBgZpTf7zlTCKBu1oQDr9E/+xm5yP422/kppqEM5KDzD3rpzZljJstuZzL6JUpFEMpQkeQ0FL3Z0jBvhjZWEdi3HoaeeA4wtju9p3jJ6PLAAwMN7rKNFQ2QllIS/0leuxuySn/GRBeuYJ4m4MZURmOCnfvAY54QOgfgV6ixvNcux6/lnw92Msbw7ebBluz7cnJGZoseDuQE/39jse8SVCXnXuZC4u3J/kw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECDCCAnCgAwIBAgIJAMrFAb+NmxAgMA0GCSqGSIb3DQEBCwUAMBkxFzAVBgNVBAMTDmFzcC5tZXNzaW5hLml0MB4XDTE4MDUwODEyNTkxNVoXDTM4MDUwMzEyNTkxNVowGTEXMBUGA1UEAxMOYXNwLm1lc3NpbmEuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDQJ0/U7rJouV1IvMWHENUOtSFdYDjcDMYUsV5E87FYARPWs7NC68c0MAZOf03/X9fIldnCFfLbVOvzktPcwOBFqf1LqRD17gtD1bsoHyAxzEHtxupCrXl+MbX+PaNppGRsUrSXv/JfJhHh/PnlQZQsvFIbsGlFNAlmXXZlc9mnJVctVuSVKs9wzKV1RWeqmPcV+C4B3/viTxYXUBJSHioPZCEqvwgea+4J3Ji0Mj2nYQx6WC84y6dIbwLdquz4N1cPsSOGeEWX86P24rogU3/HzCfce7dI/QS11qlL/+inldMOVEJ66HqTDJLjAKwqWMYr6FRllAm4UmvyZa0h5Xo5L+GKPfg2QBR34vZGU6M+EtW3gIK7ZruTtXSrqBK5eOQg08j6WksVFpLLbMTCxag3obNlDM8/p3jUMfmrYaEtOzlTaaNsAty/265qNiqjJY6IRIXm1TMT4BbwfEw1+gdfyMjwdNoOYJzgTDr558icNnqcKdGx/xzmc4aHRPlAvGcCAwEAAaNTMFEwMAYDVR0RBCkwJ4IOYXNwLm1lc3NpbmEuaXSGFWh0dHA6Ly9hc3AubWVzc2luYS5pdDAdBgNVHQ4EFgQUHIZYZiYIqkZPSWjeSQjYbau5uaswDQYJKoZIhvcNAQELBQADggGBAG2NNDUK1dLjSrwzVVr3nbARmpzeqMKI78V93Zz3J4f812Koc4PCODZQUpX5IR2JdcqM0RuWKRAFJOZVsLdMNQGMsPhAldokfE0L7ak/hrT094XKW7Dxf6rVoncPn7YSJZUhvgqfeTEPI1mfC+oO5jdoQD3uQEMKN2NI5Jl+HQHeJxncVEm+PzK9QnqnWFsjf2c7HiAJBfNMwL1CysXuzKCGFm0sq52ElbjgsJzBkhvKEZWWRyoHT/LNqKx6/EW9G9JbAULBqpgdX11/vcDn2mwfFyuULOdYQBgZpTf7zlTCKBu1oQDr9E/+xm5yP422/kppqEM5KDzD3rpzZljJstuZzL6JUpFEMpQkeQ0FL3Z0jBvhjZWEdi3HoaeeA4wtju9p3jJ6PLAAwMN7rKNFQ2QllIS/0leuxuySn/GRBeuYJ4m4MZURmOCnfvAY54QOgfgV6ixvNcux6/lnw92Msbw7ebBluz7cnJGZoseDuQE/39jse8SVCXnXuZC4u3J/kw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.asp.messina.it/wp-content/plugins/wp-spidstart/lib/www/module.php/saml/sp/saml2-logout.php/aspme-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.asp.messina.it/wp-content/plugins/wp-spidstart/lib/www/module.php/saml/sp/saml2-acs.php/aspme-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">health_service</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">ASP Messina - Servizi al Cittadino</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">ASP Messina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ASP Messina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.asp.messina.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:EmailAddress>spid.tech@asp.messina.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="_35f55f468e34784e73bd61ba36f25e9c767b2d70" entityID="https://idp-cineca.units.it/sp/shibboleth"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>of13xpKZLgXxJlIG+wpoXX0C4HPgjdiRKgHihIQopw8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VaPRsyKCBLUqqQMPl07qeXUD/3hCLC/uh78nYVI33I/DvcNG3iwz9tWt4K5mYMgSdiBVDI6NoKgT
+sxgynRyAcOVqu20rXo6vLhhI47VpfTBUrrOCeFll6g8IGDmG8yisOzslwbcijyxYTUqH7ElsJoE/
+JKk6r79iaTCAT+kSeDjPTTEAxEpWzuCXNUrZxBjzjztVTBg/jkULPBIxczLZCn27joGZbv+cXb9W
+zy5Q/6n09dDr9Fyl5zRVrdUcFoMpo0VXtlLeINHCUFbJI4b7m63EGf+Jo5hwGCdlWzLjG7g+/Bb8
+oF8ybGJH233nnoditrST9C8Tit4XNdwXymaySw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lNIT5QzeYB4bK0CpUJCo4qmVnXenhwSUP+O4AuNDAoJ5pOZ5wtFa8/ibf5DVF9rdXqhoeA4e5FTQ
+hWWUXZA1vIoxkJJZTpJHk6BCiGDJHIzoOjCwHDpUoooIrH0bl+b14DHuqnYGfmLQY/okwlMjtlgt
+eDkQR7DV8ByN0h5XySoKNp6g/qIVCcKXXn1IvrPArssB4C49mp+8E0I2+DTjg+8zhJzCl1aVoRjy
+lWeVNbM9S+eImctXJg8cOrpljDk7J0Ml3gRdvu/VqStMRIoCNeQrxqoE0PwG8jfwipgOwNOJpmDd
+SdcfnauZKJyQ0FSWOUGvl+L4D91q8Lm8oC2yqQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDCzCCAfOgAwIBAgIJAJXtH9SFKWjyMA0GCSqGSIb3DQEBCwUAMBwxGjAYBgNVBAMMEXNwaWRH
+Vy11bml0cy1wcm9kMB4XDTE4MDEyOTA5NTIwNloXDTM4MDEyODA5NTIwNlowHDEaMBgGA1UEAwwR
+c3BpZEdXLXVuaXRzLXByb2QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCU0hPlDN5g
+HhsrQKlQkKjiqZWdd6eHBJQ/47gC40MCgnmk5nnC0Vrz+Jt/kNUX2t1eqGh4Dh7kVNCFZZRdkDW8
+ijGQkllOkkeToEKIYMkcjOg6MLAcOlSiigisfRuX5vXgMe6qdgZ+YtBj+iTCUyO2WC14ORBHsNXw
+HI3SHlfJKgo2nqD+ohUJwpdefUi+s8CuywHgLj2an7wTQjb4NOOD7zOEnMKXVpWhGPKVZ5U1sz1L
+54iZy1cmDxw6umWMOTsnQyXeBF2+79WpK0xEigI15CvGqgTQ/AbyN/CKmA7A04mmYN1J1x+dq5ko
+nJDQVJY5Qa+X4vgP3WrwubygLbKpAgMBAAGjUDBOMB0GA1UdDgQWBBSvPXrw21Y6bRhIGVBNQ1E4
+poskuDAfBgNVHSMEGDAWgBSvPXrw21Y6bRhIGVBNQ1E4poskuDAMBgNVHRMEBTADAQH/MA0GCSqG
+SIb3DQEBCwUAA4IBAQB0zJMhXnMDkhN+71mL4i6fPHL92eLahO8Jt2ja9+Vyt9kl1YZOsFD2D4aT
+SCYrZAYUspLfmpZfQzzOY12cuzO6whiuRtdvbqMt+1HOyuJMKduIRyR2a3LJithY3sDIuf9sijNC
+7k1cNOowUKrHBxgSEw1EXTEKBGXmbJNyTmBkT1edwOLLls3DtKkMgZlTPY0cHYiOTddGtguH32QA
+pJ2HIuQpHzcz94sidOhGxR2c7uEXki4qQC0xsrkrOQ/U/MRcIwHZxY9N1iYktpGnQavJcuOe8xJl
+ClYbKH+X5AlHmRlS3WMgQxMDBVIwifJPWFQua1USb7r05RlwSog8wzmv
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:KeyDescriptor use="signing">
+	<ds:KeyInfo>
+         <ds:X509Data>
+	<ds:X509Certificate>
+MIIDCzCCAfOgAwIBAgIJAJXtH9SFKWjyMA0GCSqGSIb3DQEBCwUAMBwxGjAYBgNV
+BAMMEXNwaWRHVy11bml0cy1wcm9kMB4XDTE4MDEyOTA5NTIwNloXDTM4MDEyODA5
+NTIwNlowHDEaMBgGA1UEAwwRc3BpZEdXLXVuaXRzLXByb2QwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCU0hPlDN5gHhsrQKlQkKjiqZWdd6eHBJQ/47gC
+40MCgnmk5nnC0Vrz+Jt/kNUX2t1eqGh4Dh7kVNCFZZRdkDW8ijGQkllOkkeToEKI
+YMkcjOg6MLAcOlSiigisfRuX5vXgMe6qdgZ+YtBj+iTCUyO2WC14ORBHsNXwHI3S
+HlfJKgo2nqD+ohUJwpdefUi+s8CuywHgLj2an7wTQjb4NOOD7zOEnMKXVpWhGPKV
+Z5U1sz1L54iZy1cmDxw6umWMOTsnQyXeBF2+79WpK0xEigI15CvGqgTQ/AbyN/CK
+mA7A04mmYN1J1x+dq5konJDQVJY5Qa+X4vgP3WrwubygLbKpAgMBAAGjUDBOMB0G
+A1UdDgQWBBSvPXrw21Y6bRhIGVBNQ1E4poskuDAfBgNVHSMEGDAWgBSvPXrw21Y6
+bRhIGVBNQ1E4poskuDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB0
+zJMhXnMDkhN+71mL4i6fPHL92eLahO8Jt2ja9+Vyt9kl1YZOsFD2D4aTSCYrZAYU
+spLfmpZfQzzOY12cuzO6whiuRtdvbqMt+1HOyuJMKduIRyR2a3LJithY3sDIuf9s
+ijNC7k1cNOowUKrHBxgSEw1EXTEKBGXmbJNyTmBkT1edwOLLls3DtKkMgZlTPY0c
+HYiOTddGtguH32QApJ2HIuQpHzcz94sidOhGxR2c7uEXki4qQC0xsrkrOQ/U/MRc
+IwHZxY9N1iYktpGnQavJcuOe8xJlClYbKH+X5AlHmRlS3WMgQxMDBVIwifJPWFQu
+a1USb7r05RlwSog8wzmv
+	</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+         <ds:X509Data>
+        <ds:X509Certificate>
+MIIDBzCCAe+gAwIBAgIJANyP2QzuXs02MA0GCSqGSIb3DQEBCwUAMBoxGDAWBgNV
+BAMMD3NwaWRHVy11bml0cy1wcDAeFw0xODAxMjkwOTUxNTRaFw0zODAxMjgwOTUx
+NTRaMBoxGDAWBgNVBAMMD3NwaWRHVy11bml0cy1wcDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMA8tICxuzpR5AfHzarorYs1Gh+CLEzsOsBCVqxBZ2H9
+4eF4nkKDyU53rjnEgXopwB+QIlNon/GnC50kfZU7KujpsACS4+MHKNLBsXAwrNid
+wA2pzPHCn196QhKBF5+Dx+rCCuvlK8AOhw0EKoooOGZL1RWRX5WgtMp3QRQV7cIE
+5R/b4PPej4YNfBPHZnh7zAfYa8r8OdkckzmOzpIv0P63jF5AbtfQK1mQtmn66yuA
+WIUJBVXXPgm1OCPH0QQaF8DStypBZUZrlD+hZJfeKnZEXsllkuakXo1mbxd+xq/e
+RpllTik/j/ShDd/eBhZ17ckv17eJdtPonkbneMWB6xUCAwEAAaNQME4wHQYDVR0O
+BBYEFAbFC1ktWIWHIrBzrVdG0B+5cGhnMB8GA1UdIwQYMBaAFAbFC1ktWIWHIrBz
+rVdG0B+5cGhnMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGtCeIeS
+XyAFmb5tRFcueXLU30zw45bKD1GJhXEu6xfS9s/tDy2dNVQMqP2G7kw2DgCAfVBQ
+t9mmPi7A5O8kIaedUHQT0uXWwCeF4flWNgy6CvSupWYOcUL4JUueYVbe40n52Lxg
+6XGA35qCvM/UFRcjD3RosZFWhwe1tE5u6a8Bz9EcN5FOshJg+vJDLVNEMFgDf58i
+x8grvx9EfgWLtBNecgxmIS+ZFJtB+8Vecjli7r6pufhspEe4uh0EOqfyZmPWLqJe
+aIvHnGv6Igy52eg0IbE28XXlAx9Xz8hKE5yGb6f4y0VVQc0bgTZNukD3YwnodgU0
+6y08FddAnf52qFY=
+        </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-preprod-cineca.units.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-preprod-cineca.units.it/Shibboleth.sso/SLO/Redirect"/>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-cineca.units.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-cineca.units.it/Shibboleth.sso/SLO/Redirect"/>
+
+
+    
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    
+
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-cineca.units.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-preprod-cineca.units.it/Shibboleth.sso/SAML2/POST" index="1"/>
+
+
+	
+	<md:AttributeConsumingService index="0">
+		<md:ServiceName xml:lang="it">Units SPID - Login Pre-prod</md:ServiceName>
+		<md:RequestedAttribute Name="name"/>
+		<md:RequestedAttribute Name="familyName"/>
+		<md:RequestedAttribute Name="fiscalNumber"/>
+		<md:RequestedAttribute Name="spidCode"/>
+	</md:AttributeConsumingService>	
+
+        <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="it">Units SPID - Login Prod</md:ServiceName>
+                <md:RequestedAttribute Name="name"/>
+                <md:RequestedAttribute Name="familyName"/>
+                <md:RequestedAttribute Name="fiscalNumber"/>
+                <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+
+	<md:AttributeConsumingService index="2">
+		<md:ServiceName xml:lang="it">Units SPID - Registrazione Pre-prod</md:ServiceName>
+                <md:RequestedAttribute Name="name"/>
+                <md:RequestedAttribute Name="familyName"/>
+                <md:RequestedAttribute Name="fiscalNumber"/>
+                <md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="placeOfBirth"/>
+		<md:RequestedAttribute Name="dateOfBirth"/>				
+		<md:RequestedAttribute Name="gender"/>
+		<md:RequestedAttribute Name="idCard"/>
+		<md:RequestedAttribute Name="mobilePhone"/>
+		<md:RequestedAttribute Name="email"/>
+		<md:RequestedAttribute Name="address"/>
+	</md:AttributeConsumingService>	
+
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">Units SPID - Registrazione Prod</md:ServiceName>
+                <md:RequestedAttribute Name="name"/>
+                <md:RequestedAttribute Name="familyName"/>
+                <md:RequestedAttribute Name="fiscalNumber"/>
+                <md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="placeOfBirth"/>
+		<md:RequestedAttribute Name="dateOfBirth"/>				
+		<md:RequestedAttribute Name="gender"/>
+		<md:RequestedAttribute Name="idCard"/>
+		<md:RequestedAttribute Name="mobilePhone"/>
+		<md:RequestedAttribute Name="email"/>
+		<md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+
+
+
+  </md:SPSSODescriptor>
+  
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Università degli studi di Trieste</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Units</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">www.units.it</md:OrganizationURL>
+	</md:Organization>
+  
+</md:EntityDescriptor>

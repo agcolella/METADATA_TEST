@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.pontida.bg.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxcb0b5ec7-4a67-fd34-1863-2ab3104ca332"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxcb0b5ec7-4a67-fd34-1863-2ab3104ca332"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3iLGY/zstwCITKfIX/v0DyvwpAyFN+pv7GXo88rTRlU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>BsShLOUuSWyYQk4JR9eTpPGe+sknvBO6PXg9mvVGS2+derx1GnJSDkmDNj2MWNAB7O1gnipocTfym2ffW191ANEAK7JfPvjxbWdUl83cIkI7CBcyid4qmvq0kw11/iohJ6WOUIvCH3jqiFfKdD8K14i5LFY9SlabWbC9CWrHSOhOKN8jjttxCK6WHt+CENfH2gq6Zvc8mGpp5WbFpAqdapYNHunNuYP6IynW2PjfEzc6EVM5RJDczGuX/I5g5hsRtBL8ErxdKC6eyt99pFyeQt99LoFzC6CpwfGfGKypc1Ex9xFaiCbtfEn/drbIIq8jHhGUOervRIN08ds7MiKQIw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENjCCAx6gAwIBAgIIZR9CrN3FmkEwDQYJKoZIhvcNAQELBQAwgbExCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRAwDgYDVQQHDAdQb250aWRhMRowGAYDVQQKDBFDb211bmUgZGkgUG9udGlkYTESMBAGA1UECwwJQ29tdW5lIFBBMSEwHwYDVQQDDBh3d3cuY29tdW5lLnBvbnRpZGEuYmcuaXQxKzApBgkqhkiG9w0BCQEWHHNpbmRhY29AY29tdW5lLnBvbnRpZGEuYmcuaXQwHhcNMTkwODE2MTAzNDE4WhcNMzkwODE1MTAzNDE4WjCBsTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB1BvbnRpZGExGjAYBgNVBAoMEUNvbXVuZSBkaSBQb250aWRhMRIwEAYDVQQLDAlDb211bmUgUEExITAfBgNVBAMMGHd3dy5jb211bmUucG9udGlkYS5iZy5pdDErMCkGCSqGSIb3DQEJARYcc2luZGFjb0Bjb211bmUucG9udGlkYS5iZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANZ5Jlxwgji1EoVTQMk/zEqykao6Fwxv4PhcuC8WNd7v61IvvIt4OYAwg/XIZ6MnZ9HUjHQ4xFaru69DVXuxe0bf647s+LMteGkShqvr6S1FxDBrVZeL4qCPJADGD7WLEaXp/a2y4OwCSTf4VYnfGNLdNUplQ9Mp94QBmkRvXa1fpk2WsbdZGQTNzGTKSoQk0J8uVoA4CV/3kq59avQLzkmj7iBDC0ITojykKR9xPv+2aakrEoh84Sgl5UhjZkzgISsdnkb9pgvJKfkzNPNC31VW2SmkkhxcNAb/gAia0ILNunaZ6T2uNzkmAk/MUsQux9IdsgGhx5x1Ki14l7MSp88CAwEAAaNQME4wHQYDVR0OBBYEFM88V9U3xWo9ie1oxl59yecytVp0MB8GA1UdIwQYMBaAFM88V9U3xWo9ie1oxl59yecytVp0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABrN8PLRiB8491ZM5rDBhdxuiuyc3eQBz77T8HEf1BCJ+MeE2mCgMbU6DDmrgZoC2rIn9+LQ5v2DqRk1jQzrBnl9NlRPPlt8HKhRdtkP/DWRodKlRC6WGX6r6av2/EmaBPjNiU6Hfat9P4UNxWZ+JjGfUfMlgxr7bLJvCY/vclNbd948b8csDrH+0ZE7R8FZeGo5ZPXqroDKpGjK/N2wlLgE1o6L7fsmUtmQkiHnyIrHxszXrucM87+9wr+UvnzdCYUl5yJq3zgNx7kH+1hpryqUmQFFarVceRXXhmPUhXephDRUFehxf8cDIAi5ePbghDZwzVWrq+9xn09gV+u465I=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENjCCAx6gAwIBAgIIZR9CrN3FmkEwDQYJKoZIhvcNAQELBQAwgbExCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRAwDgYDVQQHDAdQb250aWRhMRowGAYDVQQKDBFDb211bmUgZGkgUG9udGlkYTESMBAGA1UECwwJQ29tdW5lIFBBMSEwHwYDVQQDDBh3d3cuY29tdW5lLnBvbnRpZGEuYmcuaXQxKzApBgkqhkiG9w0BCQEWHHNpbmRhY29AY29tdW5lLnBvbnRpZGEuYmcuaXQwHhcNMTkwODE2MTAzNDE4WhcNMzkwODE1MTAzNDE4WjCBsTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB1BvbnRpZGExGjAYBgNVBAoMEUNvbXVuZSBkaSBQb250aWRhMRIwEAYDVQQLDAlDb211bmUgUEExITAfBgNVBAMMGHd3dy5jb211bmUucG9udGlkYS5iZy5pdDErMCkGCSqGSIb3DQEJARYcc2luZGFjb0Bjb211bmUucG9udGlkYS5iZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANZ5Jlxwgji1EoVTQMk/zEqykao6Fwxv4PhcuC8WNd7v61IvvIt4OYAwg/XIZ6MnZ9HUjHQ4xFaru69DVXuxe0bf647s+LMteGkShqvr6S1FxDBrVZeL4qCPJADGD7WLEaXp/a2y4OwCSTf4VYnfGNLdNUplQ9Mp94QBmkRvXa1fpk2WsbdZGQTNzGTKSoQk0J8uVoA4CV/3kq59avQLzkmj7iBDC0ITojykKR9xPv+2aakrEoh84Sgl5UhjZkzgISsdnkb9pgvJKfkzNPNC31VW2SmkkhxcNAb/gAia0ILNunaZ6T2uNzkmAk/MUsQux9IdsgGhx5x1Ki14l7MSp88CAwEAAaNQME4wHQYDVR0OBBYEFM88V9U3xWo9ie1oxl59yecytVp0MB8GA1UdIwQYMBaAFM88V9U3xWo9ie1oxl59yecytVp0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABrN8PLRiB8491ZM5rDBhdxuiuyc3eQBz77T8HEf1BCJ+MeE2mCgMbU6DDmrgZoC2rIn9+LQ5v2DqRk1jQzrBnl9NlRPPlt8HKhRdtkP/DWRodKlRC6WGX6r6av2/EmaBPjNiU6Hfat9P4UNxWZ+JjGfUfMlgxr7bLJvCY/vclNbd948b8csDrH+0ZE7R8FZeGo5ZPXqroDKpGjK/N2wlLgE1o6L7fsmUtmQkiHnyIrHxszXrucM87+9wr+UvnzdCYUl5yJq3zgNx7kH+1hpryqUmQFFarVceRXXhmPUhXephDRUFehxf8cDIAi5ePbghDZwzVWrq+9xn09gV+u465I=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENjCCAx6gAwIBAgIIZR9CrN3FmkEwDQYJKoZIhvcNAQELBQAwgbExCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRAwDgYDVQQHDAdQb250aWRhMRowGAYDVQQKDBFDb211bmUgZGkgUG9udGlkYTESMBAGA1UECwwJQ29tdW5lIFBBMSEwHwYDVQQDDBh3d3cuY29tdW5lLnBvbnRpZGEuYmcuaXQxKzApBgkqhkiG9w0BCQEWHHNpbmRhY29AY29tdW5lLnBvbnRpZGEuYmcuaXQwHhcNMTkwODE2MTAzNDE4WhcNMzkwODE1MTAzNDE4WjCBsTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB1BvbnRpZGExGjAYBgNVBAoMEUNvbXVuZSBkaSBQb250aWRhMRIwEAYDVQQLDAlDb211bmUgUEExITAfBgNVBAMMGHd3dy5jb211bmUucG9udGlkYS5iZy5pdDErMCkGCSqGSIb3DQEJARYcc2luZGFjb0Bjb211bmUucG9udGlkYS5iZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANZ5Jlxwgji1EoVTQMk/zEqykao6Fwxv4PhcuC8WNd7v61IvvIt4OYAwg/XIZ6MnZ9HUjHQ4xFaru69DVXuxe0bf647s+LMteGkShqvr6S1FxDBrVZeL4qCPJADGD7WLEaXp/a2y4OwCSTf4VYnfGNLdNUplQ9Mp94QBmkRvXa1fpk2WsbdZGQTNzGTKSoQk0J8uVoA4CV/3kq59avQLzkmj7iBDC0ITojykKR9xPv+2aakrEoh84Sgl5UhjZkzgISsdnkb9pgvJKfkzNPNC31VW2SmkkhxcNAb/gAia0ILNunaZ6T2uNzkmAk/MUsQux9IdsgGhx5x1Ki14l7MSp88CAwEAAaNQME4wHQYDVR0OBBYEFM88V9U3xWo9ie1oxl59yecytVp0MB8GA1UdIwQYMBaAFM88V9U3xWo9ie1oxl59yecytVp0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABrN8PLRiB8491ZM5rDBhdxuiuyc3eQBz77T8HEf1BCJ+MeE2mCgMbU6DDmrgZoC2rIn9+LQ5v2DqRk1jQzrBnl9NlRPPlt8HKhRdtkP/DWRodKlRC6WGX6r6av2/EmaBPjNiU6Hfat9P4UNxWZ+JjGfUfMlgxr7bLJvCY/vclNbd948b8csDrH+0ZE7R8FZeGo5ZPXqroDKpGjK/N2wlLgE1o6L7fsmUtmQkiHnyIrHxszXrucM87+9wr+UvnzdCYUl5yJq3zgNx7kH+1hpryqUmQFFarVceRXXhmPUhXephDRUFehxf8cDIAi5ePbghDZwzVWrq+9xn09gV+u465I=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.pontida.bg.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.pontida.bg.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">comune_pontida</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Comune di Pontida / Pontida (Bergamo)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pontida / Pontida</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pontida / Pontida</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pontida.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.adriauno.edu.it/spid/module.php/saml/sp/metadata.php/default-spata" ID="pfxa874d4b5-d51f-d3cb-80f3-ed1a8f190058"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa874d4b5-d51f-d3cb-80f3-ed1a8f190058"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>A0Rc+tVB9soor7f/dVrzfwkl287HkHhFI20kpmhCZNo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nRVTycuH3hDy43RdS2kDRsjQVcwSbPVsYeJe/UZmDOUxXfVIQyeKVLktDunpYT4Va4sZ0oQOYqcwrovvaZL0+1DRu6orTyYZE4tKiQwt24Vb7YIVQE98jjVQjJ5DNe6G3wCxeIixmYOr3ah8GhX8q6EZnOQxbinjWW7NDQVBW9DQazYZyjsSn6t9h+E/mXuvI91IcjhlSaUhsbmCRwX0QAK5NqJej2x3FwN/iEKbrmBfE2Ks8og68t7/RVpbl+jzL49Dh8gL4QtsYOT9rXO5f+cRM9SEIKp991XZKpltjjQCwDpm4ZBZiZ/Zc66YYILv7oGtECqLQdOD3s+N63pc8A==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIERjCCAy6gAwIBAgIIvfWbilevKAAwDQYJKoZIhvcNAQELBQAwgbkxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xDjAMBgNVBAcMBUFkcmlhMSYwJAYDVQQKDB1Jc3RpdHV0byBDb21wcmVuc2l2byBBZHJpYVVubzEZMBcGA1UECwwQaXN0c2Nfcm9pYzgxNTAwODEcMBoGA1UEAwwTd3d3LmFkcmlhdW5vLmdvdi5pdDEoMCYGCSqGSIb3DQEJARYZIHJvaWM4MTUwMDhAaXN0cnV6aW9uZS5pdDAeFw0xNzA2MjgxMjU4MjFaFw0zNzA2MjcxMjU4MjFaMIG5MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMQ4wDAYDVQQHDAVBZHJpYTEmMCQGA1UECgwdSXN0aXR1dG8gQ29tcHJlbnNpdm8gQWRyaWFVbm8xGTAXBgNVBAsMEGlzdHNjX3JvaWM4MTUwMDgxHDAaBgNVBAMME3d3dy5hZHJpYXVuby5nb3YuaXQxKDAmBgkqhkiG9w0BCQEWGSByb2ljODE1MDA4QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3FCfc78/SbPdqkJvasCbUnniRF9LHdEAaELxn02csr3u4NX3KpDd1qapuHgyZPHUeXXUTNscOyXMaGZVV8sdAQcSaXf2F2n2XgZqZFlY3YzZnqbExVLRONYimYLxCq3Gx+AxrgtDJ7c7m1N72kUMNuxuA3lUPLhvFxYKGUL0WJ4vd4i5x0XziS6aBy+A8bY7Wg/gqgCqJgN00BYrTf4j4P6Eu2it/eZCzxVn1Fx8cuBQK50YklX5IuyabnEvCGn8/PxGjviohgpePKHRslfxYKw3EIeBEpQtScCaW5Y+BPLfWCOVXe/uEGNaCDzQ50bFfMj5f6ZF7wTSZ/fNUFH8LAgMBAAGjUDBOMB0GA1UdDgQWBBSe/XEBmc0zs8MXA5RD/MIMrFe9eTAfBgNVHSMEGDAWgBSe/XEBmc0zs8MXA5RD/MIMrFe9eTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAk1gOYwu3kZ3VR2PowQeTC5VIhuWsgdFA7wGxvFuogR1BINuL7V9fS4EGq4WlpDm5Vi1XiI7x4Y/tbrDgi9o5koyRRawtdN8b36ceQxdKTQVCU/zlE2rXkn7qDG+/dBkcgubaQhOZ9dTtPKFfHGU6CIBPS8oh+rSHfOCxe9K46jpoVjhwEj16LZ60AdbwxfIJzNF8QtMnHD3e9atATZuhai0NBNTrXmSDHILmM9ka0OF6+BjWlY1olD4EP4ZhoReGV+e6uvXnb2ktrH+FuZofCdh2/s7yLCBHQPd+zBoV8xdv54iVSUsKCyuW+F5JSOIhaIIFLS+zMuM2QKrgaaKZX</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIERjCCAy6gAwIBAgIIvfWbilevKAAwDQYJKoZIhvcNAQELBQAwgbkxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xDjAMBgNVBAcMBUFkcmlhMSYwJAYDVQQKDB1Jc3RpdHV0byBDb21wcmVuc2l2byBBZHJpYVVubzEZMBcGA1UECwwQaXN0c2Nfcm9pYzgxNTAwODEcMBoGA1UEAwwTd3d3LmFkcmlhdW5vLmdvdi5pdDEoMCYGCSqGSIb3DQEJARYZIHJvaWM4MTUwMDhAaXN0cnV6aW9uZS5pdDAeFw0xNzA2MjgxMjU4MjFaFw0zNzA2MjcxMjU4MjFaMIG5MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMQ4wDAYDVQQHDAVBZHJpYTEmMCQGA1UECgwdSXN0aXR1dG8gQ29tcHJlbnNpdm8gQWRyaWFVbm8xGTAXBgNVBAsMEGlzdHNjX3JvaWM4MTUwMDgxHDAaBgNVBAMME3d3dy5hZHJpYXVuby5nb3YuaXQxKDAmBgkqhkiG9w0BCQEWGSByb2ljODE1MDA4QGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3FCfc78/SbPdqkJvasCbUnniRF9LHdEAaELxn02csr3u4NX3KpDd1qapuHgyZPHUeXXUTNscOyXMaGZVV8sdAQcSaXf2F2n2XgZqZFlY3YzZnqbExVLRONYimYLxCq3Gx+AxrgtDJ7c7m1N72kUMNuxuA3lUPLhvFxYKGUL0WJ4vd4i5x0XziS6aBy+A8bY7Wg/gqgCqJgN00BYrTf4j4P6Eu2it/eZCzxVn1Fx8cuBQK50YklX5IuyabnEvCGn8/PxGjviohgpePKHRslfxYKw3EIeBEpQtScCaW5Y+BPLfWCOVXe/uEGNaCDzQ50bFfMj5f6ZF7wTSZ/fNUFH8LAgMBAAGjUDBOMB0GA1UdDgQWBBSe/XEBmc0zs8MXA5RD/MIMrFe9eTAfBgNVHSMEGDAWgBSe/XEBmc0zs8MXA5RD/MIMrFe9eTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAk1gOYwu3kZ3VR2PowQeTC5VIhuWsgdFA7wGxvFuogR1BINuL7V9fS4EGq4WlpDm5Vi1XiI7x4Y/tbrDgi9o5koyRRawtdN8b36ceQxdKTQVCU/zlE2rXkn7qDG+/dBkcgubaQhOZ9dTtPKFfHGU6CIBPS8oh+rSHfOCxe9K46jpoVjhwEj16LZ60AdbwxfIJzNF8QtMnHD3e9atATZuhai0NBNTrXmSDHILmM9ka0OF6+BjWlY1olD4EP4ZhoReGV+e6uvXnb2ktrH+FuZofCdh2/s7yLCBHQPd+zBoV8xdv54iVSUsKCyuW+F5JSOIhaIIFLS+zMuM2QKrgaaKZX</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.adriauno.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.adriauno.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto Comprensivo Adria Uno</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo Adria Uno</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.adriauno.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

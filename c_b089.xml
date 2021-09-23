@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Bormio" entityID="https://www.comune.bormio.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Bormio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/A0yJheYwhnJMYEMKUA9X9W6UAwhHreEEuZzY1QbrDs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+idRt0X0S1dVey8N0nB7uo0o4ZePjYOGKvrC3O/8Ozrt+FLeM9nX/pMThRfD1DiM0J1fLV6HPz7m4
+YyGFTReMu7NrQIK/svFNS+ICUAF3Ll4b48+z3/HjXDbm3iZy2IkicqwKstfFpM133q6FUcgg0JNj
+BqJ50D9Z3krbjByv7q7Ma6LqVCwRPNjx6ukVW2FyWEelkWbPFn61WX/re/SOEA0qn4VruvbY2zWV
+gDaGIxTqM/hF5YGfw5H6kUEJNvXcyG29k6zBweLkcLa6988Xc6vsszW4arZgDEtdDWxHYhHZVMdY
+Y/tW0y3BjYcVTW7PHY/pkWQbbZI3hBQmk4c7jw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0mbqbcdnBqB0McTkL5hEwUtgqtkx2+3c3X3PwvI+S+vyoHJ0E3B0GZ19FBdUsEAlCJCcMvm+iQ/e
+RgLDU8RTbTx0S4pWwtC/Ki93C84NYbYHK3OeyCFecqDI3jRyxqXFPhgNFn93jLiG0zj8E+8QCBDg
+S9k7nFdqmzYGObr37c+ClFRHbq8YsNbTZMwCrnKJCPw9dV2Yt06xYaVkbT9UAMDAvBqzy2mny90p
+B5d1kDo8bsUNrAiL7lCnKZ3K0Uz2ISvmvPV26dI6NKnw0Yglo+IissUSh+BpuQYrtwZCYHPstcsf
+iRhKWHApEXPpQi36hDQZ8cXE70qWc1tZM6/GvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAOxrTGR9soVAMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuYm9ybWlvLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA4MjIw
+NzAwMDlaFw0yODA4MTkwNzAwMDlaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYm9ybWlvLnNvLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANJm6m3HZwagdDHE5C+YRMFLYKrZMdvt3N19z8LyPkvr8qBydBNwdBmdfRQXVLBAJQiQnDL5
+vokP3kYCw1PEU208dEuKVsLQvyovdwvODWG2BytznsghXnKgyN40csalxT4YDRZ/d4y4htM4/BPv
+EAgQ4EvZO5xXaps2Bjm69+3PgpRUR26vGLDW02TMAq5yiQj8PXVdmLdOsWGlZG0/VADAwLwas8tp
+p8vdKQeXdZA6PG7FDawIi+5QpymdytFM9iEr5rz1dunSOjSp8NGIJaPiIrLFEofgabkGK7cGQmBz
+7LXLH4kYSlhwKRFz6UIt+oQ0GfHFxO9KlnNbWTOvxr0CAwEAAaNQME4wHQYDVR0OBBYEFNdP537b
+L1hnIbyAMIoL7wzGR5vKMB8GA1UdIwQYMBaAFNdP537bL1hnIbyAMIoL7wzGR5vKMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEZswXaomyJrVofxo+fWu3whABnHC9plnXY4HR4o7ZaL
+jvOFc82YjdK831FY2miIwicYGQbqelXRazhJOsiS8sAPxoNl3CV4je1b2ulmIHA+8GOrnnj3Vhcf
+w9BNZd7px5kYsdRJCp6vlp38fQSfDQ69eBv5NBqqTnCHM6fBndrDSAaY9laVuSomop7Wx/5h44GC
+fZN5KjTFdvE4N9oajHnW7Fm4ZV0ZDb5mrPBWgLxp1DbMUNQcfAUXg0ifOAMxij9YV3TwblW71AFm
+jmb3j4nsXuCAggE7ABhCRmi8T9f1g5v6JTK0muEOKAykvYU138amdg83DmYCbHmGRlXzGQk=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOxrTGR9soVAMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYm9ybWlvLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA4MjIwNzAwMDlaFw0yODA4MTkwNzAwMDlaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYm9ybWlvLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJm6m3HZwagdDHE5C+YRMFLYKrZMdvt3N19z8LyPkvr8qBydBNwdBmdfRQXVLBAJQiQnDL5vokP3kYCw1PEU208dEuKVsLQvyovdwvODWG2BytznsghXnKgyN40csalxT4YDRZ/d4y4htM4/BPvEAgQ4EvZO5xXaps2Bjm69+3PgpRUR26vGLDW02TMAq5yiQj8PXVdmLdOsWGlZG0/VADAwLwas8tpp8vdKQeXdZA6PG7FDawIi+5QpymdytFM9iEr5rz1dunSOjSp8NGIJaPiIrLFEofgabkGK7cGQmBz7LXLH4kYSlhwKRFz6UIt+oQ0GfHFxO9KlnNbWTOvxr0CAwEAAaNQME4wHQYDVR0OBBYEFNdP537bL1hnIbyAMIoL7wzGR5vKMB8GA1UdIwQYMBaAFNdP537bL1hnIbyAMIoL7wzGR5vKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEZswXaomyJrVofxo+fWu3whABnHC9plnXY4HR4o7ZaLjvOFc82YjdK831FY2miIwicYGQbqelXRazhJOsiS8sAPxoNl3CV4je1b2ulmIHA+8GOrnnj3Vhcfw9BNZd7px5kYsdRJCp6vlp38fQSfDQ69eBv5NBqqTnCHM6fBndrDSAaY9laVuSomop7Wx/5h44GCfZN5KjTFdvE4N9oajHnW7Fm4ZV0ZDb5mrPBWgLxp1DbMUNQcfAUXg0ifOAMxij9YV3TwblW71AFmjmb3j4nsXuCAggE7ABhCRmi8T9f1g5v6JTK0muEOKAykvYU138amdg83DmYCbHmGRlXzGQk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOxrTGR9soVAMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYm9ybWlvLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA4MjIwNzAwMDlaFw0yODA4MTkwNzAwMDlaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYm9ybWlvLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJm6m3HZwagdDHE5C+YRMFLYKrZMdvt3N19z8LyPkvr8qBydBNwdBmdfRQXVLBAJQiQnDL5vokP3kYCw1PEU208dEuKVsLQvyovdwvODWG2BytznsghXnKgyN40csalxT4YDRZ/d4y4htM4/BPvEAgQ4EvZO5xXaps2Bjm69+3PgpRUR26vGLDW02TMAq5yiQj8PXVdmLdOsWGlZG0/VADAwLwas8tpp8vdKQeXdZA6PG7FDawIi+5QpymdytFM9iEr5rz1dunSOjSp8NGIJaPiIrLFEofgabkGK7cGQmBz7LXLH4kYSlhwKRFz6UIt+oQ0GfHFxO9KlnNbWTOvxr0CAwEAAaNQME4wHQYDVR0OBBYEFNdP537bL1hnIbyAMIoL7wzGR5vKMB8GA1UdIwQYMBaAFNdP537bL1hnIbyAMIoL7wzGR5vKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEZswXaomyJrVofxo+fWu3whABnHC9plnXY4HR4o7ZaLjvOFc82YjdK831FY2miIwicYGQbqelXRazhJOsiS8sAPxoNl3CV4je1b2ulmIHA+8GOrnnj3Vhcfw9BNZd7px5kYsdRJCp6vlp38fQSfDQ69eBv5NBqqTnCHM6fBndrDSAaY9laVuSomop7Wx/5h44GCfZN5KjTFdvE4N9oajHnW7Fm4ZV0ZDb5mrPBWgLxp1DbMUNQcfAUXg0ifOAMxij9YV3TwblW71AFmjmb3j4nsXuCAggE7ABhCRmi8T9f1g5v6JTK0muEOKAykvYU138amdg83DmYCbHmGRlXzGQk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bormio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bormio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bormio" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bormio" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bormio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bormio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bormio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bormio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bormio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bormio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bormio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bormio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bormio.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bormio.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.bormio.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.bormio.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

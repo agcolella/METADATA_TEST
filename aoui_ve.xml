@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="_52d6aca8703e4f57851f7bdb8d569f2e" entityID="https://servizi.ospedaleuniverona.it/dse"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_52d6aca8703e4f57851f7bdb8d569f2e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jhwyK1reqQegbzyOVHp+bpEl/SJ8w17ExNwCFqhhfUw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+nlQKjkoiVRPU+9et54a/ZmIYUIzmKNiRIYP9WNHj69d+HB8hFTaFBv7XqDtGuQIYNtSYo0mA6CGA
+7j/lHfwSO8PXtuHuNejEmSJjfa99h7bO1YEUasZ1XZSvuuiA0OD4tah2z8RnEIMoCXl546fkobIl
+7qUfu/+QwzHxPd2KK6OyUAT++4UmBjzIL8Ny2o251vQuLZjWS6Fc2daWJLrFCvSQaLNnZWAhzFmw
+TueffPMe6x8k90mLpb8rF9phdv5r7KunRpr7xGpDfQy+DUYQPmUywWjCfzxT3t3r9xpjFd06TSgI
+Yw0vWlJU+VumAj9g7DQmc1k4h74MHEgp/ZKLEQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+riH9Nh7hjj+tKSwMAJMTRxw2N0jb1YXPCxYruWUGfzG9wzW1qQ8fyZsU7dFaY1oW1MvlGRBtdv3l
+o7s3+q0/FDpn3Bu1/sKh6xEoMWNU7NtpCx+c4DTzqkikm7hry3YSTumasGjop0VWNVL2PhLu7q8Q
+NuO2CN5sMTRIcn9sT95ctMvwrmx5dkBUOHz4e9Sdm6kKrQEIA3VLrPyqnfsQzvZzJ0t8xG91R2tj
+o58g6wqNT3NInZoqgGfH5MI2YrhIVaIcYPjspttPq/WDnbc6+5Cglg4iy4Km5TiX/je9LdfxuGJt
+lG0jQ7JQnAqSC+NPpXisBHLGAM+ADC1VM50Aaw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEezCCA2OgAwIBAgIJAOnimGAx9yoYMA0GCSqGSIb3DQEBCwUAMIHTMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGVmVuZXRvMQ8wDQYDVQQHDAZWZXJvbmExPTA7BgNVBAoMNEF6aWVuZGEgT3NwZWRh
+bGllcmEgVW5pdmVyc2l0YXJpYSBJbnRlZ3JhdGEgLSBWZXJvbmExFDASBgNVBAsMC0FPVUkgVmVy
+b25hMR0wGwYDVQQDDBRvc3BlZGFsZXVuaXZlcm9uYS5pdDEuMCwGCSqGSIb3DQEJARYfcHJvdG9j
+b2xsby5hb3VpLnZyQHBlY3ZlbmV0by5pdDAeFw0xOTA2MjgxMzU2MzFaFw0yMjA2MjcxMzU2MzFa
+MIHTMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmVuZXRvMQ8wDQYDVQQHDAZWZXJvbmExPTA7BgNV
+BAoMNEF6aWVuZGEgT3NwZWRhbGllcmEgVW5pdmVyc2l0YXJpYSBJbnRlZ3JhdGEgLSBWZXJvbmEx
+FDASBgNVBAsMC0FPVUkgVmVyb25hMR0wGwYDVQQDDBRvc3BlZGFsZXVuaXZlcm9uYS5pdDEuMCwG
+CSqGSIb3DQEJARYfcHJvdG9jb2xsby5hb3VpLnZyQHBlY3ZlbmV0by5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAK4h/TYe4Y4/rSksDACTE0ccNjdI29WFzwsWK7llBn8xvcM1takP
+H8mbFO3RWmNaFtTL5RkQbXb95aO7N/qtPxQ6Z9wbtf7CoesRKDFjVOzbaQsfnOA086pIpJu4a8t2
+Ek7pmrBo6KdFVjVS9j4S7u6vEDbjtgjebDE0SHJ/bE/eXLTL8K5seXZAVDh8+HvUnZupCq0BCAN1
+S6z8qp37EM72cydLfMRvdUdrY6OfIOsKjU9zSJ2aKoBnx+TCNmK4SFWiHGD47KbbT6v1g523OvuQ
+oJYOIsuCpuU4l/43vS3X8bhibZRtI0OyUJwKkgvjT6V4rARyxgDPgAwtVTOdAGsCAwEAAaNQME4w
+HQYDVR0OBBYEFGftNGmhkjLubNJi83yNSy6lXXazMB8GA1UdIwQYMBaAFGftNGmhkjLubNJi83yN
+Sy6lXXazMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJJHENJVpsP1dUZNPbvQPjwo
+4W/D/jvQXP7d2Gr8ZduMxyr/J8jDUu1nh2uVZJZUyz7jxUcS38l5fgJl/cHcr+CCPGI1uxpCs+DN
+bBVvit2Hh7GcutLnMy3YmTUiY0laOPIm7EXYcCi9Eru0h6Tc0GLa/47l6zOsP+DgqB416vMqMvIL
+3Boa1JA5srdak3q/iTtVAweosHeHNvm5SflBi2jl5YkQFP8WmXvTILdHf5Tiok+nG0N7K3aVvXUq
+2BsETYzfRQwYHNYKIYe+UYD8UPdgfqab0orDimOEd9nUUKvnWv9ahAGgxP99G2OvESGr3jba5gTH
+db6SWF8A4ZQMcS0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEezCCA2OgAwIBAgIJAOnimGAx9yoYMA0GCSqGSIb3DQEBCwUAMIHTMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGVmVuZXRvMQ8wDQYDVQQHDAZWZXJvbmExPTA7BgNV
+BAoMNEF6aWVuZGEgT3NwZWRhbGllcmEgVW5pdmVyc2l0YXJpYSBJbnRlZ3JhdGEg
+LSBWZXJvbmExFDASBgNVBAsMC0FPVUkgVmVyb25hMR0wGwYDVQQDDBRvc3BlZGFs
+ZXVuaXZlcm9uYS5pdDEuMCwGCSqGSIb3DQEJARYfcHJvdG9jb2xsby5hb3VpLnZy
+QHBlY3ZlbmV0by5pdDAeFw0xOTA2MjgxMzU2MzFaFw0yMjA2MjcxMzU2MzFaMIHT
+MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmVuZXRvMQ8wDQYDVQQHDAZWZXJvbmEx
+PTA7BgNVBAoMNEF6aWVuZGEgT3NwZWRhbGllcmEgVW5pdmVyc2l0YXJpYSBJbnRl
+Z3JhdGEgLSBWZXJvbmExFDASBgNVBAsMC0FPVUkgVmVyb25hMR0wGwYDVQQDDBRv
+c3BlZGFsZXVuaXZlcm9uYS5pdDEuMCwGCSqGSIb3DQEJARYfcHJvdG9jb2xsby5h
+b3VpLnZyQHBlY3ZlbmV0by5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAK4h/TYe4Y4/rSksDACTE0ccNjdI29WFzwsWK7llBn8xvcM1takPH8mbFO3R
+WmNaFtTL5RkQbXb95aO7N/qtPxQ6Z9wbtf7CoesRKDFjVOzbaQsfnOA086pIpJu4
+a8t2Ek7pmrBo6KdFVjVS9j4S7u6vEDbjtgjebDE0SHJ/bE/eXLTL8K5seXZAVDh8
++HvUnZupCq0BCAN1S6z8qp37EM72cydLfMRvdUdrY6OfIOsKjU9zSJ2aKoBnx+TC
+NmK4SFWiHGD47KbbT6v1g523OvuQoJYOIsuCpuU4l/43vS3X8bhibZRtI0OyUJwK
+kgvjT6V4rARyxgDPgAwtVTOdAGsCAwEAAaNQME4wHQYDVR0OBBYEFGftNGmhkjLu
+bNJi83yNSy6lXXazMB8GA1UdIwQYMBaAFGftNGmhkjLubNJi83yNSy6lXXazMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJJHENJVpsP1dUZNPbvQPjwo
+4W/D/jvQXP7d2Gr8ZduMxyr/J8jDUu1nh2uVZJZUyz7jxUcS38l5fgJl/cHcr+CC
+PGI1uxpCs+DNbBVvit2Hh7GcutLnMy3YmTUiY0laOPIm7EXYcCi9Eru0h6Tc0GLa
+/47l6zOsP+DgqB416vMqMvIL3Boa1JA5srdak3q/iTtVAweosHeHNvm5SflBi2jl
+5YkQFP8WmXvTILdHf5Tiok+nG0N7K3aVvXUq2BsETYzfRQwYHNYKIYe+UYD8UPdg
+fqab0orDimOEd9nUUKvnWv9ahAGgxP99G2OvESGr3jba5gTHdb6SWF8A4ZQMcS0=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://servizi.aovr.veneto.it/dse/spid_logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.aovr.veneto.it/dse/spid_login" index="0" isDefault="true"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">Set Attributi</md:ServiceName>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="countyOfBirth"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="gender"/>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="mobilePhone"/>
+         <md:RequestedAttribute Name="email"/>
+         <md:RequestedAttribute Name="expirationDate"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Azienda Ospedaliera Universitaria Integrata - Verona</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Azienda Ospedaliera Universitaria Integrata - Verona</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://servizi.aovr.veneto.it</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

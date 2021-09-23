@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_zfr751te1h6q2whhhaosbsrs9nck7httwtyulo7q05y" entityID="https://auth.poliziadistato.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<ds:Reference URI="#_zfr751te1h6q2whhhaosbsrs9nck7httwtyulo7q05y">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>mq2VGjmMTkeSL4Bek+9jx9PV61eOflabnX5ECSQlb8j7CW3BRKxiO9KWCw9SCbwp+rXKUA7k4rSO
+VDkfln9f6g==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QIJCMDEk+7g/Ewg26U1fGceWo9rRNjQsR6cCCk0D1UEN9T0SS5BoNYfkndaUNa3WiWCIRPmQMqJN
+xrHMV9Xa4XvK4xkKI829hpstX8CWzMDVXBBA84JM5PtLSpB9tPo+SRYZ97NELghnFqoipa1Hfjss
+sXdZozNC7KH11dpDEcJyj3bUIXe/WHeAoV7UrnYtn0aZKTffXArZs5MPp9FXClLYTgOmKjIRhJ5s
+jvJTbZeIZKEpApbULKs4PLLHbt+Xh7BSfHKAKx0RqObCjL1lfRLyUdnw8Hq2UcZm8uqNtt/o2eOr
+7AOVOLsh+IS/Tg7h2YK1W6QX/hfQMaFiJqoeBz71k0HZT3ubl4FzH2F2lqUKZGiOMXetwCyp0Rfr
+jMD2MgMaOWOh9eenNhQhZ+3XVgSMA8qc1kfdeKxMlEi5gRS78zrK+EYlF+CRstuUj0kWkdlYV2+i
+Oxg5EFAytsX2coixhybyhQ4n0NRqyHhKknATN6e9FpUThXdPTc5JXYcK
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xi/lUuqqShPGIX7/y8ZNh0iDQRuyDqfYFxleXRv2iuWhbm396PchYP3eL79qYeimvRxT3a9T94z9
+3/v50XnmiWR+2iHvqwnnkOANS+eXIW+ejdfn1qmz2j3kZCBgUD+oD97oikGTjyesTCBiDDg9LO0o
+EoCwQV3MK5WHoYr5974QJ52EE6qp3Ob8gDDX0RaddnpgsxO5kz1wGX+4n5rApIBeGCFl3iceRXwb
+OuZHOdnKCSLpsJH4Tx7vPgEy8cszTW35XlFjeTtG6Mjl9cXLrNB+YYBUb76MnfqEFKWZiENbVVw8
+0/hD/3KnUZai/bnvKFRxUWwn2svgkExUhTKJ8QooFREFp7GO3aRMHlb8cvSt/3T+B13O0PIgy739
+T4oHgYBzjfmUlkxcsH8gA90o8IW7LxHMgc4jDbrGr0UUtumORypbANDZwhs4xgD02uHu1khGPjZf
+eaFOwVKPfFYXj2ASjAurZktWtGc9Lbnqb2fxJrxItNxFSMI4cMnLRLLV
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEZTCCAs2gAwIBAgIJAKwfBhXVl0rFMA0GCSqGSIb3DQEBCwUAMDUxMzAxBgNVBAMTKlBvbGl6
+aWEgZGkgU3RhdG8gLSBTQU1MIE1ldGFkYXRhIFNpZ25hdHVyZTAeFw0xODA2MDYxMTExNTVaFw0y
+ODA2MDMxMTExNTVaMDUxMzAxBgNVBAMTKlBvbGl6aWEgZGkgU3RhdG8gLSBTQU1MIE1ldGFkYXRh
+IFNpZ25hdHVyZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMYv5VLqqkoTxiF+/8vG
+TYdIg0Ebsg6n2BcZXl0b9orloW5t/ej3IWD93i+/amHopr0cU92vU/eM/d/7+dF55olkftoh76sJ
+55DgDUvnlyFvno3X59aps9o95GQgYFA/qA/e6IpBk48nrEwgYgw4PSztKBKAsEFdzCuVh6GK+fe+
+ECedhBOqqdzm/IAw19EWnXZ6YLMTuZM9cBl/uJ+awKSAXhghZd4nHkV8GzrmRznZygki6bCR+E8e
+7z4BMvHLM01t+V5RY3k7RujI5fXFy6zQfmGAVG++jJ36hBSlmYhDW1VcPNP4Q/9yp1GWov257yhU
+cVFsJ9rL4JBMVIUyifEKKBURBaexjt2kTB5W/HL0rf90/gddztDyIMu9/U+KB4GAc435lJZMXLB/
+IAPdKPCFuy8RzIHOIw26xq9FFLbpjkcqWwDQ2cIbOMYA9Nrh7tZIRj42X3mhTsFSj3xWF49gEowL
+q2ZLVrRnPS256m9n8Sa8SLTcRUjCOHDJy0Sy1QIDAQABo3gwdjBVBgNVHREETjBMgipQb2xpemlh
+IGRpIFN0YXRvIC0gU0FNTCBNZXRhZGF0YSBTaWduYXR1cmWGHmh0dHBzOi8vYXV0aC5wb2xpemlh
+ZGlzdGF0by5pdDAdBgNVHQ4EFgQUDVJbBC5Pa/jLMsDyFxaL27MgpUYwDQYJKoZIhvcNAQELBQAD
+ggGBADJ9dM7MDHnvQq0Ui1QxELFRF69nZPeV2yTMInt3fqDOTsjrFZbigTAEmix9bRIbGrmiXSDx
+1jtTEaBfFX1jR/rzCwXK3UGp8qtP3IQyWhaw5azmj3c8ZibryKGRmkH3B8qDj0mbaFNRt4/D0/Gp
+IIQmn+UdvNG2f+7b0jqfOvGqKI8zioioEjYSAd2kYoxTyAHEsM47s8Lgut0p9AiEKZxHMVvgkR5z
+Ce7qm1DltnhHJ5Th+pC04zgicvUdQ/sC0G/Wx97CSyh0zshXx8wuNtxK3cfYE+ULEjYgGx4ANa0l
++EMzq1W7CMoaj1vEcy3GHYaPMsFbPMynqn4dfluCwrb9t/MnBebic3dNP5VbeHxWj1YUJ+2djBc9
+GQLnsauPULAByHsSFp17M7EBfR4iKBJKJD/aAyogZ96S9D+3HJjEJPQqZ8ToJZocaKbc7jtQxVph
+1H+pTMTJ61rKKJ8ZfslHJxqvEG0XBCJwYFnMV2AUr4Rryrpdg6Zy19RjtnzkFQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIESjCCArKgAwIBAgIJAIHQOFmVqjjwMA0GCSqGSIb3DQEBCwUAMCwxKjAoBgNV
+BAMTIVBvbGl6aWEgZGkgU3RhdG8gLSBTQU1MIFNpZ25hdHVyZTAeFw0xODA2MDYx
+MTExNTVaFw0yODA2MDMxMTExNTVaMCwxKjAoBgNVBAMTIVBvbGl6aWEgZGkgU3Rh
+dG8gLSBTQU1MIFNpZ25hdHVyZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoC
+ggGBAJ3NrPJBKyVpg+UUGq6/OH7NhcGkV5uCEBrYo1f+yKIz6TwQkYb7aFLwsbPD
+uEGng+/C2oQthxqzeUDzPd/zpnxzMSB6/1upfIpJBeFD7WbHSUYzjkDCHCXiHe0N
+FL5yyXicji44dZSMLLiKuk1iNC/GCfLQ2I9fVNA58dv5G7jzkg1MR8gqM8wi7p+s
+sWoUJMvwcAZSArtHpqvfl45258AVTaWTTRHwRVW7+x8gnf8w2WRVen0N+GHyx/hI
+R33K2GixqyzjndgINeVqNQ3JdGRJIHw6T4G9IG4qzDJU0h8MtRGq9NfWhAJmz09s
+b8NIUYOnqKcA0qbh4Y7gXNYSgFz4trwMU3msGAkdUYfUIf8uqySA2RNEB5DVLfcg
+PwNC42pajR6vNMR7RpcpRI6CLkVfcUWrtUUDUltZdiYzWBjAJ6btV1bZy1JqMKiX
+4ei2rGvKDKSIBudRaJ/Zwy5OIO5EEtre7jgQMnJT+UlhopNUXoKEqh4DeTkBCD2c
+h8XQKwIDAQABo28wbTBMBgNVHREERTBDgiFQb2xpemlhIGRpIFN0YXRvIC0gU0FN
+TCBTaWduYXR1cmWGHmh0dHBzOi8vYXV0aC5wb2xpemlhZGlzdGF0by5pdDAdBgNV
+HQ4EFgQUgBEyFMjEd8/m6paoF0+aHLBPUg4wDQYJKoZIhvcNAQELBQADggGBAIVr
+4K+EWy1C6Tt/7OEUBmubdMekyk+Vryk95RrLflEpXbXHUlA3S//tmFv4GOxBJN3F
+Z2PuJ5SXH9eRex23dt4bCBY5CeVAcCiz2MDTfR3ATuAQHCMPRsPd9vwFRXkqCS9l
+BfRInbPIstMHUAuiIJmffn3ULLN+bYPq45AFbKpBLNSK9epE9pnJuP+tFf1VpMzW
+ibAn7MOTytd7yLxX21sEW7pCnY/uBY13BCUqxheKNpI8hxnNx7deCyP03juy8vl9
+Wu+dkugoqBIwTPwDhsTyyQEKjkgKGgxyenZAnWrp5QayJ0Re5/GdmWxjTHQ1SG0M
+FR3QkoO4gOfcvGatG3IXq2sNpHt1uSAmlcw6ZqRdOKJcFuhip4peJZ98wv+hwkSX
+/Pn1GiX2rj0T1Op6RyNzmEDy1tCPHE2TyzFfuL+OTTWFrNKX40z6LP6v4w/MBgtd
+aMfosUSWPfWEOEA88vHaSIYYONZSUX7ujW9qhpBqUa1Y+AOcgg0wrbAgvNgfbA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.poliziadistato.it/iam/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.poliziadistato.it/iam/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.poliziadistato.it/iam/SAML2/POST" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0"> <md:ServiceName xml:lang="it">Dati Personali</md:ServiceName> <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Polizia di Stato</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Polizia di Stato</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://auth.poliziadistato.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_09ab0e8c91da3ebcbbecef0de21ad906033a6805631e9b69264a6d061900ee97" entityID="https://www.comune.settimo-torinese.to.it/serviziSPID"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_09ab0e8c91da3ebcbbecef0de21ad906033a6805631e9b69264a6d061900ee97">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+29KfhQVkbs6yQLq3VvDEL09Dhhzfn35QsozNbAx8fE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+2ZcDw5uCzA6PvVesc7md52jl3YnveHWUdp1B825m3vSochuO8AbLlo+EEiccbMmuqExeOa+joRL8
+ZEHBnRJx+5Tdp9oqFx4pSznYaqWrPlI9i4+C5ohlpaXnRZQqdtJEZpRx4Dynd5sSqRIru2I3/M9h
+2vvvV1yUOukwYdMijOblJX/SThefq+R49+xP18tvLvzUYxOb4Rv2+NgY9G/IjVM100m/EdYWYk49
+s6NArYpbTrSM5n7aqnuNisCJxjXzUsxxdHLEAawljbV8pXaCYV8zIM7ZU4+GkhNifwbxXjzjLT2/
+s3mu2ml8s5emqg9juWLAZzv6Cxfa+MRM5KcGNw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+85ewM5++1i4WcLAcp37XEpTJQ6FG3MnUk5ABmeICca2JN2t3Gv53OC9NOGQFLji7hGD5FZxuBnEa
+pGoZs0HCVoQSFGgGaW2MnDB+MqAXYg1wqxpHY0hMhNS1Gt1yT68isPG74PO4Wczsme2oUJNa/GLJ
+h8UA85oM13LNnAOJAqN0S5s3lbaTVv2USFk0IrOfLz5BryqAC+tZJCBL1n0J6er6+65lKsEMqAOj
+Aejo6giGrrJckk+1TBEiUj7zTpr8emBPYWpl9iKqlyuobGOFY5lKbj6dx87ukPlGNGnu1g2BdYSZ
+s3OJrAu9vRWNvWnifwpBnGtucXR752nqmQ69PQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/DCCAuSgAwIBAgIRAPdpRVKZh+33ANvZ+1Ls1fwwDQYJKoZIhvcNAQELBQAwgaQxCzAJBgNV
+BAYTAklUMRkwFwYDVQQHExBTZXR0aW1vIFRvcmluZXNlMSMwIQYDVQQKExpDb211bmUgZGkgU2V0
+dGltbyBUb3JpbmVzZTE+MDwGA1UEAxM1aHR0cHM6Ly93d3cuY29tdW5lLnNldHRpbW8tdG9yaW5l
+c2UudG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBBOklULWNfaTcwMzAeFw0yMDEwMDIxNTI3
+NDVaFw0zMDA5MzAxNTI3NDVaMIGkMQswCQYDVQQGEwJJVDEZMBcGA1UEBxMQU2V0dGltbyBUb3Jp
+bmVzZTEjMCEGA1UEChMaQ29tdW5lIGRpIFNldHRpbW8gVG9yaW5lc2UxPjA8BgNVBAMTNWh0dHBz
+Oi8vd3d3LmNvbXVuZS5zZXR0aW1vLXRvcmluZXNlLnRvLml0L3NlcnZpemlTUElEMRUwEwYDVQQF
+FgxQQTpJVC1jX2k3MDMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDzl7Azn77WLhZw
+sBynftcSlMlDoUbcydSTkAGZ4gJxrYk3a3ca/nc4L004ZAUuOLuEYPkVnG4GcRqkahmzQcJWhBIU
+aAZpbYycMH4yoBdiDXCrGkdjSEyE1LUa3XJPryKw8bvg87hZzOyZ7ahQk1r8YsmHxQDzmgzXcs2c
+A4kCo3RLmzeVtpNW/ZRIWTQis58vPkGvKoAL61kkIEvWfQnp6vr7rmUqwQyoA6MB6OjqCIauslyS
+T7VMESJSPvNOmvx6YE9hamX2IqqXK6hsY4VjmUpuPp3Hzu6Q+UY0ae7WDYF1hJmzc4msC729FY29
+aeJ/CkGca25xdHvnaeqZDr09AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgG
+BitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEA8pYkJ/TfTg/Z4iaY6Q1yLiuOvWUalqf4k2S/TiAW
+VO8P3JIMDD8iKTW+IQmi3wc7g8ePhX4EM8d0L5WoKuZjAghubMO/rBcPcOwhUhEBmZFRGqciK4A1
+4dXCFv5EYpDRnqsx3NUIdq12OCd+ICpHy3NSLHRhStLdV/qX64RRaN9lLwloX0NzDB4cb9x8Tv0+
+XyyHINdBaDK9qB+lf/8ndv7h2Tsw457K1ryo++C+Hnr6Muso8NWyEe8C3JBa2KjlJoSvM6PfIfCA
+tXDKrt5OrBEKivF5N9omSmzKE4mR45f2idAefy1vRQP6c1bnjRiKj96bJjNSLLwKyCM6TUn6Bg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAPSTWoL1o+ZxMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUuc2V0dGltby10b3JpbmVzZS50by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTcxMTIxMTAwMTIzWhcNMjExMTIwMTAwMTIzWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnNldHRpbW8tdG9yaW5lc2UudG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA/QH+QAb0epEtc3+E1Sj6nRvOHEfVe5dvupEFKhHv3XhTG0FrtbIy+zOPFW0WlQSzFK5TTJGMMxYHZGrOZAuVXAbTEs4NIbqBUiIgkiEbiVFeLCqh7s4R68Hqoou7yHjf/FJqAs1PjRKrmUuWdqKaAmvKNspT1LnftPpTTO2/4JCyaJaL7TK3EXhB3K17NQUtJWBuQ9ztBXYeW7GzDqXLoeG60iIaZbgdu2HsBn2MUwa6Ma1ZwOzuMjfhJyCkKOua67qt4DUPMsPnEVzP1vx4ZAsLjn4RzlCt72m2R0gqMQ+rJVHx1mQESVma7OT78o5hHqO3XInFauBPTfzHOVipiwIDAQABo1AwTjAdBgNVHQ4EFgQUnpR+AX8gq0EpD/dgHxoQIik9ZIMwHwYDVR0jBBgwFoAUnpR+AX8gq0EpD/dgHxoQIik9ZIMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAaeSadhcbmBOsmAvsAPKkwYhN92OXhREd0KgwOwIyR76iSdVOCU8pJZ1IVww3oYobgz7Ogr3G2EKOcBaIM8v8biJRG3TVwpHhShRnQ9jwLGvAvp91vBaxbVLOYuts69KvZHyLsCZBC8UNbzSfxJXitlKbQkZ/KpZKQaSdPDnx3BuoJeDN8+iFZZKdoxmcD5UzhQH+U5vA/n+qlidq6a5ldYXIX9EBGD3nGdC42kVKKY1fmBg2XIewP/r2mKDYu4iLXNmfUIfCrIVJvScM8HwIOUisuTxN7nKV37kg4Rwp+CBSC7lFt9DEfRPQCwQ3gj+ocSyJLRzUzZFq2bByuP915g==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<md:KeyDescriptor use="signing">
+     <ds:KeyInfo>
+       <ds:X509Data>
+         <ds:X509Certificate>MIIC5TCCAc2gAwIBAgIJAOmOa32IdHVHMA0GCSqGSIb3DQEBCwUAMBIxEDAOBgNVBAMTB3RlbXB1cmkwHhcNMjAwMjEzMTQyNTA4WhcNMzAwMjEwMTQyNTA4WjASMRAwDgYDVQQDEwd0ZW1wdXJpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtYW147tiqw6yYxvex+FfJqdsTm+NOgcWG6VfvMgOJcl9nPXDZcjgkBMDF6mkYoxbch184lqxFQw4FHAWD2F0Sdt2SsGmPMAaLbt9ibfRL4qUeoMdiiHJpmPSL4yLDqrCLw8m+PPj/Fqr6EfK8MenhcET4xWnoOT1s/pZHRL/AoeWC9tfeqGWFBW9kJ/ze1/uU4QGAqKGq9o9rwD0b/pzDbJl2IhimFsrDNw6Cslcn/kjskV6fkZxfhX9xxKd7aEht/61nCFCQRR54aPWSvWdD5zo6VY6FSWnJrbcHvVpOoD6FG0A/ULSsRM6IsvpRMIUQNlUFak15uGdbPYMvbqaMwIDAQABoz4wPDAbBgNVHREEFDASggd0ZW1wdXJphgd0ZW1wdXJpMB0GA1UdDgQWBBRnhsHpxN8N/uIAv2OtNOOBMms56zANBgkqhkiG9w0BAQsFAAOCAQEAqsR13JvO1v1HjzD/+XCTKsT14JIHXGyOGuABRjekLK9Pm41diuT98Q+aNPBnNZwn4VdsUngKj6MyvwgE2/xQaljlo1GBMVfwsTynECFjmdXeb81G1KtFeiPZBe3wSUjBQ+BjZDoDP1Ntf4yCwNt4KnaFHRxqWziy384WawFw5BMlCLTrILvJ2+Gzu6yvw+UysM7KsLTKzBKJznoK1Z51RdfN468fi0M6VrerWPVCqqbM9fCgd3bVvkcXdgRR5p3xhVUXtMogM1RW4xJQzRq5zIZ41xOF+ZZy7ysTjX/K9RiDsu/MtPXaCUAza07NSsDvEW2TBMrz87h68Q7DhddTfg==
+		 </ds:X509Certificate>
+       </ds:X509Data>
+     </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/DCCAuSgAwIBAgIRAPdpRVKZh+33ANvZ+1Ls1fwwDQYJKoZIhvcNAQELBQAwgaQxCzAJBgNVBAYTAklUMRkwFwYDVQQHExBTZXR0aW1vIFRvcmluZXNlMSMwIQYDVQQKExpDb211bmUgZGkgU2V0dGltbyBUb3JpbmVzZTE+MDwGA1UEAxM1aHR0cHM6Ly93d3cuY29tdW5lLnNldHRpbW8tdG9yaW5lc2UudG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBBOklULWNfaTcwMzAeFw0yMDEwMDIxNTI3NDVaFw0zMDA5MzAxNTI3NDVaMIGkMQswCQYDVQQGEwJJVDEZMBcGA1UEBxMQU2V0dGltbyBUb3JpbmVzZTEjMCEGA1UEChMaQ29tdW5lIGRpIFNldHRpbW8gVG9yaW5lc2UxPjA8BgNVBAMTNWh0dHBzOi8vd3d3LmNvbXVuZS5zZXR0aW1vLXRvcmluZXNlLnRvLml0L3NlcnZpemlTUElEMRUwEwYDVQQFFgxQQTpJVC1jX2k3MDMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDzl7Azn77WLhZwsBynftcSlMlDoUbcydSTkAGZ4gJxrYk3a3ca/nc4L004ZAUuOLuEYPkVnG4GcRqkahmzQcJWhBIUaAZpbYycMH4yoBdiDXCrGkdjSEyE1LUa3XJPryKw8bvg87hZzOyZ7ahQk1r8YsmHxQDzmgzXcs2cA4kCo3RLmzeVtpNW/ZRIWTQis58vPkGvKoAL61kkIEvWfQnp6vr7rmUqwQyoA6MB6OjqCIauslyST7VMESJSPvNOmvx6YE9hamX2IqqXK6hsY4VjmUpuPp3Hzu6Q+UY0ae7WDYF1hJmzc4msC729FY29aeJ/CkGca25xdHvnaeqZDr09AgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEA8pYkJ/TfTg/Z4iaY6Q1yLiuOvWUalqf4k2S/TiAWVO8P3JIMDD8iKTW+IQmi3wc7g8ePhX4EM8d0L5WoKuZjAghubMO/rBcPcOwhUhEBmZFRGqciK4A14dXCFv5EYpDRnqsx3NUIdq12OCd+ICpHy3NSLHRhStLdV/qX64RRaN9lLwloX0NzDB4cb9x8Tv0+XyyHINdBaDK9qB+lf/8ndv7h2Tsw457K1ryo++C+Hnr6Muso8NWyEe8C3JBa2KjlJoSvM6PfIfCAtXDKrt5OrBEKivF5N9omSmzKE4mR45f2idAefy1vRQP6c1bnjRiKj96bJjNSLLwKyCM6TUn6Bg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/settimotorinese"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.settimo-torinese.to.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/settimotorinese" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/settimotorinese" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.hypersic.net/cmssettimotorinese/spidassertionconsumer.aspx" index="2"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.settimo-torinese.to.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+	<md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+   </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Settimo Torinese</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Settimo Torinese</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Settimo Torinese</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Settimo Torinese</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Settimo Torinese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Settimo Torinese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Settimo Torinese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Settimo Torinese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.settimo-torinese.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.settimo-torinese.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.settimo-torinese.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.settimo-torinese.to.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_i703</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:settimo@cert.comune.settimo-torinese.to.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

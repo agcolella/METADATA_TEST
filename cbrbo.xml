@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_2a001be-e2c5-4009-928a-7476a01c9f38" entityID="https://www.bonificarenana.it/SPID">
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <Reference URI="">
+        <Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>tvr4BOKQ0LzrsxKVVEtd/wtHZDLpDfsBszKBPd5EY78=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>S9aesCoGjjptDw0vVXSbKV2GIvYi/sZInfzXH5erjtOLFZM0w/NoITgkkGQ+n3mq
+l30LsaqbmOUq+xX5Msh4+rUf2KcEwlfwP+5HYaAQhEr7UUwOgc6450rY8lq6Arb5
+9vj4CFBvW2r+sv8YkR9SAv+DGOwVASiJ1XHggEX0/B4MlLqDUYx9U7VyPx3slAb9
+sNVQoDRO4uK/1NzDDdbW3076BhjhkCVpkBmScNlaAmVUtwIwtiqt5D8h6W/wn0Il
+OQMATTDCyNZEytw6zMzviHHT/5gpxcEpc54Ylp9SDWzoLI1vB+UsW9KcXd5DCAFi
+Cma1LGaPkIcF6pDVGC7+LQ==</SignatureValue>
+
+    <KeyInfo>
+      <X509Data>
+        
+        
+        
+      <X509Certificate>MIIGPzCCBSegAwIBAgIQC7+3sJZq9ne32mwhEtolQjANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe
+Fw0xODEwMDkwMDAwMDBaFw0yMDA2MjkxMjAwMDBaMB4xHDAaBgNVBAMMEyouYm9u
+aWZpY2FyZW5hbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCI
+c+ZFAEzgaCPquUWJla/fywkIfw2wCTlKlzi7/CQmDNLSNEoqa6ItnATPI4RHjt2R
+1KRTnWSH15NFnvY6LQY5t5CieuLywFktUorhHtWPlkHF5BsHMKOTInm51HTqlWqG
+q8BPbFGukyz0xaNV9cGbGpV07Q5+YYpeLH0Q8LTce/m1AWYkkF242eScZoKB/Rt6
+3BbcafSoD1VwUhozFNClDbf6/Eqr7v+JyTPbmQ0LvNhz1rg5t8cWGGZWDaI4lmRW
+6mLnKhdcSnTSsI/GFEN0AX4yNHA8vv+WeIcFvC8+Gtr5Mzt01NEFlDmnciSqu7cG
+Ony8+j7lacSzp8OncEiXAgMBAAGjggM3MIIDMzAfBgNVHSMEGDAWgBRTyhdZ/GvA
+AyEvGq7kqqgcglbadTAdBgNVHQ4EFgQUAyFv88CpAg9lRQfInckWxFtimJowMQYD
+VR0RBCowKIITKi5ib25pZmljYXJlbmFuYS5pdIIRYm9uaWZpY2FyZW5hbmEuaXQw
+DgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA+
+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY2RwLnJhcGlkc3NsLmNvbS9SYXBpZFNT
+TFJTQUNBMjAxOC5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1sAQIwKjAoBggrBgEF
+BQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgEwdQYI
+KwYBBQUHAQEEaTBnMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3Ns
+LmNvbTA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMucmFwaWRzc2wuY29tL1Jh
+cGlkU1NMUlNBQ0EyMDE4LmNydDAJBgNVHRMEAjAAMIIBfQYKKwYBBAHWeQIEAgSC
+AW0EggFpAWcAdgCkuQmQtBhYFIe7E6LMZ3AKPDWYBPkb37jjd80OyA3cEAAAAWZZ
+GvorAAAEAwBHMEUCIDD2I17oskqWhPl2nyUXDV3xsVD4cWRnjv6tXbNmqjAZAiEA
+of37QpxQjBzf5F6oms2VIiWjJECrM5sz9wijpRJugc8AdgCHdb/nWXz4jEOZX73z
+bv9WjUdWNv9KtWDBtOr/XqCDDwAAAWZZGvp6AAAEAwBHMEUCIBOk4C4Zwu2fc1hx
++UE2Z3B1hU1Ikb5DxFs8HY6CnVinAiEA3/15FeRXt0Tpmo+eXDl+zBSfDpfDjIjv
+WuZfb2wAJxQAdQC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2jh7RhQAAAWZZ
+GvnSAAAEAwBGMEQCICI7pRtR64LZ61ljhH3gE2yZ9bCodhPmT3mwJCrGwB+tAiAe
+vkw3vvXbrDkA299OxJIjWA20FVXDWwuVaoTVSOlVojANBgkqhkiG9w0BAQsFAAOC
+AQEAMNc6casZDLcLS1QbVo2bDC/6/CShVgFBwZDy3pZp6dEV3jSKYj2NiIDHhVyw
+9UYSaEaQ+/1vjetfpxAb/bdeatNXSiFB2XeNMWDC6gRG2lmB89jNJMdVyTePEU4h
+nUKIhiEBllw0hhhI5lmbIt++kk7+jdGaYaPtj4vFHDVqPZW38aZv5qmonjnxB9b+
+YW4XX9PSSQju9kk1RTbJk8waKBus/Z2csbUtaqezeq/dc3QlNkd/BK3gD4oMfwaI
+2+zEdjH14cd5c+Tn42BjK1Jlc/POvnj0CWqwHNPY5+nw5knp0Ol4Kh9pZ03UhX6I
+YpY4sN6zfH/vO02dy8C3e4srqA==</X509Certificate>
+<X509SubjectName>CN=*.bonificarenana.it</X509SubjectName>
+<X509IssuerSerial>
+<X509IssuerName>CN=RapidSSL RSA CA 2018,OU=www.digicert.com,O=DigiCert Inc,C=US</X509IssuerName>
+<X509SerialNumber>15616962325280358965848463121250395458</X509SerialNumber>
+</X509IssuerSerial>
+</X509Data>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+iHPmRQBM4Ggj6rlFiZWv38sJCH8NsAk5Spc4u/wkJgzS0jRKKmuiLZwEzyOER47d
+kdSkU51kh9eTRZ72Oi0GObeQonri8sBZLVKK4R7Vj5ZBxeQbBzCjkyJ5udR06pVq
+hqvAT2xRrpMs9MWjVfXBmxqVdO0OfmGKXix9EPC03Hv5tQFmJJBduNnknGaCgf0b
+etwW3Gn0qA9VcFIaMxTQpQ23+vxKq+7/ickz25kNC7zYc9a4ObfHFhhmVg2iOJZk
+Vupi5yoXXEp00rCPxhRDdAF+MjRwPL7/lniHBbwvPhra+TM7dNTRBZQ5p3Ikqru3
+Bjp8vPo+5WnEs6fDp3BIlw==
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+    </KeyInfo>
+
+  </Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+   <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.bonificarenana.it/Shibboleth.sso/SLO/Redirect"/>
+	<md:NameIDFormat>
+	urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+	</md:NameIDFormat>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.bonificarenana.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi di pagamento</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">
+        Classe di aggregazione di tutti i servizi che prevedono l'identificazione certa dell'utente al fine di consentire il reperimento di informazioni sui debiti e/o le posizioni maturate
+      </md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Consorzio della Bonifica Renana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Consorzio della Bonifica Renana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://www.bonificarenana.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

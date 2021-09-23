@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizi.provincia.pistoia.it" ID="pfx6e35090d-bf7d-5bcf-223a-c5827a2682fd"><ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <ds:Reference URI="#pfx6e35090d-bf7d-5bcf-223a-c5827a2682fd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>xGFW2vIVzOlKWAY9o4N0FnUXvx9r7XHqIvNQTYxUnuY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>KqciMTzlEg59v/TTcBn/XXspHEhkG73a8/9+x1onEjXGuKnBCn5qTHdVOCMYVozj3L1T59Ni4c0mJLzNOjc4dCV460pll8pyYxKGziDXHPH3822xDOvRufuUKFDfqUuG5cyrhLBrGf0llcG8mYokvf23cF2tM0C3+yiztQgDAM+4aTuptAenD1W/vhM74uiU4K+Kw1cziBc6YrAafSmq2rBdamdh8/Hyflc/P+Om50pMRdyfJk5lQrYPQudtd9eGT+wbhFWixYZcEIoUKEeUtvaqyneB4HZBWkUrwVcIxLgDEJpXR1loTCDva4n+HGxR90E5xWn6SrX7/5he/tpaLw==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIEUDCCAzigAwIBAgIITez7Zk2Hub8wDQYJKoZIhvcNAQELBQAwgb4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQaXN0b2lhMRAwDgYDVQQHDAdQaXN0b2lhMR0wGwYDVQQKDBRQcm92aW5jaWEgZGkgUGlzdG9pYTEUMBIGA1UECwwLSW5mb3JtYXRpY2ExJTAjBgNVBAMMHHNlcnZpemkucHJvdmluY2lhLnBpc3RvaWEuaXQxLzAtBgkqhkiG9w0BCQEWIGluZm9ybWF0aWNhQHByb3ZpbmNpYS5waXN0b2lhLml0MB4XDTE4MDkxMzA4MzE0NFoXDTM4MDkxMjA4MzE0NFowgb4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQaXN0b2lhMRAwDgYDVQQHDAdQaXN0b2lhMR0wGwYDVQQKDBRQcm92aW5jaWEgZGkgUGlzdG9pYTEUMBIGA1UECwwLSW5mb3JtYXRpY2ExJTAjBgNVBAMMHHNlcnZpemkucHJvdmluY2lhLnBpc3RvaWEuaXQxLzAtBgkqhkiG9w0BCQEWIGluZm9ybWF0aWNhQHByb3ZpbmNpYS5waXN0b2lhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1q68IwrQA1I4Nx4v6fD6GdX0fmHcMCmI0rvD2XIzlMMS0xNkPe2tVNQZT61k+CPVZf8BFB0bDU6VcQUJR+zAi2+WQGgqknpy3HKrimhRN/FQpYLAR46MO3fz321FYUJMg0vH2P8gF0ykaEh4+FjlPZgsQ/2MhQS3+IOE2Yq5oAGTln8J0CW3q1IxsWmjDl5HcIcIV3eluj69+npb9Lrx2R1zA3N2QTMqlkuzpwekG8DC32fxofX3TictkQ3tRDZG1jw6lXhR0T4jmpel0tZYNS3d6RFk6pxx7W+G8jXKun4t3xa3Fk9QgZt6QGYBu+6iaZL4pSdMk5ZKiDcHHpO22wIDAQABo1AwTjAdBgNVHQ4EFgQUHZvO3xPf6PD7h67rItsyybHl/8MwHwYDVR0jBBgwFoAUHZvO3xPf6PD7h67rItsyybHl/8MwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEABQWfzvZopZ9b+3CJUy0xNbYbKGzvYYTVpHFeRcLElDL0tIYMBbieeAIT8RpL6bhjbkj+/YF6wvyFd9eyMDLcyDfBjmI567a+FDOyxdDAmWAsXxMRzaM0MSozKaq1FwNYjlc/EuqVnbK95yzP4ad+6CA7TFfYIcUAvCGRJI4EY4eyZ+ULH5WkJzqmPwyuxeIe4hUXbgEZk+0yTXw/CIK5+oV4N25YyyWAZ/NnUrEP9RAdXFVpbRYC20YIxyY3SJERfjKm6TqnGdghh33vp0MoYYMQveRaEQ+El96G5Oqt3eLA1Tvbqg5AwRcdicPKfYMAv5v0i6NRwOm8SHje7BjVWA==</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEUDCCAzigAwIBAgIITez7Zk2Hub8wDQYJKoZIhvcNAQELBQAwgb4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQaXN0b2lhMRAwDgYDVQQHDAdQaXN0b2lhMR0wGwYDVQQKDBRQcm92aW5jaWEgZGkgUGlzdG9pYTEUMBIGA1UECwwLSW5mb3JtYXRpY2ExJTAjBgNVBAMMHHNlcnZpemkucHJvdmluY2lhLnBpc3RvaWEuaXQxLzAtBgkqhkiG9w0BCQEWIGluZm9ybWF0aWNhQHByb3ZpbmNpYS5waXN0b2lhLml0MB4XDTE4MDkxMzA4MzE0NFoXDTM4MDkxMjA4MzE0NFowgb4xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQaXN0b2lhMRAwDgYDVQQHDAdQaXN0b2lhMR0wGwYDVQQKDBRQcm92aW5jaWEgZGkgUGlzdG9pYTEUMBIGA1UECwwLSW5mb3JtYXRpY2ExJTAjBgNVBAMMHHNlcnZpemkucHJvdmluY2lhLnBpc3RvaWEuaXQxLzAtBgkqhkiG9w0BCQEWIGluZm9ybWF0aWNhQHByb3ZpbmNpYS5waXN0b2lhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1q68IwrQA1I4Nx4v6fD6GdX0fmHcMCmI0rvD2XIzlMMS0xNkPe2tVNQZT61k+CPVZf8BFB0bDU6VcQUJR+zAi2+WQGgqknpy3HKrimhRN/FQpYLAR46MO3fz321FYUJMg0vH2P8gF0ykaEh4+FjlPZgsQ/2MhQS3+IOE2Yq5oAGTln8J0CW3q1IxsWmjDl5HcIcIV3eluj69+npb9Lrx2R1zA3N2QTMqlkuzpwekG8DC32fxofX3TictkQ3tRDZG1jw6lXhR0T4jmpel0tZYNS3d6RFk6pxx7W+G8jXKun4t3xa3Fk9QgZt6QGYBu+6iaZL4pSdMk5ZKiDcHHpO22wIDAQABo1AwTjAdBgNVHQ4EFgQUHZvO3xPf6PD7h67rItsyybHl/8MwHwYDVR0jBBgwFoAUHZvO3xPf6PD7h67rItsyybHl/8MwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEABQWfzvZopZ9b+3CJUy0xNbYbKGzvYYTVpHFeRcLElDL0tIYMBbieeAIT8RpL6bhjbkj+/YF6wvyFd9eyMDLcyDfBjmI567a+FDOyxdDAmWAsXxMRzaM0MSozKaq1FwNYjlc/EuqVnbK95yzP4ad+6CA7TFfYIcUAvCGRJI4EY4eyZ+ULH5WkJzqmPwyuxeIe4hUXbgEZk+0yTXw/CIK5+oV4N25YyyWAZ/NnUrEP9RAdXFVpbRYC20YIxyY3SJERfjKm6TqnGdghh33vp0MoYYMQveRaEQ+El96G5Oqt3eLA1Tvbqg5AwRcdicPKfYMAv5v0i6NRwOm8SHje7BjVWA==</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.provincia.pistoia.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.provincia.pistoia.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Servizi Online - Provincia di Pistoia</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Servizi Online - Provincia di Pistoia</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://servizi.provincia.pistoia.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

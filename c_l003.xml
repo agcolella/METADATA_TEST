@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Sumirago" entityID="https://www.comune.sumirago.va.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Sumirago">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LXG6RHwxkDjOwZrrMNkHNsHAnAFPQkd0z72zmPn1/to=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hkH+baph8AWFUal6vyqHW0OJKlVJF4dPMetWGe7k/PPBQ57YQtdO6gm+Y9lf+1u2vfWLtGhLEN3f
+7UktuZ+fCpN2pAcXH7oY83YtawEbg+zMsb1UKk/Xz5U5IBQjxQIUcMWyzgedAalerS1O2e0EZ8Ad
+tazj4W66wAfboSCWQpnbBqnpCeY5rhmSde+2mPcvTgW00qYzFzVo9GTWvn/+ehB++VZDp5jKCxyv
+MomvyCw0vD9XFLTORwiM3NMnJfUZjsOZTG1IEGwt5hwAo0ucgE8F+DofDGa0hyluKQwKA+s/GfKs
+TYULMHcNuqb3GCSs/aw+Jy1fJYIK7xaMQvN2WA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tPiS5h4Nkd6a6bHE6MZEtdd4rY9c1CRRZKOLi+hF5MEYvfB4Gft7qUH5LkKmAJ4qNRMlsZAuRvcX
+RrnbJvvgl6Mc8Ju+CQGHdFXtxY4yLn/vWtfv0NzwE+mAuQyzgzSMlgyuT8noG/743AoBrQBBLmm0
+rRzjVWDkl/Y99kREiRzfYFNRgZW4MZRXy25R4awVMG/xbvrvT88aU2pIY36XVtBfGWv0Cq6ppyFk
+IpzoN5RPKk5Lccqg7nddm33cyY8K6506fXdekRMpRuOghjQFsCPJpBEueYllJSnSToFZiFvjd8bO
+3oZd1Y0FzxWztTBwONcOZhuwou9HFThCSrTphw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAMUElxfQ0nk2MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuc3VtaXJhZ28udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDcw
+OTEyNTcxNloXDTMwMDcwNzEyNTcxNlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zdW1pcmFnby52
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQC0+JLmHg2R3prpscToxkS113itj1zUJFFko4uL6EXkwRi98HgZ+3upQfkuQqYAnio1
+EyWxkC5G9xdGudsm++CXoxzwm74JAYd0Ve3FjjIuf+9a1+/Q3PAT6YC5DLODNIyWDK5Pyegb/vjc
+CgGtAEEuabStHONVYOSX9j32RESJHN9gU1GBlbgxlFfLblHhrBUwb/Fu+u9PzxpTakhjfpdW0F8Z
+a/QKrqmnIWQinOg3lE8qTktxyqDud12bfdzJjwrrnTp9d16REylG46CGNAWwI8mkES55iWUlKdJO
+gVmIW+N3xs7ehl3VjQXPFbO1MHA41w5mG7Ci70cVOEJKtOmHAgMBAAGjUDBOMB0GA1UdDgQWBBQU
+lbefnCP+xRiuzX0r+oaLv2dHoTAfBgNVHSMEGDAWgBQUlbefnCP+xRiuzX0r+oaLv2dHoTAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBV4e6froGP9QyET/ThbXH9MRg4Fbd1R59FKq3k
+x+lJg8gBJKW+0jUNyvwQB6dou/CPGIE6J8qWFN9sIRQ/wdtAPXtyrtLtOFNmra0VcJ/ExOAUKBBK
+ZQVYHafTl+nBVc0JvMhjkfqu6Q8rs+HPpdYLtXjKVWhQ7fIggKsB2DKnDiXJgY5Fz5+MR1amPqRh
+n7vVJIW11gC1cFeBcw4GuD1K9o9rSbiecH5EfQkXxnel9Ien6ZoMmAMi4HN2lMtaxix2RuluZQiR
+mBK4jKi3mIiCE9WGE9I9+LPtpJ0V41N+AGVixiQs/4L+7zri26f/Y26pn0Hhht5PfsooZ4HDmqOl
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAMUElxfQ0nk2MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuc3VtaXJhZ28udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDcwOTEyNTcxNloXDTMwMDcwNzEyNTcxNlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zdW1pcmFnby52YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC0+JLmHg2R3prpscToxkS113itj1zUJFFko4uL6EXkwRi98HgZ+3upQfkuQqYAnio1EyWxkC5G9xdGudsm++CXoxzwm74JAYd0Ve3FjjIuf+9a1+/Q3PAT6YC5DLODNIyWDK5Pyegb/vjcCgGtAEEuabStHONVYOSX9j32RESJHN9gU1GBlbgxlFfLblHhrBUwb/Fu+u9PzxpTakhjfpdW0F8Za/QKrqmnIWQinOg3lE8qTktxyqDud12bfdzJjwrrnTp9d16REylG46CGNAWwI8mkES55iWUlKdJOgVmIW+N3xs7ehl3VjQXPFbO1MHA41w5mG7Ci70cVOEJKtOmHAgMBAAGjUDBOMB0GA1UdDgQWBBQUlbefnCP+xRiuzX0r+oaLv2dHoTAfBgNVHSMEGDAWgBQUlbefnCP+xRiuzX0r+oaLv2dHoTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBV4e6froGP9QyET/ThbXH9MRg4Fbd1R59FKq3kx+lJg8gBJKW+0jUNyvwQB6dou/CPGIE6J8qWFN9sIRQ/wdtAPXtyrtLtOFNmra0VcJ/ExOAUKBBKZQVYHafTl+nBVc0JvMhjkfqu6Q8rs+HPpdYLtXjKVWhQ7fIggKsB2DKnDiXJgY5Fz5+MR1amPqRhn7vVJIW11gC1cFeBcw4GuD1K9o9rSbiecH5EfQkXxnel9Ien6ZoMmAMi4HN2lMtaxix2RuluZQiRmBK4jKi3mIiCE9WGE9I9+LPtpJ0V41N+AGVixiQs/4L+7zri26f/Y26pn0Hhht5PfsooZ4HDmqOl
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAMUElxfQ0nk2MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuc3VtaXJhZ28udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDcwOTEyNTcxNloXDTMwMDcwNzEyNTcxNlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zdW1pcmFnby52YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC0+JLmHg2R3prpscToxkS113itj1zUJFFko4uL6EXkwRi98HgZ+3upQfkuQqYAnio1EyWxkC5G9xdGudsm++CXoxzwm74JAYd0Ve3FjjIuf+9a1+/Q3PAT6YC5DLODNIyWDK5Pyegb/vjcCgGtAEEuabStHONVYOSX9j32RESJHN9gU1GBlbgxlFfLblHhrBUwb/Fu+u9PzxpTakhjfpdW0F8Za/QKrqmnIWQinOg3lE8qTktxyqDud12bfdzJjwrrnTp9d16REylG46CGNAWwI8mkES55iWUlKdJOgVmIW+N3xs7ehl3VjQXPFbO1MHA41w5mG7Ci70cVOEJKtOmHAgMBAAGjUDBOMB0GA1UdDgQWBBQUlbefnCP+xRiuzX0r+oaLv2dHoTAfBgNVHSMEGDAWgBQUlbefnCP+xRiuzX0r+oaLv2dHoTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBV4e6froGP9QyET/ThbXH9MRg4Fbd1R59FKq3kx+lJg8gBJKW+0jUNyvwQB6dou/CPGIE6J8qWFN9sIRQ/wdtAPXtyrtLtOFNmra0VcJ/ExOAUKBBKZQVYHafTl+nBVc0JvMhjkfqu6Q8rs+HPpdYLtXjKVWhQ7fIggKsB2DKnDiXJgY5Fz5+MR1amPqRhn7vVJIW11gC1cFeBcw4GuD1K9o9rSbiecH5EfQkXxnel9Ien6ZoMmAMi4HN2lMtaxix2RuluZQiRmBK4jKi3mIiCE9WGE9I9+LPtpJ0V41N+AGVixiQs/4L+7zri26f/Y26pn0Hhht5PfsooZ4HDmqOl
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sumirago"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sumirago" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sumirago" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sumirago" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sumirago</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Sumirago</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Sumirago</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Sumirago</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sumirago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Sumirago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Sumirago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Sumirago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sumirago.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sumirago.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.sumirago.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.sumirago.va.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

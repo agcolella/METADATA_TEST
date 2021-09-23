@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://suap.sanpellegrinoterme.gov.it/" ID="_120a6ab095cb9cd06af0e36efde6c629199a12b82fc8d062c099bed18b2e8275"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_120a6ab095cb9cd06af0e36efde6c629199a12b82fc8d062c099bed18b2e8275"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Fp5XIrgfaCkSRoh6xhY3HHbgRDhbHqZ1r+4USrbgQrw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>UIFsQotZNN0Dou1t/yBnCxb45wad5w0TBdUh/GbO7snoJJET9LYxCfFOgKNWI/IyH7n95269GeYS2bs9HTD9ROVOnnqPAbsCQ6bseH+xsZpWobKzWKyDuCRalRZrz0dV/EbQbb5p02rIkW2jZ3aTsFbuonP5lw9KCTWRvNKEGgTSQNC/1mlf3Tu3YdJKagFCju3HKBUFXZ/CxyPfk5HSVnCQl5eaBzS8Iqt3rMr3o9gN/GkSIdKHz1lQMg8pweHcSmqfCd5jC0gTQO5NEb9dFV9SdAC9eT8LLVpLGQMDfmr1Ta1N77pWNM6WnI3pzSMixet3KAk9fVYBmSgmENSu0A==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENjCCAx6gAwIBAgIJANre0U8dwA7GMA0GCSqGSIb3DQEBCwUAMIGvMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUU2FuIFBlbGxlZ3Jpbm8gVGVybWUxJzAlBgNVBAoMHkNvbXVuZSBkaSBTYW4gUGVsbGVncmlubyBUZXJtZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnN1YXAuc2FucGVsbGVncmlub3Rlcm1lLmdvdi5pdDAeFw0yMDA1MjUxMjAxMDBaFw0zMDA1MjMxMjAxMDBaMIGvMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUU2FuIFBlbGxlZ3Jpbm8gVGVybWUxJzAlBgNVBAoMHkNvbXVuZSBkaSBTYW4gUGVsbGVncmlubyBUZXJtZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnN1YXAuc2FucGVsbGVncmlub3Rlcm1lLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPXQlia3Bu2NewG7veYkbieEEXwhC2HGdNXanIb4XTF4dxTuELm3aNPpLjSt3n1dp7CxaBGUzQueF1NnGy0DxSn7jzVNuSEDo0DRBEAQfab33nb1RHr5mwHW5EDnUYtKv3JZz/POpPEOQDwJfOqcHPSxs3ERUN1QUsM/kOxr7x8VtqSfJHSAjwWxQUmMtyl7vgEA1yzVC38di6cghJRe/EIELyS5MSu0aVhI7fgkEmFPhGRksG70bfBlNocTEy3YQKD9f31INldTywPvmSxb5SLTRZqZxxwalkegOsHTefGxmyumUkC+Yp6J5jjH2Ul97P94RmpOjyzRRHf+voyr9kCAwEAAaNTMFEwHQYDVR0OBBYEFPBGGoZ/TDtkbY42+3RnorFjQ4rPMB8GA1UdIwQYMBaAFPBGGoZ/TDtkbY42+3RnorFjQ4rPMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADmEpyGtjfrvYsAiwtnNvhFsB3g2YdaS8XkC612Vq5ln8kXzECpxoXw8noh182zG/ewd+/234+LQk/qrnEogI4UJ+lILKH7bndpjjJXIEYQetOIwNTy59ZDXfb3hrwWOWAP4tk6nc4iRw6nIEoRyf8ZEuPw9MttNJ7+BWUuR96lERnsIgdH+fH+De4PfTcsoefvc8iWCg0OS/xpY0n2jZmxtwFZE3qu+8/2VJfn5Xs+WgbFodRZWRlagY1P7Z0qVfSFk/tMJ5FDqBfemmskBHRQYskONS8dBCC1sshmSpNFgmk8FSJYBQV36F6WK8WZUMiMVd0m7g7CToNkhVraMjvg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENjCCAx6gAwIBAgIJANre0U8dwA7GMA0GCSqGSIb3DQEBCwUAMIGvMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUU2FuIFBlbGxlZ3Jpbm8gVGVybWUxJzAlBgNVBAoMHkNvbXVuZSBkaSBTYW4gUGVsbGVncmlubyBUZXJtZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnN1YXAuc2FucGVsbGVncmlub3Rlcm1lLmdvdi5pdDAeFw0yMDA1MjUxMjAxMDBaFw0zMDA1MjMxMjAxMDBaMIGvMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUU2FuIFBlbGxlZ3Jpbm8gVGVybWUxJzAlBgNVBAoMHkNvbXVuZSBkaSBTYW4gUGVsbGVncmlubyBUZXJtZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnN1YXAuc2FucGVsbGVncmlub3Rlcm1lLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPXQlia3Bu2NewG7veYkbieEEXwhC2HGdNXanIb4XTF4dxTuELm3aNPpLjSt3n1dp7CxaBGUzQueF1NnGy0DxSn7jzVNuSEDo0DRBEAQfab33nb1RHr5mwHW5EDnUYtKv3JZz/POpPEOQDwJfOqcHPSxs3ERUN1QUsM/kOxr7x8VtqSfJHSAjwWxQUmMtyl7vgEA1yzVC38di6cghJRe/EIELyS5MSu0aVhI7fgkEmFPhGRksG70bfBlNocTEy3YQKD9f31INldTywPvmSxb5SLTRZqZxxwalkegOsHTefGxmyumUkC+Yp6J5jjH2Ul97P94RmpOjyzRRHf+voyr9kCAwEAAaNTMFEwHQYDVR0OBBYEFPBGGoZ/TDtkbY42+3RnorFjQ4rPMB8GA1UdIwQYMBaAFPBGGoZ/TDtkbY42+3RnorFjQ4rPMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADmEpyGtjfrvYsAiwtnNvhFsB3g2YdaS8XkC612Vq5ln8kXzECpxoXw8noh182zG/ewd+/234+LQk/qrnEogI4UJ+lILKH7bndpjjJXIEYQetOIwNTy59ZDXfb3hrwWOWAP4tk6nc4iRw6nIEoRyf8ZEuPw9MttNJ7+BWUuR96lERnsIgdH+fH+De4PfTcsoefvc8iWCg0OS/xpY0n2jZmxtwFZE3qu+8/2VJfn5Xs+WgbFodRZWRlagY1P7Z0qVfSFk/tMJ5FDqBfemmskBHRQYskONS8dBCC1sshmSpNFgmk8FSJYBQV36F6WK8WZUMiMVd0m7g7CToNkhVraMjvg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENjCCAx6gAwIBAgIJANre0U8dwA7GMA0GCSqGSIb3DQEBCwUAMIGvMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUU2FuIFBlbGxlZ3Jpbm8gVGVybWUxJzAlBgNVBAoMHkNvbXVuZSBkaSBTYW4gUGVsbGVncmlubyBUZXJtZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnN1YXAuc2FucGVsbGVncmlub3Rlcm1lLmdvdi5pdDAeFw0yMDA1MjUxMjAxMDBaFw0zMDA1MjMxMjAxMDBaMIGvMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUU2FuIFBlbGxlZ3Jpbm8gVGVybWUxJzAlBgNVBAoMHkNvbXVuZSBkaSBTYW4gUGVsbGVncmlubyBUZXJtZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnN1YXAuc2FucGVsbGVncmlub3Rlcm1lLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPXQlia3Bu2NewG7veYkbieEEXwhC2HGdNXanIb4XTF4dxTuELm3aNPpLjSt3n1dp7CxaBGUzQueF1NnGy0DxSn7jzVNuSEDo0DRBEAQfab33nb1RHr5mwHW5EDnUYtKv3JZz/POpPEOQDwJfOqcHPSxs3ERUN1QUsM/kOxr7x8VtqSfJHSAjwWxQUmMtyl7vgEA1yzVC38di6cghJRe/EIELyS5MSu0aVhI7fgkEmFPhGRksG70bfBlNocTEy3YQKD9f31INldTywPvmSxb5SLTRZqZxxwalkegOsHTefGxmyumUkC+Yp6J5jjH2Ul97P94RmpOjyzRRHf+voyr9kCAwEAAaNTMFEwHQYDVR0OBBYEFPBGGoZ/TDtkbY42+3RnorFjQ4rPMB8GA1UdIwQYMBaAFPBGGoZ/TDtkbY42+3RnorFjQ4rPMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADmEpyGtjfrvYsAiwtnNvhFsB3g2YdaS8XkC612Vq5ln8kXzECpxoXw8noh182zG/ewd+/234+LQk/qrnEogI4UJ+lILKH7bndpjjJXIEYQetOIwNTy59ZDXfb3hrwWOWAP4tk6nc4iRw6nIEoRyf8ZEuPw9MttNJ7+BWUuR96lERnsIgdH+fH+De4PfTcsoefvc8iWCg0OS/xpY0n2jZmxtwFZE3qu+8/2VJfn5Xs+WgbFodRZWRlagY1P7Z0qVfSFk/tMJ5FDqBfemmskBHRQYskONS8dBCC1sshmSpNFgmk8FSJYBQV36F6WK8WZUMiMVd0m7g7CToNkhVraMjvg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suap.sanpellegrinoterme.gov.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suap.sanpellegrinoterme.gov.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_i079</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_i079</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Pellegrino Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Pellegrino Terme</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://suap.sanpellegrinoterme.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://suap.sanpellegrinoterme.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

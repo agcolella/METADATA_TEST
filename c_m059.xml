@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://vinci.dgegovpa.it" ID="dg3b6b5940-e2bc-4355-8a6c-216d0648c3ca" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg3b6b5940-e2bc-4355-8a6c-216d0648c3ca"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>tcT7lvL9xc2Zdo/214J+CIvbAwWBcrZ2RQJXfCcrBDY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>KSguzWXCoe6Vm38a24prUfR8e6plobsD+GQZAV9ON5AMXp9EUMMvXoKrgiPJX9EtyzeJqiBqgPIE/tn0fZqPWZsLxQjQ/R6htrbTh8oJuXoAZlTXR4iKGti+G63V0nnXk3TZIJFhrLWdkzOz9qBU9arMapi+zgQ1O7cc0iOCkTWN313RDbW4VTmNp2ElAdwNfLIe+3bRisUF6d7HgVvBKQ7OP/TBAttUMHyx+eAYzPwAWPeC9cdPBRa15ocI9b8CZ/0Q1RfSy1RV3aLofIj/Tu9chxJU2VmAtF/PvH3VqXVBTZ1yJ8BFZz8N+fJMUlZIB9BOJRusyFl4K88mMWG0FXI=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYTCCAkigAwIBAgIBADANBgkqhkiG9w0BAQsFADBKMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxHzAdBgNVBAMMFnd3dy5jb211bmUudmluY2kuZmkuaXQwHhcNMTkwMjEyMTA1ODU4WhcNMjkwMjA5MTA1ODU4WjBKMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxHzAdBgNVBAMMFnd3dy5jb211bmUudmluY2kuZmkuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCxlepMR+l6qc0eWi6q4/zG5AEUpcdNT6chSlufiRGSFHZvlHHrzdXBgEg1goAFQ2HCPyxkazp/FQ7FWBEXLihdInS6FZe9hQ4Ia21WTgdDzKND2S3r3JDd7jbkk9A6JHlfsStRN69hASUyydeHa5B4APujkL6dq9/Bv9LuJcjG1nxoEe8hMCXkqSbEMg7AzFhxNcxkh/GukIg3T7PMEBNtbbLLKbu0fE2t0j/JDvAlSGKJnoOkUP5Dp4onvaTCUoP3lL+9i/JXGXjrqzYwmD/HpcciAHnRc3wiygxiTmZgl/TfyYlBhCBeubyhCv6OhjNldl4hXRrEjaIW4EJLi1tXmQIDAQABo1AwTjAdBgNVHQ4EFgQUWtRritHe3ZL0szA7MysvQj+fn50wHwYDVR0jBBgwFoAUWtRritHe3ZL0szA7MysvQj+fn50wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAJ3JQ2lDQ5g2X3y4e/MPbqosA90ew4nFa31wqxDIgJanjWvf2OBxzBJ2c9uwPLPkXRtM2+3RR79iqHeBCgfEtDTrmgQIOUZB/MTX6I2aaPNhM60skXoPL2tweRARHHlsT7f6+BKijAwsrnucaSOqpzSQXCJSZHjeq79vgkWnmXnBEDRCXlbW3lTdqY+UP623R+wkAdWwwNxIvr2/Hsdz+EAX/xdxHyXZ7Xe5fcaCSYHzaRh+VnB6fKgDfCLz3fjX//Dfd8wziN2o2khzghnqoOdjQmfRZ9GTX97ZoYHzO4CPiyZFwsPCN/eEU6SNbx6R4/EX3bUrYihR2o19gzYPMmHk=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkigAwIBAgIBADANBgkqhkiG9w0BAQsFADBKMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxHzAdBgNVBAMMFnd3dy5jb211bmUudmluY2kuZmkuaXQwHhcNMTkwMjEyMTA1ODU4WhcNMjkwMjA5MTA1ODU4WjBKMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxHzAdBgNVBAMMFnd3dy5jb211bmUudmluY2kuZmkuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCxlepMR+l6qc0eWi6q4/zG5AEUpcdNT6chSlufiRGSFHZvlHHrzdXBgEg1goAFQ2HCPyxkazp/FQ7FWBEXLihdInS6FZe9hQ4Ia21WTgdDzKND2S3r3JDd7jbkk9A6JHlfsStRN69hASUyydeHa5B4APujkL6dq9/Bv9LuJcjG1nxoEe8hMCXkqSbEMg7AzFhxNcxkh/GukIg3T7PMEBNtbbLLKbu0fE2t0j/JDvAlSGKJnoOkUP5Dp4onvaTCUoP3lL+9i/JXGXjrqzYwmD/HpcciAHnRc3wiygxiTmZgl/TfyYlBhCBeubyhCv6OhjNldl4hXRrEjaIW4EJLi1tXmQIDAQABo1AwTjAdBgNVHQ4EFgQUWtRritHe3ZL0szA7MysvQj+fn50wHwYDVR0jBBgwFoAUWtRritHe3ZL0szA7MysvQj+fn50wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAJ3JQ2lDQ5g2X3y4e/MPbqosA90ew4nFa31wqxDIgJanjWvf2OBxzBJ2c9uwPLPkXRtM2+3RR79iqHeBCgfEtDTrmgQIOUZB/MTX6I2aaPNhM60skXoPL2tweRARHHlsT7f6+BKijAwsrnucaSOqpzSQXCJSZHjeq79vgkWnmXnBEDRCXlbW3lTdqY+UP623R+wkAdWwwNxIvr2/Hsdz+EAX/xdxHyXZ7Xe5fcaCSYHzaRh+VnB6fKgDfCLz3fjX//Dfd8wziN2o2khzghnqoOdjQmfRZ9GTX97ZoYHzO4CPiyZFwsPCN/eEU6SNbx6R4/EX3bUrYihR2o19gzYPMmHk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkigAwIBAgIBADANBgkqhkiG9w0BAQsFADBKMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxHzAdBgNVBAMMFnd3dy5jb211bmUudmluY2kuZmkuaXQwHhcNMTkwMjEyMTA1ODU4WhcNMjkwMjA5MTA1ODU4WjBKMQswCQYDVQQGEwJpdDELMAkGA1UECAwCSVQxDTALBgNVBAoMBFNQSUQxHzAdBgNVBAMMFnd3dy5jb211bmUudmluY2kuZmkuaXQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgCxlepMR+l6qc0eWi6q4/zG5AEUpcdNT6chSlufiRGSFHZvlHHrzdXBgEg1goAFQ2HCPyxkazp/FQ7FWBEXLihdInS6FZe9hQ4Ia21WTgdDzKND2S3r3JDd7jbkk9A6JHlfsStRN69hASUyydeHa5B4APujkL6dq9/Bv9LuJcjG1nxoEe8hMCXkqSbEMg7AzFhxNcxkh/GukIg3T7PMEBNtbbLLKbu0fE2t0j/JDvAlSGKJnoOkUP5Dp4onvaTCUoP3lL+9i/JXGXjrqzYwmD/HpcciAHnRc3wiygxiTmZgl/TfyYlBhCBeubyhCv6OhjNldl4hXRrEjaIW4EJLi1tXmQIDAQABo1AwTjAdBgNVHQ4EFgQUWtRritHe3ZL0szA7MysvQj+fn50wHwYDVR0jBBgwFoAUWtRritHe3ZL0szA7MysvQj+fn50wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAJ3JQ2lDQ5g2X3y4e/MPbqosA90ew4nFa31wqxDIgJanjWvf2OBxzBJ2c9uwPLPkXRtM2+3RR79iqHeBCgfEtDTrmgQIOUZB/MTX6I2aaPNhM60skXoPL2tweRARHHlsT7f6+BKijAwsrnucaSOqpzSQXCJSZHjeq79vgkWnmXnBEDRCXlbW3lTdqY+UP623R+wkAdWwwNxIvr2/Hsdz+EAX/xdxHyXZ7Xe5fcaCSYHzaRh+VnB6fKgDfCLz3fjX//Dfd8wziN2o2khzghnqoOdjQmfRZ9GTX97ZoYHzO4CPiyZFwsPCN/eEU6SNbx6R4/EX3bUrYihR2o19gzYPMmHk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/vinci/CNS/idpSpid/logout.ashx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/vinci/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vinci</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vinci</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.vinci.fi.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

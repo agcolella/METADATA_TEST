@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxd3c9b3f0-7015-73f5-295c-584f353cc396" entityID="https://www.comune.boarapisani.pd.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxd3c9b3f0-7015-73f5-295c-584f353cc396">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BdF4opt9cZGh5eXkQ4kqqyCez0A/0a/vfdWP9HWVUpc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+R/X9qkh/8ZT5fJG3ct6Dq62nDdCxsH2ytIt0I09xdnaXONXnD/SSgoBqPKGIsmaJXlpsKRC40JbL
+krjUnZ8pXwgdrN77Fxz2C72BqKLQ0OV2PKpmTC5ImWN3VtOdFcTE/4o3PyYnv06Py8e7xtmnCgw6
+qe/zL8VBwcih0/MVIdOTZ83LqY06uxVuoCiS1XZfVoIUoPWiCdlR5yROGIDRmhOIZaBHTNKz70fP
+za/7RmSDxNOoIs/1gFhM77FPGcHPjwBhNcFtHPUSZCwrUcMKC/yDnAv7+FHAcGSTM9wVa6aL3Vki
+TSd1I0RDX9CjpfoNX3OGxfySjNnWnbfXooMeUQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ryDfbDTqIvaU86zohHzCtQoVLGfBjFC770mLDl81CuJkj8N32gEsBXYwmQvkODIDBoFw5SCYZv6H
+UZ+gw20A07riaUBe5FR9EiEao80zOYYkJ6l8kuibUjHSPnETOVLBwMNZMck3zAYYm4bVxMIFjtM7
+5gk35XIdtRgmd5AcThw+457V1fHzTJOhEBfoB54BmMkKMt6/uWssGd8dCi4BTHS1dr/XAELJS7hD
+IoFhzE8ukWbDVgpqZXPpdd5AyUs3IeN5YrLURBg4LHQzcCp9v6LlV8KCqTK8Pm9ADl4qNzs2xbnB
+QlGiYTKTJYNndXYk8+hh8jo8dxpBeSuZKFGPiw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEXjCCA0agAwIBAgIJAOOKS1wcxmpqMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTEVMBMGA1UEBxMMQm9hcmEgUGlzYW5pMR8wHQYDVQQKExZDb211bmUgZGkg
+Qm9hcmEgUGlzYW5pMSUwIwYDVQQDExx3d3cuY29tdW5lLmJvYXJhcGlzYW5pLnBkLml0MB4XDTE5
+MTEyMTEyMjQwN1oXDTI5MTEyMDEyMjQwN1owfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5
+MRUwEwYDVQQHEwxCb2FyYSBQaXNhbmkxHzAdBgNVBAoTFkNvbXVuZSBkaSBCb2FyYSBQaXNhbmkx
+JTAjBgNVBAMTHHd3dy5jb211bmUuYm9hcmFwaXNhbmkucGQuaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCvIN9sNOoi9pTzrOiEfMK1ChUsZ8GMULvvSYsOXzUK4mSPw3faASwFdjCZ
+C+Q4MgMGgXDlIJhm/odRn6DDbQDTuuJpQF7kVH0SIRqjzTM5hiQnqXyS6JtSMdI+cRM5UsHAw1kx
+yTfMBhibhtXEwgWO0zvmCTflch21GCZ3kBxOHD7jntXV8fNMk6EQF+gHngGYyQoy3r+5aywZ3x0K
+LgFMdLV2v9cAQslLuEMigWHMTy6RZsNWCmplc+l13kDJSzch43listREGDgsdDNwKn2/ouVXwoKp
+Mrw+b0AOXio3OzbFucFCUaJhMpMlg2d1diTz6GHyOjx3GkF5K5koUY+LAgMBAAGjgeIwgd8wHQYD
+VR0OBBYEFKkFab4ktQJpv9QavKc9TJCOAH9gMIGvBgNVHSMEgacwgaSAFKkFab4ktQJpv9QavKc9
+TJCOAH9goYGApH4wfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRUwEwYDVQQHEwxCb2Fy
+YSBQaXNhbmkxHzAdBgNVBAoTFkNvbXVuZSBkaSBCb2FyYSBQaXNhbmkxJTAjBgNVBAMTHHd3dy5j
+b211bmUuYm9hcmFwaXNhbmkucGQuaXSCCQDjiktcHMZqajAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQAUfYwsn9CahlVmqN6BRQ+lP6XRm8JYEz7vPrcuLycTvBX7mFZ0MV2QmcEMHF4n
+Z2o9M384BTYkyI4qaSSV7BE3vUyHiNQ5SpgC7BIZ4KRzrgFXd/lEF5yevmjoR30X94gC8R7vT3zV
+mEqNR1hRw11/9UbQmc0Pkl9ZuHh6vqqXvApBIdkfqie8XZO+xc7CQJppRKfIcevAOjb1dFCgUvt6
+a6ndQz9Lt/wSgAKJ3ay9ODKTJBysL8EWIVA9xuUxXHb3Cf5KJZ69jBDpTUKuF0u6NvBwqXLA0bNu
+U7Tq6aTyIZntTTw2YBBVv3RHXghJeZLZu9NoIei9bedThtisTikH
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEXjCCA0agAwIBAgIJAOOKS1wcxmpqMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEVMBMGA1UEBxMMQm9hcmEgUGlzYW5pMR8wHQYDVQQKExZDb211bmUgZGkgQm9hcmEgUGlzYW5pMSUwIwYDVQQDExx3d3cuY29tdW5lLmJvYXJhcGlzYW5pLnBkLml0MB4XDTE5MTEyMTEyMjQwN1oXDTI5MTEyMDEyMjQwN1owfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRUwEwYDVQQHEwxCb2FyYSBQaXNhbmkxHzAdBgNVBAoTFkNvbXVuZSBkaSBCb2FyYSBQaXNhbmkxJTAjBgNVBAMTHHd3dy5jb211bmUuYm9hcmFwaXNhbmkucGQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvIN9sNOoi9pTzrOiEfMK1ChUsZ8GMULvvSYsOXzUK4mSPw3faASwFdjCZC+Q4MgMGgXDlIJhm/odRn6DDbQDTuuJpQF7kVH0SIRqjzTM5hiQnqXyS6JtSMdI+cRM5UsHAw1kxyTfMBhibhtXEwgWO0zvmCTflch21GCZ3kBxOHD7jntXV8fNMk6EQF+gHngGYyQoy3r+5aywZ3x0KLgFMdLV2v9cAQslLuEMigWHMTy6RZsNWCmplc+l13kDJSzch43listREGDgsdDNwKn2/ouVXwoKpMrw+b0AOXio3OzbFucFCUaJhMpMlg2d1diTz6GHyOjx3GkF5K5koUY+LAgMBAAGjgeIwgd8wHQYDVR0OBBYEFKkFab4ktQJpv9QavKc9TJCOAH9gMIGvBgNVHSMEgacwgaSAFKkFab4ktQJpv9QavKc9TJCOAH9goYGApH4wfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRUwEwYDVQQHEwxCb2FyYSBQaXNhbmkxHzAdBgNVBAoTFkNvbXVuZSBkaSBCb2FyYSBQaXNhbmkxJTAjBgNVBAMTHHd3dy5jb211bmUuYm9hcmFwaXNhbmkucGQuaXSCCQDjiktcHMZqajAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAUfYwsn9CahlVmqN6BRQ+lP6XRm8JYEz7vPrcuLycTvBX7mFZ0MV2QmcEMHF4nZ2o9M384BTYkyI4qaSSV7BE3vUyHiNQ5SpgC7BIZ4KRzrgFXd/lEF5yevmjoR30X94gC8R7vT3zVmEqNR1hRw11/9UbQmc0Pkl9ZuHh6vqqXvApBIdkfqie8XZO+xc7CQJppRKfIcevAOjb1dFCgUvt6a6ndQz9Lt/wSgAKJ3ay9ODKTJBysL8EWIVA9xuUxXHb3Cf5KJZ69jBDpTUKuF0u6NvBwqXLA0bNuU7Tq6aTyIZntTTw2YBBVv3RHXghJeZLZu9NoIei9bedThtisTikH</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEXjCCA0agAwIBAgIJAOOKS1wcxmpqMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEVMBMGA1UEBxMMQm9hcmEgUGlzYW5pMR8wHQYDVQQKExZDb211bmUgZGkgQm9hcmEgUGlzYW5pMSUwIwYDVQQDExx3d3cuY29tdW5lLmJvYXJhcGlzYW5pLnBkLml0MB4XDTE5MTEyMTEyMjQwN1oXDTI5MTEyMDEyMjQwN1owfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRUwEwYDVQQHEwxCb2FyYSBQaXNhbmkxHzAdBgNVBAoTFkNvbXVuZSBkaSBCb2FyYSBQaXNhbmkxJTAjBgNVBAMTHHd3dy5jb211bmUuYm9hcmFwaXNhbmkucGQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvIN9sNOoi9pTzrOiEfMK1ChUsZ8GMULvvSYsOXzUK4mSPw3faASwFdjCZC+Q4MgMGgXDlIJhm/odRn6DDbQDTuuJpQF7kVH0SIRqjzTM5hiQnqXyS6JtSMdI+cRM5UsHAw1kxyTfMBhibhtXEwgWO0zvmCTflch21GCZ3kBxOHD7jntXV8fNMk6EQF+gHngGYyQoy3r+5aywZ3x0KLgFMdLV2v9cAQslLuEMigWHMTy6RZsNWCmplc+l13kDJSzch43listREGDgsdDNwKn2/ouVXwoKpMrw+b0AOXio3OzbFucFCUaJhMpMlg2d1diTz6GHyOjx3GkF5K5koUY+LAgMBAAGjgeIwgd8wHQYDVR0OBBYEFKkFab4ktQJpv9QavKc9TJCOAH9gMIGvBgNVHSMEgacwgaSAFKkFab4ktQJpv9QavKc9TJCOAH9goYGApH4wfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRUwEwYDVQQHEwxCb2FyYSBQaXNhbmkxHzAdBgNVBAoTFkNvbXVuZSBkaSBCb2FyYSBQaXNhbmkxJTAjBgNVBAMTHHd3dy5jb211bmUuYm9hcmFwaXNhbmkucGQuaXSCCQDjiktcHMZqajAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAUfYwsn9CahlVmqN6BRQ+lP6XRm8JYEz7vPrcuLycTvBX7mFZ0MV2QmcEMHF4nZ2o9M384BTYkyI4qaSSV7BE3vUyHiNQ5SpgC7BIZ4KRzrgFXd/lEF5yevmjoR30X94gC8R7vT3zVmEqNR1hRw11/9UbQmc0Pkl9ZuHh6vqqXvApBIdkfqie8XZO+xc7CQJppRKfIcevAOjb1dFCgUvt6a6ndQz9Lt/wSgAKJ3ay9ODKTJBysL8EWIVA9xuUxXHb3Cf5KJZ69jBDpTUKuF0u6NvBwqXLA0bNuU7Tq6aTyIZntTTw2YBBVv3RHXghJeZLZu9NoIei9bedThtisTikH</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.boarapisani.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.boarapisani.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Boara Pisani</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Boara Pisani</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.boarapisani.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

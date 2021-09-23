@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="GassinoTorinese" entityID="https://www.comune.gassino.to.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#GassinoTorinese">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0FGYCN9i2Du7NXtmoF3/oVM0M+jElUTtGXAUotsn4yI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jw6eFeXx0IVGC9wyAkm4UhBHwGnGPEXaDrJRH2P5qbr1mEBXshGdN5L+M90BrTBhc9HnUCa6gW1s
+FG03cbFGxPXuhF/ftVX1d8I1iHRA0Fd8yoWu4tozhuzqr5VetgdqJTpxJvtAONdDWIWZqnozUhAy
+uJ0XLmsz/hWy1INA3QLrZ+di7Oowp2e1ltI0p3WVGkah5LyD1Tx35O66hHasdXXUv7POuc+CSHDQ
+Uwl23Y9kk3K3bvYtECyTTj+9+tlwtkMv6p5r9FPrrN7aLaYJeQzQdhcbCYEgLZ+R/JuUXKNWekq7
+zyPDTiztQsTthBKXinT/Ab3tsDbguUr2coqrmg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tay1cHMCTlxS7jsXL/G+VLJKd1DMrmSib7y3eSuxqnu16hezpboq8ZoSF9wcgRHxz7yLTBnta57E
+11Bb8oTiYKQ47Y/Lk7pqAt5ZZYc67NorCa6dPWOJj3vqIntflP72NAkCOvl27X0MqNbNCkvTk1/0
+tF2E4mQ3gsdkml2tjHGXwJkNpYlx32Al25BJXm5+6WMrXNbZFjyM9uJpcIa3GAx22nC5ncthTSvh
+gK1kR1IdVmPtDsDwpA06oB0fk6P4mFv3rqF64cmk+MiOCfrz0IEEQbsw/wrI6FNkoudE7f/dSCOS
+YnYZxp3UhjE20ptabOr9soIXM/+akbXR92RruQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJALy8ITtCgltNMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuZ2Fzc2luby50by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNzI4
+MTI0NjEyWhcNMzAwNzI2MTI0NjEyWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmdhc3Npbm8udG8u
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAtay1cHMCTlxS7jsXL/G+VLJKd1DMrmSib7y3eSuxqnu16hezpboq8ZoSF9wcgRHxz7yL
+TBnta57E11Bb8oTiYKQ47Y/Lk7pqAt5ZZYc67NorCa6dPWOJj3vqIntflP72NAkCOvl27X0MqNbN
+CkvTk1/0tF2E4mQ3gsdkml2tjHGXwJkNpYlx32Al25BJXm5+6WMrXNbZFjyM9uJpcIa3GAx22nC5
+ncthTSvhgK1kR1IdVmPtDsDwpA06oB0fk6P4mFv3rqF64cmk+MiOCfrz0IEEQbsw/wrI6FNkoudE
+7f/dSCOSYnYZxp3UhjE20ptabOr9soIXM/+akbXR92RruQIDAQABo1AwTjAdBgNVHQ4EFgQU0E+n
+5rFzKNhVtP9WfcHCDyLJu6QwHwYDVR0jBBgwFoAU0E+n5rFzKNhVtP9WfcHCDyLJu6QwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjlPTNv9Jp29HSBjjiXHOT26vAPumLMiCWVhYMTgP
+B3o9hdD3gu5kWQUgXMQWRuTHncHoknnsr5lkW/fckhRQjhbn3yTzru3B+nukUIwbHvzTNDiDphpX
+ICqvxp2qS6j1yRGz8pmrwA00sQspTaBKKskteGeEWlnRMYrUbhDJnr5TWq2ECy2rXPzolL/1MPek
+vbaq2sgKeyTqUKJ0Oj3PuJAXgeSjummCUcSjFG6E1S8YeNjViiIThQAtx1SHN2U1TGTKZS9lkjmb
+j2/GKOQuH7tIKG48PAidzCIETUdj3wsKTMLnks6neyk0Fhb1sY5vS8gAcr9h1UdfK85GlrC8tA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALy8ITtCgltNMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuZ2Fzc2luby50by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNzI4MTI0NjEyWhcNMzAwNzI2MTI0NjEyWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmdhc3Npbm8udG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtay1cHMCTlxS7jsXL/G+VLJKd1DMrmSib7y3eSuxqnu16hezpboq8ZoSF9wcgRHxz7yLTBnta57E11Bb8oTiYKQ47Y/Lk7pqAt5ZZYc67NorCa6dPWOJj3vqIntflP72NAkCOvl27X0MqNbNCkvTk1/0tF2E4mQ3gsdkml2tjHGXwJkNpYlx32Al25BJXm5+6WMrXNbZFjyM9uJpcIa3GAx22nC5ncthTSvhgK1kR1IdVmPtDsDwpA06oB0fk6P4mFv3rqF64cmk+MiOCfrz0IEEQbsw/wrI6FNkoudE7f/dSCOSYnYZxp3UhjE20ptabOr9soIXM/+akbXR92RruQIDAQABo1AwTjAdBgNVHQ4EFgQU0E+n5rFzKNhVtP9WfcHCDyLJu6QwHwYDVR0jBBgwFoAU0E+n5rFzKNhVtP9WfcHCDyLJu6QwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjlPTNv9Jp29HSBjjiXHOT26vAPumLMiCWVhYMTgPB3o9hdD3gu5kWQUgXMQWRuTHncHoknnsr5lkW/fckhRQjhbn3yTzru3B+nukUIwbHvzTNDiDphpXICqvxp2qS6j1yRGz8pmrwA00sQspTaBKKskteGeEWlnRMYrUbhDJnr5TWq2ECy2rXPzolL/1MPekvbaq2sgKeyTqUKJ0Oj3PuJAXgeSjummCUcSjFG6E1S8YeNjViiIThQAtx1SHN2U1TGTKZS9lkjmbj2/GKOQuH7tIKG48PAidzCIETUdj3wsKTMLnks6neyk0Fhb1sY5vS8gAcr9h1UdfK85GlrC8tA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALy8ITtCgltNMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuZ2Fzc2luby50by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNzI4MTI0NjEyWhcNMzAwNzI2MTI0NjEyWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmdhc3Npbm8udG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtay1cHMCTlxS7jsXL/G+VLJKd1DMrmSib7y3eSuxqnu16hezpboq8ZoSF9wcgRHxz7yLTBnta57E11Bb8oTiYKQ47Y/Lk7pqAt5ZZYc67NorCa6dPWOJj3vqIntflP72NAkCOvl27X0MqNbNCkvTk1/0tF2E4mQ3gsdkml2tjHGXwJkNpYlx32Al25BJXm5+6WMrXNbZFjyM9uJpcIa3GAx22nC5ncthTSvhgK1kR1IdVmPtDsDwpA06oB0fk6P4mFv3rqF64cmk+MiOCfrz0IEEQbsw/wrI6FNkoudE7f/dSCOSYnYZxp3UhjE20ptabOr9soIXM/+akbXR92RruQIDAQABo1AwTjAdBgNVHQ4EFgQU0E+n5rFzKNhVtP9WfcHCDyLJu6QwHwYDVR0jBBgwFoAU0E+n5rFzKNhVtP9WfcHCDyLJu6QwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjlPTNv9Jp29HSBjjiXHOT26vAPumLMiCWVhYMTgPB3o9hdD3gu5kWQUgXMQWRuTHncHoknnsr5lkW/fckhRQjhbn3yTzru3B+nukUIwbHvzTNDiDphpXICqvxp2qS6j1yRGz8pmrwA00sQspTaBKKskteGeEWlnRMYrUbhDJnr5TWq2ECy2rXPzolL/1MPekvbaq2sgKeyTqUKJ0Oj3PuJAXgeSjummCUcSjFG6E1S8YeNjViiIThQAtx1SHN2U1TGTKZS9lkjmbj2/GKOQuH7tIKG48PAidzCIETUdj3wsKTMLnks6neyk0Fhb1sY5vS8gAcr9h1UdfK85GlrC8tA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/gassinotorinese"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gassinotorinese" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gassinotorinese" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gassinotorinese" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gassino Torinese</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Gassino Torinese</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Gassino Torinese</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Gassino Torinese</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gassino Torinese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Gassino Torinese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Gassino Torinese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Gassino Torinese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gassino.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.gassino.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.gassino.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.gassino.to.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

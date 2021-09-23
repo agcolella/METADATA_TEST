@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx7de68f26-9279-7e33-3d85-ad63a6b301a1" entityID="https://www.comune.marcellina.rm.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx7de68f26-9279-7e33-3d85-ad63a6b301a1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>VPjkOraW/YHzbEv/7oeyHyUb97sPgzFtNJgjjP0uzxg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PyYmJhSfzHFIpFU+6W5TYy3ilSMkXhrNi7MAyDYXvHSsV9emga5lzBDHMSxCBuGcT+1rswPKlfi5
+Mj65QPqaqPH0uzFMOTRvDirTbAZm8UfJKVYcFWFfUFGvFBFvUkjqGvulIoH55TXeehBXi0wrBxzf
+RlemsF8F8FinHdC7k8o/w3P5Ab39vBEEonHfEBgnPfSLyg2Jja0J3k+5y474tZplnLoNU6s+E7I9
+v6Q7iMNSZ/Ya0OKbx1NSz17vooNaTF7/3eg0tEtJFp3+wUFOXs5u8cJBpbGa1lCHeUZRcJrj4q4f
+uwgZfNYzqERYFhoXoEBGKPTI+IH/Dhqg+3NYQg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sC42bIJxI7Dw0Hc5fPWR2e97swkrStcONLsB7tMCeck2LMHQI6ZYPHhpUubP+D3G8b/vNUcPjMEc
+zgTLeb8LJBd1X25WgQPoBADJYWlE5lDM3lf7USGlqvYslHZmRt+Y/32dzNwAMn5Sq3Yqh86X6i+H
+lQi8lBUK2f2YDvzO82QNzuCNPSBR1VugMvaj3J3EOcW0i7JIAF2owN/DiHNWNyecuaBuuD0XC5cq
+m0Kbgni7FtyEguPEre8WkBKVFE+sOtZq+4rxG2tYFNsPFZk+eSd8FKvqJw9Dp/bnPyTxf8Igrg+d
+Uo+WAkIB7hkb+eBrnZWLJEpMgPe7EWqjXs/MzQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwTCCAqmgAwIBAgIJAI8piJf4GO8lMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFyY2VsbGluYTEdMBsGA1UECgwUQ29tdW5lIGRpIE1h
+cmNlbGxpbmExJDAiBgNVBAMMG3d3dy5jb211bmUubWFyY2VsbGluYS5ybS5pdDAeFw0yMDEyMDEx
+MzI1MDFaFw0zMDEyMDExMzI1MDFaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEG
+A1UEBwwKTWFyY2VsbGluYTEdMBsGA1UECgwUQ29tdW5lIGRpIE1hcmNlbGxpbmExJDAiBgNVBAMM
+G3d3dy5jb211bmUubWFyY2VsbGluYS5ybS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBALAuNmyCcSOw8NB3OXz1kdnve7MJK0rXDjS7Ae7TAnnJNizB0COmWDx4aVLmz/g9xvG/7zVH
+D4zBHM4Ey3m/CyQXdV9uVoED6AQAyWFpROZQzN5X+1Ehpar2LJR2ZkbfmP99nczcADJ+Uqt2KofO
+l+ovh5UIvJQVCtn9mA78zvNkDc7gjT0gUdVboDL2o9ydxDnFtIuySABdqMDfw4hzVjcnnLmgbrg9
+FwuXKptCm4J4uxbchILjxK3vFpASlRRPrDrWavuK8RtrWBTbDxWZPnknfBSr6icPQ6f25z8k8X/C
+IK4PnVKPlgJCAe4ZG/nga52ViyRKTID3uxFqo17PzM0CAwEAAaNQME4wHQYDVR0OBBYEFFJX5s+2
+a9qxtDeBvrTeT+0UXfqXMB8GA1UdIwQYMBaAFFJX5s+2a9qxtDeBvrTeT+0UXfqXMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHuyesty2pQTsJabt0QCB5CphpdyYQFB+NlWaj1nEnuH
+gSzTa1MB+FQlMKcOQEyOPRNbxYsWMd3ambbSh3nBr12aIwR16JS0ZRAtEEAL9RR3C225iIwdahL+
+VOTAcBIl3nqAaTx5DHckFlD1QX3F1l3M0TgKe2oIam78oRMs4gYD/CXxXEHArcSTtJx5yNI0QU2p
+Us9oUNTLEWDIwR2AEE1CL9STMn1eRQJa/B04H9dRs1PieNa8WeYLeF1GA1tRuTap8jpASc754huW
+ECeajQBBGVwa3dc5qhq1K1LjzIeD5u071Ui6s49UNi1ghh9jgH8nBll8tqwzPshe90zpsp0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAI8piJf4GO8lMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFyY2VsbGluYTEdMBsGA1UECgwUQ29tdW5lIGRpIE1hcmNlbGxpbmExJDAiBgNVBAMMG3d3dy5jb211bmUubWFyY2VsbGluYS5ybS5pdDAeFw0yMDEyMDExMzI1MDFaFw0zMDEyMDExMzI1MDFaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFyY2VsbGluYTEdMBsGA1UECgwUQ29tdW5lIGRpIE1hcmNlbGxpbmExJDAiBgNVBAMMG3d3dy5jb211bmUubWFyY2VsbGluYS5ybS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALAuNmyCcSOw8NB3OXz1kdnve7MJK0rXDjS7Ae7TAnnJNizB0COmWDx4aVLmz/g9xvG/7zVHD4zBHM4Ey3m/CyQXdV9uVoED6AQAyWFpROZQzN5X+1Ehpar2LJR2ZkbfmP99nczcADJ+Uqt2KofOl+ovh5UIvJQVCtn9mA78zvNkDc7gjT0gUdVboDL2o9ydxDnFtIuySABdqMDfw4hzVjcnnLmgbrg9FwuXKptCm4J4uxbchILjxK3vFpASlRRPrDrWavuK8RtrWBTbDxWZPnknfBSr6icPQ6f25z8k8X/CIK4PnVKPlgJCAe4ZG/nga52ViyRKTID3uxFqo17PzM0CAwEAAaNQME4wHQYDVR0OBBYEFFJX5s+2a9qxtDeBvrTeT+0UXfqXMB8GA1UdIwQYMBaAFFJX5s+2a9qxtDeBvrTeT+0UXfqXMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHuyesty2pQTsJabt0QCB5CphpdyYQFB+NlWaj1nEnuHgSzTa1MB+FQlMKcOQEyOPRNbxYsWMd3ambbSh3nBr12aIwR16JS0ZRAtEEAL9RR3C225iIwdahL+VOTAcBIl3nqAaTx5DHckFlD1QX3F1l3M0TgKe2oIam78oRMs4gYD/CXxXEHArcSTtJx5yNI0QU2pUs9oUNTLEWDIwR2AEE1CL9STMn1eRQJa/B04H9dRs1PieNa8WeYLeF1GA1tRuTap8jpASc754huWECeajQBBGVwa3dc5qhq1K1LjzIeD5u071Ui6s49UNi1ghh9jgH8nBll8tqwzPshe90zpsp0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAI8piJf4GO8lMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFyY2VsbGluYTEdMBsGA1UECgwUQ29tdW5lIGRpIE1hcmNlbGxpbmExJDAiBgNVBAMMG3d3dy5jb211bmUubWFyY2VsbGluYS5ybS5pdDAeFw0yMDEyMDExMzI1MDFaFw0zMDEyMDExMzI1MDFaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFyY2VsbGluYTEdMBsGA1UECgwUQ29tdW5lIGRpIE1hcmNlbGxpbmExJDAiBgNVBAMMG3d3dy5jb211bmUubWFyY2VsbGluYS5ybS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALAuNmyCcSOw8NB3OXz1kdnve7MJK0rXDjS7Ae7TAnnJNizB0COmWDx4aVLmz/g9xvG/7zVHD4zBHM4Ey3m/CyQXdV9uVoED6AQAyWFpROZQzN5X+1Ehpar2LJR2ZkbfmP99nczcADJ+Uqt2KofOl+ovh5UIvJQVCtn9mA78zvNkDc7gjT0gUdVboDL2o9ydxDnFtIuySABdqMDfw4hzVjcnnLmgbrg9FwuXKptCm4J4uxbchILjxK3vFpASlRRPrDrWavuK8RtrWBTbDxWZPnknfBSr6icPQ6f25z8k8X/CIK4PnVKPlgJCAe4ZG/nga52ViyRKTID3uxFqo17PzM0CAwEAAaNQME4wHQYDVR0OBBYEFFJX5s+2a9qxtDeBvrTeT+0UXfqXMB8GA1UdIwQYMBaAFFJX5s+2a9qxtDeBvrTeT+0UXfqXMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHuyesty2pQTsJabt0QCB5CphpdyYQFB+NlWaj1nEnuHgSzTa1MB+FQlMKcOQEyOPRNbxYsWMd3ambbSh3nBr12aIwR16JS0ZRAtEEAL9RR3C225iIwdahL+VOTAcBIl3nqAaTx5DHckFlD1QX3F1l3M0TgKe2oIam78oRMs4gYD/CXxXEHArcSTtJx5yNI0QU2pUs9oUNTLEWDIwR2AEE1CL9STMn1eRQJa/B04H9dRs1PieNa8WeYLeF1GA1tRuTap8jpASc754huWECeajQBBGVwa3dc5qhq1K1LjzIeD5u071Ui6s49UNi1ghh9jgH8nBll8tqwzPshe90zpsp0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.marcellina.rm.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.marcellina.rm.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Marcellina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Marcellina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.marcellina.rm.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e924</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Marcellina</md:Company>
+    <md:EmailAddress>protocollo@pec.comune.marcellina.rm.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

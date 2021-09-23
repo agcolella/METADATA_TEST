@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Lucca" entityID="https://www.comune.lucca.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Lucca">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4EuIz/SrDt85ToqDNw539HiWX8PYzL3OC5TwTTJX/Lk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+wkz1SpsDIskGzaZ8ZL9HHMfrQyxd07pPNZPWT0+tpjSwJbxa/UKqZihY8Yuq+gpHUlp97fA4DqCS
+OhTMFzXzJTn2/LgMiH7S4Ms4+MwtoYyOvXqIabxUR40qLk6VYSl2OHKIzgev7Un5VGk7G43XxaFp
+wpO3gCalL7CbbgTiRI/L44dqO7L6C8KjlGqxdzrSi9bEwHrU+EP2whSK2fB+hg29u0yqXwxXTRvH
+MSGtZpUJoZwGnYnEszeQanBVNyywAe4UZliKeafq0ebIxl5dZX2j/3KSl8ahMKttFmdskftPD1jb
+8GvdVbj4fPqwTncz79n6YkA70DYyKgFmypRPQA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zL4fugFQXFP10p+hOdqcCPTtuXk7c/cVe0zoOOF1zmexV8DaLqgoZED6bh3YVudRApxh0UJoAAQD
+upMXVSowvD0vSM/K+33Jq0/KUT4wSrPBsmVQB5zR3U/xBZT9EKgaEKf+dIKWaZk6GVTsc3zdiDby
+9v+xuNxWoDiR+88KAvR5OpbiQPREdejed3MoVQO3hex5hnSPWZdOxHXTiqE7SEwfOyZx1FT2g9Lk
+Ffb/4dRTYN9FkVsO8ALr6B6rifAkEr9ngdgMRKT8SEEW77fS/8bxqVxenoIVz7k03a+Fo+ufQUT8
+lcMQc4DSdQibX3+szT+tayrPLdQMvEHcin8MWw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDRzCCAi+gAwIBAgIJAJaaqt8QwLYfMA0GCSqGSIb3DQEBCwUAMDoxHDAaBgNVBAMME3d3dy5j
+b211bmUubHVjY2EuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUyMTEzMzQ1
+M1oXDTMwMDUxOTEzMzQ1M1owOjEcMBoGA1UEAwwTd3d3LmNvbXVuZS5sdWNjYS5pdDENMAsGA1UE
+CwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMvh+6
+AVBcU/XSn6E52pwI9O25eTtz9xV7TOg44XXOZ7FXwNouqChkQPpuHdhW51ECnGHRQmgABAO6kxdV
+KjC8PS9Iz8r7fcmrT8pRPjBKs8GyZVAHnNHdT/EFlP0QqBoQp/50gpZpmToZVOxzfN2INvL2/7G4
+3FagOJH7zwoC9Hk6luJA9ER16N53cyhVA7eF7HmGdI9Zl07EddOKoTtITB87JnHUVPaD0uQV9v/h
+1FNg30WRWw7wAuvoHquJ8CQSv2eB2AxEpPxIQRbvt9L/xvGpXF6eghXPuTTdr4Wj659BRPyVwxBz
+gNJ1CJtff6zNP61rKs8t1Ay8QdyKfwxbAgMBAAGjUDBOMB0GA1UdDgQWBBQOUzjlD3x9wFhf9PXd
+KdqwUVG8+jAfBgNVHSMEGDAWgBQOUzjlD3x9wFhf9PXdKdqwUVG8+jAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQCz0nLkY48IuINLF9j6NE8BjOdWx5gCFXJwCWmtB8ruxnal+1CeSIYf
+uS1vxOmxlhc/z16wrsZP1Y7kl+J9cM4T2cgSxgAWiUZYmjKtXg9thD9CnIgRoDwWHF31foroba0r
+sAuGLcJi1elZINqIYcPBEyv5FTjCyrglnL+zxI1wEwDhxM+Ij68XzqcOpiIHOuPWBoCx8L1P8adU
+CefvKcfy8vur86bmorNmTa2FBuThGSMx4tf7YOQrz3ln3QZH3N+nAzGPMdpKeIpl9DlOPQCdg7ds
+rakYz1H3FKBUvlnENLGe5tcJRB7ZO8mZrfBLbZbEQOdtViqHeZqQ8Nxgwevp
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDRzCCAi+gAwIBAgIJAJaaqt8QwLYfMA0GCSqGSIb3DQEBCwUAMDoxHDAaBgNVBAMME3d3dy5jb211bmUubHVjY2EuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUyMTEzMzQ1M1oXDTMwMDUxOTEzMzQ1M1owOjEcMBoGA1UEAwwTd3d3LmNvbXVuZS5sdWNjYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMvh+6AVBcU/XSn6E52pwI9O25eTtz9xV7TOg44XXOZ7FXwNouqChkQPpuHdhW51ECnGHRQmgABAO6kxdVKjC8PS9Iz8r7fcmrT8pRPjBKs8GyZVAHnNHdT/EFlP0QqBoQp/50gpZpmToZVOxzfN2INvL2/7G43FagOJH7zwoC9Hk6luJA9ER16N53cyhVA7eF7HmGdI9Zl07EddOKoTtITB87JnHUVPaD0uQV9v/h1FNg30WRWw7wAuvoHquJ8CQSv2eB2AxEpPxIQRbvt9L/xvGpXF6eghXPuTTdr4Wj659BRPyVwxBzgNJ1CJtff6zNP61rKs8t1Ay8QdyKfwxbAgMBAAGjUDBOMB0GA1UdDgQWBBQOUzjlD3x9wFhf9PXdKdqwUVG8+jAfBgNVHSMEGDAWgBQOUzjlD3x9wFhf9PXdKdqwUVG8+jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCz0nLkY48IuINLF9j6NE8BjOdWx5gCFXJwCWmtB8ruxnal+1CeSIYfuS1vxOmxlhc/z16wrsZP1Y7kl+J9cM4T2cgSxgAWiUZYmjKtXg9thD9CnIgRoDwWHF31foroba0rsAuGLcJi1elZINqIYcPBEyv5FTjCyrglnL+zxI1wEwDhxM+Ij68XzqcOpiIHOuPWBoCx8L1P8adUCefvKcfy8vur86bmorNmTa2FBuThGSMx4tf7YOQrz3ln3QZH3N+nAzGPMdpKeIpl9DlOPQCdg7dsrakYz1H3FKBUvlnENLGe5tcJRB7ZO8mZrfBLbZbEQOdtViqHeZqQ8Nxgwevp
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDRzCCAi+gAwIBAgIJAJaaqt8QwLYfMA0GCSqGSIb3DQEBCwUAMDoxHDAaBgNVBAMME3d3dy5jb211bmUubHVjY2EuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUyMTEzMzQ1M1oXDTMwMDUxOTEzMzQ1M1owOjEcMBoGA1UEAwwTd3d3LmNvbXVuZS5sdWNjYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMvh+6AVBcU/XSn6E52pwI9O25eTtz9xV7TOg44XXOZ7FXwNouqChkQPpuHdhW51ECnGHRQmgABAO6kxdVKjC8PS9Iz8r7fcmrT8pRPjBKs8GyZVAHnNHdT/EFlP0QqBoQp/50gpZpmToZVOxzfN2INvL2/7G43FagOJH7zwoC9Hk6luJA9ER16N53cyhVA7eF7HmGdI9Zl07EddOKoTtITB87JnHUVPaD0uQV9v/h1FNg30WRWw7wAuvoHquJ8CQSv2eB2AxEpPxIQRbvt9L/xvGpXF6eghXPuTTdr4Wj659BRPyVwxBzgNJ1CJtff6zNP61rKs8t1Ay8QdyKfwxbAgMBAAGjUDBOMB0GA1UdDgQWBBQOUzjlD3x9wFhf9PXdKdqwUVG8+jAfBgNVHSMEGDAWgBQOUzjlD3x9wFhf9PXdKdqwUVG8+jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCz0nLkY48IuINLF9j6NE8BjOdWx5gCFXJwCWmtB8ruxnal+1CeSIYfuS1vxOmxlhc/z16wrsZP1Y7kl+J9cM4T2cgSxgAWiUZYmjKtXg9thD9CnIgRoDwWHF31foroba0rsAuGLcJi1elZINqIYcPBEyv5FTjCyrglnL+zxI1wEwDhxM+Ij68XzqcOpiIHOuPWBoCx8L1P8adUCefvKcfy8vur86bmorNmTa2FBuThGSMx4tf7YOQrz3ln3QZH3N+nAzGPMdpKeIpl9DlOPQCdg7dsrakYz1H3FKBUvlnENLGe5tcJRB7ZO8mZrfBLbZbEQOdtViqHeZqQ8Nxgwevp
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lucca"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lucca" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lucca" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lucca" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lucca</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Lucca</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Lucca</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Lucca</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lucca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Lucca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Lucca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Lucca</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lucca.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lucca.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.lucca.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.lucca.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

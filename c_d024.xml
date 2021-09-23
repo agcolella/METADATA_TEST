@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="fd1fbd85-7387-4c54-654e-c547932cfca0" entityID="https://www.comune.tarquinia.vt.it/cmsitarquinia"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#fd1fbd85-7387-4c54-654e-c547932cfca0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>nEFEOtD76psSjVYhb8AhDRnb8ualLIn8QOCnNZaC/8U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+irT+IeCGIknNAheKFxIzlofOR0gnUXCXWeYG5QBbayemmwUxqQhUCN253d7PXlX9P3yEBmLGGmh8
+ZR/3SR8fOEfhCT02x81fYmB7WryYmCgx1gPTDqFGy/Lvkk8SuzR3WnVA0sL5VQlX94b7UhC0aTdU
+zx+LT9K6j1CMJt/FxcEq6eKIV0K92fjDcmX8rEusDGftSfxDBgVxGCZKwiCnb4iYnbTewEWHfofv
+EdAE4e9HIESIjq3RTo977SFY9MKk8lyI0G/d6dppyndf1b9eCv6RyYvVP3FCaJKApGIuu28TDEIU
+8bS4r9AjTtqZqV4nwoDcS7rgVpb51QYDAubGgw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yHUF/Bt3PVNW217LDM0R2/xzYouG+/76/m07LywaarKWvOToNmYgK8R3LgMeAxjb4eDk/P5MFXjK
++Dz9idDCnIvvdrLrTEHeS18tXHpOqyQrNEQ82HMG49BMYioUtizC5q0tTZ+DaNvNCZsFCKa0HOLD
+oPiWtqPF+ABLU6KQhlZ5Wqjqx75BNVtcoXfggYfHP75DwJCHjOVOvH2tew4LuheXSh2Me/D5mImf
+udKD2lDYHFdVicu2uiADcr8/Idqu39wNjO7shGbrTDGeXl+39v1akMwvq+P6jBY5zU9ucFvbW9e7
+srQQlOXLwqvHxjg6oOdYs3fqpOqtM5CXqyO6bw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDajCCAlKgAwIBAgIJAMM7AQawQcUYMA0GCSqGSIb3DQEBCwUAMDMxMTAvBgNVBAMTKHd3dy5j
+b211bmUudGFycXVpbmlhLnZ0Lml0L2Ntc2l0YXJxdWluaWEwHhcNMTgxMjIxMDkyNTEyWhcNMjgx
+MjE4MDkyNTEyWjAzMTEwLwYDVQQDEyh3d3cuY29tdW5lLnRhcnF1aW5pYS52dC5pdC9jbXNpdGFy
+cXVpbmlhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyHUF/Bt3PVNW217LDM0R2/xz
+YouG+/76/m07LywaarKWvOToNmYgK8R3LgMeAxjb4eDk/P5MFXjK+Dz9idDCnIvvdrLrTEHeS18t
+XHpOqyQrNEQ82HMG49BMYioUtizC5q0tTZ+DaNvNCZsFCKa0HOLDoPiWtqPF+ABLU6KQhlZ5Wqjq
+x75BNVtcoXfggYfHP75DwJCHjOVOvH2tew4LuheXSh2Me/D5mImfudKD2lDYHFdVicu2uiADcr8/
+Idqu39wNjO7shGbrTDGeXl+39v1akMwvq+P6jBY5zU9ucFvbW9e7srQQlOXLwqvHxjg6oOdYs3fq
+pOqtM5CXqyO6bwIDAQABo4GAMH4wXQYDVR0RBFYwVIIod3d3LmNvbXVuZS50YXJxdWluaWEudnQu
+aXQvY21zaXRhcnF1aW5pYYYod3d3LmNvbXVuZS50YXJxdWluaWEudnQuaXQvY21zaXRhcnF1aW5p
+YTAdBgNVHQ4EFgQUdmBaE2W7c+KOLvlGZxyAl9Jk5FswDQYJKoZIhvcNAQELBQADggEBAGoQ0613
+Y2VBj2dAw9fBGWkh41uPGE2+Wv7e29CPIlRCANNrXb/QKhFugEBL+2U4mwarEqd10emJIlkCLrs9
+S8P0ksnBd01DJIszVJxgOJRwDwJ+tJGaQmtzRlmwMF+LSvT7cSgwT/mpEQJ/hFjOUd/aQYtb8xzK
+jSb63TawX+urGUfDIx65amCZKpj8KkvY3E68XwmpDF4ppwfRa51dYSADJ0Io0SFKkiu/tKgAuYfl
+j98oDGtaX8UGBRSX72TdcfO9iKHSCaiFpgBemAShelJQsLwt5m5E6cmKcE766Yg9f24nCIo8vYbs
+1Wsim50teQeVvEOdeTvvDJUOSiph3YQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDajCCAlKgAwIBAgIJAMM7AQawQcUYMA0GCSqGSIb3DQEBCwUAMDMxMTAvBgNV
+BAMTKHd3dy5jb211bmUudGFycXVpbmlhLnZ0Lml0L2Ntc2l0YXJxdWluaWEwHhcN
+MTgxMjIxMDkyNTEyWhcNMjgxMjE4MDkyNTEyWjAzMTEwLwYDVQQDEyh3d3cuY29t
+dW5lLnRhcnF1aW5pYS52dC5pdC9jbXNpdGFycXVpbmlhMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAyHUF/Bt3PVNW217LDM0R2/xzYouG+/76/m07Lywa
+arKWvOToNmYgK8R3LgMeAxjb4eDk/P5MFXjK+Dz9idDCnIvvdrLrTEHeS18tXHpO
+qyQrNEQ82HMG49BMYioUtizC5q0tTZ+DaNvNCZsFCKa0HOLDoPiWtqPF+ABLU6KQ
+hlZ5Wqjqx75BNVtcoXfggYfHP75DwJCHjOVOvH2tew4LuheXSh2Me/D5mImfudKD
+2lDYHFdVicu2uiADcr8/Idqu39wNjO7shGbrTDGeXl+39v1akMwvq+P6jBY5zU9u
+cFvbW9e7srQQlOXLwqvHxjg6oOdYs3fqpOqtM5CXqyO6bwIDAQABo4GAMH4wXQYD
+VR0RBFYwVIIod3d3LmNvbXVuZS50YXJxdWluaWEudnQuaXQvY21zaXRhcnF1aW5p
+YYYod3d3LmNvbXVuZS50YXJxdWluaWEudnQuaXQvY21zaXRhcnF1aW5pYTAdBgNV
+HQ4EFgQUdmBaE2W7c+KOLvlGZxyAl9Jk5FswDQYJKoZIhvcNAQELBQADggEBAGoQ
+0613Y2VBj2dAw9fBGWkh41uPGE2+Wv7e29CPIlRCANNrXb/QKhFugEBL+2U4mwar
+Eqd10emJIlkCLrs9S8P0ksnBd01DJIszVJxgOJRwDwJ+tJGaQmtzRlmwMF+LSvT7
+cSgwT/mpEQJ/hFjOUd/aQYtb8xzKjSb63TawX+urGUfDIx65amCZKpj8KkvY3E68
+XwmpDF4ppwfRa51dYSADJ0Io0SFKkiu/tKgAuYflj98oDGtaX8UGBRSX72TdcfO9
+iKHSCaiFpgBemAShelJQsLwt5m5E6cmKcE766Yg9f24nCIo8vYbs1Wsim50teQeV
+vEOdeTvvDJUOSiph3YQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.hypersic.net/cmstarquinia/spidsinglelogout.aspx"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.hypersic.net/cmstarquinia/spidassertionconsumer.aspx" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Tarquinia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Tarquinia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.tarquinia.vt.it/cmsitarquinia</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

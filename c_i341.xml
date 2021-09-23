@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="SantIlarioDelloIonio" entityID="https://www.comune.santilariodelloionio.rc.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SantIlarioDelloIonio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>XAoEiqOLJIe54rxCJ7hkmN8zxtzBVJia93Ui235NQSg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+IGB+krUUBA06VbnfYbdauNgeuM5qQwboU5eeBAhv3mZxgTaOKDf2duL/+R9XNMKLM9V7hLUlHUKy
+r1Xv6lMROocYW8vqhQNkf/A46HneH6/LKGwj1bwgtdRbToRxYUYvD/AYhQDUMNwLTZorRdSf10d3
++KGnxSg1euwLEMwWCD6S8QxcXldPPRSfXugoQdS0mLu1NLQbca6VkACVgAgRn2gEXuwhPBwtN/xH
+NC1KCJWeb8MRBadROL6Q7KQdhDADxnjh+7M+7cfUq18ZuLgv6VCPxUBNhgcAWWdMOyqeqerK+eT/
+7Fv1gTgVcUvc164VD9t0Xwlft7RsXlkOZFquIA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rH1oH5eyz1YI4LRpYhqQbWKAFWgUuHgMX+kD4j3O73hMO7o7lti+shfLeS9My+DjNMfbX7d4bmM6
+jUzCONMmtjzFOempnAk/eNaZbouDq1StwISrj2sZgJX/qoa0wXPaucZc9y/Ub8ULqj1h8hTWu3ou
+GHPRS1AKPj4NxNakM3Ol6B7LWxnngHdMpllsCIISHm4f5eQkjAB5WXnjmaz+qzuxORcm7fH1VzBQ
+RJr9pOQMB4zXA6Cz/MNJjwaLXMLI8Yi5KIUxAF59RKweK7aVZNz837cHUE1WRloeqixzuwJ6o+b3
+Ez+9diHSEvqAEKCNAxQ+zXQSX1J2lOnrG+BJHw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEeDCCA2CgAwIBAgIJAIh2UTU3q19IMA0GCSqGSIb3DQEBCwUAMIHiMSowKAYDVQQKDCFDb211
+bmUgZGkgU2FudCdJbGFyaW8gZGVsbG8gSW9uaW8xKjAoBgNVBAMMIUNvbXVuZSBkaSBTYW50J0ls
+YXJpbyBkZWxsbyBJb25pbzFCMEAGA1UEUww5aHR0cHM6Ly93d3cuY29tdW5lLnNhbnRpbGFyaW9k
+ZWxsb2lvbmlvLnJjLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kzNDExCzAJBgNV
+BAYTAklUMSAwHgYDVQQHDBdTYW50J0lsYXJpbyBkZWxsbyBJb25pbzAeFw0yMDExMDUxMTUzMjla
+Fw0zMDExMDMxMTUzMjlaMIHiMSowKAYDVQQKDCFDb211bmUgZGkgU2FudCdJbGFyaW8gZGVsbG8g
+SW9uaW8xKjAoBgNVBAMMIUNvbXVuZSBkaSBTYW50J0lsYXJpbyBkZWxsbyBJb25pbzFCMEAGA1UE
+Uww5aHR0cHM6Ly93d3cuY29tdW5lLnNhbnRpbGFyaW9kZWxsb2lvbmlvLnJjLml0L3NlcnZpemlT
+UElEMRUwEwYDVQRhDAxQQTpJVC1jX2kzNDExCzAJBgNVBAYTAklUMSAwHgYDVQQHDBdTYW50J0ls
+YXJpbyBkZWxsbyBJb25pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKx9aB+Xss9W
+COC0aWIakG1igBVoFLh4DF/pA+I9zu94TDu6O5bYvrIXy3kvTMvg4zTH21+3eG5jOo1MwjjTJrY8
+xTnpqZwJP3jWmW6Lg6tUrcCEq49rGYCV/6qGtMFz2rnGXPcv1G/FC6o9YfIU1rt6Lhhz0UtQCj4+
+DcTWpDNzpegey1sZ54B3TKZZbAiCEh5uH+XkJIwAeVl545ms/qs7sTkXJu3x9VcwUESa/aTkDAeM
+1wOgs/zDSY8Gi1zCyPGIuSiFMQBefUSsHiu2lWTc/N+3B1BNVkZaHqosc7sCeqPm9xM/vXYh0hL6
+gBCgjQMUPs10El9SdpTp6xvgSR8CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYD
+VR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBABWePoUkzeQEOGEJ315IFzizDYLx
+DGYuPOeprM0Hjh2Pxsz49ommPlv/8y0aXfcY4IzxRdwML9gp6Qq2KwR9FfngvVQ1FbsJ5Sm+rXkZ
+MAy56DjTX4d5xdLM1EW1U5rRvYbJNe3WuK+KDw5cGeS+PGrVwENoHXFWLqQYEK3APpBH4Jy2ZPtB
+BCM+3nHv1utR12nEBU+LfQ2Qo9jAXs6XIR52n/qtc35JiXwHhibP/zbr0/580Jih1MC5c+/V07tN
+bKJWqpK/qJeIj9tQpg+A79hhq1M+JNc5GYVjuUgzrzAjMfx15t3N08sK+V8VNLvReBvlHGXf6zRC
+vZgrRRTb2eg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEeDCCA2CgAwIBAgIJAIh2UTU3q19IMA0GCSqGSIb3DQEBCwUAMIHiMSowKAYDVQQKDCFDb211bmUgZGkgU2FudCdJbGFyaW8gZGVsbG8gSW9uaW8xKjAoBgNVBAMMIUNvbXVuZSBkaSBTYW50J0lsYXJpbyBkZWxsbyBJb25pbzFCMEAGA1UEUww5aHR0cHM6Ly93d3cuY29tdW5lLnNhbnRpbGFyaW9kZWxsb2lvbmlvLnJjLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kzNDExCzAJBgNVBAYTAklUMSAwHgYDVQQHDBdTYW50J0lsYXJpbyBkZWxsbyBJb25pbzAeFw0yMDExMDUxMTUzMjlaFw0zMDExMDMxMTUzMjlaMIHiMSowKAYDVQQKDCFDb211bmUgZGkgU2FudCdJbGFyaW8gZGVsbG8gSW9uaW8xKjAoBgNVBAMMIUNvbXVuZSBkaSBTYW50J0lsYXJpbyBkZWxsbyBJb25pbzFCMEAGA1UEUww5aHR0cHM6Ly93d3cuY29tdW5lLnNhbnRpbGFyaW9kZWxsb2lvbmlvLnJjLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kzNDExCzAJBgNVBAYTAklUMSAwHgYDVQQHDBdTYW50J0lsYXJpbyBkZWxsbyBJb25pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKx9aB+Xss9WCOC0aWIakG1igBVoFLh4DF/pA+I9zu94TDu6O5bYvrIXy3kvTMvg4zTH21+3eG5jOo1MwjjTJrY8xTnpqZwJP3jWmW6Lg6tUrcCEq49rGYCV/6qGtMFz2rnGXPcv1G/FC6o9YfIU1rt6Lhhz0UtQCj4+DcTWpDNzpegey1sZ54B3TKZZbAiCEh5uH+XkJIwAeVl545ms/qs7sTkXJu3x9VcwUESa/aTkDAeM1wOgs/zDSY8Gi1zCyPGIuSiFMQBefUSsHiu2lWTc/N+3B1BNVkZaHqosc7sCeqPm9xM/vXYh0hL6gBCgjQMUPs10El9SdpTp6xvgSR8CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBABWePoUkzeQEOGEJ315IFzizDYLxDGYuPOeprM0Hjh2Pxsz49ommPlv/8y0aXfcY4IzxRdwML9gp6Qq2KwR9FfngvVQ1FbsJ5Sm+rXkZMAy56DjTX4d5xdLM1EW1U5rRvYbJNe3WuK+KDw5cGeS+PGrVwENoHXFWLqQYEK3APpBH4Jy2ZPtBBCM+3nHv1utR12nEBU+LfQ2Qo9jAXs6XIR52n/qtc35JiXwHhibP/zbr0/580Jih1MC5c+/V07tNbKJWqpK/qJeIj9tQpg+A79hhq1M+JNc5GYVjuUgzrzAjMfx15t3N08sK+V8VNLvReBvlHGXf6zRCvZgrRRTb2eg=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEeDCCA2CgAwIBAgIJAIh2UTU3q19IMA0GCSqGSIb3DQEBCwUAMIHiMSowKAYDVQQKDCFDb211bmUgZGkgU2FudCdJbGFyaW8gZGVsbG8gSW9uaW8xKjAoBgNVBAMMIUNvbXVuZSBkaSBTYW50J0lsYXJpbyBkZWxsbyBJb25pbzFCMEAGA1UEUww5aHR0cHM6Ly93d3cuY29tdW5lLnNhbnRpbGFyaW9kZWxsb2lvbmlvLnJjLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kzNDExCzAJBgNVBAYTAklUMSAwHgYDVQQHDBdTYW50J0lsYXJpbyBkZWxsbyBJb25pbzAeFw0yMDExMDUxMTUzMjlaFw0zMDExMDMxMTUzMjlaMIHiMSowKAYDVQQKDCFDb211bmUgZGkgU2FudCdJbGFyaW8gZGVsbG8gSW9uaW8xKjAoBgNVBAMMIUNvbXVuZSBkaSBTYW50J0lsYXJpbyBkZWxsbyBJb25pbzFCMEAGA1UEUww5aHR0cHM6Ly93d3cuY29tdW5lLnNhbnRpbGFyaW9kZWxsb2lvbmlvLnJjLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2kzNDExCzAJBgNVBAYTAklUMSAwHgYDVQQHDBdTYW50J0lsYXJpbyBkZWxsbyBJb25pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKx9aB+Xss9WCOC0aWIakG1igBVoFLh4DF/pA+I9zu94TDu6O5bYvrIXy3kvTMvg4zTH21+3eG5jOo1MwjjTJrY8xTnpqZwJP3jWmW6Lg6tUrcCEq49rGYCV/6qGtMFz2rnGXPcv1G/FC6o9YfIU1rt6Lhhz0UtQCj4+DcTWpDNzpegey1sZ54B3TKZZbAiCEh5uH+XkJIwAeVl545ms/qs7sTkXJu3x9VcwUESa/aTkDAeM1wOgs/zDSY8Gi1zCyPGIuSiFMQBefUSsHiu2lWTc/N+3B1BNVkZaHqosc7sCeqPm9xM/vXYh0hL6gBCgjQMUPs10El9SdpTp6xvgSR8CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBABWePoUkzeQEOGEJ315IFzizDYLxDGYuPOeprM0Hjh2Pxsz49ommPlv/8y0aXfcY4IzxRdwML9gp6Qq2KwR9FfngvVQ1FbsJ5Sm+rXkZMAy56DjTX4d5xdLM1EW1U5rRvYbJNe3WuK+KDw5cGeS+PGrVwENoHXFWLqQYEK3APpBH4Jy2ZPtBBCM+3nHv1utR12nEBU+LfQ2Qo9jAXs6XIR52n/qtc35JiXwHhibP/zbr0/580Jih1MC5c+/V07tNbKJWqpK/qJeIj9tQpg+A79hhq1M+JNc5GYVjuUgzrzAjMfx15t3N08sK+V8VNLvReBvlHGXf6zRCvZgrRRTb2eg=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/santilariodelloionio"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santilariodelloionio" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santilariodelloionio" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santilariodelloionio" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Sant'Ilario dello Ionio</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Sant'Ilario dello Ionio</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Sant'Ilario dello Ionio</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Sant'Ilario dello Ionio</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Sant'Ilario dello Ionio</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Sant'Ilario dello Ionio</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Sant'Ilario dello Ionio</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Sant'Ilario dello Ionio</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.santilariodelloionio.rc.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.santilariodelloionio.rc.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.santilariodelloionio.rc.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.santilariodelloionio.rc.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_i341</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>amministrativo@comune.santilariodelloionio.rc.it</md:EmailAddress>
+      <md:TelephoneNumber>+390964365006</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

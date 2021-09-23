@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Gandino" entityID="https://www.comune.gandino.bg.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Gandino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3Ej12BsPn1jlqxfYUuD3VqiUOs43sv6KmPc2HfhglzE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QPaDFLWfHFNtOW15Co8HGsPdOe8bkWB/A8phJcVGc/71aoaeQTNEk38Jwxr4INXClba/xWvBKV76
+cuymodqxjm41efvnvaEdYr0elJOI1eWiedohWpJ4U/0Gx/H+nMTHzr/HlUeoyxVJRfQuAMOAOo8+
+0x6YqVm5Y5PW20sX+Vz3P3TkRy/5le33yu8q4DPTjOSZQ3LmJ2pfxzovSynQxF+FfhO2XrOhmNjg
+H0bdVfgC1d0Pm21gZdK9X7urdOz4+mkJSr9QitpsIN0HANVnI7z8iklXTWgFknO5nDdPQpJZwbbz
+IxGT5npdZZI1HzyRkM4MwojWB2BEVkr+TyprTQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xQTZG4CoIiuE3u59nOebNVrAq4SGc5U0X3MNeITwd8xEMfzqB/e2SpZkbrxXusrx+K2Gh/UWhf1p
+9MCr7ANzpIssfILveFGta13yfdPEhg32Fs39CkNrzla6v8ude4TBO64/6tdZw9Qt+vNVJImkRW04
+SaDvzTDjB0O2xyBmYPKv/cL5Gtit49gNSAW2lzbm63ompn9SkYPlHPIIv2ymWfbXog+Sj+0oKpTP
+Jhm0AEKHx4ijSJBnqwp7dM8N0t2PSsZIocucJTb/xnrZMV6KsI+xoP4iMLz/XjGigpQ5ylbxgDuZ
+Aovm5zCE3boEDPA8hCRiVBQRKJWA42d0FxEtNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJALliLPr7+DcEMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuZ2FuZGluby5iZy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzMx
+MTA1NjU0WhcNMjkwNzI4MTA1NjU0WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmdhbmRpbm8uYmcu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAxQTZG4CoIiuE3u59nOebNVrAq4SGc5U0X3MNeITwd8xEMfzqB/e2SpZkbrxXusrx+K2G
+h/UWhf1p9MCr7ANzpIssfILveFGta13yfdPEhg32Fs39CkNrzla6v8ude4TBO64/6tdZw9Qt+vNV
+JImkRW04SaDvzTDjB0O2xyBmYPKv/cL5Gtit49gNSAW2lzbm63ompn9SkYPlHPIIv2ymWfbXog+S
+j+0oKpTPJhm0AEKHx4ijSJBnqwp7dM8N0t2PSsZIocucJTb/xnrZMV6KsI+xoP4iMLz/XjGigpQ5
+ylbxgDuZAovm5zCE3boEDPA8hCRiVBQRKJWA42d0FxEtNwIDAQABo1AwTjAdBgNVHQ4EFgQUbVzY
+Aetux+WQiPR8VVM+NyXcxC0wHwYDVR0jBBgwFoAUbVzYAetux+WQiPR8VVM+NyXcxC0wDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArYtuMMOR44LBS+kl2gVdV0VqQXYAALEfI0OlbLxQ
+F6QutL/KXbjwB/V6hEgO6hQQrU2HfyVuymNrHr3qbdhHe5H5adrGmlRkbgDAOgkhFC2VGgHTHkD7
+sY6+vcwP2Asbwya7en0EM6xMNozU+pTRDmsYzYaWLFXV0Ofi+ax9IEm68MagDra2wl5j/qkQ3Wss
+J6cJnUTNgsLXyYY2/HPO2NDrSaH5fG6vXg9REOINsQJtwQrF1OOAm10F/3B5MFMdOk6jUSret7NC
+i04j+3HwEbRww/TY1FOt1G5H1LJ8IdeIhgDixbrfibUnvfzC/BTfHfLJ1T8XBg+WPWGWXOJG/w==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALliLPr7+DcEMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuZ2FuZGluby5iZy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzMxMTA1NjU0WhcNMjkwNzI4MTA1NjU0WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmdhbmRpbm8uYmcuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxQTZG4CoIiuE3u59nOebNVrAq4SGc5U0X3MNeITwd8xEMfzqB/e2SpZkbrxXusrx+K2Gh/UWhf1p9MCr7ANzpIssfILveFGta13yfdPEhg32Fs39CkNrzla6v8ude4TBO64/6tdZw9Qt+vNVJImkRW04SaDvzTDjB0O2xyBmYPKv/cL5Gtit49gNSAW2lzbm63ompn9SkYPlHPIIv2ymWfbXog+Sj+0oKpTPJhm0AEKHx4ijSJBnqwp7dM8N0t2PSsZIocucJTb/xnrZMV6KsI+xoP4iMLz/XjGigpQ5ylbxgDuZAovm5zCE3boEDPA8hCRiVBQRKJWA42d0FxEtNwIDAQABo1AwTjAdBgNVHQ4EFgQUbVzYAetux+WQiPR8VVM+NyXcxC0wHwYDVR0jBBgwFoAUbVzYAetux+WQiPR8VVM+NyXcxC0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArYtuMMOR44LBS+kl2gVdV0VqQXYAALEfI0OlbLxQF6QutL/KXbjwB/V6hEgO6hQQrU2HfyVuymNrHr3qbdhHe5H5adrGmlRkbgDAOgkhFC2VGgHTHkD7sY6+vcwP2Asbwya7en0EM6xMNozU+pTRDmsYzYaWLFXV0Ofi+ax9IEm68MagDra2wl5j/qkQ3WssJ6cJnUTNgsLXyYY2/HPO2NDrSaH5fG6vXg9REOINsQJtwQrF1OOAm10F/3B5MFMdOk6jUSret7NCi04j+3HwEbRww/TY1FOt1G5H1LJ8IdeIhgDixbrfibUnvfzC/BTfHfLJ1T8XBg+WPWGWXOJG/w==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALliLPr7+DcEMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuZ2FuZGluby5iZy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNzMxMTA1NjU0WhcNMjkwNzI4MTA1NjU0WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmdhbmRpbm8uYmcuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxQTZG4CoIiuE3u59nOebNVrAq4SGc5U0X3MNeITwd8xEMfzqB/e2SpZkbrxXusrx+K2Gh/UWhf1p9MCr7ANzpIssfILveFGta13yfdPEhg32Fs39CkNrzla6v8ude4TBO64/6tdZw9Qt+vNVJImkRW04SaDvzTDjB0O2xyBmYPKv/cL5Gtit49gNSAW2lzbm63ompn9SkYPlHPIIv2ymWfbXog+Sj+0oKpTPJhm0AEKHx4ijSJBnqwp7dM8N0t2PSsZIocucJTb/xnrZMV6KsI+xoP4iMLz/XjGigpQ5ylbxgDuZAovm5zCE3boEDPA8hCRiVBQRKJWA42d0FxEtNwIDAQABo1AwTjAdBgNVHQ4EFgQUbVzYAetux+WQiPR8VVM+NyXcxC0wHwYDVR0jBBgwFoAUbVzYAetux+WQiPR8VVM+NyXcxC0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArYtuMMOR44LBS+kl2gVdV0VqQXYAALEfI0OlbLxQF6QutL/KXbjwB/V6hEgO6hQQrU2HfyVuymNrHr3qbdhHe5H5adrGmlRkbgDAOgkhFC2VGgHTHkD7sY6+vcwP2Asbwya7en0EM6xMNozU+pTRDmsYzYaWLFXV0Ofi+ax9IEm68MagDra2wl5j/qkQ3WssJ6cJnUTNgsLXyYY2/HPO2NDrSaH5fG6vXg9REOINsQJtwQrF1OOAm10F/3B5MFMdOk6jUSret7NCi04j+3HwEbRww/TY1FOt1G5H1LJ8IdeIhgDixbrfibUnvfzC/BTfHfLJ1T8XBg+WPWGWXOJG/w==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/gandino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gandino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gandino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gandino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gandino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Gandino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Gandino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Gandino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gandino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Gandino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Gandino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Gandino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gandino.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.gandino.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.gandino.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.gandino.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

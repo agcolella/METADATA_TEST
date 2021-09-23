@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cesenatico" entityID="https://www.comune.cesenatico.fc.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cesenatico">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rUt/pblIyNLhFmio2nW+LxV1iqXZ3SzAzOXsmzXlnMQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+BRojHnEyp0hiZg9OZds/GAStOFaS6Pgy2WnMY7o1sSbPTf9ab9TuYr6ObT9q4ChyN+ojoupUwta0
+TukSm/Bvn8k/xUun/3ai19K5J0lO2D3UAjYUpAlLAHS0fDqQtDLBbXVINhsPPMR5w9Rw46Pu3igy
+CIaCcZLXgkjLfmwoK23z7p2EKHrRQ6sDcrq6QHL+wN7pWz0uejTqEpDbBt+1OSFAvegV5fN9nGeQ
+jnhOjclzK0vnRzpeoKYxfXbQU006XI5waPZATiEvc2I0L6A89V9r399Ew+dRL0EWXxeV03ILg8YY
+Sl7pUr1NKQUzSQ1G8YaflYi4YcykZGTy9XTHbA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wAMDSk3rOwSP1sbw/NVkaZ+UQOqd21H3rJCEIX1IcO3FY9/TRHOQiu44vRYo4xTXeHHKqAK8JXOe
+CSrW+1c7Z7ycXQ6uVAg664boXGHhinBmmea3GHh60J8Yczo9+Nn+Y1dY1YoNhcS+WLH57LTxY+0r
+kJ9LrncVOfLlQ3sxNhQS1ZuYBDaB0eA3dOFU4pAMfx3jdGauYq1UmGtZzyQZGTWdfUO6JxD55afh
+HTMt0jeiipvJAcfHl4iHob/u1zUXWpRraccC9fhSZUTuJ4dgtDTlQ9f8YTtKYvpxnBQyIg36AJu7
+Rhcd/6YClNKW//s3q2sJ/6G3Osuczioqgf133Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEOzCCAyOgAwIBAgIJAKHrVSTn/Pq0MA0GCSqGSIb3DQEBCwUAMIGzMQswCQYDVQQGEwJJVDEU
+MBIGA1UECAwLRm9ybGlDZXNlbmExEzARBgNVBAcMCkNlc2VuYXRpY28xHTAbBgNVBAoMFENvbXVu
+ZSBkaSBDZXNlbmF0aWNvMQwwCgYDVQQLDANDRUQxIDAeBgNVBAMMF2NvbXVuZS5jZXNlbmF0aWNv
+LmZjLml0MSowKAYJKoZIhvcNAQkBFhtjZWRAY29tdW5lLmNlc2VuYXRpY28uZmMuaXQwHhcNMTgx
+MDA1MTA1MzUzWhcNMTkxMDA1MTA1MzUzWjCBszELMAkGA1UEBhMCSVQxFDASBgNVBAgMC0Zvcmxp
+Q2VzZW5hMRMwEQYDVQQHDApDZXNlbmF0aWNvMR0wGwYDVQQKDBRDb211bmUgZGkgQ2VzZW5hdGlj
+bzEMMAoGA1UECwwDQ0VEMSAwHgYDVQQDDBdjb211bmUuY2VzZW5hdGljby5mYy5pdDEqMCgGCSqG
+SIb3DQEJARYbY2VkQGNvbXVuZS5jZXNlbmF0aWNvLmZjLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAwAMDSk3rOwSP1sbw/NVkaZ+UQOqd21H3rJCEIX1IcO3FY9/TRHOQiu44vRYo
+4xTXeHHKqAK8JXOeCSrW+1c7Z7ycXQ6uVAg664boXGHhinBmmea3GHh60J8Yczo9+Nn+Y1dY1YoN
+hcS+WLH57LTxY+0rkJ9LrncVOfLlQ3sxNhQS1ZuYBDaB0eA3dOFU4pAMfx3jdGauYq1UmGtZzyQZ
+GTWdfUO6JxD55afhHTMt0jeiipvJAcfHl4iHob/u1zUXWpRraccC9fhSZUTuJ4dgtDTlQ9f8YTtK
+YvpxnBQyIg36AJu7Rhcd/6YClNKW//s3q2sJ/6G3Osuczioqgf133QIDAQABo1AwTjAdBgNVHQ4E
+FgQU6Nrimk3BUBNKr29/T8VVKdsGB2MwHwYDVR0jBBgwFoAU6Nrimk3BUBNKr29/T8VVKdsGB2Mw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAJ2aHz1ZPhKzXYvej55r8GT65QU3ALfP/
+P4l5mZRa4Empz55T1n6B6VdB65d2FrZYrffBExESB08Pt9cDUq2z7RFcwXxP7OE59b1gQ2gwbtgX
+nNj6VyZjAjpWUv5OkCYGTDPjSDKP+gdEhIVRwdJ5bBmREuX/rpyVlKFTI7KUzCXaBmg71EE50h5Q
+BNIGnsajTcNEJdqQ6/pBawHoBZwFuRerYVnbD3YFW6CqxdqYh07YhOjoCpm6bK87XRsRzyzGbhGU
+seeKxx52tzRXA2uVFWgcKqLDpi0FGw+euTdBI46hqWUFMTwPc4UPSdaW+HWJlsCPFQyRhQgowP5G
+ZJAiVw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJAK9zye2ePmq5MA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUuY2VzZW5hdGljby5mYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNzMwMDg1MDUzWhcNMjgwNzI3MDg1MDUzWjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLmNlc2VuYXRpY28uZmMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAusavAUhW+BAFVJrlDfCBWZ7gUPPGFtxe6EE/gN96rxrzFBTDt1ZxP99Qfk5yo1UMHt4vJaKClhzsLhyQkCPyftaM1wA2Srg/b6bQcgHmcSOsfZsZtldfJ3+NfWZ+GQA2eQB0DU/HPAW2XI7JSdDUqYRNzb2mKqWIujGKonPfWFjlEVCA/Wlc7FO/OriI3hB01OkrTDflSZnwTXAh92/oN31c4wn+yJmmH/QwM7/iwVY7RaZXehs/wHjuSTYVyf+Qyt49H6yPLIC1gY5y6geA0WahNpEeE3LHCHimomXO5Si2EUMtpYV/B6D90BD/TswTlUQwoRFpP/V4fIAhihAktQIDAQABo1AwTjAdBgNVHQ4EFgQUCbAjM3tD5Iar+ioaJ2aqcX6vcF0wHwYDVR0jBBgwFoAUCbAjM3tD5Iar+ioaJ2aqcX6vcF0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPe5BF5cByATh912Mc2C3sjTc8IFHQnhS8PLNCk5+CqoQf79J6msKBKui8e3Cr4JNEDV5GlP2vXSz5q1Hudh6Xnt9ocR8VE9b2UnlOSdKm06mHWp2X6I6BoraMXJA1a32oAyNPX+6QWsYPPPK7TeuoguCBHCI7WYBiWi3ThThJreqhILTzVfByH+qQyEGc//4XwniPybXVSar0xipWWHCxkqDfqnBL6exKOdD8HTaZVgiUgnWKpKKDXXgHwSySF0qjk9RYnnn4+DdOBBdVxXIKQQF8cicUbBqXBstV8CJFo/u/rptPXaMIyVIuA3J+Xrg+7yIiRpaGZp5qKYdPUmVdg==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAJuiSEiMncliMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYD
+VQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMRQwEgYDVQQHDAtPcm5hZ28gKE1C
+KTETMBEGA1UECgwKU3RhcmNoIHNybDEPMA0GA1UECwwGU3RhcmNoMQ8wDQYDVQQD
+DAZTdGFyY2gxIzAhBgkqhkiG9w0BCQEWFGFzc2lzdGVuemFAc3RhcmNoLml0MB4X
+DTE4MDQwODA2NTg1OVoXDTIzMDQwNzA2NTg1OVowgZMxCzAJBgNVBAYTAklUMRIw
+EAYDVQQIDAlMb21iYXJkaWExFDASBgNVBAcMC09ybmFnbyAoTUIpMRMwEQYDVQQK
+DApTdGFyY2ggc3JsMQ8wDQYDVQQLDAZTdGFyY2gxDzANBgNVBAMMBlN0YXJjaDEj
+MCEGCSqGSIb3DQEJARYUYXNzaXN0ZW56YUBzdGFyY2guaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC1OUQnR0sDZKy+YEpD4wBnmemnRtoW2QOjwH2g
+PngKEwzm+hwfSTcdA6IGQDgs2uLgwYIWiYlCvLI7es/EbWXyIGmXuTjCkorxHjqt
++hx5C7jQ5jFwdZDgDIv+wVVoWmKRucr4saDqDs5UgE+1c2/zW7gqfQAFF2j8Fsbk
+DfajeO7iFE86+qyPyAdzuomfMGA6L3zhjRZKzdizlqZqeZX20tV334LJCchMhG9E
+XH6FPi1uqBV/wGOuh4NX3ZMI7M+RDVTDBqw78JW1cutOmAAbsST9UaPVsuobNxt3
+oAKp25I8O+BaV3ouI/OV4DFo6sEBVnqB0bSeuaGfJDW0WL1HAgMBAAGjUzBRMB0G
+A1UdDgQWBBQXlNLs0Flt1uKKjXYivYewHkedmDAfBgNVHSMEGDAWgBQXlNLs0Flt
+1uKKjXYivYewHkedmDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQBS56xaq5v32wj9Yj2jXAwWPeLsvBx313QTL5ctqgGjpYMoUZmUZIhsqARm/MLd
+9d5j+vdGHOaFgzMC+PxfdO5bXg1cvqa5TtE+1qetudMXdzZDLeXOrifSzXCujaLO
+/Wrs6GX17v3rOPvm9xIrdItTMzIXi4t0qy6Tu64Z2VrMMeAR0HkXrmRZfY0vjW5P
+Q9RVNrU8wubdlIVFlf8RQrN9tv3tFPRlVq0oDhUQGTGRsQnSqeOeaEiU7ksPoQnk
+rDD0GeoH6BDx2kONVgLqHIWfhtv7Cs2iNtXEqFFxuLWli+li6jtecBF6o/Muk/Zq
+ejmZpyojs84slWysyS5l3eaF</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+	</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cesenatico"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_C574/Shibboleth.sso/Logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesenatico" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesenatico" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesenatico" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_C574/Shibboleth.sso/SAML2/POST" index="3"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+			<md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+			<md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+			<md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Cesenatico</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Comune di Cesenatico</md:OrganizationName>
+		<md:OrganizationName xml:lang="fr">Comune di Cesenatico</md:OrganizationName>
+		<md:OrganizationName xml:lang="de">Comune di Cesenatico</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Cesenatico</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Cesenatico</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="fr">Comune di Cesenatico</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="de">Comune di Cesenatico</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.cesenatico.fc.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://www.comune.cesenatico.fc.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="fr">https://www.comune.cesenatico.fc.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="de">https://www.comune.cesenatico.fc.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.borgovalbelluna.bl.it/" ID="_2cc6e65a5e7e0ebf927178f602e715697498fb553d062b1571930f04d5fb0937"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_2cc6e65a5e7e0ebf927178f602e715697498fb553d062b1571930f04d5fb0937"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>6bzFFUxXEKooIC0OjZMMMIc/DAMiD6WJJVpsouNMzeY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>epwc3GTFRbSkf8STPxthW6CEJ6M8P5lfEhb2pVkRF8b3DCEZBnBGJ/s/ooTrI3nIn49KUu46MmXdJpzwMBi5FDI1spKXpItHzY/SSlbyP+XJSBuzD+pchPYuECnryurtYBAg0IY5opjXbzCxYyTWbxNyVjSDHqFKpS/Jclb/3dRiBuaVZVRv+xdRoNMTJ2As/5Td3wdZVIOJIVgVgzipXtTgAU/k3yNnODCpDHxYHeYyZw5zOBhBNIl6dSqbPXi2DhKF89IedoIXd9+3yx9S4MJKmVjgjGJEk5nEeiluMlRCbPY1xzcx1/d1AnNGfjpWVXCxape183XJaG5Fiye22Q==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID9TCCAt2gAwIBAgIQUNBANYKaH/P+brlRfHrGvTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCSVQxGTAXBgNVBAcTEEJvcmdvIFZhbGJlbGx1bmExIzAhBgNVBAoTGkNvbXVuZSBkaSBCb3JnbyBWYWxiZWxsdW5hMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uYm9yZ292YWxiZWxsdW5hLmJsLml0LzEVMBMGA1UEBRYMUEE6SVQtY19tNDIxMB4XDTIwMTAyMjEwMjA0MVoXDTMwMTAyMDEwMjA0MVowgaExCzAJBgNVBAYTAklUMRkwFwYDVQQHExBCb3JnbyBWYWxiZWxsdW5hMSMwIQYDVQQKExpDb211bmUgZGkgQm9yZ28gVmFsYmVsbHVuYTE7MDkGA1UEAxMyaHR0cHM6Ly9zcG9ydGVsbG90ZWxlbWF0aWNvLmJvcmdvdmFsYmVsbHVuYS5ibC5pdC8xFTATBgNVBAUWDFBBOklULWNfbTQyMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxlFSOmZZ/1fMk63ESrvaXvMBXYDQscXjKByeWqwlzyINAsf22gbbuCGunYQrb4bDfmZbsYd9tcIf2oNrxxZha1AA2c+ggKa7zYPB6h6268TMpyQNn6QIFdFgIt8TOgKcpln7HXFPyQbEiUmV6bZuM8FviFVCtxIFbGXlYfj+zBJiZ9pNTUn+isTZOXNHNV6BS5znqf9gNRx98O6qS3e6IYEmvZeng7kRyir0eKx+BNV60BE37iLjBd8EInn9U8Zja1FynWyWL4hMfUjn8KM1mF4G3jjfRpj7HDMIDe8FfF5u2/MhorZvh2AnUY4QYt9j3ohFN7398vPEQHmzYdiakCAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCL37O0/hy8S8+9MWvQ2QEdPCZuTkqHWrQOqqN1OT//iQsV7UjvrbIGaGPh4Npm/02cRtBxZA7BNCuCiBBJRGZcOcwa6cdmt8l5CqoEvHrLu8UoM121v2ZFI+rI6wf3nz00yU/YBI/rsRLpnDv7j9m6fGejIYx13vg04adu35Bks6uBI5XaWM7dnM9XpII4AHYlQebf0FmtIuJIm5TlJ/A/ut8k+E/ukQpQ2Bf+Vn+loa8Y18MH82rJjuA5iXy8NF/PAHm0OzIDxgDALNOnkr6CHrYEZ6GPY5bgzhsS3PNgUCqJ20HGPGBKTYnoZ1hBIdP36rgJv3sYPzjMVN/LEH6j</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9TCCAt2gAwIBAgIQUNBANYKaH/P+brlRfHrGvTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCSVQxGTAXBgNVBAcTEEJvcmdvIFZhbGJlbGx1bmExIzAhBgNVBAoTGkNvbXVuZSBkaSBCb3JnbyBWYWxiZWxsdW5hMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uYm9yZ292YWxiZWxsdW5hLmJsLml0LzEVMBMGA1UEBRYMUEE6SVQtY19tNDIxMB4XDTIwMTAyMjEwMjA0MVoXDTMwMTAyMDEwMjA0MVowgaExCzAJBgNVBAYTAklUMRkwFwYDVQQHExBCb3JnbyBWYWxiZWxsdW5hMSMwIQYDVQQKExpDb211bmUgZGkgQm9yZ28gVmFsYmVsbHVuYTE7MDkGA1UEAxMyaHR0cHM6Ly9zcG9ydGVsbG90ZWxlbWF0aWNvLmJvcmdvdmFsYmVsbHVuYS5ibC5pdC8xFTATBgNVBAUWDFBBOklULWNfbTQyMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxlFSOmZZ/1fMk63ESrvaXvMBXYDQscXjKByeWqwlzyINAsf22gbbuCGunYQrb4bDfmZbsYd9tcIf2oNrxxZha1AA2c+ggKa7zYPB6h6268TMpyQNn6QIFdFgIt8TOgKcpln7HXFPyQbEiUmV6bZuM8FviFVCtxIFbGXlYfj+zBJiZ9pNTUn+isTZOXNHNV6BS5znqf9gNRx98O6qS3e6IYEmvZeng7kRyir0eKx+BNV60BE37iLjBd8EInn9U8Zja1FynWyWL4hMfUjn8KM1mF4G3jjfRpj7HDMIDe8FfF5u2/MhorZvh2AnUY4QYt9j3ohFN7398vPEQHmzYdiakCAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCL37O0/hy8S8+9MWvQ2QEdPCZuTkqHWrQOqqN1OT//iQsV7UjvrbIGaGPh4Npm/02cRtBxZA7BNCuCiBBJRGZcOcwa6cdmt8l5CqoEvHrLu8UoM121v2ZFI+rI6wf3nz00yU/YBI/rsRLpnDv7j9m6fGejIYx13vg04adu35Bks6uBI5XaWM7dnM9XpII4AHYlQebf0FmtIuJIm5TlJ/A/ut8k+E/ukQpQ2Bf+Vn+loa8Y18MH82rJjuA5iXy8NF/PAHm0OzIDxgDALNOnkr6CHrYEZ6GPY5bgzhsS3PNgUCqJ20HGPGBKTYnoZ1hBIdP36rgJv3sYPzjMVN/LEH6j</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9TCCAt2gAwIBAgIQUNBANYKaH/P+brlRfHrGvTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCSVQxGTAXBgNVBAcTEEJvcmdvIFZhbGJlbGx1bmExIzAhBgNVBAoTGkNvbXVuZSBkaSBCb3JnbyBWYWxiZWxsdW5hMTswOQYDVQQDEzJodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uYm9yZ292YWxiZWxsdW5hLmJsLml0LzEVMBMGA1UEBRYMUEE6SVQtY19tNDIxMB4XDTIwMTAyMjEwMjA0MVoXDTMwMTAyMDEwMjA0MVowgaExCzAJBgNVBAYTAklUMRkwFwYDVQQHExBCb3JnbyBWYWxiZWxsdW5hMSMwIQYDVQQKExpDb211bmUgZGkgQm9yZ28gVmFsYmVsbHVuYTE7MDkGA1UEAxMyaHR0cHM6Ly9zcG9ydGVsbG90ZWxlbWF0aWNvLmJvcmdvdmFsYmVsbHVuYS5ibC5pdC8xFTATBgNVBAUWDFBBOklULWNfbTQyMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxlFSOmZZ/1fMk63ESrvaXvMBXYDQscXjKByeWqwlzyINAsf22gbbuCGunYQrb4bDfmZbsYd9tcIf2oNrxxZha1AA2c+ggKa7zYPB6h6268TMpyQNn6QIFdFgIt8TOgKcpln7HXFPyQbEiUmV6bZuM8FviFVCtxIFbGXlYfj+zBJiZ9pNTUn+isTZOXNHNV6BS5znqf9gNRx98O6qS3e6IYEmvZeng7kRyir0eKx+BNV60BE37iLjBd8EInn9U8Zja1FynWyWL4hMfUjn8KM1mF4G3jjfRpj7HDMIDe8FfF5u2/MhorZvh2AnUY4QYt9j3ohFN7398vPEQHmzYdiakCAwEAAaMnMCUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCL37O0/hy8S8+9MWvQ2QEdPCZuTkqHWrQOqqN1OT//iQsV7UjvrbIGaGPh4Npm/02cRtBxZA7BNCuCiBBJRGZcOcwa6cdmt8l5CqoEvHrLu8UoM121v2ZFI+rI6wf3nz00yU/YBI/rsRLpnDv7j9m6fGejIYx13vg04adu35Bks6uBI5XaWM7dnM9XpII4AHYlQebf0FmtIuJIm5TlJ/A/ut8k+E/ukQpQ2Bf+Vn+loa8Y18MH82rJjuA5iXy8NF/PAHm0OzIDxgDALNOnkr6CHrYEZ6GPY5bgzhsS3PNgUCqJ20HGPGBKTYnoZ1hBIdP36rgJv3sYPzjMVN/LEH6j</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.borgovalbelluna.bl.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.borgovalbelluna.bl.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Borgo Valbelluna</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Borgo Valbelluna</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Borgo Valbelluna</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Borgo Valbelluna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Borgo Valbelluna</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Borgo Valbelluna</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Borgo Valbelluna</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Borgo Valbelluna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.borgovalbelluna.bl.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.borgovalbelluna.bl.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.borgovalbelluna.bl.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.borgovalbelluna.bl.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_m421</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>borgovalbelluna.bl@cert.ip-veneto.net</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

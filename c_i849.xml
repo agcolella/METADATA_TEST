@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Soresina" entityID="https://www.comune.soresina.cr.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Soresina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>e779Ri1jVVmql+yaT+q/XNBX95qb6rzus0hs+fJommA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cHiH3iuRTPTtV3BmiPlRg/3WSWG8TzkSLah4tPTeHaD3EbMNJOymjll5irQbA6xVlSSpKrq2Y2gD
+rTUQXFQbZcaX+wEI9IZ9TUX20Ba+i4AzIskWky5ddbixH/Xs9YHzHvGvgCwqSkodWJssz+fNwjmt
+DvFizPELhuKFk3V6W4Ma/DdoYmsfmUjWwIYvroc/y/CnTr7Aeu8IN5GzE2+JeUdryr2VhSQQ1DiI
+dBsFAXSZwR3szKV03lZWN4n9wlQ5Xyl4A/T689hsqV9BWO69H3J3HdYaUyZ2meOgOyqa5XP92EI0
+NeN0DMKdYCCQQeMQ+hbuVEy4iEgBGtlnVtCt9g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3UVcR2muPTLccBM3dAGF8Rc44Iu5+G0gdUFnpj14k+e9VEE0dG/Ha6jn2XnqEXjZabDW2PRf+QI9
+SGPPD0rakIhQ/U1F8ADgd0aw6KN4wJ1iiWK3ofkJCMgY404FmfcRkSlaBloE/4jYiAj9oV3pOaNx
+DRXjFpCiEm3DZVMycFpqrOhTi1EsuwNqQB+CjeHIRaMwms3CDA7L6TiqsyMXGTAL/BWRIhr19d3a
+Mo9FnOO8Y5NsXJc07qWsaLQsGddHm8gzOs3NfcckfPLqxSjS6yV++Dvbx/3sMpTwK0FugJUFOk3F
+HIiM9lGfveBMhNxt/1gJrGaJz2XKE2g/NrvDjQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJANUAhDi/OOIHMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuc29yZXNpbmEuY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEw
+ODEyNDQwOFoXDTIyMDEwNzEyNDQwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zb3Jlc2luYS5j
+ci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDdRVxHaa49MtxwEzd0AYXxFzjgi7n4bSB1QWemPXiT571UQTR0b8drqOfZeeoReNlp
+sNbY9F/5Aj1IY88PStqQiFD9TUXwAOB3RrDoo3jAnWKJYreh+QkIyBjjTgWZ9xGRKVoGWgT/iNiI
+CP2hXek5o3ENFeMWkKISbcNlUzJwWmqs6FOLUSy7A2pAH4KN4chFozCazcIMDsvpOKqzIxcZMAv8
+FZEiGvX13doyj0Wc47xjk2xclzTupaxotCwZ10ebyDM6zc19xyR88urFKNLrJX74O9vH/ewylPAr
+QW6AlQU6TcUciIz2UZ+94EyE3G3/WAmsZonPZcoTaD82u8ONAgMBAAGjUDBOMB0GA1UdDgQWBBS6
+KoPMJgvC9R/RN116z1FlXtsEcTAfBgNVHSMEGDAWgBS6KoPMJgvC9R/RN116z1FlXtsEcTAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC2rOgRuaNzZh9Om26Fvj+PgronbeBWlEYYEa6Z
+ROqdHGwvnJkC125yKkPrMzzLVEnc/GuvAGN5G3027Hmh9XI4jZT/4joxBIpKneOMLpw+n4PqXFIV
+APXx3ovKs5jrkrFVCpcavLW6zujj7KBcD23+sgRa4YsbyBxii1/kCPvpG0gz4KPNQ3lOccWkZ7YN
+INRZdSsRIceDjOeczcHLHVNw2OHtvGWPXj8vXFhW6mRtHEait1gIljahx/JW23j2L1pv4ybRLNs2
+RWzVldgXJaNd1XQpNLdGDKjo9P6rtsbUkzT3BbESecqCBJy2QwknnOCgE2IiEre5jKWYWY71DFZX
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJANUAhDi/OOIHMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuc29yZXNpbmEuY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEwODEyNDQwOFoXDTIyMDEwNzEyNDQwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5zb3Jlc2luYS5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdRVxHaa49MtxwEzd0AYXxFzjgi7n4bSB1QWemPXiT571UQTR0b8drqOfZeeoReNlpsNbY9F/5Aj1IY88PStqQiFD9TUXwAOB3RrDoo3jAnWKJYreh+QkIyBjjTgWZ9xGRKVoGWgT/iNiICP2hXek5o3ENFeMWkKISbcNlUzJwWmqs6FOLUSy7A2pAH4KN4chFozCazcIMDsvpOKqzIxcZMAv8FZEiGvX13doyj0Wc47xjk2xclzTupaxotCwZ10ebyDM6zc19xyR88urFKNLrJX74O9vH/ewylPArQW6AlQU6TcUciIz2UZ+94EyE3G3/WAmsZonPZcoTaD82u8ONAgMBAAGjUDBOMB0GA1UdDgQWBBS6KoPMJgvC9R/RN116z1FlXtsEcTAfBgNVHSMEGDAWgBS6KoPMJgvC9R/RN116z1FlXtsEcTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC2rOgRuaNzZh9Om26Fvj+PgronbeBWlEYYEa6ZROqdHGwvnJkC125yKkPrMzzLVEnc/GuvAGN5G3027Hmh9XI4jZT/4joxBIpKneOMLpw+n4PqXFIVAPXx3ovKs5jrkrFVCpcavLW6zujj7KBcD23+sgRa4YsbyBxii1/kCPvpG0gz4KPNQ3lOccWkZ7YNINRZdSsRIceDjOeczcHLHVNw2OHtvGWPXj8vXFhW6mRtHEait1gIljahx/JW23j2L1pv4ybRLNs2RWzVldgXJaNd1XQpNLdGDKjo9P6rtsbUkzT3BbESecqCBJy2QwknnOCgE2IiEre5jKWYWY71DFZX
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/soresina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/soresina" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/soresina" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Soresina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Soresina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Soresina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Soresina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Soresina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Soresina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Soresina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Soresina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.soresina.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.soresina.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.soresina.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.soresina.cr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

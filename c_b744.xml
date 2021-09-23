@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxb6d799d1-542d-a820-5d6c-1e46098f6c71" entityID="https://servizionline.comune.carbonera.tv.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxb6d799d1-542d-a820-5d6c-1e46098f6c71">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>vtnmvLAcxQW+Jk5VVzgZV57Fhme7NHwd9QrqyMBJSyM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+luqwz+hZUrbJ7Mcl1RtBQQtSPEi/3GjRfXO7L9gjRWgoGxKTDlPgUQy9GMBF0j6IMU6xjNg/zdaG
+csweDfchWk2PGaqLJPZFD+Xql47uUAY+x49NLfIbfljRBccuOe0p6+u9yZtI9WMj9J/8pixtxP94
+L7tsR3Nmq5aIb4lqEPE4Q6dRZJ7ZwYAzPZgZNN0TfnWYdxVKYZ41bVSi8+KNWJKfoSBuAceEu8dk
+qw7HR1ekgFkUB/ww6TmT2ROufL0O7WE+7ovYfxn9tpn09Dvhnjr+bD0gZBfJ96M3fikRT19X/tM8
+yJwGLTRFs1ia5ngzXmjH/O3aYPmqVSQgl6mGuw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nKkMtCq8mrBacYP+l9CjgvqJe2MoFV6Q6mPyl5Ys7yQz2Jhtotq0JYwM7yXDedb0cfYD5gzLViwc
+5cZlukBE2xbjjPGt/Aje/Nlri2htEVLYiqvSHYD3TAiWylRu8YQ4QjZ6lHkoqdZLvbFel9qT1150
+1hwf2GZmbFxVBBtI0L3F6LS074GmJni0/pA8eRA1CWbFAAID+5hc7KUH+IztrwtrZAHJ6m6Ubsf+
+H/BEewHLIGnyiGSoLALA3a6NJqMjXuSqxVhY3yls9XYWTN0iQy3pdLJMly+m/coH9FiJ7bnnyg2u
+ynM3lJAmVOGBsL/Dasz36EYq6J2vX9PQ9Vb5ZQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDzzCCAregAwIBAgIJAJNPGDxUCA1zMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQ2FyYm9uZXJhMRwwGgYDVQQKDBNDb211bmUgZGkgQ2Fy
+Ym9uZXJhMS0wKwYDVQQDDCRzZXJ2aXppb25saW5lLmNvbXVuZS5jYXJib25lcmEudHYuaXQwHhcN
+MTkwNzI1MTA0NTExWhcNMjkwNzI0MTA0NTExWjB+MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRh
+bHkxEjAQBgNVBAcMCUNhcmJvbmVyYTEcMBoGA1UECgwTQ29tdW5lIGRpIENhcmJvbmVyYTEtMCsG
+A1UEAwwkc2Vydml6aW9ubGluZS5jb211bmUuY2FyYm9uZXJhLnR2Lml0MIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAnKkMtCq8mrBacYP+l9CjgvqJe2MoFV6Q6mPyl5Ys7yQz2Jhtotq0
+JYwM7yXDedb0cfYD5gzLViwc5cZlukBE2xbjjPGt/Aje/Nlri2htEVLYiqvSHYD3TAiWylRu8YQ4
+QjZ6lHkoqdZLvbFel9qT11501hwf2GZmbFxVBBtI0L3F6LS074GmJni0/pA8eRA1CWbFAAID+5hc
+7KUH+IztrwtrZAHJ6m6Ubsf+H/BEewHLIGnyiGSoLALA3a6NJqMjXuSqxVhY3yls9XYWTN0iQy3p
+dLJMly+m/coH9FiJ7bnnyg2uynM3lJAmVOGBsL/Dasz36EYq6J2vX9PQ9Vb5ZQIDAQABo1AwTjAd
+BgNVHQ4EFgQUK+sP25JXx6Jh2TBCtwggo+ymQycwHwYDVR0jBBgwFoAUK+sP25JXx6Jh2TBCtwgg
+o+ymQycwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjW8Enx0fP79IVizMk+WwrDKz
+GdRymW+BSMU6v0PXzXx0u1OT7HvJ8gw5MtXaFwMINixwOKTlFk6V3wnAdCOZUn9iAeNYjAMvAgQA
+2C5NL1Va5KOTCK1bmX0PknZL+MWzdpRm7/2rJXwOPAolTH/66gfu0sOdUDoNsN+39LanNDkE8x4e
+wEB1V1YnsJBR2LMhLCmdXdpxJVRRCNWlVqK5Vub+4nNn7SnG4AEhB4yExpfYtOvLYBbvNc7vQGYW
+hWjC8Y5YWnwcgpN/xaO7VDn+fVl+/i2Tnm9e3Gu/QHdDKtanGswzzpQ3BI+Ghe32AybOvH/C4/bM
+lcsITW4oX4PY0w==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzzCCAregAwIBAgIJAJNPGDxUCA1zMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQ2FyYm9uZXJhMRwwGgYDVQQKDBNDb211bmUgZGkgQ2FyYm9uZXJhMS0wKwYDVQQDDCRzZXJ2aXppb25saW5lLmNvbXVuZS5jYXJib25lcmEudHYuaXQwHhcNMTkwNzI1MTA0NTExWhcNMjkwNzI0MTA0NTExWjB+MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCUNhcmJvbmVyYTEcMBoGA1UECgwTQ29tdW5lIGRpIENhcmJvbmVyYTEtMCsGA1UEAwwkc2Vydml6aW9ubGluZS5jb211bmUuY2FyYm9uZXJhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnKkMtCq8mrBacYP+l9CjgvqJe2MoFV6Q6mPyl5Ys7yQz2Jhtotq0JYwM7yXDedb0cfYD5gzLViwc5cZlukBE2xbjjPGt/Aje/Nlri2htEVLYiqvSHYD3TAiWylRu8YQ4QjZ6lHkoqdZLvbFel9qT11501hwf2GZmbFxVBBtI0L3F6LS074GmJni0/pA8eRA1CWbFAAID+5hc7KUH+IztrwtrZAHJ6m6Ubsf+H/BEewHLIGnyiGSoLALA3a6NJqMjXuSqxVhY3yls9XYWTN0iQy3pdLJMly+m/coH9FiJ7bnnyg2uynM3lJAmVOGBsL/Dasz36EYq6J2vX9PQ9Vb5ZQIDAQABo1AwTjAdBgNVHQ4EFgQUK+sP25JXx6Jh2TBCtwggo+ymQycwHwYDVR0jBBgwFoAUK+sP25JXx6Jh2TBCtwggo+ymQycwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjW8Enx0fP79IVizMk+WwrDKzGdRymW+BSMU6v0PXzXx0u1OT7HvJ8gw5MtXaFwMINixwOKTlFk6V3wnAdCOZUn9iAeNYjAMvAgQA2C5NL1Va5KOTCK1bmX0PknZL+MWzdpRm7/2rJXwOPAolTH/66gfu0sOdUDoNsN+39LanNDkE8x4ewEB1V1YnsJBR2LMhLCmdXdpxJVRRCNWlVqK5Vub+4nNn7SnG4AEhB4yExpfYtOvLYBbvNc7vQGYWhWjC8Y5YWnwcgpN/xaO7VDn+fVl+/i2Tnm9e3Gu/QHdDKtanGswzzpQ3BI+Ghe32AybOvH/C4/bMlcsITW4oX4PY0w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzzCCAregAwIBAgIJAJNPGDxUCA1zMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQ2FyYm9uZXJhMRwwGgYDVQQKDBNDb211bmUgZGkgQ2FyYm9uZXJhMS0wKwYDVQQDDCRzZXJ2aXppb25saW5lLmNvbXVuZS5jYXJib25lcmEudHYuaXQwHhcNMTkwNzI1MTA0NTExWhcNMjkwNzI0MTA0NTExWjB+MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCUNhcmJvbmVyYTEcMBoGA1UECgwTQ29tdW5lIGRpIENhcmJvbmVyYTEtMCsGA1UEAwwkc2Vydml6aW9ubGluZS5jb211bmUuY2FyYm9uZXJhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnKkMtCq8mrBacYP+l9CjgvqJe2MoFV6Q6mPyl5Ys7yQz2Jhtotq0JYwM7yXDedb0cfYD5gzLViwc5cZlukBE2xbjjPGt/Aje/Nlri2htEVLYiqvSHYD3TAiWylRu8YQ4QjZ6lHkoqdZLvbFel9qT11501hwf2GZmbFxVBBtI0L3F6LS074GmJni0/pA8eRA1CWbFAAID+5hc7KUH+IztrwtrZAHJ6m6Ubsf+H/BEewHLIGnyiGSoLALA3a6NJqMjXuSqxVhY3yls9XYWTN0iQy3pdLJMly+m/coH9FiJ7bnnyg2uynM3lJAmVOGBsL/Dasz36EYq6J2vX9PQ9Vb5ZQIDAQABo1AwTjAdBgNVHQ4EFgQUK+sP25JXx6Jh2TBCtwggo+ymQycwHwYDVR0jBBgwFoAUK+sP25JXx6Jh2TBCtwggo+ymQycwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjW8Enx0fP79IVizMk+WwrDKzGdRymW+BSMU6v0PXzXx0u1OT7HvJ8gw5MtXaFwMINixwOKTlFk6V3wnAdCOZUn9iAeNYjAMvAgQA2C5NL1Va5KOTCK1bmX0PknZL+MWzdpRm7/2rJXwOPAolTH/66gfu0sOdUDoNsN+39LanNDkE8x4ewEB1V1YnsJBR2LMhLCmdXdpxJVRRCNWlVqK5Vub+4nNn7SnG4AEhB4yExpfYtOvLYBbvNc7vQGYWhWjC8Y5YWnwcgpN/xaO7VDn+fVl+/i2Tnm9e3Gu/QHdDKtanGswzzpQ3BI+Ghe32AybOvH/C4/bMlcsITW4oX4PY0w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.carbonera.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.carbonera.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Carbonera</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Carbonera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.carbonera.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

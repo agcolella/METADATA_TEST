@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_afc5b35f1e6f16213cc08f9e5682cf5a4843d55f" entityID="http://spid.comune.grumoappula.ba.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_afc5b35f1e6f16213cc08f9e5682cf5a4843d55f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>yu3BsYOLFWbI5MZABSTLR3EkkJ2tEzIiBj5jmKhMfPc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+D/1cRpVEnejfaF2rHKGrWNvjHIOdUO35qyTyLUa5xUJ36WY/TDBQ7TKkhUYwtx88e2A+yaRbZ+Dw
+9QJRxN77yL1p8PLfroHs2S0vqbXJhf2VLdNyqML4Yum8ok0BbBBI+AysZxQh9bkQvPjO1QH1SP68
+2Za7JNvfXlZa8MT5DqTVdSeLTwejXmvj/OHPFjNoi/4p4ENqSLXSLK/8zMvdU4MZ2X1tjJkBHesb
+hp3HWp/M4dyEF7zpv9T7KDRrZXqrw4z4wIgKqclyTY6/12WO8N6Ul/b7nqe71SIdSB6ihaSZ0/4E
+bpxzlmjZK6M3lqrxWhaimPFoazfhsivDW2B+7cxzGHVups63hb4VPRBYaiSfKEgkYXhcCS+VLhwk
+GJrYfc4dleYLQoloiwTFlDj3vaJjv4UYM2be04JityZ9oPLSKHOaqzw2IHB54IrHVgliH2LO6Hhd
+Wdix5hefvQmWamti54zKZoc6cZ7UzyWkFQ1D4UewHb/+JW3Bz8UFp8f0
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0SL/epQp6SAZEXAjJifW6S9qZEkQcGl0wZxmcFIHYtG1z0ZJm9r6jlG25xcZ2TrFFaDEoCPZmlvd
+lncqrRunK9kuimhbOK0Y12cho5fcsNpKGbbUscJI/t98xgKS2l3z5n6yGb77vgFMjAidgVbMCIQy
+SD4yNJRFI43Z7B6i2gB5Tnoo52oE5ts/s5V9QB7n+4TIHZGYWVzCvSHrDS5+kCaL0hDNRwj7jdpR
+tp4FQF5DaxhD3QDrkZfJiOHmXRzGtugfe1bkT17t84CkCqYzHn2yI4EvPSfg+3WSxqAH8goltjs6
+OFT15N7DXhVEsmKwW+STYTuIOftG7BYcIbpxNKyywNJ8KMSbKeU8dnEMFYNPrsaUall7fMphsdt5
+tYw2FEv/W58kgXO1gVoan4iSEMqMwA/my7iK19HHCZKcVMjL/pUVQJSpZS+NvvjtIVs5o2Gdcg3U
+R9C4Vd1XMVWaxR5Sj4avo5ZtYo6nioLspb+GmrJ76m7+Vfxkzcp8vV9X
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEHjCCAoagAwIBAgIJAP65HZppNrihMA0GCSqGSIb3DQEBCwUAMCgxJjAkBgNVBAMTHXNwaWQu
+Y29tdW5lLmdydW1vYXBwdWxhLmJhLml0MB4XDTIwMDMxMjEwMDIxM1oXDTMwMDMxMDEwMDIxM1ow
+KDEmMCQGA1UEAxMdc3BpZC5jb211bmUuZ3J1bW9hcHB1bGEuYmEuaXQwggGiMA0GCSqGSIb3DQEB
+AQUAA4IBjwAwggGKAoIBgQDRIv96lCnpIBkRcCMmJ9bpL2pkSRBwaXTBnGZwUgdi0bXPRkmb2vqO
+UbbnFxnZOsUVoMSgI9maW92WdyqtG6cr2S6KaFs4rRjXZyGjl9yw2koZttSxwkj+33zGApLaXfPm
+frIZvvu+AUyMCJ2BVswIhDJIPjI0lEUjjdnsHqLaAHlOeijnagTm2z+zlX1AHuf7hMgdkZhZXMK9
+IesNLn6QJovSEM1HCPuN2lG2ngVAXkNrGEPdAOuRl8mI4eZdHMa26B97VuRPXu3zgKQKpjMefbIj
+gS89J+D7dZLGoAfyCiW2Ozo4VPXk3sNeFUSyYrBb5JNhO4g5+0bsFhwhunE0rLLA0nwoxJsp5Tx2
+cQwVg0+uxpRqWXt8ymGx23m1jDYUS/9bnySBc7WBWhqfiJIQyozAD+bLuIrX0ccJkpxUyMv+lRVA
+lKllL42++O0hWzmjYZ1yDdRH0LhV3VcxVZrFHlKPhq+jlm1ijqeKguylv4aasnvqbv5V/GTNyny9
+X1cCAwEAAaNLMEkwKAYDVR0RBCEwH4Idc3BpZC5jb211bmUuZ3J1bW9hcHB1bGEuYmEuaXQwHQYD
+VR0OBBYEFOkT/xSCkNbsx1wFO9w9yn1XuL2/MA0GCSqGSIb3DQEBCwUAA4IBgQAfifWGnNKzRqlH
+su0fBpLEyzbKBJNiSjpsV+yF5VGOYRL8/zG6CxTFRMxhY8rSA1XM6KDFpH2oTeWf7+9y00eUwO38
+gfyp2JuhLAqSr/wu77d1MbyBTIeJyCfRxNShZvw3YxpK1PEOo4y4P4ZezliEUyyiZGGIH6REqzTv
+Gv0AY9Sr98cY5f0b9us3tdj/my6VUm1jyg7mqp00fsai2FQxAb2vLK5uYbpYqpqBuCQl0iS4VStP
+zZX4rptRotYrpXZ8636d5X72cwsRYuwM6HMXqQTBI+O4k7y5fRtmGp3mf5ISkPBLL8sh4HLag7U3
+/gjJwKLzN7MXMaz27HUuMv58l2TrNBG9E2vDRpJ1XiW0cOSlX6gCPqtiMJctmY9m8uAp7aE4oG+i
+qwWwxoKSnICej3WVEFEq7xl0APhOIEzumogvpFv4LYo958CLtFhpnXuNDmQ1nPbvol4urJo7Mnso
+qkp2KLNZs9/cuqSkR5Dl/iwdW5W0kbkHrF+1uRQw58s=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.comune.grumoappula.ba.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.comune.grumoappula.ba.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEHjCCAoagAwIBAgIJAP65HZppNrihMA0GCSqGSIb3DQEBCwUAMCgxJjAkBgNV
+BAMTHXNwaWQuY29tdW5lLmdydW1vYXBwdWxhLmJhLml0MB4XDTIwMDMxMjEwMDIx
+M1oXDTMwMDMxMDEwMDIxM1owKDEmMCQGA1UEAxMdc3BpZC5jb211bmUuZ3J1bW9h
+cHB1bGEuYmEuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDRIv96
+lCnpIBkRcCMmJ9bpL2pkSRBwaXTBnGZwUgdi0bXPRkmb2vqOUbbnFxnZOsUVoMSg
+I9maW92WdyqtG6cr2S6KaFs4rRjXZyGjl9yw2koZttSxwkj+33zGApLaXfPmfrIZ
+vvu+AUyMCJ2BVswIhDJIPjI0lEUjjdnsHqLaAHlOeijnagTm2z+zlX1AHuf7hMgd
+kZhZXMK9IesNLn6QJovSEM1HCPuN2lG2ngVAXkNrGEPdAOuRl8mI4eZdHMa26B97
+VuRPXu3zgKQKpjMefbIjgS89J+D7dZLGoAfyCiW2Ozo4VPXk3sNeFUSyYrBb5JNh
+O4g5+0bsFhwhunE0rLLA0nwoxJsp5Tx2cQwVg0+uxpRqWXt8ymGx23m1jDYUS/9b
+nySBc7WBWhqfiJIQyozAD+bLuIrX0ccJkpxUyMv+lRVAlKllL42++O0hWzmjYZ1y
+DdRH0LhV3VcxVZrFHlKPhq+jlm1ijqeKguylv4aasnvqbv5V/GTNyny9X1cCAwEA
+AaNLMEkwKAYDVR0RBCEwH4Idc3BpZC5jb211bmUuZ3J1bW9hcHB1bGEuYmEuaXQw
+HQYDVR0OBBYEFOkT/xSCkNbsx1wFO9w9yn1XuL2/MA0GCSqGSIb3DQEBCwUAA4IB
+gQAfifWGnNKzRqlHsu0fBpLEyzbKBJNiSjpsV+yF5VGOYRL8/zG6CxTFRMxhY8rS
+A1XM6KDFpH2oTeWf7+9y00eUwO38gfyp2JuhLAqSr/wu77d1MbyBTIeJyCfRxNSh
+Zvw3YxpK1PEOo4y4P4ZezliEUyyiZGGIH6REqzTvGv0AY9Sr98cY5f0b9us3tdj/
+my6VUm1jyg7mqp00fsai2FQxAb2vLK5uYbpYqpqBuCQl0iS4VStPzZX4rptRotYr
+pXZ8636d5X72cwsRYuwM6HMXqQTBI+O4k7y5fRtmGp3mf5ISkPBLL8sh4HLag7U3
+/gjJwKLzN7MXMaz27HUuMv58l2TrNBG9E2vDRpJ1XiW0cOSlX6gCPqtiMJctmY9m
+8uAp7aE4oG+iqwWwxoKSnICej3WVEFEq7xl0APhOIEzumogvpFv4LYo958CLtFhp
+nXuNDmQ1nPbvol4urJo7Mnsoqkp2KLNZs9/cuqSkR5Dl/iwdW5W0kbkHrF+1uRQw
+58s=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://grumoappula.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://grumoappula.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set0</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+					<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+					<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+					<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+					<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+					<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+					<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+					<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					<md:RequestedAttribute FriendlyName="address" Name="address"/>
+					<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Comune di Grumo Appula</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Comune di Grumo Appula</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">http://www.comune.grumoappula.ba.it/</md:OrganizationURL>
+					</md:Organization></md:EntityDescriptor>

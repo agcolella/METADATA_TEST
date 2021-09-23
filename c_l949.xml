@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="VillafrancaDiVerona" entityID="https://www.comune.villafranca.vr.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#VillafrancaDiVerona">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>dm/9uLY/mMh1QMwmiYGRAAQW//5/Ji2q070s0iPNTd0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+OBEIiYfuXHSzL2yWUqNldAwq8brgojobDepVSIKy2ixEKVbHqzEEZIPAAbUdtoVMVZtxw39WRJ/z
+b5FTd0WjJNm+n7t/KbsTjyyCsxhky1jNw39WC9SIinAaFtuTDts0M1tQ5KJed3vXDY9o1VGK7mo2
+U2l4jyFCK0hOxv3JFsQ13wkGBlevCbSFg4ZzKCNEn57StSPu9uO2uCsJJj+lTZrXTh5LDABBcgGa
+irKiqMYHg6kR6X02LSaGiDD7aDvsybtemIdQh23hMO60Mhatg7rf+3kYM8AW00cu6JBudFpZX/yL
+OKVEkeH3oqjy/fPYnl2BrybX3IfLyDJ3l845tw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+udEFvA/Pl9kxKFJjrfwDYt9b6vUwgPWnroRY07toyOIN1SX8aySKsulas317AwYWTU5umZa3AkqF
+nUfqwiE2wkMfUBTm0Ehk0D5r6SEjLGAHCDo8GCamdKk6iY9n9NhlYVGLesUai+d8FFuwJo6TBy4Z
+H0LgivkDtQqQc15bSbHnE/iMnQFosO/+QfOjHdtJobgqWjfxqMwHoUAgoZBfka0pLHcHhv5PS4OW
+vItpiQmGTymXj2nue/3fKabisR5uCjElWbareeN2KkQsCyWc6ey9Zv93oowKc7ly7NKZi4zvMVGs
+xKkJ9MhASw71+orgk1+ZT1W8pGGR5Jhnob0BNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAJuob8hp8NMAMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUudmlsbGFmcmFuY2EudnIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4
+MDEwODA4NTA1OVoXDTIyMDEwNzA4NTA1OVowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52aWxsYWZy
+YW5jYS52ci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC50QW8D8+X2TEoUmOt/ANi31vq9TCA9aeuhFjTu2jI4g3VJfxrJIqy6Vqz
+fXsDBhZNTm6ZlrcCSoWdR+rCITbCQx9QFObQSGTQPmvpISMsYAcIOjwYJqZ0qTqJj2f02GVhUYt6
+xRqL53wUW7AmjpMHLhkfQuCK+QO1CpBzXltJsecT+IydAWiw7/5B86Md20mhuCpaN/GozAehQCCh
+kF+RrSksdweG/k9Lg5a8i2mJCYZPKZePae57/d8ppuKxHm4KMSVZtqt543YqRCwLJZzp7L1m/3ei
+jApzuXLs0pmLjO8xUazEqQn0yEBLDvX6iuCTX5lPVbykYZHkmGehvQE3AgMBAAGjUDBOMB0GA1Ud
+DgQWBBTgbXbMkvDIl1g+p2e92tM06F6QRjAfBgNVHSMEGDAWgBTgbXbMkvDIl1g+p2e92tM06F6Q
+RjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSxFjUOJXBDbpL/B1excloAWGEFFJN
+NnrWy/HVehIoZZIaC2Nwo06gDXIg7nUUd2d54hcfjieOCvAmcnMgCfvhRmyGKtS4QdwSuthnyHiV
+vQgryrwZ8OVZuPGuk7OCC2ejD+Q/cWggskGSR3MAFagK52BuSWQyLp4oSPp93bimW170QL2ZRHGy
+ap+sMclTgToDUNNtbShOhDj8a158cXJeovFLx7wMrlYvQBQdzYR6DQu4JVJup3LorcIryFdSrdc2
+3kZ7ZwZaRgzOuCm7yjkALa9AzbmuE38Xfu0pZjU8z30nMtnTMCpTfk7V4Pf0VDRhXQikFdlTN68A
+fSYxxj5/
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAJuob8hp8NMAMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUudmlsbGFmcmFuY2EudnIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEwODA4NTA1OVoXDTIyMDEwNzA4NTA1OVowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52aWxsYWZyYW5jYS52ci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC50QW8D8+X2TEoUmOt/ANi31vq9TCA9aeuhFjTu2jI4g3VJfxrJIqy6VqzfXsDBhZNTm6ZlrcCSoWdR+rCITbCQx9QFObQSGTQPmvpISMsYAcIOjwYJqZ0qTqJj2f02GVhUYt6xRqL53wUW7AmjpMHLhkfQuCK+QO1CpBzXltJsecT+IydAWiw7/5B86Md20mhuCpaN/GozAehQCChkF+RrSksdweG/k9Lg5a8i2mJCYZPKZePae57/d8ppuKxHm4KMSVZtqt543YqRCwLJZzp7L1m/3eijApzuXLs0pmLjO8xUazEqQn0yEBLDvX6iuCTX5lPVbykYZHkmGehvQE3AgMBAAGjUDBOMB0GA1UdDgQWBBTgbXbMkvDIl1g+p2e92tM06F6QRjAfBgNVHSMEGDAWgBTgbXbMkvDIl1g+p2e92tM06F6QRjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSxFjUOJXBDbpL/B1excloAWGEFFJNNnrWy/HVehIoZZIaC2Nwo06gDXIg7nUUd2d54hcfjieOCvAmcnMgCfvhRmyGKtS4QdwSuthnyHiVvQgryrwZ8OVZuPGuk7OCC2ejD+Q/cWggskGSR3MAFagK52BuSWQyLp4oSPp93bimW170QL2ZRHGyap+sMclTgToDUNNtbShOhDj8a158cXJeovFLx7wMrlYvQBQdzYR6DQu4JVJup3LorcIryFdSrdc23kZ7ZwZaRgzOuCm7yjkALa9AzbmuE38Xfu0pZjU8z30nMtnTMCpTfk7V4Pf0VDRhXQikFdlTN68AfSYxxj5/
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/villafrancadiverona"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/villafrancadiverona" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/villafrancadiverona" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Villafranca di Verona</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Villafranca di Verona</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Villafranca di Verona</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Villafranca di Verona</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Villafranca di Verona</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Villafranca di Verona</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Villafranca di Verona</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Villafranca di Verona</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.villafranca.vr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.villafranca.vr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.villafranca.vr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.villafranca.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="_86ae9889-5caf-4515-8b6c-65db83412677" entityID="http://adfsextranet.invitalia.it/adfs/services/trust"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#_86ae9889-5caf-4515-8b6c-65db83412677"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>8oLUQUJwqC8ZdXGJGTZFWgAgiutBgM4u5lEN80gng6w=</DigestValue></Reference></SignedInfo><SignatureValue>PfSrHQkY2HoCWLhD+h+nzmhCw6NoU4HgGn3D0+hTUDhSMVlSDK8cPJRmfvnkT48iq+/OPydeZE5BqFN+jHUpcwkJNdDDTiA1VYYavXXeMnZ8pIKfkMeJQUNPtnu7AVzJKTSPYGSng10j72VpQZcohSbC/LhjplOP2xKl1SIKuIIHvZpZY1CPCVeXmz/rzHOcaURsWoyUE2Z149PUhP+JDC+5y4zpTLlDtK6XzCfhaPzFXZFYbg3a5Z2O05OHMwP5NzFPzgixlXzq+t+NiqyFLiEAzc0z5ex3wfyph+B3b3wGfEvdpyzM76cl+uz5Oc5FPKjUKtvDUhENYJLum0SQBw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0rFpMDVdORWJgacP/Pfwddg7HSZfG0JoTDJc4HkeZmgvflJ4O6LRm5ltrJs07q7mCXk53uEQGMndEUFUKyE+BUgj4vSgSinXbdwWVljeyegUh786dtc/uIfPLS6RDzTLc4D8Piqh9YrO0j4Dh4kuwA3NZwQh+Hz+IrYczAocwb4jtKLHcZF5hYxyPDkB+OPREXMb6fdEij9GBcch0Jvm8RCGTf2TuVep2cZw5PXpZnw7Bmv7qVCTdsgDN+24NOWR0jaWMLzWC8gbXVAFIfjthGQLN1unv1j9cvfrG5np9ATrU51Ooh5nqi2f0cuymGIUZ+sEh87vADFf/1R0D4lLSQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIID9TCCAt2gAwIBAgIJAM32h3FelAzAMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJJVDELMAkGA1UECAwCUk0xDTALBgNVBAcMBFJPTUExEjAQBgNVBAoMCUludml0YWxpYTESMBAGA1UECwwJSW52aXRhbGlhMRowGAYDVQQDDBFhZGZzLmludml0YWxpYS5pdDEhMB8GCSqGSIb3DQEJARYSbWRhbGlAaW52aXRhbGlhLml0MB4XDTE4MDcwMjEyMjE0MVoXDTIwMDcwMTEyMjE0MVowgZAxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUk9NQTESMBAGA1UECgwJSW52aXRhbGlhMRIwEAYDVQQLDAlJbnZpdGFsaWExGjAYBgNVBAMMEWFkZnMuaW52aXRhbGlhLml0MSEwHwYJKoZIhvcNAQkBFhJtZGFsaUBpbnZpdGFsaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSsWkwNV05FYmBpw/89/B12DsdJl8bQmhMMlzgeR5maC9+Ung7otGbmW2smzTuruYJeTne4RAYyd0RQVQrIT4FSCPi9KBKKddt3BZWWN7J6BSHvzp21z+4h88tLpEPNMtzgPw+KqH1is7SPgOHiS7ADc1nBCH4fP4ithzMChzBviO0osdxkXmFjHI8OQH449ERcxvp90SKP0YFxyHQm+bxEIZN/ZO5V6nZxnDk9elmfDsGa/upUJN2yAM37bg05ZHSNpYwvNYLyBtdUAUh+O2EZAs3W6e/WP1y9+sbmen0BOtTnU6iHmeqLZ/Ry7KYYhRn6wSHzu8AMV//VHQPiUtJAgMBAAGjUDBOMB0GA1UdDgQWBBSWL4i5ELGHMeWIMQlwueHe23KDRTAfBgNVHSMEGDAWgBSWL4i5ELGHMeWIMQlwueHe23KDRTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB95RCTriPTJtL0QNfUUyO3ZMAtSQFnZcIRtbqJpIZdCZB4Iaig7JFKxlFqAS+Zye8B8IED99AywOfXYkysVDmS5CRq7Z2/Tg73GqrRBzUtbOFkLL32AK2UHmroycCeUNBUo4csIFYpF0EKbHu6YVQVpvhGsF/dqNKdiQgnNnZhCP1vi1VH+eYzuDnJEUsfOXdRIFfOfUVRJ5nBamcEoA0BOO36IevIkDm40Mc8fWKs9CrsDB/l15y9HiRlnEBkykcDIQ7GNi/G6T57V9i3eksISoqF6IbUG6HNUhN4JvROf4dgsbHvuLce4Megu+WxzV3lvfrLpqXHyx12u2fuQjbH</X509Certificate></X509Data></KeyInfo></Signature>
+   <SPSSODescriptor WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+      <KeyDescriptor use="encryption">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIIC9DCCAdygAwIBAgIQKaJOoaevApdNdwrqwHY3gDANBgkqhkiG9w0BAQsFADA2MTQwMgYDVQQDEytBREZTIEVuY3J5cHRpb24gLSBhZGZzZXh0cmFuZXQuaW52aXRhbGlhLml0MB4XDTE1MTEwNDIxNDk0NVoXDTE4MTEwMzIxNDk0NVowNjE0MDIGA1UEAxMrQURGUyBFbmNyeXB0aW9uIC0gYWRmc2V4dHJhbmV0Lmludml0YWxpYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL+VYg6zpCUQQmYf27oabnpwXEfun1z6ftoe4F5ZXueT7xQfz86UKXwyxqPXXVzdaJozZCQo6ZChQU8mcn0hQoOnxuL3CpDonFceu4ApV0toNu849uu7Cu4eWiuxS6LWqA6F2zCf57xQQL+jlMs1Kv9sMOLNDzPIz4orRyLEasez0s/KvnKGYoPVec3daz8/rxXpD6fGJunOwmyFRtst9aZuTIpEcY9aBG8ST30MBxRnPjIAWUCUNai8/kIZ7YxHOuq+3XCAH/WvKb63G8bjIiiUFYm7F/Veh/XtNAoqHVak5zzdQQ0LdfD2FDcJ3ec/LjjnbdmEJvbHacZl90DbjncCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEALXBGyH4aJUQtndlFJ5tbrlY9zH7Bx3Jxgyr28DmvKZSxG+DARoYBRDOGgDy1kpzhXqNJeiShbLL1y8Klow104BA09RoAbljVprpynxnyZDoJzvYcNfHCe3D6Xh3NWhtB0bbOf/NEirl5PNZr2CYVnLYItK73nodT0YphWQoyNJNBn30Nn1FD02BiMysy7E4S6re40Md4E4NYw0u5VjYAt8FqgmlHEZPNZ2nvHytphQoUv/KWP6jQjxW1ruXkLZZYcN//WAierYwjRoPT0UjhACJ5SgE3iUljkF6DvX9mdCj0O4ccE92CCJRACKSGT3ZqUFZ4+Vqf9uRNgU8Lk+aygw==</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <KeyDescriptor use="signing">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIID9TCCAt2gAwIBAgIJAM32h3FelAzAMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJJVDELMAkGA1UECAwCUk0xDTALBgNVBAcMBFJPTUExEjAQBgNVBAoMCUludml0YWxpYTESMBAGA1UECwwJSW52aXRhbGlhMRowGAYDVQQDDBFhZGZzLmludml0YWxpYS5pdDEhMB8GCSqGSIb3DQEJARYSbWRhbGlAaW52aXRhbGlhLml0MB4XDTE4MDcwMjEyMjE0MVoXDTIwMDcwMTEyMjE0MVowgZAxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUk9NQTESMBAGA1UECgwJSW52aXRhbGlhMRIwEAYDVQQLDAlJbnZpdGFsaWExGjAYBgNVBAMMEWFkZnMuaW52aXRhbGlhLml0MSEwHwYJKoZIhvcNAQkBFhJtZGFsaUBpbnZpdGFsaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSsWkwNV05FYmBpw/89/B12DsdJl8bQmhMMlzgeR5maC9+Ung7otGbmW2smzTuruYJeTne4RAYyd0RQVQrIT4FSCPi9KBKKddt3BZWWN7J6BSHvzp21z+4h88tLpEPNMtzgPw+KqH1is7SPgOHiS7ADc1nBCH4fP4ithzMChzBviO0osdxkXmFjHI8OQH449ERcxvp90SKP0YFxyHQm+bxEIZN/ZO5V6nZxnDk9elmfDsGa/upUJN2yAM37bg05ZHSNpYwvNYLyBtdUAUh+O2EZAs3W6e/WP1y9+sbmen0BOtTnU6iHmeqLZ/Ry7KYYhRn6wSHzu8AMV//VHQPiUtJAgMBAAGjUDBOMB0GA1UdDgQWBBSWL4i5ELGHMeWIMQlwueHe23KDRTAfBgNVHSMEGDAWgBSWL4i5ELGHMeWIMQlwueHe23KDRTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB95RCTriPTJtL0QNfUUyO3ZMAtSQFnZcIRtbqJpIZdCZB4Iaig7JFKxlFqAS+Zye8B8IED99AywOfXYkysVDmS5CRq7Z2/Tg73GqrRBzUtbOFkLL32AK2UHmroycCeUNBUo4csIFYpF0EKbHu6YVQVpvhGsF/dqNKdiQgnNnZhCP1vi1VH+eYzuDnJEUsfOXdRIFfOfUVRJ5nBamcEoA0BOO36IevIkDm40Mc8fWKs9CrsDB/l15y9HiRlnEBkykcDIQ7GNi/G6T57V9i3eksISoqF6IbUG6HNUhN4JvROf4dgsbHvuLce4Megu+WxzV3lvfrLpqXHyx12u2fuQjbH</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adfsextranet.invitalia.it/adfs/ls/" />
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adfsextranet.invitalia.it/adfs/ls/" />
+      <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adfsextranet.invitalia.it/adfs/ls/" index="0" isDefault="true" />
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adfsextranet.invitalia.it/adfs/ls/" index="2" />
+      <AttributeConsumingService index="0">
+         <ServiceName xml:lang="it">SetMinimum</ServiceName>
+         <ServiceDescription xml:lang="it">Attributi servizio minimi</ServiceDescription>
+         <RequestedAttribute Name="familyName" />
+         <RequestedAttribute Name="name" />
+         <RequestedAttribute Name="gender" />
+         <RequestedAttribute Name="email" />
+         <RequestedAttribute Name="fiscalNumber" />
+         <RequestedAttribute Name="dateOfBirth" />
+         <RequestedAttribute Name="placeOfBirth" />
+         <RequestedAttribute Name="countyOfBirth" />
+         <RequestedAttribute Name="digitalAddress" />
+         <RequestedAttribute Name="mobilePhone" />
+      </AttributeConsumingService>
+      <AttributeConsumingService index="1">
+         <ServiceName xml:lang="it">SetMedium</ServiceName>
+         <ServiceDescription xml:lang="it">Attributi servizio medi</ServiceDescription>
+         <RequestedAttribute Name="familyName" />
+         <RequestedAttribute Name="name" />
+         <RequestedAttribute Name="gender" />
+         <RequestedAttribute Name="email" />
+         <RequestedAttribute Name="fiscalNumber" />
+         <RequestedAttribute Name="dateOfBirth" />
+         <RequestedAttribute Name="placeOfBirth" />
+         <RequestedAttribute Name="countyOfBirth" />
+         <RequestedAttribute Name="companyName" />
+         <RequestedAttribute Name="registeredOffice" />
+         <RequestedAttribute Name="ivaCode" />
+         <RequestedAttribute Name="idCard" />
+         <RequestedAttribute Name="digitalAddress" />
+         <RequestedAttribute Name="expirationDate" />
+      </AttributeConsumingService>
+      <AttributeConsumingService index="2">
+         <ServiceName xml:lang="it">SetFull</ServiceName>
+         <ServiceDescription xml:lang="it">Attributi servizio totali</ServiceDescription>
+         <RequestedAttribute Name="familyName" />
+         <RequestedAttribute Name="name" />
+         <RequestedAttribute Name="gender" />
+         <RequestedAttribute Name="email" />
+         <RequestedAttribute Name="fiscalNumber" />
+         <RequestedAttribute Name="dateOfBirth" />
+         <RequestedAttribute Name="placeOfBirth" />
+         <RequestedAttribute Name="countyOfBirth" />
+         <RequestedAttribute Name="companyName" />
+         <RequestedAttribute Name="registeredOffice" />
+         <RequestedAttribute Name="ivaCode" />
+         <RequestedAttribute Name="idCard" />
+         <RequestedAttribute Name="digitalAddress" />
+         <RequestedAttribute Name="mobilePhone" />
+         <RequestedAttribute Name="address" />
+         <RequestedAttribute Name="expirationDate" />
+      </AttributeConsumingService>
+   </SPSSODescriptor>
+   <Organization>
+      <OrganizationName xml:lang="it">Agenzia nazionale per l'attrazione degli investimenti e lo sviluppo d'impresa SpA</OrganizationName>
+      <OrganizationDisplayName xml:lang="it">Invitalia</OrganizationDisplayName>
+      <OrganizationURL xml:lang="it">www.invitalia.it</OrganizationURL>
+   </Organization>
+</EntityDescriptor>

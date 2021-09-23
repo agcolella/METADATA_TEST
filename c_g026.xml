@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="OlgiateMolgora" entityID="https://www.comune.olgiatemolgora.lc.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#OlgiateMolgora">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EAuYWJdhL36OALsNv9RK7Grtf2dz+Y6OVCRZxk1rU74=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hmI8mrslCLv28/JdN4yciwzRUnQXC1wDsEqi3lGuauEdqFqew6Nt4gCIhjEbHdCJmvu/Ufq2+whX
+vmEIfqAv2mN4jcdMUOLd1Vh8pIENdw3ZpFAAvSWiNseX1UIyDSIdEq11eJkFVL2NiqT87+zrCEwC
+jyusTha4hXYHcRXDCutdzbftoWMtl9carFWNOwT735Ix2wVCjeag1jte1SJpSLqCrtb558tq8w2X
+aOjBhO9nB1D5KEQHl5LfAIgtpiLNGBbb+Kk0eUxWh2V5lQeHHYqe7A+yljzvgN6NLSZwnoS8Bebi
+aw2Y40mXyjdyae4mP49R1raYfXO7OFbO8S4dDw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6p6GFw58oFXOQXJG0swujSS17o8KCP0o//hpVVx/TN6MlKQsc8ck/2ORQtZX509dsMMzFM7y8fjE
+Vcwlut10YwGXm2o/AU4FcpLiW3emV76rYCp4Sdf9slYQNzLUU9h6vqP9RUIBfR6/JW2HG4IGU8Nu
+W4OSEgH1WKc12ij9HEve6alK43sv/MTE3glhhbvnC1rHkk+OfQkjfrhDH3Pe1rl7OAcBKPJaD8JT
+9sFFUye528WLVIvJmPkDe1qWHOlJC7rLPXJJMWB5yOu6IEzo0VlTVJuJOSKAmuGaz6lY9cV4+HYE
+DuWnsJKJj4+Vni7w/4WcaldojYqt70Fm/JWyLw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAOzlCSSJTnxpMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUub2xnaWF0ZW1vbGdvcmEubGMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE4MTIxODA4MjI1OVoXDTI4MTIxNTA4MjI1OVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5vbGdp
+YXRlbW9sZ29yYS5sYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDqnoYXDnygVc5BckbSzC6NJLXujwoI/Sj/+GlVXH9M3oyUpCxz
+xyT/Y5FC1lfnT12wwzMUzvLx+MRVzCW63XRjAZebaj8BTgVykuJbd6ZXvqtgKnhJ1/2yVhA3MtRT
+2Hq+o/1FQgF9Hr8lbYcbggZTw25bg5ISAfVYpzXaKP0cS97pqUrjey/8xMTeCWGFu+cLWseST459
+CSN+uEMfc97WuXs4BwEo8loPwlP2wUVTJ7nbxYtUi8mY+QN7WpYc6UkLuss9ckkxYHnI67ogTOjR
+WVNUm4k5IoCa4ZrPqVj1xXj4dgQO5aewkomPj5WeLvD/hZxqV2iNiq3vQWb8lbIvAgMBAAGjUDBO
+MB0GA1UdDgQWBBR1LQYc9yRwhPx4NqkGWLjRvGxHCTAfBgNVHSMEGDAWgBR1LQYc9yRwhPx4NqkG
+WLjRvGxHCTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDfB/IClMteMx+D5+JauiVO
+N7VTFU0omE2DcWQ3k52nnPxaVln5esBPmHzdKw9hyV2e0E+ovoTDnsqsMt16u/Ni6KTaXhg8Cmb9
+Si8Hi+7oxxaZo4a2RpXhTsk8t2HGFus0QQyWJm5bD6d2iJQLRAJjA2sahNoDSMXyjSwzaMr0tu0a
+CbfGP4d/yemdBmw9fgg0p43klu1JJFl5T9pCKvcnl9c/IHo+XGwU0Yug9ymZa9cAijEOhFw07sJX
+50IbsB+o6xBmg6cfztOQiJisgqgvV2i+OTsqb8d+UZibuwLEgcKfjvKCZEIXGqaRaz4ao9r+rcaS
+c33bc3UoglD+5pWD
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAOzlCSSJTnxpMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUub2xnaWF0ZW1vbGdvcmEubGMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MTIxODA4MjI1OVoXDTI4MTIxNTA4MjI1OVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5vbGdpYXRlbW9sZ29yYS5sYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqnoYXDnygVc5BckbSzC6NJLXujwoI/Sj/+GlVXH9M3oyUpCxzxyT/Y5FC1lfnT12wwzMUzvLx+MRVzCW63XRjAZebaj8BTgVykuJbd6ZXvqtgKnhJ1/2yVhA3MtRT2Hq+o/1FQgF9Hr8lbYcbggZTw25bg5ISAfVYpzXaKP0cS97pqUrjey/8xMTeCWGFu+cLWseST459CSN+uEMfc97WuXs4BwEo8loPwlP2wUVTJ7nbxYtUi8mY+QN7WpYc6UkLuss9ckkxYHnI67ogTOjRWVNUm4k5IoCa4ZrPqVj1xXj4dgQO5aewkomPj5WeLvD/hZxqV2iNiq3vQWb8lbIvAgMBAAGjUDBOMB0GA1UdDgQWBBR1LQYc9yRwhPx4NqkGWLjRvGxHCTAfBgNVHSMEGDAWgBR1LQYc9yRwhPx4NqkGWLjRvGxHCTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDfB/IClMteMx+D5+JauiVON7VTFU0omE2DcWQ3k52nnPxaVln5esBPmHzdKw9hyV2e0E+ovoTDnsqsMt16u/Ni6KTaXhg8Cmb9Si8Hi+7oxxaZo4a2RpXhTsk8t2HGFus0QQyWJm5bD6d2iJQLRAJjA2sahNoDSMXyjSwzaMr0tu0aCbfGP4d/yemdBmw9fgg0p43klu1JJFl5T9pCKvcnl9c/IHo+XGwU0Yug9ymZa9cAijEOhFw07sJX50IbsB+o6xBmg6cfztOQiJisgqgvV2i+OTsqb8d+UZibuwLEgcKfjvKCZEIXGqaRaz4ao9r+rcaSc33bc3UoglD+5pWD
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAOzlCSSJTnxpMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUub2xnaWF0ZW1vbGdvcmEubGMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MTIxODA4MjI1OVoXDTI4MTIxNTA4MjI1OVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5vbGdpYXRlbW9sZ29yYS5sYy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqnoYXDnygVc5BckbSzC6NJLXujwoI/Sj/+GlVXH9M3oyUpCxzxyT/Y5FC1lfnT12wwzMUzvLx+MRVzCW63XRjAZebaj8BTgVykuJbd6ZXvqtgKnhJ1/2yVhA3MtRT2Hq+o/1FQgF9Hr8lbYcbggZTw25bg5ISAfVYpzXaKP0cS97pqUrjey/8xMTeCWGFu+cLWseST459CSN+uEMfc97WuXs4BwEo8loPwlP2wUVTJ7nbxYtUi8mY+QN7WpYc6UkLuss9ckkxYHnI67ogTOjRWVNUm4k5IoCa4ZrPqVj1xXj4dgQO5aewkomPj5WeLvD/hZxqV2iNiq3vQWb8lbIvAgMBAAGjUDBOMB0GA1UdDgQWBBR1LQYc9yRwhPx4NqkGWLjRvGxHCTAfBgNVHSMEGDAWgBR1LQYc9yRwhPx4NqkGWLjRvGxHCTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDfB/IClMteMx+D5+JauiVON7VTFU0omE2DcWQ3k52nnPxaVln5esBPmHzdKw9hyV2e0E+ovoTDnsqsMt16u/Ni6KTaXhg8Cmb9Si8Hi+7oxxaZo4a2RpXhTsk8t2HGFus0QQyWJm5bD6d2iJQLRAJjA2sahNoDSMXyjSwzaMr0tu0aCbfGP4d/yemdBmw9fgg0p43klu1JJFl5T9pCKvcnl9c/IHo+XGwU0Yug9ymZa9cAijEOhFw07sJX50IbsB+o6xBmg6cfztOQiJisgqgvV2i+OTsqb8d+UZibuwLEgcKfjvKCZEIXGqaRaz4ao9r+rcaSc33bc3UoglD+5pWD
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/olgiatemolgora"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/olgiatemolgora" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/olgiatemolgora" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/olgiatemolgora" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Olgiate Molgora</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Olgiate Molgora</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Olgiate Molgora</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Olgiate Molgora</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Olgiate Molgora</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Olgiate Molgora</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Olgiate Molgora</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Olgiate Molgora</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.olgiatemolgora.lc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.olgiatemolgora.lc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.olgiatemolgora.lc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.olgiatemolgora.lc.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

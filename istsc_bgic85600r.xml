@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icmapello.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx50985991-5617-8007-adde-b158c754c66d"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx50985991-5617-8007-adde-b158c754c66d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2/4B4P0mv95MdUy/l7/57qOpBdKLD/xBL4JtKSU3CUQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>WWnPtY/Q3cyQwzpJmfYAuUxHZFaQ9d8Ba6wI7fRzAAqpLsrEYaVWxaGXTtFBn5GKLPXjsqaXhIMjk58l8MYKBmFCzQMd5aYYzDnZ68YQVgNJ6ho5bBicK1Ajj+wADLtFxWOg2roOC/dgsB6OOq7cwpZG/R8F5AS7o/xJTZRxGCzmK5mdhJsIiLwtt/BdJxWWEAN38AyxS0jcpDlxE6KS1zTzSN0dJfLcam62wLGWAyrnTWYO27VxhHs0lxj1VlsbOqr40xnIxHn34+88T1KYV8rG4QmaqtQRTGySfA0Vc+4qTRNH5B4GluwNsf4zGcG14nBELCKZ9X2v4ZvA8L8lEA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIETDCCAzSgAwIBAgIIjkcjdHYXoAAwDQYJKoZIhvcNAQELBQAwgbwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRAwDgYDVQQHDAdNYXBlbGxvMSkwJwYDVQQKDCBJc3RpdHV0byBDb21wcmVuc2l2byBQaWVyYSBHZWxwaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEdMBsGA1UEAwwUd3d3LmljbWFwZWxsby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGJnaWM4NTYwMHJAaXN0cnV6aW9uZS5pdDAeFw0xNzA0MjYyMDE4NDhaFw0zNzA0MjUyMDE4NDhaMIG8MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHTWFwZWxsbzEpMCcGA1UECgwgSXN0aXR1dG8gQ29tcHJlbnNpdm8gUGllcmEgR2VscGkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHTAbBgNVBAMMFHd3dy5pY21hcGVsbG8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhhiZ2ljODU2MDByQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDTrE30wtLhV6C490WwHtLaVSRdSv6omcLIxPRsPkiiSFGngRQTFIcX6UsLX4Ba6wwPzGCooQyav+DRKm5CGipb47MXoJBbWN6eqqjzgUGqs2ZRbp5A31q6HL3gR86c133Aa6YB9LpI70LBF7Aozfpc8uC8YwNKPeVeis36RNo5NUTch1HxdRYTtbQPjxv/WduJTrWmWZ/WdRD4A40zV2sAttKkOjIwF654O+WAxdfSZqjqNKmjzQmNDEjySGUMu+1rPR7jgcc+zOjqQ1ke9wk05H1imVFOiU8JZZOGbdReJAZ2tTbC+GvJc3h8xRkhBe3yNojRnQcPrB69rXmyyvaHAgMBAAGjUDBOMB0GA1UdDgQWBBR5aseaZI+mBFGzSw/G2h2yRocixDAfBgNVHSMEGDAWgBR5aseaZI+mBFGzSw/G2h2yRocixDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAHyqA2/+1qVhDP+zRkXRAbvb91WThe3U/v+P4Pu+NrUN3YqFeCLcaSppOkzosIZt0I4KRJp9tSA3E3K9IuBVuRGETVAtjraA7A9QwlzIpvEMiSnKGIwjB5nEFw9piuT/TYYVTMA3NQDqurU/mAjhp8HPvoOPbHiDABHsoezKJngMp6MrbYno1gMu1OWuBEp+DXyQpcLFkWh2Zi0mAQPpeCCmywunHuUh3wA6eoGda3gFaYPVpNM6UfioMfrjOqWp8HA3bnBN6XG+cC9S+5ePUeuo+Zc8hUfupXGc6Ry2S+fPUQWrOJBaQEvhJVLFROkOXMhtywr7C6P642z+SdKNgx</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETDCCAzSgAwIBAgIIjkcjdHYXoAAwDQYJKoZIhvcNAQELBQAwgbwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRAwDgYDVQQHDAdNYXBlbGxvMSkwJwYDVQQKDCBJc3RpdHV0byBDb21wcmVuc2l2byBQaWVyYSBHZWxwaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEdMBsGA1UEAwwUd3d3LmljbWFwZWxsby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGJnaWM4NTYwMHJAaXN0cnV6aW9uZS5pdDAeFw0xNzA0MjYyMDE4NDhaFw0zNzA0MjUyMDE4NDhaMIG8MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHTWFwZWxsbzEpMCcGA1UECgwgSXN0aXR1dG8gQ29tcHJlbnNpdm8gUGllcmEgR2VscGkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHTAbBgNVBAMMFHd3dy5pY21hcGVsbG8uZ292Lml0MScwJQYJKoZIhvcNAQkBFhhiZ2ljODU2MDByQGlzdHJ1emlvbmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDTrE30wtLhV6C490WwHtLaVSRdSv6omcLIxPRsPkiiSFGngRQTFIcX6UsLX4Ba6wwPzGCooQyav+DRKm5CGipb47MXoJBbWN6eqqjzgUGqs2ZRbp5A31q6HL3gR86c133Aa6YB9LpI70LBF7Aozfpc8uC8YwNKPeVeis36RNo5NUTch1HxdRYTtbQPjxv/WduJTrWmWZ/WdRD4A40zV2sAttKkOjIwF654O+WAxdfSZqjqNKmjzQmNDEjySGUMu+1rPR7jgcc+zOjqQ1ke9wk05H1imVFOiU8JZZOGbdReJAZ2tTbC+GvJc3h8xRkhBe3yNojRnQcPrB69rXmyyvaHAgMBAAGjUDBOMB0GA1UdDgQWBBR5aseaZI+mBFGzSw/G2h2yRocixDAfBgNVHSMEGDAWgBR5aseaZI+mBFGzSw/G2h2yRocixDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAHyqA2/+1qVhDP+zRkXRAbvb91WThe3U/v+P4Pu+NrUN3YqFeCLcaSppOkzosIZt0I4KRJp9tSA3E3K9IuBVuRGETVAtjraA7A9QwlzIpvEMiSnKGIwjB5nEFw9piuT/TYYVTMA3NQDqurU/mAjhp8HPvoOPbHiDABHsoezKJngMp6MrbYno1gMu1OWuBEp+DXyQpcLFkWh2Zi0mAQPpeCCmywunHuUh3wA6eoGda3gFaYPVpNM6UfioMfrjOqWp8HA3bnBN6XG+cC9S+5ePUeuo+Zc8hUfupXGc6Ry2S+fPUQWrOJBaQEvhJVLFROkOXMhtywr7C6P642z+SdKNgx</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icmapello.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icmapello.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icmapello.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo di Mapello</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo di Mapello</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icmapello.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.castelmella.bs.it/" ID="_3c588604f82873bf13fb80d370b58bf99cf1b66339a9274474e611ec61a58fa3"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_3c588604f82873bf13fb80d370b58bf99cf1b66339a9274474e611ec61a58fa3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>pai/eit4rs4OWdNJ+m6UJYV458MoTaFMw5avJw3c8Vk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>M42zTIU5JjNBnnI4B0XSy+W/H4B1bDpEQeSTeliN9DYbJofaNfFDBH/rgtV6bHC7iQWuRMZeNXkTR+CbcEvDDWDLpPX3MjgIFIB2GVVqPPLhuwXefn8jh2Z2IehKmN3aToNq5V8YA8QYy65YVJ9gUGv8YvUkdzCQCjjTHkTUpVUC87PnDOWzHgBOtkY0hdwE+FEkD3MN9oIXaic5plhBMxBT/c5uW6myNML4M4q7lCDiI/ZVZS7noSv1TjDsNluMFIXfjVHiwJ3+YejnCfiuFddm5Dw5vG7TFCBy2w45Jo2amSm6mpRm66vIM//3U+hT5I0ukEDZjCkuCvEnjUrKsA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJAMlOBsSBnrngMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEVMBMGA1UEBwwMQ2FzdGVsIE1lbGxhMR8wHQYDVQQKDBZDb211bmUgZGkgQ2FzdGVsIE1lbGxhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FzdGVsbWVsbGEuYnMuaXQwHhcNMjAwNjAzMTUyODIyWhcNMzAwNjAxMTUyODIyWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExFTATBgNVBAcMDENhc3RlbCBNZWxsYTEfMB0GA1UECgwWQ29tdW5lIGRpIENhc3RlbCBNZWxsYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNTAzBgNVBAMMLHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhc3RlbG1lbGxhLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA56Z2GhqKXGPv9Rp4hEJuCCmMhg8VQazDn5wUOE5TahIa+k771yUdhIU3Zhw1CL0y9+Owj3zFxiT9djbV5+laX5XMUD8G9J4OalUKPs7vHSc6wmvDOD4A6MC9H1tVTi5ezhnhFOgOaQGuGQdovBPs7F4Ay00X1l2V+Ucikxr89to6QObW77qoSX0t1q/QKczHvbIxQH60EdXdR04zWlT8RYB43sIsZCaIdI5ptnjyObd3m6C1f590uadcwbjP0FxbLVf6/Z4u15BMaYquVxwrUGoLWhHdCtqWzRgCKZcvQalXpFQWNI0tf+KUOesp7o7X+umsx4Sh0s+A91L+9PLXiQIDAQABo1MwUTAdBgNVHQ4EFgQUaOIAQsUzy/8nHQ+eHKN9CY+czJ4wHwYDVR0jBBgwFoAUaOIAQsUzy/8nHQ+eHKN9CY+czJ4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA3Vsxef3C5w7Qr2ieStB7Tlu2AvGHdfW8vP4LgY01aoGG05XFf52GtZPyeozIfp/idzk/Q0dixKcnBzcuYnJbO3gdMBrHgg7stAvG0F6JeUtqKhgRvWi4EWYBOzOs4APEFiybYrJ7KjJGbdnN9PekXhOguF5ZlmA6jRR95lhqLOCov06/Eo05FuSqiuqhTFl4RwNPc9TgP3q2rYPHdG/UCy76EAPzGX9/iIKYgO8a27jiJ4RzrOuZIV5v//u+MaVGkWpcbmBPfdQEC1APxMeT7VdExV1Wl8+Rr7yHuUA9fkei/LCCPnSLYgE4zUGVZuZ1byFLMOrRXsngSis6YfHwGQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJAMlOBsSBnrngMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEVMBMGA1UEBwwMQ2FzdGVsIE1lbGxhMR8wHQYDVQQKDBZDb211bmUgZGkgQ2FzdGVsIE1lbGxhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FzdGVsbWVsbGEuYnMuaXQwHhcNMjAwNjAzMTUyODIyWhcNMzAwNjAxMTUyODIyWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExFTATBgNVBAcMDENhc3RlbCBNZWxsYTEfMB0GA1UECgwWQ29tdW5lIGRpIENhc3RlbCBNZWxsYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNTAzBgNVBAMMLHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhc3RlbG1lbGxhLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA56Z2GhqKXGPv9Rp4hEJuCCmMhg8VQazDn5wUOE5TahIa+k771yUdhIU3Zhw1CL0y9+Owj3zFxiT9djbV5+laX5XMUD8G9J4OalUKPs7vHSc6wmvDOD4A6MC9H1tVTi5ezhnhFOgOaQGuGQdovBPs7F4Ay00X1l2V+Ucikxr89to6QObW77qoSX0t1q/QKczHvbIxQH60EdXdR04zWlT8RYB43sIsZCaIdI5ptnjyObd3m6C1f590uadcwbjP0FxbLVf6/Z4u15BMaYquVxwrUGoLWhHdCtqWzRgCKZcvQalXpFQWNI0tf+KUOesp7o7X+umsx4Sh0s+A91L+9PLXiQIDAQABo1MwUTAdBgNVHQ4EFgQUaOIAQsUzy/8nHQ+eHKN9CY+czJ4wHwYDVR0jBBgwFoAUaOIAQsUzy/8nHQ+eHKN9CY+czJ4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA3Vsxef3C5w7Qr2ieStB7Tlu2AvGHdfW8vP4LgY01aoGG05XFf52GtZPyeozIfp/idzk/Q0dixKcnBzcuYnJbO3gdMBrHgg7stAvG0F6JeUtqKhgRvWi4EWYBOzOs4APEFiybYrJ7KjJGbdnN9PekXhOguF5ZlmA6jRR95lhqLOCov06/Eo05FuSqiuqhTFl4RwNPc9TgP3q2rYPHdG/UCy76EAPzGX9/iIKYgO8a27jiJ4RzrOuZIV5v//u+MaVGkWpcbmBPfdQEC1APxMeT7VdExV1Wl8+Rr7yHuUA9fkei/LCCPnSLYgE4zUGVZuZ1byFLMOrRXsngSis6YfHwGQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJAMlOBsSBnrngMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEVMBMGA1UEBwwMQ2FzdGVsIE1lbGxhMR8wHQYDVQQKDBZDb211bmUgZGkgQ2FzdGVsIE1lbGxhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FzdGVsbWVsbGEuYnMuaXQwHhcNMjAwNjAzMTUyODIyWhcNMzAwNjAxMTUyODIyWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExFTATBgNVBAcMDENhc3RlbCBNZWxsYTEfMB0GA1UECgwWQ29tdW5lIGRpIENhc3RlbCBNZWxsYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNTAzBgNVBAMMLHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhc3RlbG1lbGxhLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA56Z2GhqKXGPv9Rp4hEJuCCmMhg8VQazDn5wUOE5TahIa+k771yUdhIU3Zhw1CL0y9+Owj3zFxiT9djbV5+laX5XMUD8G9J4OalUKPs7vHSc6wmvDOD4A6MC9H1tVTi5ezhnhFOgOaQGuGQdovBPs7F4Ay00X1l2V+Ucikxr89to6QObW77qoSX0t1q/QKczHvbIxQH60EdXdR04zWlT8RYB43sIsZCaIdI5ptnjyObd3m6C1f590uadcwbjP0FxbLVf6/Z4u15BMaYquVxwrUGoLWhHdCtqWzRgCKZcvQalXpFQWNI0tf+KUOesp7o7X+umsx4Sh0s+A91L+9PLXiQIDAQABo1MwUTAdBgNVHQ4EFgQUaOIAQsUzy/8nHQ+eHKN9CY+czJ4wHwYDVR0jBBgwFoAUaOIAQsUzy/8nHQ+eHKN9CY+czJ4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA3Vsxef3C5w7Qr2ieStB7Tlu2AvGHdfW8vP4LgY01aoGG05XFf52GtZPyeozIfp/idzk/Q0dixKcnBzcuYnJbO3gdMBrHgg7stAvG0F6JeUtqKhgRvWi4EWYBOzOs4APEFiybYrJ7KjJGbdnN9PekXhOguF5ZlmA6jRR95lhqLOCov06/Eo05FuSqiuqhTFl4RwNPc9TgP3q2rYPHdG/UCy76EAPzGX9/iIKYgO8a27jiJ4RzrOuZIV5v//u+MaVGkWpcbmBPfdQEC1APxMeT7VdExV1Wl8+Rr7yHuUA9fkei/LCCPnSLYgE4zUGVZuZ1byFLMOrRXsngSis6YfHwGQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.castelmella.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.castelmella.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_c208</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_c208</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castel Mella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castel Mella</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.castelmella.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.castelmella.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

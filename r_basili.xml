@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_e4006d8-ef18-4610-b79a-2fab006f8ec9" entityID="https://spid.regione.basilicata.it/spidsp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>eA7ApX/5gcn6fb0YFU2p3BsJw8rjtdxfD8RsKBJFYgU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+DlgJhHznSXFGPIP5qMAbY3Ji93B2szaAVhcDL4qgP6BrNLMK5Pc8YU7HN+H54xfOmT/Duc7C9V9d
+p//pYzevu9Mil9ZgZdUsNPKmmiAobxgr3q1/H+ZLzkq9SoBZrlTILuC0j3SO2TMpsnROine0hjcQ
++WjgfT0mKnwmU1CtYiMAN/jankXQVkVaZJVAZaxzKLwNd095lhUv2/dEflql6zqe50es82ycrx7E
+HWAVrNxHVLBovbNlpuxTux+EiRgha4mX8Fz8gwXqfn0UW1QJThtkQoZao/mEtSr1+0o7k9XoqrqC
+tdjM4BaWivx5Ib4HSCyEQWscu5yVZMtuTfGIPA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zEta9183mpQCZmX58NCKBaQg3Hrb2YTWfcmfzS2nqBXAg5S1DNbmrPs84e0Tca90PEzNPinDdEde
+wHdBFlEo/7DSjPmr75J/TZTIuagQrrvd2DXes2xUd7CnOik9izw6aHbRfMk1GjvMeq7wY+YxUzbp
+zT8Ckkt0oiyyKYDbkua1T1JHQwdBoSaEwJbLHqheKV2blvWAQ/DVFI1+QqJTUMZ/hrjuhWAa+EkZ
+WkEKHWO3vi5+XDAdMoFotPmAws7PXhMLO5zrkpE+CorFbIQfNCxyj3Pl63VX1nejmxltXPeepRB0
+0JlSllWB3fyOoE1HaO59lMRAmlK7NJERYAitdw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEXzCCA0egAwIBAgIJAMJoRFbI0VSXMA0GCSqGSIb3DQEBCwUAMIHFMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGSVRBTElBMRAwDgYDVQQHDAdQT1RFTlpBMRswGQYDVQQKDBJSRUdJT05FIEJBU0lM
+SUNBVEExGzAZBgNVBAsMElJFR0lPTkUgQkFTSUxJQ0FUQTEjMCEGA1UEAwwac3BpZC5yZWdpb25l
+LmJhc2lsaWNhdGEuaXQxNDAyBgkqhkiG9w0BCQEWJW5pY29sYS5wZXRyaXp6aUByZWdpb25lLmJh
+c2lsaWNhdGEuaXQwHhcNMTkwNTE1MTUxOTQwWhcNMjQwNTEzMTUxOTQwWjCBxTELMAkGA1UEBhMC
+SVQxDzANBgNVBAgMBklUQUxJQTEQMA4GA1UEBwwHUE9URU5aQTEbMBkGA1UECgwSUkVHSU9ORSBC
+QVNJTElDQVRBMRswGQYDVQQLDBJSRUdJT05FIEJBU0lMSUNBVEExIzAhBgNVBAMMGnNwaWQucmVn
+aW9uZS5iYXNpbGljYXRhLml0MTQwMgYJKoZIhvcNAQkBFiVuaWNvbGEucGV0cml6emlAcmVnaW9u
+ZS5iYXNpbGljYXRhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEta9183mpQC
+ZmX58NCKBaQg3Hrb2YTWfcmfzS2nqBXAg5S1DNbmrPs84e0Tca90PEzNPinDdEdewHdBFlEo/7DS
+jPmr75J/TZTIuagQrrvd2DXes2xUd7CnOik9izw6aHbRfMk1GjvMeq7wY+YxUzbpzT8Ckkt0oiyy
+KYDbkua1T1JHQwdBoSaEwJbLHqheKV2blvWAQ/DVFI1+QqJTUMZ/hrjuhWAa+EkZWkEKHWO3vi5+
+XDAdMoFotPmAws7PXhMLO5zrkpE+CorFbIQfNCxyj3Pl63VX1nejmxltXPeepRB00JlSllWB3fyO
+oE1HaO59lMRAmlK7NJERYAitdwIDAQABo1AwTjAdBgNVHQ4EFgQU22fdPN0y/kNEyZIvf/9Bj9EH
+uZ4wHwYDVR0jBBgwFoAU22fdPN0y/kNEyZIvf/9Bj9EHuZ4wDAYDVR0TBAUwAwEB/zANBgkqhkiG
+9w0BAQsFAAOCAQEANKPtEq2b0dHB3BD1GkY6S4u/qUxJFWlaRlke5ecw4j5RD/EY725Bj7N9ROzY
+BXoFPLHV90DNP3HYUkby85bo0DKPQ9BFU8KuuMGz+aGHNK2Qkvj9GXwNS7J87Rx4JUnUloE7l/RS
+BW7tDfXwNLK0gHrtyJaQ+tn5WyhgAMS9w5YaRm6gHMrT+i0/G1Svb+WKtMkTDanlSqOJSRVDz5xJ
+sULlQncMW7Chj9YX+ANiAD2zxOuc9mD+cxZpL+/MwCgLnp4zJl9is30FWeV+TVRJmrf4SqulXvrl
+M1nuYSNXc+nncS9yJcrxVUU7C6BQAv91wElaVylqvSevrlTfxif3cw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEXzCCA0egAwIBAgIJAMJoRFbI0VSXMA0GCSqGSIb3DQEBCwUAMIHFMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGSVRBTElBMRAwDgYDVQQHDAdQT1RFTlpBMRswGQYD
+VQQKDBJSRUdJT05FIEJBU0lMSUNBVEExGzAZBgNVBAsMElJFR0lPTkUgQkFTSUxJ
+Q0FUQTEjMCEGA1UEAwwac3BpZC5yZWdpb25lLmJhc2lsaWNhdGEuaXQxNDAyBgkq
+hkiG9w0BCQEWJW5pY29sYS5wZXRyaXp6aUByZWdpb25lLmJhc2lsaWNhdGEuaXQw
+HhcNMTkwNTE1MTUxOTQwWhcNMjQwNTEzMTUxOTQwWjCBxTELMAkGA1UEBhMCSVQx
+DzANBgNVBAgMBklUQUxJQTEQMA4GA1UEBwwHUE9URU5aQTEbMBkGA1UECgwSUkVH
+SU9ORSBCQVNJTElDQVRBMRswGQYDVQQLDBJSRUdJT05FIEJBU0lMSUNBVEExIzAh
+BgNVBAMMGnNwaWQucmVnaW9uZS5iYXNpbGljYXRhLml0MTQwMgYJKoZIhvcNAQkB
+FiVuaWNvbGEucGV0cml6emlAcmVnaW9uZS5iYXNpbGljYXRhLml0MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEta9183mpQCZmX58NCKBaQg3Hrb2YTW
+fcmfzS2nqBXAg5S1DNbmrPs84e0Tca90PEzNPinDdEdewHdBFlEo/7DSjPmr75J/
+TZTIuagQrrvd2DXes2xUd7CnOik9izw6aHbRfMk1GjvMeq7wY+YxUzbpzT8Ckkt0
+oiyyKYDbkua1T1JHQwdBoSaEwJbLHqheKV2blvWAQ/DVFI1+QqJTUMZ/hrjuhWAa
++EkZWkEKHWO3vi5+XDAdMoFotPmAws7PXhMLO5zrkpE+CorFbIQfNCxyj3Pl63VX
+1nejmxltXPeepRB00JlSllWB3fyOoE1HaO59lMRAmlK7NJERYAitdwIDAQABo1Aw
+TjAdBgNVHQ4EFgQU22fdPN0y/kNEyZIvf/9Bj9EHuZ4wHwYDVR0jBBgwFoAU22fd
+PN0y/kNEyZIvf/9Bj9EHuZ4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOC
+AQEANKPtEq2b0dHB3BD1GkY6S4u/qUxJFWlaRlke5ecw4j5RD/EY725Bj7N9ROzY
+BXoFPLHV90DNP3HYUkby85bo0DKPQ9BFU8KuuMGz+aGHNK2Qkvj9GXwNS7J87Rx4
+JUnUloE7l/RSBW7tDfXwNLK0gHrtyJaQ+tn5WyhgAMS9w5YaRm6gHMrT+i0/G1Sv
+b+WKtMkTDanlSqOJSRVDz5xJsULlQncMW7Chj9YX+ANiAD2zxOuc9mD+cxZpL+/M
+wCgLnp4zJl9is30FWeV+TVRJmrf4SqulXvrlM1nuYSNXc+nncS9yJcrxVUU7C6BQ
+Av91wElaVylqvSevrlTfxif3cw==</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:KeyDescriptor use="encryption"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEXzCCA0egAwIBAgIJAMJoRFbI0VSXMA0GCSqGSIb3DQEBCwUAMIHFMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGSVRBTElBMRAwDgYDVQQHDAdQT1RFTlpBMRswGQYD
+VQQKDBJSRUdJT05FIEJBU0lMSUNBVEExGzAZBgNVBAsMElJFR0lPTkUgQkFTSUxJ
+Q0FUQTEjMCEGA1UEAwwac3BpZC5yZWdpb25lLmJhc2lsaWNhdGEuaXQxNDAyBgkq
+hkiG9w0BCQEWJW5pY29sYS5wZXRyaXp6aUByZWdpb25lLmJhc2lsaWNhdGEuaXQw
+HhcNMTkwNTE1MTUxOTQwWhcNMjQwNTEzMTUxOTQwWjCBxTELMAkGA1UEBhMCSVQx
+DzANBgNVBAgMBklUQUxJQTEQMA4GA1UEBwwHUE9URU5aQTEbMBkGA1UECgwSUkVH
+SU9ORSBCQVNJTElDQVRBMRswGQYDVQQLDBJSRUdJT05FIEJBU0lMSUNBVEExIzAh
+BgNVBAMMGnNwaWQucmVnaW9uZS5iYXNpbGljYXRhLml0MTQwMgYJKoZIhvcNAQkB
+FiVuaWNvbGEucGV0cml6emlAcmVnaW9uZS5iYXNpbGljYXRhLml0MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEta9183mpQCZmX58NCKBaQg3Hrb2YTW
+fcmfzS2nqBXAg5S1DNbmrPs84e0Tca90PEzNPinDdEdewHdBFlEo/7DSjPmr75J/
+TZTIuagQrrvd2DXes2xUd7CnOik9izw6aHbRfMk1GjvMeq7wY+YxUzbpzT8Ckkt0
+oiyyKYDbkua1T1JHQwdBoSaEwJbLHqheKV2blvWAQ/DVFI1+QqJTUMZ/hrjuhWAa
++EkZWkEKHWO3vi5+XDAdMoFotPmAws7PXhMLO5zrkpE+CorFbIQfNCxyj3Pl63VX
+1nejmxltXPeepRB00JlSllWB3fyOoE1HaO59lMRAmlK7NJERYAitdwIDAQABo1Aw
+TjAdBgNVHQ4EFgQU22fdPN0y/kNEyZIvf/9Bj9EHuZ4wHwYDVR0jBBgwFoAU22fd
+PN0y/kNEyZIvf/9Bj9EHuZ4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOC
+AQEANKPtEq2b0dHB3BD1GkY6S4u/qUxJFWlaRlke5ecw4j5RD/EY725Bj7N9ROzY
+BXoFPLHV90DNP3HYUkby85bo0DKPQ9BFU8KuuMGz+aGHNK2Qkvj9GXwNS7J87Rx4
+JUnUloE7l/RSBW7tDfXwNLK0gHrtyJaQ+tn5WyhgAMS9w5YaRm6gHMrT+i0/G1Sv
+b+WKtMkTDanlSqOJSRVDz5xJsULlQncMW7Chj9YX+ANiAD2zxOuc9mD+cxZpL+/M
+wCgLnp4zJl9is30FWeV+TVRJmrf4SqulXvrlM1nuYSNXc+nncS9yJcrxVUU7C6BQ
+Av91wElaVylqvSevrlTfxif3cw==</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.regione.basilicata.it/Shibboleth.sso/SLO/POST"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.regione.basilicata.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio accesso SPID</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Servizio di accesso Discovery SPID</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+
+    <md:Organization> 
+        <md:OrganizationName xml:lang="it">Regione Basilicata</md:OrganizationName> 
+        <md:OrganizationDisplayName xml:lang="it">Regione Basilicata</md:OrganizationDisplayName> 
+        <md:OrganizationURL xml:lang="it">http://www.regione.basilicata.it/</md:OrganizationURL> 
+    </md:Organization> 
+
+</md:EntityDescriptor>

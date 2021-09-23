@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CampoNellElba" entityID="https://www.comune.camponellelba.li.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CampoNellElba">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>SPjZowgoCO80tbmgHjOcZlgb8SpsU14akis9/S2ReCA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EiLGJvNKK4yaBXnWuH0AE8C/bFSvi+qaDgeg4SPtZ59UL4CTqIkEHVkB5hHjSjrKdgzh7EHk4O0u
+RNH2TdRQaIi3XzCfW9Dd/DQAhn4TLnoweF76C61cUl2VK/PiBeSjpYPYXNWyDb0yVsNv7ryQ8T4l
+q2LyzubYhj9tNH6R41661H/PtyaITZdO6E6QXrY5WamjY6CznOmOUnTOgoZBcImWgVESTEP4nj5W
+vCIM/Tv0dbA41wDjK+kzHJUWbzPY86HGyKiX0S8t3LYBer66tM5KEjztsNXXPvauEvybONVvj1WK
+CCJzlsuS4xFcyBcwTnD4byv4N548nnSfyCajDw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yjATnCbrXvLTyEzw4+19XvogPKe0Sy2H07YSyZRIi11WNZSRvdUBhVx/d+DfT63uJ6zTK9tLRefs
+lor8kXBCchhC45Stkql3+mtZkUp4nkaUctEXDe/hw9FHvIGM5MNRIBY2GwzRlm9A9xjca+ML57Vt
+n2+6hdfgslfYWWSSMw3z4vSSScXIoSw3mtIQ1fRnBzUMReRJdDB4TwpOmYYPQb7qbaAvrATNSvtw
+7qOlZOiFWF02Pstvfa54XHoo4KBpQSAAA0jYQmJyNt2rccthhAbvcFh2WPWezDBo4br+gyaLgk8Y
+PUxEqdSODGV6PZzwNS09AoQv2eivCxbEjWc+/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXTCCAkWgAwIBAgIJAPyrmURRoRK9MA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5j
+b211bmUuY2FtcG9uZWxsZWxiYS5saS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcN
+MjAwNTIxMDc0NzMwWhcNMzAwNTE5MDc0NzMwWjBFMScwJQYDVQQDDB53d3cuY29tdW5lLmNhbXBv
+bmVsbGVsYmEubGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAyjATnCbrXvLTyEzw4+19XvogPKe0Sy2H07YSyZRIi11WNZSRvdUB
+hVx/d+DfT63uJ6zTK9tLRefslor8kXBCchhC45Stkql3+mtZkUp4nkaUctEXDe/hw9FHvIGM5MNR
+IBY2GwzRlm9A9xjca+ML57Vtn2+6hdfgslfYWWSSMw3z4vSSScXIoSw3mtIQ1fRnBzUMReRJdDB4
+TwpOmYYPQb7qbaAvrATNSvtw7qOlZOiFWF02Pstvfa54XHoo4KBpQSAAA0jYQmJyNt2rccthhAbv
+cFh2WPWezDBo4br+gyaLgk8YPUxEqdSODGV6PZzwNS09AoQv2eivCxbEjWc+/QIDAQABo1AwTjAd
+BgNVHQ4EFgQUAZf05NpUEmXSSSxV3xHn6VslKTMwHwYDVR0jBBgwFoAUAZf05NpUEmXSSSxV3xHn
+6VslKTMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASElSQxTN7/jythbCLUq8pvC0
+MwrKWhc/g20cIftpk952gn+MsO1zD32IQMs8phU0xWBS/o2/uYlwmyVKQhWY/RCdbMJUtxO8zcak
+yMH01okhXiDjmFadax76j8Kk8YHv9Rz9IZkw1Eebzv10KkCHIp+wEuLrUihIrH4sF5ju/KIb1PT8
+xJ+yJmLYczQUoT9m/Erk3CW3/SYskGCHPJruNV8uIMX9zUa551MHvLsIZFD6aTm8tP9Q6M5O2KZh
+ztqLwQUen5Rr1E/HML0wZ6PyHTWD88rG2Uy4XF+vm7WRWse/SrDaJioItPHEx6fJwZFAk5ukJ9ct
+HmZLABkwuIr22A==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAPyrmURRoRK9MA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUuY2FtcG9uZWxsZWxiYS5saS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNTIxMDc0NzMwWhcNMzAwNTE5MDc0NzMwWjBFMScwJQYDVQQDDB53d3cuY29tdW5lLmNhbXBvbmVsbGVsYmEubGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyjATnCbrXvLTyEzw4+19XvogPKe0Sy2H07YSyZRIi11WNZSRvdUBhVx/d+DfT63uJ6zTK9tLRefslor8kXBCchhC45Stkql3+mtZkUp4nkaUctEXDe/hw9FHvIGM5MNRIBY2GwzRlm9A9xjca+ML57Vtn2+6hdfgslfYWWSSMw3z4vSSScXIoSw3mtIQ1fRnBzUMReRJdDB4TwpOmYYPQb7qbaAvrATNSvtw7qOlZOiFWF02Pstvfa54XHoo4KBpQSAAA0jYQmJyNt2rccthhAbvcFh2WPWezDBo4br+gyaLgk8YPUxEqdSODGV6PZzwNS09AoQv2eivCxbEjWc+/QIDAQABo1AwTjAdBgNVHQ4EFgQUAZf05NpUEmXSSSxV3xHn6VslKTMwHwYDVR0jBBgwFoAUAZf05NpUEmXSSSxV3xHn6VslKTMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASElSQxTN7/jythbCLUq8pvC0MwrKWhc/g20cIftpk952gn+MsO1zD32IQMs8phU0xWBS/o2/uYlwmyVKQhWY/RCdbMJUtxO8zcakyMH01okhXiDjmFadax76j8Kk8YHv9Rz9IZkw1Eebzv10KkCHIp+wEuLrUihIrH4sF5ju/KIb1PT8xJ+yJmLYczQUoT9m/Erk3CW3/SYskGCHPJruNV8uIMX9zUa551MHvLsIZFD6aTm8tP9Q6M5O2KZhztqLwQUen5Rr1E/HML0wZ6PyHTWD88rG2Uy4XF+vm7WRWse/SrDaJioItPHEx6fJwZFAk5ukJ9ctHmZLABkwuIr22A==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAPyrmURRoRK9MA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUuY2FtcG9uZWxsZWxiYS5saS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNTIxMDc0NzMwWhcNMzAwNTE5MDc0NzMwWjBFMScwJQYDVQQDDB53d3cuY29tdW5lLmNhbXBvbmVsbGVsYmEubGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyjATnCbrXvLTyEzw4+19XvogPKe0Sy2H07YSyZRIi11WNZSRvdUBhVx/d+DfT63uJ6zTK9tLRefslor8kXBCchhC45Stkql3+mtZkUp4nkaUctEXDe/hw9FHvIGM5MNRIBY2GwzRlm9A9xjca+ML57Vtn2+6hdfgslfYWWSSMw3z4vSSScXIoSw3mtIQ1fRnBzUMReRJdDB4TwpOmYYPQb7qbaAvrATNSvtw7qOlZOiFWF02Pstvfa54XHoo4KBpQSAAA0jYQmJyNt2rccthhAbvcFh2WPWezDBo4br+gyaLgk8YPUxEqdSODGV6PZzwNS09AoQv2eivCxbEjWc+/QIDAQABo1AwTjAdBgNVHQ4EFgQUAZf05NpUEmXSSSxV3xHn6VslKTMwHwYDVR0jBBgwFoAUAZf05NpUEmXSSSxV3xHn6VslKTMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASElSQxTN7/jythbCLUq8pvC0MwrKWhc/g20cIftpk952gn+MsO1zD32IQMs8phU0xWBS/o2/uYlwmyVKQhWY/RCdbMJUtxO8zcakyMH01okhXiDjmFadax76j8Kk8YHv9Rz9IZkw1Eebzv10KkCHIp+wEuLrUihIrH4sF5ju/KIb1PT8xJ+yJmLYczQUoT9m/Erk3CW3/SYskGCHPJruNV8uIMX9zUa551MHvLsIZFD6aTm8tP9Q6M5O2KZhztqLwQUen5Rr1E/HML0wZ6PyHTWD88rG2Uy4XF+vm7WRWse/SrDaJioItPHEx6fJwZFAk5ukJ9ctHmZLABkwuIr22A==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/camponellelba"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/camponellelba" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/camponellelba" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/camponellelba" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Campo nell'Elba</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Campo nell'Elba</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Campo nell'Elba</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Campo nell'Elba</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Campo nell'Elba</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Campo nell'Elba</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Campo nell'Elba</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Campo nell'Elba</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.camponellelba.li.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.camponellelba.li.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.camponellelba.li.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.camponellelba.li.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

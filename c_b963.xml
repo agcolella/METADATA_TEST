@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://serviziweb.comune.caserta.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/metadata.php/default-sp" ID="pfx2e11d028-f028-0856-a352-3c8adeb669c6"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx2e11d028-f028-0856-a352-3c8adeb669c6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>0lqIWiXBLLTngtOyzcigs3w+jKHWrUA5ApcbLFMEWog=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>OrlzoOcW55I+WMW4tjkW9LD7D2Ft64kd/FPJ4Bf0PqPd1FXHKRqjLJ/yXyxYHJqv3zX9wdSepmZ0C9DpOmMVkZK+Awkkj/968sEkbVBqMWABwRPARK7MWrcXLKzmpOnOTPDks3KyzdKv3DC6YCN6NSmmd8ifGNx3tfVPevEoVr94VUndNzoUga4wWnFWlubbKoFdtwTmKpKs6xvRiV0P0W32dPSm/8CYUBSmcJa/AA6OJAo6IJrxu8wwsgoq6OixHyrZ3k2Hgd98FbyVrOsW+bmM3cE9v/WlnBk8GyZ9/u+mVPVo1h7HsZzRH0++u3+f7KYcQaSk5tncUlxmOpWZIA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEEjCCAvqgAwIBAgIEX60PezANBgkqhkiG9w0BAQ0FADBXMRAwDgYDVQQHDAdDYXNlcnRhMQswCQYDVQQGEwJJVDEaMBgGA1UEAwwRQ29tdW5lIGRpIENhc2VydGExGjAYBgNVBAoMEUNvbXVuZSBkaSBDYXNlcnRhMB4XDTIwMTExMjEwMzMzMVoXDTMwMTExMjEwMzMzMVowVzEQMA4GA1UEBwwHQ2FzZXJ0YTELMAkGA1UEBhMCSVQxGjAYBgNVBAMMEUNvbXVuZSBkaSBDYXNlcnRhMRowGAYDVQQKDBFDb211bmUgZGkgQ2FzZXJ0YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPCzQCGfOskg2C3yhO8LG92cFEKnRXnQpUZNn8QKbGL2p7f1M2V2SMs10H9UG54eMaIk/8E0fbqxuReQJqHPxs/4q51vF2Vg8bWe5G0SFH1ROoMC7frtbTEU1h8ao6nW5mPYD6u7ihhMtohfS/A+J6x72TEgV1ZllTdDMzDDgRTcnEi32CiXzHMX6ERV+UdJeapnzhN9zRd5eKR0j0arNWbRz/GED08lTVEEFxfD8nOGxreev/cYxgUtPR6QlHrsdKS/EKEQ7ak+yJi39HCW29Ame+tDJb0wVfFWMC6V5ftrr8pe8SGgX9PxOQsFM1hime+GtE07+YK3+xKPCNp56fsCAwEAAaOB5TCB4jCBhAYDVR0RBH0we4Z5aHR0cHM6Ly9zZXJ2aXppd2ViLmNvbXVuZS5jYXNlcnRhLml0L3dwLWNvbnRlbnQvcGx1Z2lucy93cC1zcGlkLWl0YWxpYS9saWIvd3d3L21vZHVsZS5waHAvc2FtbC9zcC9tZXRhZGF0YS5waHAvZGVmYXVsdC1zcDAjBggrBgEFBQcBCwQXMBUwEwYDVQRhggxQQTpJVC1jX2I5NjMwNAYDVR0gBC0wKzApBgMrTBAwIjAgBggrBgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0b3ItU1AwDQYJKoZIhvcNAQENBQADggEBAE9eEHE12KdNPb6IEjXfSzsoKAlhwxI+MjCVAcUh7T6LRxU+sancd2W25qFBaVGPbycMTHTXM9MZ3gcUOcgDiJiZt6cLaQJ+G0z9t4O1PAvlc8CZYc/ommcJZ0nMuBkj1f6pnq8us/hNZkgXYtxVk9mwhJ7DHNATp1unT78eQzp3hcE7d7m6Lfg9KkkTYz6ykbQZVQUVTru9wSvqNNujtjK+DUItvbsy1EMmPCGn/a2DHYmQ4pqDcVqLPFlf+jw2cNCu3yYt5ZujcivtpdbC7pXMq9E+3J8OFY3wcPE62m8B9193sY+0ij+bh9hJNIFTBxMGtTj5pULyILc8Jh1E8nY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEjCCAvqgAwIBAgIEX60PezANBgkqhkiG9w0BAQ0FADBXMRAwDgYDVQQHDAdDYXNlcnRhMQswCQYDVQQGEwJJVDEaMBgGA1UEAwwRQ29tdW5lIGRpIENhc2VydGExGjAYBgNVBAoMEUNvbXVuZSBkaSBDYXNlcnRhMB4XDTIwMTExMjEwMzMzMVoXDTMwMTExMjEwMzMzMVowVzEQMA4GA1UEBwwHQ2FzZXJ0YTELMAkGA1UEBhMCSVQxGjAYBgNVBAMMEUNvbXVuZSBkaSBDYXNlcnRhMRowGAYDVQQKDBFDb211bmUgZGkgQ2FzZXJ0YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPCzQCGfOskg2C3yhO8LG92cFEKnRXnQpUZNn8QKbGL2p7f1M2V2SMs10H9UG54eMaIk/8E0fbqxuReQJqHPxs/4q51vF2Vg8bWe5G0SFH1ROoMC7frtbTEU1h8ao6nW5mPYD6u7ihhMtohfS/A+J6x72TEgV1ZllTdDMzDDgRTcnEi32CiXzHMX6ERV+UdJeapnzhN9zRd5eKR0j0arNWbRz/GED08lTVEEFxfD8nOGxreev/cYxgUtPR6QlHrsdKS/EKEQ7ak+yJi39HCW29Ame+tDJb0wVfFWMC6V5ftrr8pe8SGgX9PxOQsFM1hime+GtE07+YK3+xKPCNp56fsCAwEAAaOB5TCB4jCBhAYDVR0RBH0we4Z5aHR0cHM6Ly9zZXJ2aXppd2ViLmNvbXVuZS5jYXNlcnRhLml0L3dwLWNvbnRlbnQvcGx1Z2lucy93cC1zcGlkLWl0YWxpYS9saWIvd3d3L21vZHVsZS5waHAvc2FtbC9zcC9tZXRhZGF0YS5waHAvZGVmYXVsdC1zcDAjBggrBgEFBQcBCwQXMBUwEwYDVQRhggxQQTpJVC1jX2I5NjMwNAYDVR0gBC0wKzApBgMrTBAwIjAgBggrBgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0b3ItU1AwDQYJKoZIhvcNAQENBQADggEBAE9eEHE12KdNPb6IEjXfSzsoKAlhwxI+MjCVAcUh7T6LRxU+sancd2W25qFBaVGPbycMTHTXM9MZ3gcUOcgDiJiZt6cLaQJ+G0z9t4O1PAvlc8CZYc/ommcJZ0nMuBkj1f6pnq8us/hNZkgXYtxVk9mwhJ7DHNATp1unT78eQzp3hcE7d7m6Lfg9KkkTYz6ykbQZVQUVTru9wSvqNNujtjK+DUItvbsy1EMmPCGn/a2DHYmQ4pqDcVqLPFlf+jw2cNCu3yYt5ZujcivtpdbC7pXMq9E+3J8OFY3wcPE62m8B9193sY+0ij+bh9hJNIFTBxMGtTj5pULyILc8Jh1E8nY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEjCCAvqgAwIBAgIEX60PezANBgkqhkiG9w0BAQ0FADBXMRAwDgYDVQQHDAdDYXNlcnRhMQswCQYDVQQGEwJJVDEaMBgGA1UEAwwRQ29tdW5lIGRpIENhc2VydGExGjAYBgNVBAoMEUNvbXVuZSBkaSBDYXNlcnRhMB4XDTIwMTExMjEwMzMzMVoXDTMwMTExMjEwMzMzMVowVzEQMA4GA1UEBwwHQ2FzZXJ0YTELMAkGA1UEBhMCSVQxGjAYBgNVBAMMEUNvbXVuZSBkaSBDYXNlcnRhMRowGAYDVQQKDBFDb211bmUgZGkgQ2FzZXJ0YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPCzQCGfOskg2C3yhO8LG92cFEKnRXnQpUZNn8QKbGL2p7f1M2V2SMs10H9UG54eMaIk/8E0fbqxuReQJqHPxs/4q51vF2Vg8bWe5G0SFH1ROoMC7frtbTEU1h8ao6nW5mPYD6u7ihhMtohfS/A+J6x72TEgV1ZllTdDMzDDgRTcnEi32CiXzHMX6ERV+UdJeapnzhN9zRd5eKR0j0arNWbRz/GED08lTVEEFxfD8nOGxreev/cYxgUtPR6QlHrsdKS/EKEQ7ak+yJi39HCW29Ame+tDJb0wVfFWMC6V5ftrr8pe8SGgX9PxOQsFM1hime+GtE07+YK3+xKPCNp56fsCAwEAAaOB5TCB4jCBhAYDVR0RBH0we4Z5aHR0cHM6Ly9zZXJ2aXppd2ViLmNvbXVuZS5jYXNlcnRhLml0L3dwLWNvbnRlbnQvcGx1Z2lucy93cC1zcGlkLWl0YWxpYS9saWIvd3d3L21vZHVsZS5waHAvc2FtbC9zcC9tZXRhZGF0YS5waHAvZGVmYXVsdC1zcDAjBggrBgEFBQcBCwQXMBUwEwYDVQRhggxQQTpJVC1jX2I5NjMwNAYDVR0gBC0wKzApBgMrTBAwIjAgBggrBgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0b3ItU1AwDQYJKoZIhvcNAQENBQADggEBAE9eEHE12KdNPb6IEjXfSzsoKAlhwxI+MjCVAcUh7T6LRxU+sancd2W25qFBaVGPbycMTHTXM9MZ3gcUOcgDiJiZt6cLaQJ+G0z9t4O1PAvlc8CZYc/ommcJZ0nMuBkj1f6pnq8us/hNZkgXYtxVk9mwhJ7DHNATp1unT78eQzp3hcE7d7m6Lfg9KkkTYz6ykbQZVQUVTru9wSvqNNujtjK+DUItvbsy1EMmPCGn/a2DHYmQ4pqDcVqLPFlf+jw2cNCu3yYt5ZujcivtpdbC7pXMq9E+3J8OFY3wcPE62m8B9193sY+0ij+bh9hJNIFTBxMGtTj5pULyILc8Jh1E8nY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb.comune.caserta.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb.comune.caserta.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi Web Comune Caserta</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi Web Comune Caserta</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Caserta</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Caserta</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://serviziweb.comune.caserta.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_b963</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>postacertificata@pec.comune.caserta.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

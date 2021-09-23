@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="CervignanoDAdda" entityID="https://www.comune.cervignanodadda.lo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CervignanoDAdda">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>RoJUKhlKN7n4uKcVDBticq8VsyKEp42EQFl11iQ5e3M=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+UuaeHHs7zZtEFNQol+nX4Hitj5PumBEy+0P4PYUbNM8EnsM34QwniJGNYp6xPoiLeYihD1Rpu0eu
+J65Y1d7fQi8nE5mJ4kyVLHlKD4hN3fjyDVE5mApGgY1Hg3n/rwwpju70aluBonHv1JHF/BfamR+D
+6aCpmsM6GObG+sZRHxe+21JPS6wcvP1PkNXW407q++eAlOHVa0Rq/jCnzxRoGm+RfRDYr7WBiL63
+BCCzE8OIE509hRjem7ze2f05hCFuwVW1lwWI8d+mIZXlE19sbWQ5QZ9Vob4Wka3n+q2bDNZ0O0SG
+OXchJPOb69wZIHYS6dk8x3EyahfyE3DKoxq2wQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rEV0cZEHF0WXsolDLHKVS2RbuKXrp5x2IoH/P8jcS8U5Ny4DsnaRzEJk92Mbe/2K2Z6g7/R8eX+G
+KQYR/8niOeI9pAZ8K2P2FMhoP4kS4XziJmmdOkgHMok38KBj36bvkrkAlDU5u4wmulUYsUEpeVQR
+/TWaLA5YtGP22oImQ+CRLJEAHyB2FgloOnSDpeEz4PN3vU1P79r9B8FlRwfDET2Y98mk3wyCSXqy
+2hI57ZDnNqm8eTBjC/6yd8510O1NHo/FgtV6ZBofXa+iSy2X1Lwu+BSZXUtLQN2JpC1Gjmo9Gtea
+dgtk3LWFy4B7cnNr+yo4wLZKtYSBm2sRufb44Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIESjCCAzKgAwIBAgIJAJ2fdHRqvuusMA0GCSqGSIb3DQEBCwUAMIHLMSQwIgYDVQQKDBtDb211
+bmUgZGkgQ2VydmlnbmFubyBkJ0FkZGExJDAiBgNVBAMMG0NvbXVuZSBkaSBDZXJ2aWduYW5vIGQn
+QWRkYTE9MDsGA1UEUww0aHR0cHM6Ly93d3cuY29tdW5lLmNlcnZpZ25hbm9kYWRkYS5sby5pdC9z
+ZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19jNTU1MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwR
+Q2VydmlnbmFubyBkJ0FkZGEwHhcNMjAxMTA1MDg0NjEwWhcNMzAxMTAzMDg0NjEwWjCByzEkMCIG
+A1UECgwbQ29tdW5lIGRpIENlcnZpZ25hbm8gZCdBZGRhMSQwIgYDVQQDDBtDb211bmUgZGkgQ2Vy
+dmlnbmFubyBkJ0FkZGExPTA7BgNVBFMMNGh0dHBzOi8vd3d3LmNvbXVuZS5jZXJ2aWduYW5vZGFk
+ZGEubG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfYzU1NTELMAkGA1UEBhMCSVQx
+GjAYBgNVBAcMEUNlcnZpZ25hbm8gZCdBZGRhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEArEV0cZEHF0WXsolDLHKVS2RbuKXrp5x2IoH/P8jcS8U5Ny4DsnaRzEJk92Mbe/2K2Z6g7/R8
+eX+GKQYR/8niOeI9pAZ8K2P2FMhoP4kS4XziJmmdOkgHMok38KBj36bvkrkAlDU5u4wmulUYsUEp
+eVQR/TWaLA5YtGP22oImQ+CRLJEAHyB2FgloOnSDpeEz4PN3vU1P79r9B8FlRwfDET2Y98mk3wyC
+SXqy2hI57ZDnNqm8eTBjC/6yd8510O1NHo/FgtV6ZBofXa+iSy2X1Lwu+BSZXUtLQN2JpC1Gjmo9
+Gteadgtk3LWFy4B7cnNr+yo4wLZKtYSBm2sRufb44QIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1Ud
+DwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZgtsYqRTOtP8
+x/6uTa1XdWU5Bc58VBM2X7E05AORfD1MtXcBBpiThtgN8Nw69cFp1qMtORsF3WfKb61+AJB9il6C
+eTY6nzStvonM71bEhZDjTh3tx5FKGVFEgfRkDnLZqTl6lytctC2vidYhhGmJlBf5HnxsD7mL8r9d
+bhoVSQogfd4OeFe2PV1BMpQIx4VIp4R8dv/6K8YhrsIGKsBzF3D9yYd8nQmf1fa5WH3IHgLvlJPe
+n1JarLhlvdjdcXadaT0QiCS6qiitbDPB+QHDTOor/8ZEBhdQRdyzHSpiBUMmPYjCWhW3EydqN2hd
+F+qrSDt4iFPkzRZMUyl21vtjhg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIESjCCAzKgAwIBAgIJAJ2fdHRqvuusMA0GCSqGSIb3DQEBCwUAMIHLMSQwIgYDVQQKDBtDb211bmUgZGkgQ2VydmlnbmFubyBkJ0FkZGExJDAiBgNVBAMMG0NvbXVuZSBkaSBDZXJ2aWduYW5vIGQnQWRkYTE9MDsGA1UEUww0aHR0cHM6Ly93d3cuY29tdW5lLmNlcnZpZ25hbm9kYWRkYS5sby5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19jNTU1MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ2VydmlnbmFubyBkJ0FkZGEwHhcNMjAxMTA1MDg0NjEwWhcNMzAxMTAzMDg0NjEwWjCByzEkMCIGA1UECgwbQ29tdW5lIGRpIENlcnZpZ25hbm8gZCdBZGRhMSQwIgYDVQQDDBtDb211bmUgZGkgQ2VydmlnbmFubyBkJ0FkZGExPTA7BgNVBFMMNGh0dHBzOi8vd3d3LmNvbXVuZS5jZXJ2aWduYW5vZGFkZGEubG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfYzU1NTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNlcnZpZ25hbm8gZCdBZGRhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEV0cZEHF0WXsolDLHKVS2RbuKXrp5x2IoH/P8jcS8U5Ny4DsnaRzEJk92Mbe/2K2Z6g7/R8eX+GKQYR/8niOeI9pAZ8K2P2FMhoP4kS4XziJmmdOkgHMok38KBj36bvkrkAlDU5u4wmulUYsUEpeVQR/TWaLA5YtGP22oImQ+CRLJEAHyB2FgloOnSDpeEz4PN3vU1P79r9B8FlRwfDET2Y98mk3wyCSXqy2hI57ZDnNqm8eTBjC/6yd8510O1NHo/FgtV6ZBofXa+iSy2X1Lwu+BSZXUtLQN2JpC1Gjmo9Gteadgtk3LWFy4B7cnNr+yo4wLZKtYSBm2sRufb44QIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZgtsYqRTOtP8x/6uTa1XdWU5Bc58VBM2X7E05AORfD1MtXcBBpiThtgN8Nw69cFp1qMtORsF3WfKb61+AJB9il6CeTY6nzStvonM71bEhZDjTh3tx5FKGVFEgfRkDnLZqTl6lytctC2vidYhhGmJlBf5HnxsD7mL8r9dbhoVSQogfd4OeFe2PV1BMpQIx4VIp4R8dv/6K8YhrsIGKsBzF3D9yYd8nQmf1fa5WH3IHgLvlJPen1JarLhlvdjdcXadaT0QiCS6qiitbDPB+QHDTOor/8ZEBhdQRdyzHSpiBUMmPYjCWhW3EydqN2hdF+qrSDt4iFPkzRZMUyl21vtjhg==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIESjCCAzKgAwIBAgIJAJ2fdHRqvuusMA0GCSqGSIb3DQEBCwUAMIHLMSQwIgYDVQQKDBtDb211bmUgZGkgQ2VydmlnbmFubyBkJ0FkZGExJDAiBgNVBAMMG0NvbXVuZSBkaSBDZXJ2aWduYW5vIGQnQWRkYTE9MDsGA1UEUww0aHR0cHM6Ly93d3cuY29tdW5lLmNlcnZpZ25hbm9kYWRkYS5sby5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19jNTU1MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ2VydmlnbmFubyBkJ0FkZGEwHhcNMjAxMTA1MDg0NjEwWhcNMzAxMTAzMDg0NjEwWjCByzEkMCIGA1UECgwbQ29tdW5lIGRpIENlcnZpZ25hbm8gZCdBZGRhMSQwIgYDVQQDDBtDb211bmUgZGkgQ2VydmlnbmFubyBkJ0FkZGExPTA7BgNVBFMMNGh0dHBzOi8vd3d3LmNvbXVuZS5jZXJ2aWduYW5vZGFkZGEubG8uaXQvc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfYzU1NTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNlcnZpZ25hbm8gZCdBZGRhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEV0cZEHF0WXsolDLHKVS2RbuKXrp5x2IoH/P8jcS8U5Ny4DsnaRzEJk92Mbe/2K2Z6g7/R8eX+GKQYR/8niOeI9pAZ8K2P2FMhoP4kS4XziJmmdOkgHMok38KBj36bvkrkAlDU5u4wmulUYsUEpeVQR/TWaLA5YtGP22oImQ+CRLJEAHyB2FgloOnSDpeEz4PN3vU1P79r9B8FlRwfDET2Y98mk3wyCSXqy2hI57ZDnNqm8eTBjC/6yd8510O1NHo/FgtV6ZBofXa+iSy2X1Lwu+BSZXUtLQN2JpC1Gjmo9Gteadgtk3LWFy4B7cnNr+yo4wLZKtYSBm2sRufb44QIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAZgtsYqRTOtP8x/6uTa1XdWU5Bc58VBM2X7E05AORfD1MtXcBBpiThtgN8Nw69cFp1qMtORsF3WfKb61+AJB9il6CeTY6nzStvonM71bEhZDjTh3tx5FKGVFEgfRkDnLZqTl6lytctC2vidYhhGmJlBf5HnxsD7mL8r9dbhoVSQogfd4OeFe2PV1BMpQIx4VIp4R8dv/6K8YhrsIGKsBzF3D9yYd8nQmf1fa5WH3IHgLvlJPen1JarLhlvdjdcXadaT0QiCS6qiitbDPB+QHDTOor/8ZEBhdQRdyzHSpiBUMmPYjCWhW3EydqN2hdF+qrSDt4iFPkzRZMUyl21vtjhg==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cervignanodadda"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cervignanodadda" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cervignanodadda" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cervignanodadda" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Cervignano d'Adda</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Cervignano d'Adda</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Cervignano d'Adda</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Cervignano d'Adda</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Cervignano d'Adda</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Cervignano d'Adda</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Cervignano d'Adda</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Cervignano d'Adda</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.cervignanodadda.lo.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.cervignanodadda.lo.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.cervignanodadda.lo.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.cervignanodadda.lo.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_c555</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ragioneria@comune.cervignanodadda.lo.it</md:EmailAddress>
+      <md:TelephoneNumber>+39029813002</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

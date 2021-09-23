@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportelloambiente.provincia.latina.it/" ID="pfxa2afc95c-a9ef-0291-54e0-5bc8ec9450d9"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa2afc95c-a9ef-0291-54e0-5bc8ec9450d9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3z3T4uU+OVxzu3sXzw1E3matPnA8FpbV/urzjYZjoj4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>G7LJfp8mM2kyhI6IFv3QrfY/OtVawHjtxyhfzLK8VLASwNDEtTrmq41+C7y5eWObS6d2ihywntVLn/VXv5NmEHuQ5yCcAJH9KTs/4//MtsVekzyrP6OhfwxM4vDyrmOyW3WlGk/oPjlmGWGzOuxkw0EjF0gcRMsRp8Fv8wHWd5TEHaJiszH5MrT3SZfZ2EZeYdtHAcDVozhyAaI+4jEHw8S7pTnSnRgPw1PykrHZiHGwQGLyUjy6a0ZuOWagmLLlL6MyFXodc6nZ6joSCClIqOGDwgo1K71ZWfe970tofDFhKr7NWe6CDKWWBa+lKz1THxobSH1X35H/tKJQwjN9pQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAJg8kZTVeRNsMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTGF0aW5hMQ8wDQYDVQQHDAZMYXRpbmExHDAaBgNVBAoME1Byb3ZpbmNpYSBkaSBMYXRpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS4wLAYDVQQDDCVzcG9ydGVsbG9hbWJpZW50ZS5wcm92aW5jaWEubGF0aW5hLml0MB4XDTE3MDQwNjA4MzIzM1oXDTI3MDQwNDA4MzIzM1owgZwxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZMYXRpbmExDzANBgNVBAcMBkxhdGluYTEcMBoGA1UECgwTUHJvdmluY2lhIGRpIExhdGluYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLjAsBgNVBAMMJXNwb3J0ZWxsb2FtYmllbnRlLnByb3ZpbmNpYS5sYXRpbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCh36BTz5RJM+m19z47w30UE6Ru0q4aDIBm0f6J7LqpmSVZmo8hCtaM0PACHQw+IRX0YPow2Iiwo0t/UsW5S3vQpto1cdP8sawlEPIEMHwJyx2Nk92uImSpaheM777C0ytxQ3FEDw6ePmNPmvAj6lHT7IH8sCblhBMWZbJYEXta8XOiJTWbQuNV4owdAco0L0xSJR9ZvohAnJKflP4Eupq5Q8Ebv8uuHl6FJCWAhha8ulCsJvfsIdSx7fWikxeAJuMnEh3IPlVaeCoNhIL1igHBBN4Mt6SqIzhZGJETXzrLxbF8tl37ZWCKnuyA3fW5pLCyTdUEVXhhN+36I0h1NAXPAgMBAAGjUDBOMB0GA1UdDgQWBBS3EVn2wEKD0RNL5Cm4k/4R+c0znTAfBgNVHSMEGDAWgBS3EVn2wEKD0RNL5Cm4k/4R+c0znTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBFBz4qk/7TZo9f6WSf25n6NsrYEJKon424/1ydtnxfaqOKbR7BB+SZ4+vlgjgk+U0sEFHxSVM2CUpkbwruzughrmUd0YBesqPO0PNuH9N/MAIhVSbZJWhIYUJ1Rx8YH+UxUO1VbeCNB2gzYUk1PTebfT/ldcN7oNKhmyOm+T736BLG1mxNdfmwfhq8rxary5VIkN+HT2fqp/+hDmDymY9zzz99iQUATrHi748pgk+OOpZD6h06RCXUs/I/p/rm9k35J2BPkuJ1Nt6nqLB1lAFO4M6gpTKpMPSd7ir0/i1HjzwyoM+XXpzqdJmi+nS62Nvcvy3+AM34yclXnYpPSzeu</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAJg8kZTVeRNsMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTGF0aW5hMQ8wDQYDVQQHDAZMYXRpbmExHDAaBgNVBAoME1Byb3ZpbmNpYSBkaSBMYXRpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS4wLAYDVQQDDCVzcG9ydGVsbG9hbWJpZW50ZS5wcm92aW5jaWEubGF0aW5hLml0MB4XDTE3MDQwNjA4MzIzM1oXDTI3MDQwNDA4MzIzM1owgZwxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZMYXRpbmExDzANBgNVBAcMBkxhdGluYTEcMBoGA1UECgwTUHJvdmluY2lhIGRpIExhdGluYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLjAsBgNVBAMMJXNwb3J0ZWxsb2FtYmllbnRlLnByb3ZpbmNpYS5sYXRpbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCh36BTz5RJM+m19z47w30UE6Ru0q4aDIBm0f6J7LqpmSVZmo8hCtaM0PACHQw+IRX0YPow2Iiwo0t/UsW5S3vQpto1cdP8sawlEPIEMHwJyx2Nk92uImSpaheM777C0ytxQ3FEDw6ePmNPmvAj6lHT7IH8sCblhBMWZbJYEXta8XOiJTWbQuNV4owdAco0L0xSJR9ZvohAnJKflP4Eupq5Q8Ebv8uuHl6FJCWAhha8ulCsJvfsIdSx7fWikxeAJuMnEh3IPlVaeCoNhIL1igHBBN4Mt6SqIzhZGJETXzrLxbF8tl37ZWCKnuyA3fW5pLCyTdUEVXhhN+36I0h1NAXPAgMBAAGjUDBOMB0GA1UdDgQWBBS3EVn2wEKD0RNL5Cm4k/4R+c0znTAfBgNVHSMEGDAWgBS3EVn2wEKD0RNL5Cm4k/4R+c0znTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBFBz4qk/7TZo9f6WSf25n6NsrYEJKon424/1ydtnxfaqOKbR7BB+SZ4+vlgjgk+U0sEFHxSVM2CUpkbwruzughrmUd0YBesqPO0PNuH9N/MAIhVSbZJWhIYUJ1Rx8YH+UxUO1VbeCNB2gzYUk1PTebfT/ldcN7oNKhmyOm+T736BLG1mxNdfmwfhq8rxary5VIkN+HT2fqp/+hDmDymY9zzz99iQUATrHi748pgk+OOpZD6h06RCXUs/I/p/rm9k35J2BPkuJ1Nt6nqLB1lAFO4M6gpTKpMPSd7ir0/i1HjzwyoM+XXpzqdJmi+nS62Nvcvy3+AM34yclXnYpPSzeu</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAJg8kZTVeRNsMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTGF0aW5hMQ8wDQYDVQQHDAZMYXRpbmExHDAaBgNVBAoME1Byb3ZpbmNpYSBkaSBMYXRpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS4wLAYDVQQDDCVzcG9ydGVsbG9hbWJpZW50ZS5wcm92aW5jaWEubGF0aW5hLml0MB4XDTE3MDQwNjA4MzIzM1oXDTI3MDQwNDA4MzIzM1owgZwxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZMYXRpbmExDzANBgNVBAcMBkxhdGluYTEcMBoGA1UECgwTUHJvdmluY2lhIGRpIExhdGluYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLjAsBgNVBAMMJXNwb3J0ZWxsb2FtYmllbnRlLnByb3ZpbmNpYS5sYXRpbmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCh36BTz5RJM+m19z47w30UE6Ru0q4aDIBm0f6J7LqpmSVZmo8hCtaM0PACHQw+IRX0YPow2Iiwo0t/UsW5S3vQpto1cdP8sawlEPIEMHwJyx2Nk92uImSpaheM777C0ytxQ3FEDw6ePmNPmvAj6lHT7IH8sCblhBMWZbJYEXta8XOiJTWbQuNV4owdAco0L0xSJR9ZvohAnJKflP4Eupq5Q8Ebv8uuHl6FJCWAhha8ulCsJvfsIdSx7fWikxeAJuMnEh3IPlVaeCoNhIL1igHBBN4Mt6SqIzhZGJETXzrLxbF8tl37ZWCKnuyA3fW5pLCyTdUEVXhhN+36I0h1NAXPAgMBAAGjUDBOMB0GA1UdDgQWBBS3EVn2wEKD0RNL5Cm4k/4R+c0znTAfBgNVHSMEGDAWgBS3EVn2wEKD0RNL5Cm4k/4R+c0znTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBFBz4qk/7TZo9f6WSf25n6NsrYEJKon424/1ydtnxfaqOKbR7BB+SZ4+vlgjgk+U0sEFHxSVM2CUpkbwruzughrmUd0YBesqPO0PNuH9N/MAIhVSbZJWhIYUJ1Rx8YH+UxUO1VbeCNB2gzYUk1PTebfT/ldcN7oNKhmyOm+T736BLG1mxNdfmwfhq8rxary5VIkN+HT2fqp/+hDmDymY9zzz99iQUATrHi748pgk+OOpZD6h06RCXUs/I/p/rm9k35J2BPkuJ1Nt6nqLB1lAFO4M6gpTKpMPSd7ir0/i1HjzwyoM+XXpzqdJmi+nS62Nvcvy3+AM34yclXnYpPSzeu</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportelloambiente.provincia.latina.it/simplesaml/module.php/saml/sp/saml2-logout.php/provlatina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportelloambiente.provincia.latina.it/simplesaml/module.php/saml/sp/saml2-acs.php/provlatina" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">provlatina</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">p_lt</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Provincia di Latina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportelloambiente.provincia.latina.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

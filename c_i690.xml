@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx39a44468-273c-2991-8bbb-a8646d433d8a" entityID="https://www.sestofacile.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx39a44468-273c-2991-8bbb-a8646d433d8a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>w+jHeVOBGbfyEn0xrNyEOgHnHvc6NS1ArANRLSb+kaw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pestqepFcL0V5pafNFvxgqGc02kIbsVQQE/RiitIO5xBV+fUJRFRlw9LydcyY2f4b8C6oBgpFll8
+fvyEq/qpicupLbVZ1tXSjwFkS4jDs4LnZc3MFXbOwYFQtI2tObG6glmrSb4B1Ldvjx9/nEeFLQnk
+lz1foXjNSELLIMdhry8cX75B6m1ED7DEAU8LhMcnHAwo/sZCRPG/nH/0yKYN3/8XiSPbm/SNamdH
+H4eH662rUw3SV1KMbvbEJrUN08KTXdUu15L9AF01XrEPS8GBThwwFDyR3JHomGRdbn4JYM2C4yoe
+BuVyPreUmImIx54Fc0awKCcuK5UJVIArSdrZYw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qxjmTVPcwGaTtf7Fq5ZH3BBjO8MYmJaIHXovXsHl5ExeQa0gpDFCbTOzXpkng+GBN27ZelwptX0x
+EDzvfFIW8d8tsTICwiRcFe6zHo6bmDrEJr8/B9j7EiA9KFBrrMB19xblUg2gFL/hCmgb7mvAYGSJ
+ZeZy5uR3Ww9Z8PmXxB1uIGmBrSLe3rwdDCUkclogpvZGCDMxQIa8q4P/hhZo9YVfpsLAO3/9roSY
+Z1SKy4rrCHhsN+zWUeLMejsC67VugzEDAZiHXYvSREhN6/1uY8veE9WtesMvR72JR3dh8MH148MW
+A5DW8PEG/tw6t4wU8/yGyl64D88QqaRNgmMGiw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDzDCCArSgAwIBAgIJAOj920izWsRTMA0GCSqGSIb3DQEBCwUAMIGMMRgwFgYDVQQDDA93d3cu
+c2VzdG9zZy5uZXQxJTAjBgNVBAoMHENvbXVuZSBkaSBTZXN0byBTYW4gR2lvdmFubmkxFTATBgNV
+BAQMDFBBOklULWNfaTY5MDELMAkGA1UEBhMCSVQxJTAjBgNVBAcMHENvbXVuZSBkaSBTZXN0byBT
+YW4gR2lvdmFubmkwHhcNMjAxMDMwMDkxMDU3WhcNMzAxMDI4MDkxMDU3WjCBjDEYMBYGA1UEAwwP
+d3d3LnNlc3Rvc2cubmV0MSUwIwYDVQQKDBxDb211bmUgZGkgU2VzdG8gU2FuIEdpb3Zhbm5pMRUw
+EwYDVQQEDAxQQTpJVC1jX2k2OTAxCzAJBgNVBAYTAklUMSUwIwYDVQQHDBxDb211bmUgZGkgU2Vz
+dG8gU2FuIEdpb3Zhbm5pMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqxjmTVPcwGaT
+tf7Fq5ZH3BBjO8MYmJaIHXovXsHl5ExeQa0gpDFCbTOzXpkng+GBN27ZelwptX0xEDzvfFIW8d8t
+sTICwiRcFe6zHo6bmDrEJr8/B9j7EiA9KFBrrMB19xblUg2gFL/hCmgb7mvAYGSJZeZy5uR3Ww9Z
+8PmXxB1uIGmBrSLe3rwdDCUkclogpvZGCDMxQIa8q4P/hhZo9YVfpsLAO3/9roSYZ1SKy4rrCHhs
+N+zWUeLMejsC67VugzEDAZiHXYvSREhN6/1uY8veE9WtesMvR72JR3dh8MH148MWA5DW8PEG/tw6
+t4wU8/yGyl64D88QqaRNgmMGiwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNV
+HSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAFQ9VAKQwUl/6qAIT1qtO+TIjhZSI
+59ZdBIs3/J9pqjMJwPrPvG1uX6T6UnyRIFbYuA0trStgLHTLGSkgqTo8kkj6LlOy1fY6k/TPiF+I
+ar4Z1cjSYVlcxTZOTmj5RuT5NtjYX6DbxPHbaKGxTP/tlmTOYr2s8hEg1uCkpxlxMR7rhbIbTH6H
+PY95rCHQaozgQ8MoSwQNM6lD4QlIx+5MdZ9RMqAina/MpkfTQsNRsl2llzqQVyBASAafnv5BsQC9
+4NqiZQcLmP+mdE/YJ9wMDVKE394Yd2LAY3SnLWiLstQRKnPhrMEhXFlgg5yMw4aQC1TTNK2St1SP
+cMhH/zViwg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEKzCCAxOgAwIBAgIJAMtYfDPKYq1bMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRswGQYDVQQHDBJTZXN0byBTYW4gR2lvdmFubmkxJTAjBgNVBAoMHENvbXVuZSBkaSBTZXN0byBTYW4gR2lvdmFubmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSgwJgYDVQQDDB9zcG9ydGVsbG90ZWxlbWF0aWNvLnNlc3Rvc2cubmV0MB4XDTE2MTIyMjE0NDUxNFoXDTI2MTIyMDE0NDUxNFowgasxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xGzAZBgNVBAcMElNlc3RvIFNhbiBHaW92YW5uaTElMCMGA1UECgwcQ29tdW5lIGRpIFNlc3RvIFNhbiBHaW92YW5uaTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKDAmBgNVBAMMH3Nwb3J0ZWxsb3RlbGVtYXRpY28uc2VzdG9zZy5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD385BQWfVt/lj5GGyxeGQ2+eOEIdh07wOAv3iKPzihyLzVpnEUjzrX1Xfzz9c/ZA/QZgg1LYVTN/0b219ijjW84bMBMFpSEz7ZpbU/3eV4V0alV925RHOtGarxAtrCm9BBJ3xeB98uDe7SYkCPSTfIONkWZJOLPxrIauyOqzaigBOcQFI9H/WYu7+JlXjQDpbcsojxJ0s9lpvM9/RaOhlGrmb0d9+ckKE4xGvIhEE3pMUs1mMiFEF5LAqUCaYI+oKVD40KYvI92fX7l7GJDyZ/J2BvOV79cuDikUYa6bYDEXJdwinbVtMoIfbd7Nu8gVWJAxSFDQEnOzxCWhE9tCktAgMBAAGjUDBOMB0GA1UdDgQWBBQ5HpqHXDtYT4XEQJrYNTDsKIkCejAfBgNVHSMEGDAWgBQ5HpqHXDtYT4XEQJrYNTDsKIkCejAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAoPvwfq+aSySeRJ3oGK82jZ4nR5SSRrgxCqOMFx+zqqKhVeOVJ2GJwPpEZIZw/jVoH32GJxoBrvAeCLBMkVFznrt/mBthKNLEDMBkEn4Z9uBDUZrWMcqkJXyi/MVf3CUf6hqpElxV9Jzy8+LUkSi590F+ecF6zhL/mcmUZsG/LJQYhdcNs3UNaFT26UNuFQoFkClfrpoLCTI4J1xNAPp6le0HscTJZK+rulgmg71VBZW5ZoqeEj+9wPliQKck5CpjRFGaa1C15V6tgSY2XhT7NFWhzK9qGFdW7fPqdqTlKP7caZ77A1XQV3U9lM91YN21tIJ3J5xCFg22CP1S1uGpE</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEKzCCAxOgAwIBAgIJAMtYfDPKYq1bMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRswGQYDVQQHDBJTZXN0byBTYW4gR2lvdmFubmkxJTAjBgNVBAoMHENvbXVuZSBkaSBTZXN0byBTYW4gR2lvdmFubmkxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSgwJgYDVQQDDB9zcG9ydGVsbG90ZWxlbWF0aWNvLnNlc3Rvc2cubmV0MB4XDTE2MTIyMjE0NDUxNFoXDTI2MTIyMDE0NDUxNFowgasxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xGzAZBgNVBAcMElNlc3RvIFNhbiBHaW92YW5uaTElMCMGA1UECgwcQ29tdW5lIGRpIFNlc3RvIFNhbiBHaW92YW5uaTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKDAmBgNVBAMMH3Nwb3J0ZWxsb3RlbGVtYXRpY28uc2VzdG9zZy5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD385BQWfVt/lj5GGyxeGQ2+eOEIdh07wOAv3iKPzihyLzVpnEUjzrX1Xfzz9c/ZA/QZgg1LYVTN/0b219ijjW84bMBMFpSEz7ZpbU/3eV4V0alV925RHOtGarxAtrCm9BBJ3xeB98uDe7SYkCPSTfIONkWZJOLPxrIauyOqzaigBOcQFI9H/WYu7+JlXjQDpbcsojxJ0s9lpvM9/RaOhlGrmb0d9+ckKE4xGvIhEE3pMUs1mMiFEF5LAqUCaYI+oKVD40KYvI92fX7l7GJDyZ/J2BvOV79cuDikUYa6bYDEXJdwinbVtMoIfbd7Nu8gVWJAxSFDQEnOzxCWhE9tCktAgMBAAGjUDBOMB0GA1UdDgQWBBQ5HpqHXDtYT4XEQJrYNTDsKIkCejAfBgNVHSMEGDAWgBQ5HpqHXDtYT4XEQJrYNTDsKIkCejAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAoPvwfq+aSySeRJ3oGK82jZ4nR5SSRrgxCqOMFx+zqqKhVeOVJ2GJwPpEZIZw/jVoH32GJxoBrvAeCLBMkVFznrt/mBthKNLEDMBkEn4Z9uBDUZrWMcqkJXyi/MVf3CUf6hqpElxV9Jzy8+LUkSi590F+ecF6zhL/mcmUZsG/LJQYhdcNs3UNaFT26UNuFQoFkClfrpoLCTI4J1xNAPp6le0HscTJZK+rulgmg71VBZW5ZoqeEj+9wPliQKck5CpjRFGaa1C15V6tgSY2XhT7NFWhzK9qGFdW7fPqdqTlKP7caZ77A1XQV3U9lM91YN21tIJ3J5xCFg22CP1S1uGpE</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDzDCCArSgAwIBAgIJAM6rCMY0PZ6TMA0GCSqGSIb3DQEBCwUAMIGMMRgwFgYDVQQDDA93d3cuc2VzdG9zZy5uZXQxJTAjBgNVBAoMHENvbXVuZSBkaSBTZXN0byBTYW4gR2lvdmFubmkxFTATBgNVBAQMDFBBOklULWNfaTY5MDELMAkGA1UEBhMCSVQxJTAjBgNVBAcMHENvbXVuZSBkaSBTZXN0byBTYW4gR2lvdmFubmkwHhcNMjAxMDE1MTAxNTU4WhcNMzAxMDEzMTAxNTU4WjCBjDEYMBYGA1UEAwwPd3d3LnNlc3Rvc2cubmV0MSUwIwYDVQQKDBxDb211bmUgZGkgU2VzdG8gU2FuIEdpb3Zhbm5pMRUwEwYDVQQEDAxQQTpJVC1jX2k2OTAxCzAJBgNVBAYTAklUMSUwIwYDVQQHDBxDb211bmUgZGkgU2VzdG8gU2FuIEdpb3Zhbm5pMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1LkskD/zS1H/mHURdeTwpx7FTbSXfSZwPN/HFqHzurd0qMLTOBjeW/VEHjaPvkOj7QaXOUG0JAr568TaxmcWq3xEANihgX8WpwuoNv1FGZZNBEbRvnzaO9btAw5ZW85dku+kBmFe1OXVMeU+Jx+dokA27C1IDYkUI1xizzP6MFVeyLhxACNVGG2o99GIByoKUZPs2ca0MS4iWGrE39yb4u1ST4kmpapB59YC3Z8a0jWH1oRivg4n7bnoUTrX+gZYR02+DIUf5N8nZuqtVntz7k1pLLoweWIEHtsQ1TMkOykQe+XYR0ow7DsbnmM+5Egp1d6gwvzID5jTidccZKynfwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAwdsomweutPEQwv5dGRw/hiwUaFkppHk/VDOdsGTfB0FbZjnMpFKX10hjtYzYwbjUjGNDKwoYgreSGQGt3LQAvEbTbEzxdo+29aJwPy0T6W52lWQol98P+ZnhwEnE17nN689ntcxWdVZ/ypFf/1caRVZmrcGHIvNbSI7pfeqXS9bKfjWaVt/n1SMvgeXH9T+D7RZbk7VzdevJJmD5GMvExQAWvKhJw9NYU1tu6JpEr7Rmg0Yq0i7g/WvjSO1cJaBL1zYC/3ZmARotMlYpL7ZvW4+kVg0rk8//R6aYnLC9FmFjR2qO3PBMdgYRWiEpo1Q33NE3zXSny5oLTQqaM46C/Q==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sestofacile.it/simplesaml/module.php/saml/sp/saml2-logout.php/sestosangiovanni"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sestosangiovanni"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sestofacile.it/simplesaml/module.php/saml/sp/saml2-acs.php/sestosangiovanni" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sestosangiovanni" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sestosangiovanni" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sestosangiovanni" index="3"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">sestosangiovanni</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="en">c_i690</md:OrganizationName>
+      <md:OrganizationName xml:lang="it">c_i690</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Sesto San Giovanni</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Sesto San Giovanni</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://www.sestofacile.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="it">https://www.sestofacile.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_i690</spid:IPACode>
+         <spid:FiscalCode>02253930156</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>m.giammarrusti@sestosg.net</md:EmailAddress>
+      <md:TelephoneNumber>022496428</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

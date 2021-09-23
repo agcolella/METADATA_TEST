@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rabbi" entityID="https://www.comune.rabbi.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rabbi">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Qj1mpj5ADy/lNezN0oT6g3Gve6+fZ0Bcw2bFfbwXyx8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+eRbJGAeoz3BR+cpPlieALnSPK7wZizVvYn3FZwh1l0/990uL+aa39GKktb67z8i+MWCtuslUvlUD
+t0juNO9Fvj6JNi22OTA8gPChH9JyQ5cYUKaahCvp0deeaB2qw1VMnOBgPTPC/3Zs8+rEy4rEblok
+UaRkicXCOspMzgPa79qpKp14urAy5F6luYLMcqtsjp4GbNnFFCpJ4GAOqkVq0T4v4mEn72+yCvz3
+O1RBRyZo+53XwoHlu5Kmb05pT6XwRLzR7oBlaEF9jpvp3mQ+u0M8teGsX+vR5O/lPeFopzY4Fjd5
+c03js1tNKFD/9bnpv5Epvn5LnHPO1LR+cwmg+A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sPFCbHO7KDTDbT9OeXQGhvwV/l00ICcd8lMRkup6LXsrLO+mYU27ME1WG09x7DhZzfNcVqz1eJHf
+LSQ9lHIhlkEBld/1ZrXTPb8UVAzJVCwOCjpBNGMYxl1BIDWFo9jf3bdyJlAQAQ78G8FIAh2gsJRz
+93DiFYYz+wJH8emRxbqEzJZTtazvmiAa3shRJB0ZRc25LKH8hA8ZRhNqE4ZrUqCQ6NC9icBHEZYu
+mM7BLRm/DXl0N6P/j5Z9aOT1vuaRnE/QJ3OWS4xP6382BAzuxjCLgb2qXcde/YDh9R9ZiBcdXXpJ
+Gv27lx2EVzlOY1nEs5kQelHeSpUUCvN25mpoNQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAJZ5GSxnNd63MA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmUucmFiYmkudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDcwNjEy
+NTExOVoXDTMwMDcwNDEyNTExOVowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5yYWJiaS50bi5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCw8UJsc7soNMNtP055dAaG/BX+XTQgJx3yUxGS6noteyss76ZhTbswTVYbT3HsOFnN81xWrPV4
+kd8tJD2UciGWQQGV3/VmtdM9vxRUDMlULA4KOkE0YxjGXUEgNYWj2N/dt3ImUBABDvwbwUgCHaCw
+lHP3cOIVhjP7Akfx6ZHFuoTMllO1rO+aIBreyFEkHRlFzbksofyEDxlGE2oThmtSoJDo0L2JwEcR
+li6YzsEtGb8NeXQ3o/+Pln1o5PW+5pGcT9Anc5ZLjE/rfzYEDO7GMIuBvapdx179gOH1H1mIFx1d
+ekka/buXHYRXOU5jWcSzmRB6Ud5KlRQK83bmamg1AgMBAAGjUDBOMB0GA1UdDgQWBBQC9NtWMJJS
+A4u/mhbi0srP4CTPgDAfBgNVHSMEGDAWgBQC9NtWMJJSA4u/mhbi0srP4CTPgDAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCPiX8Md9has7rn2v3q8x0EbMOP9lWRs1IxHSwimeT1QTKa
+9J7J0wNn77g2bcCXyJRBMuIhoo0anPp5AGaH0SvcuHTkecKsqa2FC/QPzrh8so699CZdM2ZNqFPD
+16FBTwttcwbybKSxyhEAG0Gt2G59QvIL0fF49UM7FslcfI7mpe4hTPfVyW77r7iSTWuTomoHNurg
++tJGUZBl5lJ+K/o9Ggf7JeK05aE5QnQ4Uv8cvedd1HRFYrXWVeriMqNEQfYMRF9ETC+Ey0hM/z2b
+2BXLCbKk+PUQhU5rVf53Zcw0Z4irVl3Cu0AxSVEcSuO/qJjrzvTWB50bkL/yS0HTLdS9
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAJZ5GSxnNd63MA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUucmFiYmkudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDcwNjEyNTExOVoXDTMwMDcwNDEyNTExOVowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5yYWJiaS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCw8UJsc7soNMNtP055dAaG/BX+XTQgJx3yUxGS6noteyss76ZhTbswTVYbT3HsOFnN81xWrPV4kd8tJD2UciGWQQGV3/VmtdM9vxRUDMlULA4KOkE0YxjGXUEgNYWj2N/dt3ImUBABDvwbwUgCHaCwlHP3cOIVhjP7Akfx6ZHFuoTMllO1rO+aIBreyFEkHRlFzbksofyEDxlGE2oThmtSoJDo0L2JwEcRli6YzsEtGb8NeXQ3o/+Pln1o5PW+5pGcT9Anc5ZLjE/rfzYEDO7GMIuBvapdx179gOH1H1mIFx1dekka/buXHYRXOU5jWcSzmRB6Ud5KlRQK83bmamg1AgMBAAGjUDBOMB0GA1UdDgQWBBQC9NtWMJJSA4u/mhbi0srP4CTPgDAfBgNVHSMEGDAWgBQC9NtWMJJSA4u/mhbi0srP4CTPgDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCPiX8Md9has7rn2v3q8x0EbMOP9lWRs1IxHSwimeT1QTKa9J7J0wNn77g2bcCXyJRBMuIhoo0anPp5AGaH0SvcuHTkecKsqa2FC/QPzrh8so699CZdM2ZNqFPD16FBTwttcwbybKSxyhEAG0Gt2G59QvIL0fF49UM7FslcfI7mpe4hTPfVyW77r7iSTWuTomoHNurg+tJGUZBl5lJ+K/o9Ggf7JeK05aE5QnQ4Uv8cvedd1HRFYrXWVeriMqNEQfYMRF9ETC+Ey0hM/z2b2BXLCbKk+PUQhU5rVf53Zcw0Z4irVl3Cu0AxSVEcSuO/qJjrzvTWB50bkL/yS0HTLdS9
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAJZ5GSxnNd63MA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUucmFiYmkudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDcwNjEyNTExOVoXDTMwMDcwNDEyNTExOVowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5yYWJiaS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCw8UJsc7soNMNtP055dAaG/BX+XTQgJx3yUxGS6noteyss76ZhTbswTVYbT3HsOFnN81xWrPV4kd8tJD2UciGWQQGV3/VmtdM9vxRUDMlULA4KOkE0YxjGXUEgNYWj2N/dt3ImUBABDvwbwUgCHaCwlHP3cOIVhjP7Akfx6ZHFuoTMllO1rO+aIBreyFEkHRlFzbksofyEDxlGE2oThmtSoJDo0L2JwEcRli6YzsEtGb8NeXQ3o/+Pln1o5PW+5pGcT9Anc5ZLjE/rfzYEDO7GMIuBvapdx179gOH1H1mIFx1dekka/buXHYRXOU5jWcSzmRB6Ud5KlRQK83bmamg1AgMBAAGjUDBOMB0GA1UdDgQWBBQC9NtWMJJSA4u/mhbi0srP4CTPgDAfBgNVHSMEGDAWgBQC9NtWMJJSA4u/mhbi0srP4CTPgDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCPiX8Md9has7rn2v3q8x0EbMOP9lWRs1IxHSwimeT1QTKa9J7J0wNn77g2bcCXyJRBMuIhoo0anPp5AGaH0SvcuHTkecKsqa2FC/QPzrh8so699CZdM2ZNqFPD16FBTwttcwbybKSxyhEAG0Gt2G59QvIL0fF49UM7FslcfI7mpe4hTPfVyW77r7iSTWuTomoHNurg+tJGUZBl5lJ+K/o9Ggf7JeK05aE5QnQ4Uv8cvedd1HRFYrXWVeriMqNEQfYMRF9ETC+Ey0hM/z2b2BXLCbKk+PUQhU5rVf53Zcw0Z4irVl3Cu0AxSVEcSuO/qJjrzvTWB50bkL/yS0HTLdS9
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rabbi"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rabbi" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rabbi" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rabbi" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rabbi</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rabbi</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rabbi</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rabbi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rabbi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rabbi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rabbi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rabbi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rabbi.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rabbi.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rabbi.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rabbi.tn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

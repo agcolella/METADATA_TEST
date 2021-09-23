@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx5cf6e7d7-351d-3e9e-74d4-286ce10a9eed" entityID="https://sportellotelematico.comune.carpenedolo.bs.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx5cf6e7d7-351d-3e9e-74d4-286ce10a9eed">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>RkqZjSkZIC/ViO1jSdo7yrw5RICg9BZqH/sxC0y6AEo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dJ1mpA7X/KsR3uQPh9VecoP8+jsuS2sPUEtHdUbCN2cynBMzv1Z55qVS1snI3AyR5F+O6J6bG+kY
+DLTPlT6lJzycvBHy+jMFYI0wQpQBE6cvcCUWw2kH7/+A+WbThT5hT/4Myxi6ECyMEptMww1sCVXw
+jpZX2iesyg1qv/QKxrOuAYfbi80Jyd3Ntv/L36dKv7wAkGXObXyYKWrplF1Q6BdwinfdtQoeo8Ny
+xi1sCPzG8E1XbRVHbj6HgQnRnh5P7Bd3JE8qUwewFMyxzQgwaXZili3UFlo1D4UCe04z2GEF2t3b
+vq9tqUMBUg54+zNEUOYdKvAeQVUuBdxpmFQQow==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zgoVAKUXka6zX5AnTuxb3jk9atVhponEXQIuAnMqYemOtmmR4m03XxBuIBEavInc1xsyvS/Mehim
+aKJpm3n1fa2THbbrsS2Ux+Fq00+udzHDhNaiqmER7ZD18MdLSpDLiJ3tIeibQ0QpXllkD5DeeHkr
+zsv4/jZGXRTp8fc7jK0Gg82Szeb2dR/O01yHXkKDIzG/jlivOIWu3mqXOzGQHNz/16xISozClvjt
+hDQEBuyh9FeTEAozaArzlABGu+yeNAbM05A/NyvhI9cXh+mYxtI7RAkJEbGUYYQbPciXE75zkJAf
+CHYIxMkd232WMpa0V2wywW5ShNCQ71FuqF/Umw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEKzCCAxOgAwIBAgIJAPjl6dEgvuvuMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBk
+aSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNTAzBgNVBAMMLHNw
+b3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcnBlbmVkb2xvLmJzLml0MB4XDTE3MDQxODE1NDU0
+OFoXDTI3MDQxNjE1NDU0OFowgasxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRQwEgYD
+VQQHDAtDYXJwZW5lZG9sbzEeMBwGA1UECgwVQ29tdW5lIGRpIENhcnBlbmVkb2xvMR0wGwYDVQQL
+DBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211
+bmUuY2FycGVuZWRvbG8uYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOChUA
+pReRrrNfkCdO7FveOT1q1WGmicRdAi4Ccyph6Y62aZHibTdfEG4gERq8idzXGzK9L8x6GKZoommb
+efV9rZMdtuuxLZTH4WrTT653McOE1qKqYRHtkPXwx0tKkMuIne0h6JtDRCleWWQPkN54eSvOy/j+
+NkZdFOnx9zuMrQaDzZLN5vZ1H87TXIdeQoMjMb+OWK84ha7eapc7MZAc3P/XrEhKjMKW+O2ENAQG
+7KH0V5MQCjNoCvOUAEa77J40BszTkD83K+Ej1xeH6ZjG0jtECQkRsZRhhBs9yJcTvnOQkB8IdgjE
+yR3bfZYylrRXbDLBblKE0JDvUW6oX9SbAgMBAAGjUDBOMB0GA1UdDgQWBBQpj2GS3IZDCd+nS85V
+FBhlbz6JyTAfBgNVHSMEGDAWgBQpj2GS3IZDCd+nS85VFBhlbz6JyTAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQA6qurZtzh2q5g+4NRqbpzLNiNHilKdPQsu0yDBNFkU+p4wcQs86ApF
+w38G52kg6+ZJitvZumibrcR3UWWODyDiyzoOYjcdB2iEZ0W6fxJv2psS1SLfiwDB5vCeSivUB5uD
+Wzb2wEZrA1+pTmSFxSFt4QcirRzrKMctIbd2j4TkZq/gELWyKS1TKkIDFUHKDzPbyasBdLhp0uaK
+dvz6Aben/CAjhTeRryB3g+jIcHDgXZXfgXDHNoDdhQoOhVXJiCT29h4yNdNamFGsvYeLz3YDC/U8
+EryRlE6nHP0boNIkWAKAUCVNSdy8Y3lpSsE3uwMT5jPzbNqfZ7PJkvXXIzqn
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKzCCAxOgAwIBAgIJAPjl6dEgvuvuMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNTAzBgNVBAMMLHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcnBlbmVkb2xvLmJzLml0MB4XDTE3MDQxODE1NDU0OFoXDTI3MDQxNjE1NDU0OFowgasxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRQwEgYDVQQHDAtDYXJwZW5lZG9sbzEeMBwGA1UECgwVQ29tdW5lIGRpIENhcnBlbmVkb2xvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FycGVuZWRvbG8uYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOChUApReRrrNfkCdO7FveOT1q1WGmicRdAi4Ccyph6Y62aZHibTdfEG4gERq8idzXGzK9L8x6GKZoommbefV9rZMdtuuxLZTH4WrTT653McOE1qKqYRHtkPXwx0tKkMuIne0h6JtDRCleWWQPkN54eSvOy/j+NkZdFOnx9zuMrQaDzZLN5vZ1H87TXIdeQoMjMb+OWK84ha7eapc7MZAc3P/XrEhKjMKW+O2ENAQG7KH0V5MQCjNoCvOUAEa77J40BszTkD83K+Ej1xeH6ZjG0jtECQkRsZRhhBs9yJcTvnOQkB8IdgjEyR3bfZYylrRXbDLBblKE0JDvUW6oX9SbAgMBAAGjUDBOMB0GA1UdDgQWBBQpj2GS3IZDCd+nS85VFBhlbz6JyTAfBgNVHSMEGDAWgBQpj2GS3IZDCd+nS85VFBhlbz6JyTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA6qurZtzh2q5g+4NRqbpzLNiNHilKdPQsu0yDBNFkU+p4wcQs86ApFw38G52kg6+ZJitvZumibrcR3UWWODyDiyzoOYjcdB2iEZ0W6fxJv2psS1SLfiwDB5vCeSivUB5uDWzb2wEZrA1+pTmSFxSFt4QcirRzrKMctIbd2j4TkZq/gELWyKS1TKkIDFUHKDzPbyasBdLhp0uaKdvz6Aben/CAjhTeRryB3g+jIcHDgXZXfgXDHNoDdhQoOhVXJiCT29h4yNdNamFGsvYeLz3YDC/U8EryRlE6nHP0boNIkWAKAUCVNSdy8Y3lpSsE3uwMT5jPzbNqfZ7PJkvXXIzqn</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEKzCCAxOgAwIBAgIJAPjl6dEgvuvuMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNTAzBgNVBAMMLHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcnBlbmVkb2xvLmJzLml0MB4XDTE3MDQxODE1NDU0OFoXDTI3MDQxNjE1NDU0OFowgasxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRQwEgYDVQQHDAtDYXJwZW5lZG9sbzEeMBwGA1UECgwVQ29tdW5lIGRpIENhcnBlbmVkb2xvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FycGVuZWRvbG8uYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOChUApReRrrNfkCdO7FveOT1q1WGmicRdAi4Ccyph6Y62aZHibTdfEG4gERq8idzXGzK9L8x6GKZoommbefV9rZMdtuuxLZTH4WrTT653McOE1qKqYRHtkPXwx0tKkMuIne0h6JtDRCleWWQPkN54eSvOy/j+NkZdFOnx9zuMrQaDzZLN5vZ1H87TXIdeQoMjMb+OWK84ha7eapc7MZAc3P/XrEhKjMKW+O2ENAQG7KH0V5MQCjNoCvOUAEa77J40BszTkD83K+Ej1xeH6ZjG0jtECQkRsZRhhBs9yJcTvnOQkB8IdgjEyR3bfZYylrRXbDLBblKE0JDvUW6oX9SbAgMBAAGjUDBOMB0GA1UdDgQWBBQpj2GS3IZDCd+nS85VFBhlbz6JyTAfBgNVHSMEGDAWgBQpj2GS3IZDCd+nS85VFBhlbz6JyTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA6qurZtzh2q5g+4NRqbpzLNiNHilKdPQsu0yDBNFkU+p4wcQs86ApFw38G52kg6+ZJitvZumibrcR3UWWODyDiyzoOYjcdB2iEZ0W6fxJv2psS1SLfiwDB5vCeSivUB5uDWzb2wEZrA1+pTmSFxSFt4QcirRzrKMctIbd2j4TkZq/gELWyKS1TKkIDFUHKDzPbyasBdLhp0uaKdvz6Aben/CAjhTeRryB3g+jIcHDgXZXfgXDHNoDdhQoOhVXJiCT29h4yNdNamFGsvYeLz3YDC/U8EryRlE6nHP0boNIkWAKAUCVNSdy8Y3lpSsE3uwMT5jPzbNqfZ7PJkvXXIzqn</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEjCCAvqgAwIBAgIJANxfWqMHsW47MA0GCSqGSIb3DQEBCwUAMIGdMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWNsdS5pdDAeFw0xODAxMjkxNTI5MDNaFw0yODAxMjcxNTI5MDNaMIGdMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWNsdS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPE8oV6Kz+ccIunPZMta0k/wiHE1C+7Md8x/eZu8pbccb4hZ+cjGRl4m9UUi/0CnMETQ9LnZN0DnBIkbOdC0uXnmpqF88o+7q+Hyjq0KZElmufvEBCIFjljJGqH+Av0dxTZAI1+7UOP8L67ywpw7+jwP4P/ealRjufELgxluFcriePlzO4gLFdY2PpaNdTu6S+yABmdAF45jb64kW5OgZwEmkz3ECXQ8QrKiFyzy8iKC1Rbv5+gtJXpJOuNcFkuN+xInESofEzLfvPvzpw6HvMNu5Rawnbprbn1M52yZ9LJkY5kJnD3X6WEYBSzkzPLXtOyEMawZkFwyelsVuf3nnJsCAwEAAaNTMFEwHQYDVR0OBBYEFBjWBWyerjt6ld7ZjrX83KGDa9sYMB8GA1UdIwQYMBaAFBjWBWyerjt6ld7ZjrX83KGDa9sYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFSqYDZOdto6i6dwf/Le6x/a0kNDXDWtCLXZ+dYfVHlcw/tsdGyLOzWqfqlG3Tj3+dXhL7zKaJ8QnljOCCknjt0+US2Boyt1F0Cg2IBttKpfuV2/45fYZB4kFHfmorxKgvApUgKkj47f6btvHyW1cjBN2lmazCB7eOKCKcsRkwlqmXHzO2e+GqhyzEuMM4oWXOodYV45rx6sQk4DbAtEdJXV0TQcYRQPjG5omgvrSgonDh1o6gyT5B/khSzHJ/ze46Su1P3Bl+vReS24nKChsjbzr5j2y7YGsYZwdkiyKInQwnKk/g2xP7qWI5IYOvrn+QQ8CfKdColXlJwZpkFAHt0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEjCCAvqgAwIBAgIJANxfWqMHsW47MA0GCSqGSIb3DQEBCwUAMIGdMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWNsdS5pdDAeFw0xODAxMjkxNTI5MDNaFw0yODAxMjcxNTI5MDNaMIGdMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEUMBIGA1UEBwwLQ2FycGVuZWRvbG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXJwZW5lZG9sbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWNsdS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPE8oV6Kz+ccIunPZMta0k/wiHE1C+7Md8x/eZu8pbccb4hZ+cjGRl4m9UUi/0CnMETQ9LnZN0DnBIkbOdC0uXnmpqF88o+7q+Hyjq0KZElmufvEBCIFjljJGqH+Av0dxTZAI1+7UOP8L67ywpw7+jwP4P/ealRjufELgxluFcriePlzO4gLFdY2PpaNdTu6S+yABmdAF45jb64kW5OgZwEmkz3ECXQ8QrKiFyzy8iKC1Rbv5+gtJXpJOuNcFkuN+xInESofEzLfvPvzpw6HvMNu5Rawnbprbn1M52yZ9LJkY5kJnD3X6WEYBSzkzPLXtOyEMawZkFwyelsVuf3nnJsCAwEAAaNTMFEwHQYDVR0OBBYEFBjWBWyerjt6ld7ZjrX83KGDa9sYMB8GA1UdIwQYMBaAFBjWBWyerjt6ld7ZjrX83KGDa9sYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFSqYDZOdto6i6dwf/Le6x/a0kNDXDWtCLXZ+dYfVHlcw/tsdGyLOzWqfqlG3Tj3+dXhL7zKaJ8QnljOCCknjt0+US2Boyt1F0Cg2IBttKpfuV2/45fYZB4kFHfmorxKgvApUgKkj47f6btvHyW1cjBN2lmazCB7eOKCKcsRkwlqmXHzO2e+GqhyzEuMM4oWXOodYV45rx6sQk4DbAtEdJXV0TQcYRQPjG5omgvrSgonDh1o6gyT5B/khSzHJ/ze46Su1P3Bl+vReS24nKChsjbzr5j2y7YGsYZwdkiyKInQwnKk/g2xP7qWI5IYOvrn+QQ8CfKdColXlJwZpkFAHt0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.carpenedolo.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/carpenedolo"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-clu.it/simplesaml/module.php/saml/sp/saml2-logout.php/unioneclu"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://geoportale.sportellotelematico-clu.it/simplesaml/module.php/saml/sp/saml2-logout.php/geoportale-unioneclu"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.carpenedolo.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/carpenedolo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-clu.it/simplesaml/module.php/saml/sp/saml2-acs.php/unioneclu" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://geoportale.sportellotelematico-clu.it/simplesaml/module.php/saml/sp/saml2-acs.php/geoportale-unioneclu" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">carpenedolo</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="en">unioneclu</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="en">geoportale-unioneclu</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_b817</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Carpenedolo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.carpenedolo.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

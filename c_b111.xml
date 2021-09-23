@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:spid="https://spid.gov.it/saml-extensions" ID="id2ebdc35591804410ab66fbd558bf2490" entityID="https://www.comune.bra.cn.it/SP"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#id2ebdc35591804410ab66fbd558bf2490">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TGGJF87gc0ZQTRQ6339Rv5Tk1x/7HN1aJ7vK8dguSBk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mypoLZRCSS/dWtT5DYCrB4lOG1MtpsNt3OjdIgVAFM9R4jR8YQgbQOrTGh2/6wLqcgDXJIEdl8sS
+MX0FSXFEaxfU607wnyl40dLNxuvtIOgqlbV2AnEQ1KkgtXn2hFi3q8c7ImLqEygY62oWnprMIunC
+YuAlCPqO1s/YeMkDAbaUuXuhPmhQDv1wxE/W9fuhuI3jL2SuZlk64NeuSqa2XDpi4DFUWaUuWb32
+tC2NV5UJWE4EO/3ohzxHMUrm4FITL6Z678r8aphr16DPztg7cjCxSIm9e3ZURJHzjeACciY7+mNp
+rKXLBxKsinTaFiZg7OzIhbpPPcIdSIjtJVZJHA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wGjmABoqVKfmVEjbOPZswN1vfjbUudapifVIUw9Mj/08TwDxr7NrTiOZFxhm+r49XFBzkxigh8Cf
+1oHOLmDyFn1xyUBh9Cos2cXn5Xk5VMNsVFG9lOM6DJKpdQQ2qnH9CKrY0whVpdtfsXRapXFN7jWj
+QI+6XqWE/9Aq+jbIrr/A6tuq/sHJE6Pbxsh0aYg0rBtJxe05RWmetKsaTBl7/dMN/7lXxbfDBQ/U
+ul25YODx8ZA9irr3swRiz0ZPCGT784MjDUjSUc3Cfm8/cuAgDkTQZqh0PWXYAB/khJNmT2zPmsiM
+kLdgO1Alr4JkQEDyLDGIJAeHfqHA7DhARs9Ucw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDzDCCArSgAwIBAgIJANO2I04NX7ZDMA0GCSqGSIb3DQEBCwUAMIGMMRYwFAYDVQQKDA1Db211
+bmUgZGkgQnJhMRYwFAYDVQQDDA1Db211bmUgZGkgQnJhMSgwJgYDVQRTDB9odHRwczovL3d3dy5j
+b211bmUuYnJhLmNuLml0L1NQMRUwEwYDVQRhDAxQQTpJVC1jX2IxMTExCzAJBgNVBAYTAklUMQww
+CgYDVQQHDANCcmEwHhcNMjAxMTA5MTYzNzE0WhcNMzAxMTA3MTYzNzE0WjCBjDEWMBQGA1UECgwN
+Q29tdW5lIGRpIEJyYTEWMBQGA1UEAwwNQ29tdW5lIGRpIEJyYTEoMCYGA1UEUwwfaHR0cHM6Ly93
+d3cuY29tdW5lLmJyYS5jbi5pdC9TUDEVMBMGA1UEYQwMUEE6SVQtY19iMTExMQswCQYDVQQGEwJJ
+VDEMMAoGA1UEBwwDQnJhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwGjmABoqVKfm
+VEjbOPZswN1vfjbUudapifVIUw9Mj/08TwDxr7NrTiOZFxhm+r49XFBzkxigh8Cf1oHOLmDyFn1x
+yUBh9Cos2cXn5Xk5VMNsVFG9lOM6DJKpdQQ2qnH9CKrY0whVpdtfsXRapXFN7jWjQI+6XqWE/9Aq
++jbIrr/A6tuq/sHJE6Pbxsh0aYg0rBtJxe05RWmetKsaTBl7/dMN/7lXxbfDBQ/Uul25YODx8ZA9
+irr3swRiz0ZPCGT784MjDUjSUc3Cfm8/cuAgDkTQZqh0PWXYAB/khJNmT2zPmsiMkLdgO1Alr4Jk
+QEDyLDGIJAeHfqHA7DhARs9UcwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNV
+HSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAgv3vj2wLSBHdXM49N4nKbBwgc77Z
+FdRWIPuMHEMSVM5Qqobnu8jcq1DVGGAylfMupN2rThNFQFRWSJnszerAV8Rju6nYjsfTgdVn7y+R
+iT5ai+niY1XA2gc2leIWFewVjp9dP+6nsl6xr59ZC0WhJ2huLnBy9V2bPdeZ5tRl3R1kmZ8/eVLF
+hip8PArZTvO7cHidljxK3D8Sp/UF7kEKzupB0u4a04vckFw4WCi1WgyZBmmlnaOoc9l0h/IRAXqm
+vD/rOPl3omDjKuuBmzyQCxkscWa3XA0DZ6JoGP8ZZC/K28Q3ZGJGGZh+LgnThH4+KJEhOqm5G1jS
+t4FKCBnF1g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <KeyDescriptor use="signing">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIIDmDCCAoCgAwIBAgIJALvD7Gu2diM2MA0GCSqGSIb3DQEBCwUAMHMxHTAbBgNVBAMMFHd3dy5jb211bmUuYnJhLmNuLml0MRYwFAYDVQQKDA1Db211bmUgZGkgQnJhMRUwEwYDVQQEDAxQQTpJVC1jX2IxMTExCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1Db211bmUgZGkgQnJhMB4XDTIwMTAxNjE0MzcxOVoXDTMwMTAxNDE0MzcxOVowczEdMBsGA1UEAwwUd3d3LmNvbXVuZS5icmEuY24uaXQxFjAUBgNVBAoMDUNvbXVuZSBkaSBCcmExFTATBgNVBAQMDFBBOklULWNfYjExMTELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDUNvbXVuZSBkaSBCcmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2dJT7prFeausvrnIHuIMWuk0YEl2CO/FGr2YYzJ1v/Kvavid9BMTeIdsQitAEwEQgzsRJYf08Pri5NDgLFKyC7IzZZBnn4gz6aqYA7b3C4NzyVeEYvVR+zu4/7eoKuY74BQB6KlWO+kM56y1SMM+vdnXKU10yoYqVakxNfGfK0+LexR4XtcXFkfiEXind40+jt2Ryw4OPggqcdYRcr6qEw/VQ70JGZz67kQJfCT/qdY203LZcO/Jq/SXWenKeJqAdZRnpiWQbBBai5KJq2+W6wifpCFoA49GiwqoQQZ5QJfT/abAzYwpu7bnj7hjR4AZeWEshbfxI2LmxJNFZzF5tAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCsvZPU5heT9Q8U63cLHAsaOxNYOM8aIn52PoybAL9y1LWGbDuBV2RO6niViSRiFdXAZXKBzD/P6+prN6x7Ezz5mdx2iqnOpgHCmS3e8xF5fk738NRilWRMVYLTdi+lJF1g9ltpH6x41ZrY+kpe5Yw2dE1ut3XwmZ/DqAqkhLOQrL6TK67iANPL4ddEfg4bRX6aB/inrAVPnyqtoMmky2elAmmV1E+2epnIpZk4oobExJZOqOUDi0LkeEHNjGeFHJeZIMkqxa7SVRMEPr14mtn4HXUBkgO3l1nbCzzaawRpt33bYigQlFkM9khc+oh/en87IqwYJL12I6cxsrf3JttM</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <KeyDescriptor use="signing">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIIDmDCCAoCgAwIBAgIJALvD7Gu2diM2MA0GCSqGSIb3DQEBCwUAMHMxHTAbBgNVBAMMFHd3dy5jb211bmUuYnJhLmNuLml0MRYwFAYDVQQKDA1Db211bmUgZGkgQnJhMRUwEwYDVQQEDAxQQTpJVC1jX2IxMTExCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1Db211bmUgZGkgQnJhMB4XDTIwMTAxNjE0MzcxOVoXDTMwMTAxNDE0MzcxOVowczEdMBsGA1UEAwwUd3d3LmNvbXVuZS5icmEuY24uaXQxFjAUBgNVBAoMDUNvbXVuZSBkaSBCcmExFTATBgNVBAQMDFBBOklULWNfYjExMTELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDUNvbXVuZSBkaSBCcmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2dJT7prFeausvrnIHuIMWuk0YEl2CO/FGr2YYzJ1v/Kvavid9BMTeIdsQitAEwEQgzsRJYf08Pri5NDgLFKyC7IzZZBnn4gz6aqYA7b3C4NzyVeEYvVR+zu4/7eoKuY74BQB6KlWO+kM56y1SMM+vdnXKU10yoYqVakxNfGfK0+LexR4XtcXFkfiEXind40+jt2Ryw4OPggqcdYRcr6qEw/VQ70JGZz67kQJfCT/qdY203LZcO/Jq/SXWenKeJqAdZRnpiWQbBBai5KJq2+W6wifpCFoA49GiwqoQQZ5QJfT/abAzYwpu7bnj7hjR4AZeWEshbfxI2LmxJNFZzF5tAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCsvZPU5heT9Q8U63cLHAsaOxNYOM8aIn52PoybAL9y1LWGbDuBV2RO6niViSRiFdXAZXKBzD/P6+prN6x7Ezz5mdx2iqnOpgHCmS3e8xF5fk738NRilWRMVYLTdi+lJF1g9ltpH6x41ZrY+kpe5Yw2dE1ut3XwmZ/DqAqkhLOQrL6TK67iANPL4ddEfg4bRX6aB/inrAVPnyqtoMmky2elAmmV1E+2epnIpZk4oobExJZOqOUDi0LkeEHNjGeFHJeZIMkqxa7SVRMEPr14mtn4HXUBkgO3l1nbCzzaawRpt33bYigQlFkM9khc+oh/en87IqwYJL12I6cxsrf3JttM</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML"/>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bra"/>
+      <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bra" index="1"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bra" index="2"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bra" index="3"/>
+      <AttributeConsumingService index="0">
+         <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+         <RequestedAttribute Name="fiscalNumber"/>
+         <RequestedAttribute Name="name"/>
+         <RequestedAttribute Name="familyName"/>
+         <RequestedAttribute Name="spidCode"/>
+         <RequestedAttribute Name="email"/>
+         <RequestedAttribute Name="digitalAddress"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="1">
+         <ServiceName xml:lang="it">ServiziBase</ServiceName>
+         <RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="2">
+         <ServiceName xml:lang="it">ServiziSTD</ServiceName>
+         <RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="3">
+         <ServiceName xml:lang="it">ServiziAvanzati</ServiceName>
+         <RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </AttributeConsumingService>
+   </SPSSODescriptor>
+   <Organization>
+      <OrganizationName xml:lang="it">Comune di Bra</OrganizationName>
+      <OrganizationDisplayName xml:lang="it">Comune di Bra</OrganizationDisplayName>
+      <OrganizationURL xml:lang="it">http://www.comune.bra.cn.it</OrganizationURL>
+   </Organization>
+   <ContactPerson contactType="other">
+      <Extensions>
+         <spid:IPACode>c_b111</spid:IPACode>
+         <spid:FiscalCode>82000150043</spid:FiscalCode>
+         <spid:Public/>
+      </Extensions>
+      <EmailAddress>raffaele.grillo@comune.bra.cn.it</EmailAddress>
+      <TelephoneNumber>3207983366</TelephoneNumber>
+   </ContactPerson>
+</EntityDescriptor>

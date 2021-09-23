@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.trezzano-sul-naviglio.mi.it/" ID="_cfa528af5f56976e879db58c730531d90c7e449e1f32ba61dfd48a09e27cc6df"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_cfa528af5f56976e879db58c730531d90c7e449e1f32ba61dfd48a09e27cc6df"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Bjlk5mo6qOjj8n8GU4ah99Va1kr8EIpo55NsJ2H3X/Y=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Hoh00pMgJC9tp1GT3k9zSwLKt0S2gKU36OraubiQ1bcAZRJkP98WZuzx7UVCe+xLxVqFgQ/WMMD+FJMhk+DZJwQ0UwiYMa2EqJkiwGVDdyZd5m/K+Tvz06PwAxDgDB3Txg17UQs+kwDb3DeZIat26EcLOgg2NnVKRqW4DbAyBnsdZZ8j5RAcKqU/bWeL1tPiptaT/gJsDAn8qgBm9x/5pw/QBteQBM0UFmBI60bmLBeVwtpxv9SZVmNODwnzdy3xNsyajuwTXjRnDq6NUfgV66IMiYXRTN3uvDqV1xllu75ZUArvJ/HuxirafSHTlaq54uh4xZBkC4oMAgYINYJvVA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEczCCA1ugAwIBAgIUY0Z9Vu84LbBJUkDM06ma/kg0zpIwDQYJKoZIhvcNAQELBQAwgcgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xHjAcBgNVBAcMFVRyZXp6YW5vIHN1bCBOYXZpZ2xpbzEoMCYGA1UECgwfQ29tdW5lIGRpIFRyZXp6YW5vIHN1bCBOYXZpZ2xpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xPzA9BgNVBAMMNnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnRyZXp6YW5vLXN1bC1uYXZpZ2xpby5taS5pdDAeFw0yMDA3MjExNDE3MzhaFw0zMDA3MTkxNDE3MzhaMIHIMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xKDAmBgNVBAoMH0NvbXVuZSBkaSBUcmV6emFubyBzdWwgTmF2aWdsaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMT8wPQYDVQQDDDZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS50cmV6emFuby1zdWwtbmF2aWdsaW8ubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgwyKRYuyvZagkSuEi+1EQDhfQW5gjqHxjhQdvTe6lxK8hhoSZea2D6FUrz5ZApNs1euWXy374ZDSLbKIOuhgwgRmvUyiuaNSZHjiQb0TO6u5v3doMpeITr5pLEwhay7oI90mY4D2lqnwnyAoMhJ2ZsRpu8x6u6vOtNYjz2u1duR8Bgg1u/GAMAOT/ly/8aYUtoaxJHSiSwggvzyxMmbbLxivZWUvTlmZUAa/C8286AoVb8Q7pFT/lqZbgKXNJL5qsqZvisGf9j+lkPe3kBStEGg8oxvN/JlOAohU2+GO1GSqhMKSEZtJ4YJRkEbK0BxLIqntXtuBqJSzN4KI29bkbAgMBAAGjUzBRMB0GA1UdDgQWBBQ4I13c5bBJdjIj/P981VmAvfRK7jAfBgNVHSMEGDAWgBQ4I13c5bBJdjIj/P981VmAvfRK7jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCXmyWy1RlFuelOuZC2QdvarN8RPhLDDfikdX2M+SmhGEg56VwljWJrdNq9/MRCEV1JwBONliihu+pYaJxpfQelZRLG6T2vd3WDuehAcMu2eQtIo5shS/l4iY3xqFNon1eyntuL69WstDY1OaJuMM1Y/9OerU0QuHaZ16NSSslgdvt+Z9pQHYmBJOm7OKG6TnGYbbdj47vwVio0FaSXSjD4LvBNes58p7epkqmah4cEW7dOsKp38uwQOFY6ZnCxBf0uUaZw1MheCaEVZLI05lO9kQJD9SFuchB6IRl1cPlHvvhzRkDirWxYNUopHYJok/82i44LrvbWe8B7UHoVDNBz</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEczCCA1ugAwIBAgIUY0Z9Vu84LbBJUkDM06ma/kg0zpIwDQYJKoZIhvcNAQELBQAwgcgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xHjAcBgNVBAcMFVRyZXp6YW5vIHN1bCBOYXZpZ2xpbzEoMCYGA1UECgwfQ29tdW5lIGRpIFRyZXp6YW5vIHN1bCBOYXZpZ2xpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xPzA9BgNVBAMMNnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnRyZXp6YW5vLXN1bC1uYXZpZ2xpby5taS5pdDAeFw0yMDA3MjExNDE3MzhaFw0zMDA3MTkxNDE3MzhaMIHIMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xKDAmBgNVBAoMH0NvbXVuZSBkaSBUcmV6emFubyBzdWwgTmF2aWdsaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMT8wPQYDVQQDDDZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS50cmV6emFuby1zdWwtbmF2aWdsaW8ubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgwyKRYuyvZagkSuEi+1EQDhfQW5gjqHxjhQdvTe6lxK8hhoSZea2D6FUrz5ZApNs1euWXy374ZDSLbKIOuhgwgRmvUyiuaNSZHjiQb0TO6u5v3doMpeITr5pLEwhay7oI90mY4D2lqnwnyAoMhJ2ZsRpu8x6u6vOtNYjz2u1duR8Bgg1u/GAMAOT/ly/8aYUtoaxJHSiSwggvzyxMmbbLxivZWUvTlmZUAa/C8286AoVb8Q7pFT/lqZbgKXNJL5qsqZvisGf9j+lkPe3kBStEGg8oxvN/JlOAohU2+GO1GSqhMKSEZtJ4YJRkEbK0BxLIqntXtuBqJSzN4KI29bkbAgMBAAGjUzBRMB0GA1UdDgQWBBQ4I13c5bBJdjIj/P981VmAvfRK7jAfBgNVHSMEGDAWgBQ4I13c5bBJdjIj/P981VmAvfRK7jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCXmyWy1RlFuelOuZC2QdvarN8RPhLDDfikdX2M+SmhGEg56VwljWJrdNq9/MRCEV1JwBONliihu+pYaJxpfQelZRLG6T2vd3WDuehAcMu2eQtIo5shS/l4iY3xqFNon1eyntuL69WstDY1OaJuMM1Y/9OerU0QuHaZ16NSSslgdvt+Z9pQHYmBJOm7OKG6TnGYbbdj47vwVio0FaSXSjD4LvBNes58p7epkqmah4cEW7dOsKp38uwQOFY6ZnCxBf0uUaZw1MheCaEVZLI05lO9kQJD9SFuchB6IRl1cPlHvvhzRkDirWxYNUopHYJok/82i44LrvbWe8B7UHoVDNBz</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEczCCA1ugAwIBAgIUY0Z9Vu84LbBJUkDM06ma/kg0zpIwDQYJKoZIhvcNAQELBQAwgcgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xHjAcBgNVBAcMFVRyZXp6YW5vIHN1bCBOYXZpZ2xpbzEoMCYGA1UECgwfQ29tdW5lIGRpIFRyZXp6YW5vIHN1bCBOYXZpZ2xpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xPzA9BgNVBAMMNnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnRyZXp6YW5vLXN1bC1uYXZpZ2xpby5taS5pdDAeFw0yMDA3MjExNDE3MzhaFw0zMDA3MTkxNDE3MzhaMIHIMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xKDAmBgNVBAoMH0NvbXVuZSBkaSBUcmV6emFubyBzdWwgTmF2aWdsaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMT8wPQYDVQQDDDZzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS50cmV6emFuby1zdWwtbmF2aWdsaW8ubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgwyKRYuyvZagkSuEi+1EQDhfQW5gjqHxjhQdvTe6lxK8hhoSZea2D6FUrz5ZApNs1euWXy374ZDSLbKIOuhgwgRmvUyiuaNSZHjiQb0TO6u5v3doMpeITr5pLEwhay7oI90mY4D2lqnwnyAoMhJ2ZsRpu8x6u6vOtNYjz2u1duR8Bgg1u/GAMAOT/ly/8aYUtoaxJHSiSwggvzyxMmbbLxivZWUvTlmZUAa/C8286AoVb8Q7pFT/lqZbgKXNJL5qsqZvisGf9j+lkPe3kBStEGg8oxvN/JlOAohU2+GO1GSqhMKSEZtJ4YJRkEbK0BxLIqntXtuBqJSzN4KI29bkbAgMBAAGjUzBRMB0GA1UdDgQWBBQ4I13c5bBJdjIj/P981VmAvfRK7jAfBgNVHSMEGDAWgBQ4I13c5bBJdjIj/P981VmAvfRK7jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCXmyWy1RlFuelOuZC2QdvarN8RPhLDDfikdX2M+SmhGEg56VwljWJrdNq9/MRCEV1JwBONliihu+pYaJxpfQelZRLG6T2vd3WDuehAcMu2eQtIo5shS/l4iY3xqFNon1eyntuL69WstDY1OaJuMM1Y/9OerU0QuHaZ16NSSslgdvt+Z9pQHYmBJOm7OKG6TnGYbbdj47vwVio0FaSXSjD4LvBNes58p7epkqmah4cEW7dOsKp38uwQOFY6ZnCxBf0uUaZw1MheCaEVZLI05lO9kQJD9SFuchB6IRl1cPlHvvhzRkDirWxYNUopHYJok/82i44LrvbWe8B7UHoVDNBz</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.trezzano-sul-naviglio.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.trezzano-sul-naviglio.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l409</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_l409</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Trezzano sul Naviglio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Trezzano sul Naviglio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.trezzano-sul-naviglio.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.trezzano-sul-naviglio.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

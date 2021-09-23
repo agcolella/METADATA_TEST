@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_7c3f9dae4f4f4f96a592346990986757" entityID="https://istruzione.comune.lastra-a-signa.fi.it/refezione/sp.do"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_7c3f9dae4f4f4f96a592346990986757">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LF76rZz5LHQbcBB3L6EflpQikRKm9mBesmL9SlubiE8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+lN9Hi/XLFZ0dj8QVFF07toJyECb3uUbldTmKCY0kXSxU/OBIPuMb+xSdRihx3eyYT/P5UH6Cfgnq
+3pdZrxn25cQOWRXqwR0aO8inwkK+bErVgQ3u36surIFzFt/C/S0s9lpuxhbyhnOODahbqM3TvlMY
+1XrQ4OReqjdRwOt7DUHQpd7mAq+P7mLQw8t9LHMA2YsV2eh7E5gnEvu99X+8ZeviDhGelgr9DXBi
+0ciPNNUnQ3HxZg/EXjWXxAvKF8uPxdBplJRoy13LDcuj1JBgQSxJcwImAipmYJFDMAt09rPAks6v
+b+8qtH/MPRC25CxqlqFvYGXl1dRnJMCvz8da2A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uwZjGFRVa3hlTVhowoqgt59TE/LBMmrwT3Q4h0Q3xjJGGf53FF58uC9QxyFzABrVvBjU09EoVEKI
+g3SojJcgLY+jumYorvtYXe9e1az7Hn0muhXWOsg405S+cdbu+t2qP3IrRKE3XZlyBZPeFV+y1rZy
+DFSwguUEVWlOUlPiW1jB1NhQbnKHCM3KjpHKq4mUcxkDkNMrKQO1SoLRjyzBSQsK12MOeTR0Bvnt
+mce9NN+NVg0VvTJFxZMbEQDOGu030S5iKh/aYUa3V8pJtsbnzp0OAatUsQVLqFN/DZLfslv0yq2V
+vh2HREh6C+FyG5pzpy4SFg9YRO3fRzyQ9h28IQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/DCCAuQCCQDzTFMLlWoR9jANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCSVQxEDAOBgNV
+BAgMB0ZpcmVuemUxFzAVBgNVBAcMDkxhc3RyYSBhIFNpZ25hMSEwHwYDVQQKDBhDb211bmUgZGkg
+TGFzdHJhIGEgU2lnbmExITAfBgNVBAsMGENvbXVuZSBkaSBMYXN0cmEgYSBTaWduYTEPMA0GA1UE
+AwwGc2VydmVyMS4wLAYJKoZIhvcNAQkBFh9jZWRAY29tdW5lLmxhc3RyYS1hLXNpZ25hLmZpLml0
+MB4XDTIwMDMxMTE0NDY0MVoXDTIxMDMxMTE0NDY0MVowgb8xCzAJBgNVBAYTAklUMRAwDgYDVQQI
+DAdGaXJlbnplMRcwFQYDVQQHDA5MYXN0cmEgYSBTaWduYTEhMB8GA1UECgwYQ29tdW5lIGRpIExh
+c3RyYSBhIFNpZ25hMSEwHwYDVQQLDBhDb211bmUgZGkgTGFzdHJhIGEgU2lnbmExDzANBgNVBAMM
+BnNlcnZlcjEuMCwGCSqGSIb3DQEJARYfY2VkQGNvbXVuZS5sYXN0cmEtYS1zaWduYS5maS5pdDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALsGYxhUVWt4ZU1YaMKKoLefUxPywTJq8E90
+OIdEN8YyRhn+dxRefLgvUMchcwAa1bwY1NPRKFRCiIN0qIyXIC2Po7pmKK77WF3vXtWs+x59JroV
+1jrIONOUvnHW7vrdqj9yK0ShN12ZcgWT3hVfsta2cgxUsILlBFVpTlJT4ltYwdTYUG5yhwjNyo6R
+yquJlHMZA5DTKykDtUqC0Y8swUkLCtdjDnk0dAb57ZnHvTTfjVYNFb0yRcWTGxEAzhrtN9EuYiof
+2mFGt1fKSbbG586dDgGrVLEFS6hTfw2S37Jb9Mqtlb4dh0RIegvhchuac6cuEhYPWETt30c8kPYd
+vCECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEALWYeOCVkOXwZv3sFoovK59qcTNr1vgK2JvbPkx7G
+inf7+ESdw10kHSYoOfu3rl0oWmpapbbkhemhj7PrNQKjNrKVIDhXGl6rVmIkIIHuw+loFSBrfE9w
+7N88T+n7zzO3bkPJ/LrzThlixZ2/jgzZcpROHP/yLtlpTc0MobKvI7D7MhzbKY33pNiM40TfUJu3
+o1jp6/zzfo8fCgQpbXF5+Btzdvid+VWjXeuAsJ9/KNI97RG9Efn8d9Nh0tUkOsEyu5IyVIY7Kw2+
+OpVY8J4eP5GhTD8Ii7ZjKFgCPhg49VMU8Ljv83DXPEvRhfx8Q6oxWfJLqTZE37K1hClPHsTgDQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEZzCCA0+gAwIBAgIBATANBgkqhkiG9w0BAQsFADCBqzELMAkGA1UEBhMCSVQxEDAOBgNVBAgTB0ZpcmVuemUxITAfBgNVBAoTGENvbXVuZSBkaSBMYXN0cmEgYSBTaWduYTEMMAoGA1UECxMDQ0VEMSkwJwYDVQQDEyBQdWJibGljYSBJc3RydXppb25lIFJpY2FyaWNoZSBDQTEuMCwGCSqGSIb3DQEJARYfY2VkQGNvbXVuZS5sYXN0cmEtYS1zaWduYS5maS5pdDAeFw0xNDExMTUwOTM1MTZaFw0yNDExMTIwOTM1MTZaMIG1MQswCQYDVQQGEwJJVDEQMA4GA1UECBMHRmlyZW56ZTEhMB8GA1UEChMYQ29tdW5lIGRpIExhc3RyYSBhIFNpZ25hMQwwCgYDVQQLEwNDRUQxMzAxBgNVBAMTKnJpY2FyaWNoZW1lbnNhLmNvbXVuZS5sYXN0cmEtYS1zaWduYS5maS5pdDEuMCwGCSqGSIb3DQEJARYfY2VkQGNvbXVuZS5sYXN0cmEtYS1zaWduYS5maS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALXqVOm2AS8aZakPP/5ggRnr91khHgXzEpSIbAbkkzVzboPKIJicW3HekIt1G08UH9sRD2eQNGgeOolkeYPl3vUJ6vM2iae6H6KwhVR9TwX7pyFZluzI0R9N8RIjnVpvz0cecQVsyfC9DJSYvASRxPFnbnCXrP+Feq7cxUlIOpi0pXDiPwvUXOM+UK2qZOU8EW+PPJFljcA/uaknGvEWtza9RENOOu0YygLuWjMF2UbwNzpJdYUQs4kGnBaOAtKkzuFAY/d8mjBvYvPVQVfpwjr0TX8vj7S7MGMBmqiNVPfmRorwPoWx6HkfoCsDJtHEx8xcu1BfsPpo0LTRlQjDl6cCAwEAAaOBiTCBhjAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DAsBglghkgBhvhCAQ0EHxYdT3BlblNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFNGkho1dnZmwZhMxCpslKUc7VhsdMB8GA1UdIwQYMBaAFHAe4RRhxxmc2mJK1bpPGUKhn3MXMA0GCSqGSIb3DQEBCwUAA4IBAQA8EQUJDjSgkmDLAz1VBA61vVLW2bNYJCxK5+YgEWd6qikmdfVWNL9j+NL60X9+gGhsvw9XYjH6DGkYLHN5EaEj1kgPcXhkKme2epgJXIkFSx+4MLG448cxt7yE6rzJZopGnoXVAFPvefJz4yFWFkdiihZwS4RueC4qjFM5I5OVD5Jy4j8MWA1o+DZf33kfoMYX0CbxygZayVHAq+LG9jjBAK4m7DigOKR7lr5Q6pwl/kc71waakYjcxzsI1w5BBH0h3V1mCUVbC39xf9WK5kJvrhnqG/UxJ3oyKSQTAFzJ6bsQOh8/byoPpGvIfm4uFG/LKhwa1npug/+2Jyf6MpJj</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istruzione.comune.lastra-a-signa.fi.it/refezione/sp-logout.do"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istruzione.comune.lastra-a-signa.fi.it/refezione/sp-login.do" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">Portale Refezione Scolastica - Comune di Lastra a Signa</md:ServiceName><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="idCard"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="expirationDate"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Comune di Lastra a Signa</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Comune di Lastra a Signa</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">https://istruzione.comune.lastra-a-signa.fi.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

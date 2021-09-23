@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx036b1862-b1f5-bc50-cef4-85c302465b5c" entityID="https://www.comune.poggiorenatico.fe.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx036b1862-b1f5-bc50-cef4-85c302465b5c">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>oUwbxqvOivrfbfvQ0zHKyOu2Id1dXjQ448t8G0LHipU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+KyjDH55d1yvfdbW9ADcMNmcHHDVYDW/u9IK/YGZGyV37qRDNVmn6DUvsPn6OAWyXZI/R+ffqjWZa
++X7vSnifP4VgoymSvfEjRt+/hneC+1Y56RHkZ2/Wy3TQcgoSwfEEtCqlNc7BZ5uSYCnOZaXID8xw
+Q1sESUVqqWkZpj0pscm8i0zYqCMF4trnmh94BBfQyoearyWRJy6RgYUnZ7/nfA6Uql7et0/S4H0y
+aoSJCDHXCu0ay/SpjbGfmTwEZV+76GoZpYgCp0w+V7ZfAUEb7hjbvT+wcpawueh2bWpJvRp6rmVP
+Ewvi413bygxsR5DMru805geoBvJBJjL/6PI+mg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0pvRPCjBhVAfxYgm3L3C0yFfr/I0gIne0RQVvR5YtkAQTH8Luo46OxyMZ4ohrsgP2lm35mTrg5PB
+6/grLdcU3uJjFC2OI7KNnbboEurijwgccFIjr22YVX1U8NdZYEuGnQ9A5/g+KdFMpPhyx55C4tNN
+CFmIwQXOE/PvU7klbZKZAlmGpHiu/uSdSjVmCXjceEkYlDQE+dwcLq4HAmEMjC1DLhv5ftxW2ouP
+6gmnA5IPSvd8gpC55r0qSU1b6ZB6hN3QcgVeSeyjfsStnen+rvqSMygvF3BF+44hTZEEX4EMmJw6
+mDVweJdKzhkt8g3PFDoi4KC4fvY7RZH2OqoIbw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID3zCCAsegAwIBAgIJAOjL32Z9CooUMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvZ2dpbyBSZW5hdGljbzEiMCAGA1UECgwZQ29tdW5l
+IGRpIFBvZ2dpbyBSZW5hdGljbzEoMCYGA1UEAwwfd3d3LmNvbXVuZS5wb2dnaW9yZW5hdGljby5m
+ZS5pdDAeFw0yMDAxMTUxNTI0NDZaFw0zMDAxMTQxNTI0NDZaMIGFMQswCQYDVQQGEwJJVDEOMAwG
+A1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvZ2dpbyBSZW5hdGljbzEiMCAGA1UECgwZQ29tdW5lIGRp
+IFBvZ2dpbyBSZW5hdGljbzEoMCYGA1UEAwwfd3d3LmNvbXVuZS5wb2dnaW9yZW5hdGljby5mZS5p
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKb0TwowYVQH8WIJty9wtMhX6/yNICJ
+3tEUFb0eWLZAEEx/C7qOOjscjGeKIa7ID9pZt+Zk64OTwev4Ky3XFN7iYxQtjiOyjZ226BLq4o8I
+HHBSI69tmFV9VPDXWWBLhp0PQOf4PinRTKT4cseeQuLTTQhZiMEFzhPz71O5JW2SmQJZhqR4rv7k
+nUo1Zgl43HhJGJQ0BPncHC6uBwJhDIwtQy4b+X7cVtqLj+oJpwOSD0r3fIKQuea9KklNW+mQeoTd
+0HIFXknso37ErZ3p/q76kjMoLxdwRfuOIU2RBF+BDJicOpg1cHiXSs4ZLfINzxQ6IuCguH72O0WR
+9jqqCG8CAwEAAaNQME4wHQYDVR0OBBYEFH0L1GR+tduTLDCbyKBgiiQ4V8BzMB8GA1UdIwQYMBaA
+FH0L1GR+tduTLDCbyKBgiiQ4V8BzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKKc
+gLzJJnTiiAvh12sIVf0gQikDFPg6bUtKNe1y378Ef8kR4qfxDpMwq37BmgUUq8WI980dIZl/FwBo
+HZxNfdyB1hhGa0lafbE7usPb0QJ4GRDxyer2WS/NnEvbLlYtxfli76x+SdhvGflkTlDS72JEDbvt
+OJ7qmS0E07wBzPh+Il3O1+7JkrvFjgdqocnQWgidperlwZZHAqnv6WIVbYn96Y5bxFVx7tyyDLr9
+awtuAAcrSIRrt4Oj+od2KKGecUcFZC8uBTgDbmt+PMt18CHwpjs+wgFIY7jz9qJYiznQECExHMIa
+Yr+bEXbd3QrzYeU+GN+psZH61Im487xo18o=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3zCCAsegAwIBAgIJAOjL32Z9CooUMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvZ2dpbyBSZW5hdGljbzEiMCAGA1UECgwZQ29tdW5lIGRpIFBvZ2dpbyBSZW5hdGljbzEoMCYGA1UEAwwfd3d3LmNvbXVuZS5wb2dnaW9yZW5hdGljby5mZS5pdDAeFw0yMDAxMTUxNTI0NDZaFw0zMDAxMTQxNTI0NDZaMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvZ2dpbyBSZW5hdGljbzEiMCAGA1UECgwZQ29tdW5lIGRpIFBvZ2dpbyBSZW5hdGljbzEoMCYGA1UEAwwfd3d3LmNvbXVuZS5wb2dnaW9yZW5hdGljby5mZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKb0TwowYVQH8WIJty9wtMhX6/yNICJ3tEUFb0eWLZAEEx/C7qOOjscjGeKIa7ID9pZt+Zk64OTwev4Ky3XFN7iYxQtjiOyjZ226BLq4o8IHHBSI69tmFV9VPDXWWBLhp0PQOf4PinRTKT4cseeQuLTTQhZiMEFzhPz71O5JW2SmQJZhqR4rv7knUo1Zgl43HhJGJQ0BPncHC6uBwJhDIwtQy4b+X7cVtqLj+oJpwOSD0r3fIKQuea9KklNW+mQeoTd0HIFXknso37ErZ3p/q76kjMoLxdwRfuOIU2RBF+BDJicOpg1cHiXSs4ZLfINzxQ6IuCguH72O0WR9jqqCG8CAwEAAaNQME4wHQYDVR0OBBYEFH0L1GR+tduTLDCbyKBgiiQ4V8BzMB8GA1UdIwQYMBaAFH0L1GR+tduTLDCbyKBgiiQ4V8BzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKKcgLzJJnTiiAvh12sIVf0gQikDFPg6bUtKNe1y378Ef8kR4qfxDpMwq37BmgUUq8WI980dIZl/FwBoHZxNfdyB1hhGa0lafbE7usPb0QJ4GRDxyer2WS/NnEvbLlYtxfli76x+SdhvGflkTlDS72JEDbvtOJ7qmS0E07wBzPh+Il3O1+7JkrvFjgdqocnQWgidperlwZZHAqnv6WIVbYn96Y5bxFVx7tyyDLr9awtuAAcrSIRrt4Oj+od2KKGecUcFZC8uBTgDbmt+PMt18CHwpjs+wgFIY7jz9qJYiznQECExHMIaYr+bEXbd3QrzYeU+GN+psZH61Im487xo18o=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3zCCAsegAwIBAgIJAOjL32Z9CooUMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvZ2dpbyBSZW5hdGljbzEiMCAGA1UECgwZQ29tdW5lIGRpIFBvZ2dpbyBSZW5hdGljbzEoMCYGA1UEAwwfd3d3LmNvbXVuZS5wb2dnaW9yZW5hdGljby5mZS5pdDAeFw0yMDAxMTUxNTI0NDZaFw0zMDAxMTQxNTI0NDZaMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvZ2dpbyBSZW5hdGljbzEiMCAGA1UECgwZQ29tdW5lIGRpIFBvZ2dpbyBSZW5hdGljbzEoMCYGA1UEAwwfd3d3LmNvbXVuZS5wb2dnaW9yZW5hdGljby5mZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKb0TwowYVQH8WIJty9wtMhX6/yNICJ3tEUFb0eWLZAEEx/C7qOOjscjGeKIa7ID9pZt+Zk64OTwev4Ky3XFN7iYxQtjiOyjZ226BLq4o8IHHBSI69tmFV9VPDXWWBLhp0PQOf4PinRTKT4cseeQuLTTQhZiMEFzhPz71O5JW2SmQJZhqR4rv7knUo1Zgl43HhJGJQ0BPncHC6uBwJhDIwtQy4b+X7cVtqLj+oJpwOSD0r3fIKQuea9KklNW+mQeoTd0HIFXknso37ErZ3p/q76kjMoLxdwRfuOIU2RBF+BDJicOpg1cHiXSs4ZLfINzxQ6IuCguH72O0WR9jqqCG8CAwEAAaNQME4wHQYDVR0OBBYEFH0L1GR+tduTLDCbyKBgiiQ4V8BzMB8GA1UdIwQYMBaAFH0L1GR+tduTLDCbyKBgiiQ4V8BzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKKcgLzJJnTiiAvh12sIVf0gQikDFPg6bUtKNe1y378Ef8kR4qfxDpMwq37BmgUUq8WI980dIZl/FwBoHZxNfdyB1hhGa0lafbE7usPb0QJ4GRDxyer2WS/NnEvbLlYtxfli76x+SdhvGflkTlDS72JEDbvtOJ7qmS0E07wBzPh+Il3O1+7JkrvFjgdqocnQWgidperlwZZHAqnv6WIVbYn96Y5bxFVx7tyyDLr9awtuAAcrSIRrt4Oj+od2KKGecUcFZC8uBTgDbmt+PMt18CHwpjs+wgFIY7jz9qJYiznQECExHMIaYr+bEXbd3QrzYeU+GN+psZH61Im487xo18o=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.poggiorenatico.fe.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.poggiorenatico.fe.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Poggio Renatico</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Poggio Renatico</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.poggiorenatico.fe.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

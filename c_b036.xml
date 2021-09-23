@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.borgo-san-lorenzo.fi.it/" ID="_eb07980eba5fdc56a2a16458bc6aebc82953fa369f8f7b363718395ed7d5d681"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_eb07980eba5fdc56a2a16458bc6aebc82953fa369f8f7b363718395ed7d5d681"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Qw4NifmiaWh1sEkISjFPg1wixpRSn84yJk/2kC3qEdQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>gY+MVlznhsd4UVqN+0uf0ktT6pDE5owAJKEDaWHoybBWL3kKVT5hZ0WvXFXr2tD5TEh1Wi2f/2Hzcmb0gfNZP7grG0GhCprzyUX39t3d0b9SP2YhwmU8ClNDZPjcGVstweCyA3a7vIVLOruH953lEtvrsVDKx7yzam9l8KGBKTMbpPFMY0HOW10jI6HXR5IPtyEXhd5Xsx2cTVkm9yevWsdZR8zdI/0WDwDjwXciJVu/O6mV8NKFiUYLoy3AXKhjpGlS2Ch8mA/KgD3LoEU/IYzvQ6bdsRkDKLbWpgALfHSwuEKLvrppuQ9ZHIYaZTtL98UUbUu6FXleXwxUD+ySIw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECzCCAvOgAwIBAgIQQRb9YeavpWfop8Tr3BgmcDANBgkqhkiG9w0BAQsFADCBrDELMAkGA1UEBhMCSVQxGjAYBgNVBAcTEUJvcmdvIFNhbiBMb3JlbnpvMSQwIgYDVQQKExtDb211bmUgZGkgQm9yZ28gU2FuIExvcmVuem8xRDBCBgNVBAMTO2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm9yZ28tc2FuLWxvcmVuem8uZmkuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2IwMzYwHhcNMjAxMDI5MDkxOTA1WhcNMzAxMDI3MDkxOTA1WjCBrDELMAkGA1UEBhMCSVQxGjAYBgNVBAcTEUJvcmdvIFNhbiBMb3JlbnpvMSQwIgYDVQQKExtDb211bmUgZGkgQm9yZ28gU2FuIExvcmVuem8xRDBCBgNVBAMTO2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm9yZ28tc2FuLWxvcmVuem8uZmkuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2IwMzYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFkceAjUe7NKJrJU/jrjj21js33dRgz9MTjH9B87+Ag1W586HPDmRtDOgdsvpi9X1lwQdguidn+Lwej7xweebS08SN/ZBDMtq5eBYTt1GeQ1gilhRS8y/r6FGnaqrSQmlVNmDYv8w6k/SunHGkbe2CIPEANmuBpHeFX1V9eOWKJ59B5CULuhLwfwwYVOiyVGz2Srs4XJGZXyI8sgO+zQu0FN7Th/a7FfsCmHH8TbAHb29z2Dm2NH2rMtMPYTTDkocIsjz4sv7Mebz+sjCJF5oXgh312OkMOl65fyDAIZty8wSU8rOheSd3A72l/KUdchObuYZv0rQp7xpePFyLwAyxAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAopCHWrWmW9KxW/pMGJgHQwJoe9HozoONnmhtyNCZAF7l14sGiqegFS1MDaSp0TfT8z6CW7lckomguF/RsS9QcAlBqxsnyIzJ8vhzeOQbDYkW3PEarzR8aIddK2l+JwzXUc5DSaFqoQBxcZxddckvcpLPbTMw6h84+2fz5e0+ynm22BxtfGER+wax/M+kj0wiWJmalKpZSQ6eKENgC0xOpo/bbtgcMte0G9iZKByGeh38Hn03A5Ihb30XaSoYlpfIewOX808NpKE5+1Zp2sNE+tKIENmjhCz8PohZb0kQbCaaJkG8zM8iubId4ZM6UarVM8EfXB3ElF5zb8B6kglrqg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECzCCAvOgAwIBAgIQQRb9YeavpWfop8Tr3BgmcDANBgkqhkiG9w0BAQsFADCBrDELMAkGA1UEBhMCSVQxGjAYBgNVBAcTEUJvcmdvIFNhbiBMb3JlbnpvMSQwIgYDVQQKExtDb211bmUgZGkgQm9yZ28gU2FuIExvcmVuem8xRDBCBgNVBAMTO2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm9yZ28tc2FuLWxvcmVuem8uZmkuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2IwMzYwHhcNMjAxMDI5MDkxOTA1WhcNMzAxMDI3MDkxOTA1WjCBrDELMAkGA1UEBhMCSVQxGjAYBgNVBAcTEUJvcmdvIFNhbiBMb3JlbnpvMSQwIgYDVQQKExtDb211bmUgZGkgQm9yZ28gU2FuIExvcmVuem8xRDBCBgNVBAMTO2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm9yZ28tc2FuLWxvcmVuem8uZmkuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2IwMzYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFkceAjUe7NKJrJU/jrjj21js33dRgz9MTjH9B87+Ag1W586HPDmRtDOgdsvpi9X1lwQdguidn+Lwej7xweebS08SN/ZBDMtq5eBYTt1GeQ1gilhRS8y/r6FGnaqrSQmlVNmDYv8w6k/SunHGkbe2CIPEANmuBpHeFX1V9eOWKJ59B5CULuhLwfwwYVOiyVGz2Srs4XJGZXyI8sgO+zQu0FN7Th/a7FfsCmHH8TbAHb29z2Dm2NH2rMtMPYTTDkocIsjz4sv7Mebz+sjCJF5oXgh312OkMOl65fyDAIZty8wSU8rOheSd3A72l/KUdchObuYZv0rQp7xpePFyLwAyxAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAopCHWrWmW9KxW/pMGJgHQwJoe9HozoONnmhtyNCZAF7l14sGiqegFS1MDaSp0TfT8z6CW7lckomguF/RsS9QcAlBqxsnyIzJ8vhzeOQbDYkW3PEarzR8aIddK2l+JwzXUc5DSaFqoQBxcZxddckvcpLPbTMw6h84+2fz5e0+ynm22BxtfGER+wax/M+kj0wiWJmalKpZSQ6eKENgC0xOpo/bbtgcMte0G9iZKByGeh38Hn03A5Ihb30XaSoYlpfIewOX808NpKE5+1Zp2sNE+tKIENmjhCz8PohZb0kQbCaaJkG8zM8iubId4ZM6UarVM8EfXB3ElF5zb8B6kglrqg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECzCCAvOgAwIBAgIQQRb9YeavpWfop8Tr3BgmcDANBgkqhkiG9w0BAQsFADCBrDELMAkGA1UEBhMCSVQxGjAYBgNVBAcTEUJvcmdvIFNhbiBMb3JlbnpvMSQwIgYDVQQKExtDb211bmUgZGkgQm9yZ28gU2FuIExvcmVuem8xRDBCBgNVBAMTO2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm9yZ28tc2FuLWxvcmVuem8uZmkuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2IwMzYwHhcNMjAxMDI5MDkxOTA1WhcNMzAxMDI3MDkxOTA1WjCBrDELMAkGA1UEBhMCSVQxGjAYBgNVBAcTEUJvcmdvIFNhbiBMb3JlbnpvMSQwIgYDVQQKExtDb211bmUgZGkgQm9yZ28gU2FuIExvcmVuem8xRDBCBgNVBAMTO2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm9yZ28tc2FuLWxvcmVuem8uZmkuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2IwMzYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFkceAjUe7NKJrJU/jrjj21js33dRgz9MTjH9B87+Ag1W586HPDmRtDOgdsvpi9X1lwQdguidn+Lwej7xweebS08SN/ZBDMtq5eBYTt1GeQ1gilhRS8y/r6FGnaqrSQmlVNmDYv8w6k/SunHGkbe2CIPEANmuBpHeFX1V9eOWKJ59B5CULuhLwfwwYVOiyVGz2Srs4XJGZXyI8sgO+zQu0FN7Th/a7FfsCmHH8TbAHb29z2Dm2NH2rMtMPYTTDkocIsjz4sv7Mebz+sjCJF5oXgh312OkMOl65fyDAIZty8wSU8rOheSd3A72l/KUdchObuYZv0rQp7xpePFyLwAyxAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAopCHWrWmW9KxW/pMGJgHQwJoe9HozoONnmhtyNCZAF7l14sGiqegFS1MDaSp0TfT8z6CW7lckomguF/RsS9QcAlBqxsnyIzJ8vhzeOQbDYkW3PEarzR8aIddK2l+JwzXUc5DSaFqoQBxcZxddckvcpLPbTMw6h84+2fz5e0+ynm22BxtfGER+wax/M+kj0wiWJmalKpZSQ6eKENgC0xOpo/bbtgcMte0G9iZKByGeh38Hn03A5Ihb30XaSoYlpfIewOX808NpKE5+1Zp2sNE+tKIENmjhCz8PohZb0kQbCaaJkG8zM8iubId4ZM6UarVM8EfXB3ElF5zb8B6kglrqg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.borgo-san-lorenzo.fi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.borgo-san-lorenzo.fi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Borgo San Lorenzo</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Borgo San Lorenzo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Borgo San Lorenzo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Borgo San Lorenzo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Borgo San Lorenzo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Borgo San Lorenzo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Borgo San Lorenzo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Borgo San Lorenzo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.borgo-san-lorenzo.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.borgo-san-lorenzo.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.borgo-san-lorenzo.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.borgo-san-lorenzo.fi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_b036</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:comune.borgo-san-lorenzo@postacert.toscana.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

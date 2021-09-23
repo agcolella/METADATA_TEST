@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Scicli" entityID="https://www.comune.scicli.rg.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Scicli">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>AmUfUMkyR4i/U4Y+8GENra7Z9d0QAqvHZ9YUaI7olTk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+H+mjGjMd3i9fAPMnhAUTGowDVdhUhw3HLNRrLzWEyn4dALTRwnlOcjIWBdhQ5QZWloPq+L0eIdg5
+fF1yIYIiyUQ72drnNZdu7QHlzXXT696V4I/1gBKlRvtM3Il9rd1qyHvSwDHtFwVKfBq30DorlatB
+bNcgTxNIrqA+JqgOu+XASfcnTzJe8IL+jSE3iOWq4DDOrgwhnokTM9HPpKC7Rouhn5+9TwEqshPT
+VURlsHEaxf790NUzNHoyFYy4vwfqkPIqFrEOudLwgQZXGpcco6KvtHbop0Vo3wP4zL3FXmtAvj07
+jy1eE6U0cXp4tFm/Xt9G5jh8mxBiu1dwbCHTOw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oN9r+60GDsAgbfHk8fnuMJT4N9Gryk0Jn9Gp2imwmNYV9LtdHjSMJA/3THGtb6iHz4L5qQNJs3dl
+yLKPZiXEiWPUa95uhgDS2LsVXzKIReCl9RH7ZN8Q1tN274YXtLxXIk/0RJDl2x1CcxFptzyUhEcd
+muSSi9u/SHEIGORPinkRlm0o9bVJtZ36OErNhPg03ga65vY88mOF8baWWH3f2PmnURlxcedUJrtR
+l7wSxx1+IDhoM8fpiXR9EThiWBQwwov7QFRMap5X2T/zlcGE3DJXrck5Ti4FQRrokWbTXouTiUtx
+H1cmXaPC6iU6ZQTA5WXzwMEKGz5g2L9bduLmWw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAIuZWZtfNxqAMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuc2NpY2xpLnJnLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA2MDEw
+OTQ4NDBaFw0yODA1MjkwOTQ4NDBaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc2NpY2xpLnJnLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAKDfa/utBg7AIG3x5PH57jCU+DfRq8pNCZ/RqdopsJjWFfS7XR40jCQP90xxrW+oh8+C+akD
+SbN3Zciyj2YlxIlj1GveboYA0ti7FV8yiEXgpfUR+2TfENbTdu+GF7S8VyJP9ESQ5dsdQnMRabc8
+lIRHHZrkkovbv0hxCBjkT4p5EZZtKPW1SbWd+jhKzYT4NN4Guub2PPJjhfG2llh939j5p1EZcXHn
+VCa7UZe8EscdfiA4aDPH6Yl0fRE4YlgUMMKL+0BUTGqeV9k/85XBhNwyV63JOU4uBUEa6JFm016L
+k4lLcR9XJl2jwuolOmUEwOVl88DBChs+YNi/W3bi5lsCAwEAAaNQME4wHQYDVR0OBBYEFG8PHv0r
+3c93m2ew3kZeAU5Qb83LMB8GA1UdIwQYMBaAFG8PHv0r3c93m2ew3kZeAU5Qb83LMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB6EbsGZnslwplNYpZd+lTqbIp3kf3j0gehco0gKpj57
+acOusjz6Upuje5rZR+NaQLH6httROLmjxpxO4Oqft6HsqCTJdgj2juPa4w7VzTtb2MlFtJTgWwQw
+jQ1l5dcJprO8LqlUJxsasD6HNJC+zrL42tWVO1X2edepP1Dfi4YaGFg5s9xoa7srPBZZDTA37tXb
+o36PtqNKhFxM5EueIZDDueRw+jHhxM39nPbXMGnYu3ozZLJ+DVJp/rej2Fu1KPdyg72hyfWSl4OY
+XYWX4cXSZfPTWDQjb6PdDLCqtcNauzPtkxMKcc+kUHPjaOymkSo9m2FPt7UZIqDchQ4Regk=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAIuZWZtfNxqAMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc2NpY2xpLnJnLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA2MDEwOTQ4NDBaFw0yODA1MjkwOTQ4NDBaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuc2NpY2xpLnJnLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKDfa/utBg7AIG3x5PH57jCU+DfRq8pNCZ/RqdopsJjWFfS7XR40jCQP90xxrW+oh8+C+akDSbN3Zciyj2YlxIlj1GveboYA0ti7FV8yiEXgpfUR+2TfENbTdu+GF7S8VyJP9ESQ5dsdQnMRabc8lIRHHZrkkovbv0hxCBjkT4p5EZZtKPW1SbWd+jhKzYT4NN4Guub2PPJjhfG2llh939j5p1EZcXHnVCa7UZe8EscdfiA4aDPH6Yl0fRE4YlgUMMKL+0BUTGqeV9k/85XBhNwyV63JOU4uBUEa6JFm016Lk4lLcR9XJl2jwuolOmUEwOVl88DBChs+YNi/W3bi5lsCAwEAAaNQME4wHQYDVR0OBBYEFG8PHv0r3c93m2ew3kZeAU5Qb83LMB8GA1UdIwQYMBaAFG8PHv0r3c93m2ew3kZeAU5Qb83LMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB6EbsGZnslwplNYpZd+lTqbIp3kf3j0gehco0gKpj57acOusjz6Upuje5rZR+NaQLH6httROLmjxpxO4Oqft6HsqCTJdgj2juPa4w7VzTtb2MlFtJTgWwQwjQ1l5dcJprO8LqlUJxsasD6HNJC+zrL42tWVO1X2edepP1Dfi4YaGFg5s9xoa7srPBZZDTA37tXbo36PtqNKhFxM5EueIZDDueRw+jHhxM39nPbXMGnYu3ozZLJ+DVJp/rej2Fu1KPdyg72hyfWSl4OYXYWX4cXSZfPTWDQjb6PdDLCqtcNauzPtkxMKcc+kUHPjaOymkSo9m2FPt7UZIqDchQ4Regk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/scicli"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/scicli" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/scicli" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Scicli</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Scicli</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Scicli</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Scicli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Scicli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Scicli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Scicli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Scicli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.scicli.rg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.scicli.rg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.scicli.rg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.scicli.rg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

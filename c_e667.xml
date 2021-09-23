@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx829d6862-86ff-9a45-274a-2607dcc6b063" entityID="https://suap.comune.lonato.bs.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx829d6862-86ff-9a45-274a-2607dcc6b063">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8rQ5HpCOSn35UqQuUlhVvJn+3eFlOttL74WGYc4/0TQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+WTdgiFDzmEHXqPcEZzQc9oEyXvag+0eafVIjm1NVpa0Kk3sDOqs8EfNkZHEVq2vcW5uDy14fngV/
+VrQUeuGCq4PRB2xW2KJtUUfbdnLof+yHe827rDMndYS0h58HWHTS1Vy8bxUQjR0Q5j5iGMGVngEx
+g5aCpxUQ4r6a19vKtovjA4U/no/FksIdsgZyouomOox8yiSVbya0rBPUIyZaZNlwl9oxIH0JK2Bb
+ZPshLdcPPIahN/JLOb9G0HfnFyPtHoNuX2VguM/3ZzpXkyicK+L7vPIR6iV5QsKYZfSY5Un5+AcZ
+nzviDjZs2FOhb1k3Az5tps2j1vIAymRx51e38w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+spR2QPjtelrVilB29MYTokIPkXmjGhMtLJkWU2WPTkXbGnrNWGrVH0Jc40pP4oJbBGM0Pyil2CPZ
+zw/lxne3ZKyhC2cy7PCTbQqKCCtTAXCh0cGGNQvv177QyTnLb9BM17pTNi9YKOFS67429OG/kfp9
+64SYcZ/sWcaygrg/UCHmyET187vSVHPHj2GOwHO7UwPZV9Ttn+hsKuN3ASir/UbK0Z7g1jwe5UZO
+gqOmxTsfeQdVyKhxFzl/b8CezpuFGtho178x6t6TEhwlG1jrd2vYIsX6JlSHbwmenwmLZQjpkCXT
+FJAaCkIWGU1sdRprBUD9uZytKOY4WcRQ4Dvv5w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEFzCCAv+gAwIBAgIJAOr8cav/o9bfMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29t
+dW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSEw
+HwYDVQQDDBhzdWFwLmNvbXVuZS5sb25hdG8uYnMuaXQwHhcNMTcwNTA5MDkwMTQ5WhcNMjcwNTA3
+MDkwMTQ5WjCBoTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExGTAXBgNVBAcMEExvbmF0
+byBkZWwgR2FyZGExIzAhBgNVBAoMGkNvbXVuZSBkaSBMb25hdG8gZGVsIEdhcmRhMR0wGwYDVQQL
+DBRTcG9ydGVsbG8gVGVsZW1hdGljbzEhMB8GA1UEAwwYc3VhcC5jb211bmUubG9uYXRvLmJzLml0
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAspR2QPjtelrVilB29MYTokIPkXmjGhMt
+LJkWU2WPTkXbGnrNWGrVH0Jc40pP4oJbBGM0Pyil2CPZzw/lxne3ZKyhC2cy7PCTbQqKCCtTAXCh
+0cGGNQvv177QyTnLb9BM17pTNi9YKOFS67429OG/kfp964SYcZ/sWcaygrg/UCHmyET187vSVHPH
+j2GOwHO7UwPZV9Ttn+hsKuN3ASir/UbK0Z7g1jwe5UZOgqOmxTsfeQdVyKhxFzl/b8CezpuFGtho
+178x6t6TEhwlG1jrd2vYIsX6JlSHbwmenwmLZQjpkCXTFJAaCkIWGU1sdRprBUD9uZytKOY4WcRQ
+4Dvv5wIDAQABo1AwTjAdBgNVHQ4EFgQU44oPHLJf/PHfjSzWuGGXtwwOz2IwHwYDVR0jBBgwFoAU
+44oPHLJf/PHfjSzWuGGXtwwOz2IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZB3L
+AR8vUPNCL+mmeJINivqGJgxAn0zj82hvilBZQ230h4Fyhhd186StI3W1ew2ayk9KKtRamic9i/lS
+QpifM/z+CA8ZC6yPGCAYY/99iFHRWvcohp0yIcuy91fT164QDNzI3XVofQXBHlelSIrIDvUw8Q2Z
+GyIoYTlGM0Z3ZxWIgcqnhOMRYTJYRSb2hxk4byK5og9F6uxRLJgjry3t3onIodAjPX6aBK5ryUmf
+VG5+yqIo++8US/8P/QpLh0Dn52DUhiS7698Ww5DErcB/LdRFrcdDfFWz8mWfkYJ6RBIw34380QP0
+gnTm7DcH72MgEFxYadwHAhw/w0V7emNjHw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFzCCAv+gAwIBAgIJAOr8cav/o9bfMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29tdW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSEwHwYDVQQDDBhzdWFwLmNvbXVuZS5sb25hdG8uYnMuaXQwHhcNMTcwNTA5MDkwMTQ5WhcNMjcwNTA3MDkwMTQ5WjCBoTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExGTAXBgNVBAcMEExvbmF0byBkZWwgR2FyZGExIzAhBgNVBAoMGkNvbXVuZSBkaSBMb25hdG8gZGVsIEdhcmRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEhMB8GA1UEAwwYc3VhcC5jb211bmUubG9uYXRvLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAspR2QPjtelrVilB29MYTokIPkXmjGhMtLJkWU2WPTkXbGnrNWGrVH0Jc40pP4oJbBGM0Pyil2CPZzw/lxne3ZKyhC2cy7PCTbQqKCCtTAXCh0cGGNQvv177QyTnLb9BM17pTNi9YKOFS67429OG/kfp964SYcZ/sWcaygrg/UCHmyET187vSVHPHj2GOwHO7UwPZV9Ttn+hsKuN3ASir/UbK0Z7g1jwe5UZOgqOmxTsfeQdVyKhxFzl/b8CezpuFGtho178x6t6TEhwlG1jrd2vYIsX6JlSHbwmenwmLZQjpkCXTFJAaCkIWGU1sdRprBUD9uZytKOY4WcRQ4Dvv5wIDAQABo1AwTjAdBgNVHQ4EFgQU44oPHLJf/PHfjSzWuGGXtwwOz2IwHwYDVR0jBBgwFoAU44oPHLJf/PHfjSzWuGGXtwwOz2IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZB3LAR8vUPNCL+mmeJINivqGJgxAn0zj82hvilBZQ230h4Fyhhd186StI3W1ew2ayk9KKtRamic9i/lSQpifM/z+CA8ZC6yPGCAYY/99iFHRWvcohp0yIcuy91fT164QDNzI3XVofQXBHlelSIrIDvUw8Q2ZGyIoYTlGM0Z3ZxWIgcqnhOMRYTJYRSb2hxk4byK5og9F6uxRLJgjry3t3onIodAjPX6aBK5ryUmfVG5+yqIo++8US/8P/QpLh0Dn52DUhiS7698Ww5DErcB/LdRFrcdDfFWz8mWfkYJ6RBIw34380QP0gnTm7DcH72MgEFxYadwHAhw/w0V7emNjHw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFzCCAv+gAwIBAgIJAOr8cav/o9bfMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29tdW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSEwHwYDVQQDDBhzdWFwLmNvbXVuZS5sb25hdG8uYnMuaXQwHhcNMTcwNTA5MDkwMTQ5WhcNMjcwNTA3MDkwMTQ5WjCBoTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExGTAXBgNVBAcMEExvbmF0byBkZWwgR2FyZGExIzAhBgNVBAoMGkNvbXVuZSBkaSBMb25hdG8gZGVsIEdhcmRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEhMB8GA1UEAwwYc3VhcC5jb211bmUubG9uYXRvLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAspR2QPjtelrVilB29MYTokIPkXmjGhMtLJkWU2WPTkXbGnrNWGrVH0Jc40pP4oJbBGM0Pyil2CPZzw/lxne3ZKyhC2cy7PCTbQqKCCtTAXCh0cGGNQvv177QyTnLb9BM17pTNi9YKOFS67429OG/kfp964SYcZ/sWcaygrg/UCHmyET187vSVHPHj2GOwHO7UwPZV9Ttn+hsKuN3ASir/UbK0Z7g1jwe5UZOgqOmxTsfeQdVyKhxFzl/b8CezpuFGtho178x6t6TEhwlG1jrd2vYIsX6JlSHbwmenwmLZQjpkCXTFJAaCkIWGU1sdRprBUD9uZytKOY4WcRQ4Dvv5wIDAQABo1AwTjAdBgNVHQ4EFgQU44oPHLJf/PHfjSzWuGGXtwwOz2IwHwYDVR0jBBgwFoAU44oPHLJf/PHfjSzWuGGXtwwOz2IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZB3LAR8vUPNCL+mmeJINivqGJgxAn0zj82hvilBZQ230h4Fyhhd186StI3W1ew2ayk9KKtRamic9i/lSQpifM/z+CA8ZC6yPGCAYY/99iFHRWvcohp0yIcuy91fT164QDNzI3XVofQXBHlelSIrIDvUw8Q2ZGyIoYTlGM0Z3ZxWIgcqnhOMRYTJYRSb2hxk4byK5og9F6uxRLJgjry3t3onIodAjPX6aBK5ryUmfVG5+yqIo++8US/8P/QpLh0Dn52DUhiS7698Ww5DErcB/LdRFrcdDfFWz8mWfkYJ6RBIw34380QP0gnTm7DcH72MgEFxYadwHAhw/w0V7emNjHw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGDCCAwCgAwIBAgIJAMUhfSkCVuZ4MA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29tdW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxvbmF0by5icy5pdDAeFw0xOTA1MTYxOTQ3MTdaFw0yOTA1MTMxOTQ3MTdaMIGgMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29tdW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxvbmF0by5icy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALTzvRBwTbGAA6THiv8k3je6TvqCrvAq8VIYn5SFWHQ9QqEFwHxlwlYHip0wAaxg8j5PCJol1FsUZQW2mzK0DKN8zScoYwfRp2y+NE98eEjTR8pxXp80YlIqT5fpT/wmAHmKgmsEoZJKgIlQ70rQGOtQ7DH0qFKubkpEj+oVJwem+JtLEnbrMoc9B5YxaamXouZSdsukGGpq8RZATlO9JAjTtR9mmbgJXuD6VabzDCj4kSGuh8kZ1x543HYGw7ta2tkZr0mYCu9XK6c3oUl5d5EEFv0QGZ/jEWfYI5XNCdmioUYMgXH3wiQFWSqqbAZKgwqm+GYTnOdaKZ1iik2zmaUCAwEAAaNTMFEwHQYDVR0OBBYEFM56BAUtiioq73Ty9b6NJT9pYgioMB8GA1UdIwQYMBaAFM56BAUtiioq73Ty9b6NJT9pYgioMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACSI6wD99PYG/OwLd1zXSEC0vDmKCCYOC6TGTZ/7Kcvi/QvNXjsMzqp8LCTBjKRHMU9aJQpnQ77yA2kv5hTHoy6zWcUOxOGcGMD5UZvA65hMn66e2WaMbpezN+h++o+WJ4m8MHCMgJH6ecuyZvATVMNARj8/bLb8gR461h9E3x9uGXOdALSiFG9Fao/Ogxdpeqr4plYoxBFtXg/41IsQoXqMHovm/6fc0+m5t3DFEGUuJr5MoxkdDzhhGn404/vSPf1TxcfuZT+sB1Sz2NcX6xhWrZogic11zuCEAXBgxDmkv/TH3tr8vfhGsbjiaB+5H3cAfRuXTyb9BAuzQB7/DLc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEGDCCAwCgAwIBAgIJAMUhfSkCVuZ4MA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29tdW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxvbmF0by5icy5pdDAeFw0xOTA1MTYxOTQ3MTdaFw0yOTA1MTMxOTQ3MTdaMIGgMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTEZMBcGA1UEBwwQTG9uYXRvIGRlbCBHYXJkYTEjMCEGA1UECgwaQ29tdW5lIGRpIExvbmF0byBkZWwgR2FyZGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxvbmF0by5icy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALTzvRBwTbGAA6THiv8k3je6TvqCrvAq8VIYn5SFWHQ9QqEFwHxlwlYHip0wAaxg8j5PCJol1FsUZQW2mzK0DKN8zScoYwfRp2y+NE98eEjTR8pxXp80YlIqT5fpT/wmAHmKgmsEoZJKgIlQ70rQGOtQ7DH0qFKubkpEj+oVJwem+JtLEnbrMoc9B5YxaamXouZSdsukGGpq8RZATlO9JAjTtR9mmbgJXuD6VabzDCj4kSGuh8kZ1x543HYGw7ta2tkZr0mYCu9XK6c3oUl5d5EEFv0QGZ/jEWfYI5XNCdmioUYMgXH3wiQFWSqqbAZKgwqm+GYTnOdaKZ1iik2zmaUCAwEAAaNTMFEwHQYDVR0OBBYEFM56BAUtiioq73Ty9b6NJT9pYgioMB8GA1UdIwQYMBaAFM56BAUtiioq73Ty9b6NJT9pYgioMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACSI6wD99PYG/OwLd1zXSEC0vDmKCCYOC6TGTZ/7Kcvi/QvNXjsMzqp8LCTBjKRHMU9aJQpnQ77yA2kv5hTHoy6zWcUOxOGcGMD5UZvA65hMn66e2WaMbpezN+h++o+WJ4m8MHCMgJH6ecuyZvATVMNARj8/bLb8gR461h9E3x9uGXOdALSiFG9Fao/Ogxdpeqr4plYoxBFtXg/41IsQoXqMHovm/6fc0+m5t3DFEGUuJr5MoxkdDzhhGn404/vSPf1TxcfuZT+sB1Sz2NcX6xhWrZogic11zuCEAXBgxDmkv/TH3tr8vfhGsbjiaB+5H3cAfRuXTyb9BAuzQB7/DLc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.lonato.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suap.comune.lonato.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/lonatodelgarda" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.lonato.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">lonatodelgarda</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_e667</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_e667</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Lonato del Garda</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lonato del Garda</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lonato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lonato.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

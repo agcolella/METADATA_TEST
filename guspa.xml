@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://accessoatti.gardauno-trasparenza.it/wp/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/metadata.php/default-sp" ID="pfx60f677e6-1007-938d-73c1-1aacfb79d054"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx60f677e6-1007-938d-73c1-1aacfb79d054"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UWVsxIAJYRximPiXhzhV15C5COIV9/NnApmu4uBvups=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>QI80jRAlsWV9PuqyFEXZTKTwu3lUB1mwsrvXh0iamxXsFZMDWI6AlyEYlN+7OqEpUtMohWVOpSy2JkQ1B509qUJot3X5hLhEGDrw7jXkt19qYNbpwVTB+fIwpM7AQrEAOvbI5vjzzGi015XrJBu1LCtyXesBCWN3TrzMnc11IIuh/ZsiKliix2npSTOd7dIYiPQ4UrlJyd9yyKlFtjXk92n/ha3qJFbK0blM4lFUrpg5/Vwd7qiF8bnCURD3LjP6EKsiGTeGDYQ4eeOfPn7R2ffguhWfXYPVK3w1kWkK+X9o6lVmjagUUkIqWRjYSm8W3SUxPge+nH6nsf3OZ32XmA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEZjCCA06gAwIBAgIIeov1ecfwq98wDQYJKoZIhvcNAQELBQAwgckxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRswGQYDVQQHDBJQYWRlbmdoZSBzdWwgR2FyZGExFjAUBgNVBAoMDUdhcmRhIFVubyBTcEExGzAZBgNVBAsMElNvY2lldGFQdWJibGljYVNQTDEsMCoGA1UEAwwjYWNjZXNzb2F0dGkuZ2FyZGF1bm8tdHJhc3BhcmVuemEuaXQxKDAmBgkqhkiG9w0BCQEWGWFuZHJlYS5sb25naGlAZ2FyZGF1bm8uaXQwHhcNMTkwMjA1MTUxNDQ2WhcNMzkwMjA0MTUxNDQ2WjCByTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExGzAZBgNVBAcMElBhZGVuZ2hlIHN1bCBHYXJkYTEWMBQGA1UECgwNR2FyZGEgVW5vIFNwQTEbMBkGA1UECwwSU29jaWV0YVB1YmJsaWNhU1BMMSwwKgYDVQQDDCNhY2Nlc3NvYXR0aS5nYXJkYXVuby10cmFzcGFyZW56YS5pdDEoMCYGCSqGSIb3DQEJARYZYW5kcmVhLmxvbmdoaUBnYXJkYXVuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALw9zMKPt+P7Hsu+D1UZX/aeX5ATdC3Ca81p6U+HU/seFCgE87aIcVl5U/AELG+KXw30ziXUN4wFvs6XPjo3rpNQokchwkVhP+uMz0BF6S5agzgcwOXRMpzpLxY5xzjpzYEIQ8rgOG/KnX5+qx8Swo6zDXpgfKnEvLeWGsjYXj561RteCAE/I/18Ns6WHSUgtAGcvKwUor7Ol/1efhXyOlB+6I6+55uvYsWHbFtckL5wE+WQaw4whm1FoULzMdTGY3sH0/CQE1Bi2KVw1rHtODPPotgg7kVLdBT1pEeVU2cCIbGooWRlCxU86X0hCc27eayQA6K2XZ+439iM0krFS7UCAwEAAaNQME4wHQYDVR0OBBYEFKO6GIEqnRnOjsEG+JaDL0U9+ugyMB8GA1UdIwQYMBaAFKO6GIEqnRnOjsEG+JaDL0U9+ugyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFfbfWphzaW3iMwNJPtBhwk8IyA893EtB4JQP6Q+aMVobiCxBAKQbuUXh8DLTG8Myq+B+P5HQpjl4NoPFNcL1tujzU17ghQMRMN7QTykMYImoGmNXP4GhmrC+bCFf4YPC+MqZKQllOxBIpTu367S9VyymdubNTAT5w0k5cGIp+wAQqflWaNwFTYn8G9obk0y3sch0gnIaH9bYXBpBMjvkAQerE9TkXE4zHJlt1UQNBHXdDhNtrFrxlx5663op9aACRmfDwSMoEGk1Df8+PQXz5+v4TyAgguHjLNpNspb2l9/pgzmOdSbtUpK/nXD90D58csjIPr+l+xrR7G3Q0EvEQI=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEZjCCA06gAwIBAgIIeov1ecfwq98wDQYJKoZIhvcNAQELBQAwgckxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRswGQYDVQQHDBJQYWRlbmdoZSBzdWwgR2FyZGExFjAUBgNVBAoMDUdhcmRhIFVubyBTcEExGzAZBgNVBAsMElNvY2lldGFQdWJibGljYVNQTDEsMCoGA1UEAwwjYWNjZXNzb2F0dGkuZ2FyZGF1bm8tdHJhc3BhcmVuemEuaXQxKDAmBgkqhkiG9w0BCQEWGWFuZHJlYS5sb25naGlAZ2FyZGF1bm8uaXQwHhcNMTkwMjA1MTUxNDQ2WhcNMzkwMjA0MTUxNDQ2WjCByTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExGzAZBgNVBAcMElBhZGVuZ2hlIHN1bCBHYXJkYTEWMBQGA1UECgwNR2FyZGEgVW5vIFNwQTEbMBkGA1UECwwSU29jaWV0YVB1YmJsaWNhU1BMMSwwKgYDVQQDDCNhY2Nlc3NvYXR0aS5nYXJkYXVuby10cmFzcGFyZW56YS5pdDEoMCYGCSqGSIb3DQEJARYZYW5kcmVhLmxvbmdoaUBnYXJkYXVuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALw9zMKPt+P7Hsu+D1UZX/aeX5ATdC3Ca81p6U+HU/seFCgE87aIcVl5U/AELG+KXw30ziXUN4wFvs6XPjo3rpNQokchwkVhP+uMz0BF6S5agzgcwOXRMpzpLxY5xzjpzYEIQ8rgOG/KnX5+qx8Swo6zDXpgfKnEvLeWGsjYXj561RteCAE/I/18Ns6WHSUgtAGcvKwUor7Ol/1efhXyOlB+6I6+55uvYsWHbFtckL5wE+WQaw4whm1FoULzMdTGY3sH0/CQE1Bi2KVw1rHtODPPotgg7kVLdBT1pEeVU2cCIbGooWRlCxU86X0hCc27eayQA6K2XZ+439iM0krFS7UCAwEAAaNQME4wHQYDVR0OBBYEFKO6GIEqnRnOjsEG+JaDL0U9+ugyMB8GA1UdIwQYMBaAFKO6GIEqnRnOjsEG+JaDL0U9+ugyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFfbfWphzaW3iMwNJPtBhwk8IyA893EtB4JQP6Q+aMVobiCxBAKQbuUXh8DLTG8Myq+B+P5HQpjl4NoPFNcL1tujzU17ghQMRMN7QTykMYImoGmNXP4GhmrC+bCFf4YPC+MqZKQllOxBIpTu367S9VyymdubNTAT5w0k5cGIp+wAQqflWaNwFTYn8G9obk0y3sch0gnIaH9bYXBpBMjvkAQerE9TkXE4zHJlt1UQNBHXdDhNtrFrxlx5663op9aACRmfDwSMoEGk1Df8+PQXz5+v4TyAgguHjLNpNspb2l9/pgzmOdSbtUpK/nXD90D58csjIPr+l+xrR7G3Q0EvEQI=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEZjCCA06gAwIBAgIIeov1ecfwq98wDQYJKoZIhvcNAQELBQAwgckxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMRswGQYDVQQHDBJQYWRlbmdoZSBzdWwgR2FyZGExFjAUBgNVBAoMDUdhcmRhIFVubyBTcEExGzAZBgNVBAsMElNvY2lldGFQdWJibGljYVNQTDEsMCoGA1UEAwwjYWNjZXNzb2F0dGkuZ2FyZGF1bm8tdHJhc3BhcmVuemEuaXQxKDAmBgkqhkiG9w0BCQEWGWFuZHJlYS5sb25naGlAZ2FyZGF1bm8uaXQwHhcNMTkwMjA1MTUxNDQ2WhcNMzkwMjA0MTUxNDQ2WjCByTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JyZXNjaWExGzAZBgNVBAcMElBhZGVuZ2hlIHN1bCBHYXJkYTEWMBQGA1UECgwNR2FyZGEgVW5vIFNwQTEbMBkGA1UECwwSU29jaWV0YVB1YmJsaWNhU1BMMSwwKgYDVQQDDCNhY2Nlc3NvYXR0aS5nYXJkYXVuby10cmFzcGFyZW56YS5pdDEoMCYGCSqGSIb3DQEJARYZYW5kcmVhLmxvbmdoaUBnYXJkYXVuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALw9zMKPt+P7Hsu+D1UZX/aeX5ATdC3Ca81p6U+HU/seFCgE87aIcVl5U/AELG+KXw30ziXUN4wFvs6XPjo3rpNQokchwkVhP+uMz0BF6S5agzgcwOXRMpzpLxY5xzjpzYEIQ8rgOG/KnX5+qx8Swo6zDXpgfKnEvLeWGsjYXj561RteCAE/I/18Ns6WHSUgtAGcvKwUor7Ol/1efhXyOlB+6I6+55uvYsWHbFtckL5wE+WQaw4whm1FoULzMdTGY3sH0/CQE1Bi2KVw1rHtODPPotgg7kVLdBT1pEeVU2cCIbGooWRlCxU86X0hCc27eayQA6K2XZ+439iM0krFS7UCAwEAAaNQME4wHQYDVR0OBBYEFKO6GIEqnRnOjsEG+JaDL0U9+ugyMB8GA1UdIwQYMBaAFKO6GIEqnRnOjsEG+JaDL0U9+ugyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFfbfWphzaW3iMwNJPtBhwk8IyA893EtB4JQP6Q+aMVobiCxBAKQbuUXh8DLTG8Myq+B+P5HQpjl4NoPFNcL1tujzU17ghQMRMN7QTykMYImoGmNXP4GhmrC+bCFf4YPC+MqZKQllOxBIpTu367S9VyymdubNTAT5w0k5cGIp+wAQqflWaNwFTYn8G9obk0y3sch0gnIaH9bYXBpBMjvkAQerE9TkXE4zHJlt1UQNBHXdDhNtrFrxlx5663op9aACRmfDwSMoEGk1Df8+PQXz5+v4TyAgguHjLNpNspb2l9/pgzmOdSbtUpK/nXD90D58csjIPr+l+xrR7G3Q0EvEQI=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessoatti.gardauno-trasparenza.it/wp/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessoatti.gardauno-trasparenza.it/wp/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">web21.keliweb.com</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Garda Uno SpA / Padenghe sul Garda (Brescia)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Garda Uno SpA / Padenghe sul Garda</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Garda Uno SpA / Padenghe sul Garda</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://accessoatti.gardauno-trasparenza.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:EmailAddress>andrea.longhi@gardauno.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

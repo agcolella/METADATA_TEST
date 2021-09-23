@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx34b2dc40-a248-a587-e1f1-e0f9c17078a8" entityID="https://servizionline.comune.levico-terme.tn.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx34b2dc40-a248-a587-e1f1-e0f9c17078a8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>W2NyzurJ7oeW7xTvCfSLBU17bPjGXm2Bjoh0DQaCg8M=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cLbDoj6sQ4ue27wj0iiaaQx+GE3BuJ4huZDQBbw7NjxURq6LINlr9wT6Ex1wFDk4ZRWiyFFnO2QX
+Z2Y1mukmpEGi7TVgpGZKIVHrUATX9Z3bRDy0vPch+V2GQLl2oamVMJ/YyZX0B5sFwdtGagdjXag4
+vOYGY42q6JP74rYGCpUV6btNZH4Dbzqf8N7HYc+sV3ajJtkrb7J5lYZ1SXhTgmTUj/JxyomoOaKx
+bRQf9cnikvvYo1pVahciLscI2Yxa0zkLGwZUnN4xGVrcmXY+FFZEyGnF0+2tWeEP97YLEKWkGi67
+RUEO3Mo5P+uIGi55XCEc6AFZVrnbj6kBdSEzJg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+77tg7TlyAT9tii2YbTDIbmaVbLPcJE+x5Xf5is5jI4q1qwqaKZoSZCNASCgUGQO5szDGkpuebkK1
+I01K7HLYkKJG66sK85+v7yj8zgSg7vHqtT6H6vPm65esRVplCFiOrfZy42LUzWIpS5wSJk1JOi+F
+OhVySZHPSkJ6OlcdnnWFfKNAcI0wG0dd+0gsQCLiuaMo6fazsQrTObWLdF82zjF6my1CPZ9KsvuL
+ZG12jRv6KR2kDLDoQHeVOD0L9fvcWqQor+4yIY++8Ua+MvDIZumQlQuT7ApHrMBTDNP74pccvPom
+FDCOU9U6qMCLS3PXFggORywev2lOklsWnUDPIQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4zCCAsugAwIBAgIJAM2kg9XT8KN9MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFTATBgNVBAcMDExldmljbyBUZXJtZTEfMB0GA1UECgwWQ29tdW5lIGRp
+IExldmljbyBUZXJtZTEwMC4GA1UEAwwnc2Vydml6aW9ubGluZS5jb211bmUubGV2aWNvLXRlcm1l
+LnRuLml0MB4XDTIwMTAwMTEwMzQwOVoXDTMwMTAwMTEwMzQwOVowgYcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTGV2aWNvIFRlcm1lMR8wHQYDVQQKDBZDb211bmUgZGkg
+TGV2aWNvIFRlcm1lMTAwLgYDVQQDDCdzZXJ2aXppb25saW5lLmNvbXVuZS5sZXZpY28tdGVybWUu
+dG4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDvu2DtOXIBP22KLZhtMMhuZpVs
+s9wkT7Hld/mKzmMjirWrCpopmhJkI0BIKBQZA7mzMMaSm55uQrUjTUrsctiQokbrqwrzn6/vKPzO
+BKDu8eq1Pofq8+brl6xFWmUIWI6t9nLjYtTNYilLnBImTUk6L4U6FXJJkc9KQno6Vx2edYV8o0Bw
+jTAbR137SCxAIuK5oyjp9rOxCtM5tYt0XzbOMXqbLUI9n0qy+4tkbXaNG/opHaQMsOhAd5U4PQv1
++9xapCiv7jIhj77xRr4y8Mhm6ZCVC5PsCkeswFMM0/vilxy8+iYUMI5T1TqowItLc9cWCA5HLB6/
+aU6SWxadQM8hAgMBAAGjUDBOMB0GA1UdDgQWBBT4IiyXqynLfIEduoBayd/wqtVyCjAfBgNVHSME
+GDAWgBT4IiyXqynLfIEduoBayd/wqtVyCjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQABVFzeepYGMLW3jeueBi8FuEGoAsqyLnp/90J0++w364qlHDuisr0fIRag2zyPOeudBvO80DPH
+02BrYmROl2WvDotME7o3mnsXiNlRB3qCgbqSmZwTkrxBGAyka1alXp13psTE4pYG0hw6gFR2ERuN
+ROiLOq+pIai6zJ5NjRDWqbZASf7o4tJknPtWAAdKzo1vVstyT+ONpIsgrPGmgGLb66VWWAvRTyhQ
+MY4PYto1ziOXCTmPyjlA51BC+PHhPY4cJDAunO1u5fCQCNF6d3UCYr571SSXgpbUCusFeeTct6jH
+2SHRD4zchHPxOvjN79e/gUogfom7NWASdYBg9Cj3
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIID4zCCAsugAwIBAgIJAM2kg9XT8KN9MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFTATBgNVBAcMDExldmljbyBUZXJtZTEfMB0GA1UECgwWQ29tdW5lIGRpIExldmljbyBUZXJtZTEwMC4GA1UEAwwnc2Vydml6aW9ubGluZS5jb211bmUubGV2aWNvLXRlcm1lLnRuLml0MB4XDTIwMTAwMTEwMzQwOVoXDTMwMTAwMTEwMzQwOVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTGV2aWNvIFRlcm1lMR8wHQYDVQQKDBZDb211bmUgZGkgTGV2aWNvIFRlcm1lMTAwLgYDVQQDDCdzZXJ2aXppb25saW5lLmNvbXVuZS5sZXZpY28tdGVybWUudG4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDvu2DtOXIBP22KLZhtMMhuZpVss9wkT7Hld/mKzmMjirWrCpopmhJkI0BIKBQZA7mzMMaSm55uQrUjTUrsctiQokbrqwrzn6/vKPzOBKDu8eq1Pofq8+brl6xFWmUIWI6t9nLjYtTNYilLnBImTUk6L4U6FXJJkc9KQno6Vx2edYV8o0BwjTAbR137SCxAIuK5oyjp9rOxCtM5tYt0XzbOMXqbLUI9n0qy+4tkbXaNG/opHaQMsOhAd5U4PQv1+9xapCiv7jIhj77xRr4y8Mhm6ZCVC5PsCkeswFMM0/vilxy8+iYUMI5T1TqowItLc9cWCA5HLB6/aU6SWxadQM8hAgMBAAGjUDBOMB0GA1UdDgQWBBT4IiyXqynLfIEduoBayd/wqtVyCjAfBgNVHSMEGDAWgBT4IiyXqynLfIEduoBayd/wqtVyCjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQABVFzeepYGMLW3jeueBi8FuEGoAsqyLnp/90J0++w364qlHDuisr0fIRag2zyPOeudBvO80DPH02BrYmROl2WvDotME7o3mnsXiNlRB3qCgbqSmZwTkrxBGAyka1alXp13psTE4pYG0hw6gFR2ERuNROiLOq+pIai6zJ5NjRDWqbZASf7o4tJknPtWAAdKzo1vVstyT+ONpIsgrPGmgGLb66VWWAvRTyhQMY4PYto1ziOXCTmPyjlA51BC+PHhPY4cJDAunO1u5fCQCNF6d3UCYr571SSXgpbUCusFeeTct6jH2SHRD4zchHPxOvjN79e/gUogfom7NWASdYBg9Cj3</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIID4zCCAsugAwIBAgIJAM2kg9XT8KN9MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFTATBgNVBAcMDExldmljbyBUZXJtZTEfMB0GA1UECgwWQ29tdW5lIGRpIExldmljbyBUZXJtZTEwMC4GA1UEAwwnc2Vydml6aW9ubGluZS5jb211bmUubGV2aWNvLXRlcm1lLnRuLml0MB4XDTIwMTAwMTEwMzQwOVoXDTMwMTAwMTEwMzQwOVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTGV2aWNvIFRlcm1lMR8wHQYDVQQKDBZDb211bmUgZGkgTGV2aWNvIFRlcm1lMTAwLgYDVQQDDCdzZXJ2aXppb25saW5lLmNvbXVuZS5sZXZpY28tdGVybWUudG4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDvu2DtOXIBP22KLZhtMMhuZpVss9wkT7Hld/mKzmMjirWrCpopmhJkI0BIKBQZA7mzMMaSm55uQrUjTUrsctiQokbrqwrzn6/vKPzOBKDu8eq1Pofq8+brl6xFWmUIWI6t9nLjYtTNYilLnBImTUk6L4U6FXJJkc9KQno6Vx2edYV8o0BwjTAbR137SCxAIuK5oyjp9rOxCtM5tYt0XzbOMXqbLUI9n0qy+4tkbXaNG/opHaQMsOhAd5U4PQv1+9xapCiv7jIhj77xRr4y8Mhm6ZCVC5PsCkeswFMM0/vilxy8+iYUMI5T1TqowItLc9cWCA5HLB6/aU6SWxadQM8hAgMBAAGjUDBOMB0GA1UdDgQWBBT4IiyXqynLfIEduoBayd/wqtVyCjAfBgNVHSMEGDAWgBT4IiyXqynLfIEduoBayd/wqtVyCjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQABVFzeepYGMLW3jeueBi8FuEGoAsqyLnp/90J0++w364qlHDuisr0fIRag2zyPOeudBvO80DPH02BrYmROl2WvDotME7o3mnsXiNlRB3qCgbqSmZwTkrxBGAyka1alXp13psTE4pYG0hw6gFR2ERuNROiLOq+pIai6zJ5NjRDWqbZASf7o4tJknPtWAAdKzo1vVstyT+ONpIsgrPGmgGLb66VWWAvRTyhQMY4PYto1ziOXCTmPyjlA51BC+PHhPY4cJDAunO1u5fCQCNF6d3UCYr571SSXgpbUCusFeeTct6jH2SHRD4zchHPxOvjN79e/gUogfom7NWASdYBg9Cj3</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.levico-terme.tn.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.levico-terme.tn.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+   		<md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Levico Terme</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Levico Terme</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.levico-terme.tn.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e565</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Levico Terme</md:Company>
+    <md:EmailAddress>postmaster@comune.levico-terme.tn.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

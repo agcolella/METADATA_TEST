@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.medolago.bg.it/" ID="pfxec058c54-8ae2-3ea9-555b-ad29c6f685f5"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxec058c54-8ae2-3ea9-555b-ad29c6f685f5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>bixoKW0wyZhJ8VHmFRG1THWigw7SfIX5JVirenl8580=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>QpHm8BXD08QavJGajN1LdtQQ3AbfxevfUJ3ahM5kpoUWDZP5Z5wdSFbewH5WgzTrr9LmlOsfMEFXZ4sswVc5xGCPEErohaBDtBb+gIvjVZfx8nMqx4QjxKn469XpwyNtWmqrx4g6Nb2LjeVjjzoa+87K3rC1MW3G90BBLAu1TRzhj+YIYGki0oZiQ9b7iJaOWSqMEHzUBpZPh63raq89RN7QuHr6en57yDX+G65DnxzYAQfyYK1CC3UJby3t4KoLBanWPgbNg/j8fZIbggMcVbvkRWNL3Xem9vU2qcJTOp8VxYoqV6f6E5mIid56VI+o4dIyX2uSkEkvLjEyoc2m4Q==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAMaerFPG/0UFMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzERMA8GA1UEBwwITWVkb2xhZ28xGzAZBgNVBAoMEkNvbXVuZSBkaSBNZWRvbGFnbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0MB4XDTE4MDcyNzA4NTcyMloXDTI4MDcyNDA4NTcyMlowgaIxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMREwDwYDVQQHDAhNZWRvbGFnbzEbMBkGA1UECgwSQ29tdW5lIGRpIE1lZG9sYWdvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubWVkb2xhZ28uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9y7EZbRzGS8BDVKxC9UKy09sMlY8L8q1/qdzHS3FByDUiQLPjYfjGdk1oGoYOnwpyzckuCDA5nsOuGJDvF5ObqBHPOllBU5DMleltrLyrDqFCKfPDunc9cudgDv0bi8qk6Tgl/s4F9BXjKruNYcJWFVbUgf/HY3gM44J0ctf7dkD+qLHxVonphpLOU2Mru2aH39xGjnLlUSFZ50OTNAfUafmSwWHb8Xh/kYKg/H/l28luXiNF6cgX2TfLxWnhc8l5OeM3S2Or+lkBeE6F+h0Uvt/mdcNRCrEX0HeRQG+Yb0sWF0jRLywRngQwCcijkwhwBAZfX5zDtVtlJFgZGDOhAgMBAAGjUzBRMB0GA1UdDgQWBBTQUR0/i4tiJcklBkbpYRB9oKFRezAfBgNVHSMEGDAWgBTQUR0/i4tiJcklBkbpYRB9oKFRezAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAKu4ZpQlNAF/tIPl/TQDEc9vX40u0qbvs/N67RWwo52LGSSYTyVYTrq74CNORrB63hK5xa94y9Jf8JR42TX6AdcDbRTL4dA5Chbt0BPNNvjDELhTDmHllg28FIR5x9oqFQiERs1NSqZueBMCd9sdgHRV5SQdAFaHBfQGu66io5cn5UdtF2cxrxo1fmcvtsU4atNQ8JJy9obhQGp/QCstwmS4XTyztQlQ5/42x2yha0XVrJnTio9lupiNig3BANYhkp1kOfA8oZmVrX3jxO0aS3fvlCFlZtUZfcrLEgccxS38AAG6wlELZrhyCBJ1D8xoq/jYMLqkj5kT30eonhFknX</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAMaerFPG/0UFMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzERMA8GA1UEBwwITWVkb2xhZ28xGzAZBgNVBAoMEkNvbXVuZSBkaSBNZWRvbGFnbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0MB4XDTE4MDcyNzA4NTcyMloXDTI4MDcyNDA4NTcyMlowgaIxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMREwDwYDVQQHDAhNZWRvbGFnbzEbMBkGA1UECgwSQ29tdW5lIGRpIE1lZG9sYWdvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubWVkb2xhZ28uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9y7EZbRzGS8BDVKxC9UKy09sMlY8L8q1/qdzHS3FByDUiQLPjYfjGdk1oGoYOnwpyzckuCDA5nsOuGJDvF5ObqBHPOllBU5DMleltrLyrDqFCKfPDunc9cudgDv0bi8qk6Tgl/s4F9BXjKruNYcJWFVbUgf/HY3gM44J0ctf7dkD+qLHxVonphpLOU2Mru2aH39xGjnLlUSFZ50OTNAfUafmSwWHb8Xh/kYKg/H/l28luXiNF6cgX2TfLxWnhc8l5OeM3S2Or+lkBeE6F+h0Uvt/mdcNRCrEX0HeRQG+Yb0sWF0jRLywRngQwCcijkwhwBAZfX5zDtVtlJFgZGDOhAgMBAAGjUzBRMB0GA1UdDgQWBBTQUR0/i4tiJcklBkbpYRB9oKFRezAfBgNVHSMEGDAWgBTQUR0/i4tiJcklBkbpYRB9oKFRezAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAKu4ZpQlNAF/tIPl/TQDEc9vX40u0qbvs/N67RWwo52LGSSYTyVYTrq74CNORrB63hK5xa94y9Jf8JR42TX6AdcDbRTL4dA5Chbt0BPNNvjDELhTDmHllg28FIR5x9oqFQiERs1NSqZueBMCd9sdgHRV5SQdAFaHBfQGu66io5cn5UdtF2cxrxo1fmcvtsU4atNQ8JJy9obhQGp/QCstwmS4XTyztQlQ5/42x2yha0XVrJnTio9lupiNig3BANYhkp1kOfA8oZmVrX3jxO0aS3fvlCFlZtUZfcrLEgccxS38AAG6wlELZrhyCBJ1D8xoq/jYMLqkj5kT30eonhFknX</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAMaerFPG/0UFMA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzERMA8GA1UEBwwITWVkb2xhZ28xGzAZBgNVBAoMEkNvbXVuZSBkaSBNZWRvbGFnbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLm1lZG9sYWdvLmJnLml0MB4XDTE4MDcyNzA4NTcyMloXDTI4MDcyNDA4NTcyMlowgaIxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMREwDwYDVQQHDAhNZWRvbGFnbzEbMBkGA1UECgwSQ29tdW5lIGRpIE1lZG9sYWdvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubWVkb2xhZ28uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9y7EZbRzGS8BDVKxC9UKy09sMlY8L8q1/qdzHS3FByDUiQLPjYfjGdk1oGoYOnwpyzckuCDA5nsOuGJDvF5ObqBHPOllBU5DMleltrLyrDqFCKfPDunc9cudgDv0bi8qk6Tgl/s4F9BXjKruNYcJWFVbUgf/HY3gM44J0ctf7dkD+qLHxVonphpLOU2Mru2aH39xGjnLlUSFZ50OTNAfUafmSwWHb8Xh/kYKg/H/l28luXiNF6cgX2TfLxWnhc8l5OeM3S2Or+lkBeE6F+h0Uvt/mdcNRCrEX0HeRQG+Yb0sWF0jRLywRngQwCcijkwhwBAZfX5zDtVtlJFgZGDOhAgMBAAGjUzBRMB0GA1UdDgQWBBTQUR0/i4tiJcklBkbpYRB9oKFRezAfBgNVHSMEGDAWgBTQUR0/i4tiJcklBkbpYRB9oKFRezAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAKu4ZpQlNAF/tIPl/TQDEc9vX40u0qbvs/N67RWwo52LGSSYTyVYTrq74CNORrB63hK5xa94y9Jf8JR42TX6AdcDbRTL4dA5Chbt0BPNNvjDELhTDmHllg28FIR5x9oqFQiERs1NSqZueBMCd9sdgHRV5SQdAFaHBfQGu66io5cn5UdtF2cxrxo1fmcvtsU4atNQ8JJy9obhQGp/QCstwmS4XTyztQlQ5/42x2yha0XVrJnTio9lupiNig3BANYhkp1kOfA8oZmVrX3jxO0aS3fvlCFlZtUZfcrLEgccxS38AAG6wlELZrhyCBJ1D8xoq/jYMLqkj5kT30eonhFknX</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.medolago.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/medolago"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.medolago.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/medolago" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">medolago</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_f085</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Medolago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.medolago.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.ugento.le.it/" ID="pfx7fef1da6-78bf-54c1-bbc2-9ed6c75d8057"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx7fef1da6-78bf-54c1-bbc2-9ed6c75d8057"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2dw1OrupHwz7CjwRyQCeO+COg/BHFbsI3W4Of45jG18=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>lFygxiv4KK1ZjkMDOhYSzHfNsNvrwGaH7bvmuaEYJwRp1eHBPxRHV0nayk362epaT3+0MoST4O+rYJxofeYUEbycKkxU35s9IWipIGqIys2WdSUJABX/0xSGcwNTg6IBWiHTLNfibSIZYGF/TM7jGxEqjMe56j1rhaAxZf3fVwTS2s1SjDplq+yxhiD7Ja09dARlmC4SvgkAT83iHWoXz3ost7kZj9u5aFmiT9imGm9bHZVUwRzKI6TkAF1X+RivckLp1TiwOMONXfUkmzVPoPlwVBdGfDJnciWnZKhx3MYSZ4fwPmsrtIy48kISNyfQZk4RhadlKXoIgka1aZ6AYw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEDDCCAvSgAwIBAgIJANSFSQp5Z9caMA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFTGVjY2UxDzANBgNVBAcMBlVnZW50bzEZMBcGA1UECgwQQ29tdW5lIGRpIFVnZW50bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMDAuBgNVBAMMJ3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnVnZW50by5sZS5pdDAeFw0xNzA4MzAxNTA4MjhaFw0yNzA4MjgxNTA4MjhaMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFTGVjY2UxDzANBgNVBAcMBlVnZW50bzEZMBcGA1UECgwQQ29tdW5lIGRpIFVnZW50bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMDAuBgNVBAMMJ3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnVnZW50by5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3fYt6Z3dJfznbjcZdwJFxbFLPU5PlX8JVU8uvI8Ujk1AxwNh89ahOCH9Z3+j4UEchFdUZ/b3SHqZ1KW0EPbZXP2dO86SQT9nHo5L819FK9fEUZMRxKZ+rCoswhwZnZvbyahS3UU4H+IVj++Ed+ZqU/X31605wDjoVGiJmgcUfF/r2WtVErKXN2yUNmV5DBN2/SaLreU19h+Pxh0GKJ9HZ13U+8w2rwGDl/CZEFj6wlYMJRPYBDSCYFWsy52O5BZv4HTIEPeINjp0vvTr1kCuKEgwNI5TSWF/uTEf/KyCZetO+spo9ziv084qGWxm5poyQa2X4NT1u3AktROpXz8MUCAwEAAaNTMFEwHQYDVR0OBBYEFIL/kKhDukq87I4akoivlYjCaX+NMB8GA1UdIwQYMBaAFIL/kKhDukq87I4akoivlYjCaX+NMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEOcxkuJWr8Mwp7J9Cco+cMTfbX5yJbDhTdTK2DL9a/Gl0ydhSbJRXyJ7cJz2MCsickM/FNzf46qsrI1RvIhx7BzCWay+CgiasemB1OkOhScvhyV2u1Yyijeo+RGNmdrgcAi/Kdd6TqF8at8A0ZqVfrhxuYnmAu95B3kr1K+J8gEUKJpznEIyoTOoIgH6M9q6E4vKFz02KohQPoh1WOv/qErbtWZc2N2Uc30Vfh6Rf019+joAs8vUaszoesh1CSmnG1Pz20mtvB40XTz5rwvhLyPVgVZ1wsj330SIZu1H6bWsF7rw1ZxCoYgSZxSfdkyb+QyTIuW8gj9ahwAeykcOkg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDDCCAvSgAwIBAgIJANSFSQp5Z9caMA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFTGVjY2UxDzANBgNVBAcMBlVnZW50bzEZMBcGA1UECgwQQ29tdW5lIGRpIFVnZW50bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMDAuBgNVBAMMJ3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnVnZW50by5sZS5pdDAeFw0xNzA4MzAxNTA4MjhaFw0yNzA4MjgxNTA4MjhaMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFTGVjY2UxDzANBgNVBAcMBlVnZW50bzEZMBcGA1UECgwQQ29tdW5lIGRpIFVnZW50bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMDAuBgNVBAMMJ3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnVnZW50by5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3fYt6Z3dJfznbjcZdwJFxbFLPU5PlX8JVU8uvI8Ujk1AxwNh89ahOCH9Z3+j4UEchFdUZ/b3SHqZ1KW0EPbZXP2dO86SQT9nHo5L819FK9fEUZMRxKZ+rCoswhwZnZvbyahS3UU4H+IVj++Ed+ZqU/X31605wDjoVGiJmgcUfF/r2WtVErKXN2yUNmV5DBN2/SaLreU19h+Pxh0GKJ9HZ13U+8w2rwGDl/CZEFj6wlYMJRPYBDSCYFWsy52O5BZv4HTIEPeINjp0vvTr1kCuKEgwNI5TSWF/uTEf/KyCZetO+spo9ziv084qGWxm5poyQa2X4NT1u3AktROpXz8MUCAwEAAaNTMFEwHQYDVR0OBBYEFIL/kKhDukq87I4akoivlYjCaX+NMB8GA1UdIwQYMBaAFIL/kKhDukq87I4akoivlYjCaX+NMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEOcxkuJWr8Mwp7J9Cco+cMTfbX5yJbDhTdTK2DL9a/Gl0ydhSbJRXyJ7cJz2MCsickM/FNzf46qsrI1RvIhx7BzCWay+CgiasemB1OkOhScvhyV2u1Yyijeo+RGNmdrgcAi/Kdd6TqF8at8A0ZqVfrhxuYnmAu95B3kr1K+J8gEUKJpznEIyoTOoIgH6M9q6E4vKFz02KohQPoh1WOv/qErbtWZc2N2Uc30Vfh6Rf019+joAs8vUaszoesh1CSmnG1Pz20mtvB40XTz5rwvhLyPVgVZ1wsj330SIZu1H6bWsF7rw1ZxCoYgSZxSfdkyb+QyTIuW8gj9ahwAeykcOkg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDDCCAvSgAwIBAgIJANSFSQp5Z9caMA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFTGVjY2UxDzANBgNVBAcMBlVnZW50bzEZMBcGA1UECgwQQ29tdW5lIGRpIFVnZW50bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMDAuBgNVBAMMJ3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnVnZW50by5sZS5pdDAeFw0xNzA4MzAxNTA4MjhaFw0yNzA4MjgxNTA4MjhaMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFTGVjY2UxDzANBgNVBAcMBlVnZW50bzEZMBcGA1UECgwQQ29tdW5lIGRpIFVnZW50bzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMDAuBgNVBAMMJ3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnVnZW50by5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3fYt6Z3dJfznbjcZdwJFxbFLPU5PlX8JVU8uvI8Ujk1AxwNh89ahOCH9Z3+j4UEchFdUZ/b3SHqZ1KW0EPbZXP2dO86SQT9nHo5L819FK9fEUZMRxKZ+rCoswhwZnZvbyahS3UU4H+IVj++Ed+ZqU/X31605wDjoVGiJmgcUfF/r2WtVErKXN2yUNmV5DBN2/SaLreU19h+Pxh0GKJ9HZ13U+8w2rwGDl/CZEFj6wlYMJRPYBDSCYFWsy52O5BZv4HTIEPeINjp0vvTr1kCuKEgwNI5TSWF/uTEf/KyCZetO+spo9ziv084qGWxm5poyQa2X4NT1u3AktROpXz8MUCAwEAAaNTMFEwHQYDVR0OBBYEFIL/kKhDukq87I4akoivlYjCaX+NMB8GA1UdIwQYMBaAFIL/kKhDukq87I4akoivlYjCaX+NMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEOcxkuJWr8Mwp7J9Cco+cMTfbX5yJbDhTdTK2DL9a/Gl0ydhSbJRXyJ7cJz2MCsickM/FNzf46qsrI1RvIhx7BzCWay+CgiasemB1OkOhScvhyV2u1Yyijeo+RGNmdrgcAi/Kdd6TqF8at8A0ZqVfrhxuYnmAu95B3kr1K+J8gEUKJpznEIyoTOoIgH6M9q6E4vKFz02KohQPoh1WOv/qErbtWZc2N2Uc30Vfh6Rf019+joAs8vUaszoesh1CSmnG1Pz20mtvB40XTz5rwvhLyPVgVZ1wsj330SIZu1H6bWsF7rw1ZxCoYgSZxSfdkyb+QyTIuW8gj9ahwAeykcOkg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.ugento.le.it/simplesaml/module.php/saml/sp/saml2-logout.php/ugento"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.ugento.le.it/simplesaml/module.php/saml/sp/saml2-acs.php/ugento" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">ugento</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l484</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ugento</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.ugento.le.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

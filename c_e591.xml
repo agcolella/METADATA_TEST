@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxa3c7d1e7-5f5a-a99e-6fbe-7675e93efa3a" entityID="https://procedimenti.comune.limbiate.mb.it/simplesaml/module.php/saml/sp/metadata.php/limbiate-sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxa3c7d1e7-5f5a-a99e-6fbe-7675e93efa3a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>sro5o0NI09X/D1BvqxH4HKuuv1qh336KYjYbsr/b/vw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+GqQn4l1TRudpgxm1hOYpxVbPX6Ycu0uldbD9jM1nSSBOmiWGEKkH4e6pGLcJ2fJ7b13zlW4Q8317
+eT73DIvE4NdSTou+WqdpIl4vx09dK7VEgT0HcZAA7mmtytvaDeOzz2YjTWwTzBy5JiyHo+pIkmD/
+mCLYkaZhhxQOYPrPUVT+vTLXoa4eG67PO+tzaqB2Yhn4L6vpKnAPvKhfcmupmg4pNo4xf6TjJKHi
+1CPEvD2aoxNiZ0ZWpQQRCO2Znv505Q16WNJfkKx6aRkwrvDwC3+UopRiLsTI/fisuwJCH8QN0800
+RRwhGWDsMi3bHUvumgGUFieCB3sjXfXg55erRQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t3BLsipmLMJsvlEo0S/vv7GGZiOHiDblD6Hq82B1cdpd6+oE+DQbqaNUN1Odwq01sL+9K6aSsjQC
+5z8IeUlQJ3LBs571tDjcGt3ILEBwULJ3GRnUoQQpZzNFX3ChT84ir9b/qlitTLEdM9fTBxeUL6wd
+CMn0HCeH3uzmQZ47aEib5k5D3pEtYGmdNXS57SlGwJ7YIqQvfa3mHRJG/pVC3qsYNPcLXKiJfH1q
+VKPL9tOGLrX6tbvWPeg+j2Ok2CIUQiO7p85QVplOVev6rOuKE8OSFRMqt3YAUXg5E/WNNniLRSGl
+/ZJdpMlrkuohRobf82ZHYFSn4TN9ST97MHy01Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAJyhO0XU41YyMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUubGltYmlhdGUubWIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYw
+OTA4NDkyOFoXDTMwMDYwNzA4NDkyOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5saW1iaWF0ZS5t
+Yi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQC3cEuyKmYswmy+USjRL++/sYZmI4eINuUPoerzYHVx2l3r6gT4NBupo1Q3U53CrTWw
+v70rppKyNALnPwh5SVAncsGznvW0ONwa3cgsQHBQsncZGdShBClnM0VfcKFPziKv1v+qWK1MsR0z
+19MHF5QvrB0IyfQcJ4fe7OZBnjtoSJvmTkPekS1gaZ01dLntKUbAntgipC99reYdEkb+lULeqxg0
+9wtcqIl8fWpUo8v204Yutfq1u9Y96D6PY6TYIhRCI7unzlBWmU5V6/qs64oTw5IVEyq3dgBReDkT
+9Y02eItFIaX9kl2kyWuS6iFGht/zZkdgVKfhM31JP3swfLTVAgMBAAGjUDBOMB0GA1UdDgQWBBSd
+T0rkBekYiUd81/3YB8gLgNlOLzAfBgNVHSMEGDAWgBSdT0rkBekYiUd81/3YB8gLgNlOLzAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBld4lWxcHiu8rb4X2pj/MOwIjcw0ZmLCnO13fH
+MF+U5M8HZE8Fvb1jSO6YuDG6tckCvKvq7D4Y5hSJluLvwiaSMyjyfgnPYyUG2aDFhVnXlR1/41l4
+ZBb4GSW4ZPsWNsCwRUSIgcvbF64D3FKYO1jy5nVmyWCaoDEdcU0KEsUQupFbRu77HvBAh0//n2Nz
+p8SB0Wcb1SDsodD2hhcqoPm0oo7t4xNH833igW2YA2pMRTR/E2bD7WGQUajy4tguvbFHIY1C3z6F
+MiB2vQXUs7gQmh5Tq/F6x6PhsTgwAEkdBtq3oS9sqyTs+rL7p4GNM5cP5z5gPWpBIancMX3d1ago
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEQTCCAymgAwIBAgIJAN/Dwk+QaJUfMA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCExpbWJpYXRlMRswGQYDVQQKDBJDb211bmUgZGkgTGltYmlhdGUxDzANBgNVBAsMBkhFUkFMRDErMCkGA1UEAwwicHJvY2VkaW1lbnRpLmNvbXVuZS5saW1iaWF0ZS5tYi5pdDEpMCcGCSqGSIb3DQEJARYaaGVyYWxkQHNpbmV0aW5mb3JtYXRpY2EuaXQwHhcNMTcwNTEwMDcwNDU5WhcNMjcwNTEwMDcwNDU5WjCBtjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MREwDwYDVQQHDAhMaW1iaWF0ZTEbMBkGA1UECgwSQ29tdW5lIGRpIExpbWJpYXRlMQ8wDQYDVQQLDAZIRVJBTEQxKzApBgNVBAMMInByb2NlZGltZW50aS5jb211bmUubGltYmlhdGUubWIuaXQxKTAnBgkqhkiG9w0BCQEWGmhlcmFsZEBzaW5ldGluZm9ybWF0aWNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzSr6ODGRL2fpU6KobtHcrML1pa74ePFv8DoqtvI4EvRq7CbaxzYe3zJPYrXbF2eb+1oqmyloC67yMqehOyaphZ9eVzJudoB3cufiOc5GszDUosXxXgVCUPlRkBdrgCX4E7X64TNgP9belhIqOjHLQU7w5WATQlkngUjcN2D5D6GFJ1NL2r8Jap8bRY4pHmpkP022j9yFD8TGL17k+3hcVgvRYsGIo4WR1b/kvTYvxzyu5IfdRIcjhdKlkc8AM2KpxD4Tw9rbvI8HQ5glLGpaYc17hMVxMP5NwTKan4C0GTAkqBgQFo0Xl2WK/jL8hn9M04zhu331IoD2/q/PCxKCRQIDAQABo1AwTjAdBgNVHQ4EFgQUOF8nVC5fQABiVbu6skWv3CGGbcAwHwYDVR0jBBgwFoAUOF8nVC5fQABiVbu6skWv3CGGbcAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAWEkbr/h390NV6yvlmjE1EBu1yaM9DSL9hE6nIJx59iXjgBVVvSluOrmgD1lhoLJr0Btq5p/oBVO3+XK5bB8N6jDwvxLSHU9LPBsl5VbrNHHx76zvyaVDzVRAouKVQ6879RJCkVB1c8KlvOQwOT+VHGewhaHa8lwK0D1miJ728jMBz7IYJrYTqJZFgavwrRXFGzo4fDtqtfeOVDHg7b3eLovIWMr8aKkqiSmc7bvG+OZsne16HKwrrlIulzmjiZXe7rm96Q4I3H2C+w+2XX4V+wez0oOeNQPyX7TNVSf1ycs1QhkxuWauF66Qt90NF/YweTMUoq3gzcmxv4PS3NTjFQ==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEQTCCAymgAwIBAgIJAN/Dwk+QaJUfMA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCExpbWJpYXRlMRswGQYDVQQKDBJDb211bmUgZGkgTGltYmlhdGUxDzANBgNVBAsMBkhFUkFMRDErMCkGA1UEAwwicHJvY2VkaW1lbnRpLmNvbXVuZS5saW1iaWF0ZS5tYi5pdDEpMCcGCSqGSIb3DQEJARYaaGVyYWxkQHNpbmV0aW5mb3JtYXRpY2EuaXQwHhcNMTcwNTEwMDcwNDU5WhcNMjcwNTEwMDcwNDU5WjCBtjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MREwDwYDVQQHDAhMaW1iaWF0ZTEbMBkGA1UECgwSQ29tdW5lIGRpIExpbWJpYXRlMQ8wDQYDVQQLDAZIRVJBTEQxKzApBgNVBAMMInByb2NlZGltZW50aS5jb211bmUubGltYmlhdGUubWIuaXQxKTAnBgkqhkiG9w0BCQEWGmhlcmFsZEBzaW5ldGluZm9ybWF0aWNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzSr6ODGRL2fpU6KobtHcrML1pa74ePFv8DoqtvI4EvRq7CbaxzYe3zJPYrXbF2eb+1oqmyloC67yMqehOyaphZ9eVzJudoB3cufiOc5GszDUosXxXgVCUPlRkBdrgCX4E7X64TNgP9belhIqOjHLQU7w5WATQlkngUjcN2D5D6GFJ1NL2r8Jap8bRY4pHmpkP022j9yFD8TGL17k+3hcVgvRYsGIo4WR1b/kvTYvxzyu5IfdRIcjhdKlkc8AM2KpxD4Tw9rbvI8HQ5glLGpaYc17hMVxMP5NwTKan4C0GTAkqBgQFo0Xl2WK/jL8hn9M04zhu331IoD2/q/PCxKCRQIDAQABo1AwTjAdBgNVHQ4EFgQUOF8nVC5fQABiVbu6skWv3CGGbcAwHwYDVR0jBBgwFoAUOF8nVC5fQABiVbu6skWv3CGGbcAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAWEkbr/h390NV6yvlmjE1EBu1yaM9DSL9hE6nIJx59iXjgBVVvSluOrmgD1lhoLJr0Btq5p/oBVO3+XK5bB8N6jDwvxLSHU9LPBsl5VbrNHHx76zvyaVDzVRAouKVQ6879RJCkVB1c8KlvOQwOT+VHGewhaHa8lwK0D1miJ728jMBz7IYJrYTqJZFgavwrRXFGzo4fDtqtfeOVDHg7b3eLovIWMr8aKkqiSmc7bvG+OZsne16HKwrrlIulzmjiZXe7rm96Q4I3H2C+w+2XX4V+wez0oOeNQPyX7TNVSf1ycs1QhkxuWauF66Qt90NF/YweTMUoq3gzcmxv4PS3NTjFQ==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAJyhO0XU41YyMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubGltYmlhdGUubWIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYwOTA4NDkyOFoXDTMwMDYwNzA4NDkyOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5saW1iaWF0ZS5tYi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3cEuyKmYswmy+USjRL++/sYZmI4eINuUPoerzYHVx2l3r6gT4NBupo1Q3U53CrTWwv70rppKyNALnPwh5SVAncsGznvW0ONwa3cgsQHBQsncZGdShBClnM0VfcKFPziKv1v+qWK1MsR0z19MHF5QvrB0IyfQcJ4fe7OZBnjtoSJvmTkPekS1gaZ01dLntKUbAntgipC99reYdEkb+lULeqxg09wtcqIl8fWpUo8v204Yutfq1u9Y96D6PY6TYIhRCI7unzlBWmU5V6/qs64oTw5IVEyq3dgBReDkT9Y02eItFIaX9kl2kyWuS6iFGht/zZkdgVKfhM31JP3swfLTVAgMBAAGjUDBOMB0GA1UdDgQWBBSdT0rkBekYiUd81/3YB8gLgNlOLzAfBgNVHSMEGDAWgBSdT0rkBekYiUd81/3YB8gLgNlOLzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBld4lWxcHiu8rb4X2pj/MOwIjcw0ZmLCnO13fHMF+U5M8HZE8Fvb1jSO6YuDG6tckCvKvq7D4Y5hSJluLvwiaSMyjyfgnPYyUG2aDFhVnXlR1/41l4ZBb4GSW4ZPsWNsCwRUSIgcvbF64D3FKYO1jy5nVmyWCaoDEdcU0KEsUQupFbRu77HvBAh0//n2Nzp8SB0Wcb1SDsodD2hhcqoPm0oo7t4xNH833igW2YA2pMRTR/E2bD7WGQUajy4tguvbFHIY1C3z6FMiB2vQXUs7gQmh5Tq/F6x6PhsTgwAEkdBtq3oS9sqyTs+rL7p4GNM5cP5z5gPWpBIancMX3d1ago</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.limbiate.mb.it/simplesaml/module.php/saml/sp/saml2-logout.php/limbiate-sp"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/limbiate"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.limbiate.mb.it/simplesaml/module.php/saml/sp/saml2-acs.php/limbiate-sp" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/limbiate" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/limbiate" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/limbiate" index="3"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">Comune di Limbiate</md:ServiceName>
+         <md:ServiceDescription xml:lang="en">Portale al cittadino</md:ServiceDescription>
+         <md:ServiceDescription xml:lang="it">Portale al cittadino</md:ServiceDescription>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="en">Comune di Limbiate</md:OrganizationName>
+      <md:OrganizationName xml:lang="it">Comune di Limbiate</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Limbiate - Accesso ai servizi</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Limbiate - Accesso ai servizi</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.comune.limbiate.mb.it/</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="it">http://www.comune.limbiate.mb.it/</md:OrganizationURL>
+   </md:Organization>
+</md:EntityDescriptor>

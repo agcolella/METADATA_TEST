@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="SanBonifacioSPID" entityID="https://www.comune.sanbonifacio.vr.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SanBonifacioSPID">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8GbDOV6zVTT6Du95fXa4MzijDGgK6/eftCmQ87Yh8Gg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hqZeqKO8hgz6QVfIiY2wIu7rVJRWFrnMXvi6ALwyzbb/2W0sBu4HQ/wW3FxvgYtraPRqSb/fd3ul
+jJoj3tPdvp0AP6T3/2sXJ6ZNshqX2mHr7nAEuawscMzqjE4Y2N3RpNC6lpykNnPY9O7leG032HC/
+8BLB1pqHvAzWypGW6WsXFDw00M5s1h0QymQTeRBhUJDBvU3S3Anz7IdGoc3GV/dpWUqMnQkXQeMs
+ZLXh7McSo/gdHKnE7EynxhWmnirmPc4mAFEUSBdhtE3vjjGazMLCbgybpWyYZd5bHg6UdeJws/8F
+TvDGbvzBrugQmvu1GUoOhA7LxggBWE7gmpM3xA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+m+fFU//yGKXWcQyp1Pu5DElPKlvarb7ezq/kG4AAz928EN4LWvsDo44B1WREmXQifyNM7FkRTB33
+QUkk5VRb6uAw9GWArmvbsLLkIEPfG+Ouw/BRDWNnVNGwuyz98eS3SFOfqG+syaPLwn7bTZM69EEA
+gJVhyKRjVpoUJ4fKoXGExWVkU7llgfr1Z/2NUieFo9gZwwEnVhuMw+waQu/vfXCjiFYKW0pH1+ry
+JsM9pfBAORDKvuM6X9qth6GG+qIulZ/uQZTeSzhMOzMCQ8/pGrAC20ZtAWSMIucJIz37CsYNuGsp
+nki67VfnKX12uDTv4XJEoU8OI+/z36psKAyYnw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWzCCAkOgAwIBAgIJAN0PJvGv22IvMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5j
+b211bmUuc2FuYm9uaWZhY2lvLnZyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0x
+OTAzMTkxMzMzMTlaFw0yOTAzMTYxMzMzMTlaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUuc2FuYm9u
+aWZhY2lvLnZyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAJvnxVP/8hil1nEMqdT7uQxJTypb2q2+3s6v5BuAAM/dvBDeC1r7A6OO
+AdVkRJl0In8jTOxZEUwd90FJJOVUW+rgMPRlgK5r27Cy5CBD3xvjrsPwUQ1jZ1TRsLss/fHkt0hT
+n6hvrMmjy8J+202TOvRBAICVYcikY1aaFCeHyqFxhMVlZFO5ZYH69Wf9jVInhaPYGcMBJ1YbjMPs
+GkLv731wo4hWCltKR9fq8ibDPaXwQDkQyr7jOl/arYehhvqiLpWf7kGU3ks4TDszAkPP6RqwAttG
+bQFkjCLnCSM9+wrGDbhrKZ5Iuu1X5yl9drg07+FyRKFPDiPv89+qbCgMmJ8CAwEAAaNQME4wHQYD
+VR0OBBYEFHvRTsk4b8l+sbeMBdlmW0/T79JPMB8GA1UdIwQYMBaAFHvRTsk4b8l+sbeMBdlmW0/T
+79JPMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADdzAgtCYgeV1Dn+6KW5soYmOuYP
+gabENg+W4lkcSz2cQzhO16A0+1cuLW1IdNFhb0UWu2eWfHpaZk0MIQrZJFRuL0JnovTPo3NR5dl/
+43orPoRRHR59povTW/ek6h12cUX3SyP6cpHbEezoJJFjIDOi+RkMB1pSctvNJ20hSnWlxJXl8TlP
+mU8Rzpa5EU3KFJH58PATlcykHGolIIvJJfEKq4vE9meiIocKdX8lkskEBkJm9+WrvT0VPDAN3tgd
+H3xXVaM4R6W5kfEiaEHZZDn4xXJMwuqY6XMN9VgcxgSNtHPUn1Yi/5qoNC38Xqou28XEsjkpJcg/
+fRBKTvWZWmE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWzCCAkOgAwIBAgIJAN0PJvGv22IvMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5jb211bmUuc2FuYm9uaWZhY2lvLnZyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMTkxMzMzMTlaFw0yOTAzMTYxMzMzMTlaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUuc2FuYm9uaWZhY2lvLnZyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJvnxVP/8hil1nEMqdT7uQxJTypb2q2+3s6v5BuAAM/dvBDeC1r7A6OOAdVkRJl0In8jTOxZEUwd90FJJOVUW+rgMPRlgK5r27Cy5CBD3xvjrsPwUQ1jZ1TRsLss/fHkt0hTn6hvrMmjy8J+202TOvRBAICVYcikY1aaFCeHyqFxhMVlZFO5ZYH69Wf9jVInhaPYGcMBJ1YbjMPsGkLv731wo4hWCltKR9fq8ibDPaXwQDkQyr7jOl/arYehhvqiLpWf7kGU3ks4TDszAkPP6RqwAttGbQFkjCLnCSM9+wrGDbhrKZ5Iuu1X5yl9drg07+FyRKFPDiPv89+qbCgMmJ8CAwEAAaNQME4wHQYDVR0OBBYEFHvRTsk4b8l+sbeMBdlmW0/T79JPMB8GA1UdIwQYMBaAFHvRTsk4b8l+sbeMBdlmW0/T79JPMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADdzAgtCYgeV1Dn+6KW5soYmOuYPgabENg+W4lkcSz2cQzhO16A0+1cuLW1IdNFhb0UWu2eWfHpaZk0MIQrZJFRuL0JnovTPo3NR5dl/43orPoRRHR59povTW/ek6h12cUX3SyP6cpHbEezoJJFjIDOi+RkMB1pSctvNJ20hSnWlxJXl8TlPmU8Rzpa5EU3KFJH58PATlcykHGolIIvJJfEKq4vE9meiIocKdX8lkskEBkJm9+WrvT0VPDAN3tgdH3xXVaM4R6W5kfEiaEHZZDn4xXJMwuqY6XMN9VgcxgSNtHPUn1Yi/5qoNC38Xqou28XEsjkpJcg/fRBKTvWZWmE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sanbonifacio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanbonifacio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanbonifacio" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Bonifacio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di San Bonifacio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di San Bonifacio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di San Bonifacio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Bonifacio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Bonifacio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di San Bonifacio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di San Bonifacio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.sanbonifacio.vr.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.comune.sanbonifacio.vr.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">http://www.comune.sanbonifacio.vr.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">http://www.comune.sanbonifacio.vr.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

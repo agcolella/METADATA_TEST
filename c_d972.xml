@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="GenzanoDiRoma" entityID="https://www.comune.genzanodiroma.roma.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#GenzanoDiRoma">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Q+XRz2lcE7pKbvNqsb+60qvdOzdRkWQwI/b7ry6GM2Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PxcGCVg6FbpISO4U/tIfW831ZSCXOCLMllKuorHbBKYrLCK1u7+yA6N+/pa6h4EU/qaeVe6R+E/v
+mzpGM+jo2g5SPpkukBV7uLy63Qk7STn4L0iXa9BinuAeVs9OyefLCFk8CGLK7gg9B0vqiGgzl1YH
+7Q053t8zYjBrCtS+WhjseaZrIDD43cFGgcA1uWlhq22KM9lAthntnAOyu4r9HQ/bbI+bIj07UQL9
+jkoYl5fnGT36D/4JPtZ0wGNdSP5eORJ2EDoJlwD1ln5BlKDP/n76wTx/W8sEI3wXOnNYDJUuBcJI
+sqNR841DWJjZCa1lPnXjSo4B27eun586JNL5lg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vF0t6pnTLjVgPmzM3NfXXjJFCQMl+ElU+OwvZdFyQDQFHrTEYFaU28uQ+nPax+FxD3ob8Ply3Un9
+DZlJbtSY/OBEmE7nsFiN7ELWXMWyUwLK2tG7gxXkyfQQK0CkJCafXS+D3btpnPHiXRl9nHzbViRA
+5CgXt5+W8NX710LOPoc9jt2J/ueMGhJhpdla9hOuhgZ12xmZW9+F1jzfCACjkC1++IJKg+gRW2+6
+FZGsggZEyyrblezg9OTOI7Tv/FIj5iYb+6xdnv4qfDjlIkgdSpgXIHR1IHMlT26h0feBnuRRBwNi
+/oXG4Cjcyj3EMSbR5OG9XEC3Uldxb3eKXFM+FQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYTCCAkmgAwIBAgIJAMUO6oGrE49eMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5j
+b211bmUuZ2VuemFub2Rpcm9tYS5yb21hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAe
+Fw0yMDAzMDYwOTU5NTBaFw0zMDAzMDQwOTU5NTBaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuZ2Vu
+emFub2Rpcm9tYS5yb21hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBALxdLeqZ0y41YD5szNzX114yRQkDJfhJVPjsL2XRckA0BR60
+xGBWlNvLkPpz2sfhcQ96G/D5ct1J/Q2ZSW7UmPzgRJhO57BYjexC1lzFslMCytrRu4MV5Mn0ECtA
+pCQmn10vg927aZzx4l0ZfZx821YkQOQoF7eflvDV+9dCzj6HPY7dif7njBoSYaXZWvYTroYGddsZ
+mVvfhdY83wgAo5AtfviCSoPoEVtvuhWRrIIGRMsq25Xs4PTkziO07/xSI+YmG/usXZ7+Knw45SJI
+HUqYFyB0dSBzJU9uodH3gZ7kUQcDYv6FxuAo3Mo9xDEm0eThvVxAt1JXcW93ilxTPhUCAwEAAaNQ
+ME4wHQYDVR0OBBYEFBu6SDnWSZ9amx+EVBXda5jFyameMB8GA1UdIwQYMBaAFBu6SDnWSZ9amx+E
+VBXda5jFyameMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAE9cx0Oa4d9yvmSZzz4f
+txesG1dU4sxF6X0Wm5KofHNk00quyyjJAYNLutVwxhMzpJSvO9GFDNn89Joj/kXzQof0E1SxQkyK
+LIg6LDHySkLXgTajfTX8qsvbw6H4gUswVTa6e6YkkSUdLNfuUHKtrFaAZZ40VvL9GvjrWf3RJCfN
+IzyoYceOfvQTC6HrhZc/1Bc+FkaB540zm1qQ/AAuF7/EW79A97A6lmpWkBPLGUyJy5z9MJeumXrA
+98Y926PdC4Ed78eA96fR8DpQlfAm3XNgSDcOSeYAU4mmG6qE2ATirOX2IkBFE2h+UDjAMwkqJMkA
+dtHkg9nuSIuOLtwA/8w=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJAMUO6oGrE49eMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuZ2VuemFub2Rpcm9tYS5yb21hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAzMDYwOTU5NTBaFw0zMDAzMDQwOTU5NTBaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuZ2VuemFub2Rpcm9tYS5yb21hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALxdLeqZ0y41YD5szNzX114yRQkDJfhJVPjsL2XRckA0BR60xGBWlNvLkPpz2sfhcQ96G/D5ct1J/Q2ZSW7UmPzgRJhO57BYjexC1lzFslMCytrRu4MV5Mn0ECtApCQmn10vg927aZzx4l0ZfZx821YkQOQoF7eflvDV+9dCzj6HPY7dif7njBoSYaXZWvYTroYGddsZmVvfhdY83wgAo5AtfviCSoPoEVtvuhWRrIIGRMsq25Xs4PTkziO07/xSI+YmG/usXZ7+Knw45SJIHUqYFyB0dSBzJU9uodH3gZ7kUQcDYv6FxuAo3Mo9xDEm0eThvVxAt1JXcW93ilxTPhUCAwEAAaNQME4wHQYDVR0OBBYEFBu6SDnWSZ9amx+EVBXda5jFyameMB8GA1UdIwQYMBaAFBu6SDnWSZ9amx+EVBXda5jFyameMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAE9cx0Oa4d9yvmSZzz4ftxesG1dU4sxF6X0Wm5KofHNk00quyyjJAYNLutVwxhMzpJSvO9GFDNn89Joj/kXzQof0E1SxQkyKLIg6LDHySkLXgTajfTX8qsvbw6H4gUswVTa6e6YkkSUdLNfuUHKtrFaAZZ40VvL9GvjrWf3RJCfNIzyoYceOfvQTC6HrhZc/1Bc+FkaB540zm1qQ/AAuF7/EW79A97A6lmpWkBPLGUyJy5z9MJeumXrA98Y926PdC4Ed78eA96fR8DpQlfAm3XNgSDcOSeYAU4mmG6qE2ATirOX2IkBFE2h+UDjAMwkqJMkAdtHkg9nuSIuOLtwA/8w=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJAMUO6oGrE49eMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuZ2VuemFub2Rpcm9tYS5yb21hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAzMDYwOTU5NTBaFw0zMDAzMDQwOTU5NTBaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuZ2VuemFub2Rpcm9tYS5yb21hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALxdLeqZ0y41YD5szNzX114yRQkDJfhJVPjsL2XRckA0BR60xGBWlNvLkPpz2sfhcQ96G/D5ct1J/Q2ZSW7UmPzgRJhO57BYjexC1lzFslMCytrRu4MV5Mn0ECtApCQmn10vg927aZzx4l0ZfZx821YkQOQoF7eflvDV+9dCzj6HPY7dif7njBoSYaXZWvYTroYGddsZmVvfhdY83wgAo5AtfviCSoPoEVtvuhWRrIIGRMsq25Xs4PTkziO07/xSI+YmG/usXZ7+Knw45SJIHUqYFyB0dSBzJU9uodH3gZ7kUQcDYv6FxuAo3Mo9xDEm0eThvVxAt1JXcW93ilxTPhUCAwEAAaNQME4wHQYDVR0OBBYEFBu6SDnWSZ9amx+EVBXda5jFyameMB8GA1UdIwQYMBaAFBu6SDnWSZ9amx+EVBXda5jFyameMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAE9cx0Oa4d9yvmSZzz4ftxesG1dU4sxF6X0Wm5KofHNk00quyyjJAYNLutVwxhMzpJSvO9GFDNn89Joj/kXzQof0E1SxQkyKLIg6LDHySkLXgTajfTX8qsvbw6H4gUswVTa6e6YkkSUdLNfuUHKtrFaAZZ40VvL9GvjrWf3RJCfNIzyoYceOfvQTC6HrhZc/1Bc+FkaB540zm1qQ/AAuF7/EW79A97A6lmpWkBPLGUyJy5z9MJeumXrA98Y926PdC4Ed78eA96fR8DpQlfAm3XNgSDcOSeYAU4mmG6qE2ATirOX2IkBFE2h+UDjAMwkqJMkAdtHkg9nuSIuOLtwA/8w=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/genzanodiroma"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/genzanodiroma" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/genzanodiroma" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/genzanodiroma" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Genzano di Roma</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Genzano di Roma</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Genzano di Roma</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Genzano di Roma</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Genzano di Roma</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Genzano di Roma</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Genzano di Roma</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Genzano di Roma</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.genzanodiroma.roma.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.genzanodiroma.roma.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.genzanodiroma.roma.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.genzanodiroma.roma.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

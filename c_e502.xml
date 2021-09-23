@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.lazise.vr.it" ID="pfx0b7090ff-97e4-5aa2-643e-4dde33e32207"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx0b7090ff-97e4-5aa2-643e-4dde33e32207"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Ax3jzzKQlGpM9ZYfLvmxFKz1yw+z/ZN4K5Zg5+UEYuA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>mzaXEG0EDUzawmrkRP9o940p6vqeG2ZOrEBdfh6tv/WslvKVZ8izn/ZrgOms/DX+Txn/xGPB/3YPGr4w957pTcvUdUl1rSCyr7xJmFeEPQ5e6PByR5atJp9iQcoiAQGkDWkvnnwm2vNWv3PJBr/aI/H3W4ERfLeBqaDziY8mGFDqmpk0KFQwmuoLvOJy5yCcGAnQXP6EwBw0kj2msYPPOLxnnCUJium+3c2P3UHDaQlrFvzJ1gDJp46MCyJFcVAIgtH8lAytFKHGioTHjnrrZ3kcv1Tmj8dPhjfpcVpHPHwdNgmK1fKBGdkejAY+6158+SUJBbQmkaEg7+e25oCtPA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAP+32IfsTueZMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTGF6aXNlMRkwFwYDVQQKDBBDb211bmUgZGkgTGF6aXNlMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxhemlzZS52ci5pdDAeFw0xODA0MjMxMDI2MTFaFw0yODA0MjIxMDI2MTFaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTGF6aXNlMRkwFwYDVQQKDBBDb211bmUgZGkgTGF6aXNlMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxhemlzZS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALshROpZQvVC/PNp+oVNnrSWlHX6Zz/Zz6iS0Vt64//088+/ZeznAwyoE/1wLusz/oeRvZZqsZ01fDl3dz7oLNyQ+iYrO25ofAhUeQCgCMuz0A1mNpsMXa7DI+byAe6eDw3SrpjmvsFJOrR/eEilu6iaDiKO7jDwKVLn/Awba3AMk1WwFbZtfMAiSJHkiY459WDCdUUixOhzm/39AnxVOyyGiMLQBCTsazL0SDGwxUQIDUC0S+vYuolQz3Hjp54uLFDdNl5Ofx1/iaVBzu8pGuvJ/L+pBF8WCaByVm7CtZfjHvg5LlSMIViHPvqFAY1/kTaGR3k5R1wnr7eFOBB6GA8CAwEAAaNQME4wHQYDVR0OBBYEFLn0fZIuK+NGlLXZdwphDW8lkkKzMB8GA1UdIwQYMBaAFLn0fZIuK+NGlLXZdwphDW8lkkKzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACZMy5y7lCSgKKny0LtaLAOyPf28BHPIiKjCmocWVcd3Vn1x7CFPwsjFDo0lXR7+aA1WRShz7pzbiy2J6GgDt+PBqPmC/c6UkQyeCMQygrDK6aI/TCUSlS1UgnyomjMmg4Ob39ZAEeYZPpHZVzW/ouBq6TAFFW03hGL9eA6KgRsHFP5IJCy6fFQAjoG2XOnl2CLlw0QYoE/7ixJv0EblTLPMBComgpcG6bAteafWqEVErXSYB35aKJQDQgQLdGeaJufQtxyQaQPSyDDUVpz846lM0W6ZrDgQvjPDbVV0Nc5ilCawQaX5wetCGxZMX/Kx9+ehcfYoQRFe4KWbGcmEjMA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAP+32IfsTueZMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTGF6aXNlMRkwFwYDVQQKDBBDb211bmUgZGkgTGF6aXNlMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxhemlzZS52ci5pdDAeFw0xODA0MjMxMDI2MTFaFw0yODA0MjIxMDI2MTFaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTGF6aXNlMRkwFwYDVQQKDBBDb211bmUgZGkgTGF6aXNlMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxhemlzZS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALshROpZQvVC/PNp+oVNnrSWlHX6Zz/Zz6iS0Vt64//088+/ZeznAwyoE/1wLusz/oeRvZZqsZ01fDl3dz7oLNyQ+iYrO25ofAhUeQCgCMuz0A1mNpsMXa7DI+byAe6eDw3SrpjmvsFJOrR/eEilu6iaDiKO7jDwKVLn/Awba3AMk1WwFbZtfMAiSJHkiY459WDCdUUixOhzm/39AnxVOyyGiMLQBCTsazL0SDGwxUQIDUC0S+vYuolQz3Hjp54uLFDdNl5Ofx1/iaVBzu8pGuvJ/L+pBF8WCaByVm7CtZfjHvg5LlSMIViHPvqFAY1/kTaGR3k5R1wnr7eFOBB6GA8CAwEAAaNQME4wHQYDVR0OBBYEFLn0fZIuK+NGlLXZdwphDW8lkkKzMB8GA1UdIwQYMBaAFLn0fZIuK+NGlLXZdwphDW8lkkKzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACZMy5y7lCSgKKny0LtaLAOyPf28BHPIiKjCmocWVcd3Vn1x7CFPwsjFDo0lXR7+aA1WRShz7pzbiy2J6GgDt+PBqPmC/c6UkQyeCMQygrDK6aI/TCUSlS1UgnyomjMmg4Ob39ZAEeYZPpHZVzW/ouBq6TAFFW03hGL9eA6KgRsHFP5IJCy6fFQAjoG2XOnl2CLlw0QYoE/7ixJv0EblTLPMBComgpcG6bAteafWqEVErXSYB35aKJQDQgQLdGeaJufQtxyQaQPSyDDUVpz846lM0W6ZrDgQvjPDbVV0Nc5ilCawQaX5wetCGxZMX/Kx9+ehcfYoQRFe4KWbGcmEjMA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAP+32IfsTueZMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTGF6aXNlMRkwFwYDVQQKDBBDb211bmUgZGkgTGF6aXNlMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxhemlzZS52ci5pdDAeFw0xODA0MjMxMDI2MTFaFw0yODA0MjIxMDI2MTFaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTGF6aXNlMRkwFwYDVQQKDBBDb211bmUgZGkgTGF6aXNlMSAwHgYDVQQDDBd3d3cuY29tdW5lLmxhemlzZS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALshROpZQvVC/PNp+oVNnrSWlHX6Zz/Zz6iS0Vt64//088+/ZeznAwyoE/1wLusz/oeRvZZqsZ01fDl3dz7oLNyQ+iYrO25ofAhUeQCgCMuz0A1mNpsMXa7DI+byAe6eDw3SrpjmvsFJOrR/eEilu6iaDiKO7jDwKVLn/Awba3AMk1WwFbZtfMAiSJHkiY459WDCdUUixOhzm/39AnxVOyyGiMLQBCTsazL0SDGwxUQIDUC0S+vYuolQz3Hjp54uLFDdNl5Ofx1/iaVBzu8pGuvJ/L+pBF8WCaByVm7CtZfjHvg5LlSMIViHPvqFAY1/kTaGR3k5R1wnr7eFOBB6GA8CAwEAAaNQME4wHQYDVR0OBBYEFLn0fZIuK+NGlLXZdwphDW8lkkKzMB8GA1UdIwQYMBaAFLn0fZIuK+NGlLXZdwphDW8lkkKzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACZMy5y7lCSgKKny0LtaLAOyPf28BHPIiKjCmocWVcd3Vn1x7CFPwsjFDo0lXR7+aA1WRShz7pzbiy2J6GgDt+PBqPmC/c6UkQyeCMQygrDK6aI/TCUSlS1UgnyomjMmg4Ob39ZAEeYZPpHZVzW/ouBq6TAFFW03hGL9eA6KgRsHFP5IJCy6fFQAjoG2XOnl2CLlw0QYoE/7ixJv0EblTLPMBComgpcG6bAteafWqEVErXSYB35aKJQDQgQLdGeaJufQtxyQaQPSyDDUVpz846lM0W6ZrDgQvjPDbVV0Nc5ilCawQaX5wetCGxZMX/Kx9+ehcfYoQRFe4KWbGcmEjMA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.lazise.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.lazise.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lazise</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lazise</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lazise.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

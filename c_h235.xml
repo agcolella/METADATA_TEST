@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rende" entityID="https://www.comune.rende.cs.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rende">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Mw4yJHpu5SrXMSyo5Xjd+/8IDbJYUei84vnoyc0kxjM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CWQ3l+7vN+0PoNieJFKsL0JRdfct0ACPMvVB06UBm2EqBGly3J2bqtzByrJJUwWJUK4W5B371aMN
+3PAkxi1LWb0fqIPtrX+nOtVDAdTg7dly59VofYMVuTLWvuhSw5/G9HZ9J4pa/GJpS46NjSuQTrGm
+xFOzlmQXKMqRZR66dphVY1pVnGwbJbaXQfkyeqTIRe0LD5/k/kUUHKvH3RizyyYDiVTbUjM6rXUX
+joczPpgJzjdpcLRTQGKzQH9qczK0XZtLcLhBBYBRVP5oV43AWkloN2/HXYAnPHyfXG5+RdYdkU8f
+DrufDvOA78PYwis45EDvrQCBXJrS9wMm/LghFA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vgNPsMIaNu63bHAK115jPm5qf4gRjVfqPbGMIXtOsguaW2FbwOkcpA4JBWytd6NBlD2evAK74nUT
+4pYlKtKYFJo4xtqJ06KOhPPMEURZkybjskw1ggtX3deQ7G6uLpjQt32cXaOojjDEZS0A6V5xkBks
+U8hNPanDOulhV8IoT8xWOmn07k6pup1pnHuDzlTTsFsxiqjhxJWglMIlrOSRELwNiFnSmPzImEQW
+bCL/Q7ZfgU3ruVrVHHFf56aPFXBiOeaqU1eGcMLas8UNRfpqzaXsS6rj3Sk9H6ZHpKA9OHWOHD7/
+Pf83URALrIFrTAAFTfAvOQMGg82YLfODM0rptw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAM0uRxxnJzgOMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmUucmVuZGUuY3MuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDkyNzA4
+NTUwM1oXDTI4MDkyNDA4NTUwM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5yZW5kZS5jcy5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC+A0+wwho27rdscArXXmM+bmp/iBGNV+o9sYwhe06yC5pbYVvA6RykDgkFbK13o0GUPZ68Arvi
+dRPiliUq0pgUmjjG2onToo6E88wRRFmTJuOyTDWCC1fd15Dsbq4umNC3fZxdo6iOMMRlLQDpXnGQ
+GSxTyE09qcM66WFXwihPzFY6afTuTqm6nWmce4POVNOwWzGKqOHElaCUwiWs5JEQvA2IWdKY/MiY
+RBZsIv9Dtl+BTeu5WtUccV/npo8VcGI55qpTV4ZwwtqzxQ1F+mrNpexLquPdKT0fpkekoD04dY4c
+Pv89/zdREAusgWtMAAVN8C85AwaDzZgt84MzSum3AgMBAAGjUDBOMB0GA1UdDgQWBBQC16ZPemau
+SlDw5MvEx6hzbANUDzAfBgNVHSMEGDAWgBQC16ZPemauSlDw5MvEx6hzbANUDzAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBoyPhuFhV0G8tG5RDgvtjXm2YcWfL8ZYCuYJMaBT4K0O8u
+fn6aFXpfKTcyK73Rbabfzy0PZP4a+oUXAZMjOtosogl2j7gEAvBFhbKgU9tl6zP/TaDKDavPzEgL
+mVAmIuwZ6Tvv3LZaGuY7bqwgwwsmN8rlP2k7xN3w1k81301G7JEPo5WjffQgnmdT3S+ldsOCmxMS
+5U3zPBIJyqQkQg7tNHtTYvTx/gNrLnIOQ7qvsNtqOzjR9D8xaytIwjcF+ZFu2g/xN5RFPBd34K4N
+HA1QovfFDxMwualfOSwIbkuG743OjpAbCpCm5BtfiizvRh0SqMdFuUBv0qn/ciw7kU4v
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAM0uRxxnJzgOMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUucmVuZGUuY3MuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDkyNzA4NTUwM1oXDTI4MDkyNDA4NTUwM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5yZW5kZS5jcy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+A0+wwho27rdscArXXmM+bmp/iBGNV+o9sYwhe06yC5pbYVvA6RykDgkFbK13o0GUPZ68ArvidRPiliUq0pgUmjjG2onToo6E88wRRFmTJuOyTDWCC1fd15Dsbq4umNC3fZxdo6iOMMRlLQDpXnGQGSxTyE09qcM66WFXwihPzFY6afTuTqm6nWmce4POVNOwWzGKqOHElaCUwiWs5JEQvA2IWdKY/MiYRBZsIv9Dtl+BTeu5WtUccV/npo8VcGI55qpTV4ZwwtqzxQ1F+mrNpexLquPdKT0fpkekoD04dY4cPv89/zdREAusgWtMAAVN8C85AwaDzZgt84MzSum3AgMBAAGjUDBOMB0GA1UdDgQWBBQC16ZPemauSlDw5MvEx6hzbANUDzAfBgNVHSMEGDAWgBQC16ZPemauSlDw5MvEx6hzbANUDzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBoyPhuFhV0G8tG5RDgvtjXm2YcWfL8ZYCuYJMaBT4K0O8ufn6aFXpfKTcyK73Rbabfzy0PZP4a+oUXAZMjOtosogl2j7gEAvBFhbKgU9tl6zP/TaDKDavPzEgLmVAmIuwZ6Tvv3LZaGuY7bqwgwwsmN8rlP2k7xN3w1k81301G7JEPo5WjffQgnmdT3S+ldsOCmxMS5U3zPBIJyqQkQg7tNHtTYvTx/gNrLnIOQ7qvsNtqOzjR9D8xaytIwjcF+ZFu2g/xN5RFPBd34K4NHA1QovfFDxMwualfOSwIbkuG743OjpAbCpCm5BtfiizvRh0SqMdFuUBv0qn/ciw7kU4v
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAM0uRxxnJzgOMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUucmVuZGUuY3MuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDkyNzA4NTUwM1oXDTI4MDkyNDA4NTUwM1owPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5yZW5kZS5jcy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+A0+wwho27rdscArXXmM+bmp/iBGNV+o9sYwhe06yC5pbYVvA6RykDgkFbK13o0GUPZ68ArvidRPiliUq0pgUmjjG2onToo6E88wRRFmTJuOyTDWCC1fd15Dsbq4umNC3fZxdo6iOMMRlLQDpXnGQGSxTyE09qcM66WFXwihPzFY6afTuTqm6nWmce4POVNOwWzGKqOHElaCUwiWs5JEQvA2IWdKY/MiYRBZsIv9Dtl+BTeu5WtUccV/npo8VcGI55qpTV4ZwwtqzxQ1F+mrNpexLquPdKT0fpkekoD04dY4cPv89/zdREAusgWtMAAVN8C85AwaDzZgt84MzSum3AgMBAAGjUDBOMB0GA1UdDgQWBBQC16ZPemauSlDw5MvEx6hzbANUDzAfBgNVHSMEGDAWgBQC16ZPemauSlDw5MvEx6hzbANUDzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBoyPhuFhV0G8tG5RDgvtjXm2YcWfL8ZYCuYJMaBT4K0O8ufn6aFXpfKTcyK73Rbabfzy0PZP4a+oUXAZMjOtosogl2j7gEAvBFhbKgU9tl6zP/TaDKDavPzEgLmVAmIuwZ6Tvv3LZaGuY7bqwgwwsmN8rlP2k7xN3w1k81301G7JEPo5WjffQgnmdT3S+ldsOCmxMS5U3zPBIJyqQkQg7tNHtTYvTx/gNrLnIOQ7qvsNtqOzjR9D8xaytIwjcF+ZFu2g/xN5RFPBd34K4NHA1QovfFDxMwualfOSwIbkuG743OjpAbCpCm5BtfiizvRh0SqMdFuUBv0qn/ciw7kU4v
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rende"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rende" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rende" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rende" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rende</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rende</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rende</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rende</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rende</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rende</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rende</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rende</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rende.cs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rende.cs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rende.cs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rende.cs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

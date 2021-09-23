@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx8df16ec3-f014-5929-73a5-ca3d87a404f4" entityID="https://www.regione.sicilia.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx8df16ec3-f014-5929-73a5-ca3d87a404f4">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>gpJa13uK3Ixmu6mUhL99Na1knOMdPtzaV34njZj0ays=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>rF8D9e18RQPozw3OGbPyBY5/I4dHDwQzgJAnC9jI1MYQhk5q9RU7EfgaHujx0rGQhvbNygYF2SE2fS32V6IuI/SKgM9xAQh30kwCZAECftek8AuzcTROy9xo++ofJF+6ysEpUIzOvySH1ovG07qIwogdXJWqlUYFJdZjPR8xuwhg3vDzwgH988kYYce2lXeJLMQRdSLH+8FZ9jj+9eHDj2MOPzZ6IcmOsMM/RaWao/8KI6g4bwfv+b5Q18T0bWBAmNLhAGYedirXmrNvUuRcGJC4n5Gv9tSJ144e1Ws4Nlyu4bnCol7z700LohgzV1abC/5GLQ6hQoEwu3JYagacFQ==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>upecHF8x94D5fRHmU8xSA6qXcEJ+1WSjUfxYDH6vYworKpyoL5tLEoH1hjQo5DN1ugIBZHvBsaQzmV3SmnWbU0i+fU4Ic0RfIuK6S1qDLZLriCkpmnHgQIdcdT+FpSca240UPmxVGr1T8/csTKLkp8lFs2C/SX6xiBg2eCGtBsFfFY0CRmXarG0Tx5LoI5q6Amq9VxJhpeP7LMNP2uq5Dr+EJFDb4WRFHIjG9HXN5ukOToDVB2piI/AAwM1ZyALzJbWVIFtgjRyVA2/SQ3s9mW5mdelIEYMU+jtNOpmiq4hEW+WlD23EEGrZ8kEz7dJQVMKNR6wVbkvDj29h5486vQ==</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>MIIEVzCCAz+gAwIBAgIUb4I8dFEpWhJCeb0pr/cBYKB85LgwDQYJKoZIhvcNAQELBQAwgagxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExEDAOBgNVBAcMB1BhbGVybW8xGjAYBgNVBAoMEVJlZ2lvbmUgU2ljaWxpYW5hMQ0wCwYDVQQLDARBUklUMR4wHAYDVQQDDBVpcy5yZWdpb25lLnNpY2lsaWEuaXQxKzApBgkqhkiG9w0BCQEWHHdlYm1hc3RlckByZWdpb25lLnNpY2lsaWEuaXQwHhcNMjAxMDMwMTI1MDQ0WhcNMzAxMDI4MTI1MDQ0WjCBgzEaMBgGA1UECgwRUmVnaW9uZSBTaWNpbGlhbmExDTALBgNVBAsMBEFSSVQxCzAJBgNVBAYTAklUMR4wHAYDVQQDDBVpcy5yZWdpb25lLnNpY2lsaWEuaXQxEDAOBgNVBAcMB1BhbGVybW8xFzAVBgNVBGEMDlBBOklULXJfc2ljaWxpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupecHF8x94D5fRHmU8xSA6qXcEJ+1WSjUfxYDH6vYworKpyoL5tLEoH1hjQo5DN1ugIBZHvBsaQzmV3SmnWbU0i+fU4Ic0RfIuK6S1qDLZLriCkpmnHgQIdcdT+FpSca240UPmxVGr1T8/csTKLkp8lFs2C/SX6xiBg2eCGtBsFfFY0CRmXarG0Tx5LoI5q6Amq9VxJhpeP7LMNP2uq5Dr+EJFDb4WRFHIjG9HXN5ukOToDVB2piI/AAwM1ZyALzJbWVIFtgjRyVA2/SQ3s9mW5mdelIEYMU+jtNOpmiq4hEW+WlD23EEGrZ8kEz7dJQVMKNR6wVbkvDj29h5486vQIDAQABo4GbMIGYMIGABgNVHREEeTB3ghh3c28yYXBpbS1nYXRld2F5LXNlcnZpY2WCGXdzbzJhcGltLWlzLWFzLWttLXNlcnZpY2WCFndzbzJhcGltLXB1YnN0b3JlLXRtLTGCFndzbzJhcGltLXB1YnN0b3JlLXRtLTKCEHdzbzJhcGltLXNlcnZpY2UwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAHv149pwaEiou2T/NENfQDL9xQy6PwwDqEQp9mJP3vK/zxdloM83f1rgg9KzBSh02uLJHsnCS7+5p5PHoxgqjtZ6IyzUjYJJDR/SasHB9BKvbAKBMQoSd0Vwch256aLhpoXuBixwDTHICdKdlWI5NKPMehdo+QXIRlcsdTmgf0NTwqYG+UNsxWrL73r7y7aMiEJkC9UItQKDWKO5KGt/i4IEB871MahQl8fW2cQGchzTf+xFdUa0BRdzmxZusuug9L6/JnsarVHrQEasjDK8wmWQLHyOWh4kRTh4T47rQ1MqIHLHcQ9aXa1qR895bzkivegkiSOmNoljI+ja0T6ozMA=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIEVzCCAz+gAwIBAgIUb4I8dFEpWhJCeb0pr/cBYKB85LgwDQYJKoZIhvcNAQELBQAwgagxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExEDAOBgNVBAcMB1BhbGVybW8xGjAYBgNVBAoMEVJlZ2lvbmUgU2ljaWxpYW5hMQ0wCwYDVQQLDARBUklUMR4wHAYDVQQDDBVpcy5yZWdpb25lLnNpY2lsaWEuaXQxKzApBgkqhkiG9w0BCQEWHHdlYm1hc3RlckByZWdpb25lLnNpY2lsaWEuaXQwHhcNMjAxMDMwMTI1MDQ0WhcNMzAxMDI4MTI1MDQ0WjCBgzEaMBgGA1UECgwRUmVnaW9uZSBTaWNpbGlhbmExDTALBgNVBAsMBEFSSVQxCzAJBgNVBAYTAklUMR4wHAYDVQQDDBVpcy5yZWdpb25lLnNpY2lsaWEuaXQxEDAOBgNVBAcMB1BhbGVybW8xFzAVBgNVBGEMDlBBOklULXJfc2ljaWxpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupecHF8x94D5fRHmU8xSA6qXcEJ+1WSjUfxYDH6vYworKpyoL5tLEoH1hjQo5DN1ugIBZHvBsaQzmV3SmnWbU0i+fU4Ic0RfIuK6S1qDLZLriCkpmnHgQIdcdT+FpSca240UPmxVGr1T8/csTKLkp8lFs2C/SX6xiBg2eCGtBsFfFY0CRmXarG0Tx5LoI5q6Amq9VxJhpeP7LMNP2uq5Dr+EJFDb4WRFHIjG9HXN5ukOToDVB2piI/AAwM1ZyALzJbWVIFtgjRyVA2/SQ3s9mW5mdelIEYMU+jtNOpmiq4hEW+WlD23EEGrZ8kEz7dJQVMKNR6wVbkvDj29h5486vQIDAQABo4GbMIGYMIGABgNVHREEeTB3ghh3c28yYXBpbS1nYXRld2F5LXNlcnZpY2WCGXdzbzJhcGltLWlzLWFzLWttLXNlcnZpY2WCFndzbzJhcGltLXB1YnN0b3JlLXRtLTGCFndzbzJhcGltLXB1YnN0b3JlLXRtLTKCEHdzbzJhcGltLXNlcnZpY2UwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAHv149pwaEiou2T/NENfQDL9xQy6PwwDqEQp9mJP3vK/zxdloM83f1rgg9KzBSh02uLJHsnCS7+5p5PHoxgqjtZ6IyzUjYJJDR/SasHB9BKvbAKBMQoSd0Vwch256aLhpoXuBixwDTHICdKdlWI5NKPMehdo+QXIRlcsdTmgf0NTwqYG+UNsxWrL73r7y7aMiEJkC9UItQKDWKO5KGt/i4IEB871MahQl8fW2cQGchzTf+xFdUa0BRdzmxZusuug9L6/JnsarVHrQEasjDK8wmWQLHyOWh4kRTh4T47rQ1MqIHLHcQ9aXa1qR895bzkivegkiSOmNoljI+ja0T6ozMA=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIEVzCCAz+gAwIBAgIUb4I8dFEpWhJCeb0pr/cBYKB85LgwDQYJKoZIhvcNAQELBQAwgagxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExEDAOBgNVBAcMB1BhbGVybW8xGjAYBgNVBAoMEVJlZ2lvbmUgU2ljaWxpYW5hMQ0wCwYDVQQLDARBUklUMR4wHAYDVQQDDBVpcy5yZWdpb25lLnNpY2lsaWEuaXQxKzApBgkqhkiG9w0BCQEWHHdlYm1hc3RlckByZWdpb25lLnNpY2lsaWEuaXQwHhcNMjAxMDMwMTI1MDQ0WhcNMzAxMDI4MTI1MDQ0WjCBgzEaMBgGA1UECgwRUmVnaW9uZSBTaWNpbGlhbmExDTALBgNVBAsMBEFSSVQxCzAJBgNVBAYTAklUMR4wHAYDVQQDDBVpcy5yZWdpb25lLnNpY2lsaWEuaXQxEDAOBgNVBAcMB1BhbGVybW8xFzAVBgNVBGEMDlBBOklULXJfc2ljaWxpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupecHF8x94D5fRHmU8xSA6qXcEJ+1WSjUfxYDH6vYworKpyoL5tLEoH1hjQo5DN1ugIBZHvBsaQzmV3SmnWbU0i+fU4Ic0RfIuK6S1qDLZLriCkpmnHgQIdcdT+FpSca240UPmxVGr1T8/csTKLkp8lFs2C/SX6xiBg2eCGtBsFfFY0CRmXarG0Tx5LoI5q6Amq9VxJhpeP7LMNP2uq5Dr+EJFDb4WRFHIjG9HXN5ukOToDVB2piI/AAwM1ZyALzJbWVIFtgjRyVA2/SQ3s9mW5mdelIEYMU+jtNOpmiq4hEW+WlD23EEGrZ8kEz7dJQVMKNR6wVbkvDj29h5486vQIDAQABo4GbMIGYMIGABgNVHREEeTB3ghh3c28yYXBpbS1nYXRld2F5LXNlcnZpY2WCGXdzbzJhcGltLWlzLWFzLWttLXNlcnZpY2WCFndzbzJhcGltLXB1YnN0b3JlLXRtLTGCFndzbzJhcGltLXB1YnN0b3JlLXRtLTKCEHdzbzJhcGltLXNlcnZpY2UwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAHv149pwaEiou2T/NENfQDL9xQy6PwwDqEQp9mJP3vK/zxdloM83f1rgg9KzBSh02uLJHsnCS7+5p5PHoxgqjtZ6IyzUjYJJDR/SasHB9BKvbAKBMQoSd0Vwch256aLhpoXuBixwDTHICdKdlWI5NKPMehdo+QXIRlcsdTmgf0NTwqYG+UNsxWrL73r7y7aMiEJkC9UItQKDWKO5KGt/i4IEB871MahQl8fW2cQGchzTf+xFdUa0BRdzmxZusuug9L6/JnsarVHrQEasjDK8wmWQLHyOWh4kRTh4T47rQ1MqIHLHcQ9aXa1qR895bzkivegkiSOmNoljI+ja0T6ozMA=</ds:X509Certificate></ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://is.regione.sicilia.it/commonauth"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://is.regione.sicilia.it/commonauth"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demaniomarittimo.regione.sicilia.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://incentivi.regione.sicilia.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://si-vvi.regione.sicilia.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://is.regione.sicilia.it/commonauth" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demaniomarittimo.regione.sicilia.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://incentivi.regione.sicilia.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="2"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://si-vvi.regione.sicilia.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="3"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">SPID Regione Siciliana</md:ServiceName>
+<md:ServiceDescription xml:lang="it">SPID Regione Siciliana</md:ServiceDescription>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="1">
+<md:ServiceName xml:lang="it">Demanio Marittimo</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Demanio Marittimo</md:ServiceDescription>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="2">
+<md:ServiceName xml:lang="it">PEI</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Piattaforma Erogazione Incentivi</md:ServiceDescription>
+<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="3">
+<md:ServiceName xml:lang="it">si-vvi.regione.sicilia.it</md:ServiceName>
+<md:ServiceDescription xml:lang="it">si-vvi.regione.sicilia.it</md:ServiceDescription>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Regione Siciliana</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Regione Siciliana</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">http://www.regione.sicilia.it</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:Public/>
+</md:Extensions>
+<md:EmailAddress>webmaster@regione.sicilia.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>

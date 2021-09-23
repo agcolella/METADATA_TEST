@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx56301d4b-c4cf-e09b-7a45-0018e768d851" entityID="https://spid.comunedielice.gov.it/spid/module.php/saml/sp/metadata.php/default-sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx56301d4b-c4cf-e09b-7a45-0018e768d851">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>XagYzOJUdGv0Zylug/IJ0KhzZoVyInMKDpqkENASx28=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+W7mOr3ixbfjzAkoiwzeQS9L223tl3o/O8tohOWC9+FrpLYrHgCVY3BPpeIE8vGcwctylpeKdqPfq
+W9IuYO51qTZhTKJvbWc0g6PcYrwT+/KuwXYefErZ4GSpkA+8bio56nqd0vzWIcesG7u5VPoKX+7+
+/CSSToLxlunc9iwjAIVpr5dwsOp7xWoioR1Zn7DUg/uzwKm8hd6LGHyR7icFzAyFlMXXpfDaiVzF
+n8Typ2YLbuFS6iyNHI5vEgbjAH3n+/Jop4XfnUr9ISLA1J5ersbNLzY+NbDnYJlnn7qXfN1PKRbc
+QPtj4iOpk5YiVRlWtOoE8GrNlz91086uUNh1dw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xYVfSF3AUxObe5TfJvrdAfjvi+v4g/s/DJKcqsro8Z8DBCmkBzIQemFBnHPXxtqIaKV1H0GjeQga
+zFFhQavTefweXV5EWMpskiefFFsz6ruofBxeUGUTtFHKZ3a1X8CtcOpHBNOyI+mWblcI45E1tXVQ
+T49rAMHXXXkY4pPfiFiUMLg2sqfW8R2+cfZ91QfFRD/a93puZthiSW2yJpOOUGLAbb5BfnPJLHAM
+UdLjJYyceDIOkLaQ9dhvp+bfeT4nHqa+sZ2FUaQkwiUfgBhWWas6tzaDnwad6U0SOwNxXjsQA27l
+mMXxR40adKaobhX59iPCJVJzK44ITy6VwFBemw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEPjCCAyagAwIBAgIIHT0c//PAo1YwDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAklUMRAw
+DgYDVQQIDAdQZXNjYXJhMQ4wDAYDVQQHDAVFbGljZTEYMBYGA1UECgwPQ29tdW5lIGRpIEVsaWNl
+MRgwFgYDVQQLDA9Db211bmUgZGkgRWxpY2UxIjAgBgNVBAMMGXNwaWQuY29tdW5lZGllbGljZS5n
+b3YuaXQxLDAqBgkqhkiG9w0BCQEWHWFuYWdyYWZlQGNvbXVuZWRpZWxpY2UuZ292Lml0MB4XDTE3
+MTIxMjEwMjIwNFoXDTM3MTIxMTEwMjIwNFowgbUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXNj
+YXJhMQ4wDAYDVQQHDAVFbGljZTEYMBYGA1UECgwPQ29tdW5lIGRpIEVsaWNlMRgwFgYDVQQLDA9D
+b211bmUgZGkgRWxpY2UxIjAgBgNVBAMMGXNwaWQuY29tdW5lZGllbGljZS5nb3YuaXQxLDAqBgkq
+hkiG9w0BCQEWHWFuYWdyYWZlQGNvbXVuZWRpZWxpY2UuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAxYVfSF3AUxObe5TfJvrdAfjvi+v4g/s/DJKcqsro8Z8DBCmkBzIQemFB
+nHPXxtqIaKV1H0GjeQgazFFhQavTefweXV5EWMpskiefFFsz6ruofBxeUGUTtFHKZ3a1X8CtcOpH
+BNOyI+mWblcI45E1tXVQT49rAMHXXXkY4pPfiFiUMLg2sqfW8R2+cfZ91QfFRD/a93puZthiSW2y
+JpOOUGLAbb5BfnPJLHAMUdLjJYyceDIOkLaQ9dhvp+bfeT4nHqa+sZ2FUaQkwiUfgBhWWas6tzaD
+nwad6U0SOwNxXjsQA27lmMXxR40adKaobhX59iPCJVJzK44ITy6VwFBemwIDAQABo1AwTjAdBgNV
+HQ4EFgQU6fqkRbxHMcHVMeN1MNxXYZbB5JYwHwYDVR0jBBgwFoAU6fqkRbxHMcHVMeN1MNxXYZbB
+5JYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAmTMl4JnI+OJiqjWkMVlD0K9wRcoo
+JAMohAml0aSsK0fqCtCu+sPkuoO/i9aPmGh4Mddn9EVg6rnBdWya1iMjje3E1tZnMXfd6/ytHtSp
+Z4yIJVyeqA4sP1j0682Jl6VoU+n9p7ugflz1qr7Y1VO/tv4ixrRMU9lFMW0vTQz4ZFtg8WbIOGTl
+i/myIGDuwbBPTC3P8/WkmyEowXCdjKZa3Et/qBys07TDGKe07t/HoQHIyg8qylbOuMmiqe4UG0EG
+uO799rCx+7h6vjHRMTt7JVBKBKew2BioZEIVoT5Ozi1bc7K8sw5svWt0ONw8I+8gj04mADuj4RXN
+6hjkQ+7piA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEPjCCAyagAwIBAgIIHT0c//PAo1YwDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXNjYXJhMQ4wDAYDVQQHDAVFbGljZTEYMBYGA1UECgwPQ29tdW5lIGRpIEVsaWNlMRgwFgYDVQQLDA9Db211bmUgZGkgRWxpY2UxIjAgBgNVBAMMGXNwaWQuY29tdW5lZGllbGljZS5nb3YuaXQxLDAqBgkqhkiG9w0BCQEWHWFuYWdyYWZlQGNvbXVuZWRpZWxpY2UuZ292Lml0MB4XDTE3MTIxMjEwMjIwNFoXDTM3MTIxMTEwMjIwNFowgbUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXNjYXJhMQ4wDAYDVQQHDAVFbGljZTEYMBYGA1UECgwPQ29tdW5lIGRpIEVsaWNlMRgwFgYDVQQLDA9Db211bmUgZGkgRWxpY2UxIjAgBgNVBAMMGXNwaWQuY29tdW5lZGllbGljZS5nb3YuaXQxLDAqBgkqhkiG9w0BCQEWHWFuYWdyYWZlQGNvbXVuZWRpZWxpY2UuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxYVfSF3AUxObe5TfJvrdAfjvi+v4g/s/DJKcqsro8Z8DBCmkBzIQemFBnHPXxtqIaKV1H0GjeQgazFFhQavTefweXV5EWMpskiefFFsz6ruofBxeUGUTtFHKZ3a1X8CtcOpHBNOyI+mWblcI45E1tXVQT49rAMHXXXkY4pPfiFiUMLg2sqfW8R2+cfZ91QfFRD/a93puZthiSW2yJpOOUGLAbb5BfnPJLHAMUdLjJYyceDIOkLaQ9dhvp+bfeT4nHqa+sZ2FUaQkwiUfgBhWWas6tzaDnwad6U0SOwNxXjsQA27lmMXxR40adKaobhX59iPCJVJzK44ITy6VwFBemwIDAQABo1AwTjAdBgNVHQ4EFgQU6fqkRbxHMcHVMeN1MNxXYZbB5JYwHwYDVR0jBBgwFoAU6fqkRbxHMcHVMeN1MNxXYZbB5JYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAmTMl4JnI+OJiqjWkMVlD0K9wRcooJAMohAml0aSsK0fqCtCu+sPkuoO/i9aPmGh4Mddn9EVg6rnBdWya1iMjje3E1tZnMXfd6/ytHtSpZ4yIJVyeqA4sP1j0682Jl6VoU+n9p7ugflz1qr7Y1VO/tv4ixrRMU9lFMW0vTQz4ZFtg8WbIOGTli/myIGDuwbBPTC3P8/WkmyEowXCdjKZa3Et/qBys07TDGKe07t/HoQHIyg8qylbOuMmiqe4UG0EGuO799rCx+7h6vjHRMTt7JVBKBKew2BioZEIVoT5Ozi1bc7K8sw5svWt0ONw8I+8gj04mADuj4RXN6hjkQ+7piA==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEPjCCAyagAwIBAgIIHT0c//PAo1YwDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXNjYXJhMQ4wDAYDVQQHDAVFbGljZTEYMBYGA1UECgwPQ29tdW5lIGRpIEVsaWNlMRgwFgYDVQQLDA9Db211bmUgZGkgRWxpY2UxIjAgBgNVBAMMGXNwaWQuY29tdW5lZGllbGljZS5nb3YuaXQxLDAqBgkqhkiG9w0BCQEWHWFuYWdyYWZlQGNvbXVuZWRpZWxpY2UuZ292Lml0MB4XDTE3MTIxMjEwMjIwNFoXDTM3MTIxMTEwMjIwNFowgbUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXNjYXJhMQ4wDAYDVQQHDAVFbGljZTEYMBYGA1UECgwPQ29tdW5lIGRpIEVsaWNlMRgwFgYDVQQLDA9Db211bmUgZGkgRWxpY2UxIjAgBgNVBAMMGXNwaWQuY29tdW5lZGllbGljZS5nb3YuaXQxLDAqBgkqhkiG9w0BCQEWHWFuYWdyYWZlQGNvbXVuZWRpZWxpY2UuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxYVfSF3AUxObe5TfJvrdAfjvi+v4g/s/DJKcqsro8Z8DBCmkBzIQemFBnHPXxtqIaKV1H0GjeQgazFFhQavTefweXV5EWMpskiefFFsz6ruofBxeUGUTtFHKZ3a1X8CtcOpHBNOyI+mWblcI45E1tXVQT49rAMHXXXkY4pPfiFiUMLg2sqfW8R2+cfZ91QfFRD/a93puZthiSW2yJpOOUGLAbb5BfnPJLHAMUdLjJYyceDIOkLaQ9dhvp+bfeT4nHqa+sZ2FUaQkwiUfgBhWWas6tzaDnwad6U0SOwNxXjsQA27lmMXxR40adKaobhX59iPCJVJzK44ITy6VwFBemwIDAQABo1AwTjAdBgNVHQ4EFgQU6fqkRbxHMcHVMeN1MNxXYZbB5JYwHwYDVR0jBBgwFoAU6fqkRbxHMcHVMeN1MNxXYZbB5JYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAmTMl4JnI+OJiqjWkMVlD0K9wRcooJAMohAml0aSsK0fqCtCu+sPkuoO/i9aPmGh4Mddn9EVg6rnBdWya1iMjje3E1tZnMXfd6/ytHtSpZ4yIJVyeqA4sP1j0682Jl6VoU+n9p7ugflz1qr7Y1VO/tv4ixrRMU9lFMW0vTQz4ZFtg8WbIOGTli/myIGDuwbBPTC3P8/WkmyEowXCdjKZa3Et/qBys07TDGKe07t/HoQHIyg8qylbOuMmiqe4UG0EGuO799rCx+7h6vjHRMTt7JVBKBKew2BioZEIVoT5Ozi1bc7K8sw5svWt0ONw8I+8gj04mADuj4RXN6hjkQ+7piA==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comunedielice.gov.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comunedielice.gov.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">cm_elice</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Comune di Elice / Elice (Pescara)</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Elice / Elice</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Elice / Elice</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://spid.comunedielice.gov.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

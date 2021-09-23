@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Trenzano" entityID="https://www.comune.trenzano.bs.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Trenzano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fO/TmYXXQF+gKbRyuN9Vf9Kf3hbU1iwMO1dR7XcsMeQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mbxZMH2C6fiNVqZQ2tW7Lq2d2L3j48eCiLx4sylAhNd260j6aOIipX1+r3iCoSQ8IeOahByKxlQ5
+3DUoV7qNQv1PekQePpvrc4smY9Mt3Vl+AnBtWCcwYH+0Mmapk1s0stxZ5Bg62aW4VF5qjNQCIjqZ
+QB+CP8udHkXbroYxu8Tui/rnuEOEai1wS6JnCFwI277X7lH0HJcRttCCEWje4V8pMNp7cG2JQ1nU
+gJ1pp/cjEdOKOR0b4rvnSFoh9OQc32DcJPI+npKdyP5c4FWhXZUj/datPxbDFv1XjjH/cbbsMI2G
+yQN/w5pEwy93ev43Qv/p5S9OKkGG/QErl1Zp2Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+m5DwBNWUBbhfKF3RSBZYTjl+17aOkpW8tsDDw6YE8m5fQ+GSjRcYINKbk1AsOTF57xFhKpd6hkY4
+lfPAzSCUvnQgQ32H5NI/y2h61LhO9vTufLdThLlqLHYsN/EkT13hj/GgNWPk7tTzxazvTpVUUA6P
+/YQJEsmFkk9T/aYfIOn5Di0L8b0h/QKkqPYPeHH7HXF4IGU9cIzrVYedljg1WNz41jz311jmCppH
+l3cA41rVXtnNXnRbi4+85JQ+F2Oab0zdhLOh76iLGCaA+Pr20vMUxJ24n9lZq0B+UBMBya4PqFq5
+xXmX08n+TJWyWqxXjuAx7mks51rFYG6WmFPWmw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJANy9xwTJhcbGMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUudHJlbnphbm8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MTEx
+MjEwNTE1OVoXDTI4MTEwOTEwNTE1OVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS50cmVuemFuby5i
+cy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCbkPAE1ZQFuF8oXdFIFlhOOX7Xto6Slby2wMPDpgTybl9D4ZKNFxgg0puTUCw5MXnv
+EWEql3qGRjiV88DNIJS+dCBDfYfk0j/LaHrUuE729O58t1OEuWosdiw38SRPXeGP8aA1Y+Tu1PPF
+rO9OlVRQDo/9hAkSyYWST1P9ph8g6fkOLQvxvSH9AqSo9g94cfsdcXggZT1wjOtVh52WODVY3PjW
+PPfXWOYKmkeXdwDjWtVe2c1edFuLj7zklD4XY5pvTN2Es6HvqIsYJoD4+vbS8xTEnbif2VmrQH5Q
+EwHJrg+oWrnFeZfTyf5MlbJarFeO4DHuaSznWsVgbpaYU9abAgMBAAGjUDBOMB0GA1UdDgQWBBS0
+9W3JLOdUpCnn+9ml6R7RgNIv7zAfBgNVHSMEGDAWgBS09W3JLOdUpCnn+9ml6R7RgNIv7zAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQByMGQQeijqCiGClKSVi6nfRToEYYR0y05T+APj
+zLHhdLprxJb36+9nRbwx5QuyZEPinNLMIzUEG1lGWeF6JbpUZ9Zugmbvj20W6jEKBfiRreZ4PJCL
+F+PWbDk8F/978WfnCU94KQdDkRKB4o0TKvf/NDCtgCtR08hz+vhFKYdcMGqr61Ptuuw8Oai20Ran
+qs4e1cnqGvWcEP6q2O0ARwtfJ7t7ahP9e/5mEMmnFO6c3nfypQm3/Bzm2QhYu3mZIpsv9UBpDiIt
+SzMs4R1x66qAEBCEe7PRc+AWXvIJjWTJp5Z+NuvrWODSsMro4SATopDx5Q1I8bSv+8NfFEAXGUbQ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJANy9xwTJhcbGMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUudHJlbnphbm8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MTExMjEwNTE1OVoXDTI4MTEwOTEwNTE1OVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS50cmVuemFuby5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCbkPAE1ZQFuF8oXdFIFlhOOX7Xto6Slby2wMPDpgTybl9D4ZKNFxgg0puTUCw5MXnvEWEql3qGRjiV88DNIJS+dCBDfYfk0j/LaHrUuE729O58t1OEuWosdiw38SRPXeGP8aA1Y+Tu1PPFrO9OlVRQDo/9hAkSyYWST1P9ph8g6fkOLQvxvSH9AqSo9g94cfsdcXggZT1wjOtVh52WODVY3PjWPPfXWOYKmkeXdwDjWtVe2c1edFuLj7zklD4XY5pvTN2Es6HvqIsYJoD4+vbS8xTEnbif2VmrQH5QEwHJrg+oWrnFeZfTyf5MlbJarFeO4DHuaSznWsVgbpaYU9abAgMBAAGjUDBOMB0GA1UdDgQWBBS09W3JLOdUpCnn+9ml6R7RgNIv7zAfBgNVHSMEGDAWgBS09W3JLOdUpCnn+9ml6R7RgNIv7zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQByMGQQeijqCiGClKSVi6nfRToEYYR0y05T+APjzLHhdLprxJb36+9nRbwx5QuyZEPinNLMIzUEG1lGWeF6JbpUZ9Zugmbvj20W6jEKBfiRreZ4PJCLF+PWbDk8F/978WfnCU94KQdDkRKB4o0TKvf/NDCtgCtR08hz+vhFKYdcMGqr61Ptuuw8Oai20Ranqs4e1cnqGvWcEP6q2O0ARwtfJ7t7ahP9e/5mEMmnFO6c3nfypQm3/Bzm2QhYu3mZIpsv9UBpDiItSzMs4R1x66qAEBCEe7PRc+AWXvIJjWTJp5Z+NuvrWODSsMro4SATopDx5Q1I8bSv+8NfFEAXGUbQ
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJANy9xwTJhcbGMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUudHJlbnphbm8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MTExMjEwNTE1OVoXDTI4MTEwOTEwNTE1OVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS50cmVuemFuby5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCbkPAE1ZQFuF8oXdFIFlhOOX7Xto6Slby2wMPDpgTybl9D4ZKNFxgg0puTUCw5MXnvEWEql3qGRjiV88DNIJS+dCBDfYfk0j/LaHrUuE729O58t1OEuWosdiw38SRPXeGP8aA1Y+Tu1PPFrO9OlVRQDo/9hAkSyYWST1P9ph8g6fkOLQvxvSH9AqSo9g94cfsdcXggZT1wjOtVh52WODVY3PjWPPfXWOYKmkeXdwDjWtVe2c1edFuLj7zklD4XY5pvTN2Es6HvqIsYJoD4+vbS8xTEnbif2VmrQH5QEwHJrg+oWrnFeZfTyf5MlbJarFeO4DHuaSznWsVgbpaYU9abAgMBAAGjUDBOMB0GA1UdDgQWBBS09W3JLOdUpCnn+9ml6R7RgNIv7zAfBgNVHSMEGDAWgBS09W3JLOdUpCnn+9ml6R7RgNIv7zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQByMGQQeijqCiGClKSVi6nfRToEYYR0y05T+APjzLHhdLprxJb36+9nRbwx5QuyZEPinNLMIzUEG1lGWeF6JbpUZ9Zugmbvj20W6jEKBfiRreZ4PJCLF+PWbDk8F/978WfnCU94KQdDkRKB4o0TKvf/NDCtgCtR08hz+vhFKYdcMGqr61Ptuuw8Oai20Ranqs4e1cnqGvWcEP6q2O0ARwtfJ7t7ahP9e/5mEMmnFO6c3nfypQm3/Bzm2QhYu3mZIpsv9UBpDiItSzMs4R1x66qAEBCEe7PRc+AWXvIJjWTJp5Z+NuvrWODSsMro4SATopDx5Q1I8bSv+8NfFEAXGUbQ
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/trenzano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/trenzano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/trenzano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/trenzano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Trenzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Trenzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Trenzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Trenzano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Trenzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Trenzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Trenzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Trenzano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.trenzano.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.trenzano.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.trenzano.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.trenzano.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

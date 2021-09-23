@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxe561bc81-9c86-34f7-a98c-a35defe107ed" entityID="https://sportellotelematico.parcodeltapo.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxe561bc81-9c86-34f7-a98c-a35defe107ed">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OFZQSdID1kZ32px9+avGu1DZBE4VWo0RG7VySRaeApI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ejFAKmUoY88iaXZCJziEVnsqMxrtUPTdhBtprv/ywBmebrRtHbcxzdAx8GHLJtb273Xya9SFg/HA
+t+TXQnkulOLviib42VKBhGq01hk+yf6jQtbAmSmqqz0w8euVyET1yRST8G0BmGMtRN2nMA9283zj
+XJe2YcS3kTomniaE+FJSRU98c3uhCzm/n5hWcm3UQkgfyhzEQBNhiuAicPAPXEQvP686MuLaoJUo
+vzwbnXE0Jfda/VIDDE9HEDC5zQF3ni4kNNDN0bEXNp6b2DCsn20ljL/CqK9bJMdSvBttq+aMkw8z
+D+4aj1jBEq/L1UXtW0L2wZ+4BM64idOYPs5rQQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1GyUuBXN6ysetT5zAzLWbiiTouEw8xFoaZHzE4+Vmw2rj2WJtpxoMd2MbbBDGNDfpy9Xu6Q8NyvI
+Kbhx4eqqozRDe5a+pA96Hc//4ci1ecO27Cw09L9ztQOH9wrxMnCNz1od4lAROdY8SdhHmuwWfYFs
+G59RAk4SiSj8Glx8ZCTmgrWfXSeBwCCUewKrcuax+KS6rsanQREJ77T6C94+9h+v/4XC9xKeAe1D
+5kNouuczJsPj6PcJqWbn8JuWcRgNiNchO1RaDIfSCLSHMHQSUqQCC6DGUV9gf7d9mrGkm0cHGceg
+ZLNfVJHFSc2R2LV0I8HV6W9XrQiJvohMzMtdvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEUDCCAzigAwIBAgIJAL15Ducwd6RqMA0GCSqGSIb3DQEBCwUAMIG8MQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGUm92aWdvMRwwGgYDVQQHDBNBcmlhbm8gbmVsIFBvbGVzaW5lMTEwLwYDVQQKDChF
+bnRlIFBhcmNvIFJlZ2lvbmFsZSBWZW5ldG8gRGVsdGEgZGVsIFBvMR0wGwYDVQQLDBRTcG9ydGVs
+bG8gVGVsZW1hdGljbzEsMCoGA1UEAwwjc3BvcnRlbGxvdGVsZW1hdGljby5wYXJjb2RlbHRhcG8u
+aXQwHhcNMTkwNjE0MDg0MDI0WhcNMjkwNjExMDg0MDI0WjCBvDELMAkGA1UEBhMCSVQxDzANBgNV
+BAgMBlJvdmlnbzEcMBoGA1UEBwwTQXJpYW5vIG5lbCBQb2xlc2luZTExMC8GA1UECgwoRW50ZSBQ
+YXJjbyBSZWdpb25hbGUgVmVuZXRvIERlbHRhIGRlbCBQbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRl
+bGVtYXRpY28xLDAqBgNVBAMMI3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1GyUuBXN6ysetT5zAzLWbiiTouEw8xFoaZHz
+E4+Vmw2rj2WJtpxoMd2MbbBDGNDfpy9Xu6Q8NyvIKbhx4eqqozRDe5a+pA96Hc//4ci1ecO27Cw0
+9L9ztQOH9wrxMnCNz1od4lAROdY8SdhHmuwWfYFsG59RAk4SiSj8Glx8ZCTmgrWfXSeBwCCUewKr
+cuax+KS6rsanQREJ77T6C94+9h+v/4XC9xKeAe1D5kNouuczJsPj6PcJqWbn8JuWcRgNiNchO1Ra
+DIfSCLSHMHQSUqQCC6DGUV9gf7d9mrGkm0cHGcegZLNfVJHFSc2R2LV0I8HV6W9XrQiJvohMzMtd
+vQIDAQABo1MwUTAdBgNVHQ4EFgQU2bGYYu9szDM82UymSZxJjWD+o6IwHwYDVR0jBBgwFoAU2bGY
+Yu9szDM82UymSZxJjWD+o6IwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAUP+L
+x3774S2ey5CtRQg8hWMdBBCsMipwgVTc36vS5r7GI4RYgKOvBgZZtHQbOuxv61FTgySs9bhQZyYS
+DI+AMQqRZ9lJRQNxCPMsFHOTib6yD2ohgLMHoZqyOgctDhmXAx4aiAsBg97erP4tBZjr1ENYFQGM
+G8lUsGT4AjOZI7nG+qWOUNSrgkpC4LHPUmBrNYWG3eiRIMgz+PiRn2wKSCOqH31G8NYcTzCUyjFY
+MbXO2ENlSMg3qjJKtqrgO1ROjuyA8lvPhyMbps6OPwXy6VCYvdyTCm2ljOAVDVC2+2NE7oEvSv/y
+STyQvAvqa8cfbM3e3Xzx9yzlObTTHsbDVQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEUDCCAzigAwIBAgIJAL15Ducwd6RqMA0GCSqGSIb3DQEBCwUAMIG8MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMRwwGgYDVQQHDBNBcmlhbm8gbmVsIFBvbGVzaW5lMTEwLwYDVQQKDChFbnRlIFBhcmNvIFJlZ2lvbmFsZSBWZW5ldG8gRGVsdGEgZGVsIFBvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEsMCoGA1UEAwwjc3BvcnRlbGxvdGVsZW1hdGljby5wYXJjb2RlbHRhcG8uaXQwHhcNMTkwNjE0MDg0MDI0WhcNMjkwNjExMDg0MDI0WjCBvDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlJvdmlnbzEcMBoGA1UEBwwTQXJpYW5vIG5lbCBQb2xlc2luZTExMC8GA1UECgwoRW50ZSBQYXJjbyBSZWdpb25hbGUgVmVuZXRvIERlbHRhIGRlbCBQbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLDAqBgNVBAMMI3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1GyUuBXN6ysetT5zAzLWbiiTouEw8xFoaZHzE4+Vmw2rj2WJtpxoMd2MbbBDGNDfpy9Xu6Q8NyvIKbhx4eqqozRDe5a+pA96Hc//4ci1ecO27Cw09L9ztQOH9wrxMnCNz1od4lAROdY8SdhHmuwWfYFsG59RAk4SiSj8Glx8ZCTmgrWfXSeBwCCUewKrcuax+KS6rsanQREJ77T6C94+9h+v/4XC9xKeAe1D5kNouuczJsPj6PcJqWbn8JuWcRgNiNchO1RaDIfSCLSHMHQSUqQCC6DGUV9gf7d9mrGkm0cHGcegZLNfVJHFSc2R2LV0I8HV6W9XrQiJvohMzMtdvQIDAQABo1MwUTAdBgNVHQ4EFgQU2bGYYu9szDM82UymSZxJjWD+o6IwHwYDVR0jBBgwFoAU2bGYYu9szDM82UymSZxJjWD+o6IwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAUP+Lx3774S2ey5CtRQg8hWMdBBCsMipwgVTc36vS5r7GI4RYgKOvBgZZtHQbOuxv61FTgySs9bhQZyYSDI+AMQqRZ9lJRQNxCPMsFHOTib6yD2ohgLMHoZqyOgctDhmXAx4aiAsBg97erP4tBZjr1ENYFQGMG8lUsGT4AjOZI7nG+qWOUNSrgkpC4LHPUmBrNYWG3eiRIMgz+PiRn2wKSCOqH31G8NYcTzCUyjFYMbXO2ENlSMg3qjJKtqrgO1ROjuyA8lvPhyMbps6OPwXy6VCYvdyTCm2ljOAVDVC2+2NE7oEvSv/ySTyQvAvqa8cfbM3e3Xzx9yzlObTTHsbDVQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEUDCCAzigAwIBAgIJAL15Ducwd6RqMA0GCSqGSIb3DQEBCwUAMIG8MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUm92aWdvMRwwGgYDVQQHDBNBcmlhbm8gbmVsIFBvbGVzaW5lMTEwLwYDVQQKDChFbnRlIFBhcmNvIFJlZ2lvbmFsZSBWZW5ldG8gRGVsdGEgZGVsIFBvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEsMCoGA1UEAwwjc3BvcnRlbGxvdGVsZW1hdGljby5wYXJjb2RlbHRhcG8uaXQwHhcNMTkwNjE0MDg0MDI0WhcNMjkwNjExMDg0MDI0WjCBvDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlJvdmlnbzEcMBoGA1UEBwwTQXJpYW5vIG5lbCBQb2xlc2luZTExMC8GA1UECgwoRW50ZSBQYXJjbyBSZWdpb25hbGUgVmVuZXRvIERlbHRhIGRlbCBQbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLDAqBgNVBAMMI3Nwb3J0ZWxsb3RlbGVtYXRpY28ucGFyY29kZWx0YXBvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1GyUuBXN6ysetT5zAzLWbiiTouEw8xFoaZHzE4+Vmw2rj2WJtpxoMd2MbbBDGNDfpy9Xu6Q8NyvIKbhx4eqqozRDe5a+pA96Hc//4ci1ecO27Cw09L9ztQOH9wrxMnCNz1od4lAROdY8SdhHmuwWfYFsG59RAk4SiSj8Glx8ZCTmgrWfXSeBwCCUewKrcuax+KS6rsanQREJ77T6C94+9h+v/4XC9xKeAe1D5kNouuczJsPj6PcJqWbn8JuWcRgNiNchO1RaDIfSCLSHMHQSUqQCC6DGUV9gf7d9mrGkm0cHGcegZLNfVJHFSc2R2LV0I8HV6W9XrQiJvohMzMtdvQIDAQABo1MwUTAdBgNVHQ4EFgQU2bGYYu9szDM82UymSZxJjWD+o6IwHwYDVR0jBBgwFoAU2bGYYu9szDM82UymSZxJjWD+o6IwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAUP+Lx3774S2ey5CtRQg8hWMdBBCsMipwgVTc36vS5r7GI4RYgKOvBgZZtHQbOuxv61FTgySs9bhQZyYSDI+AMQqRZ9lJRQNxCPMsFHOTib6yD2ohgLMHoZqyOgctDhmXAx4aiAsBg97erP4tBZjr1ENYFQGMG8lUsGT4AjOZI7nG+qWOUNSrgkpC4LHPUmBrNYWG3eiRIMgz+PiRn2wKSCOqH31G8NYcTzCUyjFYMbXO2ENlSMg3qjJKtqrgO1ROjuyA8lvPhyMbps6OPwXy6VCYvdyTCm2ljOAVDVC2+2NE7oEvSv/ySTyQvAvqa8cfbM3e3Xzx9yzlObTTHsbDVQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.parcodeltapo.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.parcodeltapo.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">eprvd</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">eprvd</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Ente di Gestione per I Parchi e La Biodiversita' - Delta del Po</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Ente di Gestione per I Parchi e La Biodiversita' - Delta del Po</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.parcodeltapo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.parcodeltapo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Misterbianco" entityID="https://www.misterbianco.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Misterbianco">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tWwujUPnWy+yVCI9ll4ihrMdA5EE3VTqeA0+q97DBOs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+DESkMK15aZC+dY+ae0F0v5Ls7UjlA8CGCdAglYyTvmjvfFo3mTH87i6PnidYAmVu23e/TM/K4Fvb
+afMB2Pv0UfCFQ7ZXym/pvMtdk2x/BfVFbjAsh2IehLeQmFOfI56KJ9IsgiQCoPuI0W0Kr7Y64hyk
+FaDgxfV0bMJVIRX5ZwbWbhC2aT28139Vf2r0tq3NV36v0n94xi2x9ls8ufgPClpFw4sdslp4hX/0
+Hnsr/ta6xlvjLvuaxSCWi/IvVFg8cA5Qc66arc9As+YbcbqHwOIaKONx9s1pR9Nbv7aAoZeFZ0FU
+YdFmDsaKgHbkZjnbaslkKnf3jdtyrJ+gYnemkg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uc0IsZlWUen9IfOnKW/1zzQlkMsG2JPqRqW4TfVhEpiCE62gL8ZNOz4og+LOcpBH2p+mUy2wO+3W
+QteaWlqHd1BU5O/BxxDhjUqYl1r3yjYdh2fdRNAOBdk6QCFJc0Px1pAUZuGZXeYnSyi2MokzvsH5
+GlvPj+Y+CL19LCQAyPO9i023uQura7rs2kjvI0WGcl5CsuarrdC2ezdp0XlBhtwNG8yUVL5qchmI
+y4W1O55aU6M29F0a3Lge7YDtOcpgvB0BjDfsTCRKOWMB3KK8fWysgKS/O87sONY1XH5TDmJ1+kam
+8ha8gKsrUhEv6A7jBMRLhfetlGxNl+35KPw7tQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDxDCCAqygAwIBAgIJAP/ImL3nLyXcMA0GCSqGSIb3DQEBCwUAMIGIMSAwHgYDVQQDDBd3d3cu
+bWlzdGVyYmlhbmNvLmdvdi5pdDEfMB0GA1UECgwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzEVMBMG
+A1UEBAwMUEE6SVQtY19mMjUwMQswCQYDVQQGEwJJVDEfMB0GA1UEBwwWQ29tdW5lIGRpIE1pc3Rl
+cmJpYW5jbzAeFw0yMDEwMTkxMjU0MjdaFw0zMDEwMTcxMjU0MjdaMIGIMSAwHgYDVQQDDBd3d3cu
+bWlzdGVyYmlhbmNvLmdvdi5pdDEfMB0GA1UECgwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzEVMBMG
+A1UEBAwMUEE6SVQtY19mMjUwMQswCQYDVQQGEwJJVDEfMB0GA1UEBwwWQ29tdW5lIGRpIE1pc3Rl
+cmJpYW5jbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnNCLGZVlHp/SHzpylv9c80
+JZDLBtiT6kaluE31YRKYghOtoC/GTTs+KIPiznKQR9qfplMtsDvt1kLXmlpah3dQVOTvwccQ4Y1K
+mJda98o2HYdn3UTQDgXZOkAhSXND8daQFGbhmV3mJ0sotjKJM77B+Rpbz4/mPgi9fSwkAMjzvYtN
+t7kLq2u67NpI7yNFhnJeQrLmq63Qtns3adF5QYbcDRvMlFS+anIZiMuFtTueWlOjNvRdGty4Hu2A
+7TnKYLwdAYw37EwkSjljAdyivH1srICkvzvO7DjWNVx+Uw5idfpGpvIWvICrK1IRL+gO4wTES4X3
+rZRsTZft+Sj8O7UCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAI
+BgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAJ9nDiKMJstfKjUN2wDeEgDJmOOLtJBQLoabxQt2
+QOm0U88iTwfLb0KDJgx7B2Yd7yPhSQs31Sv/xRwMwqhevdI+j6sCkcLl+GGQtoIqvr/mV6XDVx5B
+b2XtwJXBHqH/sdPuSVsxCamORsZJC/bJIZVZabnxnttgqSkFmDOcBnvbrzmxYcrmn5xwzry6XlL0
+JAHyoY9l2lOzbfwXEEM8nTAcgOfA3ZbmD/sY8xlgP2nX10a6V1SokfaQCHRSY+XKn6C83P+P/M/f
+Ibip3UQE9zp45V5RNnjnAAzyShm7Fun0SS1jjAtmLAJe/2v34gfTWehQFd7cNhJGq0P4FSl/+oI=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDxDCCAqygAwIBAgIJAPRvDPOrbG2qMA0GCSqGSIb3DQEBCwUAMIGIMSAwHgYDVQQDDBd3d3cubWlzdGVyYmlhbmNvLmdvdi5pdDEfMB0GA1UECgwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzEVMBMGA1UEBAwMUEE6SVQtY19mMjUwMQswCQYDVQQGEwJJVDEfMB0GA1UEBwwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzAeFw0yMDEwMTkwOTQ4NTNaFw0zMDEwMTcwOTQ4NTNaMIGIMSAwHgYDVQQDDBd3d3cubWlzdGVyYmlhbmNvLmdvdi5pdDEfMB0GA1UECgwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzEVMBMGA1UEBAwMUEE6SVQtY19mMjUwMQswCQYDVQQGEwJJVDEfMB0GA1UEBwwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMTuJTJ2SZvpjKXiuSjtzKuUugUNNj6E7eKCXJzo2y0KxYI/jnbviRzMThO24j87b5ZtaEANYdP+TxZvOSS1EfoS1D9Kfq91Vld2lUz026z/h4rGLaxycobmORhnPptx210pook4XBXTy1WiKftsTmbc72gXhRk7Dp1VI81OknV9VP6so6qOJ4j4nDQBhvtWVvWfi1rEdaPA42acHAoVmuerUejS9T2zG2Mqm6Qw1wuJ2y5Mt97Q9H3S/2/pZMchEJrXPlJByNpJ5qysH9tt3RbJwMpF192Djsvcio/3WA8coV5IISXuCCWS3lzgr9r4c90v6Pxv+oC49rv1vKx6t+sCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBADnBzJW4XyCftBQDHRszHxoGQl52MDOziVOYni633tOkVjtwIL/92zI34VC/TzkgNk/WLkgklYDtUY1FZFpH7r6o5OCGu2Av+4HButS4eBtB1J+5A9dcFDsuaWaPgepanOwOxxUH0Po5JttH6WH8ikgCGmUJZBTGTu6aaBk0kq9ueOpjwlQ+8uAGD0aCtPkmKCkenr9Ub8TuguljxVVfX03uEOIrGZOBdux2jqf6B4MtIxlc81Zt/FhJLTvalHfPWrKvsMy/+XYFmTEGmRDjjIhDACcFTKEdYiqHndW7lNeY4hvh7sKSx1iv2R+Ep0rxvig4VgRApRp7OUhsyDxjRss=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDxDCCAqygAwIBAgIJAPRvDPOrbG2qMA0GCSqGSIb3DQEBCwUAMIGIMSAwHgYDVQQDDBd3d3cubWlzdGVyYmlhbmNvLmdvdi5pdDEfMB0GA1UECgwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzEVMBMGA1UEBAwMUEE6SVQtY19mMjUwMQswCQYDVQQGEwJJVDEfMB0GA1UEBwwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzAeFw0yMDEwMTkwOTQ4NTNaFw0zMDEwMTcwOTQ4NTNaMIGIMSAwHgYDVQQDDBd3d3cubWlzdGVyYmlhbmNvLmdvdi5pdDEfMB0GA1UECgwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzEVMBMGA1UEBAwMUEE6SVQtY19mMjUwMQswCQYDVQQGEwJJVDEfMB0GA1UEBwwWQ29tdW5lIGRpIE1pc3RlcmJpYW5jbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMTuJTJ2SZvpjKXiuSjtzKuUugUNNj6E7eKCXJzo2y0KxYI/jnbviRzMThO24j87b5ZtaEANYdP+TxZvOSS1EfoS1D9Kfq91Vld2lUz026z/h4rGLaxycobmORhnPptx210pook4XBXTy1WiKftsTmbc72gXhRk7Dp1VI81OknV9VP6so6qOJ4j4nDQBhvtWVvWfi1rEdaPA42acHAoVmuerUejS9T2zG2Mqm6Qw1wuJ2y5Mt97Q9H3S/2/pZMchEJrXPlJByNpJ5qysH9tt3RbJwMpF192Djsvcio/3WA8coV5IISXuCCWS3lzgr9r4c90v6Pxv+oC49rv1vKx6t+sCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBADnBzJW4XyCftBQDHRszHxoGQl52MDOziVOYni633tOkVjtwIL/92zI34VC/TzkgNk/WLkgklYDtUY1FZFpH7r6o5OCGu2Av+4HButS4eBtB1J+5A9dcFDsuaWaPgepanOwOxxUH0Po5JttH6WH8ikgCGmUJZBTGTu6aaBk0kq9ueOpjwlQ+8uAGD0aCtPkmKCkenr9Ub8TuguljxVVfX03uEOIrGZOBdux2jqf6B4MtIxlc81Zt/FhJLTvalHfPWrKvsMy/+XYFmTEGmRDjjIhDACcFTKEdYiqHndW7lNeY4hvh7sKSx1iv2R+Ep0rxvig4VgRApRp7OUhsyDxjRss=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/misterbianco"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/misterbianco" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/misterbianco" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/misterbianco" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+	  <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Misterbianco</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Misterbianco</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Misterbianco</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Misterbianco</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Misterbianco</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Misterbianco</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Misterbianco</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Misterbianco</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.misterbianco.gov.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.misterbianco.gov.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.misterbianco.gov.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.misterbianco.gov.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_f250</spid:IPACode>
+         <spid:FiscalCode>80006270872</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>sebastiano.palmeri@comune.misterbianco.ct.it</md:EmailAddress>
+      <md:TelephoneNumber>3357867510</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

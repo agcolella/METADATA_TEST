@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Saleranosullambro" entityID="https://www.comune.saleranosullambro.lo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Saleranosullambro">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>KXxFQxNqPEgY/jKAjIUHRtd4xTN0Q05sYWCeFW9zqdI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Wvah0Evo0r/svgWvaNxucXo/rK0pqbzX3UJyJ4oU10YuA6DNsssMYWJBSlgmfOiY8gRsJjalrR/g
+tepyapeHm++AcuRwegW4XvfajxAl+WN0yLO+GKJBNPowGjCJvGuyWR+W3SmYF67orHRirdPSvi1n
+QoGb4owfnKL8yS8f/5k9myfSvB4WXgg0zjY8iN1QwLM0kDhl4XwUOWXvHvvCkMvSp3GorWT0RhLo
+XYdTGMejLGlusz0+OOQ/JZUdyoZkDTyuSbTLY5/mtpqaDG6eQnW5AtMGfdK81YHgFoGPcbMckka4
+CQP/c8QiyBfwntuAvmjr/BjUwLc+irstAzBf0A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sCc3Xu0VYdV3kXTdY2yiD2XcJFB3bB3SS9f7sQnGS7hJ51XupOmyyn/5nXFRkUPVJFmsTVplZYQT
+Lt7fu8gmwMGyEq0vOMQyk2soA9c3xGW4PrmG3b3jxutK158jzxje3T4ecsoZzgnC4gVm8HAT7Jss
+Iezbci0NB7UYY65grVuJ5ARGuCWLDEt52QziGGKDtXu6Zg+/VYM5eWfcsOSi2ECLoptK/RDtHs14
+SWjR81+j2TxMFkXXmv/O4FFyfTKQXiVUnZDpO/hlf/T9I3lGgwnyxc3tPpShFDgAj+ubaZCjSPm5
+CzaXv2pcY2BRe1kDc7n+kFqxrjhN5dOzIkadHw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDZTCCAk2gAwIBAgIJAKY8UGI9MhzqMA0GCSqGSIb3DQEBCwUAMEkxKzApBgNVBAMMInd3dy5j
+b211bmUuc2FsZXJhbm9zdWxsYW1icm8ubG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklU
+MB4XDTE4MDUyMjA5NTYzN1oXDTI4MDUxOTA5NTYzN1owSTErMCkGA1UEAwwid3d3LmNvbXVuZS5z
+YWxlcmFub3N1bGxhbWJyby5sby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwJzde7RVh1XeRdN1jbKIPZdwkUHdsHdJL1/uxCcZL
+uEnnVe6k6bLKf/mdcVGRQ9UkWaxNWmVlhBMu3t+7yCbAwbISrS84xDKTaygD1zfEZbg+uYbdvePG
+60rXnyPPGN7dPh5yyhnOCcLiBWbwcBPsmywh7NtyLQ0HtRhjrmCtW4nkBEa4JYsMS3nZDOIYYoO1
+e7pmD79Vgzl5Z9yw5KLYQIuim0r9EO0ezXhJaNHzX6PZPEwWRdea/87gUXJ9MpBeJVSdkOk7+GV/
+9P0jeUaDCfLFze0+lKEUOACP65tpkKNI+bkLNpe/alxjYFF7WQNzuf6QWrGuOE3l07MiRp0fAgMB
+AAGjUDBOMB0GA1UdDgQWBBTybekFwf4Swm9DWx+ahfP1dbsc7jAfBgNVHSMEGDAWgBTybekFwf4S
+wm9DWx+ahfP1dbsc7jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSDFJMjqPrZDul
+gH+zdF0dngoDj+6UHALeScxMZT6VcIK2SlnC4eMQDhiATNGWW6YWW89wQF8Q6xNIZZvYqgNn4p/j
+JiYHtWyTgWBnkccGVWS450atstpyk8zFnrUhmqoCnsYb78RHu/kUdZw21HOHk+lN12nrL+QZZkP5
+4+yOnlXWeJjDcqhRN3VNJ8375eVuZssbUc+47yBLNNoyWB3seTazrTni4kzefdnszEg9YAA/1RE4
+ssrHhlBA1Qn3NlBxmAecooCysyyVyD5gEQHRjqCLv3VDlxqW2r9KrLrKYM0SQV5sWGadZcENGExY
+JlZYZhQiew6qGxK8Qmg0y+f8
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZTCCAk2gAwIBAgIJAKY8UGI9MhzqMA0GCSqGSIb3DQEBCwUAMEkxKzApBgNVBAMMInd3dy5jb211bmUuc2FsZXJhbm9zdWxsYW1icm8ubG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUyMjA5NTYzN1oXDTI4MDUxOTA5NTYzN1owSTErMCkGA1UEAwwid3d3LmNvbXVuZS5zYWxlcmFub3N1bGxhbWJyby5sby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwJzde7RVh1XeRdN1jbKIPZdwkUHdsHdJL1/uxCcZLuEnnVe6k6bLKf/mdcVGRQ9UkWaxNWmVlhBMu3t+7yCbAwbISrS84xDKTaygD1zfEZbg+uYbdvePG60rXnyPPGN7dPh5yyhnOCcLiBWbwcBPsmywh7NtyLQ0HtRhjrmCtW4nkBEa4JYsMS3nZDOIYYoO1e7pmD79Vgzl5Z9yw5KLYQIuim0r9EO0ezXhJaNHzX6PZPEwWRdea/87gUXJ9MpBeJVSdkOk7+GV/9P0jeUaDCfLFze0+lKEUOACP65tpkKNI+bkLNpe/alxjYFF7WQNzuf6QWrGuOE3l07MiRp0fAgMBAAGjUDBOMB0GA1UdDgQWBBTybekFwf4Swm9DWx+ahfP1dbsc7jAfBgNVHSMEGDAWgBTybekFwf4Swm9DWx+ahfP1dbsc7jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBSDFJMjqPrZDulgH+zdF0dngoDj+6UHALeScxMZT6VcIK2SlnC4eMQDhiATNGWW6YWW89wQF8Q6xNIZZvYqgNn4p/jJiYHtWyTgWBnkccGVWS450atstpyk8zFnrUhmqoCnsYb78RHu/kUdZw21HOHk+lN12nrL+QZZkP54+yOnlXWeJjDcqhRN3VNJ8375eVuZssbUc+47yBLNNoyWB3seTazrTni4kzefdnszEg9YAA/1RE4ssrHhlBA1Qn3NlBxmAecooCysyyVyD5gEQHRjqCLv3VDlxqW2r9KrLrKYM0SQV5sWGadZcENGExYJlZYZhQiew6qGxK8Qmg0y+f8
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/saleranosullambro"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/saleranosullambro" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/saleranosullambro" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Salerano sul Lambro</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Salerano sul Lambro</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Salerano sul Lambro</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Salerano sul Lambro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Salerano sul Lambro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Salerano sul Lambro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Salerano sul Lambro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Salerano sul Lambro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.saleranosullambro.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.saleranosullambro.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.saleranosullambro.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.saleranosullambro.lo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="SestoFiorentino" entityID="https://www.comune.sesto-fiorentino.fi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SestoFiorentino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>S43xHvXa30xak1OLnXUHfAEMP6B9Y2fxItr/VWM++wk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VEAZJKZd7UkA749Dx4uBN2kpQdSbQ/ltbldOk7pWwMd1ZOG8kekAwf2ig40gH7jIoNCKANXtKlyW
+OgbmZFsXc2LwRY/vNQb+nF6aOBrgikRUsTOjZ/S162LF1X6yqJyNNR+THxh9lUsApH36kzZq0UXZ
+DkgqMcbV5pqa9yEMAgctLLIxE2EuRKb5SfCX7I0OL8K7FfZm9HOc2A0Zg8h0hrkfRf1A4ALmiS0Z
+645v31KTi0uKFm/b6L+R44SIvakUrxeobRC6BhyEv9xMnZUm4kkumIGHc6TzoGLrx4p7earxc32G
+yb+UViPbD63drqp/bYKyoWALfgUZvdSLD7kPEQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+x069Qfss9B9nhunBCU3DRmre/Y3bpynToT0iPIt7N0th4L9ldxUu6c+HGVjVoCaRmzWZU4HxqvXB
+/HmE6N+nM56jY3trmm1zE5c7jRaYcJgWSXdc05hbOeQPUgLjI8L5WzZTja0kNXBUuhirLCWTMOn7
+rSvPeB57vmOd+sXBOrQwSE0k6jdCHr67UxGd24cjqudNvkbvk8pTYq5ud7mGlt+safKIgFs8sqHi
+QH6XbRByz61i3QxJce/MRebOaH6RgkyuzEVfMfnfOngHkFnmun0M0nrD4YEBnLcicV3oNEJdWGjq
+tqem3QYNYri5UwBwOF+uneSQ8ZGquMd0JWCuvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYzCCAkugAwIBAgIJAPPRCQYaTfWMMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5j
+b211bmUuc2VzdG8tZmlvcmVudGluby5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQw
+HhcNMTkwMTE4MDc1NzMxWhcNMjkwMTE1MDc1NzMxWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnNl
+c3RvLWZpb3JlbnRpbm8uZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx069Qfss9B9nhunBCU3DRmre/Y3bpynToT0iPIt7N0th
+4L9ldxUu6c+HGVjVoCaRmzWZU4HxqvXB/HmE6N+nM56jY3trmm1zE5c7jRaYcJgWSXdc05hbOeQP
+UgLjI8L5WzZTja0kNXBUuhirLCWTMOn7rSvPeB57vmOd+sXBOrQwSE0k6jdCHr67UxGd24cjqudN
+vkbvk8pTYq5ud7mGlt+safKIgFs8sqHiQH6XbRByz61i3QxJce/MRebOaH6RgkyuzEVfMfnfOngH
+kFnmun0M0nrD4YEBnLcicV3oNEJdWGjqtqem3QYNYri5UwBwOF+uneSQ8ZGquMd0JWCuvQIDAQAB
+o1AwTjAdBgNVHQ4EFgQU6Np42mEW+N9DjRjYmdIY4GL+fbMwHwYDVR0jBBgwFoAU6Np42mEW+N9D
+jRjYmdIY4GL+fbMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAlbls4NH+ZdZzLF6Y
+DdzScOWrc8NdHca5ewfWOhothrF1hGCwIc6XF49gPi35HKkUjFLyxRlIddAB3Lj5uUtuG+KQ9cSa
+Ev6rpKXIhp4q3Z4nnWlTaFwCXB6eSW9CNektvvoJ7C4Tge6fz+KHbA8zeKoHARzC6vQ4wxcoJi5D
+EB6oPcu1rUOWoAhiWfYGW60XXbidYhk5UgE9ptQO/4DwsaclWTtWyHR+yxddKF6ebWV4z4NkTroQ
+1Ckira/8K4mXg2MaiRLDSuA3uLcQyfE/nI30Xu6bo+3ndidy1AYb2Kg8d3bOGs/O2Mn+TYi4TY4j
+gO2MrZyrVjLU5NaKdL0kmw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAPPRCQYaTfWMMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUuc2VzdG8tZmlvcmVudGluby5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMTE4MDc1NzMxWhcNMjkwMTE1MDc1NzMxWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnNlc3RvLWZpb3JlbnRpbm8uZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx069Qfss9B9nhunBCU3DRmre/Y3bpynToT0iPIt7N0th4L9ldxUu6c+HGVjVoCaRmzWZU4HxqvXB/HmE6N+nM56jY3trmm1zE5c7jRaYcJgWSXdc05hbOeQPUgLjI8L5WzZTja0kNXBUuhirLCWTMOn7rSvPeB57vmOd+sXBOrQwSE0k6jdCHr67UxGd24cjqudNvkbvk8pTYq5ud7mGlt+safKIgFs8sqHiQH6XbRByz61i3QxJce/MRebOaH6RgkyuzEVfMfnfOngHkFnmun0M0nrD4YEBnLcicV3oNEJdWGjqtqem3QYNYri5UwBwOF+uneSQ8ZGquMd0JWCuvQIDAQABo1AwTjAdBgNVHQ4EFgQU6Np42mEW+N9DjRjYmdIY4GL+fbMwHwYDVR0jBBgwFoAU6Np42mEW+N9DjRjYmdIY4GL+fbMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAlbls4NH+ZdZzLF6YDdzScOWrc8NdHca5ewfWOhothrF1hGCwIc6XF49gPi35HKkUjFLyxRlIddAB3Lj5uUtuG+KQ9cSaEv6rpKXIhp4q3Z4nnWlTaFwCXB6eSW9CNektvvoJ7C4Tge6fz+KHbA8zeKoHARzC6vQ4wxcoJi5DEB6oPcu1rUOWoAhiWfYGW60XXbidYhk5UgE9ptQO/4DwsaclWTtWyHR+yxddKF6ebWV4z4NkTroQ1Ckira/8K4mXg2MaiRLDSuA3uLcQyfE/nI30Xu6bo+3ndidy1AYb2Kg8d3bOGs/O2Mn+TYi4TY4jgO2MrZyrVjLU5NaKdL0kmw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAPPRCQYaTfWMMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUuc2VzdG8tZmlvcmVudGluby5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwMTE4MDc1NzMxWhcNMjkwMTE1MDc1NzMxWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnNlc3RvLWZpb3JlbnRpbm8uZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx069Qfss9B9nhunBCU3DRmre/Y3bpynToT0iPIt7N0th4L9ldxUu6c+HGVjVoCaRmzWZU4HxqvXB/HmE6N+nM56jY3trmm1zE5c7jRaYcJgWSXdc05hbOeQPUgLjI8L5WzZTja0kNXBUuhirLCWTMOn7rSvPeB57vmOd+sXBOrQwSE0k6jdCHr67UxGd24cjqudNvkbvk8pTYq5ud7mGlt+safKIgFs8sqHiQH6XbRByz61i3QxJce/MRebOaH6RgkyuzEVfMfnfOngHkFnmun0M0nrD4YEBnLcicV3oNEJdWGjqtqem3QYNYri5UwBwOF+uneSQ8ZGquMd0JWCuvQIDAQABo1AwTjAdBgNVHQ4EFgQU6Np42mEW+N9DjRjYmdIY4GL+fbMwHwYDVR0jBBgwFoAU6Np42mEW+N9DjRjYmdIY4GL+fbMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAlbls4NH+ZdZzLF6YDdzScOWrc8NdHca5ewfWOhothrF1hGCwIc6XF49gPi35HKkUjFLyxRlIddAB3Lj5uUtuG+KQ9cSaEv6rpKXIhp4q3Z4nnWlTaFwCXB6eSW9CNektvvoJ7C4Tge6fz+KHbA8zeKoHARzC6vQ4wxcoJi5DEB6oPcu1rUOWoAhiWfYGW60XXbidYhk5UgE9ptQO/4DwsaclWTtWyHR+yxddKF6ebWV4z4NkTroQ1Ckira/8K4mXg2MaiRLDSuA3uLcQyfE/nI30Xu6bo+3ndidy1AYb2Kg8d3bOGs/O2Mn+TYi4TY4jgO2MrZyrVjLU5NaKdL0kmw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sestofiorentino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sestofiorentino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sestofiorentino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sestofiorentino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sesto Fiorentino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Sesto Fiorentino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Sesto Fiorentino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Sesto Fiorentino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sesto Fiorentino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Sesto Fiorentino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Sesto Fiorentino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Sesto Fiorentino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sesto-fiorentino.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sesto-fiorentino.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.sesto-fiorentino.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.sesto-fiorentino.fi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Latina" entityID="https://www.comune.latina.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Latina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>lGWuFk32QB2rnvgbQSrmCRB4EDDQhMupOlmNknlG/Zk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mdXH4B01dLaiy68OeoA/P4PTpjhP19ZlJzU7Aja8jc8IK/joYQjmgNiN8WEIdGOKUggBSmn+ZVym
+1N1FoPyHH/O70Sflg/GxghQDWmYKu2nktCVGYOygvdIkfyB8sJc6a3zJMS9feKbObsUrkO0Hm+aS
+Z9Iydc7N/iiZJJ1ytYI3/z+UqTDSEfGd2uwjq/2ZL53BqVFnw/S9wEbXISXBsKW/JsF1gMbFapBO
+VMsjYp6W+njVze5gB+xakVe36QyXCPj7oDfPrkYoHiK4dqSDrXBD6F4H6SSZn8nvwh42mT/0gRL2
+crFGTZ9tHYDLeKTnCYLXwnLUtiXR/bHPBrMtZg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uI8HrJcCIQ7iV+wQ/C3E509Hj/zo3A+cJ525oX4JPQgjGzhBb4GaHKLDzSmdIPboxKtSL4L9Iy5o
+Hf5Ts9ZEeKyizmJ4qgACs9l2El/oks3qyoqbpsSkgYHyaGX6/T3uxAoEMLS+HbsyEfLb8ZFZ968/
+FehlQUrwKW1NqLU9bRINcud0pDyzKQJj3j8cKl7bxgl4lsrEM29hvs72h1NigmevQuiS1O2ipGFi
+4NwE9LvscWU5x19Gp9kygyn+/odsJ4DfluNgRR3o1MtBvtsInz9VrMkC31Og89sQ6AO6JIZouoAR
+SuwBTGs/iCCMiCjQxA2ycfyWquQ/JgAdOXwOEw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSTCCAjGgAwIBAgIJANFOcZmFdmJmMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5j
+b211bmUubGF0aW5hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MDMxMDIx
+NTBaFw0yOTA2MzAxMDIxNTBaMDsxHTAbBgNVBAMMFHd3dy5jb211bmUubGF0aW5hLml0MQ0wCwYD
+VQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiP
+B6yXAiEO4lfsEPwtxOdPR4/86NwPnCeduaF+CT0IIxs4QW+Bmhyiw80pnSD26MSrUi+C/SMuaB3+
+U7PWRHisos5ieKoAArPZdhJf6JLN6sqKm6bEpIGB8mhl+v097sQKBDC0vh27MhHy2/GRWfevPxXo
+ZUFK8CltTai1PW0SDXLndKQ8sykCY94/HCpe28YJeJbKxDNvYb7O9odTYoJnr0LoktTtoqRhYuDc
+BPS77HFlOcdfRqfZMoMp/v6HbCeA35bjYEUd6NTLQb7bCJ8/VazJAt9ToPPbEOgDuiSGaLqAEUrs
+AUxrP4ggjIgo0MQNsnH8lqrkPyYAHTl8DhMCAwEAAaNQME4wHQYDVR0OBBYEFK3dlLgU4qRUQsC6
+c/UksyhFAAZpMB8GA1UdIwQYMBaAFK3dlLgU4qRUQsC6c/UksyhFAAZpMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBADI65ENgXa2JMOuxkGlyfAgWvHOtTXz5mLtj8frNXo19eBQCf8P4
+H3nRqpUAf9cac2IQRCdClkQiQEhR8xuC9gEJuvmK5uGrsr04q2qvOWWujNk3DW/hj3n5MnqZJZdI
+i9U5iW6ePAw180Z6XD4VF708f1oYAaNoAHMoaH5tJZSybhSAWqqBVZp5JxG3a4ajGnL/9EQoM6hm
+nkm24HaXSXLk6aSaESNLsa5t3+aoFr5XDVNEZWhzhqWTHm/Nd6HcUktZR37ltNpKtOmVAWgR8kLl
+936Gi0S+4IBDIFvLdmeDjwcldQzpse3mTbx2HwYmS4u+SKvUItpkutmO0jayDiY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIJANFOcZmFdmJmMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5jb211bmUubGF0aW5hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MDMxMDIxNTBaFw0yOTA2MzAxMDIxNTBaMDsxHTAbBgNVBAMMFHd3dy5jb211bmUubGF0aW5hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiPB6yXAiEO4lfsEPwtxOdPR4/86NwPnCeduaF+CT0IIxs4QW+Bmhyiw80pnSD26MSrUi+C/SMuaB3+U7PWRHisos5ieKoAArPZdhJf6JLN6sqKm6bEpIGB8mhl+v097sQKBDC0vh27MhHy2/GRWfevPxXoZUFK8CltTai1PW0SDXLndKQ8sykCY94/HCpe28YJeJbKxDNvYb7O9odTYoJnr0LoktTtoqRhYuDcBPS77HFlOcdfRqfZMoMp/v6HbCeA35bjYEUd6NTLQb7bCJ8/VazJAt9ToPPbEOgDuiSGaLqAEUrsAUxrP4ggjIgo0MQNsnH8lqrkPyYAHTl8DhMCAwEAAaNQME4wHQYDVR0OBBYEFK3dlLgU4qRUQsC6c/UksyhFAAZpMB8GA1UdIwQYMBaAFK3dlLgU4qRUQsC6c/UksyhFAAZpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADI65ENgXa2JMOuxkGlyfAgWvHOtTXz5mLtj8frNXo19eBQCf8P4H3nRqpUAf9cac2IQRCdClkQiQEhR8xuC9gEJuvmK5uGrsr04q2qvOWWujNk3DW/hj3n5MnqZJZdIi9U5iW6ePAw180Z6XD4VF708f1oYAaNoAHMoaH5tJZSybhSAWqqBVZp5JxG3a4ajGnL/9EQoM6hmnkm24HaXSXLk6aSaESNLsa5t3+aoFr5XDVNEZWhzhqWTHm/Nd6HcUktZR37ltNpKtOmVAWgR8kLl936Gi0S+4IBDIFvLdmeDjwcldQzpse3mTbx2HwYmS4u+SKvUItpkutmO0jayDiY=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIJANFOcZmFdmJmMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5jb211bmUubGF0aW5hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MDMxMDIxNTBaFw0yOTA2MzAxMDIxNTBaMDsxHTAbBgNVBAMMFHd3dy5jb211bmUubGF0aW5hLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiPB6yXAiEO4lfsEPwtxOdPR4/86NwPnCeduaF+CT0IIxs4QW+Bmhyiw80pnSD26MSrUi+C/SMuaB3+U7PWRHisos5ieKoAArPZdhJf6JLN6sqKm6bEpIGB8mhl+v097sQKBDC0vh27MhHy2/GRWfevPxXoZUFK8CltTai1PW0SDXLndKQ8sykCY94/HCpe28YJeJbKxDNvYb7O9odTYoJnr0LoktTtoqRhYuDcBPS77HFlOcdfRqfZMoMp/v6HbCeA35bjYEUd6NTLQb7bCJ8/VazJAt9ToPPbEOgDuiSGaLqAEUrsAUxrP4ggjIgo0MQNsnH8lqrkPyYAHTl8DhMCAwEAAaNQME4wHQYDVR0OBBYEFK3dlLgU4qRUQsC6c/UksyhFAAZpMB8GA1UdIwQYMBaAFK3dlLgU4qRUQsC6c/UksyhFAAZpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADI65ENgXa2JMOuxkGlyfAgWvHOtTXz5mLtj8frNXo19eBQCf8P4H3nRqpUAf9cac2IQRCdClkQiQEhR8xuC9gEJuvmK5uGrsr04q2qvOWWujNk3DW/hj3n5MnqZJZdIi9U5iW6ePAw180Z6XD4VF708f1oYAaNoAHMoaH5tJZSybhSAWqqBVZp5JxG3a4ajGnL/9EQoM6hmnkm24HaXSXLk6aSaESNLsa5t3+aoFr5XDVNEZWhzhqWTHm/Nd6HcUktZR37ltNpKtOmVAWgR8kLl936Gi0S+4IBDIFvLdmeDjwcldQzpse3mTbx2HwYmS4u+SKvUItpkutmO0jayDiY=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/latina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/latina" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/latina" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/latina" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Latina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Latina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Latina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Latina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Latina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Latina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Latina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Latina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.latina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.latina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.latina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.latina.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

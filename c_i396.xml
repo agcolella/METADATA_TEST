@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="SanVitoDeiNormanni" entityID="https://www.comune.sanvitodeinormanni.br.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SanVitoDeiNormanni">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>w8jK4HAu4S2NjntPxXR+z7CvXqiP6+ZJEBgDml6Mhyc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QOx6t7tr7D3VNBXA56ztbmSRpXhC5JmVmiEL4u8JFfO7wTbmZAnHyI1DxADnw+A4SJhDPbXnN/so
+E3YGp0R7WOwPabUI6mF6kBVfvc8yA+Qhee7/0OVpGWylaM5OQdc1DImGypBsvB7jydVt6epqH72Z
+IYvyU6H0TvxvA/0NJysA4pdhWsrsqmvkHdz8wydxOsOCq0yYoGBow9KGjbv0d+myNeV5RSl5id2R
+Wo1bttWUnyoU3NeWCKxVab7lm6P8VSg+3IUIW5lfRuJ+cF4NnMYi6ZpJrbl0AHFa7sPQtg3xUT/q
+MLA+nKheD41kFJHDxyI7FMN/uniL/Rs53eiaCw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xl9OrXqH67Grn3wwn6nbiuUWTh8G2rjCcmk9J1tc8OYEkegQ4JdyXguCUKDigX72UO0H/hHTFrcF
+fGoFHY0QIs4M0xRhvOGyoQZa0QfIMkvxgUjd7Lw96WWZBfWbxIe30j4RocxM4gr3vF/VNnxU9EhP
+4XAZXRuh2SWf4V6edYJba7/7KUYCcVP+iwqRBn5r9HXL6VaP7si26zHCTdY1IYNQRVNlF8BLPnsA
+I2e2tDm+pZmVw0IcSurnbJ7i6xKv4CV4mrWNB/TReGKgnClYCUgTRcCoZtx0Uwqh9pG6LSFnIku9
+ri1ITSXSMM5WYTdrjyKPBdvGiStzXJ33rfgI1w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDZzCCAk+gAwIBAgIJANsyQAOqlsrKMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5j
+b211bmUuc2Fudml0b2RlaW5vcm1hbm5pLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJ
+VDAeFw0yMDAxMDcwODQ5MDBaFw0zMDAxMDQwODQ5MDBaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUu
+c2Fudml0b2RlaW5vcm1hbm5pLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZfTq16h+uxq598MJ+p24rlFk4fBtq4wnJpPSdb
+XPDmBJHoEOCXcl4LglCg4oF+9lDtB/4R0xa3BXxqBR2NECLODNMUYbzhsqEGWtEHyDJL8YFI3ey8
+PellmQX1m8SHt9I+EaHMTOIK97xf1TZ8VPRIT+FwGV0bodkln+FennWCW2u/+ylGAnFT/osKkQZ+
+a/R1y+lWj+7Itusxwk3WNSGDUEVTZRfASz57ACNntrQ5vqWZlcNCHErq52ye4usSr+AleJq1jQf0
+0XhioJwpWAlIE0XAqGbcdFMKofaRui0hZyJLva4tSE0l0jDOVmE3a48ijwXbxokrc1yd9634CNcC
+AwEAAaNQME4wHQYDVR0OBBYEFBIpOD10TvUYom0WLaEuy/eQJNvoMB8GA1UdIwQYMBaAFBIpOD10
+TvUYom0WLaEuy/eQJNvoMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEzAiULJkeU2
+jfoulPkiS4Y1omx/Q1nHG5lBPXKk5PXuGub06jNbobc2Sbu2IVSrlXJn19CsPjGpojpVnijx4aeT
+/70Cpenvbjvw9O4s1abo0A7ohg9DWe7UpcjUubolLS+W8vgElr83yAyU+fx9NuWNDdYgD5Twm2vS
+V4qLZin0AQJxdBM12lj/fxqo03VJKjUER1fiUYRWsTzNdFXmsd95xOoKX34BrZ126rV9gsBaO1IY
+qKn0OApfwHcklCyH341h3G7QArqWa3IEoWPit2E5pKGdU3OCb5AT0LUtyJePcZZwvq+JpueBgkOH
+menKvPzth7kUQDk0osUWBbkpzx4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJANsyQAOqlsrKMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RlaW5vcm1hbm5pLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAxMDcwODQ5MDBaFw0zMDAxMDQwODQ5MDBaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RlaW5vcm1hbm5pLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZfTq16h+uxq598MJ+p24rlFk4fBtq4wnJpPSdbXPDmBJHoEOCXcl4LglCg4oF+9lDtB/4R0xa3BXxqBR2NECLODNMUYbzhsqEGWtEHyDJL8YFI3ey8PellmQX1m8SHt9I+EaHMTOIK97xf1TZ8VPRIT+FwGV0bodkln+FennWCW2u/+ylGAnFT/osKkQZ+a/R1y+lWj+7Itusxwk3WNSGDUEVTZRfASz57ACNntrQ5vqWZlcNCHErq52ye4usSr+AleJq1jQf00XhioJwpWAlIE0XAqGbcdFMKofaRui0hZyJLva4tSE0l0jDOVmE3a48ijwXbxokrc1yd9634CNcCAwEAAaNQME4wHQYDVR0OBBYEFBIpOD10TvUYom0WLaEuy/eQJNvoMB8GA1UdIwQYMBaAFBIpOD10TvUYom0WLaEuy/eQJNvoMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEzAiULJkeU2jfoulPkiS4Y1omx/Q1nHG5lBPXKk5PXuGub06jNbobc2Sbu2IVSrlXJn19CsPjGpojpVnijx4aeT/70Cpenvbjvw9O4s1abo0A7ohg9DWe7UpcjUubolLS+W8vgElr83yAyU+fx9NuWNDdYgD5Twm2vSV4qLZin0AQJxdBM12lj/fxqo03VJKjUER1fiUYRWsTzNdFXmsd95xOoKX34BrZ126rV9gsBaO1IYqKn0OApfwHcklCyH341h3G7QArqWa3IEoWPit2E5pKGdU3OCb5AT0LUtyJePcZZwvq+JpueBgkOHmenKvPzth7kUQDk0osUWBbkpzx4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJANsyQAOqlsrKMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RlaW5vcm1hbm5pLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAxMDcwODQ5MDBaFw0zMDAxMDQwODQ5MDBaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2Fudml0b2RlaW5vcm1hbm5pLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZfTq16h+uxq598MJ+p24rlFk4fBtq4wnJpPSdbXPDmBJHoEOCXcl4LglCg4oF+9lDtB/4R0xa3BXxqBR2NECLODNMUYbzhsqEGWtEHyDJL8YFI3ey8PellmQX1m8SHt9I+EaHMTOIK97xf1TZ8VPRIT+FwGV0bodkln+FennWCW2u/+ylGAnFT/osKkQZ+a/R1y+lWj+7Itusxwk3WNSGDUEVTZRfASz57ACNntrQ5vqWZlcNCHErq52ye4usSr+AleJq1jQf00XhioJwpWAlIE0XAqGbcdFMKofaRui0hZyJLva4tSE0l0jDOVmE3a48ijwXbxokrc1yd9634CNcCAwEAAaNQME4wHQYDVR0OBBYEFBIpOD10TvUYom0WLaEuy/eQJNvoMB8GA1UdIwQYMBaAFBIpOD10TvUYom0WLaEuy/eQJNvoMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEzAiULJkeU2jfoulPkiS4Y1omx/Q1nHG5lBPXKk5PXuGub06jNbobc2Sbu2IVSrlXJn19CsPjGpojpVnijx4aeT/70Cpenvbjvw9O4s1abo0A7ohg9DWe7UpcjUubolLS+W8vgElr83yAyU+fx9NuWNDdYgD5Twm2vSV4qLZin0AQJxdBM12lj/fxqo03VJKjUER1fiUYRWsTzNdFXmsd95xOoKX34BrZ126rV9gsBaO1IYqKn0OApfwHcklCyH341h3G7QArqWa3IEoWPit2E5pKGdU3OCb5AT0LUtyJePcZZwvq+JpueBgkOHmenKvPzth7kUQDk0osUWBbkpzx4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sanvitodeinormanni"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanvitodeinormanni" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanvitodeinormanni" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sanvitodeinormanni" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Vito dei Normanni</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di San Vito dei Normanni</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di San Vito dei Normanni</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di San Vito dei Normanni</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Vito dei Normanni</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Vito dei Normanni</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di San Vito dei Normanni</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di San Vito dei Normanni</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sanvitodeinormanni.br.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sanvitodeinormanni.br.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.sanvitodeinormanni.br.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.sanvitodeinormanni.br.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

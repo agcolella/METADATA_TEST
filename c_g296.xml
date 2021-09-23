@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="PaluDelFersina" entityID="https://www.comune.paludelfersina.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#PaluDelFersina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>V5dVPaMzI5qowna/uiInMj1/6N1L6fGgfOxLCPFfsZY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+APpdsaqUK408aPirtZGltcSSyZ6zJLYFuPhvk7I9nqDqQnw65rqGkCq+gM6caQbR11v0lZEVaCCC
+TuFnIO45TV5PY614S8YmnfISBUhxToeCyBPwAb2nmDJhKwGkiueY1qicanL24is5SF1ZmRCpxcvs
+P9cle+T8/ZvIzdJAvsTIglVfpn+XhNayCy7RH/i0VA11cUo2HPc89r1UTNOsfd/f/IrxXS+ExMru
+dbWb+AopN3EyyFaJYlQFUPyC7ZK3IRG22VfRahz356aSFE0Mp7WyTpcK8uwTgw7AllzMST9kSnVD
+8cyj/fYkr5IhPvipGKwn7QO8bgIVM86i4xp8pA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ooVGRacaxkoDvIs+WYH7WkB9Y0puuyPo+F3Ole7u3hRiLtMTxLqlOdqpbpUPpqAmymIy4GrBRryk
+dQYzSo9KnqFr6CL7ZHbPsJVacYIdwONfjaJZuYD9LvrUfNkUmQiBGbde0ugyPEWKt90pGk2QGPJ8
+MkGOnVzjF1pguchfIXmv8G0w0kvfI2eXAkF9/9/NJNFw69O7yT1vQKfVHBWHTw3KV+woMwENi1C+
+zT16p1wWiiqWnXqeOrzExlTOkuR629CHDCtzADTYOP/OVTpxj2U7KxoixMsjMtyd7lNt6WCI299+
+AXNPU7pV1o1OWQOVfOruOoF5/VcuE6SH2mqFUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEVDCCAzygAwIBAgIJAMj0IEbRe7RBMA0GCSqGSIb3DQEBCwUAMIHQMSYwJAYDVQQKDB1Db211
+bmUgZGkgUGFsw4PCuSBkZWwgRmVyc2luYTEmMCQGA1UEAwwdQ29tdW5lIGRpIFBhbMODwrkgZGVs
+IEZlcnNpbmExPDA6BgNVBFMMM2h0dHBzOi8vd3d3LmNvbXVuZS5wYWx1ZGVsZmVyc2luYS50bi5p
+dC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19nMjk2MQswCQYDVQQGEwJJVDEcMBoGA1UE
+BwwTUGFsw4PCuSBkZWwgRmVyc2luYTAeFw0yMDExMTIxNjA2MzdaFw0zMDExMTAxNjA2MzdaMIHQ
+MSYwJAYDVQQKDB1Db211bmUgZGkgUGFsw4PCuSBkZWwgRmVyc2luYTEmMCQGA1UEAwwdQ29tdW5l
+IGRpIFBhbMODwrkgZGVsIEZlcnNpbmExPDA6BgNVBFMMM2h0dHBzOi8vd3d3LmNvbXVuZS5wYWx1
+ZGVsZmVyc2luYS50bi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19nMjk2MQswCQYD
+VQQGEwJJVDEcMBoGA1UEBwwTUGFsw4PCuSBkZWwgRmVyc2luYTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKKFRkWnGsZKA7yLPlmB+1pAfWNKbrsj6PhdzpXu7t4UYi7TE8S6pTnaqW6V
+D6agJspiMuBqwUa8pHUGM0qPSp6ha+gi+2R2z7CVWnGCHcDjX42iWbmA/S761HzZFJkIgRm3XtLo
+MjxFirfdKRpNkBjyfDJBjp1c4xdaYLnIXyF5r/BtMNJL3yNnlwJBff/fzSTRcOvTu8k9b0Cn1RwV
+h08NylfsKDMBDYtQvs09eqdcFooqlp16njq8xMZUzpLketvQhwwrcwA02Dj/zlU6cY9lOysaIsTL
+IzLcne5TbelgiNvffgFzT1O6VdaNTlkDlXzq7jqBef1XLhOkh9pqhVECAwEAAaMvMC0wCQYDVR0T
+BAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEB
+AFS8FJFMR5avFt9Nu0K1y5UU3yw1SmszSGL9XZraQVM1XNKPW2eOIozlEFPQNphg0LjqCcK1hd5p
+nJH69znIWemtFEtEEtGXh/vbbdI7HSnIjgS1qAs4eXbjJ0fr6DEAYpQhGkU5mb3bH5oyu9HhvWyC
+O2CCu5BapZm+VCjugjCir2gFACYXB6ivpfe4dcJeEec3w+QURNrN8G8EqC5YI0uaFUmfFP5qHnW9
+UDixADq+aOjGLWAly5feWxvO5Z8Gv/G2LgKNvN8mdk821+MnlikNrmJ7fukTy3umIHMZ3nxizIX3
+LFPU4oUCVEM5q6fHoKfL+R6niYb+Qc4K18oMo48=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEVDCCAzygAwIBAgIJAMj0IEbRe7RBMA0GCSqGSIb3DQEBCwUAMIHQMSYwJAYDVQQKDB1Db211bmUgZGkgUGFsw4PCuSBkZWwgRmVyc2luYTEmMCQGA1UEAwwdQ29tdW5lIGRpIFBhbMODwrkgZGVsIEZlcnNpbmExPDA6BgNVBFMMM2h0dHBzOi8vd3d3LmNvbXVuZS5wYWx1ZGVsZmVyc2luYS50bi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19nMjk2MQswCQYDVQQGEwJJVDEcMBoGA1UEBwwTUGFsw4PCuSBkZWwgRmVyc2luYTAeFw0yMDExMTIxNjA2MzdaFw0zMDExMTAxNjA2MzdaMIHQMSYwJAYDVQQKDB1Db211bmUgZGkgUGFsw4PCuSBkZWwgRmVyc2luYTEmMCQGA1UEAwwdQ29tdW5lIGRpIFBhbMODwrkgZGVsIEZlcnNpbmExPDA6BgNVBFMMM2h0dHBzOi8vd3d3LmNvbXVuZS5wYWx1ZGVsZmVyc2luYS50bi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19nMjk2MQswCQYDVQQGEwJJVDEcMBoGA1UEBwwTUGFsw4PCuSBkZWwgRmVyc2luYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKKFRkWnGsZKA7yLPlmB+1pAfWNKbrsj6PhdzpXu7t4UYi7TE8S6pTnaqW6VD6agJspiMuBqwUa8pHUGM0qPSp6ha+gi+2R2z7CVWnGCHcDjX42iWbmA/S761HzZFJkIgRm3XtLoMjxFirfdKRpNkBjyfDJBjp1c4xdaYLnIXyF5r/BtMNJL3yNnlwJBff/fzSTRcOvTu8k9b0Cn1RwVh08NylfsKDMBDYtQvs09eqdcFooqlp16njq8xMZUzpLketvQhwwrcwA02Dj/zlU6cY9lOysaIsTLIzLcne5TbelgiNvffgFzT1O6VdaNTlkDlXzq7jqBef1XLhOkh9pqhVECAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFS8FJFMR5avFt9Nu0K1y5UU3yw1SmszSGL9XZraQVM1XNKPW2eOIozlEFPQNphg0LjqCcK1hd5pnJH69znIWemtFEtEEtGXh/vbbdI7HSnIjgS1qAs4eXbjJ0fr6DEAYpQhGkU5mb3bH5oyu9HhvWyCO2CCu5BapZm+VCjugjCir2gFACYXB6ivpfe4dcJeEec3w+QURNrN8G8EqC5YI0uaFUmfFP5qHnW9UDixADq+aOjGLWAly5feWxvO5Z8Gv/G2LgKNvN8mdk821+MnlikNrmJ7fukTy3umIHMZ3nxizIX3LFPU4oUCVEM5q6fHoKfL+R6niYb+Qc4K18oMo48=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEVDCCAzygAwIBAgIJAMj0IEbRe7RBMA0GCSqGSIb3DQEBCwUAMIHQMSYwJAYDVQQKDB1Db211bmUgZGkgUGFsw4PCuSBkZWwgRmVyc2luYTEmMCQGA1UEAwwdQ29tdW5lIGRpIFBhbMODwrkgZGVsIEZlcnNpbmExPDA6BgNVBFMMM2h0dHBzOi8vd3d3LmNvbXVuZS5wYWx1ZGVsZmVyc2luYS50bi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19nMjk2MQswCQYDVQQGEwJJVDEcMBoGA1UEBwwTUGFsw4PCuSBkZWwgRmVyc2luYTAeFw0yMDExMTIxNjA2MzdaFw0zMDExMTAxNjA2MzdaMIHQMSYwJAYDVQQKDB1Db211bmUgZGkgUGFsw4PCuSBkZWwgRmVyc2luYTEmMCQGA1UEAwwdQ29tdW5lIGRpIFBhbMODwrkgZGVsIEZlcnNpbmExPDA6BgNVBFMMM2h0dHBzOi8vd3d3LmNvbXVuZS5wYWx1ZGVsZmVyc2luYS50bi5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19nMjk2MQswCQYDVQQGEwJJVDEcMBoGA1UEBwwTUGFsw4PCuSBkZWwgRmVyc2luYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKKFRkWnGsZKA7yLPlmB+1pAfWNKbrsj6PhdzpXu7t4UYi7TE8S6pTnaqW6VD6agJspiMuBqwUa8pHUGM0qPSp6ha+gi+2R2z7CVWnGCHcDjX42iWbmA/S761HzZFJkIgRm3XtLoMjxFirfdKRpNkBjyfDJBjp1c4xdaYLnIXyF5r/BtMNJL3yNnlwJBff/fzSTRcOvTu8k9b0Cn1RwVh08NylfsKDMBDYtQvs09eqdcFooqlp16njq8xMZUzpLketvQhwwrcwA02Dj/zlU6cY9lOysaIsTLIzLcne5TbelgiNvffgFzT1O6VdaNTlkDlXzq7jqBef1XLhOkh9pqhVECAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFS8FJFMR5avFt9Nu0K1y5UU3yw1SmszSGL9XZraQVM1XNKPW2eOIozlEFPQNphg0LjqCcK1hd5pnJH69znIWemtFEtEEtGXh/vbbdI7HSnIjgS1qAs4eXbjJ0fr6DEAYpQhGkU5mb3bH5oyu9HhvWyCO2CCu5BapZm+VCjugjCir2gFACYXB6ivpfe4dcJeEec3w+QURNrN8G8EqC5YI0uaFUmfFP5qHnW9UDixADq+aOjGLWAly5feWxvO5Z8Gv/G2LgKNvN8mdk821+MnlikNrmJ7fukTy3umIHMZ3nxizIX3LFPU4oUCVEM5q6fHoKfL+R6niYb+Qc4K18oMo48=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/paludelfersina"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paludelfersina" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paludelfersina" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paludelfersina" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Palù del Fersina</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Palù del Fersina</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Palù del Fersina</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Palù del Fersina</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Palù del Fersina</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Palù del Fersina</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Palù del Fersina</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Palù del Fersina</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.paludelfersina.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.paludelfersina.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.paludelfersina.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.paludelfersina.tn.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_g296</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ict@comune.pergine.tn.it</md:EmailAddress>
+      <md:TelephoneNumber>+390461502340</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

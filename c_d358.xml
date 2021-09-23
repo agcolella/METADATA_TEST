@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.sportellotelematico-dovera.it/" ID="pfx956d4e10-b044-5681-fde1-c958507b5ca4"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx956d4e10-b044-5681-fde1-c958507b5ca4"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ud9vXpiwmoSWrjXjTASbX1+qNXvSWx67bHabi4NgN/U=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VE/DwtGIQDlWGb4R4KbWbGlrUR71UIZTou1hWg+lbJf5UodUGyrc4eWKbW1Bfxrf95Gfx6xeiQw4wUCJtQ6UXkpqHKwRfcWIunS+6lrKN/j31KZqWtOTm+u9V7GmUkpSf189g9HljBGWEbmy0H0xsh9swRFziCLzXRM/pBip1krS5YKoExe4JDuW6dlSQSydF5fVL6QtQ/zJvsnmmeSY3KfbtQz0mH1lZ4q5l9P1c+y8EE4eFOdOxY0cIL7wR39FgRunq7V1IIt6ob4H9OARWTM1LJ3iJAd2XCxKK6G3iTXJstD5I+ZcyV9e7/Gp9TGri3oYMKdCrEAW7oAKy8TWOA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEBDCCAuygAwIBAgIJALqHlAcO15t1MA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ3JlbW9uYTEPMA0GA1UEBwwGRG92ZXJhMRkwFwYDVQQKDBBDb211bmUgZGkgRG92ZXJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEqMCgGA1UEAwwhd3d3LnNwb3J0ZWxsb3RlbGVtYXRpY28tZG92ZXJhLml0MB4XDTE5MDQxNzEwNTcwM1oXDTI5MDQxNDEwNTcwM1owgZYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMQ8wDQYDVQQHDAZEb3ZlcmExGTAXBgNVBAoMEENvbXVuZSBkaSBEb3ZlcmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSowKAYDVQQDDCF3d3cuc3BvcnRlbGxvdGVsZW1hdGljby1kb3ZlcmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHnQid8sbGHLlzw4GvBNNZ6sjtq628B697Vim/RUK7VOKVM652J6kKcnJOpInpNnwcnBuv6q800Xe+GPTHjaivDBa4qKQW2pNbuUakdHMD5gyiD+bF6wP8OkG3Vic1S5jQKAig28ih1/NZRiBtGetexDjS6hf4xWdzPLjZ2LgBYrnAggK2WI4dHW5437zQN1l7iPzHLSNJu6aK9R8vt5pJ+PbgSQejU768eEpcPaduZGYAbAgOUFJtmQX4s2jdMaZzLbzlUq+8JoqqUrbo8GVc213QWv9VpbVWaYZ3ts/WJ52f2961ynAC5cfJoyHG0n7kXpQgfCl4Ks5PxmMl/t7jAgMBAAGjUzBRMB0GA1UdDgQWBBS4Yidk/i1nPNzIywjoGaoy+o/UEDAfBgNVHSMEGDAWgBS4Yidk/i1nPNzIywjoGaoy+o/UEDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCfMVCqsSkOq+Hs9SFvRghncccPpjKo7ITI0tYolqdKcsCM7cPwGTCyt8g7VDh4T3Xmc66fuG2Pn977bYfX+y/0bdzk/5ec64NFLIOpTyQYXbJxULb1r/qZHOfOJdMnxUbJRUhhGlIKaL2BHpERp/lNsVvOZRvcNgCBk+XAH4l+aZ1YSi844z8eqkAWZ5eJD9aVb0yu3QGtz3UDcgvyF1M0LfK152n/Ig1xdPGB0P9wUrdPTfHDIMrQzsLpduB7trnAikM2rs83ke0C0GgVNKVcUuipknEmfrl1Rq+Xk86C7jQmm1W6WW80jB6r3mo5osO0wQWVtvim9Bgr76wPH7+r</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBDCCAuygAwIBAgIJALqHlAcO15t1MA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ3JlbW9uYTEPMA0GA1UEBwwGRG92ZXJhMRkwFwYDVQQKDBBDb211bmUgZGkgRG92ZXJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEqMCgGA1UEAwwhd3d3LnNwb3J0ZWxsb3RlbGVtYXRpY28tZG92ZXJhLml0MB4XDTE5MDQxNzEwNTcwM1oXDTI5MDQxNDEwNTcwM1owgZYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMQ8wDQYDVQQHDAZEb3ZlcmExGTAXBgNVBAoMEENvbXVuZSBkaSBEb3ZlcmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSowKAYDVQQDDCF3d3cuc3BvcnRlbGxvdGVsZW1hdGljby1kb3ZlcmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHnQid8sbGHLlzw4GvBNNZ6sjtq628B697Vim/RUK7VOKVM652J6kKcnJOpInpNnwcnBuv6q800Xe+GPTHjaivDBa4qKQW2pNbuUakdHMD5gyiD+bF6wP8OkG3Vic1S5jQKAig28ih1/NZRiBtGetexDjS6hf4xWdzPLjZ2LgBYrnAggK2WI4dHW5437zQN1l7iPzHLSNJu6aK9R8vt5pJ+PbgSQejU768eEpcPaduZGYAbAgOUFJtmQX4s2jdMaZzLbzlUq+8JoqqUrbo8GVc213QWv9VpbVWaYZ3ts/WJ52f2961ynAC5cfJoyHG0n7kXpQgfCl4Ks5PxmMl/t7jAgMBAAGjUzBRMB0GA1UdDgQWBBS4Yidk/i1nPNzIywjoGaoy+o/UEDAfBgNVHSMEGDAWgBS4Yidk/i1nPNzIywjoGaoy+o/UEDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCfMVCqsSkOq+Hs9SFvRghncccPpjKo7ITI0tYolqdKcsCM7cPwGTCyt8g7VDh4T3Xmc66fuG2Pn977bYfX+y/0bdzk/5ec64NFLIOpTyQYXbJxULb1r/qZHOfOJdMnxUbJRUhhGlIKaL2BHpERp/lNsVvOZRvcNgCBk+XAH4l+aZ1YSi844z8eqkAWZ5eJD9aVb0yu3QGtz3UDcgvyF1M0LfK152n/Ig1xdPGB0P9wUrdPTfHDIMrQzsLpduB7trnAikM2rs83ke0C0GgVNKVcUuipknEmfrl1Rq+Xk86C7jQmm1W6WW80jB6r3mo5osO0wQWVtvim9Bgr76wPH7+r</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBDCCAuygAwIBAgIJALqHlAcO15t1MA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ3JlbW9uYTEPMA0GA1UEBwwGRG92ZXJhMRkwFwYDVQQKDBBDb211bmUgZGkgRG92ZXJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEqMCgGA1UEAwwhd3d3LnNwb3J0ZWxsb3RlbGVtYXRpY28tZG92ZXJhLml0MB4XDTE5MDQxNzEwNTcwM1oXDTI5MDQxNDEwNTcwM1owgZYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMQ8wDQYDVQQHDAZEb3ZlcmExGTAXBgNVBAoMEENvbXVuZSBkaSBEb3ZlcmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSowKAYDVQQDDCF3d3cuc3BvcnRlbGxvdGVsZW1hdGljby1kb3ZlcmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHnQid8sbGHLlzw4GvBNNZ6sjtq628B697Vim/RUK7VOKVM652J6kKcnJOpInpNnwcnBuv6q800Xe+GPTHjaivDBa4qKQW2pNbuUakdHMD5gyiD+bF6wP8OkG3Vic1S5jQKAig28ih1/NZRiBtGetexDjS6hf4xWdzPLjZ2LgBYrnAggK2WI4dHW5437zQN1l7iPzHLSNJu6aK9R8vt5pJ+PbgSQejU768eEpcPaduZGYAbAgOUFJtmQX4s2jdMaZzLbzlUq+8JoqqUrbo8GVc213QWv9VpbVWaYZ3ts/WJ52f2961ynAC5cfJoyHG0n7kXpQgfCl4Ks5PxmMl/t7jAgMBAAGjUzBRMB0GA1UdDgQWBBS4Yidk/i1nPNzIywjoGaoy+o/UEDAfBgNVHSMEGDAWgBS4Yidk/i1nPNzIywjoGaoy+o/UEDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCfMVCqsSkOq+Hs9SFvRghncccPpjKo7ITI0tYolqdKcsCM7cPwGTCyt8g7VDh4T3Xmc66fuG2Pn977bYfX+y/0bdzk/5ec64NFLIOpTyQYXbJxULb1r/qZHOfOJdMnxUbJRUhhGlIKaL2BHpERp/lNsVvOZRvcNgCBk+XAH4l+aZ1YSi844z8eqkAWZ5eJD9aVb0yu3QGtz3UDcgvyF1M0LfK152n/Ig1xdPGB0P9wUrdPTfHDIMrQzsLpduB7trnAikM2rs83ke0C0GgVNKVcUuipknEmfrl1Rq+Xk86C7jQmm1W6WW80jB6r3mo5osO0wQWVtvim9Bgr76wPH7+r</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-dovera.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-dovera.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_d358</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_d358</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Dovera</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Dovera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.sportellotelematico-dovera.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.sportellotelematico-dovera.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

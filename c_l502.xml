@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx9d6f9258-4dcb-4224-6ae1-e00824a30b62" entityID="https://www.urgnano.eu"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx9d6f9258-4dcb-4224-6ae1-e00824a30b62">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Ys65+C9r2IgZvhWTPM7gQCR7jB7tCu0tazOgfX/FlFI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+DxZHkg+p6Jf+yc+GS5PilYR9aJEVaxqbIwvdO35apX9HLF5v1Se8OEq5PKK9I11XG+TuqA7ulnyR
+HJI94L7Wnglznsv5UHyDKAclKqeK5WmvdXHoOaGkWGsN7XJPSp6x0GLGYQUPsegED5PsVRJIziI+
+qCR7I+FurQn1vq+By/y+Rv9bLzWEHDGMdwdoYVeMj0meocd/+DlH21X4rXNN/XhwyKMLLIEMuDmO
+dQoAsx4CPgPMravIjHjRlSoaFi9/0zOI1E/i6s2Lf6RNVocZi1LqpZnd9uhDZzA0qxzaaDO7JSgt
+K7c4XKLDNBTZzcEr4gKFp8fYQQL73sH2jAJxMw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2tVU9lemvm/OdqXXQ+gkSIrH4eqRDo0wKZUS/OO5xXUBnSFbFKw2cxxGYkC1dqAGq2q2EzOHFUE7
+w5gS5kO1c4doSwxujzeReFrDBubv45h0UxlBq+aXgnhSncAD61468n76FgHGAqfrMzyZXOp7pYkU
+XVtwcq1xGHgtbxHFlutml03Ypy7uwwQ3CY0X8CfgvInopnSHPQWztharKMxZxPxdljTpl+ga9bNK
+w5P3kzeX4vfVQt5Tk6HWTzPn6CHlV5boWBwMbysF+bw7lcX0cS3duJTS2489lZ6FS9IX5hGYV/4i
+aiVq6DXFqlTGAXy15NRvgOZJFY0MbEvCLQ9gCQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDmzCCAoOgAwIBAgIJAKSz5/qVt06KMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHVXJnbmFubzEaMBgGA1UECgwRQ29tdW5lIGRpIFVyZ25h
+bm8xFzAVBgNVBAMMDnd3dy51cmduYW5vLmV1MB4XDTIwMTIwMTEzMzEwM1oXDTMwMTIwMTEzMzEw
+M1owZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdVcmduYW5vMRowGAYD
+VQQKDBFDb211bmUgZGkgVXJnbmFubzEXMBUGA1UEAwwOd3d3LnVyZ25hbm8uZXUwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDa1VT2V6a+b852pddD6CRIisfh6pEOjTAplRL847nFdQGd
+IVsUrDZzHEZiQLV2oAararYTM4cVQTvDmBLmQ7Vzh2hLDG6PN5F4WsMG5u/jmHRTGUGr5peCeFKd
+wAPrXjryfvoWAcYCp+szPJlc6nuliRRdW3ByrXEYeC1vEcWW62aXTdinLu7DBDcJjRfwJ+C8ieim
+dIc9BbO2FqsozFnE/F2WNOmX6Br1s0rDk/eTN5fi99VC3lOTodZPM+foIeVXluhYHAxvKwX5vDuV
+xfRxLd24lNLbjz2VnoVL0hfmEZhX/iJqJWroNcWqVMYBfLXk1G+A5kkVjQxsS8ItD2AJAgMBAAGj
+UDBOMB0GA1UdDgQWBBTXInxTjBD6+hosw05M4DnIFkQaCDAfBgNVHSMEGDAWgBTXInxTjBD6+hos
+w05M4DnIFkQaCDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAE97DV60HfafdBE9jN
+S0WZeq5+f+9yOpPGa27SsyzISRoSYC96rJyslahhkknvct0ORgTxgl78vj6BagwsMHAdgkdjO1Mn
++7h0PO40S9Pa2QP0Lu1SnGFNXDmpfAEvF37OD2J0rsKEE6MYOaN85n4Aws61jcUXP+Rgnh80IVCU
+aQAMS8daSCSf12yS/31yLZnRAsnoKs3WgOvU114KHoCdAuzI8czzI14GifVHa5L4fLC7ynK29zwW
+U2corE50bye4FMIBINFV5hQ/1Tm0YMbVU+FhT6isXaHaUyObOiDSQvN0XKpcj3zkYtbJ8f6zRywz
+9yRzPZkqW/o3sPAgkgH1
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDmzCCAoOgAwIBAgIJAKSz5/qVt06KMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHVXJnbmFubzEaMBgGA1UECgwRQ29tdW5lIGRpIFVyZ25hbm8xFzAVBgNVBAMMDnd3dy51cmduYW5vLmV1MB4XDTIwMTIwMTEzMzEwM1oXDTMwMTIwMTEzMzEwM1owZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdVcmduYW5vMRowGAYDVQQKDBFDb211bmUgZGkgVXJnbmFubzEXMBUGA1UEAwwOd3d3LnVyZ25hbm8uZXUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDa1VT2V6a+b852pddD6CRIisfh6pEOjTAplRL847nFdQGdIVsUrDZzHEZiQLV2oAararYTM4cVQTvDmBLmQ7Vzh2hLDG6PN5F4WsMG5u/jmHRTGUGr5peCeFKdwAPrXjryfvoWAcYCp+szPJlc6nuliRRdW3ByrXEYeC1vEcWW62aXTdinLu7DBDcJjRfwJ+C8ieimdIc9BbO2FqsozFnE/F2WNOmX6Br1s0rDk/eTN5fi99VC3lOTodZPM+foIeVXluhYHAxvKwX5vDuVxfRxLd24lNLbjz2VnoVL0hfmEZhX/iJqJWroNcWqVMYBfLXk1G+A5kkVjQxsS8ItD2AJAgMBAAGjUDBOMB0GA1UdDgQWBBTXInxTjBD6+hosw05M4DnIFkQaCDAfBgNVHSMEGDAWgBTXInxTjBD6+hosw05M4DnIFkQaCDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAE97DV60HfafdBE9jNS0WZeq5+f+9yOpPGa27SsyzISRoSYC96rJyslahhkknvct0ORgTxgl78vj6BagwsMHAdgkdjO1Mn+7h0PO40S9Pa2QP0Lu1SnGFNXDmpfAEvF37OD2J0rsKEE6MYOaN85n4Aws61jcUXP+Rgnh80IVCUaQAMS8daSCSf12yS/31yLZnRAsnoKs3WgOvU114KHoCdAuzI8czzI14GifVHa5L4fLC7ynK29zwWU2corE50bye4FMIBINFV5hQ/1Tm0YMbVU+FhT6isXaHaUyObOiDSQvN0XKpcj3zkYtbJ8f6zRywz9yRzPZkqW/o3sPAgkgH1</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDmzCCAoOgAwIBAgIJAKSz5/qVt06KMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHVXJnbmFubzEaMBgGA1UECgwRQ29tdW5lIGRpIFVyZ25hbm8xFzAVBgNVBAMMDnd3dy51cmduYW5vLmV1MB4XDTIwMTIwMTEzMzEwM1oXDTMwMTIwMTEzMzEwM1owZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdVcmduYW5vMRowGAYDVQQKDBFDb211bmUgZGkgVXJnbmFubzEXMBUGA1UEAwwOd3d3LnVyZ25hbm8uZXUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDa1VT2V6a+b852pddD6CRIisfh6pEOjTAplRL847nFdQGdIVsUrDZzHEZiQLV2oAararYTM4cVQTvDmBLmQ7Vzh2hLDG6PN5F4WsMG5u/jmHRTGUGr5peCeFKdwAPrXjryfvoWAcYCp+szPJlc6nuliRRdW3ByrXEYeC1vEcWW62aXTdinLu7DBDcJjRfwJ+C8ieimdIc9BbO2FqsozFnE/F2WNOmX6Br1s0rDk/eTN5fi99VC3lOTodZPM+foIeVXluhYHAxvKwX5vDuVxfRxLd24lNLbjz2VnoVL0hfmEZhX/iJqJWroNcWqVMYBfLXk1G+A5kkVjQxsS8ItD2AJAgMBAAGjUDBOMB0GA1UdDgQWBBTXInxTjBD6+hosw05M4DnIFkQaCDAfBgNVHSMEGDAWgBTXInxTjBD6+hosw05M4DnIFkQaCDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAE97DV60HfafdBE9jNS0WZeq5+f+9yOpPGa27SsyzISRoSYC96rJyslahhkknvct0ORgTxgl78vj6BagwsMHAdgkdjO1Mn+7h0PO40S9Pa2QP0Lu1SnGFNXDmpfAEvF37OD2J0rsKEE6MYOaN85n4Aws61jcUXP+Rgnh80IVCUaQAMS8daSCSf12yS/31yLZnRAsnoKs3WgOvU114KHoCdAuzI8czzI14GifVHa5L4fLC7ynK29zwWU2corE50bye4FMIBINFV5hQ/1Tm0YMbVU+FhT6isXaHaUyObOiDSQvN0XKpcj3zkYtbJ8f6zRywz9yRzPZkqW/o3sPAgkgH1</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.urgnano.eu/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.urgnano.eu/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Urgnano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Urgnano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.urgnano.eu</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l502</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Urgnano</md:Company>
+    <md:EmailAddress>protocollo@urgnano.eu</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

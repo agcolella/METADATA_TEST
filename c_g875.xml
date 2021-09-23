@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="PonzanoVeneto" entityID="https://www.comuneponzanoveneto.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#PonzanoVeneto">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>vyFVERgJ291YfHeiHEewnKPuYGadRZn2koboVaE9uLo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+umIhCYAobEg739KScOORLP2h+6wjQSJgdM4+iU055/zK9zLzMGA5jiVDHoEZrJEOChXePLkpYLUQ
+wnep46Z8PpuJ9SxNjG47eMMXlFzBP3tlUuzLaZqsgOkkzAMOZZQn4koJwdO3sR0vkTf3dp+ikPiL
+i6nt2qO3F0y8U2RXk5f1mABjHQYhsWCC6z4ZK2cj70JttMAjwfl58VhS2+BlyAjNdVFhLmRZsyC0
+cvBfq+I1KhCWczvj0fa2jS1RjplwnWXJY/Go++V8JcaRrht44NJ6N2JQSp8HFOdz5kbr8SAiJEq0
+Z3TG84tY86dQ3CxRL7mIHRSdaTE7kSXUGzej1w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u/kkUgqkQMAuq+B08n0uXgO4DQAY4Oxa0QTNiQ7aNDuBZ4HRs2yeXiGyKHglf4IXqhMmatm/Ncex
+bJeXcGxaECLyHZMPx28BEX6h+U6L/HnOmKAnzWocU7SV7IIcsoHGdyZk9OECfE9b/eDv0O7pCsGe
+x0trDq5K7NRLxVLN1T8u0yawbo2/PRj2PVWu+pUapXDXLNKt8vNC5+MoyTXLVkKtkzCc37CBYH6w
+xbTi7LF1Hy/Xv/f76ArsTnh5anMddkM0thvU7HsdFK3jgvnbKvB9MqGyCifx/i7NFfZKxFZ9E1Vf
+w4PYsuFfo1o1wxlWvEhKJo7tqujoFwchpXcoNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAIAWyPJZ90iAMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmVwb256YW5vdmVuZXRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA4
+MTkwOTU3MTZaFw0yOTA4MTYwOTU3MTZaMEExIzAhBgNVBAMMGnd3dy5jb211bmVwb256YW5vdmVu
+ZXRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALv5JFIKpEDALqvgdPJ9Ll4DuA0AGODsWtEEzYkO2jQ7gWeB0bNsnl4hsih4JX+C
+F6oTJmrZvzXHsWyXl3BsWhAi8h2TD8dvARF+oflOi/x5zpigJ81qHFO0leyCHLKBxncmZPThAnxP
+W/3g79Du6QrBnsdLaw6uSuzUS8VSzdU/LtMmsG6Nvz0Y9j1VrvqVGqVw1yzSrfLzQufjKMk1y1ZC
+rZMwnN+wgWB+sMW04uyxdR8v17/3++gK7E54eWpzHXZDNLYb1Ox7HRSt44L52yrwfTKhsgon8f4u
+zRX2SsRWfRNVX8OD2LLhX6NaNcMZVrxISiaO7aro6BcHIaV3KDcCAwEAAaNQME4wHQYDVR0OBBYE
+FMG3b6vH65CVpoqjKmKqXlyVG7hTMB8GA1UdIwQYMBaAFMG3b6vH65CVpoqjKmKqXlyVG7hTMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACZ4urh+puaSDemrqbPWGehkC9bp/T6U5ZPk
+cnVZlwMoNeZlnHAQZTss8uLTeWa8L6s9C29xS1FebKUY7bHiDeOYwlbKSn0e9v7WpZzQtM1qlLx0
+Y20Iaj8wpUYkeKudf1+PKtiLNBmJAnRC70qW3SmokMjxJ/kFlLBwqUDCo6C/Sxn8njcVSghqzfAt
+zNs96ZiTZ0pBot6mA4Fh4cvGgfxDGEv6Fw5Ueul4/CDrjU9eDXpKjo8Pw6Qd92bEpFVbl+NaXnfi
+af5rdSLWSkDicjH1J+xg0IbbRWUDBGdgbkRzslB/uf4qXujpHw3lcEyynEANEsT/SlUUHKpT9Rd5
+Vrk=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAIAWyPJZ90iAMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmVwb256YW5vdmVuZXRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA4MTkwOTU3MTZaFw0yOTA4MTYwOTU3MTZaMEExIzAhBgNVBAMMGnd3dy5jb211bmVwb256YW5vdmVuZXRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALv5JFIKpEDALqvgdPJ9Ll4DuA0AGODsWtEEzYkO2jQ7gWeB0bNsnl4hsih4JX+CF6oTJmrZvzXHsWyXl3BsWhAi8h2TD8dvARF+oflOi/x5zpigJ81qHFO0leyCHLKBxncmZPThAnxPW/3g79Du6QrBnsdLaw6uSuzUS8VSzdU/LtMmsG6Nvz0Y9j1VrvqVGqVw1yzSrfLzQufjKMk1y1ZCrZMwnN+wgWB+sMW04uyxdR8v17/3++gK7E54eWpzHXZDNLYb1Ox7HRSt44L52yrwfTKhsgon8f4uzRX2SsRWfRNVX8OD2LLhX6NaNcMZVrxISiaO7aro6BcHIaV3KDcCAwEAAaNQME4wHQYDVR0OBBYEFMG3b6vH65CVpoqjKmKqXlyVG7hTMB8GA1UdIwQYMBaAFMG3b6vH65CVpoqjKmKqXlyVG7hTMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACZ4urh+puaSDemrqbPWGehkC9bp/T6U5ZPkcnVZlwMoNeZlnHAQZTss8uLTeWa8L6s9C29xS1FebKUY7bHiDeOYwlbKSn0e9v7WpZzQtM1qlLx0Y20Iaj8wpUYkeKudf1+PKtiLNBmJAnRC70qW3SmokMjxJ/kFlLBwqUDCo6C/Sxn8njcVSghqzfAtzNs96ZiTZ0pBot6mA4Fh4cvGgfxDGEv6Fw5Ueul4/CDrjU9eDXpKjo8Pw6Qd92bEpFVbl+NaXnfiaf5rdSLWSkDicjH1J+xg0IbbRWUDBGdgbkRzslB/uf4qXujpHw3lcEyynEANEsT/SlUUHKpT9Rd5Vrk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAIAWyPJZ90iAMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmVwb256YW5vdmVuZXRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA4MTkwOTU3MTZaFw0yOTA4MTYwOTU3MTZaMEExIzAhBgNVBAMMGnd3dy5jb211bmVwb256YW5vdmVuZXRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALv5JFIKpEDALqvgdPJ9Ll4DuA0AGODsWtEEzYkO2jQ7gWeB0bNsnl4hsih4JX+CF6oTJmrZvzXHsWyXl3BsWhAi8h2TD8dvARF+oflOi/x5zpigJ81qHFO0leyCHLKBxncmZPThAnxPW/3g79Du6QrBnsdLaw6uSuzUS8VSzdU/LtMmsG6Nvz0Y9j1VrvqVGqVw1yzSrfLzQufjKMk1y1ZCrZMwnN+wgWB+sMW04uyxdR8v17/3++gK7E54eWpzHXZDNLYb1Ox7HRSt44L52yrwfTKhsgon8f4uzRX2SsRWfRNVX8OD2LLhX6NaNcMZVrxISiaO7aro6BcHIaV3KDcCAwEAAaNQME4wHQYDVR0OBBYEFMG3b6vH65CVpoqjKmKqXlyVG7hTMB8GA1UdIwQYMBaAFMG3b6vH65CVpoqjKmKqXlyVG7hTMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACZ4urh+puaSDemrqbPWGehkC9bp/T6U5ZPkcnVZlwMoNeZlnHAQZTss8uLTeWa8L6s9C29xS1FebKUY7bHiDeOYwlbKSn0e9v7WpZzQtM1qlLx0Y20Iaj8wpUYkeKudf1+PKtiLNBmJAnRC70qW3SmokMjxJ/kFlLBwqUDCo6C/Sxn8njcVSghqzfAtzNs96ZiTZ0pBot6mA4Fh4cvGgfxDGEv6Fw5Ueul4/CDrjU9eDXpKjo8Pw6Qd92bEpFVbl+NaXnfiaf5rdSLWSkDicjH1J+xg0IbbRWUDBGdgbkRzslB/uf4qXujpHw3lcEyynEANEsT/SlUUHKpT9Rd5Vrk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/ponzanoveneto"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ponzanoveneto" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ponzanoveneto" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ponzanoveneto" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ponzano Veneto</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Ponzano Veneto</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Ponzano Veneto</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Ponzano Veneto</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ponzano Veneto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ponzano Veneto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Ponzano Veneto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Ponzano Veneto</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comuneponzanoveneto.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comuneponzanoveneto.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comuneponzanoveneto.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comuneponzanoveneto.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

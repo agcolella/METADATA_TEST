@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Bellaria" entityID="https://www.comune.bellaria-igea-marina.rn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Bellaria">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>est5uIHifVLHFDiChE1gEdKXAocAzSMtkoO5TtX+TNU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+J01OVX95ovDBWn0N/VO/auGkYGFVyxLv20FoMLAJSgmLhJO+TOq5sbcn77GZWSOm/6nRpnH2VVzr
+40fr5F9UgWimynE439NmR2DQs9AW5FWsOVPB6eXt72IjT16E36cj8WbAW2IDQbwPjIxbTCBPzS0u
+KZo7kAwCrdOLcUWaE0Tr8Hq7BmFWh9Urx1hUcfFeW2Z/1HTO5STRBtq8km1z26Y0u1UrtO8NsJsH
+tDn8CI3QENyN9/WGBFlRl/oEO4cgDRAx8xwsWJ0H+U3NeRzPW0F5ALYKlr5ppsJEdXWjkq6EcEH+
+WJpUU8J+aQERVAU6oOvl56K0NTQKo7bzMLV43Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ydST+EhaT0L2XxUQyEDOrh3lvQSGFWZ1p5paQTxkJuipuIfEguvpJNdwTzyNykE8hprRHAggD+05
+UaNIpovW04P+nUkzjpYiTSq/JKnl9FTfzn/JKS8EWGnhg57Zb86gsGtcFf7MMMmvDDYOgVPVOhDH
+oZhAhxdMS0CujogYQ5TfpzXmoU+bYmk/uiNJXp26FgLMvXQ6jxcx8oeZ2SAntp8PU6jW9HmN2yQx
+043BrbqvOS9QalqrYhA5dMj0dk0J29wyz8twAz+ud1UX0sfF4P6Nr+3xP7kvixdhHZB5fe/He3Ci
+VWTIfs3Bp5w3mxJTCnhTEZfEXcSbMws5/st25w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEbTCCA1WgAwIBAgIUIEtapw9J34WpS0mz9T4Ub8RpVn0wDQYJKoZIhvcNAQELBQAwgcUxCzAJ
+BgNVBAYTAklUMQ8wDQYDVQQIDAZSaW1pbmkxHTAbBgNVBAcMFEJlbGxhcmlhIElnZWEgTWFyaW5h
+MScwJQYDVQQKDB5Db211bmUgZGkgQmVsbGFyaWEgSWdlYSBNYXJpbmExHTAbBgNVBAsMFFNwb3J0
+ZWxsbyBUZWxlbWF0aWNvMT4wPAYDVQQDDDVzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5iZWxs
+YXJpYS1pZ2VhLW1hcmluYS5ybi5pdDAeFw0yMDA3MDkxMDAzMjJaFw0zMDA3MDcxMDAzMjJaMIHF
+MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUmltaW5pMR0wGwYDVQQHDBRCZWxsYXJpYSBJZ2VhIE1h
+cmluYTEnMCUGA1UECgweQ29tdW5lIGRpIEJlbGxhcmlhIElnZWEgTWFyaW5hMR0wGwYDVQQLDBRT
+cG9ydGVsbG8gVGVsZW1hdGljbzE+MDwGA1UEAww1c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUu
+YmVsbGFyaWEtaWdlYS1tYXJpbmEucm4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDJ1JP4SFpPQvZfFRDIQM6uHeW9BIYVZnWnmlpBPGQm6Km4h8SC6+kk13BPPI3KQTyGmtEcCCAP
+7TlRo0imi9bTg/6dSTOOliJNKr8kqeX0VN/Of8kpLwRYaeGDntlvzqCwa1wV/swwya8MNg6BU9U6
+EMehmECHF0xLQK6OiBhDlN+nNeahT5tiaT+6I0lenboWAsy9dDqPFzHyh5nZICe2nw9TqNb0eY3b
+JDHTjcGtuq85L1BqWqtiEDl0yPR2TQnb3DLPy3ADP653VRfSx8Xg/o2v7fE/uS+LF2EdkHl978d7
+cKJVZMh+zcGnnDebElMKeFMRl8RdxJszCzn+y3bnAgMBAAGjUzBRMB0GA1UdDgQWBBTAroTa1PDD
+QWacQ13AXE+z/4TFbzAfBgNVHSMEGDAWgBTAroTa1PDDQWacQ13AXE+z/4TFbzAPBgNVHRMBAf8E
+BTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDGo7Gv5RQZrzwnQaIw3ON1wjL4Z4EuWp85j2fM44dS
+IIt4dEazMYQi1MbOvjx7bvtXiueA5Tu6YLcr7k5ITdiY9h3yp4bUUjAHrePiERkv7TjXzDRsNRIr
+4e2o2vqUTgrYxWO5bgf4UL7qrhppI9Ci+5ztMxVmCsJLS8TgC/mM5Z0zIUPexR+wR1sTLv6cRBss
+qkDxap5O3FiFN7D4d0TIDjUr8CL5Grbj5i+n4ZHc98hktKPJy9R5HsXgMUfu6ZSjvChmH8vr7Z5t
+qlvTFmEY8o6N62MZ6S1NhS/urDZhA3h8/gQ5PgTOQwhFose0x3efUCHUpOYNcnYLeCa8KM7i
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDazCCAlOgAwIBAgIJAMzbACZ9soaOMA0GCSqGSIb3DQEBCwUAMEwxLjAsBgNVBAMMJXd3dy5jb211bmUuYmVsbGFyaWEtaWdlYS1tYXJpbmEucm4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDcyMzE5MjgyNVoXDTI4MDcyMDE5MjgyNVowTDEuMCwGA1UEAwwld3d3LmNvbXVuZS5iZWxsYXJpYS1pZ2VhLW1hcmluYS5ybi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDG6F0XmdNXdC0mIO2tl+FHw6qVsQCVEeE5gyBATtgLcsU3TdIE6TcyeRtCba1LSeKEJLqAesygrppPU6nmQG+ijQuMQWWddbxEfq2F5TrIsJs0as+A/fGOSMP6OYldQX3/cxADL4yapKZYUsr66uggDzpRrxMxgn1Z/PTDJh/ya/FM0a6uFWrUkjp40dv5qWaAM81T6heaW12c0hoirWC0BVm+l5OJU5joGdr7hYsZLwuSq7qAdD4h5y0BlYFVRlrZXLoxh10/rZNuxMkUBqIj6C6lagKOySCO5hKKsLPL874dusQpWMBlC81OIqyKUFeJZ8AkVd8cG0lVjrekVyOBAgMBAAGjUDBOMB0GA1UdDgQWBBRkSwcKw0mDms0zDiqHu5stK2BGZDAfBgNVHSMEGDAWgBRkSwcKw0mDms0zDiqHu5stK2BGZDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAp+xf5p11CAtMxbWg2OZPI/61tgd1xPVDGmD7im9Zinddi+tYKvtk3cr4GOlg9f4vFoICbN9/lryGo6dugHwhZBus+9LbNRVJa08a6O7DJkB5Ug+/9ME/nn0pcp4/ynTFZfgwCNW8UMfDEFr6SgslGIJII7naUl6sXyLwDvaSS8gJkdj7VK5eUxzZPpdmbyY5OrI8ulxUp8Xtza3D0E5Dhm/Z9/ASrRxyTf8dj7AtDw4HwuyOj6vfJ0THduoLWTRoE2QqXrLbGVyu30q7ioQ5eyL5dgYzE77BNk+fxOKnIK79iypj3CnSpv2tvPZeBMfDelIwKhe9C50rziG78iLvt
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEbTCCA1WgAwIBAgIUIEtapw9J34WpS0mz9T4Ub8RpVn0wDQYJKoZIhvcNAQELBQAwgcUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSaW1pbmkxHTAbBgNVBAcMFEJlbGxhcmlhIElnZWEgTWFyaW5hMScwJQYDVQQKDB5Db211bmUgZGkgQmVsbGFyaWEgSWdlYSBNYXJpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMT4wPAYDVQQDDDVzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5iZWxsYXJpYS1pZ2VhLW1hcmluYS5ybi5pdDAeFw0yMDA3MDkxMDAzMjJaFw0zMDA3MDcxMDAzMjJaMIHFMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUmltaW5pMR0wGwYDVQQHDBRCZWxsYXJpYSBJZ2VhIE1hcmluYTEnMCUGA1UECgweQ29tdW5lIGRpIEJlbGxhcmlhIElnZWEgTWFyaW5hMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE+MDwGA1UEAww1c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmVsbGFyaWEtaWdlYS1tYXJpbmEucm4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJ1JP4SFpPQvZfFRDIQM6uHeW9BIYVZnWnmlpBPGQm6Km4h8SC6+kk13BPPI3KQTyGmtEcCCAP7TlRo0imi9bTg/6dSTOOliJNKr8kqeX0VN/Of8kpLwRYaeGDntlvzqCwa1wV/swwya8MNg6BU9U6EMehmECHF0xLQK6OiBhDlN+nNeahT5tiaT+6I0lenboWAsy9dDqPFzHyh5nZICe2nw9TqNb0eY3bJDHTjcGtuq85L1BqWqtiEDl0yPR2TQnb3DLPy3ADP653VRfSx8Xg/o2v7fE/uS+LF2EdkHl978d7cKJVZMh+zcGnnDebElMKeFMRl8RdxJszCzn+y3bnAgMBAAGjUzBRMB0GA1UdDgQWBBTAroTa1PDDQWacQ13AXE+z/4TFbzAfBgNVHSMEGDAWgBTAroTa1PDDQWacQ13AXE+z/4TFbzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDGo7Gv5RQZrzwnQaIw3ON1wjL4Z4EuWp85j2fM44dSIIt4dEazMYQi1MbOvjx7bvtXiueA5Tu6YLcr7k5ITdiY9h3yp4bUUjAHrePiERkv7TjXzDRsNRIr4e2o2vqUTgrYxWO5bgf4UL7qrhppI9Ci+5ztMxVmCsJLS8TgC/mM5Z0zIUPexR+wR1sTLv6cRBssqkDxap5O3FiFN7D4d0TIDjUr8CL5Grbj5i+n4ZHc98hktKPJy9R5HsXgMUfu6ZSjvChmH8vr7Z5tqlvTFmEY8o6N62MZ6S1NhS/urDZhA3h8/gQ5PgTOQwhFose0x3efUCHUpOYNcnYLeCa8KM7i</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z --> 
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEbTCCA1WgAwIBAgIUIEtapw9J34WpS0mz9T4Ub8RpVn0wDQYJKoZIhvcNAQELBQAwgcUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSaW1pbmkxHTAbBgNVBAcMFEJlbGxhcmlhIElnZWEgTWFyaW5hMScwJQYDVQQKDB5Db211bmUgZGkgQmVsbGFyaWEgSWdlYSBNYXJpbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMT4wPAYDVQQDDDVzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5iZWxsYXJpYS1pZ2VhLW1hcmluYS5ybi5pdDAeFw0yMDA3MDkxMDAzMjJaFw0zMDA3MDcxMDAzMjJaMIHFMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGUmltaW5pMR0wGwYDVQQHDBRCZWxsYXJpYSBJZ2VhIE1hcmluYTEnMCUGA1UECgweQ29tdW5lIGRpIEJlbGxhcmlhIElnZWEgTWFyaW5hMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE+MDwGA1UEAww1c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmVsbGFyaWEtaWdlYS1tYXJpbmEucm4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJ1JP4SFpPQvZfFRDIQM6uHeW9BIYVZnWnmlpBPGQm6Km4h8SC6+kk13BPPI3KQTyGmtEcCCAP7TlRo0imi9bTg/6dSTOOliJNKr8kqeX0VN/Of8kpLwRYaeGDntlvzqCwa1wV/swwya8MNg6BU9U6EMehmECHF0xLQK6OiBhDlN+nNeahT5tiaT+6I0lenboWAsy9dDqPFzHyh5nZICe2nw9TqNb0eY3bJDHTjcGtuq85L1BqWqtiEDl0yPR2TQnb3DLPy3ADP653VRfSx8Xg/o2v7fE/uS+LF2EdkHl978d7cKJVZMh+zcGnnDebElMKeFMRl8RdxJszCzn+y3bnAgMBAAGjUzBRMB0GA1UdDgQWBBTAroTa1PDDQWacQ13AXE+z/4TFbzAfBgNVHSMEGDAWgBTAroTa1PDDQWacQ13AXE+z/4TFbzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDGo7Gv5RQZrzwnQaIw3ON1wjL4Z4EuWp85j2fM44dSIIt4dEazMYQi1MbOvjx7bvtXiueA5Tu6YLcr7k5ITdiY9h3yp4bUUjAHrePiERkv7TjXzDRsNRIr4e2o2vqUTgrYxWO5bgf4UL7qrhppI9Ci+5ztMxVmCsJLS8TgC/mM5Z0zIUPexR+wR1sTLv6cRBssqkDxap5O3FiFN7D4d0TIDjUr8CL5Grbj5i+n4ZHc98hktKPJy9R5HsXgMUfu6ZSjvChmH8vr7Z5tqlvTFmEY8o6N62MZ6S1NhS/urDZhA3h8/gQ5PgTOQwhFose0x3efUCHUpOYNcnYLeCa8KM7i</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bellaria"/>
+    <!-- Globo x.K --> 
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.bellaria-igea-marina.rn.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bellaria" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bellaria" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bellaria" index="2"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.bellaria-igea-marina.rn.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q --> 
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

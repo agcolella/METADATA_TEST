@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Livinallongo" entityID="https://www.comune.livinallongo.bl.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Livinallongo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qv8kr5FYX5gpax7+dp2v2T86sRXMEJuj4Oillc2hVJk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ExDgYrkwYVKWJQ0Hy526nH2pyuh3cYm4ri0anVAFbk3UME+pCT8U4ULVTfHP6mhpqUrxDjqoEvMz
+Ng0PvV/d/l0gYQL87NNdQOzTSlxAwYGfmzyMsQbLfhFPJw+8MiOrMkK5EsFkkuuKB1p+15N1/i/P
+hMBiY228xpVottTQwYLqEoXwawqIeS2yGAPqxa11iIBUkZTzqA2zMsJXJfcJWiKp9NNaj7YAdlnb
+3UDJ5prV/diN4Z5eMkmbnXC9vrcKZdAdJzslVAckfpu/mG7RUOMnCxFHaSXDZDl8y6s3awqvgtwx
+qw8RdZGIk/q15TFNBE5/Qman+c10svKrpnibpA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rE/BkQIdJl4pWR4UnOswiuJClrl35fk1DdLQv5woFkvNBionLygEMnfCakZGXwqzcnrMsRZY0ZFU
+ezBzk89yUeUVySavu8o5MLjK+uW16vyhnGzZgXcHFs0PJPh6xGlOkivecZFz1pYAmvGDjtvdrt/i
+3V+mjn0YDg1faCzlNFR0pNahP0Y3b/+SjBbEmBkpVrRZSn9652pJMCPdlkng7V3y4maKFYhfM4ZX
+JsCY5gV92iyuR8n4K4cLwqFqsQv6YP57/T3CPK6HJ8v5XMSzwmhv1ZlO9KJbYRDvxa0JIbQxMVc+
+GXEkaOoxVkYwtt8fSCSbsYCtRxIAjYbVEwSNhw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEEDCCAvigAwIBAgIJAKkh84LBmhOjMA0GCSqGSIb3DQEBCwUAMIGuMSYwJAYDVQQDDB13d3cu
+Y29tdW5lLmxpdmluYWxsb25nby5ibC5pdDEvMC0GA1UECgwmQ29tdW5lIGRpIExpdmluYWxsb25n
+byBkZWwgQ29sIGRpIExhbmExFTATBgNVBAQMDFBBOklULWNfZTYyMjELMAkGA1UEBhMCSVQxLzAt
+BgNVBAcMJkNvbXVuZSBkaSBMaXZpbmFsbG9uZ28gZGVsIENvbCBkaSBMYW5hMB4XDTIwMTAyNzA5
+MzUwOFoXDTMwMTAyNTA5MzUwOFowga4xJjAkBgNVBAMMHXd3dy5jb211bmUubGl2aW5hbGxvbmdv
+LmJsLml0MS8wLQYDVQQKDCZDb211bmUgZGkgTGl2aW5hbGxvbmdvIGRlbCBDb2wgZGkgTGFuYTEV
+MBMGA1UEBAwMUEE6SVQtY19lNjIyMQswCQYDVQQGEwJJVDEvMC0GA1UEBwwmQ29tdW5lIGRpIExp
+dmluYWxsb25nbyBkZWwgQ29sIGRpIExhbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCsT8GRAh0mXilZHhSc6zCK4kKWuXfl+TUN0tC/nCgWS80GKicvKAQyd8JqRkZfCrNyesyxFljR
+kVR7MHOTz3JR5RXJJq+7yjkwuMr65bXq/KGcbNmBdwcWzQ8k+HrEaU6SK95xkXPWlgCa8YOO292u
+3+LdX6aOfRgODV9oLOU0VHSk1qE/Rjdv/5KMFsSYGSlWtFlKf3rnakkwI92WSeDtXfLiZooViF8z
+hlcmwJjmBX3aLK5HyfgrhwvCoWqxC/pg/nv9PcI8rocny/lcxLPCaG/VmU70olthEO/FrQkhtDEx
+Vz4ZcSRo6jFWRjC23x9IJJuxgK1HEgCNhtUTBI2HAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0P
+BAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCGWH888xa+p10f
+acYEUwbXAYuPVj4XKq8Qidw6g95ihEKLd6uYN2FwlQnZZ84WF2BuLfM2Ai2TlssFiIKK8eRdu0hU
+klWS6YqkbNVx98sKmyy3tN9wlLgfhNtdfgVMFEwtGVdq1CrVz1RwkxL5ZqiyqcdAX0ZRMvctv6Py
+EuDQlPVOZ0d+aa0kczHHRu1FjqzWl5kX02LOUMEGpahGvpqt37FgUNz2Ab/2Lqd95WWCynMT5O8E
+DSracBEc4IUwwj75/rKw6kpT2JcJSw41LWus4F14Bf8YQ5Wd8nrlF2GdlwQOhjSNT6oU95BW56IS
++u2e5iPbxZdtisVuZoNxAFyE
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEEDCCAvigAwIBAgIJAKkh84LBmhOjMA0GCSqGSIb3DQEBCwUAMIGuMSYwJAYDVQQDDB13d3cuY29tdW5lLmxpdmluYWxsb25nby5ibC5pdDEvMC0GA1UECgwmQ29tdW5lIGRpIExpdmluYWxsb25nbyBkZWwgQ29sIGRpIExhbmExFTATBgNVBAQMDFBBOklULWNfZTYyMjELMAkGA1UEBhMCSVQxLzAtBgNVBAcMJkNvbXVuZSBkaSBMaXZpbmFsbG9uZ28gZGVsIENvbCBkaSBMYW5hMB4XDTIwMTAyNzA5MzUwOFoXDTMwMTAyNTA5MzUwOFowga4xJjAkBgNVBAMMHXd3dy5jb211bmUubGl2aW5hbGxvbmdvLmJsLml0MS8wLQYDVQQKDCZDb211bmUgZGkgTGl2aW5hbGxvbmdvIGRlbCBDb2wgZGkgTGFuYTEVMBMGA1UEBAwMUEE6SVQtY19lNjIyMQswCQYDVQQGEwJJVDEvMC0GA1UEBwwmQ29tdW5lIGRpIExpdmluYWxsb25nbyBkZWwgQ29sIGRpIExhbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsT8GRAh0mXilZHhSc6zCK4kKWuXfl+TUN0tC/nCgWS80GKicvKAQyd8JqRkZfCrNyesyxFljRkVR7MHOTz3JR5RXJJq+7yjkwuMr65bXq/KGcbNmBdwcWzQ8k+HrEaU6SK95xkXPWlgCa8YOO292u3+LdX6aOfRgODV9oLOU0VHSk1qE/Rjdv/5KMFsSYGSlWtFlKf3rnakkwI92WSeDtXfLiZooViF8zhlcmwJjmBX3aLK5HyfgrhwvCoWqxC/pg/nv9PcI8rocny/lcxLPCaG/VmU70olthEO/FrQkhtDExVz4ZcSRo6jFWRjC23x9IJJuxgK1HEgCNhtUTBI2HAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCGWH888xa+p10facYEUwbXAYuPVj4XKq8Qidw6g95ihEKLd6uYN2FwlQnZZ84WF2BuLfM2Ai2TlssFiIKK8eRdu0hUklWS6YqkbNVx98sKmyy3tN9wlLgfhNtdfgVMFEwtGVdq1CrVz1RwkxL5ZqiyqcdAX0ZRMvctv6PyEuDQlPVOZ0d+aa0kczHHRu1FjqzWl5kX02LOUMEGpahGvpqt37FgUNz2Ab/2Lqd95WWCynMT5O8EDSracBEc4IUwwj75/rKw6kpT2JcJSw41LWus4F14Bf8YQ5Wd8nrlF2GdlwQOhjSNT6oU95BW56IS+u2e5iPbxZdtisVuZoNxAFyE</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEEDCCAvigAwIBAgIJAKkh84LBmhOjMA0GCSqGSIb3DQEBCwUAMIGuMSYwJAYDVQQDDB13d3cuY29tdW5lLmxpdmluYWxsb25nby5ibC5pdDEvMC0GA1UECgwmQ29tdW5lIGRpIExpdmluYWxsb25nbyBkZWwgQ29sIGRpIExhbmExFTATBgNVBAQMDFBBOklULWNfZTYyMjELMAkGA1UEBhMCSVQxLzAtBgNVBAcMJkNvbXVuZSBkaSBMaXZpbmFsbG9uZ28gZGVsIENvbCBkaSBMYW5hMB4XDTIwMTAyNzA5MzUwOFoXDTMwMTAyNTA5MzUwOFowga4xJjAkBgNVBAMMHXd3dy5jb211bmUubGl2aW5hbGxvbmdvLmJsLml0MS8wLQYDVQQKDCZDb211bmUgZGkgTGl2aW5hbGxvbmdvIGRlbCBDb2wgZGkgTGFuYTEVMBMGA1UEBAwMUEE6SVQtY19lNjIyMQswCQYDVQQGEwJJVDEvMC0GA1UEBwwmQ29tdW5lIGRpIExpdmluYWxsb25nbyBkZWwgQ29sIGRpIExhbmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsT8GRAh0mXilZHhSc6zCK4kKWuXfl+TUN0tC/nCgWS80GKicvKAQyd8JqRkZfCrNyesyxFljRkVR7MHOTz3JR5RXJJq+7yjkwuMr65bXq/KGcbNmBdwcWzQ8k+HrEaU6SK95xkXPWlgCa8YOO292u3+LdX6aOfRgODV9oLOU0VHSk1qE/Rjdv/5KMFsSYGSlWtFlKf3rnakkwI92WSeDtXfLiZooViF8zhlcmwJjmBX3aLK5HyfgrhwvCoWqxC/pg/nv9PcI8rocny/lcxLPCaG/VmU70olthEO/FrQkhtDExVz4ZcSRo6jFWRjC23x9IJJuxgK1HEgCNhtUTBI2HAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCGWH888xa+p10facYEUwbXAYuPVj4XKq8Qidw6g95ihEKLd6uYN2FwlQnZZ84WF2BuLfM2Ai2TlssFiIKK8eRdu0hUklWS6YqkbNVx98sKmyy3tN9wlLgfhNtdfgVMFEwtGVdq1CrVz1RwkxL5ZqiyqcdAX0ZRMvctv6PyEuDQlPVOZ0d+aa0kczHHRu1FjqzWl5kX02LOUMEGpahGvpqt37FgUNz2Ab/2Lqd95WWCynMT5O8EDSracBEc4IUwwj75/rKw6kpT2JcJSw41LWus4F14Bf8YQ5Wd8nrlF2GdlwQOhjSNT6oU95BW56IS+u2e5iPbxZdtisVuZoNxAFyE</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/livinallongo"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/livinallongo" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/livinallongo" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/livinallongo" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Livinallongo del Col di Lana</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Livinallongo del Col di Lana</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Livinallongo del Col di Lana</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Livinallongo del Col di Lana</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Livinallongo del Col di Lana</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Livinallongo del Col di Lana</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Livinallongo del Col di Lana</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Livinallongo del Col di Lana</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.livinallongo.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.livinallongo.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.livinallongo.bl.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.livinallongo.bl.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_e622</spid:IPACode>
+         <spid:FiscalCode>00144460250</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>tributi.livinallongo@agordino.bl.it</md:EmailAddress>
+      <md:TelephoneNumber>04367193</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

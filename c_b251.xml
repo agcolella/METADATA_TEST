@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Buggiano" entityID="https://www.comune.buggiano.pt.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Buggiano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Ao+LvNM3G/Igwn+G/y57DI+B4pbDXcwb6Vuzc35gJEk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PJuFTmydBEM628Io1zh361K9JIW5Xk+dSB7O74qm0vlp8cX+DsVacbpmgJdZn5gY1hRsPrEQkhCC
+3N5GHrFDfDtFtYRFsFhGvvMnJ4wcPMRS6GK4pdRsTXyIyb7eNjHhhcX3M5r/vug0H1i/tpGXlIai
+EWkrgSYpJ1vTLSDaU9Bj4WTqAHaF6WMpCQq+uT3NCm7hs4QtNuzrqbtC0qGqYSM+9Zcw4ZZEel4p
+4hbtBGECt9tILRZqiVapPCif58bwaT4fON+CoohJFSY6hy54hyHha3qPlj/OJZxBNm+yMWW9TNB9
+UxCmP8YsJAJFJ0HwoTygd3uzGpsaQa5kyW8BJg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+s6zr/4gNPaFBUbfA4SR/YPDbNLtfzeyjeOWQvuX9FALAVO/djoy+I2u6N90xr3jfqzK5SWB5uEBv
+mcFPf+t5uN1x2cuhx0u7870oLBnr4tww+yhbwMA3eSD08CTa9v/0EQ3aceOPKRwxhNXj9IImwUOR
+wk1QngjhAyb7ckcwsT1Muoe+djEniM919ADaRVudPmhlmvr6UxGBbAxz8zP39Nls9dLSoDkQ+GKO
+8kL2OY0wuXPT/D3nvbBeUCzjFjYJYxyyOiiRJF1CF9Tepr2fj/gzsZ0M5L2X4FQHsYCbP88R0H0w
+viFJRnvlnMnQC3BopVaPW71zCgxdw981gjLz2w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAM6K/VjoIN0iMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuYnVnZ2lhbm8ucHQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDMy
+MTA5MzkyOVoXDTI4MDMxODA5MzkyOVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5idWdnaWFuby5w
+dC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCzrOv/iA09oUFRt8DhJH9g8Ns0u1/N7KN45ZC+5f0UAsBU792OjL4ja7o33TGveN+r
+MrlJYHm4QG+ZwU9/63m43XHZy6HHS7vzvSgsGevi3DD7KFvAwDd5IPTwJNr2//QRDdpx448pHDGE
+1eP0gibBQ5HCTVCeCOEDJvtyRzCxPUy6h752MSeIz3X0ANpFW50+aGWa+vpTEYFsDHPzM/f02Wz1
+0tKgORD4Yo7yQvY5jTC5c9P8Pee9sF5QLOMWNgljHLI6KJEkXUIX1N6mvZ+P+DOxnQzkvZfgVAex
+gJs/zxHQfTC+IUlGe+WcydALcGilVo9bvXMKDF3D3zWCMvPbAgMBAAGjUDBOMB0GA1UdDgQWBBSL
+eL7qbSUj1ImF5zr5DaWWFtE02zAfBgNVHSMEGDAWgBSLeL7qbSUj1ImF5zr5DaWWFtE02zAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBtJJkpQ+WINu2It+2JVbzeVXFmy+qbjQAIGMfq
+4hJxqHKPOj/fMXNLt5ncXSEkfNlBl0hywcONQPkl919//LXqFLenLbjb+8Hq363cwk4Pgq463Cnr
+3vW1hkGs3erROH+OvYXLYsaxnSZVWiD+zBQMtvbmv9KZ7alm5QLcA4fZXRVKHmpaXHD3srGJ7b6y
+IwwIIvg1y45Gr3Ws/5+yP1A/0m5WG8fvQWrKRm8V6PZmofM8O5BdvhCrJgbqmIuzMhgo/CriEUzX
+nofGrCViGVkkZ7Hc/Eg76mlygMgoOQcttGMe9x60tDA9gbZraEgx0vyj0sqQIxfLODNmgQBlVGvQ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAM6K/VjoIN0iMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuYnVnZ2lhbm8ucHQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDMyMTA5MzkyOVoXDTI4MDMxODA5MzkyOVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5idWdnaWFuby5wdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzrOv/iA09oUFRt8DhJH9g8Ns0u1/N7KN45ZC+5f0UAsBU792OjL4ja7o33TGveN+rMrlJYHm4QG+ZwU9/63m43XHZy6HHS7vzvSgsGevi3DD7KFvAwDd5IPTwJNr2//QRDdpx448pHDGE1eP0gibBQ5HCTVCeCOEDJvtyRzCxPUy6h752MSeIz3X0ANpFW50+aGWa+vpTEYFsDHPzM/f02Wz10tKgORD4Yo7yQvY5jTC5c9P8Pee9sF5QLOMWNgljHLI6KJEkXUIX1N6mvZ+P+DOxnQzkvZfgVAexgJs/zxHQfTC+IUlGe+WcydALcGilVo9bvXMKDF3D3zWCMvPbAgMBAAGjUDBOMB0GA1UdDgQWBBSLeL7qbSUj1ImF5zr5DaWWFtE02zAfBgNVHSMEGDAWgBSLeL7qbSUj1ImF5zr5DaWWFtE02zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBtJJkpQ+WINu2It+2JVbzeVXFmy+qbjQAIGMfq4hJxqHKPOj/fMXNLt5ncXSEkfNlBl0hywcONQPkl919//LXqFLenLbjb+8Hq363cwk4Pgq463Cnr3vW1hkGs3erROH+OvYXLYsaxnSZVWiD+zBQMtvbmv9KZ7alm5QLcA4fZXRVKHmpaXHD3srGJ7b6yIwwIIvg1y45Gr3Ws/5+yP1A/0m5WG8fvQWrKRm8V6PZmofM8O5BdvhCrJgbqmIuzMhgo/CriEUzXnofGrCViGVkkZ7Hc/Eg76mlygMgoOQcttGMe9x60tDA9gbZraEgx0vyj0sqQIxfLODNmgQBlVGvQ
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/buggiano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/buggiano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/buggiano" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Buggiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Buggiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Buggiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Buggiano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Buggiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Buggiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Buggiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Buggiano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.buggiano.pt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.buggiano.pt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.buggiano.pt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.buggiano.pt.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

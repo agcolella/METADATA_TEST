@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.pianezze.vi.it" ID="pfx0c24920e-fbc4-7c7e-3829-a169e0891ec0"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx0c24920e-fbc4-7c7e-3829-a169e0891ec0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>DsrEJhulPnIHpcfb22uYjlbRyZWlMVlclRZL7XRRzSw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>QcVp1japwL72+g1xDInKtHgkHSgeMxP3P1OrXBp1AZHTiPT6L1wY/l5frqiTxdojYDXZFHvjDUuILadSXQvkjycAMzlWycT6ACAcpo2wCOjwcYLYBLuNGQmq3Aknk6QupG36VsnF+sep1/t2s7JeO9vN1IEqTm70nlVmsmGmjeO2cyT/ybBKB2fDqXLNDKoyATlUVxbpUCHj1acfwMXw77czm6RWUZNf6etgmdo/JS3aKeT1oV3jW6plVbCRJlkdsR/s/Dc3k8/0thcnZPHCJ81wmhzTlHKW18613KPCS42iWnjwUcFEvtw9887zJHMbcMI1Z01IDulUcquAP5yM6w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAMLbVhL657Q1MA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUGlhbmV6emUxGzAZBgNVBAoMEkNvbXVuZSBkaSBQaWFuZXp6ZTEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waWFuZXp6ZS52aS5pdDAeFw0xODA1MDcwOTQwNTlaFw0yODA1MDYwOTQwNTlaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUGlhbmV6emUxGzAZBgNVBAoMEkNvbXVuZSBkaSBQaWFuZXp6ZTEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waWFuZXp6ZS52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMA1L1tTW6XmbTP8NIULnjY7LEo3/filGGPpwAmpH7jJuBdA331DayBxumpARIju/8rJe6DDwOpszXYCVaE9LHlhF2dp72/WDl5tp2rOY4C2kKnZKdMEOWxM+XMhBtDoGM8+3LyWIGCluJ3gTuMDQLiMsbfaDrhOlpAM8psUW/W9TMTCA+5bN6+f5OmA60vh21IkVkM3DNlMlw2t9cH68nUcCFQkXDS1Z7SbD82HMqqqamXO8RExyrtawatPydS+OOKn7tTMxOOo3whqW3XMJ6vw3H7T2+DYmXAyvbYiZzEbGrjgnlJyAb/bR8nJLK1BRgd+dCeo5mVCpJeOJXUt6HUCAwEAAaNQME4wHQYDVR0OBBYEFMSXPQgKX5lqQcCYBXHrOFup7H7nMB8GA1UdIwQYMBaAFMSXPQgKX5lqQcCYBXHrOFup7H7nMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH2FrD1TEx/TsTUxKfksTx3HrDy1w64blIjPPiLUg/tLdrjGVtHoPJWay3qXfJElgDPoE+WAoYHCHzrNVAeugPWK/qOOY3HJc+6R/sR8Nwy/QHEiOyQ9ohrVecNVQtKqNCDkQ7t9Vm3F5SuKd4nRFeY8/I8PXq203F2vW3HXX0gCleh2hjcvuUGMLclgpGWYH0EUWoYhvqHTp8cdbYktiGweq63/CWo6K6tcrKiTkJCvxcVfNpGHm1zf4dUu0MkbXIeUGe6s9qb6liiwJx6z6kw124FhXQE+cOWJ0cedeSu+nSUlam2yGzQOTH7SctAr9gHWJ96dUJ+C4ze3KB9RsEM=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAMLbVhL657Q1MA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUGlhbmV6emUxGzAZBgNVBAoMEkNvbXVuZSBkaSBQaWFuZXp6ZTEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waWFuZXp6ZS52aS5pdDAeFw0xODA1MDcwOTQwNTlaFw0yODA1MDYwOTQwNTlaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUGlhbmV6emUxGzAZBgNVBAoMEkNvbXVuZSBkaSBQaWFuZXp6ZTEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waWFuZXp6ZS52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMA1L1tTW6XmbTP8NIULnjY7LEo3/filGGPpwAmpH7jJuBdA331DayBxumpARIju/8rJe6DDwOpszXYCVaE9LHlhF2dp72/WDl5tp2rOY4C2kKnZKdMEOWxM+XMhBtDoGM8+3LyWIGCluJ3gTuMDQLiMsbfaDrhOlpAM8psUW/W9TMTCA+5bN6+f5OmA60vh21IkVkM3DNlMlw2t9cH68nUcCFQkXDS1Z7SbD82HMqqqamXO8RExyrtawatPydS+OOKn7tTMxOOo3whqW3XMJ6vw3H7T2+DYmXAyvbYiZzEbGrjgnlJyAb/bR8nJLK1BRgd+dCeo5mVCpJeOJXUt6HUCAwEAAaNQME4wHQYDVR0OBBYEFMSXPQgKX5lqQcCYBXHrOFup7H7nMB8GA1UdIwQYMBaAFMSXPQgKX5lqQcCYBXHrOFup7H7nMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH2FrD1TEx/TsTUxKfksTx3HrDy1w64blIjPPiLUg/tLdrjGVtHoPJWay3qXfJElgDPoE+WAoYHCHzrNVAeugPWK/qOOY3HJc+6R/sR8Nwy/QHEiOyQ9ohrVecNVQtKqNCDkQ7t9Vm3F5SuKd4nRFeY8/I8PXq203F2vW3HXX0gCleh2hjcvuUGMLclgpGWYH0EUWoYhvqHTp8cdbYktiGweq63/CWo6K6tcrKiTkJCvxcVfNpGHm1zf4dUu0MkbXIeUGe6s9qb6liiwJx6z6kw124FhXQE+cOWJ0cedeSu+nSUlam2yGzQOTH7SctAr9gHWJ96dUJ+C4ze3KB9RsEM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAMLbVhL657Q1MA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUGlhbmV6emUxGzAZBgNVBAoMEkNvbXVuZSBkaSBQaWFuZXp6ZTEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waWFuZXp6ZS52aS5pdDAeFw0xODA1MDcwOTQwNTlaFw0yODA1MDYwOTQwNTlaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUGlhbmV6emUxGzAZBgNVBAoMEkNvbXVuZSBkaSBQaWFuZXp6ZTEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waWFuZXp6ZS52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMA1L1tTW6XmbTP8NIULnjY7LEo3/filGGPpwAmpH7jJuBdA331DayBxumpARIju/8rJe6DDwOpszXYCVaE9LHlhF2dp72/WDl5tp2rOY4C2kKnZKdMEOWxM+XMhBtDoGM8+3LyWIGCluJ3gTuMDQLiMsbfaDrhOlpAM8psUW/W9TMTCA+5bN6+f5OmA60vh21IkVkM3DNlMlw2t9cH68nUcCFQkXDS1Z7SbD82HMqqqamXO8RExyrtawatPydS+OOKn7tTMxOOo3whqW3XMJ6vw3H7T2+DYmXAyvbYiZzEbGrjgnlJyAb/bR8nJLK1BRgd+dCeo5mVCpJeOJXUt6HUCAwEAAaNQME4wHQYDVR0OBBYEFMSXPQgKX5lqQcCYBXHrOFup7H7nMB8GA1UdIwQYMBaAFMSXPQgKX5lqQcCYBXHrOFup7H7nMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH2FrD1TEx/TsTUxKfksTx3HrDy1w64blIjPPiLUg/tLdrjGVtHoPJWay3qXfJElgDPoE+WAoYHCHzrNVAeugPWK/qOOY3HJc+6R/sR8Nwy/QHEiOyQ9ohrVecNVQtKqNCDkQ7t9Vm3F5SuKd4nRFeY8/I8PXq203F2vW3HXX0gCleh2hjcvuUGMLclgpGWYH0EUWoYhvqHTp8cdbYktiGweq63/CWo6K6tcrKiTkJCvxcVfNpGHm1zf4dUu0MkbXIeUGe6s9qb6liiwJx6z6kw124FhXQE+cOWJ0cedeSu+nSUlam2yGzQOTH7SctAr9gHWJ96dUJ+C4ze3KB9RsEM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.pianezze.vi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.pianezze.vi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pianezze</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pianezze</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pianezze.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

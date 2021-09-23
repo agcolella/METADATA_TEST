@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx3e8dc32b-c3fd-f5b5-eb29-078bc5776456" entityID="https://servizionline.comune.frattapolesine.ro.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx3e8dc32b-c3fd-f5b5-eb29-078bc5776456">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7RVsBArK/6gT1xWnBlTTssQC9cvg2SUEMcjEA8oOk00=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+X9cR71OG7Yh9qf6oOWokWHD5wrZpO35sMa4BAvsDZWhc1UtBIjRSM+DY53T/RUTzHCmAQeDZdbVE
+NANjdpLwH0m75uMbPk9Y+5efERLZ6XdoSUPn3QkKB/nGg4iM13adZwitWQG6Zbd+yodt/x8WIg2T
+6Fxx/rQ1m3qvYHzWLp4fZ+sWRqX1hn87ISFT8Su7/5AHf4qXc9Q1NYNlWvRZzXrZUxXRFZB1V1W3
+XTFXDWbUTRn6A57Q4quiTGgUh7bCqPXourukdq+/1LpfKrHNxbj8zsKrmIGw0RKBiYHGJpEW1qdv
+aWIYqvCoxOr7+VKODEfa1qyMBCon72zy8e9Q3Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+shuAXJYJMLFEO5IC51RQJqKXvF4bbge8sSM8zil+b86ruacrNUh0FNBHMQHPMVhQ8oCzWORga48e
+l/EkkeSbdxx03qF16YiQVefaDUYLw1OqbT24Vq3/OSwBtCzIIKGGThR+1KO9ugJaColitjyerzRU
+8Pfj76fGV/YP5axo8Mkq6QlqTgfW0Ma+sQ0G5CNo2kEMQtkUBSgbTXpMqphLdMRzuKO/PMvHlEFk
+E7FvaicVrIClDOK+HUuTAkFiyqB6S3pCekBRYAhlwBeQeka9sozXyA+6wfh50Bh/4Q+OaJ7ycFc9
+1BtY+0LuU4cFkDCRWtAfnHK2jUEiUjXP5AxqNQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID8zCCAtugAwIBAgIJANGCVTaSsGOgMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD0ZyYXR0YSBQb2xlc2luZTEiMCAGA1UECgwZQ29tdW5l
+IGRpIEZyYXR0YSBQb2xlc2luZTEyMDAGA1UEAwwpc2Vydml6aW9ubGluZS5jb211bmUuZnJhdHRh
+cG9sZXNpbmUucm8uaXQwHhcNMTkwMjIwMTYzNDAxWhcNMjkwMjE5MTYzNDAxWjCBjzELMAkGA1UE
+BhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9GcmF0dGEgUG9sZXNpbmUxIjAgBgNVBAoM
+GUNvbXVuZSBkaSBGcmF0dGEgUG9sZXNpbmUxMjAwBgNVBAMMKXNlcnZpemlvbmxpbmUuY29tdW5l
+LmZyYXR0YXBvbGVzaW5lLnJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshuA
+XJYJMLFEO5IC51RQJqKXvF4bbge8sSM8zil+b86ruacrNUh0FNBHMQHPMVhQ8oCzWORga48el/Ek
+keSbdxx03qF16YiQVefaDUYLw1OqbT24Vq3/OSwBtCzIIKGGThR+1KO9ugJaColitjyerzRU8Pfj
+76fGV/YP5axo8Mkq6QlqTgfW0Ma+sQ0G5CNo2kEMQtkUBSgbTXpMqphLdMRzuKO/PMvHlEFkE7Fv
+aicVrIClDOK+HUuTAkFiyqB6S3pCekBRYAhlwBeQeka9sozXyA+6wfh50Bh/4Q+OaJ7ycFc91BtY
++0LuU4cFkDCRWtAfnHK2jUEiUjXP5AxqNQIDAQABo1AwTjAdBgNVHQ4EFgQUYs2hjT38T3/t2WBk
+5OvWfZGHaHYwHwYDVR0jBBgwFoAUYs2hjT38T3/t2WBk5OvWfZGHaHYwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQsFAAOCAQEATPkhJbs0TrNCG4d/WFH7KSeOLrichYeguOUwkg/uINMzOoHRDfRT
+kFkJJZMicnKkfZZEOKPz59VjTyPNEWPH0a+5BkJtupNnWPdyeckITzpQwbCILv/Gbmjzl6gho1il
+9nHLpawYJXbWZzaGH5FnVkXdhZcgJxQ6XlXdh/u1u8BhBxiyi7YmBdu7ubwMG8wz2LyPwsHf4Uwo
+IPxxhY0lWu4ptfvxi4gl4jVfaPyc3wCVsKvGpkGMOQCKgBTys8DFpH/26wxfdxxCiq8zV4ECNxeI
+MpP5HARD29oq+wzWtG8OLvyZbzoWug0JpWT4SmB5ptyddJB+Tk+B4D2SfacRcQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8zCCAtugAwIBAgIJANGCVTaSsGOgMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD0ZyYXR0YSBQb2xlc2luZTEiMCAGA1UECgwZQ29tdW5lIGRpIEZyYXR0YSBQb2xlc2luZTEyMDAGA1UEAwwpc2Vydml6aW9ubGluZS5jb211bmUuZnJhdHRhcG9sZXNpbmUucm8uaXQwHhcNMTkwMjIwMTYzNDAxWhcNMjkwMjE5MTYzNDAxWjCBjzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9GcmF0dGEgUG9sZXNpbmUxIjAgBgNVBAoMGUNvbXVuZSBkaSBGcmF0dGEgUG9sZXNpbmUxMjAwBgNVBAMMKXNlcnZpemlvbmxpbmUuY29tdW5lLmZyYXR0YXBvbGVzaW5lLnJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshuAXJYJMLFEO5IC51RQJqKXvF4bbge8sSM8zil+b86ruacrNUh0FNBHMQHPMVhQ8oCzWORga48el/EkkeSbdxx03qF16YiQVefaDUYLw1OqbT24Vq3/OSwBtCzIIKGGThR+1KO9ugJaColitjyerzRU8Pfj76fGV/YP5axo8Mkq6QlqTgfW0Ma+sQ0G5CNo2kEMQtkUBSgbTXpMqphLdMRzuKO/PMvHlEFkE7FvaicVrIClDOK+HUuTAkFiyqB6S3pCekBRYAhlwBeQeka9sozXyA+6wfh50Bh/4Q+OaJ7ycFc91BtY+0LuU4cFkDCRWtAfnHK2jUEiUjXP5AxqNQIDAQABo1AwTjAdBgNVHQ4EFgQUYs2hjT38T3/t2WBk5OvWfZGHaHYwHwYDVR0jBBgwFoAUYs2hjT38T3/t2WBk5OvWfZGHaHYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEATPkhJbs0TrNCG4d/WFH7KSeOLrichYeguOUwkg/uINMzOoHRDfRTkFkJJZMicnKkfZZEOKPz59VjTyPNEWPH0a+5BkJtupNnWPdyeckITzpQwbCILv/Gbmjzl6gho1il9nHLpawYJXbWZzaGH5FnVkXdhZcgJxQ6XlXdh/u1u8BhBxiyi7YmBdu7ubwMG8wz2LyPwsHf4UwoIPxxhY0lWu4ptfvxi4gl4jVfaPyc3wCVsKvGpkGMOQCKgBTys8DFpH/26wxfdxxCiq8zV4ECNxeIMpP5HARD29oq+wzWtG8OLvyZbzoWug0JpWT4SmB5ptyddJB+Tk+B4D2SfacRcQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8zCCAtugAwIBAgIJANGCVTaSsGOgMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD0ZyYXR0YSBQb2xlc2luZTEiMCAGA1UECgwZQ29tdW5lIGRpIEZyYXR0YSBQb2xlc2luZTEyMDAGA1UEAwwpc2Vydml6aW9ubGluZS5jb211bmUuZnJhdHRhcG9sZXNpbmUucm8uaXQwHhcNMTkwMjIwMTYzNDAxWhcNMjkwMjE5MTYzNDAxWjCBjzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9GcmF0dGEgUG9sZXNpbmUxIjAgBgNVBAoMGUNvbXVuZSBkaSBGcmF0dGEgUG9sZXNpbmUxMjAwBgNVBAMMKXNlcnZpemlvbmxpbmUuY29tdW5lLmZyYXR0YXBvbGVzaW5lLnJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshuAXJYJMLFEO5IC51RQJqKXvF4bbge8sSM8zil+b86ruacrNUh0FNBHMQHPMVhQ8oCzWORga48el/EkkeSbdxx03qF16YiQVefaDUYLw1OqbT24Vq3/OSwBtCzIIKGGThR+1KO9ugJaColitjyerzRU8Pfj76fGV/YP5axo8Mkq6QlqTgfW0Ma+sQ0G5CNo2kEMQtkUBSgbTXpMqphLdMRzuKO/PMvHlEFkE7FvaicVrIClDOK+HUuTAkFiyqB6S3pCekBRYAhlwBeQeka9sozXyA+6wfh50Bh/4Q+OaJ7ycFc91BtY+0LuU4cFkDCRWtAfnHK2jUEiUjXP5AxqNQIDAQABo1AwTjAdBgNVHQ4EFgQUYs2hjT38T3/t2WBk5OvWfZGHaHYwHwYDVR0jBBgwFoAUYs2hjT38T3/t2WBk5OvWfZGHaHYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEATPkhJbs0TrNCG4d/WFH7KSeOLrichYeguOUwkg/uINMzOoHRDfRTkFkJJZMicnKkfZZEOKPz59VjTyPNEWPH0a+5BkJtupNnWPdyeckITzpQwbCILv/Gbmjzl6gho1il9nHLpawYJXbWZzaGH5FnVkXdhZcgJxQ6XlXdh/u1u8BhBxiyi7YmBdu7ubwMG8wz2LyPwsHf4UwoIPxxhY0lWu4ptfvxi4gl4jVfaPyc3wCVsKvGpkGMOQCKgBTys8DFpH/26wxfdxxCiq8zV4ECNxeIMpP5HARD29oq+wzWtG8OLvyZbzoWug0JpWT4SmB5ptyddJB+Tk+B4D2SfacRcQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.frattapolesine.ro.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.frattapolesine.ro.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Fratta Polesine</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Fratta Polesine</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.frattapolesine.ro.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

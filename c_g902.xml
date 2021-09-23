@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___spid.comune.portici.na.it" entityID="https://spid.comune.portici.na.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#https___spid.comune.portici.na.it">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>PRsEDX/74x1Xu3saUCcfU4L9FhpFGhUvwxgnkOPc6to=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pp4RRkFYufDaM8WBpDms8sSxKP6Jj1VwhiDjX7yMewea8XBW0Ebx6iE1fFwwzY2Y67R3C39uukam
+SAb87/tj1EvIsQkphRsJ2yoW5+7UIWUU6R6qz/sANoVB85NG9A9DnE5syuu7tOj755VhBY0DibZl
+gC3CQb1kTShnfa4GeAfXDpfTWIrM8CNd45Hea3fQMjVAYzUGBBzMn1HbCEFS+JLEBC0QtP3YDbO8
+JsK+mypamxJEWbz6BSqvJLy9ZG+AuiN0gflFPj6nOLIX8phV3cQTTrqbcRtepSpqgNbU01PdurH4
+0HX1EW82kIgeRN5swWu+2GEJdFvaZ8wbQMLquA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zwnsUTp6Cqu5ZpQW9nXd5eqP/dYRDlq9y4MXKjiCnXZYlRzKEgDm/q3g3O7OZXYcm/72Mz1RCGgY
+id6Sxqqq1NfySD/gkthyIPFLE38lUIlI2Dq+BphAK54QuspUH3WO2pudxhJ92s9gZuOvML5VoF2k
+bX06x8Cf216wxqXE9oRPPH4AWr6tgLOVJ9DF/7SFOQHlR2ZiDgBf3AsZ8OIJ0eOK4kVzDUq6pXeI
+dgZuvM1norzrNZxs21e2GG9g6Yx6mWmoirp6JhoFe8IUMkONgyTJudmCWloSvFW+LYDXqjKqvxj4
+SSRFSxms7ny7Y4gHw2LVsexEZstsuTet4Z2cFQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDszCCApugAwIBAgIJAILruKnEUYaAMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUG9ydGljaTEaMBgGA1UECgwRQ29tdW5lIGRpIFBvcnRp
+Y2kxIzAhBgNVBAMMGnNwaWQyLmNvbXVuZS5wb3J0aWNpLm5hLml0MB4XDTIwMDMyNzA4NDQzMVoX
+DTMwMDMyNzA4NDQzMVowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdQ
+b3J0aWNpMRowGAYDVQQKDBFDb211bmUgZGkgUG9ydGljaTEjMCEGA1UEAwwac3BpZDIuY29tdW5l
+LnBvcnRpY2kubmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPCexROnoKq7lm
+lBb2dd3l6o/91hEOWr3LgxcqOIKddliVHMoSAOb+reDc7s5ldhyb/vYzPVEIaBiJ3pLGqqrU1/JI
+P+CS2HIg8UsTfyVQiUjYOr4GmEArnhC6ylQfdY7am53GEn3az2Bm468wvlWgXaRtfTrHwJ/bXrDG
+pcT2hE88fgBavq2As5Un0MX/tIU5AeVHZmIOAF/cCxnw4gnR44riRXMNSrqld4h2Bm68zWeivOs1
+nGzbV7YYb2DpjHqZaaiKunomGgV7whQyQ42DJMm52YJaWhK8Vb4tgNeqMqq/GPhJJEVLGazufLtj
+iAfDYtWx7ERmy2y5N63hnZwVAgMBAAGjUDBOMB0GA1UdDgQWBBTc6ky6w4qFl14nsSatb1ysws6U
+NDAfBgNVHSMEGDAWgBTc6ky6w4qFl14nsSatb1ysws6UNDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQBMnGlnHCQrLbKbtFEFK9tb0XmIqySDwk01SYAgr3pp4QD95WoMYQg2t5U2cpCT
+PX+X/eWYELKtgT7DIjgCyr+pFjUAM3Qngjo2te09Y7/a3bqGKt5CvRoAxNpFQjrd+qNL/hYwHukG
+NXQbmgKn27MHs7nABx9WJ8AoiHK/ksbtllrodMPpEzpOnCq6k8J5zgQx/Xsm8dU60830gT1WTCGX
+FpWo04APCwurhLl16Th2Cgw9wn8g51v/JyfReZ4KNLvOw7JoimBpsUamrSNKwhh4LQ5IIhV+UYU6
+yPXsYjS34Xi93RMzf+4JxJAQzPM5xU7KmjuEeM0mydf5FbjfnSUu
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbjCCAlagAwIBAgIEW83YAzANBgkqhkiG9w0BAQsFADB5MQswCQYDVQQGEwJJVDELMAkGA1UE
+						CAwCTkExEDAOBgNVBAcMB1BvcnRpY2kxGjAYBgNVBAoMEUNvbXVuZSBkaSBQb3J0aWNpMQswCQYD
+						VQQLDAJJVDEiMCAGA1UEAwwZc3BpZC5jb211bmUucG9ydGljaS5uYS5pdDAeFw0xODEwMjIxNDAx
+						MTJaFw00ODEwMjIxNDAxMTJaMHkxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJOQTEQMA4GA1UEBwwH
+						UG9ydGljaTEaMBgGA1UECgwRQ29tdW5lIGRpIFBvcnRpY2kxCzAJBgNVBAsMAklUMSIwIAYDVQQD
+						DBlzcGlkLmNvbXVuZS5wb3J0aWNpLm5hLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+						AQEA+Hbp2GBlFSv/ikFjMT1x+ehMwJFiemZw23zDcmCstz5Bhgf8d6KIB8m1tGZ3UAX7OBawqZYP
+						TD3e6b7h9Z3MVcvolcA69Cd1YSIViNAztM9JRVWjBN8boyEMTxdYlBa8c+SPvbnkV9oMQfRFSCVI
+						OWC16KMD2V90t+GGZfryPYZpJh1SMJPKs0hLZu6ZFM16VFNGI6U/3z+L+1snCANI7w3xovruGN94
+						ygJZsiQgygkXNh4Gk7gMc+kv96BQbYBHunKUQgLlh/HjO0hCGIzuceZLoJs8Jv3y0nmLuiLi4z+2
+						HlaeWf2253moAJxedvucuzkeAUGpAMUMCYMxGKFAlQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDY
+						tU3n0tcLmYTA3iw85YM+7amKBY7S41VcJI3FSBxpBjAz5PDwE995KQKcfXXcUOY4TgrNKVZkxy5V
+						jOlWjsDksenZPE3QpDAE+t3oVmmDQ9c8skw4dsh1WCI+FntnpPtOmu2WQSf59cSA2lC/s3cqGv2j
+						m2yWSD9Zl2zISWvnL9AN0UEY1I7bJrbBoLIqT1e2MIdyUel4D8d8t9LnBJy/l64ctbe2KQ/BuiJt
+						2gqMzgq8BGBP8ogmCFltQil5WA/8iiH5fb+GKdZEDJGTyR1ggww53ToqDdPcLMvBtwziKy0H1xvY
+						/ziS4KjZ2GxcZGXVjHFrm1AJpfAm6US+aoIW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbjCCAlagAwIBAgIEW83YAzANBgkqhkiG9w0BAQsFADB5MQswCQYDVQQGEwJJVDELMAkGA1UE
+						CAwCTkExEDAOBgNVBAcMB1BvcnRpY2kxGjAYBgNVBAoMEUNvbXVuZSBkaSBQb3J0aWNpMQswCQYD
+						VQQLDAJJVDEiMCAGA1UEAwwZc3BpZC5jb211bmUucG9ydGljaS5uYS5pdDAeFw0xODEwMjIxNDAx
+						MTJaFw00ODEwMjIxNDAxMTJaMHkxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJOQTEQMA4GA1UEBwwH
+						UG9ydGljaTEaMBgGA1UECgwRQ29tdW5lIGRpIFBvcnRpY2kxCzAJBgNVBAsMAklUMSIwIAYDVQQD
+						DBlzcGlkLmNvbXVuZS5wb3J0aWNpLm5hLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+						AQEA+Hbp2GBlFSv/ikFjMT1x+ehMwJFiemZw23zDcmCstz5Bhgf8d6KIB8m1tGZ3UAX7OBawqZYP
+						TD3e6b7h9Z3MVcvolcA69Cd1YSIViNAztM9JRVWjBN8boyEMTxdYlBa8c+SPvbnkV9oMQfRFSCVI
+						OWC16KMD2V90t+GGZfryPYZpJh1SMJPKs0hLZu6ZFM16VFNGI6U/3z+L+1snCANI7w3xovruGN94
+						ygJZsiQgygkXNh4Gk7gMc+kv96BQbYBHunKUQgLlh/HjO0hCGIzuceZLoJs8Jv3y0nmLuiLi4z+2
+						HlaeWf2253moAJxedvucuzkeAUGpAMUMCYMxGKFAlQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDY
+						tU3n0tcLmYTA3iw85YM+7amKBY7S41VcJI3FSBxpBjAz5PDwE995KQKcfXXcUOY4TgrNKVZkxy5V
+						jOlWjsDksenZPE3QpDAE+t3oVmmDQ9c8skw4dsh1WCI+FntnpPtOmu2WQSf59cSA2lC/s3cqGv2j
+						m2yWSD9Zl2zISWvnL9AN0UEY1I7bJrbBoLIqT1e2MIdyUel4D8d8t9LnBJy/l64ctbe2KQ/BuiJt
+						2gqMzgq8BGBP8ogmCFltQil5WA/8iiH5fb+GKdZEDJGTyR1ggww53ToqDdPcLMvBtwziKy0H1xvY
+						/ziS4KjZ2GxcZGXVjHFrm1AJpfAm6US+aoIW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDszCCApugAwIBAgIJAILruKnEUYaAMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUG9ydGljaTEaMBgGA1UECgwRQ29tdW5lIGRpIFBvcnRpY2kxIzAhBgNVBAMMGnNwaWQyLmNvbXVuZS5wb3J0aWNpLm5hLml0MB4XDTIwMDMyNzA4NDQzMVoXDTMwMDMyNzA4NDQzMVowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdQb3J0aWNpMRowGAYDVQQKDBFDb211bmUgZGkgUG9ydGljaTEjMCEGA1UEAwwac3BpZDIuY29tdW5lLnBvcnRpY2kubmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPCexROnoKq7lmlBb2dd3l6o/91hEOWr3LgxcqOIKddliVHMoSAOb+reDc7s5ldhyb/vYzPVEIaBiJ3pLGqqrU1/JIP+CS2HIg8UsTfyVQiUjYOr4GmEArnhC6ylQfdY7am53GEn3az2Bm468wvlWgXaRtfTrHwJ/bXrDGpcT2hE88fgBavq2As5Un0MX/tIU5AeVHZmIOAF/cCxnw4gnR44riRXMNSrqld4h2Bm68zWeivOs1nGzbV7YYb2DpjHqZaaiKunomGgV7whQyQ42DJMm52YJaWhK8Vb4tgNeqMqq/GPhJJEVLGazufLtjiAfDYtWx7ERmy2y5N63hnZwVAgMBAAGjUDBOMB0GA1UdDgQWBBTc6ky6w4qFl14nsSatb1ysws6UNDAfBgNVHSMEGDAWgBTc6ky6w4qFl14nsSatb1ysws6UNDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBMnGlnHCQrLbKbtFEFK9tb0XmIqySDwk01SYAgr3pp4QD95WoMYQg2t5U2cpCTPX+X/eWYELKtgT7DIjgCyr+pFjUAM3Qngjo2te09Y7/a3bqGKt5CvRoAxNpFQjrd+qNL/hYwHukGNXQbmgKn27MHs7nABx9WJ8AoiHK/ksbtllrodMPpEzpOnCq6k8J5zgQx/Xsm8dU60830gT1WTCGXFpWo04APCwurhLl16Th2Cgw9wn8g51v/JyfReZ4KNLvOw7JoimBpsUamrSNKwhh4LQ5IIhV+UYU6yPXsYjS34Xi93RMzf+4JxJAQzPM5xU7KmjuEeM0mydf5FbjfnSUu</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDszCCApugAwIBAgIJAILruKnEUYaAMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUG9ydGljaTEaMBgGA1UECgwRQ29tdW5lIGRpIFBvcnRpY2kxIzAhBgNVBAMMGnNwaWQyLmNvbXVuZS5wb3J0aWNpLm5hLml0MB4XDTIwMDMyNzA4NDQzMVoXDTMwMDMyNzA4NDQzMVowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdQb3J0aWNpMRowGAYDVQQKDBFDb211bmUgZGkgUG9ydGljaTEjMCEGA1UEAwwac3BpZDIuY29tdW5lLnBvcnRpY2kubmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPCexROnoKq7lmlBb2dd3l6o/91hEOWr3LgxcqOIKddliVHMoSAOb+reDc7s5ldhyb/vYzPVEIaBiJ3pLGqqrU1/JIP+CS2HIg8UsTfyVQiUjYOr4GmEArnhC6ylQfdY7am53GEn3az2Bm468wvlWgXaRtfTrHwJ/bXrDGpcT2hE88fgBavq2As5Un0MX/tIU5AeVHZmIOAF/cCxnw4gnR44riRXMNSrqld4h2Bm68zWeivOs1nGzbV7YYb2DpjHqZaaiKunomGgV7whQyQ42DJMm52YJaWhK8Vb4tgNeqMqq/GPhJJEVLGazufLtjiAfDYtWx7ERmy2y5N63hnZwVAgMBAAGjUDBOMB0GA1UdDgQWBBTc6ky6w4qFl14nsSatb1ysws6UNDAfBgNVHSMEGDAWgBTc6ky6w4qFl14nsSatb1ysws6UNDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBMnGlnHCQrLbKbtFEFK9tb0XmIqySDwk01SYAgr3pp4QD95WoMYQg2t5U2cpCTPX+X/eWYELKtgT7DIjgCyr+pFjUAM3Qngjo2te09Y7/a3bqGKt5CvRoAxNpFQjrd+qNL/hYwHukGNXQbmgKn27MHs7nABx9WJ8AoiHK/ksbtllrodMPpEzpOnCq6k8J5zgQx/Xsm8dU60830gT1WTCGXFpWo04APCwurhLl16Th2Cgw9wn8g51v/JyfReZ4KNLvOw7JoimBpsUamrSNKwhh4LQ5IIhV+UYU6yPXsYjS34Xi93RMzf+4JxJAQzPM5xU7KmjuEeM0mydf5FbjfnSUu</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.portici.na.it/saml/SingleLogout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.comune.portici.na.it/saml/SingleLogout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid2.comune.portici.na.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.portici.na.it/saml/SSO" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid2.comune.portici.na.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Base</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Avanzato</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Numero telefono mobile" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">Full</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Luogo nascita" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Domicilio fisico" Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Numero telefono mobile" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Provincia nascita" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Portici</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Portici</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.portici.na.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <IPACode>c_g902</IPACode>
+      <Public/>
+    </md:Extensions>
+    <md:Company>Comune di Portici</md:Company>
+    <md:EmailAddress>serviziweb@comune.portici.na.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

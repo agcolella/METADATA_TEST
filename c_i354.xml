@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="SantOrsolaTerme" entityID="https://www.comune.santorsolaterme.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SantOrsolaTerme">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>i8+XI6RAx0Q/NEWddg/dEaJ9RWudPlRBXyotxQMPcXU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+A8LHp34dWqDVq7D/SKNpgxNWcvLUoU4qnQ0oM8zXwrDMWMYMsW096iNF/mpPOpKvSa87vwAosgY/
+D6lPpD0ps6LdJb+XwEDjrdCNjo2EIMTYQ8Eyepu9BUzNOd0V0QaJW92Wv6DJOVjpILwTwZtKmuB4
+lHk/35wVFkQhyEyMOEiKmN7PtH4CxNY7jxIFOidIlNQmi/xaZqe6C6e1sGp2H+dw6+JQQxHwk3df
+an1G6xFkaRvAbchQzB6gHM9SNRdgHMMB4kSfvHyNJ5Me6lQbBSxP8WkV+potg9D8D4OVeIHmXusy
+v95T8cigote6YR7Z3Hv5YGALKU09R85uTLeCAw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7A9cyQrkxhXPpjWhAoh5/7VV8mr9epqu0yRleyLipRxhS52bEkyawWteXilMR8vkDMD4ksm9jEHm
+iVtS1Ush8qtzxVwH902+naUhWUFFHuO5Qa4SEb1pAUP3v1je88CvlaDnCmu/P9mUtcnpsz9Gl7me
+nSc9zlyODN9mwbIkc+Vlvl8dnZskydwUp8eB0yuWh/8EqLZksOhvq0PdTwjSQwz7dGooH6/fjG2O
+dh9Z+eA3hxXD5i3WOqt2MOlIO8xFQQKAE/qsLX4wS0EmwdzWTuMJbKrsDzY4f7UGcULSh5Xx4gUa
+BJm1jHhtomK4cCdPdcMyBSGI93LJFk/kd8hFCw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID6jCCAtKgAwIBAgIJAKEdNQUtic0JMA0GCSqGSIb3DQEBCwUAMIGbMSkwJwYDVQQDDCB3d3cu
+Y29tdW5lLnNhbnRvcnNvbGF0ZXJtZS50bi5pdDEkMCIGA1UECgwbQ29tdW5lIGRpIFNhbnQnT3Jz
+b2xhIFRlcm1lMRUwEwYDVQQEDAxQQTpJVC1jX2kzNTQxCzAJBgNVBAYTAklUMSQwIgYDVQQHDBtD
+b211bmUgZGkgU2FudCdPcnNvbGEgVGVybWUwHhcNMjAxMDI3MDgzODAxWhcNMzAxMDI1MDgzODAx
+WjCBmzEpMCcGA1UEAwwgd3d3LmNvbXVuZS5zYW50b3Jzb2xhdGVybWUudG4uaXQxJDAiBgNVBAoM
+G0NvbXVuZSBkaSBTYW50J09yc29sYSBUZXJtZTEVMBMGA1UEBAwMUEE6SVQtY19pMzU0MQswCQYD
+VQQGEwJJVDEkMCIGA1UEBwwbQ29tdW5lIGRpIFNhbnQnT3Jzb2xhIFRlcm1lMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7A9cyQrkxhXPpjWhAoh5/7VV8mr9epqu0yRleyLipRxhS52b
+EkyawWteXilMR8vkDMD4ksm9jEHmiVtS1Ush8qtzxVwH902+naUhWUFFHuO5Qa4SEb1pAUP3v1je
+88CvlaDnCmu/P9mUtcnpsz9Gl7menSc9zlyODN9mwbIkc+Vlvl8dnZskydwUp8eB0yuWh/8EqLZk
+sOhvq0PdTwjSQwz7dGooH6/fjG2Odh9Z+eA3hxXD5i3WOqt2MOlIO8xFQQKAE/qsLX4wS0EmwdzW
+TuMJbKrsDzY4f7UGcULSh5Xx4gUaBJm1jHhtomK4cCdPdcMyBSGI93LJFk/kd8hFCwIDAQABoy8w
+LTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0B
+AQsFAAOCAQEAkV8/7Du1FBPQfP2YRzKD+ZQzFY8JJ27eB4A31qibKi3IiaOTXl6XBxodjBnelsxL
+Qag03ckmKFIIyziAvbQ4h2vJ2VVBAsJIRf1ax8niN0KDUt9sWNVBUKiqeQc7BPEcc0ZNELGcOLqk
+DyprcA0UqrHaz4RIRK2QldNuKCtOsl+BfRG07uNxGFkU727A6zsrUOJ46SoRnUZYPjCG2r1vchMw
+9auGWdmeNjxE4vRQmQPJyX6B4UKK4Jh1ZY5NEpdRlT9plmKnne+qPPCJxCKijyY4W71tXMsNxQ8i
+m30+5jAooAlO4Zkc0Msa9Mt1lpSeSz+OvGYNQkeOXOO7vBPOuQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID6jCCAtKgAwIBAgIJAKEdNQUtic0JMA0GCSqGSIb3DQEBCwUAMIGbMSkwJwYDVQQDDCB3d3cuY29tdW5lLnNhbnRvcnNvbGF0ZXJtZS50bi5pdDEkMCIGA1UECgwbQ29tdW5lIGRpIFNhbnQnT3Jzb2xhIFRlcm1lMRUwEwYDVQQEDAxQQTpJVC1jX2kzNTQxCzAJBgNVBAYTAklUMSQwIgYDVQQHDBtDb211bmUgZGkgU2FudCdPcnNvbGEgVGVybWUwHhcNMjAxMDI3MDgzODAxWhcNMzAxMDI1MDgzODAxWjCBmzEpMCcGA1UEAwwgd3d3LmNvbXVuZS5zYW50b3Jzb2xhdGVybWUudG4uaXQxJDAiBgNVBAoMG0NvbXVuZSBkaSBTYW50J09yc29sYSBUZXJtZTEVMBMGA1UEBAwMUEE6SVQtY19pMzU0MQswCQYDVQQGEwJJVDEkMCIGA1UEBwwbQ29tdW5lIGRpIFNhbnQnT3Jzb2xhIFRlcm1lMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7A9cyQrkxhXPpjWhAoh5/7VV8mr9epqu0yRleyLipRxhS52bEkyawWteXilMR8vkDMD4ksm9jEHmiVtS1Ush8qtzxVwH902+naUhWUFFHuO5Qa4SEb1pAUP3v1je88CvlaDnCmu/P9mUtcnpsz9Gl7menSc9zlyODN9mwbIkc+Vlvl8dnZskydwUp8eB0yuWh/8EqLZksOhvq0PdTwjSQwz7dGooH6/fjG2Odh9Z+eA3hxXD5i3WOqt2MOlIO8xFQQKAE/qsLX4wS0EmwdzWTuMJbKrsDzY4f7UGcULSh5Xx4gUaBJm1jHhtomK4cCdPdcMyBSGI93LJFk/kd8hFCwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAkV8/7Du1FBPQfP2YRzKD+ZQzFY8JJ27eB4A31qibKi3IiaOTXl6XBxodjBnelsxLQag03ckmKFIIyziAvbQ4h2vJ2VVBAsJIRf1ax8niN0KDUt9sWNVBUKiqeQc7BPEcc0ZNELGcOLqkDyprcA0UqrHaz4RIRK2QldNuKCtOsl+BfRG07uNxGFkU727A6zsrUOJ46SoRnUZYPjCG2r1vchMw9auGWdmeNjxE4vRQmQPJyX6B4UKK4Jh1ZY5NEpdRlT9plmKnne+qPPCJxCKijyY4W71tXMsNxQ8im30+5jAooAlO4Zkc0Msa9Mt1lpSeSz+OvGYNQkeOXOO7vBPOuQ==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID6jCCAtKgAwIBAgIJAKEdNQUtic0JMA0GCSqGSIb3DQEBCwUAMIGbMSkwJwYDVQQDDCB3d3cuY29tdW5lLnNhbnRvcnNvbGF0ZXJtZS50bi5pdDEkMCIGA1UECgwbQ29tdW5lIGRpIFNhbnQnT3Jzb2xhIFRlcm1lMRUwEwYDVQQEDAxQQTpJVC1jX2kzNTQxCzAJBgNVBAYTAklUMSQwIgYDVQQHDBtDb211bmUgZGkgU2FudCdPcnNvbGEgVGVybWUwHhcNMjAxMDI3MDgzODAxWhcNMzAxMDI1MDgzODAxWjCBmzEpMCcGA1UEAwwgd3d3LmNvbXVuZS5zYW50b3Jzb2xhdGVybWUudG4uaXQxJDAiBgNVBAoMG0NvbXVuZSBkaSBTYW50J09yc29sYSBUZXJtZTEVMBMGA1UEBAwMUEE6SVQtY19pMzU0MQswCQYDVQQGEwJJVDEkMCIGA1UEBwwbQ29tdW5lIGRpIFNhbnQnT3Jzb2xhIFRlcm1lMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7A9cyQrkxhXPpjWhAoh5/7VV8mr9epqu0yRleyLipRxhS52bEkyawWteXilMR8vkDMD4ksm9jEHmiVtS1Ush8qtzxVwH902+naUhWUFFHuO5Qa4SEb1pAUP3v1je88CvlaDnCmu/P9mUtcnpsz9Gl7menSc9zlyODN9mwbIkc+Vlvl8dnZskydwUp8eB0yuWh/8EqLZksOhvq0PdTwjSQwz7dGooH6/fjG2Odh9Z+eA3hxXD5i3WOqt2MOlIO8xFQQKAE/qsLX4wS0EmwdzWTuMJbKrsDzY4f7UGcULSh5Xx4gUaBJm1jHhtomK4cCdPdcMyBSGI93LJFk/kd8hFCwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAkV8/7Du1FBPQfP2YRzKD+ZQzFY8JJ27eB4A31qibKi3IiaOTXl6XBxodjBnelsxLQag03ckmKFIIyziAvbQ4h2vJ2VVBAsJIRf1ax8niN0KDUt9sWNVBUKiqeQc7BPEcc0ZNELGcOLqkDyprcA0UqrHaz4RIRK2QldNuKCtOsl+BfRG07uNxGFkU727A6zsrUOJ46SoRnUZYPjCG2r1vchMw9auGWdmeNjxE4vRQmQPJyX6B4UKK4Jh1ZY5NEpdRlT9plmKnne+qPPCJxCKijyY4W71tXMsNxQ8im30+5jAooAlO4Zkc0Msa9Mt1lpSeSz+OvGYNQkeOXOO7vBPOuQ==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/santorsolaterme"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santorsolaterme" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santorsolaterme" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/santorsolaterme" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Sant'Orsola Terme</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Sant'Orsola Terme</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Sant'Orsola Terme</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Sant'Orsola Terme</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Sant'Orsola Terme</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Sant'Orsola Terme</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Sant'Orsola Terme</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Sant'Orsola Terme</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.santorsolaterme.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.santorsolaterme.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.santorsolaterme.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.santorsolaterme.tn.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_i354</spid:IPACode>
+         <spid:FiscalCode>80007510227</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ict@comune.pergine.tn.it</md:EmailAddress>
+      <md:TelephoneNumber>0461502340</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

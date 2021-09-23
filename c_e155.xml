@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://iol.comune.gravina.ba.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>oygneB0K6S+umaTTIliRw1o4FXVj+2HjwFTkI8yewbk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+A27CVD2L5NCIduaxsSTzGMzp9ufdmcTqSQsqgecprRvJBwD5CMB3PbCfnNf9WFY22GEWzI8Mzo89
+9udYUSD5hr5YJmJKEirWpj7EdfbF+sltTS/bw6k++kWI/3wmiJIhRARh+1FRlwE2261FTBo0nY8I
+Pb13l+/yevI07DVfFvNogddhV1Lvm/zCr7IH2G08KRn3pIIbp48bGZDQClGjleR75/J3TbWcp9N2
+Zco92PIrtZM32EswOU53OwKaqqS0aW/dzkFyVEanQ/oEbT+q5at117rJCTtEofcbeOz//dHoqQpx
+EpjGXC8uVsvmNJYnL00HrfrNrK+8Q9MjrIvxcw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oUZ/U+9GXWPAcINPN8pORmZ0mEBhQV3ZfH9XHLbkH4wz+fuLTyD+HdaHOcPzNaly0GMutoq2xVMX
+G5hFlBjaHzU5y8FcLFeqx+Cki3WERAbmGJaulhJGJOZT+YQHAvBQmqXf8hlZKH5CYAfTVakZmVxR
+9J5pvi4lYlri4B5UcXBg1DlPjvwJ0zrNu2p/+yF+TcXPROrniExUqzaMaAQBuu7wTvb2cX/59fnw
+LK9Mbq5qH5P13dcENAJTEMRtL5DKW1u8wpsc2n26WNxxFIJ40IDZaAzeMpNnYBEFEQB59h0xBd0J
+BH2jmMEImBxSvtvit+fUWjONU+KdHjoAtcocdw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEezCCA2OgAwIBAgIJAKdppSTW89rMMA0GCSqGSIb3DQEBDQUAMIHTMQswCQYDVQQGEwJJVDEN
+MAsGA1UECAwEQmFyaTEaMBgGA1UEBwwRR3JhdmluYSBpbiBQdWdsaWExKTAnBgNVBAoMIElzdGFu
+emUgT25saW5lIEdyYXZpbmEgaW4gUHVnbGlhMSkwJwYDVQQLDCBJc3RhbnplIE9ubGluZSBHcmF2
+aW5hIGluIFB1Z2xpYTEXMBUGA1UEAwwOZ3JhdmluYWlzdGFuemUxKjAoBgkqhkiG9w0BCQEWG2dp
+YW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5pdDAeFw0yMDEwMDExMzIwNDNaFw0yMTEwMDExMzIwNDNa
+MIHTMQswCQYDVQQGEwJJVDENMAsGA1UECAwEQmFyaTEaMBgGA1UEBwwRR3JhdmluYSBpbiBQdWds
+aWExKTAnBgNVBAoMIElzdGFuemUgT25saW5lIEdyYXZpbmEgaW4gUHVnbGlhMSkwJwYDVQQLDCBJ
+c3RhbnplIE9ubGluZSBHcmF2aW5hIGluIFB1Z2xpYTEXMBUGA1UEAwwOZ3JhdmluYWlzdGFuemUx
+KjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAKFGf1PvRl1jwHCDTzfKTkZmdJhAYUFd2Xx/Vxy25B+MM/n7i08g
+/h3WhznD8zWpctBjLraKtsVTFxuYRZQY2h81OcvBXCxXqsfgpIt1hEQG5hiWrpYSRiTmU/mEBwLw
+UJql3/IZWSh+QmAH01WpGZlcUfSeab4uJWJa4uAeVHFwYNQ5T478CdM6zbtqf/shfk3Fz0Tq54hM
+VKs2jGgEAbru8E729nF/+fX58CyvTG6uah+T9d3XBDQCUxDEbS+QyltbvMKbHNp9uljccRSCeNCA
+2WgM3jKTZ2ARBREAefYdMQXdCQR9o5jBCJgcUr7b4rfn1FozjVPinR46ALXKHHcCAwEAAaNQME4w
+HQYDVR0OBBYEFN/2rlEP7ERjy0Vbs5HtDt5eM3jiMB8GA1UdIwQYMBaAFN/2rlEP7ERjy0Vbs5Ht
+Dt5eM3jiMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQENBQADggEBAFtA6zpIqyqLTzd6H9QDHPl+
+HajSo/4SMtDRV8SjFaCMjzELyamkmTO3UDF5gQcxOMeIa3dU7TCOwzByVoTDuUzSKwyq+eCm2D5D
+0USxYnU6FJd3jrRS3QjpjmoDMJIZ2X9Bx3ie54TH0SMrJoQZkvrvhWMRuFrlDCcBWaZuOz6GgFfj
+66bZpQf0PPNck48qMoB9UTELaYP2VYE2kRe7gq+s3Xr/sIHil8IETQO8HxBT8qo0WIDRJ50gkmJV
+bC9ZfCXIv+CCnebmXEL2sW8xPJbfhleqhZ8jJmm9vmCR8OCV1bBcReQo300z220T94s9/zLwM1hX
+ERoHBKSYuWS11IY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEezCCA2OgAwIBAgIJAKdppSTW89rMMA0GCSqGSIb3DQEBDQUAMIHTMQswCQYDVQQGEwJJVDENMAsGA1UECAwEQmFyaTEaMBgGA1UEBwwRR3JhdmluYSBpbiBQdWdsaWExKTAnBgNVBAoMIElzdGFuemUgT25saW5lIEdyYXZpbmEgaW4gUHVnbGlhMSkwJwYDVQQLDCBJc3RhbnplIE9ubGluZSBHcmF2aW5hIGluIFB1Z2xpYTEXMBUGA1UEAwwOZ3JhdmluYWlzdGFuemUxKjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5pdDAeFw0yMDEwMDExMzIwNDNaFw0yMTEwMDExMzIwNDNaMIHTMQswCQYDVQQGEwJJVDENMAsGA1UECAwEQmFyaTEaMBgGA1UEBwwRR3JhdmluYSBpbiBQdWdsaWExKTAnBgNVBAoMIElzdGFuemUgT25saW5lIEdyYXZpbmEgaW4gUHVnbGlhMSkwJwYDVQQLDCBJc3RhbnplIE9ubGluZSBHcmF2aW5hIGluIFB1Z2xpYTEXMBUGA1UEAwwOZ3JhdmluYWlzdGFuemUxKjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKFGf1PvRl1jwHCDTzfKTkZmdJhAYUFd2Xx/Vxy25B+MM/n7i08g/h3WhznD8zWpctBjLraKtsVTFxuYRZQY2h81OcvBXCxXqsfgpIt1hEQG5hiWrpYSRiTmU/mEBwLwUJql3/IZWSh+QmAH01WpGZlcUfSeab4uJWJa4uAeVHFwYNQ5T478CdM6zbtqf/shfk3Fz0Tq54hMVKs2jGgEAbru8E729nF/+fX58CyvTG6uah+T9d3XBDQCUxDEbS+QyltbvMKbHNp9uljccRSCeNCA2WgM3jKTZ2ARBREAefYdMQXdCQR9o5jBCJgcUr7b4rfn1FozjVPinR46ALXKHHcCAwEAAaNQME4wHQYDVR0OBBYEFN/2rlEP7ERjy0Vbs5HtDt5eM3jiMB8GA1UdIwQYMBaAFN/2rlEP7ERjy0Vbs5HtDt5eM3jiMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQENBQADggEBAFtA6zpIqyqLTzd6H9QDHPl+HajSo/4SMtDRV8SjFaCMjzELyamkmTO3UDF5gQcxOMeIa3dU7TCOwzByVoTDuUzSKwyq+eCm2D5D0USxYnU6FJd3jrRS3QjpjmoDMJIZ2X9Bx3ie54TH0SMrJoQZkvrvhWMRuFrlDCcBWaZuOz6GgFfj66bZpQf0PPNck48qMoB9UTELaYP2VYE2kRe7gq+s3Xr/sIHil8IETQO8HxBT8qo0WIDRJ50gkmJVbC9ZfCXIv+CCnebmXEL2sW8xPJbfhleqhZ8jJmm9vmCR8OCV1bBcReQo300z220T94s9/zLwM1hXERoHBKSYuWS11IY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEezCCA2OgAwIBAgIJAKdppSTW89rMMA0GCSqGSIb3DQEBDQUAMIHTMQswCQYDVQQGEwJJVDENMAsGA1UECAwEQmFyaTEaMBgGA1UEBwwRR3JhdmluYSBpbiBQdWdsaWExKTAnBgNVBAoMIElzdGFuemUgT25saW5lIEdyYXZpbmEgaW4gUHVnbGlhMSkwJwYDVQQLDCBJc3RhbnplIE9ubGluZSBHcmF2aW5hIGluIFB1Z2xpYTEXMBUGA1UEAwwOZ3JhdmluYWlzdGFuemUxKjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5pdDAeFw0yMDEwMDExMzIwNDNaFw0yMTEwMDExMzIwNDNaMIHTMQswCQYDVQQGEwJJVDENMAsGA1UECAwEQmFyaTEaMBgGA1UEBwwRR3JhdmluYSBpbiBQdWdsaWExKTAnBgNVBAoMIElzdGFuemUgT25saW5lIEdyYXZpbmEgaW4gUHVnbGlhMSkwJwYDVQQLDCBJc3RhbnplIE9ubGluZSBHcmF2aW5hIGluIFB1Z2xpYTEXMBUGA1UEAwwOZ3JhdmluYWlzdGFuemUxKjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKFGf1PvRl1jwHCDTzfKTkZmdJhAYUFd2Xx/Vxy25B+MM/n7i08g/h3WhznD8zWpctBjLraKtsVTFxuYRZQY2h81OcvBXCxXqsfgpIt1hEQG5hiWrpYSRiTmU/mEBwLwUJql3/IZWSh+QmAH01WpGZlcUfSeab4uJWJa4uAeVHFwYNQ5T478CdM6zbtqf/shfk3Fz0Tq54hMVKs2jGgEAbru8E729nF/+fX58CyvTG6uah+T9d3XBDQCUxDEbS+QyltbvMKbHNp9uljccRSCeNCA2WgM3jKTZ2ARBREAefYdMQXdCQR9o5jBCJgcUr7b4rfn1FozjVPinR46ALXKHHcCAwEAAaNQME4wHQYDVR0OBBYEFN/2rlEP7ERjy0Vbs5HtDt5eM3jiMB8GA1UdIwQYMBaAFN/2rlEP7ERjy0Vbs5HtDt5eM3jiMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQENBQADggEBAFtA6zpIqyqLTzd6H9QDHPl+HajSo/4SMtDRV8SjFaCMjzELyamkmTO3UDF5gQcxOMeIa3dU7TCOwzByVoTDuUzSKwyq+eCm2D5D0USxYnU6FJd3jrRS3QjpjmoDMJIZ2X9Bx3ie54TH0SMrJoQZkvrvhWMRuFrlDCcBWaZuOz6GgFfj66bZpQf0PPNck48qMoB9UTELaYP2VYE2kRe7gq+s3Xr/sIHil8IETQO8HxBT8qo0WIDRJ50gkmJVbC9ZfCXIv+CCnebmXEL2sW8xPJbfhleqhZ8jJmm9vmCR8OCV1bBcReQo300z220T94s9/zLwM1hXERoHBKSYuWS11IY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://iol.comune.gravina.ba.it/SpidSaml/LogoutRequest"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iol.comune.gravina.ba.it/SpidSaml/ACS" index="0" isDefault="true"/>
+
+<md:AttributeConsumingService index="1">
+<md:ServiceName xml:lang="it">Istanze online</md:ServiceName>
+<md:ServiceDescription xml:lang="it">
+SISTEMA PER LA COMPILAZIONE E PRESENTAZIONE ON-LINE DELLE ISTANZE, DICHIARAZIONI E SEGNALAZIONI ALLA PUBBLICA AMMINISTRAZIONE
+</md:ServiceDescription>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Gravina in Puglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gravina in Puglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gravina.ba.it</md:OrganizationURL>
+  </md:Organization>
+
+<md:ContactPerson contactType="other"><md:Extensions><spid:VATNumber>00364980722</spid:VATNumber><spid:FiscalCode>82000970721</spid:FiscalCode><spid:Private/></md:Extensions>
+<md:EmailAddress>protocollo.gravinainpuglia@pec.rupar.puglia.it</md:EmailAddress><md:TelephoneNumber>0803259111</md:TelephoneNumber>
+</md:ContactPerson>
+
+</md:EntityDescriptor>

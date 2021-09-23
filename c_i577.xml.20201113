@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.segrate.mi.it/" ID="pfx8f443797-6f8f-16b9-8e90-b89cac765baa"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8f443797-6f8f-16b9-8e90-b89cac765baa"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>oJ1vahkifUlplmWSrkIEe/ey2QTvBjhcQBaDYZWQqew=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>HVOC3Fc72kIW3iKoe8EsxNqibJPj0USf9eyuMGxZjEeSWpQddjfdwfyzYsoByZ28eqSifxKtzKv+TLnMlnCafCNk9JeMPJiUjoLZpKAdpZl5Un5swANdl4dmTLzBacGKpmpcictAahzsvZSCj8XHZAHiSmWUm4nxjiq/hSxdvQDXSNf0bdqZ0UWMSmUfV3Aj2XX8gr0XY6TlOGXpqLbX+/ZQ5n2UPMIP0rIpgRCT9+CJk/4GkP99W8XwveO2cYwsqYw3Ktdp+oCUIfpVYQ13ylEeDgjz15LCNuWbBW4tBZ/hij6ZPdrdmdCftQUoOBgcZbNaw7PQjkqpt44qdR+cvQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEFDCCAvygAwIBAgIJAL32+JBAyxH5MA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRAwDgYDVQQHDAdTZWdyYXRlMRowGAYDVQQKDBFDb211bmUgZGkgU2VncmF0ZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnNlZ3JhdGUubWkuaXQwHhcNMTkxMDI1MTQ1NTA0WhcNMjkxMDIyMTQ1NTA0WjCBnjELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEQMA4GA1UEBwwHU2VncmF0ZTEaMBgGA1UECgwRQ29tdW5lIGRpIFNlZ3JhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zZWdyYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1OAKErIjAVTz8We+8IP7rFGM3Y0XDbWn7eWU/zde+oGEeXTalQoNvey+gyLLY8wmLZO+PwUFixWcV++eNY0I17trpqU6hh9Nk879ekaNSz8Fb5IQvdboqmvtmYkaShBq5cHfidDivoct/xZAC/Uvv6QnrWdDy/slssNPFQ0Kl3+z+WsdAtpXbfwPPf0kUZhffYrhQv/IlH18eAofN4vLTQPCFZq4n+0oPOfhUDVtEfzuqK5bb8sf3mE1g4wrkWaL6xNr9GVozVmz8SjKF/E/fo0M0UHn/TM/pm2mk9drDFVbE2Y6OtEcHoR347NDwHmcjOA2DISgh/ePQpVQ6kH5DwIDAQABo1MwUTAdBgNVHQ4EFgQUdDkQpsBaLeGth685Mc25B2H7RWwwHwYDVR0jBBgwFoAUdDkQpsBaLeGth685Mc25B2H7RWwwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtUAideJVFvwL8pKOWHjA4XNhyaQzqULPdH6kNasP6YMlGCFnN7n+1w6Ydlsxbam0Yy03Ei9bhdYwCzXYibZ0bpzWNFpI4xUeoy/ckFUIEieFrszQy5WT8guZES+DdlDhft6Dc6ggNZjcUiXzKxm6IvAkUcTQdnRRPDkzqMCi84p3CpOM/4ixNIiLzvi2LXcvcOaNZZlZtCqN++cX9AZpFtG+nUx+126z4E3ohgRItJmjcDx8CK6NtwQ+jA/LR6elctebQft5O4wplCIMqEBfaITnpoIMFzhmzGU7vDLgMCP3Dcp//AjpswHyguB57l4XiooJpfdPR8PqjckHAfKedA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFDCCAvygAwIBAgIJAL32+JBAyxH5MA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRAwDgYDVQQHDAdTZWdyYXRlMRowGAYDVQQKDBFDb211bmUgZGkgU2VncmF0ZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnNlZ3JhdGUubWkuaXQwHhcNMTkxMDI1MTQ1NTA0WhcNMjkxMDIyMTQ1NTA0WjCBnjELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEQMA4GA1UEBwwHU2VncmF0ZTEaMBgGA1UECgwRQ29tdW5lIGRpIFNlZ3JhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zZWdyYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1OAKErIjAVTz8We+8IP7rFGM3Y0XDbWn7eWU/zde+oGEeXTalQoNvey+gyLLY8wmLZO+PwUFixWcV++eNY0I17trpqU6hh9Nk879ekaNSz8Fb5IQvdboqmvtmYkaShBq5cHfidDivoct/xZAC/Uvv6QnrWdDy/slssNPFQ0Kl3+z+WsdAtpXbfwPPf0kUZhffYrhQv/IlH18eAofN4vLTQPCFZq4n+0oPOfhUDVtEfzuqK5bb8sf3mE1g4wrkWaL6xNr9GVozVmz8SjKF/E/fo0M0UHn/TM/pm2mk9drDFVbE2Y6OtEcHoR347NDwHmcjOA2DISgh/ePQpVQ6kH5DwIDAQABo1MwUTAdBgNVHQ4EFgQUdDkQpsBaLeGth685Mc25B2H7RWwwHwYDVR0jBBgwFoAUdDkQpsBaLeGth685Mc25B2H7RWwwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtUAideJVFvwL8pKOWHjA4XNhyaQzqULPdH6kNasP6YMlGCFnN7n+1w6Ydlsxbam0Yy03Ei9bhdYwCzXYibZ0bpzWNFpI4xUeoy/ckFUIEieFrszQy5WT8guZES+DdlDhft6Dc6ggNZjcUiXzKxm6IvAkUcTQdnRRPDkzqMCi84p3CpOM/4ixNIiLzvi2LXcvcOaNZZlZtCqN++cX9AZpFtG+nUx+126z4E3ohgRItJmjcDx8CK6NtwQ+jA/LR6elctebQft5O4wplCIMqEBfaITnpoIMFzhmzGU7vDLgMCP3Dcp//AjpswHyguB57l4XiooJpfdPR8PqjckHAfKedA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFDCCAvygAwIBAgIJAL32+JBAyxH5MA0GCSqGSIb3DQEBCwUAMIGeMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRAwDgYDVQQHDAdTZWdyYXRlMRowGAYDVQQKDBFDb211bmUgZGkgU2VncmF0ZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnNlZ3JhdGUubWkuaXQwHhcNMTkxMDI1MTQ1NTA0WhcNMjkxMDIyMTQ1NTA0WjCBnjELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEQMA4GA1UEBwwHU2VncmF0ZTEaMBgGA1UECgwRQ29tdW5lIGRpIFNlZ3JhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zZWdyYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1OAKErIjAVTz8We+8IP7rFGM3Y0XDbWn7eWU/zde+oGEeXTalQoNvey+gyLLY8wmLZO+PwUFixWcV++eNY0I17trpqU6hh9Nk879ekaNSz8Fb5IQvdboqmvtmYkaShBq5cHfidDivoct/xZAC/Uvv6QnrWdDy/slssNPFQ0Kl3+z+WsdAtpXbfwPPf0kUZhffYrhQv/IlH18eAofN4vLTQPCFZq4n+0oPOfhUDVtEfzuqK5bb8sf3mE1g4wrkWaL6xNr9GVozVmz8SjKF/E/fo0M0UHn/TM/pm2mk9drDFVbE2Y6OtEcHoR347NDwHmcjOA2DISgh/ePQpVQ6kH5DwIDAQABo1MwUTAdBgNVHQ4EFgQUdDkQpsBaLeGth685Mc25B2H7RWwwHwYDVR0jBBgwFoAUdDkQpsBaLeGth685Mc25B2H7RWwwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtUAideJVFvwL8pKOWHjA4XNhyaQzqULPdH6kNasP6YMlGCFnN7n+1w6Ydlsxbam0Yy03Ei9bhdYwCzXYibZ0bpzWNFpI4xUeoy/ckFUIEieFrszQy5WT8guZES+DdlDhft6Dc6ggNZjcUiXzKxm6IvAkUcTQdnRRPDkzqMCi84p3CpOM/4ixNIiLzvi2LXcvcOaNZZlZtCqN++cX9AZpFtG+nUx+126z4E3ohgRItJmjcDx8CK6NtwQ+jA/LR6elctebQft5O4wplCIMqEBfaITnpoIMFzhmzGU7vDLgMCP3Dcp//AjpswHyguB57l4XiooJpfdPR8PqjckHAfKedA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.segrate.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.segrate.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_i577</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_i577</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Segrate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Segrate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.segrate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.segrate.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

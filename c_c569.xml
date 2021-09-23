@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cesate" entityID="https://www.comune.cesate.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cesate">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>73Xzx5D5gvoq2METKd0S2vET44gbBWvYFsKXyyT5dWk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Dat/6L8aWDonsDW96iwQZXy5IEuwmGvhOJ9qeLy3pUkjspYZ9zDxWphHA78ajocuLS9UDRDLiKeh
+r5RhNlbiOSEziSZmJGrmHtnSJACIxMTq6UnFmzzVjvneYU3vje5dGEL/rh4lvqyaOMjg0XhLAnRC
+9ymAu/3pNWs+6syecMSTmVzShOx8qdUFOkRZixHOoB4zDparaEM7CYv9iN2/9nljrYgQPyMcIvCd
+iWXIcBXL/OfbGJyXWmtKC7FVlqqfp+OLtSpshMFlSbSH8WB/7l9IGThPOmtKAWFe/fSiWMK3MLDO
+FwBA0lojqw46xbAhmu+eShyzaA8lJtx5DnUw9Dreyj7vi24380jvzRhEibULsfKpFqKSzkgNGfaT
+fc6b2rUQOUxQYEhesClN4xGRk7TJz3fS/mCqdVxke7KymQuSwypIRXiGiQesZLy76z69SRzfv+4o
+2I56o8YABXg0NPXqLocywgdCylt1INkqJUkWw/EqVubWhagk7zptMQCQ9K1Y5r1JWbKWeVou9V7R
+P8jmcd4r7K6bB8QIcoElPm4dQ6Su5b470kZ85fHd4FW5WBhKoVVHqwD4DKSCZE26xZqVZ6vdKqZn
+DFIpo9qjdRQCndx68FWgN/ouCs4rRwnXoXlnmpB4eEcA6xsSQXAMeFd4h/SljO9O3jh1qyBE4+4=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ptPFPDLiqIGLEKBhgAwG7Yh+XFpFwZIvTn6y9tn8f/Owxtc8EKRVqTu2NFZSIo0f/E0K+xAER1Sg
+Vha1xwNHN/Yzp5a8M8kEpdimGPuVdQDu+mfsULnsznE55uuO/UaoEHbUsMFwK0e2PWiTxMT+KyIV
+1rtvAUOiltRh3tCPe9JNPCoZy/mZRYi0NZzeCDjvmLh9EYc83iiQGGzii3Bjc4grC1rQaVL8Jyxf
+8xWkJ8QuV+7DLWXggawhaO4e+ZVA58hz9uS0sWZqNk9dEBhzV8fZqeMutC72mwJfmp4WIrpPZ6hV
+QoCusZilVy28sOAZ7qCZBeDniMCcu8EkC2pHi/ZO7z4zgm65UFDd7GFz3QpidCpA8E7CZ1P2nTjX
+88ngqRuWBG+29DEPZG02ycrgCn7rFcA+z6FiM640H/uvNLflongqT0FQQPhIhxUBfrrlfr63Ch8F
+IITQR8h473Zs+1wwMqzOy6oDiQeOziTH6vUqzFcBuHgwWBrjaAH2DKpk5ulkFK5bpX2lTtIunZjj
+wVMEj4EfJBeiN1coUBaUEXFZkVVHgkbHn60YPmZbui6dJG/sice0F46dvLgRD1Zjx2YPIsutyCXt
+7Mz+kKXFWB65DM7AJBV0QxWIagcUAOSPzDehySXxKEPM3BMVp23zc2yUl1SZ5tDqA9qNsbmYCZs=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+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
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOGvJQ7/wRlfMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2VzYXRlLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMDYxNjQ3NDNaFw0yOTAzMDMxNjQ3NDNaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2VzYXRlLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMb+9jau4vWp8eRGOFvJ+NgL9TF1OvpDjvtwjHAIbxyQMOF5l0ftAPfgXR+ZUmpyrf01kHVbEvVS8hZ4Dxaq961yaP9fxbOdTpDGIdBaT1j3W3LCn4UAx50hP2vLXStJUgabD7OwH4qm7I6zCtvXZsOc1G2EK0rpPWWs+/iRUopJqdbUX90balNpCUqASttNOO9gNDKz6tHyKzY33BcfDxnLi8AV8QGZJPO2vZPsWjfblCuYm5CWXRGHIe91SflolBWqErmGTFIUbyjZuGv4qf3lmcBbnutV9IltBk8/bSfJVFKV5rkRaEzl1NWUnjNjBy/PRQZfHoat5KucCPPL098CAwEAAaNQME4wHQYDVR0OBBYEFBvHMfETEkcUNJ/GTREmCZ5SbA1oMB8GA1UdIwQYMBaAFBvHMfETEkcUNJ/GTREmCZ5SbA1oMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJL1xZVxPjZZgBvxCwGBoFNQoZKbvq8cwfWzpPNEggUMyT3H6aJDBCiKrWn2vQ1nAtz4EYV9+5EP7b2FPshKS4Z4I7XyONTSmyIU/7z/N1DnyAoMbgXTcgsdoFQqGykbx9vGcH8rO33XOXctRUn8hYm54/UvjBsS7/uyLt5PAoIMdb/Sk4EeFlw5dW5ERGiGhgLJidAYcBXDY+S4FNQFs1jb0W3y0pYumdIms0CtNoZKXwyGYbIxVRiHiy7NaX2WuOvbGmAhiBs5qq8ju6NTqZq5KYl9gN6ORVaQPEy/UOX9LzMKnpfX0PhBj0adt9hGD42IwFirTUu22TMug2Rd+oc=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOGvJQ7/wRlfMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2VzYXRlLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTAzMDYxNjQ3NDNaFw0yOTAzMDMxNjQ3NDNaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuY2VzYXRlLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMb+9jau4vWp8eRGOFvJ+NgL9TF1OvpDjvtwjHAIbxyQMOF5l0ftAPfgXR+ZUmpyrf01kHVbEvVS8hZ4Dxaq961yaP9fxbOdTpDGIdBaT1j3W3LCn4UAx50hP2vLXStJUgabD7OwH4qm7I6zCtvXZsOc1G2EK0rpPWWs+/iRUopJqdbUX90balNpCUqASttNOO9gNDKz6tHyKzY33BcfDxnLi8AV8QGZJPO2vZPsWjfblCuYm5CWXRGHIe91SflolBWqErmGTFIUbyjZuGv4qf3lmcBbnutV9IltBk8/bSfJVFKV5rkRaEzl1NWUnjNjBy/PRQZfHoat5KucCPPL098CAwEAAaNQME4wHQYDVR0OBBYEFBvHMfETEkcUNJ/GTREmCZ5SbA1oMB8GA1UdIwQYMBaAFBvHMfETEkcUNJ/GTREmCZ5SbA1oMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJL1xZVxPjZZgBvxCwGBoFNQoZKbvq8cwfWzpPNEggUMyT3H6aJDBCiKrWn2vQ1nAtz4EYV9+5EP7b2FPshKS4Z4I7XyONTSmyIU/7z/N1DnyAoMbgXTcgsdoFQqGykbx9vGcH8rO33XOXctRUn8hYm54/UvjBsS7/uyLt5PAoIMdb/Sk4EeFlw5dW5ERGiGhgLJidAYcBXDY+S4FNQFs1jb0W3y0pYumdIms0CtNoZKXwyGYbIxVRiHiy7NaX2WuOvbGmAhiBs5qq8ju6NTqZq5KYl9gN6ORVaQPEy/UOX9LzMKnpfX0PhBj0adt9hGD42IwFirTUu22TMug2Rd+oc=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<!-- HRD 1.a -->
+	<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENTCCAx2gAwIBAgIJALhYvnbzZFKUMA0GCSqGSIb3DQEBCwUAMIGwMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDzANBgNVBAcMBkNlc2F0ZTEZMBcGA1UECgwQQ29tdW5lIGRpIENlc2F0ZTEPMA0GA1UECwwGSEVSQUxEMSkwJwYDVQQDDCBwcm9jZWRpbWVudGkuY29tdW5lLmNlc2F0ZS5taS5pdDEpMCcGCSqGSIb3DQEJARYaaGVyYWxkQHNpbmV0aW5mb3JtYXRpY2EuaXQwHhcNMjAwMzE3MTM1MTI0WhcNMzAwMzE3MTM1MTI0WjCBsDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZDZXNhdGUxGTAXBgNVBAoMEENvbXVuZSBkaSBDZXNhdGUxDzANBgNVBAsMBkhFUkFMRDEpMCcGA1UEAwwgcHJvY2VkaW1lbnRpLmNvbXVuZS5jZXNhdGUubWkuaXQxKTAnBgkqhkiG9w0BCQEWGmhlcmFsZEBzaW5ldGluZm9ybWF0aWNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmTrxOcZxT5dKsb/Y9V2Q+nz/gPkxq+8ymnfLww5yrtKpZw5LaajOHZrgWWXothhsLgQP5Hbzr2vXb4y75osFQfj5HOgiO5C0q00yem5hcFwQYIJ8MKXqpe3uXmZcnYxx26oqux9VXrDHsf8Dk05CjQ2NDJ1dxdxs+NsE5wcY2pK9HWSzWhZZ05JHAFZomdpvTjJfQOvfz7ITwieec7hP3XTqE3J97tGojozFyZDM6Uv9izX4hmx4QUfb88++lt9/ydW8/969oJanFNOXKDj9WLeY9PxYcxV2qeSWyHQsEwC31agCtFADLFnEqKhfcS6VaJy/b80TTAM0cmepTDLLHwIDAQABo1AwTjAdBgNVHQ4EFgQUzvDaJEK2Q+faPaf+DyKyvLBinkUwHwYDVR0jBBgwFoAUzvDaJEK2Q+faPaf+DyKyvLBinkUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAV6U1we1Lti3QTh+vw8I9gwwn3VmeEnltUAL0DXc9pOlbH0hOKanhOhfXJWJlxWGLAq2/K/sRzqWj3cknWTyq8bUoBbw/OjOkVGYThyy/L4KCTyxhnu8431tK2dLOqoDOW+XfSsNOZu11DY+vSu9UjHdvw3QX3uGV6lCo1DxZVdbi6ZWVxr1bIevA17S+3nM3bH+HW4pfGMctSgLUR4WJN+mQxRhPMKXFMd6MDyPYtYcOVNvd4ePfzv8eB2xn+Xl/snT0P/TzNDL3TGoFe9aKTr3U7n4EP1CPsxdueRPumjOl33UkLPQ7pV5QqZXgr2RJI8rvkqjdDEeuxBS+p/AsWw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<!-- / HRD 1.a -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cesate"/>
+	<!-- HRD 1.b -->
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.cesate.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/cesate-sp"/>
+	<!-- / HRD 1.b -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesate" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesate" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesate" index="2"/>
+	<!-- HRD 1.c -->
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.cesate.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/cesate-sp" index="3"/>
+	<!-- / HRD 1.c -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+	<!-- HRD 1.d -->
+	<md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">Portale Servizi Online</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Portale dei servizi online</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Portale dei servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+	<!-- / HRD 1.d -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cesate</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cesate</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cesate</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cesate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cesate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cesate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cesate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cesate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cesate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cesate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cesate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cesate.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.minerbe.vr.it" ID="pfx3b6c097e-9026-0089-bad0-6e96c0b178ad"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx3b6c097e-9026-0089-bad0-6e96c0b178ad"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Y4bLvba8C4Qp1S8vc+JXHd6M0BnCFr87RTH+v/PA/LE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>hBqeJlTWOvTR8s1J1ifVHpad0dDOGmR6bkxelOcL+B627GRAJs7xVtd9hHywjEekCGHCXoZnAvSgvy6tRjrO2JiSO2qOE5+KK0yc1ZwK4xQG8GzFZ0qq2LyBVY091k8nDZ1tw3GIIrMPENLMmQBdrRm0z8vrZPJCRjKc3xSYdHPpc+e57u9x7xG96nzm/qgP5XJHrUmDa4Yg+WpA0/1ketIXFPMX7epiOZu367IASNZ0Zi3REhICCEHH69ScCU+8V/nShwe6Leq/gVTBI1cfeTwJMEmgEEyX2UK9AiYCt7xCv16cAdALdm7MOb1pz8zDRISlgIRerLc+JG8WvGpFIQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDrzCCApegAwIBAgIJAINOGDpsSEzVMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTWluZXJiZTEaMBgGA1UECgwRQ29tdW5lIGRpIE1pbmVyYmUxITAfBgNVBAMMGHd3dy5jb211bmUubWluZXJiZS52ci5pdDAeFw0xODA0MTgwNzE1MTFaFw0yODA0MTcwNzE1MTFaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTWluZXJiZTEaMBgGA1UECgwRQ29tdW5lIGRpIE1pbmVyYmUxITAfBgNVBAMMGHd3dy5jb211bmUubWluZXJiZS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJX4v1/86o6YzeehLhat5WicvdpnADn2riEy5EmYz5uOMGoHWH6I8GJ3N7+kfFfSGuA+UwHrqYlEa9bj60E2sOyalcaoBOR7WX8kuH5YE2YIj7Zb+saTJSBAFUCoZu+SyDNQLT/uilXYilbR0lbSwVuRTiqW/LYO0bxMv90bZGUezSnaX33jwSnRbgjuvFwM4jRqA08dtXB3vurMWpWNy0NB3Z8Bg1dl6TL2WkE98e0q33CWq3tsZtnYpV0Dhsb+0qzB++FreoWuJOjO6D4VP9yokUeXosevIlFYgP2z3vRY8VKi7EhPF5y7TmqeHZV5UgbInJYg92nCnNv/tRUc6FkCAwEAAaNQME4wHQYDVR0OBBYEFNiPuqJPu0qscT9u6y5M2MPyOJi0MB8GA1UdIwQYMBaAFNiPuqJPu0qscT9u6y5M2MPyOJi0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH2yr7qeF+LHh/6UPcvaXF7XyhfdMfGmOJhGTkQgF5UkGlJvbKMM42G/GKGyVDAm13FyjR2kWgQPKsVPYfiMYB+f5T605UMBFalP33e3IS7M9g051+i06cppEPvc+wNH9pVWf9xVggdOr646IVXzAgYCXV8hUI+sdB/dAw4gAMP+U6zMePWxwK01ePj0WFR1NN1HVvlSyMFiPevA+I8hsKKjiVZ1Fh31X+E4f4BCJAzkjOd1uqd9Hnw34ueTH3Xba/CoSxgTRATlCw7Kn/QOcOtebcI1czqT2OXtkebfvCLKYYOWS1GLDFtYegVlVd452AqgKEoPiIw7FKPqj4zWuBo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAINOGDpsSEzVMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTWluZXJiZTEaMBgGA1UECgwRQ29tdW5lIGRpIE1pbmVyYmUxITAfBgNVBAMMGHd3dy5jb211bmUubWluZXJiZS52ci5pdDAeFw0xODA0MTgwNzE1MTFaFw0yODA0MTcwNzE1MTFaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTWluZXJiZTEaMBgGA1UECgwRQ29tdW5lIGRpIE1pbmVyYmUxITAfBgNVBAMMGHd3dy5jb211bmUubWluZXJiZS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJX4v1/86o6YzeehLhat5WicvdpnADn2riEy5EmYz5uOMGoHWH6I8GJ3N7+kfFfSGuA+UwHrqYlEa9bj60E2sOyalcaoBOR7WX8kuH5YE2YIj7Zb+saTJSBAFUCoZu+SyDNQLT/uilXYilbR0lbSwVuRTiqW/LYO0bxMv90bZGUezSnaX33jwSnRbgjuvFwM4jRqA08dtXB3vurMWpWNy0NB3Z8Bg1dl6TL2WkE98e0q33CWq3tsZtnYpV0Dhsb+0qzB++FreoWuJOjO6D4VP9yokUeXosevIlFYgP2z3vRY8VKi7EhPF5y7TmqeHZV5UgbInJYg92nCnNv/tRUc6FkCAwEAAaNQME4wHQYDVR0OBBYEFNiPuqJPu0qscT9u6y5M2MPyOJi0MB8GA1UdIwQYMBaAFNiPuqJPu0qscT9u6y5M2MPyOJi0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH2yr7qeF+LHh/6UPcvaXF7XyhfdMfGmOJhGTkQgF5UkGlJvbKMM42G/GKGyVDAm13FyjR2kWgQPKsVPYfiMYB+f5T605UMBFalP33e3IS7M9g051+i06cppEPvc+wNH9pVWf9xVggdOr646IVXzAgYCXV8hUI+sdB/dAw4gAMP+U6zMePWxwK01ePj0WFR1NN1HVvlSyMFiPevA+I8hsKKjiVZ1Fh31X+E4f4BCJAzkjOd1uqd9Hnw34ueTH3Xba/CoSxgTRATlCw7Kn/QOcOtebcI1czqT2OXtkebfvCLKYYOWS1GLDFtYegVlVd452AqgKEoPiIw7FKPqj4zWuBo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAINOGDpsSEzVMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTWluZXJiZTEaMBgGA1UECgwRQ29tdW5lIGRpIE1pbmVyYmUxITAfBgNVBAMMGHd3dy5jb211bmUubWluZXJiZS52ci5pdDAeFw0xODA0MTgwNzE1MTFaFw0yODA0MTcwNzE1MTFaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTWluZXJiZTEaMBgGA1UECgwRQ29tdW5lIGRpIE1pbmVyYmUxITAfBgNVBAMMGHd3dy5jb211bmUubWluZXJiZS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJX4v1/86o6YzeehLhat5WicvdpnADn2riEy5EmYz5uOMGoHWH6I8GJ3N7+kfFfSGuA+UwHrqYlEa9bj60E2sOyalcaoBOR7WX8kuH5YE2YIj7Zb+saTJSBAFUCoZu+SyDNQLT/uilXYilbR0lbSwVuRTiqW/LYO0bxMv90bZGUezSnaX33jwSnRbgjuvFwM4jRqA08dtXB3vurMWpWNy0NB3Z8Bg1dl6TL2WkE98e0q33CWq3tsZtnYpV0Dhsb+0qzB++FreoWuJOjO6D4VP9yokUeXosevIlFYgP2z3vRY8VKi7EhPF5y7TmqeHZV5UgbInJYg92nCnNv/tRUc6FkCAwEAAaNQME4wHQYDVR0OBBYEFNiPuqJPu0qscT9u6y5M2MPyOJi0MB8GA1UdIwQYMBaAFNiPuqJPu0qscT9u6y5M2MPyOJi0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAH2yr7qeF+LHh/6UPcvaXF7XyhfdMfGmOJhGTkQgF5UkGlJvbKMM42G/GKGyVDAm13FyjR2kWgQPKsVPYfiMYB+f5T605UMBFalP33e3IS7M9g051+i06cppEPvc+wNH9pVWf9xVggdOr646IVXzAgYCXV8hUI+sdB/dAw4gAMP+U6zMePWxwK01ePj0WFR1NN1HVvlSyMFiPevA+I8hsKKjiVZ1Fh31X+E4f4BCJAzkjOd1uqd9Hnw34ueTH3Xba/CoSxgTRATlCw7Kn/QOcOtebcI1czqT2OXtkebfvCLKYYOWS1GLDFtYegVlVd452AqgKEoPiIw7FKPqj4zWuBo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.minerbe.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.minerbe.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Minerbe</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Minerbe</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.minerbe.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

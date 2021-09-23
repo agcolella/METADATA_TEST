@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Casaloldo" entityID="https://www.comune.casaloldo.mn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Casaloldo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Gj5QhlYLZDXIU7UTGMIwdG/EozEs8QPqR8/dE9ZIXnw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ghaHZGMhiX71iJjetRDY/iXCMEGez95AjPzt7ZkKkCkFXUeHAmnYQK7Cff6opcIhszC76Sz3kzmv
+ZEDXh1l3r8h7mOKTsARj+k0S5XMowzwL4sApc5Wxo9VqCRDA2sR3rXIaKoLzXEObxfegQ9nSOCBk
+IWCvzy+91Hx16xUt7iVp5qkrrwBLHYOmkucUbr+MoAWO7/w2pvx+efCfWsIHqnw5m9BVCeo/fVEy
+PNxRMQDyD8UooK1rNyrj+DhKqjagzN4AVW0H8QufPKzNyTiCYYFNvEv3eYAq8UtWREwqUFCDPHFZ
+K6HoUiI3numU9DHMNOcqY/X8MELsD+R9aW8tuA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+17u30Fe+rkHoHoqW83SwsjZvY8+Tvf8VhXaucb6idOnyHc8Yn9TYUnsPKoEzDO4UwyaSqAbTlCzJ
+NDtXnlTNHhHyYdiBQOTywDGGcRFlDvvFFhmU6fDTqc0CIGA6uSCwsZXr8IK2dmyJ7i6nMEzgX1GX
+41BvWbmcJG4qzIt/LzcoW9/dTUEeu/5VPxX7kx2AGJQVOzFpPJZZPFpsp9bbf9whJGGh2m5KTvXh
+RL43hR3tDtZOhX7p3rB/BAWrAhNSgpTaiFbX0DDlYy38MXwX9t2o/lC4dxkaIpf+34Gs/M2YA6yc
+RISS58CwE2KNo9tlh7pi2NFqcQGliPMjPGDgQQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJALjECFMrxFP9MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2FzYWxvbGRvLm1uLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAx
+MDgxMjU3MzBaFw0yMjAxMDcxMjU3MzBaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FzYWxvbGRv
+Lm1uLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANe7t9BXvq5B6B6KlvN0sLI2b2PPk73/FYV2rnG+onTp8h3PGJ/U2FJ7DyqBMwzu
+FMMmkqgG05QsyTQ7V55UzR4R8mHYgUDk8sAxhnERZQ77xRYZlOnw06nNAiBgOrkgsLGV6/CCtnZs
+ie4upzBM4F9Rl+NQb1m5nCRuKsyLfy83KFvf3U1BHrv+VT8V+5MdgBiUFTsxaTyWWTxabKfW23/c
+ISRhodpuSk714US+N4Ud7Q7WToV+6d6wfwQFqwITUoKU2ohW19Aw5WMt/DF8F/bdqP5QuHcZGiKX
+/t+BrPzNmAOsnESEkufAsBNijaPbZYe6YtjRanEBpYjzIzxg4EECAwEAAaNQME4wHQYDVR0OBBYE
+FCsMK9r9Dllp3/DnQ7EDIZpu2jumMB8GA1UdIwQYMBaAFCsMK9r9Dllp3/DnQ7EDIZpu2jumMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAElLbolnswY3fI1nqxj9a2sQwVSScJ5Bzq/J
+lcPulo5nYKb3K4/RWluSNfiSiqfh9uRy0n8orzemV6wxfNaPNf5pok6g2wAWhMdVH1LFwWSClf+u
+Ir9Lxv7Kic6LxE5l4hk1aqiaThyRHQQymrTsTWY4kBMlAZ9VwTa7GmvQj3kp4wYk3O/PiImRkWts
+fl8P3kI4MLNyY4CEK6s0LGNsc882li/uvEtcifukt4MsQSHkYAOiVZNlGmvGbHTnccZbcVjMJJji
+BIzmS8WhmEdJP/FmY6cXXaqoTzrp1/s7wy2WdSBqzDPffeWCG918AfWvzXXXgNRLcAUUWNSl60O5
+T20=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJALjECFMrxFP9MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FzYWxvbGRvLm1uLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAxMDgxMjU3MzBaFw0yMjAxMDcxMjU3MzBaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FzYWxvbGRvLm1uLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANe7t9BXvq5B6B6KlvN0sLI2b2PPk73/FYV2rnG+onTp8h3PGJ/U2FJ7DyqBMwzuFMMmkqgG05QsyTQ7V55UzR4R8mHYgUDk8sAxhnERZQ77xRYZlOnw06nNAiBgOrkgsLGV6/CCtnZsie4upzBM4F9Rl+NQb1m5nCRuKsyLfy83KFvf3U1BHrv+VT8V+5MdgBiUFTsxaTyWWTxabKfW23/cISRhodpuSk714US+N4Ud7Q7WToV+6d6wfwQFqwITUoKU2ohW19Aw5WMt/DF8F/bdqP5QuHcZGiKX/t+BrPzNmAOsnESEkufAsBNijaPbZYe6YtjRanEBpYjzIzxg4EECAwEAAaNQME4wHQYDVR0OBBYEFCsMK9r9Dllp3/DnQ7EDIZpu2jumMB8GA1UdIwQYMBaAFCsMK9r9Dllp3/DnQ7EDIZpu2jumMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAElLbolnswY3fI1nqxj9a2sQwVSScJ5Bzq/JlcPulo5nYKb3K4/RWluSNfiSiqfh9uRy0n8orzemV6wxfNaPNf5pok6g2wAWhMdVH1LFwWSClf+uIr9Lxv7Kic6LxE5l4hk1aqiaThyRHQQymrTsTWY4kBMlAZ9VwTa7GmvQj3kp4wYk3O/PiImRkWtsfl8P3kI4MLNyY4CEK6s0LGNsc882li/uvEtcifukt4MsQSHkYAOiVZNlGmvGbHTnccZbcVjMJJjiBIzmS8WhmEdJP/FmY6cXXaqoTzrp1/s7wy2WdSBqzDPffeWCG918AfWvzXXXgNRLcAUUWNSl60O5T20=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/casaloldo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/casaloldo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/casaloldo" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Casaloldo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Casaloldo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Casaloldo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Casaloldo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casaloldo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Casaloldo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Casaloldo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Casaloldo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.casaloldo.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.casaloldo.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.casaloldo.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.casaloldo.mn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

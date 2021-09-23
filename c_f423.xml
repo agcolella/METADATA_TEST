@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="MontanasoLombardo" entityID="https://www.comune.montanaso.lo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MontanasoLombardo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4WP2+agM+W8qv99rOFNvMJ+ZErPlMzuuQidxnrrVEZo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+MBF962DbSLA7ymARSr/GGsS5MewotH085+N1B8AO+V3+9wV6D9hWeOE6PUZD2bVlYP3CHxPYHpHT
+9O34sOK3kH4O7yutogaE+qreplvt5R7JXNFDzFFbvKxOPuLP57fhXGla0J9H8HMcRKSD1pQm8tQl
+04nCHRAF3luTlOx6DUTldBKJS4XAppLOhd5XxQJW/ic+l2/DC9zzeSeXxb+4zGHVAQboeDG5rA8H
+LW0Pfi49H73lOhMFiSWDAZ/0QHPxNMCAG/EzaUK6A8oZphJBk2VWmZB9ATTRrci7b3ftrBTqnZNA
+HdZCYa1Pg/OzSIwuMgns1zQQrV2nBqqHw4iPPw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1BN/ciNeV8t6UCi7HR5KBOn/dHdXfbWdQs8M3fGm7NP1mPVlvTTvxoQsRDyrtXL+dHFo8S1yGoKb
+BBoBj8ybGeN33qm/7om687bOVedkdKBYeJ3g3zf2VbjPAiprraqux+yT5Glbv9tBfmC2WlB/d1VC
+TKUd6/5ID5LITqA9wdDLy/dtLoz350NqFnXz9hv4iJCgCyo8PkTwfu6Rlwi+ulA99GsIBLSJ1k2I
+b7jzGofa2Jo6YXHT4LLGIPrCr/cLtb3wCHCIujwqcmbN3h25OiQN0Rj9YSEtnDQgF+/xITEr7Q+1
+0YNUEV3x0+ej6o9pjNT3eYU2AMNO3pFp4mYCyw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAOXJ5Jv0ibAQMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUubW9udGFuYXNvLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3
+MjMwODAxMDZaFw0yOTA3MjAwODAxMDZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9udGFuYXNv
+LmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANQTf3IjXlfLelAoux0eSgTp/3R3V321nULPDN3xpuzT9Zj1Zb0078aELEQ8q7Vy
+/nRxaPEtchqCmwQaAY/Mmxnjd96pv+6JuvO2zlXnZHSgWHid4N839lW4zwIqa62qrsfsk+RpW7/b
+QX5gtlpQf3dVQkylHev+SA+SyE6gPcHQy8v3bS6M9+dDahZ18/Yb+IiQoAsqPD5E8H7ukZcIvrpQ
+PfRrCAS0idZNiG+48xqH2tiaOmFx0+CyxiD6wq/3C7W98AhwiLo8KnJmzd4duTokDdEY/WEhLZw0
+IBfv8SExK+0PtdGDVBFd8dPno+qPaYzU93mFNgDDTt6RaeJmAssCAwEAAaNQME4wHQYDVR0OBBYE
+FF9JNyEMyXAruzd1LcST0GHQs9QwMB8GA1UdIwQYMBaAFF9JNyEMyXAruzd1LcST0GHQs9QwMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF+vWKsXkWChIBBPc5o3vi2mljaGAsp3trQL
+dlalV81B8R1hKpHfenODIginmcghGQoaRrrBsNE09HSCwNZ9UffATiFoFR8YyztzgJNfvC0WakhD
+xz+jcqyZNRIabAu/E1DmQnOM9GopbfPg4V6pD8rKkFVUacORETYwx/h5/I7PpYTyra7p9Abaxt0N
+d46Vx+8JDBosmA2NeKB/09CCJQEC2HPvmtborNp49nwU0F9rA/E9QWCeUfMFt4IQJ0cJCvVaXceV
+PFxtEOmmJ7zEcDDwRt5GOp7aQHqTBN8SL25Uba/QTUpsyi/0pVt0U3VHIGruXRIihs7VXGlq7YFd
+mAE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAOXJ5Jv0ibAQMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9udGFuYXNvLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MjMwODAxMDZaFw0yOTA3MjAwODAxMDZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9udGFuYXNvLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANQTf3IjXlfLelAoux0eSgTp/3R3V321nULPDN3xpuzT9Zj1Zb0078aELEQ8q7Vy/nRxaPEtchqCmwQaAY/Mmxnjd96pv+6JuvO2zlXnZHSgWHid4N839lW4zwIqa62qrsfsk+RpW7/bQX5gtlpQf3dVQkylHev+SA+SyE6gPcHQy8v3bS6M9+dDahZ18/Yb+IiQoAsqPD5E8H7ukZcIvrpQPfRrCAS0idZNiG+48xqH2tiaOmFx0+CyxiD6wq/3C7W98AhwiLo8KnJmzd4duTokDdEY/WEhLZw0IBfv8SExK+0PtdGDVBFd8dPno+qPaYzU93mFNgDDTt6RaeJmAssCAwEAAaNQME4wHQYDVR0OBBYEFF9JNyEMyXAruzd1LcST0GHQs9QwMB8GA1UdIwQYMBaAFF9JNyEMyXAruzd1LcST0GHQs9QwMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF+vWKsXkWChIBBPc5o3vi2mljaGAsp3trQLdlalV81B8R1hKpHfenODIginmcghGQoaRrrBsNE09HSCwNZ9UffATiFoFR8YyztzgJNfvC0WakhDxz+jcqyZNRIabAu/E1DmQnOM9GopbfPg4V6pD8rKkFVUacORETYwx/h5/I7PpYTyra7p9Abaxt0Nd46Vx+8JDBosmA2NeKB/09CCJQEC2HPvmtborNp49nwU0F9rA/E9QWCeUfMFt4IQJ0cJCvVaXceVPFxtEOmmJ7zEcDDwRt5GOp7aQHqTBN8SL25Uba/QTUpsyi/0pVt0U3VHIGruXRIihs7VXGlq7YFdmAE=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAOXJ5Jv0ibAQMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9udGFuYXNvLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA3MjMwODAxMDZaFw0yOTA3MjAwODAxMDZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUubW9udGFuYXNvLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANQTf3IjXlfLelAoux0eSgTp/3R3V321nULPDN3xpuzT9Zj1Zb0078aELEQ8q7Vy/nRxaPEtchqCmwQaAY/Mmxnjd96pv+6JuvO2zlXnZHSgWHid4N839lW4zwIqa62qrsfsk+RpW7/bQX5gtlpQf3dVQkylHev+SA+SyE6gPcHQy8v3bS6M9+dDahZ18/Yb+IiQoAsqPD5E8H7ukZcIvrpQPfRrCAS0idZNiG+48xqH2tiaOmFx0+CyxiD6wq/3C7W98AhwiLo8KnJmzd4duTokDdEY/WEhLZw0IBfv8SExK+0PtdGDVBFd8dPno+qPaYzU93mFNgDDTt6RaeJmAssCAwEAAaNQME4wHQYDVR0OBBYEFF9JNyEMyXAruzd1LcST0GHQs9QwMB8GA1UdIwQYMBaAFF9JNyEMyXAruzd1LcST0GHQs9QwMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF+vWKsXkWChIBBPc5o3vi2mljaGAsp3trQLdlalV81B8R1hKpHfenODIginmcghGQoaRrrBsNE09HSCwNZ9UffATiFoFR8YyztzgJNfvC0WakhDxz+jcqyZNRIabAu/E1DmQnOM9GopbfPg4V6pD8rKkFVUacORETYwx/h5/I7PpYTyra7p9Abaxt0Nd46Vx+8JDBosmA2NeKB/09CCJQEC2HPvmtborNp49nwU0F9rA/E9QWCeUfMFt4IQJ0cJCvVaXceVPFxtEOmmJ7zEcDDwRt5GOp7aQHqTBN8SL25Uba/QTUpsyi/0pVt0U3VHIGruXRIihs7VXGlq7YFdmAE=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/montanasolombardo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montanasolombardo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montanasolombardo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/montanasolombardo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montanaso Lombardo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Montanaso Lombardo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Montanaso Lombardo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Montanaso Lombardo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montanaso Lombardo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Montanaso Lombardo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Montanaso Lombardo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Montanaso Lombardo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.montanaso.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.montanaso.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.montanaso.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.montanaso.lo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Bellaria" entityID="https://www.comune.bellaria-igea-marina.rn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Bellaria">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>kA7Y2JqAFg2nxgt/qQlFa3FyFCo4y1w5+o2e+kwM13k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+wcyt+MXqlqn+RZbFvUl0IKZ9NzaSg6t2vd6x8fukqj0/tkFlh7u1XUYAGGUPW86ILOzXb1Oo7tPk
+G+5Lrb+UhWfFPkYxLlgyKBL3CjE2Io9veMaHirAl5tnyFmzAsqmcODKWXMAQvxVroV/GwMowB3OI
+G8LSZEwtsWSijqeN+K2AIMkhLnk8LzPwauFOwbM1M8yio9yPKYN2KtV1qYXGADShDUgcdHlFo0ME
+TneueAX5R6TwvR4w8RTvXTRgLo3tW4qs7mvULlpPV7x3S/EFNhtGwfZt277JWGAoQB/hQM4x3zhi
+ay72NLixW7b9+i+2HGuybYLKWSeKcTPtPQEzpQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xuhdF5nTV3QtJiDtrZfhR8OqlbEAlRHhOYMgQE7YC3LFN03SBOk3MnkbQm2tS0nihCS6gHrMoK6a
+T1Op5kBvoo0LjEFlnXW8RH6theU6yLCbNGrPgP3xjkjD+jmJXUF9/3MQAy+MmqSmWFLK+uroIA86
+Ua8TMYJ9Wfz0wyYf8mvxTNGurhVq1JI6eNHb+almgDPNU+oXmltdnNIaIq1gtAVZvpeTiVOY6Bna
++4WLGS8Lkqu6gHQ+IectAZWBVUZa2Vy6MYddP62TbsTJFAaiI+gupWoCjskgjuYSirCzy/O+HbrE
+KVjAZQvNTiKsilBXiWfAJFXfHBtJVY63pFcjgQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDazCCAlOgAwIBAgIJAMzbACZ9soaOMA0GCSqGSIb3DQEBCwUAMEwxLjAsBgNVBAMMJXd3dy5j
+b211bmUuYmVsbGFyaWEtaWdlYS1tYXJpbmEucm4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYT
+AklUMB4XDTE4MDcyMzE5MjgyNVoXDTI4MDcyMDE5MjgyNVowTDEuMCwGA1UEAwwld3d3LmNvbXVu
+ZS5iZWxsYXJpYS1pZ2VhLW1hcmluYS5ybi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDG6F0XmdNXdC0mIO2tl+FHw6qVsQCVEeE5
+gyBATtgLcsU3TdIE6TcyeRtCba1LSeKEJLqAesygrppPU6nmQG+ijQuMQWWddbxEfq2F5TrIsJs0
+as+A/fGOSMP6OYldQX3/cxADL4yapKZYUsr66uggDzpRrxMxgn1Z/PTDJh/ya/FM0a6uFWrUkjp4
+0dv5qWaAM81T6heaW12c0hoirWC0BVm+l5OJU5joGdr7hYsZLwuSq7qAdD4h5y0BlYFVRlrZXLox
+h10/rZNuxMkUBqIj6C6lagKOySCO5hKKsLPL874dusQpWMBlC81OIqyKUFeJZ8AkVd8cG0lVjrek
+VyOBAgMBAAGjUDBOMB0GA1UdDgQWBBRkSwcKw0mDms0zDiqHu5stK2BGZDAfBgNVHSMEGDAWgBRk
+SwcKw0mDms0zDiqHu5stK2BGZDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAp+xf5
+p11CAtMxbWg2OZPI/61tgd1xPVDGmD7im9Zinddi+tYKvtk3cr4GOlg9f4vFoICbN9/lryGo6dug
+HwhZBus+9LbNRVJa08a6O7DJkB5Ug+/9ME/nn0pcp4/ynTFZfgwCNW8UMfDEFr6SgslGIJII7naU
+l6sXyLwDvaSS8gJkdj7VK5eUxzZPpdmbyY5OrI8ulxUp8Xtza3D0E5Dhm/Z9/ASrRxyTf8dj7AtD
+w4HwuyOj6vfJ0THduoLWTRoE2QqXrLbGVyu30q7ioQ5eyL5dgYzE77BNk+fxOKnIK79iypj3CnSp
+v2tvPZeBMfDelIwKhe9C50rziG78iLvt
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDazCCAlOgAwIBAgIJAMzbACZ9soaOMA0GCSqGSIb3DQEBCwUAMEwxLjAsBgNVBAMMJXd3dy5jb211bmUuYmVsbGFyaWEtaWdlYS1tYXJpbmEucm4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDcyMzE5MjgyNVoXDTI4MDcyMDE5MjgyNVowTDEuMCwGA1UEAwwld3d3LmNvbXVuZS5iZWxsYXJpYS1pZ2VhLW1hcmluYS5ybi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDG6F0XmdNXdC0mIO2tl+FHw6qVsQCVEeE5gyBATtgLcsU3TdIE6TcyeRtCba1LSeKEJLqAesygrppPU6nmQG+ijQuMQWWddbxEfq2F5TrIsJs0as+A/fGOSMP6OYldQX3/cxADL4yapKZYUsr66uggDzpRrxMxgn1Z/PTDJh/ya/FM0a6uFWrUkjp40dv5qWaAM81T6heaW12c0hoirWC0BVm+l5OJU5joGdr7hYsZLwuSq7qAdD4h5y0BlYFVRlrZXLoxh10/rZNuxMkUBqIj6C6lagKOySCO5hKKsLPL874dusQpWMBlC81OIqyKUFeJZ8AkVd8cG0lVjrekVyOBAgMBAAGjUDBOMB0GA1UdDgQWBBRkSwcKw0mDms0zDiqHu5stK2BGZDAfBgNVHSMEGDAWgBRkSwcKw0mDms0zDiqHu5stK2BGZDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAp+xf5p11CAtMxbWg2OZPI/61tgd1xPVDGmD7im9Zinddi+tYKvtk3cr4GOlg9f4vFoICbN9/lryGo6dugHwhZBus+9LbNRVJa08a6O7DJkB5Ug+/9ME/nn0pcp4/ynTFZfgwCNW8UMfDEFr6SgslGIJII7naUl6sXyLwDvaSS8gJkdj7VK5eUxzZPpdmbyY5OrI8ulxUp8Xtza3D0E5Dhm/Z9/ASrRxyTf8dj7AtDw4HwuyOj6vfJ0THduoLWTRoE2QqXrLbGVyu30q7ioQ5eyL5dgYzE77BNk+fxOKnIK79iypj3CnSpv2tvPZeBMfDelIwKhe9C50rziG78iLvt
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bellaria"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bellaria" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bellaria" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bellaria" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bellaria Igea Marina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bellaria Igea Marina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.bellaria-igea-marina.rn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

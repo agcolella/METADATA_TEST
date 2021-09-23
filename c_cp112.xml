@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CastelfrancoPiandisco" entityID="https://www.comune.castelfrancopiandisco.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CastelfrancoPiandisco">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>cEX2kC/Yd1JTzpYzOiUXr7qyq4QdPEiqGqNAYSl3Kis=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qy1fJV+35nCPpISEoRgDBpKvG2ltjgCvGO7F8FfFjZXmE6e4j7f7UTLqvmRPEUg/NHSD1YUvKMVE
+OelSAldgOREkIhswSH6sbtZrBNeoT7b5PSSml6C8mOLsg60lgrNQbSMK0kpcI8QegkYkjZeQ+Rou
+UhSKu7SX22Izy74lMRYSpbsVvt1HwJP2Px8L9Lvpg5J0gg0GytJ2r6KEAhe63CkygClulwYkQLgH
+nSKvsP8lRTdfxqDrwjendssGm9kz9bbT3G+7vKnuQhJlsOIHEpdYzKvpu4AlSJwXI9Nhk8rfDZiS
+oqmqT3a0U77KacySbMJrRrQHL96UoN52LQbFrw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tWFISgXV1wvP1KznndJ2fbAsXWrM+HQyFutaPR1guVUQ2rXxBrf+xyk+b7JNmk3yaS73HEGkm2jh
+ayYfumJI+fkx/hPPdhEVU0lEVelXFlv25i4wjGtfCoz9xo9yA2AcqoF2s1Pzotb/EBqEE5jWzRL9
+S5x6pxir/F/jhcss6ngKVgJGAJvqe5z4IRWuMBOayo6Tq2WmuEuo3hRG8YaYf/NR5xEMD8c0psKW
+cRIRSYgOuIPMx7GcU3kfApo8B/nY3jDvrCu814mqkfl2qoMxF2LOFgz4rOT4ckA2SYmSU4MXIp/n
+icRrj3dTeYMn5U9x8WTZUR0cnlBqspNpWEPV/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDZzCCAk+gAwIBAgIJAIsEu3S0cHapMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5j
+b211bmUuY2FzdGVsZnJhbmNvcGlhbmRpc2NvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJ
+VDAeFw0xOTA1MjExMTA4MzVaFw0yOTA1MTgxMTA4MzVaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUu
+Y2FzdGVsZnJhbmNvcGlhbmRpc2NvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALVhSEoF1dcLz9Ss553Sdn2wLF1qzPh0MhbrWj0d
+YLlVENq18Qa3/scpPm+yTZpN8mku9xxBpJto4WsmH7piSPn5Mf4Tz3YRFVNJRFXpVxZb9uYuMIxr
+XwqM/caPcgNgHKqBdrNT86LW/xAahBOY1s0S/UuceqcYq/xf44XLLOp4ClYCRgCb6nuc+CEVrjAT
+msqOk6tlprhLqN4URvGGmH/zUecRDA/HNKbClnESEUmIDriDzMexnFN5HwKaPAf52N4w76wrvNeJ
+qpH5dqqDMRdizhYM+Kzk+HJANkmJklODFyKf54nEa493U3mDJ+VPcfFk2VEdHJ5QarKTaVhD1f0C
+AwEAAaNQME4wHQYDVR0OBBYEFLryKXj9b/tIHu6yxDvgTzevxz++MB8GA1UdIwQYMBaAFLryKXj9
+b/tIHu6yxDvgTzevxz++MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJ0NpMdrpCFD
+EdNhsSZdgb3Ah6j+idJedmkY7mUL4QlQTJu7KHyQG8nvEogzR8pW0NUqvfK0vtFHfroD7/Kj+C31
+Sk7xxkGgKM/JQX/0b05E1Ab1zf05rXQpkcVA/Ua6X2KNV1mP/EFk7To7h4/9JyKSuDIZwyObEU1G
+8/hya8syc90NLGIPAwF72BH1t5EEdEhtOeTiaq/cyxAce7+jshO3uy+9/hFWIWSUzU8TbGnpnVmL
+njQxM0wcj2rP32tJSelELBj4kTWjG0NosEcpEi089jevT+XUgBed/Lkmn5hYueUN9BcPFk+nhyP0
+tSgFL/tU6Rk5vHicuOMGUxnAxTU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJAIsEu3S0cHapMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuY2FzdGVsZnJhbmNvcGlhbmRpc2NvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA1MjExMTA4MzVaFw0yOTA1MTgxMTA4MzVaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuY2FzdGVsZnJhbmNvcGlhbmRpc2NvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALVhSEoF1dcLz9Ss553Sdn2wLF1qzPh0MhbrWj0dYLlVENq18Qa3/scpPm+yTZpN8mku9xxBpJto4WsmH7piSPn5Mf4Tz3YRFVNJRFXpVxZb9uYuMIxrXwqM/caPcgNgHKqBdrNT86LW/xAahBOY1s0S/UuceqcYq/xf44XLLOp4ClYCRgCb6nuc+CEVrjATmsqOk6tlprhLqN4URvGGmH/zUecRDA/HNKbClnESEUmIDriDzMexnFN5HwKaPAf52N4w76wrvNeJqpH5dqqDMRdizhYM+Kzk+HJANkmJklODFyKf54nEa493U3mDJ+VPcfFk2VEdHJ5QarKTaVhD1f0CAwEAAaNQME4wHQYDVR0OBBYEFLryKXj9b/tIHu6yxDvgTzevxz++MB8GA1UdIwQYMBaAFLryKXj9b/tIHu6yxDvgTzevxz++MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJ0NpMdrpCFDEdNhsSZdgb3Ah6j+idJedmkY7mUL4QlQTJu7KHyQG8nvEogzR8pW0NUqvfK0vtFHfroD7/Kj+C31Sk7xxkGgKM/JQX/0b05E1Ab1zf05rXQpkcVA/Ua6X2KNV1mP/EFk7To7h4/9JyKSuDIZwyObEU1G8/hya8syc90NLGIPAwF72BH1t5EEdEhtOeTiaq/cyxAce7+jshO3uy+9/hFWIWSUzU8TbGnpnVmLnjQxM0wcj2rP32tJSelELBj4kTWjG0NosEcpEi089jevT+XUgBed/Lkmn5hYueUN9BcPFk+nhyP0tSgFL/tU6Rk5vHicuOMGUxnAxTU=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJAIsEu3S0cHapMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuY2FzdGVsZnJhbmNvcGlhbmRpc2NvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA1MjExMTA4MzVaFw0yOTA1MTgxMTA4MzVaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuY2FzdGVsZnJhbmNvcGlhbmRpc2NvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALVhSEoF1dcLz9Ss553Sdn2wLF1qzPh0MhbrWj0dYLlVENq18Qa3/scpPm+yTZpN8mku9xxBpJto4WsmH7piSPn5Mf4Tz3YRFVNJRFXpVxZb9uYuMIxrXwqM/caPcgNgHKqBdrNT86LW/xAahBOY1s0S/UuceqcYq/xf44XLLOp4ClYCRgCb6nuc+CEVrjATmsqOk6tlprhLqN4URvGGmH/zUecRDA/HNKbClnESEUmIDriDzMexnFN5HwKaPAf52N4w76wrvNeJqpH5dqqDMRdizhYM+Kzk+HJANkmJklODFyKf54nEa493U3mDJ+VPcfFk2VEdHJ5QarKTaVhD1f0CAwEAAaNQME4wHQYDVR0OBBYEFLryKXj9b/tIHu6yxDvgTzevxz++MB8GA1UdIwQYMBaAFLryKXj9b/tIHu6yxDvgTzevxz++MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJ0NpMdrpCFDEdNhsSZdgb3Ah6j+idJedmkY7mUL4QlQTJu7KHyQG8nvEogzR8pW0NUqvfK0vtFHfroD7/Kj+C31Sk7xxkGgKM/JQX/0b05E1Ab1zf05rXQpkcVA/Ua6X2KNV1mP/EFk7To7h4/9JyKSuDIZwyObEU1G8/hya8syc90NLGIPAwF72BH1t5EEdEhtOeTiaq/cyxAce7+jshO3uy+9/hFWIWSUzU8TbGnpnVmLnjQxM0wcj2rP32tJSelELBj4kTWjG0NosEcpEi089jevT+XUgBed/Lkmn5hYueUN9BcPFk+nhyP0tSgFL/tU6Rk5vHicuOMGUxnAxTU=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/castelfrancopiandisco"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castelfrancopiandisco" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castelfrancopiandisco" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castelfrancopiandisco" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castelfranco Piandiscò</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Castelfranco Piandiscò</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Castelfranco Piandiscò</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Castelfranco Piandiscò</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castelfranco Piandiscò</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castelfranco Piandiscò</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Castelfranco Piandiscò</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Castelfranco Piandiscò</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.castelfrancopiandisco.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castelfrancopiandisco.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.castelfrancopiandisco.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.castelfrancopiandisco.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

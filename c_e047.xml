@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx7c2317e5-8f5e-93bb-7763-a49be6a88192" entityID="https://sportellodigitale.comune.giovinazzo.ba.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx7c2317e5-8f5e-93bb-7763-a49be6a88192">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Cf1JoQ9nQhLKn971xuW9AxB4tUseoH21IMQEzpHRtQM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qG19fs5Xe68FX+tKdaRLYnDq4xBGUrx2QhKKi6X30x9GxS44t6ZpjcoPvOE1roiMH9xC2ogvc1X/
+FOxjoEYKrj0k7EHFRk1un0LHzCqF7ZuQtIiNljFUFjzbT/EXYpBCkItUInxtcSt77b7w+8hcA6d6
+UQJAhjuAxFyLNwMGaPDiwB+xb6lBb7gWv24tiuoPO89rMANVpV3XKUAsEW3kRG2oWIce/44PQwBG
+u5ArgK7YBqZ4jVPMi5kzBbhDA8SBNr3CJ+1p149OdytqrftHs8qO79NenfyfZO1/xqcm78BR0R3E
+QeG51Joydv48ZK8s8T4RZDug+PmBQ/YYZhuH1w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0RR1of26lNuD53xd9hD0wdZ/nWkI9IYr6OJ9XFGjJhTGy6stu/a6waxlTnTzcHtj8fqNl9Tb0yiI
+BybyN6eDGPaa+ljmCO0H0JRzLTpJ47KSj3rtyH0197sgnerUlUaqnnMPLb3ERIXtLfLwHbLJcY1N
+xXigMrbmFIlXP0GaF9o9G0cnyNczRPoTFzQ/hj3FKCqB5mYUZ6xHXWEXJNYsINCSWWXFumutDE9+
+9y+Ly8yn79HeRUjiQQCBc9/9txZXCjP+CQs6W0xdakJtMgtsn/uRQIEZy0OtQLSpq42hpY3HhfFn
+pXFeww5dzy4KRSmkfSclUdv5k2h42U622mD5Rw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID3zCCAsegAwIBAgIJAKyiYM/4N348MA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxEzARBgNVBAcMCkdpb3ZpbmF6em8xHTAbBgNVBAoMFENvbXVuZSBkaSBH
+aW92aW5henpvMTIwMAYDVQQDDClzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuZ2lvdmluYXp6by5i
+YS5pdDAeFw0yMDExMTAwODQxNTBaFw0zMDExMTAwODQxNTBaMIGFMQswCQYDVQQGEwJJVDEOMAwG
+A1UECAwFSXRhbHkxEzARBgNVBAcMCkdpb3ZpbmF6em8xHTAbBgNVBAoMFENvbXVuZSBkaSBHaW92
+aW5henpvMTIwMAYDVQQDDClzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuZ2lvdmluYXp6by5iYS5p
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANEUdaH9upTbg+d8XfYQ9MHWf51pCPSG
+K+jifVxRoyYUxsurLbv2usGsZU5083B7Y/H6jZfU29MoiAcm8jengxj2mvpY5gjtB9CUcy06SeOy
+ko967ch9Nfe7IJ3q1JVGqp5zDy29xESF7S3y8B2yyXGNTcV4oDK25hSJVz9BmhfaPRtHJ8jXM0T6
+Exc0P4Y9xSgqgeZmFGesR11hFyTWLCDQklllxbprrQxPfvcvi8vMp+/R3kVI4kEAgXPf/bcWVwoz
+/gkLOltMXWpCbTILbJ/7kUCBGctDrUC0qauNoaWNx4XxZ6VxXsMOXc8uCkUppH0nJVHb+ZNoeNlO
+ttpg+UcCAwEAAaNQME4wHQYDVR0OBBYEFBMTXyUdQZ/FE3G1btYumF0it8IKMB8GA1UdIwQYMBaA
+FBMTXyUdQZ/FE3G1btYumF0it8IKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALsV
+Ke2pXe2SmI5nZMRzpOJHJvrlCceXtb2NiOZcRefW5SU+xXk4YAwKi5YVOTIOMvdstCD/1UVcloU/
+Xyq9tkCBwM6VEIGIUapTd2qyIqBFF8UxPgIE80ARgeTM8OmedhYVPLyxgf2f4UBT37bO+djEGjsl
+tB+BubY9bkMFNzIBOXyRrwXxpDc3kzTbKX+701ZSsWJD6zGDVEhlTvdRtyWX6ZMQXwbCe787PVts
+RWOfyjzmeDVIDmPNGH7gtwaJ44nEFidIou2/WyrcWrQZn76iIM4GB8GdrZPgPhoMoUqIhg9oIBWR
+Z4P9KrHurtm39IKXKaDTa9L8/Rk9pslq+V0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3zCCAsegAwIBAgIJAKyiYM/4N348MA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMCkdpb3ZpbmF6em8xHTAbBgNVBAoMFENvbXVuZSBkaSBHaW92aW5henpvMTIwMAYDVQQDDClzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuZ2lvdmluYXp6by5iYS5pdDAeFw0yMDExMTAwODQxNTBaFw0zMDExMTAwODQxNTBaMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMCkdpb3ZpbmF6em8xHTAbBgNVBAoMFENvbXVuZSBkaSBHaW92aW5henpvMTIwMAYDVQQDDClzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuZ2lvdmluYXp6by5iYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANEUdaH9upTbg+d8XfYQ9MHWf51pCPSGK+jifVxRoyYUxsurLbv2usGsZU5083B7Y/H6jZfU29MoiAcm8jengxj2mvpY5gjtB9CUcy06SeOyko967ch9Nfe7IJ3q1JVGqp5zDy29xESF7S3y8B2yyXGNTcV4oDK25hSJVz9BmhfaPRtHJ8jXM0T6Exc0P4Y9xSgqgeZmFGesR11hFyTWLCDQklllxbprrQxPfvcvi8vMp+/R3kVI4kEAgXPf/bcWVwoz/gkLOltMXWpCbTILbJ/7kUCBGctDrUC0qauNoaWNx4XxZ6VxXsMOXc8uCkUppH0nJVHb+ZNoeNlOttpg+UcCAwEAAaNQME4wHQYDVR0OBBYEFBMTXyUdQZ/FE3G1btYumF0it8IKMB8GA1UdIwQYMBaAFBMTXyUdQZ/FE3G1btYumF0it8IKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALsVKe2pXe2SmI5nZMRzpOJHJvrlCceXtb2NiOZcRefW5SU+xXk4YAwKi5YVOTIOMvdstCD/1UVcloU/Xyq9tkCBwM6VEIGIUapTd2qyIqBFF8UxPgIE80ARgeTM8OmedhYVPLyxgf2f4UBT37bO+djEGjsltB+BubY9bkMFNzIBOXyRrwXxpDc3kzTbKX+701ZSsWJD6zGDVEhlTvdRtyWX6ZMQXwbCe787PVtsRWOfyjzmeDVIDmPNGH7gtwaJ44nEFidIou2/WyrcWrQZn76iIM4GB8GdrZPgPhoMoUqIhg9oIBWRZ4P9KrHurtm39IKXKaDTa9L8/Rk9pslq+V0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3zCCAsegAwIBAgIJAKyiYM/4N348MA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMCkdpb3ZpbmF6em8xHTAbBgNVBAoMFENvbXVuZSBkaSBHaW92aW5henpvMTIwMAYDVQQDDClzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuZ2lvdmluYXp6by5iYS5pdDAeFw0yMDExMTAwODQxNTBaFw0zMDExMTAwODQxNTBaMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMCkdpb3ZpbmF6em8xHTAbBgNVBAoMFENvbXVuZSBkaSBHaW92aW5henpvMTIwMAYDVQQDDClzcG9ydGVsbG9kaWdpdGFsZS5jb211bmUuZ2lvdmluYXp6by5iYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANEUdaH9upTbg+d8XfYQ9MHWf51pCPSGK+jifVxRoyYUxsurLbv2usGsZU5083B7Y/H6jZfU29MoiAcm8jengxj2mvpY5gjtB9CUcy06SeOyko967ch9Nfe7IJ3q1JVGqp5zDy29xESF7S3y8B2yyXGNTcV4oDK25hSJVz9BmhfaPRtHJ8jXM0T6Exc0P4Y9xSgqgeZmFGesR11hFyTWLCDQklllxbprrQxPfvcvi8vMp+/R3kVI4kEAgXPf/bcWVwoz/gkLOltMXWpCbTILbJ/7kUCBGctDrUC0qauNoaWNx4XxZ6VxXsMOXc8uCkUppH0nJVHb+ZNoeNlOttpg+UcCAwEAAaNQME4wHQYDVR0OBBYEFBMTXyUdQZ/FE3G1btYumF0it8IKMB8GA1UdIwQYMBaAFBMTXyUdQZ/FE3G1btYumF0it8IKMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALsVKe2pXe2SmI5nZMRzpOJHJvrlCceXtb2NiOZcRefW5SU+xXk4YAwKi5YVOTIOMvdstCD/1UVcloU/Xyq9tkCBwM6VEIGIUapTd2qyIqBFF8UxPgIE80ARgeTM8OmedhYVPLyxgf2f4UBT37bO+djEGjsltB+BubY9bkMFNzIBOXyRrwXxpDc3kzTbKX+701ZSsWJD6zGDVEhlTvdRtyWX6ZMQXwbCe787PVtsRWOfyjzmeDVIDmPNGH7gtwaJ44nEFidIou2/WyrcWrQZn76iIM4GB8GdrZPgPhoMoUqIhg9oIBWRZ4P9KrHurtm39IKXKaDTa9L8/Rk9pslq+V0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sportellodigitale.comune.giovinazzo.ba.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellodigitale.comune.giovinazzo.ba.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Giovinazzo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Giovinazzo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.giovinazzo.ba.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e047</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Giovinazzo</md:Company>
+    <md:EmailAddress>protocollo@comune.giovinazzo.ba.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

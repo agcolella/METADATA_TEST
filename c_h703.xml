@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Salerno" entityID="https://www.comune.salerno.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Salerno">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8ysJrZgpp4w0887SYXl0HdRKC/09iuEZncqu5VqUtSw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+F4Riiw8gvtaGRpVgNyMvQhM8dtte4sjXxl7lnbNFP1sWjZPdB7/xEJ14KfVyd4WAijmILi5QO8M8
+tjruqxcd84ZxqEp8xFZeJJ4WCnY35dvqFE3Vbq8QGy6jk88hwBmmbCxziTc/a0mpl3ZuAqR0+Ot4
+zR2or5yH9NQJdjhsrsjb1pQ4Y8xb/Sjgiodmh1O9W9ctmfeJ7CpaIXLdK0dF3PoUn8wQCrf4RPax
+8bbyG5HpWzNTXaz3TVZ82no+CLS1QMy77WEu/oitmId9fwuwaY8yk3MH0zgFOMSxc+YKphqoM1mB
+7LTwIQHO7kr3h/Xlj2ctSqDzuyNwBXCMRIeoiA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qna7NbyLN14UydeknUAX0eYvQaKuDK01xExzrvzNY5CUwodMMjjClX2d0FrHIRYndyO1LackgX9B
+K3DW23F3QpiWnfoeDaHKtq4i6ppLQZ9t6plaU5oTPJ7TSfoNpfV7kB+6Zs8D5DO++sQf2ujNWbqJ
+WUvbyByQuKQqf48BK1qdwAOITKfvkYp0tlNSK2+bPwwiHb23c03vUPlqeNc2aNNUDR7ilX+qMjTO
+CqW7lcfr62yDY04iHvXiKb+0f4aersEi0zVWy2/tCh3pmD+R+J3UhyNLP1yLwRP3Jzmy1PnUgIse
+LSU6vqao6HHazdIO3m/jPRtYjMkUbRBUX3QKZw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJAKIg99b+RobjMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUuc2FsZXJuby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMTA4MTIz
+MDIwWhcNMjIwMTA3MTIzMDIwWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnNhbGVybm8uaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+qna7NbyLN14UydeknUAX0eYvQaKuDK01xExzrvzNY5CUwodMMjjClX2d0FrHIRYndyO1LackgX9B
+K3DW23F3QpiWnfoeDaHKtq4i6ppLQZ9t6plaU5oTPJ7TSfoNpfV7kB+6Zs8D5DO++sQf2ujNWbqJ
+WUvbyByQuKQqf48BK1qdwAOITKfvkYp0tlNSK2+bPwwiHb23c03vUPlqeNc2aNNUDR7ilX+qMjTO
+CqW7lcfr62yDY04iHvXiKb+0f4aersEi0zVWy2/tCh3pmD+R+J3UhyNLP1yLwRP3Jzmy1PnUgIse
+LSU6vqao6HHazdIO3m/jPRtYjMkUbRBUX3QKZwIDAQABo1AwTjAdBgNVHQ4EFgQUfb2fdwNQr6zC
+b0asUsUL1pLAFQQwHwYDVR0jBBgwFoAUfb2fdwNQr6zCb0asUsUL1pLAFQQwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAd2MTzTksh7pVwn3pSp43trhLncparKsNwEEeZWf2fT/Zlk2z
+xOt/EDNwAfPn7owH+Kmvklu+PeN+26AEhXPvpD7uQiNzZGNGhOGQzj5CL4gN/6PlBhrvcbt89IX0
+7oj/JQs+V33cdV7MzEZKUjd0fXZcs9790n3JLeoL0sYRJRI8gLD3ot12W3TMRa3uzd8WY+QrCK5i
+s0LeL86REtjKtjd6PdRP2GUObsTTqzla/IiQEIUpJvP9DRsXgzW81u/WZ3ZXFFpRucni8ZU07MMR
+gx7bwDFc75tWxGVUspXyjFPvWEICf8W7yTdUUsz3C5+51tUCiVT5pjp6bRIb0bnouQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAKIg99b+RobjMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUuc2FsZXJuby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMTA4MTIzMDIwWhcNMjIwMTA3MTIzMDIwWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnNhbGVybm8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqna7NbyLN14UydeknUAX0eYvQaKuDK01xExzrvzNY5CUwodMMjjClX2d0FrHIRYndyO1LackgX9BK3DW23F3QpiWnfoeDaHKtq4i6ppLQZ9t6plaU5oTPJ7TSfoNpfV7kB+6Zs8D5DO++sQf2ujNWbqJWUvbyByQuKQqf48BK1qdwAOITKfvkYp0tlNSK2+bPwwiHb23c03vUPlqeNc2aNNUDR7ilX+qMjTOCqW7lcfr62yDY04iHvXiKb+0f4aersEi0zVWy2/tCh3pmD+R+J3UhyNLP1yLwRP3Jzmy1PnUgIseLSU6vqao6HHazdIO3m/jPRtYjMkUbRBUX3QKZwIDAQABo1AwTjAdBgNVHQ4EFgQUfb2fdwNQr6zCb0asUsUL1pLAFQQwHwYDVR0jBBgwFoAUfb2fdwNQr6zCb0asUsUL1pLAFQQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAd2MTzTksh7pVwn3pSp43trhLncparKsNwEEeZWf2fT/Zlk2zxOt/EDNwAfPn7owH+Kmvklu+PeN+26AEhXPvpD7uQiNzZGNGhOGQzj5CL4gN/6PlBhrvcbt89IX07oj/JQs+V33cdV7MzEZKUjd0fXZcs9790n3JLeoL0sYRJRI8gLD3ot12W3TMRa3uzd8WY+QrCK5is0LeL86REtjKtjd6PdRP2GUObsTTqzla/IiQEIUpJvP9DRsXgzW81u/WZ3ZXFFpRucni8ZU07MMRgx7bwDFc75tWxGVUspXyjFPvWEICf8W7yTdUUsz3C5+51tUCiVT5pjp6bRIb0bnouQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/salerno"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/salerno" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/salerno" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Salerno</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Salerno</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Salerno</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Salerno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Salerno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Salerno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Salerno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Salerno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.salerno.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.salerno.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.salerno.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.salerno.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

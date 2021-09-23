@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Troina" entityID="https://www.comune.troina.en.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Troina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BnX0DNqhv6/kByI3Hbs2w/A2bGvN9ThVBT9sLA9/m48=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ik50OV4gLkjx0YZAIGWD/pSyIXNMrCNqsgvdAb6ZYSkQOIsrzCAA69qh+0Q2LMBECjIm0s3O95qv
+CPXI9jfNlgAttGGEAQ27eOMHE4jkQKyIkiMB0bhfjhP7LDlwQFU6x+dVCQztuD5g2PP+8kTe4AXL
+88BOZ9JSiEvZUNBaM0u2lTZjqr2EfAUtAXQIX+aNp71gcK+GjPGhunQ0uscrIOyzkrbkoV0x3Ypx
+sjp0XCWmuS67PzIULNIeA72pzy2CkUShEIOQ0DYbz9U+zwmYIe6ftpj0ZFyaX1jxvz+OEVvvobyc
+hu4VD+kU05ekGfcoVoKyuBRT+8NBA9mR6vS7kA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2++p2+tsUDkMY4IKPpmDfAUekpw5rkTRQagOiBqezZVSOcIPxskDnABhs/wMteAS+XO4qhJT76F9
+AF+UIOrNKl4VtASe7lr7O1yevcfCna8shDoUZjmPlXRI0uvpfcU24QMltcvMIB/W0yGJcLDv3Mdv
+cSyL+ETJRX4RvMH5LOPMvEwmi5lJfvJIXCNIQQWcvO+AMvsPjJAVRT/VPInpmkvzh0bAE/+OxDYZ
+88BNBC0vZlIdAaqaJjR6jiMwJuZCFZ0k+GbnOjFwI/6Crka3PNeD6cEE1aikHQBnLqIkOOZEcFDH
+c1ZI8VBN0j40+g3/EDiA/iVTD5qyB0ARqOaSxw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAOA8LlIc20UHMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUudHJvaW5hLmVuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAxMDgx
+NDI4MThaFw0yODAxMDYxNDI4MThaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudHJvaW5hLmVuLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANvvqdvrbFA5DGOCCj6Zg3wFHpKcOa5E0UGoDogans2VUjnCD8bJA5wAYbP8DLXgEvlzuKoS
+U++hfQBflCDqzSpeFbQEnu5a+ztcnr3Hwp2vLIQ6FGY5j5V0SNLr6X3FNuEDJbXLzCAf1tMhiXCw
+79zHb3Esi/hEyUV+EbzB+SzjzLxMJouZSX7ySFwjSEEFnLzvgDL7D4yQFUU/1TyJ6ZpL84dGwBP/
+jsQ2GfPATQQtL2ZSHQGqmiY0eo4jMCbmQhWdJPhm5zoxcCP+gq5GtzzXg+nBBNWopB0AZy6iJDjm
+RHBQx3NWSPFQTdI+NPoN/xA4gP4lUw+asgdAEajmkscCAwEAAaNQME4wHQYDVR0OBBYEFEyO6M1K
+vLVWPZeJleiPPMUaRmxDMB8GA1UdIwQYMBaAFEyO6M1KvLVWPZeJleiPPMUaRmxDMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKA4qGtMqQSRkbDPV4TIzovzKAzsorNJ9ToJL1UjJbW1
+y7Hnl3T6WMgq0ue5uE4i32EirIMGcKIhOAGzzrIDb36Z8bxBTF25VCqU7mzcYswxRc7A7uL646Cc
+KqKURdrNDSKrXCR+lntoInW7hYgv7Z5F4jrHOCQ1BMaTHjratqD6z6enqcaniAIbS8gufaRDNof1
+Kj5oRuJxYXT5P4S+edkY8i0RBbVzpbwfG6vCdEQSPUWIzWIeLrUPQFU+E6UC1Xk6356Ti2e6E4dp
+W1/2P3hFUSbYrOZwb1Z909vE6Udp9qmCqySlIiWBFinbNaLdEl5W/AU3gcTDr64bE3u8jnM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOA8LlIc20UHMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudHJvaW5hLmVuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAxMDgxNDI4MThaFw0yODAxMDYxNDI4MThaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudHJvaW5hLmVuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANvvqdvrbFA5DGOCCj6Zg3wFHpKcOa5E0UGoDogans2VUjnCD8bJA5wAYbP8DLXgEvlzuKoSU++hfQBflCDqzSpeFbQEnu5a+ztcnr3Hwp2vLIQ6FGY5j5V0SNLr6X3FNuEDJbXLzCAf1tMhiXCw79zHb3Esi/hEyUV+EbzB+SzjzLxMJouZSX7ySFwjSEEFnLzvgDL7D4yQFUU/1TyJ6ZpL84dGwBP/jsQ2GfPATQQtL2ZSHQGqmiY0eo4jMCbmQhWdJPhm5zoxcCP+gq5GtzzXg+nBBNWopB0AZy6iJDjmRHBQx3NWSPFQTdI+NPoN/xA4gP4lUw+asgdAEajmkscCAwEAAaNQME4wHQYDVR0OBBYEFEyO6M1KvLVWPZeJleiPPMUaRmxDMB8GA1UdIwQYMBaAFEyO6M1KvLVWPZeJleiPPMUaRmxDMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKA4qGtMqQSRkbDPV4TIzovzKAzsorNJ9ToJL1UjJbW1y7Hnl3T6WMgq0ue5uE4i32EirIMGcKIhOAGzzrIDb36Z8bxBTF25VCqU7mzcYswxRc7A7uL646CcKqKURdrNDSKrXCR+lntoInW7hYgv7Z5F4jrHOCQ1BMaTHjratqD6z6enqcaniAIbS8gufaRDNof1Kj5oRuJxYXT5P4S+edkY8i0RBbVzpbwfG6vCdEQSPUWIzWIeLrUPQFU+E6UC1Xk6356Ti2e6E4dpW1/2P3hFUSbYrOZwb1Z909vE6Udp9qmCqySlIiWBFinbNaLdEl5W/AU3gcTDr64bE3u8jnM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/troina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/troina" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/troina" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Troina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Troina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Troina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Troina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Troina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Troina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Troina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Troina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.troina.en.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.troina.en.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.troina.en.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.troina.en.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Carrara" entityID="https://www.comune.carrara.ms.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Carrara">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jc+TXmf8uAHBMmSJrtSF1yeO3oP6FZ1EEDkvyV0WYVA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+aFsyUy4sTNbsP+mUAl/B/i4EWEe6j6XZgRmE3hO43coJLKdBLyFCMmSUr+oyNdxZdY+vUkyydJF/
+M2wuzEZkErMpFhURTBHVtWxBHnC2enl8PtraWbxKl8NbYzXkPJ5S7BeuHUP+iYT0kCiWq8oq0RJk
+RoK8s8Nw7M9dq1u6vhw9JoSRwJ5TT6QPN59a+ZLtRkHyUb+wmvqHEkZNxXqyhST0ilOQuiMFqP63
+y1Nj10BgsMgQN3PMCHRsUA5W3YDOYWp0PQFD093+7rqGR8dCoZdxAH0K4+rnot7F4j8807om11GW
+VHjTV66BXNB1zoR44KPQh+kJl9pN2in0Q2BmYA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xSkcJ5HIDlgjqAxzEuuSLtznBLJrai8ORRQalIQexgrEbG/5CVIJ/O/n1tzzARTlxd2gqoacjoPw
+xoI8epKbh52RzNQ2laCyx68ncrVfxR7sUGlmMG13SO8KZ+K7eeVh5BjCycxJRkR0NQSwPzK+Wj8I
+YvnqhqUBPfUFDBFxPinLkAPAjCUwRgqSXaGMVwlgDVBt1r5S1meJY6no87e9aIi7XtptmWe7HNQE
+S8RDziIjaJBDVLxaK2SdQmyra4iHSrNZ1fWETS5R6Huf1ykOYjlvJ1Lkz7sT7MNti15/XVwRIh8N
+GnMVvAkZy9P7Rk5bhw8kw/F0CKGDYapdWf4SIQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDsDCCApigAwIBAgIJAK+9rdh/3Eq5MA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5j
+b211bmUuY2FycmFyYS5tcy5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIENhcnJhcmExFTATBgNVBAQM
+DFBBOklULWNfYjgzMjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBDYXJyYXJhMB4X
+DTIwMTAxOTEzMDAzMloXDTMwMTAxNzEzMDAzMlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5jYXJy
+YXJhLm1zLml0MRowGAYDVQQKDBFDb211bmUgZGkgQ2FycmFyYTEVMBMGA1UEBAwMUEE6SVQtY19i
+ODMyMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIENhcnJhcmEwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDFKRwnkcgOWCOoDHMS65Iu3OcEsmtqLw5FFBqUhB7GCsRsb/kJ
+Ugn87+fW3PMBFOXF3aCqhpyOg/DGgjx6kpuHnZHM1DaVoLLHrydytV/FHuxQaWYwbXdI7wpn4rt5
+5WHkGMLJzElGRHQ1BLA/Mr5aPwhi+eqGpQE99QUMEXE+KcuQA8CMJTBGCpJdoYxXCWANUG3WvlLW
+Z4ljqejzt71oiLte2m2ZZ7sc1ARLxEPOIiNokENUvForZJ1CbKtriIdKs1nV9YRNLlHoe5/XKQ5i
+OW8nUuTPuxPsw22LXn9dXBEiHw0acxW8CRnL0/tGTluHDyTD8XQIoYNhql1Z/hIhAgMBAAGjLzAt
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB
+CwUAA4IBAQAMbKMx17ZADrLndHI/vAfcBBYSd1NdnxK3PYBXc3bKd3aNa+wSILK9ITKiV1FKW59k
+SYjGlTrSSlVyGW8bRbj47Q0j79eK+3LvCRgO4fQluCwTV3jxV8RktLyd8pEUwfF/+VoUTA3m3b2G
+dECJRlRJ5SfWvisJGWkScNzIfDvxA8nFabHVZbV6Wg6DdHZ68YV1fNgO4YetsgOjkMe60shdrYTM
+i8h5NRWke/iyzipRBXUauDHOcrdZv2lOmkQ+CRKjNSk8ko4zJ2CvoIPqI7kxnV+WKnjp4bTt5/Xk
+wOC9Z5CIvpYb2MXQMmYKBVvwPadrYp4Nop6aq+gGwoc3oJ9F
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJAPMI38CugZIiMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuY2FycmFyYS5tcy5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIENhcnJhcmExFTATBgNVBAQMDFBBOklULWNfYjgzMjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBDYXJyYXJhMB4XDTIwMTAxOTEwMDkxNloXDTMwMTAxNzEwMDkxNlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5jYXJyYXJhLm1zLml0MRowGAYDVQQKDBFDb211bmUgZGkgQ2FycmFyYTEVMBMGA1UEBAwMUEE6SVQtY19iODMyMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIENhcnJhcmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfCVvrJ0Ob4J/+i12xCzZuvB6TuC3TpMz4PGXZyVvdXzatrMDu3j4sGm7FkGU+r4zaBLsueu6in/v9SGNN/SzoZb4TrNIfNPHk9Md6AEC5QGHtiuATiQgDKKQrP7WH8YnWChRCy8NKavfjnypTewLm0oaBoawn5AZ2nmXWWtx9Pj+CM2wDTqn7yf17O+4MMZxT/cWs/lJN1+3h/FCtZ4AE5i+T/adElYUsf28OQjVofkZhojV7TPuGB7udSkyBaR9FwpBiQlAQohkaL6xEHtqaGSEL61vQjdr9LmTCfwQpAICKq40Y/Q5UvhhluZ+7IZ+LamxszIpx0S4mJOmaiaFDAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQDPqMAK4ggv9rc/EatrpIrr/njoD9r0ymldvcpXCKRSjsNm5LlNDPVyyyLTnf5srsztPAQRIOXyBF6KA8to59ObpDVbhsOAgEldCJueiJyMqFpysG0PxdWTmAngnVAeKSeF6S7GxndxA31wA47x0pQqCVflOhDap9YD2CIR935AFuAHrool+74ivkxRO7tP+hrl5LWu9PRTz9NCAEBmXzCIS07OBCZr7iyBh18hZAYXH2mLcEt6tWLPv6e0AZ98tXxyQzSMQUhKAMfsezfuTTWtM2wSrkIS1gO4hA6vXSC6JhUEqVGRPP2qbc+tL4bBeUahxC2czY2sx7qNvi4CHrCs</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDsDCCApigAwIBAgIJAPMI38CugZIiMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5jb211bmUuY2FycmFyYS5tcy5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIENhcnJhcmExFTATBgNVBAQMDFBBOklULWNfYjgzMjELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBDYXJyYXJhMB4XDTIwMTAxOTEwMDkxNloXDTMwMTAxNzEwMDkxNlowfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5jYXJyYXJhLm1zLml0MRowGAYDVQQKDBFDb211bmUgZGkgQ2FycmFyYTEVMBMGA1UEBAwMUEE6SVQtY19iODMyMQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIENhcnJhcmEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfCVvrJ0Ob4J/+i12xCzZuvB6TuC3TpMz4PGXZyVvdXzatrMDu3j4sGm7FkGU+r4zaBLsueu6in/v9SGNN/SzoZb4TrNIfNPHk9Md6AEC5QGHtiuATiQgDKKQrP7WH8YnWChRCy8NKavfjnypTewLm0oaBoawn5AZ2nmXWWtx9Pj+CM2wDTqn7yf17O+4MMZxT/cWs/lJN1+3h/FCtZ4AE5i+T/adElYUsf28OQjVofkZhojV7TPuGB7udSkyBaR9FwpBiQlAQohkaL6xEHtqaGSEL61vQjdr9LmTCfwQpAICKq40Y/Q5UvhhluZ+7IZ+LamxszIpx0S4mJOmaiaFDAgMBAAGjLzAtMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQDPqMAK4ggv9rc/EatrpIrr/njoD9r0ymldvcpXCKRSjsNm5LlNDPVyyyLTnf5srsztPAQRIOXyBF6KA8to59ObpDVbhsOAgEldCJueiJyMqFpysG0PxdWTmAngnVAeKSeF6S7GxndxA31wA47x0pQqCVflOhDap9YD2CIR935AFuAHrool+74ivkxRO7tP+hrl5LWu9PRTz9NCAEBmXzCIS07OBCZr7iyBh18hZAYXH2mLcEt6tWLPv6e0AZ98tXxyQzSMQUhKAMfsezfuTTWtM2wSrkIS1gO4hA6vXSC6JhUEqVGRPP2qbc+tL4bBeUahxC2czY2sx7qNvi4CHrCs</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/carrara"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carrara" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carrara" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carrara" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+	  <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+	  <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Carrara</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Carrara</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Carrara</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Carrara</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Carrara</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Carrara</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Carrara</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Carrara</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.carrara.ms.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.carrara.ms.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.carrara.ms.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.carrara.ms.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_b832</spid:IPACode>
+         <spid:FiscalCode>00079450458</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>francesco.giannini@comune.carrara.ms.it</md:EmailAddress>
+      <md:TelephoneNumber>0585641351</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

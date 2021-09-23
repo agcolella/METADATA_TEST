@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx1917137e-be88-0613-3cbd-9576817a79e6" entityID="https://www.comunecasale.tv.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx1917137e-be88-0613-3cbd-9576817a79e6">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>W9qsatclKURK6e0k6H2CR2ANZNBZ4bc+dWwmBqE+k/4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FLaDTRWezmRpYnMaE17HRPOGsU9CfZg76Bgd39Il0xj91zkB3HpOJZf9a2TW7+VYPWHwQ0EXXn+B
+wWFM9YleTIq7CGUnhl6HpIkdRHwDYxgCspoFq0YzRm4WwCr8xe/V7L/IszTcxFTMDEXxCCv3zZpD
+xaRxUmtIHp7XMExRRtGrtUHxBcrMrw3JPK+UBODuUXBgwuAb0/zcTXFQ7dLiBSc+cH/Ynnsn7UNb
+5hZBl+PPIt6IeOS6uwqTZeKEhrYKF9MGmRzvOpQF/lRvEvXEvmVLZDKcCl7uPegcwwANCv89e9FR
+7O7SKzrNOYkLUUyxfxiq7AXTt6wo7RPOwJyshg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qDURW2IlVMsz0OyNU9RrAB7tFPlY3290CbkmbbwioPP9aOgLbffEXEMBAIcQ8EkTLJ/iVkbN0Udk
+Zk3DiXEs/M/tB6NgYaGNg195RR+E0pQ06Zr1fEJ0La/TWitV3lkkjGv53iXEfE2Ulq46PMg18znQ
+G4k+vTpnWbLkUtGskA601GpnDKobXM6GE1R0TI3uGX9SiIvzm3j2iGEQVLeLXyLMK+QF1ijNMU5l
+k/VW81LTg1aRqYjUbkM0MA8Yf1WyLNkl6MDYXPnf3HrAL1yl8hhUJSfs8vtro8Y1Y1qsiTISJAts
+YDJyASCRO6XqccM8pbN8b9dl/n4bpFBcUrrZGw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyzCCArOgAwIBAgIJAMjnlAb3KQ7jMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzYWxlIHN1bCBTaWxlMSIwIAYDVQQKDBlDb211bmUg
+ZGkgQ2FzYWxlIHN1bCBTaWxlMR8wHQYDVQQDDBZ3d3cuY29tdW5lY2FzYWxlLnR2Lml0MB4XDTE5
+MDcyMjExMTE1MVoXDTI5MDcyMTExMTE1MVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5
+MRgwFgYDVQQHDA9DYXNhbGUgc3VsIFNpbGUxIjAgBgNVBAoMGUNvbXVuZSBkaSBDYXNhbGUgc3Vs
+IFNpbGUxHzAdBgNVBAMMFnd3dy5jb211bmVjYXNhbGUudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCoNRFbYiVUyzPQ7I1T1GsAHu0U+Vjfb3QJuSZtvCKg8/1o6Att98RcQwEA
+hxDwSRMsn+JWRs3RR2RmTcOJcSz8z+0Ho2BhoY2DX3lFH4TSlDTpmvV8QnQtr9NaK1XeWSSMa/ne
+JcR8TZSWrjo8yDXzOdAbiT69OmdZsuRS0ayQDrTUamcMqhtczoYTVHRMje4Zf1KIi/ObePaIYRBU
+t4tfIswr5AXWKM0xTmWT9VbzUtODVpGpiNRuQzQwDxh/VbIs2SXowNhc+d/cesAvXKXyGFQlJ+zy
++2ujxjVjWqyJMhIkC2xgMnIBIJE7pepxwzyls3xv12X+fhukUFxSutkbAgMBAAGjUDBOMB0GA1Ud
+DgQWBBT+fAhYx6todm5n0Rj/0l8d8sE6nzAfBgNVHSMEGDAWgBT+fAhYx6todm5n0Rj/0l8d8sE6
+nzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBM98KrNwOka2wKU8snXAYwDVdfCKUS
+zS7x00pAVZoOahhckMDYhATfL63xLcxFccUzl6s2jB88HiTVFnO5UPsAkztZi5uA3uAU/lPtSNDx
+YrQ66Gls3ciWNfBN3bTaEX6QB1lXMs8OUCIA8srBG4o6zK0EIZz1KH1VaeUPjucbcn051gEQhb1q
+aV0BIcaV/xQmwB80kIyGN5JlAFmWfs/Uq8qm33iy0R5IpiSWNvXT8rbYuBJbdMLUZnl0pEwtF/iZ
+AFUVgzMpIdJ2xYnMIQZ52KnzhHg6O4So4nxtQgBdsZDkhBEE4uWYNWpBhnHYDlcswXvQ3cwg573t
+x877x2tZ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAMjnlAb3KQ7jMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzYWxlIHN1bCBTaWxlMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzYWxlIHN1bCBTaWxlMR8wHQYDVQQDDBZ3d3cuY29tdW5lY2FzYWxlLnR2Lml0MB4XDTE5MDcyMjExMTE1MVoXDTI5MDcyMTExMTE1MVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9DYXNhbGUgc3VsIFNpbGUxIjAgBgNVBAoMGUNvbXVuZSBkaSBDYXNhbGUgc3VsIFNpbGUxHzAdBgNVBAMMFnd3dy5jb211bmVjYXNhbGUudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCoNRFbYiVUyzPQ7I1T1GsAHu0U+Vjfb3QJuSZtvCKg8/1o6Att98RcQwEAhxDwSRMsn+JWRs3RR2RmTcOJcSz8z+0Ho2BhoY2DX3lFH4TSlDTpmvV8QnQtr9NaK1XeWSSMa/neJcR8TZSWrjo8yDXzOdAbiT69OmdZsuRS0ayQDrTUamcMqhtczoYTVHRMje4Zf1KIi/ObePaIYRBUt4tfIswr5AXWKM0xTmWT9VbzUtODVpGpiNRuQzQwDxh/VbIs2SXowNhc+d/cesAvXKXyGFQlJ+zy+2ujxjVjWqyJMhIkC2xgMnIBIJE7pepxwzyls3xv12X+fhukUFxSutkbAgMBAAGjUDBOMB0GA1UdDgQWBBT+fAhYx6todm5n0Rj/0l8d8sE6nzAfBgNVHSMEGDAWgBT+fAhYx6todm5n0Rj/0l8d8sE6nzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBM98KrNwOka2wKU8snXAYwDVdfCKUSzS7x00pAVZoOahhckMDYhATfL63xLcxFccUzl6s2jB88HiTVFnO5UPsAkztZi5uA3uAU/lPtSNDxYrQ66Gls3ciWNfBN3bTaEX6QB1lXMs8OUCIA8srBG4o6zK0EIZz1KH1VaeUPjucbcn051gEQhb1qaV0BIcaV/xQmwB80kIyGN5JlAFmWfs/Uq8qm33iy0R5IpiSWNvXT8rbYuBJbdMLUZnl0pEwtF/iZAFUVgzMpIdJ2xYnMIQZ52KnzhHg6O4So4nxtQgBdsZDkhBEE4uWYNWpBhnHYDlcswXvQ3cwg573tx877x2tZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAMjnlAb3KQ7jMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPQ2FzYWxlIHN1bCBTaWxlMSIwIAYDVQQKDBlDb211bmUgZGkgQ2FzYWxlIHN1bCBTaWxlMR8wHQYDVQQDDBZ3d3cuY29tdW5lY2FzYWxlLnR2Lml0MB4XDTE5MDcyMjExMTE1MVoXDTI5MDcyMTExMTE1MVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9DYXNhbGUgc3VsIFNpbGUxIjAgBgNVBAoMGUNvbXVuZSBkaSBDYXNhbGUgc3VsIFNpbGUxHzAdBgNVBAMMFnd3dy5jb211bmVjYXNhbGUudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCoNRFbYiVUyzPQ7I1T1GsAHu0U+Vjfb3QJuSZtvCKg8/1o6Att98RcQwEAhxDwSRMsn+JWRs3RR2RmTcOJcSz8z+0Ho2BhoY2DX3lFH4TSlDTpmvV8QnQtr9NaK1XeWSSMa/neJcR8TZSWrjo8yDXzOdAbiT69OmdZsuRS0ayQDrTUamcMqhtczoYTVHRMje4Zf1KIi/ObePaIYRBUt4tfIswr5AXWKM0xTmWT9VbzUtODVpGpiNRuQzQwDxh/VbIs2SXowNhc+d/cesAvXKXyGFQlJ+zy+2ujxjVjWqyJMhIkC2xgMnIBIJE7pepxwzyls3xv12X+fhukUFxSutkbAgMBAAGjUDBOMB0GA1UdDgQWBBT+fAhYx6todm5n0Rj/0l8d8sE6nzAfBgNVHSMEGDAWgBT+fAhYx6todm5n0Rj/0l8d8sE6nzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBM98KrNwOka2wKU8snXAYwDVdfCKUSzS7x00pAVZoOahhckMDYhATfL63xLcxFccUzl6s2jB88HiTVFnO5UPsAkztZi5uA3uAU/lPtSNDxYrQ66Gls3ciWNfBN3bTaEX6QB1lXMs8OUCIA8srBG4o6zK0EIZz1KH1VaeUPjucbcn051gEQhb1qaV0BIcaV/xQmwB80kIyGN5JlAFmWfs/Uq8qm33iy0R5IpiSWNvXT8rbYuBJbdMLUZnl0pEwtF/iZAFUVgzMpIdJ2xYnMIQZ52KnzhHg6O4So4nxtQgBdsZDkhBEE4uWYNWpBhnHYDlcswXvQ3cwg573tx877x2tZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunecasale.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunecasale.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Casale sul Sile</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casale sul Sile</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comunecasale.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

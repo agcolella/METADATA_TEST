@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="PortoAzzurro" entityID="https://www.comune.portoazzurro.li.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#PortoAzzurro">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>h0K1a743AJB4g/2etiZJ+u8kh5zkvuyJCGpGMiLJV4U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+U8U1ZgODRAwsZkv9nPaE+geE8zHb9h/hMYgy4D5RaECCFfsuSwps0+rjmAwMu5zXq6mkQ+uPk/CV
+2LtrUJ3MvV0LBoaSzyGCQ1IVezS0Qd5tFNYEXarcrRv3iPipdkyg5S5ZSX5ImMKoJXAR+RltVm2H
+J+QGlD63f/GcDKT2Biici7b39qeqfU2tiIO4YZu57JNCbxLSA1o9usHyVrvTHvVtgPlyQFCOMVw3
+XSlisiL0I2mdpeIaeFZFFS6Jf3m+TJcU+jMlIigeK+fsZbqXvyru7/s63VfeaSHGYQRWyHcp5lmz
+98wi1DJGzwH545NwqmgSMF238z005QyaHX8bAg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zGrUMwZbnYKR6bltJWdG2MIhYpxw75RQGqXIUYzoDdlMOCDxB750yTvHrVPFHf5R4ROhpP+y6+GZ
+XR+Io/jUak4psNh1IqZDaTbblbWGh4WE0h9+EKAILCkNrHk33DQ06rOqQQ/dLlLVP43EHEqfQYVx
+vqg6P7tQ1n9pqa/o8VIiDLnkwGDQiN/w86ItBDXI3iL0oHPok8WrTtZ7UJ78Lz/fV+c589XgOVVL
+MmazNYpOPhR2ce5i9F10QbegVP8lpIwbibeAGcUs7d7RtsI/dmUkNhNzK7L7ehdT7/HXTQMKtiSN
+/XqraB2/lCY+0Ey46sc7LTfxuRylybRv1wpfeQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWzCCAkOgAwIBAgIJAJnr7NY4q2hxMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5j
+b211bmUucG9ydG9henp1cnJvLmxpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0y
+MDA1MjEwOTMwNDRaFw0zMDA1MTkwOTMwNDRaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUucG9ydG9h
+enp1cnJvLmxpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMxq1DMGW52Ckem5bSVnRtjCIWKccO+UUBqlyFGM6A3ZTDgg8Qe+dMk7
+x61TxR3+UeEToaT/suvhmV0fiKP41GpOKbDYdSKmQ2k225W1hoeFhNIffhCgCCwpDax5N9w0NOqz
+qkEP3S5S1T+NxBxKn0GFcb6oOj+7UNZ/aamv6PFSIgy55MBg0Ijf8POiLQQ1yN4i9KBz6JPFq07W
+e1Ce/C8/31fnOfPV4DlVSzJmszWKTj4UdnHuYvRddEG3oFT/JaSMG4m3gBnFLO3e0bbCP3ZlJDYT
+cyuy+3oXU+/x100DCrYkjf16q2gdv5QmPtBMuOrHOy038bkcpcm0b9cKX3kCAwEAAaNQME4wHQYD
+VR0OBBYEFGBqqdbXdJ1LUNfi0ugRtHp9iH/BMB8GA1UdIwQYMBaAFGBqqdbXdJ1LUNfi0ugRtHp9
+iH/BMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACXUtNnLMcgNgWCgOEtc+u5Hvuz8
+Tbcs2GZPIlMkdaPjtlOke0UEkNJAB219GUtxzstPSAMKy9d+hzRJyyewnoAYjSH10U8j27DyzoTO
+0YaR9y7MotRibCiZr5CvrV/G98zmo9xRPX4XQj6lygLrgOvMhrBO0IKEsCjbUaXCcLE5aoQnVrcI
+Zd6iZ1OgTU9HEqGXtkmHD+TR4x10VnqHuwAQc31oW7Ok+B5mrXVmIIis371k7FcjOZrcP5An3kfU
+KLKtG5guxI/fMkoocIIiNVMiYbytZ5UqyqDNtUegS5sIHWbGj0cKY2QccSSS6bVbQAuFNjenyBaF
+vZeDgh/deoA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWzCCAkOgAwIBAgIJAJnr7NY4q2hxMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5jb211bmUucG9ydG9henp1cnJvLmxpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MjEwOTMwNDRaFw0zMDA1MTkwOTMwNDRaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUucG9ydG9henp1cnJvLmxpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxq1DMGW52Ckem5bSVnRtjCIWKccO+UUBqlyFGM6A3ZTDgg8Qe+dMk7x61TxR3+UeEToaT/suvhmV0fiKP41GpOKbDYdSKmQ2k225W1hoeFhNIffhCgCCwpDax5N9w0NOqzqkEP3S5S1T+NxBxKn0GFcb6oOj+7UNZ/aamv6PFSIgy55MBg0Ijf8POiLQQ1yN4i9KBz6JPFq07We1Ce/C8/31fnOfPV4DlVSzJmszWKTj4UdnHuYvRddEG3oFT/JaSMG4m3gBnFLO3e0bbCP3ZlJDYTcyuy+3oXU+/x100DCrYkjf16q2gdv5QmPtBMuOrHOy038bkcpcm0b9cKX3kCAwEAAaNQME4wHQYDVR0OBBYEFGBqqdbXdJ1LUNfi0ugRtHp9iH/BMB8GA1UdIwQYMBaAFGBqqdbXdJ1LUNfi0ugRtHp9iH/BMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACXUtNnLMcgNgWCgOEtc+u5Hvuz8Tbcs2GZPIlMkdaPjtlOke0UEkNJAB219GUtxzstPSAMKy9d+hzRJyyewnoAYjSH10U8j27DyzoTO0YaR9y7MotRibCiZr5CvrV/G98zmo9xRPX4XQj6lygLrgOvMhrBO0IKEsCjbUaXCcLE5aoQnVrcIZd6iZ1OgTU9HEqGXtkmHD+TR4x10VnqHuwAQc31oW7Ok+B5mrXVmIIis371k7FcjOZrcP5An3kfUKLKtG5guxI/fMkoocIIiNVMiYbytZ5UqyqDNtUegS5sIHWbGj0cKY2QccSSS6bVbQAuFNjenyBaFvZeDgh/deoA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWzCCAkOgAwIBAgIJAJnr7NY4q2hxMA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5jb211bmUucG9ydG9henp1cnJvLmxpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MjEwOTMwNDRaFw0zMDA1MTkwOTMwNDRaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUucG9ydG9henp1cnJvLmxpLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxq1DMGW52Ckem5bSVnRtjCIWKccO+UUBqlyFGM6A3ZTDgg8Qe+dMk7x61TxR3+UeEToaT/suvhmV0fiKP41GpOKbDYdSKmQ2k225W1hoeFhNIffhCgCCwpDax5N9w0NOqzqkEP3S5S1T+NxBxKn0GFcb6oOj+7UNZ/aamv6PFSIgy55MBg0Ijf8POiLQQ1yN4i9KBz6JPFq07We1Ce/C8/31fnOfPV4DlVSzJmszWKTj4UdnHuYvRddEG3oFT/JaSMG4m3gBnFLO3e0bbCP3ZlJDYTcyuy+3oXU+/x100DCrYkjf16q2gdv5QmPtBMuOrHOy038bkcpcm0b9cKX3kCAwEAAaNQME4wHQYDVR0OBBYEFGBqqdbXdJ1LUNfi0ugRtHp9iH/BMB8GA1UdIwQYMBaAFGBqqdbXdJ1LUNfi0ugRtHp9iH/BMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACXUtNnLMcgNgWCgOEtc+u5Hvuz8Tbcs2GZPIlMkdaPjtlOke0UEkNJAB219GUtxzstPSAMKy9d+hzRJyyewnoAYjSH10U8j27DyzoTO0YaR9y7MotRibCiZr5CvrV/G98zmo9xRPX4XQj6lygLrgOvMhrBO0IKEsCjbUaXCcLE5aoQnVrcIZd6iZ1OgTU9HEqGXtkmHD+TR4x10VnqHuwAQc31oW7Ok+B5mrXVmIIis371k7FcjOZrcP5An3kfUKLKtG5guxI/fMkoocIIiNVMiYbytZ5UqyqDNtUegS5sIHWbGj0cKY2QccSSS6bVbQAuFNjenyBaFvZeDgh/deoA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/portoazzurro"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/portoazzurro" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/portoazzurro" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/portoazzurro" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Porto Azzurro</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Porto Azzurro</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Porto Azzurro</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Porto Azzurro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Porto Azzurro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Porto Azzurro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Porto Azzurro</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Porto Azzurro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.portoazzurro.li.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.portoazzurro.li.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.portoazzurro.li.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.portoazzurro.li.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

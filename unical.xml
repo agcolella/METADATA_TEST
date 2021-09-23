@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns2="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" ID="id-VY8t9xsb21X94Smwb" entityID="https://proxy.auth.unical.it/spidSaml2/metadata"><ds:Signature Id="Signature1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-VY8t9xsb21X94Smwb"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>EmgSFFim97EaG+fYMBslQsv36OfMFC3zqruC3k+7cEQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>k+zGfBkM3k66tPnTfO53wfUgkjsdcGwyQuhkj0U5rRJzWGT9EAeEq94oGWjklF/U
+9GzyP5IsF+9W5snbovVV2xZFy4vdZbu+XSEDQ4ZAlSv+RK4bhh1fwQvCOcIsFFiK
+ME3IVn++TWln1ahJfBwiBrj8B4fQkB+JzwkpM0zHSJjnBMYuG3AD4U6GNJzWr/mV
+HlEhtZrNiGvqGmM72jK87Rhn27r0vBHAPAM3oyutJDIyt4TAFOO1wjZ1NQzSLcCK
+zYIIG/yqKIhOgb5xaMUDtQfw9ITJDEfi3K7FZ62zf2F+4VLogHSC5XbTMaHHl/ur
+2aYIOfC0uAmGGPALdLcz0A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDHzCCAgegAwIBAgIUFZZ+c+SJ9LBnSgUOHj1mgGL0KSQwDQYJKoZIhvcNAQELBQAwHzEdMBsGA1UEAwwUcHJveHkuYXV0aC51bmljYWwuaXQwHhcNMTkwNzExMDkxMTM3WhcNMjkwNzA4MDkxMTM3WjAfMR0wGwYDVQQDDBRwcm94eS5hdXRoLnVuaWNhbC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANEOKtRY6CKf/rhBC35B3UEr5tkakrtdn82Ts0lyvMQrxija64y00fEzII0GR4sLMYZybSfMQhhg8/ikcxkryRHSrwV2LkVtNGn90nBl0sSrQHM794uaAlort5+cNX089oKGGrZ2gZwYOHry2InX6+hObXz7aCUMFs73A2ZWYcPJUcoYEg1VgNjuXOkiSZ2r40EPT9/+ZLGH3cdckawUUk4ZXK+FZG01rprtDuOvChLW50VL/NbF/GxY9KMEIqboVZV4Sozha14fWNbGPiFRaLLhdX3TnVpFGHx94IRasnreRAQ3KG8MnEibO+XndlTv6OQXJVn/JD2i08TLBUhxRhMCAwEAAaNTMFEwHQYDVR0OBBYEFAqzzyLPjrEbcvi2Mq0//o3X2mpBMB8GA1UdIwQYMBaAFAqzzyLPjrEbcvi2Mq0//o3X2mpBMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADzGjWk1VES2/7sOYV/+yPmRbKjRo9hA7fCCmEqrDEp207gYgRi+6JPgFuU4xjT1W9cbA8MOEIsi6cBk3S2JUimXANgq/VoolfVEqQVdcEKg+7bD8CAt7aiKY2x79vvrI1H5ZnkezJaV4MIGtX3PByk96+c0uDIgn3BSefdtigajVhD1Yqlx9DVwaSbaxd2HbNDXr84CYmxNFLfPiNeUJKvtKz4oPq/IipcVjBe2bh2v0Q5UiKoSHzy6iP7PEaPVg/e9pMVrDgHH6VLQtYLx4OQOyXhgKp0mCrncGJx4XqfwTrsjvjkMoGLd+BKnRdRxOpIXk7Q5vIyaUq8qtdDiRkU=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:Extensions><ns2:DiscoveryResponse Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://proxy.auth.unical.it/spidSaml2/disco" index="1"/><mdui:UIInfo><mdui:DisplayName xml:lang="it">Aggregatore SPID - Universit&#xE0; della Calabria</mdui:DisplayName><mdui:Description xml:lang="it">Aggregatore SPID - Universit&#xE0; della Calabria</mdui:Description><mdui:Keywords xml:lang="it">Unical SPID Authentication Proxy SP-IT</mdui:Keywords><mdui:Logo height="100" width="100">https://www.spid.gov.it/assets/img/spid-ico-circle-bb.svg</mdui:Logo><mdui:PrivacyStatementURL xml:lang="it">https://www.unical.it/portale/ateneo/privacy/</mdui:PrivacyStatementURL></mdui:UIInfo></md:Extensions><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDHzCCAgegAwIBAgIUFZZ+c+SJ9LBnSgUOHj1mgGL0KSQwDQYJKoZIhvcNAQEL
+BQAwHzEdMBsGA1UEAwwUcHJveHkuYXV0aC51bmljYWwuaXQwHhcNMTkwNzExMDkx
+MTM3WhcNMjkwNzA4MDkxMTM3WjAfMR0wGwYDVQQDDBRwcm94eS5hdXRoLnVuaWNh
+bC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANEOKtRY6CKf/rhB
+C35B3UEr5tkakrtdn82Ts0lyvMQrxija64y00fEzII0GR4sLMYZybSfMQhhg8/ik
+cxkryRHSrwV2LkVtNGn90nBl0sSrQHM794uaAlort5+cNX089oKGGrZ2gZwYOHry
+2InX6+hObXz7aCUMFs73A2ZWYcPJUcoYEg1VgNjuXOkiSZ2r40EPT9/+ZLGH3cdc
+kawUUk4ZXK+FZG01rprtDuOvChLW50VL/NbF/GxY9KMEIqboVZV4Sozha14fWNbG
+PiFRaLLhdX3TnVpFGHx94IRasnreRAQ3KG8MnEibO+XndlTv6OQXJVn/JD2i08TL
+BUhxRhMCAwEAAaNTMFEwHQYDVR0OBBYEFAqzzyLPjrEbcvi2Mq0//o3X2mpBMB8G
+A1UdIwQYMBaAFAqzzyLPjrEbcvi2Mq0//o3X2mpBMA8GA1UdEwEB/wQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBADzGjWk1VES2/7sOYV/+yPmRbKjRo9hA7fCCmEqr
+DEp207gYgRi+6JPgFuU4xjT1W9cbA8MOEIsi6cBk3S2JUimXANgq/VoolfVEqQVd
+cEKg+7bD8CAt7aiKY2x79vvrI1H5ZnkezJaV4MIGtX3PByk96+c0uDIgn3BSefdt
+igajVhD1Yqlx9DVwaSbaxd2HbNDXr84CYmxNFLfPiNeUJKvtKz4oPq/IipcVjBe2
+bh2v0Q5UiKoSHzy6iP7PEaPVg/e9pMVrDgHH6VLQtYLx4OQOyXhgKp0mCrncGJx4
+XqfwTrsjvjkMoGLd+BKnRdRxOpIXk7Q5vIyaUq8qtdDiRkU=
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDHzCCAgegAwIBAgIUFZZ+c+SJ9LBnSgUOHj1mgGL0KSQwDQYJKoZIhvcNAQEL
+BQAwHzEdMBsGA1UEAwwUcHJveHkuYXV0aC51bmljYWwuaXQwHhcNMTkwNzExMDkx
+MTM3WhcNMjkwNzA4MDkxMTM3WjAfMR0wGwYDVQQDDBRwcm94eS5hdXRoLnVuaWNh
+bC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANEOKtRY6CKf/rhB
+C35B3UEr5tkakrtdn82Ts0lyvMQrxija64y00fEzII0GR4sLMYZybSfMQhhg8/ik
+cxkryRHSrwV2LkVtNGn90nBl0sSrQHM794uaAlort5+cNX089oKGGrZ2gZwYOHry
+2InX6+hObXz7aCUMFs73A2ZWYcPJUcoYEg1VgNjuXOkiSZ2r40EPT9/+ZLGH3cdc
+kawUUk4ZXK+FZG01rprtDuOvChLW50VL/NbF/GxY9KMEIqboVZV4Sozha14fWNbG
+PiFRaLLhdX3TnVpFGHx94IRasnreRAQ3KG8MnEibO+XndlTv6OQXJVn/JD2i08TL
+BUhxRhMCAwEAAaNTMFEwHQYDVR0OBBYEFAqzzyLPjrEbcvi2Mq0//o3X2mpBMB8G
+A1UdIwQYMBaAFAqzzyLPjrEbcvi2Mq0//o3X2mpBMA8GA1UdEwEB/wQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBADzGjWk1VES2/7sOYV/+yPmRbKjRo9hA7fCCmEqr
+DEp207gYgRi+6JPgFuU4xjT1W9cbA8MOEIsi6cBk3S2JUimXANgq/VoolfVEqQVd
+cEKg+7bD8CAt7aiKY2x79vvrI1H5ZnkezJaV4MIGtX3PByk96+c0uDIgn3BSefdt
+igajVhD1Yqlx9DVwaSbaxd2HbNDXr84CYmxNFLfPiNeUJKvtKz4oPq/IipcVjBe2
+bh2v0Q5UiKoSHzy6iP7PEaPVg/e9pMVrDgHH6VLQtYLx4OQOyXhgKp0mCrncGJx4
+XqfwTrsjvjkMoGLd+BKnRdRxOpIXk7Q5vIyaUq8qtdDiRkU=
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://proxy.auth.unical.it/spidSaml2/ls/post/"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://proxy.auth.unical.it/spidSaml2/acs/post" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">https://proxy.auth.unical.it/spidSaml2/metadata</md:ServiceName><md:RequestedAttribute Name="spidCode" isRequired="true"/><md:RequestedAttribute Name="name" isRequired="true"/><md:RequestedAttribute Name="familyName" isRequired="true"/><md:RequestedAttribute Name="fiscalNumber" isRequired="true"/><md:RequestedAttribute Name="email" isRequired="true"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Unical</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Universit&#xE0; della Calabria</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">https://www.unical.it</md:OrganizationURL></md:Organization><md:ContactPerson contactType="technical"><md:GivenName>Technical</md:GivenName><md:EmailAddress>mailto:spid-technicians@unical.it</md:EmailAddress></md:ContactPerson><md:ContactPerson contactType="support"><md:GivenName>Support</md:GivenName><md:EmailAddress>mailto:spid-support@unical.it</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>

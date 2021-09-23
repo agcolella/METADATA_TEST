@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_63e0e30bc73df1d58ef6a0b9b53fe80e60a0863e" entityID="https://spid.comune.bitonto.ba.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_63e0e30bc73df1d58ef6a0b9b53fe80e60a0863e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WiTGqGYIHIBIAo6wNnMy8VBCVsFmQM2T5EGYDoTLKRU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Qj4vNrllWBvbugqmfrHKRJRyjHXK2MuoPrjhLMdAz6CLYTyY+oVRCrq4BP/pAu/c23SbSqHsfV4X
+joUZPA5mYeCZlRnaJTm38ThacWXgwtVQkwFmnsGLxf830ZeTRccyGWTo2TE29PPDqVnQQM/rHJVl
+ht5q92ewC5NTKbiXNmk9WrjMcmBYcVpskdQ9cQtsxLT6KeKtV539WhA8TRbeI3+Bn3cOprA75nNW
+UOuQkjqqd3iHumGRW/dkntUfdqghK4AR0PoKX7KIO39YxbcmbghZ/2dX10LM4X9mSI9SXUR67ioJ
+Ag6NCXm5bhy+iIyaSeZATOD66WDZftFa9pthufCAFonkDFoik+HXm9gkSlWQFiq5UwtQ8U664+8V
+DvDwoAJZrFv3HVCdarQksoJ4+iDBIgR7l3Rfp8MTEEmTH053sbgeZu4mOrUqOShKsnaFqzPr/hFt
+UzxTO0LVueqEByvq4qw4EaSe1m1LCQ2HEkQ68A/I59wYEG0pEN9fiIdD
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5NgLIb9V2kb0wQ5zfoOstr//LyA180pPWsQkR8htbOoimqK2to4u2hpdezgbyR4F/FxnLNDgV/XS
+j299D+SBxi1djft3xvRVrYGo5ZZV3EEPQkyQ/QFrmz1G7Uf40HHNCsg5Px9hgKPQNOUmaBi6x0tU
+l7WXk+MWqd+c4SX9lOOrrctsINdoKbjSargNn5gRGasC6CqHBxqnzoVVovMfODrE9rOYWXfvmrtZ
+RksaHhdhZwIUgf6JiNtsmSo/2JBlKTtoVMtja67BBk0DkdRd1LuGeec7s2dNF1h+Z0FOvg28igAD
+9xG9stb/hzgrgN+KqilR1rjbytL0r+U2Fcn3j4B+QEaguTaGNbxDFqnebxM7Xhuvq/48cQ6cEHk6
+BFkFI8ziODy342lqH3UJ56S9RXbQK0qvThw7DOrb2sfj6UeBCFWblZWCX0FTJyiE+45BsNrkNV0j
+mkDaHcHONGgeqIhcAUqQe+YOPwg7YWNQh3QdARudkTlLcWa55MYd4wf9
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEEjCCAnqgAwIBAgIJAKKjgO9jm67OMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNVBAMTGXNwaWQu
+Y29tdW5lLmJpdG9udG8uYmEuaXQwHhcNMTgxMTI5MDg1OTI1WhcNMjgxMTI2MDg1OTI1WjAkMSIw
+IAYDVQQDExlzcGlkLmNvbXVuZS5iaXRvbnRvLmJhLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8A
+MIIBigKCAYEA5NgLIb9V2kb0wQ5zfoOstr//LyA180pPWsQkR8htbOoimqK2to4u2hpdezgbyR4F
+/FxnLNDgV/XSj299D+SBxi1djft3xvRVrYGo5ZZV3EEPQkyQ/QFrmz1G7Uf40HHNCsg5Px9hgKPQ
+NOUmaBi6x0tUl7WXk+MWqd+c4SX9lOOrrctsINdoKbjSargNn5gRGasC6CqHBxqnzoVVovMfODrE
+9rOYWXfvmrtZRksaHhdhZwIUgf6JiNtsmSo/2JBlKTtoVMtja67BBk0DkdRd1LuGeec7s2dNF1h+
+Z0FOvg28igAD9xG9stb/hzgrgN+KqilR1rjbytL0r+U2Fcn3j4B+QEaguTaGNbxDFqnebxM7Xhuv
+q/48cQ6cEHk6BFkFI8ziODy342lqH3UJ56S9RXbQK0qvThw7DOrb2sfj6UeBCFWblZWCX0FTJyiE
++45BsNrkNV0jmkDaHcHONGgeqIhcAUqQe+YOPwg7YWNQh3QdARudkTlLcWa55MYd4wf9AgMBAAGj
+RzBFMCQGA1UdEQQdMBuCGXNwaWQuY29tdW5lLmJpdG9udG8uYmEuaXQwHQYDVR0OBBYEFCibmFn4
+Vlyg1OGU08Z0fhCkJkL3MA0GCSqGSIb3DQEBCwUAA4IBgQBKhVcSgnTTQw7Tt1Nu2F+5AKYdF4jc
+TRwUVQZDuLeNMR2ygBM7LAcnT92Wvlto9PgvEVg5HY65ER8DuXPOAbKr/3W42eolBAEJDLVsVf2r
+ZjyCi44UZsatD6XWg6ttBMDur/P45Tv8fEAdE0TCMv8sQ4/A38g8OYe/VOJOFoKt9IfzcpR0tvL0
+MGjiSEnqgtvehkuMqohaUNGEsL03VkoZe+zSk/2JgcQOV5VDH9lp1pzFK+tIGaib/9oUz4u9RoaX
+prIVRLUVTo3xZlCfNvlAbXcjVR/6EMKWWic01TeTW6ADbTVFXbv1IKpANzvDv/mmtdTJJz3+YvY8
+JJg4rRs3isDUoTH6efCXVDwfZdrcEJn8kuuqgjMY/qNjWajqy45ctCfnltAmrWn39g9524c3W5lC
+PkmqJKoP8WBfgsx02Q94iahCVwd+yjw5OEDes+GixjfebAHeZFoI2oYcMkyphlNkyBhsfHh/smfi
+Xzl4v2y5mkgol3/B5r3R8b8vPd0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.comune.bitonto.ba.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.comune.bitonto.ba.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEEjCCAnqgAwIBAgIJAKKjgO9jm67OMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNV
+BAMTGXNwaWQuY29tdW5lLmJpdG9udG8uYmEuaXQwHhcNMTgxMTI5MDg1OTI1WhcN
+MjgxMTI2MDg1OTI1WjAkMSIwIAYDVQQDExlzcGlkLmNvbXVuZS5iaXRvbnRvLmJh
+Lml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA5NgLIb9V2kb0wQ5z
+foOstr//LyA180pPWsQkR8htbOoimqK2to4u2hpdezgbyR4F/FxnLNDgV/XSj299
+D+SBxi1djft3xvRVrYGo5ZZV3EEPQkyQ/QFrmz1G7Uf40HHNCsg5Px9hgKPQNOUm
+aBi6x0tUl7WXk+MWqd+c4SX9lOOrrctsINdoKbjSargNn5gRGasC6CqHBxqnzoVV
+ovMfODrE9rOYWXfvmrtZRksaHhdhZwIUgf6JiNtsmSo/2JBlKTtoVMtja67BBk0D
+kdRd1LuGeec7s2dNF1h+Z0FOvg28igAD9xG9stb/hzgrgN+KqilR1rjbytL0r+U2
+Fcn3j4B+QEaguTaGNbxDFqnebxM7Xhuvq/48cQ6cEHk6BFkFI8ziODy342lqH3UJ
+56S9RXbQK0qvThw7DOrb2sfj6UeBCFWblZWCX0FTJyiE+45BsNrkNV0jmkDaHcHO
+NGgeqIhcAUqQe+YOPwg7YWNQh3QdARudkTlLcWa55MYd4wf9AgMBAAGjRzBFMCQG
+A1UdEQQdMBuCGXNwaWQuY29tdW5lLmJpdG9udG8uYmEuaXQwHQYDVR0OBBYEFCib
+mFn4Vlyg1OGU08Z0fhCkJkL3MA0GCSqGSIb3DQEBCwUAA4IBgQBKhVcSgnTTQw7T
+t1Nu2F+5AKYdF4jcTRwUVQZDuLeNMR2ygBM7LAcnT92Wvlto9PgvEVg5HY65ER8D
+uXPOAbKr/3W42eolBAEJDLVsVf2rZjyCi44UZsatD6XWg6ttBMDur/P45Tv8fEAd
+E0TCMv8sQ4/A38g8OYe/VOJOFoKt9IfzcpR0tvL0MGjiSEnqgtvehkuMqohaUNGE
+sL03VkoZe+zSk/2JgcQOV5VDH9lp1pzFK+tIGaib/9oUz4u9RoaXprIVRLUVTo3x
+ZlCfNvlAbXcjVR/6EMKWWic01TeTW6ADbTVFXbv1IKpANzvDv/mmtdTJJz3+YvY8
+JJg4rRs3isDUoTH6efCXVDwfZdrcEJn8kuuqgjMY/qNjWajqy45ctCfnltAmrWn3
+9g9524c3W5lCPkmqJKoP8WBfgsx02Q94iahCVwd+yjw5OEDes+GixjfebAHeZFoI
+2oYcMkyphlNkyBhsfHh/smfiXzl4v2y5mkgol3/B5r3R8b8vPd0=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bitonto.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bitonto.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set0</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+					<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+					<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+					<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+					<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+					<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+					<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+					<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					<md:RequestedAttribute FriendlyName="address" Name="address"/>
+					<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Comune di Bitonto</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Comune di Bitonto</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">https://www.comune.bitonto.ba.it</md:OrganizationURL>
+					</md:Organization></md:EntityDescriptor>

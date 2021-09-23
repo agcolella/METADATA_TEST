@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx71d15c95-9daa-097b-f0ac-0e93a2b75613" entityID="https://www.comunepontecorvo.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx71d15c95-9daa-097b-f0ac-0e93a2b75613">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+Ssm5NaAFdZdPdq6x5BE96jZdqeLoyxLOOa5Ts9wyF4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XT9NoqEJa+KitcKTTktCfoh/i8C5wCWW8qnVSqo7NwEQYLFSr3MPDCa2Y1F2PeKtoWsSwLMGHfSQ
+j7KHMzpOvz6Ku1aqbkhDJs6Vh5Ti9tEGbEj7KSxsFtSKs7ac44pfDRyrEOIZ/5QrlUp2CZowCPKl
+xE417xCRQfGSMdUDNuBxAbzDBFCW0Q/qOnb7oCxjMVflyZLPHeVTfdStJYtEjzJZk5g8vtopdaV0
++F/PvmclCwDhCRJ9V9wtsEj0Q2pjGtrhQPvYoDyv1126Yln6BqepKPN1GsQXiJpI/N7cefBkUEK4
+eELWau3GufHFTfMuleGt0qPIOnY0mysHoKhtdg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5XjKik+K+3rROg05u2k+GRsVHuNgXpwzz+298PpM7XyNWpZlzKNJBvguRa5rLg0teFlFG+G4NIou
+MvYwr7Ui7eqQ550TWrhxS9/cT1ub0LI/R1SOjR0jc3piWz1tiD/kHMBYUxpa7e1CqSsBhM2mJQ3a
+OCs1oQT9H4tXoAOSH7x9sT3csFLeGF4P8LV/wln63klvuOWQlccMdQ9AGpP393gAYSkFdjfttBGa
+0NR8N8YUP+OsCY+fmzBz/bvFTqUuVfeBJfUe1mVtl9b1B/HgeMWu2JMDaQmCystMTBhhjCmp6BKz
+wheVNIbzP8lpE2ABYDDd8K4yRCmTj6eZnXjjYQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIJAPEeiek+yHc2MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPUG9udGVjb3J2byAoRnIpMR0wGwYDVQQKDBRDb211bmUg
+ZGkgUG9udGVjb3J2bzEgMB4GA1UEAwwXd3d3LmNvbXVuZXBvbnRlY29ydm8uaXQwHhcNMTgwNTA3
+MjEzMjAyWhcNMjgwNTA2MjEzMjAyWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAW
+BgNVBAcMD1BvbnRlY29ydm8gKEZyKTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbnRlY29ydm8xIDAe
+BgNVBAMMF3d3dy5jb211bmVwb250ZWNvcnZvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA5XjKik+K+3rROg05u2k+GRsVHuNgXpwzz+298PpM7XyNWpZlzKNJBvguRa5rLg0teFlF
+G+G4NIouMvYwr7Ui7eqQ550TWrhxS9/cT1ub0LI/R1SOjR0jc3piWz1tiD/kHMBYUxpa7e1CqSsB
+hM2mJQ3aOCs1oQT9H4tXoAOSH7x9sT3csFLeGF4P8LV/wln63klvuOWQlccMdQ9AGpP393gAYSkF
+djfttBGa0NR8N8YUP+OsCY+fmzBz/bvFTqUuVfeBJfUe1mVtl9b1B/HgeMWu2JMDaQmCystMTBhh
+jCmp6BKzwheVNIbzP8lpE2ABYDDd8K4yRCmTj6eZnXjjYQIDAQABo1AwTjAdBgNVHQ4EFgQU1os1
+fWEhwGT5TjVvHhMubluh47YwHwYDVR0jBBgwFoAU1os1fWEhwGT5TjVvHhMubluh47YwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArc0WBkz6Qlv04iohwCma6jPa1TbqfvO4AGPnkDjW
+D9ADSqZBQG4gaML0G0GIBlrBT3+Fw36eXltvj+OcW2QW1W9OJHkaoAKnwirmDr9LQyHG62DQb28K
+q0OWnJ5E3Y1cxRKcfR4PbO7tzFZc9EeZNe2iJiPwlPxoogeudEsb90xHe2Zka9pR/8TZvnaEYD3i
+0EfJwYT05vXOZB0gu4sBR6i3LyXCXMjj4GilR7ZhDPOI4LjqZ7YNGRFUX456YUmtINhqHx21joTL
+d840arGWCU+PofgaFII/wEeS5K/Mbz+ygkPLkFVmHSzdwrAgFVEE1bGUaSN1wJyG7C7wiuxoYg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAPEeiek+yHc2MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPUG9udGVjb3J2byAoRnIpMR0wGwYDVQQKDBRDb211bmUgZGkgUG9udGVjb3J2bzEgMB4GA1UEAwwXd3d3LmNvbXVuZXBvbnRlY29ydm8uaXQwHhcNMTgwNTA3MjEzMjAyWhcNMjgwNTA2MjEzMjAyWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvbnRlY29ydm8gKEZyKTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbnRlY29ydm8xIDAeBgNVBAMMF3d3dy5jb211bmVwb250ZWNvcnZvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5XjKik+K+3rROg05u2k+GRsVHuNgXpwzz+298PpM7XyNWpZlzKNJBvguRa5rLg0teFlFG+G4NIouMvYwr7Ui7eqQ550TWrhxS9/cT1ub0LI/R1SOjR0jc3piWz1tiD/kHMBYUxpa7e1CqSsBhM2mJQ3aOCs1oQT9H4tXoAOSH7x9sT3csFLeGF4P8LV/wln63klvuOWQlccMdQ9AGpP393gAYSkFdjfttBGa0NR8N8YUP+OsCY+fmzBz/bvFTqUuVfeBJfUe1mVtl9b1B/HgeMWu2JMDaQmCystMTBhhjCmp6BKzwheVNIbzP8lpE2ABYDDd8K4yRCmTj6eZnXjjYQIDAQABo1AwTjAdBgNVHQ4EFgQU1os1fWEhwGT5TjVvHhMubluh47YwHwYDVR0jBBgwFoAU1os1fWEhwGT5TjVvHhMubluh47YwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArc0WBkz6Qlv04iohwCma6jPa1TbqfvO4AGPnkDjWD9ADSqZBQG4gaML0G0GIBlrBT3+Fw36eXltvj+OcW2QW1W9OJHkaoAKnwirmDr9LQyHG62DQb28Kq0OWnJ5E3Y1cxRKcfR4PbO7tzFZc9EeZNe2iJiPwlPxoogeudEsb90xHe2Zka9pR/8TZvnaEYD3i0EfJwYT05vXOZB0gu4sBR6i3LyXCXMjj4GilR7ZhDPOI4LjqZ7YNGRFUX456YUmtINhqHx21joTLd840arGWCU+PofgaFII/wEeS5K/Mbz+ygkPLkFVmHSzdwrAgFVEE1bGUaSN1wJyG7C7wiuxoYg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAPEeiek+yHc2MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEYMBYGA1UEBwwPUG9udGVjb3J2byAoRnIpMR0wGwYDVQQKDBRDb211bmUgZGkgUG9udGVjb3J2bzEgMB4GA1UEAwwXd3d3LmNvbXVuZXBvbnRlY29ydm8uaXQwHhcNMTgwNTA3MjEzMjAyWhcNMjgwNTA2MjEzMjAyWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1BvbnRlY29ydm8gKEZyKTEdMBsGA1UECgwUQ29tdW5lIGRpIFBvbnRlY29ydm8xIDAeBgNVBAMMF3d3dy5jb211bmVwb250ZWNvcnZvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5XjKik+K+3rROg05u2k+GRsVHuNgXpwzz+298PpM7XyNWpZlzKNJBvguRa5rLg0teFlFG+G4NIouMvYwr7Ui7eqQ550TWrhxS9/cT1ub0LI/R1SOjR0jc3piWz1tiD/kHMBYUxpa7e1CqSsBhM2mJQ3aOCs1oQT9H4tXoAOSH7x9sT3csFLeGF4P8LV/wln63klvuOWQlccMdQ9AGpP393gAYSkFdjfttBGa0NR8N8YUP+OsCY+fmzBz/bvFTqUuVfeBJfUe1mVtl9b1B/HgeMWu2JMDaQmCystMTBhhjCmp6BKzwheVNIbzP8lpE2ABYDDd8K4yRCmTj6eZnXjjYQIDAQABo1AwTjAdBgNVHQ4EFgQU1os1fWEhwGT5TjVvHhMubluh47YwHwYDVR0jBBgwFoAU1os1fWEhwGT5TjVvHhMubluh47YwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEArc0WBkz6Qlv04iohwCma6jPa1TbqfvO4AGPnkDjWD9ADSqZBQG4gaML0G0GIBlrBT3+Fw36eXltvj+OcW2QW1W9OJHkaoAKnwirmDr9LQyHG62DQb28Kq0OWnJ5E3Y1cxRKcfR4PbO7tzFZc9EeZNe2iJiPwlPxoogeudEsb90xHe2Zka9pR/8TZvnaEYD3i0EfJwYT05vXOZB0gu4sBR6i3LyXCXMjj4GilR7ZhDPOI4LjqZ7YNGRFUX456YUmtINhqHx21joTLd840arGWCU+PofgaFII/wEeS5K/Mbz+ygkPLkFVmHSzdwrAgFVEE1bGUaSN1wJyG7C7wiuxoYg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunepontecorvo.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunepontecorvo.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pontecorvo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pontecorvo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comunepontecorvo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

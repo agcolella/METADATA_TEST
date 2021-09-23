@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://spid.rgs.mef.gov.it" ID="Id-9d389166-c0e2-4448-b697-bee4ffefadb6" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<SignedInfo>
+  					<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+  					<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  					<Reference URI="#Id-9d389166-c0e2-4448-b697-bee4ffefadb6">
+    					<Transforms>
+      						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      						<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    					</Transforms>
+    					<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    					<DigestValue>lb3VwZmzF7nEN3CFPU6OTirbIDwY0ajQLyrk9Wysmto=</DigestValue>
+  					</Reference>
+				</SignedInfo>
+			<SignatureValue>w7nFaOoCnPkgY20gLoqTaAVSz/Evlkzfa0f77xEhCIGOxazOVrRY5X/lzKMSFf1vkSrAUMxjmgcXFZ3dE4vKlbBRmNXyht6y3H7wUoTVe7QgTGvGGXpDceIBpOW9khx1TjduHJMsAki2mo8XX5RrBRsPlIVcgis9QSypecbTock=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIICVTCCAb6gAwIBAgIBATANBgkqhkiG9w0BAQsFADA4MQswCQYDVQQGEwJJVDEOMAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwHhcNMTYwNDA1MDAwMDAwWhcNMzYwNDA0MjM1OTU5WjA4MQswCQYDVQQGEwJJVDEOMAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANvyjZ89m39BNYtwpOW3gpSt1uHOrwo/6U0GfzS2Xdpjrr54zboaSfzMvLUAjtsL39sH1bJ5eqF0qgw4bVnEEfrMlAD2OoJ45K+USlAizxx6A9r+/Tm3PZHUEbcm+fjrF/C6005/BE3WVQcvd0eci/G0R8niPy2xxdijG10psRWTAgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFF6rklv/QJyKRgz7Ll6E2Qt6ER5lMAsGA1UdDwQEAwIF4DARBglghkgBhvhCAQEEBAMCBkAwHgYJYIZIAYb4QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOBgQC+B+wXsrLY87WtTLMa7b2L+7uJPS5VGJ0H/6PJFmc8w+MjZ1fxLYtoVLUBIczbhArjinCUS0swsC+3bR5GtBGcJNOZBY7wrL1iuSRQgbzs1Sg5rPAT2H0jPaj/kj/SQxnCTKLHmXJCYyWmZgkkVenVbFbwBvBA5Z0Hm/9VxkT5kg==</X509Certificate><X509IssuerSerial><X509IssuerName>CN=federazione SPID, O=Sogei, C=IT</X509IssuerName><X509SerialNumber>1</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature> 
+	<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIICVTCCAb6gAwIBAgIBATANBgkqhkiG9w0BAQsFADA4MQswCQYDVQQGEwJJVDEO
+MAwGA1UEChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwHhcNMTYw
+NDA1MDAwMDAwWhcNMzYwNDA0MjM1OTU5WjA4MQswCQYDVQQGEwJJVDEOMAwGA1UE
+ChMFU29nZWkxGTAXBgNVBAMTEGZlZGVyYXppb25lIFNQSUQwgZ8wDQYJKoZIhvcN
+AQEBBQADgY0AMIGJAoGBANvyjZ89m39BNYtwpOW3gpSt1uHOrwo/6U0GfzS2Xdpj
+rr54zboaSfzMvLUAjtsL39sH1bJ5eqF0qgw4bVnEEfrMlAD2OoJ45K+USlAizxx6
+A9r+/Tm3PZHUEbcm+fjrF/C6005/BE3WVQcvd0eci/G0R8niPy2xxdijG10psRWT
+AgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFF6rklv/QJyKRgz7Ll6E
+2Qt6ER5lMAsGA1UdDwQEAwIF4DARBglghkgBhvhCAQEEBAMCBkAwHgYJYIZIAYb4
+QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOBgQC+B+wXsrLY
+87WtTLMa7b2L+7uJPS5VGJ0H/6PJFmc8w+MjZ1fxLYtoVLUBIczbhArjinCUS0sw
+sC+3bR5GtBGcJNOZBY7wrL1iuSRQgbzs1Sg5rPAT2H0jPaj/kj/SQxnCTKLHmXJC
+YyWmZgkkVenVbFbwBvBA5Z0Hm/9VxkT5kg==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Location="https://sp.sanita.finanze.it/sp/SingleLogoutService" ResponseLocation="https://sp.sanita.finanze.it/sp/SingleLogoutService/response" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Location="https://sptest.sanita.finanze.it/sp/AssertionConsumerService2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Location="https://sp.sanita.finanze.it/sp/AssertionConsumerService3" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="1"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">serviziClasse1</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Ragioneria Generale dello Stato</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Ragioneria Generale dello Stato</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.rgs.mef.gov.it/</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

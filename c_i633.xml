@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.stu.comune.sirmione.bs.it/" ID="pfx5605b2ba-e548-c52b-7d4b-87d14953c660"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx5605b2ba-e548-c52b-7d4b-87d14953c660"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OkCT4jpHSnr4Z/B57Yzt5VkP8KBk1IM+AR0/Zh/1Pck=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>O1rwigmVyHUbmbgVSzMFNoa1jM6pT3S/dk/FCeKGQH2uiNNl3CmNBkRaK5GWbAKXgbqyGQe9vJ9WJ5T/ixMMIlai9dlsUBmUn3uoMjW2X0L1eCuyMQYdUkrtXgqW+wZMV7z7nA8HzjeGeQxUjAZJaeomtHgcVgY/5mkr897TNdn73FmJqUVt9qYefFbVGWdTeWBwMylyu2lMzx9Z+LIpZIEF30woq9TFWFySWBW+0T974WMYDEYTE25KFo8Pt6+rNVgO59+gtIQHF2LIeG04mlQP8oVmj60yxecZb3z/Xvjo0hKF7hSit4tOqbDQG8PcLOsmLikXzXGFJu05Vnbbvg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEBDCCAuygAwIBAgIJALT2drbiZu/wMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTERMA8GA1UEBwwIU2lybWlvbmUxGzAZBgNVBAoMEkNvbXVuZSBkaSBTaXJtaW9uZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJjAkBgNVBAMMHXd3dy5zdHUuY29tdW5lLnNpcm1pb25lLmJzLml0MB4XDTE3MTExNTA5MzkxMloXDTI3MTExMzA5MzkxMlowgZYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMREwDwYDVQQHDAhTaXJtaW9uZTEbMBkGA1UECgwSQ29tdW5lIGRpIFNpcm1pb25lMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEmMCQGA1UEAwwdd3d3LnN0dS5jb211bmUuc2lybWlvbmUuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDy2O0CjA98EPmH2pz50/w710NB27SDV5P6VF3f1d2kKLOzSJi0hM3dcSxlSM54Mklc6d7XAtVD6bgTzzqzNJPdrI3lJgKcneoNVbiQF2MuQagyupxrO9gnTeP08wWqRc63qyNuBxbppsd+EEHubplcSgALaqde6z6DYMD6JfTzjKvljPM7g49A/fE/tiuW2/0X8LtBvn2H9/w+/+t/8wvaBCjzqTLw8qGZtpU+wLiknXxDEjR7iIFIf8cEeCXGu/z5BCe43Z9k/QWymLr19CYNFjgI0Dw5nScTafMeTyzLMFatskgilK8bouisREzWwgUqHg6sGbrxgR342L7uKi7rAgMBAAGjUzBRMB0GA1UdDgQWBBTpUtJEAIZPWYV3XUAa2gJLn0FFJjAfBgNVHSMEGDAWgBTpUtJEAIZPWYV3XUAa2gJLn0FFJjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBV5JaqP9NvH9IT4bGgPZPQ4lP1ikkdDn1HOm7q8G5ai1FATfTTJ8eWVEzEEv3HL9FaZtGQ5HjJ/iJPGFSgsn6aH+BovJVmFYZhSwgB11LhF3wYrE+joayFku53Impc/d2457YyGAQwVOHoCkBsBibWHP3BjEMv1HrzN2Gmhp3njPz69qm2sW4/cqP8cR7n5i4lWBWUKKVU0rSCH/GETcOinrKCavL+2sVovg4JEhgTWyofUgVUY8HEKryhDfNnAGCJVvxSyCB17IPdE1lpup8ylRu++vlIs3zRRIdKy3bZH4kbuH2PJ6gxLwhDy+5jnTfgP6GDL794JQCrQiArYTlG</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBDCCAuygAwIBAgIJALT2drbiZu/wMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTERMA8GA1UEBwwIU2lybWlvbmUxGzAZBgNVBAoMEkNvbXVuZSBkaSBTaXJtaW9uZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJjAkBgNVBAMMHXd3dy5zdHUuY29tdW5lLnNpcm1pb25lLmJzLml0MB4XDTE3MTExNTA5MzkxMloXDTI3MTExMzA5MzkxMlowgZYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMREwDwYDVQQHDAhTaXJtaW9uZTEbMBkGA1UECgwSQ29tdW5lIGRpIFNpcm1pb25lMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEmMCQGA1UEAwwdd3d3LnN0dS5jb211bmUuc2lybWlvbmUuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDy2O0CjA98EPmH2pz50/w710NB27SDV5P6VF3f1d2kKLOzSJi0hM3dcSxlSM54Mklc6d7XAtVD6bgTzzqzNJPdrI3lJgKcneoNVbiQF2MuQagyupxrO9gnTeP08wWqRc63qyNuBxbppsd+EEHubplcSgALaqde6z6DYMD6JfTzjKvljPM7g49A/fE/tiuW2/0X8LtBvn2H9/w+/+t/8wvaBCjzqTLw8qGZtpU+wLiknXxDEjR7iIFIf8cEeCXGu/z5BCe43Z9k/QWymLr19CYNFjgI0Dw5nScTafMeTyzLMFatskgilK8bouisREzWwgUqHg6sGbrxgR342L7uKi7rAgMBAAGjUzBRMB0GA1UdDgQWBBTpUtJEAIZPWYV3XUAa2gJLn0FFJjAfBgNVHSMEGDAWgBTpUtJEAIZPWYV3XUAa2gJLn0FFJjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBV5JaqP9NvH9IT4bGgPZPQ4lP1ikkdDn1HOm7q8G5ai1FATfTTJ8eWVEzEEv3HL9FaZtGQ5HjJ/iJPGFSgsn6aH+BovJVmFYZhSwgB11LhF3wYrE+joayFku53Impc/d2457YyGAQwVOHoCkBsBibWHP3BjEMv1HrzN2Gmhp3njPz69qm2sW4/cqP8cR7n5i4lWBWUKKVU0rSCH/GETcOinrKCavL+2sVovg4JEhgTWyofUgVUY8HEKryhDfNnAGCJVvxSyCB17IPdE1lpup8ylRu++vlIs3zRRIdKy3bZH4kbuH2PJ6gxLwhDy+5jnTfgP6GDL794JQCrQiArYTlG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBDCCAuygAwIBAgIJALT2drbiZu/wMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTERMA8GA1UEBwwIU2lybWlvbmUxGzAZBgNVBAoMEkNvbXVuZSBkaSBTaXJtaW9uZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJjAkBgNVBAMMHXd3dy5zdHUuY29tdW5lLnNpcm1pb25lLmJzLml0MB4XDTE3MTExNTA5MzkxMloXDTI3MTExMzA5MzkxMlowgZYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCcmVzY2lhMREwDwYDVQQHDAhTaXJtaW9uZTEbMBkGA1UECgwSQ29tdW5lIGRpIFNpcm1pb25lMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEmMCQGA1UEAwwdd3d3LnN0dS5jb211bmUuc2lybWlvbmUuYnMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDy2O0CjA98EPmH2pz50/w710NB27SDV5P6VF3f1d2kKLOzSJi0hM3dcSxlSM54Mklc6d7XAtVD6bgTzzqzNJPdrI3lJgKcneoNVbiQF2MuQagyupxrO9gnTeP08wWqRc63qyNuBxbppsd+EEHubplcSgALaqde6z6DYMD6JfTzjKvljPM7g49A/fE/tiuW2/0X8LtBvn2H9/w+/+t/8wvaBCjzqTLw8qGZtpU+wLiknXxDEjR7iIFIf8cEeCXGu/z5BCe43Z9k/QWymLr19CYNFjgI0Dw5nScTafMeTyzLMFatskgilK8bouisREzWwgUqHg6sGbrxgR342L7uKi7rAgMBAAGjUzBRMB0GA1UdDgQWBBTpUtJEAIZPWYV3XUAa2gJLn0FFJjAfBgNVHSMEGDAWgBTpUtJEAIZPWYV3XUAa2gJLn0FFJjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBV5JaqP9NvH9IT4bGgPZPQ4lP1ikkdDn1HOm7q8G5ai1FATfTTJ8eWVEzEEv3HL9FaZtGQ5HjJ/iJPGFSgsn6aH+BovJVmFYZhSwgB11LhF3wYrE+joayFku53Impc/d2457YyGAQwVOHoCkBsBibWHP3BjEMv1HrzN2Gmhp3njPz69qm2sW4/cqP8cR7n5i4lWBWUKKVU0rSCH/GETcOinrKCavL+2sVovg4JEhgTWyofUgVUY8HEKryhDfNnAGCJVvxSyCB17IPdE1lpup8ylRu++vlIs3zRRIdKy3bZH4kbuH2PJ6gxLwhDy+5jnTfgP6GDL794JQCrQiArYTlG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.stu.comune.sirmione.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/sirmione"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.stu.comune.sirmione.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/sirmione" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">sirmione</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_i633</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Sirmione</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.stu.comune.sirmione.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

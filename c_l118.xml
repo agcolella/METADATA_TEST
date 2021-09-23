@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://stu.comune.ternodisola.bg.it/" ID="_beb690204aa973ecf017f71ddbc9be4b0319aaabb9aa642e67f14c0cf42b3501"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_beb690204aa973ecf017f71ddbc9be4b0319aaabb9aa642e67f14c0cf42b3501"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>iw28wNLvj2o5tQlHQR+CyUQMZ864EC+OmbaRinY45EA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LWumOHVC8fAjYEj4SAYJxq+leWS/fgBJCUqwI1QS+3/GDp+A1HR3mlOLd0VAQ4AA7TMN+GnG8Yvn++uGpzSx1O/oO42xq0xqsHD7uQN8PD6cGo1DB4qEXobEt4X2DWLwObi1FN4wdt4Oc4hAmHsbK1VoqcXhVfWunnTkd43f3Ufre8+/sS4kCjujTNcf4iULfDkpP8rKNX5mIht+QUOSo1uvSq+mjse9TuPLwQvdIAsnLp8anmjX18OHp2HKpRK0rUEz2HnUnL9/IlVfKUNa0VAS884nWVRX1GtyrVzBPu6CJE79exOv1YZ4qTtiCkuM5JQgyvvwB9fhh7Bq1SsXqg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEFjCCAv6gAwIBAgIJAKyeHtJgTjilMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEWMBQGA1UEBwwNVGVybm8gZCdJc29sYTEgMB4GA1UECgwXQ29tdW5lIGRpIFRlcm5vIGQnSXNvbGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSUwIwYDVQQDDBxzdHUuY29tdW5lLnRlcm5vZGlzb2xhLmJnLml0MB4XDTIwMDQyOTEwNDMzMFoXDTMwMDQyNzEwNDMzMFowgZ8xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRYwFAYDVQQHDA1UZXJubyBkJ0lzb2xhMSAwHgYDVQQKDBdDb211bmUgZGkgVGVybm8gZCdJc29sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJTAjBgNVBAMMHHN0dS5jb211bmUudGVybm9kaXNvbGEuYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfUNy7hauchNX2PevBrTck6ZbbrFHaGvh/orXn9WW2ypEEHnNBbM2VT557vhrjOfM+SkKOJSChkShgCDLEzxqmJJU+38KCrO5FWFrEmFCLlVu9dPMRTXiCJeVStfJfyfLnD++0zFHns+5MvGUNmkufOwDiagZi4TJtrpWLEkj7cBWDJL+0uYp2eEcSQ0CMmTuyzohEgyyMMym/w1zeDmrwbpXmGvnd/sztZbIkCgeChpg8YKrZcrueatvZQFNGhOHB+5FZ92uwxOF7oOk1wNxZU4P0ys49vdZ89+EtVJ04eAhjJ7+5mXLv41sBUGisGeZiGdRB311/chNCxIxuifPXAgMBAAGjUzBRMB0GA1UdDgQWBBRiDWMn+NSzG1ECm9m0Jmh7fpNZUzAfBgNVHSMEGDAWgBRiDWMn+NSzG1ECm9m0Jmh7fpNZUzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBKwfFvwg/AoU3KNf+99s7jmG6LSuIzC06+g80l0gSRgKRznHlZj+8Ht0QTjr2dqeNBKdANoA1KK4xRMSmMBF0PaMe8Igk8nGA8BBwf4qT3NDO+dErBZ9TDO+7PAz/+rF+3ZxH4tI76+wHtIbGgrs6ZTW9CXmjMsYRvbQzT4ThsaYRwHqaLTFL5dhb/QDAWP1LUWaxx+bubVFLDrGNeZEGHShd+dqm4zrmpPaRclUiYxjs9kcZO6t+9FPJr29k0jZrfSpeEL5/PFiTsJsRDMClRrimYOXMuR0TtwYajdxfUfR2YiYcRtzH7pVfL32qOa5Ze2Q+EZ6oHO2M6rojogLUF</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFjCCAv6gAwIBAgIJAKyeHtJgTjilMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEWMBQGA1UEBwwNVGVybm8gZCdJc29sYTEgMB4GA1UECgwXQ29tdW5lIGRpIFRlcm5vIGQnSXNvbGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSUwIwYDVQQDDBxzdHUuY29tdW5lLnRlcm5vZGlzb2xhLmJnLml0MB4XDTIwMDQyOTEwNDMzMFoXDTMwMDQyNzEwNDMzMFowgZ8xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRYwFAYDVQQHDA1UZXJubyBkJ0lzb2xhMSAwHgYDVQQKDBdDb211bmUgZGkgVGVybm8gZCdJc29sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJTAjBgNVBAMMHHN0dS5jb211bmUudGVybm9kaXNvbGEuYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfUNy7hauchNX2PevBrTck6ZbbrFHaGvh/orXn9WW2ypEEHnNBbM2VT557vhrjOfM+SkKOJSChkShgCDLEzxqmJJU+38KCrO5FWFrEmFCLlVu9dPMRTXiCJeVStfJfyfLnD++0zFHns+5MvGUNmkufOwDiagZi4TJtrpWLEkj7cBWDJL+0uYp2eEcSQ0CMmTuyzohEgyyMMym/w1zeDmrwbpXmGvnd/sztZbIkCgeChpg8YKrZcrueatvZQFNGhOHB+5FZ92uwxOF7oOk1wNxZU4P0ys49vdZ89+EtVJ04eAhjJ7+5mXLv41sBUGisGeZiGdRB311/chNCxIxuifPXAgMBAAGjUzBRMB0GA1UdDgQWBBRiDWMn+NSzG1ECm9m0Jmh7fpNZUzAfBgNVHSMEGDAWgBRiDWMn+NSzG1ECm9m0Jmh7fpNZUzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBKwfFvwg/AoU3KNf+99s7jmG6LSuIzC06+g80l0gSRgKRznHlZj+8Ht0QTjr2dqeNBKdANoA1KK4xRMSmMBF0PaMe8Igk8nGA8BBwf4qT3NDO+dErBZ9TDO+7PAz/+rF+3ZxH4tI76+wHtIbGgrs6ZTW9CXmjMsYRvbQzT4ThsaYRwHqaLTFL5dhb/QDAWP1LUWaxx+bubVFLDrGNeZEGHShd+dqm4zrmpPaRclUiYxjs9kcZO6t+9FPJr29k0jZrfSpeEL5/PFiTsJsRDMClRrimYOXMuR0TtwYajdxfUfR2YiYcRtzH7pVfL32qOa5Ze2Q+EZ6oHO2M6rojogLUF</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEFjCCAv6gAwIBAgIJAKyeHtJgTjilMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEWMBQGA1UEBwwNVGVybm8gZCdJc29sYTEgMB4GA1UECgwXQ29tdW5lIGRpIFRlcm5vIGQnSXNvbGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSUwIwYDVQQDDBxzdHUuY29tdW5lLnRlcm5vZGlzb2xhLmJnLml0MB4XDTIwMDQyOTEwNDMzMFoXDTMwMDQyNzEwNDMzMFowgZ8xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRYwFAYDVQQHDA1UZXJubyBkJ0lzb2xhMSAwHgYDVQQKDBdDb211bmUgZGkgVGVybm8gZCdJc29sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJTAjBgNVBAMMHHN0dS5jb211bmUudGVybm9kaXNvbGEuYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfUNy7hauchNX2PevBrTck6ZbbrFHaGvh/orXn9WW2ypEEHnNBbM2VT557vhrjOfM+SkKOJSChkShgCDLEzxqmJJU+38KCrO5FWFrEmFCLlVu9dPMRTXiCJeVStfJfyfLnD++0zFHns+5MvGUNmkufOwDiagZi4TJtrpWLEkj7cBWDJL+0uYp2eEcSQ0CMmTuyzohEgyyMMym/w1zeDmrwbpXmGvnd/sztZbIkCgeChpg8YKrZcrueatvZQFNGhOHB+5FZ92uwxOF7oOk1wNxZU4P0ys49vdZ89+EtVJ04eAhjJ7+5mXLv41sBUGisGeZiGdRB311/chNCxIxuifPXAgMBAAGjUzBRMB0GA1UdDgQWBBRiDWMn+NSzG1ECm9m0Jmh7fpNZUzAfBgNVHSMEGDAWgBRiDWMn+NSzG1ECm9m0Jmh7fpNZUzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBKwfFvwg/AoU3KNf+99s7jmG6LSuIzC06+g80l0gSRgKRznHlZj+8Ht0QTjr2dqeNBKdANoA1KK4xRMSmMBF0PaMe8Igk8nGA8BBwf4qT3NDO+dErBZ9TDO+7PAz/+rF+3ZxH4tI76+wHtIbGgrs6ZTW9CXmjMsYRvbQzT4ThsaYRwHqaLTFL5dhb/QDAWP1LUWaxx+bubVFLDrGNeZEGHShd+dqm4zrmpPaRclUiYxjs9kcZO6t+9FPJr29k0jZrfSpeEL5/PFiTsJsRDMClRrimYOXMuR0TtwYajdxfUfR2YiYcRtzH7pVfL32qOa5Ze2Q+EZ6oHO2M6rojogLUF</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comune.ternodisola.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comune.ternodisola.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l118</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_l118</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Terno d'Isola</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Terno d'Isola</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://stu.comune.ternodisola.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://stu.comune.ternodisola.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

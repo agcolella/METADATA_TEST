@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.borsodelgrappa.tv.it" ID="pfx4235a58b-8e9b-13bd-11a4-82b0afb4e623"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx4235a58b-8e9b-13bd-11a4-82b0afb4e623"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9z6iDPpi0mk863Pqdn4nTRxs4EeIHyn4ZI4iYx13l00=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LLj5lBQH1Tv1ZTbRqQN4hLWxqSVfFGDwXkAC3sp9Q64ToQFWK6thwR9RtW2i05Ms/H7uEjNq8P0u9qBaaltM+pf9dIfLV0L3zJJ6iQvSEX++//EGHeoCYqZ833sHs082cjZ5aX5Sb4di02H++5MFynA1RFwRzffMxPEaADiOBk4VSSqfwKIgn25Wj5ADwr4rQzSPxgeYC+RhyZICY9fRZqdbWojAOzi5N8ZxyQof3ZGDkFuKpkkV/1iTyHkcrvkCVidCxP5XR+2oOmrUp5dSDKFXAbNtlBt4XztVOcg/IbucxACFpqQJwIYZUt3OcCvowY3ntv4ABLLWkqp0lRlDvw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID4zCCAsugAwIBAgIJAPb92D1edBszMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEEJvcnNvIGRlbCBHcmFwcGExIzAhBgNVBAoMGkNvbXVuZSBkaSBCb3JzbyBkZWwgR3JhcHBhMSgwJgYDVQQDDB93d3cuY29tdW5lLmJvcnNvZGVsZ3JhcHBhLnR2Lml0MB4XDTE4MDQwNDA5MjIwOVoXDTI4MDQwMzA5MjIwOVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQm9yc28gZGVsIEdyYXBwYTEjMCEGA1UECgwaQ29tdW5lIGRpIEJvcnNvIGRlbCBHcmFwcGExKDAmBgNVBAMMH3d3dy5jb211bmUuYm9yc29kZWxncmFwcGEudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/MQTE5mYsivS8qfRt6qZFn8X9qhj9hb98Za+z4rD6N+PHZzWBZmrks6ktqb+7npOxf3r+eBho6iNnZob5+sxPH0mbVDiSNRV1aMZXRypdWt9iUhv2Ze0zzSyZbuIHeDq6QMcbYiVeUDfceXmXcpiFWXai6Z//6fr4iaqbogjKRcSDbsFUd0WJ4A0ovivh4waySAcauF7//D8wyaajNbkrvni6xE8w+zoveRfYEyO1ZIRHLdfueYxOAjUp2wvypxerWD7g7ayXg9yS6h07KYnjWXzSwV/WKx9mayfVfHrFBLi2ZPHgDkwPBZCMv4mB78s1K18bMNHaic+ErP+nXsjrAgMBAAGjUDBOMB0GA1UdDgQWBBQcIjLLzqhCGxXot2PwVll0Dp5cvjAfBgNVHSMEGDAWgBQcIjLLzqhCGxXot2PwVll0Dp5cvjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB511UyS0w81C7nGthkTA+k255/qbPi3gDsXZrQGOqGfDvJ/OH6zQzwFTqhG7xVSiGfUYHcMnV/jMpCodQlX0aQWQXRZgKm9x9tA5+yu7dYO6YzMiw1BygsNOgoj4RX4sx4YzI3urJPg+vEhr+S/3bIPg42CExTfPtqTqIQ1x3+3HzAWxJn283qJVxbIwXa5sKLeXvGbECQ4vEgXBCb8RLtUc0Y6xviRAgZni+71kE68gbNh3Gu6FwPJHhGSbGgfT4GFc1N8AQgkZls2GRMxiwdpKk/4qOUJIRtPV4WrnHZCPyOpfKBF+7t7oK58BXkZalosUODENrieldmN3/ZV/oV</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAPb92D1edBszMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEEJvcnNvIGRlbCBHcmFwcGExIzAhBgNVBAoMGkNvbXVuZSBkaSBCb3JzbyBkZWwgR3JhcHBhMSgwJgYDVQQDDB93d3cuY29tdW5lLmJvcnNvZGVsZ3JhcHBhLnR2Lml0MB4XDTE4MDQwNDA5MjIwOVoXDTI4MDQwMzA5MjIwOVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQm9yc28gZGVsIEdyYXBwYTEjMCEGA1UECgwaQ29tdW5lIGRpIEJvcnNvIGRlbCBHcmFwcGExKDAmBgNVBAMMH3d3dy5jb211bmUuYm9yc29kZWxncmFwcGEudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/MQTE5mYsivS8qfRt6qZFn8X9qhj9hb98Za+z4rD6N+PHZzWBZmrks6ktqb+7npOxf3r+eBho6iNnZob5+sxPH0mbVDiSNRV1aMZXRypdWt9iUhv2Ze0zzSyZbuIHeDq6QMcbYiVeUDfceXmXcpiFWXai6Z//6fr4iaqbogjKRcSDbsFUd0WJ4A0ovivh4waySAcauF7//D8wyaajNbkrvni6xE8w+zoveRfYEyO1ZIRHLdfueYxOAjUp2wvypxerWD7g7ayXg9yS6h07KYnjWXzSwV/WKx9mayfVfHrFBLi2ZPHgDkwPBZCMv4mB78s1K18bMNHaic+ErP+nXsjrAgMBAAGjUDBOMB0GA1UdDgQWBBQcIjLLzqhCGxXot2PwVll0Dp5cvjAfBgNVHSMEGDAWgBQcIjLLzqhCGxXot2PwVll0Dp5cvjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB511UyS0w81C7nGthkTA+k255/qbPi3gDsXZrQGOqGfDvJ/OH6zQzwFTqhG7xVSiGfUYHcMnV/jMpCodQlX0aQWQXRZgKm9x9tA5+yu7dYO6YzMiw1BygsNOgoj4RX4sx4YzI3urJPg+vEhr+S/3bIPg42CExTfPtqTqIQ1x3+3HzAWxJn283qJVxbIwXa5sKLeXvGbECQ4vEgXBCb8RLtUc0Y6xviRAgZni+71kE68gbNh3Gu6FwPJHhGSbGgfT4GFc1N8AQgkZls2GRMxiwdpKk/4qOUJIRtPV4WrnHZCPyOpfKBF+7t7oK58BXkZalosUODENrieldmN3/ZV/oV</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAPb92D1edBszMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEEJvcnNvIGRlbCBHcmFwcGExIzAhBgNVBAoMGkNvbXVuZSBkaSBCb3JzbyBkZWwgR3JhcHBhMSgwJgYDVQQDDB93d3cuY29tdW5lLmJvcnNvZGVsZ3JhcHBhLnR2Lml0MB4XDTE4MDQwNDA5MjIwOVoXDTI4MDQwMzA5MjIwOVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQm9yc28gZGVsIEdyYXBwYTEjMCEGA1UECgwaQ29tdW5lIGRpIEJvcnNvIGRlbCBHcmFwcGExKDAmBgNVBAMMH3d3dy5jb211bmUuYm9yc29kZWxncmFwcGEudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/MQTE5mYsivS8qfRt6qZFn8X9qhj9hb98Za+z4rD6N+PHZzWBZmrks6ktqb+7npOxf3r+eBho6iNnZob5+sxPH0mbVDiSNRV1aMZXRypdWt9iUhv2Ze0zzSyZbuIHeDq6QMcbYiVeUDfceXmXcpiFWXai6Z//6fr4iaqbogjKRcSDbsFUd0WJ4A0ovivh4waySAcauF7//D8wyaajNbkrvni6xE8w+zoveRfYEyO1ZIRHLdfueYxOAjUp2wvypxerWD7g7ayXg9yS6h07KYnjWXzSwV/WKx9mayfVfHrFBLi2ZPHgDkwPBZCMv4mB78s1K18bMNHaic+ErP+nXsjrAgMBAAGjUDBOMB0GA1UdDgQWBBQcIjLLzqhCGxXot2PwVll0Dp5cvjAfBgNVHSMEGDAWgBQcIjLLzqhCGxXot2PwVll0Dp5cvjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB511UyS0w81C7nGthkTA+k255/qbPi3gDsXZrQGOqGfDvJ/OH6zQzwFTqhG7xVSiGfUYHcMnV/jMpCodQlX0aQWQXRZgKm9x9tA5+yu7dYO6YzMiw1BygsNOgoj4RX4sx4YzI3urJPg+vEhr+S/3bIPg42CExTfPtqTqIQ1x3+3HzAWxJn283qJVxbIwXa5sKLeXvGbECQ4vEgXBCb8RLtUc0Y6xviRAgZni+71kE68gbNh3Gu6FwPJHhGSbGgfT4GFc1N8AQgkZls2GRMxiwdpKk/4qOUJIRtPV4WrnHZCPyOpfKBF+7t7oK58BXkZalosUODENrieldmN3/ZV/oV</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.borsodelgrappa.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.borsodelgrappa.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Borso del Grappa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Borso del Grappa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.borsodelgrappa.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

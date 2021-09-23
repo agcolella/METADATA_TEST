@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_5f90f38967e24e60b1c5b5db7cc45ae6" entityID="https://spid.agid.gov.it">
+
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>IxBYfMaiIYMBQJdxvn7DxXadoaHg1B+E4maIAaTIeW8=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>iBDU4n1O+ALBANPfYE/QpS1hYounuyM9axOlY/hoKjQrW4rQfWVXLCPJW2b0JlFL
+ui9WhfH1LDA5n9hELfzHXd5pPHO5kH+1no+be0wj+HjCLb2kwUKZpgqHKZKMXDwV
+xMqpOOe1S8AZfSwqo31NRxo4z+r/Ge7KknHfxQhoZmXuDFGMXBDKn8HKxNzqpEJc
+9LDtuNxbnZD0nTi6sKxKojzS1IKUi/Qa2A6tmd/oeKg9dJsRWIaWsIPo7O/XLwy8
+C94c6jvB5BGvNHp/O1FnjGqlKKQH4k3Y5B28qFczTR4BfcIb2xGq66fYbgsVSt2b
+gQ4rZFtYJqgs4QjGDENfiN8oZCCZ+A1tt6Y1x+nI9Z2/hSmMHgZF30wkg0gFs8vn
+p9Im/hLN/qItM0lOLC0s1BOJTp1VeUTjUmSxfpyAvHjtBHdO8sTP/yOiEUycGpJv
+xZAWaS94q8Utmirqb4FzgA86DAYhTgiI/w04uGTyTzqMXVVY79tTgCVXLw9g3OQi
+OIRx6MEEbGB3BagJoRvr6jQ+a/iIrJOkUUvhcSxXKVLOSCMi4MCS4yx40ZI+42zF
+UiTak3wXtc/N2t4e7sZfmfCknqqS/47aFSoRqlDlESPYnS0l4/8tUhdJXX85ysk5
+aEKZv8w0hP7pZckI7kjMmZEmsV49TIJH8W+WALIDRlk=</ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4b4eQp6d6zsUJSb6XOJAD2w1sDqe/hNWu4vI43Lbsmpi0PfuIZTaM+MdCVqBtVnF
+crjCITx3MJ9SbMw15zfrLEczJwt5+uX57VWO9EbTSPl8cIG8s7k94m7miewTYtYS
+G5uD9PX5NnaXtrxHNNwuuWkZlG58JJ/guqT9Wmvl6Z9pFOQ+NnDFjwAZ9qjDUenE
+dHK9iGV8OFK08597LiiGLc5CWGlaxi5BETkWilSTTPMJrgALSROm4b97fp/1EHDy
+aRWwhiSSQujnNHkWFTm9V2Z6qbsihG7tLpLRXrKeE2uTCCExiDqbsjLjP+z/2Ce2
+M7Rw9b71zJJ6HYe/HwVBTpON1AxzIMIep4uKx1AC3jsIeJ2ZEzF1L9Pz2mnt9dfA
+NFQ8/ZeKa8tP0Hqyzjwp4g0rX5q2yN9odtB8Xo7WPbNfzLu0xTW19KCwhEex2WEy
+Etm/0bQLKodCgvgp96eHwjNkU5n9wtqaAWbEmiLf/sae+7tapzHFwQpMIIDiKXSr
+rzsNhe1UHBx0dF+v7LVD1knuelmGTX23sgy+FuU6wLn6BUdz1yBJIc1r+VlFbJQw
+EjWRmqgldjEbhkRfUnVI/3i5NHyG/CO1QYVXiif00kPf4J2xlRHmHtaYGgNP34UG
+jKQyYmsqZybySX1/xl/HtjjNJqMf3bzIBCaREGacYK0=
+</ds:Modulus>
+<ds:Exponent>
+AQAB
+</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+            <ds:X509Data>
+                <ds:X509Certificate>MIIHtjCCBZ6gAwIBAgIIbaXtgRcActMwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARBZ0lEMSkwJwYJKoZIhvcNAQkBFhpw
+cm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUw
+MjA1ODQwHhcNMTkxMTE4MDAwMDAwWhcNMzkxMTE3MjM1OTU5WjCB1TELMAkGA1UE
+BhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRh
+bGlhIERpZ2l0YWxlMTAwLgYDVQQLDCdTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBl
+IHByb2dldHRvIFNQSUQxFjAUBgNVBAMMDVByb2dldHRvIFNQSUQxKTAnBgkqhkiG
+9w0BCQEWGnByb3RvY29sbG9AcGVjLmFnaWQuZ292Lml0MRowGAYDVQQFExFWQVRJ
+VC05NzczNTAyMDU4NDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOG+
+HkKenes7FCUm+lziQA9sNbA6nv4TVruLyONy27JqYtD37iGU2jPjHQlagbVZxXK4
+wiE8dzCfUmzMNec36yxHMycLefrl+e1VjvRG00j5fHCBvLO5PeJu5onsE2LWEhub
+g/T1+TZ2l7a8RzTcLrlpGZRufCSf4Lqk/Vpr5emfaRTkPjZwxY8AGfaow1HpxHRy
+vYhlfDhStPOfey4ohi3OQlhpWsYuQRE5FopUk0zzCa4AC0kTpuG/e36f9RBw8mkV
+sIYkkkLo5zR5FhU5vVdmeqm7IoRu7S6S0V6ynhNrkwghMYg6m7Iy4z/s/9gntjO0
+cPW+9cySeh2Hvx8FQU6TjdQMcyDCHqeLisdQAt47CHidmRMxdS/T89pp7fXXwDRU
+PP2XimvLT9B6ss48KeINK1+atsjfaHbQfF6O1j2zX8y7tMU1tfSgsIRHsdlhMhLZ
+v9G0CyqHQoL4Kfenh8IzZFOZ/cLamgFmxJoi3/7Gnvu7WqcxxcEKTCCA4il0q687
+DYXtVBwcdHRfr+y1Q9ZJ7npZhk19t7IMvhblOsC5+gVHc9cgSSHNa/lZRWyUMBI1
+kZqoJXYxG4ZEX1J1SP94uTR8hvwjtUGFV4on9NJD3+CdsZUR5h7WmBoDT9+FBoyk
+MmJrKmcm8kl9f8Zfx7Y4zSajH928yAQmkRBmnGCtAgMBAAGjggGPMIIBizAMBgNV
+HRMBAf8EAjAAMB0GA1UdDgQWBBTyS24ftu+oo64GJRUIl+FOXSxi4DAfBgNVHSME
+GDAWgBSfx1tsJaanm4NepvvB/qN5O82PkTAOBgNVHQ8BAf8EBAMCBkAwPQYDVR0f
+BDYwNDAyoDCgLoYsaHR0cHM6Ly93d3cvZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2Ny
+bF9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29j
+c3BfU0EuYWdpZC5nb3YuaXQwgbIGA1UdIASBqjCBpzBMBgMrTBAwRTBDBggrBgEF
+BQcCARY3aHR0cDovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jv
+b3RDQV9jcHMucGRmOzBXBgQrTBAEME8wTQYIKwYBBQUHAgIwQRo/R292ZXJubWVu
+dCBwcm9qZWN0IFNpc3RlbWEgUHViYmxpY28gZGkgSWRlbnRpdOAgRGlnaXRhbGUg
+KFNQSUQpMA0GCSqGSIb3DQEBDQUAA4ICAQAKtdL1GkGx74Uny4Bg5p/ZYcCOrI/D
+rV0dK9nhyl+uGLPn2nxRDXgDesaWGaVPywbtKbNd/6+aqUdgcvlwsePafiy3LHYo
+wpILQ7X2mNUjnvoX0o2AcK9DfY+fUXA2DH+zKrwwH5SCDYykx/JQNaQp+vZQcFaK
+UHOVltuhrW8fJAya9pIPLpAL4z97zC648GUB6EnsnjcwWd3HKw88+cJcI9yuh5wL
+TeOJtI0C2LeDTg1WHaO7eX+Nrp/euia/OIlzfl/9x7KGHuDvhsLIOPEcHktLVbxH
+4rH/JpcbhS43asd9hbMYw+DLAQ51abZ63PlIJqUcfFotzgQ29mKnAT4auIMYqbR7
+Y2viM8ZCUNOxvV06cp+AejOF65iMny8PPG0puMvzqngsmsj3CbKLDTPxq5W8Cu5P
+5nq/s8ShcqQetqNMnfXTdCc8ulhKHX37txbee7/vcFM3TgXGlYBD2qCJkHKlQWkn
+2p81+O1j9qVIpEFBhdCN/WTmQr6ev97yr1zwhPa8wABfUVzAS2WEayCEBg45+caY
+6R9P6kI8i1XIb7AY8+lGGoDNOUQjLcnZllPMWkQr/WYkh0BZqZ1aYHsFo+d4tNHc
+EKVE7io0tjCLViOFyOsbOMFh7JhJgQS6uPtCYvnmpZJd6LIXweZUuhxy6jw6A+2w
+a0Mb8Qjd61OSdQ==</ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>id.cloud.italia.it (24/04/2022)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIUd0oqUxP/eOCDawd+L71NY4vB3LwwDQYJKoZIhvcNAQELBQAwazELMAkGA1UEBhMCSVQxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMREwDwYDVQQLDAhDbG91ZCBQQTEhMB8GA1UEAwwYQ2xvdWQgUEEgSWRlbnRpdHkgQnJva2VyMB4XDTIwMDQyNDEzNTUzMloXDTIyMDQyNDEzNTUzMlowazELMAkGA1UEBhMCSVQxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMREwDwYDVQQLDAhDbG91ZCBQQTEhMB8GA1UEAwwYQ2xvdWQgUEEgSWRlbnRpdHkgQnJva2VyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApDmm0vzp76UfDuIAZ7D0IQZ5W8PZ+1WRO3+uEarwodjpN7EuwVLlChl38Q4EDssVKfrG+EQ4AnP+KG3DiapCZKOvAoDEvTy4yeIGAA4vTI7rxBaIZznlOemoBJ3WpUh5QRqt6qCiydp2w+6LcWGHZ6Rm5b/WqD85KQkl6+I+KpNreZdZxar9vEsQnPjLhws9BpnKw7uHqot1vGfwq9pvA7LLzfeeONKBD4UIia3BXnxKyyy1dPyUdClv1ONYwP89BaxDYmvM6spUIdTU/wC2d3jxijpo/U1DPy6Zlc/nUeUoUN0A14yPrRE5PK6DkZoRi0NOUb5rzBAz7dWQssI8nwIDAQABo1MwUTAdBgNVHQ4EFgQUsu5yA6/4YAmUzzlFTCZkUdH8OBMwHwYDVR0jBBgwFoAUsu5yA6/4YAmUzzlFTCZkUdH8OBMwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAH/42dPhzjjKaGaZGizX86wE80HdkRiXfcjxnxxyM1hmp7dECeca2B8Ue+ckZEYekEmjLn1zTzKrZ+Yhgd1xE2Y6qtrA4hdUSb4iv7d9cuZ2G/BpUqbIb8u7ML6Cu/8tl8RJYmlJt7eI1W8V/vRNnNq9ZF9pK6U1dH8W660wMap2iCIHHlNtQHiDI8NHHOOqcZAKDC7+NT+AKrIPqYIdurouqp+skpsbxm6pnMsd3OLV/bxSZ0YVy6UjfcuHFoLMdVulptsdRc7sRchRWPB660mnSsY951xhVDDqZGYZZyEGZ0WVn8ShHP2Nx8+bWkwI9ZxmBbGgxUxHLCB2Z1n1vsQ==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>login.agid.gov.it (20/04/2030)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEQzCCAyugAwIBAgIJALtuu1AaqdR7MA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTEmMCQGA1UECgwdQWdlbnppYSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxIDAeBgNVBAsMF1NlcnZpemlvIEFjY3JlZGl0YW1lbnRvMRowGAYDVQQDDBFsb2dpbi5hZ2lkLmdvdi5pdDEkMCIGCSqGSIb3DQEJARYVc3BpZC50ZWNoQGFnaWQuZ292Lml0MB4XDTIwMDQyMjE3MzU0NFoXDTMwMDQyMDE3MzU0NFowgbcxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEgMB4GA1UECwwXU2Vydml6aW8gQWNjcmVkaXRhbWVudG8xGjAYBgNVBAMMEWxvZ2luLmFnaWQuZ292Lml0MSQwIgYJKoZIhvcNAQkBFhVzcGlkLnRlY2hAYWdpZC5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtfKmKLB03Kn6F+F6yPCbmH7sxxLfknDjZ/UA1uzw3XBBKA87hmEnbH6a72HEA0FV7Dup12mb3i9zxIg7+haHbpJoSFZUwbSybw+cg32SGm8zphi/vl7JL4Cg//npEyNah4V9iCSvbeWVKqTA6Vut4PTlFMKbaWZyyHT7oWxCKac7O1ZN3pfozF2srLvaB1sc6FvFhAL8mHtQKKWrsDotG2V4X4csqt18p/xSYiBfZsJOJoOooCdtMcTkhvjIx5HqRfV/z3/kSmoENw957aGa94co3eQ6aGsmz0Z9Afix73m1yGfgc6AZFsXKWeHSm8bjmykPCqWM0frVjqAIYeJ97AgMBAAGjUDBOMB0GA1UdDgQWBBT5HG5xGCYRpHrVW7R1DGOhxFQHvjAfBgNVHSMEGDAWgBT5HG5xGCYRpHrVW7R1DGOhxFQHvjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA5w2sNVgnA3Jk9UWxHM6Tw/dfeMAXl9frvYhAzt+F1lpu/NDvifSECzI33WEbzSzYesvjYMjle6JRyV0jQ9o1tnJsbnjsjlQWNOagpWNmFlYfmOCko5zEkvaEtYdSD469tf/7RIA+3UC1CdysP7GqWdoYdcBJzdqauicR9ISe8X8HuG6iu4JpSRwRK/85X0RzwEk94wQf6SzgcHAoMVx51YjhRmmZ1+i6mYd6iimwqRc5Piloe8G5fBdcywAk4hxAfmjT6dq1B2TV8u56UKZjcn4ZuesxEwPm7Ni2pKJ9FjlCIH8hj5wEnFv/+6is/ReR/KSTULOG8VLXx5mu8aKf7</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>questionari-ict.italia.it (20/11/2027)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEATCCAumgAwIBAgIJANFbJpaB202nMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBFJvbWUxDTALBgNVBAoMBEFnSUQxDTALBgNVBAsMBEFnSUQxIjAgBgNVBAMMGXF1ZXN0aW9uYXJpLWljdC5pdGFsaWEuaXQxJjAkBgkqhkiG9w0BCQEWF3F1ZXN0aW9uYXJpQGFnaWQuZ292Lml0MB4XDTE3MTEyMDE1NDYwMloXDTI3MTEyMDE1NDYwMlowgZYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEiMCAGA1UEAwwZcXVlc3Rpb25hcmktaWN0Lml0YWxpYS5pdDEmMCQGCSqGSIb3DQEJARYXcXVlc3Rpb25hcmlAYWdpZC5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/HeXWDTmyohxb/aithRr92s5PE60MXTn8cYXdQEt76+dhjPE2/HPceBlMnTBRtNL0wdm/RyaT7/r9xaKjBwx1iIClVqXFrsxOUD8AqPu/ZEqpF4BJt+TnC4eyOBrShkgJ4Us2bfesVBP/44rTyJzSIZF6mvz2QxeB96gZOOeMz74Y04PfoRfRwi90Tqu0qzIUnpp4ChbN89TDgPtW1jzf5H0ASgudFlRafXCGVo3zF96AsXGUFL5AM2Ij1h0P+WfPEqYE6cMdQivEU+B2zwkIexNGXcbwexGEQHamW1aD9Z+flkdd5Ne6ymLRwu3lsEb7dF+PvWBWlZxS8J0wlGuLAgMBAAGjUDBOMB0GA1UdDgQWBBSDDAycP+zdho3AXho+Ve+t5o+01DAfBgNVHSMEGDAWgBSDDAycP+zdho3AXho+Ve+t5o+01DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCl2cw4PwBchcVaTlbRL1PiKF/KUABehZjbqT5M5Gj1t/AE/OY+UIlT8Wgb201TSihqddASBLaIVet0HmAZsiAO6qNv75FfLybrtf7hCA34ZgLNgrumh1RGoEn8GHIy3WeVqtXPx0SGLs18hlSfBaPD5cdeImQGVH6Kb3fkIl5TgqQcLX7fWWHyXF+XCB4xFuLh9MmnepDTZjPRNAkydGpCBfxOV5fPBZu5/r8kz9H2YQCiLpMCHdCGL3qgmuYPsEQmyGo3W0NgeRU27XX9VbbS7261RCfEhkvtTk+oNcKbVheg6OqsbNmmXQboNkyeWf53Ze4ThPd5sIVbY0WEPVu5</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>avvio.censimentoict.italia.it (03/04/2028)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAJZ5q+F47s+NMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEtMCsGA1UECgwkQWdJRCAtIEFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMSYwJAYDVQQDDB1hdnZpby5jZW5zaW1lbnRvaWN0Lml0YWxpYS5pdDEtMCsGCSqGSIb3DQEJARYeaGVscC5jZW5zaW1lbnRvaWN0QGVjb24tbGFiLmV1MB4XDTE4MDQwNDEzMzYxNFoXDTI4MDQwMzEzMzYxNFowgbExCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ0wCwYDVQQHDARSb21hMS0wKwYDVQQKDCRBZ0lEIC0gQWdlbnppYSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxJjAkBgNVBAMMHWF2dmlvLmNlbnNpbWVudG9pY3QuaXRhbGlhLml0MS0wKwYJKoZIhvcNAQkBFh5oZWxwLmNlbnNpbWVudG9pY3RAZWNvbi1sYWIuZXUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCy7Sn1oIFwUI43IbC5I4a9QA36sMmSSk5XV6FhWjuHQqidDcJeArkwT3/SQ/HegkaDEwzWzCsaViSinp0cniyItT+Un7vGLB9O40n7D49869X39ghLWdG5vwUctlD8sCPHUKRs6mrlBeEvxm88wy4grANMRi6ZTnoc/H14VldOlOsUEtRquNTleYME3CR4m+A9r+t1Hwv4vfRYd7V5QodGlRGgCLglshm7zUIi+Ot5Q9OU8GpDhMR0BDnfVK+Kw74YLDDgNbvfiixbhQCuSH3QzKTpT6lqwa6asFZCnCHD1rTeMl95g/VaEvmby+BxbYc3m24qwgbezxrO/1F6qLZnAgMBAAGjUzBRMB0GA1UdDgQWBBTuYpgUg4Fj2HMl/taeuwYyEnywcTAfBgNVHSMEGDAWgBTuYpgUg4Fj2HMl/taeuwYyEnywcTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBhMPZpK8izDoWlpJsdX9T9TWbR3rwPTI8C83drzNXkfyexQ6trMWfulltwTIMwFVmrteFsEntqCERQJwkD6+nfVkv5op1hLgeQN56xPdRi4XPLHEJ0oKPG3m/KFK3UDdbecrfkdAnTf2RltHjaGbibsBtB3YeJjlpaBAj7T9ZhhzWrL7DXWYLn3iKvK/DF9kzmXaFHLFC81IEROm7x46n4Dc0BtiQy/Nnj/T8NPz9dUPqpDucnybju7WLzn+LBWWPP9pSRSAhBef5IqPROfOBs2Rg1IMDti/yWx7iB4ceGxyNDXBj5sHGyWVYLzqA+4TUSpBr6mfKx3Yt3Dwz2697F</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>Servizi.gov.it SAML Assertions Signature (15/05/2028)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDBjCCAe6gAwIBAgIJANgwLUNbtlyfMA0GCSqGSIb3DQEBDQUAMDMxMTAvBgNVBAMMKFNlcnZpemkuZ292Lml0IFNBTUwgQXNzZXJ0aW9ucyBTaWduYXR1cmUwHhcNMTgwNTE4MTA1MTA3WhcNMjgwNTE1MTA1MTA3WjAzMTEwLwYDVQQDDChTZXJ2aXppLmdvdi5pdCBTQU1MIEFzc2VydGlvbnMgU2lnbmF0dXJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJKLx0knIVT9l7XMBrCXNSLL4Ol5RlPn5fb+NdmIWC6wm5yS9Nob6GC8/8Z/TWwoUbu5uCy1EjhqMOcbQtuBDT5pYfh9wqT/U9Kp9LOjgWLXCrdNlUC2vKhuTmX+ZI+4I4g4QtPLGzOPFoc9HrUzH7XqTqMrOkAIS1GhJdLxzkXnPizUuiB4x7qaiqhylNQu9eg8YOJZHfiNcRSarzog2MuelmH056kheifkTd6Ad91Zfvoyyc6v9CW9O+yzTZmxYo7UahSXMmVBFbadKQRQ8v/MPnt+LPfA2dM0RoTvHzb1ETpNHhpKNtd0rYULAkiA1wJmaLyirB12kcteUprFOwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIFIDANBgkqhkiG9w0BAQ0FAAOCAQEAkRlupBshbvzu/FYzV4uZIbHXicsGjc8fpXLj6/pnodmsotnBw7x6wJE6cJ4TMMWjtg1HbJbStbW/Tq7Pz4zcJw1/0R9rSQNTXwwuMSkZbXcjaljSkGbD4U2K3s58Topbn7Fzkqc1/8f+bTmc9X+TNENB/QEBC9xmzbeuw3Atr7yhXGAcZywMwGAXlJowUMaqVf+n36vCylXD528ui2QYQqJBB/ZcFufb9IAEeRTeE9Lb92ufqVtVm1ubs74qKjEPDQ/Lt92zTetR2qEfqOmxnxDyltOYLjLGnchb75J8D77w5+DXxYRFLj4wRahKQzOkJiuZ9JkWL0pqZhewm6+75A==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>difensorecivicodigitale.gov.it (13/02/2028)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEGTCCAwGgAwIBAgIJAJ9nZ6EuD0l+MA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBFJvbWUxDTALBgNVBAoMBEFnSUQxDTALBgNVBAsMBEFnSUQxJzAlBgNVBAMMHmRpZmVuc29yZWNpdmljb2RpZ2l0YWxlLmdvdi5pdDEtMCsGCSqGSIb3DQEJARYeY2xhdWRpby5iaWFuY2FsYW5hQGFnaWQuZ292Lml0MB4XDTE4MDIxMzEzNTAzNVoXDTI4MDIxMzEzNTAzNVowgaIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEnMCUGA1UEAwweZGlmZW5zb3JlY2l2aWNvZGlnaXRhbGUuZ292Lml0MS0wKwYJKoZIhvcNAQkBFh5jbGF1ZGlvLmJpYW5jYWxhbmFAYWdpZC5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCp+I0qTNEET653iCYO3COh/64rBhnrigcDlRH8wh4p3xiQ3NuF67oHid63I4v48QHiedHRlXibClt8czqnPTLnd5lTo7OP+vCp3nGyW3VUh90RWGb9mWZc3XqxNObnIW/6NRIkAkk0XtR3P/vELhUuONBuLPSuBbXhRjnBnXmBlDqZXvst1rESrZw/hZ57Boh15Qo3tyFGyX1lf2qZy++aOsNr2EoWHx0nGMe5GBgPnRiJs5RSf9NxWsY5b8JRwpOaTf0/qmgTHNqpd5rSIV57aGL74VyxxJ2WrqVWsFp8HGM/7tZPmJYMguzs2l1QlFkG7hdXC1OjR0nMDeJ0optJAgMBAAGjUDBOMB0GA1UdDgQWBBSVMn3el2zPHkZmBkTDv+JdAm5LXzAfBgNVHSMEGDAWgBSVMn3el2zPHkZmBkTDv+JdAm5LXzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAHLyOJ9sQKbg9Xlyq0vAFNcAp1EPrgm6nZDmG9tsQwmY/+3r/QSY8xFYAKzXbz/B/kUaEpVxksVbSUcIBMAYyopsLmaxmWBiNwnGp0nTDVJfvR0YnRWGNvotOvjWrPD+IdK0FfcBkARzYDRJNlNLKCCzTG1pPyUyAYIzCubX3kF3I7c6Vl37v0M8XD9iDfCiZum33T6jCVUgWt4J92/o7ogM9equB3Fxafgef9xvFfUyX23ZHI0ME34hm+QbIvFLWrzmfncAXNwg62x6879aOfB9ki/rsjASMT0ng5LkFEfouJGrgFAhpgr0z1YUVFSAE+1xrVjlODOVhKuEfv8LdI</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>AgID (03/06/2028)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDKzCCAhOgAwIBAgIJAMEBEaIudt/+MA0GCSqGSIb3DQEBCwUAMCwxCzAJBgNV                        BAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UECgwEQWdJRDAeFw0xODA2MDYx                        NjU3MjVaFw0yODA2MDMxNjU3MjVaMCwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJ                        dGFseTENMAsGA1UECgwEQWdJRDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC                        ggEBAOPkifKRf5EFpEKiWJsSAg+EOWZUh8cJXXI3uVD29hlw8Ebs/ABM7fCoPEe+                        McVYS59IZTy1dn6fP2v044cbF2QMWv1PWrg3kx8Ij77l0RgmtG5OuC65kl+3Jetj                        yiFXKEgv6A6Tq+TT3Iyqn80iKcVfgy5CAbIx7XjdBc1hQSTGeg0ne9N5rN6TiOXp                        z49G064fjnVAmP6ct6oanlB9M+oZyeMfvvPruHVtxucDFER8/eNnoaKRQmpWNag8                        LO58qE5rSnHVMICcGOYUtbwXN7CKx2ebGaVTpGwsLuy/oZgwKAHOhW0Ur8Fzn6Ie                        tM8GV97KiXksZLqpIpYX7ADhf+kCAwEAAaNQME4wHQYDVR0OBBYEFJ1V6kd+gpde                        MVurPPxjquUhAziAMB8GA1UdIwQYMBaAFJ1V6kd+gpdeMVurPPxjquUhAziAMAwG                        A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEaaaOE8LfSTR4Rrx1ANxw63                        i1SvdGFhdIlLwv39yh2EJ+BOFy1Pm5kd/SAXYo8dAPGwBKOo+jWc0CJx7a9kaWoW                        /LEiEYobBeY+ueKXaN+UEti9996Zk36QOfc2uPZJtgxlBRZO3vROz0yOtAYXQmsf                        +838MqWj9YtHAVUWjq0bLyGxA8dgpP0M/Vf2Y/XqDxRjv28HDqAxv4Goc/ze3G+A                        UaOjEW5VNPE6+qHNNsb+YQKKOCOJjbbAVBuZZcZxriLXZGO2M36BqaNwY+berr++ fi5NNWCo7lRCLQtNDLuGqPgZw0/qhFD+mngSpyYmhlPyVafFZl4oB2r4HCv23n8=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>difensorecivicodigitale.gov.it (14/12/2019)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAOQp04rQyPOHMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMQ0wCwYDVQQKDARBZ0lEMQ0wCwYDVQQLDARBZ0lEMScwJQYDVQQDDB5kaWZlbnNvcmVjaXZpY29kaWdpdGFsZS5nb3YuaXQwHhcNMTgxMjE0MTUxOTM3WhcNMTkxMjE0MTUxOTM3WjByMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEnMCUGA1UEAwweZGlmZW5zb3JlY2l2aWNvZGlnaXRhbGUuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApL+xV8ITX+ti07r1k5sSyTArfLBJYu7JP79KtF23JpS6D/5fi1wG5e1wdWjdcZsq5RinP+Of2v9DUCeR5iXpSUDlnc5bfqGj6sEWo/h2ZgEz+gAr5rprQa/M9N8p3lX4X3EMzzDeDlB1w3hvjttEexJqlkuwqu168hFUXfXngH4ahSUp8ad7PNVnWov2R/CiarjIId5lr1U/gJlcDRVc1478ipF9FyEXYv/pbX4SOkCW7ZjrDj+heFm64mbhxA5PiNptqkz72gnrkeTdT39NdSpnyXvwA9HRIA/eL9y5aZeu6AhbJnqW9DegBS0wII5zB7NnG3ndEYqxFVQ2OW4IQQIDAQABo1AwTjAdBgNVHQ4EFgQUHYWyc5XYfoyI256195J5r7PDghUwHwYDVR0jBBgwFoAUHYWyc5XYfoyI256195J5r7PDghUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAP7RadSW98+Teq4Gnk/GEejZTwotLqjYtdDlMSXQLuP5EzDDi5GLc+su7Vt3Jgo7veITQlKcrbu3grcSFwBMzE/DNaV5QyQDniBKU9bfHWjkw6Q+Eb3IUvcV5Iy1vJI4SgCh7Y3WHJNz2WKTJTG/TZVaD1YgPcGjtIOhhrrlpzH8/6zFFSti9Z5QyKz1dj5ReNd+t5shKe9UUPsFKxNLeQzVL0EITzWdoEW2fIMvOSXvYOcv1ay7OCY9Un0RxlAiG8Phna5eqbTcfcoS21o8wUfMtg93FUIJnkqgwTYc4CaFjWA/XP7igc4xogVpL7UuEYmbwTsNBmZDnDYgFuRT02A==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>CensimentoICT (25/06/2020)</ds:X509SubjectName>
+                    <ds:X509Certificate>                        MIIEBDCCAuygAwIBAgIJALbw8Bq0XxirMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYD                        VQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBFJvbWUxDTALBgNVBAoM                        BEFnSUQxFjAUBgNVBAsMDUNlbnNpbWVudG9JQ1QxFjAUBgNVBAMMDUNlbnNpbWVu                        dG9JQ1QxKTAnBgkqhkiG9w0BCQEWGmVucmljb0BlbnJpY29mb3JuYXNpZXIuY29t                        MB4XDTE5MDYyNjIyMzA0MFoXDTIwMDYyNTIyMzA0MFowgZYxCzAJBgNVBAYTAklU                        MQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDEW                        MBQGA1UECwwNQ2Vuc2ltZW50b0lDVDEWMBQGA1UEAwwNQ2Vuc2ltZW50b0lDVDEp                        MCcGCSqGSIb3DQEJARYaZW5yaWNvQGVucmljb2Zvcm5hc2llci5jb20wggEiMA0G                        CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDmDO8zTn6eF1W4DTE/rO/WJwzyES03                        m0PnCGADEeDovlPtMTFmjCyQBU3h29fjMGkGQ6yugJ9Gmpnr+id813g2DzdEHENB                        xJZ1wDSuGdfqQoa18nWGWyEp99bHBWH9m13yCqFn4IIDLvQ5vU+eCX8mukzzI9WB                        3cNqbxcsh8Tc5n7qnEcddip0PHjHlDtil3jepubB1u2AjhmWzUeA/7oKcvNrbUxw                        FsRH2KF8sKVvll59hN2gHwXQKOK+frwX8EhaCGDoyaSFe/7AqsBj5oKLlwq63gev                        u1h/FX5r/t9uMPoJkTR/9Fq+cF1GGVp/d0+HUZFpH85CMzqQKpFjjb/7AgMBAAGj                        UzBRMB0GA1UdDgQWBBSYCuQz+Tx8dketMmJduU7nZee0xDAfBgNVHSMEGDAWgBSY                        CuQz+Tx8dketMmJduU7nZee0xDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB                        CwUAA4IBAQBKMzoDzGpAuOCwYEK7AOWlVgkXK4AeIO9nilTRgfwzotS8S8UZxTIT                        fheKfAte1pQmQpctn5VTf5mR94CxrqGse2d0sF1cHinH9CJylfbzMHgzHzbySbnf                        ST9lvw2805eb+CtGH3afyGLJWl8RAsWwT5KIp0xs879jemygq64XhFm4z50+ajOS                        ciL2uVHaAwtpxOozFBDTGca469Ck57n6b7SnZtbUD4hj/T7uKKS8qT/t8/ZS5y/b                        9NEw9xKui8mrKe9ebMorF6vYmoeDxmuXKrINp0OOPtu99YRM349DuT86Fl8ueHOk                        Fuo6MxQFpyQfEMIOitI0CTmtL6/cYXSk                                            </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>webanalytics.italia.it (04/01/2030)</ds:X509SubjectName>
+                    <ds:X509Certificate>                        MIIFZDCCA0wCCQDz8fugml9REjANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJJ                        VDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEmMCQGA1UECgwdQWdlbnpp                        YSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxHzAdBgNVBAMMFndlYmFuYWx5dGljcy5p                        dGFsaWEuaXQwHhcNMjAwMTA3MTc0NTAwWhcNMzAwMTA0MTc0NTAwWjB0MQswCQYD                        VQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEmMCQGA1UECgwd                        QWdlbnppYSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxHzAdBgNVBAMMFndlYmFuYWx5                        dGljcy5pdGFsaWEuaXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDd                        dh/lRBdCkFx3jHRpCIVXYulVxgh5oefOGkz+iB+Se2AhHt2SuRhYLDTxTj52CR9u                        E1EQefdugqssfkvsNecz9wTDFgqf5KrS03facedg4LaA4NuqUIupLjmqLlHznjgw                        w0Y9vxxQkoQ6PJRmoKizMcdzs0ZA6ivLN53Iqj9umIty8itmZmQ7tQLqBn5luFmy                        VEGSNh4hzZVOPqokgybd9ExiACvF9aOPO1ISybITkCWhRh4HykbEOWq3OM2sGSSA                        q71137bweBvUHf+GtzPgM7Np13Mbba0KVaSUlnXZJj252gIK9RgMmjPF1s0beGCY                        5BBdTSq54fTD/9RCtIn9QzdO9xj+em7QIfl+avG/M0QeillxfeRi9i7z0ZIrxenB                        D74+zWudUbFT0/T1mOEzHiyP+XG9kciJq7oKKX/FCGKNRpzXi54RdwwJjykzBD6W                        SDO94w04fsi2ttJezaTKWZtNhZgVJzDRhXPJqbdrq/jJPN48dNVzkNxGmRcHiEXW                        FJunQ21BwVcyB88vzW46DdYNWmswtOw94hk77YgzQk5Jiz6E25gffkKR+90aKxz0                        cIR1uS6INGDZX3UJTQDzHdKMy2fzLSvkwrtuVQoo8jbCaNpXqJwhm4mj8tqcVmhn                        kJzcS4EpKcEXqCW0YPLsodE82dPDS8EvHnn91tC9FwIDAQABMA0GCSqGSIb3DQEB                        CwUAA4ICAQAOAUKIFxKzVrXsEss1UMowcVxwYYt6w8vZ9qcbmJwBM5JkR8+t+fQx                        uWbWX0MY/JtWG7YXI0INgQRl+iG2CjYJr08G3hkSH7sMhtsq6+ee7Ia4W03oIseA                        XGk6rFjzEUq+kASfK/mW7hr8R9NcKXWybZsKwSBUkUMoyFgy64UcCsNWeqCPf3pI                        JhmyAo8ACQoxyQDwIE4JuxtTmAseFqEZGKL3f10D09oSZpm7Fzw1JdrhpiTZPi2/                        bayKjzi+Q2Ypp4niJ/uX62CvcX+0896N7lSwh2uxdL9yuvJZSCoEbKT+CUC29lbV                        rfa5hJR2+8RCVg+kdpQN9Zrbdpa60+QmHXjPRvuBbg/Bg1Tu+6wVrXk6WPWSCEQL                        B8KIIViJDF6PCtql7SIrvKE1kof22gLZb6FULcQAqH8gbLRfO0nKQmffPMdYISAX                        TsAR/CCClX5stGL9F9zYKc9HdebKmfKQXRBKGcGYUYyjJ0hcllZ3ouptuTD0IiWg                        RhyKa3GJEm8EMCgOSxZlNSx3ZNkm+rP2cbzsxvrD58gJd3AdUm/50A+WGYXdaxlt                        CQEjuX/Dd0SgEymCbe3Pfr49utMwBU3+dSo0SzqlCv5N68iQ/fswmqahUJegLmvn Ekn4B4+1j795ZnrYP00xJtuyUyGI0vtLUZsk27GkKv4/qhHFWNMviw==                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>https://indicepa.gov.it (08/01/2021)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEXTCCA0WgAwIBAgIJAJDxzWyhxFRDMA0GCSqGSIb3DQEBCwUAMIHEMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUk9NQTENMAsGA1UEBwwEUk9NQTEmMCQGA1UECgwdQUdFTlpJQSBQRVIgTCdJVEFMSUEgRElHSVRBTEUxJjAkBgNVBAsMHUFHRU5aSUEgUEVSIEwnSVRBTElBIERJR0lUQUxFMSAwHgYDVQQDDBdodHRwczovL2luZGljZXBhLmdvdi5pdDElMCMGCSqGSIb3DQEJARYWaXBhQHBlYy1pYy5hZ2lkLmdvdi5pdDAeFw0yMDAxMDkxMzU4MzNaFw0yMTAxMDgxMzU4MzNaMIHEMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUk9NQTENMAsGA1UEBwwEUk9NQTEmMCQGA1UECgwdQUdFTlpJQSBQRVIgTCdJVEFMSUEgRElHSVRBTEUxJjAkBgNVBAsMHUFHRU5aSUEgUEVSIEwnSVRBTElBIERJR0lUQUxFMSAwHgYDVQQDDBdodHRwczovL2luZGljZXBhLmdvdi5pdDElMCMGCSqGSIb3DQEJARYWaXBhQHBlYy1pYy5hZ2lkLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOfnKGZogECheoT4Ic8FgIFjCyZ35i0I8MJ7eU16TSQ7HsI7JBcxoD0P4BkVJR3NOJhhrZGr28tpUlVnj6vna/PtsYqiXVatPgZJxCxwsxQxuhXieMPm0XMbTWOfLm9NzQFebHtzgnJNFZ3ES9kbYEfTDKmIj41jlGxAOYST9FWH2D2mT/XJ+ZO/aRb/YKnBXV2wapf8k1j6QGhJneEPOSCwbkLs6SG/3eZ0fGlx1B5bG58NGp6QrtBYOr9hyukj5cXLJuR3Gx1uezqEgziyK1O9SrpTqTcJ/Yv6oYpnTK49fuFOnbZ75G4kB0IbbVWkFN2o69NTwqwnqOBGAnppxHUCAwEAAaNQME4wHQYDVR0OBBYEFAZYF/TddP/uugU3j2eRJd1BwwS0MB8GA1UdIwQYMBaAFAZYF/TddP/uugU3j2eRJd1BwwS0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJjuUPdXkDnDgEmLdX1jTb48J03j+foW24wveqBRXT2gX3Tv39chKI4QaB9GLljK4qQIsTj1hQB7ZHb23BUn4p81bV4wIV3qN/XWeiH6rT3w6dnDEh4ZE3tvNZG1TbfVlpj75DBQ8wVRcIGbIWHNnmIclP8XhGpgWp0OlReMobsc2kodpXxJNV5N5jjhEK9F+YUf9LUjB3yQyDuNo0aG3QbV8hEEkBuVOk2eYSsZha+DWGLHIgGlx8pwjv3iMDe0ZdA69PEWpfjd47v4i5LO+cNuumUXFNIJcMSeSd2KkH9knd98Z4/oTa8s0KiCJek99bkYY+gUvU9/4bOWVLJgpHM=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>https://trustservices.agid.gov.it (10/02/2022)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIHfTCCBmWgAwIBAgIQMALwqv+OLBSvSjv3vG7mVDANBgkqhkiG9w0BAQsFADCB kDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExJjAkBgNVBAoMHUFnZW56aWEg cGVyIGwnSXRhbGlhIERpZ2l0YWxlMTcwNQYDVQQLDC5BcmVhIFNvbHV6aW9uaSBw ZXIgbGEgUHViYmxpY2EgQW1taW5pc3RyYXppb25lMREwDwYDVQQDDAhBZ0lEIENB MTAeFw0yMDAyMTExMTI5MTlaFw0yMjAyMTAxMTI5MTlaMIGdMQswCQYDVQQGEwJJ VDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEmMCQGA1UECgwdQWdlbnpp YSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxJDAiBgNVBAsMG1VmZmljaW8gU2lzdGVt YSBJbmZvcm1hdGl2bzEiMCAGA1UEAwwZdHJ1c3RzZXJ2aWNlcy5hZ2lkLmdvdi5p dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKyMYDOaylnAhzMeAdKq YbMoYTxi1vMZsTLh4QzoMOBYBPEXS3pJ9pbeODaAqkTb9TGFQEKCnP8SMfQlD7rQ 1ZtuNYSY7cJXdd0WyoW8T7Q6lLbYJsXnjhqrfRjvUc/Aar9+qTg5IVOigWR10gRL sJI63lbg62Mi+Kq1RgF7yx8vJP2PhzZt6iBlzbICgtQokp+avzDvKm7/plcn+uZP CmrbP2aO4LMyNBhudUN6heMKgnSPk5jfWCltMi2vAfObOS/XM/7zGT0ZCpPBbpb2 Dgi89QDCWE9DnQWkIdT8/5sG3NEpgITdRoGqce0bC570yNP2mIUJmIs5AufQ8KFT Bd8CAwEAAaOCA8IwggO+MDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0 cDovL2NhMS5hZ2lkLmdvdi5pdC9PQ1NQMB0GA1UdDgQWBBRgjoi8wM/CfWlGtgRs t+1FzZCvVDAfBgNVHSMEGDAWgBSl/YUFDsPx1mVKIGzi201gkyuKoDBZBgNVHSAE UjBQMAgGBmeBDAECAjBEBgYrTBADAQMwOjA4BggrBgEFBQcCARYsaHR0cDovL3d3 dy5hZ2lkLmdvdi5pdC9jZXJ0aWZpY2F0aS1maXJtYS1wZWMwgeAGA1UdHwSB2DCB 1TCBsKCBraCBqoaBp2xkYXA6Ly9jYTEuYWdpZC5nb3YuaXQvY249QWdJRCUyMENB MSxvdT1BcmVhJTIwU29sdXppb25pJTIwcGVyJTIwbGElMjBQdWJibGljYSUyMEFt bWluaXN0cmF6aW9uZSxvPUFnZW56aWElMjBwZXIlMjBsJTI3SXRhbGlhJTIwRGln aXRhbGUsQz1JVD9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0MCCgHqAchhpodHRw Oi8vY2ExLmFnaWQuZ292Lml0L0NSTDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYw FAYIKwYBBQUHAwIGCCsGAQUFBwMBMFQGA1UdEQRNMEuCGXRydXN0c2VydmljZXMu YWdpZC5nb3YuaXSCFXNlbnRpbWVudC5hZ2lkLmdvdi5pdIIXc3RhdGlzdGljaGUu YWdpZC5nb3YuaXQwggF+BgorBgEEAdZ5AgQCBIIBbgSCAWoBaAB2AEHIyrHfIkZK EMahOglCh15OMYsbA+vrS8do8JBilgb2AAABcDQL5YEAAAQDAEcwRQIhAPmk4saE RcP1JxUgrW1M3A4TRrv0mWX6eopmWSpvKRjTAiACiCyG2p6ouFWHLgFDu76ZmYJm AiqW9oD3wsjI19zBpAB2AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3L AAABcDQL5HkAAAQDAEcwRQIgV7HlVFb3mgIwLSmBMU0CVeLhi7qEQYhQIRkBXOZD GFgCIQDclJXpWSdklHrPUwfIoF88c+50+L0gjSJLidHY/0YlagB2ACJFRQdZVSRW lj+hL/H3bYbgIyZjrcBLf13Gg1xu4g8CAAABcDQL5owAAAQDAEcwRQIhAO21zFUB D9iegqi1sqQhZ3rkwFzNb48iCLS+oIuKwLE2AiAL5UZ01S5qwLILcUXQPDv0H2Zr 1+Y5fVGBalJxo8QF1DANBgkqhkiG9w0BAQsFAAOCAQEAzO1UH1Q6wJItKpmTamLX 5yZz9UokBXl3/r1b9u0/dvG5f53MLe6ZZUIVMIBm3SPsBTWTre6H6KQylPM0BcO6 csQvWfxsH8bR1ELyk+W/2W9TsFih9NminJXgcA8SC4gUNWAIfu0jQfs3TKYxnI66 QjGfFDJ0GDm1CLxIlhQqwOnqtzyq42KFf/FTK+4+om81tYi3U+76X0XdXirYj9jl 2/Ttztj31Am37t8FGuIv1URBXwVp+Xin8JPct8Opi5c4+INOBvDflgRp6ueAR8Hc rvgCt0K+VYZ5JJcFmkqNWfykVxZgYKDOG8uFF/j8720VvfrOXRgCwwEaBn4T7tvV tg==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>id.cloud.italia.it (24/04/2022)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIUd0oqUxP/eOCDawd+L71NY4vB3LwwDQYJKoZIhvcNAQELBQAwazELMAkGA1UEBhMCSVQxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMREwDwYDVQQLDAhDbG91ZCBQQTEhMB8GA1UEAwwYQ2xvdWQgUEEgSWRlbnRpdHkgQnJva2VyMB4XDTIwMDQyNDEzNTUzMloXDTIyMDQyNDEzNTUzMlowazELMAkGA1UEBhMCSVQxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMREwDwYDVQQLDAhDbG91ZCBQQTEhMB8GA1UEAwwYQ2xvdWQgUEEgSWRlbnRpdHkgQnJva2VyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApDmm0vzp76UfDuIAZ7D0IQZ5W8PZ+1WRO3+uEarwodjpN7EuwVLlChl38Q4EDssVKfrG+EQ4AnP+KG3DiapCZKOvAoDEvTy4yeIGAA4vTI7rxBaIZznlOemoBJ3WpUh5QRqt6qCiydp2w+6LcWGHZ6Rm5b/WqD85KQkl6+I+KpNreZdZxar9vEsQnPjLhws9BpnKw7uHqot1vGfwq9pvA7LLzfeeONKBD4UIia3BXnxKyyy1dPyUdClv1ONYwP89BaxDYmvM6spUIdTU/wC2d3jxijpo/U1DPy6Zlc/nUeUoUN0A14yPrRE5PK6DkZoRi0NOUb5rzBAz7dWQssI8nwIDAQABo1MwUTAdBgNVHQ4EFgQUsu5yA6/4YAmUzzlFTCZkUdH8OBMwHwYDVR0jBBgwFoAUsu5yA6/4YAmUzzlFTCZkUdH8OBMwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAH/42dPhzjjKaGaZGizX86wE80HdkRiXfcjxnxxyM1hmp7dECeca2B8Ue+ckZEYekEmjLn1zTzKrZ+Yhgd1xE2Y6qtrA4hdUSb4iv7d9cuZ2G/BpUqbIb8u7ML6Cu/8tl8RJYmlJt7eI1W8V/vRNnNq9ZF9pK6U1dH8W660wMap2iCIHHlNtQHiDI8NHHOOqcZAKDC7+NT+AKrIPqYIdurouqp+skpsbxm6pnMsd3OLV/bxSZ0YVy6UjfcuHFoLMdVulptsdRc7sRchRWPB660mnSsY951xhVDDqZGYZZyEGZ0WVn8ShHP2Nx8+bWkwI9ZxmBbGgxUxHLCB2Z1n1vsQ==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>login.agid.gov.it (20/04/2030)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEQzCCAyugAwIBAgIJALtuu1AaqdR7MA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTEmMCQGA1UECgwdQWdlbnppYSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxIDAeBgNVBAsMF1NlcnZpemlvIEFjY3JlZGl0YW1lbnRvMRowGAYDVQQDDBFsb2dpbi5hZ2lkLmdvdi5pdDEkMCIGCSqGSIb3DQEJARYVc3BpZC50ZWNoQGFnaWQuZ292Lml0MB4XDTIwMDQyMjE3MzU0NFoXDTMwMDQyMDE3MzU0NFowgbcxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEgMB4GA1UECwwXU2Vydml6aW8gQWNjcmVkaXRhbWVudG8xGjAYBgNVBAMMEWxvZ2luLmFnaWQuZ292Lml0MSQwIgYJKoZIhvcNAQkBFhVzcGlkLnRlY2hAYWdpZC5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtfKmKLB03Kn6F+F6yPCbmH7sxxLfknDjZ/UA1uzw3XBBKA87hmEnbH6a72HEA0FV7Dup12mb3i9zxIg7+haHbpJoSFZUwbSybw+cg32SGm8zphi/vl7JL4Cg//npEyNah4V9iCSvbeWVKqTA6Vut4PTlFMKbaWZyyHT7oWxCKac7O1ZN3pfozF2srLvaB1sc6FvFhAL8mHtQKKWrsDotG2V4X4csqt18p/xSYiBfZsJOJoOooCdtMcTkhvjIx5HqRfV/z3/kSmoENw957aGa94co3eQ6aGsmz0Z9Afix73m1yGfgc6AZFsXKWeHSm8bjmykPCqWM0frVjqAIYeJ97AgMBAAGjUDBOMB0GA1UdDgQWBBT5HG5xGCYRpHrVW7R1DGOhxFQHvjAfBgNVHSMEGDAWgBT5HG5xGCYRpHrVW7R1DGOhxFQHvjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA5w2sNVgnA3Jk9UWxHM6Tw/dfeMAXl9frvYhAzt+F1lpu/NDvifSECzI33WEbzSzYesvjYMjle6JRyV0jQ9o1tnJsbnjsjlQWNOagpWNmFlYfmOCko5zEkvaEtYdSD469tf/7RIA+3UC1CdysP7GqWdoYdcBJzdqauicR9ISe8X8HuG6iu4JpSRwRK/85X0RzwEk94wQf6SzgcHAoMVx51YjhRmmZ1+i6mYd6iimwqRc5Piloe8G5fBdcywAk4hxAfmjT6dq1B2TV8u56UKZjcn4ZuesxEwPm7Ni2pKJ9FjlCIH8hj5wEnFv/+6is/ReR/KSTULOG8VLXx5mu8aKf7</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>difensorecivicodigitale.gov.it (13/02/2028)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEGTCCAwGgAwIBAgIJAJ9nZ6EuD0l+MA0GCSqGSIb3DQEBCwUAMIGiMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBFJvbWUxDTALBgNVBAoMBEFnSUQxDTALBgNVBAsMBEFnSUQxJzAlBgNVBAMMHmRpZmVuc29yZWNpdmljb2RpZ2l0YWxlLmdvdi5pdDEtMCsGCSqGSIb3DQEJARYeY2xhdWRpby5iaWFuY2FsYW5hQGFnaWQuZ292Lml0MB4XDTE4MDIxMzEzNTAzNVoXDTI4MDIxMzEzNTAzNVowgaIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEnMCUGA1UEAwweZGlmZW5zb3JlY2l2aWNvZGlnaXRhbGUuZ292Lml0MS0wKwYJKoZIhvcNAQkBFh5jbGF1ZGlvLmJpYW5jYWxhbmFAYWdpZC5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCp+I0qTNEET653iCYO3COh/64rBhnrigcDlRH8wh4p3xiQ3NuF67oHid63I4v48QHiedHRlXibClt8czqnPTLnd5lTo7OP+vCp3nGyW3VUh90RWGb9mWZc3XqxNObnIW/6NRIkAkk0XtR3P/vELhUuONBuLPSuBbXhRjnBnXmBlDqZXvst1rESrZw/hZ57Boh15Qo3tyFGyX1lf2qZy++aOsNr2EoWHx0nGMe5GBgPnRiJs5RSf9NxWsY5b8JRwpOaTf0/qmgTHNqpd5rSIV57aGL74VyxxJ2WrqVWsFp8HGM/7tZPmJYMguzs2l1QlFkG7hdXC1OjR0nMDeJ0optJAgMBAAGjUDBOMB0GA1UdDgQWBBSVMn3el2zPHkZmBkTDv+JdAm5LXzAfBgNVHSMEGDAWgBSVMn3el2zPHkZmBkTDv+JdAm5LXzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAHLyOJ9sQKbg9Xlyq0vAFNcAp1EPrgm6nZDmG9tsQwmY/+3r/QSY8xFYAKzXbz/B/kUaEpVxksVbSUcIBMAYyopsLmaxmWBiNwnGp0nTDVJfvR0YnRWGNvotOvjWrPD+IdK0FfcBkARzYDRJNlNLKCCzTG1pPyUyAYIzCubX3kF3I7c6Vl37v0M8XD9iDfCiZum33T6jCVUgWt4J92/o7ogM9equB3Fxafgef9xvFfUyX23ZHI0ME34hm+QbIvFLWrzmfncAXNwg62x6879aOfB9ki/rsjASMT0ng5LkFEfouJGrgFAhpgr0z1YUVFSAE+1xrVjlODOVhKuEfv8LdI</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>AgID (03/06/2028)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDKzCCAhOgAwIBAgIJAMEBEaIudt/+MA0GCSqGSIb3DQEBCwUAMCwxCzAJBgNV                        BAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UECgwEQWdJRDAeFw0xODA2MDYx                        NjU3MjVaFw0yODA2MDMxNjU3MjVaMCwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJ                        dGFseTENMAsGA1UECgwEQWdJRDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC                        ggEBAOPkifKRf5EFpEKiWJsSAg+EOWZUh8cJXXI3uVD29hlw8Ebs/ABM7fCoPEe+                        McVYS59IZTy1dn6fP2v044cbF2QMWv1PWrg3kx8Ij77l0RgmtG5OuC65kl+3Jetj                        yiFXKEgv6A6Tq+TT3Iyqn80iKcVfgy5CAbIx7XjdBc1hQSTGeg0ne9N5rN6TiOXp                        z49G064fjnVAmP6ct6oanlB9M+oZyeMfvvPruHVtxucDFER8/eNnoaKRQmpWNag8                        LO58qE5rSnHVMICcGOYUtbwXN7CKx2ebGaVTpGwsLuy/oZgwKAHOhW0Ur8Fzn6Ie                        tM8GV97KiXksZLqpIpYX7ADhf+kCAwEAAaNQME4wHQYDVR0OBBYEFJ1V6kd+gpde                        MVurPPxjquUhAziAMB8GA1UdIwQYMBaAFJ1V6kd+gpdeMVurPPxjquUhAziAMAwG                        A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEaaaOE8LfSTR4Rrx1ANxw63                        i1SvdGFhdIlLwv39yh2EJ+BOFy1Pm5kd/SAXYo8dAPGwBKOo+jWc0CJx7a9kaWoW                        /LEiEYobBeY+ueKXaN+UEti9996Zk36QOfc2uPZJtgxlBRZO3vROz0yOtAYXQmsf                        +838MqWj9YtHAVUWjq0bLyGxA8dgpP0M/Vf2Y/XqDxRjv28HDqAxv4Goc/ze3G+A                        UaOjEW5VNPE6+qHNNsb+YQKKOCOJjbbAVBuZZcZxriLXZGO2M36BqaNwY+berr++ fi5NNWCo7lRCLQtNDLuGqPgZw0/qhFD+mngSpyYmhlPyVafFZl4oB2r4HCv23n8=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>difensorecivicodigitale.gov.it (14/12/2019)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAOQp04rQyPOHMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMQ0wCwYDVQQKDARBZ0lEMQ0wCwYDVQQLDARBZ0lEMScwJQYDVQQDDB5kaWZlbnNvcmVjaXZpY29kaWdpdGFsZS5nb3YuaXQwHhcNMTgxMjE0MTUxOTM3WhcNMTkxMjE0MTUxOTM3WjByMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTENMAsGA1UECgwEQWdJRDENMAsGA1UECwwEQWdJRDEnMCUGA1UEAwweZGlmZW5zb3JlY2l2aWNvZGlnaXRhbGUuZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApL+xV8ITX+ti07r1k5sSyTArfLBJYu7JP79KtF23JpS6D/5fi1wG5e1wdWjdcZsq5RinP+Of2v9DUCeR5iXpSUDlnc5bfqGj6sEWo/h2ZgEz+gAr5rprQa/M9N8p3lX4X3EMzzDeDlB1w3hvjttEexJqlkuwqu168hFUXfXngH4ahSUp8ad7PNVnWov2R/CiarjIId5lr1U/gJlcDRVc1478ipF9FyEXYv/pbX4SOkCW7ZjrDj+heFm64mbhxA5PiNptqkz72gnrkeTdT39NdSpnyXvwA9HRIA/eL9y5aZeu6AhbJnqW9DegBS0wII5zB7NnG3ndEYqxFVQ2OW4IQQIDAQABo1AwTjAdBgNVHQ4EFgQUHYWyc5XYfoyI256195J5r7PDghUwHwYDVR0jBBgwFoAUHYWyc5XYfoyI256195J5r7PDghUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAP7RadSW98+Teq4Gnk/GEejZTwotLqjYtdDlMSXQLuP5EzDDi5GLc+su7Vt3Jgo7veITQlKcrbu3grcSFwBMzE/DNaV5QyQDniBKU9bfHWjkw6Q+Eb3IUvcV5Iy1vJI4SgCh7Y3WHJNz2WKTJTG/TZVaD1YgPcGjtIOhhrrlpzH8/6zFFSti9Z5QyKz1dj5ReNd+t5shKe9UUPsFKxNLeQzVL0EITzWdoEW2fIMvOSXvYOcv1ay7OCY9Un0RxlAiG8Phna5eqbTcfcoS21o8wUfMtg93FUIJnkqgwTYc4CaFjWA/XP7igc4xogVpL7UuEYmbwTsNBmZDnDYgFuRT02A==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>https://indicepa.gov.it (08/01/2021)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIEXTCCA0WgAwIBAgIJAJDxzWyhxFRDMA0GCSqGSIb3DQEBCwUAMIHEMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUk9NQTENMAsGA1UEBwwEUk9NQTEmMCQGA1UECgwdQUdFTlpJQSBQRVIgTCdJVEFMSUEgRElHSVRBTEUxJjAkBgNVBAsMHUFHRU5aSUEgUEVSIEwnSVRBTElBIERJR0lUQUxFMSAwHgYDVQQDDBdodHRwczovL2luZGljZXBhLmdvdi5pdDElMCMGCSqGSIb3DQEJARYWaXBhQHBlYy1pYy5hZ2lkLmdvdi5pdDAeFw0yMDAxMDkxMzU4MzNaFw0yMTAxMDgxMzU4MzNaMIHEMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUk9NQTENMAsGA1UEBwwEUk9NQTEmMCQGA1UECgwdQUdFTlpJQSBQRVIgTCdJVEFMSUEgRElHSVRBTEUxJjAkBgNVBAsMHUFHRU5aSUEgUEVSIEwnSVRBTElBIERJR0lUQUxFMSAwHgYDVQQDDBdodHRwczovL2luZGljZXBhLmdvdi5pdDElMCMGCSqGSIb3DQEJARYWaXBhQHBlYy1pYy5hZ2lkLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOfnKGZogECheoT4Ic8FgIFjCyZ35i0I8MJ7eU16TSQ7HsI7JBcxoD0P4BkVJR3NOJhhrZGr28tpUlVnj6vna/PtsYqiXVatPgZJxCxwsxQxuhXieMPm0XMbTWOfLm9NzQFebHtzgnJNFZ3ES9kbYEfTDKmIj41jlGxAOYST9FWH2D2mT/XJ+ZO/aRb/YKnBXV2wapf8k1j6QGhJneEPOSCwbkLs6SG/3eZ0fGlx1B5bG58NGp6QrtBYOr9hyukj5cXLJuR3Gx1uezqEgziyK1O9SrpTqTcJ/Yv6oYpnTK49fuFOnbZ75G4kB0IbbVWkFN2o69NTwqwnqOBGAnppxHUCAwEAAaNQME4wHQYDVR0OBBYEFAZYF/TddP/uugU3j2eRJd1BwwS0MB8GA1UdIwQYMBaAFAZYF/TddP/uugU3j2eRJd1BwwS0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJjuUPdXkDnDgEmLdX1jTb48J03j+foW24wveqBRXT2gX3Tv39chKI4QaB9GLljK4qQIsTj1hQB7ZHb23BUn4p81bV4wIV3qN/XWeiH6rT3w6dnDEh4ZE3tvNZG1TbfVlpj75DBQ8wVRcIGbIWHNnmIclP8XhGpgWp0OlReMobsc2kodpXxJNV5N5jjhEK9F+YUf9LUjB3yQyDuNo0aG3QbV8hEEkBuVOk2eYSsZha+DWGLHIgGlx8pwjv3iMDe0ZdA69PEWpfjd47v4i5LO+cNuumUXFNIJcMSeSd2KkH9knd98Z4/oTa8s0KiCJek99bkYY+gUvU9/4bOWVLJgpHM=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509SubjectName>https://trustservices.agid.gov.it (10/02/2022)</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIHfTCCBmWgAwIBAgIQMALwqv+OLBSvSjv3vG7mVDANBgkqhkiG9w0BAQsFADCB kDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExJjAkBgNVBAoMHUFnZW56aWEg cGVyIGwnSXRhbGlhIERpZ2l0YWxlMTcwNQYDVQQLDC5BcmVhIFNvbHV6aW9uaSBw ZXIgbGEgUHViYmxpY2EgQW1taW5pc3RyYXppb25lMREwDwYDVQQDDAhBZ0lEIENB MTAeFw0yMDAyMTExMTI5MTlaFw0yMjAyMTAxMTI5MTlaMIGdMQswCQYDVQQGEwJJ VDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEmMCQGA1UECgwdQWdlbnpp YSBwZXIgbCdJdGFsaWEgRGlnaXRhbGUxJDAiBgNVBAsMG1VmZmljaW8gU2lzdGVt YSBJbmZvcm1hdGl2bzEiMCAGA1UEAwwZdHJ1c3RzZXJ2aWNlcy5hZ2lkLmdvdi5p dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKyMYDOaylnAhzMeAdKq YbMoYTxi1vMZsTLh4QzoMOBYBPEXS3pJ9pbeODaAqkTb9TGFQEKCnP8SMfQlD7rQ 1ZtuNYSY7cJXdd0WyoW8T7Q6lLbYJsXnjhqrfRjvUc/Aar9+qTg5IVOigWR10gRL sJI63lbg62Mi+Kq1RgF7yx8vJP2PhzZt6iBlzbICgtQokp+avzDvKm7/plcn+uZP CmrbP2aO4LMyNBhudUN6heMKgnSPk5jfWCltMi2vAfObOS/XM/7zGT0ZCpPBbpb2 Dgi89QDCWE9DnQWkIdT8/5sG3NEpgITdRoGqce0bC570yNP2mIUJmIs5AufQ8KFT Bd8CAwEAAaOCA8IwggO+MDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0 cDovL2NhMS5hZ2lkLmdvdi5pdC9PQ1NQMB0GA1UdDgQWBBRgjoi8wM/CfWlGtgRs t+1FzZCvVDAfBgNVHSMEGDAWgBSl/YUFDsPx1mVKIGzi201gkyuKoDBZBgNVHSAE UjBQMAgGBmeBDAECAjBEBgYrTBADAQMwOjA4BggrBgEFBQcCARYsaHR0cDovL3d3 dy5hZ2lkLmdvdi5pdC9jZXJ0aWZpY2F0aS1maXJtYS1wZWMwgeAGA1UdHwSB2DCB 1TCBsKCBraCBqoaBp2xkYXA6Ly9jYTEuYWdpZC5nb3YuaXQvY249QWdJRCUyMENB MSxvdT1BcmVhJTIwU29sdXppb25pJTIwcGVyJTIwbGElMjBQdWJibGljYSUyMEFt bWluaXN0cmF6aW9uZSxvPUFnZW56aWElMjBwZXIlMjBsJTI3SXRhbGlhJTIwRGln aXRhbGUsQz1JVD9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0MCCgHqAchhpodHRw Oi8vY2ExLmFnaWQuZ292Lml0L0NSTDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYw FAYIKwYBBQUHAwIGCCsGAQUFBwMBMFQGA1UdEQRNMEuCGXRydXN0c2VydmljZXMu YWdpZC5nb3YuaXSCFXNlbnRpbWVudC5hZ2lkLmdvdi5pdIIXc3RhdGlzdGljaGUu YWdpZC5nb3YuaXQwggF+BgorBgEEAdZ5AgQCBIIBbgSCAWoBaAB2AEHIyrHfIkZK EMahOglCh15OMYsbA+vrS8do8JBilgb2AAABcDQL5YEAAAQDAEcwRQIhAPmk4saE RcP1JxUgrW1M3A4TRrv0mWX6eopmWSpvKRjTAiACiCyG2p6ouFWHLgFDu76ZmYJm AiqW9oD3wsjI19zBpAB2AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3L AAABcDQL5HkAAAQDAEcwRQIgV7HlVFb3mgIwLSmBMU0CVeLhi7qEQYhQIRkBXOZD GFgCIQDclJXpWSdklHrPUwfIoF88c+50+L0gjSJLidHY/0YlagB2ACJFRQdZVSRW lj+hL/H3bYbgIyZjrcBLf13Gg1xu4g8CAAABcDQL5owAAAQDAEcwRQIhAO21zFUB D9iegqi1sqQhZ3rkwFzNb48iCLS+oIuKwLE2AiAL5UZ01S5qwLILcUXQPDv0H2Zr 1+Y5fVGBalJxo8QF1DANBgkqhkiG9w0BAQsFAAOCAQEAzO1UH1Q6wJItKpmTamLX 5yZz9UokBXl3/r1b9u0/dvG5f53MLe6ZZUIVMIBm3SPsBTWTre6H6KQylPM0BcO6 csQvWfxsH8bR1ELyk+W/2W9TsFih9NminJXgcA8SC4gUNWAIfu0jQfs3TKYxnI66 QjGfFDJ0GDm1CLxIlhQqwOnqtzyq42KFf/FTK+4+om81tYi3U+76X0XdXirYj9jl 2/Ttztj31Am37t8FGuIv1URBXwVp+Xin8JPct8Opi5c4+INOBvDflgRp6ueAR8Hc rvgCt0K+VYZ5JJcFmkqNWfykVxZgYKDOG8uFF/j8720VvfrOXRgCwwEaBn4T7tvV tg==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://difensorecivicodigitale.gov.it/spid/module.php/saml/sp/saml2-logout.php/service"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.agid.gov.it/iam/SLO/POST"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://questionari-ict.italia.it/simplesaml/module.php/saml/sp/saml2-logout.php/sp-questionari"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://avvio.censimentoict.italia.it/simplesaml/module.php/saml/sp/saml2-logout.php/censimentoict-sp"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://manager.servizi.gov.it/iam/SLO/Redirect"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://manager.servizi.gov.it/iam/SLO/POST"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/simplesaml/module.php/saml/sp/saml2-logout.php/sp-qualificazione"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdpr.italia.it/api/logoutCallback"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gr.sicurezzait.gov.it/api/logoutCallback"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sicurezzait.gov.it/api/logoutCallback"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdpr.sicurezzait.gov.it/api/logoutCallback"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/test-nuovo-marketplace/slogout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/marketplace/slogout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/beta-nuovo-marketplace/slogout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://avvio.censimentoict.italia.it/AgIDSpid/module.php/saml/sp/saml2-logout.php/service"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://webanalytics.italia.it/spid/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://indicepa.gov.it/service/module.php/saml/sp/saml2-logout.php/service"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.agid.gov.it/saml/module.php/saml/sp/saml2-logout.php/service"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.cloud.italia.it/commonauth"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.cloud.italia.it/commonauth"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trustservices.agid.gov.it/iam/SLO/Redirect"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trustservices.agid.gov.it/iam/SLO/POST"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www2.sicurezzait.gov.it/api/logoutCallback"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.agid.gov.it/iam/SAML2/POST" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://questionari-ict.italia.it/simplesaml/module.php/saml/sp/saml2-acs.php/sp-questionari" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://avvio.censimentoict.italia.it/simplesaml/module.php/saml/sp/saml2-acs.php/censimentoict-sp" index="4"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://manager.servizi.gov.it/iam/SAML2/POST" index="5"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/simplesaml/module.php/saml/sp/saml2-acs.php/sp-qualificazione" index="6"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdpr.italia.it/api/acs" index="7"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gr.sicurezzait.gov.it/api/acs" index="8"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sicurezzait.gov.it/api/acs" index="9"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdpr.sicurezzait.gov.it/api/acs" index="10"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://difensorecivicodigitale.gov.it/spid/module.php/saml/sp/saml2-acs.php/service" index="11"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/test-nuovo-marketplace/slogin" index="12"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/marketplace/slogin" index="13"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cloud.italia.it/beta-nuovo-marketplace/slogin" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://avvio.censimentoict.italia.it/AgIDSpid/module.php/saml/sp/saml2-acs.php/service" index="14"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webanalytics.italia.it/spid/acs" index="15"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://indicepa.gov.it/service/module.php/saml/sp/saml2-acs.php/service" index="16"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.agid.gov.it/saml/module.php/saml/sp/saml2-acs.php/service" index="17"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.cloud.italia.it/commonauth" index="18"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trustservices.agid.gov.it/iam/SAML2/POST" index="19"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www2.sicurezzait.gov.it/api/acs" index="20"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set Attributi 1</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Set Attributi 1</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set Attributi 2</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Set Attributi 2</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set Attributi 3</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Set Attributi 3</md:ServiceDescription>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">Piattaforma Questionari</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Piattaforma Questionari</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4">
+            <md:ServiceName xml:lang="it">Set Attributi 4</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Set Attributi 4</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="5">
+            <md:ServiceName xml:lang="it">qualificazione</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">qualificazione</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="7">
+            <md:ServiceName xml:lang="it">AgID acs</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">AgID acs</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="11">
+            <md:ServiceName xml:lang="it">Difensore Civico Digitale</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Difensore Civico Digitale</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="14">
+            <md:ServiceName xml:lang="it">Censimento ICT</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Censimento ICT</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="15">
+            <md:ServiceName xml:lang="it">Web Analytics Italia</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Web Analytics Italia</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="16">
+            <md:ServiceName xml:lang="it">Indice delle Pubbliche Amministrazioni</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Indice delle Pubbliche Amministrazioni</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="17">
+            <md:ServiceName xml:lang="it">Marketplace</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Marketplace</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="40">
+            <md:ServiceName xml:lang="it">Zero</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">id.cloud.italia.it</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="41">
+            <md:ServiceName xml:lang="it">Anagrafe</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">id.cloud.italia.it</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="42">
+            <md:ServiceName xml:lang="it">Contatti</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">id.cloud.italia.it</md:ServiceDescription>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="43">
+            <md:ServiceName xml:lang="it">Tutto</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">id.cloud.italia.it</md:ServiceDescription>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">AgID</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">AgID - Agenzia per l'Italia Digitale</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://agid.gov.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.montegrotto.org" ID="pfxb87e3224-5f77-4cfa-4757-d7d89a95912a"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxb87e3224-5f77-4cfa-4757-d7d89a95912a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>bE9PxCkW5QqynvX0K9G/5uY7zmPEeCezmxDgffaq28c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>3/TkzFSk9mbSAP5yfHbnSSHAwz/Lp18vVJIkUMKO8N7fI4lL3dnhSUtyPTb6ErSrGKQEm3SfNNGw0cAtKUqsB4oQ4U9x/s66juEmNOu6yHX+f6dkuQkOX44p3AVSbbOKF9vKs6I9bYIK/h4wvewxZ9vXGptS0/2SKdavwnW783a8HBoMIgaNlqRow5RHVp4QGBc/+mTmCwZPaCfWxz0aaM++87Xfzh8Ce27diSCQbwCLyYKYBuRi8xHM/NMS6J/uUxBm5ROWInEuDYXdqm+e/MeURCE0xyHjQuejGUhxe/4TnlhTP8WMqeNQgc+Yi+x7coLznxorO9kFeI6EfnJu2A==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDzTCCArWgAwIBAgIJALlQq1J/G73SMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRTW9udGVncm90dG8gVGVybWUxJDAiBgNVBAoMG0NvbXVuZSBkaSBNb250ZWdyb3R0byBUZXJtZTEcMBoGA1UEAwwTd3d3Lm1vbnRlZ3JvdHRvLm9yZzAeFw0xODA0MTIwNjU3NDJaFw0yODA0MTEwNjU3NDJaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRTW9udGVncm90dG8gVGVybWUxJDAiBgNVBAoMG0NvbXVuZSBkaSBNb250ZWdyb3R0byBUZXJtZTEcMBoGA1UEAwwTd3d3Lm1vbnRlZ3JvdHRvLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN/1MjFiDkzuOXTcC1kiE3rbJyvL1a5SBnQlfYdtH7v57G6lOdFOVmNZ5VFiEFRnNjXvJUPK+6/8EROiS0rX0R5Q/lh7wSeVa74qDEKqEclJNOMJPFAR8mgkBR7JXp3ZFwgExQLjV94yC4kgFx0Q1rmHo/MZTbqTYQpLzh4ZWq4siqTXB462S0Q+dxN/sUlPhi1/4UcYXTkxP+Z8KmDCjRXxZn1VxcanJSl5YdKL6HdDTRuJzYvPWXn400mqGnlILtYOVrz92FMUfLogzkLhif0LWMCSdLQ/25PE3bZS5lpVMMgTVqhG8vjhj78lAolQxdYWJyg5DQ0IX5b9zNWSW0sCAwEAAaNQME4wHQYDVR0OBBYEFNSDtsIcR329r7eTzKkzrvnGCuMEMB8GA1UdIwQYMBaAFNSDtsIcR329r7eTzKkzrvnGCuMEMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGjRrqp+C52fUheCj1m871wmCtQyxa3Gg1JFYFT0b9N3n8hbH94ANlKPtVPgJpydUim3cFBoG1ZDd2khFLre1E6Xydty8x0EanTynTgjT95HACdGZyYpZYz1ChbAbspCkhZqeO/BsIzdJ2stWmI0LpvuQ+2qRIpG0/3v3H8AgryYfHX7dh7G6zqNrflLpVjfWV8mdPg0AM1slUwMa4R27deqtGY4u4Z053pwutZPUFZg6EUkwsb/hevqL604i6kYbC45nO+LECKF8qfZB7KjX/XDpcDuV4sgHKiR9TK85TExixlBEut13Ze7rVKX9ov7zNYFHKOH608mqb2WK9OBsK4=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzTCCArWgAwIBAgIJALlQq1J/G73SMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRTW9udGVncm90dG8gVGVybWUxJDAiBgNVBAoMG0NvbXVuZSBkaSBNb250ZWdyb3R0byBUZXJtZTEcMBoGA1UEAwwTd3d3Lm1vbnRlZ3JvdHRvLm9yZzAeFw0xODA0MTIwNjU3NDJaFw0yODA0MTEwNjU3NDJaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRTW9udGVncm90dG8gVGVybWUxJDAiBgNVBAoMG0NvbXVuZSBkaSBNb250ZWdyb3R0byBUZXJtZTEcMBoGA1UEAwwTd3d3Lm1vbnRlZ3JvdHRvLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN/1MjFiDkzuOXTcC1kiE3rbJyvL1a5SBnQlfYdtH7v57G6lOdFOVmNZ5VFiEFRnNjXvJUPK+6/8EROiS0rX0R5Q/lh7wSeVa74qDEKqEclJNOMJPFAR8mgkBR7JXp3ZFwgExQLjV94yC4kgFx0Q1rmHo/MZTbqTYQpLzh4ZWq4siqTXB462S0Q+dxN/sUlPhi1/4UcYXTkxP+Z8KmDCjRXxZn1VxcanJSl5YdKL6HdDTRuJzYvPWXn400mqGnlILtYOVrz92FMUfLogzkLhif0LWMCSdLQ/25PE3bZS5lpVMMgTVqhG8vjhj78lAolQxdYWJyg5DQ0IX5b9zNWSW0sCAwEAAaNQME4wHQYDVR0OBBYEFNSDtsIcR329r7eTzKkzrvnGCuMEMB8GA1UdIwQYMBaAFNSDtsIcR329r7eTzKkzrvnGCuMEMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGjRrqp+C52fUheCj1m871wmCtQyxa3Gg1JFYFT0b9N3n8hbH94ANlKPtVPgJpydUim3cFBoG1ZDd2khFLre1E6Xydty8x0EanTynTgjT95HACdGZyYpZYz1ChbAbspCkhZqeO/BsIzdJ2stWmI0LpvuQ+2qRIpG0/3v3H8AgryYfHX7dh7G6zqNrflLpVjfWV8mdPg0AM1slUwMa4R27deqtGY4u4Z053pwutZPUFZg6EUkwsb/hevqL604i6kYbC45nO+LECKF8qfZB7KjX/XDpcDuV4sgHKiR9TK85TExixlBEut13Ze7rVKX9ov7zNYFHKOH608mqb2WK9OBsK4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzTCCArWgAwIBAgIJALlQq1J/G73SMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRTW9udGVncm90dG8gVGVybWUxJDAiBgNVBAoMG0NvbXVuZSBkaSBNb250ZWdyb3R0byBUZXJtZTEcMBoGA1UEAwwTd3d3Lm1vbnRlZ3JvdHRvLm9yZzAeFw0xODA0MTIwNjU3NDJaFw0yODA0MTEwNjU3NDJaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRTW9udGVncm90dG8gVGVybWUxJDAiBgNVBAoMG0NvbXVuZSBkaSBNb250ZWdyb3R0byBUZXJtZTEcMBoGA1UEAwwTd3d3Lm1vbnRlZ3JvdHRvLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN/1MjFiDkzuOXTcC1kiE3rbJyvL1a5SBnQlfYdtH7v57G6lOdFOVmNZ5VFiEFRnNjXvJUPK+6/8EROiS0rX0R5Q/lh7wSeVa74qDEKqEclJNOMJPFAR8mgkBR7JXp3ZFwgExQLjV94yC4kgFx0Q1rmHo/MZTbqTYQpLzh4ZWq4siqTXB462S0Q+dxN/sUlPhi1/4UcYXTkxP+Z8KmDCjRXxZn1VxcanJSl5YdKL6HdDTRuJzYvPWXn400mqGnlILtYOVrz92FMUfLogzkLhif0LWMCSdLQ/25PE3bZS5lpVMMgTVqhG8vjhj78lAolQxdYWJyg5DQ0IX5b9zNWSW0sCAwEAAaNQME4wHQYDVR0OBBYEFNSDtsIcR329r7eTzKkzrvnGCuMEMB8GA1UdIwQYMBaAFNSDtsIcR329r7eTzKkzrvnGCuMEMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGjRrqp+C52fUheCj1m871wmCtQyxa3Gg1JFYFT0b9N3n8hbH94ANlKPtVPgJpydUim3cFBoG1ZDd2khFLre1E6Xydty8x0EanTynTgjT95HACdGZyYpZYz1ChbAbspCkhZqeO/BsIzdJ2stWmI0LpvuQ+2qRIpG0/3v3H8AgryYfHX7dh7G6zqNrflLpVjfWV8mdPg0AM1slUwMa4R27deqtGY4u4Z053pwutZPUFZg6EUkwsb/hevqL604i6kYbC45nO+LECKF8qfZB7KjX/XDpcDuV4sgHKiR9TK85TExixlBEut13Ze7rVKX9ov7zNYFHKOH608mqb2WK9OBsK4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.montegrotto.org/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.montegrotto.org/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montegrotto Terme</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montegrotto Terme</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.montegrotto.org</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Lacchiarella" entityID="https://www.comune.lacchiarella.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Lacchiarella">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>5XLLh7pb19aezSlYIzDOzTkJZmNY/4VF3oCdhYvU0xk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kzjIvOdA9S4tthB6h2cwQXkJrAO4bz8tOZBWlmBkLaSSLeXpV/Ssvx/yo8YY5RTERkiCK2Kc65Ow
+Vm7aTu+z7bd1qJAFRJMII+5hCbzdB7SEE0pSckMRLSLaYLB+nRR36fSMRh3LSFVJyB/dRzhdMIkz
+gzAlVHqo+0Cbjmrj+0sUIIG/SJxEUqczjTL6MG8wKXUau4IwnEsu9591OL2CQoSvhovc1Lq0QAQF
+XIVxc+rminPnzedf7/SDy/gDwT1Vt9Uf90GmunOzqfJIY55GWnUet18fOqSkrh0xedyXv94KSDZE
+b6Wn1iQJU921227vxXu7p/JSEvgCjO51VNRWtg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uRNZDuyyqk/CPdLKoVVc/7z3+2HdJD0FhTemGKETkb03Rd36Lk0lgoiJcJAykjayJGdB1mvG/Q5K
+ch193ciunqDnC2qOvCsK2nOg28v5mHu5E9BLRillh/IWnGWJaHJtMjNFg8G9OhecC2HMS8GwyeH/
+eKtcJ8jG3OMTC5bWFvrUPaFcJ87ih4YPCtWAIDVGpfqKQl9VQHFnBhiCFBaIfe6fgD0Z2LCivIFT
+1rT1DVV18drQFUDsi2DAXzSEuAW/Z2MxLwyGXZZJ4zGRmYEbRCfD+AKEzRkdv6zezwtAWjnGokqf
+rHi/BXJCfgtz5TS5Hsjhuv3BH5PVNhALOtt2uQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWzCCAkOgAwIBAgIJALU6cnsuQD+1MA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5j
+b211bmUubGFjY2hpYXJlbGxhLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0x
+ODA1MTgxMTEyNDJaFw0yODA1MTUxMTEyNDJaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUubGFjY2hp
+YXJlbGxhLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALkTWQ7ssqpPwj3SyqFVXP+89/th3SQ9BYU3phihE5G9N0Xd+i5NJYKI
+iXCQMpI2siRnQdZrxv0OSnIdfd3Irp6g5wtqjrwrCtpzoNvL+Zh7uRPQS0YpZYfyFpxliWhybTIz
+RYPBvToXnAthzEvBsMnh/3irXCfIxtzjEwuW1hb61D2hXCfO4oeGDwrVgCA1RqX6ikJfVUBxZwYY
+ghQWiH3un4A9GdiworyBU9a09Q1VdfHa0BVA7ItgwF80hLgFv2djMS8Mhl2WSeMxkZmBG0Qnw/gC
+hM0ZHb+s3s8LQFo5xqJKn6x4vwVyQn4Lc+U0uR7I4br9wR+T1TYQCzrbdrkCAwEAAaNQME4wHQYD
+VR0OBBYEFCrad2VYMLG7F9qn/ubjLzGA8dxHMB8GA1UdIwQYMBaAFCrad2VYMLG7F9qn/ubjLzGA
+8dxHMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABrEfCCmAAz6Bsp+XewWkc0ch4Cv
+GqJ11bPrXcznStXozL0rznzTewMvMTl/0wakDxvbj69byp2IAxRwAQATmtnj8XJ737qwYlt2Q9NN
+2Ew5b1xuoEyD4nQhDIVx7Secb+pmaEWBB9P2N2v6H37fgKs8wmpqsC8TvLjRbK6e+GtppwvoNJ6A
+7sdGCFRFpE4MbNXwmybpvR0fuS/YbBuZpbqKfmd/IEsUqrJrY5PQ1+aJn5U+kIEUwHRsMG9cPJte
+MspmXJODwRq17FYXCBccIab6OQ20flizxkxVScuB6RBhxeIzd64Znx+WK2xbw0OYVvoDZ4teONcI
+l4upVcqk7pA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWzCCAkOgAwIBAgIJALU6cnsuQD+1MA0GCSqGSIb3DQEBCwUAMEQxJjAkBgNVBAMMHXd3dy5jb211bmUubGFjY2hpYXJlbGxhLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA1MTgxMTEyNDJaFw0yODA1MTUxMTEyNDJaMEQxJjAkBgNVBAMMHXd3dy5jb211bmUubGFjY2hpYXJlbGxhLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALkTWQ7ssqpPwj3SyqFVXP+89/th3SQ9BYU3phihE5G9N0Xd+i5NJYKIiXCQMpI2siRnQdZrxv0OSnIdfd3Irp6g5wtqjrwrCtpzoNvL+Zh7uRPQS0YpZYfyFpxliWhybTIzRYPBvToXnAthzEvBsMnh/3irXCfIxtzjEwuW1hb61D2hXCfO4oeGDwrVgCA1RqX6ikJfVUBxZwYYghQWiH3un4A9GdiworyBU9a09Q1VdfHa0BVA7ItgwF80hLgFv2djMS8Mhl2WSeMxkZmBG0Qnw/gChM0ZHb+s3s8LQFo5xqJKn6x4vwVyQn4Lc+U0uR7I4br9wR+T1TYQCzrbdrkCAwEAAaNQME4wHQYDVR0OBBYEFCrad2VYMLG7F9qn/ubjLzGA8dxHMB8GA1UdIwQYMBaAFCrad2VYMLG7F9qn/ubjLzGA8dxHMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABrEfCCmAAz6Bsp+XewWkc0ch4CvGqJ11bPrXcznStXozL0rznzTewMvMTl/0wakDxvbj69byp2IAxRwAQATmtnj8XJ737qwYlt2Q9NN2Ew5b1xuoEyD4nQhDIVx7Secb+pmaEWBB9P2N2v6H37fgKs8wmpqsC8TvLjRbK6e+GtppwvoNJ6A7sdGCFRFpE4MbNXwmybpvR0fuS/YbBuZpbqKfmd/IEsUqrJrY5PQ1+aJn5U+kIEUwHRsMG9cPJteMspmXJODwRq17FYXCBccIab6OQ20flizxkxVScuB6RBhxeIzd64Znx+WK2xbw0OYVvoDZ4teONcIl4upVcqk7pA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lacchiarella"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lacchiarella" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lacchiarella" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lacchiarella</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Lacchiarella</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Lacchiarella</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Lacchiarella</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lacchiarella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Lacchiarella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Lacchiarella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Lacchiarella</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lacchiarella.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lacchiarella.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.lacchiarella.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.lacchiarella.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cascina" entityID="https://www.comune.cascina.pi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cascina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>g4o7yuXeZ7SNUq3am1nFdzQtE8r4nvRda//tUdmcUkw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LJDGSLw3zOXM/A4s12y7myMwqblleWXPgBsbOAaHmu+yZjCio5xeYJJsYsqETAJrtCiwvqFeUcof
+qptd1uC5wLOlSnLCaTo9zefbNSG2ztlAwEN6j+qCZRUdbiY2XWpVygu27mxBUjzZ4eG/wFj+brV7
+wzmxcgOTCJmgiVlfGT9omWhEDMvGrib/GzhF6ygsY9sY2pKjzlysFpqOCix4aedgcXhXsSeLsMTG
+l46/3q4UbAbsDHqZlf/NXKkJWuWt8PxWS18G6ApSEeSz/ulczCI0BSeItV0ITcO0Cf5eLU7pP0J0
+kqmCgabphGglSnkdWy0ysFi3soxmqAdmKkKGnA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wpVublh5Z2fPmqu5zqDxpifWxGSu+Si5G++zPvDoieOlVMvlE5bD2js5wh+sRguvfc3OGH4M5Tdd
+CGJaEg4isnud/ZiIsViYmkNM/aOXs2SpZUR8OQBfg0j3KflakKOYOnb4DY4/iKC1MUJRvaKy3jgS
+YA6CZR4qhqUxK5ke8z42+CygOW15mq4RKq26WGQYtes1G8ZrPqRbQ+yvHMUl1+U1Kou4xlIMUjG6
+dWAFfwMWE6GRkBhQljHKgKEBANq7NmHdMOA0ddOEaMSYdstFuqkc7OFKBfcxbqFPBElKdyz4SA6W
+7kz6mS5O9ySMMWNcaQ8suWVnAvwNccpW2X+Hdw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAMoM3nFaOmqyMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuY2FzY2luYS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMjE1
+MTIzMDAxWhcNMjgwMjEzMTIzMDAxWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmNhc2NpbmEucGku
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAwpVublh5Z2fPmqu5zqDxpifWxGSu+Si5G++zPvDoieOlVMvlE5bD2js5wh+sRguvfc3O
+GH4M5TddCGJaEg4isnud/ZiIsViYmkNM/aOXs2SpZUR8OQBfg0j3KflakKOYOnb4DY4/iKC1MUJR
+vaKy3jgSYA6CZR4qhqUxK5ke8z42+CygOW15mq4RKq26WGQYtes1G8ZrPqRbQ+yvHMUl1+U1Kou4
+xlIMUjG6dWAFfwMWE6GRkBhQljHKgKEBANq7NmHdMOA0ddOEaMSYdstFuqkc7OFKBfcxbqFPBElK
+dyz4SA6W7kz6mS5O9ySMMWNcaQ8suWVnAvwNccpW2X+HdwIDAQABo1AwTjAdBgNVHQ4EFgQUYW1l
+g7ErkfPneRuijyXne9feNpgwHwYDVR0jBBgwFoAUYW1lg7ErkfPneRuijyXne9feNpgwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhPJIW2PC20E84Ai3ZZt2oIf4JPfYYhUdjYtH9yLX
+LQmKxCuAh3OxNe0zgSAQfLME+zNaWaveIHRhNlJmEOSNVblDH7KwsSZ+gwztGQCUOrNKgfidQOxj
+QCAFc7DrXGBiSzBLdYC+6jOzPs9PbS4BSkoajyaod6mr+qc2t4JrwK5lw6H76smXD65h60J6tWb4
+D34DBc/gyMYA/UxQQ31scVe7CcUd6hEuPwAuF+8ADxGMwSuXhHB0h5fqAiE0C3rmkKsu/ULIBk8T
+sPTqqaIEgdQ8VbyHpwdYcPouBJ7GFZJ6Mh5qA42T830Z1yrAUGojvPkJAZqIDgM3ySZ5itWEPA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAMoM3nFaOmqyMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuY2FzY2luYS5waS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMjE1MTIzMDAxWhcNMjgwMjEzMTIzMDAxWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmNhc2NpbmEucGkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwpVublh5Z2fPmqu5zqDxpifWxGSu+Si5G++zPvDoieOlVMvlE5bD2js5wh+sRguvfc3OGH4M5TddCGJaEg4isnud/ZiIsViYmkNM/aOXs2SpZUR8OQBfg0j3KflakKOYOnb4DY4/iKC1MUJRvaKy3jgSYA6CZR4qhqUxK5ke8z42+CygOW15mq4RKq26WGQYtes1G8ZrPqRbQ+yvHMUl1+U1Kou4xlIMUjG6dWAFfwMWE6GRkBhQljHKgKEBANq7NmHdMOA0ddOEaMSYdstFuqkc7OFKBfcxbqFPBElKdyz4SA6W7kz6mS5O9ySMMWNcaQ8suWVnAvwNccpW2X+HdwIDAQABo1AwTjAdBgNVHQ4EFgQUYW1lg7ErkfPneRuijyXne9feNpgwHwYDVR0jBBgwFoAUYW1lg7ErkfPneRuijyXne9feNpgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhPJIW2PC20E84Ai3ZZt2oIf4JPfYYhUdjYtH9yLXLQmKxCuAh3OxNe0zgSAQfLME+zNaWaveIHRhNlJmEOSNVblDH7KwsSZ+gwztGQCUOrNKgfidQOxjQCAFc7DrXGBiSzBLdYC+6jOzPs9PbS4BSkoajyaod6mr+qc2t4JrwK5lw6H76smXD65h60J6tWb4D34DBc/gyMYA/UxQQ31scVe7CcUd6hEuPwAuF+8ADxGMwSuXhHB0h5fqAiE0C3rmkKsu/ULIBk8TsPTqqaIEgdQ8VbyHpwdYcPouBJ7GFZJ6Mh5qA42T830Z1yrAUGojvPkJAZqIDgM3ySZ5itWEPA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cascina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cascina" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cascina" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cascina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cascina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cascina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cascina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cascina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cascina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cascina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cascina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cascina.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cascina.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cascina.pi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cascina.pi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

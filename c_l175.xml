@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Tirano" entityID="https://www.comune.tirano.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Tirano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>2efEj3Y/7KFUq4eoa+oU0SXkpYEqSZznxVnVM1q35lk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+R4Vt1zxhcJc2Y39uUZsUy66MQcckBylMsZSOENlOyGKe4OnLepYZZdXkVRNcmkt/jqmyAnTRaKkK
+rld6AMtuYFZg/isZpaLiIKI1hrUoR5nUwmjgqSelUA/O6zfSeXS5Sgs5bvbUpnWpr4O5WjEkRGL2
+vqjARHAJ4c8z9aqbUX64p7VA6rneLO6Sl+oNmFEzQ5S7kF/t0luanaAemKBptMPE3O6q4lQ0L7cp
+RzS59nY22Vm3JG/IUpaImqZRiKegJfilLM1uvlYJkPo8Eu0rcNubVUmmbTQjqNaNXknsqx3xQSNk
+3RZYCDvK4VQ5MaDf3YqwRtlf9q3+9qrhfFgS2A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wIVSvp7qyKZKkpg5yfcsYEFHvQIbYrdgy4bkDDsY4sW1TkMzaFy4lmmzHDBeWiWXgEdkzrbbNFoH
+98zNVk0y4SAInpTmsmwreCJRJVlmf8sNDfZ0P68YBAIzPJJSN6nNqUhI4oq26+ITOaMWu2LladuF
+djyz9oL7tj1pKYO/jT9PxiPeIdtzA7wa3uYRV846hfso6p2wuWm6R90nM2RChabMf/6gn/lo0/Op
+lhD4yMBJMLxN8khtaaP4Ae/1md+phpJ6Re7t9D1HFeYWd/LCohAw7VPj2VHZd/JfEQFsrDD0kxwR
+h16WK99gwGAo29aUwhWMMfX9aHkIszxnoNIudw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAK5fbv7B7hqrMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUudGlyYW5vLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MDYx
+NDI0MTZaFw0zMDA1MDQxNDI0MTZaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGlyYW5vLnNvLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAMCFUr6e6simSpKYOcn3LGBBR70CG2K3YMuG5Aw7GOLFtU5DM2hcuJZpsxwwXloll4BHZM62
+2zRaB/fMzVZNMuEgCJ6U5rJsK3giUSVZZn/LDQ32dD+vGAQCMzySUjepzalISOKKtuviEzmjFrti
+5WnbhXY8s/aC+7Y9aSmDv40/T8Yj3iHbcwO8Gt7mEVfOOoX7KOqdsLlpukfdJzNkQoWmzH/+oJ/5
+aNPzqZYQ+MjASTC8TfJIbWmj+AHv9ZnfqYaSekXu7fQ9RxXmFnfywqIQMO1T49lR2XfyXxEBbKww
+9JMcEYdelivfYMBgKNvWlMIVjDH1/Wh5CLM8Z6DSLncCAwEAAaNQME4wHQYDVR0OBBYEFIWc2bFW
+4K6tgQr2q4EFPL/IrHoJMB8GA1UdIwQYMBaAFIWc2bFW4K6tgQr2q4EFPL/IrHoJMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBALRCamc+r+1nlQVr76NZBhwc5A6a4VbVSaEstDGdNSgK
+bMWschlPaO0J4VJM9V/KsyzNhllBU5JWZk5qMuyeLuHSFpebqWyt6aqMKqMw4UODwQmb1Ik0n2Uz
+Tp1MlZr3K1QrJxvGQE1dNHbctbf+e5OYhwEuHFhLjYlyLIczZqbKRT3wiI+qELKu6uWtpKHS/MjF
+BgBRagX3a5NJO2weLX0i8yLsU4QZlT/4AxAaWbb3SpmKFBHwcg7sQM6RrHUMAe8cW6oMQXYbVwVt
+rBFVyE/QPQtisDVpk1CK6hs/C+9Ko6f7yxiUfi/u3xefsZLT8AI2DMKlVHE6ClLQREYmNCY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAK5fbv7B7hqrMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGlyYW5vLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MDYxNDI0MTZaFw0zMDA1MDQxNDI0MTZaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGlyYW5vLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMCFUr6e6simSpKYOcn3LGBBR70CG2K3YMuG5Aw7GOLFtU5DM2hcuJZpsxwwXloll4BHZM622zRaB/fMzVZNMuEgCJ6U5rJsK3giUSVZZn/LDQ32dD+vGAQCMzySUjepzalISOKKtuviEzmjFrti5WnbhXY8s/aC+7Y9aSmDv40/T8Yj3iHbcwO8Gt7mEVfOOoX7KOqdsLlpukfdJzNkQoWmzH/+oJ/5aNPzqZYQ+MjASTC8TfJIbWmj+AHv9ZnfqYaSekXu7fQ9RxXmFnfywqIQMO1T49lR2XfyXxEBbKww9JMcEYdelivfYMBgKNvWlMIVjDH1/Wh5CLM8Z6DSLncCAwEAAaNQME4wHQYDVR0OBBYEFIWc2bFW4K6tgQr2q4EFPL/IrHoJMB8GA1UdIwQYMBaAFIWc2bFW4K6tgQr2q4EFPL/IrHoJMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALRCamc+r+1nlQVr76NZBhwc5A6a4VbVSaEstDGdNSgKbMWschlPaO0J4VJM9V/KsyzNhllBU5JWZk5qMuyeLuHSFpebqWyt6aqMKqMw4UODwQmb1Ik0n2UzTp1MlZr3K1QrJxvGQE1dNHbctbf+e5OYhwEuHFhLjYlyLIczZqbKRT3wiI+qELKu6uWtpKHS/MjFBgBRagX3a5NJO2weLX0i8yLsU4QZlT/4AxAaWbb3SpmKFBHwcg7sQM6RrHUMAe8cW6oMQXYbVwVtrBFVyE/QPQtisDVpk1CK6hs/C+9Ko6f7yxiUfi/u3xefsZLT8AI2DMKlVHE6ClLQREYmNCY=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAK5fbv7B7hqrMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGlyYW5vLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MDYxNDI0MTZaFw0zMDA1MDQxNDI0MTZaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUudGlyYW5vLnNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMCFUr6e6simSpKYOcn3LGBBR70CG2K3YMuG5Aw7GOLFtU5DM2hcuJZpsxwwXloll4BHZM622zRaB/fMzVZNMuEgCJ6U5rJsK3giUSVZZn/LDQ32dD+vGAQCMzySUjepzalISOKKtuviEzmjFrti5WnbhXY8s/aC+7Y9aSmDv40/T8Yj3iHbcwO8Gt7mEVfOOoX7KOqdsLlpukfdJzNkQoWmzH/+oJ/5aNPzqZYQ+MjASTC8TfJIbWmj+AHv9ZnfqYaSekXu7fQ9RxXmFnfywqIQMO1T49lR2XfyXxEBbKww9JMcEYdelivfYMBgKNvWlMIVjDH1/Wh5CLM8Z6DSLncCAwEAAaNQME4wHQYDVR0OBBYEFIWc2bFW4K6tgQr2q4EFPL/IrHoJMB8GA1UdIwQYMBaAFIWc2bFW4K6tgQr2q4EFPL/IrHoJMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALRCamc+r+1nlQVr76NZBhwc5A6a4VbVSaEstDGdNSgKbMWschlPaO0J4VJM9V/KsyzNhllBU5JWZk5qMuyeLuHSFpebqWyt6aqMKqMw4UODwQmb1Ik0n2UzTp1MlZr3K1QrJxvGQE1dNHbctbf+e5OYhwEuHFhLjYlyLIczZqbKRT3wiI+qELKu6uWtpKHS/MjFBgBRagX3a5NJO2weLX0i8yLsU4QZlT/4AxAaWbb3SpmKFBHwcg7sQM6RrHUMAe8cW6oMQXYbVwVtrBFVyE/QPQtisDVpk1CK6hs/C+9Ko6f7yxiUfi/u3xefsZLT8AI2DMKlVHE6ClLQREYmNCY=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/tirano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/tirano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/tirano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/tirano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Tirano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Tirano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Tirano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Tirano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Tirano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Tirano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Tirano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Tirano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.tirano.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.tirano.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.tirano.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.tirano.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_57ced62c4348d8a355d6081d40ab9cfc48bd47a0" entityID="https://spid.servizilocalispa.it/E506"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_57ced62c4348d8a355d6081d40ab9cfc48bd47a0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7M7dFhZbHisMwKgob9SRxm2/dwiz5f2iw4lfTC12BlI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+B5faGXZoC2HlZhu52fkmoa0j2Ztq6GsVblN3Dfo1ezI46at7U1e5W+lXImXFjULhrLcFdILbIYkM
+C5hccYYYJrspEbXKPMQKDlFVt0WIPqcXcgcBqgjXRfN1gDpfaK7GUw6qB1u5fHFdo2fbvFiI1jGk
+PUMUbftOQ9nyt/Yo5l/it4jKnGz92wt5O0ucHeeNCXtrtMGN1lzj++HRetgjjHfxrQWWwA1beP//
+bkRLA2MgXjhkNRJbBOZZDH3zTR67qvO0UydvtSToAUZlJgiEx8v+I1L/XjIstw+7RM7OIN62WIQX
+tB3b1LyZgvvy3N0eorl+H/nMmR3zMQZLluoAXw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oSr+CvkpCLEVL6qL8e3YAX8Wz/xucbp59k5omAKos+X0FKTGsOD7WKk4PTs+ySZbn+AMu7wHZ0QW
+D+USafghZ1meiURuYp7WW5A5ExT+8mPrTsy6Rm9xXFtSLJxP53aTJJdLkgXANzlqlcqR/J6nBpyq
+XW5wrHlRI4B+RtKEU7edjv2kRXBOREHK+EvcT4lPz+8BF6LKOXB6OdVX+1HKfq++yJdCLhhmu5fM
+H70Uvb+0fUsYBB0V80NAedwBAzFYyxkXLi8KGxHYhWavpaRGTbR2+9A/PKIf9bPuJQf9/JAYHSxD
+VqK7rKRogFizXFuviduDozlOJNkcBw87PpdG3Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHIjCCBQqgAwIBAgIIchaZkk6ifZgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDUyMDAwMDAw
+MFoXDTM1MDUxOTIzNTk1OVowga4xCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNV
+BAcMBk1pbGFubzEeMBwGA1UECgwVU2Vydml6aSBMb2NhbGkgUy5wLkEuMR4wHAYDVQQLDBVTZXJ2
+aXppIExvY2FsaSBTLnAuQS4xITAfBgNVBAMMGHNwaWQuc2Vydml6aWxvY2FsaXNwYS5pdDEaMBgG
+A1UEBRMRVkFUSVQtMDMxNzA1ODA3NTEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCh
+Kv4K+SkIsRUvqovx7dgBfxbP/G5xunn2TmiYAqiz5fQUpMaw4PtYqTg9Oz7JJluf4Ay7vAdnRBYP
+5RJp+CFnWZ6JRG5intZbkDkTFP7yY+tOzLpGb3FcW1IsnE/ndpMkl0uSBcA3OWqVypH8nqcGnKpd
+bnCseVEjgH5G0oRTt52O/aRFcE5EQcr4S9xPiU/P7wEXoso5cHo51Vf7Ucp+r77Il0IuGGa7l8wf
+vRS9v7R9SxgEHRXzQ0B53AEDMVjLGRcuLwobEdiFZq+lpEZNtHb70D88oh/1s+4lB/38kBgdLENW
+oruspGiAWLNcW6+J24OjOU4k2RwHDzs+l0bdAgMBAAGjggIJMIICBTAMBgNVHRMBAf8EAjAAMB0G
+A1UdDgQWBBQ6i+iCuzuT146tvipgmyIhLW3nsTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJ
+oEfXNDAOBgNVHQ8BAf8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWg
+M4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3Bggr
+BgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCBmAYD
+VR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0
+L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUa
+I0NlcnRpZmljYXRpIEFnZ3JlZ2F0b3JpIFNQIHB1YmJsaWNpMHgGCSqGSIb3DQEJDwRrMGkwDgYI
+KoZIhvcNAwICAgCAMA4GCCqGSIb3DQMEAgIAgDALBglghkgBZQMEASowCwYJYIZIAWUDBAEtMAsG
+CWCGSAFlAwQBAjALBglghkgBZQMEAQUwBwYFKw4DAgcwCgYIKoZIhvcNAwcwDQYJKoZIhvcNAQEN
+BQADggIBAGqx0sYw4gkQr7MX6VFYPgKRrcRocn03iRkfccAqPyxbLCQDAeKQsaPUgAdxr44FKv9L
+ANVHVjnHMkjcepG/H/99Re+2C9w7M0nGcOes28wMlTtNiOLlX91dmQHTtohd+7W0qjCS1cQXF5nd
+o8exRa6I2fxBP/hR/aAomQeetqghYqygrokG4yZffVrMXB+/zyKR1FqicbcOmCpbTd3pS6mG7WtM
+6fhm0WJvIGGjqDiO9Mnf2mfnfawERAdHkM78752M0mCZeOr7eWUwygHzaJxJRoYqGs6jJrPvwE9O
+741zOMX+hAh3RE2cjmkFfp3TwgEsgVFKNwEShxwiK+95sNW3lDGTwnMQOEfMeORBxrFhRKlA+0i0
+XZJPGlYHi/LxQoWNWxDcL1NFtC6ZXd0S46FK4AYOLU3OUHpQB8q8s2lA+EJzrx6TXk/4PCc5FRmu
+f69nLxprqS3B/tarFmi+AWGCCjDPg4gQXG9uHH7V3+b+yYg80plezT8A3RZonynB3iz4JV+QeKhI
+KpPF8DAx+d7FwILOYecZMMcH9735SpyQruqD4uPXtD/o7mCjNEgyIKJSEXYjJAYMBBcQolpBjbZ2
+be6ko7nO4cydXNBxYxXTpD76dw6INgI03x/YSKJT9m4e+a+XWsTSMK4gIcYhUEZCQIdVzcYsss5A
+KqzB1ekr
+</ds:X509Certificate>
+<ds:X509Certificate>
+MIIHZjCCBU6gAwIBAgIIXcg5oNQ4TCMwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARB
+Z0lEMSkwJwYJKoZIhvcNAQkBFhpwcm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMR
+VkFUSVQtOTc3MzUwMjA1ODQwHhcNMjAwMjI4MDAwMDAwWhcNNDAwMjI3MjM1OTU5WjCB5TELMAkG
+A1UEBhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERp
+Z2l0YWxlMSwwKgYDVQQLDCNTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBlIFZpZ2lsYW56YTEqMCgG
+A1UEAwwhUHJvZ2V0dG8gU1BJRCAtIFNvZ2dldHRpX3B1YmJsaWNpMSkwJwYJKoZIhvcNAQkBFhpw
+cm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUwMjA1ODQwggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDV9Ppc/aIvCRKEqR9KoIiwb4j89dctEJNz6b2T
+tR1oHzYCjQMm1dULt1EZwCcofF0abiIdLXhnJ9yeKNysxvAZiSSzqBZcubFImb/j4QCdejbapn+C
+3tEcf8Eg2EAEicYiAXRQQkxx4qXnKtHCF2QHVFpTnbKiAuwPd+DcKa1ftVAIsQu8xG8ismOp9N6U
+P3ZMzs8R9kLdkg2q7bVyyQjnTNFOFCjm4qkfKYQXkOXw8KhkavErxQAOsMEF6lqXDLqIF8wXBgBN
+NhNnwohpra3Ev3uwKeOHAnxpsqf6zc3n6GbOpS90LlsxOeXPKitNOgW3SyApXjRnUDbbgiMix3xr
+ofH0GMc4g3jtPm7R4cpPAX5V9cqlUhokSqI/uCMM1loNyndP61bUgqbwHsldDD/ilHT/RtVBCOd/
+BN0SHV3o+MsT91FQ3Md5t4omXokoCBW36Zt6o9/CFHeNWOTSIkzyhObHCGkcVg3P/0Q/uDWNpW8F
+KItOPnrvAa/YK8hFbOJp5wBMzwM/SNSugeLQf8Efj3HIB8cdhh6ixQgPzu0w4JAkJGfcSIawOmWm
+zgrxm/cf49wyEygaDoyj0AHYXEu4h9zQ3tx/PIkohZhHcXpuvp1pueoTPD5Aw/F6/MnX99o1A7qm
++F6A8SaplWyBjUojVQn9AufWI9nk+j3zAVLE7wIDAQABo4IBLzCCASswDwYDVR0TAQH/BAUwAwEB
+/zAdBgNVHQ4EFgQUPLtt6x79nW7L7lTm6jnViaBH1zQwHwYDVR0jBBgwFoAUn8dbbCWmp5uDXqb7
+wf6jeTvNj5EwDgYDVR0PAQH/BAQDAgEGMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vZWlkYXMu
+YWdpZC5nb3YuaXQvY3JsL2NybF9zdWJDQV9TQS5jcmwwgYYGA1UdIAR/MH0wTQYDK0wQMEYwRAYI
+KwYBBQUHAgEWOGh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENB
+X2Nwcy5wZGY7MCwGBStMEAQCMCMwIQYIKwYBBQUHAgIwFRoTU3ViQ0EgU1BJRCBwdWJibGljaTAN
+BgkqhkiG9w0BAQ0FAAOCAgEAifcSVXutbbBBxMOgQs6/YnOZWzSJ9rGuXbVmvd8xg8I+rooAliIL
+P1f6QBWNLZxT2d4dsiRWUxxRDdus66rF7B244mdB0DPk13Cv0/s5/ScK8NW6W2RigBkSkfznJZkP
+VkjUPDXr8R/n8hu+jwgEhKyi28WM44YBE9B1K+JiNPIIKR2pkq84kaNCrDCdqVLMWKH+OoNzMiUq
+ZaMSc0oJTa8leajfcwshZsOfry4tAUfddrn7RrPoLqOcV2+mvtDRSV0NGu8eIckNXSB//wFUtM1r
+ZpFYgnBXDEXU9Q3vf2HjqdTZFfrwxAu82LRrZaQVAXjUe8g/qAiJiI6VGCn1flqXy2OemobBWfux
+Q9IcEzR3ovVUNR0yyzE5hl8iFNLjwfw0h3V7K134BR2vXlE4RVrilrIM2AH+HPLiikS8t4rWb74b
+qqGLp3OPgy6kQww1kTuMFNS9JBcibnjgyBvWjz0RQU5ECM5JX/hVieWwueNfUpDAuy/pTzayyfAp
+VPasujO4gLopoNKOIA/DZSnSX+3piVdTEh775gQ82JXd98tN/SzA2iTwMEG4COKdZiL/LeBFpJ8d
+DcYT8bFwJG9Vkf8BBt/r2Y83GfMTOs6QeVrsWbP4CgckQGsABuh1TP0wlaFtl9t91hDNnEQOTOMM
+1POe2Fn3zN3pV4AFIVwttfI=
+</ds:X509Certificate>
+<ds:X509Certificate>
+MIIGuTCCBKGgAwIBAgIIHovtqml57AEwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARB
+Z0lEMSkwJwYJKoZIhvcNAQkBFhpwcm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMR
+VkFUSVQtOTc3MzUwMjA1ODQwHhcNMTkxMTE4MDAwMDAwWhcNNDkxMTE3MjM1OTU5WjCBzDELMAkG
+A1UEBhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERp
+Z2l0YWxlMTAwLgYDVQQLDCdTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBlIHByb2dldHRvIFNQSUQx
+DTALBgNVBAMMBEFnSUQxKTAnBgkqhkiG9w0BCQEWGnByb3RvY29sbG9AcGVjLmFnaWQuZ292Lml0
+MRowGAYDVQQFExFWQVRJVC05NzczNTAyMDU4NDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoC
+ggIBAMbvbRd/Mc89PB3PT7tyPKWac3ALp6FZjMaRoAm2jfamAI6VKCCozi8B24Uxie6kO3oMtA3z
+6PCulGZlsNP3IgiLMPVyEGmUqrKpfeT0qjyNpa7expfR5LxKO2mRX4sz2yuwDI3aL7GrgoMwPJQN
+jck1fGPs+c27NzSMF6dGYu7jGKEZVZWazwJ0D/x+g51ChvoLok0MT1Huc/pRxpbUuWaBb5x3pDo+
+99s+Ip3QCcyPiRsuiM31eBUefPaVvp69frbUEiLT49lCGI9eNnhJbZlA99BpQp1yH67Fe1CWXFXq
+Fd3tW9IgsovmdyvtpiXniCoQ6gLId8tdKFuy8UsohEF5J6JrooCWs/IX0Cj11pnIoFbW0MbpuUHm
+h5cxnXwTW31JqwyxVkw7ExGqyPRAOmTCj078RWnquymU8oSgAi/+ujj1ZKLJdXslrXN1y1Lz8VRu
+gRhuuYCx3nAlQa6oga305lWQY3mA7tPPjgM3mj15Oi79Pur3c6TzX9sW04qZ76hfy68WDo7/XXSo
+1M29CwvxwxG6A8sOUUBg2UAjG8Ff1kEsOd5m05bcq2+A4lxqctQjwalhqchyglbW3RPDTFDmtWE2
+zRsmgSF0jxnARA34JxmArkAyAcjEg/u+bQy992cek0+fZYRl2b061E3XtArjlNkBD/FAuwZw7URZ
+wM+1AgMBAAGjgZwwgZkwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUn8dbbCWmp5uDXqb7wf6j
+eTvNj5EwDgYDVR0PAQH/BAQDAgEGMFcGA1UdIARQME4wTAYDK0wQMEUwQwYIKwYBBQUHAgEWN2h0
+dHA6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjswDQYJ
+KoZIhvcNAQENBQADggIBAHCMbQDUX53Rxw0Hm4nxkOoG87T+0NKFvOAHVS2QkWOQRwIvW2yUYzkA
+xcn9GS8GGmQ5MvqW/NeI5iiF//4U8HG1/agwhPRN2tzij160bB04BjwJk13lD/rFvMqqptjj6zD3
+eU5FGVuocNHh0UAnooT7Wlt43IFVjgqbfY+oErA4v3BvuDbAmic4YJzofVUQX894c3qNbi1S7arN
+7TxHjGB6MgGuAoblnZZ/yuvik047vIcLcxdzGQW+dxuy5/RinRdjcmxMRZi02uVKhQ4Nf+o66X8X
+Fj/Cbomh1Du5Jpzd+nobRH8NI2qBzyTu7AhIMmlgm/zAKv0ZryN1rcN0LcCa+oOznqhqhCZBIs6e
+DrRzLjm7u999Sk/czVnU3SWA08b0XcaLoS7ZMyd3SB1qyDKh6BH2pfDcAPlLST/Hwu8W092GyTjY
+50nM2vbYk64jwBy3w/r9m2AIviKQ1IUCss5A0MLqHcw1ndjzEZyOpw9CTMex6I2NBrPF/L/RTvSb
+FPQuUvrw5bL3xPvgqe4wH2AmwI0wiu/ksvP/6fheMfXEXvFb+JHjcPbIw0FziAhrQ1Ip6PEn1d69
+Oz/+fOe+uyAboRDRlXrm1i6jfYbHeY8CSu/L2HrsaEU+YHJB1A2jehOL0Sy6OU+Vo2cUi99OLsHA
+fu1oycHS4maC2LhEFDpz
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.servizilocalispa.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>serialNumber=VATIT-03170580751,CN=spid.servizilocalispa.it,OU=Servizi Locali S.p.A.,O=Servizi Locali S.p.A.,L=Milano,ST=Milano,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIHIjCCBQqgAwIBAgIIchaZkk6ifZgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDUyMDAwMDAwMFoX
+DTM1MDUxOTIzNTk1OVowga4xCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8x
+DzANBgNVBAcMBk1pbGFubzEeMBwGA1UECgwVU2Vydml6aSBMb2NhbGkgUy5wLkEu
+MR4wHAYDVQQLDBVTZXJ2aXppIExvY2FsaSBTLnAuQS4xITAfBgNVBAMMGHNwaWQu
+c2Vydml6aWxvY2FsaXNwYS5pdDEaMBgGA1UEBRMRVkFUSVQtMDMxNzA1ODA3NTEw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChKv4K+SkIsRUvqovx7dgB
+fxbP/G5xunn2TmiYAqiz5fQUpMaw4PtYqTg9Oz7JJluf4Ay7vAdnRBYP5RJp+CFn
+WZ6JRG5intZbkDkTFP7yY+tOzLpGb3FcW1IsnE/ndpMkl0uSBcA3OWqVypH8nqcG
+nKpdbnCseVEjgH5G0oRTt52O/aRFcE5EQcr4S9xPiU/P7wEXoso5cHo51Vf7Ucp+
+r77Il0IuGGa7l8wfvRS9v7R9SxgEHRXzQ0B53AEDMVjLGRcuLwobEdiFZq+lpEZN
+tHb70D88oh/1s+4lB/38kBgdLENWoruspGiAWLNcW6+J24OjOU4k2RwHDzs+l0bd
+AgMBAAGjggIJMIICBTAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQ6i+iCuzuT146t
+vipgmyIhLW3nsTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNV
+HQ8BAf8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWg
+M4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NB
+LmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9T
+QS5hZ2lkLmdvdi5pdDCBmAYDVR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIB
+FjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RD
+QV9jcHMucGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUaI0NlcnRpZmljYXRp
+IEFnZ3JlZ2F0b3JpIFNQIHB1YmJsaWNpMHgGCSqGSIb3DQEJDwRrMGkwDgYIKoZI
+hvcNAwICAgCAMA4GCCqGSIb3DQMEAgIAgDALBglghkgBZQMEASowCwYJYIZIAWUD
+BAEtMAsGCWCGSAFlAwQBAjALBglghkgBZQMEAQUwBwYFKw4DAgcwCgYIKoZIhvcN
+AwcwDQYJKoZIhvcNAQENBQADggIBAGqx0sYw4gkQr7MX6VFYPgKRrcRocn03iRkf
+ccAqPyxbLCQDAeKQsaPUgAdxr44FKv9LANVHVjnHMkjcepG/H/99Re+2C9w7M0nG
+cOes28wMlTtNiOLlX91dmQHTtohd+7W0qjCS1cQXF5ndo8exRa6I2fxBP/hR/aAo
+mQeetqghYqygrokG4yZffVrMXB+/zyKR1FqicbcOmCpbTd3pS6mG7WtM6fhm0WJv
+IGGjqDiO9Mnf2mfnfawERAdHkM78752M0mCZeOr7eWUwygHzaJxJRoYqGs6jJrPv
+wE9O741zOMX+hAh3RE2cjmkFfp3TwgEsgVFKNwEShxwiK+95sNW3lDGTwnMQOEfM
+eORBxrFhRKlA+0i0XZJPGlYHi/LxQoWNWxDcL1NFtC6ZXd0S46FK4AYOLU3OUHpQ
+B8q8s2lA+EJzrx6TXk/4PCc5FRmuf69nLxprqS3B/tarFmi+AWGCCjDPg4gQXG9u
+HH7V3+b+yYg80plezT8A3RZonynB3iz4JV+QeKhIKpPF8DAx+d7FwILOYecZMMcH
+9735SpyQruqD4uPXtD/o7mCjNEgyIKJSEXYjJAYMBBcQolpBjbZ2be6ko7nO4cyd
+XNBxYxXTpD76dw6INgI03x/YSKJT9m4e+a+XWsTSMK4gIcYhUEZCQIdVzcYsss5A
+KqzB1ekr
+</ds:X509Certificate>
+          <ds:X509Certificate>MIIHZjCCBU6gAwIBAgIIXcg5oNQ4TCMwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARBZ0lEMSkwJwYJKoZIhvcNAQkBFhpw
+cm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUw
+MjA1ODQwHhcNMjAwMjI4MDAwMDAwWhcNNDAwMjI3MjM1OTU5WjCB5TELMAkGA1UE
+BhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRh
+bGlhIERpZ2l0YWxlMSwwKgYDVQQLDCNTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBl
+IFZpZ2lsYW56YTEqMCgGA1UEAwwhUHJvZ2V0dG8gU1BJRCAtIFNvZ2dldHRpX3B1
+YmJsaWNpMSkwJwYJKoZIhvcNAQkBFhpwcm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5p
+dDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUwMjA1ODQwggIiMA0GCSqGSIb3DQEBAQUA
+A4ICDwAwggIKAoICAQDV9Ppc/aIvCRKEqR9KoIiwb4j89dctEJNz6b2TtR1oHzYC
+jQMm1dULt1EZwCcofF0abiIdLXhnJ9yeKNysxvAZiSSzqBZcubFImb/j4QCdejba
+pn+C3tEcf8Eg2EAEicYiAXRQQkxx4qXnKtHCF2QHVFpTnbKiAuwPd+DcKa1ftVAI
+sQu8xG8ismOp9N6UP3ZMzs8R9kLdkg2q7bVyyQjnTNFOFCjm4qkfKYQXkOXw8Khk
+avErxQAOsMEF6lqXDLqIF8wXBgBNNhNnwohpra3Ev3uwKeOHAnxpsqf6zc3n6GbO
+pS90LlsxOeXPKitNOgW3SyApXjRnUDbbgiMix3xrofH0GMc4g3jtPm7R4cpPAX5V
+9cqlUhokSqI/uCMM1loNyndP61bUgqbwHsldDD/ilHT/RtVBCOd/BN0SHV3o+MsT
+91FQ3Md5t4omXokoCBW36Zt6o9/CFHeNWOTSIkzyhObHCGkcVg3P/0Q/uDWNpW8F
+KItOPnrvAa/YK8hFbOJp5wBMzwM/SNSugeLQf8Efj3HIB8cdhh6ixQgPzu0w4JAk
+JGfcSIawOmWmzgrxm/cf49wyEygaDoyj0AHYXEu4h9zQ3tx/PIkohZhHcXpuvp1p
+ueoTPD5Aw/F6/MnX99o1A7qm+F6A8SaplWyBjUojVQn9AufWI9nk+j3zAVLE7wID
+AQABo4IBLzCCASswDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUPLtt6x79nW7L
+7lTm6jnViaBH1zQwHwYDVR0jBBgwFoAUn8dbbCWmp5uDXqb7wf6jeTvNj5EwDgYD
+VR0PAQH/BAQDAgEGMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vZWlkYXMuYWdp
+ZC5nb3YuaXQvY3JsL2NybF9zdWJDQV9TQS5jcmwwgYYGA1UdIAR/MH0wTQYDK0wQ
+MEYwRAYIKwYBBQUHAgEWOGh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0Fn
+SURfZUlEQVNfcm9vdENBX2Nwcy5wZGY7MCwGBStMEAQCMCMwIQYIKwYBBQUHAgIw
+FRoTU3ViQ0EgU1BJRCBwdWJibGljaTANBgkqhkiG9w0BAQ0FAAOCAgEAifcSVXut
+bbBBxMOgQs6/YnOZWzSJ9rGuXbVmvd8xg8I+rooAliILP1f6QBWNLZxT2d4dsiRW
+UxxRDdus66rF7B244mdB0DPk13Cv0/s5/ScK8NW6W2RigBkSkfznJZkPVkjUPDXr
+8R/n8hu+jwgEhKyi28WM44YBE9B1K+JiNPIIKR2pkq84kaNCrDCdqVLMWKH+OoNz
+MiUqZaMSc0oJTa8leajfcwshZsOfry4tAUfddrn7RrPoLqOcV2+mvtDRSV0NGu8e
+IckNXSB//wFUtM1rZpFYgnBXDEXU9Q3vf2HjqdTZFfrwxAu82LRrZaQVAXjUe8g/
+qAiJiI6VGCn1flqXy2OemobBWfuxQ9IcEzR3ovVUNR0yyzE5hl8iFNLjwfw0h3V7
+K134BR2vXlE4RVrilrIM2AH+HPLiikS8t4rWb74bqqGLp3OPgy6kQww1kTuMFNS9
+JBcibnjgyBvWjz0RQU5ECM5JX/hVieWwueNfUpDAuy/pTzayyfApVPasujO4gLop
+oNKOIA/DZSnSX+3piVdTEh775gQ82JXd98tN/SzA2iTwMEG4COKdZiL/LeBFpJ8d
+DcYT8bFwJG9Vkf8BBt/r2Y83GfMTOs6QeVrsWbP4CgckQGsABuh1TP0wlaFtl9t9
+1hDNnEQOTOMM1POe2Fn3zN3pV4AFIVwttfI=
+</ds:X509Certificate>
+          <ds:X509Certificate>MIIGuTCCBKGgAwIBAgIIHovtqml57AEwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARBZ0lEMSkwJwYJKoZIhvcNAQkBFhpw
+cm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUw
+MjA1ODQwHhcNMTkxMTE4MDAwMDAwWhcNNDkxMTE3MjM1OTU5WjCBzDELMAkGA1UE
+BhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRh
+bGlhIERpZ2l0YWxlMTAwLgYDVQQLDCdTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBl
+IHByb2dldHRvIFNQSUQxDTALBgNVBAMMBEFnSUQxKTAnBgkqhkiG9w0BCQEWGnBy
+b3RvY29sbG9AcGVjLmFnaWQuZ292Lml0MRowGAYDVQQFExFWQVRJVC05NzczNTAy
+MDU4NDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMbvbRd/Mc89PB3P
+T7tyPKWac3ALp6FZjMaRoAm2jfamAI6VKCCozi8B24Uxie6kO3oMtA3z6PCulGZl
+sNP3IgiLMPVyEGmUqrKpfeT0qjyNpa7expfR5LxKO2mRX4sz2yuwDI3aL7GrgoMw
+PJQNjck1fGPs+c27NzSMF6dGYu7jGKEZVZWazwJ0D/x+g51ChvoLok0MT1Huc/pR
+xpbUuWaBb5x3pDo+99s+Ip3QCcyPiRsuiM31eBUefPaVvp69frbUEiLT49lCGI9e
+NnhJbZlA99BpQp1yH67Fe1CWXFXqFd3tW9IgsovmdyvtpiXniCoQ6gLId8tdKFuy
+8UsohEF5J6JrooCWs/IX0Cj11pnIoFbW0MbpuUHmh5cxnXwTW31JqwyxVkw7ExGq
+yPRAOmTCj078RWnquymU8oSgAi/+ujj1ZKLJdXslrXN1y1Lz8VRugRhuuYCx3nAl
+Qa6oga305lWQY3mA7tPPjgM3mj15Oi79Pur3c6TzX9sW04qZ76hfy68WDo7/XXSo
+1M29CwvxwxG6A8sOUUBg2UAjG8Ff1kEsOd5m05bcq2+A4lxqctQjwalhqchyglbW
+3RPDTFDmtWE2zRsmgSF0jxnARA34JxmArkAyAcjEg/u+bQy992cek0+fZYRl2b06
+1E3XtArjlNkBD/FAuwZw7URZwM+1AgMBAAGjgZwwgZkwDwYDVR0TAQH/BAUwAwEB
+/zAdBgNVHQ4EFgQUn8dbbCWmp5uDXqb7wf6jeTvNj5EwDgYDVR0PAQH/BAQDAgEG
+MFcGA1UdIARQME4wTAYDK0wQMEUwQwYIKwYBBQUHAgEWN2h0dHA6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjswDQYJKoZI
+hvcNAQENBQADggIBAHCMbQDUX53Rxw0Hm4nxkOoG87T+0NKFvOAHVS2QkWOQRwIv
+W2yUYzkAxcn9GS8GGmQ5MvqW/NeI5iiF//4U8HG1/agwhPRN2tzij160bB04BjwJ
+k13lD/rFvMqqptjj6zD3eU5FGVuocNHh0UAnooT7Wlt43IFVjgqbfY+oErA4v3Bv
+uDbAmic4YJzofVUQX894c3qNbi1S7arN7TxHjGB6MgGuAoblnZZ/yuvik047vIcL
+cxdzGQW+dxuy5/RinRdjcmxMRZi02uVKhQ4Nf+o66X8XFj/Cbomh1Du5Jpzd+nob
+RH8NI2qBzyTu7AhIMmlgm/zAKv0ZryN1rcN0LcCa+oOznqhqhCZBIs6eDrRzLjm7
+u999Sk/czVnU3SWA08b0XcaLoS7ZMyd3SB1qyDKh6BH2pfDcAPlLST/Hwu8W092G
+yTjY50nM2vbYk64jwBy3w/r9m2AIviKQ1IUCss5A0MLqHcw1ndjzEZyOpw9CTMex
+6I2NBrPF/L/RTvSbFPQuUvrw5bL3xPvgqe4wH2AmwI0wiu/ksvP/6fheMfXEXvFb
++JHjcPbIw0FziAhrQ1Ip6PEn1d69Oz/+fOe+uyAboRDRlXrm1i6jfYbHeY8CSu/L
+2HrsaEU+YHJB1A2jehOL0Sy6OU+Vo2cUi99OLsHAfu1oycHS4maC2LhEFDpz
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lecce.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lecce.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set SL spid</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+					<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+					<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+					<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+					<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+					<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+					<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+					<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					<md:RequestedAttribute FriendlyName="address" Name="address"/>
+					<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Comune di Lecce</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Servizi Locali S.p.A. e Comune di Lecce</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">https://lecce.servizilocalispa.it/EDGT/Edgt_AccessManager</md:OrganizationURL>
+					</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Company>Servizi Locali S.p.A.</md:Company>
+		<md:EmailAddress>support.spid@servizilocalispa.it</md:EmailAddress> 
+		<md:TelephoneNumber>+390832493096</md:TelephoneNumber>
+		<md:Extensions>
+			<spid:Private/>
+			<spid:VATNumber>IT03170580751</spid:VATNumber>
+			<spid:FullAggregator/>
+		</md:Extensions>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Company>Comune di Lecce</md:Company>
+		<md:Extensions>
+			<spid:Public/>
+			<spid:IPACode>c_e506</spid:IPACode>
+		</md:Extensions>
+	</md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.iccastellucchio.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxa44f985a-1ac4-a7df-3b1b-ab436030bb04"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa44f985a-1ac4-a7df-3b1b-ab436030bb04"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>vpqiYdtklL3zJtzX4MGD5gjK6jS18Etc0qrIRLJs+Bw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ATC13J3T7dm9N0VH/OG7S8hdpYSlrYfNDhcbyom6fm2vS3m/JCx2ZUsS+qjxT+/wKw2rQ8D0IxLwG+NDr3Lg+4nzjcWa1UDWznsosX6VmKZMUdN+m1zs+h9dgisYJmLHvJLUyGDfBEiT/6eWW/zfrvnJt/TY70vziS6LMeYEhOxCZEqNqxgU8BH8aIw7ZLHNcPILw8vIJW3f9MkbBUikeHbl3WiyQo/nbXlyKYDw72OjbVlwfB0VkYubHm62/kzpfGFfn53ilT/yxQnOHI6k1JyrJuLTKwojPsQYeX4ZWvl+tQYjuxJFrOeVCpilZJRIx3HaX4HI6gRYievvTD50+A==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIERDCCAyygAwIBAgII0rQqGCJQsAAwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRYwFAYDVQQHDA1DYXN0ZWxsdWNjaGlvMRkwFwYDVQQKDBBJQyBDYXN0ZWxsdWNjaGlvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSMwIQYDVQQDDBp3d3cuaWNjYXN0ZWxsdWNjaGlvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYbW5pYzgyNzAweEBpc3RydXppb25lLml0MB4XDTE3MTAwMjE5NDUxM1oXDTM3MTAwMTE5NDUxM1owgbgxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRYwFAYDVQQHDA1DYXN0ZWxsdWNjaGlvMRkwFwYDVQQKDBBJQyBDYXN0ZWxsdWNjaGlvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSMwIQYDVQQDDBp3d3cuaWNjYXN0ZWxsdWNjaGlvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYbW5pYzgyNzAweEBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAomAizAULrLz3GLh2FThkbwMYJeJCkm25XX5uuzrV4m0m8Y1FzT7iKZlKe3eVpQt7o30tODQ7BguXm8Hd1baGQ818vkYzci9u54uKyuXUAQDZ43AMskMMEMBeJ1lefNiDTB3yGbRDVBIgBdA0gpO/r94KQGQhCnM7qof5vjwtrBAJOOz4TMZXPPGPya06EF6uonhQgw1HlEuecQozDVxtt/ZVAI2qez9SqQx8K4zf50Y8TjGWP/LMhpjdg4BJmTgIfdCbBqnQGg6f/0wS+FqrbTZcGOChRSfWXH84ioZddLmkLxM7jz2L6w6//KPFOVKgqSF1BM7W8AxA1rU/goA4dQIDAQABo1AwTjAdBgNVHQ4EFgQU9tao3ZtOO99zdAviIjSg72UXRvswHwYDVR0jBBgwFoAU9tao3ZtOO99zdAviIjSg72UXRvswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAgFUKEa++VYVXmoOhJHuIUbgiYdoHFcJTHxd5XbphZYrPOuOaQtMypAG1pqBsBTdVF9g8KBKRp3D8FQJJsxI97Oly2BXJ9ji57rojW1gP6nzDEDYnXAVyjr0aUMm0ykMqhauXLkzw4hpw4lpBpKSHa24jIkKA/z/lHNojReScHv0YuFJl8jwdVDlHz1KQ6sFCuJpvYk69LNiAAyZ3pdk7lpNqhyMjytdcWJARA+rUlhHMuWFhabVrtdKC+UuUMCb86IBCfnH6+uY7EGQJ5mJ+iE5vLfbIWlxj+tPynVqoEIwCgbPP2cny1gRs2BcaNjSsjpI2XXjQa+JDm9NzpiWeYA==</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERDCCAyygAwIBAgII0rQqGCJQsAAwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRYwFAYDVQQHDA1DYXN0ZWxsdWNjaGlvMRkwFwYDVQQKDBBJQyBDYXN0ZWxsdWNjaGlvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSMwIQYDVQQDDBp3d3cuaWNjYXN0ZWxsdWNjaGlvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYbW5pYzgyNzAweEBpc3RydXppb25lLml0MB4XDTE3MTAwMjE5NDUxM1oXDTM3MTAwMTE5NDUxM1owgbgxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRYwFAYDVQQHDA1DYXN0ZWxsdWNjaGlvMRkwFwYDVQQKDBBJQyBDYXN0ZWxsdWNjaGlvMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSMwIQYDVQQDDBp3d3cuaWNjYXN0ZWxsdWNjaGlvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYbW5pYzgyNzAweEBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAomAizAULrLz3GLh2FThkbwMYJeJCkm25XX5uuzrV4m0m8Y1FzT7iKZlKe3eVpQt7o30tODQ7BguXm8Hd1baGQ818vkYzci9u54uKyuXUAQDZ43AMskMMEMBeJ1lefNiDTB3yGbRDVBIgBdA0gpO/r94KQGQhCnM7qof5vjwtrBAJOOz4TMZXPPGPya06EF6uonhQgw1HlEuecQozDVxtt/ZVAI2qez9SqQx8K4zf50Y8TjGWP/LMhpjdg4BJmTgIfdCbBqnQGg6f/0wS+FqrbTZcGOChRSfWXH84ioZddLmkLxM7jz2L6w6//KPFOVKgqSF1BM7W8AxA1rU/goA4dQIDAQABo1AwTjAdBgNVHQ4EFgQU9tao3ZtOO99zdAviIjSg72UXRvswHwYDVR0jBBgwFoAU9tao3ZtOO99zdAviIjSg72UXRvswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAgFUKEa++VYVXmoOhJHuIUbgiYdoHFcJTHxd5XbphZYrPOuOaQtMypAG1pqBsBTdVF9g8KBKRp3D8FQJJsxI97Oly2BXJ9ji57rojW1gP6nzDEDYnXAVyjr0aUMm0ykMqhauXLkzw4hpw4lpBpKSHa24jIkKA/z/lHNojReScHv0YuFJl8jwdVDlHz1KQ6sFCuJpvYk69LNiAAyZ3pdk7lpNqhyMjytdcWJARA+rUlhHMuWFhabVrtdKC+UuUMCb86IBCfnH6+uY7EGQJ5mJ+iE5vLfbIWlxj+tPynVqoEIwCgbPP2cny1gRs2BcaNjSsjpI2XXjQa+JDm9NzpiWeYA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccastellucchio.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccastellucchio.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccastellucchio.edu.it/mad/microspid_acs" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iccastellucchio.edu.it/operatori-economici/microspid_acs" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">operatori-economici</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Operatori economici</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo di Castellucchio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo di Castellucchio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.iccastellucchio.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="https://www.suapdellevalli.it/SP" ID="idfae0db5540054b70bf4015e7d5eba4ba" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#idfae0db5540054b70bf4015e7d5eba4ba"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>n3ap5ZJhaYFsTojX09opjSR33RUb8Cqw/ZQ5vhSs6pU=</DigestValue></Reference></SignedInfo><SignatureValue>guYyKeAdZDGv9yH8fHE3Y3Sde+Fr5nAddLcN9QzUXu7VCigshegCLqFNYx4qKX7iVNiuhN6GMgY+WH3ukFtBeOnkk7l6C1pQpJYUWk8kh3C3bfyw3OrCiIHYsdAIzMVJ7qE5THoBmtdRd4yJP/B0v8gI2R5HRNIJ7aUissRPtDhZ4DxiX1aCHg5NL9v9yiRzWuLlgK7GR3X1JSwFge+TMHg/a8tPGdAtJHjNoYqCQM21qqa2wNH5nMSkZm3/+sQGbDyvpK3ULvzsKlGiNU+F+b8jDMB9EcXvT9WEceUQo3T2DcAQPDCuue39MK2zKa2rgUhtdi9tDMJnLoYhv4sDZA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDujCCAqKgAwIBAgIJAPdDtcrGhuGVMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJUTzESMBAGA1UEBwwJQnVzc29sZW5vMSIwIAYDVQQKDBlVbmlvbmUgTW9udGFuYSBWYWxsZSBTdXNhMR4wHAYDVQQDDBV3d3cuc3VhcGRlbGxldmFsbGkuaXQwHhcNMTcwNDA0MTI0MTQ2WhcNMjcwNDAyMTI0MTQ2WjByMQswCQYDVQQGEwJJVDELMAkGA1UECAwCVE8xEjAQBgNVBAcMCUJ1c3NvbGVubzEiMCAGA1UECgwZVW5pb25lIE1vbnRhbmEgVmFsbGUgU3VzYTEeMBwGA1UEAwwVd3d3LnN1YXBkZWxsZXZhbGxpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz8EYs0xMLsbWM99MvGTtvZjmGZCCPqFmwvi8blUFaQgdsRAyx3CgMLdxldy+bUDjL/GtjFyA6UQxQb2mb2kqzg+xAVWdnHytPwyz1BGgr5ynkGw9cq1NGRqDHuOPaYYAG0qRQEZCr5XgHqXXQsQncKp43aG7Yhvm8Ta47KxA/u5F/lgN48G8/bBLidnlnm6ysuxykFMq+Z2fIVrsyCQh3eDG/tBt500Hgz324QU00ClFFse2fZ+mVulOIPNCFCMxxCBRPm+A/5RKfwzbZlKU6MIpmZX9xTzVECSXVQ/z2usQuB1C3MbtcTBzYN6OUtz2Jce5jyQejppI1gJ6CU56bQIDAQABo1MwUTAdBgNVHQ4EFgQUmPt/FXhu9fH7M7cxfnXSEP4Quc0wHwYDVR0jBBgwFoAUmPt/FXhu9fH7M7cxfnXSEP4Quc0wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAviiX49lIDdthsqJVY4JEY9ZVmQdvL7nqu7AZslEVVqe/4lZ2YgZwKri8dDk6Q6HEqWTZ/cZLsRvIF8HnRufJXQJGiuyByNrQLbuKvkqcF5LoMQCMRSUq8oX/LppA3dwhsbVY3rdcAQDfYsyFRUAypE9BLIdHa5OJZIK+wsxg9q68dXEZpmgumgXREa+7ROp8saHM/rlTljGtPhWdmE1XOXaBvALC4POUchIjPvzyMF94Ol0RM4uvhtaW67+eJG/OvuXGstafCvbUzAN3r7ilvdLJLdR8SK29LySCsDPOYpqTgUIDwQwZ564tCvPevD7v3xynENjHzbcW9P+PHh6ZFg==</X509Certificate></X509Data></KeyInfo></Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <AttributeConsumingService index="0">
+      <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+      <RequestedAttribute Name="fiscalNumber" />
+      <RequestedAttribute Name="name" />
+      <RequestedAttribute Name="familyName" />
+      <RequestedAttribute Name="spidCode" />
+      <RequestedAttribute Name="email" />
+      <RequestedAttribute Name="digitalAddress" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="it">Unione Montana Valle Susa</OrganizationName>
+    <OrganizationDisplayName xml:lang="it">Unione Montana Valle Susa</OrganizationDisplayName>
+    <OrganizationURL xml:lang="it">http://www.unionemontanavallesusa.it</OrganizationURL>
+  </Organization>
+</EntityDescriptor>

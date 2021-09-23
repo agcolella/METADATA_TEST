@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Alcamo" entityID="https://www.comune.alcamo.tp.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Alcamo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rU9PzNb2VkW2ctvipF5hP7ViSX8TKn9dbG6KtAfwPFY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+S2LfFcBn9kxys7MANbRPUc7tsTOTq1RnI3n6R4o3cJ/1e4oWyE6BumKZQ5gy4qUgtVPQRyvPA9OW
+VXD2B/WoIH7olyrSH4u4LNcnMjV2nP2T7IBQiAr2N6i84IP/YF17o4S7vUwiJIs34IS3YYTKMTBM
+0ehdWdg985eI7sJiTa1NfZ1FBq+42eb5AUKeTdNg3BsfB7SACMhu3IQCh/ZR3PBr3XPOcvsOZIDF
+++cYWTIQAE4gdu0l19kPuMH60RZ+IPPHLsiF559GziTQ1Ggu6yCeDkJVsjnugml2yETNV2YPgqfc
+Wq1Jxa7F/s6jfrsiDiBf9bO7nWczIoY1K8Cutw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nzvITlfahgu86b9zOHUKf/EcmxCCc9hCI39/G4Xtiu2pYAhbDbaAuXbJq4qdVOn/nAHwTWBIWk4Q
+Qq1ovJZbCTHl70PkgGn5DuTXe8fUBtjDqkpMQSmTKcJHfioOOJ8NZXa+6m8X3vXC0oo4QXBuIb1S
+WxGyZTOaWW7d9jjjheCrdxWHcvmGLqXlXC1iaQd16NhldcVL2ZYSP7m2rWRNUv+x+okh/evcIwpK
+z3EFGVyWXwEk0Xyd9VDT0uzSke795LYIOBMxKnzbXuseVUK03r2l+/4HsOBUDsA9utLT+wbkrvQR
+rsiJSZpjWYx0zLLFW/GyJtpToX1yloosqdbF+w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAI6kI/KrfLbfMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuYWxjYW1vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAxMDgx
+MjQ1MTRaFw0yMjAxMDcxMjQ1MTRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYWxjYW1vLnRwLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAJ87yE5X2oYLvOm/czh1Cn/xHJsQgnPYQiN/fxuF7YrtqWAIWw22gLl2yauKnVTp/5wB8E1g
+SFpOEEKtaLyWWwkx5e9D5IBp+Q7k13vH1AbYw6pKTEEpkynCR34qDjifDWV2vupvF971wtKKOEFw
+biG9UlsRsmUzmllu3fY444Xgq3cVh3L5hi6l5VwtYmkHdejYZXXFS9mWEj+5tq1kTVL/sfqJIf3r
+3CMKSs9xBRlcll8BJNF8nfVQ09Ls0pHu/eS2CDgTMSp8217rHlVCtN69pfv+B7DgVA7APbrS0/sG
+5K70Ea7IiUmaY1mMdMyyxVvxsibaU6F9cpaKLKnWxfsCAwEAAaNQME4wHQYDVR0OBBYEFPI8eONB
+bJEGiUCfwKRXCELL19RHMB8GA1UdIwQYMBaAFPI8eONBbJEGiUCfwKRXCELL19RHMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAE1kdefsjRfgU8wTUt/obuohvAFhEFubOBLEbYBJAEwb
+FNBHtpqzHNutuXMxZTRLdaSUc/CcKBASVapjGh9eA8N1dfd24idS3bFrgYbLc3ussb9NSqAhLf/Y
+62DA7uNNyooR+hmnlbyUaWMVY2/etBQppVADk3heyhROUqbr6y3em4MPgRtHPP7lA3vp0jZ5ssQm
+iwgqgQXbfHu0YHu+LTsqufMKJhM+/cziAAn4Y7bUQqnbDXbKmTLjSoyKoES+YAYWAV3ksSleZcGE
+sN1hV4bDuJnl3z/hwJc8w9ZwE+g76NHoWJLYvvvOxEwSlQIvHSxWXQa4Itkhr6nvpUbSWy0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAI6kI/KrfLbfMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYWxjYW1vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAxMDgxMjQ1MTRaFw0yMjAxMDcxMjQ1MTRaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYWxjYW1vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ87yE5X2oYLvOm/czh1Cn/xHJsQgnPYQiN/fxuF7YrtqWAIWw22gLl2yauKnVTp/5wB8E1gSFpOEEKtaLyWWwkx5e9D5IBp+Q7k13vH1AbYw6pKTEEpkynCR34qDjifDWV2vupvF971wtKKOEFwbiG9UlsRsmUzmllu3fY444Xgq3cVh3L5hi6l5VwtYmkHdejYZXXFS9mWEj+5tq1kTVL/sfqJIf3r3CMKSs9xBRlcll8BJNF8nfVQ09Ls0pHu/eS2CDgTMSp8217rHlVCtN69pfv+B7DgVA7APbrS0/sG5K70Ea7IiUmaY1mMdMyyxVvxsibaU6F9cpaKLKnWxfsCAwEAAaNQME4wHQYDVR0OBBYEFPI8eONBbJEGiUCfwKRXCELL19RHMB8GA1UdIwQYMBaAFPI8eONBbJEGiUCfwKRXCELL19RHMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAE1kdefsjRfgU8wTUt/obuohvAFhEFubOBLEbYBJAEwbFNBHtpqzHNutuXMxZTRLdaSUc/CcKBASVapjGh9eA8N1dfd24idS3bFrgYbLc3ussb9NSqAhLf/Y62DA7uNNyooR+hmnlbyUaWMVY2/etBQppVADk3heyhROUqbr6y3em4MPgRtHPP7lA3vp0jZ5ssQmiwgqgQXbfHu0YHu+LTsqufMKJhM+/cziAAn4Y7bUQqnbDXbKmTLjSoyKoES+YAYWAV3ksSleZcGEsN1hV4bDuJnl3z/hwJc8w9ZwE+g76NHoWJLYvvvOxEwSlQIvHSxWXQa4Itkhr6nvpUbSWy0=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/alcamo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alcamo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/alcamo" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Alcamo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Alcamo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Alcamo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Alcamo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Alcamo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Alcamo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Alcamo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Alcamo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.alcamo.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.alcamo.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.alcamo.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.alcamo.tp.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="SMc14dd1c1ca0f4ff42d69fe12498192399c044c42a" entityID="https://fwsspid.inail.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SMc14dd1c1ca0f4ff42d69fe12498192399c044c42a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>kSBm9z8mEZP0opxOCrL6UQYVS8cw+VtXyCb3PRVBA2E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fKeJhZSqtGxg5gBf3JQS00fZiH0QeqsUpcuTZK5ksMWHWH0IgI32zwMmJIuUNy8RvTXQ0UQLhBe+
+7FzsWEkU5cIH4q0SrTrj9pu2dBUX5LjvHmj8t1SpLPHUHOiMefHTp24mlsWm1xCCQ2tCbZ7UGzXi
+/ecQ6OhNUz3bokTGv8OcVEuaxJaDM6GQwb6aWCNFUwbVcYq4ow6xHvrt0zkxbSJCys1S9jpQ0M5e
+qtDEpW0XeuiGDTMtxduSSppAHcTJg+OipHReJ5cx8HA778HAgkTNHK53tUfge71YeoB38Mbljg0V
+Ij5FwVM1/sB146EivTy4RCHKYQjKxtpswBqBUg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+snkgLlU9/NSauVNblPHQyRMA8ELzfGuIDa+AU367hMCfmMAG5E3X3uGUXZ5fjfclLuwPlcE+Lqv2
+KcKSUZOe9yYWMOhIjXsTNpDUPz8NMWGSMNPa7TDHbpiK3eHoAbV8+UC2XMjX025/+oRJl8irqSXM
+EZynZGRYvtbGDRvrr1i6tG0dnaS14Dn2O7E1JWDf9c+8kf0fOlYEZKE4MgNLyrCdJW30OtiBccWf
+rLiU7O6YLGeOlr+pQp2XPZ9fDV4r0MgMk8w8W2oxOioIhI9KaFlUcNje7kEz2y0O/V6YEtBQ5M6I
+x7WF3nhGyAVciy0XlSFz0FTaeVbSaTmVZHOqoQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGGjCCBQKgAwIBAgIDFfOEMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEVMBMGA1UE
+CgwMSU5GT0NFUlQgU1BBMRswGQYDVQQLDBJFbnRlIENlcnRpZmljYXRvcmUxFDASBgNVBAUTCzA3
+OTQ1MjExMDA2MS0wKwYDVQQDDCRJbmZvQ2VydCBTZXJ2aXppIGRpIENlcnRpZmljYXppb25lIDIw
+HhcNMTkwMzI1MDk0MzAzWhcNMjIwMzI1MDAwMDAwWjBgMRkwFwYDVQQuExAyMDE5OTkxOTk2QTQ1
+OTY4MQ8wDQYJKoZIhvcNAQkBFgAxFTATBgNVBAMMDGZ3c3NwaWRpbmFpbDEOMAwGA1UECgwFSU5B
+SUwxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsnkgLlU9/NSa
+uVNblPHQyRMA8ELzfGuIDa+AU367hMCfmMAG5E3X3uGUXZ5fjfclLuwPlcE+Lqv2KcKSUZOe9yYW
+MOhIjXsTNpDUPz8NMWGSMNPa7TDHbpiK3eHoAbV8+UC2XMjX025/+oRJl8irqSXMEZynZGRYvtbG
+DRvrr1i6tG0dnaS14Dn2O7E1JWDf9c+8kf0fOlYEZKE4MgNLyrCdJW30OtiBccWfrLiU7O6YLGeO
+lr+pQp2XPZ9fDV4r0MgMk8w8W2oxOioIhI9KaFlUcNje7kEz2y0O/V6YEtBQ5M6Ix7WF3nhGyAVc
+iy0XlSFz0FTaeVbSaTmVZHOqoQIDAQABo4ICtDCCArAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwJQYD
+VR0SBB4wHIEaZmlybWEuZGlnaXRhbGVAaW5mb2NlcnQuaXQwZQYDVR0gBF4wXDBaBgYrTCQBAQgw
+UDBOBggrBgEFBQcCAjBCDEBJbmZvQ2VydCBTcEEgU1NMLCBTTUlNRSBhbmQgZGlnaXRhbCBzaWdu
+YXR1cmUgQ2xpZW50IENlcnRpZmljYXRlMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0
+cDovL29jc3Auc2MuaW5mb2NlcnQuaXQvMIHsBgNVHR8EgeQwgeEwNKAyoDCGLmh0dHA6Ly9jcmwu
+aW5mb2NlcnQuaXQvY3Jscy9zZXJ2aXppMi9DUkwwMy5jcmwwgaiggaWggaKGgZ9sZGFwOi8vbGRh
+cC5pbmZvY2VydC5pdC9jbiUzREluZm9DZXJ0JTIwU2Vydml6aSUyMGRpJTIwQ2VydGlmaWNhemlv
+bmUlMjAyJTIwQ1JMMDMsb3UlM0RFbnRlJTIwQ2VydGlmaWNhdG9yZSxvJTNESU5GT0NFUlQlMjBT
+UEEsQyUzRElUP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwDgYDVR0PAQH/BAQDAgSwMIGzBgNV
+HSMEgaswgaiAFOk2mmQpUqFa/mmkxIO3gH0PahJ4oYGMpIGJMIGGMQswCQYDVQQGEwJJVDEVMBMG
+A1UECgwMSU5GT0NFUlQgU1BBMRswGQYDVQQLDBJFbnRlIENlcnRpZmljYXRvcmUxFDASBgNVBAUT
+CzA3OTQ1MjExMDA2MS0wKwYDVQQDDCRJbmZvQ2VydCBTZXJ2aXppIGRpIENlcnRpZmljYXppb25l
+IDKCAQIwHQYDVR0OBBYEFFtgMamnaszDkrdTZnU8yDhJv+t8MA0GCSqGSIb3DQEBCwUAA4IBAQBJ
+UJcOK1y452NGbWNMb1TtWZGANNxI9iHxHnf4B5DaQrgpEHCygtq1Hi6iOk0GFFreRGBOeY7hxvfj
+bT1nhbmqGqwuKoYFSwMEw0XcsdlL1ptcevO6bC2VI/XuXQet/YHftw2UDSzbMLQVlYonpAso/ESy
+bB7gkWSrJqt4cYeCJPbMUnLYc8H5E1ykqAImFXgIDYuYMQcRPqc976PcxwAdQLMu3fj0zg79mFXO
+Bb41aM9FcIdEUq25kK2DHMoyUxjwmrvf6dASRcDYgaXJmdiIN8Wz0zAVL2WJqbb1UG9tPZzFcvEI
+3IMZB3Sz28CV1oSvhpQ57h3YlfOVWDd6TDs6
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <SPSSODescriptor AuthnRequestsSigned="true" ID="SMcf126c8302f44e991abad87402c31057d6541bc21e" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <KeyDescriptor use="signing">
+         <ns1:KeyInfo xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" Id="SM1e527922296eeaa8064a5b23c46d5c4e07249f7de07">
+            <ns1:X509Data>
+               <ns1:X509IssuerSerial>
+                  <ns1:X509IssuerName>CN=InfoCert Servizi di Certificazione 2,SERIALNUMBER=07945211006,OU=Ente Certificatore,O=INFOCERT SPA,C=IT</ns1:X509IssuerName>
+                  <ns1:X509SerialNumber>1438596</ns1:X509SerialNumber>
+               </ns1:X509IssuerSerial>
+               <ns1:X509Certificate>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</ns1:X509Certificate>
+               <ns1:X509SubjectName>C=IT,O=INAIL,CN=fwsspidinail,E=,DNQ=2019991996A45968</ns1:X509SubjectName>
+            </ns1:X509Data>
+         </ns1:KeyInfo>
+      </KeyDescriptor>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fwsspid.inail.it/affwebservices/public/saml2slo"/>
+      <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fwsspid.inail.it/affwebservices/public/saml2assertionconsumer" index="0" isDefault="true"/>
+      <AttributeConsumingService index="0">
+         <ServiceName xml:lang="it">set0</ServiceName>
+         <RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="99">
+         <ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</ServiceName>
+         <RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="100">
+         <ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</ServiceName>
+         <RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+         <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      </AttributeConsumingService>
+   </SPSSODescriptor>
+   <Organization>
+      <OrganizationName xml:lang="it">INAIL</OrganizationName>
+      <OrganizationDisplayName xml:lang="it">INAIL</OrganizationDisplayName>
+      <OrganizationURL xml:lang="it">http://www.inail.it</OrganizationURL>
+   </Organization>
+   <ContactPerson contactType="other">
+	<Extensions>
+ 		<spid:IPACode>inail</spid:IPACode>
+		<spid:Public/>
+ 	</Extensions>
+ 	<EmailAddress>dcod-sicurezza-sso@inail.it</EmailAddress>
+ </ContactPerson>
+</EntityDescriptor>

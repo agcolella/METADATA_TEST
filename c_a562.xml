@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="SanGiulianoTerme" entityID="https://www.comune.sangiulianoterme.pisa.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#SanGiulianoTerme">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>CnHkqm8Wt+6g6wKKRO51VXuEEWMLUJDMYF2QavxnUhs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EQbiJWLuFOLaFxzUgaY1KQOqzVuM1NOv+8JYyuEaCDeBgYW8ssKZ8WmorOGw0fylBzJkhW72G1nV
+QG20hPv8AMmPMu5aHNYzcasevVgdDPpsAezD81zmDdVCmv0pTObD3iCAyUk4cgQbvBAuQ0BcAwx4
+Gtd9rPT+IplfwgCVVX2Rn+xR5JY13zisI1zoBbdA9gqXRgdqdp4acJFxV20AgADZxVorJEJnhchz
+GyLOJoEVsazC/91viaKoYWsWdf+qxhwXPk+pe35RBb59h+h10psTq5gzGTCQDaq3o1p0k0AHWxFJ
+WWb72eipW/6yzuzJ2qfTqNVhqObQXyuBJZzPHQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lxY1dlm9CicZV6c35Vvi3HT874F5Kh2Jx4zwQbQp1P9pPKd69ad2oNDWXq2sCXpX+z8yrcZO9ycx
+crrGv3V1l4CC/RqpiFXe3I3BcksXxCIvaSxvCUBHkjaChvyDo3KEK3e7hgxO3YdggN9LCnfnlWVw
+raunI9ME41h3rHt6gxASaGhzsVeUS1n3rwD36WJQ93OCh6hbCWt8UvPjW2YV3+JbjSD2zh0qs9/S
+d6Zy1vELjp53z39UbS+m/0t7tPbjfcTjHd7B/qPxrkZlVl3lplpLogKsdYbDs5bVp+QGOfsar60B
+5pYo5Ifogv5Rm+0C9cIbrbCiU5uNNvlB9HL5uw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDZzCCAk+gAwIBAgIJAOTtAThXac+tMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5j
+b211bmUuc2FuZ2l1bGlhbm90ZXJtZS5waXNhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJ
+VDAeFw0yMDA3MzAxNTE3NTVaFw0zMDA3MjgxNTE3NTVaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUu
+c2FuZ2l1bGlhbm90ZXJtZS5waXNhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJcWNXZZvQonGVenN+Vb4tx0/O+BeSodiceM8EG0
+KdT/aTynevWndqDQ1l6trAl6V/s/Mq3GTvcnMXK6xr91dZeAgv0aqYhV3tyNwXJLF8QiL2ksbwlA
+R5I2gob8g6NyhCt3u4YMTt2HYIDfSwp355VlcK2rpyPTBONYd6x7eoMQEmhoc7FXlEtZ968A9+li
+UPdzgoeoWwlrfFLz41tmFd/iW40g9s4dKrPf0nemctbxC46ed89/VG0vpv9Le7T2433E4x3ewf6j
+8a5GZVZd5aZaS6ICrHWGw7OW1afkBjn7Gq+tAeaWKOSH6IL+UZvtAvXCG62wolObjTb5QfRy+bsC
+AwEAAaNQME4wHQYDVR0OBBYEFIkDtMjQhJ72BnISEt+T1/Hbhlo7MB8GA1UdIwQYMBaAFIkDtMjQ
+hJ72BnISEt+T1/Hbhlo7MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAfvnmLd6cXl
+43fqDCiIC5F+wkSbL97i6ZAeF73WNRnerbIWWU8Ame7BdSL6jePcoCs2qpEzrsCPlZ52DeGHkzcg
+TnQQVYGQeUUJFgNoiQ6HMG0PKVDW+gfFDi4KLdWLBZwBsUqvkK9NTFLuf2R/+EiosR42teKSeuMk
+lK+Su5MHex/RGQrjWfZxTw1RMpGqpi5ch6dDs+kuWvJ7iXIMqtK+Fsg+M7QG8MdeuCentLWgz9ha
+AgciNfCWsuWjnu0krW+RJwqm3AtYi9CUNziicsQZcq2rtylFSurAezMygm0YF6n8elmW0afJ0IAo
+y5q62jAAI3Er4Vf6LZReNZElA14=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJAOTtAThXac+tMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2FuZ2l1bGlhbm90ZXJtZS5waXNhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA3MzAxNTE3NTVaFw0zMDA3MjgxNTE3NTVaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2FuZ2l1bGlhbm90ZXJtZS5waXNhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJcWNXZZvQonGVenN+Vb4tx0/O+BeSodiceM8EG0KdT/aTynevWndqDQ1l6trAl6V/s/Mq3GTvcnMXK6xr91dZeAgv0aqYhV3tyNwXJLF8QiL2ksbwlAR5I2gob8g6NyhCt3u4YMTt2HYIDfSwp355VlcK2rpyPTBONYd6x7eoMQEmhoc7FXlEtZ968A9+liUPdzgoeoWwlrfFLz41tmFd/iW40g9s4dKrPf0nemctbxC46ed89/VG0vpv9Le7T2433E4x3ewf6j8a5GZVZd5aZaS6ICrHWGw7OW1afkBjn7Gq+tAeaWKOSH6IL+UZvtAvXCG62wolObjTb5QfRy+bsCAwEAAaNQME4wHQYDVR0OBBYEFIkDtMjQhJ72BnISEt+T1/Hbhlo7MB8GA1UdIwQYMBaAFIkDtMjQhJ72BnISEt+T1/Hbhlo7MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAfvnmLd6cXl43fqDCiIC5F+wkSbL97i6ZAeF73WNRnerbIWWU8Ame7BdSL6jePcoCs2qpEzrsCPlZ52DeGHkzcgTnQQVYGQeUUJFgNoiQ6HMG0PKVDW+gfFDi4KLdWLBZwBsUqvkK9NTFLuf2R/+EiosR42teKSeuMklK+Su5MHex/RGQrjWfZxTw1RMpGqpi5ch6dDs+kuWvJ7iXIMqtK+Fsg+M7QG8MdeuCentLWgz9haAgciNfCWsuWjnu0krW+RJwqm3AtYi9CUNziicsQZcq2rtylFSurAezMygm0YF6n8elmW0afJ0IAoy5q62jAAI3Er4Vf6LZReNZElA14=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDZzCCAk+gAwIBAgIJAOTtAThXac+tMA0GCSqGSIb3DQEBCwUAMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2FuZ2l1bGlhbm90ZXJtZS5waXNhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA3MzAxNTE3NTVaFw0zMDA3MjgxNTE3NTVaMEoxLDAqBgNVBAMMI3d3dy5jb211bmUuc2FuZ2l1bGlhbm90ZXJtZS5waXNhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJcWNXZZvQonGVenN+Vb4tx0/O+BeSodiceM8EG0KdT/aTynevWndqDQ1l6trAl6V/s/Mq3GTvcnMXK6xr91dZeAgv0aqYhV3tyNwXJLF8QiL2ksbwlAR5I2gob8g6NyhCt3u4YMTt2HYIDfSwp355VlcK2rpyPTBONYd6x7eoMQEmhoc7FXlEtZ968A9+liUPdzgoeoWwlrfFLz41tmFd/iW40g9s4dKrPf0nemctbxC46ed89/VG0vpv9Le7T2433E4x3ewf6j8a5GZVZd5aZaS6ICrHWGw7OW1afkBjn7Gq+tAeaWKOSH6IL+UZvtAvXCG62wolObjTb5QfRy+bsCAwEAAaNQME4wHQYDVR0OBBYEFIkDtMjQhJ72BnISEt+T1/Hbhlo7MB8GA1UdIwQYMBaAFIkDtMjQhJ72BnISEt+T1/Hbhlo7MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAfvnmLd6cXl43fqDCiIC5F+wkSbL97i6ZAeF73WNRnerbIWWU8Ame7BdSL6jePcoCs2qpEzrsCPlZ52DeGHkzcgTnQQVYGQeUUJFgNoiQ6HMG0PKVDW+gfFDi4KLdWLBZwBsUqvkK9NTFLuf2R/+EiosR42teKSeuMklK+Su5MHex/RGQrjWfZxTw1RMpGqpi5ch6dDs+kuWvJ7iXIMqtK+Fsg+M7QG8MdeuCentLWgz9haAgciNfCWsuWjnu0krW+RJwqm3AtYi9CUNziicsQZcq2rtylFSurAezMygm0YF6n8elmW0afJ0IAoy5q62jAAI3Er4Vf6LZReNZElA14=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/sangiulianoterme"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sangiulianoterme" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sangiulianoterme" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/sangiulianoterme" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Giuliano Terme</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di San Giuliano Terme</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di San Giuliano Terme</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di San Giuliano Terme</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Giuliano Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Giuliano Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di San Giuliano Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di San Giuliano Terme</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sangiulianoterme.pisa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sangiulianoterme.pisa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.sangiulianoterme.pisa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.sangiulianoterme.pisa.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

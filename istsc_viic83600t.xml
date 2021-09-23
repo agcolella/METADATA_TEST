@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icmontepasubio.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxc9f7e370-4835-2d9f-a293-60b5e4973bd9"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxc9f7e370-4835-2d9f-a293-60b5e4973bd9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qH6KD45w+AyLfZRMM30qlHL1NodOWnez0ukPA1szaJA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FeUJnrNXqP0thBWm2QJh8C/DHilGsqrpwctpCfl5/1Dc2pQo9hCOdzzJ9AIB6tXHOgD+ViCp4ZeyKGsHgcOKIjEL9i4PWpryDbLL4YlYF8lwV4bzcfPWf8GDf4LnOo9SDEzZ07DQaLiocQoRvE8SMvhRa2ugVvKJIjph6Cpdnlf7uGApzqKTAS2td40qPtBRsAOPLD3l8W8iojLOPqdxT8/fUsb6Q3JbS+HituRzpJKdmwZjNrc98iFJaKVQmYELXItPDF8W/HDpXj1yMxcCa5NrfQKKDCAym/EMcaZTb2cv/rbJyXoKSQDVgGLBr0YzwVYsPsfXKX/uRSlo2Jhl2w==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEaTCCA1GgAwIBAgIJAOPD5wOPj0flMA0GCSqGSIb3DQEBCwUAMIHKMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEXMBUGA1UEBwwOVG9ycmViZWx2aWNpbm8xKzApBgNVBAoMIklzdGl0dXRvIENvbXByZW5zaXZvIE1vbnRlIFBhc3ViaW8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY21vbnRlcGFzdWJpby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZpaWM4MzYwMHRAaXN0cnV6aW9uZS5pdDAeFw0xNzExMjEyMDQyMDFaFw0yNzExMTkyMDQyMDFaMIHKMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEXMBUGA1UEBwwOVG9ycmViZWx2aWNpbm8xKzApBgNVBAoMIklzdGl0dXRvIENvbXByZW5zaXZvIE1vbnRlIFBhc3ViaW8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY21vbnRlcGFzdWJpby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZpaWM4MzYwMHRAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANsKf9KzP4PDF1GARy5kzQL2fZySPuCDhJk/a+bFF7O48rWOLQZByFj0izzFU9jx0qwSErATumrHxTra1Sjmu6RS7O45V4VCtGaHq6BnRIu7S4iOMR64EuPP83aPD5qWgOo5re+XuBDmJhPpmBHZTOirhNhcDtExtYrFFfsDwePSPwJ6PS8mA8u57tWl+AU4ikTs596xaY5ckx0MqGtAOXhzM/K9wkAzKCwv5bo1E0HF9bW+T+dbt9YGSF1HBwweWNeez4HECuVzRsiRb/bxGerlG+RVwsKEgCHuh1FOGE7MUOKTVZY9fvzf1EnR/U9mk7p7/+erWcTN/CSCi95iUC0CAwEAAaNQME4wHQYDVR0OBBYEFMk+J2C+lcR01g/AD9tJhVml+oNlMB8GA1UdIwQYMBaAFMk+J2C+lcR01g/AD9tJhVml+oNlMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEppxaRPXHvNzjv5UHAmqcg98MoJMP+ezepOBBaYK6rsrDVNJrCRxiZ5tyxiZnHKnrLSqjWJSXlNpDHjqYtDV+rh2HvNr8V9fBAqClPz/zhMZ+G0D7BW6u4RoTs4mzMGdZ6Rm5v6dgmdSJeEBQV/TQmJZl/7jcQZJa8Q8ffMBJfpMbTxxC8uUAKytJExhdRiKR9EdUrvMWuWHecoS9cvJnTYFdLxMzv4jOa3sM6EmU/dGYAS6Zy5GmBGfQnRyZxSfJIDQ1mcNbejL3Bz2ioG7xDAxEK6t5k7ir5lEu4QVBDJtjH+iPoFGdr8kbvKOIHbEssj5ZDUs6gACRyzxbCFsoI=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEaTCCA1GgAwIBAgIJAOPD5wOPj0flMA0GCSqGSIb3DQEBCwUAMIHKMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEXMBUGA1UEBwwOVG9ycmViZWx2aWNpbm8xKzApBgNVBAoMIklzdGl0dXRvIENvbXByZW5zaXZvIE1vbnRlIFBhc3ViaW8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY21vbnRlcGFzdWJpby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZpaWM4MzYwMHRAaXN0cnV6aW9uZS5pdDAeFw0xNzExMjEyMDQyMDFaFw0yNzExMTkyMDQyMDFaMIHKMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVmljZW56YTEXMBUGA1UEBwwOVG9ycmViZWx2aWNpbm8xKzApBgNVBAoMIklzdGl0dXRvIENvbXByZW5zaXZvIE1vbnRlIFBhc3ViaW8xFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIjAgBgNVBAMMGXd3dy5pY21vbnRlcGFzdWJpby5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZpaWM4MzYwMHRAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANsKf9KzP4PDF1GARy5kzQL2fZySPuCDhJk/a+bFF7O48rWOLQZByFj0izzFU9jx0qwSErATumrHxTra1Sjmu6RS7O45V4VCtGaHq6BnRIu7S4iOMR64EuPP83aPD5qWgOo5re+XuBDmJhPpmBHZTOirhNhcDtExtYrFFfsDwePSPwJ6PS8mA8u57tWl+AU4ikTs596xaY5ckx0MqGtAOXhzM/K9wkAzKCwv5bo1E0HF9bW+T+dbt9YGSF1HBwweWNeez4HECuVzRsiRb/bxGerlG+RVwsKEgCHuh1FOGE7MUOKTVZY9fvzf1EnR/U9mk7p7/+erWcTN/CSCi95iUC0CAwEAAaNQME4wHQYDVR0OBBYEFMk+J2C+lcR01g/AD9tJhVml+oNlMB8GA1UdIwQYMBaAFMk+J2C+lcR01g/AD9tJhVml+oNlMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEppxaRPXHvNzjv5UHAmqcg98MoJMP+ezepOBBaYK6rsrDVNJrCRxiZ5tyxiZnHKnrLSqjWJSXlNpDHjqYtDV+rh2HvNr8V9fBAqClPz/zhMZ+G0D7BW6u4RoTs4mzMGdZ6Rm5v6dgmdSJeEBQV/TQmJZl/7jcQZJa8Q8ffMBJfpMbTxxC8uUAKytJExhdRiKR9EdUrvMWuWHecoS9cvJnTYFdLxMzv4jOa3sM6EmU/dGYAS6Zy5GmBGfQnRyZxSfJIDQ1mcNbejL3Bz2ioG7xDAxEK6t5k7ir5lEu4QVBDJtjH+iPoFGdr8kbvKOIHbEssj5ZDUs6gACRyzxbCFsoI=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icmontepasubio.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icmontepasubio.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto Comprensivo Monte Pasubio</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo Monte Pasubio</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.icmontepasubio.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

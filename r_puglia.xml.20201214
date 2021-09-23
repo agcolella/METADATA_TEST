@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_05f0ffb5d2a35f52b06aeceb3d44e7424ebcd088" entityID="SERVICE_PROVIDER_REGIONE_PUGLIA"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_05f0ffb5d2a35f52b06aeceb3d44e7424ebcd088">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>lt3oZLBgLpi5Txd37SrkwlhMriOeV17PP3ZXFZY0a8k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+g0Pr9sZZYFGq1h7lYkK0g/Cssd2K45Xb14Zhzh5JWU9qc/q/sjAyf+0A7YyiAev+eMEynl4scjJT
+4b7duqjZc4DMNOXg0puW0AimmDHKhXVtEtBRfm7rpr521EHXSeVYox7BUgLV2/d0Q6w8VqTqHAMr
+VVr31s7OG824oN9Sqh9BPdSStg0QLAwgSfZoJkMf3VKMHROMckbBo0pp3AazYZuJAktVbNr2MKpK
+QSMkiT0U851L/J7f1lNmd5MPWsZUsVdzY3MR0TqzxTFxsBBJE9JzPT+89of6cB3Lm1I1p0ayjZOS
+XO1id9v0uX3c0u5rKFw6N7FlkfVLPZwCqSVwKA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mOj2Bxu8DE1M+W0XkpHOZeOS+WRVV48GzcFot4M2IMUoxUu0tFLdwA3PxrkzjOQ6XlNg2/XzRpf/
+xJDXDQlxSqSB/kK2LvWG/1IfsAX5iRw4JvhWFWUEGwXkCy+w5L2HXRMMeP0m8xu25hBEucsN4h1M
+f7d9DzP8gHJOM1cGQ40MANDjqJ2fBah34PEA68nSvVQIr4YbvpFOp3dHrTGME2cWIxUKfhPP2aQc
+M7jHYvhzu436n8XNf/R+UOWS/r+C5CafOh1XzqiLz/kmtnLumWixxQWoJ5K5yGrKAZyvGO+LATYg
+LVDoJxbXjC9fnvfts6pDYuEv0mEnaN6OpmRVRw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIC3TCCAcWgAwIBAgIEdTQJXDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDExR3d3cucmVnaW9u
+ZXB1Z2xpYS5pdDAeFw0xOTEyMjAxNjU3MzNaFw0yOTEyMTcxNjU3MzNaMB8xHTAbBgNVBAMTFHd3
+dy5yZWdpb25lcHVnbGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmOj2Bxu8
+DE1M+W0XkpHOZeOS+WRVV48GzcFot4M2IMUoxUu0tFLdwA3PxrkzjOQ6XlNg2/XzRpf/xJDXDQlx
+SqSB/kK2LvWG/1IfsAX5iRw4JvhWFWUEGwXkCy+w5L2HXRMMeP0m8xu25hBEucsN4h1Mf7d9DzP8
+gHJOM1cGQ40MANDjqJ2fBah34PEA68nSvVQIr4YbvpFOp3dHrTGME2cWIxUKfhPP2aQcM7jHYvhz
+u436n8XNf/R+UOWS/r+C5CafOh1XzqiLz/kmtnLumWixxQWoJ5K5yGrKAZyvGO+LATYgLVDoJxbX
+jC9fnvfts6pDYuEv0mEnaN6OpmRVRwIDAQABoyEwHzAdBgNVHQ4EFgQUuQu8AmMRyWI4ui1RGGNb
+g8aJdp8wDQYJKoZIhvcNAQELBQADggEBAHMJ4ZUqJv7MFEFKcPI6snbX/TYctUztf2alQe5VyU7e
+prcTOpynSaYnY9s2FERYZWuk1tdRy+tjl7qeOUtmujnNOHAoll6R0zmIt3mNFGIgq5wju0CDL6yY
+iIvZ4wCmhhMZEsQ2Dzlbr2rBLaYEiLnVYLjENlKqFess0J+iVgpIcBK/3HYmmhoLQBL0eGz8J/J1
++hGGHQVy3B81ue+Kw3ap5sF/H0fXyt+gEDctkSPaaSGg72QQjXEUNS6HqBEfFAQY4yq+K5WqJF2H
+YwtQ8pU0lsyN0Zt3LoGBvaYpG214aC0SMiIZ+p8cDxANLr4shUWDmzfa8aRJhEi/C9zD/o0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+    <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:KeyName>www.sanita.puglia.it</ds:KeyName>
+<ds:X509Data>
+<ds:X509SubjectName>CN=www.sanita.puglia.it</ds:X509SubjectName>
+<ds:X509Certificate>MIIDrzCCApegAwIBAgIJAI4gZHMeuwHJMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNV
+BAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBEJhcmkxDzANBgNVBAoM
+Bklubm92YTEPMA0GA1UECwwGU2FuaXRhMR0wGwYDVQQDDBR3d3cuc2FuaXRhLnB1
+Z2xpYS5pdDAeFw0xOTEyMjAxNjI3NDBaFw0yMzEyMTkxNjI3NDBaMG4xCzAJBgNV
+BAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDTALBgNVBAcMBEJhcmkxDzANBgNVBAoM
+Bklubm92YTEPMA0GA1UECwwGU2FuaXRhMR0wGwYDVQQDDBR3d3cuc2FuaXRhLnB1
+Z2xpYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPAxX+5nGad9
+uV6HC0Fu4F3iNYy6oDV4V1whkda6xdjOgmvx/uK91IGURPHjF6QYIX9rvgva7yWT
+g57uLXiTAY9q1f3CHdN1PlZ+6gPGldC027XU3EsCwXI1FPRIUBN19rHeKGmBze97
+JhzpRv16SBRFumgzc+RF9PNecg4LLDwRC9cs9EMwNT/ZvEg0+e9U5ldObTCmwS+M
+yTS4ps2M2cyI8XQAEBBpClQ8UFdofD4Sh3zKKde2szh7WhVMg5bEDGKIXTz7Vpbr
+huSnUSwr3K7RbwH4W8GoJA8U/amtQjgS7Ei8xR2P8eBMuuKJUn9YY4HDUkMAibH9
+svpwSfd54vUCAwEAAaNQME4wHQYDVR0OBBYEFHDQFEZTxIJ64qGLQQztdskluoyq
+MB8GA1UdIwQYMBaAFHDQFEZTxIJ64qGLQQztdskluoyqMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBALZz3w2rggJGQlwdaJCCFQsB1GK6zKs5dAWrrD1+
+yNAPpfJiT0tLGbmc4pWefeJ11RmP+9p4+LpjvaTUdsjTWPc7zD1dbAA+BcyIwrWj
+wTRFtmyogLEp08g392I4pYhQ8TepZCu1dTTKnTpo77Jk3tsi7BkSP5JOpXUSTbgn
+pUhRkscq551dRgITi6O1xGEWoJzjyCtz58fvgTNwem4fbL6NzHnlzj4YTYBMX60d
+DmX6lgibUqmGuvemvRKOZXenCpOgNiZ17CFQELALo22oJ7fcVFmZK3wY43V6SY0V
+99YhlNZa8aqWLKTogOdO7RD2fCDp/Czh0rfjUhilgtka8yM=
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+   <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>regione.puglia.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=*.regione.puglia.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIGcDCCBVigAwIBAgIQcuThV4KzFu7gL2ALYuCxBDANBgkqhkiG9w0BAQsFADBC
+MQswCQYDVQQGEwJVUzEWMBQGA1UEChMNR2VvVHJ1c3QgSW5jLjEbMBkGA1UEAxMS
+UmFwaWRTU0wgU0hBMjU2IENBMB4XDTE2MTAyNDAwMDAwMFoXDTIwMDEyMzIzNTk1
+OVowHjEcMBoGA1UEAwwTKi5yZWdpb25lLnB1Z2xpYS5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAISBWrSUfrSotfxBkeBzqXRsVkx7vtqWqSHccevf
+C3/8DHdLQmdV4RtDedkCH425Gi+NPnaKe2gY2+FfKR34ElEpv2MYLGGZVoZt8gvd
+4p8fTW4RvOMeMHiIBL8xz3L4q998aDeIAwLiIFivVaIiDQ3VTjLEKJdtYh/RKbfN
+2/JpANozgrfTVrSudTPbU+TWj5Sp6YHdBGg2eTPfFZn+prdBEKhO9qlRTRPCpc5y
+5V17xAZ4oU03uLc6JLOq2zGDPK4pFQR2zJ+6OMKKg5DRBWrySXDKzLxO9skFmR97
+qFI4DsJJHt0jFvD8UPMKd+1Qvdct/V53kVL6jMbWHHs5eTsCAwEAAaOCA4QwggOA
+MDEGA1UdEQQqMCiCEyoucmVnaW9uZS5wdWdsaWEuaXSCEXJlZ2lvbmUucHVnbGlh
+Lml0MAkGA1UdEwQCMAAwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2dwLnN5bWNi
+LmNvbS9ncC5jcmwwbwYDVR0gBGgwZjBkBgZngQwBAgEwWjAqBggrBgEFBQcCARYe
+aHR0cHM6Ly93d3cucmFwaWRzc2wuY29tL2xlZ2FsMCwGCCsGAQUFBwICMCAMHmh0
+dHBzOi8vd3d3LnJhcGlkc3NsLmNvbS9sZWdhbDAfBgNVHSMEGDAWgBSXwidQnsLJ
+7AyIMsh8reKmAU/abzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwEGCCsGAQUFBwMCMFcGCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYTaHR0cDov
+L2dwLnN5bWNkLmNvbTAmBggrBgEFBQcwAoYaaHR0cDovL2dwLnN5bWNiLmNvbS9n
+cC5jcnQwggH3BgorBgEEAdZ5AgQCBIIB5wSCAeMB4QB1AN3rHSt6DU+mIIuBrYFo
+cH4ujp0B1VyIjT0RxM227L7MAAABV/Y2oTIAAAQDAEYwRAIgM8CZUwjmocGYzNQO
+IPgbKINDOxQjzXcMo/yR8IBk14ACIAuekFUkLCuD5Pd286P/0fYwIvKzyHk2mQ31
+x6KtOpXbAHcAaPaY+B9kgr46jO65KB1M/HFRXWeT1ETRCmesu09P+8QAAAFX9jah
+WgAABAMASDBGAiEA0Z1hEZx4RiQ2CrK6S6fjNM9fJeduMqTLibutF1iw7cACIQCJ
+Hdo+0xxsBIxtOzNqHu2pMZY5yr3SuX4ha+AEY778ZQB2AO5Lvbd1zmC64UJpH6vh
+nmajD35fsHLYgwDEe4l6qP3LAAABV/Y2oYQAAAQDAEcwRQIhAOM7U16dGynhuFtx
+oKJI34rpJKCH7Gnx/WjxP5es7N4vAiBIRpmyY3lmrLg9uVQLLz0yrz1JrVqGOctr
+wiMUu8BTZgB3ALx44d/F9jxoRkkzTaEPoV8JeWkgCcCBtPP2kX8+2bilAAABV/Y2
+oiYAAAQDAEgwRgIhAKxyGxK8G6YSAtLB+BdXI0s14T4zENLS/qX3O6U4EoWGAiEA
+6ICu9XZMddMqtQaFVbSh7iQdbZ0YaLtJDF35igcjDBswDQYJKoZIhvcNAQELBQAD
+ggEBAE/4bjZ1APFTckK1seN9lrtgjl3qXTvwLF+ZH9qb59BBDUe+NQus3VNJ9wX7
+SIYFlaEkl7d7DFxPQDtAyonMqHYLioDwZxg5ZqT1JwcxI/O6lhh7kPKNJKZiq+26
+aW7M8qzGgkFjbMK6INHY8kNsT5CSztm2R+Gh4ULqzB0jFOnaXZFyzvOuC4YHL3BM
+SVXPoB99YFp5/npdq6XsqJerF3sy5vymSe1SebpLXwyYWzcIZbZy+8WElZYkWjm1
+SAtnMy3HrS8xgSna60JMMDydAxN/ZJh4H1Gs0jGSJp1PMc/wxOgxwzadSytoeWvC
+GkVcBlcfc7KxnlHDDZYE59HaIsQ=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>mypay-test.rupar.puglia.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=mypay-test.rupar.puglia.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDFTCCAf2gAwIBAgIJAPNg8vUv22vQMA0GCSqGSIb3DQEBBQUAMCUxIzAhBgNV
+BAMTGm15cGF5LXRlc3QucnVwYXIucHVnbGlhLml0MB4XDTE1MTIwMzA4MzU0MVoX
+DTI1MTEzMDA4MzU0MVowJTEjMCEGA1UEAxMabXlwYXktdGVzdC5ydXBhci5wdWds
+aWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCyMEiFJXDraU/e
+0Ia6RR16gEQ58JHmdkiCjba+/RMpBH4WiWrxvEoXgBHqXK+7SC2NaiSqdON8PQM7
+G5G9M4aPMFow3D2yeWw5QGEh6jsBGVIDh8qRIyPlVS4X/e4qFI50DS7uH4v7i0lN
+TcavGiYqgpiVb0rK63+JpDPML4DUaW8eCninDHhb83phqFDSvfF0USd4mphAM0cM
+dB4Ze0Db/tQXDVQrfz3d3f8QdsQ05hk/jBCYFuATCSiviNRivSDDMU7qn4fFuesT
+wsMr1t8xirK+2yw1YnAOBpmWlkm/kFy/0u/+sCXryJBrA2LbgEwFnqLYgt+NQG8k
+gvhzKFFpAgMBAAGjSDBGMCUGA1UdEQQeMByCGm15cGF5LXRlc3QucnVwYXIucHVn
+bGlhLml0MB0GA1UdDgQWBBQSKbhZhzy+8bvCMbOmp61Kzf8LRzANBgkqhkiG9w0B
+AQUFAAOCAQEADs8z7mZvbzqsRAhtRRrM7LAX0wPiDhK/UY7DgKcyn96nJxf5MIz7
+l7ZQIGYnXTFJCpwxlePll2s51E5rHMROH5vX11H2AQJQkBJURbEmJtM16bbUAm+M
+8IKgXtOq6ijxPmXktCbyEkWq6y1HxT4fShzUo5UEtv2iF7jC0faT2xr79UfvFiV1
+PqCtSq/FIxuY/6HJ6R9nCbk8Cg8VtxaEuN8zjw0FiI7fUjjfl0o/K8nJGS0TgYUY
+Q5+zsiq9f0keeMMD0iebThbxfTNa1ZNP20ALflkgJv05zTATZs1EoPYg0UZWAhV3
+kQOxJ+dgVYWnPAAkDbzCGpZ+VvyzZpaerA==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>151.9.73.25</ds:KeyName>
+        <ds:KeyName>http://151.9.73.25/Shibboleth.sso/Metadata</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=151.9.73.25</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDFDCCAfygAwIBAgIJAPIbt1WCqhlpMA0GCSqGSIb3DQEBBQUAMBYxFDASBgNV
+BAMTCzE1MS45LjczLjI1MB4XDTE2MDcwNjE0MDc1OVoXDTI2MDcwNDE0MDc1OVow
+FjEUMBIGA1UEAxMLMTUxLjkuNzMuMjUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCoqhAb0E2Am27SK0gpwbDiffl2Ikc2yK4INdLSRUB/920ZoTlMVzSE
+0caE6deQx/b8lI12Hg2EipDHE6ExgXe0GKocd3eRzGVzn4wHGcNfk8yEIHIMTk60
+rCSbUtAs30kw+fguujMpVt4dOH6bXfrLzlYl606Gd3JIY5jE7jzgOEtcLsANpcMT
+oaOnfw6KwDtypQM4f3OX4HOnkaTzNoo6j9pdwzDBDL/CQmsN2RP0nGH2hCz+qmAx
+TjNSfVXikoHSspwDsrv1spd9FULhUEnUvJPCjeAsyoUgEQpdsWqXQ9aGMtIq2ZjH
++fq227CS1NWk5ny+2l3ubg+DqivjDn2BAgMBAAGjZTBjMEIGA1UdEQQ7MDmCCzE1
+MS45LjczLjI1hipodHRwOi8vMTUxLjkuNzMuMjUvU2hpYmJvbGV0aC5zc28vTWV0
+YWRhdGEwHQYDVR0OBBYEFOixdQbsg8Q6e4WHTsOh/xZpRqt7MA0GCSqGSIb3DQEB
+BQUAA4IBAQAo6mfN4O4DrBZLee4Co2hYJg2QXIWVsCfucRP5QwqgSqms0b/I/2WO
+hpG2KAp2Ncgr4WvO3E/J57SvLIugUJ78K7Lar/MIw/dknPH/ba6XtmM9qyV1XTeg
+nW4SpQreNw+JyJzJYHXdsAGM6PQ+aPBYpEn4Rbfye74GL6LS+dhPGf8gljusM97M
+SzzJ7ruaHg4uC6AXT1eThwq/179opGD2d6cVKqzOX0uSHgZqCWNyn/MdXsBs3wJp
+KZfQPfG9MczyYBorFs5zjTEMVIVfjJoXLUv27H9zebCZ3lW2Cu7TArqESqNdJoM9
+EOsKY+Za8K1ec9inkPNxvOkH6OKfQtiW
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>vra23</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=vra23</ds:X509SubjectName>
+          <ds:X509Certificate>MIIC1jCCAb6gAwIBAgIJAJFg7Nr1fKaZMA0GCSqGSIb3DQEBBQUAMBAxDjAMBgNV
+BAMTBXZyYTIzMB4XDTE2MDYwNjA4MzQzNVoXDTI2MDYwNDA4MzQzNVowEDEOMAwG
+A1UEAxMFdnJhMjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9gUp1
+bIr0w1JblsDBfZ8ZuzLA+IaLwtczfjWF5gp0xbQMouABJkP+IiA28bvjOZLaIHFT
+IpBbPlav5O2iy83lB9Boo6WKNvIjoTwwELg+u20jlSs5uIBImPSYKTK0CNVtcP1r
+2a8tj/Ozlaf9SlHHkiVKQrnik59W4ZCXjxi6rvjqbad6kfllbFroarXkWcEUy5r4
+t6t1B9VhUqf/NlaOlvq7AbBdREYngtH0pYSR5UvVoloGTfKl9jFzwfVCuYiBD4Y3
+22VbabuXRWOL0KzJeVjmkQeQCwCe3pL5ZyjasbFp4/hWmkLnJek24CorNSHNCC8t
+Hj3G57TOBYSsGbufAgMBAAGjMzAxMBAGA1UdEQQJMAeCBXZyYTIzMB0GA1UdDgQW
+BBR5cu6SMRUKXaI6XbawE9D20gOV5zANBgkqhkiG9w0BAQUFAAOCAQEAhRg0GHgZ
+cVGBvpR+O5AVKZgyjchSapkzYOrCdNL5Fl8wXOMJMpC3Nai4CJwn3V5EBiqrGd/t
+9pEUp24BThcPMaCD+xqpElr1JyjTs1+JyJ5r3iMEiM8petBLeDXIXC2XnJMCC11Q
++GGMOB2Ojj9SNd4+M7qQeDJVYTb8ZxBM1gq9KN4xtKNpcWAQi3QYbDL5neE4T9Kz
+LgXql0Yhz8CGY/gdYN12CKv1pWiIXXg+FSuh7FTSwQmcTJj7SQGJIODktHHEvrTZ
+6P56u6pGNL2UNV3CqZzyXEWbguU9c6n4jvob2I46y7vFdRjRHQauAqwifVqI0vJS
+i8s0FrfIXtK0gA==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+
+ <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEsTCCA5mgAwIBAgIQCKWiRs1LXIyD1wK0u6tTSTANBgkqhkiG9w0BAQsFADBh
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
+QTAeFw0xNzExMDYxMjIzMzNaFw0yNzExMDYxMjIzMzNaMF4xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j
+b20xHTAbBgNVBAMTFFJhcGlkU1NMIFJTQSBDQSAyMDE4MIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA5S2oihEo9nnpezoziDtx4WWLLCll/e0t1EYemE5n
++MgP5viaHLy+VpHP+ndX5D18INIuuAV8wFq26KF5U0WNIZiQp6mLtIWjUeWDPA28
+OeyhTlj9TLk2beytbtFU6ypbpWUltmvY5V8ngspC7nFRNCjpfnDED2kRyJzO8yoK
+MFz4J4JE8N7NA1uJwUEFMUvHLs0scLoPZkKcewIRm1RV2AxmFQxJkdf7YN9Pckki
+f2Xgm3b48BZn0zf0qXsSeGu84ua9gwzjzI7tbTBjayTpT+/XpWuBVv6fvarI6bik
+KB859OSGQuw73XXgeuFwEPHTIRoUtkzu3/EQ+LtwznkkdQIDAQABo4IBZjCCAWIw
+HQYDVR0OBBYEFFPKF1n8a8ADIS8aruSqqByCVtp1MB8GA1UdIwQYMBaAFAPeUDVW
+0Uy7ZvCj4hsbw5eyPdFVMA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEF
+BQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADA0BggrBgEFBQcBAQQo
+MCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBCBgNVHR8E
+OzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9i
+YWxSb290Q0EuY3JsMGMGA1UdIARcMFowNwYJYIZIAYb9bAECMCowKAYIKwYBBQUH
+AgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCwYJYIZIAYb9bAEBMAgG
+BmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcNAQELBQADggEBAH4jx/LKNW5ZklFc
+YWs8Ejbm0nyzKeZC2KOVYR7P8gevKyslWm4Xo4BSzKr235FsJ4aFt6yAiv1eY0tZ
+/ZN18bOGSGStoEc/JE4ocIzr8P5Mg11kRYHbmgYnr1Rxeki5mSeb39DGxTpJD4kG
+hs5lXNoo4conUiiJwKaqH7vh2baryd8pMISag83JUqyVGc2tWPpO0329/CWq2kry
+qv66OSMjwulUz0dXf4OHQasR7CNfIr+4KScc6ABlQ5RDF86PGeE6kdwSQkFiB/cQ
+ysNyq0jEDQTkfa2pjmuWtMCNbBnhFXBYejfubIhaUbEv2FOQB3dCav+FPg5eEveX
+TVyMnGo=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+
+     <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+        <ds:KeyName>SIT-SPID1</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=SIT-SPID1</ds:X509SubjectName>
+          <ds:X509Certificate>MIID4jCCAkqgAwIBAgIJAJtTy+hzX9MBMA0GCSqGSIb3DQEBCwUAMBQxEjAQBgNV
+BAMTCVNJVC1TUElEMTAeFw0xODAyMDExMTI0MzBaFw0yODAxMzAxMTI0MzBaMBQx
+EjAQBgNVBAMTCVNJVC1TUElEMTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoC
+ggGBAOcoxtStS2q5ph8G6DAR1QA+Dv1P0u3LWRTkQ0HP3+y4wY0GxBqwFOqvNUfj
+3vYWJyjtretorUw1P4BXG/pGAx37I+0XfKd+TsCUjS5fU4zsIM/nThFgVvjyG2/f
+kdxr0BJ7mI6IU8Ex7RDqYE1WO6lC7c+TUymZk1u+uz7j680u4PkbUFwek5h/FBfX
+ynBiDDr+YjhQiuqgXsnmT0vS1u+klfMve0W2ig+cA0ne9srWdyj1umKx6bKdUy8l
+BjvhCxVobs+AANeud658j1UuHIYeDcZ4Roz8GHC+TOheOGs2HVNO33MFwAIz3Nzc
+7QIER8Eg/HbZBXwXWnpVEsh7WW9zYe1vtus+fcGgIQeHbSOaPyprdWzBGeCLt4bE
+urNpsf5CbvOO71/JvJa7FVhDS1p/MC8Jd3CpSgn6GTPMq0NJVlzpAiPv7Ycek4sH
+vvZEATYOOwmUXg3GGCNJB6ioTA9BQQRJG477Uge66hTEIs1AQnP5+aM36XcgucOr
+BXWj1QIDAQABozcwNTAUBgNVHREEDTALgglTSVQtU1BJRDEwHQYDVR0OBBYEFAxo
+We73LH8OEQMMjJNkjNGLAkfCMA0GCSqGSIb3DQEBCwUAA4IBgQDCaArG2Y7ovof/
+TfJJpiryBM0n/IsT0tgogbf3m8UAzFnORhKP8ufLpEXgiF9QfD7hQEPhNaokzVid
+pSg4vWx/0ekIumLY1yO9d+XSYxdXUuRAelyQMRzerYFVAgSjNLOdxJNFE/kZGSGs
+MknfvVDlTcfEtigTm4CcxLwh2Kd1Fc1IcvL/xFT98f/mYeOlgNZfS+kfgTjiD24p
+XelEMoUi5VZuRu/9ENgr5NHltrXkT97k0t8vWLoVGtQawOoNzFE9OeTIaKipEThc
+7dzAG1vSxJ/G/gcieA0+O0hiFP7XwaBZKKQn1xpQ9Hza3YD17QDZXRVHVilKZwCG
+l9NfsnIeXvC+VTrHuiII0XuAyOskHFrRRV+eab37zPkgfzdVPH21MblnG6JhA4hi
+feidW0ooyCXn6G/6sku3j0yJRb9lGGf7EVfnPDdAmKCvjJN35p+u0uwXpEAKIuLM
+mMpOXpAbbOs1ZIR6dl+SoKqOPE3PObS0r4AXRohsKYRffB9vUCs=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor> 
+
+ <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>giava.sanita.puglia.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=giava.sanita.puglia.it,OU=Sanita,O=Regione Puglia,L=Bari,ST=BA,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDhzCCAm+gAwIBAgIEIhsujjANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJJ
+VDELMAkGA1UECBMCQkExDTALBgNVBAcTBEJhcmkxFzAVBgNVBAoTDlJlZ2lvbmUg
+UHVnbGlhMQ8wDQYDVQQLEwZTYW5pdGExHzAdBgNVBAMTFmdpYXZhLnNhbml0YS5w
+dWdsaWEuaXQwHhcNMTgwMzA4MDkxMTQ4WhcNMjgwMzA1MDkxMTQ4WjB0MQswCQYD
+VQQGEwJJVDELMAkGA1UECBMCQkExDTALBgNVBAcTBEJhcmkxFzAVBgNVBAoTDlJl
+Z2lvbmUgUHVnbGlhMQ8wDQYDVQQLEwZTYW5pdGExHzAdBgNVBAMTFmdpYXZhLnNh
+bml0YS5wdWdsaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDa
+lhO3ELgGoEfetm60DXgJ8PYDgGiPn3q19kECykn7SKoLwYN/csV1CaGoulkTPCdC
+FxpcS4Z0F03cUUCQ3t1J65tv4gdbpxt2jxIZut7Xq1wK9GTFxgyCrKxuWT98hXJA
+46pHtp/W16dZtynKs4HpYcbD9fYorl+MAq+L9UuuJCcvBGQ1jZCSD6J0EkEdmjLv
+OlK+KWuXWCk8BVjUTz3TQ31NaNgRy42Ji5EqPwDHhhBkpvWupsPvVlPFjSeFaPYf
+psT7YQ7J4ydqTT4lswcDNdsULXF4OQac8bo0vHY20U9wlPxolfryqHDlRmVH2F/5
+iLbGY91uTJOqneKtTuyRAgMBAAGjITAfMB0GA1UdDgQWBBQJ/k/gVtRrhhahas4z
+iS8dRSjmITANBgkqhkiG9w0BAQsFAAOCAQEAHjiBZfB7IiP1MULawkcyP76N9dkE
+5Rl9NErPIjqdGstWf/Fe5YxrWknFqBBE4Z4DD3D5Ul/lLi02E/98Dk64dv/DvUkL
+vje48MRv+SHfQdg1sSg6k9yB0wK1TXcjYWTQVPz7IwMIKsgdMgYvUkSGRngi5sLj
+yV59UhJ2uS8Yx1HhHMPQHsUIOEtNQWrGi3kHFx13pMmtSET7yHvpbiXnaAviQTjm
+UXdJqge//Q55iNrsqovOLWxA6dtFGotTdaF2Qo5Ug3apzoIftNlrXSOsybcBi0m5
+Yq9ATbQORrPWgWWChAABwZJl51fn0FFZyV8Hk+ic5AMaNi7L1Wtkie/Nhw==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>www.dms.puglia.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>emailAddress=none@none.it,OU=Tecnopolis,CN=www.dms.puglia.it,L=Bari,O=Tecnopolis,ST=IT,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDljCCAn4CCQDP7SeUsV2/rDANBgkqhkiG9w0BAQsFADCBjDELMAkGA1UEBhMC
+SVQxCzAJBgNVBAgMAklUMRMwEQYDVQQKDApUZWNub3BvbGlzMQ0wCwYDVQQHDARC
+YXJpMRowGAYDVQQDDBF3d3cuZG1zLnB1Z2xpYS5pdDETMBEGA1UECwwKVGVjbm9w
+b2xpczEbMBkGCSqGSIb3DQEJARYMbm9uZUBub25lLml0MB4XDTE4MDMwMjIxNTQw
+M1oXDTI4MDIyODIxNTQwM1owgYwxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJJVDET
+MBEGA1UECgwKVGVjbm9wb2xpczENMAsGA1UEBwwEQmFyaTEaMBgGA1UEAwwRd3d3
+LmRtcy5wdWdsaWEuaXQxEzARBgNVBAsMClRlY25vcG9saXMxGzAZBgkqhkiG9w0B
+CQEWDG5vbmVAbm9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AL4H6eVVKfyUVOepxrkymkCPesU7R8XeXV91MaWXMgIYXYdOReg9mSU1KhmgPeQr
+NaAitChK+rjAUxuzLXAun3FXz/rftx9mBq4eHWi1UFraqdMxznbmSo78e7hF6Mov
+xrh9uigjKA3XXn5piKWEYc2ev6jLGLQuCn6G/0P6x81lDoXrPUPUEE5Rur2xdpAF
+iZQUOCh/QCV7lmcRa3eeNIKzwg6LMyqOHY90dPwHBAYUGuMNKFb7wRi5Am4boPEj
+qkk8oM0Lt66T14po003RMMa2WvIJAoiJ/wJ0jtP4B1VSywYd+JZkaokp14AVa7wr
+RD5wkJ1GuInQNG677QofG4kCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAHb3SQZXA
+10sNzpP1yNV5xDuFBoE2yp+av2eqRywolGKWN7tLm34GcyfZS6+eI60c9mvrh8+B
+ylKQT5U4gPYmBy9yMeddYTOwfcGwGzDmt1wqjMu60CJ2oZs+Hzc1gIBPFpFUBJFJ
+wokYyfpz9DhcmqdxDa7aGLyuxTaV5XPNgu1CPJzrEohoIUMEXYcA3IkpjiFj/gK2
+1ZNyUG8+ATzbkbUttl79XGhXp1ikBnEUcatg37txnb2YD+8Oohz6T7TH1fVdoHse
+ItAELGgR/MJqKb0X3NPW4/Zusxfb/sTJNRFr1/NVkG+XxmppOk2uAxOQVg3ytIE2
+eEHEzYzdfzqEgw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      
+    </md:KeyDescriptor>
+ <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>EmpuliaSpidProd</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=EmpuliaSpidProd,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDJDCCAgygAwIBAgIJAIHS4eg1c7ZQMA0GCSqGSIb3DQEBCwUAMCcxCzAJBgNV
+BAYTAklUMRgwFgYDVQQDDA9FbXB1bGlhU3BpZFByb2QwHhcNMTgwMzMwMDkxMTIx
+WhcNNDIwMjIyMDkxMTIxWjAnMQswCQYDVQQGEwJJVDEYMBYGA1UEAwwPRW1wdWxp
+YVNwaWRQcm9kMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5SjNCAnE
+b3wS7rOJbzloff19kbjoIrG/j+XmrD0jDIqq7tLSEwy+yh5wwN1KsyO/LQQ1IoAT
+ZQOlr2af9BQs13mDrFVOVxxNPwDk0k6iAMkW6ibz+7YKDXiUcmxckMR+agn3fRjE
++5V8Lwk3Dqc7BjqFhJO1X2lbCPOa0YOy2+LdWgvT7PPrwssD+ymGdisNEUvwfllM
+FlXuxzP5cWwH+8fl2Bnqj5A50CEZNSZQrYPbTmyQvGw85aw2UjJ+ormeUsKlqRdX
+JXwJitcpxVMx2vWjB0/kEG12ISUsEbiVD42qtMTalQ+O1UwitS6um0a1sg1WP+iZ
+qHBew2bLCyzKWQIDAQABo1MwUTAdBgNVHQ4EFgQULX/gKj8nqz/4+CwIcCq9GDZO
+w24wHwYDVR0jBBgwFoAULX/gKj8nqz/4+CwIcCq9GDZOw24wDwYDVR0TAQH/BAUw
+AwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAvLlyAQJ+cowJIogUyuITTnTPxAmp3/8l
+OT3yXellGRoXt1YDmKIzNcr4xUnTiPuCRkFznJO3nlW04pDLbf+zEqzOWDCQLqB+
+d7XAI8XRPpCmofhlgkYwZRo3NdofRuBFcwLK+N5NfaqQ82kQfuika8ms+mowsj+A
+Zk4P8wnv6lyZrC6bMrLI7zxVdXiS7xOxpXAMptT2Z3MO8aT49LBaCZLSGuTxNB1t
+onXhtsLPLrIQDMzq6wbwi712iko8cb6ZXo/oCeHacZcdT3MPGSWEc/XN+8UNOQKG
+xoEIxLVBdhFJU893/JFRg500nkUNRhGNS40SsOjBfaXd0t9VYZsr7A==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>lx-tsims01</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=lx-tsims01</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDQjCCAiqgAwIBAgIEXJoNgzANBgkqhkiG9w0BAQsFADBjMQswCQYDVQQGEwJJ
+VDELMAkGA1UECAwCSVQxCzAJBgNVBAcMAklUMRAwDgYDVQQKDAdEZWRhbHVzMRMw
+EQYDVQQLDApkZWRhbHVzLmV1MRMwEQYDVQQDDApseC10c2ltczAxMB4XDTE5MDMy
+NjExMzExNVoXDTI0MDMyNjExMzExNVowYzELMAkGA1UEBhMCSVQxCzAJBgNVBAgM
+AklUMQswCQYDVQQHDAJJVDEQMA4GA1UECgwHRGVkYWx1czETMBEGA1UECwwKZGVk
+YWx1cy5ldTETMBEGA1UEAwwKbHgtdHNpbXMwMTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKrhM0ZFsQJh9Hu4OKqBlodrvMiJ0HMGTI7G054ipFSDAKV3
+/ySZj121monzfl1EBB85mf8FV1QSC9kkVUN+HPhs4Yv2bI2gbQZW1WkYR6R4TlhL
+Ny0t2b2PmMQf6pV1ikYjXqivFRVY6OY+vDlSXxoHS4TiNeYdP6HY4JLuLuy9s8hq
+91IQaVkqynYDAsN8QKKA+lKUgh7FNBXG7T9tQx+jUkDuRPjmqan1ltHquvw6dlp3
+BzKnj3NVu1CmrQrKtmnu9M3Vqi5QVY3OZHxPuGpDIOSW6vgXa13qMenYIygi7K5G
+vFdbzOMdHocjDg7eEYMDanVgFVxvXjleqeqE5mUCAwEAATANBgkqhkiG9w0BAQsF
+AAOCAQEAljRFsyzRIo59UM9tXQqqeXy5maXiU5mj7WUPfaEPFZst4UXFVs3Uad1+
+pgxFF/NKUjnQ9mFyEvN1vjGMNFMNF9OZMi5go2QySKWLlKaAsgaV+Fe9aiBGP63X
+mcxr/CKiZMTl4AZq+ZkERnOjB710A/swjZVfEWeohiusiTp4yrWFzUyHgc7eRmN9
+JZM7cAg7q+Ge92v4TiBn/8MVT+ZlKQR4rzJYR/742+vDfYrGXwWofniXtNwTTOUJ
+suhsFkfa/+kM5huIaZVuXYNj6MrtZdLhz3mARrbpzu3IDK3H95Yz7X+MmR7r2IW/
+FGDiRVBcnEAHshU17+NGUguQaHJ+/w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid-test.novalocal</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid-test.novalocal</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEADCCAmigAwIBAgIJAI3/WyEEdRcsMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNV
+BAMTE3NwaWQtdGVzdC5ub3ZhbG9jYWwwHhcNMTYxMDE4MDcxNjI2WhcNMjYxMDE2
+MDcxNjI2WjAeMRwwGgYDVQQDExNzcGlkLXRlc3Qubm92YWxvY2FsMIIBojANBgkq
+hkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAr3qaogD8sbCMxGrUI7q3UFx4b2w/cbYv
+Bwdm0wYolkZEuGyP6NJcNQMvYJl7sKbT546UNZ+ezuE2imdndwJqoeQNjgM9dYAA
++TRZ8FGGBKW6AMvbZQx/ZBqeTOZcfWs+5KQIbBvRicHoXQlx5mflSOD9kYmpUFHX
+HtKwVRTf7dDWSXBdfAoh3yu0LEBSiVVBDzFo/lPgWbhzqUGgQ/sMdc2l2aQQx27P
+TDJpwxP46oL/WleOd27NEFbVOPiW60YJXgegybTluGp4C4IrkqWrM5yXr/jW59vs
+vDkIw3XMsEa7yvOgEDGfssWrNOzzvlF4WDrlwivYXl36zWXEHGXxL8/3hFUZaYbG
+z5RITAF0Z12e6UqRsJVdSyEetNKhWvwdON+eBdnG1w2eYFJk/u51cHFzE23xpUGW
+O/ea9L3TqQfR7WgZ9SISmmMG5S5TzC+MYACJtwqy29BYApXynBfNrTijOauQENaS
+pPrcOgHU4f1xG7T8O6T3jMz55F6njuvfAgMBAAGjQTA/MB4GA1UdEQQXMBWCE3Nw
+aWQtdGVzdC5ub3ZhbG9jYWwwHQYDVR0OBBYEFMtQdPiN5oV5vS+ifmAoFeNdjgoK
+MA0GCSqGSIb3DQEBCwUAA4IBgQAXR992CbsYyQ305GJmdlLxu87zQzWGBjO6fcYT
+Y5jKfySab7DWwW9cZR/RUDwLSleUlL2N5qgiqe+AdKNPzvCCOF2pTwU9bdU7EumO
+fHc5vBDnabut/mw6Rh0MtnvOPIGzt6YSy5laTE0JmOVQNIRas56FrzhElcedgd50
+oYQuWfhiSEoo5wnS+WArSpG2q+VKnM4qbEUVIW5l+8ByeUyAPoQhLFPZ+5xBye1R
+YXasYFw137k5P4KjDb8f+One9FJvxTVyeEwIcXAgZKmqhbHBulGmePpQMLOh37SQ
+MnaHa/IazQwTzf//F4OpR7iu1KkHvWIRrbQGP6isXRmbRt1sD0XpxA0gq67MITwF
+YVAyUc6VNMRY5CkOnOdSChDNPGp2Xw3S0uKIj9hIZDFkY3buy3txKUSiwYBTogHM
+BCn4eslzrpzyU7nF9aZOYL07JGJ8fXPizuxJaTqNl07ofZI8Ig9tpCtza68jnCQD
+/wfk/61xQkUmCp/4KkSmjRD47Fo=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+     <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>apextest</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=apextest</ds:X509SubjectName>
+          <ds:X509Certificate>MIID3zCCAkegAwIBAgIJAIzahN6BoK5IMA0GCSqGSIb3DQEBCwUAMBMxETAPBgNV
+BAMTCGFwZXh0ZXN0MB4XDTE4MDMyMTA4NTkxNVoXDTI4MDMxODA4NTkxNVowEzER
+MA8GA1UEAxMIYXBleHRlc3QwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIB
+gQDCMWTI2zQin5PIrcsog1ivdwVm88K8aTgm0AWC4Uhe7uW53aIc3P2MV2pri45M
+ZwDBl9AcNylHO5VMcP44KX4YggW98FYgQ21fQ9o6ZlE0fPSzHarAd2lOk2+Fu6fc
+DvlvbQooEibyyeXqcE8dqPj6RR+3XgCME0BUvuCHJip8JCeapcbeCedW8xb+Phxy
+wGBzOBK0e4Wvn0pejGE0yjeVjwh9n5Q57KA7ztdOmTpxH7fo9ERDImE6XFbR+cD+
+m2gmWejTuRv6tuE/ZlH0WVTOKel1L0IiBf/xvGxrFqYfTTKtShHw4WQaQExN6zSe
+Xhlsg9hE65P2Eek88yZeaFkW22t4r3q8z0WD9bdsuz0c/wA8a9AKsbwcCYJAf0pO
+iKhwkYj5Mx3yFXS8tuqTp56dWfOte2ao8szZUfIb4p9ULUUZkZfZt2I97qj5aVyU
+TTrF72d4DJgUVCEqI0BFCPgceXEeYiUCpftiNB/3YKADj/T7lqcjQloId5rKPgEg
+ZoMCAwEAAaM2MDQwEwYDVR0RBAwwCoIIYXBleHRlc3QwHQYDVR0OBBYEFJ1Xbi+f
+4akjbeDT+wj1vZvCaHtlMA0GCSqGSIb3DQEBCwUAA4IBgQCyTcXcBuXrtBllCFHD
+uspCDVtel5bQkgeVLs+zFlXArHL20gazWsbO3HBmhURkllB0WbmyoxxaC9C+6Lwp
+bLjAC7SBfFOwLW62uxvIHdtjHcp9bL+FrV181J1UC8IDfB0aZLDO0tGM35R72fL0
+b3okLpLtySVJ3O4iTEt9Q5r8VQDOu1rfa3TXnhDfnYfWlmzRBKJEpW0Z5F1iSQLk
+wpYOyJMRx1wG9jgwsQthcdHgBi4DvLuug064cdKknUowvxAC+2YDQi6A4IgT8pbP
+wG4FKdeOMyJBpplpnQBhJzReXJN5j6Dn0NVs6smuoElzGU/0kXJVMPyNtYZDFpkR
+sAHY9rfSkExEJujv2v7CY5UV5oaIZpOnFQKdvyU6pwMCQUd6c93+5zJ3zCu8Kud8
+Y6TWAeLyutBBuy3E6fhf/qusWUEcIbvyvOPnEegNX4bkJ8kDBQBK3fyx5SKVKBMA
+bdgdUTfRp+2/J5jMO4wIXZYWOYDigAoX5PcFrZ8EdQDYas4=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>giava-test</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=giava-test</ds:X509SubjectName>
+          <ds:X509Certificate>MIID5TCCAk2gAwIBAgIJAIwxlYC3ibQMMA0GCSqGSIb3DQEBCwUAMBUxEzARBgNV
+BAMTCmdpYXZhLXRlc3QwHhcNMTgxMTIyMTQ0NzA0WhcNMjgxMTE5MTQ0NzA0WjAV
+MRMwEQYDVQQDEwpnaWF2YS10ZXN0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIB
+igKCAYEAzTMyzVHgCevs1pcgua1OPWbhWJEILPkymaXBXrTUL+hSmgeucHAn2D8Q
+9CUiCQjiRJO4lS9ZpvkdDYbGazQqVJFiyIJRrMUsFbUiR/WniV2Z2/wx+FGpkqUk
+xt7s3oAsgGXZ5MVa+RV3MlrMjwaNPob8zaVxApyDZOandjJRvOJU19hx8/fVFGnX
+ekFHQ7a/hwZchsBytlDWZL40NsZYkcHBFuzgUhgVlWDKaXQCuyxpx18D1Hdxh3Ye
+KEa3rfIKmMFR9FRWJ3ZiXT7fuFlbTMaq9oRimmh0QoU3X+8y5AtRwZf9hvgH4n6c
+xJK4khbrARKuWbND7T+Uh2T45UJ2s0Zhsa+gY54dwK1y3KsWnycPtzaykBOtz9yp
+2uZZ4rilQRgkibcPnwsWYmCRZJo3QSxokK9UynOYw/fF4fKqaEK4Z53petJ4k644
+fZ95WVTkAmCdfH02GX3tau+8fjTO1rA7MEf9VjDxiJQytTgO2pNSfdvCAq7LvK2P
+Rj9W6wxrAgMBAAGjODA2MBUGA1UdEQQOMAyCCmdpYXZhLXRlc3QwHQYDVR0OBBYE
+FK3NoAandnu+DAX1nMUZb7GpA9XtMA0GCSqGSIb3DQEBCwUAA4IBgQAhNxss0dC6
+0+VVX7jqs8qqXC65IgMGEenv9QiAECfDGbRjkVnCkZGkhJyPPC72Z8EbsSyeDda1
+suotg1L/BJBJtxtsQ8FuSHkXdMvqCqPfpF+ds9RTcOLODXOyER4AZbX4ApCOpN18
+ZrmHGYgs7eUjtNs5pQo0aaciJfONpaDQXBwx/qa80G9dJJD8bk2cccYPjiopaCFV
+ZpmB1qBPTiPhgbIZ/j2UXIyyJFHk8unE25U4UOjG1lXxVPZDkwslScptsH2Fk5O3
+DMmO5m37B23MKxe3IdOXJwQSMAPruKT1adatwDTvytlT8g66FcVkOy1LOIzFJ0SV
+Oj2YopksRNchoEc16o3AX+6YMN6Zu9JtES1qMLUjeZkGKvUofmU9e+EADL2l+lM1
+Fi7PQqwjO+eIUb3x41aFc3RPaxPMFPS3c5Xl2KWDrnwzZsYvcQOuF0RrWt2aVrzg
+TQ2iWjJIGK6QCkv+CQ6qFLzsLDk78dxaElglRz93w0YuLYiHF281nOo=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+<md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+              <ds:KeyName>CN=turismo.puglia.local</ds:KeyName>
+                <ds:X509Data> 
+      <ds:X509Certificate>MIIDkTCCAnmgAwIBAgIEUzIf3TANBgkqhkiG9w0BAQsFADB5MRAwDgYDVQQGEwdVbmtub3duMRAw
+DgYDVQQIEwdVbmtub3duMRAwDgYDVQQHEwdVbmtub3duMRAwDgYDVQQKEwdVbmtub3duMRAwDgYD
+VQQLEwdVbmtub3duMR0wGwYDVQQDExR0dXJpc21vLnB1Z2xpYS5sb2NhbDAeFw0xOTAzMDcxNDIw
+MzJaFw0yOTAxMTMxNDIwMzJaMHkxEDAOBgNVBAYTB1Vua25vd24xEDAOBgNVBAgTB1Vua25vd24x
+EDAOBgNVBAcTB1Vua25vd24xEDAOBgNVBAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xHTAb
+BgNVBAMTFHR1cmlzbW8ucHVnbGlhLmxvY2FsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAwl1iehGCNXQxQ534R7prhdoPUIA1edpAb7VHfm5dub4b8zOx45cKTejD7JiZ+FakofK/Aprd
+Zox9Bw+kAMC0cdc4ql8ST+v4FTb/ROf2JGkMJ9IcCUgoLPh4lWmYKxApgdDUgqeEBL1BIc5dQQ/D
+Z5xoOQNjvUMSseZmL/iAsKWmQcZlpgBwa7Y4LIJiI8IxquTkOx0zWYEAOxd9blPbeh7RiRjQOJ7H
+GpvOde0KTdJCSOkwWxmWXboI210juSoG+jbeGRhS2Bo2cCzOrPCcMh8STta4I298JDEhhSpktVd2
+f+hM55wpDTWLJyOLtIQT758bOpN80SENlntnjoL9RwIDAQABoyEwHzAdBgNVHQ4EFgQUjkd1MCzv
+s1H3kG7BKQwRlm1A7KEwDQYJKoZIhvcNAQELBQADggEBAF58PppQemKmCkLderBj5xuLJghUd9b0
+eUHFyU+OcKmeTtxkNLrUgwMEwdlJGUd0Fu1HeuHBOndOeJ5PPNuH/yWf2v3Lc7lWMdZon/lBVEhq
+H+3RbgJs/7Q2P7Yt7AKnnl0P5Vd28aHEKGsoQJcmTq2KnE5JLGAC9tkKdcR7OsHwhdKGs9WqhnN5
+fOKZBRamNnfWJgA77uqzSAHh/SJ6RiCz2XUpBMSPj019/Amg8ypnlXifUEOTuzrM8L4hY3rS92M7
+sA1UNXSebHbP5PF11RjfbafNVp1uqfdnsTguEjB6cWVAZQ3LgIixJMnbBunT/WHq0VGYkQ6b3bqj
+fuz2IFc=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>lavoroperte.regione.puglia.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=lavoroperte.regione.puglia.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIGaTCCBVGgAwIBAgIRAPETKpNrQH8Xaigm1G/i53EwDQYJKoZIhvcNAQELBQAw
+gY8xCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO
+BgNVBAcTB1NhbGZvcmQxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE3MDUGA1UE
+AxMuU2VjdGlnbyBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBD
+QTAeFw0yMDAyMTMwMDAwMDBaFw0yMjAyMTIyMzU5NTlaMCgxJjAkBgNVBAMTHWxh
+dm9yb3BlcnRlLnJlZ2lvbmUucHVnbGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA+Tu0n3zFpMedGfV2xSlRTLdaLbltnKuOB2p4dFMflJtMOi2G
+UpKPGgMjm9V91dw0IgLFD38ZYg60tEgv2LOrROtvFkpAHyZgEuFSpqR2U3kmYGqe
+MRd33Y8zQcTgGku6tv16J5OptH5khTWnR496A2omLdjWVs74rJTfxo8ZuqKWSiSX
+aKQE0MRT6QBdEG7lpzDzik/lzbQQS+k4mYzIVT3A3gHn4ndJwhk7r/qEuPMUfhaL
+VcS/ZqBtbOTxOsDwofFvDQJ3jxI7IJMV2AWnHAt8tKkkIohD1dtBGR6DX/WvpzAi
+/PpIWg0x8DyDLRTgD281Pim4iVuD/zBpU25hvwIDAQABo4IDJDCCAyAwHwYDVR0j
+BBgwFoAUjYxexFStiuF36Zv5mwXhuAGNYeEwHQYDVR0OBBYEFGuAvQC8Vzm2DK0n
+kDDoyKFIj/PyMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEBAgIH
+MCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeBDAEC
+ATCBhAYIKwYBBQUHAQEEeDB2ME8GCCsGAQUFBzAChkNodHRwOi8vY3J0LnNlY3Rp
+Z28uY29tL1NlY3RpZ29SU0FEb21haW5WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0Eu
+Y3J0MCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5zZWN0aWdvLmNvbTBLBgNVHREE
+RDBCgh1sYXZvcm9wZXJ0ZS5yZWdpb25lLnB1Z2xpYS5pdIIhd3d3Lmxhdm9yb3Bl
+cnRlLnJlZ2lvbmUucHVnbGlhLml0MIIBgAYKKwYBBAHWeQIEAgSCAXAEggFsAWoA
+dwBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAXA+GnpdAAAEAwBI
+MEYCIQCg5aLNKdXwsHEkka+FYsKFjjygr1/suGAWcAV84syHcQIhAIGYym9YVVJZ
+fqbu7rBJ/SZMVxym3lAf1e8FsGYoXSlbAHYA36Veq2iCTx9sre64X04+WurNohKk
+al6OOxLAIERcKnMAAAFwPhp6wgAABAMARzBFAiB0V5axSGAVI2zrVBSYvxKl/16S
+qmrXlH+lZaiEhIvjYwIhANkfvysB8Zg0KYh+YXvn2PnvemSVavSznZQ7nOBiy9hG
+AHcAQcjKsd8iRkoQxqE6CUKHXk4xixsD6+tLx2jwkGKWBvYAAAFwPhp7PgAABAMA
+SDBGAiEAupScVhyr23X7yO+hGsij0KRJSHL6mNJo641Fow6WBUsCIQDHtN8FID8s
+a3UcoMme6YanfP7qrguFvQvGPvuOKpMSuTANBgkqhkiG9w0BAQsFAAOCAQEAJis+
+L5C5gjnsShEAJoWxjLQYp9kwyp0cW7eCc1gNNkep0mlJ5oJD86U9v6+xdnyyWmaZ
+nifBQOSfAPkunrBKiLvI9lhzsnioyaI+P888jc1nb+G4913LtIZ2JhnJGtPOAuGv
+AcIqrkZ4oDvee/99mjOgSJAtwlU9O0Z4y70WG01CMj2b/dJEySkwiEX+OK0d+PZc
+BzmzNXU+Ma1gqmgQuUNUmou7rnUkmoAnXNjvOpVaLvB+oE726sMmXts0kj4E6QvH
+iHlb6fAWU7f6o4zGFod5ZlARVkjr9c7EE1aRmY2nQxYCmklUVaQvBNAD6TP8IJHp
+OUfvPRnU8OAmpk0fTQ==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>rpupsmtbfe01</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=rpupsmtbfe01</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEATCCAmmgAwIBAgIJALkQC7RS8eB3MA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+BAMMDHJwdXBzbXRiZmUwMTAeFw0yMDA5MjIxMzIzMzJaFw0zMDA5MjAxMzIzMzJa
+MBcxFTATBgNVBAMMDHJwdXBzbXRiZmUwMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+ADCCAYoCggGBAMKaXrY6knNsAVb8x20uz7OQEySISMZ8zPPgO3FoHcuWin2rlok3
+dj1uGEjoK9/FVR8ZCPtw1luk+UiPwt8mHLe8kLsOnNeSYxrpWkuOx+gmcysz4jLW
+Zjor7/CMNDd4cHzecmQvuq0TOsv6meVEpcL2kCKiGZYpCdXfgMi6OQUeqn6MAWZh
+8Y6U5AFCsGX8yuuslC35IIeSJh7EU4pB22WWaMg76vIk2BgZXgivYl+dZqJuQqGV
+9/qlI5abZzUAiJQ9/EcyCIDrSLYqG0YJxlDWQ8Jz77bHpmtRjWyHQX+hV/I/Dj8c
+oZEcV5uiKKq+VJlNVIuRgtBm/Y4AeYmNd+XRuWYbjG4gBfXuQ3dy6dKBGaeeRf3e
+8NKZ3BIsYXgu3XXWHJTnzA9okRc8ohqjb7fBVga+25uihpj5ytcYzk9LBBncgiuO
+5LFm4mcgLTggZIAX+xHj6b3e1i55Fi2SDVAuY27nY3VM9pAZefo4wGRWJ9PwhGaC
+SScxJFzuR5v+IQIDAQABo1AwTjAdBgNVHQ4EFgQUtM3dJP7eTeC1WrPSbJ3202t3
+Q28wHwYDVR0jBBgwFoAUtM3dJP7eTeC1WrPSbJ3202t3Q28wDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAYEAchRd3eUuMAq69BFzl6EfcHorIBG/WC6UKrdh
+Ydq9M3o1mH2evSAENVv3hT8lUEvtDxPYA3jH7GGfYZgEXqsoEEe7dLHqzjEPgUFN
+dy4bGLEj2Fg9hJuC6Rzx8ZsWKUEYQDo6auZZqyXcThuJJprM5mW6gc9dTdiwdGRe
+9xirPSOOKXP8kpxuqDxScXSOJk0NhyEvKTfUOJ3eJDYainwt4ZVT/yxA4HVR5qxY
+3Fagqq+BAv+lZWlqVETphstsUwppCv0Unq883GpGqADOJEl9hz8/B8qbAN2R9Q3c
+SokjxSTPqSyPGvoHivnGM2adXb7QNiP7z7UyLnwN2CsWoVE6oPhSBFnLfQOcO5K7
+MeGuL9J9n4PcIZwHiT1ihTfIY6gqwkaBCfyayfcfDjlWLwc5z/cU2gY8dd2Nwp0I
+/7WwgJWlQZs6Z+e4HmWfcgRypMzB/DiejnOaP9Jb3u+SjIwQaihGqtTdj4AZfDYt
+Ls5mbix1exATTKto3WzbQb4cZHsA
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sanita.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://push.regione.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa.rupar.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa-mypivot.rupar.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://associazioni-sinapsi.rupar.puglia.it/sinapsi/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://netrisk-sinapsi.rupar.puglia.it/sinapsi/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://netrisk-sinapsi.rsr.rupar.puglia.it/sinapsi/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sinapsi.rupar.puglia.it/sinapsi/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cuprecall.asl.taranto.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.sit.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://giava.sanita.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.dms.puglia.it/saml/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idplogin.rupar.puglia.it/Shibboleth.sso/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eprocurement.empulia.it/application/Shibboleth.sso/application/SLO/POST"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://medicinadellosport.sanita.regione.rsr.rupar.puglia.it/Sims/action/logout"/>
+ <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lobbying-spid.regione.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://giava.rsr.rupar.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa-test.rupar.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dms.puglia.it/commonauth"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lavoroperte.regione.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app-spid.sistema.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bandisanita-spid.regione.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pugliasociale-spid.sistema.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pugliasociale-spid.regione.puglia.it/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://custodiamoturismocultura.regione.puglia.it/accessoServizi/Shibboleth.sso/SLO/POST"/>
+
+ <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sanita.puglia.it/servizioLivello2/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sanita.puglia.it/Shibboleth.sso/SAML2/POST" index="1"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://push.regione.puglia.it/Shibboleth.sso/SAML2/POST" index="2"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="3"/>    
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://netrisk-sinapsi.rupar.puglia.it/sinapsi/Shibboleth.sso/SAML2/POST" index="4"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://netrisk-sinapsi.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="5"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://netrisk-sinapsi.rsr.rupar.puglia.it/sinapsi/Shibboleth.sso/SAML2/POST" index="6"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://netrisk-sinapsi.rsr.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="7"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://associazioni-sinapsi.rupar.puglia.it/sinapsi/Shibboleth.sso/SAML2/POST" index="8"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sinapsi.rupar.puglia.it/sinapsi/Shibboleth.sso/SAML2/POST" index="9"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa-mypivot.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="10"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cuprecall.asl.taranto.it/Shibboleth.sso/SAML2/POST" index="11"/>   
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.sit.puglia.it/Shibboleth.sso/SAML2/POST" index="12"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://giava.sanita.puglia.it/Shibboleth.sso/SAML2/POST" index="13"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.dms.puglia.it/saml/SAML2/POST" index="14"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idplogin.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="15"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eprocurement.empulia.it/application/Shibboleth.sso/SAML2/POST" index="16"/>
+ <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://medicinadellosport.sanita.regione.rsr.rupar.puglia.it/Sims/action/loginSpid" index="17"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lobbying-spid.regione.puglia.it/Shibboleth.sso/SAML2/POST" index="18"/> 
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://giava.rsr.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="19"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa-test.rupar.puglia.it/Shibboleth.sso/SAML2/POST" index="20"/>    
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dms.puglia.it/commonauth" index="21"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lavoroperte.regione.puglia.it/servizioLivello2/Shibboleth.sso/SAML2/POST" index="22"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lavoroperte.regione.puglia.it/Shibboleth.sso/SAML2/POST" index="23"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app-spid.sistema.puglia.it/Shibboleth.sso/SAML2/POST" index="24"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bandisanita-spid.regione.puglia.it/Shibboleth.sso/SAML2/POST" index="25"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pugliasociale-spid.regione.puglia.it/Shibboleth.sso/SAML2/POST" index="26"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pugliasociale-spid.sistema.puglia.it/Shibboleth.sso/SAML2/POST" index="27"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://custodiamoturismocultura.regione.puglia.it/accessoServizi/Shibboleth.sso/SAML2/POST" index="28"/>
+
+<md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Proprieta SPID</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Proprieta SPID</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Imprese</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi per le imprese</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+<md:Organization>
+    <md:OrganizationName xml:lang="it">Regione Puglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Regione Puglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.regione.puglia.it/</md:OrganizationURL>
+</md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icvs.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxbb5d2696-4ab3-7f2d-0429-eb07895ecb4e"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxbb5d2696-4ab3-7f2d-0429-eb07895ecb4e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZpRUoxWohB7s+OWcvbVFCOfsWZAeoLCQRuqbetazUts=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cw8rfNJL3MPCWXN8G6sIoBWCBbRYL1OdyxToH+uxKmTY6idYaUoBY9w1Dqffl5TP4b6/KRfDoiH5zXH3ZbujbbfDOyj4jchclnc7ARhteK3WgbjkMU3aPWGQWZhSytYdVYQ+fk7tH/2TEfQtDGjzqZdH/4Mixjv9CtTBFPWbxFAybKWz8yoYEXG9SQ+mhTQozEZluY+Ek1o6fcuwhG026LqJ/SzGwP+i24kuFoHR1YXyKzomTFZHWDR7AbeHaxnBF0JG2oilHxSTG6Dr02/9Vqk0//GC6c56CHLs56WfCBnN3aYT4kssv6ktOYuj4NnK1ZCe3QtDiHcdxl/rId5o1g==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEPDCCAySgAwIBAgIIwKCwi3ZtSAAwDQYJKoZIhvcNAQELBQAwgbQxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZHZW5vdmExDzANBgNVBAcMBk1hc29uZTEoMCYGA1UECgwfSXN0aXR1dG8gQ21wcmVuc2l2byBWYWxsZSBTdHVyYTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEYMBYGA1UEAwwPd3d3LmljdnMuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhnZWljODE0MDBnQGlzdHJ1emlvbmUuaXQwHhcNMTkwNDIyMTU0ODA1WhcNMzkwNDIxMTU0ODA1WjCBtDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBkdlbm92YTEPMA0GA1UEBwwGTWFzb25lMSgwJgYDVQQKDB9Jc3RpdHV0byBDbXByZW5zaXZvIFZhbGxlIFN0dXJhMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMRgwFgYDVQQDDA93d3cuaWN2cy5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGdlaWM4MTQwMGdAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMdT2KY+q2P5I3GcyJCiABk2IAOrFjdun4IYU9d/Jplac5sujZ6tTCsC+RW0G2yA2yaFdHrpTHTvLmtuyrGSOq3weVX4+4FvvtkYqA/eiZAaf0NxJu4sIOxCS87nrbPgh5vCWrAsALFtufxVolt0DB4q4qAceXgOc5qQSyFDYyOfb5xP4nyYwcYceRrJjTtjYozdCKMqhchaVIbDvvKq8JzgDE9C0JPnTqC4HR8emVAFZXgR5V6WcfY5aRalT29Gat1HxcRy/E6wKZIEQue3UWiiLNHcsvgL8bDB6Kinhp/WtUA6Ztb5homT9reg7/6evUjXYyuyyb4mUantp6kVp2UCAwEAAaNQME4wHQYDVR0OBBYEFNJII52BBqPWkhExs5UanakpIS6AMB8GA1UdIwQYMBaAFNJII52BBqPWkhExs5UanakpIS6AMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEnbyZjQgRiGZ7LT12mZA5TOe2DPnfCgltuiOaNw/zeU7c3AAncn4KU2Zf0x2719/VtknmOlPF8eXCadfpngwBYBh3izdpMUQScroUh5aqFGe0jO2hDahTCnXFIC5f579WXkbNV+h6yhYkHywD/jDTUmKUhczTQn9T4LuEObs/P5qFeZwtybLVcQcPTddd4t/rYEp9WxCEXWmK/lUJ1dcsO0VxxHvW/L+6xP8smNMRTy1bNCK35H2VZzbSecv/J9BWTKhRhzDa6O0But0S/ItwbPO33MjL80yfhNaYEcocQbEX81+SOGWa4kmGNIqk8M5Igi5at2BixJoaXqRdwVsW0=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEPDCCAySgAwIBAgIIwKCwi3ZtSAAwDQYJKoZIhvcNAQELBQAwgbQxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZHZW5vdmExDzANBgNVBAcMBk1hc29uZTEoMCYGA1UECgwfSXN0aXR1dG8gQ21wcmVuc2l2byBWYWxsZSBTdHVyYTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEYMBYGA1UEAwwPd3d3LmljdnMuZWR1Lml0MScwJQYJKoZIhvcNAQkBFhhnZWljODE0MDBnQGlzdHJ1emlvbmUuaXQwHhcNMTkwNDIyMTU0ODA1WhcNMzkwNDIxMTU0ODA1WjCBtDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBkdlbm92YTEPMA0GA1UEBwwGTWFzb25lMSgwJgYDVQQKDB9Jc3RpdHV0byBDbXByZW5zaXZvIFZhbGxlIFN0dXJhMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMRgwFgYDVQQDDA93d3cuaWN2cy5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGGdlaWM4MTQwMGdAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMdT2KY+q2P5I3GcyJCiABk2IAOrFjdun4IYU9d/Jplac5sujZ6tTCsC+RW0G2yA2yaFdHrpTHTvLmtuyrGSOq3weVX4+4FvvtkYqA/eiZAaf0NxJu4sIOxCS87nrbPgh5vCWrAsALFtufxVolt0DB4q4qAceXgOc5qQSyFDYyOfb5xP4nyYwcYceRrJjTtjYozdCKMqhchaVIbDvvKq8JzgDE9C0JPnTqC4HR8emVAFZXgR5V6WcfY5aRalT29Gat1HxcRy/E6wKZIEQue3UWiiLNHcsvgL8bDB6Kinhp/WtUA6Ztb5homT9reg7/6evUjXYyuyyb4mUantp6kVp2UCAwEAAaNQME4wHQYDVR0OBBYEFNJII52BBqPWkhExs5UanakpIS6AMB8GA1UdIwQYMBaAFNJII52BBqPWkhExs5UanakpIS6AMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEnbyZjQgRiGZ7LT12mZA5TOe2DPnfCgltuiOaNw/zeU7c3AAncn4KU2Zf0x2719/VtknmOlPF8eXCadfpngwBYBh3izdpMUQScroUh5aqFGe0jO2hDahTCnXFIC5f579WXkbNV+h6yhYkHywD/jDTUmKUhczTQn9T4LuEObs/P5qFeZwtybLVcQcPTddd4t/rYEp9WxCEXWmK/lUJ1dcsO0VxxHvW/L+6xP8smNMRTy1bNCK35H2VZzbSecv/J9BWTKhRhzDa6O0But0S/ItwbPO33MjL80yfhNaYEcocQbEX81+SOGWa4kmGNIqk8M5Igi5at2BixJoaXqRdwVsW0=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icvs.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icvs.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto Comprensivo Valle Stura</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo Valle Stura</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.icvs.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="None" entityID="https://spid.comune.santantioco.ca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#None">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>y9+D2GUWSbjO2N0VdTTkuZ5xBjXivgwsStUKHEAreT8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rRjqaF3LIHFfLZXEra59ptQSYXJJcr4H0oVxiIdVl1ePi3tdytnMjAzvPmmYjd7i4TDI7rKIWObP
+gFwU2M5WmNpAVpnbl6l+JscD2vnJay1REYMvm1X0+Ji/DX7tc2Fc6i0kprcE1o96p/NfbnTalo0T
+8qoZwOdtmZqeUKog48TbhfYi68qWvXYldjd//QLXUfT3UO043Ot2CZPOCf675/DNMU+DOh+UqKTe
+V01qpeQ4/ZXfJFQ8VT74621DyvCbu7mfJ2ZV2SvaDeD3EzNT5P+89Y/p+D4zhIwJfXJUDcSV26/s
+vMZ8Ax5L34p5hxLmDUr1T5OhOen80N85wttE5XSGXE0ncUf5jlBx8nv2e2hTZNGbFJUCStxbYrnj
+3InMTRG2gAxKDP3gleg8JQmX7S6cTpPBQ86IWv/8tKqXDuwCANhzqljpLNA//DtkvTlowRKaj0Mu
+kdhLbBIJ4+NoSoLAvirgp4dPDfzLake2a0Vyl6X1CuXDFQfELTRNqF+P
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zEWOIeqzR9x714lDQkhy1E7e3ZrLFFX8Uajd031u/BxUlRlWIB9Uq7snZBIY0EwM+TYJWTXTUlZF
+LBKcP/BXlIOs8m15gsua/JwvrKwmq7VsUTF8j+eeE/UAUS5R7zTW7J4l8zp8ybyJuuPtTcYQIdGI
+LyPCXaOoxgfyg3oX9CQyC+wZ2l8j0bb1TzKli6f7VglzjnstFI87HoSfO9FwBZDMMIJccQrz9gLW
+qRpVct1eeZTiBjikEIQ11ELxa1oKsno4LvCPwyIouSXXdDI9Z9p85mavUJu9m6jqSJn383PTgXDa
+x2dckFErk9/V2gWZrFPMqKmcmBu3WWo5qds2mgaJSeHPOkdf8YcYPvc1jpQPsVGErDhdm5gXuY/4
+yJPttV3KaGBNa/pymfF2fyocO2FSutXORTSIQXMpYfafC/l7YPS3GVPajOaJjSzIuqSgjiCwdJ+i
+YSAl6vQkdpyQXjafIT7icSiIo2jQ8QUe4yiJ2VriLOekqIlf5t7Z3ThJ
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEHjCCAoagAwIBAgIJALVhxMpHbO2cMA0GCSqGSIb3DQEBCwUAMCgxJjAkBgNVBAMTHXNwaWQu
+Y29tdW5lLnNhbnRhbnRpb2NvLmNhLml0MB4XDTE5MTAyMzE1MTQ1NVoXDTI0MTAyMTE1MTQ1NVow
+KDEmMCQGA1UEAxMdc3BpZC5jb211bmUuc2FudGFudGlvY28uY2EuaXQwggGiMA0GCSqGSIb3DQEB
+AQUAA4IBjwAwggGKAoIBgQDMRY4h6rNH3HvXiUNCSHLUTt7dmssUVfxRqN3TfW78HFSVGVYgH1Sr
+uydkEhjQTAz5NglZNdNSVkUsEpw/8FeUg6zybXmCy5r8nC+srCartWxRMXyP554T9QBRLlHvNNbs
+niXzOnzJvIm64+1NxhAh0YgvI8Jdo6jGB/KDehf0JDIL7BnaXyPRtvVPMqWLp/tWCXOOey0Ujzse
+hJ870XAFkMwwglxxCvP2AtapGlVy3V55lOIGOKQQhDXUQvFrWgqyejgu8I/DIii5Jdd0Mj1n2nzm
+Zq9Qm72bqOpImffzc9OBcNrHZ1yQUSuT39XaBZmsU8yoqZyYG7dZajmp2zaaBolJ4c86R1/xhxg+
+9zWOlA+xUYSsOF2bmBe5j/jIk+21XcpoYE1r+nKZ8XZ/Khw7YVK61c5FNIhBcylh9p8L+Xtg9LcZ
+U9qM5omNLMi6pKCOILB0n6JhICXq9CR2nJBeNp8hPuJxKIijaNDxBR7jKInZWuIs56SoiV/m3tnd
+OEkCAwEAAaNLMEkwKAYDVR0RBCEwH4Idc3BpZC5jb211bmUuc2FudGFudGlvY28uY2EuaXQwHQYD
+VR0OBBYEFI2Ujpc16pvJ1mwka/hkpm/7YCXhMA0GCSqGSIb3DQEBCwUAA4IBgQAkXwxvRaANnxlg
+/aDLc7pYWaZCFiEKGh9cUDQ7TrJE3cg5evrPEXzccCv4o52VKV60rCUzhekHmGrk8+PLkfayOowA
+k94ATUr0fQPvke+mLFH6HUX14xmWumTDszS4CihTbIr+21RV/+FPRhBfi1fb1XC9Akap14HbMol1
+IP5KStXGo/hbQwYAAQlG5XhYMAadMwnbVtRIKuOWMiubmY1vwhdsyunkbn5AgqLo1A6c8cy1CdxQ
+UF/EvBZcUgVMe4Likeo3Zhl7qgML/yn4OBjP1nF7UL3QfbSIKOwDCzUOi1q36jUabPZ5ThczCKDm
+kZB0maoUDXNHuq3zb+h0kJZy3f+dQSkW9ta+Jdmw2DB71Ufh8NFQ6UDzfvb7bP6Txw3yk0pOEsuq
+e3mejcRuc2Y9Lol+7qHgBqKgHCrHXTsBvk8SDzUNd4nplv/1rE74CEc5Bf5g2dGYzVqfcq1kPcv5
+C4k4POVDaCqavYdygVDIEQq9JAHSt3aLgh+3v5CvX4o=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+	  <ds:X509Certificate>MIIEHjCCAoagAwIBAgIJALVhxMpHbO2cMA0GCSqGSIb3DQEBCwUAMCgxJjAkBgNV
+BAMTHXNwaWQuY29tdW5lLnNhbnRhbnRpb2NvLmNhLml0MB4XDTE5MTAyMzE1MTQ1
+NVoXDTI0MTAyMTE1MTQ1NVowKDEmMCQGA1UEAxMdc3BpZC5jb211bmUuc2FudGFu
+dGlvY28uY2EuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDMRY4h
+6rNH3HvXiUNCSHLUTt7dmssUVfxRqN3TfW78HFSVGVYgH1SruydkEhjQTAz5NglZ
+NdNSVkUsEpw/8FeUg6zybXmCy5r8nC+srCartWxRMXyP554T9QBRLlHvNNbsniXz
+OnzJvIm64+1NxhAh0YgvI8Jdo6jGB/KDehf0JDIL7BnaXyPRtvVPMqWLp/tWCXOO
+ey0UjzsehJ870XAFkMwwglxxCvP2AtapGlVy3V55lOIGOKQQhDXUQvFrWgqyejgu
+8I/DIii5Jdd0Mj1n2nzmZq9Qm72bqOpImffzc9OBcNrHZ1yQUSuT39XaBZmsU8yo
+qZyYG7dZajmp2zaaBolJ4c86R1/xhxg+9zWOlA+xUYSsOF2bmBe5j/jIk+21Xcpo
+YE1r+nKZ8XZ/Khw7YVK61c5FNIhBcylh9p8L+Xtg9LcZU9qM5omNLMi6pKCOILB0
+n6JhICXq9CR2nJBeNp8hPuJxKIijaNDxBR7jKInZWuIs56SoiV/m3tndOEkCAwEA
+AaNLMEkwKAYDVR0RBCEwH4Idc3BpZC5jb211bmUuc2FudGFudGlvY28uY2EuaXQw
+HQYDVR0OBBYEFI2Ujpc16pvJ1mwka/hkpm/7YCXhMA0GCSqGSIb3DQEBCwUAA4IB
+gQAkXwxvRaANnxlg/aDLc7pYWaZCFiEKGh9cUDQ7TrJE3cg5evrPEXzccCv4o52V
+KV60rCUzhekHmGrk8+PLkfayOowAk94ATUr0fQPvke+mLFH6HUX14xmWumTDszS4
+CihTbIr+21RV/+FPRhBfi1fb1XC9Akap14HbMol1IP5KStXGo/hbQwYAAQlG5XhY
+MAadMwnbVtRIKuOWMiubmY1vwhdsyunkbn5AgqLo1A6c8cy1CdxQUF/EvBZcUgVM
+e4Likeo3Zhl7qgML/yn4OBjP1nF7UL3QfbSIKOwDCzUOi1q36jUabPZ5ThczCKDm
+kZB0maoUDXNHuq3zb+h0kJZy3f+dQSkW9ta+Jdmw2DB71Ufh8NFQ6UDzfvb7bP6T
+xw3yk0pOEsuqe3mejcRuc2Y9Lol+7qHgBqKgHCrHXTsBvk8SDzUNd4nplv/1rE74
+CEc5Bf5g2dGYzVqfcq1kPcv5C4k4POVDaCqavYdygVDIEQq9JAHSt3aLgh+3v5Cv
+X4o=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+	  <ds:X509Certificate>MIIEHjCCAoagAwIBAgIJALVhxMpHbO2cMA0GCSqGSIb3DQEBCwUAMCgxJjAkBgNV
+BAMTHXNwaWQuY29tdW5lLnNhbnRhbnRpb2NvLmNhLml0MB4XDTE5MTAyMzE1MTQ1
+NVoXDTI0MTAyMTE1MTQ1NVowKDEmMCQGA1UEAxMdc3BpZC5jb211bmUuc2FudGFu
+dGlvY28uY2EuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDMRY4h
+6rNH3HvXiUNCSHLUTt7dmssUVfxRqN3TfW78HFSVGVYgH1SruydkEhjQTAz5NglZ
+NdNSVkUsEpw/8FeUg6zybXmCy5r8nC+srCartWxRMXyP554T9QBRLlHvNNbsniXz
+OnzJvIm64+1NxhAh0YgvI8Jdo6jGB/KDehf0JDIL7BnaXyPRtvVPMqWLp/tWCXOO
+ey0UjzsehJ870XAFkMwwglxxCvP2AtapGlVy3V55lOIGOKQQhDXUQvFrWgqyejgu
+8I/DIii5Jdd0Mj1n2nzmZq9Qm72bqOpImffzc9OBcNrHZ1yQUSuT39XaBZmsU8yo
+qZyYG7dZajmp2zaaBolJ4c86R1/xhxg+9zWOlA+xUYSsOF2bmBe5j/jIk+21Xcpo
+YE1r+nKZ8XZ/Khw7YVK61c5FNIhBcylh9p8L+Xtg9LcZU9qM5omNLMi6pKCOILB0
+n6JhICXq9CR2nJBeNp8hPuJxKIijaNDxBR7jKInZWuIs56SoiV/m3tndOEkCAwEA
+AaNLMEkwKAYDVR0RBCEwH4Idc3BpZC5jb211bmUuc2FudGFudGlvY28uY2EuaXQw
+HQYDVR0OBBYEFI2Ujpc16pvJ1mwka/hkpm/7YCXhMA0GCSqGSIb3DQEBCwUAA4IB
+gQAkXwxvRaANnxlg/aDLc7pYWaZCFiEKGh9cUDQ7TrJE3cg5evrPEXzccCv4o52V
+KV60rCUzhekHmGrk8+PLkfayOowAk94ATUr0fQPvke+mLFH6HUX14xmWumTDszS4
+CihTbIr+21RV/+FPRhBfi1fb1XC9Akap14HbMol1IP5KStXGo/hbQwYAAQlG5XhY
+MAadMwnbVtRIKuOWMiubmY1vwhdsyunkbn5AgqLo1A6c8cy1CdxQUF/EvBZcUgVM
+e4Likeo3Zhl7qgML/yn4OBjP1nF7UL3QfbSIKOwDCzUOi1q36jUabPZ5ThczCKDm
+kZB0maoUDXNHuq3zb+h0kJZy3f+dQSkW9ta+Jdmw2DB71Ufh8NFQ6UDzfvb7bP6T
+xw3yk0pOEsuqe3mejcRuc2Y9Lol+7qHgBqKgHCrHXTsBvk8SDzUNd4nplv/1rE74
+CEc5Bf5g2dGYzVqfcq1kPcv5C4k4POVDaCqavYdygVDIEQq9JAHSt3aLgh+3v5Cv
+X4o=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa.comune.santantioco.ca.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa.comune.santantioco.ca.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comune di Sant'Antioco</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Sant'Antioco</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Sant'Antioco</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.comune.santantioco.ca.it</md:OrganizationURL>
+ </md:Organization>
+</md:EntityDescriptor>
+

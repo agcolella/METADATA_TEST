@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.levate.bg.it/" ID="pfx9e55965d-5cd6-c25b-60d2-572dbc3816d2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx9e55965d-5cd6-c25b-60d2-572dbc3816d2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>W6hrfPpz0uQy/7GcnXal+tUy4yIE58PlqanIBkuLP28=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FldYM1E3lcMgkTtrkUThEoVhj3udIz+XSLRMUFOkJJq7LklaimIVmVYPg6LHAr9bngi/EHodMjbPx5Jzd0oN+Uns3lR4URNhpk+laNo9bAspic/Bc8BGZOEyPtq9mIniqJ3PS2yRFqHEuWAhuRwbS/X14dBRaCOwaLE2YNCWmwg6rHW5QNdikSCf/btolRjbSWhi8SX85xebpMXhITJTMDwkQLu89AAKLD+ehO2McNxPIeWU0NWIB4bT9j9DrnBjpH2yEu3IShYBJ/2x2KvZ4+OsykKHglh+MRoqBZkIg4GzN71YS/mOM+Avsto4sFMU6CMsbA7i/yOd0zxPdUA7WQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEEDCCAvigAwIBAgIJANUt8get1oELMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEPMA0GA1UEBwwGTGV2YXRlMRkwFwYDVQQKDBBDb211bmUgZGkgTGV2YXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubGV2YXRlLmJnLml0MB4XDTE4MDcyNjA4MzcxOVoXDTI4MDcyMzA4MzcxOVowgZwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMQ8wDQYDVQQHDAZMZXZhdGUxGTAXBgNVBAoMEENvbXVuZSBkaSBMZXZhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5sZXZhdGUuYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxUD89hRtWF7wxIkUUewK9oQ2uHUtUlQfv0XsJYX8qMTZ6pIKWqgjvLmO2ivl5P0imYoNeHo9v/h2Ey5fBjONuxvCt0KWHG/A0ZsKfXgrI8mJwlFrLYVBjyEOuEcJc3W+oErLNp3uWDTHYHLJFqukVTpfO69DWdo4O6sOp5YPMQ3qrQj+QEK0EJlB8enrBhBTNYoMmD1byVxFwPoZyqQ/60PIz4AnAcgLy9rv3tDTklNO74nOeiptapjiyq1iiiYYQzywMtGsmYIpvb4SsZjt1ILer9dPRlZMTubhBJro9gH2vFyHY8z+9MUcUT3sbseDZKAKEnA/VpgI6IUe3B4gDAgMBAAGjUzBRMB0GA1UdDgQWBBRLqNTGQY0WIsiFDLwvFDdl9q5lyjAfBgNVHSMEGDAWgBRLqNTGQY0WIsiFDLwvFDdl9q5lyjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBpA/lhPp3LTh3sdcLqu120Hmux+/KLguiLvi3bW8Y/DzfZVi3yNHonQuUZ076R3R/ZjwvGhs3d1MknMQhfIGG9G/557x0WhLlHlKldf4tfjyuQB+EsoBin3aQ5K0OEPfzpNUxnvupPgnPH+k5rb2gkM9/swDoF0xuhF9h1yWv8h9O77sQ9tV89uK+/t9QzEqYRWI406EUPx6ypA9WicWyI+6uBlpnv2INf6XymeUV1D1J9ktJD06+3hM1Cohrpwr1ImeSx5zUzsLRhh0W6iq+ItJmFGlh29WNRDj9UJ/KqKRGsw+kRAYBWRGuQwSCeet36DLzX/PUxes34bBEGtovK</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEDCCAvigAwIBAgIJANUt8get1oELMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEPMA0GA1UEBwwGTGV2YXRlMRkwFwYDVQQKDBBDb211bmUgZGkgTGV2YXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubGV2YXRlLmJnLml0MB4XDTE4MDcyNjA4MzcxOVoXDTI4MDcyMzA4MzcxOVowgZwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMQ8wDQYDVQQHDAZMZXZhdGUxGTAXBgNVBAoMEENvbXVuZSBkaSBMZXZhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5sZXZhdGUuYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxUD89hRtWF7wxIkUUewK9oQ2uHUtUlQfv0XsJYX8qMTZ6pIKWqgjvLmO2ivl5P0imYoNeHo9v/h2Ey5fBjONuxvCt0KWHG/A0ZsKfXgrI8mJwlFrLYVBjyEOuEcJc3W+oErLNp3uWDTHYHLJFqukVTpfO69DWdo4O6sOp5YPMQ3qrQj+QEK0EJlB8enrBhBTNYoMmD1byVxFwPoZyqQ/60PIz4AnAcgLy9rv3tDTklNO74nOeiptapjiyq1iiiYYQzywMtGsmYIpvb4SsZjt1ILer9dPRlZMTubhBJro9gH2vFyHY8z+9MUcUT3sbseDZKAKEnA/VpgI6IUe3B4gDAgMBAAGjUzBRMB0GA1UdDgQWBBRLqNTGQY0WIsiFDLwvFDdl9q5lyjAfBgNVHSMEGDAWgBRLqNTGQY0WIsiFDLwvFDdl9q5lyjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBpA/lhPp3LTh3sdcLqu120Hmux+/KLguiLvi3bW8Y/DzfZVi3yNHonQuUZ076R3R/ZjwvGhs3d1MknMQhfIGG9G/557x0WhLlHlKldf4tfjyuQB+EsoBin3aQ5K0OEPfzpNUxnvupPgnPH+k5rb2gkM9/swDoF0xuhF9h1yWv8h9O77sQ9tV89uK+/t9QzEqYRWI406EUPx6ypA9WicWyI+6uBlpnv2INf6XymeUV1D1J9ktJD06+3hM1Cohrpwr1ImeSx5zUzsLRhh0W6iq+ItJmFGlh29WNRDj9UJ/KqKRGsw+kRAYBWRGuQwSCeet36DLzX/PUxes34bBEGtovK</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEEDCCAvigAwIBAgIJANUt8get1oELMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEPMA0GA1UEBwwGTGV2YXRlMRkwFwYDVQQKDBBDb211bmUgZGkgTGV2YXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEwMC4GA1UEAwwnc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubGV2YXRlLmJnLml0MB4XDTE4MDcyNjA4MzcxOVoXDTI4MDcyMzA4MzcxOVowgZwxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMQ8wDQYDVQQHDAZMZXZhdGUxGTAXBgNVBAoMEENvbXVuZSBkaSBMZXZhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTAwLgYDVQQDDCdzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5sZXZhdGUuYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxUD89hRtWF7wxIkUUewK9oQ2uHUtUlQfv0XsJYX8qMTZ6pIKWqgjvLmO2ivl5P0imYoNeHo9v/h2Ey5fBjONuxvCt0KWHG/A0ZsKfXgrI8mJwlFrLYVBjyEOuEcJc3W+oErLNp3uWDTHYHLJFqukVTpfO69DWdo4O6sOp5YPMQ3qrQj+QEK0EJlB8enrBhBTNYoMmD1byVxFwPoZyqQ/60PIz4AnAcgLy9rv3tDTklNO74nOeiptapjiyq1iiiYYQzywMtGsmYIpvb4SsZjt1ILer9dPRlZMTubhBJro9gH2vFyHY8z+9MUcUT3sbseDZKAKEnA/VpgI6IUe3B4gDAgMBAAGjUzBRMB0GA1UdDgQWBBRLqNTGQY0WIsiFDLwvFDdl9q5lyjAfBgNVHSMEGDAWgBRLqNTGQY0WIsiFDLwvFDdl9q5lyjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBpA/lhPp3LTh3sdcLqu120Hmux+/KLguiLvi3bW8Y/DzfZVi3yNHonQuUZ076R3R/ZjwvGhs3d1MknMQhfIGG9G/557x0WhLlHlKldf4tfjyuQB+EsoBin3aQ5K0OEPfzpNUxnvupPgnPH+k5rb2gkM9/swDoF0xuhF9h1yWv8h9O77sQ9tV89uK+/t9QzEqYRWI406EUPx6ypA9WicWyI+6uBlpnv2INf6XymeUV1D1J9ktJD06+3hM1Cohrpwr1ImeSx5zUzsLRhh0W6iq+ItJmFGlh29WNRDj9UJ/KqKRGsw+kRAYBWRGuQwSCeet36DLzX/PUxes34bBEGtovK</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.levate.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/levate"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.levate.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/levate" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">levate</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_e562</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Levate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.levate.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

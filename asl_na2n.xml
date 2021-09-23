@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_682e4ff-fdc6-41ad-b0c1-47d5685e8f49" entityID="https://portaleservizi.aslnapoli2nord.it/shibboleth/sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_682e4ff-fdc6-41ad-b0c1-47d5685e8f49">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>f4BUE2xopTPasxXsHXyTuoewSoqLbb8eNVPX+jrZqLw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EbFXUZFrRt9yWIAwTghTSoRjvf2BYAcMSn0Ts8Ugj9v6L7zvWIA76/XR2gvFHZ4ivdHIgcYZHp5o
+Jw0iKAb+jkiMAM7MuHEuL/d9gDj++6q5WHZv7nY76HHZz886r+DeCJHSI9hiq8QGFbGPogmcsCMi
+QDUmrZLLBUtTqu41i36rRa+rkKjPIjkk8Nt7CqWzlluFJa66g8RO3D/Pf5Z39/uZdVbyZ0HnGLfk
+++lCAWTWeQ0JICYJrOLf1bnJIy1j9FsTwb757Nr2I5IzzseAGydKzpYbrNsRbYlSlIa1HcCtYm/k
+zPdFQ3K1Npf3CuJokBplfSA8b8PCTkBeQqW22w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qPa+ZJTWkYvYwnKqkJfS+2oiSfFFxmjng3/gmbpkkyboyif/K/Suw/rA3Kj1lQlZrpYYCIR6Pfqy
+xw7YQcyixdbkOpmYrs6qIC8utMzAv/IA0TVrdeE/h553eRazWIosGF9a5g72uGjljpwnRpzASJQR
+mTE9n4R/TRlKjOQ0dwqSxvrnDR4OMvxqAd930HHIxvVWFB5mfCvbMfkbpq3xKodTEi3LKc7esfUu
+Wshrt+9lgxTDICgJjiGJH7PKHxr2lNGXEtemwrB0qbQcu2/POl51MDHgO3MXJ/7QY7Sj2uPs/Tt/
+9FRaj8VMM52DEXCGtqxTrgc8JzXX0J947itO3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGSDCCBTCgAwIBAgIJAPkbesVelsBiMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJVUzEQ
+MA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEaMBgGA1UEChMRR29EYWRkeS5j
+b20sIEluYy4xLTArBgNVBAsTJGh0dHA6Ly9jZXJ0cy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzEz
+MDEGA1UEAxMqR28gRGFkZHkgU2VjdXJlIENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTE4
+MDcxMjA3MzYwN1oXDTE5MDcxMjA3MzYwN1owQTEhMB8GA1UECxMYRG9tYWluIENvbnRyb2wgVmFs
+aWRhdGVkMRwwGgYDVQQDDBMqLmFzbG5hcG9saTJub3JkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqPa+ZJTWkYvYwnKqkJfS+2oiSfFFxmjng3/gmbpkkyboyif/K/Suw/rA3Kj1
+lQlZrpYYCIR6Pfqyxw7YQcyixdbkOpmYrs6qIC8utMzAv/IA0TVrdeE/h553eRazWIosGF9a5g72
+uGjljpwnRpzASJQRmTE9n4R/TRlKjOQ0dwqSxvrnDR4OMvxqAd930HHIxvVWFB5mfCvbMfkbpq3x
+KodTEi3LKc7esfUuWshrt+9lgxTDICgJjiGJH7PKHxr2lNGXEtemwrB0qbQcu2/POl51MDHgO3MX
+J/7QY7Sj2uPs/Tt/9FRaj8VMM52DEXCGtqxTrgc8JzXX0J947itO3wIDAQABo4ICzTCCAskwDAYD
+VR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgWg
+MDcGA1UdHwQwMC4wLKAqoCiGJmh0dHA6Ly9jcmwuZ29kYWRkeS5jb20vZ2RpZzJzMS04NDYuY3Js
+MF0GA1UdIARWMFQwSAYLYIZIAYb9bQEHFwEwOTA3BggrBgEFBQcCARYraHR0cDovL2NlcnRpZmlj
+YXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzAIBgZngQwBAgEwdgYIKwYBBQUHAQEEajBoMCQG
+CCsGAQUFBzABhhhodHRwOi8vb2NzcC5nb2RhZGR5LmNvbS8wQAYIKwYBBQUHMAKGNGh0dHA6Ly9j
+ZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeS9nZGlnMi5jcnQwHwYDVR0jBBgwFoAU
+QMK9J47MNIMwojPX+2yz8LQsgM4wMQYDVR0RBCowKIITKi5hc2xuYXBvbGkybm9yZC5pdIIRYXNs
+bmFwb2xpMm5vcmQuaXQwHQYDVR0OBBYEFM3Ez+puj+apuVL6ynzVyqYRVfUcMIIBBQYKKwYBBAHW
+eQIEAgSB9gSB8wDxAHYApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFkjWv7WwAA
+BAMARzBFAiAYgz4A6Gy+7zXxnvWB09MQHy7eWbqJDtKJuoZIzPmmRAIhAIVu8Ff3S87kaUtfGici
+LwlsD65OGHmp6MfMOyhiTaWeAHcAdH7agzGtMxCRIZzOJU9CcMK//V5CIAjGNzV55hB7zFYAAAFk
+jWv8aQAABAMASDBGAiEA67HxDWeLLtRZCk+OHBFN2Gtjc+fPRTbcpzN7oqhQZfQCIQDCeexmtOtB
+7+BmIJnf9bh0COjT4HoEhX79hv9vNxibGDANBgkqhkiG9w0BAQsFAAOCAQEAlCksmPiHVPSjhty9
+2iHV5UlkNKFZHSQz40KzjH9cE7wCKUdLcjPTZYr3wdMRRmW0v8ZL5m1wrsGBolpY1SnmHJaKMTIc
+W+V2rX1NrWX3JHrzxGzIH4W1WZb6PTu86aiqFVLQNlMVjGuN8xFFnKKFl6lkhgjwivNrbj10Wg0n
+DQBPpefASiw1TW6i1TJA0v2/mdLnu5K29dvDrvJMyMZj8NgzcglfxFUZ9zWXH23knWmwU0UOenZp
+TLlTrA4sRj9uJZHQCvtwVOybLRRzomkogs4dI5iVnYrkpm8gHisCuviSmTOba70YjLIHEQhBE66a
+zL6c1YtROGETMYUhsNB84g==
+</ds:X509Certificate>
+<ds:X509Certificate>
+MIIE0DCCA7igAwIBAgIBBzANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCVVMxEDAOBgNVBAgT
+B0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAYBgNVBAoTEUdvRGFkZHkuY29tLCBJbmMu
+MTEwLwYDVQQDEyhHbyBEYWRkeSBSb290IENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTEx
+MDUwMzA3MDAwMFoXDTMxMDUwMzA3MDAwMFowgbQxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdBcml6
+b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRowGAYDVQQKExFHb0RhZGR5LmNvbSwgSW5jLjEtMCsG
+A1UECxMkaHR0cDovL2NlcnRzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMTMwMQYDVQQDEypHbyBE
+YWRkeSBTZWN1cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC54MsQ1K92vdSTYuswZLiBCGzDBNliF44v/z5lz4/OYuY8UhzaFkVLVat4
+a2ODYpDOD2lsmcgaFItMzEUz6ojcnqOvK/6AYZ15V8TPLvQ/MDxdR/yaFrzDN5ZBUY4RS1T4KL7Q
+jL7wMDge87Am+GZHY23ecSZHjzhHU9FGHbTj3ADqRay9vHHZqm8A29vNMDp5T19MR/gd71vCxJ1g
+O7GyQ5HYpDNO6rPWJ0+tJYqlxvTV0KaudAVkV4i1RFXULSo6Pvi4vekyCgKUZMQWOlDxSq7neTOv
+DCAHf+jfBDnCaQJsY1L6d8EbyHSHyLmTGFBUNUtpTrw700kuH9zB0lL7AgMBAAGjggEaMIIBFjAP
+BgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUQMK9J47MNIMwojPX+2yz
+8LQsgM4wHwYDVR0jBBgwFoAUOpqFBxBnKLbv9r0FQW4gwZTaD94wNAYIKwYBBQUHAQEEKDAmMCQG
+CCsGAQUFBzABhhhodHRwOi8vb2NzcC5nb2RhZGR5LmNvbS8wNQYDVR0fBC4wLDAqoCigJoYkaHR0
+cDovL2NybC5nb2RhZGR5LmNvbS9nZHJvb3QtZzIuY3JsMEYGA1UdIAQ/MD0wOwYEVR0gADAzMDEG
+CCsGAQUFBwIBFiVodHRwczovL2NlcnRzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMA0GCSqGSIb3
+DQEBCwUAA4IBAQAIfmyTEMg4uJapkEv/oV9PBO9sPpyIBslQj6Zz91cxG7685C/b+LrTW+C05+Z5
+Yg4MotdqY3MxtfWoSKQ7CC2iXZDXtHwlTxFWMMS2RJ17LJ3lXubvDGGqv+QqG+6EnriDfcFDzkSn
+E3ANkR/0yBOtg2DZ2HKocyQetawiDsoXiWJYRBuriSUBAA/NxBti21G00w9RKpv0vHP8ds42pM3Z
+2Czqrpv1KrKQ0U11GIo/ikGQI31bS/6kA1ibRrLDYGCD+H1QQc7CoZDDu+8CL9IVVO5EFdkKrqeK
+M+2xLXY2JtwE65/3YR8V3Idv7kaWKK2hJn0KCacuBKONvPi8BDAB
+</ds:X509Certificate>
+<ds:X509Certificate>
+MIIDxTCCAq2gAwIBAgIBADANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCVVMxEDAOBgNVBAgT
+B0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAYBgNVBAoTEUdvRGFkZHkuY29tLCBJbmMu
+MTEwLwYDVQQDEyhHbyBEYWRkeSBSb290IENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTA5
+MDkwMTAwMDAwMFoXDTM3MTIzMTIzNTk1OVowgYMxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdBcml6
+b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRowGAYDVQQKExFHb0RhZGR5LmNvbSwgSW5jLjExMC8G
+A1UEAxMoR28gRGFkZHkgUm9vdCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkgLSBHMjCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAL9xYgjx+lk09xvJGKP3gElY6SKDE6bFIEMBO4Tx5oVJnyfq
+9oQbTqC023CYxzIBsQU+B07u9PpPL1kwIuerGVZr4oAH/PMWdYA5UXvl+TW2dE6pjYIT5LY/qQOD
++qK+ihVqf94Lw7YZFAXK6sOoBJQ7RnwyDfMAZiLIjWltNowRGLfTshxgtDj6AozO091GB94KPutd
+fMh8+7ArU6SSYmlRJQVhGkSBjCypQ5Yj36w6gZoOKcUcqeldHraenjAKOc7xiID7S13MMuyFYkMl
+NAJWJwGRtDtwKj9useiciAF9n9T521NtYJ2/LOdYq7hfRvzOxBsDPAnrSTFcaUaz4EcCAwEAAaNC
+MEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFDqahQcQZyi27/a9
+BUFuIMGU2g/eMA0GCSqGSIb3DQEBCwUAA4IBAQCZ21151fmXWWcDYfF+OwYxdS2hII5PZYe096ac
+vNjpL9DbWu7PdIxztDhC2gV7+AJ1uP2lsdeu9tfeE8tTEH6KRtGX+rcuKxGrkLAngPnon1rpN5+r
+5N9ss4UXnT3ZJE95kTXWXwTrgIOrmgIttRD02JDHBHNA7XIloKmf7J6raBKZV8aPEjoJpL1E/QYV
+N8Gb5DKj7Tjo2GTzLH4U/ALqn83/B2gX2yKQOC16jdFU8WnjXzPKej17CuPKf1855eJ1usV2GDPO
+LPAvTK33sefOT6jEm0pUBsV/fdUID+Ic/n4XuKxe9tQWskMJDE32p2u0mYRlynqI4uJEvlz36hz1
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>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</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:KeyDescriptor use="encryption"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>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</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi.aslnapoli2nord.it/Shibboleth.sso/Logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi.aslnapoli2nord.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 					<!-- Cambiato a 0 per la produzione -->
+            <md:ServiceName xml:lang="it">SET_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+
+    <md:Organization> 
+        <md:OrganizationName xml:lang="it">Asl Napoli 2 Nord</md:OrganizationName> 
+        <md:OrganizationDisplayName xml:lang="it">Azienda Sanitaria Locale Napoli 2 Nord</md:OrganizationDisplayName> 
+        <md:OrganizationURL xml:lang="it">https://www.aslnapoli2nord.it/</md:OrganizationURL> 
+    </md:Organization> 
+
+</md:EntityDescriptor>

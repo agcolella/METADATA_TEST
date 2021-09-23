@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Marsala" entityID="https://www.comune.marsala.tp.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Marsala">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4fuMSfTeB1VmWdc1RL9GBt+Gy2DIp4DIfYcSvqeEyuM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+e4VJ89NrbiaK8+BAJj/fJXs3eP3f4zK0CDlUAiVU6KXrIUD6+A84Xj85m8Lmkwza5nW/ujdnnvAw
+qAoVI01q2JZr3ouyPCa8VPEXqxRWppU9IrBdp4j7ccqwAfuCjyGIzkNI09r/yUnG4yeqsFafmZeO
+lKG4fn516OjFrgPIrH6BAD2edovnIRKHwtSkYlzhL/3IstnFvp41+Hce9WNX/NS72I/9JTsaNrQE
+nd208rexZojtTUjdygilhaNiTySW/oI7rs7qa/WZRwRMxO6Z2O8DGLMNI+AhgFj7wS6x9G1KafpI
+ueJ0c5BpEJmwGW5SZMyoa0Zgb5QykFX0d/Cg5w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0CWkwjMXPi9WekQ9PZVI6VIhjYupPtJywpg4Q+0LzGU1hDYm1HKh7pLin/fYQ9VAaKZImeI+Udt2
+5a9DMLXzW5q/L70B4gFci4ejZQLPYNsUiOme5r9Zq7ZuuxGp+8NaMY8ZNzt+WNMNjNccgi7uK8Om
+Wxt5V2Fr2ytxBVr1G2e35KXB4vyDVE9Jrcds7uNGrqghNEwctOkREpVfUalG6Djhudu2vFZZnnDG
+PRJiMIkf9fI9AuvzJeV2ahbRLZellXHPVdD4olpYMtiYaEMBeKYAC1/n9u9PlBgTALadJtaxzq/Q
+BlIMKv5sbRiY6QpWh9em56JOFS3rSziivVQeiQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAPZNMkHhbyHyMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUubWFyc2FsYS50cC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNTIx
+MDk1NzU4WhcNMzAwNTE5MDk1NzU4WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLm1hcnNhbGEudHAu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA0CWkwjMXPi9WekQ9PZVI6VIhjYupPtJywpg4Q+0LzGU1hDYm1HKh7pLin/fYQ9VAaKZI
+meI+Udt25a9DMLXzW5q/L70B4gFci4ejZQLPYNsUiOme5r9Zq7ZuuxGp+8NaMY8ZNzt+WNMNjNcc
+gi7uK8OmWxt5V2Fr2ytxBVr1G2e35KXB4vyDVE9Jrcds7uNGrqghNEwctOkREpVfUalG6Djhudu2
+vFZZnnDGPRJiMIkf9fI9AuvzJeV2ahbRLZellXHPVdD4olpYMtiYaEMBeKYAC1/n9u9PlBgTALad
+Jtaxzq/QBlIMKv5sbRiY6QpWh9em56JOFS3rSziivVQeiQIDAQABo1AwTjAdBgNVHQ4EFgQU7EOY
+fguIYp8mKwgYTqV2DMFhE+IwHwYDVR0jBBgwFoAU7EOYfguIYp8mKwgYTqV2DMFhE+IwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARXEKncrZY9OhUyPeQozm5UQBMGPLy9IcbvYVj68b
++GwdSq40f6mur2of39CWx0sxJKk1HrxHqoJHnvzgcvDOqDPS4V8M+qXvFmX5XL0Lak+BHqWmqWyt
+GQnQRC2PI4viZJyCdGjAfqLAJzyfoyc3MqLa0ayBYWEhRVQzFBouMwJRnn0APa1oaDoXA58JBZZv
+lcEnlnhANUF0MTRtAakdZt3+TN1qWBaX+ZopOvg4G3oSWQURCakX5D7JYdHNUvHcUOkgmjfhhQuk
+qXTwDQWD/FFahQ5cuKbUs2kFk4z2IL3zsnZ+4op70ebHcr9G2O5yhNorCbuCsOzW8L3fUal7UQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAPZNMkHhbyHyMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUubWFyc2FsYS50cC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNTIxMDk1NzU4WhcNMzAwNTE5MDk1NzU4WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLm1hcnNhbGEudHAuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0CWkwjMXPi9WekQ9PZVI6VIhjYupPtJywpg4Q+0LzGU1hDYm1HKh7pLin/fYQ9VAaKZImeI+Udt25a9DMLXzW5q/L70B4gFci4ejZQLPYNsUiOme5r9Zq7ZuuxGp+8NaMY8ZNzt+WNMNjNccgi7uK8OmWxt5V2Fr2ytxBVr1G2e35KXB4vyDVE9Jrcds7uNGrqghNEwctOkREpVfUalG6Djhudu2vFZZnnDGPRJiMIkf9fI9AuvzJeV2ahbRLZellXHPVdD4olpYMtiYaEMBeKYAC1/n9u9PlBgTALadJtaxzq/QBlIMKv5sbRiY6QpWh9em56JOFS3rSziivVQeiQIDAQABo1AwTjAdBgNVHQ4EFgQU7EOYfguIYp8mKwgYTqV2DMFhE+IwHwYDVR0jBBgwFoAU7EOYfguIYp8mKwgYTqV2DMFhE+IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARXEKncrZY9OhUyPeQozm5UQBMGPLy9IcbvYVj68b+GwdSq40f6mur2of39CWx0sxJKk1HrxHqoJHnvzgcvDOqDPS4V8M+qXvFmX5XL0Lak+BHqWmqWytGQnQRC2PI4viZJyCdGjAfqLAJzyfoyc3MqLa0ayBYWEhRVQzFBouMwJRnn0APa1oaDoXA58JBZZvlcEnlnhANUF0MTRtAakdZt3+TN1qWBaX+ZopOvg4G3oSWQURCakX5D7JYdHNUvHcUOkgmjfhhQukqXTwDQWD/FFahQ5cuKbUs2kFk4z2IL3zsnZ+4op70ebHcr9G2O5yhNorCbuCsOzW8L3fUal7UQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAPZNMkHhbyHyMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUubWFyc2FsYS50cC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNTIxMDk1NzU4WhcNMzAwNTE5MDk1NzU4WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLm1hcnNhbGEudHAuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0CWkwjMXPi9WekQ9PZVI6VIhjYupPtJywpg4Q+0LzGU1hDYm1HKh7pLin/fYQ9VAaKZImeI+Udt25a9DMLXzW5q/L70B4gFci4ejZQLPYNsUiOme5r9Zq7ZuuxGp+8NaMY8ZNzt+WNMNjNccgi7uK8OmWxt5V2Fr2ytxBVr1G2e35KXB4vyDVE9Jrcds7uNGrqghNEwctOkREpVfUalG6Djhudu2vFZZnnDGPRJiMIkf9fI9AuvzJeV2ahbRLZellXHPVdD4olpYMtiYaEMBeKYAC1/n9u9PlBgTALadJtaxzq/QBlIMKv5sbRiY6QpWh9em56JOFS3rSziivVQeiQIDAQABo1AwTjAdBgNVHQ4EFgQU7EOYfguIYp8mKwgYTqV2DMFhE+IwHwYDVR0jBBgwFoAU7EOYfguIYp8mKwgYTqV2DMFhE+IwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARXEKncrZY9OhUyPeQozm5UQBMGPLy9IcbvYVj68b+GwdSq40f6mur2of39CWx0sxJKk1HrxHqoJHnvzgcvDOqDPS4V8M+qXvFmX5XL0Lak+BHqWmqWytGQnQRC2PI4viZJyCdGjAfqLAJzyfoyc3MqLa0ayBYWEhRVQzFBouMwJRnn0APa1oaDoXA58JBZZvlcEnlnhANUF0MTRtAakdZt3+TN1qWBaX+ZopOvg4G3oSWQURCakX5D7JYdHNUvHcUOkgmjfhhQukqXTwDQWD/FFahQ5cuKbUs2kFk4z2IL3zsnZ+4op70ebHcr9G2O5yhNorCbuCsOzW8L3fUal7UQ==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/marsala"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/marsala" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/marsala" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/marsala" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Marsala</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Marsala</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Marsala</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Marsala</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Marsala</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Marsala</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Marsala</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Marsala</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.marsala.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.marsala.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.marsala.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.marsala.tp.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

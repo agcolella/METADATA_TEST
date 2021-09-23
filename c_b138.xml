@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="BrembateDiSopra" entityID="https://www.comune.brembatedisopra.bg.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#BrembateDiSopra">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>2df2YqW1q9hqfg61XAaSij+Pg7gYfsYzeeBdQTzr1Ps=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RBM96HEwqm8L9cftTr9Qm5xHc/LMEWSvV7c5hgG18wSeTGeP8A32AJoVIBaKcV1N0VzGHcwa0tIt
+GzmTKjIBMI7FPzX6hm8poLVEGDQJ+Ls5GIrKQDLQjdaFjOO/KwVD3phMSnADJz+PPr/lpk8vceho
+aGv7tkKqec2DLNYuNBR4YKiIprGXruUJaCqfvM4jVKS+T5gCWJQMTCHmeq1qveNLl6hWMdNaYCDK
+kE+zdGo6PH5CfcoaxHWjpe9Pk2Mk3/1JWbMcb8EPhCiokBi1lChXyxX2/dau4iuXg85qMfVBBetA
+VyFaic7NfyXlWwg2hROeCii37Bzmrk20NggNgw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7NqILGdj65gaUvRUo+aR9YCOvIR/YQhUicsryp70ItchcrRf9my31dputvd0xofgbXZ1rkfiDyUS
+qYnTKdAsl4VrXEGHjDCYGo1p05eLs9oU93G12TNJKtlPxcNRINEEJmpkpk8WhCdWsji+SAWKegyH
+wHgqTOCnJViyK5uL1yBMMIJEojpPcalyPRCEU5ITccuKIGR6JKBj1nK/i1lOb8neXzWQndh47hW5
+nhBAyiIGworBcwOqQ461GDBg2lnVafbfOv7VzO0mLDWuRKDVy9XSKA3EjmxTpXLzkIKPF+TExCVo
+GrpkWtJEbl2n4LkZ1pjjJSESgEKrAg33YGjmZw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIETjCCAzagAwIBAgIJAPf77z7SBLXEMA0GCSqGSIb3DQEBCwUAMIG7MQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHQmVyZ2FtbzEaMBgGA1UEBwwRQnJlbWJhdGUgZGkgU29wcmExJDAiBgNVBAoMG0Nv
+bXVuZSBkaSBCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28x
+OTA3BgNVBAMMMHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyZW1iYXRlZGlzb3ByYS5iZy5p
+dDAeFw0xODAxMjkxNzI5NDVaFw0yODAxMjcxNzI5NDVaMIG7MQswCQYDVQQGEwJJVDEQMA4GA1UE
+CAwHQmVyZ2FtbzEaMBgGA1UEBwwRQnJlbWJhdGUgZGkgU29wcmExJDAiBgNVBAoMG0NvbXVuZSBk
+aSBCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOTA3BgNV
+BAMMMHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyZW1iYXRlZGlzb3ByYS5iZy5pdDCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOzaiCxnY+uYGlL0VKPmkfWAjryEf2EIVInLK8qe
+9CLXIXK0X/Zst9Xabrb3dMaH4G12da5H4g8lEqmJ0ynQLJeFa1xBh4wwmBqNadOXi7PaFPdxtdkz
+SSrZT8XDUSDRBCZqZKZPFoQnVrI4vkgFinoMh8B4KkzgpyVYsiubi9cgTDCCRKI6T3Gpcj0QhFOS
+E3HLiiBkeiSgY9Zyv4tZTm/J3l81kJ3YeO4VuZ4QQMoiBsKKwXMDqkOOtRgwYNpZ1Wn23zr+1czt
+Jiw1rkSg1cvV0igNxI5sU6Vy85CCjxfkxMQlaBq6ZFrSRG5dp+C5GdaY4yUhEoBCqwIN92Bo5mcC
+AwEAAaNTMFEwHQYDVR0OBBYEFNS9+mS6sbj1ypOyww/FVeT6aUqrMB8GA1UdIwQYMBaAFNS9+mS6
+sbj1ypOyww/FVeT6aUqrMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJDY7XOa
+nt7WM3BkvzSBzxQVI6/moTtsNLwSr1itlUlXmmNhn36UZ/Raxe1FvCi7ojWkIIsDhI9V/r/T9kqi
+9PZQmenYaXVLOloom7JBrDcdrVEot8UPPej7EoxrrZaAQe68+98xEzkE84WmpiWhhFOgD/+/Xa8U
+3EP3NMEAGfsDPmkMtR+s5UOjwiVL4yoEJRROn4ylHpZhCv4WJ1thT7TdrdrryK+Wzrwwg+okCs1i
+vKZor2OLaIf76ED2FZuK+ZQ0RhxwFfRyQVuyEV/X2+urgVYyONC0rYaLdPV7dC4P/yHwxhPmIolK
+R78WsdHVucL1Vkxf+EWznJMca0xxI2c=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJANTp6hRwcn4DMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuYnJlbWJhdGVkaXNvcHJhLmJnLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xNzEyMjIxODM1NTNaFw0yMTEyMjExODM1NTNaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUuYnJlbWJhdGVkaXNvcHJhLmJnLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANvk0LEW51/1pEAJisVW8rDzs34bEe784ETr9W/S257jsnyOwfMsKAOz7vcyHx+iMkO9uWeS5e5ilZgKSfSJXE26MMcelRzIwk9vqJXdYpTlzD8fg26ZOFdcNZfKgLyBEWhsO7t2kR7SSoPkk1jz8ZFf+8pdRYqBcGLvOO4hwiNONWE0pERe7jeWDk+KDLH7POvzRGFt29K8tHTs+Zw+ACtS1DAx98Q+5Mkvhu79/FAIgHzzLpNH0V3WbS7buzuq5VgPzzbV6xnz5OJMvw57AdmSAIJjGsBBosN9fshts0EzlOUYwKRPb0SYVKMM0JizGqkbhWGn3/T78MKyfPR/DPECAwEAAaNQME4wHQYDVR0OBBYEFIu9u5ZlHeVVQ9/KEHdV4j/Uuy9PMB8GA1UdIwQYMBaAFIu9u5ZlHeVVQ9/KEHdV4j/Uuy9PMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFeVZOKSdhqkj0GV8x7XcQvqQmv/wXzzv+8DI205qIOL0JfO5T7ieOvWcwu4brSHHlkjuXTwjHavLmNhH5Qz3acWQ0i+K5NJ+pwbqXP4S5PXxwUo7conHRNMeKMu3z+qtMe+nllC2OXBf93qoec6POgt10h7jYrAKSR0CYjCkZkbKtQ/yq1LKcv6QK8Z7rqbef9CryHNu9fq9BKuQ3acyf49jhPPi22GOjjIy93w62teYQquWlHVU7Hi2PaV1EoXSG/jPskTL9PnZ29Uv3iWrHANBRGYGxcNLwqFgJXatNjbOfxufrSHhze6OxwkzjaRkXgEf15CkTuYE3ljI4tg6xI=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETjCCAzagAwIBAgIJAPf77z7SBLXEMA0GCSqGSIb3DQEBCwUAMIG7MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEaMBgGA1UEBwwRQnJlbWJhdGUgZGkgU29wcmExJDAiBgNVBAoMG0NvbXVuZSBkaSBCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOTA3BgNVBAMMMHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyZW1iYXRlZGlzb3ByYS5iZy5pdDAeFw0xODAxMjkxNzI5NDVaFw0yODAxMjcxNzI5NDVaMIG7MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEaMBgGA1UEBwwRQnJlbWJhdGUgZGkgU29wcmExJDAiBgNVBAoMG0NvbXVuZSBkaSBCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOTA3BgNVBAMMMHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyZW1iYXRlZGlzb3ByYS5iZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOzaiCxnY+uYGlL0VKPmkfWAjryEf2EIVInLK8qe9CLXIXK0X/Zst9Xabrb3dMaH4G12da5H4g8lEqmJ0ynQLJeFa1xBh4wwmBqNadOXi7PaFPdxtdkzSSrZT8XDUSDRBCZqZKZPFoQnVrI4vkgFinoMh8B4KkzgpyVYsiubi9cgTDCCRKI6T3Gpcj0QhFOSE3HLiiBkeiSgY9Zyv4tZTm/J3l81kJ3YeO4VuZ4QQMoiBsKKwXMDqkOOtRgwYNpZ1Wn23zr+1cztJiw1rkSg1cvV0igNxI5sU6Vy85CCjxfkxMQlaBq6ZFrSRG5dp+C5GdaY4yUhEoBCqwIN92Bo5mcCAwEAAaNTMFEwHQYDVR0OBBYEFNS9+mS6sbj1ypOyww/FVeT6aUqrMB8GA1UdIwQYMBaAFNS9+mS6sbj1ypOyww/FVeT6aUqrMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJDY7XOant7WM3BkvzSBzxQVI6/moTtsNLwSr1itlUlXmmNhn36UZ/Raxe1FvCi7ojWkIIsDhI9V/r/T9kqi9PZQmenYaXVLOloom7JBrDcdrVEot8UPPej7EoxrrZaAQe68+98xEzkE84WmpiWhhFOgD/+/Xa8U3EP3NMEAGfsDPmkMtR+s5UOjwiVL4yoEJRROn4ylHpZhCv4WJ1thT7TdrdrryK+Wzrwwg+okCs1ivKZor2OLaIf76ED2FZuK+ZQ0RhxwFfRyQVuyEV/X2+urgVYyONC0rYaLdPV7dC4P/yHwxhPmIolKR78WsdHVucL1Vkxf+EWznJMca0xxI2c=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETjCCAzagAwIBAgIJAPf77z7SBLXEMA0GCSqGSIb3DQEBCwUAMIG7MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEaMBgGA1UEBwwRQnJlbWJhdGUgZGkgU29wcmExJDAiBgNVBAoMG0NvbXVuZSBkaSBCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOTA3BgNVBAMMMHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyZW1iYXRlZGlzb3ByYS5iZy5pdDAeFw0xODAxMjkxNzI5NDVaFw0yODAxMjcxNzI5NDVaMIG7MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEaMBgGA1UEBwwRQnJlbWJhdGUgZGkgU29wcmExJDAiBgNVBAoMG0NvbXVuZSBkaSBCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xOTA3BgNVBAMMMHNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyZW1iYXRlZGlzb3ByYS5iZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOzaiCxnY+uYGlL0VKPmkfWAjryEf2EIVInLK8qe9CLXIXK0X/Zst9Xabrb3dMaH4G12da5H4g8lEqmJ0ynQLJeFa1xBh4wwmBqNadOXi7PaFPdxtdkzSSrZT8XDUSDRBCZqZKZPFoQnVrI4vkgFinoMh8B4KkzgpyVYsiubi9cgTDCCRKI6T3Gpcj0QhFOSE3HLiiBkeiSgY9Zyv4tZTm/J3l81kJ3YeO4VuZ4QQMoiBsKKwXMDqkOOtRgwYNpZ1Wn23zr+1cztJiw1rkSg1cvV0igNxI5sU6Vy85CCjxfkxMQlaBq6ZFrSRG5dp+C5GdaY4yUhEoBCqwIN92Bo5mcCAwEAAaNTMFEwHQYDVR0OBBYEFNS9+mS6sbj1ypOyww/FVeT6aUqrMB8GA1UdIwQYMBaAFNS9+mS6sbj1ypOyww/FVeT6aUqrMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJDY7XOant7WM3BkvzSBzxQVI6/moTtsNLwSr1itlUlXmmNhn36UZ/Raxe1FvCi7ojWkIIsDhI9V/r/T9kqi9PZQmenYaXVLOloom7JBrDcdrVEot8UPPej7EoxrrZaAQe68+98xEzkE84WmpiWhhFOgD/+/Xa8U3EP3NMEAGfsDPmkMtR+s5UOjwiVL4yoEJRROn4ylHpZhCv4WJ1thT7TdrdrryK+Wzrwwg+okCs1ivKZor2OLaIf76ED2FZuK+ZQ0RhxwFfRyQVuyEV/X2+urgVYyONC0rYaLdPV7dC4P/yHwxhPmIolKR78WsdHVucL1Vkxf+EWznJMca0xxI2c=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/brembatedisopra"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.brembatedisopra.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/brembatedisopra"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.brembatedisopra.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/brembatedisopra" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/brembatedisopra" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.brembatedisopra.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/brembatedisopra" index="2"/>
+     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.brembatedisopra.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="en">brembatedisopra</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Brembate Di Sopra</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Brembate Di Sopra</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Brembate Di Sopra</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Brembate Di Sopra</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Brembate Di Sopra</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Brembate Di Sopra</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Brembate Di Sopra</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Brembate Di Sopra</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.brembatedisopra.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.brembatedisopra.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.brembatedisopra.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.brembatedisopra.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

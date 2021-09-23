@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_05be86f8f47334a50a83a19576974937a0545cd9" entityID="https://spid.difesa.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>kEtpBaZvnFePxhoOl8UOuxRo2Mai0Cug1R7OXQWLrIQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+lfUzWDBJdPk+OZqUQW+6lbYFrrROkn7AdahWw2LXoWlz1tM1Q/mpM4/1KfZfRAGTbG/CrKYVidZB
+NObMynH27D5Oli50jOPpshRc1EtK7aUwi7/0gtcXLfhAW55+xAq1RgJWRzLbTMXNsx3c/BQt5q1q
+xZCaUOXRsMTdwahNhmiACsjzjSR9yaytUkTHm2FUAgL5cDFHAFKx3UVunWo9j/DVM921n+/2vrRg
+n9XOoQ4qBqDMPtEaZ7Ol/1jXzAn8WjYYprNdhXfSAxc42bRgbMs+Qt4/b1UHAWM2RopO+VXdEdrb
+JFpcQR8PhLUMYEJ7CQLMzsMTe38yLFdoO/yKyA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6/dwjNIHnxMca0wEj1q7M0LRpm9s0v7eqCuZg0aMbUrl+eOWaLAdbOTbjKmn1j5N0QOKgJVDN9Nn
+XP0gn1+rXlhhqiE+JeouGFWHM+GtgYY+fTHxY6ZTotFYhAsXDKz4Rl/OygNM7n4i3h1UQUah/5/E
+ACmCogbxyk9Eb6AAOYNQMWtX8OMv8FXpx+o2N76dqgrTlJXF6I8xg+EK3z0GQJe5T9xmpIgBRaMn
+Kksf+4NNWh4NcXqlLgQevE8BHmE5+kDsno3AZEUititplDv1QBJNZ2vpja0dVMM3aeFA3WERl40H
+UtaPJBPPj8s5uWb4fvv3WemZ8YdDYtnjfX9qDQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIF7DCCA9SgAwIBAgIIOeKAes7RgnUwDQYJKoZIhvcNAQELBQAwgb0xCzAJBgNVBAYTAklUMR8w
+HQYDVQQKDBZNaW5pc3Rlcm8gZGVsbGEgRGlmZXNhMSAwHgYDVQQLDBdTLk0uRC4gLSBDLmRvIEM0
+IERpZmVzYTEUMBIGA1UEBRMLOTczNTUyNDA1ODcxLDAqBgNVBAMMI01pbmlzdGVybyBkZWxsYSBE
+aWZlc2EgLSBDQSBJbnRlcm5hMScwJQYJKoZIhvcNAQkBFhhpbmZvX3BraWZmQHNtZC5kaWZlc2Eu
+aXQwHhcNMTcwMjAxMDgzMDM3WhcNMjIwMjAxMDgzMDM3WjBlMQswCQYDVQQGEwJJVDEsMCoGA1UE
+CgwjTWluaXN0ZXJvIGRlbGxhIERpZmVzYSAtIENBIEludGVybmExDzANBgNVBAsMBlMuTS5ELjEX
+MBUGA1UEAwwOc3BpZC5kaWZlc2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDr
+93CM0gefExxrTASPWrszQtGmb2zS/t6oK5mDRoxtSuX545ZosB1s5NuMqafWPk3RA4qAlUM302dc
+/SCfX6teWGGqIT4l6i4YVYcz4a2Bhj59MfFjplOi0ViECxcMrPhGX87KA0zufiLeHVRBRqH/n8QA
+KYKiBvHKT0RvoAA5g1Axa1fw4y/wVenH6jY3vp2qCtOUlcXojzGD4QrfPQZAl7lP3GakiAFFoycq
+Sx/7g01aHg1xeqUuBB68TwEeYTn6QOyejcBkRSK2K2mUO/VAEk1na+mNrR1Uwzdp4UDdYRGXjQdS
+1o8kE8+Pyzm5Zvh++/dZ6Znxh0Ni2eN9f2oNAgMBAAGjggFFMIIBQTA2BggrBgEFBQcBAQQqMCgw
+JgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwcGtpZmYuZGlmZXNhLml0MB0GA1UdDgQWBBTcXJYLwiPX
+BPcc3oUv86W9xnNtRzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFO9Won6Ck+2SazHYKGNBjWJL
+a2CQMFsGA1UdIARUMFIwUAYLKwYBBAHtTwIBBQEwQTA/BggrBgEFBQcCARYzaHR0cDovL3d3dy5w
+a2kuZGlmZXNhLml0L01hbnVhbGVPcGVyYXRpdm9EaWZlc2EucGRmMDcGA1UdHwQwMC4wLKAqoCiG
+Jmh0dHA6Ly93d3cucGtpLmRpZmVzYS5pdC9DQUludGVybmEuY3JsMA4GA1UdDwEB/wQEAwIFoDAT
+BgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQsFAAOCAgEAdqYMfIIOcud8wJRofTrws2EZ
+okLblNiDDRGJxpDb8NNgpurSjsF2UXRBlRXZ7By0hCJmX9Enr5YiQjlap9KQx2CDSvWfTYKd62Qm
+WSC7Bfia1O7yiZpzsOEt/CLxPLK5cJHJ2dw6NiRSRbGbsqMVyRL8tR2HVejMsVhPFOyQbkD8uw+8
+bdlLoHlRMp2Ary7KZyOjfSjv9giMYIdjWz6MKKrLR7MjjkWTnkI1TMhzYF92zCno497eu7qKmVYM
+NoxSCQEj5qpgDA/vmqdLRHAOVO9Xaba8i40aPj1eC4sPnlYz75i0rCfDuiHYE/2RPcRygP4h+GEq
+JRCRCEo6SD0DMVDRInCOwTDjbyMLd2fZwvBHbXVafLhNwQAlhSVksUoY9bj9QmWj6UFSseWcj35+
+R8Eq6Xr4CyyHTJbxpc5fGym0Lz25s807YnB+dZnIQyUQBju4R5WprfDYRlQTsjcLuQ84H631HVJQ
+24mL/IVehOvB00HDf7zNLIRxXi7GOq6OBmCUi/4NYq4FpqBduMato5aObCzTGlt1qmvof2ldhruX
+GoHhI3DDE+cSRfip/ah31BWg8WPYqVO9BwAAfSY8grqsC6YKToq9WlzKutiFH9517sz7Bd0/d7gw
+jJoFhgq0iEBu+V0QCAE2Wvr6YbIqLYjTTc8B9asn+pkY85Y+pTI=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+  <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:KeyName>spid.difesa.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.difesa.it,OU=S.M.D.,O=Ministero della Difesa - CA Interna,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIF7DCCA9SgAwIBAgIIOeKAes7RgnUwDQYJKoZIhvcNAQELBQAwgb0xCzAJBgNV
+BAYTAklUMR8wHQYDVQQKDBZNaW5pc3Rlcm8gZGVsbGEgRGlmZXNhMSAwHgYDVQQL
+DBdTLk0uRC4gLSBDLmRvIEM0IERpZmVzYTEUMBIGA1UEBRMLOTczNTUyNDA1ODcx
+LDAqBgNVBAMMI01pbmlzdGVybyBkZWxsYSBEaWZlc2EgLSBDQSBJbnRlcm5hMScw
+JQYJKoZIhvcNAQkBFhhpbmZvX3BraWZmQHNtZC5kaWZlc2EuaXQwHhcNMTcwMjAx
+MDgzMDM3WhcNMjIwMjAxMDgzMDM3WjBlMQswCQYDVQQGEwJJVDEsMCoGA1UECgwj
+TWluaXN0ZXJvIGRlbGxhIERpZmVzYSAtIENBIEludGVybmExDzANBgNVBAsMBlMu
+TS5ELjEXMBUGA1UEAwwOc3BpZC5kaWZlc2EuaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDr93CM0gefExxrTASPWrszQtGmb2zS/t6oK5mDRoxtSuX5
+45ZosB1s5NuMqafWPk3RA4qAlUM302dc/SCfX6teWGGqIT4l6i4YVYcz4a2Bhj59
+MfFjplOi0ViECxcMrPhGX87KA0zufiLeHVRBRqH/n8QAKYKiBvHKT0RvoAA5g1Ax
+a1fw4y/wVenH6jY3vp2qCtOUlcXojzGD4QrfPQZAl7lP3GakiAFFoycqSx/7g01a
+Hg1xeqUuBB68TwEeYTn6QOyejcBkRSK2K2mUO/VAEk1na+mNrR1Uwzdp4UDdYRGX
+jQdS1o8kE8+Pyzm5Zvh++/dZ6Znxh0Ni2eN9f2oNAgMBAAGjggFFMIIBQTA2Bggr
+BgEFBQcBAQQqMCgwJgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwcGtpZmYuZGlmZXNh
+Lml0MB0GA1UdDgQWBBTcXJYLwiPXBPcc3oUv86W9xnNtRzAMBgNVHRMBAf8EAjAA
+MB8GA1UdIwQYMBaAFO9Won6Ck+2SazHYKGNBjWJLa2CQMFsGA1UdIARUMFIwUAYL
+KwYBBAHtTwIBBQEwQTA/BggrBgEFBQcCARYzaHR0cDovL3d3dy5wa2kuZGlmZXNh
+Lml0L01hbnVhbGVPcGVyYXRpdm9EaWZlc2EucGRmMDcGA1UdHwQwMC4wLKAqoCiG
+Jmh0dHA6Ly93d3cucGtpLmRpZmVzYS5pdC9DQUludGVybmEuY3JsMA4GA1UdDwEB
+/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQsFAAOCAgEA
+dqYMfIIOcud8wJRofTrws2EZokLblNiDDRGJxpDb8NNgpurSjsF2UXRBlRXZ7By0
+hCJmX9Enr5YiQjlap9KQx2CDSvWfTYKd62QmWSC7Bfia1O7yiZpzsOEt/CLxPLK5
+cJHJ2dw6NiRSRbGbsqMVyRL8tR2HVejMsVhPFOyQbkD8uw+8bdlLoHlRMp2Ary7K
+ZyOjfSjv9giMYIdjWz6MKKrLR7MjjkWTnkI1TMhzYF92zCno497eu7qKmVYMNoxS
+CQEj5qpgDA/vmqdLRHAOVO9Xaba8i40aPj1eC4sPnlYz75i0rCfDuiHYE/2RPcRy
+gP4h+GEqJRCRCEo6SD0DMVDRInCOwTDjbyMLd2fZwvBHbXVafLhNwQAlhSVksUoY
+9bj9QmWj6UFSseWcj35+R8Eq6Xr4CyyHTJbxpc5fGym0Lz25s807YnB+dZnIQyUQ
+Bju4R5WprfDYRlQTsjcLuQ84H631HVJQ24mL/IVehOvB00HDf7zNLIRxXi7GOq6O
+BmCUi/4NYq4FpqBduMato5aObCzTGlt1qmvof2ldhruXGoHhI3DDE+cSRfip/ah3
+1BWg8WPYqVO9BwAAfSY8grqsC6YKToq9WlzKutiFH9517sz7Bd0/d7gwjJoFhgq0
+iEBu+V0QCAE2Wvr6YbIqLYjTTc8B9asn+pkY85Y+pTI=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.difesa.it/gw/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.difesa.it/gw/SLO/Redirect"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.difesa.it/gw/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+	    <md:ServiceName xml:lang="it">AnagraficaBase</md:ServiceName>
+	    <md:RequestedAttribute Name="spidCode"/>
+	    <md:RequestedAttribute Name="name"/>
+	    <md:RequestedAttribute Name="familyName"/>
+	    <md:RequestedAttribute Name="placeOfBirth"/>
+	    <md:RequestedAttribute Name="countyOfBirth"/>
+	    <md:RequestedAttribute Name="dateOfBirth"/>
+	    <md:RequestedAttribute Name="gender"/>
+	    <md:RequestedAttribute Name="email"/>
+	    <md:RequestedAttribute Name="idCard"/>
+	    <md:RequestedAttribute Name="fiscalNumber"/>
+    </md:AttributeConsumingService></md:SPSSODescriptor>
+ <md:Organization>
+	  <md:OrganizationName xml:lang="it">DIFESA</md:OrganizationName>
+	  <md:OrganizationDisplayName xml:lang="it">Ministero Della Difesa</md:OrganizationDisplayName>
+	  <md:OrganizationURL xml:lang="it">www.difesa.it</md:OrganizationURL>
+ </md:Organization>
+</md:EntityDescriptor>

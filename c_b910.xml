@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_b8a7c689-1285-4a31-9b94-507ead804849" entityID="https://spid.gov.it/entities/sp/c_b910"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b8a7c689-1285-4a31-9b94-507ead804849">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>aPgx9asQ++jYUW/ox4RiYfJ5lJ2OLLrDEuuPdhbcrK0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Ql7bbguBNYzStsi1zgcGCD3ytWZd1LtlUe8GXvt71EldG/2wHc6/NxUA48m4XhYHz6UFsjYSAJbU
+xt2xTxCrvcK6SdwQNoSy03p7GGeA3L/RN+Hnc5LHCLlWpv86/LhDjp8VwcBvGW4l7OYPpAYLJzDs
+P6N8BZl+4XemsfaJEK9E0VfQdHXKNNjPhjZbfRONWRjOUVd0LaIlf19RodXRrXN5rSkLyZgLhrxa
+zk8HuPdO5CpOidu7fWy8zXVJ5TSWSOx3lzbyHZeVzi9S7Va0Mr8JPoRDJ8VuxtoHK6d+yxeZ4zdO
+Pde5tXVPdtlm8VbAWJ15qvVu3D2Yc7s2hy3VFg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3p3X6lcYSaFb69dfSIbqvt3/5O9nHPRlaLNXcaBed7vtm0npcIA9VhhjCG/a8szQP38CVCJUENiy
+gdTAdT1Lf8d3wz54qxoDtSBrL2orscWIfsS7HrDB2EUnb6o3WPeHJtfYLfapF7cfcjZOphc/ZZiS
+2ypuXaL+iOAL3n/ljRXh68s61eISohMt2I6vXxI9oAgFCLZcpWU4BEWZHqNgYHTFQaVyYhtixR9v
+XxpCvgJRZaiuIxhq/HgDqU1/gMP6q1r8oUCkyhkW/rLI715zDe53vZr2eZi8sQdnohUN3aBYxkR7
+Cj5iKF+6QQdTWM8Rfjh0xfj/tWmQj4R06pcbrw==
+</ds:Modulus>
+<ds:Exponent>Aw==</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEADCCAuigAwIBAgIBADANBgkqhkiG9w0BAQUFADBjMQswCQYDVQQGEwJVUzEhMB8GA1UEChMY
+VGhlIEdvIERhZGR5IEdyb3VwLCBJbmMuMTEwLwYDVQQLEyhHbyBEYWRkeSBDbGFzcyAyIENlcnRp
+ZmljYXRpb24gQXV0aG9yaXR5MB4XDTA0MDYyOTE3MDYyMFoXDTM0MDYyOTE3MDYyMFowYzELMAkG
+A1UEBhMCVVMxITAfBgNVBAoTGFRoZSBHbyBEYWRkeSBHcm91cCwgSW5jLjExMC8GA1UECxMoR28g
+RGFkZHkgQ2xhc3MgMiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTCCASAwDQYJKoZIhvcNAQEBBQAD
+ggENADCCAQgCggEBAN6d1+pXGEmhW+vXX0iG6r7d/+TvZxz0ZWizV3GgXne77ZtJ6XCAPVYYYwhv
+2vLM0D9/AlQiVBDYsoHUwHU9S3/Hd8M+eKsaA7Ugay9qK7HFiH7Eux6wwdhFJ2+qN1j3hybX2C32
+qRe3H3I2TqYXP2WYktsqbl2i/ojgC95/5Y0V4evLOtXiEqITLdiOr18SPaAIBQi2XKVlOARFmR6j
+YGB0xUGlcmIbYsUfb18aQr4CUWWoriMYavx4A6lNf4DD+qta/KFApMoZFv6yyO9ecw3ud72a9nmY
+vLEHZ6IVDd2gWMZEewo+YihfukEHU1jPEX44dMX4/7VpkI+EdOqXG68CAQOjgcAwgb0wHQYDVR0O
+BBYEFNLEsNKR1EwRcbNhyz2h/t2oatTjMIGNBgNVHSMEgYUwgYKAFNLEsNKR1EwRcbNhyz2h/t2o
+atTjoWekZTBjMQswCQYDVQQGEwJVUzEhMB8GA1UEChMYVGhlIEdvIERhZGR5IEdyb3VwLCBJbmMu
+MTEwLwYDVQQLEyhHbyBEYWRkeSBDbGFzcyAyIENlcnRpZmljYXRpb24gQXV0aG9yaXR5ggEAMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBADJL87LKPpH8EsahB4yOd6AzBhRckB4Y9wim
+PQoZ+YeAEW5p5JYXMP80kWNyOO7MHAGjHZQopDH2esRU1/blMVgDoszOYtuURXO1v0XJJLXVggKt
+I3lpjbi2Tc7PTMozI+gciKqdi0FuFskg5YmezTvacPd+mSYgFFQlq25zheabIZ0KbIIOqPjCDPoQ
+HmyW74cNxA9hi63ugyuV+I6ShHI56yDqg+2DzZduCLzrTia2cyvk0/ZM/iZx4mERdEr/VxqHD3VI
+Ls9RaRegAhJhldXRQLIQTO7ErBBDpqWeCtWVYpoNz4iCxTIM5CufReYNnyicsbkqWletNw+vHX/b
+vZ8=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIG6TCCBdGgAwIBAgIIOiOwsLO8EqEwDQYJKoZIhvcNAQELBQAwgbQxCzAJBgNVBAYTAlVTMRAw
+DgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRowGAYDVQQKExFHb0RhZGR5LmNv
+bSwgSW5jLjEtMCsGA1UECxMkaHR0cDovL2NlcnRzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMTMw
+MQYDVQQDEypHbyBEYWRkeSBTZWN1cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwHhcNMTgx
+MjEzMTQwNDU5WhcNMjAxMjEzMTQwNDU5WjBPMSEwHwYDVQQLExhEb21haW4gQ29udHJvbCBWYWxp
+ZGF0ZWQxKjAoBgNVBAMTIXd3dy5jb211bmUuY2FzYWxwdXN0ZXJsZW5nby5sby5pdDCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALGlvy/c+eD1M3R5XMDrR1dowOFznS46d6T+kiDAUKB5
+rroe8AaaMwzw2aVZUFY0c8WUl7EGkKBT9ESkZaWxOMfmG3fC2nQsRD4sA27oYrjaAkzgPIdifNrT
+RhEMJj8rAbNyYGE5S651M4wweC/LtrjEqxDyAd8Rt3WZzf9S4pZFgubgndymsRKkJF7MXyAaYFy8
+6TF0dhkcpOF+Ohwm42MRuiOAdcHRlb2kYcZhz2rc75VDfk3RY5QCd7bikMlrJLoQ0j+oMU01KXTT
+nYlYMmbdpJe16TPAVuQG7xbxnbBCdrZrhj+E3c6hWEnwAy1aKMGaUKpMFuJEqxCVmrANqoECAwEA
+AaOCA2EwggNdMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA4G
+A1UdDwEB/wQEAwIFoDA3BgNVHR8EMDAuMCygKqAohiZodHRwOi8vY3JsLmdvZGFkZHkuY29tL2dk
+aWcyczEtODk3LmNybDBdBgNVHSAEVjBUMEgGC2CGSAGG/W0BBxcBMDkwNwYIKwYBBQUHAgEWK2h0
+dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQIBMHYGCCsG
+AQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZ29kYWRkeS5jb20vMEAGCCsGAQUF
+BzAChjRodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvZ2RpZzIuY3J0
+MB8GA1UdIwQYMBaAFEDCvSeOzDSDMKIz1/tss/C0LIDOMEsGA1UdEQREMEKCIXd3dy5jb211bmUu
+Y2FzYWxwdXN0ZXJsZW5nby5sby5pdIIdY29tdW5lLmNhc2FscHVzdGVybGVuZ28ubG8uaXQwHQYD
+VR0OBBYEFNjZ+QLPOITysnBM3XrtyD3ns0eOMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwCk
+uQmQtBhYFIe7E6LMZ3AKPDWYBPkb37jjd80OyA3cEAAAAWen4oYeAAAEAwBIMEYCIQCCV5Tk4FE9
+8XYnNCfFOvzyTe4tzsw8r/adU8DeMfWUswIhAKjV4vQwoc6fxlHCMKf2ut0/sgNOHIG0LDggd2S3
+cZLfAHUA7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/csAAAFnp+KIywAABAMARjBEAiBp
+JW2F5ZEaNX37rwTv/S3Oq9y6VWJhkO3E6fNXxI0MCgIgFa+i0suUPwdH7hsTkNpfa3vhCDmxHmua
+39XP/OIOH0QAdwBep3P531bA57U2SH3QSeAyepGaDIShEhKEGHWWgXFFWAAAAWen4o2hAAAEAwBI
+MEYCIQDXlz38E4GR6sZYXSrZ7OUYkdd7kSPyQvn6jqGFtlWeyAIhALlfr85HS0FY+/nSq18vFve/
+ePTPzs7BHFC2JvSVaJUKMA0GCSqGSIb3DQEBCwUAA4IBAQAmk0VfFfV12S10S4ugNq/UiWTZkDTx
+pj2o4lZNnkD/HyHXbo/zPuGYxG8N3kCSIP+4783FVcNXRV+BxztqR9GLYRP7PKsk3MAe2qmkROuq
+RhuMWdaM3IuomeDjZVH/GukE4pGfgBVzCbSWp/1Lxii25+rbf8dSG4grJ9RykfFCSLzhy89BB0LG
+/JFCLJInpKlkn/D7BpyzG7ez2URfYDYrVzdHbtvdZv40HcoCJi95GCb8m5zhr2ayDKos/ED1dz86
+g3FAk+quLYTkaFQ52VKhvnhAa64TtI9uOaCIH3HayGUi4kskGCCMFfN5gkkOEJdmzg8HYoVNn9Bl
+y8FN3OS6</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJANMTx3lI6lY9MA0GCSqGSIb3DQEBCwUAMCwxKjAoBgNVBAMTIXd3dy5jb211bmUuY2FzYWxwdXN0ZXJsZW5nby5sby5pdDAeFw0xOTA0MjMxMjI3MTRaFw0yOTA0MjAxMjI3MTRaMCwxKjAoBgNVBAMTIXd3dy5jb211bmUuY2FzYWxwdXN0ZXJsZW5nby5sby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALA5fmsOZymG/dlypgMUg0XUfzHoC146IfKfCXrtTpPJRMY1khM8mCBZZLmed7vuYxIeFtMabNr223af65Vo4jRaRX8dVWs/sD04Dz8Qz0S+XFZLwrRQLJqMFGHjlefnl5GoGjnE9voWdKNsIV6ekkF+gA4FrQr3sMOE+vs7B29ftK8l+IMXFWuHjArICed9BopWRPNmhucrlm/zJ9OiwWjvIrEWhsHw2fPdogeBOUK8/2J7WoKBXgyMzXf0KneO2Cve5/UY5T3NEC95rrmTNswUjFceqOr47g8mpda/xtRUFFbxEF13+tvmyjyWOxqUpyyF0D4OrfuBxdwPwOfhY/MCAwEAAaNyMHAwTwYDVR0RBEgwRoIhd3d3LmNvbXVuZS5jYXNhbHB1c3RlcmxlbmdvLmxvLml0hiF3d3cuY29tdW5lLmNhc2FscHVzdGVybGVuZ28ubG8uaXQwHQYDVR0OBBYEFNirndOvCYTnCrORrwofjBftWzFSMA0GCSqGSIb3DQEBCwUAA4IBAQAxWag2o8POe0QiIG89gZwoEVKOSk98TPn8OLnjhV0Z7SHtO0nXTkWiy9vNAfWC8Nhk0SGDazHrxf4qFyQvfuvWubF4Aga1S1+QGnJncbt0CVQzbEJ1De6hmuncSpEO2JLuJFptsOSpSUHoTMYqp9ZFN3ejwNi6EQQ1XfrLk6WKpZIGJLgfhFc9+M/p9xcexwJQgKVIxWY3arVdVshrJWpDfYYjsNDOVlep/dGJ/qLnJis0o7TyaP33T7cPdrrnWWzgB1g5D7gOzzD8gjIUsjrfbvHb3rkeEbgZJDzIhX4xtJqEnaBqxbaPYWv16cWG2bFXe1dhI44xFRBaNjeY7aQN</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.casalpusterlengo.lo.it/cmscasalpusterlengo/spidsinglelogout.aspx"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.casalpusterlengo.lo.it/cmscasalpusterlengo/spidassertionconsumer.aspx" index="1"/> 
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">SOL</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">COMUNE DI CASALPUSTERLENGO</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">COMUNE DI CASALPUSTERLENGO</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">www.comune.casalpusterlengo.lo.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

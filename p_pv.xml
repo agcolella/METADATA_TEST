@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="PaviaProv" entityID="https://www.provincia.pv.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#PaviaProv">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ozBRr0vZvielK/l3iznDDqUu/wrVmW3LlgTPxzxNEVs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+elIznf9FUYhzCdFlnxo4UtQT6E4kW/uZn67DEgQBmfZT7wdrG3k53KiP8dL6p2++iobSZFYsCbtm
+vwIty/Sm1zM2Ji1hSBUe5ymtQrkGjOrvmJ0/hhcMXbPSmVQuEpWNTy6qd1bz0Z1bHxrm9ZTcO0Mz
++1IGE946V5Z8cUqq3DyLvauulFSXcfKXVls00nNY+AQGH+VGAgmTIXCsRvloxbvC6TWWtK/wcS9u
++q6K1fxohee7uqiLJ6u3Gmiqa60hfBzLmfiTyWlEANUYASU2UM/WGePvrOJ+5WMOat6wBs8e1CYe
+OwD6d+bayfawxu3ml8psG/EMliham+vhTWI+Tw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+poLvBAPAAGKUZs0cK0JLCk2lXcU+dodp25pOvWE/0rT3rfHB0DXo1AKcx+oTJ5QAW52z64U89bwO
+r6dV0qJbiXhqbs8VwAdNhQ2DUrQ5VgQyzsM7xePEAShfm8QPfAiCS8gm2WMPEqr2r96ekiH2/12u
+CxdtlZGgosUVvycX/RTaP6VzWLvbZHxE2pBrwtubknqgu2+gKdqudZHOaVv0aNOhdwx9QDMyHeUW
+QZCfy1rbHLFJ1J0eUI0d5p/P0ELyI/ct1S8bU1l9NhBu7k2g45OtPoiuC6k12xCrT8b8/VYthPoH
+EtlOgh9yqrnvqsk7Em6c8BX/eetlBQRIftNf1w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDRzCCAi+gAwIBAgIJANhd8n74LatNMA0GCSqGSIb3DQEBCwUAMDoxHDAaBgNVBAMME3d3dy5w
+cm92aW5jaWEucHYuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDMyNzA5NDYx
+NVoXDTI4MDMyNDA5NDYxNVowOjEcMBoGA1UEAwwTd3d3LnByb3ZpbmNpYS5wdi5pdDENMAsGA1UE
+CwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmgu8E
+A8AAYpRmzRwrQksKTaVdxT52h2nbmk69YT/StPet8cHQNejUApzH6hMnlABbnbPrhTz1vA6vp1XS
+oluJeGpuzxXAB02FDYNStDlWBDLOwzvF48QBKF+bxA98CIJLyCbZYw8Sqvav3p6SIfb/Xa4LF22V
+kaCixRW/Jxf9FNo/pXNYu9tkfETakGvC25uSeqC7b6Ap2q51kc5pW/Ro06F3DH1AMzId5RZBkJ/L
+WtscsUnUnR5QjR3mn8/QQvIj9y3VLxtTWX02EG7uTaDjk60+iK4LqTXbEKtPxvz9Vi2E+gcS2U6C
+H3Kque+qyTsSbpzwFf9562UFBEh+01/XAgMBAAGjUDBOMB0GA1UdDgQWBBTfxkDGIwjpKgf8ZLqT
+MELwmuAfiTAfBgNVHSMEGDAWgBTfxkDGIwjpKgf8ZLqTMELwmuAfiTAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQCVCBqxC9x1f5Wdqu7HPH8qkPs6CZYwfCToFtf2m9zJoMq9nmbHjufU
+7UMWnK9czeIXpY9a1jsCJDquO34xZJHu/vwNapU3arC7qPMzd73kQRflZzWt2JUi70peWkdgIUBQ
+ClRc6tdDmKDaYaCaZHjqb4t6IFfptjPr4hksSToZ+zi77d/MKoG0YSnC5VWd8NFrTDH2dOpbmsPR
+C1fLl/N0xZLwdaYaoGxBNGZ2LJcc8O5wEZGBpaUajUZltG67XWNOaV1ENgysTwx9Bf3KOfgxZfzm
+uVeCrDLgYfRJliFAURCpMxv0ahvtS/FE18Lu/Kom4sBDLytO0svYvugU4+g7
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDRzCCAi+gAwIBAgIJANhd8n74LatNMA0GCSqGSIb3DQEBCwUAMDoxHDAaBgNVBAMME3d3dy5wcm92aW5jaWEucHYuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDMyNzA5NDYxNVoXDTI4MDMyNDA5NDYxNVowOjEcMBoGA1UEAwwTd3d3LnByb3ZpbmNpYS5wdi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmgu8EA8AAYpRmzRwrQksKTaVdxT52h2nbmk69YT/StPet8cHQNejUApzH6hMnlABbnbPrhTz1vA6vp1XSoluJeGpuzxXAB02FDYNStDlWBDLOwzvF48QBKF+bxA98CIJLyCbZYw8Sqvav3p6SIfb/Xa4LF22VkaCixRW/Jxf9FNo/pXNYu9tkfETakGvC25uSeqC7b6Ap2q51kc5pW/Ro06F3DH1AMzId5RZBkJ/LWtscsUnUnR5QjR3mn8/QQvIj9y3VLxtTWX02EG7uTaDjk60+iK4LqTXbEKtPxvz9Vi2E+gcS2U6CH3Kque+qyTsSbpzwFf9562UFBEh+01/XAgMBAAGjUDBOMB0GA1UdDgQWBBTfxkDGIwjpKgf8ZLqTMELwmuAfiTAfBgNVHSMEGDAWgBTfxkDGIwjpKgf8ZLqTMELwmuAfiTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCVCBqxC9x1f5Wdqu7HPH8qkPs6CZYwfCToFtf2m9zJoMq9nmbHjufU7UMWnK9czeIXpY9a1jsCJDquO34xZJHu/vwNapU3arC7qPMzd73kQRflZzWt2JUi70peWkdgIUBQClRc6tdDmKDaYaCaZHjqb4t6IFfptjPr4hksSToZ+zi77d/MKoG0YSnC5VWd8NFrTDH2dOpbmsPRC1fLl/N0xZLwdaYaoGxBNGZ2LJcc8O5wEZGBpaUajUZltG67XWNOaV1ENgysTwx9Bf3KOfgxZfzmuVeCrDLgYfRJliFAURCpMxv0ahvtS/FE18Lu/Kom4sBDLytO0svYvugU4+g7
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/paviaprov"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paviaprov" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paviaprov" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Provincia di Pavia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Provincia di Pavia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Provincia di Pavia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Provincia di Pavia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Provincia di Pavia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Provincia di Pavia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Provincia di Pavia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Provincia di Pavia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.provincia.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.provincia.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.provincia.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.provincia.pv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

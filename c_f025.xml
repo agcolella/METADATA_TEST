@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="MassaCozzile" entityID="https://www.comune.massa-e-cozzile.pt.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MassaCozzile">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/GYbCGL+vh0qQtSL5GnuFHnOpcqWvn93xCJRsrldnfM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dnWjtDmUygNx41MriKdpBLMLktw+9e6BMhAIuTmIu4F+EdMtA24SjfXmd21DUDAWRlJ01i5OulrU
+6aYYFUWB9NSp9JOatGrUiqtWJgD4Go+UsPyTyug5F1LHdy1aDhnB6iaVOZU+d7+UmerTu9R1nsrV
+1nVnOe1m5VSuqYRtbsAdc5IL0/lDOnaLQ9le09GFArJEmikFr5KrOK/s/Jdv1u9ka59S6Ept52TJ
+VAZgDd3i+XIf9uEGImQDnsAqJmTq0Evlgt2aH5ojUXB9iZSOUKO4oWuzCUE6aiAe7qEZoLoBeySg
+tAF5dxg7g8qWQTFlsaLtY0zTOL7Qg2tKBc37Zw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pUlpf78UdsSrU6s+CptF53faQiG4wBbHotlzPjPcHVvtXLBl7uE63Gc0B6UTYdiOeibR0MTfY946
+5265eOVVS/H5HOT5Xl1qKjtOuf1z4lXH+7G+o1teUkll1UkAcVcOuVNUTCC+OJ5do6spfec1lvrw
+eWhP9ivty/D5/DrrWChZQCmVRc4OUZZN13DsFa7wkR/dn3zEdveBnyx2vs6QJEFnSqGqhyOD2wpw
+2govddikhrK2volhYtjf9bz+WW612bA+y5OlysBb70430UZDytUFhl/FxjF2Bo7ElEK2TkOL+BGy
+aYQ0bIhW+XNppaxvo1wwpCEldv92bBqEJZCzWw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4jCCAsqgAwIBAgIJAK5APebuKJPnMA0GCSqGSIb3DQEBCwUAMIGXMSkwJwYDVQQDDCB3d3cu
+Y29tdW5lLm1hc3NhLWUtY296emlsZS5wdC5pdDEiMCAGA1UECgwZQ29tdW5lIGRpIE1hc3NhIGUg
+Q296emlsZTEVMBMGA1UEBAwMUEE6SVQtY19mMDI1MQswCQYDVQQGEwJJVDEiMCAGA1UEBwwZQ29t
+dW5lIGRpIE1hc3NhIGUgQ296emlsZTAeFw0yMDEwMjcwOTU4MjZaFw0zMDEwMjUwOTU4MjZaMIGX
+MSkwJwYDVQQDDCB3d3cuY29tdW5lLm1hc3NhLWUtY296emlsZS5wdC5pdDEiMCAGA1UECgwZQ29t
+dW5lIGRpIE1hc3NhIGUgQ296emlsZTEVMBMGA1UEBAwMUEE6SVQtY19mMDI1MQswCQYDVQQGEwJJ
+VDEiMCAGA1UEBwwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKVJaX+/FHbEq1OrPgqbRed32kIhuMAWx6LZcz4z3B1b7VywZe7hOtxnNAel
+E2HYjnom0dDE32PeOuduuXjlVUvx+Rzk+V5daio7Trn9c+JVx/uxvqNbXlJJZdVJAHFXDrlTVEwg
+vjieXaOrKX3nNZb68HloT/Yr7cvw+fw661goWUAplUXODlGWTddw7BWu8JEf3Z98xHb3gZ8sdr7O
+kCRBZ0qhqocjg9sKcNoKL3XYpIaytr6JYWLY3/W8/llutdmwPsuTpcrAW+9ON9FGQ8rVBYZfxcYx
+dgaOxJRCtk5Di/gRsmmENGyIVvlzaaWsb6NcMKQhJXb/dmwahCWQs1sCAwEAAaMvMC0wCQYDVR0T
+BAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEB
+AFas+MNBCVGv0a7gZ475VbuyUtY0VYNAHYlH5I0gOAz1fPPF0XA1Chjpnp1BT2E9USNeeaLY2f4r
+qaps2yXpo9/9VTCWX/jhbMsZE7AisWXgwTc4FRTvqKnk09xldnVKjii9G8Ktb0QI55P+onaiWhjV
+EY3ytgZsOo+aDIhflwTFhXL3Nan4r0r1N5+SPE1StE9b33V0mOFiUatl78OrY7SOWbfaLTK6cvtV
+Oz491iIFesBdt/u/MfMZk6WQ7WW7aKUrI+UntptFosiEnS0CCKigXS4X6F0Hz1s9G6XcOxQW1Bk4
+lhOEaZ24+P4pYKBp7LcxKyiZLWx+TxV0NvjsajA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID4jCCAsqgAwIBAgIJAK5APebuKJPnMA0GCSqGSIb3DQEBCwUAMIGXMSkwJwYDVQQDDCB3d3cuY29tdW5lLm1hc3NhLWUtY296emlsZS5wdC5pdDEiMCAGA1UECgwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTEVMBMGA1UEBAwMUEE6SVQtY19mMDI1MQswCQYDVQQGEwJJVDEiMCAGA1UEBwwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTAeFw0yMDEwMjcwOTU4MjZaFw0zMDEwMjUwOTU4MjZaMIGXMSkwJwYDVQQDDCB3d3cuY29tdW5lLm1hc3NhLWUtY296emlsZS5wdC5pdDEiMCAGA1UECgwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTEVMBMGA1UEBAwMUEE6SVQtY19mMDI1MQswCQYDVQQGEwJJVDEiMCAGA1UEBwwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKVJaX+/FHbEq1OrPgqbRed32kIhuMAWx6LZcz4z3B1b7VywZe7hOtxnNAelE2HYjnom0dDE32PeOuduuXjlVUvx+Rzk+V5daio7Trn9c+JVx/uxvqNbXlJJZdVJAHFXDrlTVEwgvjieXaOrKX3nNZb68HloT/Yr7cvw+fw661goWUAplUXODlGWTddw7BWu8JEf3Z98xHb3gZ8sdr7OkCRBZ0qhqocjg9sKcNoKL3XYpIaytr6JYWLY3/W8/llutdmwPsuTpcrAW+9ON9FGQ8rVBYZfxcYxdgaOxJRCtk5Di/gRsmmENGyIVvlzaaWsb6NcMKQhJXb/dmwahCWQs1sCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFas+MNBCVGv0a7gZ475VbuyUtY0VYNAHYlH5I0gOAz1fPPF0XA1Chjpnp1BT2E9USNeeaLY2f4rqaps2yXpo9/9VTCWX/jhbMsZE7AisWXgwTc4FRTvqKnk09xldnVKjii9G8Ktb0QI55P+onaiWhjVEY3ytgZsOo+aDIhflwTFhXL3Nan4r0r1N5+SPE1StE9b33V0mOFiUatl78OrY7SOWbfaLTK6cvtVOz491iIFesBdt/u/MfMZk6WQ7WW7aKUrI+UntptFosiEnS0CCKigXS4X6F0Hz1s9G6XcOxQW1Bk4lhOEaZ24+P4pYKBp7LcxKyiZLWx+TxV0NvjsajA=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID4jCCAsqgAwIBAgIJAK5APebuKJPnMA0GCSqGSIb3DQEBCwUAMIGXMSkwJwYDVQQDDCB3d3cuY29tdW5lLm1hc3NhLWUtY296emlsZS5wdC5pdDEiMCAGA1UECgwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTEVMBMGA1UEBAwMUEE6SVQtY19mMDI1MQswCQYDVQQGEwJJVDEiMCAGA1UEBwwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTAeFw0yMDEwMjcwOTU4MjZaFw0zMDEwMjUwOTU4MjZaMIGXMSkwJwYDVQQDDCB3d3cuY29tdW5lLm1hc3NhLWUtY296emlsZS5wdC5pdDEiMCAGA1UECgwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTEVMBMGA1UEBAwMUEE6SVQtY19mMDI1MQswCQYDVQQGEwJJVDEiMCAGA1UEBwwZQ29tdW5lIGRpIE1hc3NhIGUgQ296emlsZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKVJaX+/FHbEq1OrPgqbRed32kIhuMAWx6LZcz4z3B1b7VywZe7hOtxnNAelE2HYjnom0dDE32PeOuduuXjlVUvx+Rzk+V5daio7Trn9c+JVx/uxvqNbXlJJZdVJAHFXDrlTVEwgvjieXaOrKX3nNZb68HloT/Yr7cvw+fw661goWUAplUXODlGWTddw7BWu8JEf3Z98xHb3gZ8sdr7OkCRBZ0qhqocjg9sKcNoKL3XYpIaytr6JYWLY3/W8/llutdmwPsuTpcrAW+9ON9FGQ8rVBYZfxcYxdgaOxJRCtk5Di/gRsmmENGyIVvlzaaWsb6NcMKQhJXb/dmwahCWQs1sCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFas+MNBCVGv0a7gZ475VbuyUtY0VYNAHYlH5I0gOAz1fPPF0XA1Chjpnp1BT2E9USNeeaLY2f4rqaps2yXpo9/9VTCWX/jhbMsZE7AisWXgwTc4FRTvqKnk09xldnVKjii9G8Ktb0QI55P+onaiWhjVEY3ytgZsOo+aDIhflwTFhXL3Nan4r0r1N5+SPE1StE9b33V0mOFiUatl78OrY7SOWbfaLTK6cvtVOz491iIFesBdt/u/MfMZk6WQ7WW7aKUrI+UntptFosiEnS0CCKigXS4X6F0Hz1s9G6XcOxQW1Bk4lhOEaZ24+P4pYKBp7LcxKyiZLWx+TxV0NvjsajA=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/massacozzile"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/massacozzile" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/massacozzile" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/massacozzile" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Massa e Cozzile</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Massa e Cozzile</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Massa e Cozzile</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Massa e Cozzile</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Massa e Cozzile</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Massa e Cozzile</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Massa e Cozzile</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Massa e Cozzile</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.massa-e-cozzile.pt.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.massa-e-cozzile.pt.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.massa-e-cozzile.pt.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.massa-e-cozzile.pt.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_f025</spid:IPACode>
+         <spid:FiscalCode>00356350470</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>r.biondi@comune.massa-e-cozzile.pt.it</md:EmailAddress>
+      <md:TelephoneNumber>0572928353</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

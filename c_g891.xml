@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx110250ed-82e4-0ae6-ed90-0ce7f8d0da27" entityID="https://www.comune.porpetto.ud.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx110250ed-82e4-0ae6-ed90-0ce7f8d0da27">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>l8oKw9z/X2qJy7ZO7K6hrGYAO5lnzmYWaBS1mvI357w=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CnSfplYzauJaYr4r2g2bndZS76qt7c86CQ6hcelZgSX4RHanftduyZWnsbiobz94VtvO2+VFOtIX
+f6DixkdVAAWdAC0Km4CIHoUFQk+1KJWVM1bMuW9GodaS7OnVQWETeeCuzaMGqxUN0E/voH34gfpc
+w4+GgR0aP28Ko86/5IRIKx87dAAZVhqh0QRgZ4igVP1cr1snaeSn0c70OX0W3MrJAetFybhMp+kC
+5RriV/rlbsm9bnw7jf0Oqtnl4z0Tco7rcEN/oXwHd9rMZ39avwZKaCuM8WJn4HQ2DvmvUskn8GRH
+dP9BBNRqUKdV1PJJsjIgQrLI78T/a36ehuZrNQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3WBQsJXccK5r3Q1/P2HQebXXN8ANlYP9XnKO0NJLonsQcWZn4sx/8PR59qcar74I1yJbaNd3fKQB
+3OM7V01wBsh6dTIKLLCq/McEro7z2k1kKQyN48atmO4ZmLnXJrnwfd9LYtuJ/Z5PDcAIo50u0Ovz
+jspf5gVvEmPJvzqy6ARPGUb5/herqY63LdrS+DiYi2ntJxqIjEL2lF2SMael69dmDkezTUDqxkp3
+1VYNrIlpHZKetzhKhkSexeokKK1YSGmnY+6KaEMlHxrjeHo8+Qt4bFZh2aOhpUvWxd6G3ahFoPg0
+zNKAKxZNFH+Mx03tTlFhVRMRhpo8min2vnu7mw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtTCCAp2gAwIBAgIJAJUtjjDM6AY8MA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUG9ycGV0dG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBQb3Jw
+ZXR0bzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5wb3JwZXR0by51ZC5pdDAeFw0xOTA1MjQwODMxNDFa
+Fw0yOTA1MjMwODMxNDFaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwI
+UG9ycGV0dG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBQb3JwZXR0bzEiMCAGA1UEAwwZd3d3LmNvbXVu
+ZS5wb3JwZXR0by51ZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN1gULCV3HCu
+a90Nfz9h0Hm11zfADZWD/V5yjtDSS6J7EHFmZ+LMf/D0efanGq++CNciW2jXd3ykAdzjO1dNcAbI
+enUyCiywqvzHBK6O89pNZCkMjePGrZjuGZi51ya58H3fS2Lbif2eTw3ACKOdLtDr847KX+YFbxJj
+yb86sugETxlG+f4Xq6mOty3a0vg4mItp7ScaiIxC9pRdkjGnpevXZg5Hs01A6sZKd9VWDayJaR2S
+nrc4SoZEnsXqJCitWEhpp2PuimhDJR8a43h6PPkLeGxWYdmjoaVL1sXeht2oRaD4NMzSgCsWTRR/
+jMdN7U5RYVUTEYaaPJop9r57u5sCAwEAAaNQME4wHQYDVR0OBBYEFKRRxUSPeKsHE+hwtxLOXP7p
+HYI0MB8GA1UdIwQYMBaAFKRRxUSPeKsHE+hwtxLOXP7pHYI0MAwGA1UdEwQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBABIfDRdOTLYSUMA00iJwOds8HT1BRSAyFwXq0Hbb0NHgEYzJR0lPzJpLgQjR
+2ka5eb86hSnMe2PVMCB31lQ1b31W2A6rUSwkrmR/CMBUAMr1VkF0Om+af2CZpl9gxj0T0QjwtJyx
+WQGYvy7Kpj4uCld8xzIu5vdwqAEMaMlyY8c/Tr74IRrcKFuAO3ptviOyb+lPDRZ3Lxvfpp0IVpZR
+NGQg14IxRnn2PkO+n/R/7JPhtffVH/+OQ6xpAz7O+VK7yThcTFvakGK7/i4mB23MDpaqZp4WOaSb
+/RxXzmW4nYC+DlWOzmMf3ZP8qJ9g9HjmGMqdGp+JrAEghBdTLvubyvo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAJUtjjDM6AY8MA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUG9ycGV0dG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBQb3JwZXR0bzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5wb3JwZXR0by51ZC5pdDAeFw0xOTA1MjQwODMxNDFaFw0yOTA1MjMwODMxNDFaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUG9ycGV0dG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBQb3JwZXR0bzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5wb3JwZXR0by51ZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN1gULCV3HCua90Nfz9h0Hm11zfADZWD/V5yjtDSS6J7EHFmZ+LMf/D0efanGq++CNciW2jXd3ykAdzjO1dNcAbIenUyCiywqvzHBK6O89pNZCkMjePGrZjuGZi51ya58H3fS2Lbif2eTw3ACKOdLtDr847KX+YFbxJjyb86sugETxlG+f4Xq6mOty3a0vg4mItp7ScaiIxC9pRdkjGnpevXZg5Hs01A6sZKd9VWDayJaR2Snrc4SoZEnsXqJCitWEhpp2PuimhDJR8a43h6PPkLeGxWYdmjoaVL1sXeht2oRaD4NMzSgCsWTRR/jMdN7U5RYVUTEYaaPJop9r57u5sCAwEAAaNQME4wHQYDVR0OBBYEFKRRxUSPeKsHE+hwtxLOXP7pHYI0MB8GA1UdIwQYMBaAFKRRxUSPeKsHE+hwtxLOXP7pHYI0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABIfDRdOTLYSUMA00iJwOds8HT1BRSAyFwXq0Hbb0NHgEYzJR0lPzJpLgQjR2ka5eb86hSnMe2PVMCB31lQ1b31W2A6rUSwkrmR/CMBUAMr1VkF0Om+af2CZpl9gxj0T0QjwtJyxWQGYvy7Kpj4uCld8xzIu5vdwqAEMaMlyY8c/Tr74IRrcKFuAO3ptviOyb+lPDRZ3Lxvfpp0IVpZRNGQg14IxRnn2PkO+n/R/7JPhtffVH/+OQ6xpAz7O+VK7yThcTFvakGK7/i4mB23MDpaqZp4WOaSb/RxXzmW4nYC+DlWOzmMf3ZP8qJ9g9HjmGMqdGp+JrAEghBdTLvubyvo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAJUtjjDM6AY8MA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUG9ycGV0dG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBQb3JwZXR0bzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5wb3JwZXR0by51ZC5pdDAeFw0xOTA1MjQwODMxNDFaFw0yOTA1MjMwODMxNDFaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIUG9ycGV0dG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBQb3JwZXR0bzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5wb3JwZXR0by51ZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN1gULCV3HCua90Nfz9h0Hm11zfADZWD/V5yjtDSS6J7EHFmZ+LMf/D0efanGq++CNciW2jXd3ykAdzjO1dNcAbIenUyCiywqvzHBK6O89pNZCkMjePGrZjuGZi51ya58H3fS2Lbif2eTw3ACKOdLtDr847KX+YFbxJjyb86sugETxlG+f4Xq6mOty3a0vg4mItp7ScaiIxC9pRdkjGnpevXZg5Hs01A6sZKd9VWDayJaR2Snrc4SoZEnsXqJCitWEhpp2PuimhDJR8a43h6PPkLeGxWYdmjoaVL1sXeht2oRaD4NMzSgCsWTRR/jMdN7U5RYVUTEYaaPJop9r57u5sCAwEAAaNQME4wHQYDVR0OBBYEFKRRxUSPeKsHE+hwtxLOXP7pHYI0MB8GA1UdIwQYMBaAFKRRxUSPeKsHE+hwtxLOXP7pHYI0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABIfDRdOTLYSUMA00iJwOds8HT1BRSAyFwXq0Hbb0NHgEYzJR0lPzJpLgQjR2ka5eb86hSnMe2PVMCB31lQ1b31W2A6rUSwkrmR/CMBUAMr1VkF0Om+af2CZpl9gxj0T0QjwtJyxWQGYvy7Kpj4uCld8xzIu5vdwqAEMaMlyY8c/Tr74IRrcKFuAO3ptviOyb+lPDRZ3Lxvfpp0IVpZRNGQg14IxRnn2PkO+n/R/7JPhtffVH/+OQ6xpAz7O+VK7yThcTFvakGK7/i4mB23MDpaqZp4WOaSb/RxXzmW4nYC+DlWOzmMf3ZP8qJ9g9HjmGMqdGp+JrAEghBdTLvubyvo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.porpetto.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.porpetto.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Porpetto</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Porpetto</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.porpetto.ud.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

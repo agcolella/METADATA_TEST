@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.primolevimarino.gov.it/wp/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/metadata.php/default-sp" ID="pfxa3cea4fb-cc6a-9340-4fac-f611c45c548d"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa3cea4fb-cc6a-9340-4fac-f611c45c548d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>C6pkhVWMRwM40Mew1HLCu4tfUPSaoEjfMPcCgO8etKA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>S3LU5OD/5Btn07rF0jtbLaNmbyAi82zGNHNvltREGF62iILXKRyr7fFy2U0HEbnokgnPDcIOqUJ2hD7aVDlEORYx7wbi/Jl3d6Mese/hZ7oE4N8M3wZdou01UXpiJ92xrBXKRaLJ2zd3UntZxtC3Z5x9QDpwOLpVUtaLjzgYRObrX1AsuqcB0q9CZ8yxmoodVg7rvwC7rAWCwiijW66EM88daFZym0idmXEAdeHLAgThxsrVOeBRk5h1WG2LkCHYKT4O/OCuL8Mxrz8BXyNT6E4AzfVBKGKeTPrlIpaLMhMgitutO2eElEnn7wPJFIxabUQgyw3c7ytr7ZXlrXh7Sg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENDCCAxygAwIBAgII95YqopQs4AAwDQYJKoZIhvcNAQELBQAwgbAxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ8wDQYDVQQHDAZNYXJpbm8xGDAWBgNVBAoMD0kuQy4gUHJpbW8gTGV2aTEWMBQGA1UECwwNaXN0cnV6aW9uZSBQQTEjMCEGA1UEAwwad3d3LnByaW1vbGV2aW1hcmluby5nb3YuaXQxKjAoBgkqhkiG9w0BCQEWG3NpdG9AcHJpbW9sZXZpbWFyaW5vLmdvdi5pdDAeFw0xODA1MTExOTUyMjVaFw0zODA1MTAxOTUyMjVaMIGwMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTEPMA0GA1UEBwwGTWFyaW5vMRgwFgYDVQQKDA9JLkMuIFByaW1vIExldmkxFjAUBgNVBAsMDWlzdHJ1emlvbmUgUEExIzAhBgNVBAMMGnd3dy5wcmltb2xldmltYXJpbm8uZ292Lml0MSowKAYJKoZIhvcNAQkBFhtzaXRvQHByaW1vbGV2aW1hcmluby5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC92/tAwtq5UE8F+wxmxFypt0cWFek9beu9CZSQVr5S9eCKId6kXec7wAt+SqjydGPFWzycQCEseOdatJQZ/aZJE7zT5NRIVTXYVw7PzXJaT4BuWmQnVZL2AnSY43ygsovUp/fNmCD7yvggOSN8Co0qnKIwmdNUh1a/SAOOejBsXNfhsFgehQEExSuMZ+yRSQigdq3/8K+g0kI6pkxaSUDhyHFJlNvO8et7ozWbk2gDRxwCM4qpSRmQkT9bydd0Iv/SiGbQjogSOX4n9aWqG0id/nO0NRZuU6qfqiOK8G7ei+snHyKr5ykWMVeDOtEib40pA865DqgW5rbL6S+WhJ1lAgMBAAGjUDBOMB0GA1UdDgQWBBQyjzcSR7+b+eosU7wER88UmAg5jTAfBgNVHSMEGDAWgBQyjzcSR7+b+eosU7wER88UmAg5jTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBeA5HVkGi+3dKx7kDBdIgtDxY3nqyw8Y8VjH2XZFqhX7Bdu/O92g+iqSr+IYNfCoGB/8t1MHxm+1DN80pemztcfHAuB1GZ18NYIYL7VMCuRr8fsxmwURUwEgkHeMUFFqLXjzu3cPjOcBoEHDq9N6R7BU7hIVEAOnG7EC4dv4b1Ggyxzg1xX9hdmIhNjwF7C+K6MDn2lZYnNrR8zpmrpIv7DhnmUWq3fjH/hQrT5VS7mys/sOouiBaLL2o0nFzZm14ej+dRaB2Cm2BWKk3jvH+SZnrYmdJLF1ZDla7K9UjlIuz3UsLISJmVLICNPqYvZPWdNQqY/hYEKX7zOX4GkX4m</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENDCCAxygAwIBAgII95YqopQs4AAwDQYJKoZIhvcNAQELBQAwgbAxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ8wDQYDVQQHDAZNYXJpbm8xGDAWBgNVBAoMD0kuQy4gUHJpbW8gTGV2aTEWMBQGA1UECwwNaXN0cnV6aW9uZSBQQTEjMCEGA1UEAwwad3d3LnByaW1vbGV2aW1hcmluby5nb3YuaXQxKjAoBgkqhkiG9w0BCQEWG3NpdG9AcHJpbW9sZXZpbWFyaW5vLmdvdi5pdDAeFw0xODA1MTExOTUyMjVaFw0zODA1MTAxOTUyMjVaMIGwMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTEPMA0GA1UEBwwGTWFyaW5vMRgwFgYDVQQKDA9JLkMuIFByaW1vIExldmkxFjAUBgNVBAsMDWlzdHJ1emlvbmUgUEExIzAhBgNVBAMMGnd3dy5wcmltb2xldmltYXJpbm8uZ292Lml0MSowKAYJKoZIhvcNAQkBFhtzaXRvQHByaW1vbGV2aW1hcmluby5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC92/tAwtq5UE8F+wxmxFypt0cWFek9beu9CZSQVr5S9eCKId6kXec7wAt+SqjydGPFWzycQCEseOdatJQZ/aZJE7zT5NRIVTXYVw7PzXJaT4BuWmQnVZL2AnSY43ygsovUp/fNmCD7yvggOSN8Co0qnKIwmdNUh1a/SAOOejBsXNfhsFgehQEExSuMZ+yRSQigdq3/8K+g0kI6pkxaSUDhyHFJlNvO8et7ozWbk2gDRxwCM4qpSRmQkT9bydd0Iv/SiGbQjogSOX4n9aWqG0id/nO0NRZuU6qfqiOK8G7ei+snHyKr5ykWMVeDOtEib40pA865DqgW5rbL6S+WhJ1lAgMBAAGjUDBOMB0GA1UdDgQWBBQyjzcSR7+b+eosU7wER88UmAg5jTAfBgNVHSMEGDAWgBQyjzcSR7+b+eosU7wER88UmAg5jTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBeA5HVkGi+3dKx7kDBdIgtDxY3nqyw8Y8VjH2XZFqhX7Bdu/O92g+iqSr+IYNfCoGB/8t1MHxm+1DN80pemztcfHAuB1GZ18NYIYL7VMCuRr8fsxmwURUwEgkHeMUFFqLXjzu3cPjOcBoEHDq9N6R7BU7hIVEAOnG7EC4dv4b1Ggyxzg1xX9hdmIhNjwF7C+K6MDn2lZYnNrR8zpmrpIv7DhnmUWq3fjH/hQrT5VS7mys/sOouiBaLL2o0nFzZm14ej+dRaB2Cm2BWKk3jvH+SZnrYmdJLF1ZDla7K9UjlIuz3UsLISJmVLICNPqYvZPWdNQqY/hYEKX7zOX4GkX4m</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENDCCAxygAwIBAgII95YqopQs4AAwDQYJKoZIhvcNAQELBQAwgbAxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ8wDQYDVQQHDAZNYXJpbm8xGDAWBgNVBAoMD0kuQy4gUHJpbW8gTGV2aTEWMBQGA1UECwwNaXN0cnV6aW9uZSBQQTEjMCEGA1UEAwwad3d3LnByaW1vbGV2aW1hcmluby5nb3YuaXQxKjAoBgkqhkiG9w0BCQEWG3NpdG9AcHJpbW9sZXZpbWFyaW5vLmdvdi5pdDAeFw0xODA1MTExOTUyMjVaFw0zODA1MTAxOTUyMjVaMIGwMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTEPMA0GA1UEBwwGTWFyaW5vMRgwFgYDVQQKDA9JLkMuIFByaW1vIExldmkxFjAUBgNVBAsMDWlzdHJ1emlvbmUgUEExIzAhBgNVBAMMGnd3dy5wcmltb2xldmltYXJpbm8uZ292Lml0MSowKAYJKoZIhvcNAQkBFhtzaXRvQHByaW1vbGV2aW1hcmluby5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC92/tAwtq5UE8F+wxmxFypt0cWFek9beu9CZSQVr5S9eCKId6kXec7wAt+SqjydGPFWzycQCEseOdatJQZ/aZJE7zT5NRIVTXYVw7PzXJaT4BuWmQnVZL2AnSY43ygsovUp/fNmCD7yvggOSN8Co0qnKIwmdNUh1a/SAOOejBsXNfhsFgehQEExSuMZ+yRSQigdq3/8K+g0kI6pkxaSUDhyHFJlNvO8et7ozWbk2gDRxwCM4qpSRmQkT9bydd0Iv/SiGbQjogSOX4n9aWqG0id/nO0NRZuU6qfqiOK8G7ei+snHyKr5ykWMVeDOtEib40pA865DqgW5rbL6S+WhJ1lAgMBAAGjUDBOMB0GA1UdDgQWBBQyjzcSR7+b+eosU7wER88UmAg5jTAfBgNVHSMEGDAWgBQyjzcSR7+b+eosU7wER88UmAg5jTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBeA5HVkGi+3dKx7kDBdIgtDxY3nqyw8Y8VjH2XZFqhX7Bdu/O92g+iqSr+IYNfCoGB/8t1MHxm+1DN80pemztcfHAuB1GZ18NYIYL7VMCuRr8fsxmwURUwEgkHeMUFFqLXjzu3cPjOcBoEHDq9N6R7BU7hIVEAOnG7EC4dv4b1Ggyxzg1xX9hdmIhNjwF7C+K6MDn2lZYnNrR8zpmrpIv7DhnmUWq3fjH/hQrT5VS7mys/sOouiBaLL2o0nFzZm14ej+dRaB2Cm2BWKk3jvH+SZnrYmdJLF1ZDla7K9UjlIuz3UsLISJmVLICNPqYvZPWdNQqY/hYEKX7zOX4GkX4m</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.primolevimarino.gov.it/wp/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.primolevimarino.gov.it/wp/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ic_primolevi</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">I.C. Primo Levi / Marino (Roma)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">I.C. Primo Levi / Marino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">I.C. Primo Levi / Marino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.primolevimarino.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

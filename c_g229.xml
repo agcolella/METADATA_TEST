@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.paese.tv.it" ID="pfxa239f149-0358-ef98-3621-92d8f1c01ae9"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa239f149-0358-ef98-3621-92d8f1c01ae9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jdTAU57Zm+X71F0WvhbUtCTqm82plpzI+WtU+3DrpKQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>RZdE4JWNDKk2yNY4aVVYFktANwOdnYe1TnLcsfSqmJpRG2IhF0wad3zERViBIQiyx64eqYqFMFiT6Yvbi6XRMiPh46ASRVkOY5PqPBvkaeEZSZfrvxicRvbrBoVVderyZyl0Dp6tUnLvjDhhdxZVBJgPKib/lDj806EIBMyQb3zYWmJZLb6MqPYnFTyxuIUeb54LWlQskrlL3ja84MK6bkyimW38sf4x+PagYv/MtWqJV1vVmXW3+cFUbZ19yO2JZ1ewLHeEEvknj/2vShgaX1MnXT5GAA2951FqQwe0beHhUhpAVZOgdT5PEK8ciLMRqYf9Srksz7NOTk0CWyZCWw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDozCCAougAwIBAgIJAI7YAYbdDkrzMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFUGFlc2UxGDAWBgNVBAoMD0NvbXVuZSBkaSBQYWVzZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5wYWVzZS50di5pdDAeFw0xODA0MDkxMDU2MzNaFw0yODA0MDgxMDU2MzNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFUGFlc2UxGDAWBgNVBAoMD0NvbXVuZSBkaSBQYWVzZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5wYWVzZS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXz/iWHWBQyvt2pO0ZD/smmNKffPm1QONjrMcXnSejNS57QOXORxddpQTFfH+8rv+0H5LqGU4cCMR7wQWqV2W/pL64NNvkHgRciBB9U5/IrmrJ2o0jbONxMaMRG0eK044Pk5PGYxHTT3JEuECV4xcscvUass2ovogfpuDFXtFCF/2uaGIDXyOurb2vPu9GlRBVe3uC+HaxUCmtkR19CVZG7mzeUaRFznQjmILu+Hg3UheqVc4g0pPkjHWExiCprCujKZA/64ZAfqan0AYdDFMCQ1PytJhpBBAXG92d/P/KZOlAxY+zOs2B23/whS0qk0IUFk0FsXVwp8D1xg8EkWGcCAwEAAaNQME4wHQYDVR0OBBYEFKkD6smayqjDWW875a3tOaiL+HawMB8GA1UdIwQYMBaAFKkD6smayqjDWW875a3tOaiL+HawMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHC0XnnLSI5/xcd8H2UTg9UgwenuZAH+K2cKl/wyALO2zBv/pUCMzuMsk1UqiqIKdtpMvOE2IcG+4hclPeaTaKxSMs425MbRdG6AUINhO84jpcrKAqG7zmcr3DJpv/NnZ2ue0PGhJlwCJbcLy4+9mINpAbwZVLiT+aETd3kQ+EIGZYBf6wMxTUCY43niMhrjjBmJqIexoz/q4FO4hxn4HSd9tlfvADo407gFTCT4VmRqrP/mcQSd4vveLDV5FPBk20VUctp6ZJhdoL0+qr6k1B/WreieNWqgKgHXetKcyZ3FacJrAv3klGwVKOkln9tddRrwbNhrpJO7zXUc0XHDFHE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDozCCAougAwIBAgIJAI7YAYbdDkrzMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFUGFlc2UxGDAWBgNVBAoMD0NvbXVuZSBkaSBQYWVzZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5wYWVzZS50di5pdDAeFw0xODA0MDkxMDU2MzNaFw0yODA0MDgxMDU2MzNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFUGFlc2UxGDAWBgNVBAoMD0NvbXVuZSBkaSBQYWVzZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5wYWVzZS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXz/iWHWBQyvt2pO0ZD/smmNKffPm1QONjrMcXnSejNS57QOXORxddpQTFfH+8rv+0H5LqGU4cCMR7wQWqV2W/pL64NNvkHgRciBB9U5/IrmrJ2o0jbONxMaMRG0eK044Pk5PGYxHTT3JEuECV4xcscvUass2ovogfpuDFXtFCF/2uaGIDXyOurb2vPu9GlRBVe3uC+HaxUCmtkR19CVZG7mzeUaRFznQjmILu+Hg3UheqVc4g0pPkjHWExiCprCujKZA/64ZAfqan0AYdDFMCQ1PytJhpBBAXG92d/P/KZOlAxY+zOs2B23/whS0qk0IUFk0FsXVwp8D1xg8EkWGcCAwEAAaNQME4wHQYDVR0OBBYEFKkD6smayqjDWW875a3tOaiL+HawMB8GA1UdIwQYMBaAFKkD6smayqjDWW875a3tOaiL+HawMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHC0XnnLSI5/xcd8H2UTg9UgwenuZAH+K2cKl/wyALO2zBv/pUCMzuMsk1UqiqIKdtpMvOE2IcG+4hclPeaTaKxSMs425MbRdG6AUINhO84jpcrKAqG7zmcr3DJpv/NnZ2ue0PGhJlwCJbcLy4+9mINpAbwZVLiT+aETd3kQ+EIGZYBf6wMxTUCY43niMhrjjBmJqIexoz/q4FO4hxn4HSd9tlfvADo407gFTCT4VmRqrP/mcQSd4vveLDV5FPBk20VUctp6ZJhdoL0+qr6k1B/WreieNWqgKgHXetKcyZ3FacJrAv3klGwVKOkln9tddRrwbNhrpJO7zXUc0XHDFHE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDozCCAougAwIBAgIJAI7YAYbdDkrzMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFUGFlc2UxGDAWBgNVBAoMD0NvbXVuZSBkaSBQYWVzZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5wYWVzZS50di5pdDAeFw0xODA0MDkxMDU2MzNaFw0yODA0MDgxMDU2MzNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFUGFlc2UxGDAWBgNVBAoMD0NvbXVuZSBkaSBQYWVzZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5wYWVzZS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXz/iWHWBQyvt2pO0ZD/smmNKffPm1QONjrMcXnSejNS57QOXORxddpQTFfH+8rv+0H5LqGU4cCMR7wQWqV2W/pL64NNvkHgRciBB9U5/IrmrJ2o0jbONxMaMRG0eK044Pk5PGYxHTT3JEuECV4xcscvUass2ovogfpuDFXtFCF/2uaGIDXyOurb2vPu9GlRBVe3uC+HaxUCmtkR19CVZG7mzeUaRFznQjmILu+Hg3UheqVc4g0pPkjHWExiCprCujKZA/64ZAfqan0AYdDFMCQ1PytJhpBBAXG92d/P/KZOlAxY+zOs2B23/whS0qk0IUFk0FsXVwp8D1xg8EkWGcCAwEAAaNQME4wHQYDVR0OBBYEFKkD6smayqjDWW875a3tOaiL+HawMB8GA1UdIwQYMBaAFKkD6smayqjDWW875a3tOaiL+HawMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHC0XnnLSI5/xcd8H2UTg9UgwenuZAH+K2cKl/wyALO2zBv/pUCMzuMsk1UqiqIKdtpMvOE2IcG+4hclPeaTaKxSMs425MbRdG6AUINhO84jpcrKAqG7zmcr3DJpv/NnZ2ue0PGhJlwCJbcLy4+9mINpAbwZVLiT+aETd3kQ+EIGZYBf6wMxTUCY43niMhrjjBmJqIexoz/q4FO4hxn4HSd9tlfvADo407gFTCT4VmRqrP/mcQSd4vveLDV5FPBk20VUctp6ZJhdoL0+qr6k1B/WreieNWqgKgHXetKcyZ3FacJrAv3klGwVKOkln9tddRrwbNhrpJO7zXUc0XHDFHE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.paese.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.paese.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Paese</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Paese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.paese.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

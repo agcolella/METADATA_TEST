@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icspallanzanimestre5.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx5547b98a-7379-c248-ac00-36037d7eaf24"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx5547b98a-7379-c248-ac00-36037d7eaf24"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>E9IweyKyckRWMlgLZPOiLcxFFaEoRsVBHu6WCgKcQSU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>b0knz0h1aM38G6fNLZnarZ4EDKrTi6mu4t2aiFH47Ylm3/Fiw0w0i6jj4zow5oIc4xsIVex7Tz526fBdCM5x8GxY6z2dV/sXb60rOVLwS+FRWgcCpjUouoyAeVwpwhB7EOQOCqHEhQVOrr0kOCqh08NsGLls6W7pxs0nhGQHjuesH8u5ZKBj2kYTa50BW8UbA9DyhR6mTskRl/StaQ/r7VLCm6OXFBqE2UAO4Elrre/MVEQ4nzsHHVq5kuwvzNm9L9z9BoGCCyR1Cnc7m93ohTcdt0QXh4UUksiyV+O60pceICCA/lctohPY7dfIhURZ2wvA+u7WM7+fdua3f40arQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIETjCCAzagAwIBAgIIKPvFqc7einkwDQYJKoZIhvcNAQELBQAwgb0xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMRAwDgYDVQQHDAdWZW5lemlhMR8wHQYDVQQKDBZJQyBMYXp6YXJvIFNwYWxsYW56YW5pMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSgwJgYDVQQDDB93d3cuaWNzcGFsbGFuemFuaW1lc3RyZTUuZ292Lml0MScwJQYJKoZIhvcNAQkBFhh2ZWljODc1MDA1QGlzdHJ1emlvbmUuaXQwHhcNMTcwNzA3MjMxNjM3WhcNMzcwNzA2MjMxNjM3WjCBvTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZlbmV6aWExEDAOBgNVBAcMB1ZlbmV6aWExHzAdBgNVBAoMFklDIExhenphcm8gU3BhbGxhbnphbmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExKDAmBgNVBAMMH3d3dy5pY3NwYWxsYW56YW5pbWVzdHJlNS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZlaWM4NzUwMDVAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOhfcOOTh/CE/8bZN3P94ec/jYoHers1hYOpS9p5hFTjrNgIufxm0VWL4n0ARJxoPI/PVFkMAb+XtIjYqve+LMgsrL4pRPEehZl8OTGUdDlJGS+Z7Ek+VsL7vCQWB1GLErmL5J1L6s2gZzq7Yo+yctMAY759PhnOhtIF4SPucZLAtF/5x8QRzbBQJ6ODO2VCJ9iAFRHnReqjVzRyqPrxqYt8nJC96INz4UIR9T3rdxf6NBnKiDqgpaebe4TmcH+uz6EixqXwJpXPvbaLpa85+0GyP22E90uKMdqOwimvXvUCZO/ja6H7fKrRSGB77IssbZhk2IJcXTfllZicytm7pisCAwEAAaNQME4wHQYDVR0OBBYEFPOrSyv86mujArwPxrPvfYKHm7S3MB8GA1UdIwQYMBaAFPOrSyv86mujArwPxrPvfYKHm7S3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF2tJiZPt7u6N3h6c5J4Iuan6l9Gx2Qiv4ChiF1AZLlboUrgdsJWTWwdX5cMDC4a88rnF/jKca42Ky4+uyZ0aymGOLb4UiH6zQdQCSdw6gJ81ZfsOXOFD8iqOgKYZ9El3cyz5P49NFC/HI8TWG+71dYkQ/WACe+JnsXRTkaR96TFyCFdw76m6ayIQWuKPgRWlQ1RMlkyk7C/PjT6CHa5tCSVAJFawuX+mlyLtIHEciODsanh7K2gCck0LEjiVwic2NS8vTAwmqWB3N9vBOMHevjOhP7u3sC4JYtYjz8DYF2tHKEYDasxbph72dYxeOEc7DGn7SlwGfSLWwkshztw2ZE=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETjCCAzagAwIBAgIIKPvFqc7einkwDQYJKoZIhvcNAQELBQAwgb0xCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMRAwDgYDVQQHDAdWZW5lemlhMR8wHQYDVQQKDBZJQyBMYXp6YXJvIFNwYWxsYW56YW5pMRYwFAYDVQQLDA1Jc3RydXppb25lIFBBMSgwJgYDVQQDDB93d3cuaWNzcGFsbGFuemFuaW1lc3RyZTUuZ292Lml0MScwJQYJKoZIhvcNAQkBFhh2ZWljODc1MDA1QGlzdHJ1emlvbmUuaXQwHhcNMTcwNzA3MjMxNjM3WhcNMzcwNzA2MjMxNjM3WjCBvTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZlbmV6aWExEDAOBgNVBAcMB1ZlbmV6aWExHzAdBgNVBAoMFklDIExhenphcm8gU3BhbGxhbnphbmkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExKDAmBgNVBAMMH3d3dy5pY3NwYWxsYW56YW5pbWVzdHJlNS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGHZlaWM4NzUwMDVAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOhfcOOTh/CE/8bZN3P94ec/jYoHers1hYOpS9p5hFTjrNgIufxm0VWL4n0ARJxoPI/PVFkMAb+XtIjYqve+LMgsrL4pRPEehZl8OTGUdDlJGS+Z7Ek+VsL7vCQWB1GLErmL5J1L6s2gZzq7Yo+yctMAY759PhnOhtIF4SPucZLAtF/5x8QRzbBQJ6ODO2VCJ9iAFRHnReqjVzRyqPrxqYt8nJC96INz4UIR9T3rdxf6NBnKiDqgpaebe4TmcH+uz6EixqXwJpXPvbaLpa85+0GyP22E90uKMdqOwimvXvUCZO/ja6H7fKrRSGB77IssbZhk2IJcXTfllZicytm7pisCAwEAAaNQME4wHQYDVR0OBBYEFPOrSyv86mujArwPxrPvfYKHm7S3MB8GA1UdIwQYMBaAFPOrSyv86mujArwPxrPvfYKHm7S3MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAF2tJiZPt7u6N3h6c5J4Iuan6l9Gx2Qiv4ChiF1AZLlboUrgdsJWTWwdX5cMDC4a88rnF/jKca42Ky4+uyZ0aymGOLb4UiH6zQdQCSdw6gJ81ZfsOXOFD8iqOgKYZ9El3cyz5P49NFC/HI8TWG+71dYkQ/WACe+JnsXRTkaR96TFyCFdw76m6ayIQWuKPgRWlQ1RMlkyk7C/PjT6CHa5tCSVAJFawuX+mlyLtIHEciODsanh7K2gCck0LEjiVwic2NS8vTAwmqWB3N9vBOMHevjOhP7u3sC4JYtYjz8DYF2tHKEYDasxbph72dYxeOEc7DGn7SlwGfSLWwkshztw2ZE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icspallanzanimestre5.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icspallanzanimestre5.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icspallanzanimestre5.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo Statale Lazzaro Spallanzani - Mestre 5</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo Statale Lazzaro Spallanzani - Mestre 5</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icspallanzanimestre5.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

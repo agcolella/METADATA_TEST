@@ -1,0 +1,85 @@
+<?xml version="1.0"?> 
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+    ID="_ab4e3d49360bd04447434ff5c5d9da29b40f4898" entityID="https://portale.comune.rivoli.to.it">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" 
+     AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+	  <ds:X509Certificate>MIIEGDCCAoCgAwIBAgIJALg6FD8zGHBBMA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNV
+BAMTG3BvcnRhbGUuY29tdW5lLnJpdm9saS50by5pdDAeFw0yMDA1MjUxNjAxNDda
+Fw0yNTA1MjQxNjAxNDdaMCYxJDAiBgNVBAMTG3BvcnRhbGUuY29tdW5lLnJpdm9s
+aS50by5pdDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAM+bvtbtTHSL
+qzioRY3hI24mxGb71Zns8ZpMgEgAH0JegIAkUu9E7bnfZ2wcTw3aRNpqbJmnGLH0
+fH7h3qv+P0MsDFaqut2kFjDTUi1HBIVNNhuNGTWkMeIKQa05+6wu6MQVKi7S3Xcr
+sgJZcqI7nrqdakbD3iZi0WGIgeJ1ZYwD32uc/59Mv2u4gwUjVzaY4PflWAiZNBo1
+U+Yx/2wMsFgrv6apec+cbeenzU/p5rovFYqdQJzbL39WHvR9ZYsFW3VYC5z1vwz4
+cPJo1opVJeuxCBm/+MVWhW8a8bSbe96yvuJ43X3qpIECL+fVXMIxvrLz5rRIVR/R
+8hnC5eydIs10s1Yr2nFNblhwvF6XisNGGYnuAL2b+J9bcKD6NMeVTkptLnWfVh3S
+kMkpswduC4PDbJFTe7XZ68ip0Q7v3UsrH27UsjfSA0XBEblx/0qkX4dmI+hkXSTm
+Yu6nd+2l2ZGQLLm4gLqLiYkmU/1OqR+c0q+2wuZ99xv2wO8+QqlEAQIDAQABo0kw
+RzAmBgNVHREEHzAdghtwb3J0YWxlLmNvbXVuZS5yaXZvbGkudG8uaXQwHQYDVR0O
+BBYEFM8m9fdOdk+hRwuGbNhr3cSxtSyfMA0GCSqGSIb3DQEBCwUAA4IBgQBR99OR
+wl5KAkoID2H2Z0sRXKvCvKpTIznVlp7Va+dcJ1EpcWYXrRg0rkegdGs4Ca/IAwec
+Kac77/Q0PkbgiuuCmTvWUHv/ORjpA4F7KuzXfjBGOXAW96ciwLg9kYuk3NcAg86t
+yatEimB2ZId5c2264sRE98ZEKMadFjuKWcSAhlZ5SlABD0St/Kyz7ppRBVpLrKey
+l9Pl5rhVxqJwn9sx347ztDP93LUtC9cIKT9wi0roTVdPyJ14e4nrt8b/9BXTGodm
++tpWNILSozxtMXU5vWxHmPbLuwjQw0YSLHsbonlO9sfpvlIqioMaMsMtQWjAqxOM
+YP4uaZ2ydF3AFrlJJMAR6DiJwPdP4bViKTBdgok5Rq82v/nL6BA5CRfe1l9p9shC
+jIRqDBhuLFxk5TfyA6niJ0AktB2LNT0xeVKJBFKbBSvH8S9PA0k8pu2B2NfNSl0o
+cgg04NNE6MI5q6ICcLPs45SHYk9Ug+exJOQnHBfsp26mSqO2xZ9OCScY1Qk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+	  <ds:X509Certificate>MIIEGDCCAoCgAwIBAgIJALg6FD8zGHBBMA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNV
+BAMTG3BvcnRhbGUuY29tdW5lLnJpdm9saS50by5pdDAeFw0yMDA1MjUxNjAxNDda
+Fw0yNTA1MjQxNjAxNDdaMCYxJDAiBgNVBAMTG3BvcnRhbGUuY29tdW5lLnJpdm9s
+aS50by5pdDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAM+bvtbtTHSL
+qzioRY3hI24mxGb71Zns8ZpMgEgAH0JegIAkUu9E7bnfZ2wcTw3aRNpqbJmnGLH0
+fH7h3qv+P0MsDFaqut2kFjDTUi1HBIVNNhuNGTWkMeIKQa05+6wu6MQVKi7S3Xcr
+sgJZcqI7nrqdakbD3iZi0WGIgeJ1ZYwD32uc/59Mv2u4gwUjVzaY4PflWAiZNBo1
+U+Yx/2wMsFgrv6apec+cbeenzU/p5rovFYqdQJzbL39WHvR9ZYsFW3VYC5z1vwz4
+cPJo1opVJeuxCBm/+MVWhW8a8bSbe96yvuJ43X3qpIECL+fVXMIxvrLz5rRIVR/R
+8hnC5eydIs10s1Yr2nFNblhwvF6XisNGGYnuAL2b+J9bcKD6NMeVTkptLnWfVh3S
+kMkpswduC4PDbJFTe7XZ68ip0Q7v3UsrH27UsjfSA0XBEblx/0qkX4dmI+hkXSTm
+Yu6nd+2l2ZGQLLm4gLqLiYkmU/1OqR+c0q+2wuZ99xv2wO8+QqlEAQIDAQABo0kw
+RzAmBgNVHREEHzAdghtwb3J0YWxlLmNvbXVuZS5yaXZvbGkudG8uaXQwHQYDVR0O
+BBYEFM8m9fdOdk+hRwuGbNhr3cSxtSyfMA0GCSqGSIb3DQEBCwUAA4IBgQBR99OR
+wl5KAkoID2H2Z0sRXKvCvKpTIznVlp7Va+dcJ1EpcWYXrRg0rkegdGs4Ca/IAwec
+Kac77/Q0PkbgiuuCmTvWUHv/ORjpA4F7KuzXfjBGOXAW96ciwLg9kYuk3NcAg86t
+yatEimB2ZId5c2264sRE98ZEKMadFjuKWcSAhlZ5SlABD0St/Kyz7ppRBVpLrKey
+l9Pl5rhVxqJwn9sx347ztDP93LUtC9cIKT9wi0roTVdPyJ14e4nrt8b/9BXTGodm
++tpWNILSozxtMXU5vWxHmPbLuwjQw0YSLHsbonlO9sfpvlIqioMaMsMtQWjAqxOM
+YP4uaZ2ydF3AFrlJJMAR6DiJwPdP4bViKTBdgok5Rq82v/nL6BA5CRfe1l9p9shC
+jIRqDBhuLFxk5TfyA6niJ0AktB2LNT0xeVKJBFKbBSvH8S9PA0k8pu2B2NfNSl0o
+cgg04NNE6MI5q6ICcLPs45SHYk9Ug+exJOQnHBfsp26mSqO2xZ9OCScY1Qk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
+        Location="https://portale.comune.rivoli.to.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
+        Location="https://portale.comune.rivoli.to.it/Shibboleth.sso/SAML2/POST"/>
+
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comune di Rivoli</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Rivoli</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Rivoli</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">http://www.comune.rivoli.to.it</md:OrganizationURL>
+ </md:Organization>
+</md:EntityDescriptor>
+

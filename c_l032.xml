@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Taino" entityID="https://www.comune.taino.va.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Taino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>US6pYH6xJvBYso01dmcyPbBQpg9t0LnXxI6qiwvgcZQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LpjfmyNQPJIdI54qSGT5BICyB7NpDwmk4w31sM/p9WePAbAbm52iF2jFqbEMSVZDWqOb239pKN3o
+vbMKlGjY7gGie8vA5nllJvxAFknpWtSZs7Bxv6jzluCBbtDWixImp8PD3Q7inaNOn2QgEIDot0Bx
+cjL7Klxq+qrU8cqmXuHg2JvkAkNkiY7N6QGk++xkLJ6cTHNiT7c0S+tO9XB1IJ4XezdFxL6xbADO
+duH4xQW5H2Sm4o6OZfFqHZVRavqtdrF14b5KmlEB4rn09uUIVYDz3/XbS7DsJlb7eyE/poNyvnqT
+LhvzGoQZiUZqetAB1oCcQ7C2G/RuvCvM/RedAA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wm4c2PKWIoeptAW/9GaAIfh7EAlP+DfXPZSCXVjiy5ny9hQyXKhGIX7WwNNe+a6CGzx4oD+sfE2S
+5QpmxMe+fsCWuLRMOPJ8dsSBRHMqXeqMEgp/6KOJL9J8z/xlOmqBnxKC0C/IYkKU402AMiBg3lBS
+smsBElDi89oxv5xGSnDKAO5TU4TA1R3WSN6KVWa5DA2BB3OU2OSlpxLeDOlBCgpzNj/D6KR/hjTJ
+s78OuRIyXDixhDnvO3apA6YUpKcnjUNzNPJ16YuQmAetNZqXwgNLv9OWpKfTX+pGtFREWO5WOTb/
+UgHaFXsMJboXcKJSRrSbRJiUQ18N4k+57/qXcw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAMsnx8cDJlzfMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmUudGFpbm8udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDEyOTE3
+MDk1MFoXDTI5MDEyNjE3MDk1MFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS50YWluby52YS5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDCbhzY8pYih6m0Bb/0ZoAh+HsQCU/4N9c9lIJdWOLLmfL2FDJcqEYhftbA0175roIbPHigP6x8
+TZLlCmbEx75+wJa4tEw48nx2xIFEcypd6owSCn/oo4kv0nzP/GU6aoGfEoLQL8hiQpTjTYAyIGDe
+UFKyawESUOLz2jG/nEZKcMoA7lNThMDVHdZI3opVZrkMDYEHc5TY5KWnEt4M6UEKCnM2P8PopH+G
+NMmzvw65EjJcOLGEOe87dqkDphSkpyeNQ3M08nXpi5CYB601mpfCA0u/05akp9Nf6ka0VERY7lY5
+Nv9SAdoVewwluhdwolJGtJtEmJRDXw3iT7nv+pdzAgMBAAGjUDBOMB0GA1UdDgQWBBRECvYNPQPx
+EgAFemfS8ZB76kGE+DAfBgNVHSMEGDAWgBRECvYNPQPxEgAFemfS8ZB76kGE+DAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQjsbs8uMTsKYfC4pXX+Vv5u2BsgggOy16PpVJEb9314gd
+1dQkYxtFrvphuHxIw3RCh3Wmerd+/O8HPEXyk8rKMI5EF2Ocayj2V4HD1InfL+dK6nG+bEr8XHLN
+x6I4PQKggyTFzgvT90RG3YeRR9OtQ9uVC4VOSZg6h+SMrkiz9sdX3rlD1CaVsBKLNv1CDSyRjL9B
+mTWQVuXeq/Znm+FMYzit0whyMGXyct3GCgV8gX3QcGvywF2TzLEO/HBwga5joArlELPgK4UhQOHn
+h5oITA2+vk2+e3tiV0kBv+YJub/X1hbFiveboUJJUPgECJm4uOgF114cu9E+K2e+tgos
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAMsnx8cDJlzfMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUudGFpbm8udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDEyOTE3MDk1MFoXDTI5MDEyNjE3MDk1MFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS50YWluby52YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCbhzY8pYih6m0Bb/0ZoAh+HsQCU/4N9c9lIJdWOLLmfL2FDJcqEYhftbA0175roIbPHigP6x8TZLlCmbEx75+wJa4tEw48nx2xIFEcypd6owSCn/oo4kv0nzP/GU6aoGfEoLQL8hiQpTjTYAyIGDeUFKyawESUOLz2jG/nEZKcMoA7lNThMDVHdZI3opVZrkMDYEHc5TY5KWnEt4M6UEKCnM2P8PopH+GNMmzvw65EjJcOLGEOe87dqkDphSkpyeNQ3M08nXpi5CYB601mpfCA0u/05akp9Nf6ka0VERY7lY5Nv9SAdoVewwluhdwolJGtJtEmJRDXw3iT7nv+pdzAgMBAAGjUDBOMB0GA1UdDgQWBBRECvYNPQPxEgAFemfS8ZB76kGE+DAfBgNVHSMEGDAWgBRECvYNPQPxEgAFemfS8ZB76kGE+DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQjsbs8uMTsKYfC4pXX+Vv5u2BsgggOy16PpVJEb9314gd1dQkYxtFrvphuHxIw3RCh3Wmerd+/O8HPEXyk8rKMI5EF2Ocayj2V4HD1InfL+dK6nG+bEr8XHLNx6I4PQKggyTFzgvT90RG3YeRR9OtQ9uVC4VOSZg6h+SMrkiz9sdX3rlD1CaVsBKLNv1CDSyRjL9BmTWQVuXeq/Znm+FMYzit0whyMGXyct3GCgV8gX3QcGvywF2TzLEO/HBwga5joArlELPgK4UhQOHnh5oITA2+vk2+e3tiV0kBv+YJub/X1hbFiveboUJJUPgECJm4uOgF114cu9E+K2e+tgos
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAMsnx8cDJlzfMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUudGFpbm8udmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDEyOTE3MDk1MFoXDTI5MDEyNjE3MDk1MFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS50YWluby52YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCbhzY8pYih6m0Bb/0ZoAh+HsQCU/4N9c9lIJdWOLLmfL2FDJcqEYhftbA0175roIbPHigP6x8TZLlCmbEx75+wJa4tEw48nx2xIFEcypd6owSCn/oo4kv0nzP/GU6aoGfEoLQL8hiQpTjTYAyIGDeUFKyawESUOLz2jG/nEZKcMoA7lNThMDVHdZI3opVZrkMDYEHc5TY5KWnEt4M6UEKCnM2P8PopH+GNMmzvw65EjJcOLGEOe87dqkDphSkpyeNQ3M08nXpi5CYB601mpfCA0u/05akp9Nf6ka0VERY7lY5Nv9SAdoVewwluhdwolJGtJtEmJRDXw3iT7nv+pdzAgMBAAGjUDBOMB0GA1UdDgQWBBRECvYNPQPxEgAFemfS8ZB76kGE+DAfBgNVHSMEGDAWgBRECvYNPQPxEgAFemfS8ZB76kGE+DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQjsbs8uMTsKYfC4pXX+Vv5u2BsgggOy16PpVJEb9314gd1dQkYxtFrvphuHxIw3RCh3Wmerd+/O8HPEXyk8rKMI5EF2Ocayj2V4HD1InfL+dK6nG+bEr8XHLNx6I4PQKggyTFzgvT90RG3YeRR9OtQ9uVC4VOSZg6h+SMrkiz9sdX3rlD1CaVsBKLNv1CDSyRjL9BmTWQVuXeq/Znm+FMYzit0whyMGXyct3GCgV8gX3QcGvywF2TzLEO/HBwga5joArlELPgK4UhQOHnh5oITA2+vk2+e3tiV0kBv+YJub/X1hbFiveboUJJUPgECJm4uOgF114cu9E+K2e+tgos
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/taino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/taino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/taino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/taino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Taino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Taino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Taino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Taino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Taino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Taino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Taino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Taino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.taino.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.taino.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.taino.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.taino.va.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

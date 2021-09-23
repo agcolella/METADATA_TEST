@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.sportellotelematico.comune.colle-di-val-d-elsa.si.it/" ID="_301bc5cd3248b9a47cc83e4522bd3d3ac9f245cb3e9724303066362471c9893d"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_301bc5cd3248b9a47cc83e4522bd3d3ac9f245cb3e9724303066362471c9893d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>cAJCuBUM78rEbkTQsvIV04v8Je9clCOeV3B+OrJNGFQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>e2vu5GpYjlelszv/RXx80CqySwT/9sPm1Su4BFEPLdpAUfgNS4pTFL0EyPcn451fSPCSd84DHwCPFChAe3nI8boRDYL+NVrSw5KMrs43liRkm/FM36WLPcNke52AW71HwbsfU4ohoNSf3cvqof8HsNJdB3VMvQj1vR+B0jCEc0IfOyfkW9jhhhvEOQjOnEdLVtVXGj3azoWcPj0A3s4zB//pTU73saAFIP8MgbBl15cgMmqP5QD4TbRn+GEU7d0ku66LB9M8w3DoiciVlgrpLsGtnJ+5i5UZc2b0T6L6N/+J6pX1O8AEiGSCrrI33qe9vql5HdcVvYEHd5u7iQtkvw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEVjCCAz6gAwIBAgIJAPEysGc5gD8SMA0GCSqGSIb3DQEBCwUAMIG/MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFU2llbmExGTAXBgNVBAcMEENvbGxlIFZhbCBkJ0Vsc2ExIzAhBgNVBAoMGkNvbXVuZSBkaSBDb2xsZSBWYWwgZCdFbHNhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzFBMD8GA1UEAww4d3d3LnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNvbGxlLWRpLXZhbC1kLWVsc2Euc2kuaXQwHhcNMjAwNjA1MDg0NzI3WhcNMzAwNjAzMDg0NzI3WjCBvzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVNpZW5hMRkwFwYDVQQHDBBDb2xsZSBWYWwgZCdFbHNhMSMwIQYDVQQKDBpDb211bmUgZGkgQ29sbGUgVmFsIGQnRWxzYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xQTA/BgNVBAMMOHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jb2xsZS1kaS12YWwtZC1lbHNhLnNpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/frOqQQCQ8Dffyl+mQ9U61a3FOUOPJgGTos8LdCZKYBwX4aKdbD+8W5Hq13x1xINxEA2dVwZKkq0g56yxbGcNbejn1Z8gUErbQHbTYc69ev/pWXL05dc0Smv/HF9CqhWKgczVM+hou1BqDBG4K/uFgIWkBvQqA0mqLpkZWWJQS1uUcXkP10d1JZSkfvVyuMPWRCQH+/pZW9qk6P+WyBv2RK5dOQF0mMVFtVU2apWhu5r8vVxGFZ9+KHgorBRKeqG4AGesY4VguPykSjdmW3MBck2V0Rs4Hg+AIR0pi0SYcMhII5n6+h3RjCEc8BZZkcra004j3sw4rpUkabPF4olwIDAQABo1MwUTAdBgNVHQ4EFgQUHPx22H6iNWjN7RMC7HoiBV6clpwwHwYDVR0jBBgwFoAUHPx22H6iNWjN7RMC7HoiBV6clpwwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALF4mrcrK/GzvDnQ1/piYgpE/EMlMENyEQPz2GBsoPcNEz8mkdoCjIv553lul0l9qGkA26o7LvbrkVzes37YUU6sxBFOjyTHD0U+Gjhcfzv2UDxNzBGSEzwHyi6nlUs7602SBsVkKlg/YdpkbdmFoACgORBqkP0dv0NTmU/Z6S49kCLuALz717OUQYHh/ThwK7jH8h722flbzBxFTMCRzT9do1EBdy5VmdsyZFWi6AZL18WjJFuZ9VvFkwvJ7jLs/ucLdp+zA+/p7LShe++/HhQbZjjlskA1GTE6S+XG2fOPro69TKJCm0QMc2t3VcYb3ZU6DccwQo9JRAJgodyl0Kw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEVjCCAz6gAwIBAgIJAPEysGc5gD8SMA0GCSqGSIb3DQEBCwUAMIG/MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFU2llbmExGTAXBgNVBAcMEENvbGxlIFZhbCBkJ0Vsc2ExIzAhBgNVBAoMGkNvbXVuZSBkaSBDb2xsZSBWYWwgZCdFbHNhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzFBMD8GA1UEAww4d3d3LnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNvbGxlLWRpLXZhbC1kLWVsc2Euc2kuaXQwHhcNMjAwNjA1MDg0NzI3WhcNMzAwNjAzMDg0NzI3WjCBvzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVNpZW5hMRkwFwYDVQQHDBBDb2xsZSBWYWwgZCdFbHNhMSMwIQYDVQQKDBpDb211bmUgZGkgQ29sbGUgVmFsIGQnRWxzYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xQTA/BgNVBAMMOHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jb2xsZS1kaS12YWwtZC1lbHNhLnNpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/frOqQQCQ8Dffyl+mQ9U61a3FOUOPJgGTos8LdCZKYBwX4aKdbD+8W5Hq13x1xINxEA2dVwZKkq0g56yxbGcNbejn1Z8gUErbQHbTYc69ev/pWXL05dc0Smv/HF9CqhWKgczVM+hou1BqDBG4K/uFgIWkBvQqA0mqLpkZWWJQS1uUcXkP10d1JZSkfvVyuMPWRCQH+/pZW9qk6P+WyBv2RK5dOQF0mMVFtVU2apWhu5r8vVxGFZ9+KHgorBRKeqG4AGesY4VguPykSjdmW3MBck2V0Rs4Hg+AIR0pi0SYcMhII5n6+h3RjCEc8BZZkcra004j3sw4rpUkabPF4olwIDAQABo1MwUTAdBgNVHQ4EFgQUHPx22H6iNWjN7RMC7HoiBV6clpwwHwYDVR0jBBgwFoAUHPx22H6iNWjN7RMC7HoiBV6clpwwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALF4mrcrK/GzvDnQ1/piYgpE/EMlMENyEQPz2GBsoPcNEz8mkdoCjIv553lul0l9qGkA26o7LvbrkVzes37YUU6sxBFOjyTHD0U+Gjhcfzv2UDxNzBGSEzwHyi6nlUs7602SBsVkKlg/YdpkbdmFoACgORBqkP0dv0NTmU/Z6S49kCLuALz717OUQYHh/ThwK7jH8h722flbzBxFTMCRzT9do1EBdy5VmdsyZFWi6AZL18WjJFuZ9VvFkwvJ7jLs/ucLdp+zA+/p7LShe++/HhQbZjjlskA1GTE6S+XG2fOPro69TKJCm0QMc2t3VcYb3ZU6DccwQo9JRAJgodyl0Kw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEVjCCAz6gAwIBAgIJAPEysGc5gD8SMA0GCSqGSIb3DQEBCwUAMIG/MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFU2llbmExGTAXBgNVBAcMEENvbGxlIFZhbCBkJ0Vsc2ExIzAhBgNVBAoMGkNvbXVuZSBkaSBDb2xsZSBWYWwgZCdFbHNhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzFBMD8GA1UEAww4d3d3LnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNvbGxlLWRpLXZhbC1kLWVsc2Euc2kuaXQwHhcNMjAwNjA1MDg0NzI3WhcNMzAwNjAzMDg0NzI3WjCBvzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVNpZW5hMRkwFwYDVQQHDBBDb2xsZSBWYWwgZCdFbHNhMSMwIQYDVQQKDBpDb211bmUgZGkgQ29sbGUgVmFsIGQnRWxzYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xQTA/BgNVBAMMOHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jb2xsZS1kaS12YWwtZC1lbHNhLnNpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/frOqQQCQ8Dffyl+mQ9U61a3FOUOPJgGTos8LdCZKYBwX4aKdbD+8W5Hq13x1xINxEA2dVwZKkq0g56yxbGcNbejn1Z8gUErbQHbTYc69ev/pWXL05dc0Smv/HF9CqhWKgczVM+hou1BqDBG4K/uFgIWkBvQqA0mqLpkZWWJQS1uUcXkP10d1JZSkfvVyuMPWRCQH+/pZW9qk6P+WyBv2RK5dOQF0mMVFtVU2apWhu5r8vVxGFZ9+KHgorBRKeqG4AGesY4VguPykSjdmW3MBck2V0Rs4Hg+AIR0pi0SYcMhII5n6+h3RjCEc8BZZkcra004j3sw4rpUkabPF4olwIDAQABo1MwUTAdBgNVHQ4EFgQUHPx22H6iNWjN7RMC7HoiBV6clpwwHwYDVR0jBBgwFoAUHPx22H6iNWjN7RMC7HoiBV6clpwwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALF4mrcrK/GzvDnQ1/piYgpE/EMlMENyEQPz2GBsoPcNEz8mkdoCjIv553lul0l9qGkA26o7LvbrkVzes37YUU6sxBFOjyTHD0U+Gjhcfzv2UDxNzBGSEzwHyi6nlUs7602SBsVkKlg/YdpkbdmFoACgORBqkP0dv0NTmU/Z6S49kCLuALz717OUQYHh/ThwK7jH8h722flbzBxFTMCRzT9do1EBdy5VmdsyZFWi6AZL18WjJFuZ9VvFkwvJ7jLs/ucLdp+zA+/p7LShe++/HhQbZjjlskA1GTE6S+XG2fOPro69TKJCm0QMc2t3VcYb3ZU6DccwQo9JRAJgodyl0Kw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico.comune.colle-di-val-d-elsa.si.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico.comune.colle-di-val-d-elsa.si.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_c847</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_c847</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Colle Val d'Elsa</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Colle Val d'Elsa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.sportellotelematico.comune.colle-di-val-d-elsa.si.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.sportellotelematico.comune.colle-di-val-d-elsa.si.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

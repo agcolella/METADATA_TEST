@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_92554b5a40cae0d354dfd88d24f1b1819cbc9aba" entityID="https://spidservice.unitn.it/spid"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Xe9+XBbkYZQ0xQGWuAY0/CbJlu5SoraYKKHDacDev0k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+W/A9oz+1/p1A75EyWCHPMuXvccJmv3GUWgsoT6UAuB7saIIrkd3ui13KtQ0/10YI/w6SvZR9v3Jo
+oOqw9NOMHpCtOFaU1sLyQxvOeHbWghTI30j1VLgiTzCsiISKkau7FFXUYC95KkwHOrJLy5Ow36ml
+ungSwArROZYmcUFf08rbXas6R7I571YKPI67SVWU+5casEFsOtIBecPSdOSfiuKNJMC4PPV/JAh6
+aVtZw4Yx7fVioBaIy2QMLIePPsXC806p9xWNFl3J0zuPmgNqhGEKjaXuebcPS1v0gFpMa45oEUeP
++h5T6vtFtsaPuhZg3VWm9+waMw/sADp7Js/Cb7UvcRBfOpa7VG3KYxnd+r+vsEEE7YgphLK/iGqE
+cQb23ap5dU2dgKiO9tUmNG1fhXud0cBhzQUSrpbLYKfcnK1V2jHggqNDoE8HwLaFvfZGZoPB/C2C
+2/hqviBA39TFtDpvYVhCaMaLuVJzyS0hKan7vVuzstV3zMIDm7EHpJjQ
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t9g9qpJtWN9EQs/EKa/pf8ucvFhR1v7LU1Oj0mNR3ibzrKUgw0l8QZvjVxcPcCDYkC8xj2FF7IMd
+bYiOL4C3zPjrHxKGMoj9M2iwoioZ7SJ2yP6YtVWn3goM6G7NsCXhgTOMSrOkvUjV/F4ao153r//n
+zivqxyCeGDR/JN8lqdtRvQK5aQzqloUuJscwYRfoc3mnnao/CzTWajZ2ory9PZc4zOWzJ0zHPvvM
+fTFhZmLaZJHUy1LnTxX7b6BXcRjIKJzJzjLNcclbf7QHCPnq3kvtfoVA/7pyfmddKJIemlRJg0ff
+QJL8Y/P38FAg1IHa5iq+OLYjdQQpxVXOR04bgQnOSlsaz6Di7dW7CPKtKPol/60ZadkxV3GLVtg4
+wPUYnIEJMdMFyuy/3hwyKo0bBjSbLby55FpK5SeDh0jbgBe0H66xMNG7WCxgvAV2nsvnG54oIcv8
+iE2iiB06/ajSVzy3L6URMm23fIBKE5A+fz8c5+jVyqt4fBXbuMDuQl0T
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEJjCCAo6gAwIBAgIJALtYkUStj8DyMA0GCSqGSIb3DQEBCwUAMB8xHTAbBgNVBAMTFHNwaWRz
+ZXJ2aWNlLnVuaXRuLml0MB4XDTE3MDIxNjE1MTk1OFoXDTI3MDIxNDE1MTk1OFowHzEdMBsGA1UE
+AxMUc3BpZHNlcnZpY2UudW5pdG4uaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC3
+2D2qkm1Y30RCz8Qpr+l/y5y8WFHW/stTU6PSY1HeJvOspSDDSXxBm+NXFw9wINiQLzGPYUXsgx1t
+iI4vgLfM+OsfEoYyiP0zaLCiKhntInbI/pi1VafeCgzobs2wJeGBM4xKs6S9SNX8XhqjXnev/+fO
+K+rHIJ4YNH8k3yWp21G9ArlpDOqWhS4mxzBhF+hzeaedqj8LNNZqNnaivL09lzjM5bMnTMc++8x9
+MWFmYtpkkdTLUudPFftvoFdxGMgonMnOMs1xyVt/tAcI+ereS+1+hUD/unJ+Z10okh6aVEmDR99A
+kvxj8/fwUCDUgdrmKr44tiN1BCnFVc5HThuBCc5KWxrPoOLt1bsI8q0o+iX/rRlp2TFXcYtW2DjA
+9RicgQkx0wXK7L/eHDIqjRsGNJstvLnkWkrlJ4OHSNuAF7QfrrEw0btYLGC8BXaey+cbnighy/yI
+TaKIHTr9qNJXPLcvpREybbd8gEoTkD5/Pxzn6NXKq3h8Fdu4wO5CXRMCAwEAAaNlMGMwQgYDVR0R
+BDswOYIUc3BpZHNlcnZpY2UudW5pdG4uaXSGIWh0dHBzOi8vc3BpZHNlcnZpY2UudW5pdG4uaXQv
+c3BpZDAdBgNVHQ4EFgQUWQi51wKI82w4x3OIiFL//aK1/8kwDQYJKoZIhvcNAQELBQADggGBAJhZ
+10KsZ89r32XrvD7wNMimc0LfSOXjy5DCr+Ht6YirVFVHVyuHyXT5OGeuDRf9+BVYk4q8N7q4vW1F
+jyRQeadangZwnbK0Yp+QfhXNatfd9+ccfzFbpBSb1Dg9lXswJ6X6sSm1UnvzJZOHkt768iJcxVnc
+u6JPq7PdBXNYBVtiCG0pQok3/wNQw6OOhp6i0zlQZrVU1A22WTY8LAUVhD3aQm9+jars0e+UZPyd
+nlJ8m1V5tTWIXPYHKTEMvxCMPxh4eEs1Uj3kOWgBTclfghegEuAWHWElSz+YmJp2frGXB2cbgDlq
+/uXj26WFbBj0n6f+DYnusKVJbGVtEQK7edLjRKQdif96ET1UpDAoIAUBd3cDtrYP80D3iDmAbjTL
+LDg16TpHyf0z2ateOd8/mR3RnanQv20d5yEs1U20nwbXBv4AXvswKufF3w/kX7zFHYiHkzZrT+hE
+CsT+GOLQvoCRqc2R+GEnVDM27TwmXr+ecLEfmwWQP1Z4GP9zsMovgA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>https://spidservice.unitn.it/spid</ds:KeyName>
+        <ds:KeyName>spidservice.unitn.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spidservice.unitn.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEJjCCAo6gAwIBAgIJALtYkUStj8DyMA0GCSqGSIb3DQEBCwUAMB8xHTAbBgNV
+            BAMTFHNwaWRzZXJ2aWNlLnVuaXRuLml0MB4XDTE3MDIxNjE1MTk1OFoXDTI3MDIx
+            NDE1MTk1OFowHzEdMBsGA1UEAxMUc3BpZHNlcnZpY2UudW5pdG4uaXQwggGiMA0G
+            CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC32D2qkm1Y30RCz8Qpr+l/y5y8WFHW
+            /stTU6PSY1HeJvOspSDDSXxBm+NXFw9wINiQLzGPYUXsgx1tiI4vgLfM+OsfEoYy
+            iP0zaLCiKhntInbI/pi1VafeCgzobs2wJeGBM4xKs6S9SNX8XhqjXnev/+fOK+rH
+            IJ4YNH8k3yWp21G9ArlpDOqWhS4mxzBhF+hzeaedqj8LNNZqNnaivL09lzjM5bMn
+            TMc++8x9MWFmYtpkkdTLUudPFftvoFdxGMgonMnOMs1xyVt/tAcI+ereS+1+hUD/
+            unJ+Z10okh6aVEmDR99Akvxj8/fwUCDUgdrmKr44tiN1BCnFVc5HThuBCc5KWxrP
+            oOLt1bsI8q0o+iX/rRlp2TFXcYtW2DjA9RicgQkx0wXK7L/eHDIqjRsGNJstvLnk
+            WkrlJ4OHSNuAF7QfrrEw0btYLGC8BXaey+cbnighy/yITaKIHTr9qNJXPLcvpREy
+            bbd8gEoTkD5/Pxzn6NXKq3h8Fdu4wO5CXRMCAwEAAaNlMGMwQgYDVR0RBDswOYIU
+            c3BpZHNlcnZpY2UudW5pdG4uaXSGIWh0dHBzOi8vc3BpZHNlcnZpY2UudW5pdG4u
+            aXQvc3BpZDAdBgNVHQ4EFgQUWQi51wKI82w4x3OIiFL//aK1/8kwDQYJKoZIhvcN
+            AQELBQADggGBAJhZ10KsZ89r32XrvD7wNMimc0LfSOXjy5DCr+Ht6YirVFVHVyuH
+            yXT5OGeuDRf9+BVYk4q8N7q4vW1FjyRQeadangZwnbK0Yp+QfhXNatfd9+ccfzFb
+            pBSb1Dg9lXswJ6X6sSm1UnvzJZOHkt768iJcxVncu6JPq7PdBXNYBVtiCG0pQok3
+            /wNQw6OOhp6i0zlQZrVU1A22WTY8LAUVhD3aQm9+jars0e+UZPydnlJ8m1V5tTWI
+            XPYHKTEMvxCMPxh4eEs1Uj3kOWgBTclfghegEuAWHWElSz+YmJp2frGXB2cbgDlq
+            /uXj26WFbBj0n6f+DYnusKVJbGVtEQK7edLjRKQdif96ET1UpDAoIAUBd3cDtrYP
+            80D3iDmAbjTLLDg16TpHyf0z2ateOd8/mR3RnanQv20d5yEs1U20nwbXBv4AXvsw
+            KufF3w/kX7zFHYiHkzZrT+hECsT+GOLQvoCRqc2R+GEnVDM27TwmXr+ecLEfmwWQ P1Z4GP9zsMovgA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spidservice.unitn.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidservice.unitn.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidservice.unitn.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">UniTrento - Autenticazione SPID</md:ServiceName>
+      <md:ServiceName xml:lang="en">UniTrento - SPID Authentication</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Universtità degli studi di Trento</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">University of Trento</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Università di Trento</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">University of Trento</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.unitn.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.unitn.it/en</md:OrganizationURL>
+
+  </md:Organization>
+
+
+</md:EntityDescriptor>

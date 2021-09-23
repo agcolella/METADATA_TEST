@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxc2a3f53d-8fed-ca02-def6-bf56c114a6e4" entityID="https://servizionline.comune.crocetta.tv.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxc2a3f53d-8fed-ca02-def6-bf56c114a6e4">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>YqaJC7i61PASAy9xBvsUIwkOUJJ9fuIVIUHBReNXv0Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qLZenzW5Sv/LnJBaztIwv+yLbK6jyb3cAsBu0DGighg8eElAHMe+f9+cIfgCmk0/t5+jatGf8Xkd
+CV8gZNQmblDThhwZnrpS8b6VL9zRdkHLsyhO1LTDgg/mRKq7cF/LapL9B9T2M7d2m5toWngYi1Xs
+jb+qY43klhmZDkw1pUyDahy3zbhaaGRq5P+EuI7wv42AcTd6VKtPhC6+HlfoMoVu5c/9tmO4f2gL
+1pAWDDHX6nvapC0pH90NCPjmrSEio2GCDTOM8XYXQSDfErQtN6R5QiQBaV43cUOtg2b+T3QpyTVX
+P4Z0VnBYHBvjBSVE4WXazJeLmDy+FC5xz9+cIA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wSm+Y7p1BMWG6sFkF4Bxchlgiyud04agw06vihuUQy9Jry72p7wI9ki+1g7Fd4ROobbshE7WQ7c6
+jqrhLJ79yck3vGlOZCFlU1UdUUmQ2MoPA5MbX6tdVsW/8Q3bD6MYF0DzOBAvmS3PVl0u1jgEPhFA
+nb2m7hgQ7TLFFOqD2Q7ND6FbFdyGov/QJFPt8ZoPbmyEM3l8qM2PNRSenDLpEkSCkAHSdO4LWS8t
+skE22GJM4HWPTI2cjycyooT8keJWf+ko5fySfecIUS18ni/pGrlF0IY8kdpx1Emw0537RTdPshZQ
+EdTHoFoABgHz542G2rIguEYE+laGjZjDKK/iUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/zCCAuegAwIBAgIJAMEsAJoiNUv8MA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFUNyb2NldHRhIGRlbCBNb250ZWxsbzEoMCYGA1UECgwf
+Q29tdW5lIGRpIENyb2NldHRhIGRlbCBNb250ZWxsbzEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5j
+b211bmUuY3JvY2V0dGEudHYuaXQwHhcNMjAwNzIxMDkxNjA2WhcNMzAwNzIxMDkxNjA2WjCBlTEL
+MAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR4wHAYDVQQHDBVDcm9jZXR0YSBkZWwgTW9udGVs
+bG8xKDAmBgNVBAoMH0NvbXVuZSBkaSBDcm9jZXR0YSBkZWwgTW9udGVsbG8xLDAqBgNVBAMMI3Nl
+cnZpemlvbmxpbmUuY29tdW5lLmNyb2NldHRhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAwSm+Y7p1BMWG6sFkF4Bxchlgiyud04agw06vihuUQy9Jry72p7wI9ki+1g7Fd4RO
+obbshE7WQ7c6jqrhLJ79yck3vGlOZCFlU1UdUUmQ2MoPA5MbX6tdVsW/8Q3bD6MYF0DzOBAvmS3P
+Vl0u1jgEPhFAnb2m7hgQ7TLFFOqD2Q7ND6FbFdyGov/QJFPt8ZoPbmyEM3l8qM2PNRSenDLpEkSC
+kAHSdO4LWS8tskE22GJM4HWPTI2cjycyooT8keJWf+ko5fySfecIUS18ni/pGrlF0IY8kdpx1Emw
+0537RTdPshZQEdTHoFoABgHz542G2rIguEYE+laGjZjDKK/iUQIDAQABo1AwTjAdBgNVHQ4EFgQU
+93jc21yN2MjZQritGnsLhNSDhkwwHwYDVR0jBBgwFoAU93jc21yN2MjZQritGnsLhNSDhkwwDAYD
+VR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAsFU4k2Is6AvTe2kPtVF40rT6A4PB1GEwH8qO
+tYTchaK1lT4PVPd2tvKSvOixe4hsOYs5kHJ3A6ccTY8+CeI04qLEIb19D26ppShvHf9CinSNSjV3
+1dG4HsWODLEAymMoyoZDjRmYRT/SX/18EnZK6Tfnw5y1tPItJeQVpKZYH2LhsfFkZpQ6gfRYqotC
+hr7Fw4S3AIYGu1/KS5AHGInOTIvM2sAIoeKskX2UCGjStCRhnTKcI6cUz+vi/eTel/P1wcnQzrX8
++hRsQU6l7gwp/0nIUOgzkK0qooeKPoaYfTOuNIuooku8/RfvXPSkl/Y5AQ7jpCjwYFnfjVwqV4+H
+4A==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/zCCAuegAwIBAgIJAMEsAJoiNUv8MA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFUNyb2NldHRhIGRlbCBNb250ZWxsbzEoMCYGA1UECgwfQ29tdW5lIGRpIENyb2NldHRhIGRlbCBNb250ZWxsbzEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUuY3JvY2V0dGEudHYuaXQwHhcNMjAwNzIxMDkxNjA2WhcNMzAwNzIxMDkxNjA2WjCBlTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR4wHAYDVQQHDBVDcm9jZXR0YSBkZWwgTW9udGVsbG8xKDAmBgNVBAoMH0NvbXVuZSBkaSBDcm9jZXR0YSBkZWwgTW9udGVsbG8xLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLmNyb2NldHRhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwSm+Y7p1BMWG6sFkF4Bxchlgiyud04agw06vihuUQy9Jry72p7wI9ki+1g7Fd4ROobbshE7WQ7c6jqrhLJ79yck3vGlOZCFlU1UdUUmQ2MoPA5MbX6tdVsW/8Q3bD6MYF0DzOBAvmS3PVl0u1jgEPhFAnb2m7hgQ7TLFFOqD2Q7ND6FbFdyGov/QJFPt8ZoPbmyEM3l8qM2PNRSenDLpEkSCkAHSdO4LWS8tskE22GJM4HWPTI2cjycyooT8keJWf+ko5fySfecIUS18ni/pGrlF0IY8kdpx1Emw0537RTdPshZQEdTHoFoABgHz542G2rIguEYE+laGjZjDKK/iUQIDAQABo1AwTjAdBgNVHQ4EFgQU93jc21yN2MjZQritGnsLhNSDhkwwHwYDVR0jBBgwFoAU93jc21yN2MjZQritGnsLhNSDhkwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAsFU4k2Is6AvTe2kPtVF40rT6A4PB1GEwH8qOtYTchaK1lT4PVPd2tvKSvOixe4hsOYs5kHJ3A6ccTY8+CeI04qLEIb19D26ppShvHf9CinSNSjV31dG4HsWODLEAymMoyoZDjRmYRT/SX/18EnZK6Tfnw5y1tPItJeQVpKZYH2LhsfFkZpQ6gfRYqotChr7Fw4S3AIYGu1/KS5AHGInOTIvM2sAIoeKskX2UCGjStCRhnTKcI6cUz+vi/eTel/P1wcnQzrX8+hRsQU6l7gwp/0nIUOgzkK0qooeKPoaYfTOuNIuooku8/RfvXPSkl/Y5AQ7jpCjwYFnfjVwqV4+H4A==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/zCCAuegAwIBAgIJAMEsAJoiNUv8MA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFUNyb2NldHRhIGRlbCBNb250ZWxsbzEoMCYGA1UECgwfQ29tdW5lIGRpIENyb2NldHRhIGRlbCBNb250ZWxsbzEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUuY3JvY2V0dGEudHYuaXQwHhcNMjAwNzIxMDkxNjA2WhcNMzAwNzIxMDkxNjA2WjCBlTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR4wHAYDVQQHDBVDcm9jZXR0YSBkZWwgTW9udGVsbG8xKDAmBgNVBAoMH0NvbXVuZSBkaSBDcm9jZXR0YSBkZWwgTW9udGVsbG8xLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLmNyb2NldHRhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwSm+Y7p1BMWG6sFkF4Bxchlgiyud04agw06vihuUQy9Jry72p7wI9ki+1g7Fd4ROobbshE7WQ7c6jqrhLJ79yck3vGlOZCFlU1UdUUmQ2MoPA5MbX6tdVsW/8Q3bD6MYF0DzOBAvmS3PVl0u1jgEPhFAnb2m7hgQ7TLFFOqD2Q7ND6FbFdyGov/QJFPt8ZoPbmyEM3l8qM2PNRSenDLpEkSCkAHSdO4LWS8tskE22GJM4HWPTI2cjycyooT8keJWf+ko5fySfecIUS18ni/pGrlF0IY8kdpx1Emw0537RTdPshZQEdTHoFoABgHz542G2rIguEYE+laGjZjDKK/iUQIDAQABo1AwTjAdBgNVHQ4EFgQU93jc21yN2MjZQritGnsLhNSDhkwwHwYDVR0jBBgwFoAU93jc21yN2MjZQritGnsLhNSDhkwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAsFU4k2Is6AvTe2kPtVF40rT6A4PB1GEwH8qOtYTchaK1lT4PVPd2tvKSvOixe4hsOYs5kHJ3A6ccTY8+CeI04qLEIb19D26ppShvHf9CinSNSjV31dG4HsWODLEAymMoyoZDjRmYRT/SX/18EnZK6Tfnw5y1tPItJeQVpKZYH2LhsfFkZpQ6gfRYqotChr7Fw4S3AIYGu1/KS5AHGInOTIvM2sAIoeKskX2UCGjStCRhnTKcI6cUz+vi/eTel/P1wcnQzrX8+hRsQU6l7gwp/0nIUOgzkK0qooeKPoaYfTOuNIuooku8/RfvXPSkl/Y5AQ7jpCjwYFnfjVwqV4+H4A==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.crocetta.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.crocetta.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Crocetta del Montello</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Crocetta del Montello</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.crocetta.tv.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c670</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Crocetta del Montello</md:Company>
+    <md:EmailAddress>postmaster@comune.crocetta.tv.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

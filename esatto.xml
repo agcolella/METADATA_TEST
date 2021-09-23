@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___spid.esattospa.it" entityID="https://spid.esattospa.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#https___spid.esattospa.it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ywl9iGExVqOSqKpvdyNZ75VupYV4gfnl1vbOn2T0eGE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>GR6ewVcmF7jcKPpHXefO0jYNVsrlAJVRqFHjP/YjuqsclIBTvTssrzWl1C6FJgi75QU6656fvIobwlVC42Dwaejz0KLb03lj7QhYyrRQH3A2T3wLnmgScZC50zt9b0Wn6sYZ52gfVDl1rLWfM3erajtIwRJNac6fGKs7RnUCEjv6slq8SXjnZAYyzxdDF3TO82OAfFvYeqWf/4ctcLKGn+23quTprVDIOlPzbF5AbHFHUxy5YOVF4vsRlkhkZBko+t7N0hcyUfTjRdKsLZ/aUbEM+VI5VBHtmawXNsm6BZxbt0DLX2Kw3JQsyyakcOJaO8ITSPRKp0IBjlZJGESJZw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDVjCCAj6gAwIBAgIEWfCbNjANBgkqhkiG9w0BAQsFADBtMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCVFMxEDAOBgNVBAcMB1RyaWVzdGUxFjAUBgNVBAoMDUVzYXR0byBTLnAuQS4xCzAJBgNVBAsM
+AklUMRowGAYDVQQDDBFzcGlkLmVzYXR0b3NwYS5pdDAeFw0xNzEwMjUxNDA5NThaFw0zNzEwMjUx
+NDA5NThaMG0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJUUzEQMA4GA1UEBwwHVHJpZXN0ZTEWMBQG
+A1UECgwNRXNhdHRvIFMucC5BLjELMAkGA1UECwwCSVQxGjAYBgNVBAMMEXNwaWQuZXNhdHRvc3Bh
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqXct0OoTPXOsYZ+QV+T/iOpkUhWe
+J1OG49f9WyRxsy1ym45cobuKGJO/wLAPK/WgY1fjy9gGSPmYg9vYqVPqJdlKd4YKxKj0ZdCo7DMR
+FKPvTKCHxknfDWaolseM9FeVYDdP7JeSQSm2P8oENev5WOkTS2T3bfsy+kDeDkTzY7liDv4LxLvu
+xt4PQSuk3e5noxAW+srhNpi8ihSqcH57RHt5KU6EkTRKFsfYtdLIGTQbhlrU4R3ugbNiTV1BS2Vy
+yZnR9Kq0TLXF4VgUEuleRAFRa8q+q2oSyAqgA+Rgnj8qluXR1/fA9TUzM84BBqWMCTYeX+15c1n7
+ZGoEZ2471QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAsOfWIPEZ9zI3tJBTfyv/HQ3kHLvlFBFD3
+hyPW5xFL6hdc5XzmI+CvqmcK3dnKQDuHISseOpOYegHfYzep9RaghPfaZYzCkbqmfxhttM2pO11J
+FkfWwJ6HUPp1L5zG9+oT7SvkwIFO1FgzFu2d1wqovqXrMlO/NodFbarP79osXFWlmS4BUTDSEzuH
+OB+OrlVGJ7HoxPG1ScOjKYWZHBFQCdLKTxIFkWrlZ9lPp9oU8dTIiwWCXXzl1rMS0aEDxwJ0zcro
+jnGNfuzI9m5jJIF9obfLJC/dcPvJRLoiC1UpiboymJYbvcrj0zRilnFWN8YWjIfp04hYbue5rk2T
+y1kf</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDVjCCAj6gAwIBAgIEWfCbNjANBgkqhkiG9w0BAQsFADBtMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCVFMxEDAOBgNVBAcMB1RyaWVzdGUxFjAUBgNVBAoMDUVzYXR0byBTLnAuQS4xCzAJBgNVBAsM
+AklUMRowGAYDVQQDDBFzcGlkLmVzYXR0b3NwYS5pdDAeFw0xNzEwMjUxNDA5NThaFw0zNzEwMjUx
+NDA5NThaMG0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJUUzEQMA4GA1UEBwwHVHJpZXN0ZTEWMBQG
+A1UECgwNRXNhdHRvIFMucC5BLjELMAkGA1UECwwCSVQxGjAYBgNVBAMMEXNwaWQuZXNhdHRvc3Bh
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqXct0OoTPXOsYZ+QV+T/iOpkUhWe
+J1OG49f9WyRxsy1ym45cobuKGJO/wLAPK/WgY1fjy9gGSPmYg9vYqVPqJdlKd4YKxKj0ZdCo7DMR
+FKPvTKCHxknfDWaolseM9FeVYDdP7JeSQSm2P8oENev5WOkTS2T3bfsy+kDeDkTzY7liDv4LxLvu
+xt4PQSuk3e5noxAW+srhNpi8ihSqcH57RHt5KU6EkTRKFsfYtdLIGTQbhlrU4R3ugbNiTV1BS2Vy
+yZnR9Kq0TLXF4VgUEuleRAFRa8q+q2oSyAqgA+Rgnj8qluXR1/fA9TUzM84BBqWMCTYeX+15c1n7
+ZGoEZ2471QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAsOfWIPEZ9zI3tJBTfyv/HQ3kHLvlFBFD3
+hyPW5xFL6hdc5XzmI+CvqmcK3dnKQDuHISseOpOYegHfYzep9RaghPfaZYzCkbqmfxhttM2pO11J
+FkfWwJ6HUPp1L5zG9+oT7SvkwIFO1FgzFu2d1wqovqXrMlO/NodFbarP79osXFWlmS4BUTDSEzuH
+OB+OrlVGJ7HoxPG1ScOjKYWZHBFQCdLKTxIFkWrlZ9lPp9oU8dTIiwWCXXzl1rMS0aEDxwJ0zcro
+jnGNfuzI9m5jJIF9obfLJC/dcPvJRLoiC1UpiboymJYbvcrj0zRilnFWN8YWjIfp04hYbue5rk2T
+y1kf</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDVjCCAj6gAwIBAgIEWfCbNjANBgkqhkiG9w0BAQsFADBtMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCVFMxEDAOBgNVBAcMB1RyaWVzdGUxFjAUBgNVBAoMDUVzYXR0byBTLnAuQS4xCzAJBgNVBAsM
+AklUMRowGAYDVQQDDBFzcGlkLmVzYXR0b3NwYS5pdDAeFw0xNzEwMjUxNDA5NThaFw0zNzEwMjUx
+NDA5NThaMG0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJUUzEQMA4GA1UEBwwHVHJpZXN0ZTEWMBQG
+A1UECgwNRXNhdHRvIFMucC5BLjELMAkGA1UECwwCSVQxGjAYBgNVBAMMEXNwaWQuZXNhdHRvc3Bh
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqXct0OoTPXOsYZ+QV+T/iOpkUhWe
+J1OG49f9WyRxsy1ym45cobuKGJO/wLAPK/WgY1fjy9gGSPmYg9vYqVPqJdlKd4YKxKj0ZdCo7DMR
+FKPvTKCHxknfDWaolseM9FeVYDdP7JeSQSm2P8oENev5WOkTS2T3bfsy+kDeDkTzY7liDv4LxLvu
+xt4PQSuk3e5noxAW+srhNpi8ihSqcH57RHt5KU6EkTRKFsfYtdLIGTQbhlrU4R3ugbNiTV1BS2Vy
+yZnR9Kq0TLXF4VgUEuleRAFRa8q+q2oSyAqgA+Rgnj8qluXR1/fA9TUzM84BBqWMCTYeX+15c1n7
+ZGoEZ2471QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAsOfWIPEZ9zI3tJBTfyv/HQ3kHLvlFBFD3
+hyPW5xFL6hdc5XzmI+CvqmcK3dnKQDuHISseOpOYegHfYzep9RaghPfaZYzCkbqmfxhttM2pO11J
+FkfWwJ6HUPp1L5zG9+oT7SvkwIFO1FgzFu2d1wqovqXrMlO/NodFbarP79osXFWlmS4BUTDSEzuH
+OB+OrlVGJ7HoxPG1ScOjKYWZHBFQCdLKTxIFkWrlZ9lPp9oU8dTIiwWCXXzl1rMS0aEDxwJ0zcro
+jnGNfuzI9m5jJIF9obfLJC/dcPvJRLoiC1UpiboymJYbvcrj0zRilnFWN8YWjIfp04hYbue5rk2T
+y1kf</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.esattospa.it/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.esattospa.it/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.esattospa.it/saml/SSO" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Base</md:ServiceName><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Avanzato</md:ServiceName><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="2"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Full</md:ServiceName><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Esatto S.p.A.</md:OrganizationName><md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Esatto S.p.A.</md:OrganizationDisplayName><md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.esattospa.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

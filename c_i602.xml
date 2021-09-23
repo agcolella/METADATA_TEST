@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx8bada6aa-c90a-e340-a7a3-c3130752f3b2" entityID="https://sportellounico.comune.senago.mi.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx8bada6aa-c90a-e340-a7a3-c3130752f3b2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>HR6KQbuQKeJrUZE0oZb4acppl8FGJwEAB+IDsb7onTQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VUKwOS68KNL36jYorv4OqQ5EwxWPpq6AmGobsFj0Kj6wcTevhxUIXHrpVU6mhbyiYMZr2A4/K7R4
+wrKL+7Cayslm50CGCqUfaM8ReuIKeKZxOQUw0C3lQkFWT6KQfqtomL8UckNEiok/n5B4Fa7LDevz
+nUo79kmldbEN8VlTH9sKI7leG1sfL3hMgwTqfNStdQzdIG2ICKN/wTi4uatOYDkzdOXKUVRhW0ZN
+AFQEBeIpH3NzlxzownNteK/yH1xHij9Hiqhl3irbV7clzA8bMasuq3dhpdh0eZ+0JHqVY5HcX+V/
+IrJBLOSe2t3jj3ULRaNmEGqtmEfwyN7IuwHkPA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2HKiArMHjrK69cqITPSaEmasSwlq8k/xEBlVdb8KqgkA5lQN+Efq5llMOdFp1o1U6Hw9W32EgLBZ
+8jttPPNF9uot/nEislixxJOHgb89yUvY5Q0Wb0oyDH/gM2D03Lzjxb7/Ldvot+OQ5s3/coJ1/J5B
+W8z51KysJxgCwcxJeckE+lJxREEhrsSc2qULVVNyabvn1bTzPeAGjJ0eXC4TOOf/2dYVimsBg/zo
+D4nzYmA8N9dGgZOigXszup85/zj9vyGJtjhgpS98Cgnzuja45lNAcFDzLhEC1bH4Rwcc1ynMJ8u+
+j0f+vFwSoZOvjghDtC60I6Ahxop/k/G+eh+41w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEBDCCAuygAwIBAgIJAIekF8pqBXKUMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGTWlsYW5vMQ8wDQYDVQQHDAZTZW5hZ28xGTAXBgNVBAoMEENvbXVuZSBkaSBTZW5h
+Z28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSswKQYDVQQDDCJzcG9ydGVsbG91bmlj
+by5jb211bmUuc2VuYWdvLm1pLml0MB4XDTIwMDQxNDA4NTAxN1oXDTMwMDQxMjA4NTAxN1owgZYx
+CzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNVBAcMBlNlbmFnbzEZMBcGA1UECgwQ
+Q29tdW5lIGRpIFNlbmFnbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKzApBgNVBAMM
+InNwb3J0ZWxsb3VuaWNvLmNvbXVuZS5zZW5hZ28ubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDYcqICsweOsrr1yohM9JoSZqxLCWryT/EQGVV1vwqqCQDmVA34R+rmWUw50WnW
+jVTofD1bfYSAsFnyO20880X26i3+cSKyWLHEk4eBvz3JS9jlDRZvSjIMf+AzYPTcvOPFvv8t2+i3
+45Dmzf9ygnX8nkFbzPnUrKwnGALBzEl5yQT6UnFEQSGuxJzapQtVU3Jpu+fVtPM94AaMnR5cLhM4
+5//Z1hWKawGD/OgPifNiYDw310aBk6KBezO6nzn/OP2/IYm2OGClL3wKCfO6NrjmU0BwUPMuEQLV
+sfhHBxzXKcwny76PR/68XBKhk6+OCEO0LrQjoCHGin+T8b56H7jXAgMBAAGjUzBRMB0GA1UdDgQW
+BBRQFlp0w2v5QdqE9dOIImmI9XIDITAfBgNVHSMEGDAWgBRQFlp0w2v5QdqE9dOIImmI9XIDITAP
+BgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAWazRP3PLQl8nA9iJA6BdSa2F1TORF
+WpbQY2c5QK0RiZ8Wt2mhfkLOCf84Z11DqfcFI1L8y0QeRDOHGmvXFMwZ8YzfUjwCTmR3ArJmzjDH
+Rm4bBfoz56rJ7lHtPD4Jb81YJRgNaIffiQ10QzNb6pn7vL7p4RcmLLq7f97edrutbKTZ93Q69fXp
+0wAperf63tv9stRNwDELdfxa/k7XuL3C8+PykUwCYVTR7lV2DcyGyRRRmTodwkhM+mS7gqmHpBES
+6l0d8bTujwnUdxFZ6ujtDCgKbnQMAaxu+3kH2cxwJVsyBVLJ9jUcpEKGa77zFSnCFiX7hvBLNiOM
+N8U2T57G
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <!-- Globo x.y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBDCCAuygAwIBAgIJAIekF8pqBXKUMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMQ8wDQYDVQQHDAZTZW5hZ28xGTAXBgNVBAoMEENvbXVuZSBkaSBTZW5hZ28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSswKQYDVQQDDCJzcG9ydGVsbG91bmljby5jb211bmUuc2VuYWdvLm1pLml0MB4XDTIwMDQxNDA4NTAxN1oXDTMwMDQxMjA4NTAxN1owgZYxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNVBAcMBlNlbmFnbzEZMBcGA1UECgwQQ29tdW5lIGRpIFNlbmFnbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKzApBgNVBAMMInNwb3J0ZWxsb3VuaWNvLmNvbXVuZS5zZW5hZ28ubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYcqICsweOsrr1yohM9JoSZqxLCWryT/EQGVV1vwqqCQDmVA34R+rmWUw50WnWjVTofD1bfYSAsFnyO20880X26i3+cSKyWLHEk4eBvz3JS9jlDRZvSjIMf+AzYPTcvOPFvv8t2+i345Dmzf9ygnX8nkFbzPnUrKwnGALBzEl5yQT6UnFEQSGuxJzapQtVU3Jpu+fVtPM94AaMnR5cLhM45//Z1hWKawGD/OgPifNiYDw310aBk6KBezO6nzn/OP2/IYm2OGClL3wKCfO6NrjmU0BwUPMuEQLVsfhHBxzXKcwny76PR/68XBKhk6+OCEO0LrQjoCHGin+T8b56H7jXAgMBAAGjUzBRMB0GA1UdDgQWBBRQFlp0w2v5QdqE9dOIImmI9XIDITAfBgNVHSMEGDAWgBRQFlp0w2v5QdqE9dOIImmI9XIDITAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAWazRP3PLQl8nA9iJA6BdSa2F1TORFWpbQY2c5QK0RiZ8Wt2mhfkLOCf84Z11DqfcFI1L8y0QeRDOHGmvXFMwZ8YzfUjwCTmR3ArJmzjDHRm4bBfoz56rJ7lHtPD4Jb81YJRgNaIffiQ10QzNb6pn7vL7p4RcmLLq7f97edrutbKTZ93Q69fXp0wAperf63tv9stRNwDELdfxa/k7XuL3C8+PykUwCYVTR7lV2DcyGyRRRmTodwkhM+mS7gqmHpBES6l0d8bTujwnUdxFZ6ujtDCgKbnQMAaxu+3kH2cxwJVsyBVLJ9jUcpEKGa77zFSnCFiX7hvBLNiOMN8U2T57G</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- / Globo x.y -->
+    <!-- Globo x.z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBDCCAuygAwIBAgIJAIekF8pqBXKUMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMQ8wDQYDVQQHDAZTZW5hZ28xGTAXBgNVBAoMEENvbXVuZSBkaSBTZW5hZ28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSswKQYDVQQDDCJzcG9ydGVsbG91bmljby5jb211bmUuc2VuYWdvLm1pLml0MB4XDTIwMDQxNDA4NTAxN1oXDTMwMDQxMjA4NTAxN1owgZYxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNVBAcMBlNlbmFnbzEZMBcGA1UECgwQQ29tdW5lIGRpIFNlbmFnbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKzApBgNVBAMMInNwb3J0ZWxsb3VuaWNvLmNvbXVuZS5zZW5hZ28ubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYcqICsweOsrr1yohM9JoSZqxLCWryT/EQGVV1vwqqCQDmVA34R+rmWUw50WnWjVTofD1bfYSAsFnyO20880X26i3+cSKyWLHEk4eBvz3JS9jlDRZvSjIMf+AzYPTcvOPFvv8t2+i345Dmzf9ygnX8nkFbzPnUrKwnGALBzEl5yQT6UnFEQSGuxJzapQtVU3Jpu+fVtPM94AaMnR5cLhM45//Z1hWKawGD/OgPifNiYDw310aBk6KBezO6nzn/OP2/IYm2OGClL3wKCfO6NrjmU0BwUPMuEQLVsfhHBxzXKcwny76PR/68XBKhk6+OCEO0LrQjoCHGin+T8b56H7jXAgMBAAGjUzBRMB0GA1UdDgQWBBRQFlp0w2v5QdqE9dOIImmI9XIDITAfBgNVHSMEGDAWgBRQFlp0w2v5QdqE9dOIImmI9XIDITAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAWazRP3PLQl8nA9iJA6BdSa2F1TORFWpbQY2c5QK0RiZ8Wt2mhfkLOCf84Z11DqfcFI1L8y0QeRDOHGmvXFMwZ8YzfUjwCTmR3ArJmzjDHRm4bBfoz56rJ7lHtPD4Jb81YJRgNaIffiQ10QzNb6pn7vL7p4RcmLLq7f97edrutbKTZ93Q69fXp0wAperf63tv9stRNwDELdfxa/k7XuL3C8+PykUwCYVTR7lV2DcyGyRRRmTodwkhM+mS7gqmHpBES6l0d8bTujwnUdxFZ6ujtDCgKbnQMAaxu+3kH2cxwJVsyBVLJ9jUcpEKGa77zFSnCFiX7hvBLNiOMN8U2T57G</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- / Globo x.z -->
+	<!-- SINET 1.a -->
+	<md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIENTCCAx2gAwIBAgIJAI+fcN/vOsuqMA0GCSqGSIb3DQEBCwUAMIGwMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDzANBgNVBAcMBlNlbmFnbzEZMBcGA1UECgwQQ29tdW5lIGRpIFNlbmFnbzEPMA0GA1UECwwGSGVyYWxkMSkwJwYDVQQDDCBwcm9jZWRpbWVudGkuY29tdW5lLnNlbmFnby5taS5pdDEpMCcGCSqGSIb3DQEJARYaaGVyYWxkQHNpbmV0aW5mb3JtYXRpY2EuaXQwHhcNMTkwMzIyMTcwNjMxWhcNMjkwMzIxMTcwNjMxWjCBsDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZTZW5hZ28xGTAXBgNVBAoMEENvbXVuZSBkaSBTZW5hZ28xDzANBgNVBAsMBkhlcmFsZDEpMCcGA1UEAwwgcHJvY2VkaW1lbnRpLmNvbXVuZS5zZW5hZ28ubWkuaXQxKTAnBgkqhkiG9w0BCQEWGmhlcmFsZEBzaW5ldGluZm9ybWF0aWNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5tjbgnUGtG/0xdsk56cou6O1jtcOV/LjcrIbalknQuGCo99Y+ZczMNahjb2ndIMqcsj+BB6exiYZs3sDe0SAg23Uva5QhsiYCKYnZ12xGBBacgadJNHHxet978XrvCkMITGEt7jC+h0sbzzXAipYp0k7tiVdxVnELaY1ZTavUD53geGTMS6OOi6Th6IVGsY2pKCRBpNUha3RekKdgsIM7WJtuDN3e8AfWZtsM+VFD5AZ7nz4qAZtx2DDzL3SUNkIXfqVbGNlnDtupVNfNGBjzqLQudlrArNHypijbcqTeIQ0vg0a5U3FRIh4Mb6PXpbMzvhkQQjks4qAW6eVM+BgHQIDAQABo1AwTjAdBgNVHQ4EFgQUFjn8f1y8XH8msAH451Pfcnn0vlowHwYDVR0jBBgwFoAUFjn8f1y8XH8msAH451Pfcnn0vlowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZT1bXUtXm+oot9b/reSIE6pk+lX2xIm4cQ399AC7bWs9BIzIYm17+RQODWU7hy8QBR1d6m35MbeFBX5VXnJDXoucIRzO+QTBczwJThmvc3H5400w3tcauYda7N2ccM7J0Mnwfp3by1Ljgjsub/5vSIALcSkP+gUOAFj3M30AUwBEv2gzjEkoPn9EDvrZUKW4p0lTkfYjhGNutGVneImcGArIe2JAgho134mt670+18DZ3S/TRISLMCT9343x4/cc8K7QLQ4Uzb8H9e4xFuI8l6jsLIw/u1BiOAKKO/jxgfelXPUfsg3Am8bpZs68n8zqhjR2nNLP2nDnB42oczovAg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<!-- / SINET 1.a -->
+    <!-- Globo x.k -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellounico.comune.senago.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- / Globo x.k -->
+    <!-- SINET 1.b -->
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.senago.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/senago-sp"/>
+    <!-- / SINET 1.b -->
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+	<!-- Globo x.w -->
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellounico.comune.senago.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+	<!-- / Globo x.w -->
+    <!-- SINET 1.c -->
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://procedimenti.comune.senago.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/senago-sp" index="1"/>
+    <!-- / SINET 1.c -->
+    <!-- Globo x.q -->
+	<md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- / Globo x.q -->
+	<!-- SINET 1.d -->
+	<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Herald Senago</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Portale al cittadino</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Portale al cittadino</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+	<!-- / SINET 1.d -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_i602</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_i602</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Senago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Senago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.senago.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.comune.senago.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

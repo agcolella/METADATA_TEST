@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CastelGandolfo" entityID="https://www.comune.castelgandolfo.rm.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CastelGandolfo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qscTICXBi5Sg7JsnT7MzmcQJNmFNdK/wIwAZn2yr5fk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+AC6GRKUet8A9cvAFf/bQKXXjwTn3ThkuhmdFkvkpLJA+lGzj3fMn5XNDYTuNGLgCCc+mutaf05iK
+aY11AUl36UDw5JKAKUBjAKJZtF83294SXe9nD5eyX5ptDYfrUKcfbaeyejGeiNwDaIxwR2isVXIB
+6Z/pF25S1prvUA5RJHFNIN5zDiyr6PZe6l2uF7rO5Upfl/Bf0p6O97D1K6qUHnPsajphlP+jIq+E
+DN82JUlSu4iPOXyFv2qVK8vgjytFFMSX1cFceuRiO0kLPc3Au/pn0qy6V2ijc5cKrhWRo1e4PJVA
+7qSomrzE3WsvrGyeEY2cdQpXvwD7KKrFkvdVtA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+118ZxmWZu7v60GE9cIOUS2bmF6d4UxhSdMbb+WB2mXxCYCjkIQzypkc1mwvFr5mhkHWmaKKTKRmj
+AQYMJzAxuHcbBeLs3sRxLh+2WKwzopmRPERKD66fFVsyOpx0PwjjcP05ZFWMgwLWuqr/h3ZpgLUL
+JnOEo9TjtCd4YZPvKIFe1s4qZZOu2VDICCZOIWThcPZNR5l8FvUYXxpbqT44YcGk3GfGvL3pW02l
+DnPuEeNwIWntbMrnvbn7XswZNXe6dOOZLouM4Eb8ZI0Eyv2YAO77u5dXGVkOpO5SKybd0CaUqsmU
+ZC6Frbt14cicm83SuEXbxYlqWOuhsrId4oGM2Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAMR53pt+PRwOMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUuY2FzdGVsZ2FuZG9sZm8ucm0uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE5MTEyMDA4MDIwMloXDTI5MTExNzA4MDIwMlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5jYXN0
+ZWxnYW5kb2xmby5ybS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDXXxnGZZm7u/rQYT1wg5RLZuYXp3hTGFJ0xtv5YHaZfEJgKOQh
+DPKmRzWbC8WvmaGQdaZoopMpGaMBBgwnMDG4dxsF4uzexHEuH7ZYrDOimZE8REoPrp8VWzI6nHQ/
+CONw/TlkVYyDAta6qv+HdmmAtQsmc4Sj1OO0J3hhk+8ogV7Wziplk67ZUMgIJk4hZOFw9k1HmXwW
+9RhfGlupPjhhwaTcZ8a8velbTaUOc+4R43Ahae1syue9uftezBk1d7p045kui4zgRvxkjQTK/ZgA
+7vu7l1cZWQ6k7lIrJt3QJpSqyZRkLoWtu3XhyJybzdK4RdvFiWpY66Gysh3igYzZAgMBAAGjUDBO
+MB0GA1UdDgQWBBQ3lu/9mp6GzC0GvmFg9E3Vod7+KzAfBgNVHSMEGDAWgBQ3lu/9mp6GzC0GvmFg
+9E3Vod7+KzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCw2oJFjvL0Hmw8HirC6U3q
+1V9LH8Nbr6l9fr3ASPId2xLbRXU2jH9ZYA3Zl18IeyYfqlaHEX7ojjlhGx2DsDJrA2WthysELJ9R
+6ll2U8uhRXFtr62cPDOd0AMUSOKTZ83aD1+zC/oDFUX14T2LUkdOMD6Q2OMdwhm+jbF2SfY793C7
+56pNKVwdkYMjE55rLRP6fLv594cpC88/CH6Z1a0OV5wHrFGswMTtS1xBfJoOnfPTRGkaHK5aTw5y
+HFPqWwMk//AlckkgHOBnF07PPBJZQGuEXLS4KMBEPKnM65zo3wHSadZhVtiMxpbOqmgmoFpY2e5V
+YiztavNVnInAnPbt
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMR53pt+PRwOMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUuY2FzdGVsZ2FuZG9sZm8ucm0uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MTEyMDA4MDIwMloXDTI5MTExNzA4MDIwMlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5jYXN0ZWxnYW5kb2xmby5ybS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXXxnGZZm7u/rQYT1wg5RLZuYXp3hTGFJ0xtv5YHaZfEJgKOQhDPKmRzWbC8WvmaGQdaZoopMpGaMBBgwnMDG4dxsF4uzexHEuH7ZYrDOimZE8REoPrp8VWzI6nHQ/CONw/TlkVYyDAta6qv+HdmmAtQsmc4Sj1OO0J3hhk+8ogV7Wziplk67ZUMgIJk4hZOFw9k1HmXwW9RhfGlupPjhhwaTcZ8a8velbTaUOc+4R43Ahae1syue9uftezBk1d7p045kui4zgRvxkjQTK/ZgA7vu7l1cZWQ6k7lIrJt3QJpSqyZRkLoWtu3XhyJybzdK4RdvFiWpY66Gysh3igYzZAgMBAAGjUDBOMB0GA1UdDgQWBBQ3lu/9mp6GzC0GvmFg9E3Vod7+KzAfBgNVHSMEGDAWgBQ3lu/9mp6GzC0GvmFg9E3Vod7+KzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCw2oJFjvL0Hmw8HirC6U3q1V9LH8Nbr6l9fr3ASPId2xLbRXU2jH9ZYA3Zl18IeyYfqlaHEX7ojjlhGx2DsDJrA2WthysELJ9R6ll2U8uhRXFtr62cPDOd0AMUSOKTZ83aD1+zC/oDFUX14T2LUkdOMD6Q2OMdwhm+jbF2SfY793C756pNKVwdkYMjE55rLRP6fLv594cpC88/CH6Z1a0OV5wHrFGswMTtS1xBfJoOnfPTRGkaHK5aTw5yHFPqWwMk//AlckkgHOBnF07PPBJZQGuEXLS4KMBEPKnM65zo3wHSadZhVtiMxpbOqmgmoFpY2e5VYiztavNVnInAnPbt
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMR53pt+PRwOMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUuY2FzdGVsZ2FuZG9sZm8ucm0uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MTEyMDA4MDIwMloXDTI5MTExNzA4MDIwMlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5jYXN0ZWxnYW5kb2xmby5ybS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXXxnGZZm7u/rQYT1wg5RLZuYXp3hTGFJ0xtv5YHaZfEJgKOQhDPKmRzWbC8WvmaGQdaZoopMpGaMBBgwnMDG4dxsF4uzexHEuH7ZYrDOimZE8REoPrp8VWzI6nHQ/CONw/TlkVYyDAta6qv+HdmmAtQsmc4Sj1OO0J3hhk+8ogV7Wziplk67ZUMgIJk4hZOFw9k1HmXwW9RhfGlupPjhhwaTcZ8a8velbTaUOc+4R43Ahae1syue9uftezBk1d7p045kui4zgRvxkjQTK/ZgA7vu7l1cZWQ6k7lIrJt3QJpSqyZRkLoWtu3XhyJybzdK4RdvFiWpY66Gysh3igYzZAgMBAAGjUDBOMB0GA1UdDgQWBBQ3lu/9mp6GzC0GvmFg9E3Vod7+KzAfBgNVHSMEGDAWgBQ3lu/9mp6GzC0GvmFg9E3Vod7+KzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCw2oJFjvL0Hmw8HirC6U3q1V9LH8Nbr6l9fr3ASPId2xLbRXU2jH9ZYA3Zl18IeyYfqlaHEX7ojjlhGx2DsDJrA2WthysELJ9R6ll2U8uhRXFtr62cPDOd0AMUSOKTZ83aD1+zC/oDFUX14T2LUkdOMD6Q2OMdwhm+jbF2SfY793C756pNKVwdkYMjE55rLRP6fLv594cpC88/CH6Z1a0OV5wHrFGswMTtS1xBfJoOnfPTRGkaHK5aTw5yHFPqWwMk//AlckkgHOBnF07PPBJZQGuEXLS4KMBEPKnM65zo3wHSadZhVtiMxpbOqmgmoFpY2e5VYiztavNVnInAnPbt
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/castelgandolfo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castelgandolfo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castelgandolfo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/castelgandolfo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castel Gandolfo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Castel Gandolfo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Castel Gandolfo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Castel Gandolfo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castel Gandolfo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castel Gandolfo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Castel Gandolfo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Castel Gandolfo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.castelgandolfo.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castelgandolfo.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.castelgandolfo.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.castelgandolfo.rm.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

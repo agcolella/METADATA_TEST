@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Valfurva" entityID="https://www.comune.valfurva.so.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Valfurva">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>c7SJxZiDlEChKn53SWXq71bK9FwKpL1v1rcuJjGjzKY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ts2YL6A2kM/A7bQ9dKluY8DoBkR+SbkA8updX3NS5dxGs8rm8x0tyDgk7iyLjdMGW22m5wqF1XsJ
+EsnIj1Dex74je/ugc16AortUdJ8rJ1ifIFxrc12owCozZEO8KIDSkkokkmyZDxxAWV6yn89Sn7yd
+ljwlYtcnITWOlQNhFNRLqe5lh+K1tVeDjKBa00HzDDeXsWp1Sotj04ShNUuPK7sQJ2cTR3m1U2B7
+x5iBRS/lg/2GsL+86UHU+VzU/MTFdi7IcJzldRMXYgihQ+4mNnx2AX6nzpkD9/JebD5gXGsRZ6aY
+qQeXsf7Tn4gsTXQcG2JGMYX0zoYgktX2diqDvg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zTf9AIVGlUlPuQYxUMiMSzcQUbPB/mcbpLkSBYbf94H7I3J5pDt8q7TBgSq8sVhGWQjbk6dr32/g
+wgsCae16e2dcHoY0Vs191W+bpa8ip59LrMkw+L7PtMTLC5sZ6zIYMTxq4Eb79p97zUYVTdAbz78F
+TSZjdnz2O0QDZe38OiaeLLT/xX0vuKGqSNGu3fDVyUTNWM0uAUOU24AEAXUkpDhRLpsEqCfXFaqa
+XnHg3e0v9CLTOUM3eKzf79TzAKAAjkq1x9l/TBYMUj5mfXxp9X/7xIQuJ/h8vHVU/HzDUgs+YDL/
+PXkF8t7N+Z0QmHt6p9+il7OVjNCqcwNHWRb4Vw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJALrwgmyBmxc9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUudmFsZnVydmEuc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgy
+MjA3MDIyMFoXDTI4MDgxOTA3MDIyMFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS52YWxmdXJ2YS5z
+by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDNN/0AhUaVSU+5BjFQyIxLNxBRs8H+ZxukuRIFht/3gfsjcnmkO3yrtMGBKryxWEZZ
+CNuTp2vfb+DCCwJp7Xp7Z1wehjRWzX3Vb5ulryKnn0usyTD4vs+0xMsLmxnrMhgxPGrgRvv2n3vN
+RhVN0BvPvwVNJmN2fPY7RANl7fw6Jp4stP/FfS+4oapI0a7d8NXJRM1YzS4BQ5TbgAQBdSSkOFEu
+mwSoJ9cVqppeceDd7S/0ItM5Qzd4rN/v1PMAoACOSrXH2X9MFgxSPmZ9fGn1f/vEhC4n+Hy8dVT8
+fMNSCz5gMv89eQXy3s35nRCYe3qn36KXs5WM0KpzA0dZFvhXAgMBAAGjUDBOMB0GA1UdDgQWBBRz
+b3k/LGFxgFlkSaDcrU2cMYC4ajAfBgNVHSMEGDAWgBRzb3k/LGFxgFlkSaDcrU2cMYC4ajAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCS7YxDn264MwZ6sUFIkoNh1tPdhuS3MnTil+HS
+8kh8dZ50uqZMM3pwcV5WYJgAKKeugKukCkXo4IvMdqGOj7s55t4FaJjql/5EdBmkX8iuRnmD5vd1
+ZbEsWB/uOSmimLOb73rphGOUFxw6AF2gUx041oxRjI/69ae7SgEd/HpnJmysuRGxO0Ua/3mZJbO9
+YnLw42Q2ZpSlg/Fa3t9gQiZuIStNFbfYdJkI1SFbWSD1Ja1TYH3OwLy+TrOPcgnrqW978GMtBZbI
+St/8PaE0UUQVOKUG/DUnDTG5RnRtw1eZqbGzh98A1ll1pHJpKGKY+FoZK+xDmBP3Bv0/8vwdy776
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJALrwgmyBmxc9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUudmFsZnVydmEuc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA3MDIyMFoXDTI4MDgxOTA3MDIyMFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS52YWxmdXJ2YS5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNN/0AhUaVSU+5BjFQyIxLNxBRs8H+ZxukuRIFht/3gfsjcnmkO3yrtMGBKryxWEZZCNuTp2vfb+DCCwJp7Xp7Z1wehjRWzX3Vb5ulryKnn0usyTD4vs+0xMsLmxnrMhgxPGrgRvv2n3vNRhVN0BvPvwVNJmN2fPY7RANl7fw6Jp4stP/FfS+4oapI0a7d8NXJRM1YzS4BQ5TbgAQBdSSkOFEumwSoJ9cVqppeceDd7S/0ItM5Qzd4rN/v1PMAoACOSrXH2X9MFgxSPmZ9fGn1f/vEhC4n+Hy8dVT8fMNSCz5gMv89eQXy3s35nRCYe3qn36KXs5WM0KpzA0dZFvhXAgMBAAGjUDBOMB0GA1UdDgQWBBRzb3k/LGFxgFlkSaDcrU2cMYC4ajAfBgNVHSMEGDAWgBRzb3k/LGFxgFlkSaDcrU2cMYC4ajAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCS7YxDn264MwZ6sUFIkoNh1tPdhuS3MnTil+HS8kh8dZ50uqZMM3pwcV5WYJgAKKeugKukCkXo4IvMdqGOj7s55t4FaJjql/5EdBmkX8iuRnmD5vd1ZbEsWB/uOSmimLOb73rphGOUFxw6AF2gUx041oxRjI/69ae7SgEd/HpnJmysuRGxO0Ua/3mZJbO9YnLw42Q2ZpSlg/Fa3t9gQiZuIStNFbfYdJkI1SFbWSD1Ja1TYH3OwLy+TrOPcgnrqW978GMtBZbISt/8PaE0UUQVOKUG/DUnDTG5RnRtw1eZqbGzh98A1ll1pHJpKGKY+FoZK+xDmBP3Bv0/8vwdy776
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJALrwgmyBmxc9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUudmFsZnVydmEuc28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDgyMjA3MDIyMFoXDTI4MDgxOTA3MDIyMFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS52YWxmdXJ2YS5zby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNN/0AhUaVSU+5BjFQyIxLNxBRs8H+ZxukuRIFht/3gfsjcnmkO3yrtMGBKryxWEZZCNuTp2vfb+DCCwJp7Xp7Z1wehjRWzX3Vb5ulryKnn0usyTD4vs+0xMsLmxnrMhgxPGrgRvv2n3vNRhVN0BvPvwVNJmN2fPY7RANl7fw6Jp4stP/FfS+4oapI0a7d8NXJRM1YzS4BQ5TbgAQBdSSkOFEumwSoJ9cVqppeceDd7S/0ItM5Qzd4rN/v1PMAoACOSrXH2X9MFgxSPmZ9fGn1f/vEhC4n+Hy8dVT8fMNSCz5gMv89eQXy3s35nRCYe3qn36KXs5WM0KpzA0dZFvhXAgMBAAGjUDBOMB0GA1UdDgQWBBRzb3k/LGFxgFlkSaDcrU2cMYC4ajAfBgNVHSMEGDAWgBRzb3k/LGFxgFlkSaDcrU2cMYC4ajAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCS7YxDn264MwZ6sUFIkoNh1tPdhuS3MnTil+HS8kh8dZ50uqZMM3pwcV5WYJgAKKeugKukCkXo4IvMdqGOj7s55t4FaJjql/5EdBmkX8iuRnmD5vd1ZbEsWB/uOSmimLOb73rphGOUFxw6AF2gUx041oxRjI/69ae7SgEd/HpnJmysuRGxO0Ua/3mZJbO9YnLw42Q2ZpSlg/Fa3t9gQiZuIStNFbfYdJkI1SFbWSD1Ja1TYH3OwLy+TrOPcgnrqW978GMtBZbISt/8PaE0UUQVOKUG/DUnDTG5RnRtw1eZqbGzh98A1ll1pHJpKGKY+FoZK+xDmBP3Bv0/8vwdy776
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/valfurva"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valfurva" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valfurva" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/valfurva" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Valfurva</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Valfurva</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Valfurva</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Valfurva</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Valfurva</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Valfurva</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Valfurva</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Valfurva</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.valfurva.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.valfurva.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.valfurva.so.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.valfurva.so.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

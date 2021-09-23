@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cattolica" entityID="https://www.comune.cattolica.rn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cattolica">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jQJy7IEODHW+li+HZTfaa8JIkwE3iLs3aNswtRWzurE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SWklPvxYXpWg47rkKOO8jpbN6v0QLstAFgsJbIg2ex8xUGAqOSp6J7TclpLw3UciwbqTTdXQrbx2
+T03vREXD76M/W0WnE0QmtlDwTXRGM4GdGi5k7QV42unb7ivQwm9J0KKMptJwc9HM5aSUp3LJSvir
+CqP5dKEyOwH+U4rSxkomH4cIcRG+wXd6DEl4RmnsfcNH5G4Qy+h1gYpshtv10hoxJ3FRyIdcZZo5
+Ddx8rZuwydc7rAwdrRICV0BvQMGHZIEPg2l7Ly18/K+vjeHPfSCLUNjG/GtiOt6B0mppp9Ezlr1A
+d82/E3KM5e1YJR+k09SPy6UzjuQTf4/uq5IuUQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sC8AL9PGQbm7d16HVqvu5SbzL9V8htCwKb4IPK/bYFvx74ZXzPF62PORlXw1iIHVwo4FUjsNBgPY
+QU2E8cDLH/P3TYXEwMqfHiIVgAcXqvhZrvoCOMBzzTGT+S20jU2eO3nXj2C2AbOm6xWMUUDVmlYc
+xF37GIt8rb7B9grAHB28Rzzi/A1Bb32tRb6PokJkthtBmexQO8qbC8JYxcDP3WiVSXbJghopm1Ds
+7QXi5EHUul1qNjul/twEr5yB1PD4k7pHqDTxulZCV/V3UgtqKrewncXQ37ArxPzmFJHktHSGC2jD
++uCZQ+FbrJv5b2dz5ojQ23RNHnZ2liX5dRUAAw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAPle33qL2MNvMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2F0dG9saWNhLnJuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA3
+MzAxMDExMTRaFw0yODA3MjcxMDExMTRaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F0dG9saWNh
+LnJuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALAvAC/TxkG5u3deh1ar7uUm8y/VfIbQsCm+CDyv22Bb8e+GV8zxetjzkZV8NYiB
+1cKOBVI7DQYD2EFNhPHAyx/z902FxMDKnx4iFYAHF6r4Wa76AjjAc80xk/kttI1Nnjt5149gtgGz
+pusVjFFA1ZpWHMRd+xiLfK2+wfYKwBwdvEc84vwNQW99rUW+j6JCZLYbQZnsUDvKmwvCWMXAz91o
+lUl2yYIaKZtQ7O0F4uRB1LpdajY7pf7cBK+cgdTw+JO6R6g08bpWQlf1d1ILaiq3sJ3F0N+wK8T8
+5hSR5LR0hgtow/rgmUPhW6yb+W9nc+aI0Nt0TR52dpYl+XUVAAMCAwEAAaNQME4wHQYDVR0OBBYE
+FA2l3aLJjzHih8PvXLwEIfbggHf9MB8GA1UdIwQYMBaAFA2l3aLJjzHih8PvXLwEIfbggHf9MAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAV1aCmCZAL4W3zdtkX6/+FDfu/i389exDIw
+UgYJnRsJWhkTAV5bqpNiU74002T0/IF5vPZxUH83dBm5zI4gQe+0F/iCo/AJMkmMbe4Fk5VeIoNG
+uLCnpmSwvVirGpah9+SbGytHF9IC6007SW4cEOI5JIv0yNbw3VVbYIyVmMKJQF7WdX6KJH2oY7UI
+LdKWJRCcJMfCSynhvrVsq7azonr+1sx5THRp01Kl538lDfO8QTZ9uibAUIT6LPKICw2IDCrABIWQ
+/HKT3Lk3U2gnjVeel4QRfubYnxbIGWQ6Wbtt+eNIUy/Fi9Oj+HlSYb1cU2ysFMY2I1SpfXSTXxwW
+KIg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAPle33qL2MNvMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F0dG9saWNhLnJuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA3MzAxMDExMTRaFw0yODA3MjcxMDExMTRaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F0dG9saWNhLnJuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALAvAC/TxkG5u3deh1ar7uUm8y/VfIbQsCm+CDyv22Bb8e+GV8zxetjzkZV8NYiB1cKOBVI7DQYD2EFNhPHAyx/z902FxMDKnx4iFYAHF6r4Wa76AjjAc80xk/kttI1Nnjt5149gtgGzpusVjFFA1ZpWHMRd+xiLfK2+wfYKwBwdvEc84vwNQW99rUW+j6JCZLYbQZnsUDvKmwvCWMXAz91olUl2yYIaKZtQ7O0F4uRB1LpdajY7pf7cBK+cgdTw+JO6R6g08bpWQlf1d1ILaiq3sJ3F0N+wK8T85hSR5LR0hgtow/rgmUPhW6yb+W9nc+aI0Nt0TR52dpYl+XUVAAMCAwEAAaNQME4wHQYDVR0OBBYEFA2l3aLJjzHih8PvXLwEIfbggHf9MB8GA1UdIwQYMBaAFA2l3aLJjzHih8PvXLwEIfbggHf9MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAV1aCmCZAL4W3zdtkX6/+FDfu/i389exDIwUgYJnRsJWhkTAV5bqpNiU74002T0/IF5vPZxUH83dBm5zI4gQe+0F/iCo/AJMkmMbe4Fk5VeIoNGuLCnpmSwvVirGpah9+SbGytHF9IC6007SW4cEOI5JIv0yNbw3VVbYIyVmMKJQF7WdX6KJH2oY7UILdKWJRCcJMfCSynhvrVsq7azonr+1sx5THRp01Kl538lDfO8QTZ9uibAUIT6LPKICw2IDCrABIWQ/HKT3Lk3U2gnjVeel4QRfubYnxbIGWQ6Wbtt+eNIUy/Fi9Oj+HlSYb1cU2ysFMY2I1SpfXSTXxwWKIg=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cattolica"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cattolica" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cattolica" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cattolica" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cattolica</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cattolica</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cattolica</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cattolica</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cattolica</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cattolica</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cattolica</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cattolica</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cattolica.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cattolica.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cattolica.rn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cattolica.rn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

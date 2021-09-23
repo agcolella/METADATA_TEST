@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Bedollo" entityID="https://www.comunebedollo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Bedollo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>MGpr8eFVme9VhQe7qqHXarQ077Io7HEY+SKpPwJmk+I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CUYGC7c14JAHU433XwvLCNo9W0hA2gnkBLnKxhtdaPTDeWVap890CdcI1QGpipQ+IAqSEcm4lBJ/
+4lSjkcd8Z1cJsHQYXRkAuJLEXPzeOTKq76GB/mTCzlUZgn2ywoH2tsFIoflORoq2vPYKU/0cKIZO
+ANFU0LtWLVyJI06ZwW0FU4DIupkCb7y5VJ/BS6qNzfm9Sj8ATaBSsrvnpyNBwZs4quLvRZ4y3a/F
+xjG7YNlZfjaYF+HAhdA9YrjEz69AQaBudqM2b1D9GCHbqqeyUrbGx2/1TUEConOa18o8hlLZxpl6
+jfEyW34uVop0E2i8Cv/7OxV+08H7+1FjZnMvqA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ypcBirrDk1x2qD8qmVsjIipX3Zl7mErwZ9strhpuCJGV9z1vWMW5AOwNeWCsUHei58ShPbq22paK
+hpSI7NMspYCtNCbGgUn3IBPYF4Cy1+puKPHZvNtKTqI1tAf8JPAf9L6+0ys2X/XfCl5j7xh5qU/z
+7dFWEx6kFcvKyZN22PZ9VfImH9A8/bZBnk/7wS6RvBtrNhPvnO6jgFIlNKM64HAMJnm06Kgzd5f5
+U/lnNpScP7Z0UpgXXXc98nAb7t9gUNiFVMb1U2vEv7xyWtON5Et3uwPGBNo+7+PixGE6Wxsv27+O
+ohh6QUvI+XzKEhc5KoAJXT3nLx7VdkTCTFzDpw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSTCCAjGgAwIBAgIJAMYusdbt4f1tMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5j
+b211bmViZWRvbGxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MDQxMzQw
+MjhaFw0zMDA2MDIxMzQwMjhaMDsxHTAbBgNVBAMMFHd3dy5jb211bmViZWRvbGxvLml0MQ0wCwYD
+VQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqX
+AYq6w5Ncdqg/KplbIyIqV92Ze5hK8GfbLa4abgiRlfc9b1jFuQDsDXlgrFB3oufEoT26ttqWioaU
+iOzTLKWArTQmxoFJ9yAT2BeAstfqbijx2bzbSk6iNbQH/CTwH/S+vtMrNl/13wpeY+8YealP8+3R
+VhMepBXLysmTdtj2fVXyJh/QPP22QZ5P+8EukbwbazYT75zuo4BSJTSjOuBwDCZ5tOioM3eX+VP5
+ZzaUnD+2dFKYF113PfJwG+7fYFDYhVTG9VNrxL+8clrTjeRLd7sDxgTaPu/j4sRhOlsbL9u/jqIY
+ekFLyPl8yhIXOSqACV095y8e1XZEwkxcw6cCAwEAAaNQME4wHQYDVR0OBBYEFNffBCpUkqk7LMej
+MLFFXaYa+THzMB8GA1UdIwQYMBaAFNffBCpUkqk7LMejMLFFXaYa+THzMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBAJnrwqHWUX5hYbj7xgKgVOMqKeTxIrf8OO1dpLHqteBe3svM2YE0
+Nv1A3O3WA9ZYjvdzfIZoo+VdmCe1TpQkZyBXrmrLFGBbR0YpOINNlDw8Xo6ilVX3N2lhNsvz2HJQ
+3yEreol8hazffNseqT5puXkZT8BktF7v5sBu8XDDhfFIFvd7m406nbWGFgK/TBD0YGfjtoycdnIi
+5eI+kVwGJ/csE4/9e8VXWD+8YQExjZielz/p8Hm+Df4qGYE1gNBi275V5GipwIOUDVmeJRyy+iws
+9whLFnOuT5CE6wWTkqB1SPBUpm4gkFIcnVt3A7bHjXygOKo7dd/R5uN1atR3z3k=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIJAMYusdbt4f1tMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5jb211bmViZWRvbGxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MDQxMzQwMjhaFw0zMDA2MDIxMzQwMjhaMDsxHTAbBgNVBAMMFHd3dy5jb211bmViZWRvbGxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqXAYq6w5Ncdqg/KplbIyIqV92Ze5hK8GfbLa4abgiRlfc9b1jFuQDsDXlgrFB3oufEoT26ttqWioaUiOzTLKWArTQmxoFJ9yAT2BeAstfqbijx2bzbSk6iNbQH/CTwH/S+vtMrNl/13wpeY+8YealP8+3RVhMepBXLysmTdtj2fVXyJh/QPP22QZ5P+8EukbwbazYT75zuo4BSJTSjOuBwDCZ5tOioM3eX+VP5ZzaUnD+2dFKYF113PfJwG+7fYFDYhVTG9VNrxL+8clrTjeRLd7sDxgTaPu/j4sRhOlsbL9u/jqIYekFLyPl8yhIXOSqACV095y8e1XZEwkxcw6cCAwEAAaNQME4wHQYDVR0OBBYEFNffBCpUkqk7LMejMLFFXaYa+THzMB8GA1UdIwQYMBaAFNffBCpUkqk7LMejMLFFXaYa+THzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJnrwqHWUX5hYbj7xgKgVOMqKeTxIrf8OO1dpLHqteBe3svM2YE0Nv1A3O3WA9ZYjvdzfIZoo+VdmCe1TpQkZyBXrmrLFGBbR0YpOINNlDw8Xo6ilVX3N2lhNsvz2HJQ3yEreol8hazffNseqT5puXkZT8BktF7v5sBu8XDDhfFIFvd7m406nbWGFgK/TBD0YGfjtoycdnIi5eI+kVwGJ/csE4/9e8VXWD+8YQExjZielz/p8Hm+Df4qGYE1gNBi275V5GipwIOUDVmeJRyy+iws9whLFnOuT5CE6wWTkqB1SPBUpm4gkFIcnVt3A7bHjXygOKo7dd/R5uN1atR3z3k=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIJAMYusdbt4f1tMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5jb211bmViZWRvbGxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MDQxMzQwMjhaFw0zMDA2MDIxMzQwMjhaMDsxHTAbBgNVBAMMFHd3dy5jb211bmViZWRvbGxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqXAYq6w5Ncdqg/KplbIyIqV92Ze5hK8GfbLa4abgiRlfc9b1jFuQDsDXlgrFB3oufEoT26ttqWioaUiOzTLKWArTQmxoFJ9yAT2BeAstfqbijx2bzbSk6iNbQH/CTwH/S+vtMrNl/13wpeY+8YealP8+3RVhMepBXLysmTdtj2fVXyJh/QPP22QZ5P+8EukbwbazYT75zuo4BSJTSjOuBwDCZ5tOioM3eX+VP5ZzaUnD+2dFKYF113PfJwG+7fYFDYhVTG9VNrxL+8clrTjeRLd7sDxgTaPu/j4sRhOlsbL9u/jqIYekFLyPl8yhIXOSqACV095y8e1XZEwkxcw6cCAwEAAaNQME4wHQYDVR0OBBYEFNffBCpUkqk7LMejMLFFXaYa+THzMB8GA1UdIwQYMBaAFNffBCpUkqk7LMejMLFFXaYa+THzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJnrwqHWUX5hYbj7xgKgVOMqKeTxIrf8OO1dpLHqteBe3svM2YE0Nv1A3O3WA9ZYjvdzfIZoo+VdmCe1TpQkZyBXrmrLFGBbR0YpOINNlDw8Xo6ilVX3N2lhNsvz2HJQ3yEreol8hazffNseqT5puXkZT8BktF7v5sBu8XDDhfFIFvd7m406nbWGFgK/TBD0YGfjtoycdnIi5eI+kVwGJ/csE4/9e8VXWD+8YQExjZielz/p8Hm+Df4qGYE1gNBi275V5GipwIOUDVmeJRyy+iws9whLFnOuT5CE6wWTkqB1SPBUpm4gkFIcnVt3A7bHjXygOKo7dd/R5uN1atR3z3k=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bedollo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bedollo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bedollo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bedollo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bedollo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bedollo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bedollo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bedollo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bedollo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bedollo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bedollo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bedollo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comunebedollo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comunebedollo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comunebedollo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comunebedollo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Monsummanoterme" entityID="https://www.comune.monsummano-terme.pt.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Monsummanoterme">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>lf9vCxWYMlNtIKXnF3izNE8IAkGuwDrqxD9oo1NcTkE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+N90oqE61Q0erDHtZA3OAsdvTjuxpbOrbDpvmdgB8uJ5EhAeqUdqZYlgfsl8ciNOHz8n8l1BJJA10
+F6gdPD0G4E2pEaDqrZX4OBiytOZlyJNTLQXSOzSZukRJ0fyeObmATO7Oyd4LbHbZ6WGFrFTz1jEL
+Zc8qw5h/K4gEpX+Xszd5xdncUTyTL3dfbQP/rPr1q4SR05UEWxhrBidg4LD5XAN1RlstBi4zRPbr
+55FcRy2kmLb2pNwdTAORZGs0BjyPeGaTtVuu5KU2/BzhjX0BMeE+xzKmXGI1fgZSily/CwVg36t7
+l8p4Pex3aC0CPfkWb/COe6Gfry5pg5+WdJ376w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zEQTTLM0a3hvn1rda/H++aeYzxcghlKKA/DslCs5vBgpwXTdcgwDXy0MbgdT4TMyn7Fe91IBi031
+UKIA2XKxUW8u3K4gvoEp9ZRx55pAdPgbnKUMFNmETDqyauh0RME5Owsmke+v+L+tOw6nrfXkXCsy
+9Zlx+jDAj+84+dZF72PI+aE7u0lUvS82czqx7bs2OWbZa20UXsks4RpJ+O2SlLM6Ca6nTYVGgZYg
+aQ0f22MfQoIIufkOIFh818w5q/Uz81spDjtlv4L2UPtYmwR3v1cUgwaihY5qUJWABKJPVin7+0Rb
+Y+1Q2M+ynwDBVbEN9tbpdkLutDD/pK1ufx4MKw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYzCCAkugAwIBAgIJAPXA4bSp26n9MA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5j
+b211bmUubW9tc3VtbWFuby10ZXJtZS5wdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQw
+HhcNMTgwNjA0MTI1NzU1WhcNMjgwNjAxMTI1NzU1WjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLm1v
+bXN1bW1hbm8tdGVybWUucHQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEQTTLM0a3hvn1rda/H++aeYzxcghlKKA/DslCs5vBgp
+wXTdcgwDXy0MbgdT4TMyn7Fe91IBi031UKIA2XKxUW8u3K4gvoEp9ZRx55pAdPgbnKUMFNmETDqy
+auh0RME5Owsmke+v+L+tOw6nrfXkXCsy9Zlx+jDAj+84+dZF72PI+aE7u0lUvS82czqx7bs2OWbZ
+a20UXsks4RpJ+O2SlLM6Ca6nTYVGgZYgaQ0f22MfQoIIufkOIFh818w5q/Uz81spDjtlv4L2UPtY
+mwR3v1cUgwaihY5qUJWABKJPVin7+0RbY+1Q2M+ynwDBVbEN9tbpdkLutDD/pK1ufx4MKwIDAQAB
+o1AwTjAdBgNVHQ4EFgQUtPN+gdURl6Y+EN60V78muFDpq9QwHwYDVR0jBBgwFoAUtPN+gdURl6Y+
+EN60V78muFDpq9QwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXDtjH9ZHOZ4eaqfq
+Jrt0110nuTjP+9y+DSWcDrsE1WbjMvTw9O4jEMQXZqVxwDD+QjbiEEFpAnApkvR80glkXoCfN6gF
+9hl4kbGKo4JK62H7YKYZzkyW4Zec8J+v8PMmqMvHRMEbYCE4d4/ipBW0JdCnWytDRRsDeqzgAZqZ
+OZ2wnplmB9X9qts+8/u3Xp05NE45aAumARj4NJWZKfG2YAYGkvt0yjRrx2zCwf5YeL47XGak2buj
+M9bc6PT0wWVLpFggGAodmeAeuD0t49Gc2n05yGcpHwFxzkbtAj3iGQYtkoV9awQY8uOE9YGS1x+y
+s9B7G6oT6PSzO0tm3a8w1Q==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAPXA4bSp26n9MA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUubW9tc3VtbWFuby10ZXJtZS5wdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNjA0MTI1NzU1WhcNMjgwNjAxMTI1NzU1WjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLm1vbXN1bW1hbm8tdGVybWUucHQuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEQTTLM0a3hvn1rda/H++aeYzxcghlKKA/DslCs5vBgpwXTdcgwDXy0MbgdT4TMyn7Fe91IBi031UKIA2XKxUW8u3K4gvoEp9ZRx55pAdPgbnKUMFNmETDqyauh0RME5Owsmke+v+L+tOw6nrfXkXCsy9Zlx+jDAj+84+dZF72PI+aE7u0lUvS82czqx7bs2OWbZa20UXsks4RpJ+O2SlLM6Ca6nTYVGgZYgaQ0f22MfQoIIufkOIFh818w5q/Uz81spDjtlv4L2UPtYmwR3v1cUgwaihY5qUJWABKJPVin7+0RbY+1Q2M+ynwDBVbEN9tbpdkLutDD/pK1ufx4MKwIDAQABo1AwTjAdBgNVHQ4EFgQUtPN+gdURl6Y+EN60V78muFDpq9QwHwYDVR0jBBgwFoAUtPN+gdURl6Y+EN60V78muFDpq9QwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXDtjH9ZHOZ4eaqfqJrt0110nuTjP+9y+DSWcDrsE1WbjMvTw9O4jEMQXZqVxwDD+QjbiEEFpAnApkvR80glkXoCfN6gF9hl4kbGKo4JK62H7YKYZzkyW4Zec8J+v8PMmqMvHRMEbYCE4d4/ipBW0JdCnWytDRRsDeqzgAZqZOZ2wnplmB9X9qts+8/u3Xp05NE45aAumARj4NJWZKfG2YAYGkvt0yjRrx2zCwf5YeL47XGak2bujM9bc6PT0wWVLpFggGAodmeAeuD0t49Gc2n05yGcpHwFxzkbtAj3iGQYtkoV9awQY8uOE9YGS1x+ys9B7G6oT6PSzO0tm3a8w1Q==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/monsummanoterme"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monsummanoterme" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monsummanoterme" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Monsummano Terme</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Monsummano Terme</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Monsummano Terme</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Monsummano Terme</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Monsummano Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Monsummano Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Monsummano Terme</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Monsummano Terme</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.monsummano-terme.pt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.monsummano-terme.pt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.monsummano-terme.pt.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.monsummano-terme.pt.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Pescara" entityID="https://www.comune.pescara.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Pescara">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Et6MpCPVcjvyeskVMgv3qCAK0yKGJfiL6yMR79UG9rc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+p5IIcZ5z4Ot7e8Dpy37LsRZVH6/nbwl9ky6ytsrwi4DyZ2O1Hl2Vu9pJw33Z3o1v939XldKk8zy1
+uOrhGkTpB0Sh+Ww+7mbIqrlseEJQlaGuRUg60R2MdCkYzpEI8X78DFvpXkF0XwaLinKMfju1iJFq
+9tgRhD0ZWTih4Mt6PICrxIIvrkDM43Uevccvpj2afFsMVKLRpksZDCsPyxdolhDOK9JAxzl945Ic
+cMo/HewI05jSgmRuZUNcfpvz40yfoxk17Ajy5AATwY7sl8bBH3WQLFjDliIGK1Iz9IADYyZMobbS
+PInRwyBXdytVFzvLEy8fQk7yT9xIS/hIWgDyGA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uDkHDJ+ZA953CUrmtljA7n2jwNCK4eNFAokqGQVE3Jn/9EB+YKLFHZ7wWX3+EHAXS5+6tGmJNnj3
+52fK1pU2Nw+SKP6D3IJtG6aPenGRCalWirvES6ynJwh8NqkHWIT3V/s+Q2/mN5Z9bLkP/cjMzw/Q
+sVLKyR+ZNPyRfGKSj0z26+QfYOpnSrGeklURu1Fve6Jms/x8rZQBynRWScZK8Hd+05055njC7Ocj
+QGZMMZ+qCadZJBbC3MQhYQgmNd1k6dg/NvHrcOhst3kcO/r/2AQn8USw0WlKd7W+jIbu+Tldz69F
+da0d7l0BxXbtGdxO1djHxxqK2ycxzKVKGHIMHQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSzCCAjOgAwIBAgIJAPzXhY0F/CqjMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5j
+b211bmUucGVzY2FyYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDky
+MjUxWhcNMjgwOTE1MDkyMjUxWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnBlc2NhcmEuaXQxDTAL
+BgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+uDkHDJ+ZA953CUrmtljA7n2jwNCK4eNFAokqGQVE3Jn/9EB+YKLFHZ7wWX3+EHAXS5+6tGmJNnj3
+52fK1pU2Nw+SKP6D3IJtG6aPenGRCalWirvES6ynJwh8NqkHWIT3V/s+Q2/mN5Z9bLkP/cjMzw/Q
+sVLKyR+ZNPyRfGKSj0z26+QfYOpnSrGeklURu1Fve6Jms/x8rZQBynRWScZK8Hd+05055njC7Ocj
+QGZMMZ+qCadZJBbC3MQhYQgmNd1k6dg/NvHrcOhst3kcO/r/2AQn8USw0WlKd7W+jIbu+Tldz69F
+da0d7l0BxXbtGdxO1djHxxqK2ycxzKVKGHIMHQIDAQABo1AwTjAdBgNVHQ4EFgQUQhs76li6Igto
+63mBQdAjgmn695UwHwYDVR0jBBgwFoAUQhs76li6Igto63mBQdAjgmn695UwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAdEZsw4srzStM2b2sbnmGtktoIBtAR1D0kG5oxNZJFiLGp3WU
+s44NMlODLbWgadIu7ng+/Wfa5ZWwa0wMBSZAc58wvQLpE1lbIfw6Qd/M7dIrfYGvg0TgIs0UgZ5V
+P+ShK4qtIKAIbEmQiHr5J+mNUFt65t4Mjt6TeCB7PBWE+2o31YPDFNK43BJOPEcP41mUBTmU4NNO
+lEPrHEoFFERJDseNJUNszAPNHktVhEVvOJlHFUVlMaF4+j/rauYnGSfYC4AGo6DejMYeeRm/IfWv
+CWVbGX+HBBZuejii0zit6KWz1SrhDP5x6iW4rFe7AaBNoXIKkFoifM9AvTfWzQv8KA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAPzXhY0F/CqjMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUucGVzY2FyYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDkyMjUxWhcNMjgwOTE1MDkyMjUxWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnBlc2NhcmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuDkHDJ+ZA953CUrmtljA7n2jwNCK4eNFAokqGQVE3Jn/9EB+YKLFHZ7wWX3+EHAXS5+6tGmJNnj352fK1pU2Nw+SKP6D3IJtG6aPenGRCalWirvES6ynJwh8NqkHWIT3V/s+Q2/mN5Z9bLkP/cjMzw/QsVLKyR+ZNPyRfGKSj0z26+QfYOpnSrGeklURu1Fve6Jms/x8rZQBynRWScZK8Hd+05055njC7OcjQGZMMZ+qCadZJBbC3MQhYQgmNd1k6dg/NvHrcOhst3kcO/r/2AQn8USw0WlKd7W+jIbu+Tldz69Fda0d7l0BxXbtGdxO1djHxxqK2ycxzKVKGHIMHQIDAQABo1AwTjAdBgNVHQ4EFgQUQhs76li6Igto63mBQdAjgmn695UwHwYDVR0jBBgwFoAUQhs76li6Igto63mBQdAjgmn695UwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAdEZsw4srzStM2b2sbnmGtktoIBtAR1D0kG5oxNZJFiLGp3WUs44NMlODLbWgadIu7ng+/Wfa5ZWwa0wMBSZAc58wvQLpE1lbIfw6Qd/M7dIrfYGvg0TgIs0UgZ5VP+ShK4qtIKAIbEmQiHr5J+mNUFt65t4Mjt6TeCB7PBWE+2o31YPDFNK43BJOPEcP41mUBTmU4NNOlEPrHEoFFERJDseNJUNszAPNHktVhEVvOJlHFUVlMaF4+j/rauYnGSfYC4AGo6DejMYeeRm/IfWvCWVbGX+HBBZuejii0zit6KWz1SrhDP5x6iW4rFe7AaBNoXIKkFoifM9AvTfWzQv8KA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSzCCAjOgAwIBAgIJAPzXhY0F/CqjMA0GCSqGSIb3DQEBCwUAMDwxHjAcBgNVBAMMFXd3dy5jb211bmUucGVzY2FyYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDkyMjUxWhcNMjgwOTE1MDkyMjUxWjA8MR4wHAYDVQQDDBV3d3cuY29tdW5lLnBlc2NhcmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuDkHDJ+ZA953CUrmtljA7n2jwNCK4eNFAokqGQVE3Jn/9EB+YKLFHZ7wWX3+EHAXS5+6tGmJNnj352fK1pU2Nw+SKP6D3IJtG6aPenGRCalWirvES6ynJwh8NqkHWIT3V/s+Q2/mN5Z9bLkP/cjMzw/QsVLKyR+ZNPyRfGKSj0z26+QfYOpnSrGeklURu1Fve6Jms/x8rZQBynRWScZK8Hd+05055njC7OcjQGZMMZ+qCadZJBbC3MQhYQgmNd1k6dg/NvHrcOhst3kcO/r/2AQn8USw0WlKd7W+jIbu+Tldz69Fda0d7l0BxXbtGdxO1djHxxqK2ycxzKVKGHIMHQIDAQABo1AwTjAdBgNVHQ4EFgQUQhs76li6Igto63mBQdAjgmn695UwHwYDVR0jBBgwFoAUQhs76li6Igto63mBQdAjgmn695UwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAdEZsw4srzStM2b2sbnmGtktoIBtAR1D0kG5oxNZJFiLGp3WUs44NMlODLbWgadIu7ng+/Wfa5ZWwa0wMBSZAc58wvQLpE1lbIfw6Qd/M7dIrfYGvg0TgIs0UgZ5VP+ShK4qtIKAIbEmQiHr5J+mNUFt65t4Mjt6TeCB7PBWE+2o31YPDFNK43BJOPEcP41mUBTmU4NNOlEPrHEoFFERJDseNJUNszAPNHktVhEVvOJlHFUVlMaF4+j/rauYnGSfYC4AGo6DejMYeeRm/IfWvCWVbGX+HBBZuejii0zit6KWz1SrhDP5x6iW4rFe7AaBNoXIKkFoifM9AvTfWzQv8KA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/pescara"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pescara" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pescara" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pescara" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pescara</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Pescara</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Pescara</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Pescara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pescara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pescara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Pescara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Pescara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pescara.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pescara.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.pescara.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.pescara.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

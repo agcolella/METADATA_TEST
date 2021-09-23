@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_2a001be-e2c5-4009-928a-7476a01c9f38" entityID="https://www.parcogargano.it/SPID">
+  <ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>hNtc/EL5w5gPLy++W80c8GqnfhyML/Nr5b2au4l6r5M=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>jczpW7a5lwiCovIA9guM0IXM8bUGhOZWcvdXjlDZD41lUubXHalibP8EuaqMOn4S
+ivAmnweuI8SNwluuWyk+zyFLqVD/tUUhzF3FzedBNPhCi8dPO/0piSWCHIgIXl/h
+aG+RkcVUEKev4z66jvSyHBEqsXduHow56zY94OJnR1yS5ZYBzh9U7/LzgJ7CJYA9
+Z9UFfO9WGxavKSI6iEf2FJrJBYeOBuy9I0HFC46RuHjxPRmXYACC+8kZhwPcfu9q
+qm95z27FZEOrEtjW6wLv6rn5w/9WqHcil8D29P9IVqpYhZ4vGGOKJi2IS0XskxQl
+GLqcZbeQg3sCTahps+VvYg==</ds:SignatureValue>
+
+    <ds:KeyInfo>
+      <ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+p4VyiqaGPfeQM84gMo+HfwgAA7QmeFdjx7y5rGDPyuYi6nQt2AeqGehgr0zo/C1s
+QmLrWeEKgolR5nSdZ7jsCg0af4Gn5bH+2FLNh1y/aFkyhMlF9HpgTYDTtCX4NC6W
+JqSSV6MkLcPuO+KD12ktt4Qv8iwuy4NX8CBVvMfGdfO27PFLhBjyOZFRTQCfJvf1
+YIwrfLoCBAm607twR2XcNIH/GfyMSU2CdXlI+jwSXgW+0y6ZDhKFH2rpK7ggSKmr
+chmQeg/bq+Cr4wcMD+fmoVj6DxEVv/TmhCfxQfPG1aRLqIF94OVbojZQM1xNg7SO
+KKDyJHwm2HFo29WAP2sg4Q==
+</ds:Modulus>
+<ds:Exponent>
+AQAB
+</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+	  <ds:X509Data>
+<ds:X509Certificate>MIIF/zCCBOegAwIBAgIQQfXaMHoQ6I1kM79J7UX7uDANBgkqhkiG9w0BAQsFADCB
+jzELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQD
+Ey5TZWN0aWdvIFJTQSBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENB
+MB4XDTE5MTEyMDAwMDAwMFoXDTIwMTExOTIzNTk1OVowVzEhMB8GA1UECxMYRG9t
+YWluIENvbnRyb2wgVmFsaWRhdGVkMRQwEgYDVQQLEwtQb3NpdGl2ZVNTTDEcMBoG
+A1UEAxMTd3d3LnBhcmNvZ2FyZ2Fuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAKeFcoqmhj33kDPOIDKPh38IAAO0JnhXY8e8uaxgz8rmIup0LdgH
+qhnoYK9M6PwtbEJi61nhCoKJUeZ0nWe47AoNGn+Bp+Wx/thSzYdcv2hZMoTJRfR6
+YE2A07Ql+DQuliakklejJC3D7jvig9dpLbeEL/IsLsuDV/AgVbzHxnXztuzxS4QY
+8jmRUU0Anyb39WCMK3y6AgQJutO7cEdl3DSB/xn8jElNgnV5SPo8El4FvtMumQ4S
+hR9q6Su4IEipq3IZkHoP26vgq+MHDA/n5qFY+g8RFb/05oQn8UHzxtWkS6iBfeDl
+W6I2UDNcTYO0jiig8iR8JthxaNvVgD9rIOECAwEAAaOCAowwggKIMB8GA1UdIwQY
+MBaAFI2MXsRUrYrhd+mb+ZsF4bgBjWHhMB0GA1UdDgQWBBSrKj/Ey6yQp8w0cHQP
+heTqxq0AdjAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAU
+BggrBgEFBQcDAQYIKwYBBQUHAwIwSQYDVR0gBEIwQDA0BgsrBgEEAbIxAQICBzAl
+MCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3RpZ28uY29tL0NQUzAIBgZngQwBAgEw
+gYQGCCsGAQUFBwEBBHgwdjBPBggrBgEFBQcwAoZDaHR0cDovL2NydC5zZWN0aWdv
+LmNvbS9TZWN0aWdvUlNBRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBLmNy
+dDAjBggrBgEFBQcwAYYXaHR0cDovL29jc3Auc2VjdGlnby5jb20wLwYDVR0RBCgw
+JoITd3d3LnBhcmNvZ2FyZ2Fuby5pdIIPcGFyY29nYXJnYW5vLml0MIIBBAYKKwYB
+BAHWeQIEAgSB9QSB8gDwAHcAB7dcG+V9aP/xsMYdIxXHuuZXfFeUt2ruvGE6GmnT
+ohwAAAFuiWWaCAAABAMASDBGAiEAwYIR+8Heu+68UeIQ+TubXsdRSMWVlHqoPrCV
+qKnAkDkCIQCqOxthW7U9PDP3HuWAF9LUoHIvj0ie16ma+tvonphDEAB1AF6nc/nf
+VsDntTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABbollmfYAAAQDAEYwRAIgYrYd
+cf3HzOgYiiSX7D/a/njkfZHxpvJIz4VGmPHY7/kCIB5Ojzjiokne2Xoy3qBv/33Q
+0JNuK2yd/gw8ROEj+dzJMA0GCSqGSIb3DQEBCwUAA4IBAQBv5wK2cj9Sr7n8jD/U
+fFD9p0xAdIvFVNNsre1I6b2bU3zofgwAWuYDfY9QpXkduskJUp3kOvfAkj4AAVyC
+Kb6Tg59u5RD5uk3CDl44o6t6wlodGtCJrTodlx180eTAharJROhJiq5V4/Z9nMPw
+cq6y/RQYsQfo1j0DNxwfN26b9Js3MEbIdvS7uQjhH43XID3AXS1sAxELnKVC+iXk
+8UKTpg5gPjVPJVGI97kcy2mtUlwiiPZ2tKoBpCUnSH7p7WR4T82dEOJQJFI8hP7z
+IPhMX5QpSa8Gu4Rks2TuOQQ5lGdrMY5k0oeut33waQkaZCmwFUB0ZrQv4VxOkUR0
+1XuN</ds:X509Certificate>
+</ds:X509Data>
+    </ds:KeyInfo>
+
+  </ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.parcogargano.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.parcogargano.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+	<md:AttributeConsumingService index="0">
+		<md:ServiceName xml:lang="it">Servizi offerti</md:ServiceName>
+		<md:ServiceDescription xml:lang="it">
+		Classe di aggregazione di tutti i servizi che prevedono l'identificazione certa dell'utente al fine di consentire il reperimento di informazioni sui debiti e/o le posizioni maturate
+		</md:ServiceDescription>
+		<md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="name"/>
+		<md:RequestedAttribute Name="familyName"/>
+		<md:RequestedAttribute Name="fiscalNumber"/>
+		<md:RequestedAttribute Name="email"/>
+		<md:RequestedAttribute Name="companyName"/>
+		<md:RequestedAttribute Name="ivaCode"/>
+		<md:RequestedAttribute Name="mobilePhone"/>
+		<md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Parco Nazionale del Gargano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Parco Nazionale del Gargano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://www.parcogargano.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_adabedd42f1f27f1c730764f6e969780d156d53dc656332dc6eda13829a1844a" entityID="https://sportellotelematico.comune.luino.va.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_adabedd42f1f27f1c730764f6e969780d156d53dc656332dc6eda13829a1844a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3G8OpXWlTbWwGGNNMubVOODQC/auwb3WtaannM/CNr0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+JpBFFxzLqmmjPcZoPPxURMwmlVDnvlvWmdnkBRe+55XYThIbVxmUVl4EOd1fQ4iOpVnQZbF71QlB
+jdRGJpSIEbo31JmN6tSGhebwRPghUimXtlF6gtzISO6e1Tlq/bDC5T9I/qF5gT2ZuiW4UVgIL6pI
+4kH0DqXT2pWAADYDDOrTGuoxC4RQmZseYjgHtY+KPabBo1LygOqMeWHyUqti8IrJaPNs9RBR++YN
+vsCowgcse2BqZoBQiBuwVTxpXbaw73E6uOBlokcuMH9u6MC4IGx7N5LdSZth/Yqjv9jNBXU6W/SC
+Oa1/YNhzGVBBl5b5vFGtmCRGF8meC5U67lAP8Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lIbgM0Dw9k5rlYnnYVb84fF2vID+Uad+L1upFYNDhdVz0oqn11pRxzOTLz0+0kS7yCwdrwsBD3Ao
+lKeVA+Dq3TwnhcSIt7p3tJCkiyzls/iP1pHC43Mk4PRThMeqB197A1AkFeLiuJNc3XZ/4t1sAST8
+PMVkuAFVq58Jc2CfAYPB31OqR2KK4427lH2rrwtGio10AedmL6JzsLDzTZAq8VE38/SUyGvXjVk+
+NGFqSG4s8Rw1mYpwk5ZRqDL2D2mePu8l8T6mQ00QtrZtCsQsCbdhXfOnY+7j306ddX4aSCUe4927
+ELcEL+RTkpaA1VNDeSn8mkTW8wtBomv0GkXtMw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDxDCCAqygAwIBAgIRAOJx+nYpkgeZ2/CM8Fk1EUAwDQYJKoZIhvcNAQELBQAwgYgxCzAJBgNV
+BAYTAklUMQ4wDAYDVQQHEwVMdWlubzEYMBYGA1UEChMPQ29tdW5lIGRpIEx1aW5vMTgwNgYDVQQD
+Ey9odHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmx1aW5vLnZhLml0LzEVMBMGA1UE
+BRYMUEE6SVQtY19lNzM0MB4XDTIwMDkyOTEwMjAzMFoXDTMwMDkyNzEwMjAzMFowgYgxCzAJBgNV
+BAYTAklUMQ4wDAYDVQQHEwVMdWlubzEYMBYGA1UEChMPQ29tdW5lIGRpIEx1aW5vMTgwNgYDVQQD
+Ey9odHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmx1aW5vLnZhLml0LzEVMBMGA1UE
+BRYMUEE6SVQtY19lNzM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlIbgM0Dw9k5r
+lYnnYVb84fF2vID+Uad+L1upFYNDhdVz0oqn11pRxzOTLz0+0kS7yCwdrwsBD3AolKeVA+Dq3Twn
+hcSIt7p3tJCkiyzls/iP1pHC43Mk4PRThMeqB197A1AkFeLiuJNc3XZ/4t1sAST8PMVkuAFVq58J
+c2CfAYPB31OqR2KK4427lH2rrwtGio10AedmL6JzsLDzTZAq8VE38/SUyGvXjVk+NGFqSG4s8Rw1
+mYpwk5ZRqDL2D2mePu8l8T6mQ00QtrZtCsQsCbdhXfOnY+7j306ddX4aSCUe4927ELcEL+RTkpaA
+1VNDeSn8mkTW8wtBomv0GkXtMwIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAI
+BgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAGb+aML1MafY7i/hlLf/gImcURJ2MzT1GRUS8jkL
+RKeFopFeJzZ+SgSSqKqjETZ4n6qdVEW40RoQU5wL/p7/FHji0sxjdK+h7drT44IJrulfmMHQft9H
+8aq5FAkkkVweDAA1PLJd7iUnVcThD3h+nTSDy6npCvmjQK9qHFRWBL58P5awQt+5ReY70cuZtH5v
+ccZW2s5hSeYtoAm0UaqKrV/sX3WeGgfL1rvHoEJ4yBhWPZhHg7ARQadB6yZSwHpEIpT5/OnK2rkv
+y22W1fVhF/zkTcNy6/JZKqCu7kmgqraOflJre/1kNh1magzg9V9i964UGGjPjqtcIIH9Q3w3Y4Y=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDITCCAgmgAwIBAgIJANzgPQB6mGRkMA0GCSqGSIb3DQEBCwUAMCExHzAdBgNV
+BAMTFnd3dy5jb211bmUubHVpbm8udmEuaXQwHhcNMjAwOTA5MTQ0MTE5WhcNMzAw
+OTA3MTQ0MTE5WjAhMR8wHQYDVQQDExZ3d3cuY29tdW5lLmx1aW5vLnZhLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAonhzSqAPoteoTGzc7liFfOvG
+wcck3uQEb23Tey0j7fpYz324Qjdb9uFk4x8eU8irrsCs7wFSzcTvFoXh+HzI9aeT
+1Aas+LtDDR123DbGRTPMiPPR1VaBPz0tZUNo5tPwd2+SK1GVTgGd7YFZkprRmVz5
+85Udz06ktG4k50EkI++uGtHYGVbAxmcXdH8dfH0GKbtcDTH9m5j/3LtUQZ2UvONx
+QxVb3W6qHqX7IabaFpIq7M2djahrtokzzYPzeofL+y4dc6ujKWWyV613FVtG+F2q
+X5yxM+25NMuuhD73P2DNYDIaSF8ID6wb2kluOjuzUPMagOFK321ZzETFmbRibQID
+AQABo1wwWjA5BgNVHREEMjAwghZ3d3cuY29tdW5lLmx1aW5vLnZhLml0hhZ3d3cu
+Y29tdW5lLmx1aW5vLnZhLml0MB0GA1UdDgQWBBTW1NljzXvLzFePHZGyLSALW1/C
+ZzANBgkqhkiG9w0BAQsFAAOCAQEAF867zlwgrxTvY6Y1/TxjBQWjBwgwP9QG8DgF
+Rq+5jKaBiMm6laq4IncUTGk3+boGxvfq2JiJ3S0LuFixVdGLctpm+foek3R/0JW6
+8M2meMh09vm7hnHSz8gKpsEN2LpUb8OCqQAvoe8GXB5ydqDUTG8OnlUPI6qAVymG
+6k45rQlX7gUXsiCYtbzL8dKh0slGM0Y3LtozthekuWxXaIzA/n4+wPpphvayIoUB
+4ZDnLh5uSEFhd3xi570O/E4+q4zQtZxPNln4tMNdvWbE7K7ruNmiTZAFTtXhhyqN
+Ng8L+vowfyfGwI+qaXDHu+MesF609ulmmcV8q8kEWJlueua8aA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxDCCAqygAwIBAgIRAOJx+nYpkgeZ2/CM8Fk1EUAwDQYJKoZIhvcNAQELBQAwgYgxCzAJBgNVBAYTAklUMQ4wDAYDVQQHEwVMdWlubzEYMBYGA1UEChMPQ29tdW5lIGRpIEx1aW5vMTgwNgYDVQQDEy9odHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmx1aW5vLnZhLml0LzEVMBMGA1UEBRYMUEE6SVQtY19lNzM0MB4XDTIwMDkyOTEwMjAzMFoXDTMwMDkyNzEwMjAzMFowgYgxCzAJBgNVBAYTAklUMQ4wDAYDVQQHEwVMdWlubzEYMBYGA1UEChMPQ29tdW5lIGRpIEx1aW5vMTgwNgYDVQQDEy9odHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmx1aW5vLnZhLml0LzEVMBMGA1UEBRYMUEE6SVQtY19lNzM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlIbgM0Dw9k5rlYnnYVb84fF2vID+Uad+L1upFYNDhdVz0oqn11pRxzOTLz0+0kS7yCwdrwsBD3AolKeVA+Dq3TwnhcSIt7p3tJCkiyzls/iP1pHC43Mk4PRThMeqB197A1AkFeLiuJNc3XZ/4t1sAST8PMVkuAFVq58Jc2CfAYPB31OqR2KK4427lH2rrwtGio10AedmL6JzsLDzTZAq8VE38/SUyGvXjVk+NGFqSG4s8Rw1mYpwk5ZRqDL2D2mePu8l8T6mQ00QtrZtCsQsCbdhXfOnY+7j306ddX4aSCUe4927ELcEL+RTkpaA1VNDeSn8mkTW8wtBomv0GkXtMwIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAGb+aML1MafY7i/hlLf/gImcURJ2MzT1GRUS8jkLRKeFopFeJzZ+SgSSqKqjETZ4n6qdVEW40RoQU5wL/p7/FHji0sxjdK+h7drT44IJrulfmMHQft9H8aq5FAkkkVweDAA1PLJd7iUnVcThD3h+nTSDy6npCvmjQK9qHFRWBL58P5awQt+5ReY70cuZtH5vccZW2s5hSeYtoAm0UaqKrV/sX3WeGgfL1rvHoEJ4yBhWPZhHg7ARQadB6yZSwHpEIpT5/OnK2rkvy22W1fVhF/zkTcNy6/JZKqCu7kmgqraOflJre/1kNh1magzg9V9i964UGGjPjqtcIIH9Q3w3Y4Y=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxDCCAqygAwIBAgIRAOJx+nYpkgeZ2/CM8Fk1EUAwDQYJKoZIhvcNAQELBQAwgYgxCzAJBgNVBAYTAklUMQ4wDAYDVQQHEwVMdWlubzEYMBYGA1UEChMPQ29tdW5lIGRpIEx1aW5vMTgwNgYDVQQDEy9odHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmx1aW5vLnZhLml0LzEVMBMGA1UEBRYMUEE6SVQtY19lNzM0MB4XDTIwMDkyOTEwMjAzMFoXDTMwMDkyNzEwMjAzMFowgYgxCzAJBgNVBAYTAklUMQ4wDAYDVQQHEwVMdWlubzEYMBYGA1UEChMPQ29tdW5lIGRpIEx1aW5vMTgwNgYDVQQDEy9odHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmx1aW5vLnZhLml0LzEVMBMGA1UEBRYMUEE6SVQtY19lNzM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlIbgM0Dw9k5rlYnnYVb84fF2vID+Uad+L1upFYNDhdVz0oqn11pRxzOTLz0+0kS7yCwdrwsBD3AolKeVA+Dq3TwnhcSIt7p3tJCkiyzls/iP1pHC43Mk4PRThMeqB197A1AkFeLiuJNc3XZ/4t1sAST8PMVkuAFVq58Jc2CfAYPB31OqR2KK4427lH2rrwtGio10AedmL6JzsLDzTZAq8VE38/SUyGvXjVk+NGFqSG4s8Rw1mYpwk5ZRqDL2D2mePu8l8T6mQ00QtrZtCsQsCbdhXfOnY+7j306ddX4aSCUe4927ELcEL+RTkpaA1VNDeSn8mkTW8wtBomv0GkXtMwIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAGb+aML1MafY7i/hlLf/gImcURJ2MzT1GRUS8jkLRKeFopFeJzZ+SgSSqKqjETZ4n6qdVEW40RoQU5wL/p7/FHji0sxjdK+h7drT44IJrulfmMHQft9H8aq5FAkkkVweDAA1PLJd7iUnVcThD3h+nTSDy6npCvmjQK9qHFRWBL58P5awQt+5ReY70cuZtH5vccZW2s5hSeYtoAm0UaqKrV/sX3WeGgfL1rvHoEJ4yBhWPZhHg7ARQadB6yZSwHpEIpT5/OnK2rkvy22W1fVhF/zkTcNy6/JZKqCu7kmgqraOflJre/1kNh1magzg9V9i964UGGjPjqtcIIH9Q3w3Y4Y=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.luino.va.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.luino.va.it/spidsinglelogout.aspx"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.luino.va.it/spidassertionconsumer.aspx" index="0" isDefault="true"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.luino.va.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Luino</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Luino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Luino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Luino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Luino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Luino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Luino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Luino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.luino.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.luino.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.luino.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.luino.va.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e734</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:ced@comune.luino.va.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

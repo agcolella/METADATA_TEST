@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___spid.comune.casalecchio.bo.it" entityID="https://spid.comune.casalecchio.bo.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#https___spid.comune.casalecchio.bo.it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XZqdDy+fl7YTRoNsX2EMMwgBsSAmNlS5IzAg2Nc3VCs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>WgNAg7G6JTIAgcVBwOMyK6o+0Yxg84fk5iPAXlNWgiaYQcuH9RTlFEMNInorvySkbNXhE76Lg4WHKBXx5+ayWBNYyoKhhn9zMmMkWaoV4n9dl0GuzBFqn835Ny5urBsoT2WNYlawbQGZQdIUJqMGAWa1OaY8NS1KvGd0+zlC7DZtg/uZESBn6a06tc+/KEEyzCNiuWIy31i/zKKPMDfiDQuVrmH8ffV6c3AlJXHtZ9y9nxJp9TeChDER3Dve4aaoxGS6PZ+EceuUgzEaLQNJd1/VFQMmArjGiM63Nk6P2YmyLLR6WXpuRsGrL/UTgt8o72ZjfB2yIm836emzc7LdAw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDqDCCApCgAwIBAgIEW4O1UzANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UEBhMCSVQxCzAJBgNV
+BAgMAkJPMRwwGgYDVQQHDBNDYXNhbGVjY2hpbyBkaSBSZW5vMSYwJAYDVQQKDB1Db211bmUgZGkg
+Q2FzYWxlY2NoaW8gZGkgUmVubzELMAkGA1UECwwCSVQxJjAkBgNVBAMMHXNwaWQuY29tdW5lLmNh
+c2FsZWNjaGlvLmJvLml0MB4XDTE4MDgyNzA4MjYxMloXDTM4MDgyNzA4MjYxMlowgZUxCzAJBgNV
+BAYTAklUMQswCQYDVQQIDAJCTzEcMBoGA1UEBwwTQ2FzYWxlY2NoaW8gZGkgUmVubzEmMCQGA1UE
+CgwdQ29tdW5lIGRpIENhc2FsZWNjaGlvIGRpIFJlbm8xCzAJBgNVBAsMAklUMSYwJAYDVQQDDB1z
+cGlkLmNvbXVuZS5jYXNhbGVjY2hpby5iby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAJQv7j4VRPRCcvkgIdy9UWtGJZ2L/aq2wl8zXWpSXuQOnhzjnv1+7nOiAjYhevxp5gDvS7pB
+A09WwlxXorI0A5Ea6vMVuClZ1VJnz/7QMeoUmAnnjkY2I7fd1DKrtL2m1nuzGTuhMP8emqliR46G
+UlJYKJjSmVXbBVh6kEb2eLeMH77EMCO8MACemIDzBacVWL/hrKq6VNOkE30RzcqkFsQ3W/XHL+gx
+3fPFDICWst47MvJCN/ZdWaULJrjUgoC+tsPzIGFI1FOU5LLjMmJtqoR+i/brI+yzK7QsrVmLGDMZ
+2RubYP6EZIG7P+2G16Oq4mb/28T0RgvXuzKN8hvOFs0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+CWpb7/qci7C5Y+o7Q81Bd4n+AWtND13IOKKJPzKteOKGVW04wRlbSw/MDBcjNylCJRsrTg00Sn3a
+9GAX0H200aWEnIsGQyNMiTg/jQGmJaHhVqRZ5MW/dHBeaRSCKnYrQK+2h3QJhH2UnGLPvfx0sAXl
+7SKVjQyJHRVB9r77hhK91e2mNdmpjdLR/si4IIUx9D22bqXJLHFQqiThvj2mVQJQGMK1br7TBCTe
+Adjkpvdov0xuiDwawO9btxwSGApFB7HPjVLRWTQ7GdZVFZMKqKLmt4HmuUKzdjMtmzfeaDdMD8VT
+0ufNm8uMu3pvt1bIJNTwMHq7pLSifZA0LxUVzA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDqDCCApCgAwIBAgIEW4O1UzANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UEBhMCSVQxCzAJBgNV
+BAgMAkJPMRwwGgYDVQQHDBNDYXNhbGVjY2hpbyBkaSBSZW5vMSYwJAYDVQQKDB1Db211bmUgZGkg
+Q2FzYWxlY2NoaW8gZGkgUmVubzELMAkGA1UECwwCSVQxJjAkBgNVBAMMHXNwaWQuY29tdW5lLmNh
+c2FsZWNjaGlvLmJvLml0MB4XDTE4MDgyNzA4MjYxMloXDTM4MDgyNzA4MjYxMlowgZUxCzAJBgNV
+BAYTAklUMQswCQYDVQQIDAJCTzEcMBoGA1UEBwwTQ2FzYWxlY2NoaW8gZGkgUmVubzEmMCQGA1UE
+CgwdQ29tdW5lIGRpIENhc2FsZWNjaGlvIGRpIFJlbm8xCzAJBgNVBAsMAklUMSYwJAYDVQQDDB1z
+cGlkLmNvbXVuZS5jYXNhbGVjY2hpby5iby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAJQv7j4VRPRCcvkgIdy9UWtGJZ2L/aq2wl8zXWpSXuQOnhzjnv1+7nOiAjYhevxp5gDvS7pB
+A09WwlxXorI0A5Ea6vMVuClZ1VJnz/7QMeoUmAnnjkY2I7fd1DKrtL2m1nuzGTuhMP8emqliR46G
+UlJYKJjSmVXbBVh6kEb2eLeMH77EMCO8MACemIDzBacVWL/hrKq6VNOkE30RzcqkFsQ3W/XHL+gx
+3fPFDICWst47MvJCN/ZdWaULJrjUgoC+tsPzIGFI1FOU5LLjMmJtqoR+i/brI+yzK7QsrVmLGDMZ
+2RubYP6EZIG7P+2G16Oq4mb/28T0RgvXuzKN8hvOFs0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+CWpb7/qci7C5Y+o7Q81Bd4n+AWtND13IOKKJPzKteOKGVW04wRlbSw/MDBcjNylCJRsrTg00Sn3a
+9GAX0H200aWEnIsGQyNMiTg/jQGmJaHhVqRZ5MW/dHBeaRSCKnYrQK+2h3QJhH2UnGLPvfx0sAXl
+7SKVjQyJHRVB9r77hhK91e2mNdmpjdLR/si4IIUx9D22bqXJLHFQqiThvj2mVQJQGMK1br7TBCTe
+Adjkpvdov0xuiDwawO9btxwSGApFB7HPjVLRWTQ7GdZVFZMKqKLmt4HmuUKzdjMtmzfeaDdMD8VT
+0ufNm8uMu3pvt1bIJNTwMHq7pLSifZA0LxUVzA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDqDCCApCgAwIBAgIEW4O1UzANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UEBhMCSVQxCzAJBgNV
+BAgMAkJPMRwwGgYDVQQHDBNDYXNhbGVjY2hpbyBkaSBSZW5vMSYwJAYDVQQKDB1Db211bmUgZGkg
+Q2FzYWxlY2NoaW8gZGkgUmVubzELMAkGA1UECwwCSVQxJjAkBgNVBAMMHXNwaWQuY29tdW5lLmNh
+c2FsZWNjaGlvLmJvLml0MB4XDTE4MDgyNzA4MjYxMloXDTM4MDgyNzA4MjYxMlowgZUxCzAJBgNV
+BAYTAklUMQswCQYDVQQIDAJCTzEcMBoGA1UEBwwTQ2FzYWxlY2NoaW8gZGkgUmVubzEmMCQGA1UE
+CgwdQ29tdW5lIGRpIENhc2FsZWNjaGlvIGRpIFJlbm8xCzAJBgNVBAsMAklUMSYwJAYDVQQDDB1z
+cGlkLmNvbXVuZS5jYXNhbGVjY2hpby5iby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAJQv7j4VRPRCcvkgIdy9UWtGJZ2L/aq2wl8zXWpSXuQOnhzjnv1+7nOiAjYhevxp5gDvS7pB
+A09WwlxXorI0A5Ea6vMVuClZ1VJnz/7QMeoUmAnnjkY2I7fd1DKrtL2m1nuzGTuhMP8emqliR46G
+UlJYKJjSmVXbBVh6kEb2eLeMH77EMCO8MACemIDzBacVWL/hrKq6VNOkE30RzcqkFsQ3W/XHL+gx
+3fPFDICWst47MvJCN/ZdWaULJrjUgoC+tsPzIGFI1FOU5LLjMmJtqoR+i/brI+yzK7QsrVmLGDMZ
+2RubYP6EZIG7P+2G16Oq4mb/28T0RgvXuzKN8hvOFs0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+CWpb7/qci7C5Y+o7Q81Bd4n+AWtND13IOKKJPzKteOKGVW04wRlbSw/MDBcjNylCJRsrTg00Sn3a
+9GAX0H200aWEnIsGQyNMiTg/jQGmJaHhVqRZ5MW/dHBeaRSCKnYrQK+2h3QJhH2UnGLPvfx0sAXl
+7SKVjQyJHRVB9r77hhK91e2mNdmpjdLR/si4IIUx9D22bqXJLHFQqiThvj2mVQJQGMK1br7TBCTe
+Adjkpvdov0xuiDwawO9btxwSGApFB7HPjVLRWTQ7GdZVFZMKqKLmt4HmuUKzdjMtmzfeaDdMD8VT
+0ufNm8uMu3pvt1bIJNTwMHq7pLSifZA0LxUVzA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.casalecchio.bo.it/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.comune.casalecchio.bo.it/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.casalecchio.bo.it/saml/SSO" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Base</md:ServiceName><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Avanzato</md:ServiceName><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService><md:AttributeConsumingService index="2"><md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Full</md:ServiceName><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Comune di Casalecchio di Reno</md:OrganizationName><md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Comune di Casalecchio di Reno</md:OrganizationDisplayName><md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">https://www.comune.casalecchio.bo.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

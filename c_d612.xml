@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizionline.comune.fi.it/spidsimplesaml/module.php/saml/sp/metadata.php/ssocdf-sp" ID="pfxcf57c7e4-b14c-a2fe-6ab7-619d4c42469e"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxcf57c7e4-b14c-a2fe-6ab7-619d4c42469e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ST3PFZWhvJ269uBYggZidJnDobLJOFESO9ezYjOSUw4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Em3IZWAVVq1jphOfHFbjHHrUzHyRsqb/168k3ZxSUFCkQapXkBFIMl6YWuX225hC3QHN2f2P7NmmdwRo4jFElEkAXh9ynzMt/EjEnb+Fu8eUd+/zIB2LFtq2XzrQuLhrAVaodtFc0dQMI4KQfINrLBW10O3iM+oLvFsUJH+M3wdlTc1ap5UvE7/VEob+4mttsK2OTcyOGF9RCp11sg/tK1DhpfYqpqzwyAH5EXALJSCouxXGahh+8RYZvRSQ3js7vFngjTDAVv2fRv6wXwYrW2WpjSMrMF4S6u2sKvTCHHykRYomG8Ac6T4o46wzc7uToCagXiGzO75Y2fbKA0iIHg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEPTCCAyWgAwIBAgIJAL6/MsINAWFUMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGSVRBTElBMRAwDgYDVQQHDAdGSVJFTlpFMRowGAYDVQQKDBFDT01VTkUgREkgRklSRU5aRTEmMCQGA1UECwwdRElSRVpJT05FIFNJU1RFTUkgSU5GT1JNQVRJVkkxEjAQBgNVBAMMCUJBTkRPIEVSUDEqMCgGCSqGSIb3DQEJARYbcG8uYmFja29mZmljZTJAY29tdW5lLmZpLml0MB4XDTE2MDgwNTA3MDIzMVoXDTI2MDgwNTA3MDIzMVowgbQxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJVEFMSUExEDAOBgNVBAcMB0ZJUkVOWkUxGjAYBgNVBAoMEUNPTVVORSBESSBGSVJFTlpFMSYwJAYDVQQLDB1ESVJFWklPTkUgU0lTVEVNSSBJTkZPUk1BVElWSTESMBAGA1UEAwwJQkFORE8gRVJQMSowKAYJKoZIhvcNAQkBFhtwby5iYWNrb2ZmaWNlMkBjb211bmUuZmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCauYvl3cg5vuwLPGex0BI9IB2Jnh7HbDd6cJCkQPqUVVnJFPNaen/D2BYvsJtzOxSSWJTYJNliPPYvgin9skDJ/q9tzWmOzc2Lqpk0QWgJ/1VqrcL7cqbRCTxPSy1Lh7DcIRFf8bz0YmiKCpewsgKbMZKaqLMsOwHBDl7VntBITWbqi5xMyf6XisRZj4kFKu2JH8eKNWot5YkR+1XZseo5JhJUO5qh+qRlVJOT/o9r0r9zbCRjo4y5+6TL1QxX9H1O5wsGD2TVMtIH9utlHwZugpc0Ub6SqnYyvoaV2KoyQ53mLUev20sXcjfXPWeLQpYI/zjEltXpKD60I3/nUTyjAgMBAAGjUDBOMB0GA1UdDgQWBBQxPU//6aGt1ohF/d6JrMr2dboUUTAfBgNVHSMEGDAWgBQxPU//6aGt1ohF/d6JrMr2dboUUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBqugY7NsyEgzCPGGRnalZOWvYkrWHSRCmpSuVr4sWUmhs3Ny/H0/PX2iyoUwXR0ZQGcv7UvgxYvC8MV7t9MlK5pY7Dkm9cck66xBgJTvsD4njQWrye58K2WqwF+kkZidyf7LyV/X9O62KVGHZzBY9KXlAvt0dgN/0G5F5mCpYe4p2BC1bHNRUg3HFaWzyGfJSxvEadOr9CGwg1Kig8aLLfDIjvkux3QX8jI0M1Sp73dqF+IG4PVmRhVJwU17eBh+emIfbhgfSPzy3ufM7N7a+up7KnTKhAEw/ArD/f8UVml+kTu0hzRn6m1hqmHUBr6kzB1RpJEtPzIqs1oVwufmB7</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEPTCCAyWgAwIBAgIJAL6/MsINAWFUMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGSVRBTElBMRAwDgYDVQQHDAdGSVJFTlpFMRowGAYDVQQKDBFDT01VTkUgREkgRklSRU5aRTEmMCQGA1UECwwdRElSRVpJT05FIFNJU1RFTUkgSU5GT1JNQVRJVkkxEjAQBgNVBAMMCUJBTkRPIEVSUDEqMCgGCSqGSIb3DQEJARYbcG8uYmFja29mZmljZTJAY29tdW5lLmZpLml0MB4XDTE2MDgwNTA3MDIzMVoXDTI2MDgwNTA3MDIzMVowgbQxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJVEFMSUExEDAOBgNVBAcMB0ZJUkVOWkUxGjAYBgNVBAoMEUNPTVVORSBESSBGSVJFTlpFMSYwJAYDVQQLDB1ESVJFWklPTkUgU0lTVEVNSSBJTkZPUk1BVElWSTESMBAGA1UEAwwJQkFORE8gRVJQMSowKAYJKoZIhvcNAQkBFhtwby5iYWNrb2ZmaWNlMkBjb211bmUuZmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCauYvl3cg5vuwLPGex0BI9IB2Jnh7HbDd6cJCkQPqUVVnJFPNaen/D2BYvsJtzOxSSWJTYJNliPPYvgin9skDJ/q9tzWmOzc2Lqpk0QWgJ/1VqrcL7cqbRCTxPSy1Lh7DcIRFf8bz0YmiKCpewsgKbMZKaqLMsOwHBDl7VntBITWbqi5xMyf6XisRZj4kFKu2JH8eKNWot5YkR+1XZseo5JhJUO5qh+qRlVJOT/o9r0r9zbCRjo4y5+6TL1QxX9H1O5wsGD2TVMtIH9utlHwZugpc0Ub6SqnYyvoaV2KoyQ53mLUev20sXcjfXPWeLQpYI/zjEltXpKD60I3/nUTyjAgMBAAGjUDBOMB0GA1UdDgQWBBQxPU//6aGt1ohF/d6JrMr2dboUUTAfBgNVHSMEGDAWgBQxPU//6aGt1ohF/d6JrMr2dboUUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBqugY7NsyEgzCPGGRnalZOWvYkrWHSRCmpSuVr4sWUmhs3Ny/H0/PX2iyoUwXR0ZQGcv7UvgxYvC8MV7t9MlK5pY7Dkm9cck66xBgJTvsD4njQWrye58K2WqwF+kkZidyf7LyV/X9O62KVGHZzBY9KXlAvt0dgN/0G5F5mCpYe4p2BC1bHNRUg3HFaWzyGfJSxvEadOr9CGwg1Kig8aLLfDIjvkux3QX8jI0M1Sp73dqF+IG4PVmRhVJwU17eBh+emIfbhgfSPzy3ufM7N7a+up7KnTKhAEw/ArD/f8UVml+kTu0hzRn6m1hqmHUBr6kzB1RpJEtPzIqs1oVwufmB7</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEPTCCAyWgAwIBAgIJAL6/MsINAWFUMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGSVRBTElBMRAwDgYDVQQHDAdGSVJFTlpFMRowGAYDVQQKDBFDT01VTkUgREkgRklSRU5aRTEmMCQGA1UECwwdRElSRVpJT05FIFNJU1RFTUkgSU5GT1JNQVRJVkkxEjAQBgNVBAMMCUJBTkRPIEVSUDEqMCgGCSqGSIb3DQEJARYbcG8uYmFja29mZmljZTJAY29tdW5lLmZpLml0MB4XDTE2MDgwNTA3MDIzMVoXDTI2MDgwNTA3MDIzMVowgbQxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJVEFMSUExEDAOBgNVBAcMB0ZJUkVOWkUxGjAYBgNVBAoMEUNPTVVORSBESSBGSVJFTlpFMSYwJAYDVQQLDB1ESVJFWklPTkUgU0lTVEVNSSBJTkZPUk1BVElWSTESMBAGA1UEAwwJQkFORE8gRVJQMSowKAYJKoZIhvcNAQkBFhtwby5iYWNrb2ZmaWNlMkBjb211bmUuZmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCauYvl3cg5vuwLPGex0BI9IB2Jnh7HbDd6cJCkQPqUVVnJFPNaen/D2BYvsJtzOxSSWJTYJNliPPYvgin9skDJ/q9tzWmOzc2Lqpk0QWgJ/1VqrcL7cqbRCTxPSy1Lh7DcIRFf8bz0YmiKCpewsgKbMZKaqLMsOwHBDl7VntBITWbqi5xMyf6XisRZj4kFKu2JH8eKNWot5YkR+1XZseo5JhJUO5qh+qRlVJOT/o9r0r9zbCRjo4y5+6TL1QxX9H1O5wsGD2TVMtIH9utlHwZugpc0Ub6SqnYyvoaV2KoyQ53mLUev20sXcjfXPWeLQpYI/zjEltXpKD60I3/nUTyjAgMBAAGjUDBOMB0GA1UdDgQWBBQxPU//6aGt1ohF/d6JrMr2dboUUTAfBgNVHSMEGDAWgBQxPU//6aGt1ohF/d6JrMr2dboUUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBqugY7NsyEgzCPGGRnalZOWvYkrWHSRCmpSuVr4sWUmhs3Ny/H0/PX2iyoUwXR0ZQGcv7UvgxYvC8MV7t9MlK5pY7Dkm9cck66xBgJTvsD4njQWrye58K2WqwF+kkZidyf7LyV/X9O62KVGHZzBY9KXlAvt0dgN/0G5F5mCpYe4p2BC1bHNRUg3HFaWzyGfJSxvEadOr9CGwg1Kig8aLLfDIjvkux3QX8jI0M1Sp73dqF+IG4PVmRhVJwU17eBh+emIfbhgfSPzy3ufM7N7a+up7KnTKhAEw/ArD/f8UVml+kTu0hzRn6m1hqmHUBr6kzB1RpJEtPzIqs1oVwufmB7</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.fi.it/spidsimplesaml/module.php/saml/sp/saml2-logout.php/ssocdf-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.fi.it/spidsimplesaml/module.php/saml/sp/saml2-acs.php/ssocdf-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">Comune di Firenze</md:ServiceName>
+      <md:ServiceName xml:lang="it">Comune di Firenze</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Comune di Firenze</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="it">Comune di Firenze</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Firenze</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Firenze</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Firenze - Servizi on line</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Firenze - Servizi on line</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">http://www.comune.fi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

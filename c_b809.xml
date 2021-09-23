@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Carovigno" entityID="https://www.comune.carovigno.br.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Carovigno">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ymrulfXk7d64fy/nZ0Yo+y8TYZ+5Q7Xcq2klso1Lnew=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pLz2pGrRCBpTqa8Re8AZHmgKKS5NKCVFG6iJx4DRhcwWe0NFL1cCeHnPLYBtnDRy7JAfox8EEivW
+fobredmZFypQoeVvbxEA/rPpZp0TXPbBrFycvjYEL0XjII9+NAjASzYqI7bh3YUfINbYq9K9Gayo
+FKnpaYNiUukPYlwR0oKvQ++yMimV82/YZjUbAFVK0G8Un3IcYeUw2lo5ZNYJi5U6o+QJ4Lk4io/0
+n5h3sL2vNzuQfRRAqMGTcesislkJsvZA0BatrzJ0EsxU7UK2Z6QNBPlQfRom7b66s0uqeDU/yVjB
+5C0rQoh8yxPk0lf1u1wtt0YE8tnyza5C+akeXg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6rBavGaA90N+VqEgAwYOc2GAr1ycJ5YqYmAnYTZkpROzQLIzHCkdtrm1YGILhcD8V3cQuoTgF4nw
+cL8lgRP+/2j6giHyMTVIt81wyG85YmoddBY1q+BShx0ZWkBtFXtTXmPLXM4PEI4rMqkrg0m1LCwu
+C0w5J2ophOeHehbA1sOLBuq/lN9f7NbhW6Aif0QvnXnfQ2qC24xHOnkbC9JHsqBnkyb9Yzx1aXOL
+khW8eQPD+iNYeT5SgEBZq3gbSZKog0h8Tqqz5VJbR7QZnynHXfvUjXywbmhfWxMjumYVPOT5IJ8D
+xySDSSNBPCWRtKFWkqyjrYFrZhLoEWq7sV/wJw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAMiaHmSOtURtMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2Fyb3ZpZ25vLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAz
+MDgxMDM4MzNaFw0yODAzMDUxMDM4MzNaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2Fyb3ZpZ25v
+LmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAOqwWrxmgPdDflahIAMGDnNhgK9cnCeWKmJgJ2E2ZKUTs0CyMxwpHba5tWBiC4XA
+/Fd3ELqE4BeJ8HC/JYET/v9o+oIh8jE1SLfNcMhvOWJqHXQWNavgUocdGVpAbRV7U15jy1zODxCO
+KzKpK4NJtSwsLgtMOSdqKYTnh3oWwNbDiwbqv5TfX+zW4VugIn9EL51530NqgtuMRzp5GwvSR7Kg
+Z5Mm/WM8dWlzi5IVvHkDw/ojWHk+UoBAWat4G0mSqINIfE6qs+VSW0e0GZ8px1371I18sG5oX1sT
+I7pmFTzk+SCfA8ckg0kjQTwlkbShVpKso62Ba2YS6BFqu7Ff8CcCAwEAAaNQME4wHQYDVR0OBBYE
+FF/8vcpsqJJYVlRHbxCG+uBQ1JwwMB8GA1UdIwQYMBaAFF/8vcpsqJJYVlRHbxCG+uBQ1JwwMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADz3f+UUy4eZfFhvjpDEF5MPgYuG4FVxQmo0
+qdEc4g8AMSpLRUBCDA6vBictpM12dFcQcnRCw1h+A981oh10d6W8ntiQ6HQg2Ur+azjqKW53WwsC
+6i25vzbkMiQoit7mGHME55flnng+rCPPVwmUmWmIjSs21v2SIonzv8C4H458XRUS/Z2Z+/g6t9IK
+SVh3fS2w3Q5lBTgDtmMc6kz7qQp6trZ7jwxC1Am6cHBZjLKoF4BfjUd/RWNQbZaEs40rV47PWXlj
+9dfdz5VqQzwSAcpfhg27kbkUNF74qfvSP8ZTBxeIXnd6lC4cfA9/yjTXI5AN5Fn/kEnolIGkwt7l
+EVg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMiaHmSOtURtMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2Fyb3ZpZ25vLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAzMDgxMDM4MzNaFw0yODAzMDUxMDM4MzNaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2Fyb3ZpZ25vLmJyLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOqwWrxmgPdDflahIAMGDnNhgK9cnCeWKmJgJ2E2ZKUTs0CyMxwpHba5tWBiC4XA/Fd3ELqE4BeJ8HC/JYET/v9o+oIh8jE1SLfNcMhvOWJqHXQWNavgUocdGVpAbRV7U15jy1zODxCOKzKpK4NJtSwsLgtMOSdqKYTnh3oWwNbDiwbqv5TfX+zW4VugIn9EL51530NqgtuMRzp5GwvSR7KgZ5Mm/WM8dWlzi5IVvHkDw/ojWHk+UoBAWat4G0mSqINIfE6qs+VSW0e0GZ8px1371I18sG5oX1sTI7pmFTzk+SCfA8ckg0kjQTwlkbShVpKso62Ba2YS6BFqu7Ff8CcCAwEAAaNQME4wHQYDVR0OBBYEFF/8vcpsqJJYVlRHbxCG+uBQ1JwwMB8GA1UdIwQYMBaAFF/8vcpsqJJYVlRHbxCG+uBQ1JwwMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADz3f+UUy4eZfFhvjpDEF5MPgYuG4FVxQmo0qdEc4g8AMSpLRUBCDA6vBictpM12dFcQcnRCw1h+A981oh10d6W8ntiQ6HQg2Ur+azjqKW53WwsC6i25vzbkMiQoit7mGHME55flnng+rCPPVwmUmWmIjSs21v2SIonzv8C4H458XRUS/Z2Z+/g6t9IKSVh3fS2w3Q5lBTgDtmMc6kz7qQp6trZ7jwxC1Am6cHBZjLKoF4BfjUd/RWNQbZaEs40rV47PWXlj9dfdz5VqQzwSAcpfhg27kbkUNF74qfvSP8ZTBxeIXnd6lC4cfA9/yjTXI5AN5Fn/kEnolIGkwt7lEVg=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/carovigno"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carovigno" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/carovigno" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Carovigno</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Carovigno</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Carovigno</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Carovigno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Carovigno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Carovigno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Carovigno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Carovigno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.carovigno.br.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.carovigno.br.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.carovigno.br.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.carovigno.br.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

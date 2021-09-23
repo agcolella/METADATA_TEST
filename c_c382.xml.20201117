@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx5ef6a559-28d9-7679-8b83-f034747ed689" entityID="https://sportellotelematico.comune.cavariaconpremezzo.va.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx5ef6a559-28d9-7679-8b83-f034747ed689">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TB0ZF8GgorLiLzKuezktAv04a3aNob2NwjozQhziObQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Fka6y2G/h7wanD6twpZEx9ka4gNa2nHH3E7pi0MZLMm8ZUUvVC83DNjn5AdqeMzSeCr5SfqTLCAm
+FOq4OGccAF5B2eGJnmFpi5EYqLK+UyBd7tV1b0igpxIZ3vq2xR5xdwIkCyFcLJEAE+eik50hlkon
+025r+t9nL2WVV8qi18+LDBf5Zg/iptBNajf4Yd25+o80mr3HEdOKCYKJitxGhB+qTvGKcWgyKi8z
+4RmtPdIAID1tesfJKsPDc5pabXQoOFtzXgSYx68Qol3RzukEc5Wrj0Bbt+yXIRyMt+bs5J2iUJ6+
+JITjYCb7D47q/8NPhg+vS6m9AOYWbtcIO/TIDg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7F7cmu81S6rodXc38nYlWvc1/X4zukadb5/1DkAEEkWey58P0KQAL8UA8RFPpKnu9cw1sahIPyH4
+G95YETApYWS87y7NcpF4vEO6rHlndRBHEtcCySrHoLiObfzGt2ICUgw+DwHZvHS870HMiqtgJT7a
+zKM+yo/B+WA/21lJHUUIs74v10/VtuHGyzB7crzM8EnuYL41RYkA5IQZ+7vilLBsjBiw8obcNp4J
+LWHnqd+Unn2bOPgNSJmYlzMg94PkFVB9DkG+sn5D12bAU9oRhUWnXIfE2jzcCqjuA/IHxNksLVj0
+wXzOpXpKBsC6m8yPq7BE5wMGEYgST1HZR6AHvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/DCCAuSgAwIBAgIJAO+Y0XM8gPKYMA0GCSqGSIb3DQEBCwUAMIGkMSwwKgYDVQQDDCN3d3cu
+Y29tdW5lLmNhdmFyaWFjb25wcmVtZXp6by52YS5pdDEnMCUGA1UECgweQ29tdW5lIGRpIENhdmFy
+aWEgY29uIFByZW1lenpvMRUwEwYDVQQEDAxQQTpJVC1jX2MzODIxCzAJBgNVBAYTAklUMScwJQYD
+VQQHDB5Db211bmUgZGkgQ2F2YXJpYSBjb24gUHJlbWV6em8wHhcNMjAxMDE2MTMzMDE3WhcNMzAx
+MDE0MTMzMDE3WjCBpDEsMCoGA1UEAwwjd3d3LmNvbXVuZS5jYXZhcmlhY29ucHJlbWV6em8udmEu
+aXQxJzAlBgNVBAoMHkNvbXVuZSBkaSBDYXZhcmlhIGNvbiBQcmVtZXp6bzEVMBMGA1UEBAwMUEE6
+SVQtY19jMzgyMQswCQYDVQQGEwJJVDEnMCUGA1UEBwweQ29tdW5lIGRpIENhdmFyaWEgY29uIFBy
+ZW1lenpvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7F7cmu81S6rodXc38nYlWvc1
+/X4zukadb5/1DkAEEkWey58P0KQAL8UA8RFPpKnu9cw1sahIPyH4G95YETApYWS87y7NcpF4vEO6
+rHlndRBHEtcCySrHoLiObfzGt2ICUgw+DwHZvHS870HMiqtgJT7azKM+yo/B+WA/21lJHUUIs74v
+10/VtuHGyzB7crzM8EnuYL41RYkA5IQZ+7vilLBsjBiw8obcNp4JLWHnqd+Unn2bOPgNSJmYlzMg
+94PkFVB9DkG+sn5D12bAU9oRhUWnXIfE2jzcCqjuA/IHxNksLVj0wXzOpXpKBsC6m8yPq7BE5wMG
+EYgST1HZR6AHvQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgG
+BitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAFJGCKZN9bEos4/4HyrwPX3/qQQcZNGeSU3VrEiNB
+s4eCxpwDyaD9J9Va+wpLJoTPlq1LmJBtFPAnP4qft/aXeroh5HnjofBKh9Cfvs65DVsPCjgt08n7
+pzVl6gU8X/DK23FGHjS3o1+ZDK6JSRFlilLkCsZgJVhc2kma35PaXr7ZC4MldxWH0c77nqVlJ2I6
+D/F1wttBeJTG9Pmgv07jejz9S+SCskzTCTNgNCf0tQclN7+SmnaIEuN0A899ghJMczvZY3e2zlao
+RIVjLvt0j3zTTWGZodIVWtD4IAdyVfDx2zu9tYFvhxUvb/lj3d38qGfOat4kjYAgXfx9uE5SBQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEXjCCA0agAwIBAgIJAKxhQQ0tEGTHMA0GCSqGSIb3DQEBCwUAMIHDMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmFyZXNlMR0wGwYDVQQHDBRDYXZhcmlhIGNvbiBQcmVtZXp6bzEnMCUGA1UECgweQ29tdW5lIGRpIENhdmFyaWEgY29uIFByZW1lenpvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE8MDoGA1UEAwwzc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2F2YXJpYWNvbnByZW1lenpvLnZhLml0MB4XDTE3MTAwNjExMDQ1MVoXDTI3MTAwNDExMDQ1MVowgcMxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxHTAbBgNVBAcMFENhdmFyaWEgY29uIFByZW1lenpvMScwJQYDVQQKDB5Db211bmUgZGkgQ2F2YXJpYSBjb24gUHJlbWV6em8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTwwOgYDVQQDDDNzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXZhcmlhY29ucHJlbWV6em8udmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4lZfCGfymp6dprmCkI6EBnIbqqmqwfYujenHfkioNOfU/WvNgGqP0w4pWx1+E0fYZDuhNEhrhqL8AxqOPdRPMKQwsouvS+q5Ir7R6lxsPrb1MLSKrKSfsgs5OjoMI4zL9TLPXBEnw3ZbDqlAkGI0dsbR3innbmkPRJSH/ub/7YamPbBjM8gCWsdXzIo5g3RbJfqWdOdDaR7+dClrQthrtJCXKvJ+o8gYBI60/4LqmtbwDS7CnHPct4OdZJhj2JiOwHokfUZiFeGyssbFpPivLyrVkSalQnm8JU87wdTXDaL0vrkh7pjMAGCtJ9AJGwh+J5agoUzgf5o3uQP0PZhBfAgMBAAGjUzBRMB0GA1UdDgQWBBTdwSlIR3DieuNjjR5ZD8208iFYZjAfBgNVHSMEGDAWgBTdwSlIR3DieuNjjR5ZD8208iFYZjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB2rn2H+IBjQJmHoh5LOjKsnsLJdAtxExFOSQGjCySd8rpNy26yOjPpPacmZhVQIku5m2+xqWK6SQbrRcGAqysfxerLn+ugzI9I+sAaccInVSlj+JmojolLPnBBiIvIDP3XEs3IWlleCdGQY/6e/K5gBI6XFkhiSIri+Ksg1g00MVxatcGtcz8wACvn/q6gkwy60KTr7owLn+ChjiNdYVL3XjwP1w3Mp0NoI3SrwwnPASkuCzwVfucv1p8UvF0iqlT5fCVxisTPRxTsITdq0wynlZf4iQRAUiCbYNl+y931pcI1tV4yx8LDQYozg7VT0bov9KFyKSz8JaxoKRq/09yS</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEXjCCA0agAwIBAgIJAKxhQQ0tEGTHMA0GCSqGSIb3DQEBCwUAMIHDMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmFyZXNlMR0wGwYDVQQHDBRDYXZhcmlhIGNvbiBQcmVtZXp6bzEnMCUGA1UECgweQ29tdW5lIGRpIENhdmFyaWEgY29uIFByZW1lenpvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE8MDoGA1UEAwwzc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2F2YXJpYWNvbnByZW1lenpvLnZhLml0MB4XDTE3MTAwNjExMDQ1MVoXDTI3MTAwNDExMDQ1MVowgcMxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxHTAbBgNVBAcMFENhdmFyaWEgY29uIFByZW1lenpvMScwJQYDVQQKDB5Db211bmUgZGkgQ2F2YXJpYSBjb24gUHJlbWV6em8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTwwOgYDVQQDDDNzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXZhcmlhY29ucHJlbWV6em8udmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4lZfCGfymp6dprmCkI6EBnIbqqmqwfYujenHfkioNOfU/WvNgGqP0w4pWx1+E0fYZDuhNEhrhqL8AxqOPdRPMKQwsouvS+q5Ir7R6lxsPrb1MLSKrKSfsgs5OjoMI4zL9TLPXBEnw3ZbDqlAkGI0dsbR3innbmkPRJSH/ub/7YamPbBjM8gCWsdXzIo5g3RbJfqWdOdDaR7+dClrQthrtJCXKvJ+o8gYBI60/4LqmtbwDS7CnHPct4OdZJhj2JiOwHokfUZiFeGyssbFpPivLyrVkSalQnm8JU87wdTXDaL0vrkh7pjMAGCtJ9AJGwh+J5agoUzgf5o3uQP0PZhBfAgMBAAGjUzBRMB0GA1UdDgQWBBTdwSlIR3DieuNjjR5ZD8208iFYZjAfBgNVHSMEGDAWgBTdwSlIR3DieuNjjR5ZD8208iFYZjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB2rn2H+IBjQJmHoh5LOjKsnsLJdAtxExFOSQGjCySd8rpNy26yOjPpPacmZhVQIku5m2+xqWK6SQbrRcGAqysfxerLn+ugzI9I+sAaccInVSlj+JmojolLPnBBiIvIDP3XEs3IWlleCdGQY/6e/K5gBI6XFkhiSIri+Ksg1g00MVxatcGtcz8wACvn/q6gkwy60KTr7owLn+ChjiNdYVL3XjwP1w3Mp0NoI3SrwwnPASkuCzwVfucv1p8UvF0iqlT5fCVxisTPRxTsITdq0wynlZf4iQRAUiCbYNl+y931pcI1tV4yx8LDQYozg7VT0bov9KFyKSz8JaxoKRq/09yS</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIID/DCCAuSgAwIBAgIJAO+Y0XM8gPKYMA0GCSqGSIb3DQEBCwUAMIGkMSwwKgYDVQQDDCN3d3cuY29tdW5lLmNhdmFyaWFjb25wcmVtZXp6by52YS5pdDEnMCUGA1UECgweQ29tdW5lIGRpIENhdmFyaWEgY29uIFByZW1lenpvMRUwEwYDVQQEDAxQQTpJVC1jX2MzODIxCzAJBgNVBAYTAklUMScwJQYDVQQHDB5Db211bmUgZGkgQ2F2YXJpYSBjb24gUHJlbWV6em8wHhcNMjAxMDE2MTMzMDE3WhcNMzAxMDE0MTMzMDE3WjCBpDEsMCoGA1UEAwwjd3d3LmNvbXVuZS5jYXZhcmlhY29ucHJlbWV6em8udmEuaXQxJzAlBgNVBAoMHkNvbXVuZSBkaSBDYXZhcmlhIGNvbiBQcmVtZXp6bzEVMBMGA1UEBAwMUEE6SVQtY19jMzgyMQswCQYDVQQGEwJJVDEnMCUGA1UEBwweQ29tdW5lIGRpIENhdmFyaWEgY29uIFByZW1lenpvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7F7cmu81S6rodXc38nYlWvc1/X4zukadb5/1DkAEEkWey58P0KQAL8UA8RFPpKnu9cw1sahIPyH4G95YETApYWS87y7NcpF4vEO6rHlndRBHEtcCySrHoLiObfzGt2ICUgw+DwHZvHS870HMiqtgJT7azKM+yo/B+WA/21lJHUUIs74v10/VtuHGyzB7crzM8EnuYL41RYkA5IQZ+7vilLBsjBiw8obcNp4JLWHnqd+Unn2bOPgNSJmYlzMg94PkFVB9DkG+sn5D12bAU9oRhUWnXIfE2jzcCqjuA/IHxNksLVj0wXzOpXpKBsC6m8yPq7BE5wMGEYgST1HZR6AHvQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAFJGCKZN9bEos4/4HyrwPX3/qQQcZNGeSU3VrEiNBs4eCxpwDyaD9J9Va+wpLJoTPlq1LmJBtFPAnP4qft/aXeroh5HnjofBKh9Cfvs65DVsPCjgt08n7pzVl6gU8X/DK23FGHjS3o1+ZDK6JSRFlilLkCsZgJVhc2kma35PaXr7ZC4MldxWH0c77nqVlJ2I6D/F1wttBeJTG9Pmgv07jejz9S+SCskzTCTNgNCf0tQclN7+SmnaIEuN0A899ghJMczvZY3e2zlaoRIVjLvt0j3zTTWGZodIVWtD4IAdyVfDx2zu9tYFvhxUvb/lj3d38qGfOat4kjYAgXfx9uE5SBQ==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.cavariaconpremezzo.va.it/simplesaml/module.php/saml/sp/saml2-logout.php/cavariapremezzo"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cavariapremezzo"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.cavariaconpremezzo.va.it/simplesaml/module.php/saml/sp/saml2-acs.php/cavariapremezzo" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cavariapremezzo" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cavariapremezzo" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cavariapremezzo" index="3"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="en">cavariapremezzo</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="en">c_c382</md:OrganizationName>
+      <md:OrganizationName xml:lang="it">c_c382</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Cavaria con Premezzo</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Cavaria con Premezzo</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.cavariaconpremezzo.va.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.cavariaconpremezzo.va.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_c382</spid:IPACode>
+         <spid:FiscalCode>00309290120</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>statocivile@comune.cavariaconpremezzo.va.it</md:EmailAddress>
+      <md:TelephoneNumber>0331217480</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

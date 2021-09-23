@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Manziana" entityID="https://www.comune.manziana.rm.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Manziana">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>owKJVau/E6IWFgJa2M3qtmOUk4U9ai8aqMi2HJP9KUM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pWW9jnuMr16GxGtPw/xXaJTBJCTQs83rkMs/Tz9+e8wVNomdDZv0OmTurDetUsWfwYmVIyEKjG0b
++GrLguerO84uDlnVlqaBxXPp4XBws7++EpOXXJpjGn/r42k9R7wAezHrsy5Vn64mF/TNEG31ZT93
+FX9gRCb/LpP+VQbViGfOIrjhApU/4p53JGML46KPpAuj5z+wQfV3Hx7lRXvMqOkYTENgxJ/FD3KO
+6TlfQLEFv//Yg2m6V0By53kJBbiG0yxAjfMkat4aJA3zBqjfY+0xOWxsuGhQ0GT5fRoU9Pq5T+wn
+r0q2b9aJjf5Bd0UqLfsX5rA67ekIVJW8SRfa/A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6gYFdk4tf4Sfb6jydM+bTH71kSktmePLIMtz3VPjtvHZgAYyxvSfdwGGZHkxF/htHxjwLob8am++
+nvu3/RPuHwv7cc5M3/OiZIPKoUZwTjHSelj5iAtujLuSedAUNdrO7LMkd1GIF3T6RnT2QqLAUBfm
+ZCetqqKuNayweJhZQbhx9pUL2np1GR2nG0rP5or89Jil8C+lQx6gp6mAMNQjz8vVvPV8TKKhBF51
+RmTdvuaJQh4IXdG/SSYNWuvhv62KNG2x0Y4pRQ0e13jxekxKwETLWo5kGLpFRy1hM1xOJowy5rB9
+sJb7rRWJNB6ydzgs0vfc07pbmZpSoE0ufAOIWw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAPzD6ZmpG0a6MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUubWFuemlhbmEucm0uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDkw
+MzA4MjY1N1oXDTI5MDgzMTA4MjY1N1owQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYW56aWFuYS5y
+bS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDqBgV2Ti1/hJ9vqPJ0z5tMfvWRKS2Z48sgy3PdU+O28dmABjLG9J93AYZkeTEX+G0f
+GPAuhvxqb76e+7f9E+4fC/txzkzf86Jkg8qhRnBOMdJ6WPmIC26Mu5J50BQ12s7ssyR3UYgXdPpG
+dPZCosBQF+ZkJ62qoq41rLB4mFlBuHH2lQvaenUZHacbSs/mivz0mKXwL6VDHqCnqYAw1CPPy9W8
+9XxMoqEEXnVGZN2+5olCHghd0b9JJg1a6+G/rYo0bbHRjilFDR7XePF6TErARMtajmQYukVHLWEz
+XE4mjDLmsH2wlvutFYk0HrJ3OCzS99zTuluZmlKgTS58A4hbAgMBAAGjUDBOMB0GA1UdDgQWBBSD
+Zd95AGNsjO4qblYgkIcFGSyLyzAfBgNVHSMEGDAWgBSDZd95AGNsjO4qblYgkIcFGSyLyzAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCe8qCHx+8YHOEYejgDckdmKQtb9jbyKMHD9cMp
+dhEToBhIEIgYsFkCqGwho60B9uFEgg//tblGZJCGJ+WgxHkE8m4cd21kYuExqmCAhGHmDYmfoZ4+
+KpVTjYR7OiK6TwSJ9nXYvp8NFhwSompBE6PEviXC4ewpnzOaXUvyRMgfCz1MF+1DdZvOzs7H9XuM
+BAI/dyZB46HByJRdYtO8LnPbNgMwimSqedxUMbChpNsexHFcRzLtMD6ed8ZCPIDGUr6v5hpxhHXA
+bHJxZ81UPz32mchE3GI3G53efr0yLl2w7nycJwku/3v53spjRp4/L8bp6Qg/yPv8ciK6LTIpT1uK
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAPzD6ZmpG0a6MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuemlhbmEucm0uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDkwMzA4MjY1N1oXDTI5MDgzMTA4MjY1N1owQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYW56aWFuYS5ybS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqBgV2Ti1/hJ9vqPJ0z5tMfvWRKS2Z48sgy3PdU+O28dmABjLG9J93AYZkeTEX+G0fGPAuhvxqb76e+7f9E+4fC/txzkzf86Jkg8qhRnBOMdJ6WPmIC26Mu5J50BQ12s7ssyR3UYgXdPpGdPZCosBQF+ZkJ62qoq41rLB4mFlBuHH2lQvaenUZHacbSs/mivz0mKXwL6VDHqCnqYAw1CPPy9W89XxMoqEEXnVGZN2+5olCHghd0b9JJg1a6+G/rYo0bbHRjilFDR7XePF6TErARMtajmQYukVHLWEzXE4mjDLmsH2wlvutFYk0HrJ3OCzS99zTuluZmlKgTS58A4hbAgMBAAGjUDBOMB0GA1UdDgQWBBSDZd95AGNsjO4qblYgkIcFGSyLyzAfBgNVHSMEGDAWgBSDZd95AGNsjO4qblYgkIcFGSyLyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCe8qCHx+8YHOEYejgDckdmKQtb9jbyKMHD9cMpdhEToBhIEIgYsFkCqGwho60B9uFEgg//tblGZJCGJ+WgxHkE8m4cd21kYuExqmCAhGHmDYmfoZ4+KpVTjYR7OiK6TwSJ9nXYvp8NFhwSompBE6PEviXC4ewpnzOaXUvyRMgfCz1MF+1DdZvOzs7H9XuMBAI/dyZB46HByJRdYtO8LnPbNgMwimSqedxUMbChpNsexHFcRzLtMD6ed8ZCPIDGUr6v5hpxhHXAbHJxZ81UPz32mchE3GI3G53efr0yLl2w7nycJwku/3v53spjRp4/L8bp6Qg/yPv8ciK6LTIpT1uK
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAPzD6ZmpG0a6MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubWFuemlhbmEucm0uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDkwMzA4MjY1N1oXDTI5MDgzMTA4MjY1N1owQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYW56aWFuYS5ybS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqBgV2Ti1/hJ9vqPJ0z5tMfvWRKS2Z48sgy3PdU+O28dmABjLG9J93AYZkeTEX+G0fGPAuhvxqb76e+7f9E+4fC/txzkzf86Jkg8qhRnBOMdJ6WPmIC26Mu5J50BQ12s7ssyR3UYgXdPpGdPZCosBQF+ZkJ62qoq41rLB4mFlBuHH2lQvaenUZHacbSs/mivz0mKXwL6VDHqCnqYAw1CPPy9W89XxMoqEEXnVGZN2+5olCHghd0b9JJg1a6+G/rYo0bbHRjilFDR7XePF6TErARMtajmQYukVHLWEzXE4mjDLmsH2wlvutFYk0HrJ3OCzS99zTuluZmlKgTS58A4hbAgMBAAGjUDBOMB0GA1UdDgQWBBSDZd95AGNsjO4qblYgkIcFGSyLyzAfBgNVHSMEGDAWgBSDZd95AGNsjO4qblYgkIcFGSyLyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCe8qCHx+8YHOEYejgDckdmKQtb9jbyKMHD9cMpdhEToBhIEIgYsFkCqGwho60B9uFEgg//tblGZJCGJ+WgxHkE8m4cd21kYuExqmCAhGHmDYmfoZ4+KpVTjYR7OiK6TwSJ9nXYvp8NFhwSompBE6PEviXC4ewpnzOaXUvyRMgfCz1MF+1DdZvOzs7H9XuMBAI/dyZB46HByJRdYtO8LnPbNgMwimSqedxUMbChpNsexHFcRzLtMD6ed8ZCPIDGUr6v5hpxhHXAbHJxZ81UPz32mchE3GI3G53efr0yLl2w7nycJwku/3v53spjRp4/L8bp6Qg/yPv8ciK6LTIpT1uK
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/manziana"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/manziana" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/manziana" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/manziana" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Manziana</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Manziana</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Manziana</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Manziana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Manziana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Manziana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Manziana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Manziana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.manziana.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.manziana.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.manziana.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.manziana.rm.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

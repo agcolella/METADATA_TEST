@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="f1704a11-44f5-4d00-982d-14d3ff08586c" entityID="https://spid.comune.afragola.na.it/spid/shibboleth"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Bzc9E7TBZjR5JTZTt2SneU2wRKsxgGVK1p+Z7AuY+Rg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+TLmhR3UXqtdE/E/gQq1HGbEt2Rhn9zA3gmiSJJiehXpaEelIJJ3hNXPA9aIFXX9d9G10XMUYMK/V
+GHnYgWgNXvDVgGs/h+dOCKTQV5uJY2jMTHn2wRd5Be+pUWyaqCvB4F0Id2GhEbYBDZr706IupRvt
+03DujYHmiY3hmAkVAvllLTLaaSA/DyoegybzYJnLpQx1PyzLBHD0lfsABd3ouTxdhQI9Sef5Vesn
+RoIG+CxzjkdEHR6XtpOZB9+yGSglHH2xq+nE+b8+CfDvvzHIJb4akW29bIM2A2A4NmuYZqY+8kTy
+gsbZjocXA+RDC3lmXabRT+pa4SCHsDsOmJUqsg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rRdtEpa+IFQXLbpqFqlQn5SXQpVrJQMWfTfnfpQoIcTpzwC1yq4bEbm6e/wwO8a4+Cw6ihE6W5XV
+0Ic1CF9HX+Xq/TQG2ZPn27YRpoZZ6nVf2EmdJ9HauV4oGkAB0LWqZOHVv+0+xsSLST1POp4vVbdB
+//eWoFnmQxDeuqilIwSp5KLxg2SQdTRAMiJaOq46kAjYYW/9SHTlZNkKk4PBplhgM8cE+yRAtslY
++hIqMXQCG5gorEfZGZzPk7s+/JHPeHke+9L6z0ERRT4bnl37vY+AHgiolu3eHMBnpS3Zg2ZHvAah
+cIkHARBuriyqHD0gJJt0VES8evI79rOnnENrKQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEVzCCAz+gAwIBAgIJAMd79FKsKbTxMA0GCSqGSIb3DQEBCwUAMIHBMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGTkFQT0xJMREwDwYDVQQHDAhBRlJBR09MQTEbMBkGA1UECgwSQ29tdW5lIGRpIEFm
+cmFnb2xhMRswGQYDVQQLDBJDb211bmUgZGkgQWZyYWdvbGExIzAhBgNVBAMMGnNwaWQuY29tdW5l
+LmFmcmFnb2xhLm5hLml0MS8wLQYJKoZIhvcNAQkBFiBnLmd1Z2xpYXJhQGNvbXVuZS5hZnJhZ29s
+YS5uYS5pdDAeFw0xOTA0MTkxMTIyMTVaFw0yNDA0MTcxMTIyMTVaMIHBMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGTkFQT0xJMREwDwYDVQQHDAhBRlJBR09MQTEbMBkGA1UECgwSQ29tdW5lIGRpIEFm
+cmFnb2xhMRswGQYDVQQLDBJDb211bmUgZGkgQWZyYWdvbGExIzAhBgNVBAMMGnNwaWQuY29tdW5l
+LmFmcmFnb2xhLm5hLml0MS8wLQYJKoZIhvcNAQkBFiBnLmd1Z2xpYXJhQGNvbXVuZS5hZnJhZ29s
+YS5uYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK0XbRKWviBUFy26ahapUJ+U
+l0KVayUDFn03536UKCHE6c8AtcquGxG5unv8MDvGuPgsOooROluV1dCHNQhfR1/l6v00BtmT59u2
+EaaGWep1X9hJnSfR2rleKBpAAdC1qmTh1b/tPsbEi0k9TzqeL1W3Qf/3lqBZ5kMQ3rqopSMEqeSi
+8YNkkHU0QDIiWjquOpAI2GFv/Uh05WTZCpODwaZYYDPHBPskQLbJWPoSKjF0AhuYKKxH2Rmcz5O7
+PvyRz3h5HvvS+s9BEUU+G55d+72PgB4IqJbt3hzAZ6Ut2YNmR7wGoXCJBwEQbq4sqhw9ICSbdFRE
+vHryO/azp5xDaykCAwEAAaNQME4wHQYDVR0OBBYEFJT+8THBpQgc4Qoq5IssTIlKC2OGMB8GA1Ud
+IwQYMBaAFJT+8THBpQgc4Qoq5IssTIlKC2OGMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQAD
+ggEBABt87ZbSrWGR5pafp5WbPCPr9pQiAjCorJI6PcyVPCqERGvze2C+IdQxsVwU5Ykj2Et/OaOg
++R54JJ3AvXPI9/eX7hAHSf5/FIoEEGbcT9y9cSgKkTbAZFGE9iMHV5vD4b3wHkSLifRCDNquufEH
+Tsz2uTOg3vPOyuyG3olLVNSMdnkpk74ALukI1UI+/G2F2pT1qfU4Zre/f2hF0utBVAwkRCUczhpp
+200lqUY1SKmHnPZ0eV5IOT9JXDyqpMm0QeLvh+F+8cmyhXcBx/VQQ1FS6PJuey6EiCIp0XnhyTBd
+v8S+/qrKS+rlHT63HSTBmxtkA2WiOrigGeU2s7b/nMc=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEVzCCAz+gAwIBAgIJAMd79FKsKbTxMA0GCSqGSIb3DQEBCwUAMIHBMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGTkFQT0xJMREwDwYDVQQHDAhBRlJBR09MQTEbMBkG
+A1UECgwSQ29tdW5lIGRpIEFmcmFnb2xhMRswGQYDVQQLDBJDb211bmUgZGkgQWZy
+YWdvbGExIzAhBgNVBAMMGnNwaWQuY29tdW5lLmFmcmFnb2xhLm5hLml0MS8wLQYJ
+KoZIhvcNAQkBFiBnLmd1Z2xpYXJhQGNvbXVuZS5hZnJhZ29sYS5uYS5pdDAeFw0x
+OTA0MTkxMTIyMTVaFw0yNDA0MTcxMTIyMTVaMIHBMQswCQYDVQQGEwJJVDEPMA0G
+A1UECAwGTkFQT0xJMREwDwYDVQQHDAhBRlJBR09MQTEbMBkGA1UECgwSQ29tdW5l
+IGRpIEFmcmFnb2xhMRswGQYDVQQLDBJDb211bmUgZGkgQWZyYWdvbGExIzAhBgNV
+BAMMGnNwaWQuY29tdW5lLmFmcmFnb2xhLm5hLml0MS8wLQYJKoZIhvcNAQkBFiBn
+Lmd1Z2xpYXJhQGNvbXVuZS5hZnJhZ29sYS5uYS5pdDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAK0XbRKWviBUFy26ahapUJ+Ul0KVayUDFn03536UKCHE
+6c8AtcquGxG5unv8MDvGuPgsOooROluV1dCHNQhfR1/l6v00BtmT59u2EaaGWep1
+X9hJnSfR2rleKBpAAdC1qmTh1b/tPsbEi0k9TzqeL1W3Qf/3lqBZ5kMQ3rqopSME
+qeSi8YNkkHU0QDIiWjquOpAI2GFv/Uh05WTZCpODwaZYYDPHBPskQLbJWPoSKjF0
+AhuYKKxH2Rmcz5O7PvyRz3h5HvvS+s9BEUU+G55d+72PgB4IqJbt3hzAZ6Ut2YNm
+R7wGoXCJBwEQbq4sqhw9ICSbdFREvHryO/azp5xDaykCAwEAAaNQME4wHQYDVR0O
+BBYEFJT+8THBpQgc4Qoq5IssTIlKC2OGMB8GA1UdIwQYMBaAFJT+8THBpQgc4Qoq
+5IssTIlKC2OGMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABt87ZbS
+rWGR5pafp5WbPCPr9pQiAjCorJI6PcyVPCqERGvze2C+IdQxsVwU5Ykj2Et/OaOg
++R54JJ3AvXPI9/eX7hAHSf5/FIoEEGbcT9y9cSgKkTbAZFGE9iMHV5vD4b3wHkSL
+ifRCDNquufEHTsz2uTOg3vPOyuyG3olLVNSMdnkpk74ALukI1UI+/G2F2pT1qfU4
+Zre/f2hF0utBVAwkRCUczhpp200lqUY1SKmHnPZ0eV5IOT9JXDyqpMm0QeLvh+F+
+8cmyhXcBx/VQQ1FS6PJuey6EiCIp0XnhyTBdv8S+/qrKS+rlHT63HSTBmxtkA2Wi
+OrigGeU2s7b/nMc=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:KeyDescriptor use="encryption"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEVzCCAz+gAwIBAgIJAMd79FKsKbTxMA0GCSqGSIb3DQEBCwUAMIHBMQswCQYD
+VQQGEwJJVDEPMA0GA1UECAwGTkFQT0xJMREwDwYDVQQHDAhBRlJBR09MQTEbMBkG
+A1UECgwSQ29tdW5lIGRpIEFmcmFnb2xhMRswGQYDVQQLDBJDb211bmUgZGkgQWZy
+YWdvbGExIzAhBgNVBAMMGnNwaWQuY29tdW5lLmFmcmFnb2xhLm5hLml0MS8wLQYJ
+KoZIhvcNAQkBFiBnLmd1Z2xpYXJhQGNvbXVuZS5hZnJhZ29sYS5uYS5pdDAeFw0x
+OTA0MTkxMTIyMTVaFw0yNDA0MTcxMTIyMTVaMIHBMQswCQYDVQQGEwJJVDEPMA0G
+A1UECAwGTkFQT0xJMREwDwYDVQQHDAhBRlJBR09MQTEbMBkGA1UECgwSQ29tdW5l
+IGRpIEFmcmFnb2xhMRswGQYDVQQLDBJDb211bmUgZGkgQWZyYWdvbGExIzAhBgNV
+BAMMGnNwaWQuY29tdW5lLmFmcmFnb2xhLm5hLml0MS8wLQYJKoZIhvcNAQkBFiBn
+Lmd1Z2xpYXJhQGNvbXVuZS5hZnJhZ29sYS5uYS5pdDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAK0XbRKWviBUFy26ahapUJ+Ul0KVayUDFn03536UKCHE
+6c8AtcquGxG5unv8MDvGuPgsOooROluV1dCHNQhfR1/l6v00BtmT59u2EaaGWep1
+X9hJnSfR2rleKBpAAdC1qmTh1b/tPsbEi0k9TzqeL1W3Qf/3lqBZ5kMQ3rqopSME
+qeSi8YNkkHU0QDIiWjquOpAI2GFv/Uh05WTZCpODwaZYYDPHBPskQLbJWPoSKjF0
+AhuYKKxH2Rmcz5O7PvyRz3h5HvvS+s9BEUU+G55d+72PgB4IqJbt3hzAZ6Ut2YNm
+R7wGoXCJBwEQbq4sqhw9ICSbdFREvHryO/azp5xDaykCAwEAAaNQME4wHQYDVR0O
+BBYEFJT+8THBpQgc4Qoq5IssTIlKC2OGMB8GA1UdIwQYMBaAFJT+8THBpQgc4Qoq
+5IssTIlKC2OGMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABt87ZbS
+rWGR5pafp5WbPCPr9pQiAjCorJI6PcyVPCqERGvze2C+IdQxsVwU5Ykj2Et/OaOg
++R54JJ3AvXPI9/eX7hAHSf5/FIoEEGbcT9y9cSgKkTbAZFGE9iMHV5vD4b3wHkSL
+ifRCDNquufEHTsz2uTOg3vPOyuyG3olLVNSMdnkpk74ALukI1UI+/G2F2pT1qfU4
+Zre/f2hF0utBVAwkRCUczhpp200lqUY1SKmHnPZ0eV5IOT9JXDyqpMm0QeLvh+F+
+8cmyhXcBx/VQQ1FS6PJuey6EiCIp0XnhyTBdv8S+/qrKS+rlHT63HSTBmxtkA2Wi
+OrigGeU2s7b/nMc=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.afragola.na.it/Shibboleth.sso/SLO/POST"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune.afragola.na.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio accesso SPID</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Servizio di accesso Discovery SPID</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+
+    <md:Organization> 
+        <md:OrganizationName xml:lang="it">Comune di Afragola</md:OrganizationName> 
+        <md:OrganizationDisplayName xml:lang="it">Comune di Afragola</md:OrganizationDisplayName> 
+        <md:OrganizationURL xml:lang="it">http://www.comune.afragola.na.it/</md:OrganizationURL> 
+    </md:Organization> 
+
+</md:EntityDescriptor>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.sesto-calende.va.it/" ID="pfx53fd4dd0-7424-7bc8-a1b5-adb5e33c8ee2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx53fd4dd0-7424-7bc8-a1b5-adb5e33c8ee2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3Na5iw1jRHz5di0cl1MNg94dXEfBt8LG1PeM5OvqJVI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ipNePfTgwkoVVU/oWc1WejGoPfxleq4HraJdCp0IoBM+1QoQtED4Y1W4wUbWwUlOft4XZJ+W5sqFg1nlld0S23ewMSddRB/qOH95A/LA5/Bv6QMLyd2PtJ+0roXFM4WGr5+5U/KqD4DDoUFAh+V4NeihBVT9H0b4WwXCTlX+zb7/8BrdWgBcK+At269vtADSlHwnqdkPEESxuLRA4SsiCuf0ef6ymBwHW+59T6XR7H+fTmrXCcy4x3ZzQqZqR+RQo22ZrtHDuiIZAw7baZ4hALyDg8DjuOS290h6LWatWVieqz4XXliQGwzLIUeM32bnqxuEpPTfWmanPNodizanUw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEODCCAyCgAwIBAgIJAOCFujuudG+LMA0GCSqGSIb3DQEBCwUAMIGwMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmFyZXNlMRYwFAYDVQQHDA1TZXN0byBDYWxlbmRlMSAwHgYDVQQKDBdDb211bmUgZGkgU2VzdG8gQ2FsZW5kZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNzA1BgNVBAMMLnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnNlc3RvLWNhbGVuZGUudmEuaXQwHhcNMTgwNDExMTQ0NTI1WhcNMjgwNDA4MTQ0NTI1WjCBsDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlZhcmVzZTEWMBQGA1UEBwwNU2VzdG8gQ2FsZW5kZTEgMB4GA1UECgwXQ29tdW5lIGRpIFNlc3RvIENhbGVuZGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTcwNQYDVQQDDC5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zZXN0by1jYWxlbmRlLnZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0z+CiikOFQdqxdFI2VWUZBJqPw/D3T1m/80yK4aiNLZKlmtq7/cnNSeuJMCCr2/O/1f+VbYqCPfXZuKLk2OqEZ8qelzF0jX3q/9D8ebPekHI/z+R1BuXrr8gZujYFc71XociXxMehh3ZJSXsBEc3ID/rjw5/wsDkgnXKCYcWBbnng6CLFJGItol2ObGRT46yQN15sfwkNMOb59wAHs/p7USCnxXGnoBwaDpb+uWOyRP7r/KGI1+SjXm9OTmJnudaYO7/5s3xkzkMbVGhrBsghSTFMs/KxJP/kB3ekV19yD7sq+emGY/rki9V9Ds3B/20R0D0wBnWQ/ts/SYF/bmepwIDAQABo1MwUTAdBgNVHQ4EFgQUeWgtWp/2YTp7rrVuMczk+4LyN60wHwYDVR0jBBgwFoAUeWgtWp/2YTp7rrVuMczk+4LyN60wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAztLR0+Dbb6SsiuAZpGawmDzDDCH7WKt5WHl2cmQIzIB0IPG/jIllwgbfWz+yt0KCiZNJADUxKCfWD4vVa6IOyTLp5PoRL1bXbNwmt2AsWRQtIinXIh7MNR84e3nVCemo3Y4KGqERq6rs1ztUivYQE1HtH+Q3vyy/SNrKghHt2TUWMPk7yzBazjgwx+gBDe4LyViB/EUzoOgn6ydx4l5ZEmY2X+R5y0M7sMh7AKRxT2VNGkxXaj2BxbwT99KCWQX9S2v2pjqXhRvnxIaTGcDPrjY8ArcmwMEhCJklnkxr/61xGrVKrADPATNNZNBIfynzjAFZzUYGBtvpOTXg0zmhZA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEODCCAyCgAwIBAgIJAOCFujuudG+LMA0GCSqGSIb3DQEBCwUAMIGwMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmFyZXNlMRYwFAYDVQQHDA1TZXN0byBDYWxlbmRlMSAwHgYDVQQKDBdDb211bmUgZGkgU2VzdG8gQ2FsZW5kZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNzA1BgNVBAMMLnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnNlc3RvLWNhbGVuZGUudmEuaXQwHhcNMTgwNDExMTQ0NTI1WhcNMjgwNDA4MTQ0NTI1WjCBsDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlZhcmVzZTEWMBQGA1UEBwwNU2VzdG8gQ2FsZW5kZTEgMB4GA1UECgwXQ29tdW5lIGRpIFNlc3RvIENhbGVuZGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTcwNQYDVQQDDC5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zZXN0by1jYWxlbmRlLnZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0z+CiikOFQdqxdFI2VWUZBJqPw/D3T1m/80yK4aiNLZKlmtq7/cnNSeuJMCCr2/O/1f+VbYqCPfXZuKLk2OqEZ8qelzF0jX3q/9D8ebPekHI/z+R1BuXrr8gZujYFc71XociXxMehh3ZJSXsBEc3ID/rjw5/wsDkgnXKCYcWBbnng6CLFJGItol2ObGRT46yQN15sfwkNMOb59wAHs/p7USCnxXGnoBwaDpb+uWOyRP7r/KGI1+SjXm9OTmJnudaYO7/5s3xkzkMbVGhrBsghSTFMs/KxJP/kB3ekV19yD7sq+emGY/rki9V9Ds3B/20R0D0wBnWQ/ts/SYF/bmepwIDAQABo1MwUTAdBgNVHQ4EFgQUeWgtWp/2YTp7rrVuMczk+4LyN60wHwYDVR0jBBgwFoAUeWgtWp/2YTp7rrVuMczk+4LyN60wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAztLR0+Dbb6SsiuAZpGawmDzDDCH7WKt5WHl2cmQIzIB0IPG/jIllwgbfWz+yt0KCiZNJADUxKCfWD4vVa6IOyTLp5PoRL1bXbNwmt2AsWRQtIinXIh7MNR84e3nVCemo3Y4KGqERq6rs1ztUivYQE1HtH+Q3vyy/SNrKghHt2TUWMPk7yzBazjgwx+gBDe4LyViB/EUzoOgn6ydx4l5ZEmY2X+R5y0M7sMh7AKRxT2VNGkxXaj2BxbwT99KCWQX9S2v2pjqXhRvnxIaTGcDPrjY8ArcmwMEhCJklnkxr/61xGrVKrADPATNNZNBIfynzjAFZzUYGBtvpOTXg0zmhZA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEODCCAyCgAwIBAgIJAOCFujuudG+LMA0GCSqGSIb3DQEBCwUAMIGwMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVmFyZXNlMRYwFAYDVQQHDA1TZXN0byBDYWxlbmRlMSAwHgYDVQQKDBdDb211bmUgZGkgU2VzdG8gQ2FsZW5kZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNzA1BgNVBAMMLnNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLnNlc3RvLWNhbGVuZGUudmEuaXQwHhcNMTgwNDExMTQ0NTI1WhcNMjgwNDA4MTQ0NTI1WjCBsDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBlZhcmVzZTEWMBQGA1UEBwwNU2VzdG8gQ2FsZW5kZTEgMB4GA1UECgwXQ29tdW5lIGRpIFNlc3RvIENhbGVuZGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTcwNQYDVQQDDC5zcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5zZXN0by1jYWxlbmRlLnZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0z+CiikOFQdqxdFI2VWUZBJqPw/D3T1m/80yK4aiNLZKlmtq7/cnNSeuJMCCr2/O/1f+VbYqCPfXZuKLk2OqEZ8qelzF0jX3q/9D8ebPekHI/z+R1BuXrr8gZujYFc71XociXxMehh3ZJSXsBEc3ID/rjw5/wsDkgnXKCYcWBbnng6CLFJGItol2ObGRT46yQN15sfwkNMOb59wAHs/p7USCnxXGnoBwaDpb+uWOyRP7r/KGI1+SjXm9OTmJnudaYO7/5s3xkzkMbVGhrBsghSTFMs/KxJP/kB3ekV19yD7sq+emGY/rki9V9Ds3B/20R0D0wBnWQ/ts/SYF/bmepwIDAQABo1MwUTAdBgNVHQ4EFgQUeWgtWp/2YTp7rrVuMczk+4LyN60wHwYDVR0jBBgwFoAUeWgtWp/2YTp7rrVuMczk+4LyN60wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAztLR0+Dbb6SsiuAZpGawmDzDDCH7WKt5WHl2cmQIzIB0IPG/jIllwgbfWz+yt0KCiZNJADUxKCfWD4vVa6IOyTLp5PoRL1bXbNwmt2AsWRQtIinXIh7MNR84e3nVCemo3Y4KGqERq6rs1ztUivYQE1HtH+Q3vyy/SNrKghHt2TUWMPk7yzBazjgwx+gBDe4LyViB/EUzoOgn6ydx4l5ZEmY2X+R5y0M7sMh7AKRxT2VNGkxXaj2BxbwT99KCWQX9S2v2pjqXhRvnxIaTGcDPrjY8ArcmwMEhCJklnkxr/61xGrVKrADPATNNZNBIfynzjAFZzUYGBtvpOTXg0zmhZA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.sesto-calende.va.it/simplesaml/module.php/saml/sp/saml2-logout.php/sestocalende"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.sesto-calende.va.it/simplesaml/module.php/saml/sp/saml2-acs.php/sestocalende" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">sestocalende</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_i688</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Sesto Calende</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.sesto-calende.va.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx05ee4afc-3280-d7f7-66ca-936eff9c302d" entityID="https://sportellotelematico.unionecomunibbo.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx05ee4afc-3280-d7f7-66ca-936eff9c302d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Yif5Oz4wrJvorzE727tb2WEvtO7C112CQUrNQCDS1sE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Pd+b9CLU3sOX3JwdyxdLYsJGIa/hdfcwYeMos9nVWoxY4SCTCgPOnY5P5KlGRQEkIz+3EMeIOcj1
+n/TU0RC8CmPIr1q8/BKs+J7Ocb4B2R8s6lDzWdLNrkXMK3ZrdKb3qSg7qm22UKNW6Y+4UpNG3yZv
+SuvIY+2ztBDrnnLSq62ePJ4flnugyfAnb07csAm3CSBjubD7MT2W0om+Qavq4hqu6/XcfMjgV574
+wkr+tnghHaDExwS25MCIhFy3zLs9yIvar2xx8QhbcWIwyEsQ8yONkLqq5RwTt21JPOxYAY+XLjc2
+mHkK+tB8AbJAn36FXT5UGNfYdRXgZ0tVi53ZOw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lgsreG5mAZzmLheg8/25sgpfKEjxSXn2TDnbx8Lz4owWKVbINvbE64I80pGjPHxt7eROCTwLAHGI
+yL2h6BrHYefn/GtbpQAar0Mn8mG3LTXYdvxXnxj8ZNYBa27VaOvrKxK52L9I7yM2LOYnn2SEQwDa
+ENo4CtvZnwVJjGoxjH4CEIfjPxQhRf4v/DmTF3RWIR/oDr2nkJij1VYmMTRcw9qZFN7ZsZT9vesv
+Ja2SKiKFpVL95s0rC/DI5zvZd0m3+LN6B8XA7vRXxnmxQYmlfRlgJ4os1UuUPOEXZ0ow/NsGvum5
+TbZhGd/n6YbWniIqAE2bVnW5WTQcpvS8lyjvxw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEYDCCA0igAwIBAgIJANRBxT1VkExFMA0GCSqGSIb3DQEBCwUAMIHEMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHQnJlc2NpYTESMBAGA1UEBwwJT3J6aW51b3ZpMT8wPQYDVQQKDDZVbmlvbmUgRGVp
+IENvbXVuaSBMb21iYXJkYSBCYXNzYSBCcmVzY2lhbmEgT2NjaWRlbnRhbGUxHTAbBgNVBAsMFFNw
+b3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnVuaW9uZWNv
+bXVuaWJiby5pdDAeFw0xODExMTQxNDE2NTRaFw0yODExMTExNDE2NTRaMIHEMQswCQYDVQQGEwJJ
+VDEQMA4GA1UECAwHQnJlc2NpYTESMBAGA1UEBwwJT3J6aW51b3ZpMT8wPQYDVQQKDDZVbmlvbmUg
+RGVpIENvbXVuaSBMb21iYXJkYSBCYXNzYSBCcmVzY2lhbmEgT2NjaWRlbnRhbGUxHTAbBgNVBAsM
+FFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnVuaW9u
+ZWNvbXVuaWJiby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJYLK3huZgGc5i4X
+oPP9ubIKXyhI8Ul59kw528fC8+KMFilWyDb2xOuCPNKRozx8be3kTgk8CwBxiMi9oegax2Hn5/xr
+W6UAGq9DJ/Jhty012Hb8V58Y/GTWAWtu1Wjr6ysSudi/SO8jNizmJ59khEMA2hDaOArb2Z8FSYxq
+MYx+AhCH4z8UIUX+L/w5kxd0ViEf6A69p5CYo9VWJjE0XMPamRTe2bGU/b3rLyWtkioihaVS/ebN
+KwvwyOc72XdJt/izegfFwO70V8Z5sUGJpX0ZYCeKLNVLlDzhF2dKMPzbBr7puU22YRnf5+mG1p4i
+KgBNm1Z1uVk0HKb0vJco78cCAwEAAaNTMFEwHQYDVR0OBBYEFPYGmnCVz5etX+kjVm47wuTZOKkk
+MB8GA1UdIwQYMBaAFPYGmnCVz5etX+kjVm47wuTZOKkkMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBAB79BPAmkV2s6oVNmORSDF2LR2LuTT96MGzI/bDaRIz/1cM2XdiaJ+kN7qK6
+Xs/Vp8tzsw2r4gMxIeJk9rmRCkcti0RopkyedGH6dO8IMRUdY6pC+r/1tFzB3etrUO3VKk4ACiQH
+xK4x0sfinee+isFGE+TJHTKbRAZV1+ixoHy6pVObk5Js9FCgO4c4u+wq6+Ki67PYxGEus9+p3e1h
+SRNz/YEBpKd06hlFKeAqJcvlXIjzISPCCOgldSq2zen4bYPXuE8ThIhPw2WzrSobVay3+VZ7GO2l
+flEKXyISaa1izySLmO07Q4V/bl1qgd0Ud43mGuzusZ0qi++aRhxi+m4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEYDCCA0igAwIBAgIJANRBxT1VkExFMA0GCSqGSIb3DQEBCwUAMIHEMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTESMBAGA1UEBwwJT3J6aW51b3ZpMT8wPQYDVQQKDDZVbmlvbmUgRGVpIENvbXVuaSBMb21iYXJkYSBCYXNzYSBCcmVzY2lhbmEgT2NjaWRlbnRhbGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnVuaW9uZWNvbXVuaWJiby5pdDAeFw0xODExMTQxNDE2NTRaFw0yODExMTExNDE2NTRaMIHEMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTESMBAGA1UEBwwJT3J6aW51b3ZpMT8wPQYDVQQKDDZVbmlvbmUgRGVpIENvbXVuaSBMb21iYXJkYSBCYXNzYSBCcmVzY2lhbmEgT2NjaWRlbnRhbGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnVuaW9uZWNvbXVuaWJiby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJYLK3huZgGc5i4XoPP9ubIKXyhI8Ul59kw528fC8+KMFilWyDb2xOuCPNKRozx8be3kTgk8CwBxiMi9oegax2Hn5/xrW6UAGq9DJ/Jhty012Hb8V58Y/GTWAWtu1Wjr6ysSudi/SO8jNizmJ59khEMA2hDaOArb2Z8FSYxqMYx+AhCH4z8UIUX+L/w5kxd0ViEf6A69p5CYo9VWJjE0XMPamRTe2bGU/b3rLyWtkioihaVS/ebNKwvwyOc72XdJt/izegfFwO70V8Z5sUGJpX0ZYCeKLNVLlDzhF2dKMPzbBr7puU22YRnf5+mG1p4iKgBNm1Z1uVk0HKb0vJco78cCAwEAAaNTMFEwHQYDVR0OBBYEFPYGmnCVz5etX+kjVm47wuTZOKkkMB8GA1UdIwQYMBaAFPYGmnCVz5etX+kjVm47wuTZOKkkMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB79BPAmkV2s6oVNmORSDF2LR2LuTT96MGzI/bDaRIz/1cM2XdiaJ+kN7qK6Xs/Vp8tzsw2r4gMxIeJk9rmRCkcti0RopkyedGH6dO8IMRUdY6pC+r/1tFzB3etrUO3VKk4ACiQHxK4x0sfinee+isFGE+TJHTKbRAZV1+ixoHy6pVObk5Js9FCgO4c4u+wq6+Ki67PYxGEus9+p3e1hSRNz/YEBpKd06hlFKeAqJcvlXIjzISPCCOgldSq2zen4bYPXuE8ThIhPw2WzrSobVay3+VZ7GO2lflEKXyISaa1izySLmO07Q4V/bl1qgd0Ud43mGuzusZ0qi++aRhxi+m4=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEYDCCA0igAwIBAgIJANRBxT1VkExFMA0GCSqGSIb3DQEBCwUAMIHEMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTESMBAGA1UEBwwJT3J6aW51b3ZpMT8wPQYDVQQKDDZVbmlvbmUgRGVpIENvbXVuaSBMb21iYXJkYSBCYXNzYSBCcmVzY2lhbmEgT2NjaWRlbnRhbGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnVuaW9uZWNvbXVuaWJiby5pdDAeFw0xODExMTQxNDE2NTRaFw0yODExMTExNDE2NTRaMIHEMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQnJlc2NpYTESMBAGA1UEBwwJT3J6aW51b3ZpMT8wPQYDVQQKDDZVbmlvbmUgRGVpIENvbXVuaSBMb21iYXJkYSBCYXNzYSBCcmVzY2lhbmEgT2NjaWRlbnRhbGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnVuaW9uZWNvbXVuaWJiby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJYLK3huZgGc5i4XoPP9ubIKXyhI8Ul59kw528fC8+KMFilWyDb2xOuCPNKRozx8be3kTgk8CwBxiMi9oegax2Hn5/xrW6UAGq9DJ/Jhty012Hb8V58Y/GTWAWtu1Wjr6ysSudi/SO8jNizmJ59khEMA2hDaOArb2Z8FSYxqMYx+AhCH4z8UIUX+L/w5kxd0ViEf6A69p5CYo9VWJjE0XMPamRTe2bGU/b3rLyWtkioihaVS/ebNKwvwyOc72XdJt/izegfFwO70V8Z5sUGJpX0ZYCeKLNVLlDzhF2dKMPzbBr7puU22YRnf5+mG1p4iKgBNm1Z1uVk0HKb0vJco78cCAwEAAaNTMFEwHQYDVR0OBBYEFPYGmnCVz5etX+kjVm47wuTZOKkkMB8GA1UdIwQYMBaAFPYGmnCVz5etX+kjVm47wuTZOKkkMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB79BPAmkV2s6oVNmORSDF2LR2LuTT96MGzI/bDaRIz/1cM2XdiaJ+kN7qK6Xs/Vp8tzsw2r4gMxIeJk9rmRCkcti0RopkyedGH6dO8IMRUdY6pC+r/1tFzB3etrUO3VKk4ACiQHxK4x0sfinee+isFGE+TJHTKbRAZV1+ixoHy6pVObk5Js9FCgO4c4u+wq6+Ki67PYxGEus9+p3e1hSRNz/YEBpKd06hlFKeAqJcvlXIjzISPCCOgldSq2zen4bYPXuE8ThIhPw2WzrSobVay3+VZ7GO2lflEKXyISaa1izySLmO07Q4V/bl1qgd0Ud43mGuzusZ0qi++aRhxi+m4=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.unionecomunibbo.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.suap.unionecomunibbo.it/simplesaml/module.php/saml/sp/saml2-logout.php/unionebbo"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.unionecomunibbo.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.suap.unionecomunibbo.it/simplesaml/module.php/saml/sp/saml2-acs.php/unionebbo" index="1"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">stu</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="en">unionebbo</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+            <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+            <md:RequestedAttribute FriendlyName="Cellulare" Name="mobilePhone"/>
+            <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+            <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+            <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">udclbo</md:OrganizationName>
+        <md:OrganizationName xml:lang="it">udclbo</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">Unione Dei Comuni Lombarda Bassa Bresciana Occidentale</md:OrganizationDisplayName>
+        <md:OrganizationDisplayName xml:lang="it">Unione Dei Comuni Lombarda Bassa Bresciana Occidentale</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">https://sportellotelematico.unionecomunibbo.it</md:OrganizationURL>
+        <md:OrganizationURL xml:lang="it">https://sportellotelematico.unionecomunibbo.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

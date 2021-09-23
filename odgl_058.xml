@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://albo.odg.roma.it/spid" ID="pfxcc4624a4-78d8-84ef-7ab9-0225661d296c"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxcc4624a4-78d8-84ef-7ab9-0225661d296c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1gafIs50DF3hS+Pd5xi5qTq/LzxPhqiuKTnnk1FtFoE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>fhrb9M5/ZLK/HvDsnUPNQ7oL+h7/ub8p0UaKjb4Rchm6+4uOUaXr+xdJ+gZE2J5R/j8ImIumNXiXndt69kCgm3jDS2oa3aQFCcogPH7kmdUJk6ylVuzH8tVb+go8Q7XM9w7FZ7fHMc4U8nN2DxAEBEgXHQiJMYJBPqTcsz22XcgOuHDVXUkA3d/5QgT9AkG0+TOC3NECGe8cUJVnaayPCu0cUuYl8xy3TsZsWl1O7uaoADADSjp2Irzj4JhoaMz41Oo8omysQTuTIm/OsZ6AZV3EEsadsrrOdOtrzCubGDfr9kdqvMibirOQHrUIYtCC0s+Bhl/5Qr/hHOd9h2xWGw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHzCCAwegAwIBAgIUXzGMWPVWUp/cENwCXjH8YM4YRCswDQYJKoZIhvcNAQELBQAwgZ4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVpdGFseTENMAsGA1UEBwwEcm9tZTEpMCcGA1UECgwgT3JkaW5lIGRlaSBnaW9ybmFsaXN0aSBkZWwgbGF6aW8xIjAgBgNVBAMMGWh0dHBzOi8vYWxiby5vZGcucm9tYS5pdC8xITAfBgkqhkiG9w0BCQEWEmluZm9AZGV2YXBwZXJzLmNvbTAeFw0yMDA1MjEwOTI3MjJaFw0zMDA1MjEwOTI3MjJaMIGeMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFaXRhbHkxDTALBgNVBAcMBHJvbWUxKTAnBgNVBAoMIE9yZGluZSBkZWkgZ2lvcm5hbGlzdGkgZGVsIGxhemlvMSIwIAYDVQQDDBlodHRwczovL2FsYm8ub2RnLnJvbWEuaXQvMSEwHwYJKoZIhvcNAQkBFhJpbmZvQGRldmFwcGVycy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDf8eZt3gvuhz47Xg4WdC7rpBWxFEqmMPkyxr/LomvcVCqiEf4BjuawqAsQQUtnG7eLwfOyO5SC8KpFY8ivw1BmHuMv/yJvwnsAsyD31yKAL7cjGmt+rnZDjRADt+YfoE/f9auTM2VPHldCNEq5ffb9nazoXhUVxVMCXxq4Cxvj0PTZd2Jiwgc5e2wkk8H5bW4PGmzgCqggH7MYCAM44kcRm3CQhT3BhbiLm/zXnZhY1iJCHvfK0NDerY6vHoOwgYgEX7FRXzUZFPUxwCHktW/a32NIEEtAykwqOo8UaAzCam9ooYMXiRQlkbIfeN/3Evy2nGt34AfRGVW5jn3hRbj7AgMBAAGjUzBRMB0GA1UdDgQWBBSit5VkmPcU97K3dImv4J6lM38A4zAfBgNVHSMEGDAWgBSit5VkmPcU97K3dImv4J6lM38A4zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBMfWby/NEQ/qp5itrdfvu2swtNys0vTeDf/bdYiHabrc5eWQO73/HscXb44l8exSzXDsw1VgKxPsaWPndXrFMoR0Xz7Xo6Bxg6n7phPXoTqDll4xV9tu2assgBmkML34LsqYrv7SX/sMKNuTi896tzNtJgZYCf7eLP8D4G0dn38eswR/vO+A7RTZSFgLlr7FELxjAmpdXuD4wix6XbdCRms/ca8sXPavkUD1FZMxTxPmj9ZhFphyyHpprijfjskRu0pckUGI54NOMERiAPLCl74HEECBlFo+eaq+OgWdDHY7G9U3zwum2xEzkP5SzZWkpLHsrnlFrPyIlib4Neep/2</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHzCCAwegAwIBAgIUXzGMWPVWUp/cENwCXjH8YM4YRCswDQYJKoZIhvcNAQELBQAwgZ4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVpdGFseTENMAsGA1UEBwwEcm9tZTEpMCcGA1UECgwgT3JkaW5lIGRlaSBnaW9ybmFsaXN0aSBkZWwgbGF6aW8xIjAgBgNVBAMMGWh0dHBzOi8vYWxiby5vZGcucm9tYS5pdC8xITAfBgkqhkiG9w0BCQEWEmluZm9AZGV2YXBwZXJzLmNvbTAeFw0yMDA1MjEwOTI3MjJaFw0zMDA1MjEwOTI3MjJaMIGeMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFaXRhbHkxDTALBgNVBAcMBHJvbWUxKTAnBgNVBAoMIE9yZGluZSBkZWkgZ2lvcm5hbGlzdGkgZGVsIGxhemlvMSIwIAYDVQQDDBlodHRwczovL2FsYm8ub2RnLnJvbWEuaXQvMSEwHwYJKoZIhvcNAQkBFhJpbmZvQGRldmFwcGVycy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDf8eZt3gvuhz47Xg4WdC7rpBWxFEqmMPkyxr/LomvcVCqiEf4BjuawqAsQQUtnG7eLwfOyO5SC8KpFY8ivw1BmHuMv/yJvwnsAsyD31yKAL7cjGmt+rnZDjRADt+YfoE/f9auTM2VPHldCNEq5ffb9nazoXhUVxVMCXxq4Cxvj0PTZd2Jiwgc5e2wkk8H5bW4PGmzgCqggH7MYCAM44kcRm3CQhT3BhbiLm/zXnZhY1iJCHvfK0NDerY6vHoOwgYgEX7FRXzUZFPUxwCHktW/a32NIEEtAykwqOo8UaAzCam9ooYMXiRQlkbIfeN/3Evy2nGt34AfRGVW5jn3hRbj7AgMBAAGjUzBRMB0GA1UdDgQWBBSit5VkmPcU97K3dImv4J6lM38A4zAfBgNVHSMEGDAWgBSit5VkmPcU97K3dImv4J6lM38A4zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBMfWby/NEQ/qp5itrdfvu2swtNys0vTeDf/bdYiHabrc5eWQO73/HscXb44l8exSzXDsw1VgKxPsaWPndXrFMoR0Xz7Xo6Bxg6n7phPXoTqDll4xV9tu2assgBmkML34LsqYrv7SX/sMKNuTi896tzNtJgZYCf7eLP8D4G0dn38eswR/vO+A7RTZSFgLlr7FELxjAmpdXuD4wix6XbdCRms/ca8sXPavkUD1FZMxTxPmj9ZhFphyyHpprijfjskRu0pckUGI54NOMERiAPLCl74HEECBlFo+eaq+OgWdDHY7G9U3zwum2xEzkP5SzZWkpLHsrnlFrPyIlib4Neep/2</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHzCCAwegAwIBAgIUXzGMWPVWUp/cENwCXjH8YM4YRCswDQYJKoZIhvcNAQELBQAwgZ4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVpdGFseTENMAsGA1UEBwwEcm9tZTEpMCcGA1UECgwgT3JkaW5lIGRlaSBnaW9ybmFsaXN0aSBkZWwgbGF6aW8xIjAgBgNVBAMMGWh0dHBzOi8vYWxiby5vZGcucm9tYS5pdC8xITAfBgkqhkiG9w0BCQEWEmluZm9AZGV2YXBwZXJzLmNvbTAeFw0yMDA1MjEwOTI3MjJaFw0zMDA1MjEwOTI3MjJaMIGeMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFaXRhbHkxDTALBgNVBAcMBHJvbWUxKTAnBgNVBAoMIE9yZGluZSBkZWkgZ2lvcm5hbGlzdGkgZGVsIGxhemlvMSIwIAYDVQQDDBlodHRwczovL2FsYm8ub2RnLnJvbWEuaXQvMSEwHwYJKoZIhvcNAQkBFhJpbmZvQGRldmFwcGVycy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDf8eZt3gvuhz47Xg4WdC7rpBWxFEqmMPkyxr/LomvcVCqiEf4BjuawqAsQQUtnG7eLwfOyO5SC8KpFY8ivw1BmHuMv/yJvwnsAsyD31yKAL7cjGmt+rnZDjRADt+YfoE/f9auTM2VPHldCNEq5ffb9nazoXhUVxVMCXxq4Cxvj0PTZd2Jiwgc5e2wkk8H5bW4PGmzgCqggH7MYCAM44kcRm3CQhT3BhbiLm/zXnZhY1iJCHvfK0NDerY6vHoOwgYgEX7FRXzUZFPUxwCHktW/a32NIEEtAykwqOo8UaAzCam9ooYMXiRQlkbIfeN/3Evy2nGt34AfRGVW5jn3hRbj7AgMBAAGjUzBRMB0GA1UdDgQWBBSit5VkmPcU97K3dImv4J6lM38A4zAfBgNVHSMEGDAWgBSit5VkmPcU97K3dImv4J6lM38A4zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBMfWby/NEQ/qp5itrdfvu2swtNys0vTeDf/bdYiHabrc5eWQO73/HscXb44l8exSzXDsw1VgKxPsaWPndXrFMoR0Xz7Xo6Bxg6n7phPXoTqDll4xV9tu2assgBmkML34LsqYrv7SX/sMKNuTi896tzNtJgZYCf7eLP8D4G0dn38eswR/vO+A7RTZSFgLlr7FELxjAmpdXuD4wix6XbdCRms/ca8sXPavkUD1FZMxTxPmj9ZhFphyyHpprijfjskRu0pckUGI54NOMERiAPLCl74HEECBlFo+eaq+OgWdDHY7G9U3zwum2xEzkP5SzZWkpLHsrnlFrPyIlib4Neep/2</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://albo.odg.roma.it/spid-albo/module.php/saml/sp/saml2-logout.php/service"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.odg.roma.it/spid-albo/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Ordine dei giornalisti del Lazio</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Ordine dei giornalisti del Lazio</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine dei giornalisti del Lazio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine dei giornalisti del Lazio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://odg.roma.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

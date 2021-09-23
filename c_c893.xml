@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cologne" entityID="https://www.comune.cologne.bs.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cologne">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>I0HsLIK7Q6zu9AbNR9glb8/rEml6S1WcksDrpRClvTg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ZNIzdLhhxymQgOYzuahRJw2h+RHpcRd4YbJKijJlgUo9QktUR4Y2uroT2QoMHjiptgl05qvjppYZ
+12ecSDBo+Y4Nh8dIZWxRpqIt3lhIrcwn273fQbOazs3MOeU46UNfAaBdYR6rptei4uIJPDszPogk
+bXn2Dbibn4eIP2SuDn/LnGi/E2YMeNU7VAI0cbxp9TtHWHS4xuGjduXgoRfE6+fBLgN/xrWXNqeV
+B26FawHMIpxY2dOHnqb1kG/y8SfpFeC6GDqyBBWfRbMwUkH8XiwmlXi30eySYGHm0ebpK7ps5+Tq
+Fon7yNFWK2+p8j6HVl8Jf2zenHPYCRo9QFeplQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qkGaRdieyKiHCCetisZ3tfV/6fALB/I61dsxC+7uIMHTUoW1p09naI8DI2slO/ifQD1i8uIgE9se
+tkRWiPPaHrEnbutxwh8mm6WvRx3TcIY1h3EELkxN5tVik14x3GOdpiV2tojc64gDTAlD4XEDidiT
+ECA0Y4Hng882e0Kksj9oVV/EtV9LkHkzrnuUC/5qMc/RlYB1WudlIHdwYF/EFmO1ZiAvBQE39yaO
+TDjkiR8YqV/kHJu1Vt5ap7GO0nOfjX13DfQ8pXMwoH63W0Xsk/zCyjbiB0hP8l71KBCqTs7tsfO5
+YgyeI2K6FFWfE67Fb2Hixs2KNy4JfpKCr8G1GQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAMuVyEA/VmxTMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuY29sb2duZS5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNDMw
+MTUxNDA1WhcNMjgwNDI3MTUxNDA1WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmNvbG9nbmUuYnMu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAqkGaRdieyKiHCCetisZ3tfV/6fALB/I61dsxC+7uIMHTUoW1p09naI8DI2slO/ifQD1i
+8uIgE9setkRWiPPaHrEnbutxwh8mm6WvRx3TcIY1h3EELkxN5tVik14x3GOdpiV2tojc64gDTAlD
+4XEDidiTECA0Y4Hng882e0Kksj9oVV/EtV9LkHkzrnuUC/5qMc/RlYB1WudlIHdwYF/EFmO1ZiAv
+BQE39yaOTDjkiR8YqV/kHJu1Vt5ap7GO0nOfjX13DfQ8pXMwoH63W0Xsk/zCyjbiB0hP8l71KBCq
+Ts7tsfO5YgyeI2K6FFWfE67Fb2Hixs2KNy4JfpKCr8G1GQIDAQABo1AwTjAdBgNVHQ4EFgQU3vRW
+twR9NTctia5UJR+tszmr7hwwHwYDVR0jBBgwFoAU3vRWtwR9NTctia5UJR+tszmr7hwwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAYNKPUIiqyXMcZjZ/gqHxd2nBVW3nExoGbdoQt2/Y
+9hshtHUcq9samxhAdKPFj3vp3lYVN+bdPWHq2jlGUjvESzSio+NwrTfc4NWHEO7Qs4ubbfnZD8rp
+w2ArNmyPfbZPkPbSWAob/CAWIlYJnfRBNnvetwlg8AIRkQTRZosuE6UQ1++mtCfK9G+kC2EilvXg
+5mUeCw8BR01kLkjN3jjxOXokqvmZvfCmbK6v8nijjfrvjcXZEdo8T9SZdBFqjKAp68wKeYqCpdfE
+bky4t+WNx/yG8WsHlZNBC6TK+BYKJJwyqhxjvHLlPL1jmscGE25UVpqicksH74YgNRtJWESu4Q==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAMuVyEA/VmxTMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuY29sb2duZS5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNDMwMTUxNDA1WhcNMjgwNDI3MTUxNDA1WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmNvbG9nbmUuYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkGaRdieyKiHCCetisZ3tfV/6fALB/I61dsxC+7uIMHTUoW1p09naI8DI2slO/ifQD1i8uIgE9setkRWiPPaHrEnbutxwh8mm6WvRx3TcIY1h3EELkxN5tVik14x3GOdpiV2tojc64gDTAlD4XEDidiTECA0Y4Hng882e0Kksj9oVV/EtV9LkHkzrnuUC/5qMc/RlYB1WudlIHdwYF/EFmO1ZiAvBQE39yaOTDjkiR8YqV/kHJu1Vt5ap7GO0nOfjX13DfQ8pXMwoH63W0Xsk/zCyjbiB0hP8l71KBCqTs7tsfO5YgyeI2K6FFWfE67Fb2Hixs2KNy4JfpKCr8G1GQIDAQABo1AwTjAdBgNVHQ4EFgQU3vRWtwR9NTctia5UJR+tszmr7hwwHwYDVR0jBBgwFoAU3vRWtwR9NTctia5UJR+tszmr7hwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAYNKPUIiqyXMcZjZ/gqHxd2nBVW3nExoGbdoQt2/Y9hshtHUcq9samxhAdKPFj3vp3lYVN+bdPWHq2jlGUjvESzSio+NwrTfc4NWHEO7Qs4ubbfnZD8rpw2ArNmyPfbZPkPbSWAob/CAWIlYJnfRBNnvetwlg8AIRkQTRZosuE6UQ1++mtCfK9G+kC2EilvXg5mUeCw8BR01kLkjN3jjxOXokqvmZvfCmbK6v8nijjfrvjcXZEdo8T9SZdBFqjKAp68wKeYqCpdfEbky4t+WNx/yG8WsHlZNBC6TK+BYKJJwyqhxjvHLlPL1jmscGE25UVpqicksH74YgNRtJWESu4Q==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cologne"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cologne" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cologne" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cologne</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cologne</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cologne</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cologne</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cologne</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cologne</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cologne</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cologne</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cologne.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cologne.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cologne.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cologne.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

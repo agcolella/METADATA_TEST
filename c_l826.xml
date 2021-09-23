@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://suapsue.comune.viadana.mn.it/" ID="pfx57ef2641-6ccc-df94-618b-523f7aaa71c2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx57ef2641-6ccc-df94-618b-523f7aaa71c2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>cOHuj1LJdzPyGxDErXVibJWrMGWfnBayQEbtamiytI8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>rR7Qf3FIT3dWLMOWA1gOHRHVFGHXrDe8PWvog67Xu6BOGWEW97S2uU0FMy1bIuo/aZ2V6UFVYvzBIwxNCjTKyjE696cj9do7h/fzfRgKZj63r+WULxIZs+k6Zj67qag2UHyRsQwr8gEH8Q0HpGR06gqyetEljElbLYFHf0KYMzDj3gt+HWVnIBT38rMAxAp+XHUvsNFPJPUIizOafuaLnchVfCGbQ3DnPfXB7/1rIffKmUCbK7V2z5RLYuZwyqWdnkvFsxgU/oFQtjr6vjblhYoR9CJoZVWgcee2yXqqZSQcMJF57u5SdL0QD6ahlF9Pj4NcnLyerrQyN36XV/HGaQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID/jCCAuagAwIBAgIJAN4D8wOFDlF8MA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEQMA4GA1UEBwwHVmlhZGFuYTEaMBgGA1UECgwRQ29tdW5lIGRpIFZpYWRhbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSUwIwYDVQQDDBxzdWFwc3VlLmNvbXVuZS52aWFkYW5hLm1uLml0MB4XDTE4MTAwOTEyMTY1NloXDTI4MTAwNjEyMTY1NlowgZMxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRAwDgYDVQQHDAdWaWFkYW5hMRowGAYDVQQKDBFDb211bmUgZGkgVmlhZGFuYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJTAjBgNVBAMMHHN1YXBzdWUuY29tdW5lLnZpYWRhbmEubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1ka5k9ORLdZwAIBeIogV1bvaVUvU22z2YtO7LTpLx+qvwrZVpT51w6rS4vfZDEuEO8YhZxaTc82emZiP4T2maKH7qoqJh598HPwr3ofvIx1NgCEQvzy8NYi5YHYU06h3lthntdsb8wMViwORKAqQzsknQonSboMcwHeyRk/HeuFmIBrr2oJCGqRr9P/O/oxD2EMI5LDxJodDHuBjBs6Jny4p+hc0tokCm1rgWpQ8Y3aWSSWMrBqTdegKc4jLcj56PdONFsGXguUwv7Dv+hCwubwdwKB4Ym6031S5aCzYengjASst2HSI0e25J0cvRrLftiWLrZiyUcJWnIAGPPAxXAgMBAAGjUzBRMB0GA1UdDgQWBBQVkhnMYvr63wXm2DUBVTPqK7Cn3jAfBgNVHSMEGDAWgBQVkhnMYvr63wXm2DUBVTPqK7Cn3jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJE49Xk/EEdlxkug9NwmTONC34cQp60uhG1ER/M5k7FtH7mdrb84Du23uBIDBls+Rqa/mAyfqp/AXGzatIDnTqTSAvYSKooQRMPSlQAoPUrW4g0F3WojRXSQKx2XwwBchsTRIoQD1bxiMQVhBHzK/zWLaHgAZBhgaawE/XBU68Zi4PACGjQC+U3uv3Ja4ni2sMKvxVt+dvpX/m1SS4x/a3ohlPH/lT0lO7VhZxCpYcYS3MVWrVk3kMjaJa/xg/d41IRiNydVGyM2EKnYBe/q08HzdpJsEEgM/FOuNDLZyXPZZSHhECqv2phUsFabbKh58PfQBNvSOT/wNC1wNRnR7L</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAN4D8wOFDlF8MA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEQMA4GA1UEBwwHVmlhZGFuYTEaMBgGA1UECgwRQ29tdW5lIGRpIFZpYWRhbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSUwIwYDVQQDDBxzdWFwc3VlLmNvbXVuZS52aWFkYW5hLm1uLml0MB4XDTE4MTAwOTEyMTY1NloXDTI4MTAwNjEyMTY1NlowgZMxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRAwDgYDVQQHDAdWaWFkYW5hMRowGAYDVQQKDBFDb211bmUgZGkgVmlhZGFuYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJTAjBgNVBAMMHHN1YXBzdWUuY29tdW5lLnZpYWRhbmEubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1ka5k9ORLdZwAIBeIogV1bvaVUvU22z2YtO7LTpLx+qvwrZVpT51w6rS4vfZDEuEO8YhZxaTc82emZiP4T2maKH7qoqJh598HPwr3ofvIx1NgCEQvzy8NYi5YHYU06h3lthntdsb8wMViwORKAqQzsknQonSboMcwHeyRk/HeuFmIBrr2oJCGqRr9P/O/oxD2EMI5LDxJodDHuBjBs6Jny4p+hc0tokCm1rgWpQ8Y3aWSSWMrBqTdegKc4jLcj56PdONFsGXguUwv7Dv+hCwubwdwKB4Ym6031S5aCzYengjASst2HSI0e25J0cvRrLftiWLrZiyUcJWnIAGPPAxXAgMBAAGjUzBRMB0GA1UdDgQWBBQVkhnMYvr63wXm2DUBVTPqK7Cn3jAfBgNVHSMEGDAWgBQVkhnMYvr63wXm2DUBVTPqK7Cn3jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJE49Xk/EEdlxkug9NwmTONC34cQp60uhG1ER/M5k7FtH7mdrb84Du23uBIDBls+Rqa/mAyfqp/AXGzatIDnTqTSAvYSKooQRMPSlQAoPUrW4g0F3WojRXSQKx2XwwBchsTRIoQD1bxiMQVhBHzK/zWLaHgAZBhgaawE/XBU68Zi4PACGjQC+U3uv3Ja4ni2sMKvxVt+dvpX/m1SS4x/a3ohlPH/lT0lO7VhZxCpYcYS3MVWrVk3kMjaJa/xg/d41IRiNydVGyM2EKnYBe/q08HzdpJsEEgM/FOuNDLZyXPZZSHhECqv2phUsFabbKh58PfQBNvSOT/wNC1wNRnR7L</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAN4D8wOFDlF8MA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEQMA4GA1UEBwwHVmlhZGFuYTEaMBgGA1UECgwRQ29tdW5lIGRpIFZpYWRhbmExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSUwIwYDVQQDDBxzdWFwc3VlLmNvbXVuZS52aWFkYW5hLm1uLml0MB4XDTE4MTAwOTEyMTY1NloXDTI4MTAwNjEyMTY1NlowgZMxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRAwDgYDVQQHDAdWaWFkYW5hMRowGAYDVQQKDBFDb211bmUgZGkgVmlhZGFuYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJTAjBgNVBAMMHHN1YXBzdWUuY29tdW5lLnZpYWRhbmEubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1ka5k9ORLdZwAIBeIogV1bvaVUvU22z2YtO7LTpLx+qvwrZVpT51w6rS4vfZDEuEO8YhZxaTc82emZiP4T2maKH7qoqJh598HPwr3ofvIx1NgCEQvzy8NYi5YHYU06h3lthntdsb8wMViwORKAqQzsknQonSboMcwHeyRk/HeuFmIBrr2oJCGqRr9P/O/oxD2EMI5LDxJodDHuBjBs6Jny4p+hc0tokCm1rgWpQ8Y3aWSSWMrBqTdegKc4jLcj56PdONFsGXguUwv7Dv+hCwubwdwKB4Ym6031S5aCzYengjASst2HSI0e25J0cvRrLftiWLrZiyUcJWnIAGPPAxXAgMBAAGjUzBRMB0GA1UdDgQWBBQVkhnMYvr63wXm2DUBVTPqK7Cn3jAfBgNVHSMEGDAWgBQVkhnMYvr63wXm2DUBVTPqK7Cn3jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBJE49Xk/EEdlxkug9NwmTONC34cQp60uhG1ER/M5k7FtH7mdrb84Du23uBIDBls+Rqa/mAyfqp/AXGzatIDnTqTSAvYSKooQRMPSlQAoPUrW4g0F3WojRXSQKx2XwwBchsTRIoQD1bxiMQVhBHzK/zWLaHgAZBhgaawE/XBU68Zi4PACGjQC+U3uv3Ja4ni2sMKvxVt+dvpX/m1SS4x/a3ohlPH/lT0lO7VhZxCpYcYS3MVWrVk3kMjaJa/xg/d41IRiNydVGyM2EKnYBe/q08HzdpJsEEgM/FOuNDLZyXPZZSHhECqv2phUsFabbKh58PfQBNvSOT/wNC1wNRnR7L</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suapsue.comune.viadana.mn.it/simplesaml/module.php/saml/sp/saml2-logout.php/viadana"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suapsue.comune.viadana.mn.it/simplesaml/module.php/saml/sp/saml2-acs.php/viadana" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">viadana</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_l826</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Viadana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://suapsue.comune.viadana.mn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="NoventaDiPiave" entityID="https://www.comune.noventadipiave.ve.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#NoventaDiPiave">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>YZEMB3ZIrvQXprzD7jrc4lgtqpisVP5vAXEmnG9nzXE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XzaGn8IrxOcCjgvTmYG5TimphlGtaVrmFO1fclAtL/FbO4ELohYo3E+kd7oGTi2Z2GWF3fbG5ape
+/yRO7qMOFy/4Rw1GDhxXjr87p9YdMQPhd3fycB3udKV1ykgoD/Vn3jzPaJhw2OEHK/psuSkXCMha
+8JtnOOLt8d99mSNEu15qk+9YC61h20VECr1M5osGPrxIY9Okqryyr6YtpXLr7FxibSh2Xp4iajm1
+rY9vcDGq4w4ehgZHRcSJc8EkV88R+CD15AFWP7sIdSDDnHXA0uHIF+NnyKQgcv5LcRulSUce+94j
+TT73Lm+onVsIlQQh1phYrkUEwGlhgMrhu81Rmw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6euI59YoPifkJ1Pr70Biyp6A74BF2JqkoKCWoLFzbMUFARWRbhCPKBFX5kDZXo+0aXcPR3plan6v
+xu8fsD5cWI0SGsP/9NWDbNjvjOD5YSG2U9vNBKLYKblZ+z4Ue2ct+emaO+vdUK7XymlE7xl/eh1G
+I3RNK3z3KVnsMzpAaP19C41GNBQz6+NzmZmHgvXKTpVR8Vcj+HYQnLEQV5QwkukMv6JDSHWH+VgJ
+jJ8df5IGzPpUgRTDoHuhIWF8gvdLPoTfSUHEVeJvXc4GYukag5WvdVWBA88hzt9XXh2YSpLLd0QF
+47G/jrgQNjNQqf1KWUWvrYBXMhoAhWXdXTkEcw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAMpODwr3fMYHMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUubm92ZW50YWRpcGlhdmUudmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTIwMDUwNjEwMTMwN1oXDTMwMDUwNDEwMTMwN1owRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5ub3Zl
+bnRhZGlwaWF2ZS52ZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDp64jn1ig+J+QnU+vvQGLKnoDvgEXYmqSgoJagsXNsxQUBFZFu
+EI8oEVfmQNlej7Rpdw9HemVqfq/G7x+wPlxYjRIaw//01YNs2O+M4PlhIbZT280EotgpuVn7PhR7
+Zy356Zo7691QrtfKaUTvGX96HUYjdE0rfPcpWewzOkBo/X0LjUY0FDPr43OZmYeC9cpOlVHxVyP4
+dhCcsRBXlDCS6Qy/okNIdYf5WAmMnx1/kgbM+lSBFMOge6EhYXyC90s+hN9JQcRV4m9dzgZi6RqD
+la91VYEDzyHO31deHZhKkst3RAXjsb+OuBA2M1Cp/UpZRa+tgFcyGgCFZd1dOQRzAgMBAAGjUDBO
+MB0GA1UdDgQWBBSQxHdXwew+d/tWEiL58YKRY74l+DAfBgNVHSMEGDAWgBSQxHdXwew+d/tWEiL5
+8YKRY74l+DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBCTThAkl6j9O3TVWS46+Wg
+lnxHFIwBtnjGqn+sT5h9lhdBqTs+h+6g29oh2578nPsmSchBnqWR0LhUtd3Jf6FmhfiOmXnBPwDW
+BYxoUl0QSNjhvcPkBQug6LC2pHMzoiFFHvEEWISkjt4gl7BaFYZxS7nPecl5bCPPJs+tFC9gb2p4
+f7YSKV8hRR782SOWkjXNiFZ84aq/5REoeVR/PJnbdhEQkEe5U4SI+u3eBgiQrD9WAs80AxJON3Oq
+vhlP3GxBU8IVeINcIVJSYHGy48+QrjWN5RgIw7q+B3nD7DK45BEi1EfJRrwQ5oyV6m3sqwEUH6EN
+SAy+yzFy84MU/yJq
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMpODwr3fMYHMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUubm92ZW50YWRpcGlhdmUudmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUwNjEwMTMwN1oXDTMwMDUwNDEwMTMwN1owRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5ub3ZlbnRhZGlwaWF2ZS52ZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDp64jn1ig+J+QnU+vvQGLKnoDvgEXYmqSgoJagsXNsxQUBFZFuEI8oEVfmQNlej7Rpdw9HemVqfq/G7x+wPlxYjRIaw//01YNs2O+M4PlhIbZT280EotgpuVn7PhR7Zy356Zo7691QrtfKaUTvGX96HUYjdE0rfPcpWewzOkBo/X0LjUY0FDPr43OZmYeC9cpOlVHxVyP4dhCcsRBXlDCS6Qy/okNIdYf5WAmMnx1/kgbM+lSBFMOge6EhYXyC90s+hN9JQcRV4m9dzgZi6RqDla91VYEDzyHO31deHZhKkst3RAXjsb+OuBA2M1Cp/UpZRa+tgFcyGgCFZd1dOQRzAgMBAAGjUDBOMB0GA1UdDgQWBBSQxHdXwew+d/tWEiL58YKRY74l+DAfBgNVHSMEGDAWgBSQxHdXwew+d/tWEiL58YKRY74l+DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBCTThAkl6j9O3TVWS46+WglnxHFIwBtnjGqn+sT5h9lhdBqTs+h+6g29oh2578nPsmSchBnqWR0LhUtd3Jf6FmhfiOmXnBPwDWBYxoUl0QSNjhvcPkBQug6LC2pHMzoiFFHvEEWISkjt4gl7BaFYZxS7nPecl5bCPPJs+tFC9gb2p4f7YSKV8hRR782SOWkjXNiFZ84aq/5REoeVR/PJnbdhEQkEe5U4SI+u3eBgiQrD9WAs80AxJON3OqvhlP3GxBU8IVeINcIVJSYHGy48+QrjWN5RgIw7q+B3nD7DK45BEi1EfJRrwQ5oyV6m3sqwEUH6ENSAy+yzFy84MU/yJq
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMpODwr3fMYHMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUubm92ZW50YWRpcGlhdmUudmUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUwNjEwMTMwN1oXDTMwMDUwNDEwMTMwN1owRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5ub3ZlbnRhZGlwaWF2ZS52ZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDp64jn1ig+J+QnU+vvQGLKnoDvgEXYmqSgoJagsXNsxQUBFZFuEI8oEVfmQNlej7Rpdw9HemVqfq/G7x+wPlxYjRIaw//01YNs2O+M4PlhIbZT280EotgpuVn7PhR7Zy356Zo7691QrtfKaUTvGX96HUYjdE0rfPcpWewzOkBo/X0LjUY0FDPr43OZmYeC9cpOlVHxVyP4dhCcsRBXlDCS6Qy/okNIdYf5WAmMnx1/kgbM+lSBFMOge6EhYXyC90s+hN9JQcRV4m9dzgZi6RqDla91VYEDzyHO31deHZhKkst3RAXjsb+OuBA2M1Cp/UpZRa+tgFcyGgCFZd1dOQRzAgMBAAGjUDBOMB0GA1UdDgQWBBSQxHdXwew+d/tWEiL58YKRY74l+DAfBgNVHSMEGDAWgBSQxHdXwew+d/tWEiL58YKRY74l+DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBCTThAkl6j9O3TVWS46+WglnxHFIwBtnjGqn+sT5h9lhdBqTs+h+6g29oh2578nPsmSchBnqWR0LhUtd3Jf6FmhfiOmXnBPwDWBYxoUl0QSNjhvcPkBQug6LC2pHMzoiFFHvEEWISkjt4gl7BaFYZxS7nPecl5bCPPJs+tFC9gb2p4f7YSKV8hRR782SOWkjXNiFZ84aq/5REoeVR/PJnbdhEQkEe5U4SI+u3eBgiQrD9WAs80AxJON3OqvhlP3GxBU8IVeINcIVJSYHGy48+QrjWN5RgIw7q+B3nD7DK45BEi1EfJRrwQ5oyV6m3sqwEUH6ENSAy+yzFy84MU/yJq
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/noventadipiave"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/noventadipiave" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/noventadipiave" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/noventadipiave" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Noventa di Piave</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Noventa di Piave</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Noventa di Piave</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Noventa di Piave</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Noventa di Piave</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Noventa di Piave</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Noventa di Piave</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Noventa di Piave</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.noventadipiave.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.noventadipiave.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.noventadipiave.ve.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.noventadipiave.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

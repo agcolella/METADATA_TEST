@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportelloedilizia.comune.besnate.va.it/" ID="_3f2e401b0bd80387cd6fd38c7e1bdb99edff9cf8778f64a943b6b4ed02fc6802"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_3f2e401b0bd80387cd6fd38c7e1bdb99edff9cf8778f64a943b6b4ed02fc6802"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>HAd++loV9KQyJgPJleMu0LvsQIZ5WzFAtAEnZQHm7SY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>YrceECiO1k2F2H3vPx0GoeWjArnEQy7pR0Ubh4/hr1P+dz8HGl1Tl0k6Z2pjy3E5yhEAf2hJmkFlsw30OorvRYITecAGQhDFxGtt3Mk0GqbSb+9Lgdpo8hsRrRRFdv61y1DjLWFZeO1rhn/6oOmvk5sUwP3INX8bfNYcSwtrbEN3zSP6WEWvC1DcvLc195oJwlCtlIQZsHVYz13IKPGIXA8LYc1QPAcyTt3ucbQEKBYOOOAn+nfVl7Ct3t55y2YMbyg+6zlRaang6eV+pebzWIhpp/8bxplyTr5BlyB+HDsCk1HoW/JEUnWNr4sNtdz9KT2QLQkdzEdwp6d1iw0eBQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDzDCCArSgAwIBAgIRANDYuqlBjJkKd37/KomxkRQwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAklUMRAwDgYDVQQHEwdCZXNuYXRlMRowGAYDVQQKExFDb211bmUgZGkgQmVzbmF0ZTE4MDYGA1UEAxMvaHR0cHM6Ly9zcG9ydGVsbG9lZGlsaXppYS5jb211bmUuYmVzbmF0ZS52YS5pdC8xFTATBgNVBAUWDFBBOklULWNfYTgyNTAeFw0yMDA5MjExNDM0MTBaFw0zMDA5MTkxNDM0MTBaMIGMMQswCQYDVQQGEwJJVDEQMA4GA1UEBxMHQmVzbmF0ZTEaMBgGA1UEChMRQ29tdW5lIGRpIEJlc25hdGUxODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvZWRpbGl6aWEuY29tdW5lLmJlc25hdGUudmEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2E4MjUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxnpBzRRGgsxHaWl3Hllq8+jCyzW/vRGiHugBRY7du1EKIK9p+OfW2zntRdVXmoSUVLI9rADQAh/E42bXlAREn2dCPaVLnkgnc11urz3jaLfBExxz9ba0ZPqpdnifetpJdGuYrP9B9GWZSJ9TSdQaWFzwwV316DKOO7EfNJhDEdcnrcOqEtCZmCv4Yb2IWP0iHmsUM/IQ9cJ1wLZyghJwMH9tghJY0iP+8rTLR9IJ6zDYSBMmgLoLxrq5o7kb02uPFu/QuRpudARv97482ppVSNS2wArIkH5RgHC65GT3kjepofhq/G5qg+1S61m/nS8C0Yyg78b0Z2ghHeEQdE+4zAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEATvuMB6eBnyJp7QBM7B4XPPEtZuhpwXGgemheVo1bbZWxwczi0Qd8f9cpBLnKtQRaw+AfMILpPi7xkIBpAkvmFzgxrz7pv6dCcnKEMK8p/F+sU8N2OysmxuezpLE4fm8dtCY9byZvia+4YNUmKL3WDxfeqJXXdoTZO4kSmornd7HlacEueBHTCJCNmp3py4Ouwxpdm1GLANhA0OH5sCG/3T6SwzMSNZXYASc05iTrCimIWvqHxA7X7KkfXLIzDQxdxEwS9hzGnmOgKRJI6XK/1vdr2cwCNaWhTpW5cbBIIXxXgPHSP26EBEBboieG5wpCmMxp4Gs8HeJVzgGA0uezhQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzDCCArSgAwIBAgIRANDYuqlBjJkKd37/KomxkRQwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAklUMRAwDgYDVQQHEwdCZXNuYXRlMRowGAYDVQQKExFDb211bmUgZGkgQmVzbmF0ZTE4MDYGA1UEAxMvaHR0cHM6Ly9zcG9ydGVsbG9lZGlsaXppYS5jb211bmUuYmVzbmF0ZS52YS5pdC8xFTATBgNVBAUWDFBBOklULWNfYTgyNTAeFw0yMDA5MjExNDM0MTBaFw0zMDA5MTkxNDM0MTBaMIGMMQswCQYDVQQGEwJJVDEQMA4GA1UEBxMHQmVzbmF0ZTEaMBgGA1UEChMRQ29tdW5lIGRpIEJlc25hdGUxODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvZWRpbGl6aWEuY29tdW5lLmJlc25hdGUudmEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2E4MjUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxnpBzRRGgsxHaWl3Hllq8+jCyzW/vRGiHugBRY7du1EKIK9p+OfW2zntRdVXmoSUVLI9rADQAh/E42bXlAREn2dCPaVLnkgnc11urz3jaLfBExxz9ba0ZPqpdnifetpJdGuYrP9B9GWZSJ9TSdQaWFzwwV316DKOO7EfNJhDEdcnrcOqEtCZmCv4Yb2IWP0iHmsUM/IQ9cJ1wLZyghJwMH9tghJY0iP+8rTLR9IJ6zDYSBMmgLoLxrq5o7kb02uPFu/QuRpudARv97482ppVSNS2wArIkH5RgHC65GT3kjepofhq/G5qg+1S61m/nS8C0Yyg78b0Z2ghHeEQdE+4zAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEATvuMB6eBnyJp7QBM7B4XPPEtZuhpwXGgemheVo1bbZWxwczi0Qd8f9cpBLnKtQRaw+AfMILpPi7xkIBpAkvmFzgxrz7pv6dCcnKEMK8p/F+sU8N2OysmxuezpLE4fm8dtCY9byZvia+4YNUmKL3WDxfeqJXXdoTZO4kSmornd7HlacEueBHTCJCNmp3py4Ouwxpdm1GLANhA0OH5sCG/3T6SwzMSNZXYASc05iTrCimIWvqHxA7X7KkfXLIzDQxdxEwS9hzGnmOgKRJI6XK/1vdr2cwCNaWhTpW5cbBIIXxXgPHSP26EBEBboieG5wpCmMxp4Gs8HeJVzgGA0uezhQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzDCCArSgAwIBAgIRANDYuqlBjJkKd37/KomxkRQwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAklUMRAwDgYDVQQHEwdCZXNuYXRlMRowGAYDVQQKExFDb211bmUgZGkgQmVzbmF0ZTE4MDYGA1UEAxMvaHR0cHM6Ly9zcG9ydGVsbG9lZGlsaXppYS5jb211bmUuYmVzbmF0ZS52YS5pdC8xFTATBgNVBAUWDFBBOklULWNfYTgyNTAeFw0yMDA5MjExNDM0MTBaFw0zMDA5MTkxNDM0MTBaMIGMMQswCQYDVQQGEwJJVDEQMA4GA1UEBxMHQmVzbmF0ZTEaMBgGA1UEChMRQ29tdW5lIGRpIEJlc25hdGUxODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvZWRpbGl6aWEuY29tdW5lLmJlc25hdGUudmEuaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2E4MjUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxnpBzRRGgsxHaWl3Hllq8+jCyzW/vRGiHugBRY7du1EKIK9p+OfW2zntRdVXmoSUVLI9rADQAh/E42bXlAREn2dCPaVLnkgnc11urz3jaLfBExxz9ba0ZPqpdnifetpJdGuYrP9B9GWZSJ9TSdQaWFzwwV316DKOO7EfNJhDEdcnrcOqEtCZmCv4Yb2IWP0iHmsUM/IQ9cJ1wLZyghJwMH9tghJY0iP+8rTLR9IJ6zDYSBMmgLoLxrq5o7kb02uPFu/QuRpudARv97482ppVSNS2wArIkH5RgHC65GT3kjepofhq/G5qg+1S61m/nS8C0Yyg78b0Z2ghHeEQdE+4zAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEATvuMB6eBnyJp7QBM7B4XPPEtZuhpwXGgemheVo1bbZWxwczi0Qd8f9cpBLnKtQRaw+AfMILpPi7xkIBpAkvmFzgxrz7pv6dCcnKEMK8p/F+sU8N2OysmxuezpLE4fm8dtCY9byZvia+4YNUmKL3WDxfeqJXXdoTZO4kSmornd7HlacEueBHTCJCNmp3py4Ouwxpdm1GLANhA0OH5sCG/3T6SwzMSNZXYASc05iTrCimIWvqHxA7X7KkfXLIzDQxdxEwS9hzGnmOgKRJI6XK/1vdr2cwCNaWhTpW5cbBIIXxXgPHSP26EBEBboieG5wpCmMxp4Gs8HeJVzgGA0uezhQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportelloedilizia.comune.besnate.va.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportelloedilizia.comune.besnate.va.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Besnate</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Besnate</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Besnate</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Besnate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Besnate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Besnate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Besnate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Besnate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportelloedilizia.comune.besnate.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportelloedilizia.comune.besnate.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportelloedilizia.comune.besnate.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportelloedilizia.comune.besnate.va.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_a825</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>protocollo@pec.comune.besnate.va.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxf935077e-d4cf-226a-0981-4b8fa2a150ff" entityID="https://www.comune.monselice.padova.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxf935077e-d4cf-226a-0981-4b8fa2a150ff">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>teWOqdfGb+xuOhQ9egc6YOtyu3ZSKuxaE6IPbGQ17Ms=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hJYfp5dFdE+qJTND6rHTkvDUSB1frrQ3TIZfFwNRnMxaoqlHXTKkzEH+IllUM9nX2Lu+nat1h9Ac
+jGDonAOKNWzrnsNGeLVHXRt4HrRqMMkVr0zOKsHmnhb3Ok5CsNLI7Uq4Y2jwuI7Kd5QAcqKdlZHe
+NkGphf0QICj+r5FmcTofGZ16R7vWSRm6cWVYL24tvkbkzGoa5KQ7Ayn11rXZ3NDxRT5xn+QphiY0
+KcYUERpv/kU4N+MdWrxlXPni2o1LNbbWIdPYU8CmVc9QqryMTEBun0UAcSFxopjSxSP5+Wcu9mdI
+W0bQv/Flf9+upLtHVBPNQNUjP8P+ECO3619lbw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xHnrjRFPtkPtu7zcsPWUqmaPiDA1zCkQtq6U/5sN28f/0ESOvs3dvHRXxok5rCZi5QiVytGm6G7S
+IDybK2g/FEJKtjAnkv2lt8mPHrZG2Hr8KElADHa1jFtrhJtqEHUp00FGZBBBEeUai6zmMpvhJlJY
+MmVNRZyOU/RXeeQUTrKFNQxqB1xf3pNa9AC4kbRD1qZAD2kCCPWuEsihh4rouDlVbj8WmzufiO9x
+ivDhGWMckFY1fcl8oRNa1WzPIrjIzIvcA/C0iH07K3m/GIWiO1VCBT/77mpyt+Nng+b5sWfLzbqW
+ha+5SglKUpp3/0d+uOqvrrivYeUjYiCFTiuZ3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIJAKdI42+jvnWAMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9uc2VsaWNlMRwwGgYDVQQKDBNDb211bmUgZGkgTW9u
+c2VsaWNlMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnNlbGljZS5wYWRvdmEuaXQwHhcNMTgxMDE5
+MTUwMzQ5WhcNMjgxMDE4MTUwMzQ5WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQ
+BgNVBAcMCU1vbnNlbGljZTEcMBoGA1UECgwTQ29tdW5lIGRpIE1vbnNlbGljZTEnMCUGA1UEAwwe
+d3d3LmNvbXVuZS5tb25zZWxpY2UucGFkb3ZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAxHnrjRFPtkPtu7zcsPWUqmaPiDA1zCkQtq6U/5sN28f/0ESOvs3dvHRXxok5rCZi5QiV
+ytGm6G7SIDybK2g/FEJKtjAnkv2lt8mPHrZG2Hr8KElADHa1jFtrhJtqEHUp00FGZBBBEeUai6zm
+MpvhJlJYMmVNRZyOU/RXeeQUTrKFNQxqB1xf3pNa9AC4kbRD1qZAD2kCCPWuEsihh4rouDlVbj8W
+mzufiO9xivDhGWMckFY1fcl8oRNa1WzPIrjIzIvcA/C0iH07K3m/GIWiO1VCBT/77mpyt+Nng+b5
+sWfLzbqWha+5SglKUpp3/0d+uOqvrrivYeUjYiCFTiuZ3wIDAQABo1AwTjAdBgNVHQ4EFgQUybtr
+tNl2ac6hXAAbxRQ9Y5WL1oAwHwYDVR0jBBgwFoAUybtrtNl2ac6hXAAbxRQ9Y5WL1oAwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXAGY9tNE9TJR8L09Z3J3SojJzCogyAZT/xq/R1Eh
+J9WbrJXBDvl5BhPR7HYaBhCn5vXF0UinWGTktL5gv1LmM8R6BXWeo/qRxgETy7skJ42WOt1aC7Gs
+64By6hbEuK8KZ38/TJGCxX4OQlHK/s7VOkT47WrSaFvuq7hKGlMR3L5McbD3fheCJBI50QNAMVy+
+yJ4z6jgAAhFBa3wNH0cqySTJibiSGQnV1aACw1lj0qkY3MrdI5HALVPteepFQfeNLJ52FTDXqwpD
++5Sd2em18RY8y2YKiLfcRuId4AP6gk4ACY/kAC+WawvjoCYl4CBHQMIFm2m685TTRMtQcLA16Q==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAKdI42+jvnWAMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9uc2VsaWNlMRwwGgYDVQQKDBNDb211bmUgZGkgTW9uc2VsaWNlMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnNlbGljZS5wYWRvdmEuaXQwHhcNMTgxMDE5MTUwMzQ5WhcNMjgxMDE4MTUwMzQ5WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCU1vbnNlbGljZTEcMBoGA1UECgwTQ29tdW5lIGRpIE1vbnNlbGljZTEnMCUGA1UEAwwed3d3LmNvbXVuZS5tb25zZWxpY2UucGFkb3ZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxHnrjRFPtkPtu7zcsPWUqmaPiDA1zCkQtq6U/5sN28f/0ESOvs3dvHRXxok5rCZi5QiVytGm6G7SIDybK2g/FEJKtjAnkv2lt8mPHrZG2Hr8KElADHa1jFtrhJtqEHUp00FGZBBBEeUai6zmMpvhJlJYMmVNRZyOU/RXeeQUTrKFNQxqB1xf3pNa9AC4kbRD1qZAD2kCCPWuEsihh4rouDlVbj8WmzufiO9xivDhGWMckFY1fcl8oRNa1WzPIrjIzIvcA/C0iH07K3m/GIWiO1VCBT/77mpyt+Nng+b5sWfLzbqWha+5SglKUpp3/0d+uOqvrrivYeUjYiCFTiuZ3wIDAQABo1AwTjAdBgNVHQ4EFgQUybtrtNl2ac6hXAAbxRQ9Y5WL1oAwHwYDVR0jBBgwFoAUybtrtNl2ac6hXAAbxRQ9Y5WL1oAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXAGY9tNE9TJR8L09Z3J3SojJzCogyAZT/xq/R1EhJ9WbrJXBDvl5BhPR7HYaBhCn5vXF0UinWGTktL5gv1LmM8R6BXWeo/qRxgETy7skJ42WOt1aC7Gs64By6hbEuK8KZ38/TJGCxX4OQlHK/s7VOkT47WrSaFvuq7hKGlMR3L5McbD3fheCJBI50QNAMVy+yJ4z6jgAAhFBa3wNH0cqySTJibiSGQnV1aACw1lj0qkY3MrdI5HALVPteepFQfeNLJ52FTDXqwpD+5Sd2em18RY8y2YKiLfcRuId4AP6gk4ACY/kAC+WawvjoCYl4CBHQMIFm2m685TTRMtQcLA16Q==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAKdI42+jvnWAMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9uc2VsaWNlMRwwGgYDVQQKDBNDb211bmUgZGkgTW9uc2VsaWNlMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnNlbGljZS5wYWRvdmEuaXQwHhcNMTgxMDE5MTUwMzQ5WhcNMjgxMDE4MTUwMzQ5WjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCU1vbnNlbGljZTEcMBoGA1UECgwTQ29tdW5lIGRpIE1vbnNlbGljZTEnMCUGA1UEAwwed3d3LmNvbXVuZS5tb25zZWxpY2UucGFkb3ZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxHnrjRFPtkPtu7zcsPWUqmaPiDA1zCkQtq6U/5sN28f/0ESOvs3dvHRXxok5rCZi5QiVytGm6G7SIDybK2g/FEJKtjAnkv2lt8mPHrZG2Hr8KElADHa1jFtrhJtqEHUp00FGZBBBEeUai6zmMpvhJlJYMmVNRZyOU/RXeeQUTrKFNQxqB1xf3pNa9AC4kbRD1qZAD2kCCPWuEsihh4rouDlVbj8WmzufiO9xivDhGWMckFY1fcl8oRNa1WzPIrjIzIvcA/C0iH07K3m/GIWiO1VCBT/77mpyt+Nng+b5sWfLzbqWha+5SglKUpp3/0d+uOqvrrivYeUjYiCFTiuZ3wIDAQABo1AwTjAdBgNVHQ4EFgQUybtrtNl2ac6hXAAbxRQ9Y5WL1oAwHwYDVR0jBBgwFoAUybtrtNl2ac6hXAAbxRQ9Y5WL1oAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXAGY9tNE9TJR8L09Z3J3SojJzCogyAZT/xq/R1EhJ9WbrJXBDvl5BhPR7HYaBhCn5vXF0UinWGTktL5gv1LmM8R6BXWeo/qRxgETy7skJ42WOt1aC7Gs64By6hbEuK8KZ38/TJGCxX4OQlHK/s7VOkT47WrSaFvuq7hKGlMR3L5McbD3fheCJBI50QNAMVy+yJ4z6jgAAhFBa3wNH0cqySTJibiSGQnV1aACw1lj0qkY3MrdI5HALVPteepFQfeNLJ52FTDXqwpD+5Sd2em18RY8y2YKiLfcRuId4AP6gk4ACY/kAC+WawvjoCYl4CBHQMIFm2m685TTRMtQcLA16Q==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.monselice.padova.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.monselice.padova.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Monselice</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Monselice</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.monselice.padova.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

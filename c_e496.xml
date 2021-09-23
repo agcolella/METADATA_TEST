@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="LavenoMombello" entityID="https://www.comune.laveno.va.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#LavenoMombello">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>paTPuBVyf0VnSxxKTzDJIiP48cR0LzRXKNue5B5+TuQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XRSRtowwB/czvYxZaoEnhh9ogXvSyksxcFyMqoljCUHYRJSxPOBJ0VzIfI6jelmKsrys8OJQ4/vN
+YQ/8h8D2xxHyGQGxHQBFRp0EWNa1sIz4C0SWFjqme1ASxtuBmicLEqz8WoyzXt0vkJrrf5Lf0EcN
+28eGswgxyOk3udXjAJDLOAQAnmwz68KQu4D91A8cHM1wBc3NTnj+ZyXjHCXZ+Y/AXxFHObCmw7fZ
+VPp/BEEDRcAUjte4EplMspBb2f5p02Wo0rzUPfbCfg2t4cvT0fM0SqZERrxZ02PoxP/Fk2tasvO1
+msGMUACoot/Aja3Z/mOvallyOd19P2EoRqxbtQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vPeXjyadwwG/yH/bXgF3hx4ygv+f3r/wDPTq41tsR/MXaIOWSCoxOWppmh4ZDrjXNseCQWZHlJjj
+MnPYIpNJYCuQlycyvNdtCPIFb2EratZJq0Vbo3eRmG944HtAanc/87qIfkH0moc8KXwwGtB/vsGp
+QYp7d83HVKotUJmBEPvSVzX/azNElX9//z433yGb8FsTHLutxBtBLBsiYMo9LPC0uX2PpPT5M9xu
+LchawO8OX4POj4ikKAjAG16qm6BaGu/S4MrGoRSbvoP9ez1d90wTjFezBY8ACOUpOn7xgYHT0x6D
+K4m2cavJ/hFAMzLpEb+sB6XYFJZcMqYw2VzSfw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAO68LB9UveNmMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUubGF2ZW5vLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MjIx
+MjM4MTNaFw0zMDA2MjAxMjM4MTNaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubGF2ZW5vLnZhLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBALz3l48mncMBv8h/214Bd4ceMoL/n96/8Az06uNbbEfzF2iDlkgqMTlqaZoeGQ641zbHgkFm
+R5SY4zJz2CKTSWArkJcnMrzXbQjyBW9hK2rWSatFW6N3kZhveOB7QGp3P/O6iH5B9JqHPCl8MBrQ
+f77BqUGKe3fNx1SqLVCZgRD70lc1/2szRJV/f/8+N98hm/BbExy7rcQbQSwbImDKPSzwtLl9j6T0
++TPcbi3IWsDvDl+Dzo+IpCgIwBteqpugWhrv0uDKxqEUm76D/Xs9XfdME4xXswWPAAjlKTp+8YGB
+09MegyuJtnGryf4RQDMy6RG/rAel2BSWXDKmMNlc0n8CAwEAAaNQME4wHQYDVR0OBBYEFKX+V6/Y
+pR8w4sTLbnNuIqMzH7bOMB8GA1UdIwQYMBaAFKX+V6/YpR8w4sTLbnNuIqMzH7bOMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGsA9s/mIGpkrg1KhSv6ELOABYmU0d1zioWs9+4ecQ7y
+zY7o3S1y+UJvYvrqBAakRoGmPQl9hXmtzee/VGXUI0EXKniQ2enWt/gkccIsWqaRFI1dOyBOL7HN
+wRc1QiAEyogP5lfprKWXCx7LpvZLaqY4AGqHO/Ce6tCgxexm90L3axvQBDqDyimg2oOXDxzMp40B
+t57Y4aVc1ZEVXTkj1WfimiTEPX8rPSs8gpBlg/lrUIOdtvgi0SPV/+WWHEJFRsAxFkbm/OKWSf5B
+PkqR1kPy526KITd8+PgYuD/1r0Xb96G1QUVvDpLlLWC/WAW7usTfpZ40hj98pBemdzB/jIw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAO68LB9UveNmMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubGF2ZW5vLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MjIxMjM4MTNaFw0zMDA2MjAxMjM4MTNaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubGF2ZW5vLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALz3l48mncMBv8h/214Bd4ceMoL/n96/8Az06uNbbEfzF2iDlkgqMTlqaZoeGQ641zbHgkFmR5SY4zJz2CKTSWArkJcnMrzXbQjyBW9hK2rWSatFW6N3kZhveOB7QGp3P/O6iH5B9JqHPCl8MBrQf77BqUGKe3fNx1SqLVCZgRD70lc1/2szRJV/f/8+N98hm/BbExy7rcQbQSwbImDKPSzwtLl9j6T0+TPcbi3IWsDvDl+Dzo+IpCgIwBteqpugWhrv0uDKxqEUm76D/Xs9XfdME4xXswWPAAjlKTp+8YGB09MegyuJtnGryf4RQDMy6RG/rAel2BSWXDKmMNlc0n8CAwEAAaNQME4wHQYDVR0OBBYEFKX+V6/YpR8w4sTLbnNuIqMzH7bOMB8GA1UdIwQYMBaAFKX+V6/YpR8w4sTLbnNuIqMzH7bOMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGsA9s/mIGpkrg1KhSv6ELOABYmU0d1zioWs9+4ecQ7yzY7o3S1y+UJvYvrqBAakRoGmPQl9hXmtzee/VGXUI0EXKniQ2enWt/gkccIsWqaRFI1dOyBOL7HNwRc1QiAEyogP5lfprKWXCx7LpvZLaqY4AGqHO/Ce6tCgxexm90L3axvQBDqDyimg2oOXDxzMp40Bt57Y4aVc1ZEVXTkj1WfimiTEPX8rPSs8gpBlg/lrUIOdtvgi0SPV/+WWHEJFRsAxFkbm/OKWSf5BPkqR1kPy526KITd8+PgYuD/1r0Xb96G1QUVvDpLlLWC/WAW7usTfpZ40hj98pBemdzB/jIw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAO68LB9UveNmMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubGF2ZW5vLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MjIxMjM4MTNaFw0zMDA2MjAxMjM4MTNaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUubGF2ZW5vLnZhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALz3l48mncMBv8h/214Bd4ceMoL/n96/8Az06uNbbEfzF2iDlkgqMTlqaZoeGQ641zbHgkFmR5SY4zJz2CKTSWArkJcnMrzXbQjyBW9hK2rWSatFW6N3kZhveOB7QGp3P/O6iH5B9JqHPCl8MBrQf77BqUGKe3fNx1SqLVCZgRD70lc1/2szRJV/f/8+N98hm/BbExy7rcQbQSwbImDKPSzwtLl9j6T0+TPcbi3IWsDvDl+Dzo+IpCgIwBteqpugWhrv0uDKxqEUm76D/Xs9XfdME4xXswWPAAjlKTp+8YGB09MegyuJtnGryf4RQDMy6RG/rAel2BSWXDKmMNlc0n8CAwEAAaNQME4wHQYDVR0OBBYEFKX+V6/YpR8w4sTLbnNuIqMzH7bOMB8GA1UdIwQYMBaAFKX+V6/YpR8w4sTLbnNuIqMzH7bOMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGsA9s/mIGpkrg1KhSv6ELOABYmU0d1zioWs9+4ecQ7yzY7o3S1y+UJvYvrqBAakRoGmPQl9hXmtzee/VGXUI0EXKniQ2enWt/gkccIsWqaRFI1dOyBOL7HNwRc1QiAEyogP5lfprKWXCx7LpvZLaqY4AGqHO/Ce6tCgxexm90L3axvQBDqDyimg2oOXDxzMp40Bt57Y4aVc1ZEVXTkj1WfimiTEPX8rPSs8gpBlg/lrUIOdtvgi0SPV/+WWHEJFRsAxFkbm/OKWSf5BPkqR1kPy526KITd8+PgYuD/1r0Xb96G1QUVvDpLlLWC/WAW7usTfpZ40hj98pBemdzB/jIw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lavenomombello"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lavenomombello" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lavenomombello" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lavenomombello" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Laveno Mombello</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Laveno Mombello</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Laveno Mombello</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Laveno Mombello</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Laveno Mombello</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Laveno Mombello</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Laveno Mombello</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Laveno Mombello</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.laveno.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.laveno.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.laveno.va.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.laveno.va.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

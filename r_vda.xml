@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="localproxy-ravda" entityID="https://lp.regione.vda.it/icar-lp/metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#localproxy-ravda">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zfqseUugzsmTepoydfj6PYhcL1PPCcuEzepIOcVKEx0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+i43M96imHEhzaE7Am9JW5ZMLgJDxVnk/t+DWBoSYirvRyTS2bNWvHROo5Ww2zPYfjB+naeoODqJk
+Pq0fKpSeVc2lronstCiPQKHbhJKKQqhzI82aS6eLkGbQddjx3z9omefWGwSMzSZKbf0jqkQBw/45
+X9qG3g7wUOLK+ojEaCY=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zEFOfq1Sx/HuT/nEy9L63Ne5CnxWh1PZQRhVysLYZhBFXQgDaibSU/SgKzu40AJ01UysuoVT+8j1
+7gV3/bW33o0NJz55oBVj2KX/IqtCaiCLCA+iWTLXYaK+tgpKJRZHMONvYJHX+sRI+ve1ctKI5Lw8
+chBJ3YNpD2XA10Pm72U=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIBvTCCASagAwIBAgIBATANBgkqhkiG9w0BAQsFADAcMRowGAYDVQQDExFscC5yZWdpb25lLnZk
+YS5pdDAeFw0xNzEyMDEwODA4MDBaFw0yMjEyMDEwODA4MDBaMBwxGjAYBgNVBAMTEWxwLnJlZ2lv
+bmUudmRhLml0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMQU5+rVLH8e5P+cTL0vrc17kK
+fFaHU9lBGFXKwthmEEVdCANqJtJT9KArO7jQAnTVTKy6hVP7yPXuBXf9tbfejQ0nPnmgFWPYpf8i
+q0JqIIsID6JZMtdhor62CkolFkcw429gkdf6xEj697Vy0ojkvDxyEEndg2kPZcDXQ+bvZQIDAQAB
+ow8wDTALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADgYEAU83DQj2OBRtEEChNLivbKtMppdMj
+t/r5bBlw5OYBP8KT4g63P/KkEcHjcT+MlUbzSNycy+SI7aSohZpZ589xnuJQ8UzEWgktOVKKurUQ
+umSt3X3I3eyCG2ImraPGlQOLRPcSR67o9q1SAG+5ePtGJtiCNL/l55ttpGk5cgIl7rk=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIBvTCCASagAwIBAgIBATANBgkqhkiG9w0BAQsFADAcMRowGAYDVQQDExFscC5yZWdpb25lLnZkYS5pdDAeFw0xNzEyMDEwODA4MDBaFw0yMjEyMDEwODA4MDBaMBwxGjAYBgNVBAMTEWxwLnJlZ2lvbmUudmRhLml0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMQU5+rVLH8e5P+cTL0vrc17kKfFaHU9lBGFXKwthmEEVdCANqJtJT9KArO7jQAnTVTKy6hVP7yPXuBXf9tbfejQ0nPnmgFWPYpf8iq0JqIIsID6JZMtdhor62CkolFkcw429gkdf6xEj697Vy0ojkvDxyEEndg2kPZcDXQ+bvZQIDAQABow8wDTALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADgYEAU83DQj2OBRtEEChNLivbKtMppdMjt/r5bBlw5OYBP8KT4g63P/KkEcHjcT+MlUbzSNycy+SI7aSohZpZ589xnuJQ8UzEWgktOVKKurUQumSt3X3I3eyCG2ImraPGlQOLRPcSR67o9q1SAG+5ePtGJtiCNL/l55ttpGk5cgIl7rk=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lp.regione.vda.it/icar-lp/Logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lp.regione.vda.it/icar-lp/AssertionConsumerServiceProxy" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Regione Autonoma Valle d'Aosta</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="name" Name="name"/>
+			<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+			<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+			<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="email" Name="email"/>
+			<md:RequestedAttribute FriendlyName="address" Name="address"/>
+			<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Regione Autonoma Valle d'Aosta</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="name" Name="name"/>
+			<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+</md:EntityDescriptor>

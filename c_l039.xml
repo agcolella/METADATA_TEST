@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxf3d74eda-bf75-4ae2-ea1c-e5dd2ffeacca" entityID="https://servizionline.comune.talmassons.ud.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxf3d74eda-bf75-4ae2-ea1c-e5dd2ffeacca">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>cMqhMO6lX57lq/N4rqgxD71T1VhZ66AauIHMvPRVQkA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Uh2Rp+cDNb0eprcG4AEZnOsv++h50kQm6/SgHvtB2wHlHzljUpMNhEdBhCF4APtAtm3LB1AHQMQc
+4OfpRW/7KnMFTAfGIXHioccACkt56F2NR+sS1CW5MSPO6fitMM1Eb/avocCiJkOgM82GU2UKpWrQ
+uakgMI+7j2+ZiFkkEHP1lUNlQYoJ7ghGJqAibEqPWMgGcvkJfzZ8WnO5Uik/VCY5tMuPEgnOQjGV
+PS4DF1NuL/1YF9b/VmETt90S/nyAAlN7cuqm1e6SS7jWZgt67vaK4VXMm5bkhjBJgs1Hga0HfeJu
+dQhETL4jfIVghOO68vvI7LK1oVUDmNKz0dj7xQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v3aGRSlMot0SICIwE2h7RKGVrfLuN3P4F8/yP5VG2VMmZse5Hyqi3CTPoz49l3WTQEy6a9N6Gv5n
+6+B2U7vJyS9TQYQrkOvcZtD7v49akFxn1mNC8uuiXYIeYM70zoGyaFhI1sCk1jStohIZRI7YcCyS
+uFA9otjRXEJ6dsLtwlyO/T0CVNJTm3ZGOnOIoi3onxorb/uyx0bppaajht1TkWjpKCGLPu7AlJOq
+eNAZI1lD06EhTFdbj1Aejq/JmCUAUPAKijHH/EIjZ2jDix9DWGB0a5mPAFgghObS5QrWNITuFS/l
+tpnCuKwS+X65Vt3bIeSs7L/XkiniRoy+cIp8yQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID1zCCAr+gAwIBAgIJAJgi9RoHzf8lMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxEzARBgNVBAcMClRhbG1hc3NvbnMxHTAbBgNVBAoMFENvbXVuZSBkaSBU
+YWxtYXNzb25zMS4wLAYDVQQDDCVzZXJ2aXppb25saW5lLmNvbXVuZS50YWxtYXNzb25zLnVkLml0
+MB4XDTE4MTAwMTA4MDkxMFoXDTI4MDkzMDA4MDkxMFowgYExCzAJBgNVBAYTAklUMQ4wDAYDVQQI
+DAVJdGFseTETMBEGA1UEBwwKVGFsbWFzc29uczEdMBsGA1UECgwUQ29tdW5lIGRpIFRhbG1hc3Nv
+bnMxLjAsBgNVBAMMJXNlcnZpemlvbmxpbmUuY29tdW5lLnRhbG1hc3NvbnMudWQuaXQwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/doZFKUyi3RIgIjATaHtEoZWt8u43c/gXz/I/lUbZ
+UyZmx7kfKqLcJM+jPj2XdZNATLpr03oa/mfr4HZTu8nJL1NBhCuQ69xm0Pu/j1qQXGfWY0Ly66Jd
+gh5gzvTOgbJoWEjWwKTWNK2iEhlEjthwLJK4UD2i2NFcQnp2wu3CXI79PQJU0lObdkY6c4iiLeif
+Gitv+7LHRumlpqOG3VORaOkoIYs+7sCUk6p40BkjWUPToSFMV1uPUB6Or8mYJQBQ8AqKMcf8QiNn
+aMOLH0NYYHRrmY8AWCCE5tLlCtY0hO4VL+W2mcK4rBL5frlW3dsh5Kzsv9eSKeJGjL5winzJAgMB
+AAGjUDBOMB0GA1UdDgQWBBTw4HmOkBEo0arVO2wSWcRENdvubTAfBgNVHSMEGDAWgBTw4HmOkBEo
+0arVO2wSWcRENdvubTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBpD/FIfZ+tivIi
+S0LefPNwHMF97E1cP9M1Xm/U1FggV2fnzBj+8JZnQSjolI6FdhEN9E5AjHnfmYeY2xvT2Y/Jbezh
+0eZ+vSzUSuqsAbQ8wXBUSjw6fI2WQorTFcW+3OKvoupfw+cWkbP7IfjjEQ5fnwmI+5XKlVxRTjBb
+KA6/1J5EDLAkPaZ0fp79+Oyyw8gtGQjsr1zW4PcrGZyoTBbAAko4b7TTT6aE1kW94hLwstL3UPH4
+XMzXC/6d7zFZHMywH3gQ05MQqtVJxxQBTb+EonmUw/2SNAN/Osdu6tqBl3DeUtAai9wInM0jbisv
+e4C/SwJjllQfchahrpZ6pue+
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1zCCAr+gAwIBAgIJAJgi9RoHzf8lMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMClRhbG1hc3NvbnMxHTAbBgNVBAoMFENvbXVuZSBkaSBUYWxtYXNzb25zMS4wLAYDVQQDDCVzZXJ2aXppb25saW5lLmNvbXVuZS50YWxtYXNzb25zLnVkLml0MB4XDTE4MTAwMTA4MDkxMFoXDTI4MDkzMDA4MDkxMFowgYExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVGFsbWFzc29uczEdMBsGA1UECgwUQ29tdW5lIGRpIFRhbG1hc3NvbnMxLjAsBgNVBAMMJXNlcnZpemlvbmxpbmUuY29tdW5lLnRhbG1hc3NvbnMudWQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/doZFKUyi3RIgIjATaHtEoZWt8u43c/gXz/I/lUbZUyZmx7kfKqLcJM+jPj2XdZNATLpr03oa/mfr4HZTu8nJL1NBhCuQ69xm0Pu/j1qQXGfWY0Ly66Jdgh5gzvTOgbJoWEjWwKTWNK2iEhlEjthwLJK4UD2i2NFcQnp2wu3CXI79PQJU0lObdkY6c4iiLeifGitv+7LHRumlpqOG3VORaOkoIYs+7sCUk6p40BkjWUPToSFMV1uPUB6Or8mYJQBQ8AqKMcf8QiNnaMOLH0NYYHRrmY8AWCCE5tLlCtY0hO4VL+W2mcK4rBL5frlW3dsh5Kzsv9eSKeJGjL5winzJAgMBAAGjUDBOMB0GA1UdDgQWBBTw4HmOkBEo0arVO2wSWcRENdvubTAfBgNVHSMEGDAWgBTw4HmOkBEo0arVO2wSWcRENdvubTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBpD/FIfZ+tivIiS0LefPNwHMF97E1cP9M1Xm/U1FggV2fnzBj+8JZnQSjolI6FdhEN9E5AjHnfmYeY2xvT2Y/Jbezh0eZ+vSzUSuqsAbQ8wXBUSjw6fI2WQorTFcW+3OKvoupfw+cWkbP7IfjjEQ5fnwmI+5XKlVxRTjBbKA6/1J5EDLAkPaZ0fp79+Oyyw8gtGQjsr1zW4PcrGZyoTBbAAko4b7TTT6aE1kW94hLwstL3UPH4XMzXC/6d7zFZHMywH3gQ05MQqtVJxxQBTb+EonmUw/2SNAN/Osdu6tqBl3DeUtAai9wInM0jbisve4C/SwJjllQfchahrpZ6pue+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1zCCAr+gAwIBAgIJAJgi9RoHzf8lMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMClRhbG1hc3NvbnMxHTAbBgNVBAoMFENvbXVuZSBkaSBUYWxtYXNzb25zMS4wLAYDVQQDDCVzZXJ2aXppb25saW5lLmNvbXVuZS50YWxtYXNzb25zLnVkLml0MB4XDTE4MTAwMTA4MDkxMFoXDTI4MDkzMDA4MDkxMFowgYExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVGFsbWFzc29uczEdMBsGA1UECgwUQ29tdW5lIGRpIFRhbG1hc3NvbnMxLjAsBgNVBAMMJXNlcnZpemlvbmxpbmUuY29tdW5lLnRhbG1hc3NvbnMudWQuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/doZFKUyi3RIgIjATaHtEoZWt8u43c/gXz/I/lUbZUyZmx7kfKqLcJM+jPj2XdZNATLpr03oa/mfr4HZTu8nJL1NBhCuQ69xm0Pu/j1qQXGfWY0Ly66Jdgh5gzvTOgbJoWEjWwKTWNK2iEhlEjthwLJK4UD2i2NFcQnp2wu3CXI79PQJU0lObdkY6c4iiLeifGitv+7LHRumlpqOG3VORaOkoIYs+7sCUk6p40BkjWUPToSFMV1uPUB6Or8mYJQBQ8AqKMcf8QiNnaMOLH0NYYHRrmY8AWCCE5tLlCtY0hO4VL+W2mcK4rBL5frlW3dsh5Kzsv9eSKeJGjL5winzJAgMBAAGjUDBOMB0GA1UdDgQWBBTw4HmOkBEo0arVO2wSWcRENdvubTAfBgNVHSMEGDAWgBTw4HmOkBEo0arVO2wSWcRENdvubTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBpD/FIfZ+tivIiS0LefPNwHMF97E1cP9M1Xm/U1FggV2fnzBj+8JZnQSjolI6FdhEN9E5AjHnfmYeY2xvT2Y/Jbezh0eZ+vSzUSuqsAbQ8wXBUSjw6fI2WQorTFcW+3OKvoupfw+cWkbP7IfjjEQ5fnwmI+5XKlVxRTjBbKA6/1J5EDLAkPaZ0fp79+Oyyw8gtGQjsr1zW4PcrGZyoTBbAAko4b7TTT6aE1kW94hLwstL3UPH4XMzXC/6d7zFZHMywH3gQ05MQqtVJxxQBTb+EonmUw/2SNAN/Osdu6tqBl3DeUtAai9wInM0jbisve4C/SwJjllQfchahrpZ6pue+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.talmassons.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.talmassons.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Talmassons</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Talmassons</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.talmassons.ud.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

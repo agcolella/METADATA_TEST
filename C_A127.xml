@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.albairate.mi.it" ID="_e9f719422c17864c8a9eaed5dfe094a048a353c764f487ce9c683b96e0a0932e"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_e9f719422c17864c8a9eaed5dfe094a048a353c764f487ce9c683b96e0a0932e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2cW1poULTxM9RGSLYnhpQ3Q3N6tHYc3fiJxDHn82yHc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>WzZND/2mn+fGVih7N+oV4eoy+BIEIHIu6C/i4pKaZm7vKuF9CVQAHs3LqoHfsHsXiARTUbQF9YfKGYrEppvnQGnef+VeP1caZ52t4Ijzl0nqVBYOKPMoZ10oSeCFiWIJqiuthNqzCSi1q2f0AHB5rWz4QyxyVfU/Jk0+iizOuAWh+2EUV2wG+3iXYAIetJm20b8kJvOlefnztITJXPpxPR/cKlfpC/ohGBeetUNTKVUKqvqW+Em6l+Ys5ZnoGGW/PEUpR2LZ+ojBoD2ixJH72AGApNbxwufcW5MPirOluiJJQa33/B09kOVmnS2GmuHS6+X1xBiGU5qe5mCjnp3YPQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEIDCCAwigAwIBAgIJALS2AK4s+8nQMA0GCSqGSIb3DQEBCwUAMIGkMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRIwEAYDVQQHDAlBbGJhaXJhdGUxHDAaBgNVBAoME0NvbXVuZSBkaSBBbGJhaXJhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hbGJhaXJhdGUubWkuaXQwHhcNMTgwMTEwMDkxNjQ1WhcNMjgwMTA4MDkxNjQ1WjCBpDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzESMBAGA1UEBwwJQWxiYWlyYXRlMRwwGgYDVQQKDBNDb211bmUgZGkgQWxiYWlyYXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYWxiYWlyYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3x5AnTszXmIzxajQmqIOlWrGlt6cdN+zn9IGU2gWRnub6b2REzJ6mTVrzJOYqbJWPebOtl7WfujRNE+d6vAZtMgGX/A+3j4w6W0MnFgG60INsrgdcyXV00/MH+bpF8Ilk67tGeESsmOol02EPL+qVrEYysPDoFFeVhTNqrczKepco5gahn+T2QQ97GXob9GyWo42W8OG6Cr+W49k0mKsiRWWjyuWdgl47Gudm7/g+GB23Jq+krfc7w10kr9YzfyqurkmUVhwhv6hPMy2PmWuvyDmWD/p7w1EOJTbQyilg+hSwiZl4DeTIApocv+7vT9MvVpfBFHWjdl+OWDL6gH2JQIDAQABo1MwUTAdBgNVHQ4EFgQUmEkL2U4GkmGPtcy4RotaLoyttW4wHwYDVR0jBBgwFoAUmEkL2U4GkmGPtcy4RotaLoyttW4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPsBrsQVhrbsSVySugG38ML3MzJrwZIFJQDAqYPbO5fSgrfAdlgD2xCdPTOKOeS3sLtU2KGEhujqNHC2GgoD2tKZ3IMLlLhEtL90Iaet59G40bizvAFySnFbHm2KL+XRcZVFv7rlEKss4cAYm8sBdHJGnjqyKEpT6hGaUjYzWOV6pHO3DLM4QKQjMETI0cEvAxXUJgkb4VyV4fP1Yq4aldNg3FQvqJ7cRJDichtvTkzgUQPVQ5WXAHzkpkKEDfI3BpsrmMuLamXnZQCds7ESSjc7GE6J7bcJoiQk45ZUFk3yVaoQwldLWg9vNncNAEoVRro2FME6YPnSjy8dISdWzoQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEIDCCAwigAwIBAgIJALS2AK4s+8nQMA0GCSqGSIb3DQEBCwUAMIGkMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRIwEAYDVQQHDAlBbGJhaXJhdGUxHDAaBgNVBAoME0NvbXVuZSBkaSBBbGJhaXJhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hbGJhaXJhdGUubWkuaXQwHhcNMTgwMTEwMDkxNjQ1WhcNMjgwMTA4MDkxNjQ1WjCBpDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzESMBAGA1UEBwwJQWxiYWlyYXRlMRwwGgYDVQQKDBNDb211bmUgZGkgQWxiYWlyYXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYWxiYWlyYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3x5AnTszXmIzxajQmqIOlWrGlt6cdN+zn9IGU2gWRnub6b2REzJ6mTVrzJOYqbJWPebOtl7WfujRNE+d6vAZtMgGX/A+3j4w6W0MnFgG60INsrgdcyXV00/MH+bpF8Ilk67tGeESsmOol02EPL+qVrEYysPDoFFeVhTNqrczKepco5gahn+T2QQ97GXob9GyWo42W8OG6Cr+W49k0mKsiRWWjyuWdgl47Gudm7/g+GB23Jq+krfc7w10kr9YzfyqurkmUVhwhv6hPMy2PmWuvyDmWD/p7w1EOJTbQyilg+hSwiZl4DeTIApocv+7vT9MvVpfBFHWjdl+OWDL6gH2JQIDAQABo1MwUTAdBgNVHQ4EFgQUmEkL2U4GkmGPtcy4RotaLoyttW4wHwYDVR0jBBgwFoAUmEkL2U4GkmGPtcy4RotaLoyttW4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPsBrsQVhrbsSVySugG38ML3MzJrwZIFJQDAqYPbO5fSgrfAdlgD2xCdPTOKOeS3sLtU2KGEhujqNHC2GgoD2tKZ3IMLlLhEtL90Iaet59G40bizvAFySnFbHm2KL+XRcZVFv7rlEKss4cAYm8sBdHJGnjqyKEpT6hGaUjYzWOV6pHO3DLM4QKQjMETI0cEvAxXUJgkb4VyV4fP1Yq4aldNg3FQvqJ7cRJDichtvTkzgUQPVQ5WXAHzkpkKEDfI3BpsrmMuLamXnZQCds7ESSjc7GE6J7bcJoiQk45ZUFk3yVaoQwldLWg9vNncNAEoVRro2FME6YPnSjy8dISdWzoQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEIDCCAwigAwIBAgIJALS2AK4s+8nQMA0GCSqGSIb3DQEBCwUAMIGkMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRIwEAYDVQQHDAlBbGJhaXJhdGUxHDAaBgNVBAoME0NvbXVuZSBkaSBBbGJhaXJhdGUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5hbGJhaXJhdGUubWkuaXQwHhcNMTgwMTEwMDkxNjQ1WhcNMjgwMTA4MDkxNjQ1WjCBpDELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzESMBAGA1UEBwwJQWxiYWlyYXRlMRwwGgYDVQQKDBNDb211bmUgZGkgQWxiYWlyYXRlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYWxiYWlyYXRlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3x5AnTszXmIzxajQmqIOlWrGlt6cdN+zn9IGU2gWRnub6b2REzJ6mTVrzJOYqbJWPebOtl7WfujRNE+d6vAZtMgGX/A+3j4w6W0MnFgG60INsrgdcyXV00/MH+bpF8Ilk67tGeESsmOol02EPL+qVrEYysPDoFFeVhTNqrczKepco5gahn+T2QQ97GXob9GyWo42W8OG6Cr+W49k0mKsiRWWjyuWdgl47Gudm7/g+GB23Jq+krfc7w10kr9YzfyqurkmUVhwhv6hPMy2PmWuvyDmWD/p7w1EOJTbQyilg+hSwiZl4DeTIApocv+7vT9MvVpfBFHWjdl+OWDL6gH2JQIDAQABo1MwUTAdBgNVHQ4EFgQUmEkL2U4GkmGPtcy4RotaLoyttW4wHwYDVR0jBBgwFoAUmEkL2U4GkmGPtcy4RotaLoyttW4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPsBrsQVhrbsSVySugG38ML3MzJrwZIFJQDAqYPbO5fSgrfAdlgD2xCdPTOKOeS3sLtU2KGEhujqNHC2GgoD2tKZ3IMLlLhEtL90Iaet59G40bizvAFySnFbHm2KL+XRcZVFv7rlEKss4cAYm8sBdHJGnjqyKEpT6hGaUjYzWOV6pHO3DLM4QKQjMETI0cEvAxXUJgkb4VyV4fP1Yq4aldNg3FQvqJ7cRJDichtvTkzgUQPVQ5WXAHzkpkKEDfI3BpsrmMuLamXnZQCds7ESSjc7GE6J7bcJoiQk45ZUFk3yVaoQwldLWg9vNncNAEoVRro2FME6YPnSjy8dISdWzoQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.albairate.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.albairate.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Albairate</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Albairate</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Albairate</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Albairate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Albairate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Albairate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Albairate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Albairate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.albairate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.albairate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.albairate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.albairate.mi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_a127</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:comune.albairate.mi@pec.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

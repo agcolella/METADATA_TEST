@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Caltanisetta" entityID="https://www.comune.caltanisetta.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Caltanisetta">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>443s8Fs1HxjGKmuR3H0YbR9/mhJ2SMOX5Zw6akFvxmE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pt6r3raTB7Rv0xPsuW/a3ZbCd2mBUF5ouDbgLmp7G3wmOQSb2ItaQKqo7agnjTEujd9FebprOb9J
+ct8vYPbfRSzAvSG6JFWNvFJGfcgU9hBcjQ1/6H979/eWCHmKx2A+fe7rarDGhc4IuSULROssyd8F
+SO9TG0vtYbvpN3nqEDcC7d+pCJUwVbieNlOejpB01yEJqCImPmI7MsZHI4td/6bdmg1LiiyT2IpB
+QfO0Ib8rvN4QmWI53O4PzyMYHXp9d+eC/rVnokdjL+/NMQiFRPq+SyImAdeijvCT9Nwo3vR7pkqQ
+pLebsCtdHxJsrSubyW8dtoNMmlUxuvORETLbNg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+57bJ74zhFUUwe8Z+RWDfOEH1hswCFBoJoUNnY/8XQM41iCT8r1a0CmG6WWwv1z3qvdA6S8mwZMoP
+2OBYAdkao0o9OFPDYO9cQ0U7qgVqPaw+g0jMWosc1q5snTXctMOqvcpS9WsKhEL/CBBjre1a1mDZ
+WR4fP/Dpmm47h5wDTTLUcPoRlv0NHkJRZ3aD6SLvSB4JBpHbJHoh01Z9Nb4So7+Mkk76Uk+gxBfu
+8jFwAZAjoQR8QNSqIcEsOdzRa4Yj9bmMjWC308KbrNWeCrQ3fnJvWCSImig0QmJJJT5GkfbUtn5c
+1YLh6P56eS+wP78zj065r+oSAMkAJ5tFRADuzw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAMCm92A4QxnwMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2FsdGFuaXNldHRhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEx
+MzAwNzQwMzJaFw0yODExMjcwNzQwMzJaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FsdGFuaXNl
+dHRhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAOe2ye+M4RVFMHvGfkVg3zhB9YbMAhQaCaFDZ2P/F0DONYgk/K9WtAphullsL9c9
+6r3QOkvJsGTKD9jgWAHZGqNKPThTw2DvXENFO6oFaj2sPoNIzFqLHNaubJ013LTDqr3KUvVrCoRC
+/wgQY63tWtZg2VkeHz/w6ZpuO4ecA00y1HD6EZb9DR5CUWd2g+ki70geCQaR2yR6IdNWfTW+EqO/
+jJJO+lJPoMQX7vIxcAGQI6EEfEDUqiHBLDnc0WuGI/W5jI1gt9PCm6zVngq0N35yb1gkiJooNEJi
+SSU+RpH21LZ+XNWC4ej+enkvsD+/M49Oua/qEgDJACebRUQA7s8CAwEAAaNQME4wHQYDVR0OBBYE
+FCn/xwqNCCa5qA4dWPM0Ys9aVpVNMB8GA1UdIwQYMBaAFCn/xwqNCCa5qA4dWPM0Ys9aVpVNMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAt7WwnzNfYbdPi3xu5CAzf8N74i776rCQ0P
++wjo1FV7DHD+uspEFP0ZfYANROdaOaOmYngG6ljniDNYTIofzSGjb+sCaObFQMx6A1yxO7sxtuWL
+GIwYXTJOw8WBOqFYKjwGUoZVwwW/Rm4c2SE+fC/YKQb4AuFobiO5gmQYMxVOUkRqq7KKx3jgqCoB
+egiJjmX9nCets1hV+8Bd/4YyuOa1D6xgJwE/wo98y6gEaNo8wvRd4A26ZyrUgcQ90VzUezORUIEp
+412TkzDJtmmDqxvR4QUPswyVOhs6EJ9S4NVs9pbl2vLtQf5/8lCzhpr1jphBtoDcJiVLx6dCKlDf
+v6E=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMCm92A4QxnwMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FsdGFuaXNldHRhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODExMzAwNzQwMzJaFw0yODExMjcwNzQwMzJaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FsdGFuaXNldHRhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOe2ye+M4RVFMHvGfkVg3zhB9YbMAhQaCaFDZ2P/F0DONYgk/K9WtAphullsL9c96r3QOkvJsGTKD9jgWAHZGqNKPThTw2DvXENFO6oFaj2sPoNIzFqLHNaubJ013LTDqr3KUvVrCoRC/wgQY63tWtZg2VkeHz/w6ZpuO4ecA00y1HD6EZb9DR5CUWd2g+ki70geCQaR2yR6IdNWfTW+EqO/jJJO+lJPoMQX7vIxcAGQI6EEfEDUqiHBLDnc0WuGI/W5jI1gt9PCm6zVngq0N35yb1gkiJooNEJiSSU+RpH21LZ+XNWC4ej+enkvsD+/M49Oua/qEgDJACebRUQA7s8CAwEAAaNQME4wHQYDVR0OBBYEFCn/xwqNCCa5qA4dWPM0Ys9aVpVNMB8GA1UdIwQYMBaAFCn/xwqNCCa5qA4dWPM0Ys9aVpVNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAt7WwnzNfYbdPi3xu5CAzf8N74i776rCQ0P+wjo1FV7DHD+uspEFP0ZfYANROdaOaOmYngG6ljniDNYTIofzSGjb+sCaObFQMx6A1yxO7sxtuWLGIwYXTJOw8WBOqFYKjwGUoZVwwW/Rm4c2SE+fC/YKQb4AuFobiO5gmQYMxVOUkRqq7KKx3jgqCoBegiJjmX9nCets1hV+8Bd/4YyuOa1D6xgJwE/wo98y6gEaNo8wvRd4A26ZyrUgcQ90VzUezORUIEp412TkzDJtmmDqxvR4QUPswyVOhs6EJ9S4NVs9pbl2vLtQf5/8lCzhpr1jphBtoDcJiVLx6dCKlDfv6E=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMCm92A4QxnwMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FsdGFuaXNldHRhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODExMzAwNzQwMzJaFw0yODExMjcwNzQwMzJaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2FsdGFuaXNldHRhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOe2ye+M4RVFMHvGfkVg3zhB9YbMAhQaCaFDZ2P/F0DONYgk/K9WtAphullsL9c96r3QOkvJsGTKD9jgWAHZGqNKPThTw2DvXENFO6oFaj2sPoNIzFqLHNaubJ013LTDqr3KUvVrCoRC/wgQY63tWtZg2VkeHz/w6ZpuO4ecA00y1HD6EZb9DR5CUWd2g+ki70geCQaR2yR6IdNWfTW+EqO/jJJO+lJPoMQX7vIxcAGQI6EEfEDUqiHBLDnc0WuGI/W5jI1gt9PCm6zVngq0N35yb1gkiJooNEJiSSU+RpH21LZ+XNWC4ej+enkvsD+/M49Oua/qEgDJACebRUQA7s8CAwEAAaNQME4wHQYDVR0OBBYEFCn/xwqNCCa5qA4dWPM0Ys9aVpVNMB8GA1UdIwQYMBaAFCn/xwqNCCa5qA4dWPM0Ys9aVpVNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAt7WwnzNfYbdPi3xu5CAzf8N74i776rCQ0P+wjo1FV7DHD+uspEFP0ZfYANROdaOaOmYngG6ljniDNYTIofzSGjb+sCaObFQMx6A1yxO7sxtuWLGIwYXTJOw8WBOqFYKjwGUoZVwwW/Rm4c2SE+fC/YKQb4AuFobiO5gmQYMxVOUkRqq7KKx3jgqCoBegiJjmX9nCets1hV+8Bd/4YyuOa1D6xgJwE/wo98y6gEaNo8wvRd4A26ZyrUgcQ90VzUezORUIEp412TkzDJtmmDqxvR4QUPswyVOhs6EJ9S4NVs9pbl2vLtQf5/8lCzhpr1jphBtoDcJiVLx6dCKlDfv6E=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/caltanisetta"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/caltanisetta" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/caltanisetta" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/caltanisetta" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Caltanisetta</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Caltanisetta</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Caltanisetta</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Caltanisetta</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Caltanisetta</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Caltanisetta</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Caltanisetta</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Caltanisetta</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.caltanisetta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.caltanisetta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.caltanisetta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.caltanisetta.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

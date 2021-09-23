@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://spid.arti.puglia.it" ID="pfx90cfe0be-6b6e-5c80-89e3-5c81cfbf843f"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx90cfe0be-6b6e-5c80-89e3-5c81cfbf843f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3PNZymqP9vM4SAyEMTWwwEgIgrmuYLTwyB/4t6SIrAg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bW1HoJKVe2kS6D45PImA8hSAwb02TlofnkUPVULd4lGEUi+oferIK/YQj/2JCnP/WDkqwrumRKT270fIF5YOP6pimZiprjXs6LycgrBgWxpbqEW9edP9GtJI6mdPp2fGI/C7xWha0v4A7CcTxb8CSEgVnUXvJ2n+zE7gkhdyDXVAmBmDiPRtpxzeshReG5N6iLInDitaacN9RdcJowJsEvqr9OmIhxipjxJI5/ktmf/Bhola5OSpIurzgN5NsAIJRPEFYkv7UVrBGgItqcN3fz+do2zsPQJNEsPVvCDXJU7weE4wFhdtxdMgAsOPmBzHhF0GjT0bzYHxYkiQGzNQGA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIELzCCAxegAwIBAgIJAM5H8D/pCtRSMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSVRBTFkxDTALBgNVBAcMBEJBUkkxFDASBgNVBAoMC0FSVEkgUFVHTElBMRwwGgYDVQQLDBNTSVNURU1JIElORk9STUFUSVZJMSMwIQYDVQQDDBpodHRwczovL3d3dy5hcnRpLnB1Z2xpYS5pdDEmMCQGCSqGSIb3DQEJARYXbS5wYXRhbm9AYXJ0aS5wdWdsaWEuaXQwHhcNMjAwMTA4MTIyNjQyWhcNMjEwMTA3MTIyNjQyWjCBrTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUlUQUxZMQ0wCwYDVQQHDARCQVJJMRQwEgYDVQQKDAtBUlRJIFBVR0xJQTEcMBoGA1UECwwTU0lTVEVNSSBJTkZPUk1BVElWSTEjMCEGA1UEAwwaaHR0cHM6Ly93d3cuYXJ0aS5wdWdsaWEuaXQxJjAkBgkqhkiG9w0BCQEWF20ucGF0YW5vQGFydGkucHVnbGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9KBUtHuxJ81oBMvaAnPG9aXsabpaKag0Yq7qAuZOdtLGiWUXJjotBCkFXXsR8Vn84Ruq7nxPr1a/ZhDJ+7J1MOof8TcuS9k8tjaskkPPmupBTkMWC8NXh9Lmrk7c921zMDZ1Mi1goSA5AmppyIemRtbiBiajHApwv1nhzGNno925wNGMkMyS1wvycByZFdvJX1X9MLMp4RCowihkJZo1dyaBJ7fw3bOetizK+0nQ+z7Wdpszk91G5ahuCd1wf9uS+7bS5AKDRPdAzcFzzgNxr5hAYN8/YfhlUZ79clwX3+H41rhlZh4Kn4Li0Y0ffsouHB4zBQb7V7PXswdwvbiMnQIDAQABo1AwTjAdBgNVHQ4EFgQUZbohGbpYpjzIfhrTFzamqp0yF4UwHwYDVR0jBBgwFoAUZbohGbpYpjzIfhrTFzamqp0yF4UwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACw5wsfT74FcFlpZHSptUj/kIgMArktgi0T73hWKegh5T1LTd4iSNfeOyP/qGb5ALp1CxN0Vfv9JKrWgSf14P7P3wyVw5dID8A0geW9aZewzdegJjSbPcqpwX5tT9bmev0X+0p9eoHicYejRv6+vHcdDzHak/KJeRBCjTCaDXp/KH3VWhjPewcdTMugIMkapSR8vBMSDbxPsrc+ZJ3HLpNZzdIXAolzdhcmRXv4hQ2sAWrE1tm5GUU6YZuuhs4dGozYo0MG1jVVn13rnvJfrC9laU36Ctgt/UBJW8pl/G6fc9EY32rbkSAruopCk9/zIQBOlZPk2U7+z7nCvPpwK1Ng==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIELzCCAxegAwIBAgIJAM5H8D/pCtRSMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSVRBTFkxDTALBgNVBAcMBEJBUkkxFDASBgNVBAoMC0FSVEkgUFVHTElBMRwwGgYDVQQLDBNTSVNURU1JIElORk9STUFUSVZJMSMwIQYDVQQDDBpodHRwczovL3d3dy5hcnRpLnB1Z2xpYS5pdDEmMCQGCSqGSIb3DQEJARYXbS5wYXRhbm9AYXJ0aS5wdWdsaWEuaXQwHhcNMjAwMTA4MTIyNjQyWhcNMjEwMTA3MTIyNjQyWjCBrTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUlUQUxZMQ0wCwYDVQQHDARCQVJJMRQwEgYDVQQKDAtBUlRJIFBVR0xJQTEcMBoGA1UECwwTU0lTVEVNSSBJTkZPUk1BVElWSTEjMCEGA1UEAwwaaHR0cHM6Ly93d3cuYXJ0aS5wdWdsaWEuaXQxJjAkBgkqhkiG9w0BCQEWF20ucGF0YW5vQGFydGkucHVnbGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9KBUtHuxJ81oBMvaAnPG9aXsabpaKag0Yq7qAuZOdtLGiWUXJjotBCkFXXsR8Vn84Ruq7nxPr1a/ZhDJ+7J1MOof8TcuS9k8tjaskkPPmupBTkMWC8NXh9Lmrk7c921zMDZ1Mi1goSA5AmppyIemRtbiBiajHApwv1nhzGNno925wNGMkMyS1wvycByZFdvJX1X9MLMp4RCowihkJZo1dyaBJ7fw3bOetizK+0nQ+z7Wdpszk91G5ahuCd1wf9uS+7bS5AKDRPdAzcFzzgNxr5hAYN8/YfhlUZ79clwX3+H41rhlZh4Kn4Li0Y0ffsouHB4zBQb7V7PXswdwvbiMnQIDAQABo1AwTjAdBgNVHQ4EFgQUZbohGbpYpjzIfhrTFzamqp0yF4UwHwYDVR0jBBgwFoAUZbohGbpYpjzIfhrTFzamqp0yF4UwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACw5wsfT74FcFlpZHSptUj/kIgMArktgi0T73hWKegh5T1LTd4iSNfeOyP/qGb5ALp1CxN0Vfv9JKrWgSf14P7P3wyVw5dID8A0geW9aZewzdegJjSbPcqpwX5tT9bmev0X+0p9eoHicYejRv6+vHcdDzHak/KJeRBCjTCaDXp/KH3VWhjPewcdTMugIMkapSR8vBMSDbxPsrc+ZJ3HLpNZzdIXAolzdhcmRXv4hQ2sAWrE1tm5GUU6YZuuhs4dGozYo0MG1jVVn13rnvJfrC9laU36Ctgt/UBJW8pl/G6fc9EY32rbkSAruopCk9/zIQBOlZPk2U7+z7nCvPpwK1Ng==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIELzCCAxegAwIBAgIJAM5H8D/pCtRSMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSVRBTFkxDTALBgNVBAcMBEJBUkkxFDASBgNVBAoMC0FSVEkgUFVHTElBMRwwGgYDVQQLDBNTSVNURU1JIElORk9STUFUSVZJMSMwIQYDVQQDDBpodHRwczovL3d3dy5hcnRpLnB1Z2xpYS5pdDEmMCQGCSqGSIb3DQEJARYXbS5wYXRhbm9AYXJ0aS5wdWdsaWEuaXQwHhcNMjAwMTA4MTIyNjQyWhcNMjEwMTA3MTIyNjQyWjCBrTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUlUQUxZMQ0wCwYDVQQHDARCQVJJMRQwEgYDVQQKDAtBUlRJIFBVR0xJQTEcMBoGA1UECwwTU0lTVEVNSSBJTkZPUk1BVElWSTEjMCEGA1UEAwwaaHR0cHM6Ly93d3cuYXJ0aS5wdWdsaWEuaXQxJjAkBgkqhkiG9w0BCQEWF20ucGF0YW5vQGFydGkucHVnbGlhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9KBUtHuxJ81oBMvaAnPG9aXsabpaKag0Yq7qAuZOdtLGiWUXJjotBCkFXXsR8Vn84Ruq7nxPr1a/ZhDJ+7J1MOof8TcuS9k8tjaskkPPmupBTkMWC8NXh9Lmrk7c921zMDZ1Mi1goSA5AmppyIemRtbiBiajHApwv1nhzGNno925wNGMkMyS1wvycByZFdvJX1X9MLMp4RCowihkJZo1dyaBJ7fw3bOetizK+0nQ+z7Wdpszk91G5ahuCd1wf9uS+7bS5AKDRPdAzcFzzgNxr5hAYN8/YfhlUZ79clwX3+H41rhlZh4Kn4Li0Y0ffsouHB4zBQb7V7PXswdwvbiMnQIDAQABo1AwTjAdBgNVHQ4EFgQUZbohGbpYpjzIfhrTFzamqp0yF4UwHwYDVR0jBBgwFoAUZbohGbpYpjzIfhrTFzamqp0yF4UwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACw5wsfT74FcFlpZHSptUj/kIgMArktgi0T73hWKegh5T1LTd4iSNfeOyP/qGb5ALp1CxN0Vfv9JKrWgSf14P7P3wyVw5dID8A0geW9aZewzdegJjSbPcqpwX5tT9bmev0X+0p9eoHicYejRv6+vHcdDzHak/KJeRBCjTCaDXp/KH3VWhjPewcdTMugIMkapSR8vBMSDbxPsrc+ZJ3HLpNZzdIXAolzdhcmRXv4hQ2sAWrE1tm5GUU6YZuuhs4dGozYo0MG1jVVn13rnvJfrC9laU36Ctgt/UBJW8pl/G6fc9EY32rbkSAruopCk9/zIQBOlZPk2U7+z7nCvPpwK1Ng==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.arti.puglia.it/myservice/module.php/saml/sp/saml2-logout.php/service"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.arti.puglia.it/myservice/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">SPID di ARTI Puglia</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sistema pubblico di identit&#xE0; digitale di ARTI Puglia</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Agenzia Regionale per la Tecnologia e l'Innovazione</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ARTI Puglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.arti.puglia.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>mp</md:GivenName>
+    <md:EmailAddress>mp@mp.org</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

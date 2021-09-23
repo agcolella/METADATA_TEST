@@ -1,0 +1,187 @@
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" cacheDuration="P30DT0H0M0.000S" entityID="https://accessosicuro.rete.toscana.it/opensso/sp">
+    <SPSSODescriptor AuthnRequestsSigned="true" ID="s5db076ea28fdd560ea679ab570f71f17032d04b9" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#s5db076ea28fdd560ea679ab570f71f17032d04b9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>fqBXB7WLJqVS0bBD5B2CnkxEXRY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+eOVvzf8whoE3IdNVqs5/RYiWBpHk8IZFL+8v0omQ3HiTLFhhBaxkfEkQQHeSLDrh+aKml7/Rrx4S
+mwpEBKV1g8jCoEppjVOTsu9oJCcdBN3lc2qhn3n3YyhuuyrqOx43zlV0rC8G/WGc1646l3I+wuqe
+1dhonkNGqNNhO0T+ag8hMIsq6cBXybhpa0PWDzIrm5u1igMa5He73SK4jp2wVAmrDcPDDJ+MeOUU
+QK9aYwS+LwfqhvfTMUWUr/acuPCaJllKjSjaHCOACLUHMlLOvKEbcFenj10UB284d3ICBAbRzkPw
+738FhJOPgRHffYtg/phVxAp0+h2p+w0f7S7p0g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIETzCCAzegAwIBAgIIVAZ2knhfNlcwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCSVQxGDAW
+BgNVBAoMD1JlZ2lvbmUgVG9zY2FuYTEuMCwGA1UECwwlUmV0ZSBUZWxlbWF0aWNhIGRlbGxhIFJl
+Z2lvbmUgVG9zY2FuYTEYMBYGA1UEAwwPQ0EgUHJpdmF0YSBSVFJUMB4XDTE4MDgyMzExMTAwNloX
+DTIzMDgyMzExMTAwNlowdjEhMB8GA1UEAwwYQVJQQS92Mi9PUEVOU1NPL1RJWC9URVNUMSowKAYD
+VQQKDCFSZXRlIFRlbGVtYXRpY2EgUmVnaW9uYWxlIFRvc2NhbmExGDAWBgNVBAsMD1JlZ2lvbmUg
+VG9zY2FuYTELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+V+jo
+i9IH/eE3OgiVhfkg1nVSpzke61Vg5Tv8cdxk5UjjHsouVIrb+pa56tCr9y+7PDLILugeB4aG6lus
+CBettN3x3a6cA7GMymzu4/caF8/aq0qtix4XXdy8ONvumZaaaPJtfjD6rr0/YE5eOnWRVaAF+bQi
+y0wZR0xvVAJwDihMJqsERhJG+jWOklwuuEB0Su6EuLl5hh1fDjrjC9VoAOJaRD0xpvRBXLg6bC6H
+ucDnuGhzxfr8y+kAnjCgt+jbD0ZF6U+gTSjcmxRngtCHZh6g5o49d10F6+TzjJqLhLexspbCTL4A
+OMknHaIavwPCgBpZLzmfqyABTZ+ESpHxAgMBAAGjgeUwgeIwDAYDVR0TAQH/BAIwADAfBgNVHSME
+GDAWgBT/Vdam/qrXF72YRZ2BAWjThXwg8TAXBgNVHREEEDAOgQxzdGFmZkB0aXguaXQwJwYDVR0l
+BCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDBABgNVHR8EOTA3MDWgM6Axhi9odHRw
+Oi8vcG9ydGFsLmFjdGFsaXMuaXQvUmVwb3NpdG9yeS9SVFJUL2dldENSTDAdBgNVHQ4EFgQUSEeI
+pqwRsCFt8VU75YolEyCwADgwDgYDVR0PAQH/BAQDAgWgMA0GCSqGSIb3DQEBCwUAA4IBAQAYRzNW
+UlyPvmRsu9cG8UlfZ2C7pVM2UY5SE4X3LYJQXVrsjooueSkR/XPSkAKuueEKqNhaLgSh3OSDK/6c
+9gH73mE2ML0lAGsww0vkMS+11tkt0ktDXlsYAKGeeto12y8hhh8HkPlscNYml1BMOqOVhpb8AJwH
+aj6+cF8V+mUgURwLDuj2IV9UomZprKOj5VnrmTjfSF8otSrROVVruZwQt3S8AGvUOy6cSJK6TulS
+7FIHhzm3X53hib86JuFKW8I5OJ0pkMMFE3qXpTno16/Xj4IgmvOzo6976jwHhBL7HlKBmUpvEqyv
+GDy/LNXzP90nXuot6tUBsfM9rlOKfbwo
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIDzzCCAregAwIBAgIIUhKOZWsAx2IwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCSVQxGDAW
+BgNVBAoMD1JlZ2lvbmUgVG9zY2FuYTEuMCwGA1UECwwlUmV0ZSBUZWxlbWF0aWNhIGRlbGxhIFJl
+Z2lvbmUgVG9zY2FuYTEYMBYGA1UEAwwPQ0EgUHJpdmF0YSBSVFJUMB4XDTE4MDgyNDEwMTA1NloX
+DTIzMDgyNDEwMTA1NlowdjEhMB8GA1UEAwwYQVJQQS92Mi9PUEVOU1NPL1RJWC9QUk9EMSowKAYD
+VQQKDCFSZXRlIFRlbGVtYXRpY2EgUmVnaW9uYWxlIFRvc2NhbmExGDAWBgNVBAsMD1JlZ2lvbmUg
+VG9zY2FuYTELMAkGA1UEBhMCSVQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALK8EEZuThvA
+K8m3pfpiQgVU/Q8K1FC3ZdFnQ9mqb7hzXevVBIM1FQqWVIDeCD73YBJrLKmn15WYtEPgueFCWeET
+P9Q9O9SFEufPX35u20EZLKNXGX5+0vDGWBqFKKET0MKRXCl+UNVuLWI2daFemXSQGr3iQ7ddKJE7
+lewsACUdAgMBAAGjgekwgeYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT/Vdam/qrXF72YRZ2B
+AWjThXwg8TAbBgNVHREEFDASgRBvcGVyYXRpb25AdGl4Lml0MCcGA1UdJQQgMB4GCCsGAQUFBwMB
+BggrBgEFBQcDAgYIKwYBBQUHAwQwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDovL3BvcnRhbC5hY3Rh
+bGlzLml0L1JlcG9zaXRvcnkvUlRSVC9nZXRDUkwwHQYDVR0OBBYEFPm+82oVL6CdQDoly9V/T/mf
+1hHDMA4GA1UdDwEB/wQEAwIFoDANBgkqhkiG9w0BAQsFAAOCAQEAiBSyKCedgQ0o6XljiBUAvY+W
+xgkRN5KwzI/vBflNN2PCj4onDL4amM3zQXuNpouiosDMh+yL006y4/193uQpXD5r6K7OKDRTFVI8
+as+evWum9pIj6CY/o3TYFNkEpW+BGvucUR5evb4IVsxNebVhYX9ppO3UDB/+dl8EkJXlbT6+Kx64
+q+xOhHKnyxz4bilAwqg1Kf9ZWP9tnXHmiZtJKLWIScY87FV/x71FzosQ4Gr1WVxPuafHiBVG5621
+oCV8whjJ19nTspw6Ccq2ckhjF1PxeDwwq62kRo1AVi26sKQuYHCiXK1YwlHj9PE42R3TzMx3E8tF
+Oivkzc2usk/myA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIID0zCCAzygAwIBAgIBOjANBgkqhkiG9w0BAQUFADCBmTELMAkGA1UEBhMCSVQxKjAoBgNVBAoT
+IVJldGUgVGVsZW1hdGljYSBSZWdpb25hbGUgVG9zY2FuYTEYMBYGA1UECxMPUmVnaW9uZSBUb3Nj
+YW5hMRYwFAYDVQQDEw1DQS1Qcml2YXRlLVJUMSwwKgYJKoZIhvcNAQkBFh1ob3N0bWFzdGVyQHJl
+Z2lvbmUudG9zY2FuYS5pdDAeFw0xMDA5MjcwOTM3MTNaFw0yMDA0MjcwOTM3MTNaMIGbMQswCQYD
+VQQGEwJJVDEqMCgGA1UEChMhUmV0ZSBUZWxlbWF0aWNhIFJlZ2lvbmFsZSBUb3NjYW5hMRgwFgYD
+VQQLEw9SZWdpb25lIFRvc2NhbmExGTAXBgNVBAMTEG9wZW5zc28xLnRpeC5pdCAxKzApBgkqhkiG
+9w0BCQEWHGFycGEtaGVscEByZWdpb25lLnRvc2NhbmEuaXQwgZ8wDQYJKoZIhvcNAQEBBQADgY0A
+MIGJAoGBANOeoGtdZVgxoClXqyqChIgKjNSWpV/SpQ/yrTqznVnWRYLWbEJXUbB+HZ90qbvNyd82
+Ij0KgToKAOou7WgLqkOyMVup6AuRlms/ZfXcZ7kwyE77JFmUIv9fplqLmUIYD1D6VijBOTNc0VE+
+KbuZyIUTWKAy1GTKfgoZmX/19PYdAgMBAAGjggElMIIBITAJBgNVHRMEAjAAMCwGCWCGSAGG+EIB
+DQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUqsgtPrOdSnjIFcuk
+4aAkvj6jzIQwgcYGA1UdIwSBvjCBu4AUtpf3itv66gtLlVXNtqkQYCzPxTChgZ+kgZwwgZkxCzAJ
+BgNVBAYTAklUMSowKAYDVQQKEyFSZXRlIFRlbGVtYXRpY2EgUmVnaW9uYWxlIFRvc2NhbmExGDAW
+BgNVBAsTD1JlZ2lvbmUgVG9zY2FuYTEWMBQGA1UEAxMNQ0EtUHJpdmF0ZS1SVDEsMCoGCSqGSIb3
+DQEJARYdaG9zdG1hc3RlckByZWdpb25lLnRvc2NhbmEuaXSCAQEwDQYJKoZIhvcNAQEFBQADgYEA
+hZrAM21n3NNoEsvs+tVu0cviEprXyJBXSk1G3sd48GEIgQnrHZM/LH0SPq7Mi2dt7Lyvtqe0ybBa
+W0tdM3NxelC56nW1M4XeTcg3Qnowqt18cDEmOKcgmDaibieqZMpmdA6lNn6chd6nv8Z8GwG0nmOZ
+h5ETBZNQ0MBGuunXzV8=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIDzzCCAregAwIBAgIIUhKOZWsAx2IwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCSVQxGDAW
+BgNVBAoMD1JlZ2lvbmUgVG9zY2FuYTEuMCwGA1UECwwlUmV0ZSBUZWxlbWF0aWNhIGRlbGxhIFJl
+Z2lvbmUgVG9zY2FuYTEYMBYGA1UEAwwPQ0EgUHJpdmF0YSBSVFJUMB4XDTE4MDgyNDEwMTA1NloX
+DTIzMDgyNDEwMTA1NlowdjEhMB8GA1UEAwwYQVJQQS92Mi9PUEVOU1NPL1RJWC9QUk9EMSowKAYD
+VQQKDCFSZXRlIFRlbGVtYXRpY2EgUmVnaW9uYWxlIFRvc2NhbmExGDAWBgNVBAsMD1JlZ2lvbmUg
+VG9zY2FuYTELMAkGA1UEBhMCSVQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALK8EEZuThvA
+K8m3pfpiQgVU/Q8K1FC3ZdFnQ9mqb7hzXevVBIM1FQqWVIDeCD73YBJrLKmn15WYtEPgueFCWeET
+P9Q9O9SFEufPX35u20EZLKNXGX5+0vDGWBqFKKET0MKRXCl+UNVuLWI2daFemXSQGr3iQ7ddKJE7
+lewsACUdAgMBAAGjgekwgeYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT/Vdam/qrXF72YRZ2B
+AWjThXwg8TAbBgNVHREEFDASgRBvcGVyYXRpb25AdGl4Lml0MCcGA1UdJQQgMB4GCCsGAQUFBwMB
+BggrBgEFBQcDAgYIKwYBBQUHAwQwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDovL3BvcnRhbC5hY3Rh
+bGlzLml0L1JlcG9zaXRvcnkvUlRSVC9nZXRDUkwwHQYDVR0OBBYEFPm+82oVL6CdQDoly9V/T/mf
+1hHDMA4GA1UdDwEB/wQEAwIFoDANBgkqhkiG9w0BAQsFAAOCAQEAiBSyKCedgQ0o6XljiBUAvY+W
+xgkRN5KwzI/vBflNN2PCj4onDL4amM3zQXuNpouiosDMh+yL006y4/193uQpXD5r6K7OKDRTFVI8
+as+evWum9pIj6CY/o3TYFNkEpW+BGvucUR5evb4IVsxNebVhYX9ppO3UDB/+dl8EkJXlbT6+Kx64
+q+xOhHKnyxz4bilAwqg1Kf9ZWP9tnXHmiZtJKLWIScY87FV/x71FzosQ4Gr1WVxPuafHiBVG5621
+oCV8whjJ19nTspw6Ccq2ckhjF1PxeDwwq62kRo1AVi26sKQuYHCiXK1YwlHj9PE42R3TzMx3E8tF
+Oivkzc2usk/myA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+            <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc">
+                <xenc:KeySize xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">128</xenc:KeySize>
+</EncryptionMethod>
+        </KeyDescriptor>
+        <KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIID0zCCAzygAwIBAgIBOjANBgkqhkiG9w0BAQUFADCBmTELMAkGA1UEBhMCSVQxKjAoBgNVBAoT
+IVJldGUgVGVsZW1hdGljYSBSZWdpb25hbGUgVG9zY2FuYTEYMBYGA1UECxMPUmVnaW9uZSBUb3Nj
+YW5hMRYwFAYDVQQDEw1DQS1Qcml2YXRlLVJUMSwwKgYJKoZIhvcNAQkBFh1ob3N0bWFzdGVyQHJl
+Z2lvbmUudG9zY2FuYS5pdDAeFw0xMDA5MjcwOTM3MTNaFw0yMDA0MjcwOTM3MTNaMIGbMQswCQYD
+VQQGEwJJVDEqMCgGA1UEChMhUmV0ZSBUZWxlbWF0aWNhIFJlZ2lvbmFsZSBUb3NjYW5hMRgwFgYD
+VQQLEw9SZWdpb25lIFRvc2NhbmExGTAXBgNVBAMTEG9wZW5zc28xLnRpeC5pdCAxKzApBgkqhkiG
+9w0BCQEWHGFycGEtaGVscEByZWdpb25lLnRvc2NhbmEuaXQwgZ8wDQYJKoZIhvcNAQEBBQADgY0A
+MIGJAoGBANOeoGtdZVgxoClXqyqChIgKjNSWpV/SpQ/yrTqznVnWRYLWbEJXUbB+HZ90qbvNyd82
+Ij0KgToKAOou7WgLqkOyMVup6AuRlms/ZfXcZ7kwyE77JFmUIv9fplqLmUIYD1D6VijBOTNc0VE+
+KbuZyIUTWKAy1GTKfgoZmX/19PYdAgMBAAGjggElMIIBITAJBgNVHRMEAjAAMCwGCWCGSAGG+EIB
+DQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUqsgtPrOdSnjIFcuk
+4aAkvj6jzIQwgcYGA1UdIwSBvjCBu4AUtpf3itv66gtLlVXNtqkQYCzPxTChgZ+kgZwwgZkxCzAJ
+BgNVBAYTAklUMSowKAYDVQQKEyFSZXRlIFRlbGVtYXRpY2EgUmVnaW9uYWxlIFRvc2NhbmExGDAW
+BgNVBAsTD1JlZ2lvbmUgVG9zY2FuYTEWMBQGA1UEAxMNQ0EtUHJpdmF0ZS1SVDEsMCoGCSqGSIb3
+DQEJARYdaG9zdG1hc3RlckByZWdpb25lLnRvc2NhbmEuaXSCAQEwDQYJKoZIhvcNAQEFBQADgYEA
+hZrAM21n3NNoEsvs+tVu0cviEprXyJBXSk1G3sd48GEIgQnrHZM/LH0SPq7Mi2dt7Lyvtqe0ybBa
+W0tdM3NxelC56nW1M4XeTcg3Qnowqt18cDEmOKcgmDaibieqZMpmdA6lNn6chd6nv8Z8GwG0nmOZ
+h5ETBZNQ0MBGuunXzV8=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+            <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc">
+                <xenc:KeySize xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">128</xenc:KeySize>
+</EncryptionMethod>
+        </KeyDescriptor>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessosicuro.rete.toscana.it:443/opensso/SPSloPOST/metaAlias/sp" ResponseLocation="https://accessosicuro.rete.toscana.it:443/opensso/SPSloPOST/metaAlias/sp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://accessosicuro.rete.toscana.it:443/opensso/SPSloRedirect/metaAlias/sp" ResponseLocation="https://accessosicuro.rete.toscana.it:443/opensso/SPSloRedirect/metaAlias/sp"/>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://accessosicuro.rete.toscana.it:443/opensso/Consumer/metaAlias/sp" index="1" isDefault="false"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accessosicuro.rete.toscana.it:443/opensso/Consumer/metaAlias/sp" index="0" isDefault="true"/>
+        <AttributeConsumingService index="0" isDefault="true">
+            <ServiceName xml:lang="en-US">https://accessosicuro.rete.toscana.it</ServiceName>
+            <RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+            <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+            <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+            <RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+        </AttributeConsumingService>
+    </SPSSODescriptor>
+    <Organization>
+        <OrganizationName xml:lang="it">Regione Toscana</OrganizationName>
+        <OrganizationName xml:lang="en">Regione Toscana</OrganizationName>
+        <OrganizationName xml:lang="fr">Regione Toscana</OrganizationName>
+        <OrganizationName xml:lang="de">Regione Toscana</OrganizationName>
+        <OrganizationDisplayName xml:lang="it">Regione Toscana</OrganizationDisplayName>
+        <OrganizationDisplayName xml:lang="en">Regione Toscana</OrganizationDisplayName>
+        <OrganizationDisplayName xml:lang="fr">Regione Toscana</OrganizationDisplayName>
+        <OrganizationDisplayName xml:lang="de">Regione Toscana</OrganizationDisplayName>
+        <OrganizationURL xml:lang="it">https://www.regione.toscana.it</OrganizationURL>
+        <OrganizationURL xml:lang="en">https://www.regione.toscana.it</OrganizationURL>
+        <OrganizationURL xml:lang="fr">https://www.regione.toscana.it</OrganizationURL>
+        <OrganizationURL xml:lang="de">https://www.regione.toscana.it</OrganizationURL>
+    </Organization>
+</EntityDescriptor>

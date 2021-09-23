@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://www.comune.isoladifondra.bg.it" ID="pfx374da52e-5766-9e6a-5161-98c4e1c01406"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx374da52e-5766-9e6a-5161-98c4e1c01406"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>D9QLHoK9Z74kibx46a4Y5HBlMeBd2+bGjqBf8OjKjow=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>HaIHMShiIqXl4JQnw9j9W0YP9XFym7mU8LgEF8eyVJf5zSuub6rftk3rSJ810dR8aG93AiHuZybt2MywTswugNhFk1NnV/aihGX65zWQ0LhuJWTsJ0np06HKacZBGLMKwT9yhekDcSbmuUAUQ4Si41zERc0sQylwF0bkQCsVgAyb3rWmQ09sTOM9IgPSyZ4au7eZ9H00vxca6v1/nGpSNQddQn3qWcsCJ3eAQQO6cQHCJXJq3bC8m3WkDbkX9DW77u7+8WRFnEzf3WtTneoPDrPU5TSB+cksR+U+FZeXQvWEFzHtaIrby6WykshUaA8WiE5iJlEvFYrQDVdyvrGe8g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEMDCCAxigAwIBAgIJAMQRvhBFHM1xMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEYMBYGA1UEBwwPSXNvbGEgZGkgRm9uZHJhMSIwIAYDVQQKDBlDb211bmUgZGkgSXNvbGEgZGkgRm9uZHJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEuMCwGA1UEAwwlc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmlicmVtYmFuaS5pdDAeFw0xODA1MjgwOTIzNDhaFw0yODA1MjUwOTIzNDhaMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEYMBYGA1UEBwwPSXNvbGEgZGkgRm9uZHJhMSIwIAYDVQQKDBlDb211bmUgZGkgSXNvbGEgZGkgRm9uZHJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEuMCwGA1UEAwwlc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmlicmVtYmFuaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALZbHmMSIJNjfWmZy1IkxVb8PQdt3aGsGKHbNNkRzcJyRcShCBRh6lEGmUiGBTm4eu6ADiA/XubG+dZrs79eZyumRzvELoEsnyFE2k2AgrVswPTW6vGRwGxz12T2E5ElmIDmYxVNW5EowmYHtITTC/ZJGE2rnM3qHAnab+aQtBG/CIdKQWb9qI+TmnEg3YOBD3rqvLiiJZwsKJB8/+QwW51OZ8lm2ARFRA4GS47CO9MtmtYIKh8Doupbg7evNFoEXc/HNvnsq+pQemkOZUPnXEKPVVYEg412R3ejkdH753p7Ol+9yP1q/BtIHv35YcHFshpf6xGhaVMDkbAXDueOHlUCAwEAAaNTMFEwHQYDVR0OBBYEFN2sXQkEXEe6i3TW0IPxsT/jHYxuMB8GA1UdIwQYMBaAFN2sXQkEXEe6i3TW0IPxsT/jHYxuMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABXbJl39COVVc+B+msZLn6mVG3TiKGQK5qwOs/elj6Yvh/DcZkEmy/bImzoc/aqYKixgOF5ZcAIbFadxFfKs9mHMZ3MqNtcdUGBgVeXah/ICaVcHA+sDV6KMr+422zjO8Uf/Uur1GDcpD1BevWiKVThMA1ArxNB/sU9P1WNv53BLH59HAKPvCgLqeJs+LZ6LV3KPkXECxMFLzV3pG4za8Ho284tvqJg5XQn0rZl545I9+8B6wwmtzRjqfxV6ey5td7kZo5J+6rzgP8CNbYcyVlMQmYvvmSiw7kJPFNoqSDdSBuro3cwg5MTU2ZPblRMXgoRnIK6qEl9RpYGDvliLwVE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMDCCAxigAwIBAgIJAMQRvhBFHM1xMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEYMBYGA1UEBwwPSXNvbGEgZGkgRm9uZHJhMSIwIAYDVQQKDBlDb211bmUgZGkgSXNvbGEgZGkgRm9uZHJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEuMCwGA1UEAwwlc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmlicmVtYmFuaS5pdDAeFw0xODA1MjgwOTIzNDhaFw0yODA1MjUwOTIzNDhaMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEYMBYGA1UEBwwPSXNvbGEgZGkgRm9uZHJhMSIwIAYDVQQKDBlDb211bmUgZGkgSXNvbGEgZGkgRm9uZHJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEuMCwGA1UEAwwlc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmlicmVtYmFuaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALZbHmMSIJNjfWmZy1IkxVb8PQdt3aGsGKHbNNkRzcJyRcShCBRh6lEGmUiGBTm4eu6ADiA/XubG+dZrs79eZyumRzvELoEsnyFE2k2AgrVswPTW6vGRwGxz12T2E5ElmIDmYxVNW5EowmYHtITTC/ZJGE2rnM3qHAnab+aQtBG/CIdKQWb9qI+TmnEg3YOBD3rqvLiiJZwsKJB8/+QwW51OZ8lm2ARFRA4GS47CO9MtmtYIKh8Doupbg7evNFoEXc/HNvnsq+pQemkOZUPnXEKPVVYEg412R3ejkdH753p7Ol+9yP1q/BtIHv35YcHFshpf6xGhaVMDkbAXDueOHlUCAwEAAaNTMFEwHQYDVR0OBBYEFN2sXQkEXEe6i3TW0IPxsT/jHYxuMB8GA1UdIwQYMBaAFN2sXQkEXEe6i3TW0IPxsT/jHYxuMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABXbJl39COVVc+B+msZLn6mVG3TiKGQK5qwOs/elj6Yvh/DcZkEmy/bImzoc/aqYKixgOF5ZcAIbFadxFfKs9mHMZ3MqNtcdUGBgVeXah/ICaVcHA+sDV6KMr+422zjO8Uf/Uur1GDcpD1BevWiKVThMA1ArxNB/sU9P1WNv53BLH59HAKPvCgLqeJs+LZ6LV3KPkXECxMFLzV3pG4za8Ho284tvqJg5XQn0rZl545I9+8B6wwmtzRjqfxV6ey5td7kZo5J+6rzgP8CNbYcyVlMQmYvvmSiw7kJPFNoqSDdSBuro3cwg5MTU2ZPblRMXgoRnIK6qEl9RpYGDvliLwVE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMDCCAxigAwIBAgIJAMQRvhBFHM1xMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEYMBYGA1UEBwwPSXNvbGEgZGkgRm9uZHJhMSIwIAYDVQQKDBlDb211bmUgZGkgSXNvbGEgZGkgRm9uZHJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEuMCwGA1UEAwwlc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmlicmVtYmFuaS5pdDAeFw0xODA1MjgwOTIzNDhaFw0yODA1MjUwOTIzNDhaMIGsMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEYMBYGA1UEBwwPSXNvbGEgZGkgRm9uZHJhMSIwIAYDVQQKDBlDb211bmUgZGkgSXNvbGEgZGkgRm9uZHJhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEuMCwGA1UEAwwlc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmlicmVtYmFuaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALZbHmMSIJNjfWmZy1IkxVb8PQdt3aGsGKHbNNkRzcJyRcShCBRh6lEGmUiGBTm4eu6ADiA/XubG+dZrs79eZyumRzvELoEsnyFE2k2AgrVswPTW6vGRwGxz12T2E5ElmIDmYxVNW5EowmYHtITTC/ZJGE2rnM3qHAnab+aQtBG/CIdKQWb9qI+TmnEg3YOBD3rqvLiiJZwsKJB8/+QwW51OZ8lm2ARFRA4GS47CO9MtmtYIKh8Doupbg7evNFoEXc/HNvnsq+pQemkOZUPnXEKPVVYEg412R3ejkdH753p7Ol+9yP1q/BtIHv35YcHFshpf6xGhaVMDkbAXDueOHlUCAwEAAaNTMFEwHQYDVR0OBBYEFN2sXQkEXEe6i3TW0IPxsT/jHYxuMB8GA1UdIwQYMBaAFN2sXQkEXEe6i3TW0IPxsT/jHYxuMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABXbJl39COVVc+B+msZLn6mVG3TiKGQK5qwOs/elj6Yvh/DcZkEmy/bImzoc/aqYKixgOF5ZcAIbFadxFfKs9mHMZ3MqNtcdUGBgVeXah/ICaVcHA+sDV6KMr+422zjO8Uf/Uur1GDcpD1BevWiKVThMA1ArxNB/sU9P1WNv53BLH59HAKPvCgLqeJs+LZ6LV3KPkXECxMFLzV3pG4za8Ho284tvqJg5XQn0rZl545I9+8B6wwmtzRjqfxV6ey5td7kZo5J+6rzgP8CNbYcyVlMQmYvvmSiw7kJPFNoqSDdSBuro3cwg5MTU2ZPblRMXgoRnIK6qEl9RpYGDvliLwVE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comunibrembani.it/simplesaml/module.php/saml/sp/saml2-logout.php/aggrcomunibrembani"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comunibrembani.it/simplesaml/module.php/saml/sp/saml2-acs.php/aggrcomunibrembani" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">aggrcomunibrembani</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_e353</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Isola di Fondra</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comunibrembani.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

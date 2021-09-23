@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rezzato" entityID="https://www.comune.rezzato.bs.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rezzato">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>RiX9cP+eImcGo158WWEY9ACbnjqM3GWjJZy/gldwgMI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+W/wJlkk8xf8AUOA+9DZlWQtjFgfq2BY26o6i2PdQuGeT4fYOGh5kcZz32H5Jjnt56u1mWLYuRJHK
+ZvXzSv9BbxDIiEsTY6zNSrMEqUL2twqREi/UX4z/F2jLApaqd8Vu904j02zM6Ha4regfpcDhb3xh
+Z8niFjZYRMwdRHREhqU4Y76omeysRAkQP+MTfTfDwE/uxqq6oY+yk1npRmvmEgBhqUDY///Hl2Y2
+Z9Zxi6EHU9j8/9QKerKjP2uJtwPv6QvNdU1EZ0Ck4eO6VGtPrleNZaiTqjWGs7mibOxbEZf23tk0
+5OARXc03k/bqYPSdTVxo2zBramvusbYtaoj1Lg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0xI72Aqv7bYS3wl9fsoDmAc/QWSDskxS6Jx5NUyza9QV5gBZAskvq9ba2gNmASBKbCQanaspMkWD
+gWYW7JvdRQOXHV6iwNhnqDgAYoIGXecyKcBHkzftJ7kqQ1rtDEV0i9W9RhBkutqx21tMkfYnO1+n
+M2lxKaRNuH2KW0YTpp+vkTJjAPeoi4fjF+iOIi7jOEQf+/IR8CwIHP5jCfGHy55XN0FWbZ7EK+O4
+WWYRJhiqIrA2djPieiLBa2NVoHFwEnIi46+H1hTv8m22WUkj97yRVmt+YkRkYJFA+iUtL/Cz78Eo
+BSuV+bc0bS4i++/aDgoW67Dd3ITPBTnfXdTDgw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAJ59OKEj5BgYMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUucmV6emF0by5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjA0
+MTMyNTM5WhcNMzAwNjAyMTMyNTM5WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnJlenphdG8uYnMu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA0xI72Aqv7bYS3wl9fsoDmAc/QWSDskxS6Jx5NUyza9QV5gBZAskvq9ba2gNmASBKbCQa
+naspMkWDgWYW7JvdRQOXHV6iwNhnqDgAYoIGXecyKcBHkzftJ7kqQ1rtDEV0i9W9RhBkutqx21tM
+kfYnO1+nM2lxKaRNuH2KW0YTpp+vkTJjAPeoi4fjF+iOIi7jOEQf+/IR8CwIHP5jCfGHy55XN0FW
+bZ7EK+O4WWYRJhiqIrA2djPieiLBa2NVoHFwEnIi46+H1hTv8m22WUkj97yRVmt+YkRkYJFA+iUt
+L/Cz78EoBSuV+bc0bS4i++/aDgoW67Dd3ITPBTnfXdTDgwIDAQABo1AwTjAdBgNVHQ4EFgQUtxWf
+ewqa5GJPeff1vPlQ5QTeyGowHwYDVR0jBBgwFoAUtxWfewqa5GJPeff1vPlQ5QTeyGowDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMyfuT+77uvcy6jHmZ1DWgnqLwh5krI6xxXGX6JOl
+/C0OYa1orNXpm1T3+9d5e+tLXEvjyKIZwqNH88INY+7vUSPzTHOm5YgvLjf3AxgwK52bozuTfeb7
+Q2j6JFGHYUwoZjkPBDDzYiXP/L0prA6q/FfPmXuBG6IKoQzvD3qFEVm5Go75YAoDPP820MiWfdUF
+YxaPzyljvcryIiupbwcJDdiNPqhqUNzEBJ2S7seFBXUcffRnBJ7Ca/pL+1Ur7HIHMadgsNjukROn
+Q2OgTZ2ib4di2zs27wM071Te8sIQ1sWwe98ptvaS+WrdvNEpHstQU4cKtSzxQV8DielLAg0j9g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAJ59OKEj5BgYMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUucmV6emF0by5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjA0MTMyNTM5WhcNMzAwNjAyMTMyNTM5WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnJlenphdG8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0xI72Aqv7bYS3wl9fsoDmAc/QWSDskxS6Jx5NUyza9QV5gBZAskvq9ba2gNmASBKbCQanaspMkWDgWYW7JvdRQOXHV6iwNhnqDgAYoIGXecyKcBHkzftJ7kqQ1rtDEV0i9W9RhBkutqx21tMkfYnO1+nM2lxKaRNuH2KW0YTpp+vkTJjAPeoi4fjF+iOIi7jOEQf+/IR8CwIHP5jCfGHy55XN0FWbZ7EK+O4WWYRJhiqIrA2djPieiLBa2NVoHFwEnIi46+H1hTv8m22WUkj97yRVmt+YkRkYJFA+iUtL/Cz78EoBSuV+bc0bS4i++/aDgoW67Dd3ITPBTnfXdTDgwIDAQABo1AwTjAdBgNVHQ4EFgQUtxWfewqa5GJPeff1vPlQ5QTeyGowHwYDVR0jBBgwFoAUtxWfewqa5GJPeff1vPlQ5QTeyGowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMyfuT+77uvcy6jHmZ1DWgnqLwh5krI6xxXGX6JOl/C0OYa1orNXpm1T3+9d5e+tLXEvjyKIZwqNH88INY+7vUSPzTHOm5YgvLjf3AxgwK52bozuTfeb7Q2j6JFGHYUwoZjkPBDDzYiXP/L0prA6q/FfPmXuBG6IKoQzvD3qFEVm5Go75YAoDPP820MiWfdUFYxaPzyljvcryIiupbwcJDdiNPqhqUNzEBJ2S7seFBXUcffRnBJ7Ca/pL+1Ur7HIHMadgsNjukROnQ2OgTZ2ib4di2zs27wM071Te8sIQ1sWwe98ptvaS+WrdvNEpHstQU4cKtSzxQV8DielLAg0j9g==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAJ59OKEj5BgYMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUucmV6emF0by5icy5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwNjA0MTMyNTM5WhcNMzAwNjAyMTMyNTM5WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnJlenphdG8uYnMuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0xI72Aqv7bYS3wl9fsoDmAc/QWSDskxS6Jx5NUyza9QV5gBZAskvq9ba2gNmASBKbCQanaspMkWDgWYW7JvdRQOXHV6iwNhnqDgAYoIGXecyKcBHkzftJ7kqQ1rtDEV0i9W9RhBkutqx21tMkfYnO1+nM2lxKaRNuH2KW0YTpp+vkTJjAPeoi4fjF+iOIi7jOEQf+/IR8CwIHP5jCfGHy55XN0FWbZ7EK+O4WWYRJhiqIrA2djPieiLBa2NVoHFwEnIi46+H1hTv8m22WUkj97yRVmt+YkRkYJFA+iUtL/Cz78EoBSuV+bc0bS4i++/aDgoW67Dd3ITPBTnfXdTDgwIDAQABo1AwTjAdBgNVHQ4EFgQUtxWfewqa5GJPeff1vPlQ5QTeyGowHwYDVR0jBBgwFoAUtxWfewqa5GJPeff1vPlQ5QTeyGowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMyfuT+77uvcy6jHmZ1DWgnqLwh5krI6xxXGX6JOl/C0OYa1orNXpm1T3+9d5e+tLXEvjyKIZwqNH88INY+7vUSPzTHOm5YgvLjf3AxgwK52bozuTfeb7Q2j6JFGHYUwoZjkPBDDzYiXP/L0prA6q/FfPmXuBG6IKoQzvD3qFEVm5Go75YAoDPP820MiWfdUFYxaPzyljvcryIiupbwcJDdiNPqhqUNzEBJ2S7seFBXUcffRnBJ7Ca/pL+1Ur7HIHMadgsNjukROnQ2OgTZ2ib4di2zs27wM071Te8sIQ1sWwe98ptvaS+WrdvNEpHstQU4cKtSzxQV8DielLAg0j9g==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rezzato"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rezzato" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rezzato" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rezzato" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rezzato</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rezzato</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rezzato</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rezzato</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rezzato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rezzato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rezzato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rezzato</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rezzato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rezzato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rezzato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rezzato.bs.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

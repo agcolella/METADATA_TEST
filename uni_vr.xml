@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_1c10ecb7a0e34360b2f3196fa246b608" entityID="https://aap.univr.it/oam/fed"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_1c10ecb7a0e34360b2f3196fa246b608">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BMNjfAudNwrNLEvRugcQeI1uIrrvYddb3xBkwVGvPVY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+l3OZl3o37PQPLFcnHGM/eKOAwCYZHVxKSdB4fW7301OjNUYHrFGXEJ0K1hMEIPm74WpO2CVuUC1X
+TsxwVdurqrDJbarIjdvFH/G4TLNTXikD+1/3G1TkYVUnXfBXp8JGcqkYeAU9y4y0fx9zjRVmJ/kH
+0MMg3fXffAo6uPI7bK3q1WJ+EqnRlhNt9+BkFOBUUrD+YqCjPI2a5HQrHGhGasspMfvFjddcyhUp
+7jsMhi3A3cMlxodWmk/mzW9XZhVB8AM3eSlbNHF5PGyo7VggLCZTekRdZo0EP40ikhrO5bmhGmGe
+DlqE2iw9n1RAX8JotqVSFJl3YCkq6ELi4bKsnQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tgq6vMIofMZRtrkCKxv2NAqj9e+BZ1725UZ0q7RLjwP4dc3OY8srNBdpeQWAmQs2+TTfogOCP6VS
+zq7FMEyg3o/2kiilJR2sRMvtoSkZooXJEFJjQFrRoOrjVU2FQyhRNUj420bvPlIidORDzk2VsI5I
+14oAWZ/QSAi0AvlVg/xsloWkqBYuZi6pP/8mWNCS1DSMDx5ZfnJTPd9cOgq8dCiI+YbLL45syFsI
+Tbb3Y37MJEX1ySNKTqPMlAXCkdupQst5UdnH6nLS8M9TQrHNy9bep8X8nEYTiUv05vKt+znwMrM9
+QOsItI1TXmODIPMSaamwstIEGLExAukf2V5D3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDizCCAnOgAwIBAgIEGwoBWTANBgkqhkiG9w0BAQsFADB2MQswCQYDVQQGEwJJVDEPMA0GA1UE
+BxMGVmVyb25hMSowKAYDVQQKDCFVbml2ZXJzaXTDoCBkZWdsaSBTdHVkaSBkaSBWZXJvbmExFjAU
+BgNVBAsTDURpcmV6aW9uZSBTSVQxEjAQBgNVBAMTCUlEUC1VTklWUjAeFw0xODA2MTQxMTAwMzVa
+Fw0yODA2MTExMTAwMzVaMHYxCzAJBgNVBAYTAklUMQ8wDQYDVQQHEwZWZXJvbmExKjAoBgNVBAoM
+IVVuaXZlcnNpdMOgIGRlZ2xpIFN0dWRpIGRpIFZlcm9uYTEWMBQGA1UECxMNRGlyZXppb25lIFNJ
+VDESMBAGA1UEAxMJSURQLVVOSVZSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtgq6
+vMIofMZRtrkCKxv2NAqj9e+BZ1725UZ0q7RLjwP4dc3OY8srNBdpeQWAmQs2+TTfogOCP6VSzq7F
+MEyg3o/2kiilJR2sRMvtoSkZooXJEFJjQFrRoOrjVU2FQyhRNUj420bvPlIidORDzk2VsI5I14oA
+WZ/QSAi0AvlVg/xsloWkqBYuZi6pP/8mWNCS1DSMDx5ZfnJTPd9cOgq8dCiI+YbLL45syFsITbb3
+Y37MJEX1ySNKTqPMlAXCkdupQst5UdnH6nLS8M9TQrHNy9bep8X8nEYTiUv05vKt+znwMrM9QOsI
+tI1TXmODIPMSaamwstIEGLExAukf2V5D3wIDAQABoyEwHzAdBgNVHQ4EFgQU2cTTLDiO6ExXjRHQ
+cJSQE9Pjoz4wDQYJKoZIhvcNAQELBQADggEBAAaohVtEGC6oEc8fDa6rTgYLLMUPBk4lWlzFCyiU
+rPuyWcMpXWYb3Qp8yyubGPB37thKzP681OPi+QFHxb7NfVXaqtROTf+Ze+OFqL9ZtMLVMmJo1sLl
+lIj2TZfMigFVJidM+tUFxm6CCeXD6LURnzLbvMA/Qr8t/INiEtmabrY3wW3qVNxAOlYpVy5bsUr3
+wVutGpQxZu+nuRi1O8WDNrEHMlgMiNaBVlym+2EQtlW4BT4Q+rxy69yvb1aiO1e+TlKToXqKM9+2
+mUY3PE+NyNF7ggc7xDyxSsyj1eCEd9UN9H2cOAK1NqtAlJalcVGsdzVlkFruojzLEusX0eWeYrc=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDizCCAnOgAwIBAgIEGwoBWTANBgkqhkiG9w0BAQsFADB2MQswCQYDVQQGEwJJVDEPMA0GA1UEBxMGVmVyb25hMSowKAYDVQQKDCFVbml2ZXJzaXTDoCBkZWdsaSBTdHVkaSBkaSBWZXJvbmExFjAUBgNVBAsTDURpcmV6aW9uZSBTSVQxEjAQBgNVBAMTCUlEUC1VTklWUjAeFw0xODA2MTQxMTAwMzVaFw0yODA2MTExMTAwMzVaMHYxCzAJBgNVBAYTAklUMQ8wDQYDVQQHEwZWZXJvbmExKjAoBgNVBAoMIVVuaXZlcnNpdMOgIGRlZ2xpIFN0dWRpIGRpIFZlcm9uYTEWMBQGA1UECxMNRGlyZXppb25lIFNJVDESMBAGA1UEAxMJSURQLVVOSVZSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtgq6vMIofMZRtrkCKxv2NAqj9e+BZ1725UZ0q7RLjwP4dc3OY8srNBdpeQWAmQs2+TTfogOCP6VSzq7FMEyg3o/2kiilJR2sRMvtoSkZooXJEFJjQFrRoOrjVU2FQyhRNUj420bvPlIidORDzk2VsI5I14oAWZ/QSAi0AvlVg/xsloWkqBYuZi6pP/8mWNCS1DSMDx5ZfnJTPd9cOgq8dCiI+YbLL45syFsITbb3Y37MJEX1ySNKTqPMlAXCkdupQst5UdnH6nLS8M9TQrHNy9bep8X8nEYTiUv05vKt+znwMrM9QOsItI1TXmODIPMSaamwstIEGLExAukf2V5D3wIDAQABoyEwHzAdBgNVHQ4EFgQU2cTTLDiO6ExXjRHQcJSQE9Pjoz4wDQYJKoZIhvcNAQELBQADggEBAAaohVtEGC6oEc8fDa6rTgYLLMUPBk4lWlzFCyiUrPuyWcMpXWYb3Qp8yyubGPB37thKzP681OPi+QFHxb7NfVXaqtROTf+Ze+OFqL9ZtMLVMmJo1sLllIj2TZfMigFVJidM+tUFxm6CCeXD6LURnzLbvMA/Qr8t/INiEtmabrY3wW3qVNxAOlYpVy5bsUr3wVutGpQxZu+nuRi1O8WDNrEHMlgMiNaBVlym+2EQtlW4BT4Q+rxy69yvb1aiO1e+TlKToXqKM9+2mUY3PE+NyNF7ggc7xDyxSsyj1eCEd9UN9H2cOAK1NqtAlJalcVGsdzVlkFruojzLEusX0eWeYrc=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://aap.univr.it/oamfed/idp/samlv20"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://aap.univr.it/oam/server/fed/sp/sso" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">set0</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="fiscalNumber"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xml:lang="it">spid-1</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="fiscalNumber"/></md:AttributeConsumingService><md:AttributeConsumingService index="2"><md:ServiceName xml:lang="it">spid-2</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="idCard"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="address"/></md:AttributeConsumingService><md:AttributeConsumingService index="3"><md:ServiceName xml:lang="it">spid-all</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="countyOfBirth"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="idCard"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="registeredOffice"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="expirationDate"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Università di Verona</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Università di Verona</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">https://www.univr.it</md:OrganizationURL></md:Organization></md:EntityDescriptor>

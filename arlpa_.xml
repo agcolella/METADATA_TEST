@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="ArpaCampania" entityID="https://www.arpacampania.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#ArpaCampania">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tbwO0KjqPK+W3K/f0hpUUcI+fEKUv4IdJHnmBOlMBeU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+K9h9h4Gv19Leyw9SnHR4XiEGGC/GtOd2mOnW7FrCNuA9trG2H+EhWkuF1Rs+Pqlns0SYgkVn+6ss
+plJtbmoQuImvJwh5Bvfirls3tVDOmAknfMLdcVHN7vkW4Adad5w9PWWKY9LMeiLKTxE9NefZsYUM
+iMT0mChNRjwji3uKjdllPVZ9Kx6mEX4882A82YrEFRNdPTZkBMlLUR36CCCCc9CXHSiTPGkmZP3i
+3BRF6ooBTlI3CBNyD7n7lCFfno/a3ela3EJmu0Kt8JVCrqbK4PjOGLJnyBICFgOkMBw3gnNjhme5
+JZxN/yy2+6pjyZyYAnczFq5vJHAXl3BbQO8azQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2YZzVBA5BI82TBqhvU2xjdfnFP+gJVLfnvjB9GtqRmANfUlk+NFRMk+L+Bv7xL12Owr3p6EcoEAW
+eL8F0fa4hHure4t1GQwVJ+ifSa+5UdQmELvJASg5cH34mnLlewai7aW6ivfWp25KDL5M/8bq6Eo+
+iCGZEy5vlwV8kR37XMUaYwYEFxoS/qJBNF9v9Mn9+TRqqPgDK7O1CLpGO1NqRLmSSPJYWxaK16W3
+rMYgZAJzM1IkaWn7sA9lyXckHGBctrDONt9XN6c0cUHH4/xJJ6Ooa0rUPYJIoQBWtYfkUqzQy+lZ
+77ujyquKzjsCsbRaFTb5jdDmQqQURbRN4EY/IQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDSTCCAjGgAwIBAgIJAJLmBvvoe2kKMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5h
+cmNwYWNhbXBhbmlhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAzMTIwOTI1
+MTdaFw0yODAzMDkwOTI1MTdaMDsxHTAbBgNVBAMMFHd3dy5hcmNwYWNhbXBhbmlhLml0MQ0wCwYD
+VQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANmG
+c1QQOQSPNkwaob1NsY3X5xT/oCVS3574wfRrakZgDX1JZPjRUTJPi/gb+8S9djsK96ehHKBAFni/
+BdH2uIR7q3uLdRkMFSfon0mvuVHUJhC7yQEoOXB9+Jpy5XsGou2luor31qduSgy+TP/G6uhKPogh
+mRMub5cFfJEd+1zFGmMGBBcaEv6iQTRfb/TJ/fk0aqj4AyuztQi6RjtTakS5kkjyWFsWitelt6zG
+IGQCczNSJGlp+7APZcl3JBxgXLawzjbfVzenNHFBx+P8SSejqGtK1D2CSKEAVrWH5FKs0MvpWe+7
+o8qris47ArG0WhU2+Y3Q5kKkFEW0TeBGPyECAwEAAaNQME4wHQYDVR0OBBYEFCGPPs+kLKmweHnF
+3pz6nI3Op4ltMB8GA1UdIwQYMBaAFCGPPs+kLKmweHnF3pz6nI3Op4ltMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBAKxBZ5ji1/iVWu/hEiuMnAK4zIC6/nxFYjWQhQ7GEk0+ZFyHWywf
+ROa+HNrU70NePIrmYiOq4ENQIq63DoTWnoKGaSqjpTmCaGV2NbKbhAOjICHgecK6wk/NgVfCP7A+
+SwVSj/2SKakSmqQCLxddJPk2ojVmwHLLew7u6KwZ3JHujCOO0O3MghCCjrYKckw+jG5v1+iautTp
+0yMOU6qI3GO/tGFo0aLnhmfPtOKUI8kc/43ei87NQVMv/1PjAnsSH9gUkpPC73z0iCvV9UKPD31I
+Aj7G8jKI4qVXoy5rttQXigkO2rZKvMerN+/wcGiX3dWARzPfxSxfmPZ3XbcLxQA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIJAJLmBvvoe2kKMA0GCSqGSIb3DQEBCwUAMDsxHTAbBgNVBAMMFHd3dy5hcmNwYWNhbXBhbmlhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAzMTIwOTI1MTdaFw0yODAzMDkwOTI1MTdaMDsxHTAbBgNVBAMMFHd3dy5hcmNwYWNhbXBhbmlhLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANmGc1QQOQSPNkwaob1NsY3X5xT/oCVS3574wfRrakZgDX1JZPjRUTJPi/gb+8S9djsK96ehHKBAFni/BdH2uIR7q3uLdRkMFSfon0mvuVHUJhC7yQEoOXB9+Jpy5XsGou2luor31qduSgy+TP/G6uhKPoghmRMub5cFfJEd+1zFGmMGBBcaEv6iQTRfb/TJ/fk0aqj4AyuztQi6RjtTakS5kkjyWFsWitelt6zGIGQCczNSJGlp+7APZcl3JBxgXLawzjbfVzenNHFBx+P8SSejqGtK1D2CSKEAVrWH5FKs0MvpWe+7o8qris47ArG0WhU2+Y3Q5kKkFEW0TeBGPyECAwEAAaNQME4wHQYDVR0OBBYEFCGPPs+kLKmweHnF3pz6nI3Op4ltMB8GA1UdIwQYMBaAFCGPPs+kLKmweHnF3pz6nI3Op4ltMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKxBZ5ji1/iVWu/hEiuMnAK4zIC6/nxFYjWQhQ7GEk0+ZFyHWywfROa+HNrU70NePIrmYiOq4ENQIq63DoTWnoKGaSqjpTmCaGV2NbKbhAOjICHgecK6wk/NgVfCP7A+SwVSj/2SKakSmqQCLxddJPk2ojVmwHLLew7u6KwZ3JHujCOO0O3MghCCjrYKckw+jG5v1+iautTp0yMOU6qI3GO/tGFo0aLnhmfPtOKUI8kc/43ei87NQVMv/1PjAnsSH9gUkpPC73z0iCvV9UKPD31IAj7G8jKI4qVXoy5rttQXigkO2rZKvMerN+/wcGiX3dWARzPfxSxfmPZ3XbcLxQA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/arpacampania"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/arpacampania" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/arpacampania" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">ARPA Campania</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">ARPA Campania</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">ARPA Campania</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">ARPA Campania</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ARPA Campania</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">ARPA Campania</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">ARPA Campania</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">ARPA Campania</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.arpacampania.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.arpacampania.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.arpacampania.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.arpacampania.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Pinerolo" entityID="https://www.comune.pinerolo.to.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Pinerolo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>eRyxM271QJzA7YJD8ZIGHgiWnSohSQ64eNvuDYXB9zo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+p5Pw5yaIfLg3QyvBgLtGrIguq3t8kj8xkoHYns+SMHRgViNRZus8VSo3P+MaA5gAr3G59s2MWpGX
+YG/jyUCD5H7kd6QCOdtQVqhRJL4zw+468lhjg280E+ETT4iDvv5HP4UKkTvXEsweVf+01cuWzptQ
+MHDGbRxvoVxpB3JOjwkB1NlrwSAbi0ZxJCwyj9AT0wMdAB6sAFRsuvWXQEt2yBiyQ3HiqJ24fkon
+8v3YIVEXS0x2p2o2rsEK12lSx45HyVNoi7888m5eVHWj8PDFrH0nSgLttuh8lWiuCUIxNm7vmhsG
+utbIu3K7wxF3ShDsn5PP0cR4haX6nhVxYUP8Yw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zzicZXGRC66Rulm47fYUr0NOfb5bgchNsxQ/gsfM6PeS1oDvka00hXGTTtLkR7GOAm7JXsupOUvK
+3q48VNNVXB1/1IUvNws2Dz1sUXlpLbOuofm9m/fwWu3BNZvu+xQWn2NF/b+8Tp3hNrFfvcnwAomh
+UHBByRJY0xksZyEjXimkWrDujfS0SNZVdgSH8/Y+FWuMRqsqtUICJqp7tuQ2a2Jz8FXMOZtyiIC3
+JDhqd0VCblbyoHg5aTH4d2+QIoCX5Kp16lMZcCDE/tHUbiAqY0g9T/63VYVG/hCTy/aul29lIY+f
+zWZq2t9VjhWb8WV52cFPiqzTJ3NDZLGSZynpwQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJANcsHOrHcc+VMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUucGluZXJvbG8udG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDQy
+OTA5MjQyMloXDTI5MDQyNjA5MjQyMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waW5lcm9sby50
+by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDPOJxlcZELrpG6Wbjt9hSvQ059vluByE2zFD+Cx8zo95LWgO+RrTSFcZNO0uRHsY4C
+bsley6k5S8rerjxU01VcHX/UhS83CzYPPWxReWkts66h+b2b9/Ba7cE1m+77FBafY0X9v7xOneE2
+sV+9yfACiaFQcEHJEljTGSxnISNeKaRasO6N9LRI1lV2BIfz9j4Va4xGqyq1QgImqnu25DZrYnPw
+Vcw5m3KIgLckOGp3RUJuVvKgeDlpMfh3b5AigJfkqnXqUxlwIMT+0dRuICpjSD1P/rdVhUb+EJPL
+9q6Xb2Uhj5/NZmra31WOFZvxZXnZwU+KrNMnc0NksZJnKenBAgMBAAGjUDBOMB0GA1UdDgQWBBTN
+7JNzW78aTzHn9s3qfofJyAxt8jAfBgNVHSMEGDAWgBTN7JNzW78aTzHn9s3qfofJyAxt8jAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCYq4j+8iw5s8mWzqhUHqwngb4UqzG8zqV9r2k1
+XYE+AW1nyQg9V7MRJ2uRtqi6fqA9+nUvptgqnh0K2c+bZmUz1ILGT+uqHdBuScVOCKFOKPhgIHHb
+CzGhJWDRKR7rQvBAlfjTmja6ui+3L61q/ODkaz2MVb/ER24ADeTMRzXIlbYGCYwf4h/ygp9swl+T
+9Px2Jbn2FjUChH425jjAfcEj/MFFT2xh9xE7JfKzoqG6/NIuhk+gDTckOcESB+/SEI0kC6ysSy0b
+8zVJGegw5whN9rE5rvXSsmo831JYpjcPzfFeDlNfiHIQo5GBFgiWhgPPUcEdq4QAzz9SFdMfhOB5
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJANcsHOrHcc+VMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUucGluZXJvbG8udG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDQyOTA5MjQyMloXDTI5MDQyNjA5MjQyMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waW5lcm9sby50by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPOJxlcZELrpG6Wbjt9hSvQ059vluByE2zFD+Cx8zo95LWgO+RrTSFcZNO0uRHsY4Cbsley6k5S8rerjxU01VcHX/UhS83CzYPPWxReWkts66h+b2b9/Ba7cE1m+77FBafY0X9v7xOneE2sV+9yfACiaFQcEHJEljTGSxnISNeKaRasO6N9LRI1lV2BIfz9j4Va4xGqyq1QgImqnu25DZrYnPwVcw5m3KIgLckOGp3RUJuVvKgeDlpMfh3b5AigJfkqnXqUxlwIMT+0dRuICpjSD1P/rdVhUb+EJPL9q6Xb2Uhj5/NZmra31WOFZvxZXnZwU+KrNMnc0NksZJnKenBAgMBAAGjUDBOMB0GA1UdDgQWBBTN7JNzW78aTzHn9s3qfofJyAxt8jAfBgNVHSMEGDAWgBTN7JNzW78aTzHn9s3qfofJyAxt8jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCYq4j+8iw5s8mWzqhUHqwngb4UqzG8zqV9r2k1XYE+AW1nyQg9V7MRJ2uRtqi6fqA9+nUvptgqnh0K2c+bZmUz1ILGT+uqHdBuScVOCKFOKPhgIHHbCzGhJWDRKR7rQvBAlfjTmja6ui+3L61q/ODkaz2MVb/ER24ADeTMRzXIlbYGCYwf4h/ygp9swl+T9Px2Jbn2FjUChH425jjAfcEj/MFFT2xh9xE7JfKzoqG6/NIuhk+gDTckOcESB+/SEI0kC6ysSy0b8zVJGegw5whN9rE5rvXSsmo831JYpjcPzfFeDlNfiHIQo5GBFgiWhgPPUcEdq4QAzz9SFdMfhOB5
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJANcsHOrHcc+VMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUucGluZXJvbG8udG8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDQyOTA5MjQyMloXDTI5MDQyNjA5MjQyMlowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5waW5lcm9sby50by5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPOJxlcZELrpG6Wbjt9hSvQ059vluByE2zFD+Cx8zo95LWgO+RrTSFcZNO0uRHsY4Cbsley6k5S8rerjxU01VcHX/UhS83CzYPPWxReWkts66h+b2b9/Ba7cE1m+77FBafY0X9v7xOneE2sV+9yfACiaFQcEHJEljTGSxnISNeKaRasO6N9LRI1lV2BIfz9j4Va4xGqyq1QgImqnu25DZrYnPwVcw5m3KIgLckOGp3RUJuVvKgeDlpMfh3b5AigJfkqnXqUxlwIMT+0dRuICpjSD1P/rdVhUb+EJPL9q6Xb2Uhj5/NZmra31WOFZvxZXnZwU+KrNMnc0NksZJnKenBAgMBAAGjUDBOMB0GA1UdDgQWBBTN7JNzW78aTzHn9s3qfofJyAxt8jAfBgNVHSMEGDAWgBTN7JNzW78aTzHn9s3qfofJyAxt8jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCYq4j+8iw5s8mWzqhUHqwngb4UqzG8zqV9r2k1XYE+AW1nyQg9V7MRJ2uRtqi6fqA9+nUvptgqnh0K2c+bZmUz1ILGT+uqHdBuScVOCKFOKPhgIHHbCzGhJWDRKR7rQvBAlfjTmja6ui+3L61q/ODkaz2MVb/ER24ADeTMRzXIlbYGCYwf4h/ygp9swl+T9Px2Jbn2FjUChH425jjAfcEj/MFFT2xh9xE7JfKzoqG6/NIuhk+gDTckOcESB+/SEI0kC6ysSy0b8zVJGegw5whN9rE5rvXSsmo831JYpjcPzfFeDlNfiHIQo5GBFgiWhgPPUcEdq4QAzz9SFdMfhOB5
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/pinerolo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pinerolo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pinerolo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pinerolo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pinerolo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Pinerolo</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Pinerolo</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Pinerolo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pinerolo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pinerolo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Pinerolo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Pinerolo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pinerolo.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pinerolo.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.pinerolo.to.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.pinerolo.to.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

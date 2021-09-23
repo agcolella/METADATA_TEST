@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.massanzago.pd.it" ID="pfxab7f3205-ab16-c81d-aacb-075b42e15e25"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxab7f3205-ab16-c81d-aacb-075b42e15e25"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>FFF0ovad0d+DewtVy8Q3p0Kije6PTw/x9qdmwKenTpY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>SxMWkQiL5NiSL9xrHZ1rM1fxnNKLm65G3ED2PJGtYajq5bysEloWNotRRcTPyIW+ifWSrCng6CPQUoYyXM4OXT3mC+Le2YYvFBBNPGf1Ut222odEsp4qhSzCoSc4FGDHEhkNJJLJvyYAxTTcuAo0Pwj1jILvEPihRPNvtW0eeNPQ3TYUckdOgQUUkwaZIH5p5EX/Ygwy1+z3ULomly6p6gISxZlqc80X5AhmVZ282YYIzqtp02ENz3dXqV4kRRQkIat9vkL7HzWqroxq16fdCBps428lszv93sGtv8Lap+KXXTBasXHz/H4q83+PxAlDVf/sh+qklpFZsV4KaLY5TQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMwtJwf9IhM0MA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FuemFnbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbnphZ28xJDAiBgNVBAMMG3d3dy5jb211bmUubWFzc2FuemFnby5wZC5pdDAeFw0xODA0MDYxMjQyMTVaFw0yODA0MDUxMjQyMTVaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FuemFnbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbnphZ28xJDAiBgNVBAMMG3d3dy5jb211bmUubWFzc2FuemFnby5wZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMquFHan0XUkKsVvEhFfEDGnSWR0LTS/ZeTcS6yjRRb62RoLjxE+ZflwwYlkc8CiRTIdaT0Ha87jpJJeaOEbTueX6n+Uc6Cj9bSDmSn3MeT2jWz9WFfehw4ZqyeSuNsyzGZFrcz7M1MnPff5oV4LtTfCgtWKx6F1xfv3OjGd8of59TQrmhzZMTeeMFhjkuZTkiudAFXsscBap9R91uNXUZtD6h+NDQYs+I1PXkRZ80DtXyp65b1kuU7kwBZwsAJzLT3q+KZcg2BTCy8GgE7glTvMMblCuVWwKo1bx5XACW2cxvAljZEFxckvv5pzPsI1T7AyPw0chw/5y3xghjvTUZcCAwEAAaNQME4wHQYDVR0OBBYEFDjFKfwDvoPcpujVNn5z83lqRcfaMB8GA1UdIwQYMBaAFDjFKfwDvoPcpujVNn5z83lqRcfaMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACASQwGHclpOvFNPtkYE+5Fqozji68WsQpdZ/eTSF5CfOo49TwWcJn8hT/SIu3DWlikHuazHCVBYaegBIaT8RJdiIG1YdH0AyxL2a135obWY/ZZBDvPyhxX87Sg25ycLeCt3CZRq/vEvAksMgKdj1Y/yiod5cK9Zib9kfzidH9vBu5ldng7q8tanuUhGlfYemHUxKacptkk5+LQb5oK4Dj4SWmxviQ8Nqg6YwxWILXW6S6Ah0Gk37KOF0OHvnhklmzWh5UxTlclGCQ/oLO48vPyjp4PJyAURCnoeV+ePGiEqFaKVU68XfF+8oI29QBqvixK/cFHy0gAfUUH28lJBt1A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMwtJwf9IhM0MA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FuemFnbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbnphZ28xJDAiBgNVBAMMG3d3dy5jb211bmUubWFzc2FuemFnby5wZC5pdDAeFw0xODA0MDYxMjQyMTVaFw0yODA0MDUxMjQyMTVaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FuemFnbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbnphZ28xJDAiBgNVBAMMG3d3dy5jb211bmUubWFzc2FuemFnby5wZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMquFHan0XUkKsVvEhFfEDGnSWR0LTS/ZeTcS6yjRRb62RoLjxE+ZflwwYlkc8CiRTIdaT0Ha87jpJJeaOEbTueX6n+Uc6Cj9bSDmSn3MeT2jWz9WFfehw4ZqyeSuNsyzGZFrcz7M1MnPff5oV4LtTfCgtWKx6F1xfv3OjGd8of59TQrmhzZMTeeMFhjkuZTkiudAFXsscBap9R91uNXUZtD6h+NDQYs+I1PXkRZ80DtXyp65b1kuU7kwBZwsAJzLT3q+KZcg2BTCy8GgE7glTvMMblCuVWwKo1bx5XACW2cxvAljZEFxckvv5pzPsI1T7AyPw0chw/5y3xghjvTUZcCAwEAAaNQME4wHQYDVR0OBBYEFDjFKfwDvoPcpujVNn5z83lqRcfaMB8GA1UdIwQYMBaAFDjFKfwDvoPcpujVNn5z83lqRcfaMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACASQwGHclpOvFNPtkYE+5Fqozji68WsQpdZ/eTSF5CfOo49TwWcJn8hT/SIu3DWlikHuazHCVBYaegBIaT8RJdiIG1YdH0AyxL2a135obWY/ZZBDvPyhxX87Sg25ycLeCt3CZRq/vEvAksMgKdj1Y/yiod5cK9Zib9kfzidH9vBu5ldng7q8tanuUhGlfYemHUxKacptkk5+LQb5oK4Dj4SWmxviQ8Nqg6YwxWILXW6S6Ah0Gk37KOF0OHvnhklmzWh5UxTlclGCQ/oLO48vPyjp4PJyAURCnoeV+ePGiEqFaKVU68XfF+8oI29QBqvixK/cFHy0gAfUUH28lJBt1A=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwTCCAqmgAwIBAgIJAMwtJwf9IhM0MA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FuemFnbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbnphZ28xJDAiBgNVBAMMG3d3dy5jb211bmUubWFzc2FuemFnby5wZC5pdDAeFw0xODA0MDYxMjQyMTVaFw0yODA0MDUxMjQyMTVaMHcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FuemFnbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbnphZ28xJDAiBgNVBAMMG3d3dy5jb211bmUubWFzc2FuemFnby5wZC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMquFHan0XUkKsVvEhFfEDGnSWR0LTS/ZeTcS6yjRRb62RoLjxE+ZflwwYlkc8CiRTIdaT0Ha87jpJJeaOEbTueX6n+Uc6Cj9bSDmSn3MeT2jWz9WFfehw4ZqyeSuNsyzGZFrcz7M1MnPff5oV4LtTfCgtWKx6F1xfv3OjGd8of59TQrmhzZMTeeMFhjkuZTkiudAFXsscBap9R91uNXUZtD6h+NDQYs+I1PXkRZ80DtXyp65b1kuU7kwBZwsAJzLT3q+KZcg2BTCy8GgE7glTvMMblCuVWwKo1bx5XACW2cxvAljZEFxckvv5pzPsI1T7AyPw0chw/5y3xghjvTUZcCAwEAAaNQME4wHQYDVR0OBBYEFDjFKfwDvoPcpujVNn5z83lqRcfaMB8GA1UdIwQYMBaAFDjFKfwDvoPcpujVNn5z83lqRcfaMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACASQwGHclpOvFNPtkYE+5Fqozji68WsQpdZ/eTSF5CfOo49TwWcJn8hT/SIu3DWlikHuazHCVBYaegBIaT8RJdiIG1YdH0AyxL2a135obWY/ZZBDvPyhxX87Sg25ycLeCt3CZRq/vEvAksMgKdj1Y/yiod5cK9Zib9kfzidH9vBu5ldng7q8tanuUhGlfYemHUxKacptkk5+LQb5oK4Dj4SWmxviQ8Nqg6YwxWILXW6S6Ah0Gk37KOF0OHvnhklmzWh5UxTlclGCQ/oLO48vPyjp4PJyAURCnoeV+ePGiEqFaKVU68XfF+8oI29QBqvixK/cFHy0gAfUUH28lJBt1A=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.massanzago.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.massanzago.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Massanzago</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Massanzago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.massanzago.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

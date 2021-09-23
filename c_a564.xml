@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="BagnoaRipoli" entityID="https://www.comune.bagno-a-ripoli.fi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#BagnoaRipoli">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fqxwiSLiKAF+xFCRy50PK3ZX98WdvRFJdqMbxcZ8ptU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XAha3EGswLiaQ3p85ApkngABe6DyDX6RT+ttYf8VDY8U0mNvWZA5bKArpvNcFYCpjazscbFgTc/i
+5OqhGaH1VdgKW5kLAVGC5tthJwndDRzEalG9rJ0oO2n/zZGC9CAYfprNubDFySlPPDX986uRgMfL
+PL/To9uQXOwtmTmhmhyFC5lRur9jh52G/ltzd9rkAYzI2grf48pocfOv68IrNfMjrZOBF4TUMwb2
+Md6LkDec+o9qLnrCIoRVFOKvadZ/fFcTf883LLeG2Cb+zyJ0V4ng+55+Uf4oyKuoP6PimtqlqVLr
++XvzOtea6skoyP97tRdLJ3ST9Iphtmky197b5Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xjvYS1nbiFLAlviKDP5kYsX1g2A6+yyAkdL/brx+xN6V3XPajLtJXmFxxHF/0jcg4JI01n9D+7T4
+jUiAXYatY2U2DN9EvIcjnMTLZqHKB+dBpbMmKJO2rjVFS3aJNNodhH58C5QsWRoKV/u8OJbPvaHK
+SUK5UC8L7TYl6rtmMNU+3UWWZQmwFzxnLfMMFJgjQybsd56xdSZPYYqWt7Qd7FqOmOjKLkj985cp
+9dSclRclyumJfJ++i5gcSPW/+aCwVNBqA4KEwXSOGsNJHxnnSMgyDZBUCh4WJqBJ3edBYbJ6sg6u
+l5kOaTlFuQAdPQZZXeL76EOj0Hfo6jTlsK3yyQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAM1OVlNOIxSAMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUuYmFnbm8tYS1yaXBvbGkuZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE4MDcwNjExMDI1NVoXDTI4MDcwMzExMDI1NVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5iYWdu
+by1hLXJpcG9saS5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDGO9hLWduIUsCW+IoM/mRixfWDYDr7LICR0v9uvH7E3pXdc9qM
+u0leYXHEcX/SNyDgkjTWf0P7tPiNSIBdhq1jZTYM30S8hyOcxMtmocoH50GlsyYok7auNUVLdok0
+2h2EfnwLlCxZGgpX+7w4ls+9ocpJQrlQLwvtNiXqu2Yw1T7dRZZlCbAXPGct8wwUmCNDJux3nrF1
+Jk9hipa3tB3sWo6Y6MouSP3zlyn11JyVFyXK6Yl8n76LmBxI9b/5oLBU0GoDgoTBdI4aw0kfGedI
+yDINkFQKHhYmoEnd50FhsnqyDq6XmQ5pOUW5AB09Blld4vvoQ6PQd+jqNOWwrfLJAgMBAAGjUDBO
+MB0GA1UdDgQWBBTYfP2W9sIGaUQtuiEvKvnNI7KN/jAfBgNVHSMEGDAWgBTYfP2W9sIGaUQtuiEv
+KvnNI7KN/jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBhwGBuNB8IsubL+3fXpuaf
+YA8pWhDNIFPLf11288p0FL7qWv96nt1iSZkKICzEv/cZHyyx78+k/M5+MLbn7pMX0LAG/Ga3HID5
+yiBrN3dmXcwKEm108QUoC7civ3X5aiX/h5S6bvdkjKDH/9WTo0Bly8EepcolGc2E1x+MDbhP9yLU
+0k7kbgnLWOcI6L/lObKGFcPPuQhRTjssuiRkFd7dCUGlip53Fkus/e/KIIV1/ZRgMKy4y+b0xGP/
+WHtmWrdJYzlfMt6BV5yNXq8X7RHfF7jCauvFfGg9yrIK7nfITc/QI2LTKMiF7o6uMTksoVWKGsrw
+9gQ4DU7wdX41mDoQ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAM1OVlNOIxSAMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUuYmFnbm8tYS1yaXBvbGkuZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDcwNjExMDI1NVoXDTI4MDcwMzExMDI1NVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5iYWduby1hLXJpcG9saS5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGO9hLWduIUsCW+IoM/mRixfWDYDr7LICR0v9uvH7E3pXdc9qMu0leYXHEcX/SNyDgkjTWf0P7tPiNSIBdhq1jZTYM30S8hyOcxMtmocoH50GlsyYok7auNUVLdok02h2EfnwLlCxZGgpX+7w4ls+9ocpJQrlQLwvtNiXqu2Yw1T7dRZZlCbAXPGct8wwUmCNDJux3nrF1Jk9hipa3tB3sWo6Y6MouSP3zlyn11JyVFyXK6Yl8n76LmBxI9b/5oLBU0GoDgoTBdI4aw0kfGedIyDINkFQKHhYmoEnd50FhsnqyDq6XmQ5pOUW5AB09Blld4vvoQ6PQd+jqNOWwrfLJAgMBAAGjUDBOMB0GA1UdDgQWBBTYfP2W9sIGaUQtuiEvKvnNI7KN/jAfBgNVHSMEGDAWgBTYfP2W9sIGaUQtuiEvKvnNI7KN/jAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBhwGBuNB8IsubL+3fXpuafYA8pWhDNIFPLf11288p0FL7qWv96nt1iSZkKICzEv/cZHyyx78+k/M5+MLbn7pMX0LAG/Ga3HID5yiBrN3dmXcwKEm108QUoC7civ3X5aiX/h5S6bvdkjKDH/9WTo0Bly8EepcolGc2E1x+MDbhP9yLU0k7kbgnLWOcI6L/lObKGFcPPuQhRTjssuiRkFd7dCUGlip53Fkus/e/KIIV1/ZRgMKy4y+b0xGP/WHtmWrdJYzlfMt6BV5yNXq8X7RHfF7jCauvFfGg9yrIK7nfITc/QI2LTKMiF7o6uMTksoVWKGsrw9gQ4DU7wdX41mDoQ
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bagnoaripoli"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bagnoaripoli" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bagnoaripoli" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bagnoaripoli" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziDomandaIndividuale</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bagno a Ripoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bagno a Ripoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bagno a Ripoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bagno a Ripoli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bagno a Ripoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bagno a Ripoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bagno a Ripoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bagno a Ripoli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bagno-a-ripoli.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bagno-a-ripoli.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.bagno-a-ripoli.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.bagno-a-ripoli.fi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

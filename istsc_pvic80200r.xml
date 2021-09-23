@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icrobecchi.edu.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/metadata.php/default-sp" ID="pfx84f2c06a-2ce5-3cc7-1330-2af55cd6e6d4"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx84f2c06a-2ce5-3cc7-1330-2af55cd6e6d4"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>PmwM1l1LJ/9DvjeiBfJnsnyq1j3LPGa/TuPIRLWpGIQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>SDtvCE47wClRxmNsXnKpf2Uiy+apDDpooP1RiUuNdw/wKsN/JJt7A72im98MyWRvg2Aac8S8diLu+HHWVKSusyoEqUfdGqGXe5VJOaV6ADM8Yymlo5VfljSLIu+Xz1ytB+Xc956lMSwrcQqTdWzsKBY1jN+kQcJhQRcEI09JMWOVekvXoz5KNiEz9FK5NZmo3I3AiXWQQmpKD9sBfGKWVPmhz55fpPYjrVT4IgSref+srv8bdPy5kLqI4T6CjGvow0z1MWP3/aQ4nlSlF7hAlVlfSNfUkTG4aoPjEAGu1mJ8X7qKZsXPfQqikYhGFoU/M1km4fZOnDex5gZ8xMXuTw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEVDCCAzygAwIBAgIIbNErf92P0tEwDQYJKoZIhvcNAQELBQAwgcAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTERMA8GA1UEBwwIR2FtYm9sw7IxLjAsBgNVBAoMJUlzdGl0dXRvIENvbXByZW5zaXZvIEcuIGUgRy4gUm9iZWNjaGkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHjAcBgNVBAMMFXd3dy5pY3JvYmVjY2hpLmVkdS5pdDEmMCQGCSqGSIb3DQEJARYXZGlyaWdlbnRlQGljcm9iZWNjaGkuaXQwHhcNMTgxMTAyMTgxOTUzWhcNMzgxMTAxMTgxOTUzWjCBwDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVBhdmlhMREwDwYDVQQHDAhHYW1ib2zDsjEuMCwGA1UECgwlSXN0aXR1dG8gQ29tcHJlbnNpdm8gRy4gZSBHLiBSb2JlY2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3Lmljcm9iZWNjaGkuZWR1Lml0MSYwJAYJKoZIhvcNAQkBFhdkaXJpZ2VudGVAaWNyb2JlY2NoaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALCxl5EeX091ASo2J21+QTsGnjdiGIIhFbjTPmLXznYpX7MwFbaMJljIYwYjkNFXZfWIFtxdhXmNjh7/rDHJ5gaY9D5B7OSqCl56AOhqAAtNsZlvpq86/Wdyr6t5RqG/fMSdoankBk95EweO/QrdyKMj9OoZSTsGyOCltRGNbwHWZVY4sXtmqPaDPwVa4yAs9VsfGrUPUc7cRFMWf+ks76C6dKXWsHB1nW3TPwWMp0JBp8kOv3Uud8i9vJCC7e8JIpVUZ69oaSTQpCioCvr07klKCBsdxc9Wy6QWT1oPia5SsP9mNNGP9ccVRAnWLeRjUzIiEju27ujiMcbTEYFXvQUCAwEAAaNQME4wHQYDVR0OBBYEFGTF6vgd6ObNdKQ5vMfQzaEMWFIAMB8GA1UdIwQYMBaAFGTF6vgd6ObNdKQ5vMfQzaEMWFIAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFrDVGQLBGme7VGCBj1Nb+CtFc7JeN8V7woFFsxT5z9Q+lOQV6WqzlI91c6vF2KzhZs2Z4q2x06RZ69jw2xwNaUTXTjgNca3eP653Z1kHT7jsbkT4nOl9Sv3KvfS4KQGZ+GF61SH1+v/q0106eLNgi9xVi+32zetykJ80GYKm1kY8LtnQ1/C+elp7wXQH2D/LIy8HQvVYBKOJCpL3bygc8TRCM3UNVqxQpRDG0rOE80380nJQ/fZbDfM6fkUbNZjfGYw/r0uo0fJvD9IternCi5zJyt32bdsYvfp8IZ9LQQAH/aYZ8pR6ssk5wjbBqaFFu1ASefAd4x2ohKyRdxlGL8=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEVDCCAzygAwIBAgIIbNErf92P0tEwDQYJKoZIhvcNAQELBQAwgcAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTERMA8GA1UEBwwIR2FtYm9sw7IxLjAsBgNVBAoMJUlzdGl0dXRvIENvbXByZW5zaXZvIEcuIGUgRy4gUm9iZWNjaGkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHjAcBgNVBAMMFXd3dy5pY3JvYmVjY2hpLmVkdS5pdDEmMCQGCSqGSIb3DQEJARYXZGlyaWdlbnRlQGljcm9iZWNjaGkuaXQwHhcNMTgxMTAyMTgxOTUzWhcNMzgxMTAxMTgxOTUzWjCBwDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVBhdmlhMREwDwYDVQQHDAhHYW1ib2zDsjEuMCwGA1UECgwlSXN0aXR1dG8gQ29tcHJlbnNpdm8gRy4gZSBHLiBSb2JlY2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3Lmljcm9iZWNjaGkuZWR1Lml0MSYwJAYJKoZIhvcNAQkBFhdkaXJpZ2VudGVAaWNyb2JlY2NoaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALCxl5EeX091ASo2J21+QTsGnjdiGIIhFbjTPmLXznYpX7MwFbaMJljIYwYjkNFXZfWIFtxdhXmNjh7/rDHJ5gaY9D5B7OSqCl56AOhqAAtNsZlvpq86/Wdyr6t5RqG/fMSdoankBk95EweO/QrdyKMj9OoZSTsGyOCltRGNbwHWZVY4sXtmqPaDPwVa4yAs9VsfGrUPUc7cRFMWf+ks76C6dKXWsHB1nW3TPwWMp0JBp8kOv3Uud8i9vJCC7e8JIpVUZ69oaSTQpCioCvr07klKCBsdxc9Wy6QWT1oPia5SsP9mNNGP9ccVRAnWLeRjUzIiEju27ujiMcbTEYFXvQUCAwEAAaNQME4wHQYDVR0OBBYEFGTF6vgd6ObNdKQ5vMfQzaEMWFIAMB8GA1UdIwQYMBaAFGTF6vgd6ObNdKQ5vMfQzaEMWFIAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFrDVGQLBGme7VGCBj1Nb+CtFc7JeN8V7woFFsxT5z9Q+lOQV6WqzlI91c6vF2KzhZs2Z4q2x06RZ69jw2xwNaUTXTjgNca3eP653Z1kHT7jsbkT4nOl9Sv3KvfS4KQGZ+GF61SH1+v/q0106eLNgi9xVi+32zetykJ80GYKm1kY8LtnQ1/C+elp7wXQH2D/LIy8HQvVYBKOJCpL3bygc8TRCM3UNVqxQpRDG0rOE80380nJQ/fZbDfM6fkUbNZjfGYw/r0uo0fJvD9IternCi5zJyt32bdsYvfp8IZ9LQQAH/aYZ8pR6ssk5wjbBqaFFu1ASefAd4x2ohKyRdxlGL8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEVDCCAzygAwIBAgIIbNErf92P0tEwDQYJKoZIhvcNAQELBQAwgcAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVQYXZpYTERMA8GA1UEBwwIR2FtYm9sw7IxLjAsBgNVBAoMJUlzdGl0dXRvIENvbXByZW5zaXZvIEcuIGUgRy4gUm9iZWNjaGkxFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExHjAcBgNVBAMMFXd3dy5pY3JvYmVjY2hpLmVkdS5pdDEmMCQGCSqGSIb3DQEJARYXZGlyaWdlbnRlQGljcm9iZWNjaGkuaXQwHhcNMTgxMTAyMTgxOTUzWhcNMzgxMTAxMTgxOTUzWjCBwDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVBhdmlhMREwDwYDVQQHDAhHYW1ib2zDsjEuMCwGA1UECgwlSXN0aXR1dG8gQ29tcHJlbnNpdm8gRy4gZSBHLiBSb2JlY2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEeMBwGA1UEAwwVd3d3Lmljcm9iZWNjaGkuZWR1Lml0MSYwJAYJKoZIhvcNAQkBFhdkaXJpZ2VudGVAaWNyb2JlY2NoaS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALCxl5EeX091ASo2J21+QTsGnjdiGIIhFbjTPmLXznYpX7MwFbaMJljIYwYjkNFXZfWIFtxdhXmNjh7/rDHJ5gaY9D5B7OSqCl56AOhqAAtNsZlvpq86/Wdyr6t5RqG/fMSdoankBk95EweO/QrdyKMj9OoZSTsGyOCltRGNbwHWZVY4sXtmqPaDPwVa4yAs9VsfGrUPUc7cRFMWf+ks76C6dKXWsHB1nW3TPwWMp0JBp8kOv3Uud8i9vJCC7e8JIpVUZ69oaSTQpCioCvr07klKCBsdxc9Wy6QWT1oPia5SsP9mNNGP9ccVRAnWLeRjUzIiEju27ujiMcbTEYFXvQUCAwEAAaNQME4wHQYDVR0OBBYEFGTF6vgd6ObNdKQ5vMfQzaEMWFIAMB8GA1UdIwQYMBaAFGTF6vgd6ObNdKQ5vMfQzaEMWFIAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFrDVGQLBGme7VGCBj1Nb+CtFc7JeN8V7woFFsxT5z9Q+lOQV6WqzlI91c6vF2KzhZs2Z4q2x06RZ69jw2xwNaUTXTjgNca3eP653Z1kHT7jsbkT4nOl9Sv3KvfS4KQGZ+GF61SH1+v/q0106eLNgi9xVi+32zetykJ80GYKm1kY8LtnQ1/C+elp7wXQH2D/LIy8HQvVYBKOJCpL3bygc8TRCM3UNVqxQpRDG0rOE80380nJQ/fZbDfM6fkUbNZjfGYw/r0uo0fJvD9IternCi5zJyt32bdsYvfp8IZ9LQQAH/aYZ8pR6ssk5wjbBqaFFu1ASefAd4x2ohKyRdxlGL8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icrobecchi.edu.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icrobecchi.edu.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">_ic_robecchiedu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istituto Comprensivo G. e G. Robecchi / Gambol&#xF2; (Pavia)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo G. e G. Robecchi / Gambol&#xF2;</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo G. e G. Robecchi / Gambol&#xF2;</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icrobecchi.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

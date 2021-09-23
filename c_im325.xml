@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_11e0b49c98317d6657505b1d8a2f8425ebab5d6b" entityID="https://spid.comune.sissatrecasali.pr.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_11e0b49c98317d6657505b1d8a2f8425ebab5d6b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>mdYTEu30ZxyZmSpZ2rrEinv+hrN50LznL2TnywwXYKM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qREJy/uTPYazElQSYiy5hZhxXQNVscL29VkzBXvxCreZe3npJ5FnWzHNF5JyuhqEqUG8xH/kuCaL
+gRkQx8gUhNOr1jB4hx676l2QGDhqUXul/+4GPbWdHI2bdqkhuD62dbT9DqYA6CohbVsJsAjOu2zi
+Ik/vZE0CY1EnuKNcjXiHAfoid0mAhkBskOuPZpiAXLsz1vE7fdoLs1fppQUyTeZJFL0ewFkNPAby
+8BFckaoZsnZH7KJFjSc5RAqjqc54v+/1vmU8U5tERqwPFmo3sYl0FClKh3MaNxExe7QarHx4Tw1a
+z9q2qNotNSoOtFoptUQV/bd30j/G01/y9Nw3/UbB7pymsJPoJznC47m43ttn/Yf/MDTRlEvt2ajJ
+9aiYWUffPzVr0hE0vfJf544vTDGXTs6tuTKe7FGnYdoPgrWaEpz2IR0/7zVd9Ac5eleJwg49v8lW
+3fNhd3SPE53LhxRp4PKkLX3KhbGCmrifR4kgOtcp/XwJ10ih0U+90q/n
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qplv2m7DCUj7XaqdOgyV8b1gJWZIeA/1z+BGt1B9em9sVjr7Qv0vGjV3ucc/lS26c5dimrQvuG8s
+4/qqnUh3FjO3GjIlWmADy/lhG1ApleGbp0SH+2wFPlQlf15GIxPegCKO698SrvxoiU0tOnavZNMA
+j6CPLkXYKeHR6bfAV9Da57/uRerjwnro1vrcfSufPJPhJy8dnRlTr4Cwq+LUD6/7tJa+0/fANk8H
+PwEqiZATAMdOFuOzTI4URDjJ+dH0Yk5ZUt9ok2HTgf8nKe+HaYASR3RnMnXui+yHJklAu7UatuM1
+MPh0ULaTkZBlqOqz9LU5fbAdu7ow5jlA//p4vK9AtQ/jyY5SWEFV/2cNb7OQY67lzBTyAidoSuiU
+u8Q+RkDDOLFQLRM8E4GHJ6+SlkXGz/oZ5d2ZBAAJwdGPbgZmnmnKfiBnhk6NUcNSSwfqdUcO3Dyv
+pIRO/gVKok4rrcdM+JBC+gQtC/MCin5oj5Lu//ofTJCMN+3MGEoS6t41
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEJzCCAo+gAwIBAgIJAPEXHm3WCjKxMA0GCSqGSIb3DQEBCwUAMCsxKTAnBgNVBAMTIHNwaWQu
+Y29tdW5lLnNpc3NhdHJlY2FzYWxpLnByLml0MB4XDTIwMDQwNjExMDE0M1oXDTMwMDQwNDExMDE0
+M1owKzEpMCcGA1UEAxMgc3BpZC5jb211bmUuc2lzc2F0cmVjYXNhbGkucHIuaXQwggGiMA0GCSqG
+SIb3DQEBAQUAA4IBjwAwggGKAoIBgQCqmW/absMJSPtdqp06DJXxvWAlZkh4D/XP4Ea3UH16b2xW
+OvtC/S8aNXe5xz+VLbpzl2KatC+4byzj+qqdSHcWM7caMiVaYAPL+WEbUCmV4ZunRIf7bAU+VCV/
+XkYjE96AIo7r3xKu/GiJTS06dq9k0wCPoI8uRdgp4dHpt8BX0Nrnv+5F6uPCeujW+tx9K588k+En
+Lx2dGVOvgLCr4tQPr/u0lr7T98A2Twc/ASqJkBMAx04W47NMjhREOMn50fRiTllS32iTYdOB/ycp
+74dpgBJHdGcyde6L7IcmSUC7tRq24zUw+HRQtpORkGWo6rP0tTl9sB27ujDmOUD/+ni8r0C1D+PJ
+jlJYQVX/Zw1vs5BjruXMFPICJ2hK6JS7xD5GQMM4sVAtEzwTgYcnr5KWRcbP+hnl3ZkEAAnB0Y9u
+Bmaeacp+IGeGTo1Rw1JLB+p1Rw7cPK+khE7+BUqiTiutx0z4kEL6BC0L8wKKfmiPku7/+h9MkIw3
+7cwYShLq3jUCAwEAAaNOMEwwKwYDVR0RBCQwIoIgc3BpZC5jb211bmUuc2lzc2F0cmVjYXNhbGku
+cHIuaXQwHQYDVR0OBBYEFPA4sc4NF5kWQe+/yGrfnS67IbBYMA0GCSqGSIb3DQEBCwUAA4IBgQB6
+fgSYj6kDoxkXXIvOKPRwW/cwPIUQDd44ZOoA+fo7lOI21g89/OL14yPlGq05nKBiQSi8bR+bQthi
+s/Zw+bBgwbty+ILYUTExdqaw3sFqX2U1v+04tmxbwG2OryUA59R7tMJGsidMgEFovmGW0jAvl6gL
+9NshUS8IVlRE0lyV9Fmxi8XwijXEG9yQ/A33KMneE7QGB9E5e/KVtof8fSEwglhc2H+LU6fuSPvq
+bKzLnxj0DaYaqsCXywW1lILy9GKbFsuvCFtQASBJiGCCnjGYvco+RYyMu0umOS03RneP2+en4akV
+gVHKBFtcy9YnRscows2XUJoheXmNbNJ3zqeQc8mjZfta1hjaow9KJm6SZIfqUJLII3m5qIV3ZBZi
+sstJydN7T9sdxR2509FyxUGwcqJgF1j65iCwf1P4HT6w+JgcQ9eO9QXcN4c2nCSOWZo+v/Sz2eYx
+KIu6iCOqMRcEFVs7qjozU34OwY8d+TZdU8b/HuM26jhHh/yfi01qPJo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.comune.sissatrecasali.pr.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.comune.sissatrecasali.pr.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEJzCCAo+gAwIBAgIJAPEXHm3WCjKxMA0GCSqGSIb3DQEBCwUAMCsxKTAnBgNV
+BAMTIHNwaWQuY29tdW5lLnNpc3NhdHJlY2FzYWxpLnByLml0MB4XDTIwMDQwNjEx
+MDE0M1oXDTMwMDQwNDExMDE0M1owKzEpMCcGA1UEAxMgc3BpZC5jb211bmUuc2lz
+c2F0cmVjYXNhbGkucHIuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIB
+gQCqmW/absMJSPtdqp06DJXxvWAlZkh4D/XP4Ea3UH16b2xWOvtC/S8aNXe5xz+V
+Lbpzl2KatC+4byzj+qqdSHcWM7caMiVaYAPL+WEbUCmV4ZunRIf7bAU+VCV/XkYj
+E96AIo7r3xKu/GiJTS06dq9k0wCPoI8uRdgp4dHpt8BX0Nrnv+5F6uPCeujW+tx9
+K588k+EnLx2dGVOvgLCr4tQPr/u0lr7T98A2Twc/ASqJkBMAx04W47NMjhREOMn5
+0fRiTllS32iTYdOB/ycp74dpgBJHdGcyde6L7IcmSUC7tRq24zUw+HRQtpORkGWo
+6rP0tTl9sB27ujDmOUD/+ni8r0C1D+PJjlJYQVX/Zw1vs5BjruXMFPICJ2hK6JS7
+xD5GQMM4sVAtEzwTgYcnr5KWRcbP+hnl3ZkEAAnB0Y9uBmaeacp+IGeGTo1Rw1JL
+B+p1Rw7cPK+khE7+BUqiTiutx0z4kEL6BC0L8wKKfmiPku7/+h9MkIw37cwYShLq
+3jUCAwEAAaNOMEwwKwYDVR0RBCQwIoIgc3BpZC5jb211bmUuc2lzc2F0cmVjYXNh
+bGkucHIuaXQwHQYDVR0OBBYEFPA4sc4NF5kWQe+/yGrfnS67IbBYMA0GCSqGSIb3
+DQEBCwUAA4IBgQB6fgSYj6kDoxkXXIvOKPRwW/cwPIUQDd44ZOoA+fo7lOI21g89
+/OL14yPlGq05nKBiQSi8bR+bQthis/Zw+bBgwbty+ILYUTExdqaw3sFqX2U1v+04
+tmxbwG2OryUA59R7tMJGsidMgEFovmGW0jAvl6gL9NshUS8IVlRE0lyV9Fmxi8Xw
+ijXEG9yQ/A33KMneE7QGB9E5e/KVtof8fSEwglhc2H+LU6fuSPvqbKzLnxj0DaYa
+qsCXywW1lILy9GKbFsuvCFtQASBJiGCCnjGYvco+RYyMu0umOS03RneP2+en4akV
+gVHKBFtcy9YnRscows2XUJoheXmNbNJ3zqeQc8mjZfta1hjaow9KJm6SZIfqUJLI
+I3m5qIV3ZBZisstJydN7T9sdxR2509FyxUGwcqJgF1j65iCwf1P4HT6w+JgcQ9eO
+9QXcN4c2nCSOWZo+v/Sz2eYxKIu6iCOqMRcEFVs7qjozU34OwY8d+TZdU8b/HuM2
+6jhHh/yfi01qPJo=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sissatrecasali.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sissatrecasali.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set0</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+					<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+					<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+					<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+					<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+					<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+					<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+					<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					<md:RequestedAttribute FriendlyName="address" Name="address"/>
+					<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Comune di Sissa Trecasali</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Comune di Sissa Trecasali</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">https://www.comune.sissatrecasali.pr.it</md:OrganizationURL>
+					</md:Organization></md:EntityDescriptor>

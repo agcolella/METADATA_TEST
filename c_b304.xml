@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.buttapietra.vr.it" ID="pfx4bbd9054-8781-79e6-2b06-038c8fab0f42"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx4bbd9054-8781-79e6-2b06-038c8fab0f42"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>LSESs5/IbaT7L1JWOmyGjeSOST9a1B5ch8wlFUcFeZg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FPyzW9NHQpNoUdGLaSY/INkbUivNYRnZkeRoUEuukk3WH3PBKZF41dh87A6iIWeOlsZY27p8p+1ZGVVzqncXtL40s1st9G38NJ9tHvVQMRc9/p+XV2uTzTdSyVEbyhIyjAws7qDjtRtTA4A1nQbHrfxz13FQgZnRbXAGuv1rL0P1BAKAQR57Z/W37RZt5PGie6VeNOhZYFs9IUGxVQlcpJdJxff2VkGbg6vDN/h5Us5Zud4ObpP/rmBEOMf0JuTtzZmUxwwAd16dEO67FzDXu9gFId1PHp1bt1wuQzxGz6RJAwwm8uHCy4ZtTawZamR7AAA7nGsxU/BXtjIfdHI3ZA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJAKtoUjTX+WgiMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQnV0dGFwaWV0cmExHjAcBgNVBAoMFUNvbXVuZSBkaSBCdXR0YXBpZXRyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5idXR0YXBpZXRyYS52ci5pdDAeFw0xODA1MjUxNjEwNDBaFw0yODA1MjQxNjEwNDBaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQnV0dGFwaWV0cmExHjAcBgNVBAoMFUNvbXVuZSBkaSBCdXR0YXBpZXRyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5idXR0YXBpZXRyYS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmsxlzj6ejI4Ct5fL3peeYymItfPEHjPL+TOH/8oH2GfuouDjfKjF3GOXw1JAbo9fnqYwg1oBp1In2KJrE6ACQcTuxdPwE3/nc1BLaQ38o8SuiUCPI0r2qHI8epXIJR1IwIc60Kn33GFNJEvpxEUaHwLpIQIL1LXoaHfmpZy/STFAU4hoqO2YqjAmbFIKNarox9FlUuJnsMIXtBS3zaylFXlS+S796jz11dAnk1l8rhD2jqwi02tciSLES0oMKbqAmyCwcE0OHTc6Q+ESpB/YtuADuT9KpRHMJgxHSO8yTYUhlLOS/8P9x2ZMz9JsUP1W2W3Q78qqTrpNy3yd0ZvisCAwEAAaNQME4wHQYDVR0OBBYEFBz5cvpTZv5PsphyNHe60LhvLI32MB8GA1UdIwQYMBaAFBz5cvpTZv5PsphyNHe60LhvLI32MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACaAbd43K3vMSYfqPKMesxM6A/CuPZTZjRyvfA+U04AB3gP2p1p9rebQ6mM9nyjtHV50+4Tnr1NeFMoi/VbPEWC+gc/AdcU6xk9nz7cdeSb3NnWZctE0crrh/Ty+sJOIbHRwFqHkrPpM2vM3mA/KWbE8GwTtzqO9Kk4PNl4tYLNC7km2tYRyErfiLfl2N1y9IugpTLuPiCqtq1pPtcjw3bmpds+MEqUgqCug2tw+pQhC4HhsR+SoehyhEwtK/Bn7wP/hfudO4+GVzCGafzW9wO77o9BqT4a9LgndDK1yFzTjnzTZH0C+Rgh66y1tfNXFONadZC5t0kxg1dQgyO79olU=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJAKtoUjTX+WgiMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQnV0dGFwaWV0cmExHjAcBgNVBAoMFUNvbXVuZSBkaSBCdXR0YXBpZXRyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5idXR0YXBpZXRyYS52ci5pdDAeFw0xODA1MjUxNjEwNDBaFw0yODA1MjQxNjEwNDBaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQnV0dGFwaWV0cmExHjAcBgNVBAoMFUNvbXVuZSBkaSBCdXR0YXBpZXRyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5idXR0YXBpZXRyYS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmsxlzj6ejI4Ct5fL3peeYymItfPEHjPL+TOH/8oH2GfuouDjfKjF3GOXw1JAbo9fnqYwg1oBp1In2KJrE6ACQcTuxdPwE3/nc1BLaQ38o8SuiUCPI0r2qHI8epXIJR1IwIc60Kn33GFNJEvpxEUaHwLpIQIL1LXoaHfmpZy/STFAU4hoqO2YqjAmbFIKNarox9FlUuJnsMIXtBS3zaylFXlS+S796jz11dAnk1l8rhD2jqwi02tciSLES0oMKbqAmyCwcE0OHTc6Q+ESpB/YtuADuT9KpRHMJgxHSO8yTYUhlLOS/8P9x2ZMz9JsUP1W2W3Q78qqTrpNy3yd0ZvisCAwEAAaNQME4wHQYDVR0OBBYEFBz5cvpTZv5PsphyNHe60LhvLI32MB8GA1UdIwQYMBaAFBz5cvpTZv5PsphyNHe60LhvLI32MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACaAbd43K3vMSYfqPKMesxM6A/CuPZTZjRyvfA+U04AB3gP2p1p9rebQ6mM9nyjtHV50+4Tnr1NeFMoi/VbPEWC+gc/AdcU6xk9nz7cdeSb3NnWZctE0crrh/Ty+sJOIbHRwFqHkrPpM2vM3mA/KWbE8GwTtzqO9Kk4PNl4tYLNC7km2tYRyErfiLfl2N1y9IugpTLuPiCqtq1pPtcjw3bmpds+MEqUgqCug2tw+pQhC4HhsR+SoehyhEwtK/Bn7wP/hfudO4+GVzCGafzW9wO77o9BqT4a9LgndDK1yFzTjnzTZH0C+Rgh66y1tfNXFONadZC5t0kxg1dQgyO79olU=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxzCCAq+gAwIBAgIJAKtoUjTX+WgiMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQnV0dGFwaWV0cmExHjAcBgNVBAoMFUNvbXVuZSBkaSBCdXR0YXBpZXRyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5idXR0YXBpZXRyYS52ci5pdDAeFw0xODA1MjUxNjEwNDBaFw0yODA1MjQxNjEwNDBaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQnV0dGFwaWV0cmExHjAcBgNVBAoMFUNvbXVuZSBkaSBCdXR0YXBpZXRyYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5idXR0YXBpZXRyYS52ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmsxlzj6ejI4Ct5fL3peeYymItfPEHjPL+TOH/8oH2GfuouDjfKjF3GOXw1JAbo9fnqYwg1oBp1In2KJrE6ACQcTuxdPwE3/nc1BLaQ38o8SuiUCPI0r2qHI8epXIJR1IwIc60Kn33GFNJEvpxEUaHwLpIQIL1LXoaHfmpZy/STFAU4hoqO2YqjAmbFIKNarox9FlUuJnsMIXtBS3zaylFXlS+S796jz11dAnk1l8rhD2jqwi02tciSLES0oMKbqAmyCwcE0OHTc6Q+ESpB/YtuADuT9KpRHMJgxHSO8yTYUhlLOS/8P9x2ZMz9JsUP1W2W3Q78qqTrpNy3yd0ZvisCAwEAAaNQME4wHQYDVR0OBBYEFBz5cvpTZv5PsphyNHe60LhvLI32MB8GA1UdIwQYMBaAFBz5cvpTZv5PsphyNHe60LhvLI32MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACaAbd43K3vMSYfqPKMesxM6A/CuPZTZjRyvfA+U04AB3gP2p1p9rebQ6mM9nyjtHV50+4Tnr1NeFMoi/VbPEWC+gc/AdcU6xk9nz7cdeSb3NnWZctE0crrh/Ty+sJOIbHRwFqHkrPpM2vM3mA/KWbE8GwTtzqO9Kk4PNl4tYLNC7km2tYRyErfiLfl2N1y9IugpTLuPiCqtq1pPtcjw3bmpds+MEqUgqCug2tw+pQhC4HhsR+SoehyhEwtK/Bn7wP/hfudO4+GVzCGafzW9wO77o9BqT4a9LgndDK1yFzTjnzTZH0C+Rgh66y1tfNXFONadZC5t0kxg1dQgyO79olU=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.buttapietra.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.buttapietra.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Buttapietra</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Buttapietra</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.buttapietra.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

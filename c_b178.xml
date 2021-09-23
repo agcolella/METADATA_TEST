@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.brignano.bg.it/" ID="_098da1852e8f090c190ae02c331798810a21f6f88976356f8f8e482267723ded"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_098da1852e8f090c190ae02c331798810a21f6f88976356f8f8e482267723ded"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>KZvO064GkY1+VgwtLQOj+YQSsb0QMNuoH7kgwFNkYAU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DUDpg7N9aLDuaYsLnghLCbItbOR2ke/f/BVV/W9q8i1FGmU2NOvi+bqRbVwXllYdlws0sHP+GWdrd2Mrs/kbl3wd1ICO2Qo4+yY9/kmkfNdzDzQ8ZPktWPTRF5MLEaJPAJcndXwa2vl+OONzokmZB+nMQcmyejNhqGhcguZhYZ6J/hguiWNkI04tp3RNcXr9JQDDBQUOZdecXtkfF3Ds4Ds5MNAAleGxDOLNVElrfhw3rrHhWnsn5N1zZJ1JP2bM+rAndzWwpcZZs558GrUPpEaJGw0lmxALt0w6o2JmbMrxK+e/skkEO+xX5+xzlrkZyjDggjQQD6Yx25MTBIwLxw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIETDCCAzSgAwIBAgIJAOeePM+fq5qnMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUQnJpZ25hbm8gR2VyYSBkJ0FkZGExJzAlBgNVBAoMHkNvbXVuZSBkaSBCcmlnbmFubyBHZXJhIGQnQWRkYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyaWduYW5vLmJnLml0MB4XDTIwMDMwMzEwMjE1OVoXDTMwMDMwMTEwMjE1OVowgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMR0wGwYDVQQHDBRCcmlnbmFubyBHZXJhIGQnQWRkYTEnMCUGA1UECgweQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZCdBZGRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYnJpZ25hbm8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChYg43OcIpEUtAeeJQ2D+ZXsnFvyq6BTpOV0ZqoCUe3Uz5hkDj3Iwtz/fLfm6GqhLhZo+JgE88gMPqoFMVh4d2KtSiCjTcXpEaPDf+T3OvuNTw5kpMQW0bV3HABXusqog1jxGk1kshbPGP2j7IJ8fFC+AIhXy2RrBXKXmHnnJFeESV29zJT0Rl0aTLleYsSrvaOXxUQgreg2V2uNxeqIeBGCfFOJZmtf/JFR7gdlwb/Hh24s0jQGSZ0sNfxQWA9DSMGynTjMAwA6LbEY3aRBe5atTxv3TGneFo6FVCMsk6E5zsddzIyljHYvkdCfuix6RaJNKZ8O4131BIHWposQVPAgMBAAGjUzBRMB0GA1UdDgQWBBShouEyhbzJ9sKO70eQ+qlVwWHGRjAfBgNVHSMEGDAWgBShouEyhbzJ9sKO70eQ+qlVwWHGRjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7cNsZi2KyubVRPOXualS0MNh7AavyLTvr8zouIYVokBGH9EqD6PKtAw0zM73TLDvnjkv935w0qAKWs8HkXp4Fh2qN9emyy+l/aRPnDPsvRPlI1Z+0fbdiTSC7HzGzKlTNY+Bz2HAcqhzPoBvhed5s3ikE8NvSGDMK4MphBL2ZTZVPpKiPfZE3bZoVoOUElf6ERA9IY9KWFqfYed7grt9EnVFaEIG0+2Dy0xj6MpzLVmXVwe9Cl+D21NJ6UN/xqjGsxdzPHg/nonOFnvv9Nr7yPY+jKPsxnzUpkI4QDj7iRPZwgvlhFpynljUUYJjPfvVlZBpQkRzh6QxdV+A76vkr</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETDCCAzSgAwIBAgIJAOeePM+fq5qnMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUQnJpZ25hbm8gR2VyYSBkJ0FkZGExJzAlBgNVBAoMHkNvbXVuZSBkaSBCcmlnbmFubyBHZXJhIGQnQWRkYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyaWduYW5vLmJnLml0MB4XDTIwMDMwMzEwMjE1OVoXDTMwMDMwMTEwMjE1OVowgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMR0wGwYDVQQHDBRCcmlnbmFubyBHZXJhIGQnQWRkYTEnMCUGA1UECgweQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZCdBZGRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYnJpZ25hbm8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChYg43OcIpEUtAeeJQ2D+ZXsnFvyq6BTpOV0ZqoCUe3Uz5hkDj3Iwtz/fLfm6GqhLhZo+JgE88gMPqoFMVh4d2KtSiCjTcXpEaPDf+T3OvuNTw5kpMQW0bV3HABXusqog1jxGk1kshbPGP2j7IJ8fFC+AIhXy2RrBXKXmHnnJFeESV29zJT0Rl0aTLleYsSrvaOXxUQgreg2V2uNxeqIeBGCfFOJZmtf/JFR7gdlwb/Hh24s0jQGSZ0sNfxQWA9DSMGynTjMAwA6LbEY3aRBe5atTxv3TGneFo6FVCMsk6E5zsddzIyljHYvkdCfuix6RaJNKZ8O4131BIHWposQVPAgMBAAGjUzBRMB0GA1UdDgQWBBShouEyhbzJ9sKO70eQ+qlVwWHGRjAfBgNVHSMEGDAWgBShouEyhbzJ9sKO70eQ+qlVwWHGRjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7cNsZi2KyubVRPOXualS0MNh7AavyLTvr8zouIYVokBGH9EqD6PKtAw0zM73TLDvnjkv935w0qAKWs8HkXp4Fh2qN9emyy+l/aRPnDPsvRPlI1Z+0fbdiTSC7HzGzKlTNY+Bz2HAcqhzPoBvhed5s3ikE8NvSGDMK4MphBL2ZTZVPpKiPfZE3bZoVoOUElf6ERA9IY9KWFqfYed7grt9EnVFaEIG0+2Dy0xj6MpzLVmXVwe9Cl+D21NJ6UN/xqjGsxdzPHg/nonOFnvv9Nr7yPY+jKPsxnzUpkI4QDj7iRPZwgvlhFpynljUUYJjPfvVlZBpQkRzh6QxdV+A76vkr</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIETDCCAzSgAwIBAgIJAOeePM+fq5qnMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEdMBsGA1UEBwwUQnJpZ25hbm8gR2VyYSBkJ0FkZGExJzAlBgNVBAoMHkNvbXVuZSBkaSBCcmlnbmFubyBHZXJhIGQnQWRkYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMjAwBgNVBAMMKXNwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmJyaWduYW5vLmJnLml0MB4XDTIwMDMwMzEwMjE1OVoXDTMwMDMwMTEwMjE1OVowgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMR0wGwYDVQQHDBRCcmlnbmFubyBHZXJhIGQnQWRkYTEnMCUGA1UECgweQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZCdBZGRhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEyMDAGA1UEAwwpc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYnJpZ25hbm8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChYg43OcIpEUtAeeJQ2D+ZXsnFvyq6BTpOV0ZqoCUe3Uz5hkDj3Iwtz/fLfm6GqhLhZo+JgE88gMPqoFMVh4d2KtSiCjTcXpEaPDf+T3OvuNTw5kpMQW0bV3HABXusqog1jxGk1kshbPGP2j7IJ8fFC+AIhXy2RrBXKXmHnnJFeESV29zJT0Rl0aTLleYsSrvaOXxUQgreg2V2uNxeqIeBGCfFOJZmtf/JFR7gdlwb/Hh24s0jQGSZ0sNfxQWA9DSMGynTjMAwA6LbEY3aRBe5atTxv3TGneFo6FVCMsk6E5zsddzIyljHYvkdCfuix6RaJNKZ8O4131BIHWposQVPAgMBAAGjUzBRMB0GA1UdDgQWBBShouEyhbzJ9sKO70eQ+qlVwWHGRjAfBgNVHSMEGDAWgBShouEyhbzJ9sKO70eQ+qlVwWHGRjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7cNsZi2KyubVRPOXualS0MNh7AavyLTvr8zouIYVokBGH9EqD6PKtAw0zM73TLDvnjkv935w0qAKWs8HkXp4Fh2qN9emyy+l/aRPnDPsvRPlI1Z+0fbdiTSC7HzGzKlTNY+Bz2HAcqhzPoBvhed5s3ikE8NvSGDMK4MphBL2ZTZVPpKiPfZE3bZoVoOUElf6ERA9IY9KWFqfYed7grt9EnVFaEIG0+2Dy0xj6MpzLVmXVwe9Cl+D21NJ6UN/xqjGsxdzPHg/nonOFnvv9Nr7yPY+jKPsxnzUpkI4QDj7iRPZwgvlhFpynljUUYJjPfvVlZBpQkRzh6QxdV+A76vkr</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.brignano.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.brignano.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_b178</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_b178</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Brignano Gera d'Adda</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Brignano Gera d'Adda</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.brignano.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.brignano.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

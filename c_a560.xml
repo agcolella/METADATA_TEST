@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="BagniDiLucca" entityID="https://www.comunebagnidilucca.com/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#BagniDiLucca">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LbvPh6PoTjFjJmxKLTz1KOYVdnQOgHe407wJNByMN/8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dzmVHJLv800gPxL5TdfFj8IFQGmRy08uoceqVzh6NLqCwcRTuAo93SwWsNUZ/MjVfglKhGsGZ4yN
+UhCDrXJn2kyL0fVPFcP03NqbSGuWKuqGg2dvocekJxar9PhlmX7dfo19hb6Ie/Psmgl8sPClbQ0D
+3tBZaQljBO2a0LPZY/1z7+ld+/UtQuRBNgkM3zGYsBC8GKbmxt8FPwGGqyQFuXAISalsz33nTTMC
+YZ0po1ir/vH9M3nC/W6UYJ5t9PLAIt8AeqqGyUGjufdsF8Ueqx2x+61ebPiW0qIOEIeRBYbUq7If
+xppuV+IHZ8s10GBXqBxfxepufgRf9/dgwdfTog==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ubg+KfQeHi2j7gE+sWf8jbCHJ2rvelPJsTTBQClBthQfWNsA3hV1y/iWRk3qnzEwTYzgRhFR7jyf
+/fGsXi6mDKeRkPJMRsULb3j2KW86P8AbFd5NLXR1Ss97TIMSdM8DXqGJg660yhXpHFKozDPGtpUD
+Omiy3YB5JnO1mzTCOAj+G+tmnYCJFlQ8TpeZjY9mrlELqsIRqLn8Tuqlm4vJuLGOthti+ugh2HX5
+kkxnx0w+SmeePBTzJZfMr2swEJJC9gQB8bJKsZCTnGEVObuf1xKsJhhKqhbMfa6hoD3BG152/kDo
+ZaOF9TcggOjrkdNHXoWq7GamHYrnK1oTc10KNw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIELDCCAxSgAwIBAgIJAMMwLRiatnwEMA0GCSqGSIb3DQEBCwUAMIG8MSEwHwYDVQQKDBhDb211
+bmUgZGkgQmFnbmkgZGkgTHVjY2ExITAfBgNVBAMMGENvbXVuZSBkaSBCYWduaSBkaSBMdWNjYTE3
+MDUGA1UEUwwuaHR0cHM6Ly93d3cuY29tdW5lYmFnbmlkaWx1Y2NhLmNvbS9zZXJ2aXppU1BJRDEV
+MBMGA1UEYQwMUEE6SVQtY19hNTYwMQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOQmFnbmkgZGkgTHVj
+Y2EwHhcNMjAxMTE2MDk1NDU0WhcNMzAxMTE0MDk1NDU0WjCBvDEhMB8GA1UECgwYQ29tdW5lIGRp
+IEJhZ25pIGRpIEx1Y2NhMSEwHwYDVQQDDBhDb211bmUgZGkgQmFnbmkgZGkgTHVjY2ExNzA1BgNV
+BFMMLmh0dHBzOi8vd3d3LmNvbXVuZWJhZ25pZGlsdWNjYS5jb20vc2Vydml6aVNQSUQxFTATBgNV
+BGEMDFBBOklULWNfYTU2MDELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDkJhZ25pIGRpIEx1Y2NhMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAubg+KfQeHi2j7gE+sWf8jbCHJ2rvelPJsTTB
+QClBthQfWNsA3hV1y/iWRk3qnzEwTYzgRhFR7jyf/fGsXi6mDKeRkPJMRsULb3j2KW86P8AbFd5N
+LXR1Ss97TIMSdM8DXqGJg660yhXpHFKozDPGtpUDOmiy3YB5JnO1mzTCOAj+G+tmnYCJFlQ8TpeZ
+jY9mrlELqsIRqLn8Tuqlm4vJuLGOthti+ugh2HX5kkxnx0w+SmeePBTzJZfMr2swEJJC9gQB8bJK
+sZCTnGEVObuf1xKsJhhKqhbMfa6hoD3BG152/kDoZaOF9TcggOjrkdNHXoWq7GamHYrnK1oTc10K
+NwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATAN
+BgkqhkiG9w0BAQsFAAOCAQEAm5vZi8ffVLvkIdDVr+xUe4WAtq/D2U38LAZn00eLMCSj1OnHitU2
+MmhZE79lkGN5HUSkDQzEdrYBFMwhdylFJuncXzExGNq9fT14QAteNZBaneyAFEc4EbEvkZOcBnso
+HeWXZVRYxPH5RxUTRePM/DyHWUd4IK0M54G3W+ijv5wCNdBx4A5amqYUQmsEyA+Aq6UegGufQpcK
+0k2mooLnp3wUZrMtoj5uZKLQLeAkkaQdgqsKYQ7/RgjLmzG3YRE64T76Gdww3ULVtah6HR3q9aBR
+B20iVPqKygE8teWan6MYcG/XWsvtPeRcYJiHIr3geTHSqi4jlu+Z48PCNBrytg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIELDCCAxSgAwIBAgIJAMMwLRiatnwEMA0GCSqGSIb3DQEBCwUAMIG8MSEwHwYDVQQKDBhDb211bmUgZGkgQmFnbmkgZGkgTHVjY2ExITAfBgNVBAMMGENvbXVuZSBkaSBCYWduaSBkaSBMdWNjYTE3MDUGA1UEUwwuaHR0cHM6Ly93d3cuY29tdW5lYmFnbmlkaWx1Y2NhLmNvbS9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19hNTYwMQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOQmFnbmkgZGkgTHVjY2EwHhcNMjAxMTE2MDk1NDU0WhcNMzAxMTE0MDk1NDU0WjCBvDEhMB8GA1UECgwYQ29tdW5lIGRpIEJhZ25pIGRpIEx1Y2NhMSEwHwYDVQQDDBhDb211bmUgZGkgQmFnbmkgZGkgTHVjY2ExNzA1BgNVBFMMLmh0dHBzOi8vd3d3LmNvbXVuZWJhZ25pZGlsdWNjYS5jb20vc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfYTU2MDELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDkJhZ25pIGRpIEx1Y2NhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAubg+KfQeHi2j7gE+sWf8jbCHJ2rvelPJsTTBQClBthQfWNsA3hV1y/iWRk3qnzEwTYzgRhFR7jyf/fGsXi6mDKeRkPJMRsULb3j2KW86P8AbFd5NLXR1Ss97TIMSdM8DXqGJg660yhXpHFKozDPGtpUDOmiy3YB5JnO1mzTCOAj+G+tmnYCJFlQ8TpeZjY9mrlELqsIRqLn8Tuqlm4vJuLGOthti+ugh2HX5kkxnx0w+SmeePBTzJZfMr2swEJJC9gQB8bJKsZCTnGEVObuf1xKsJhhKqhbMfa6hoD3BG152/kDoZaOF9TcggOjrkdNHXoWq7GamHYrnK1oTc10KNwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAm5vZi8ffVLvkIdDVr+xUe4WAtq/D2U38LAZn00eLMCSj1OnHitU2MmhZE79lkGN5HUSkDQzEdrYBFMwhdylFJuncXzExGNq9fT14QAteNZBaneyAFEc4EbEvkZOcBnsoHeWXZVRYxPH5RxUTRePM/DyHWUd4IK0M54G3W+ijv5wCNdBx4A5amqYUQmsEyA+Aq6UegGufQpcK0k2mooLnp3wUZrMtoj5uZKLQLeAkkaQdgqsKYQ7/RgjLmzG3YRE64T76Gdww3ULVtah6HR3q9aBRB20iVPqKygE8teWan6MYcG/XWsvtPeRcYJiHIr3geTHSqi4jlu+Z48PCNBrytg==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIELDCCAxSgAwIBAgIJAMMwLRiatnwEMA0GCSqGSIb3DQEBCwUAMIG8MSEwHwYDVQQKDBhDb211bmUgZGkgQmFnbmkgZGkgTHVjY2ExITAfBgNVBAMMGENvbXVuZSBkaSBCYWduaSBkaSBMdWNjYTE3MDUGA1UEUwwuaHR0cHM6Ly93d3cuY29tdW5lYmFnbmlkaWx1Y2NhLmNvbS9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19hNTYwMQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOQmFnbmkgZGkgTHVjY2EwHhcNMjAxMTE2MDk1NDU0WhcNMzAxMTE0MDk1NDU0WjCBvDEhMB8GA1UECgwYQ29tdW5lIGRpIEJhZ25pIGRpIEx1Y2NhMSEwHwYDVQQDDBhDb211bmUgZGkgQmFnbmkgZGkgTHVjY2ExNzA1BgNVBFMMLmh0dHBzOi8vd3d3LmNvbXVuZWJhZ25pZGlsdWNjYS5jb20vc2Vydml6aVNQSUQxFTATBgNVBGEMDFBBOklULWNfYTU2MDELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDkJhZ25pIGRpIEx1Y2NhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAubg+KfQeHi2j7gE+sWf8jbCHJ2rvelPJsTTBQClBthQfWNsA3hV1y/iWRk3qnzEwTYzgRhFR7jyf/fGsXi6mDKeRkPJMRsULb3j2KW86P8AbFd5NLXR1Ss97TIMSdM8DXqGJg660yhXpHFKozDPGtpUDOmiy3YB5JnO1mzTCOAj+G+tmnYCJFlQ8TpeZjY9mrlELqsIRqLn8Tuqlm4vJuLGOthti+ugh2HX5kkxnx0w+SmeePBTzJZfMr2swEJJC9gQB8bJKsZCTnGEVObuf1xKsJhhKqhbMfa6hoD3BG152/kDoZaOF9TcggOjrkdNHXoWq7GamHYrnK1oTc10KNwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAm5vZi8ffVLvkIdDVr+xUe4WAtq/D2U38LAZn00eLMCSj1OnHitU2MmhZE79lkGN5HUSkDQzEdrYBFMwhdylFJuncXzExGNq9fT14QAteNZBaneyAFEc4EbEvkZOcBnsoHeWXZVRYxPH5RxUTRePM/DyHWUd4IK0M54G3W+ijv5wCNdBx4A5amqYUQmsEyA+Aq6UegGufQpcK0k2mooLnp3wUZrMtoj5uZKLQLeAkkaQdgqsKYQ7/RgjLmzG3YRE64T76Gdww3ULVtah6HR3q9aBRB20iVPqKygE8teWan6MYcG/XWsvtPeRcYJiHIr3geTHSqi4jlu+Z48PCNBrytg==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bagnidilucca"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bagnidilucca" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bagnidilucca" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bagnidilucca" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune Bagni di Lucca</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune Bagni di Lucca</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune Bagni di Lucca</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune Bagni di Lucca</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune Bagni di Lucca</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune Bagni di Lucca</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune Bagni di Lucca</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune Bagni di Lucca</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comunebagnidilucca.com</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comunebagnidilucca.com</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comunebagnidilucca.com</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comunebagnidilucca.com</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_a560</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>daa@comunebagnidilucca.it</md:EmailAddress>
+      <md:TelephoneNumber>+390583809902</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

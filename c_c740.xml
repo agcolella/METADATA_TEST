@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CisternadiLatina" entityID="https://www.comune.cisterna-di-latina.latina.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CisternadiLatina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rmlQVA66HTXVriYsu8m3+AHLYPLmSb2PAVYXsDI0HoE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+e0QnLuPlpp5xWwB0aP/9iclpSN74xXhjeh1YOGZ0hYCVUmdNWqxvDfrUPE+FuSHjxNTnydu8ZEDK
+booBqPm14YuN6mILIEdL1efHvIwYffe47eASHwoVy9bh3R+w4neI2haA3xFEa7rsI/BgnuQOKGBL
+P3e6BO4EjpkIqBsGkIG9L/lVxLwDBJsi6O81WEbG5dk27vfUILImOSKMTBXiE1cimn+eERyYfkS9
+toMHMmtLmKFh9+a9uVRAhA1gZr35Vk8g5HHgvjlXGZMHrmgURc2zH/Iah+VY3FSouXnvWthvJq6i
+EOKOCtoGnfLfc0XjXaMaQTstmusjkUXPj2PPAA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vnqq/NwzUvjr/L+sty5z8tI2yqyZFq/4WxZ+UFjdg1yLs7LVZTu/49OnoI+4RsBzH2AF76Qj0tJm
+/hYiLoIEkfB7zUtALAOFBGMykFhQSjASZoYvvVtB6iDopew/F7gzyfXDWkyM2LAlC4ZF9Mc1YGjn
+g+EoFPO9xlf9f+UEIRHX+2IyJqYED56rgkI42n1MoMlW24PFWqMh6howWgmhgCbnckgnYi5+J+RD
+YgVe9XpxW7clAuwYI+gCcZvVZz+h4NzZqvUNWx36/PCgWMPkSjcR0kkVhcYuRXRxOkAXZ+IU29Ha
+cYQash/SifHliKvB4AQ2fGUT56WS845nU8TvPQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDbzCCAlegAwIBAgIJALDMaLQGbcfiMA0GCSqGSIb3DQEBCwUAME4xMDAuBgNVBAMMJ3d3dy5j
+b211bmUuY2lzdGVybmEtZGktbGF0aW5hLmxhdGluYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UE
+BhMCSVQwHhcNMTgwOTE4MDk0MDE3WhcNMjgwOTE1MDk0MDE3WjBOMTAwLgYDVQQDDCd3d3cuY29t
+dW5lLmNpc3Rlcm5hLWRpLWxhdGluYS5sYXRpbmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYT
+AklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvnqq/NwzUvjr/L+sty5z8tI2yqyZ
+Fq/4WxZ+UFjdg1yLs7LVZTu/49OnoI+4RsBzH2AF76Qj0tJm/hYiLoIEkfB7zUtALAOFBGMykFhQ
+SjASZoYvvVtB6iDopew/F7gzyfXDWkyM2LAlC4ZF9Mc1YGjng+EoFPO9xlf9f+UEIRHX+2IyJqYE
+D56rgkI42n1MoMlW24PFWqMh6howWgmhgCbnckgnYi5+J+RDYgVe9XpxW7clAuwYI+gCcZvVZz+h
+4NzZqvUNWx36/PCgWMPkSjcR0kkVhcYuRXRxOkAXZ+IU29HacYQash/SifHliKvB4AQ2fGUT56WS
+845nU8TvPQIDAQABo1AwTjAdBgNVHQ4EFgQUWtR5wRFD4cve4pgM64/H4vn6lXYwHwYDVR0jBBgw
+FoAUWtR5wRFD4cve4pgM64/H4vn6lXYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+X9Mq4WkGOnz+lLzc0+8TuZgyxPsiJariSoDzupPdZ7AYHTSCC7z5cl/q6f9affK9smtSkkMMsETE
+4OINRwuzxiV4y3yrDM2/hW6cEDIgDgpRfUPwjqkJtovvxmgXtZIM9iMz3gEQ0fN4JYMUQsNSmEto
+QipirV0U7Fls0692Rs9/28jMLWVqc3SfSs1MMMFHxKRBrPPCMYHOz2/KI3DvadJbg3s6nCGhG6P7
+ZePKP1/dW56XMcGAvtdADDpUuAERL/feoQgPJzBQ5Qa+u0tfvVQ3VHhd7HmWigxe8hpg2iEeGe+M
+p5v+Y49y37ObHuD8czuPa/ANDyFEmf+dA0D6Wg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbzCCAlegAwIBAgIJALDMaLQGbcfiMA0GCSqGSIb3DQEBCwUAME4xMDAuBgNVBAMMJ3d3dy5jb211bmUuY2lzdGVybmEtZGktbGF0aW5hLmxhdGluYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDk0MDE3WhcNMjgwOTE1MDk0MDE3WjBOMTAwLgYDVQQDDCd3d3cuY29tdW5lLmNpc3Rlcm5hLWRpLWxhdGluYS5sYXRpbmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvnqq/NwzUvjr/L+sty5z8tI2yqyZFq/4WxZ+UFjdg1yLs7LVZTu/49OnoI+4RsBzH2AF76Qj0tJm/hYiLoIEkfB7zUtALAOFBGMykFhQSjASZoYvvVtB6iDopew/F7gzyfXDWkyM2LAlC4ZF9Mc1YGjng+EoFPO9xlf9f+UEIRHX+2IyJqYED56rgkI42n1MoMlW24PFWqMh6howWgmhgCbnckgnYi5+J+RDYgVe9XpxW7clAuwYI+gCcZvVZz+h4NzZqvUNWx36/PCgWMPkSjcR0kkVhcYuRXRxOkAXZ+IU29HacYQash/SifHliKvB4AQ2fGUT56WS845nU8TvPQIDAQABo1AwTjAdBgNVHQ4EFgQUWtR5wRFD4cve4pgM64/H4vn6lXYwHwYDVR0jBBgwFoAUWtR5wRFD4cve4pgM64/H4vn6lXYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAX9Mq4WkGOnz+lLzc0+8TuZgyxPsiJariSoDzupPdZ7AYHTSCC7z5cl/q6f9affK9smtSkkMMsETE4OINRwuzxiV4y3yrDM2/hW6cEDIgDgpRfUPwjqkJtovvxmgXtZIM9iMz3gEQ0fN4JYMUQsNSmEtoQipirV0U7Fls0692Rs9/28jMLWVqc3SfSs1MMMFHxKRBrPPCMYHOz2/KI3DvadJbg3s6nCGhG6P7ZePKP1/dW56XMcGAvtdADDpUuAERL/feoQgPJzBQ5Qa+u0tfvVQ3VHhd7HmWigxe8hpg2iEeGe+Mp5v+Y49y37ObHuD8czuPa/ANDyFEmf+dA0D6Wg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbzCCAlegAwIBAgIJALDMaLQGbcfiMA0GCSqGSIb3DQEBCwUAME4xMDAuBgNVBAMMJ3d3dy5jb211bmUuY2lzdGVybmEtZGktbGF0aW5hLmxhdGluYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDk0MDE3WhcNMjgwOTE1MDk0MDE3WjBOMTAwLgYDVQQDDCd3d3cuY29tdW5lLmNpc3Rlcm5hLWRpLWxhdGluYS5sYXRpbmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvnqq/NwzUvjr/L+sty5z8tI2yqyZFq/4WxZ+UFjdg1yLs7LVZTu/49OnoI+4RsBzH2AF76Qj0tJm/hYiLoIEkfB7zUtALAOFBGMykFhQSjASZoYvvVtB6iDopew/F7gzyfXDWkyM2LAlC4ZF9Mc1YGjng+EoFPO9xlf9f+UEIRHX+2IyJqYED56rgkI42n1MoMlW24PFWqMh6howWgmhgCbnckgnYi5+J+RDYgVe9XpxW7clAuwYI+gCcZvVZz+h4NzZqvUNWx36/PCgWMPkSjcR0kkVhcYuRXRxOkAXZ+IU29HacYQash/SifHliKvB4AQ2fGUT56WS845nU8TvPQIDAQABo1AwTjAdBgNVHQ4EFgQUWtR5wRFD4cve4pgM64/H4vn6lXYwHwYDVR0jBBgwFoAUWtR5wRFD4cve4pgM64/H4vn6lXYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAX9Mq4WkGOnz+lLzc0+8TuZgyxPsiJariSoDzupPdZ7AYHTSCC7z5cl/q6f9affK9smtSkkMMsETE4OINRwuzxiV4y3yrDM2/hW6cEDIgDgpRfUPwjqkJtovvxmgXtZIM9iMz3gEQ0fN4JYMUQsNSmEtoQipirV0U7Fls0692Rs9/28jMLWVqc3SfSs1MMMFHxKRBrPPCMYHOz2/KI3DvadJbg3s6nCGhG6P7ZePKP1/dW56XMcGAvtdADDpUuAERL/feoQgPJzBQ5Qa+u0tfvVQ3VHhd7HmWigxe8hpg2iEeGe+Mp5v+Y49y37ObHuD8czuPa/ANDyFEmf+dA0D6Wg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cisternalatina"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cisternalatina" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cisternalatina" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cisternalatina" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cisterna di Latina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cisterna di Latina</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cisterna di Latina</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cisterna di Latina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cisterna di Latina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cisterna di Latina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cisterna di Latina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cisterna di Latina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cisterna-di-latina.latina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cisterna-di-latina.latina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cisterna-di-latina.latina.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cisterna-di-latina.latina.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

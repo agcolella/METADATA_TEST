@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cavizzana" entityID="https://www.comune.cavizzana.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cavizzana">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0y1Z3T1a+0/yfBkkxTzjKXFIzH1dFOlPK2g9oHqFMEI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+19QV/GOdrJcakzqV6blmrN/ZTvJOj5ADi6d1HalriLkm8MrM0JmbKvj015dzaGyo6fq8iK5mhA+8
+gZHn0TA0yTqzOLpiiRu0B6mVFhFdqiHiDVzQ8sMqUOcUPVV0l45IOqBUPXJIjPTHk9irX/e5xeL4
+0TrePzgI8sO7EbhQmwmjHYCg6s0/M21N6R2OZz0+3gQib5tQ+uLzYv67QeJHvI/1t0u8PYWTE5My
+va2jnBnXcay0b/o/nwoRSVfeR/YrDsiahRwJtJvr20/u4JclokQr+a5OAC5pr+7eDOHGkiBGDAzd
+lf+wCSY6kOEgk1VAU86FA/sQy5VA471QfyxpXw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2F/ktavz5mR2Mlwh03Wx7uAcy68G7PEfMmdbFwZ2FW917I1gOzoRGHKbFnXxpOhcqT9X5Mja+M7a
+HeNXP6i6pBWyyiFEKm578JYCFfvamBbqmttF7S/QYX1YvyIimsWbfAWoRAZwlmAK81zx5VLIqnwM
+TenNoLYLnnn90vQxkqHHmPjRnlx8kb7YCZNe8GCVGwNNIHAi+E92k3pJ5tiLpky94b6BT3i2FArI
+LkbUNf1WNA03x4A0fcBX3JK7Pj1EuFvw0OWu6X+QDYTlgnqgK0unEIZjpNxDDprXqY+HuJF8tC8k
+e2r59pcPILDlJy63y7pWVsP8Ynp1J8oQjXbjmQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAPSGyJ8ADp9oMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2F2aXp6YW5hLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1
+MjYxMjIzMjlaFw0zMDA1MjQxMjIzMjlaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F2aXp6YW5h
+LnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANhf5LWr8+ZkdjJcIdN1se7gHMuvBuzxHzJnWxcGdhVvdeyNYDs6ERhymxZ18aTo
+XKk/V+TI2vjO2h3jVz+ouqQVssohRCpue/CWAhX72pgW6prbRe0v0GF9WL8iIprFm3wFqEQGcJZg
+CvNc8eVSyKp8DE3pzaC2C555/dL0MZKhx5j40Z5cfJG+2AmTXvBglRsDTSBwIvhPdpN6SebYi6ZM
+veG+gU94thQKyC5G1DX9VjQNN8eANH3AV9ySuz49RLhb8NDlrul/kA2E5YJ6oCtLpxCGY6TcQw6a
+16mPh7iRfLQvJHtq+faXDyCw5Scut8u6VlbD/GJ6dSfKEI1245kCAwEAAaNQME4wHQYDVR0OBBYE
+FFdOjaSuVI9wocXFBohYbd4foWzDMB8GA1UdIwQYMBaAFFdOjaSuVI9wocXFBohYbd4foWzDMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADWC4I/Q7HCU5kJWgD3+MGrz+CcrRqyPSwFZ
+udwhyp8uQuAj86J6SQM/7gJ2NcTZICc0LUzopPaAXH8Wvck9IQEuN/My9IhJ7sOgqcBh3VbR9f4g
+T7hMJ2g4fcRc0UuRssFuqg55HfTvxDGXRodzmfpQFKgj2hFmR9BiP87qd7nVdjLslNfFLKahrGfi
+eqv/E7fWjVJNofwO1+ANP9GmzR8sQ8t7AFdn9D0xbP2Bq7iGEv6ZtH4GWofQVRfAf9uKpzzVxepr
+/uugLrEkkOYdXQUSaca5MRfhC6rCVvYh9I9YeHMmkmgIsFZmP2kGynnsW+AsHGeOHrxNl1tp2LfT
+46w=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAPSGyJ8ADp9oMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F2aXp6YW5hLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MjYxMjIzMjlaFw0zMDA1MjQxMjIzMjlaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F2aXp6YW5hLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANhf5LWr8+ZkdjJcIdN1se7gHMuvBuzxHzJnWxcGdhVvdeyNYDs6ERhymxZ18aToXKk/V+TI2vjO2h3jVz+ouqQVssohRCpue/CWAhX72pgW6prbRe0v0GF9WL8iIprFm3wFqEQGcJZgCvNc8eVSyKp8DE3pzaC2C555/dL0MZKhx5j40Z5cfJG+2AmTXvBglRsDTSBwIvhPdpN6SebYi6ZMveG+gU94thQKyC5G1DX9VjQNN8eANH3AV9ySuz49RLhb8NDlrul/kA2E5YJ6oCtLpxCGY6TcQw6a16mPh7iRfLQvJHtq+faXDyCw5Scut8u6VlbD/GJ6dSfKEI1245kCAwEAAaNQME4wHQYDVR0OBBYEFFdOjaSuVI9wocXFBohYbd4foWzDMB8GA1UdIwQYMBaAFFdOjaSuVI9wocXFBohYbd4foWzDMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADWC4I/Q7HCU5kJWgD3+MGrz+CcrRqyPSwFZudwhyp8uQuAj86J6SQM/7gJ2NcTZICc0LUzopPaAXH8Wvck9IQEuN/My9IhJ7sOgqcBh3VbR9f4gT7hMJ2g4fcRc0UuRssFuqg55HfTvxDGXRodzmfpQFKgj2hFmR9BiP87qd7nVdjLslNfFLKahrGfieqv/E7fWjVJNofwO1+ANP9GmzR8sQ8t7AFdn9D0xbP2Bq7iGEv6ZtH4GWofQVRfAf9uKpzzVxepr/uugLrEkkOYdXQUSaca5MRfhC6rCVvYh9I9YeHMmkmgIsFZmP2kGynnsW+AsHGeOHrxNl1tp2LfT46w=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAPSGyJ8ADp9oMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F2aXp6YW5hLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA1MjYxMjIzMjlaFw0zMDA1MjQxMjIzMjlaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2F2aXp6YW5hLnRuLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANhf5LWr8+ZkdjJcIdN1se7gHMuvBuzxHzJnWxcGdhVvdeyNYDs6ERhymxZ18aToXKk/V+TI2vjO2h3jVz+ouqQVssohRCpue/CWAhX72pgW6prbRe0v0GF9WL8iIprFm3wFqEQGcJZgCvNc8eVSyKp8DE3pzaC2C555/dL0MZKhx5j40Z5cfJG+2AmTXvBglRsDTSBwIvhPdpN6SebYi6ZMveG+gU94thQKyC5G1DX9VjQNN8eANH3AV9ySuz49RLhb8NDlrul/kA2E5YJ6oCtLpxCGY6TcQw6a16mPh7iRfLQvJHtq+faXDyCw5Scut8u6VlbD/GJ6dSfKEI1245kCAwEAAaNQME4wHQYDVR0OBBYEFFdOjaSuVI9wocXFBohYbd4foWzDMB8GA1UdIwQYMBaAFFdOjaSuVI9wocXFBohYbd4foWzDMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADWC4I/Q7HCU5kJWgD3+MGrz+CcrRqyPSwFZudwhyp8uQuAj86J6SQM/7gJ2NcTZICc0LUzopPaAXH8Wvck9IQEuN/My9IhJ7sOgqcBh3VbR9f4gT7hMJ2g4fcRc0UuRssFuqg55HfTvxDGXRodzmfpQFKgj2hFmR9BiP87qd7nVdjLslNfFLKahrGfieqv/E7fWjVJNofwO1+ANP9GmzR8sQ8t7AFdn9D0xbP2Bq7iGEv6ZtH4GWofQVRfAf9uKpzzVxepr/uugLrEkkOYdXQUSaca5MRfhC6rCVvYh9I9YeHMmkmgIsFZmP2kGynnsW+AsHGeOHrxNl1tp2LfT46w=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cavizzana"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cavizzana" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cavizzana" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cavizzana" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cavizzana</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cavizzana</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cavizzana</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cavizzana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cavizzana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cavizzana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cavizzana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cavizzana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cavizzana.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cavizzana.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cavizzana.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cavizzana.tn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

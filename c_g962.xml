@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxdc455dd0-54c7-d405-9a38-abb197d470c8" entityID="https://sol.comune.pozzomaggiore.ss.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxdc455dd0-54c7-d405-9a38-abb197d470c8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8dT3LMwKCi2FPEC8utSEsoceK+62zI5W+4p3/wg0c/U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sMdH+bnK46SOqEGzwSOaayYkWkOxHW6xx8hSBrT9bHKUAn+AMol3gCZD/SalMoXMAi1+RJu+nWot
+1J58ki0f5nAu2LwoY9z6WIQ/2K4L4CwH84pPkgQCGrCK7qzQYIqiK2yHLHxo+KADnrV5CdlTpD/F
+rwA5KygxgHNTN9Z+Bw50mfMPbxtS4zoqk47Md46wF2vLBClzjFD8HDAZ2SErJa8HecICtzEkl6sq
+wEkj/Z7otspsDHD7WeSpIiCpmaL6EHHiFeGZA3H7Aqx+dT7Tl6L5h3ZuQS8DJoe7nVmmogdUf409
+zLBeUQtFipH1fcXj/eGAYZnPBNFoj7rBPkffDw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uOoKRhi+uNSsgPB53SAk+lx7DEIjpnroOl/WDHSoAiazp2Xq89FiQGmCC8DydBCUPIa3WjOwNe0J
+L7CBsiIlocw8JVW59e4RkRi1BYJEVO/w3cUbPnrMEJ9vMlB2Qq35wDZDHaDBicMXsQSJJgf88boY
+oJTr5Pj60kt6xwZ8Z62zRQd62jul+scgKM+uWYSKED59ohaKFvnk070F/AduwHNup1DqJ7fzjkhR
+waC588gnjeygmPqH2hAhGCAlfueKbnTwPlMEakLqRmUwyc8qWfG8TCCLC+6Izy3jpPE6NHWEE324
+VS+CJcKXHuodyvY1vDv0o1gb1VMHu3dTcIk9FQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID1TCCAr2gAwIBAgIJAPG2crCl5aqKMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVBvenpvbWFnZ2lvcmUxIDAeBgNVBAoMF0NvbXVuZSBk
+aSBQb3p6b21hZ2dpb3JlMScwJQYDVQQDDB5zb2wuY29tdW5lLnBvenpvbWFnZ2lvcmUuc3MuaXQw
+HhcNMTkwMzI4MTQyMTE3WhcNMjkwMzI3MTQyMTE3WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgM
+BUl0YWx5MRYwFAYDVQQHDA1Qb3p6b21hZ2dpb3JlMSAwHgYDVQQKDBdDb211bmUgZGkgUG96em9t
+YWdnaW9yZTEnMCUGA1UEAwwec29sLmNvbXVuZS5wb3p6b21hZ2dpb3JlLnNzLml0MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuOoKRhi+uNSsgPB53SAk+lx7DEIjpnroOl/WDHSoAiaz
+p2Xq89FiQGmCC8DydBCUPIa3WjOwNe0JL7CBsiIlocw8JVW59e4RkRi1BYJEVO/w3cUbPnrMEJ9v
+MlB2Qq35wDZDHaDBicMXsQSJJgf88boYoJTr5Pj60kt6xwZ8Z62zRQd62jul+scgKM+uWYSKED59
+ohaKFvnk070F/AduwHNup1DqJ7fzjkhRwaC588gnjeygmPqH2hAhGCAlfueKbnTwPlMEakLqRmUw
+yc8qWfG8TCCLC+6Izy3jpPE6NHWEE324VS+CJcKXHuodyvY1vDv0o1gb1VMHu3dTcIk9FQIDAQAB
+o1AwTjAdBgNVHQ4EFgQUv+H2eq/OjJs694zAeeMNPLWyxsgwHwYDVR0jBBgwFoAUv+H2eq/OjJs6
+94zAeeMNPLWyxsgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAa3XTRseteGUJifan
+xcLqhWZBOmJSL43STcadgxL004Uqtx/ID7jtVDa3ONQRfDXqVQOG+AHOw/TLwUlXF98Yas/8w9xS
+zchaEJ/UAGjaPTw/rCCE95UyXcex8s1WpyucTJqBzujHKAcwrZH7rS4UlCW0NeKcU+gVZizHM+j8
+9QVnAguaKnafjNRA64qGhjqKzzdbnGlsuZGrfAXZZKzzJuXgCGgKcjuLEw882Jv3ZRfxs31W4gxH
+biVWUg1lhl0NJu5lhdp2LZxp2/wTKx6w1cAcps/oPNBDVFQWRIBAyY7+EKymr4ZdnTsx76VYxOl7
+I7QlblZXcpJYoOtrSVZYtg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1TCCAr2gAwIBAgIJAPG2crCl5aqKMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVBvenpvbWFnZ2lvcmUxIDAeBgNVBAoMF0NvbXVuZSBkaSBQb3p6b21hZ2dpb3JlMScwJQYDVQQDDB5zb2wuY29tdW5lLnBvenpvbWFnZ2lvcmUuc3MuaXQwHhcNMTkwMzI4MTQyMTE3WhcNMjkwMzI3MTQyMTE3WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Qb3p6b21hZ2dpb3JlMSAwHgYDVQQKDBdDb211bmUgZGkgUG96em9tYWdnaW9yZTEnMCUGA1UEAwwec29sLmNvbXVuZS5wb3p6b21hZ2dpb3JlLnNzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuOoKRhi+uNSsgPB53SAk+lx7DEIjpnroOl/WDHSoAiazp2Xq89FiQGmCC8DydBCUPIa3WjOwNe0JL7CBsiIlocw8JVW59e4RkRi1BYJEVO/w3cUbPnrMEJ9vMlB2Qq35wDZDHaDBicMXsQSJJgf88boYoJTr5Pj60kt6xwZ8Z62zRQd62jul+scgKM+uWYSKED59ohaKFvnk070F/AduwHNup1DqJ7fzjkhRwaC588gnjeygmPqH2hAhGCAlfueKbnTwPlMEakLqRmUwyc8qWfG8TCCLC+6Izy3jpPE6NHWEE324VS+CJcKXHuodyvY1vDv0o1gb1VMHu3dTcIk9FQIDAQABo1AwTjAdBgNVHQ4EFgQUv+H2eq/OjJs694zAeeMNPLWyxsgwHwYDVR0jBBgwFoAUv+H2eq/OjJs694zAeeMNPLWyxsgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAa3XTRseteGUJifanxcLqhWZBOmJSL43STcadgxL004Uqtx/ID7jtVDa3ONQRfDXqVQOG+AHOw/TLwUlXF98Yas/8w9xSzchaEJ/UAGjaPTw/rCCE95UyXcex8s1WpyucTJqBzujHKAcwrZH7rS4UlCW0NeKcU+gVZizHM+j89QVnAguaKnafjNRA64qGhjqKzzdbnGlsuZGrfAXZZKzzJuXgCGgKcjuLEw882Jv3ZRfxs31W4gxHbiVWUg1lhl0NJu5lhdp2LZxp2/wTKx6w1cAcps/oPNBDVFQWRIBAyY7+EKymr4ZdnTsx76VYxOl7I7QlblZXcpJYoOtrSVZYtg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1TCCAr2gAwIBAgIJAPG2crCl5aqKMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVBvenpvbWFnZ2lvcmUxIDAeBgNVBAoMF0NvbXVuZSBkaSBQb3p6b21hZ2dpb3JlMScwJQYDVQQDDB5zb2wuY29tdW5lLnBvenpvbWFnZ2lvcmUuc3MuaXQwHhcNMTkwMzI4MTQyMTE3WhcNMjkwMzI3MTQyMTE3WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Qb3p6b21hZ2dpb3JlMSAwHgYDVQQKDBdDb211bmUgZGkgUG96em9tYWdnaW9yZTEnMCUGA1UEAwwec29sLmNvbXVuZS5wb3p6b21hZ2dpb3JlLnNzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuOoKRhi+uNSsgPB53SAk+lx7DEIjpnroOl/WDHSoAiazp2Xq89FiQGmCC8DydBCUPIa3WjOwNe0JL7CBsiIlocw8JVW59e4RkRi1BYJEVO/w3cUbPnrMEJ9vMlB2Qq35wDZDHaDBicMXsQSJJgf88boYoJTr5Pj60kt6xwZ8Z62zRQd62jul+scgKM+uWYSKED59ohaKFvnk070F/AduwHNup1DqJ7fzjkhRwaC588gnjeygmPqH2hAhGCAlfueKbnTwPlMEakLqRmUwyc8qWfG8TCCLC+6Izy3jpPE6NHWEE324VS+CJcKXHuodyvY1vDv0o1gb1VMHu3dTcIk9FQIDAQABo1AwTjAdBgNVHQ4EFgQUv+H2eq/OjJs694zAeeMNPLWyxsgwHwYDVR0jBBgwFoAUv+H2eq/OjJs694zAeeMNPLWyxsgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAa3XTRseteGUJifanxcLqhWZBOmJSL43STcadgxL004Uqtx/ID7jtVDa3ONQRfDXqVQOG+AHOw/TLwUlXF98Yas/8w9xSzchaEJ/UAGjaPTw/rCCE95UyXcex8s1WpyucTJqBzujHKAcwrZH7rS4UlCW0NeKcU+gVZizHM+j89QVnAguaKnafjNRA64qGhjqKzzdbnGlsuZGrfAXZZKzzJuXgCGgKcjuLEw882Jv3ZRfxs31W4gxHbiVWUg1lhl0NJu5lhdp2LZxp2/wTKx6w1cAcps/oPNBDVFQWRIBAyY7+EKymr4ZdnTsx76VYxOl7I7QlblZXcpJYoOtrSVZYtg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.pozzomaggiore.ss.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sol.comune.pozzomaggiore.ss.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pozzomaggiore</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pozzomaggiore</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.pozzomaggiore.ss.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_50285b38ea484fbf8b7e825374f0b2f6" entityID="https://documentale.comune.savona.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_50285b38ea484fbf8b7e825374f0b2f6">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>bxf5F65eRmhh9R4EorY4nsnfxk9+85vRx+ZX/EwnOsk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+JD6daeoPpvDL/Q78zucEBUuDR1QktF90NJn1AZ0yfopBdec7SbilumcyBjmqcxVNWD8GkjFyZ1KB
+aPPBRnJcvnrsHpgNfXLp211psD8rptsTtardCuAOg2uy9Dkrru0Utld+fLq6L3f9dZ3T1i9N7Dj0
+h4brCs6Bis0wdLo96OnPWUmNrFIxHPCUhIWne4p1H7wnw8zxQKv/kDpeFmWZjN6pIX1feiD4xzsq
+TCLIrkZjujDY4ieHKVi+DVzeQsqQ0SOTCTnYwzXVdR6s1W9YzPUEMMGwew9wdy0QXQyh8zkfkyrR
+pXLfk4Lat7mEf+fLIx0BZiQPbAqszB1hXuAB280Vp44StPzHr7I86yZBAGlJDBqnvgcprb2LtrNi
+CIbo/VfzwPlIUQOWcWFHjnn5oyV2CIBGUcx9aZHwygy5PeR/edXd/Y123QAiSuuIcu40y+gCmNxE
+te3v2ygdot5o9UISUPkoCfPmRJJVGbYTN2ZENF7aotTUsro0kwtpcLto
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vk8zPGDLspZH813YQABol7Sfu2BfkbJtJ2+fI0bgTkU9+XVIs92LgfCWoav83ODMqYTxwITsG5/7
+/gsDz9aEtNDCGfHKWL/LTGv73/t2VReZ6Mr6gzhVJAt+mdGjdT8ezx6TzNObFPZ0DONnGynvnCYI
+lIcSd/jVuRppNFURLtSwsF7j/saqdwQTmNvcSF5ACSz7OC5fxeA3UulTbsT6tL3Dkc/YKkXYOy1z
+mqotE1HtgQR9cEt/EaJI03qZ5p8jWKAET/la7rKMAciXYkRpw47E6C3s1AOoZcaereNCOW6owEmd
+AQ6gUlFquU8ggpaSwXsBN7UqRJtW8VIYGqeXJYf2KDsepgbgmshHM4mSaCFGml7ubDHxqTC6e+uJ
+OXjF9S+mrtwTLF0EvZcb4DAFRV2WwQQ14FIn3W1vf1FpPwBd99JRniewwdhr8jdupsubfcbXL5Ne
+0jnW8Y6CH0lRJKwvlbUEiM2IQj8paKCWnY/otP/sAoC+WSS2wZxvtfr1
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEQTCCAqmgAwIBAgIJAM3NOZL+ilxNMA0GCSqGSIb3DQEBCwUAMCcxJTAjBgNVBAMTHGRvY3Vt
+ZW50YWxlLmNvbXVuZS5zYXZvbmEuaXQwHhcNMTgxMDE2MjEyMDIxWhcNMjMxMDE1MjEyMDIxWjAn
+MSUwIwYDVQQDExxkb2N1bWVudGFsZS5jb211bmUuc2F2b25hLml0MIIBojANBgkqhkiG9w0BAQEF
+AAOCAY8AMIIBigKCAYEAvk8zPGDLspZH813YQABol7Sfu2BfkbJtJ2+fI0bgTkU9+XVIs92LgfCW
+oav83ODMqYTxwITsG5/7/gsDz9aEtNDCGfHKWL/LTGv73/t2VReZ6Mr6gzhVJAt+mdGjdT8ezx6T
+zNObFPZ0DONnGynvnCYIlIcSd/jVuRppNFURLtSwsF7j/saqdwQTmNvcSF5ACSz7OC5fxeA3UulT
+bsT6tL3Dkc/YKkXYOy1zmqotE1HtgQR9cEt/EaJI03qZ5p8jWKAET/la7rKMAciXYkRpw47E6C3s
+1AOoZcaereNCOW6owEmdAQ6gUlFquU8ggpaSwXsBN7UqRJtW8VIYGqeXJYf2KDsepgbgmshHM4mS
+aCFGml7ubDHxqTC6e+uJOXjF9S+mrtwTLF0EvZcb4DAFRV2WwQQ14FIn3W1vf1FpPwBd99JRniew
+wdhr8jdupsubfcbXL5Ne0jnW8Y6CH0lRJKwvlbUEiM2IQj8paKCWnY/otP/sAoC+WSS2wZxvtfr1
+AgMBAAGjcDBuME0GA1UdEQRGMESCHGRvY3VtZW50YWxlLmNvbXVuZS5zYXZvbmEuaXSGJGh0dHBz
+Oi8vZG9jdW1lbnRhbGUuY29tdW5lLnNhdm9uYS5pdDAdBgNVHQ4EFgQUtKSgP4Any/8Upx74s+7N
+tGUBLrowDQYJKoZIhvcNAQELBQADggGBAG2Cpq2uQ8u+GlnJJ21DoQ1yycdbthVz3D1B0P8wvxV1
+Stf32ts5+GAI0NDV53LOPO19L2VyZz1suQ/GNaSIn4Chvf5l4WDL81rxmgM9zUf/D8yQ5NQ+k2VT
+nWu+0Br90dL326EFrKqiYzjnvT/oN9A6s1v7pNH7OvK5VYfaTipTkiLWrXy1lQQ/hcn1JjOSvAb9
+kwxtKSFvR+Qzsku2GgYKa8AtvCipqk8AJj3Lpvnv3xhTZ6g1MpQQwCSq5LI2+vHrMUwESoVVpvg+
+/IHBNty6YGFWpZuUQ5ydsYxxZTrhak3prcy/LiGPod5W2yGCrNLhNU99wci/C/WGiC8DcIqha1qY
+F+kITWAg/QN92z+4BdQTuAZidUDzqUANWw71heiWX+dLdVF5zo5M9TAf1dTC0ci+kfOUAGfaledM
+UXHnO5DR+G+Th9wFlPKe/URH50Rivp06ZH3v16AYeI7JE2dR5JzE9cO//uyhazujNzbk8VM41Qq/
+xuG3YSjsPNUCbQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+ <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEQTCCAqmgAwIBAgIJAM3NOZL+ilxNMA0GCSqGSIb3DQEBCwUAMCcxJTAjBgNV
+            BAMTHGRvY3VtZW50YWxlLmNvbXVuZS5zYXZvbmEuaXQwHhcNMTgxMDE2MjEyMDIx
+            WhcNMjMxMDE1MjEyMDIxWjAnMSUwIwYDVQQDExxkb2N1bWVudGFsZS5jb211bmUu
+            c2F2b25hLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAvk8zPGDL
+            spZH813YQABol7Sfu2BfkbJtJ2+fI0bgTkU9+XVIs92LgfCWoav83ODMqYTxwITs
+            G5/7/gsDz9aEtNDCGfHKWL/LTGv73/t2VReZ6Mr6gzhVJAt+mdGjdT8ezx6TzNOb
+            FPZ0DONnGynvnCYIlIcSd/jVuRppNFURLtSwsF7j/saqdwQTmNvcSF5ACSz7OC5f
+            xeA3UulTbsT6tL3Dkc/YKkXYOy1zmqotE1HtgQR9cEt/EaJI03qZ5p8jWKAET/la
+            7rKMAciXYkRpw47E6C3s1AOoZcaereNCOW6owEmdAQ6gUlFquU8ggpaSwXsBN7Uq
+            RJtW8VIYGqeXJYf2KDsepgbgmshHM4mSaCFGml7ubDHxqTC6e+uJOXjF9S+mrtwT
+            LF0EvZcb4DAFRV2WwQQ14FIn3W1vf1FpPwBd99JRniewwdhr8jdupsubfcbXL5Ne
+            0jnW8Y6CH0lRJKwvlbUEiM2IQj8paKCWnY/otP/sAoC+WSS2wZxvtfr1AgMBAAGj
+            cDBuME0GA1UdEQRGMESCHGRvY3VtZW50YWxlLmNvbXVuZS5zYXZvbmEuaXSGJGh0
+            dHBzOi8vZG9jdW1lbnRhbGUuY29tdW5lLnNhdm9uYS5pdDAdBgNVHQ4EFgQUtKSg
+            P4Any/8Upx74s+7NtGUBLrowDQYJKoZIhvcNAQELBQADggGBAG2Cpq2uQ8u+GlnJ
+            J21DoQ1yycdbthVz3D1B0P8wvxV1Stf32ts5+GAI0NDV53LOPO19L2VyZz1suQ/G
+            NaSIn4Chvf5l4WDL81rxmgM9zUf/D8yQ5NQ+k2VTnWu+0Br90dL326EFrKqiYzjn
+            vT/oN9A6s1v7pNH7OvK5VYfaTipTkiLWrXy1lQQ/hcn1JjOSvAb9kwxtKSFvR+Qz
+            sku2GgYKa8AtvCipqk8AJj3Lpvnv3xhTZ6g1MpQQwCSq5LI2+vHrMUwESoVVpvg+
+            /IHBNty6YGFWpZuUQ5ydsYxxZTrhak3prcy/LiGPod5W2yGCrNLhNU99wci/C/WG
+            iC8DcIqha1qYF+kITWAg/QN92z+4BdQTuAZidUDzqUANWw71heiWX+dLdVF5zo5M
+            9TAf1dTC0ci+kfOUAGfaledMUXHnO5DR+G+Th9wFlPKe/URH50Rivp06ZH3v16AY
+            eI7JE2dR5JzE9cO//uyhazujNzbk8VM41Qq/xuG3YSjsPNUCbQ==
+            </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEQTCCAqmgAwIBAgIJAM3NOZL+ilxNMA0GCSqGSIb3DQEBCwUAMCcxJTAjBgNV
+            BAMTHGRvY3VtZW50YWxlLmNvbXVuZS5zYXZvbmEuaXQwHhcNMTgxMDE2MjEyMDIx
+            WhcNMjMxMDE1MjEyMDIxWjAnMSUwIwYDVQQDExxkb2N1bWVudGFsZS5jb211bmUu
+            c2F2b25hLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAvk8zPGDL
+            spZH813YQABol7Sfu2BfkbJtJ2+fI0bgTkU9+XVIs92LgfCWoav83ODMqYTxwITs
+            G5/7/gsDz9aEtNDCGfHKWL/LTGv73/t2VReZ6Mr6gzhVJAt+mdGjdT8ezx6TzNOb
+            FPZ0DONnGynvnCYIlIcSd/jVuRppNFURLtSwsF7j/saqdwQTmNvcSF5ACSz7OC5f
+            xeA3UulTbsT6tL3Dkc/YKkXYOy1zmqotE1HtgQR9cEt/EaJI03qZ5p8jWKAET/la
+            7rKMAciXYkRpw47E6C3s1AOoZcaereNCOW6owEmdAQ6gUlFquU8ggpaSwXsBN7Uq
+            RJtW8VIYGqeXJYf2KDsepgbgmshHM4mSaCFGml7ubDHxqTC6e+uJOXjF9S+mrtwT
+            LF0EvZcb4DAFRV2WwQQ14FIn3W1vf1FpPwBd99JRniewwdhr8jdupsubfcbXL5Ne
+            0jnW8Y6CH0lRJKwvlbUEiM2IQj8paKCWnY/otP/sAoC+WSS2wZxvtfr1AgMBAAGj
+            cDBuME0GA1UdEQRGMESCHGRvY3VtZW50YWxlLmNvbXVuZS5zYXZvbmEuaXSGJGh0
+            dHBzOi8vZG9jdW1lbnRhbGUuY29tdW5lLnNhdm9uYS5pdDAdBgNVHQ4EFgQUtKSg
+            P4Any/8Upx74s+7NtGUBLrowDQYJKoZIhvcNAQELBQADggGBAG2Cpq2uQ8u+GlnJ
+            J21DoQ1yycdbthVz3D1B0P8wvxV1Stf32ts5+GAI0NDV53LOPO19L2VyZz1suQ/G
+            NaSIn4Chvf5l4WDL81rxmgM9zUf/D8yQ5NQ+k2VTnWu+0Br90dL326EFrKqiYzjn
+            vT/oN9A6s1v7pNH7OvK5VYfaTipTkiLWrXy1lQQ/hcn1JjOSvAb9kwxtKSFvR+Qz
+            sku2GgYKa8AtvCipqk8AJj3Lpvnv3xhTZ6g1MpQQwCSq5LI2+vHrMUwESoVVpvg+
+            /IHBNty6YGFWpZuUQ5ydsYxxZTrhak3prcy/LiGPod5W2yGCrNLhNU99wci/C/WG
+            iC8DcIqha1qYF+kITWAg/QN92z+4BdQTuAZidUDzqUANWw71heiWX+dLdVF5zo5M
+            9TAf1dTC0ci+kfOUAGfaledMUXHnO5DR+G+Th9wFlPKe/URH50Rivp06ZH3v16AY
+            eI7JE2dR5JzE9cO//uyhazujNzbk8VM41Qq/xuG3YSjsPNUCbQ==
+            </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://documentale.comune.savona.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://documentale.comune.savona.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://documentale.comune.savona.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+
+    <md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="it">Set 1 - Base</md:ServiceName>
+        <md:RequestedAttribute Name="spidCode"/>
+        <md:RequestedAttribute Name="name"/>
+        <md:RequestedAttribute Name="familyName"/>
+        <md:RequestedAttribute Name="fiscalNumber"/>
+    </md:AttributeConsumingService><md:AttributeConsumingService index="1">
+        <md:ServiceName xml:lang="it">Set 2 - EMail</md:ServiceName>
+        <md:RequestedAttribute Name="spidCode"/>
+        <md:RequestedAttribute Name="name"/>
+        <md:RequestedAttribute Name="familyName"/>
+        <md:RequestedAttribute Name="fiscalNumber"/>
+        <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService></md:SPSSODescriptor>
+  <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Savona</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Savona</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">http://www.comune.savona.it</md:OrganizationURL>
+ </md:Organization>
+</md:EntityDescriptor>

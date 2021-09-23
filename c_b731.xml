@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_7c0c04454e018aac9af9e4521b33a3f8b8a5da520f6d20abc2ce233a8fcc0fdd" entityID="https://sportellotelematico.comune.caravaggio.bg.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_7c0c04454e018aac9af9e4521b33a3f8b8a5da520f6d20abc2ce233a8fcc0fdd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fdeEJkmKfdazPuK/EIgvJc/mR3hFSAb7tMvipoOBf5U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+oIFCzGBsHQ1qUb+MIHrkxS6pjhA/xxIBgs5I1LCyiQx2Ay4sxsyyM7m6X7hs5xOLQyb2oJsHotwa
+doAmMwLUfuxWOawsu/t/tukE5+WKLEQr4zjqpuwNQ0VG+vrx7a9al5S7wUusUyiCGQt93ERBjV1f
+KW0e/bySbIsBvl5pWAoVwKg1wm7HTPgN7RsocWLzgnGBWwXgfEa/WSCQX0VEkAPUVk4tOnkJmEwe
+JwEhBAdUWy5xdsw5axVpy+4W9B76J2MEH10Mk5/Vf9FVpiNU0Jz49b1gQXyAgkcfhFS3TYC6q1v/
+WXOWxzGb+SgggJe+M0gLkXAWLDyCLaM+FJl2cg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3KteSvLrPGFYVufDlkSHJCrHRLAB8D8JxZCCMr2UgPStO0Xlu3ruijcCLIvkgy8E5o+WUjrxlqKg
+H4JWqTX0PXenAaPds6UxjWOH+xomBozbXqdvwKBY0PE0DF/keCdp8gfm6sBn/N6uiB4YUjv7UCFD
+9b4Q0vcpIE34ydgch43o9VKjpIlDaVhzr4asidDmnLy0P0vqKMBQehqxTpHjdcjevUX1PBDPJRIM
+6YEy3+GIbDy1Zko3cHa0CmzwowQWgxQEP0OjGisRkgA81ZpGrmw5KeU0Tcmes9/ifzwTjZqt1v29
+aifgaq8eSEZTqh3Fkzl6DVGNxV43MxRnEawglQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEIDCCAwigAwIBAgIJAOpkBC4hDu/GMA0GCSqGSIb3DQEBCwUAMIG2MR0wGwYDVQQKDBRDb211
+bmUgZGkgQ2FyYXZhZ2dpbzEdMBsGA1UEAwwUQ29tdW5lIGRpIENhcmF2YWdnaW8xPTA7BgNVBFMM
+NGh0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FyYXZhZ2dpby5iZy5pdC8xFTAT
+BgNVBGEMDFBBOklULWNfYjczMTELMAkGA1UEBhMCSVQxEzARBgNVBAcMCkNhcmF2YWdnaW8wHhcN
+MjAxMTA2MTE1MzQ4WhcNMzAxMTA0MTE1MzQ4WjCBtjEdMBsGA1UECgwUQ29tdW5lIGRpIENhcmF2
+YWdnaW8xHTAbBgNVBAMMFENvbXVuZSBkaSBDYXJhdmFnZ2lvMT0wOwYDVQRTDDRodHRwczovL3Nw
+b3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcmF2YWdnaW8uYmcuaXQvMRUwEwYDVQRhDAxQQTpJ
+VC1jX2I3MzExCzAJBgNVBAYTAklUMRMwEQYDVQQHDApDYXJhdmFnZ2lvMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA3KteSvLrPGFYVufDlkSHJCrHRLAB8D8JxZCCMr2UgPStO0Xlu3ru
+ijcCLIvkgy8E5o+WUjrxlqKgH4JWqTX0PXenAaPds6UxjWOH+xomBozbXqdvwKBY0PE0DF/keCdp
+8gfm6sBn/N6uiB4YUjv7UCFD9b4Q0vcpIE34ydgch43o9VKjpIlDaVhzr4asidDmnLy0P0vqKMBQ
+ehqxTpHjdcjevUX1PBDPJRIM6YEy3+GIbDy1Zko3cHa0CmzwowQWgxQEP0OjGisRkgA81ZpGrmw5
+KeU0Tcmes9/ifzwTjZqt1v29aifgaq8eSEZTqh3Fkzl6DVGNxV43MxRnEawglQIDAQABoy8wLTAJ
+BgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsF
+AAOCAQEASNYqXm16lKjCTRmUgtULgslOXaUPfvzEdZWe4K6GSHgtWXH2gGB5d0rQGErS3DsqENCv
+Hdmx1vB61EWPIf68TmxKr8bMwOU61R9TnRIowbnGVYMxw/2679KMPwVR6wJY5mMC3vJVMx6SXFah
+vcni7KlpDh1lKr2HAcBW22jS24QoL1Jm90IlpGQIto/GgT2D79Ozwmlxj/vCetJdLUB9Id2VpAAl
+54LZ0oA6AI8g7JATtf9atsfLY6uhFo1WPp2FSfBRf0LD/HwXMs9UcDeZ0USXcJVuocgnjfGZ8clh
+mMtSP9hemojAfCTRkOeTCi3Jyzp45mE0kQYb/LCZkaor9g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIJALcPyRRooTzZMA0GCSqGSIb3DQEBCwUAMIGoMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzETMBEGA1UEBwwKQ2FyYXZhZ2dpbzEdMBsGA1UECgwUQ29tdW5lIGRpIENhcmF2YWdnaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTQwMgYDVQQDDCtzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXJhdmFnZ2lvLmJnLml0MB4XDTE5MDMxOTEzNTQwMVoXDTI5MDMxNjEzNTQwMVowgagxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRMwEQYDVQQHDApDYXJhdmFnZ2lvMR0wGwYDVQQKDBRDb211bmUgZGkgQ2FyYXZhZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNDAyBgNVBAMMK3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcmF2YWdnaW8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChGXxFUaqs2JDp3X2iaT248xTo6gGpDSk80RzxSvhAtGOqtUPr7FNVyTn4r9llnO/ki0AszQkHrhzL3w1QFExrPoVp34TKC3+SJ7LmxKXy18Lgt1BPWYAeLRsB7cpDgz4sqj+wt3MmeKnKPp60ddvTgmIeOJxec/OcT5ievRxy+tkDp+VM4ci5ETTHVzF0ispeGz8lI7lXRvaS5K5eiH96f3WNwZBIDe4DXbjnb+84RpzHvDN+6ucRflqprIxNkFOeFd2VoBKPLVgTkfx4EmtmM31Rv/gmWX1yjQELAYC0TRF6bdMDMfD85T2btP9Vje7Gro8oU5m9GSWluboiRrtLAgMBAAGjUzBRMB0GA1UdDgQWBBRMeaekmrdtMi79jmBXIIbe2mHXZDAfBgNVHSMEGDAWgBRMeaekmrdtMi79jmBXIIbe2mHXZDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCUnGOOMKrZB8YzBbYeUHxKSuUUWJOJjnAdEf+WIUHPA9glcAViYKXLjK4567p8QXarzG1r+4KQvucbgOlh4K1SRwzi5s5QWoxmDibaMzmHpqX/l4yGPAd73tpLawdxtSWt4aW8W14MQoAMFRHxjygFJlKKvTIXYBqrwyTfYItZ034LPJ8lrvSSHR687DMDlgjmdhToI6Flw5gR2eUDRrGEJqsh5KpCxcUCMTHLGzIQi+XjswRPN1RLaevavK/57tg+xRaLlQQJVEV0h/sQO4HA3q9FHU9rG4IyY8OlzlvcO2signdurWAdLXu5oKHacmcgmiXZ/wX7x34J0whplG6P</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEKDCCAxCgAwIBAgIJALcPyRRooTzZMA0GCSqGSIb3DQEBCwUAMIGoMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzETMBEGA1UEBwwKQ2FyYXZhZ2dpbzEdMBsGA1UECgwUQ29tdW5lIGRpIENhcmF2YWdnaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTQwMgYDVQQDDCtzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5jYXJhdmFnZ2lvLmJnLml0MB4XDTE5MDMxOTEzNTQwMVoXDTI5MDMxNjEzNTQwMVowgagxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRMwEQYDVQQHDApDYXJhdmFnZ2lvMR0wGwYDVQQKDBRDb211bmUgZGkgQ2FyYXZhZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xNDAyBgNVBAMMK3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcmF2YWdnaW8uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChGXxFUaqs2JDp3X2iaT248xTo6gGpDSk80RzxSvhAtGOqtUPr7FNVyTn4r9llnO/ki0AszQkHrhzL3w1QFExrPoVp34TKC3+SJ7LmxKXy18Lgt1BPWYAeLRsB7cpDgz4sqj+wt3MmeKnKPp60ddvTgmIeOJxec/OcT5ievRxy+tkDp+VM4ci5ETTHVzF0ispeGz8lI7lXRvaS5K5eiH96f3WNwZBIDe4DXbjnb+84RpzHvDN+6ucRflqprIxNkFOeFd2VoBKPLVgTkfx4EmtmM31Rv/gmWX1yjQELAYC0TRF6bdMDMfD85T2btP9Vje7Gro8oU5m9GSWluboiRrtLAgMBAAGjUzBRMB0GA1UdDgQWBBRMeaekmrdtMi79jmBXIIbe2mHXZDAfBgNVHSMEGDAWgBRMeaekmrdtMi79jmBXIIbe2mHXZDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCUnGOOMKrZB8YzBbYeUHxKSuUUWJOJjnAdEf+WIUHPA9glcAViYKXLjK4567p8QXarzG1r+4KQvucbgOlh4K1SRwzi5s5QWoxmDibaMzmHpqX/l4yGPAd73tpLawdxtSWt4aW8W14MQoAMFRHxjygFJlKKvTIXYBqrwyTfYItZ034LPJ8lrvSSHR687DMDlgjmdhToI6Flw5gR2eUDRrGEJqsh5KpCxcUCMTHLGzIQi+XjswRPN1RLaevavK/57tg+xRaLlQQJVEV0h/sQO4HA3q9FHU9rG4IyY8OlzlvcO2signdurWAdLXu5oKHacmcgmiXZ/wX7x34J0whplG6P</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEIDCCAwigAwIBAgIJAOpkBC4hDu/GMA0GCSqGSIb3DQEBCwUAMIG2MR0wGwYDVQQKDBRDb211bmUgZGkgQ2FyYXZhZ2dpbzEdMBsGA1UEAwwUQ29tdW5lIGRpIENhcmF2YWdnaW8xPTA7BgNVBFMMNGh0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuY2FyYXZhZ2dpby5iZy5pdC8xFTATBgNVBGEMDFBBOklULWNfYjczMTELMAkGA1UEBhMCSVQxEzARBgNVBAcMCkNhcmF2YWdnaW8wHhcNMjAxMTA2MTE1MzQ4WhcNMzAxMTA0MTE1MzQ4WjCBtjEdMBsGA1UECgwUQ29tdW5lIGRpIENhcmF2YWdnaW8xHTAbBgNVBAMMFENvbXVuZSBkaSBDYXJhdmFnZ2lvMT0wOwYDVQRTDDRodHRwczovL3Nwb3J0ZWxsb3RlbGVtYXRpY28uY29tdW5lLmNhcmF2YWdnaW8uYmcuaXQvMRUwEwYDVQRhDAxQQTpJVC1jX2I3MzExCzAJBgNVBAYTAklUMRMwEQYDVQQHDApDYXJhdmFnZ2lvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3KteSvLrPGFYVufDlkSHJCrHRLAB8D8JxZCCMr2UgPStO0Xlu3ruijcCLIvkgy8E5o+WUjrxlqKgH4JWqTX0PXenAaPds6UxjWOH+xomBozbXqdvwKBY0PE0DF/keCdp8gfm6sBn/N6uiB4YUjv7UCFD9b4Q0vcpIE34ydgch43o9VKjpIlDaVhzr4asidDmnLy0P0vqKMBQehqxTpHjdcjevUX1PBDPJRIM6YEy3+GIbDy1Zko3cHa0CmzwowQWgxQEP0OjGisRkgA81ZpGrmw5KeU0Tcmes9/ifzwTjZqt1v29aifgaq8eSEZTqh3Fkzl6DVGNxV43MxRnEawglQIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEASNYqXm16lKjCTRmUgtULgslOXaUPfvzEdZWe4K6GSHgtWXH2gGB5d0rQGErS3DsqENCvHdmx1vB61EWPIf68TmxKr8bMwOU61R9TnRIowbnGVYMxw/2679KMPwVR6wJY5mMC3vJVMx6SXFahvcni7KlpDh1lKr2HAcBW22jS24QoL1Jm90IlpGQIto/GgT2D79Ozwmlxj/vCetJdLUB9Id2VpAAl54LZ0oA6AI8g7JATtf9atsfLY6uhFo1WPp2FSfBRf0LD/HwXMs9UcDeZ0USXcJVuocgnjfGZ8clhmMtSP9hemojAfCTRkOeTCi3Jyzp45mE0kQYb/LCZkaor9g==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.caravaggio.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/caravaggio"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.caravaggio.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/caravaggio" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/caravaggio" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/caravaggio" index="3"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">stu</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="99">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="100">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="spidCode"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="address"/>
+         <md:RequestedAttribute Name="gender"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="en">Comune di Caravaggio</md:OrganizationName>
+      <md:OrganizationName xml:lang="it">Comune di Caravaggio</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Caravaggio</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Caravaggio</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Caravaggio</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Caravaggio</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Caravaggio</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Caravaggio</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.caravaggio.bg.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.caravaggio.bg.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.caravaggio.bg.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.caravaggio.bg.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_b731</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>mailto:urp@pec.comune.caravaggio.bg.it</md:EmailAddress>
+   </md:ContactPerson>
+</md:EntityDescriptor>

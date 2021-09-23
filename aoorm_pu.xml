@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_583c149f1aca2a86d490fc2b1c187aaba3588193" entityID="https://spid.ospedalimarchenord.it/O4S.sso"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_583c149f1aca2a86d490fc2b1c187aaba3588193">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zRBc3zlZJFM+GJFo+6FeT+y2T8Rnsm+jwYh9hO5fz3s=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+H+UFh6bTZ1X6V02vkFsp5oifMUI9iKg8/FQFEa8JW7jOq4St6R6Se3em5SrOrMjPiGLINMOlGzB3
+T9guIPFQXckO+z0WwvHNH/WOdBmUD8yZ/IdMWKtbfFUp4m1fg0QqW3TEHvDd2VbCK1E9oTMFZtf0
+/+omvpJOxgW5YSl9VF8r1j5OJ1flBQ9W7EbUDSGiXeRtyLkyXZ08QZ/Hqd5oJPF4/t3ailaI5SiC
+QsOLAgXq6AQBr7zo2YZLNX8N/CzBTLrPbdeQasjcfCdED2L/0c2qMkz/EUbFi171SlHD1dJGN64T
+a6jSuOeGannx5zLiPlh5lMNOa0uR2We0Nj5j0Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zJOX+72TgUO8meA5yoxdotprs0XT28SWHgHqzQsK7kzTGHLn8CH1+tnloHr45Ik5uMucDJxVBwMX
+xERdJpUiGB+85DZaBQg8Hi7LEejV3pRuCTP/DEcL4mGN8LtIaVWaVS4OeFJhovXeWFoWsR2uwx1g
+ETwGXH1eR/pvM4fcu8T/zKtPgX048jJdrnawgei76jG9ilMF/tNFNQH/5uRq6unFoJga/1Bms82B
+g/ln8Hm+XKUBHCasIDQGpdY46T3gs5TrGYSNIKz3m++4Pai9DA+1G6ALDGCTz11DW6wfG5s++QG0
+UCyN3yMlrE752I9mtYMRs7+eTEOGpOVoVW47gQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHTTCCBjWgAwIBAgIQDRzXOeswSLvbAE+4KxCL2TANBgkqhkiG9w0BAQsFADCBjzELMAkGA1UE
+BhMCSVQxMTAvBgNVBAoTKFRlbGVjb20gSXRhbGlhIFRydXN0IFRlY2hub2xvZ2llcyBTLnIubC4x
+JjAkBgNVBAsTHURpZ2l0YWwgSWRlbnRpdHkgYW5kIFNlY3VyaXR5MSUwIwYDVQQDExxUcnVzdCBU
+ZWNobm9sb2dpZXMgR2xvYmFsIENBMB4XDTE5MDYyNzAwMDAwMFoXDTIxMDcwMTEyMDAwMFowgZ4x
+CzAJBgNVBAYTAklUMQ8wDQYDVQQHEwZQZXNhcm8xOTA3BgNVBAoTMEF6aWVuZGEgT3NwZWRhbGll
+cmEgT3NwZWRhbGkgUml1bml0aSBNYXJjaGUgTm9yZDEhMB8GA1UECxMYVU9DIFNlcnZpemlvIElu
+Zm9ybWF0aWNvMSAwHgYDVQQDDBcqLm9zcGVkYWxpbWFyY2hlbm9yZC5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAMyTl/u9k4FDvJngOcqMXaLaa7NF09vElh4B6s0LCu5M0xhy5/Ah
+9frZ5aB6+OSJObjLnAycVQcDF8REXSaVIhgfvOQ2WgUIPB4uyxHo1d6Ubgkz/wxHC+JhjfC7SGlV
+mlUuDnhSYaL13lhaFrEdrsMdYBE8Blx9Xkf6bzOH3LvE/8yrT4F9OPIyXa52sIHou+oxvYpTBf7T
+RTUB/+bkaurpxaCYGv9QZrPNgYP5Z/B5vlylARwmrCA0BqXWOOk94LOU6xmEjSCs95vvuD2ovQwP
+tRugCwxgk89dQ1usHxubPvkBtFAsjd8jJaxO+diPZrWDEbO/nkxDhqTlaFVuO4ECAwEAAaOCA5Iw
+ggOOMB8GA1UdIwQYMBaAFMYHCRKlNoY/d1mhaFcQqthj1ofEMB0GA1UdDgQWBBRctOeNi0Qarb8m
+xWYyT+bejUXbITA5BgNVHREEMjAwghcqLm9zcGVkYWxpbWFyY2hlbm9yZC5pdIIVb3NwZWRhbGlt
+YXJjaGVub3JkLml0MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH
+AwIwgYUGA1UdHwR+MHwwPKA6oDiGNmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9UcnVzdFRlY2hu
+b2xvZ2llc0dsb2JhbENBLmNybDA8oDqgOIY2aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL1RydXN0
+VGVjaG5vbG9naWVzR2xvYmFsQ0EuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYB
+BQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQICMHsGCCsGAQUFBwEB
+BG8wbTAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEUGCCsGAQUFBzAChjlo
+dHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vVHJ1c3RUZWNobm9sb2dpZXNHbG9iYWxDQS5jcnQw
+DAYDVR0TAQH/BAIwADCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHYA7ku9t3XOYLrhQmkfq+Ge
+ZqMPfl+wctiDAMR7iXqo/csAAAFrmRRPuAAABAMARzBFAiAFG5NiSXEw6T7FDvtorijcKb+hvccA
+Yqqt8MTNvOX6QQIhANKHnVSj/zqifLkbUqBKkShYdWsT+goGVlf73HQClFphAHYAh3W/51l8+IxD
+mV+9827/Vo1HVjb/SrVgwbTq/16ggw8AAAFrmRRQAAAABAMARzBFAiEA2/qtUqqDZp3kAp45Uduk
+UKw8IpjN0ePJAZDfItJLAncCIDd08fWq3FTOEGR2NkZWPeFaj+6G8ZMK6Mo+lVt5yPXGAHcARJRl
+LrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFrmRRO+gAABAMASDBGAiEA99Hr22rOtPJ+
+QeZUu22V5BNs1+uZ8X5s9N87IFrgReACIQCSg79J3rU9e7Ft49XtUiezF1hQiI1poqbhenMdNBzn
+kjANBgkqhkiG9w0BAQsFAAOCAQEALFKhbzk3zCaNEEmCp5N9mHxHNZWvjiPgPUSUOsyU1WBRM8hS
+LHQAVqOijMZrVuwVKaNPj9C6h0mMTDKUl8keut/qFU953GiSGKuODbrzd2Og9pRjiSccZ3IJxMFQ
+JqEBhz2EBJSP+EXXLCxG6Os4JZ0C4epUYOGVqidX1KQ/aqypY2CFMllGmZRHMRRLzvMN7ETUteru
+O7uduNUk/N5PrUm43IDoaALAdZbC+UK3xIPfGRWR4Zxm3pjrInhy56H/7H7csy98+wX3dv9LRShL
+ZQE4J84GElwqxJgEmT8dciniuaCUaBUzh0S+Go6h+OVWxxLeLC1v52uz3uRaVXNIcA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=*.ospedalimarchenord.it,OU=UOC Servizio Informatico,O=Azienda Ospedaliera Ospedali Riuniti Marche Nord,L=Pesaro,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIHTTCCBjWgAwIBAgIQDRzXOeswSLvbAE+4KxCL2TANBgkqhkiG9w0BAQsFADCB
+jzELMAkGA1UEBhMCSVQxMTAvBgNVBAoTKFRlbGVjb20gSXRhbGlhIFRydXN0IFRl
+Y2hub2xvZ2llcyBTLnIubC4xJjAkBgNVBAsTHURpZ2l0YWwgSWRlbnRpdHkgYW5k
+IFNlY3VyaXR5MSUwIwYDVQQDExxUcnVzdCBUZWNobm9sb2dpZXMgR2xvYmFsIENB
+MB4XDTE5MDYyNzAwMDAwMFoXDTIxMDcwMTEyMDAwMFowgZ4xCzAJBgNVBAYTAklU
+MQ8wDQYDVQQHEwZQZXNhcm8xOTA3BgNVBAoTMEF6aWVuZGEgT3NwZWRhbGllcmEg
+T3NwZWRhbGkgUml1bml0aSBNYXJjaGUgTm9yZDEhMB8GA1UECxMYVU9DIFNlcnZp
+emlvIEluZm9ybWF0aWNvMSAwHgYDVQQDDBcqLm9zcGVkYWxpbWFyY2hlbm9yZC5p
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMyTl/u9k4FDvJngOcqM
+XaLaa7NF09vElh4B6s0LCu5M0xhy5/Ah9frZ5aB6+OSJObjLnAycVQcDF8REXSaV
+IhgfvOQ2WgUIPB4uyxHo1d6Ubgkz/wxHC+JhjfC7SGlVmlUuDnhSYaL13lhaFrEd
+rsMdYBE8Blx9Xkf6bzOH3LvE/8yrT4F9OPIyXa52sIHou+oxvYpTBf7TRTUB/+bk
+aurpxaCYGv9QZrPNgYP5Z/B5vlylARwmrCA0BqXWOOk94LOU6xmEjSCs95vvuD2o
+vQwPtRugCwxgk89dQ1usHxubPvkBtFAsjd8jJaxO+diPZrWDEbO/nkxDhqTlaFVu
+O4ECAwEAAaOCA5IwggOOMB8GA1UdIwQYMBaAFMYHCRKlNoY/d1mhaFcQqthj1ofE
+MB0GA1UdDgQWBBRctOeNi0Qarb8mxWYyT+bejUXbITA5BgNVHREEMjAwghcqLm9z
+cGVkYWxpbWFyY2hlbm9yZC5pdIIVb3NwZWRhbGltYXJjaGVub3JkLml0MA4GA1Ud
+DwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgYUGA1Ud
+HwR+MHwwPKA6oDiGNmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9UcnVzdFRlY2hu
+b2xvZ2llc0dsb2JhbENBLmNybDA8oDqgOIY2aHR0cDovL2NybDQuZGlnaWNlcnQu
+Y29tL1RydXN0VGVjaG5vbG9naWVzR2xvYmFsQ0EuY3JsMEwGA1UdIARFMEMwNwYJ
+YIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNv
+bS9DUFMwCAYGZ4EMAQICMHsGCCsGAQUFBwEBBG8wbTAkBggrBgEFBQcwAYYYaHR0
+cDovL29jc3AuZGlnaWNlcnQuY29tMEUGCCsGAQUFBzAChjlodHRwOi8vY2FjZXJ0
+cy5kaWdpY2VydC5jb20vVHJ1c3RUZWNobm9sb2dpZXNHbG9iYWxDQS5jcnQwDAYD
+VR0TAQH/BAIwADCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHYA7ku9t3XOYLrh
+Qmkfq+GeZqMPfl+wctiDAMR7iXqo/csAAAFrmRRPuAAABAMARzBFAiAFG5NiSXEw
+6T7FDvtorijcKb+hvccAYqqt8MTNvOX6QQIhANKHnVSj/zqifLkbUqBKkShYdWsT
++goGVlf73HQClFphAHYAh3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8A
+AAFrmRRQAAAABAMARzBFAiEA2/qtUqqDZp3kAp45UdukUKw8IpjN0ePJAZDfItJL
+AncCIDd08fWq3FTOEGR2NkZWPeFaj+6G8ZMK6Mo+lVt5yPXGAHcARJRlLrDuzq/E
+QAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFrmRRO+gAABAMASDBGAiEA99Hr22rO
+tPJ+QeZUu22V5BNs1+uZ8X5s9N87IFrgReACIQCSg79J3rU9e7Ft49XtUiezF1hQ
+iI1poqbhenMdNBznkjANBgkqhkiG9w0BAQsFAAOCAQEALFKhbzk3zCaNEEmCp5N9
+mHxHNZWvjiPgPUSUOsyU1WBRM8hSLHQAVqOijMZrVuwVKaNPj9C6h0mMTDKUl8ke
+ut/qFU953GiSGKuODbrzd2Og9pRjiSccZ3IJxMFQJqEBhz2EBJSP+EXXLCxG6Os4
+JZ0C4epUYOGVqidX1KQ/aqypY2CFMllGmZRHMRRLzvMN7ETUteruO7uduNUk/N5P
+rUm43IDoaALAdZbC+UK3xIPfGRWR4Zxm3pjrInhy56H/7H7csy98+wX3dv9LRShL
+ZQE4J84GElwqxJgEmT8dciniuaCUaBUzh0S+Go6h+OVWxxLeLC1v52uz3uRaVXNI
+cA==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ospedalimarchenord.it/O4S.sso/SLO/POST"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ospedalimarchenord.it/O4S.sso/SAML2/POST" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="it"> Azienda Ospedaliera Ospedali Riuniti Marche Nord </md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+        <md:Organization>
+                <md:OrganizationName xml:lang="it"> Azienda Ospedaliera Ospedali Riuniti Marche Nord </md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it"> Azienda Ospedaliera Ospedali Marche Nord </md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it"> http://www.ospedalimarchenord.it/ </md:OrganizationURL>
+        </md:Organization>
+  </md:EntityDescriptor>

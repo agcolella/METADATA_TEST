@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.sesto-al-reghena.pn.it" ID="pfx15b1a74c-d601-746c-85de-10c6086ce5f1"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx15b1a74c-d601-746c-85de-10c6086ce5f1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>bakcP9wOaUGmUUnEJPvlG+U76a2kJ9y8mIgHRBI+EQY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>3z96svecpwnANn/jQQXE1ATefbWExAFNPyf9WcWdx+8QhRJRdLlw3XR+sDfoM19zE2I70UtIJJSkoUghskPDb9/Ucm1/GK8ghbM+LUxgSpULFe7fH8S5ZtuGHs61dKMIImjqcf+bq6xvo71ctTUWN7tNpKEeTRzKSiI32zLd29D7JI4EAITZ1wptVt0/26LPrsCQDVYvwxlJE/wUSoMU7VVBGS8vXfPcSsW2k5F64ZdNMTjMyfpE36tpjYU8h0d6+nUlzKfXyaDK/mImmkQBQ+biE5/rokFwPr5jlUCv9E1mpUoQvdLQngyIZCZWtSCb5YvtPAreVuT/0/Zs9T810w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAPzVDGQB2JFpMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFNlc3RvIGFsIFJlZ2hlbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBTZXN0byBhbCBSZWdoZW5hMSowKAYDVQQDDCF3d3cuY29tdW5lLnNlc3RvLWFsLXJlZ2hlbmEucG4uaXQwHhcNMTgwNDE4MDkwMzQ4WhcNMjgwNDE3MDkwMzQ4WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRkwFwYDVQQHDBBTZXN0byBhbCBSZWdoZW5hMSMwIQYDVQQKDBpDb211bmUgZGkgU2VzdG8gYWwgUmVnaGVuYTEqMCgGA1UEAwwhd3d3LmNvbXVuZS5zZXN0by1hbC1yZWdoZW5hLnBuLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6JGnIFZrlSKpfrxygyW4t7/2LotUChdJCKSRKloSaC+5VIlMN+4jKN3mGsh2RC8CMZDeHp27RpBq/agoaqfOXbzP9Ii6+JJbMuCg/Kys1xgm1lO4OBttH3AOz+GAS1f7s6XMx36abFjleGiwG1xp1Gymv9YXVKKALsaN04SdCn6XVY6aR05uIdlnurMMc0FJNYRh1tjRMTi0rTM8dx7WnKaY+ahOVyX/kPNCHkeH1Hd3Tk02GrhVmO/jc+vau4+vSC3fwt9YLRM3OFdlNOgqhUjBlvtCded3toH0PIIkC6dI9yOhLQtREikNr315E96VTTzMrZnugc8qv98I+yyJxQIDAQABo1AwTjAdBgNVHQ4EFgQUiAfB6njOh53c94IGwvBqbuymBqMwHwYDVR0jBBgwFoAUiAfB6njOh53c94IGwvBqbuymBqMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEbM6XC1BaHih9cQysQ0Z4e/sSBrnNvbaHLH05LjRYzVJTUDlrWXGG3f1fuJ4oKwJU2uDggzlj5q8SfTb6Zfwm7DfR2mUVJHCY26ln/Z08AFgV6fNF91dJ66fIi39bavlR61AhJNNzf32a5nG9PhArnp6fQn/YNSlHwDdrQ1imnCsrhfjrtEH5I7/Yj7Gt0nVB+tikp8GJ9V0e+4jAgR/mxFYJC9fyopdAWg7gYogV2rhu3aAZODfOyNdjmsQr6StaAgcSJhAPpNTrfmZI5oHdE6yBNvQauQEmf+K0CzahIxqnQKRydQKlfcUVVp+MGYXNuEfoTIHkB3GheHI3tcf2w==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAPzVDGQB2JFpMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFNlc3RvIGFsIFJlZ2hlbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBTZXN0byBhbCBSZWdoZW5hMSowKAYDVQQDDCF3d3cuY29tdW5lLnNlc3RvLWFsLXJlZ2hlbmEucG4uaXQwHhcNMTgwNDE4MDkwMzQ4WhcNMjgwNDE3MDkwMzQ4WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRkwFwYDVQQHDBBTZXN0byBhbCBSZWdoZW5hMSMwIQYDVQQKDBpDb211bmUgZGkgU2VzdG8gYWwgUmVnaGVuYTEqMCgGA1UEAwwhd3d3LmNvbXVuZS5zZXN0by1hbC1yZWdoZW5hLnBuLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6JGnIFZrlSKpfrxygyW4t7/2LotUChdJCKSRKloSaC+5VIlMN+4jKN3mGsh2RC8CMZDeHp27RpBq/agoaqfOXbzP9Ii6+JJbMuCg/Kys1xgm1lO4OBttH3AOz+GAS1f7s6XMx36abFjleGiwG1xp1Gymv9YXVKKALsaN04SdCn6XVY6aR05uIdlnurMMc0FJNYRh1tjRMTi0rTM8dx7WnKaY+ahOVyX/kPNCHkeH1Hd3Tk02GrhVmO/jc+vau4+vSC3fwt9YLRM3OFdlNOgqhUjBlvtCded3toH0PIIkC6dI9yOhLQtREikNr315E96VTTzMrZnugc8qv98I+yyJxQIDAQABo1AwTjAdBgNVHQ4EFgQUiAfB6njOh53c94IGwvBqbuymBqMwHwYDVR0jBBgwFoAUiAfB6njOh53c94IGwvBqbuymBqMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEbM6XC1BaHih9cQysQ0Z4e/sSBrnNvbaHLH05LjRYzVJTUDlrWXGG3f1fuJ4oKwJU2uDggzlj5q8SfTb6Zfwm7DfR2mUVJHCY26ln/Z08AFgV6fNF91dJ66fIi39bavlR61AhJNNzf32a5nG9PhArnp6fQn/YNSlHwDdrQ1imnCsrhfjrtEH5I7/Yj7Gt0nVB+tikp8GJ9V0e+4jAgR/mxFYJC9fyopdAWg7gYogV2rhu3aAZODfOyNdjmsQr6StaAgcSJhAPpNTrfmZI5oHdE6yBNvQauQEmf+K0CzahIxqnQKRydQKlfcUVVp+MGYXNuEfoTIHkB3GheHI3tcf2w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAPzVDGQB2JFpMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFNlc3RvIGFsIFJlZ2hlbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBTZXN0byBhbCBSZWdoZW5hMSowKAYDVQQDDCF3d3cuY29tdW5lLnNlc3RvLWFsLXJlZ2hlbmEucG4uaXQwHhcNMTgwNDE4MDkwMzQ4WhcNMjgwNDE3MDkwMzQ4WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRkwFwYDVQQHDBBTZXN0byBhbCBSZWdoZW5hMSMwIQYDVQQKDBpDb211bmUgZGkgU2VzdG8gYWwgUmVnaGVuYTEqMCgGA1UEAwwhd3d3LmNvbXVuZS5zZXN0by1hbC1yZWdoZW5hLnBuLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6JGnIFZrlSKpfrxygyW4t7/2LotUChdJCKSRKloSaC+5VIlMN+4jKN3mGsh2RC8CMZDeHp27RpBq/agoaqfOXbzP9Ii6+JJbMuCg/Kys1xgm1lO4OBttH3AOz+GAS1f7s6XMx36abFjleGiwG1xp1Gymv9YXVKKALsaN04SdCn6XVY6aR05uIdlnurMMc0FJNYRh1tjRMTi0rTM8dx7WnKaY+ahOVyX/kPNCHkeH1Hd3Tk02GrhVmO/jc+vau4+vSC3fwt9YLRM3OFdlNOgqhUjBlvtCded3toH0PIIkC6dI9yOhLQtREikNr315E96VTTzMrZnugc8qv98I+yyJxQIDAQABo1AwTjAdBgNVHQ4EFgQUiAfB6njOh53c94IGwvBqbuymBqMwHwYDVR0jBBgwFoAUiAfB6njOh53c94IGwvBqbuymBqMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEbM6XC1BaHih9cQysQ0Z4e/sSBrnNvbaHLH05LjRYzVJTUDlrWXGG3f1fuJ4oKwJU2uDggzlj5q8SfTb6Zfwm7DfR2mUVJHCY26ln/Z08AFgV6fNF91dJ66fIi39bavlR61AhJNNzf32a5nG9PhArnp6fQn/YNSlHwDdrQ1imnCsrhfjrtEH5I7/Yj7Gt0nVB+tikp8GJ9V0e+4jAgR/mxFYJC9fyopdAWg7gYogV2rhu3aAZODfOyNdjmsQr6StaAgcSJhAPpNTrfmZI5oHdE6yBNvQauQEmf+K0CzahIxqnQKRydQKlfcUVVp+MGYXNuEfoTIHkB3GheHI3tcf2w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sesto-al-reghena.pn.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sesto-al-reghena.pn.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sesto al Reghena</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sesto al Reghena</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sesto-al-reghena.pn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

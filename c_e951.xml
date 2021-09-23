@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="MarianoComense" entityID="https://www.comune.mariano-comense.co.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MarianoComense">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>E6Um1pVGPdthb5qDKEIiv0Ogz2aaq2iqU6YnE2HawTg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+UKERAC/xj4IuLK8hnk3crXdLPcu7E/KHQVJyMCUNrG2uY8NKNQkN1HIIyrmUFWMSWYmdneDzgTef
+JexQ3GvoyGHmTQwaEGf4jWjQ+dOLPBngkpbZPqe1WuUjan4Ty6/Oe6sGs4TScO0M/CsPE29m/ULb
+OTc89+CEJRRLpLf8V/KpsC97djqxoc5dpbIcuQTgtNMX+Rf0RoKGSZje4LKGhfZ8hdIl1XyPDQxx
+J7YDOVYgjDv0T5UKjQFHZSrVT8xqnHAvp8GzyfHdkB9uHFQmQWtgS6iC6OgcPymzcVV99TBoa0T8
+aErpcYcb5cIZujhAGXzypeRRWC5d5m++8oxhHg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tpWmVE2tzlMHKMpWbv84lqUemBxlIPTWVOkRkMU3E5ECK1rLbmIBt+Te+2BjYsPEB4k/HJN0Akwr
+qY+u2vT5VUmFm3FltLXBbpxNCDmEfAviuqQ/9E1tcGvwdhpXcGcspaUtieCzrXyHF3PQ4rB2drLP
+mKZbfOWUyleXwAcrkESSv8I7P6gycq7gPu+h7EqHsqHFT60WpGm8nyJZThyPnQFPD9GHCRRneBpv
+mB2bpmaOVK4gf5aUWTNGOrrLOKSC9cGYynukuB+kLNoviuf4kkrbHz+kg6MiD2eDoPjnULbDc7zX
+Reyexo1WZkHZDWuFK9Gu7aUXVA7CMjmdcwAqkw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYTCCAkmgAwIBAgIJANzSlODF1C9IMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5j
+b211bmUubWFyaWFuby1jb21lbnNlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAe
+Fw0xNzA2MTMxMjM0NTJaFw0yMTA2MTIxMjM0NTJaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUubWFy
+aWFuby1jb21lbnNlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBALaVplRNrc5TByjKVm7/OJalHpgcZSD01lTpEZDFNxORAita
+y25iAbfk3vtgY2LDxAeJPxyTdAJMK6mPrtr0+VVJhZtxZbS1wW6cTQg5hHwL4rqkP/RNbXBr8HYa
+V3BnLKWlLYngs618hxdz0OKwdnayz5imW3zllMpXl8AHK5BEkr/COz+oMnKu4D7voexKh7KhxU+t
+FqRpvJ8iWU4cj50BTw/RhwkUZ3gab5gdm6ZmjlSuIH+WlFkzRjq6yzikgvXBmMp7pLgfpCzaL4rn
++JJK2x8/pIOjIg9ng6D451C2w3O810XsnsaNVmZB2Q1rhSvRru2lF1QOwjI5nXMAKpMCAwEAAaNQ
+ME4wHQYDVR0OBBYEFKLG1UQ+TS9BRql8S24OZsBdn5gZMB8GA1UdIwQYMBaAFKLG1UQ+TS9BRql8
+S24OZsBdn5gZMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAECzQiicJImPZ5kqc76v
+ZSYEO6eqAoLPZV4hdh7074vWYfB5KeWfNJafuNbfQ7ufBDwNdnKf7PNwFBgQHyHes9Lgh7nQQsOH
+oZETnRbfvQtW7hwkxtxvQ7qFqTomMm6S18Z9ftn0GsbHUH9hm/2SpUQgpffbFQTSWTODuGKj/8af
+XbP8gvJvI8Uo7e9O/sBWiwDx7U4j7elJhYxNzJtVWbsjy0wyLPwxGwCmYyTiLRNEKCphtQdY5qdw
+6JNINmwsJZdq/iZcWtoWdX4QNe5cnj/BlzJs9hE7wkNZPGpgcLwgGn8iAMzRqzO1AyAtlGP5kR8b
+lAWXzjOWyXauecvCKvA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJANzSlODF1C9IMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5jb211bmUubWFyaWFuby1jb21lbnNlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xNzA2MTMxMjM0NTJaFw0yMTA2MTIxMjM0NTJaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUubWFyaWFuby1jb21lbnNlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALaVplRNrc5TByjKVm7/OJalHpgcZSD01lTpEZDFNxORAitay25iAbfk3vtgY2LDxAeJPxyTdAJMK6mPrtr0+VVJhZtxZbS1wW6cTQg5hHwL4rqkP/RNbXBr8HYaV3BnLKWlLYngs618hxdz0OKwdnayz5imW3zllMpXl8AHK5BEkr/COz+oMnKu4D7voexKh7KhxU+tFqRpvJ8iWU4cj50BTw/RhwkUZ3gab5gdm6ZmjlSuIH+WlFkzRjq6yzikgvXBmMp7pLgfpCzaL4rn+JJK2x8/pIOjIg9ng6D451C2w3O810XsnsaNVmZB2Q1rhSvRru2lF1QOwjI5nXMAKpMCAwEAAaNQME4wHQYDVR0OBBYEFKLG1UQ+TS9BRql8S24OZsBdn5gZMB8GA1UdIwQYMBaAFKLG1UQ+TS9BRql8S24OZsBdn5gZMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAECzQiicJImPZ5kqc76vZSYEO6eqAoLPZV4hdh7074vWYfB5KeWfNJafuNbfQ7ufBDwNdnKf7PNwFBgQHyHes9Lgh7nQQsOHoZETnRbfvQtW7hwkxtxvQ7qFqTomMm6S18Z9ftn0GsbHUH9hm/2SpUQgpffbFQTSWTODuGKj/8afXbP8gvJvI8Uo7e9O/sBWiwDx7U4j7elJhYxNzJtVWbsjy0wyLPwxGwCmYyTiLRNEKCphtQdY5qdw6JNINmwsJZdq/iZcWtoWdX4QNe5cnj/BlzJs9hE7wkNZPGpgcLwgGn8iAMzRqzO1AyAtlGP5kR8blAWXzjOWyXauecvCKvA=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/marianocomense"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/marianocomense" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/marianocomense" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Mariano Comense</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Mariano Comense</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Mariano Comense</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Mariano Comense</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Mariano Comense</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Mariano Comense</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Mariano Comense</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Mariano Comense</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.mariano-comense.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.mariano-comense.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.mariano-comense.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.mariano-comense.co.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

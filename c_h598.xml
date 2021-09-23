@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_b5b99f540318f23e58c073e862faf9b10c427d0f8470c85359183622666c77d2" entityID="https://www.comune.rovato.bs.it/serviziSPID"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b5b99f540318f23e58c073e862faf9b10c427d0f8470c85359183622666c77d2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>k3GMoWcFVOx8BGMfl4jYIJPhbOa1MwlUps+0YC0DFQk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XTt5ADSdtX51psa1qPC0B9dxLC+MZKxeC5K7RbvZB4iqMmwx6f1UDDPKzp1DRUWx8T0P4Tox6oj6
+ZsvVcrHc1FVf2LDMGcDWMTIVEZgf0s187vqVwNtxNn6WYwg8+eMFJtA1hJus/TlcELyNoEhO7Nt5
+2isjVBOfEEOAaacDIUhXgIcoLkE4AmoPuNlhJ2uf6Qd98C7D8WlsRpCp9/d4akE96w1EwYLbvJZY
+zl13V2eyOJhhX2aPb/pSwr+q+i6YSHt3Xxg1XY1DoaVMpK1Fx6jClBkjO0cq1pyiBAdG0ZGU16ml
+/2fAyjDjBfiJgGD1cm1QVZvEJY3l88bz12anIw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t74zIR3dzD8O7F+v2HRViEA1EOKOte54qXB15dL6DNB4yzxuRjxKndrDlqNYZKbl3D0cmp9N3lCG
+sn/5qYKOgAd3QEdXiz2mVQRoiHiOZsdd1CJw99iXZt96PH72izODZGtekMM0IKR1C26lgZQ+bJKa
+uWQeLzsisbBP2heFZPhlShtI1091FA0gZDO4NfPu69zjDHyqmfRE6lKy4avg+JFO1hP6tKg1DUbk
++vRFD1RPEGe5vyyh61kYKwfDkHjFiveepYEou2fp0F/i6g3yOq4+tTJvdGl14Y9K810iRxbtGvKz
+lFDeoYaqz9JfXCP/3umSCr2SadYjx8yIbaNdCQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID0zCCArugAwIBAgIQKFGoHe1Uvf3LTqZmFb8ycTANBgkqhkiG9w0BAQsFADCBkDELMAkGA1UE
+BhMCSVQxGTAXBgNVBAcTEENvbXVuZSBkaSBSb3ZhdG8xGTAXBgNVBAoTEENvbXVuZSBkaSBSb3Zh
+dG8xNDAyBgNVBAMTK2h0dHBzOi8vd3d3LmNvbXVuZS5yb3ZhdG8uYnMuaXQvc2Vydml6aVNQSUQx
+FTATBgNVBAUWDFBBOklULWNfaDU5ODAeFw0yMDEwMDgxMDM1MjZaFw0zMDEwMDYxMDM1MjZaMIGQ
+MQswCQYDVQQGEwJJVDEZMBcGA1UEBxMQQ29tdW5lIGRpIFJvdmF0bzEZMBcGA1UEChMQQ29tdW5l
+IGRpIFJvdmF0bzE0MDIGA1UEAxMraHR0cHM6Ly93d3cuY29tdW5lLnJvdmF0by5icy5pdC9zZXJ2
+aXppU1BJRDEVMBMGA1UEBRYMUEE6SVQtY19oNTk4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAt74zIR3dzD8O7F+v2HRViEA1EOKOte54qXB15dL6DNB4yzxuRjxKndrDlqNYZKbl3D0c
+mp9N3lCGsn/5qYKOgAd3QEdXiz2mVQRoiHiOZsdd1CJw99iXZt96PH72izODZGtekMM0IKR1C26l
+gZQ+bJKauWQeLzsisbBP2heFZPhlShtI1091FA0gZDO4NfPu69zjDHyqmfRE6lKy4avg+JFO1hP6
+tKg1DUbk+vRFD1RPEGe5vyyh61kYKwfDkHjFiveepYEou2fp0F/i6g3yOq4+tTJvdGl14Y9K810i
+RxbtGvKzlFDeoYaqz9JfXCP/3umSCr2SadYjx8yIbaNdCQIDAQABoycwJTAOBgNVHQ8BAf8EBAMC
+B4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFODKOKZCybcAny4pItV
+WKHn0s97+5LLU3c+/EOQxXOZeg+Qy9VTzqzy/1MOuuxE/1DUXZJUU3aaqUDbunEwRNB3B5cPNyme
+czyKnNVxQTmrW0v2aeyt+TJWyvgGkbHJYK6QJH8ELggz3h1YzW6YKpvZqN/tBDXUd1VBTB9kIYtH
+8WP/hg4AO+EF1JRL5P1AW9h0lbI33I0FAM+nsQSVod2Wi4Nk9766MOzY3x6Qb7yoaydmLGioMg3d
+offXGtkbnb5E/LPVWCoXyYSjKyugR2k531bXGEX0aBhLLGoYUKcgNqbdD0hd4v9JS6fIpukYyde+
+3s2FnHgb9F5wUHcD3vs=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJANRaFJjObCb+MA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucm92YXRvLmJzLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAyMjQxNTIxMzVaFw0zMDAyMjExNTIxMzVaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucm92YXRvLmJzLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL70tJ2jPPTZTMFaXQOF51yXepmVRY7zYWvxDVikDQyPPG7PFQZUY6gvZvZzB5ngI8MLrzN+sxShzX0K8gaF8aLPOI3tmSR2bSaUubFFlX6sKvIRsLsGmu2c5aH2nqMgmC8R5cRltsi/1+/K3aDwOxiMTuJH+CJjk6bNobecHIUwessgoxGsnsBgHP18mocFjvYWLF3rBD5IOiyBkLnTWDI3F+IugPbNr7fevOJ0bAD/28iTf7WblKCWe6swT9W58lT7i8aZRDyPHygfI1O1Qe+Dw4FTEDvDWdG5uY6sMuM9zndruiQKzlBHk7rRD6gYSh5F5KAU2gUml0/xErGkWNkCAwEAAaNQME4wHQYDVR0OBBYEFB4QfBMYuEMa3WRCBOD8ECFrXEYpMB8GA1UdIwQYMBaAFB4QfBMYuEMa3WRCBOD8ECFrXEYpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADRILXJaHE+NgZlCsB/NpA2PGS2HSf+9zmCfq4hkzdcWAJIgq9n0B47Si1+bVHDK6S34nNAIejw4TuuqHvEQiSUYpHT9YhPKyRdM1t4YkWClhPHNQwrsOr7YmSt4GBKkEdCXJztaJKBOZWKHkzzmC8ZSxcbUIek39wVn0fUBrcaysUZDrjeCWcl/ubUydMgT5kzanZIoqCa8T6xj4wkj/H85f+WpxrlQzpOmsXA3HAHJ5LwHy55Vp4tSGwNFraRySrbIFyi62RmZc7X8b4j5AOYXCUK4wxFVqcMV68RsC4LCLA2SY8weTat6c5ChbN0TCvXk6ZJKiNL4tfmXr2uENd4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJANRaFJjObCb+MA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucm92YXRvLmJzLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDAyMjQxNTIxMzVaFw0zMDAyMjExNTIxMzVaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucm92YXRvLmJzLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL70tJ2jPPTZTMFaXQOF51yXepmVRY7zYWvxDVikDQyPPG7PFQZUY6gvZvZzB5ngI8MLrzN+sxShzX0K8gaF8aLPOI3tmSR2bSaUubFFlX6sKvIRsLsGmu2c5aH2nqMgmC8R5cRltsi/1+/K3aDwOxiMTuJH+CJjk6bNobecHIUwessgoxGsnsBgHP18mocFjvYWLF3rBD5IOiyBkLnTWDI3F+IugPbNr7fevOJ0bAD/28iTf7WblKCWe6swT9W58lT7i8aZRDyPHygfI1O1Qe+Dw4FTEDvDWdG5uY6sMuM9zndruiQKzlBHk7rRD6gYSh5F5KAU2gUml0/xErGkWNkCAwEAAaNQME4wHQYDVR0OBBYEFB4QfBMYuEMa3WRCBOD8ECFrXEYpMB8GA1UdIwQYMBaAFB4QfBMYuEMa3WRCBOD8ECFrXEYpMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADRILXJaHE+NgZlCsB/NpA2PGS2HSf+9zmCfq4hkzdcWAJIgq9n0B47Si1+bVHDK6S34nNAIejw4TuuqHvEQiSUYpHT9YhPKyRdM1t4YkWClhPHNQwrsOr7YmSt4GBKkEdCXJztaJKBOZWKHkzzmC8ZSxcbUIek39wVn0fUBrcaysUZDrjeCWcl/ubUydMgT5kzanZIoqCa8T6xj4wkj/H85f+WpxrlQzpOmsXA3HAHJ5LwHy55Vp4tSGwNFraRySrbIFyi62RmZc7X8b4j5AOYXCUK4wxFVqcMV68RsC4LCLA2SY8weTat6c5ChbN0TCvXk6ZJKiNL4tfmXr2uENd4=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID0zCCArugAwIBAgIQKFGoHe1Uvf3LTqZmFb8ycTANBgkqhkiG9w0BAQsFADCBkDELMAkGA1UEBhMCSVQxGTAXBgNVBAcTEENvbXVuZSBkaSBSb3ZhdG8xGTAXBgNVBAoTEENvbXVuZSBkaSBSb3ZhdG8xNDAyBgNVBAMTK2h0dHBzOi8vd3d3LmNvbXVuZS5yb3ZhdG8uYnMuaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBBOklULWNfaDU5ODAeFw0yMDEwMDgxMDM1MjZaFw0zMDEwMDYxMDM1MjZaMIGQMQswCQYDVQQGEwJJVDEZMBcGA1UEBxMQQ29tdW5lIGRpIFJvdmF0bzEZMBcGA1UEChMQQ29tdW5lIGRpIFJvdmF0bzE0MDIGA1UEAxMraHR0cHM6Ly93d3cuY29tdW5lLnJvdmF0by5icy5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEBRYMUEE6SVQtY19oNTk4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt74zIR3dzD8O7F+v2HRViEA1EOKOte54qXB15dL6DNB4yzxuRjxKndrDlqNYZKbl3D0cmp9N3lCGsn/5qYKOgAd3QEdXiz2mVQRoiHiOZsdd1CJw99iXZt96PH72izODZGtekMM0IKR1C26lgZQ+bJKauWQeLzsisbBP2heFZPhlShtI1091FA0gZDO4NfPu69zjDHyqmfRE6lKy4avg+JFO1hP6tKg1DUbk+vRFD1RPEGe5vyyh61kYKwfDkHjFiveepYEou2fp0F/i6g3yOq4+tTJvdGl14Y9K810iRxbtGvKzlFDeoYaqz9JfXCP/3umSCr2SadYjx8yIbaNdCQIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFODKOKZCybcAny4pItVWKHn0s97+5LLU3c+/EOQxXOZeg+Qy9VTzqzy/1MOuuxE/1DUXZJUU3aaqUDbunEwRNB3B5cPNymeczyKnNVxQTmrW0v2aeyt+TJWyvgGkbHJYK6QJH8ELggz3h1YzW6YKpvZqN/tBDXUd1VBTB9kIYtH8WP/hg4AO+EF1JRL5P1AW9h0lbI33I0FAM+nsQSVod2Wi4Nk9766MOzY3x6Qb7yoaydmLGioMg3doffXGtkbnb5E/LPVWCoXyYSjKyugR2k531bXGEX0aBhLLGoYUKcgNqbdD0hd4v9JS6fIpukYyde+3s2FnHgb9F5wUHcD3vs=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID0zCCArugAwIBAgIQKFGoHe1Uvf3LTqZmFb8ycTANBgkqhkiG9w0BAQsFADCBkDELMAkGA1UEBhMCSVQxGTAXBgNVBAcTEENvbXVuZSBkaSBSb3ZhdG8xGTAXBgNVBAoTEENvbXVuZSBkaSBSb3ZhdG8xNDAyBgNVBAMTK2h0dHBzOi8vd3d3LmNvbXVuZS5yb3ZhdG8uYnMuaXQvc2Vydml6aVNQSUQxFTATBgNVBAUWDFBBOklULWNfaDU5ODAeFw0yMDEwMDgxMDM1MjZaFw0zMDEwMDYxMDM1MjZaMIGQMQswCQYDVQQGEwJJVDEZMBcGA1UEBxMQQ29tdW5lIGRpIFJvdmF0bzEZMBcGA1UEChMQQ29tdW5lIGRpIFJvdmF0bzE0MDIGA1UEAxMraHR0cHM6Ly93d3cuY29tdW5lLnJvdmF0by5icy5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEBRYMUEE6SVQtY19oNTk4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt74zIR3dzD8O7F+v2HRViEA1EOKOte54qXB15dL6DNB4yzxuRjxKndrDlqNYZKbl3D0cmp9N3lCGsn/5qYKOgAd3QEdXiz2mVQRoiHiOZsdd1CJw99iXZt96PH72izODZGtekMM0IKR1C26lgZQ+bJKauWQeLzsisbBP2heFZPhlShtI1091FA0gZDO4NfPu69zjDHyqmfRE6lKy4avg+JFO1hP6tKg1DUbk+vRFD1RPEGe5vyyh61kYKwfDkHjFiveepYEou2fp0F/i6g3yOq4+tTJvdGl14Y9K810iRxbtGvKzlFDeoYaqz9JfXCP/3umSCr2SadYjx8yIbaNdCQIDAQABoycwJTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAFODKOKZCybcAny4pItVWKHn0s97+5LLU3c+/EOQxXOZeg+Qy9VTzqzy/1MOuuxE/1DUXZJUU3aaqUDbunEwRNB3B5cPNymeczyKnNVxQTmrW0v2aeyt+TJWyvgGkbHJYK6QJH8ELggz3h1YzW6YKpvZqN/tBDXUd1VBTB9kIYtH8WP/hg4AO+EF1JRL5P1AW9h0lbI33I0FAM+nsQSVod2Wi4Nk9766MOzY3x6Qb7yoaydmLGioMg3doffXGtkbnb5E/LPVWCoXyYSjKyugR2k531bXGEX0aBhLLGoYUKcgNqbdD0hd4v9JS6fIpukYyde+3s2FnHgb9F5wUHcD3vs=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rovato"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comune.rovato.bs.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rovato" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rovato" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rovato" index="2"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stu.comune.rovato.bs.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Rovato</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Rovato</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rovato</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rovato</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rovato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rovato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rovato</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rovato</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://stu.comune.rovato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://stu.comune.rovato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://stu.comune.rovato.bs.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://stu.comune.rovato.bs.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_h598</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:protocollo@pec.comune.rovato.bs.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

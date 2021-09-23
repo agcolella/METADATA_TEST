@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="VignolaFalesina" entityID="https://www.comune.vignola-falesina.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#VignolaFalesina">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>XrKxdpXd5fioLKz0XSjqBsXbALQpf+lkzaArfa/EoUs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+P7HBLUXLYWiCuumi6M+jnKwXisRAySWOeEizRQstqnpZWdaR8/htpMdXlbNABXVioIixf1n4FMaq
+EEPaYiq9BjUAl7UltWvNtRWZMQseoU8oX3Q1Yw8Ngj6xuU4XZWd/+7Gj6t+qotcnZY0POBURroQn
+0C5EJdMewoeh+cKltXhXzccU7OIYk/p9WYb0MddxGT9UKsGXKUD6V5RmacuNH+0aLTqWlYUzMPGQ
+cph8v/2k5hWg0jPj5NJbmeg8oDZ9CRTvjlSRgGcyfLpJl70nulS/9nOgAH3bd0PdFxOJ8+eLVdUX
+GaW+U69vByxdjxukVp5sUN6uuBqblr7+wtPhvg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sD9Bgf0MdSHjJc0ItCKUic8fqnu77MEWoXtow4CH2DTimraYlLVsPan43s3ZvAxdK86mDBKQTGq0
+vOh0UgYTsZhJKBeht2drUG/Hvhd+WlONsV8w+dTVtS7QzUzD/rNTkkPDawW9h6+RSvCIQWT1YxBU
+9XhIxeDA6nfa4wbCT7d4iOmD2DxfaZeWkgTcr8FToQE9C3Aw/kkHEADITqoMpcjfSWIfQgOnMqeb
+PEJm9h+pNC0ehXuzatjS0vB+K398fQL7uvl/grzjFb7TWLXqcNk9voVRzdJivevEr/tPBLOLCuo1
+iC1xgu0FFzUlb0NUoXYmvz9eu9bOeftiWru+Xw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID6DCCAtCgAwIBAgIJANFGE2JgkeNzMA0GCSqGSIb3DQEBCwUAMIGaMSowKAYDVQQDDCF3d3cu
+Y29tdW5lLnZpZ25vbGEtZmFsZXNpbmEudG4uaXQxIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWdub2xh
+IEZhbGVzaW5hMRUwEwYDVQQEDAxQQTpJVC1jX2k4ODYxCzAJBgNVBAYTAklUMSMwIQYDVQQHDBpD
+b211bmUgZGkgVmlnbm9sYSBGYWxlc2luYTAeFw0yMDEwMjYxNDA1MjdaFw0zMDEwMjQxNDA1Mjda
+MIGaMSowKAYDVQQDDCF3d3cuY29tdW5lLnZpZ25vbGEtZmFsZXNpbmEudG4uaXQxIzAhBgNVBAoM
+GkNvbXVuZSBkaSBWaWdub2xhIEZhbGVzaW5hMRUwEwYDVQQEDAxQQTpJVC1jX2k4ODYxCzAJBgNV
+BAYTAklUMSMwIQYDVQQHDBpDb211bmUgZGkgVmlnbm9sYSBGYWxlc2luYTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBALA/QYH9DHUh4yXNCLQilInPH6p7u+zBFqF7aMOAh9g04pq2mJS1
+bD2p+N7N2bwMXSvOpgwSkExqtLzodFIGE7GYSSgXobdna1Bvx74XflpTjbFfMPnU1bUu0M1Mw/6z
+U5JDw2sFvYevkUrwiEFk9WMQVPV4SMXgwOp32uMGwk+3eIjpg9g8X2mXlpIE3K/BU6EBPQtwMP5J
+BxAAyE6qDKXI30liH0IDpzKnmzxCZvYfqTQtHoV7s2rY0tLwfit/fH0C+7r5f4K84xW+01i16nDZ
+Pb6FUc3SYr3rxK/7TwSziwrqNYgtcYLtBRc1JW9DVKF2Jr8/XrvWznn7Ylq7vl8CAwEAAaMvMC0w
+CQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQEL
+BQADggEBADejgab1GosZKY29n9ehzkgSUu5+Q/oH8kEB8EHP1JbqPoMn483nf8vL4vEyj0iohueX
+X7UCQMBfSfT6YSeyj2ANzk+aTwDpq8YJW9k24o2KWF+3GcvRqdZ7PvRzxotrgyp1SwqFrrQ7Idt2
+pdW2jyKpZmVk6UkAcA5+LJ8IIbWTGGbbY5LG5M3q5pdNgoGaUjF/mlL35nL1qqBb3cFcNmVgT/em
+x0wMAJheKFAP1+fl8GORsw/baIQp68iYdCa9dEjlSiNDoMj1V88SL1uxwLzpJHgD/85Z+oVG8WFv
+taWVu9dBlebHmveKh8gUMDcipbx1KBgAnLFFfZW3wqHR43o=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID6DCCAtCgAwIBAgIJANFGE2JgkeNzMA0GCSqGSIb3DQEBCwUAMIGaMSowKAYDVQQDDCF3d3cuY29tdW5lLnZpZ25vbGEtZmFsZXNpbmEudG4uaXQxIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWdub2xhIEZhbGVzaW5hMRUwEwYDVQQEDAxQQTpJVC1jX2k4ODYxCzAJBgNVBAYTAklUMSMwIQYDVQQHDBpDb211bmUgZGkgVmlnbm9sYSBGYWxlc2luYTAeFw0yMDEwMjYxNDA1MjdaFw0zMDEwMjQxNDA1MjdaMIGaMSowKAYDVQQDDCF3d3cuY29tdW5lLnZpZ25vbGEtZmFsZXNpbmEudG4uaXQxIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWdub2xhIEZhbGVzaW5hMRUwEwYDVQQEDAxQQTpJVC1jX2k4ODYxCzAJBgNVBAYTAklUMSMwIQYDVQQHDBpDb211bmUgZGkgVmlnbm9sYSBGYWxlc2luYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALA/QYH9DHUh4yXNCLQilInPH6p7u+zBFqF7aMOAh9g04pq2mJS1bD2p+N7N2bwMXSvOpgwSkExqtLzodFIGE7GYSSgXobdna1Bvx74XflpTjbFfMPnU1bUu0M1Mw/6zU5JDw2sFvYevkUrwiEFk9WMQVPV4SMXgwOp32uMGwk+3eIjpg9g8X2mXlpIE3K/BU6EBPQtwMP5JBxAAyE6qDKXI30liH0IDpzKnmzxCZvYfqTQtHoV7s2rY0tLwfit/fH0C+7r5f4K84xW+01i16nDZPb6FUc3SYr3rxK/7TwSziwrqNYgtcYLtBRc1JW9DVKF2Jr8/XrvWznn7Ylq7vl8CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBADejgab1GosZKY29n9ehzkgSUu5+Q/oH8kEB8EHP1JbqPoMn483nf8vL4vEyj0iohueXX7UCQMBfSfT6YSeyj2ANzk+aTwDpq8YJW9k24o2KWF+3GcvRqdZ7PvRzxotrgyp1SwqFrrQ7Idt2pdW2jyKpZmVk6UkAcA5+LJ8IIbWTGGbbY5LG5M3q5pdNgoGaUjF/mlL35nL1qqBb3cFcNmVgT/emx0wMAJheKFAP1+fl8GORsw/baIQp68iYdCa9dEjlSiNDoMj1V88SL1uxwLzpJHgD/85Z+oVG8WFvtaWVu9dBlebHmveKh8gUMDcipbx1KBgAnLFFfZW3wqHR43o=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID6DCCAtCgAwIBAgIJANFGE2JgkeNzMA0GCSqGSIb3DQEBCwUAMIGaMSowKAYDVQQDDCF3d3cuY29tdW5lLnZpZ25vbGEtZmFsZXNpbmEudG4uaXQxIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWdub2xhIEZhbGVzaW5hMRUwEwYDVQQEDAxQQTpJVC1jX2k4ODYxCzAJBgNVBAYTAklUMSMwIQYDVQQHDBpDb211bmUgZGkgVmlnbm9sYSBGYWxlc2luYTAeFw0yMDEwMjYxNDA1MjdaFw0zMDEwMjQxNDA1MjdaMIGaMSowKAYDVQQDDCF3d3cuY29tdW5lLnZpZ25vbGEtZmFsZXNpbmEudG4uaXQxIzAhBgNVBAoMGkNvbXVuZSBkaSBWaWdub2xhIEZhbGVzaW5hMRUwEwYDVQQEDAxQQTpJVC1jX2k4ODYxCzAJBgNVBAYTAklUMSMwIQYDVQQHDBpDb211bmUgZGkgVmlnbm9sYSBGYWxlc2luYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALA/QYH9DHUh4yXNCLQilInPH6p7u+zBFqF7aMOAh9g04pq2mJS1bD2p+N7N2bwMXSvOpgwSkExqtLzodFIGE7GYSSgXobdna1Bvx74XflpTjbFfMPnU1bUu0M1Mw/6zU5JDw2sFvYevkUrwiEFk9WMQVPV4SMXgwOp32uMGwk+3eIjpg9g8X2mXlpIE3K/BU6EBPQtwMP5JBxAAyE6qDKXI30liH0IDpzKnmzxCZvYfqTQtHoV7s2rY0tLwfit/fH0C+7r5f4K84xW+01i16nDZPb6FUc3SYr3rxK/7TwSziwrqNYgtcYLtBRc1JW9DVKF2Jr8/XrvWznn7Ylq7vl8CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBADejgab1GosZKY29n9ehzkgSUu5+Q/oH8kEB8EHP1JbqPoMn483nf8vL4vEyj0iohueXX7UCQMBfSfT6YSeyj2ANzk+aTwDpq8YJW9k24o2KWF+3GcvRqdZ7PvRzxotrgyp1SwqFrrQ7Idt2pdW2jyKpZmVk6UkAcA5+LJ8IIbWTGGbbY5LG5M3q5pdNgoGaUjF/mlL35nL1qqBb3cFcNmVgT/emx0wMAJheKFAP1+fl8GORsw/baIQp68iYdCa9dEjlSiNDoMj1V88SL1uxwLzpJHgD/85Z+oVG8WFvtaWVu9dBlebHmveKh8gUMDcipbx1KBgAnLFFfZW3wqHR43o=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/vignolafalesina"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vignolafalesina" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vignolafalesina" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vignolafalesina" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Vignola Falesina</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Vignola Falesina</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Vignola Falesina</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Vignola Falesina</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Vignola Falesina</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Vignola Falesina</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Vignola Falesina</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Vignola Falesina</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.vignola-falesina.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.vignola-falesina.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.vignola-falesina.tn.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.vignola-falesina.tn.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_i886</spid:IPACode>
+         <spid:FiscalCode>80013790227</spid:FiscalCode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>ict@comune.pergine.tn.it</md:EmailAddress>
+      <md:TelephoneNumber>0461502340</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

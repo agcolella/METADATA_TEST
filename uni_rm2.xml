@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="_d68bbcc7-12b7-4fdf-aa5a-cbf9ce61c7a8" entityID="http://spid.uniroma2.eu/adfs/services/trust"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#_d68bbcc7-12b7-4fdf-aa5a-cbf9ce61c7a8"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>MXq8F5nTeVvefKDSKEjthF3m1bavZr43+7J/sG6s1Pg=</DigestValue></Reference></SignedInfo><SignatureValue>ih2TcNYvj8Z2byvcv96vVzrO9azEW8TgNyaRDxtdnDkVl0WVvEGYwGC+l9MT6FVAqV3ZbXF6vdIeeQezPqdaRRbAbRy+a7rAI56nBlNWplev2RYz/lh1//SsTSlrFEsmhc6xDOibr4mK2EuRvBRBZF5HJ1V2fIKeQj4sVYROnczNnpufQjEVOnLX3Dsnv3wp782msWj9myP4yh26syN3H2QBenrnaxCDoo/L0fAN81W3uONQ1VslqaALIsBVZdJFpOsKnnRxuZY5oJ135c5RLtmNEvO6S+QpnnO27RSdDWDN4N8L+OoUJODmVvA+mbURMw0/El1nXjI7n9kgQ9MGMg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9ehVEjcTPtRpisLjY1AjCWFOtqz6efwNNb49LWYCTFb/WcfOgbF7nHsOKQXxK+vRl6lquiVRJP8EoFAT2ExGPTfovvvLegylbfoomtz77zpTAqgCVSPZF8LiWehFdGMGAIVdMSxNGZVBFzOIzJ0kpj0QuLZ98JYaSyuhJkP6itG3vbNhjShprsFGCxiKHG2uM54efgC9SOoik0rHl6U5r0yGou2lrfg7pVov4GZ5Sm1uUx8prZaBsSNpVJLjoXdLvH1ac7T2j4uFtQ7dKlv+fxdfgR+Hk17N42ehB0bcwwwc59mT9tmHM5I5yX/QDpE/9sG2O8cVYyhbOEpoufNJAQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDzDCCArSgAwIBAgIJALW0WNDvxYklMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMTMwMQYDVQQKDCpVbml2ZXJzaXRhIGRlZ2xpIHN0dWRpIGRpIFJvbWEgVG9yIFZlcmdhdGExGTAXBgNVBAMMEHNwaWQudW5pcm9tYTIuZXUwHhcNMjAwMjI0MTc1NTI5WhcNMjIwMjIzMTc1NTI5WjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTEzMDEGA1UECgwqVW5pdmVyc2l0YSBkZWdsaSBzdHVkaSBkaSBSb21hIFRvciBWZXJnYXRhMRkwFwYDVQQDDBBzcGlkLnVuaXJvbWEyLmV1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9ehVEjcTPtRpisLjY1AjCWFOtqz6efwNNb49LWYCTFb/WcfOgbF7nHsOKQXxK+vRl6lquiVRJP8EoFAT2ExGPTfovvvLegylbfoomtz77zpTAqgCVSPZF8LiWehFdGMGAIVdMSxNGZVBFzOIzJ0kpj0QuLZ98JYaSyuhJkP6itG3vbNhjShprsFGCxiKHG2uM54efgC9SOoik0rHl6U5r0yGou2lrfg7pVov4GZ5Sm1uUx8prZaBsSNpVJLjoXdLvH1ac7T2j4uFtQ7dKlv+fxdfgR+Hk17N42ehB0bcwwwc59mT9tmHM5I5yX/QDpE/9sG2O8cVYyhbOEpoufNJAQIDAQABo1MwUTAdBgNVHQ4EFgQUOYbkRgiQjwt07jrsSfacn+wuB6QwHwYDVR0jBBgwFoAUOYbkRgiQjwt07jrsSfacn+wuB6QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAcn2KnYffgnqdtNYKiV5YW8XAMqjygY6curN3U2d6/+7k4vMvJc8ovDiaqZ6jjrT1vQLsXXpfD9VprbAZ4+3TtkBTKbHVA59MXX0/LewGws5wTv+Bx6mI/I5KiW2H+x5WHAOZX51MnSNgI0fYkcusGeRSzatG0FwvsLw7O6HO2i4xYV+tp4KqF24XFFuAPo8YQnrxbqv2UBZwpxz+qGwIE6EjaH5BwZ576RsGvKYaA74xdiHKfsOscXMsm50LGWARoo9ViDSrmw4zY+1VqcN203vvgXP4+8l3OEedaSAq1qbjZkaXYqeOWzLWXUhhhWCGVn4OI/48IAHLFJgJAj2FJg==</X509Certificate></X509Data></KeyInfo></Signature>
+<SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <KeyDescriptor use="encryption">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIIC4jCCAcqgAwIBAgIQF86+I5raN7RFpbG9miMYLjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDEyJBREZTIEVuY3J5cHRpb24gLSBzcGlkLnVuaXJvbWEyLmV1MB4XDTE4MDIxMjEwMDUyOVoXDTE5MDIxMjEwMDUyOVowLTErMCkGA1UEAxMiQURGUyBFbmNyeXB0aW9uIC0gc3BpZC51bmlyb21hMi5ldTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJhO6cHSJgrOnEAQnz2FWSf+A4oKJrbjOL2WXG0R7B8okytkqkBHoQAPBCqe6KCNF+AFOhRqY3iR7WMfbZD1nNJyehvKu6G+pr010ub93iKf4ZHonh+dMNGtMoxLhATyDOpSpWYvukUJDEz6sbeY+voiPAtZE8FIRstNLHbMpnqVsMwSoqVjIARftabXNt3hph4OUmuBwFXOFp/ChpE7KI6ub8BSL3RwC7pfbP+xJ0Ta+amJsW712vBZmWQGg4n0T87ZemRsHm4OpnKNy6cbq+mmfNCD1oFkOPPjKhnUK1KRuMiL9vI2h2w0Fo4tr3ZoK8UxH5uOTZI7LFZcizOLsF0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAUxKDg9eu1Hwx6J0OshqcbIvxlr2TzLjjy9D71maa8VGJAYQtm5BQrGMxCRTl7joMoM1EVoHP0QKp1edzE7H2Q+62MfI7mS95JUqIjwzQBqygeE3bdU2RMU32LUM/6OioIigTO+hw6i/O8mEQeo4ARCyzrefvETqjTZIGuJFl6CNvpsdCjT7QLc1Vgml60GthkHDglBMfZDUPISV6p5KkU52Eu5Ajz1GSAwsodPSic858B1SUJpwTBUNLXR8/AFEEiUcTRdOF0h4r+xwlh45kthkm1hX+IWb5Kf6rxTSYz6jrjW5POd4ghtNK4o0WOtkE9eN5xTUdZBWzszafmIcxsg==</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <KeyDescriptor use="signing">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIIDzDCCArSgAwIBAgIJALW0WNDvxYklMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21lMQ0wCwYDVQQHDARSb21lMTMwMQYDVQQKDCpVbml2ZXJzaXRhIGRlZ2xpIHN0dWRpIGRpIFJvbWEgVG9yIFZlcmdhdGExGTAXBgNVBAMMEHNwaWQudW5pcm9tYTIuZXUwHhcNMjAwMjI0MTc1NTI5WhcNMjIwMjIzMTc1NTI5WjB7MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTEzMDEGA1UECgwqVW5pdmVyc2l0YSBkZWdsaSBzdHVkaSBkaSBSb21hIFRvciBWZXJnYXRhMRkwFwYDVQQDDBBzcGlkLnVuaXJvbWEyLmV1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9ehVEjcTPtRpisLjY1AjCWFOtqz6efwNNb49LWYCTFb/WcfOgbF7nHsOKQXxK+vRl6lquiVRJP8EoFAT2ExGPTfovvvLegylbfoomtz77zpTAqgCVSPZF8LiWehFdGMGAIVdMSxNGZVBFzOIzJ0kpj0QuLZ98JYaSyuhJkP6itG3vbNhjShprsFGCxiKHG2uM54efgC9SOoik0rHl6U5r0yGou2lrfg7pVov4GZ5Sm1uUx8prZaBsSNpVJLjoXdLvH1ac7T2j4uFtQ7dKlv+fxdfgR+Hk17N42ehB0bcwwwc59mT9tmHM5I5yX/QDpE/9sG2O8cVYyhbOEpoufNJAQIDAQABo1MwUTAdBgNVHQ4EFgQUOYbkRgiQjwt07jrsSfacn+wuB6QwHwYDVR0jBBgwFoAUOYbkRgiQjwt07jrsSfacn+wuB6QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAcn2KnYffgnqdtNYKiV5YW8XAMqjygY6curN3U2d6/+7k4vMvJc8ovDiaqZ6jjrT1vQLsXXpfD9VprbAZ4+3TtkBTKbHVA59MXX0/LewGws5wTv+Bx6mI/I5KiW2H+x5WHAOZX51MnSNgI0fYkcusGeRSzatG0FwvsLw7O6HO2i4xYV+tp4KqF24XFFuAPo8YQnrxbqv2UBZwpxz+qGwIE6EjaH5BwZ576RsGvKYaA74xdiHKfsOscXMsm50LGWARoo9ViDSrmw4zY+1VqcN203vvgXP4+8l3OEedaSAq1qbjZkaXYqeOWzLWXUhhhWCGVn4OI/48IAHLFJgJAj2FJg==</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.uniroma2.eu/adfs/ls/" />
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma2.eu/adfs/ls/" />
+      <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma2.eu/adfs/ls/" index="0" isDefault="true" />
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.uniroma2.eu/adfs/ls/" index="2" />
+      <AttributeConsumingService index="0">
+         <ServiceName xml:lang="it">SetMinimum</ServiceName>
+         <ServiceDescription xml:lang="it">Attributi servizio minimi</ServiceDescription>
+         <RequestedAttribute Name="fiscalNumber" />
+      </AttributeConsumingService>
+      <AttributeConsumingService index="1">
+         <ServiceName xml:lang="it">SetFull</ServiceName>
+         <ServiceDescription xml:lang="it">Attributi servizio totali</ServiceDescription>
+         <RequestedAttribute Name="familyName" />
+         <RequestedAttribute Name="name" />
+         <RequestedAttribute Name="gender" />
+         <RequestedAttribute Name="email" />
+         <RequestedAttribute Name="fiscalNumber" />
+         <RequestedAttribute Name="dateOfBirth" />
+         <RequestedAttribute Name="placeOfBirth" />
+         <RequestedAttribute Name="countyOfBirth" />
+         <RequestedAttribute Name="digitalAddress" />
+         <RequestedAttribute Name="mobilePhone" />
+         <RequestedAttribute Name="address" />
+      </AttributeConsumingService>
+   </SPSSODescriptor>
+   <Organization>
+      <OrganizationName xml:lang="it">Universita degli Studi di Roma Tor Vergata</OrganizationName>
+      <OrganizationDisplayName xml:lang="it">Universita degli Studi di Roma Tor Vergata</OrganizationDisplayName>
+      <OrganizationURL xml:lang="it">https://web.uniroma2.it/</OrganizationURL>
+   </Organization>
+</EntityDescriptor>

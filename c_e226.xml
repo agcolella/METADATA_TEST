@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.grumolodelleabbadesse.vi.it" ID="pfxfeb9a976-2f72-52f0-0f10-c1b30e2719cc"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxfeb9a976-2f72-52f0-0f10-c1b30e2719cc"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qEOhkql+Zxnhtd689+rHEhKavQRci8RqIv/ZdAjSUgo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>sv2TJFFb8ojCQi4lPyR6Qn+OZtRrAUzFFYcv1UJy7cuO0OISpWoOhZI+Cm4WR9MbwXewmyWMOxQIt2THUsgrXjKw0EYw2+qnDlBLsc8YWO7hUsVRH85XoohhhqTaoYlLN8RfwvveJnk0k9lwn4BjVmvUxqIVgjq5vWXsnYgnoJOyLJV0FYcJRQosYbQqZXxaMG2zD24DG/ydEtOGaJFsQ5hEbK8TZuBTkC0cj/XNMjx+e9lzHkHSp2D700bJDuo0RSvMpf7cPw7Qh9axlJS5VXp0Tu//IhCQrjzMj7oTkWBCa3eUxCBk8xQG005NaFuIHaKfVHXbEU55kwst0n7uJA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAPJ24r2WBi+WMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF0dydW1vbG8gZGVsbGUgQWJiYWRlc3NlMSowKAYDVQQKDCFDb211bmUgZGkgR3J1bW9sbyBkZWxsZSBBYmJhZGVzc2UxLzAtBgNVBAMMJnd3dy5jb211bmUuZ3J1bW9sb2RlbGxlYWJiYWRlc3NlLnZpLml0MB4XDTE4MDQxMDA3NTc0NFoXDTI4MDQwOTA3NTc0NFowgZwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXR3J1bW9sbyBkZWxsZSBBYmJhZGVzc2UxKjAoBgNVBAoMIUNvbXVuZSBkaSBHcnVtb2xvIGRlbGxlIEFiYmFkZXNzZTEvMC0GA1UEAwwmd3d3LmNvbXVuZS5ncnVtb2xvZGVsbGVhYmJhZGVzc2UudmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDjFsyJ6+0ad8xPZnu46qos6WqAJREsiunlJeHUypL87P7zRynwW41pEtDnfFiVMG5lH77Y2X9Vk6oR4HXpYWwXiwJl+Expfejp6X1rdyxVX5AI3uu9V1zGW1k+pX+amENgyg3OMfPE1+xTDVxTiO5ukhP50W0b/MBjaOn0/qK+AkQkEKssWuibBieIq0LkL7URcolpQvMg+ck1/X8eSOE6ABH532ZGnI/yUluYCr7th2PiR9cCh+z9RDRQrw68vE1UCRpWYvOFsRqoOIlVAIxlk96ysUJNGh7Jgp2EtiwSNudmnq662a8XFi5p93wc+hAyUv62bA+ZRzRAWJNRdXOPAgMBAAGjUDBOMB0GA1UdDgQWBBQqUjpzuP0uEeDx9ev8Z/gEU+7lyTAfBgNVHSMEGDAWgBQqUjpzuP0uEeDx9ev8Z/gEU+7lyTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAYKLsJmjidNcIPNspJ8f26ZdIhqSPmUEtQDnohLnWSKWLuWztqTsevW64toIcPL/5TYfluyb8750IVEuMccBjp0aw3jI3d6ZOwiQVH6iE6Z55jPmh18AfsUF5/tPiOu+z/5lSdn8ceKpGuLwP0AUB5/bBAAWmCPsIWBdQmZESgqD8Kt9q0Ml23ni3nd6JQsxrDfUeaCbHjBZUoFMT87/Agt7/a10lZK2dBRY5hEyDenu/IrX3CQX5s19RWPJ3l7XDHWs82t/1akP3F69I9hWO+4Wq3iUYQGdUmWs12D4Wz9xsGwt89Kcg8L/fEqi4jF3FNiaifvKEtJhzSa6mMdUTe</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAPJ24r2WBi+WMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF0dydW1vbG8gZGVsbGUgQWJiYWRlc3NlMSowKAYDVQQKDCFDb211bmUgZGkgR3J1bW9sbyBkZWxsZSBBYmJhZGVzc2UxLzAtBgNVBAMMJnd3dy5jb211bmUuZ3J1bW9sb2RlbGxlYWJiYWRlc3NlLnZpLml0MB4XDTE4MDQxMDA3NTc0NFoXDTI4MDQwOTA3NTc0NFowgZwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXR3J1bW9sbyBkZWxsZSBBYmJhZGVzc2UxKjAoBgNVBAoMIUNvbXVuZSBkaSBHcnVtb2xvIGRlbGxlIEFiYmFkZXNzZTEvMC0GA1UEAwwmd3d3LmNvbXVuZS5ncnVtb2xvZGVsbGVhYmJhZGVzc2UudmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDjFsyJ6+0ad8xPZnu46qos6WqAJREsiunlJeHUypL87P7zRynwW41pEtDnfFiVMG5lH77Y2X9Vk6oR4HXpYWwXiwJl+Expfejp6X1rdyxVX5AI3uu9V1zGW1k+pX+amENgyg3OMfPE1+xTDVxTiO5ukhP50W0b/MBjaOn0/qK+AkQkEKssWuibBieIq0LkL7URcolpQvMg+ck1/X8eSOE6ABH532ZGnI/yUluYCr7th2PiR9cCh+z9RDRQrw68vE1UCRpWYvOFsRqoOIlVAIxlk96ysUJNGh7Jgp2EtiwSNudmnq662a8XFi5p93wc+hAyUv62bA+ZRzRAWJNRdXOPAgMBAAGjUDBOMB0GA1UdDgQWBBQqUjpzuP0uEeDx9ev8Z/gEU+7lyTAfBgNVHSMEGDAWgBQqUjpzuP0uEeDx9ev8Z/gEU+7lyTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAYKLsJmjidNcIPNspJ8f26ZdIhqSPmUEtQDnohLnWSKWLuWztqTsevW64toIcPL/5TYfluyb8750IVEuMccBjp0aw3jI3d6ZOwiQVH6iE6Z55jPmh18AfsUF5/tPiOu+z/5lSdn8ceKpGuLwP0AUB5/bBAAWmCPsIWBdQmZESgqD8Kt9q0Ml23ni3nd6JQsxrDfUeaCbHjBZUoFMT87/Agt7/a10lZK2dBRY5hEyDenu/IrX3CQX5s19RWPJ3l7XDHWs82t/1akP3F69I9hWO+4Wq3iUYQGdUmWs12D4Wz9xsGwt89Kcg8L/fEqi4jF3FNiaifvKEtJhzSa6mMdUTe</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAPJ24r2WBi+WMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF0dydW1vbG8gZGVsbGUgQWJiYWRlc3NlMSowKAYDVQQKDCFDb211bmUgZGkgR3J1bW9sbyBkZWxsZSBBYmJhZGVzc2UxLzAtBgNVBAMMJnd3dy5jb211bmUuZ3J1bW9sb2RlbGxlYWJiYWRlc3NlLnZpLml0MB4XDTE4MDQxMDA3NTc0NFoXDTI4MDQwOTA3NTc0NFowgZwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXR3J1bW9sbyBkZWxsZSBBYmJhZGVzc2UxKjAoBgNVBAoMIUNvbXVuZSBkaSBHcnVtb2xvIGRlbGxlIEFiYmFkZXNzZTEvMC0GA1UEAwwmd3d3LmNvbXVuZS5ncnVtb2xvZGVsbGVhYmJhZGVzc2UudmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDjFsyJ6+0ad8xPZnu46qos6WqAJREsiunlJeHUypL87P7zRynwW41pEtDnfFiVMG5lH77Y2X9Vk6oR4HXpYWwXiwJl+Expfejp6X1rdyxVX5AI3uu9V1zGW1k+pX+amENgyg3OMfPE1+xTDVxTiO5ukhP50W0b/MBjaOn0/qK+AkQkEKssWuibBieIq0LkL7URcolpQvMg+ck1/X8eSOE6ABH532ZGnI/yUluYCr7th2PiR9cCh+z9RDRQrw68vE1UCRpWYvOFsRqoOIlVAIxlk96ysUJNGh7Jgp2EtiwSNudmnq662a8XFi5p93wc+hAyUv62bA+ZRzRAWJNRdXOPAgMBAAGjUDBOMB0GA1UdDgQWBBQqUjpzuP0uEeDx9ev8Z/gEU+7lyTAfBgNVHSMEGDAWgBQqUjpzuP0uEeDx9ev8Z/gEU+7lyTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAYKLsJmjidNcIPNspJ8f26ZdIhqSPmUEtQDnohLnWSKWLuWztqTsevW64toIcPL/5TYfluyb8750IVEuMccBjp0aw3jI3d6ZOwiQVH6iE6Z55jPmh18AfsUF5/tPiOu+z/5lSdn8ceKpGuLwP0AUB5/bBAAWmCPsIWBdQmZESgqD8Kt9q0Ml23ni3nd6JQsxrDfUeaCbHjBZUoFMT87/Agt7/a10lZK2dBRY5hEyDenu/IrX3CQX5s19RWPJ3l7XDHWs82t/1akP3F69I9hWO+4Wq3iUYQGdUmWs12D4Wz9xsGwt89Kcg8L/fEqi4jF3FNiaifvKEtJhzSa6mMdUTe</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.grumolodelleabbadesse.vi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.grumolodelleabbadesse.vi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Grumolo delle Abbadesse</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Grumolo delle Abbadesse</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.grumolodelleabbadesse.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

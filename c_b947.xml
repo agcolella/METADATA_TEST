@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sue.comune.casazza.bg.it/" ID="_9825eaeb9d3d3ad07fab04cffb523cd3d068a3bfa912494a0a8c8081ef200c24"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_9825eaeb9d3d3ad07fab04cffb523cd3d068a3bfa912494a0a8c8081ef200c24"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>pMQ4dtKT9poNrMOg3pM8F6fiii7AmhiebEaX7VCs0EQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VL6ScBagG7DonnBcsvDTM++WnpBakJWLgCnLboLhJztGujw6BLfUFHEb/KTTYtyEzvyhJj656WLuIsGfbrHnyCthVLzQrCcUe7kzU+8weKo5iujJvaVnq/pP7sMlaxKevfhQ8cO3oix5c75ocPETIaDCWsLiFZsdwnrd7P7h6QhO+o1q7FCFBetWHX1Zc++dcHUXJC4B8zeHS67/P4cJ7wDxZcm7/d1zJfqURIlOD9nV+W2QMPdHp/ag8HlUp3ePkC9Kj3W76Ka6x9E0v/1/Ha5CQZ5qCJ0QlG7GO+x48oeY1FmNJhRGzCUvhtwOBoip/Fxt5JN/KtEpT7OKdMivyQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID9jCCAt6gAwIBAgIJALT7i7U9/Y91MA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHQ2FzYXp6YTEaMBgGA1UECgwRQ29tdW5lIGRpIENhc2F6emExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSEwHwYDVQQDDBhzdWUuY29tdW5lLmNhc2F6emEuYmcuaXQwHhcNMjAwMTIzMTEyNzExWhcNMzAwMTIwMTEyNzExWjCBjzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB0Nhc2F6emExGjAYBgNVBAoMEUNvbXVuZSBkaSBDYXNhenphMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEhMB8GA1UEAwwYc3VlLmNvbXVuZS5jYXNhenphLmJnLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuHSbeuUieHbrroUSUCMq24ypoZ0llsOzWtrkWIpqmmsY/LG6+diuTwjw1Tg/QlVe5CQKFpQM0sCKm81oe38L8gaCWAKdhI2S6pA8j6TwU3apyh0s0DW7MM+VGCydBzfzdn0jrO32d4BpKVd93w+D9UM/BlRDRPNh9RBuOJxPhKhMh93Vxt2Yge0qZJKpZOvALXI5fGlcgts1Uoow+OWX3mNFmB7dMhBZMFLDpWuLEjB7SlXSP/9gPEnYcJYLJQxRnYvAZEET6haYCzSWPh7oy3L5i1gLrcn6RimtSRUAZEbb9xXSdou34rbKbnBkt10OIOZjkLTHWXPfVSs4qGEOlQIDAQABo1MwUTAdBgNVHQ4EFgQUCs56ggH1SfZmtv3fEzeMY9/muBYwHwYDVR0jBBgwFoAUCs56ggH1SfZmtv3fEzeMY9/muBYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXO6ISijRxGCET123yq6LrVj0x2yIBGuIlQjuE6xkqsOnylV7vFLlY5GHQC8OimAQzRaNBzXLjr1qgblDKRCeKKXTFIFb1fUEZ9DCaD4tmVv8/t2olWaxcnBW+1d0xtWZY9rrLOz3ejhhNp0GrbpqLsqD9h+5l7HApLthJ1kmsqSs+6uHnb5i/ZDHZUlvK+WnUduk59tSGUQvjaDEzJencY6c+gpgwFWZofGc7rOWMB4x3UNuonObuHF3rEiW06vnA7iePvUJhw42tN326nrP1r6n67IMMcu3Lt/3zDa2aHCeXg8XyIq8oyoyoQshEnQEaX5eTO9ffMZVA7TfvE3vNQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9jCCAt6gAwIBAgIJALT7i7U9/Y91MA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHQ2FzYXp6YTEaMBgGA1UECgwRQ29tdW5lIGRpIENhc2F6emExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSEwHwYDVQQDDBhzdWUuY29tdW5lLmNhc2F6emEuYmcuaXQwHhcNMjAwMTIzMTEyNzExWhcNMzAwMTIwMTEyNzExWjCBjzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB0Nhc2F6emExGjAYBgNVBAoMEUNvbXVuZSBkaSBDYXNhenphMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEhMB8GA1UEAwwYc3VlLmNvbXVuZS5jYXNhenphLmJnLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuHSbeuUieHbrroUSUCMq24ypoZ0llsOzWtrkWIpqmmsY/LG6+diuTwjw1Tg/QlVe5CQKFpQM0sCKm81oe38L8gaCWAKdhI2S6pA8j6TwU3apyh0s0DW7MM+VGCydBzfzdn0jrO32d4BpKVd93w+D9UM/BlRDRPNh9RBuOJxPhKhMh93Vxt2Yge0qZJKpZOvALXI5fGlcgts1Uoow+OWX3mNFmB7dMhBZMFLDpWuLEjB7SlXSP/9gPEnYcJYLJQxRnYvAZEET6haYCzSWPh7oy3L5i1gLrcn6RimtSRUAZEbb9xXSdou34rbKbnBkt10OIOZjkLTHWXPfVSs4qGEOlQIDAQABo1MwUTAdBgNVHQ4EFgQUCs56ggH1SfZmtv3fEzeMY9/muBYwHwYDVR0jBBgwFoAUCs56ggH1SfZmtv3fEzeMY9/muBYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXO6ISijRxGCET123yq6LrVj0x2yIBGuIlQjuE6xkqsOnylV7vFLlY5GHQC8OimAQzRaNBzXLjr1qgblDKRCeKKXTFIFb1fUEZ9DCaD4tmVv8/t2olWaxcnBW+1d0xtWZY9rrLOz3ejhhNp0GrbpqLsqD9h+5l7HApLthJ1kmsqSs+6uHnb5i/ZDHZUlvK+WnUduk59tSGUQvjaDEzJencY6c+gpgwFWZofGc7rOWMB4x3UNuonObuHF3rEiW06vnA7iePvUJhw42tN326nrP1r6n67IMMcu3Lt/3zDa2aHCeXg8XyIq8oyoyoQshEnQEaX5eTO9ffMZVA7TfvE3vNQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9jCCAt6gAwIBAgIJALT7i7U9/Y91MA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzEQMA4GA1UEBwwHQ2FzYXp6YTEaMBgGA1UECgwRQ29tdW5lIGRpIENhc2F6emExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSEwHwYDVQQDDBhzdWUuY29tdW5lLmNhc2F6emEuYmcuaXQwHhcNMjAwMTIzMTEyNzExWhcNMzAwMTIwMTEyNzExWjCBjzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEDAOBgNVBAcMB0Nhc2F6emExGjAYBgNVBAoMEUNvbXVuZSBkaSBDYXNhenphMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEhMB8GA1UEAwwYc3VlLmNvbXVuZS5jYXNhenphLmJnLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuHSbeuUieHbrroUSUCMq24ypoZ0llsOzWtrkWIpqmmsY/LG6+diuTwjw1Tg/QlVe5CQKFpQM0sCKm81oe38L8gaCWAKdhI2S6pA8j6TwU3apyh0s0DW7MM+VGCydBzfzdn0jrO32d4BpKVd93w+D9UM/BlRDRPNh9RBuOJxPhKhMh93Vxt2Yge0qZJKpZOvALXI5fGlcgts1Uoow+OWX3mNFmB7dMhBZMFLDpWuLEjB7SlXSP/9gPEnYcJYLJQxRnYvAZEET6haYCzSWPh7oy3L5i1gLrcn6RimtSRUAZEbb9xXSdou34rbKbnBkt10OIOZjkLTHWXPfVSs4qGEOlQIDAQABo1MwUTAdBgNVHQ4EFgQUCs56ggH1SfZmtv3fEzeMY9/muBYwHwYDVR0jBBgwFoAUCs56ggH1SfZmtv3fEzeMY9/muBYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAXO6ISijRxGCET123yq6LrVj0x2yIBGuIlQjuE6xkqsOnylV7vFLlY5GHQC8OimAQzRaNBzXLjr1qgblDKRCeKKXTFIFb1fUEZ9DCaD4tmVv8/t2olWaxcnBW+1d0xtWZY9rrLOz3ejhhNp0GrbpqLsqD9h+5l7HApLthJ1kmsqSs+6uHnb5i/ZDHZUlvK+WnUduk59tSGUQvjaDEzJencY6c+gpgwFWZofGc7rOWMB4x3UNuonObuHF3rEiW06vnA7iePvUJhw42tN326nrP1r6n67IMMcu3Lt/3zDa2aHCeXg8XyIq8oyoyoQshEnQEaX5eTO9ffMZVA7TfvE3vNQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sue.comune.casazza.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sue.comune.casazza.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_B947</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_B947</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Casazza</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casazza</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sue.comune.casazza.bg.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sue.comune.casazza.bg.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

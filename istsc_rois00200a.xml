@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.istituto-colombo.edu.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxbd924c9d-ce4d-5561-d87c-c4fe095ec9c4"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxbd924c9d-ce4d-5561-d87c-c4fe095ec9c4"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>oSqH1/WNtKiC8Stlh49wqsFeCsWJISHD6rao3xyhwkM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>IdrtHlj/+D5q/Dk24PRjvgw7dDVdlffnehkxAyXCIQ8RJAWv5HGoF588S2ikcNSEbATCBZLcQ+PSvNlKDskyuZ8P10XjAkV53aobJk1EcucZGvGD3jGmf7/6c4W6l3bImrx+Yl3BFyRKlcCiGQBXBzP5TrrF/vHGSfGxawQQylhxd8/vg2bW51RrIrjlTRTIY6v2So+r78WznfZhC20BqwP5jjmQnDTpREBLDokFmH+nobo6mVcVNimIO5AUqywu5z1seh1NKBeX64OTyzW9zsu5EurwbPGyDDvw0U3aCDMtdMDAlRFRwB7N2DbVpAlKbsc3aM6CZ80NUWVWam7Tzw==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEdDCCA1ygAwIBAgIIkF8+BzpSOAAwDQYJKoZIhvcNAQELBQAwgdAxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xDjAMBgNVBAcMBUFkcmlhMTYwNAYDVQQKDC1Jc3RpdHV0byBkaSBJc3RydXppb25lIFN1cGVyaW9yZSAiQy4gQ29sb21ibyIxGTAXBgNVBAsMEGlzdHNjX3JvaXMwMDIwMGExJDAiBgNVBAMMG3d3dy5pc3RpdHV0by1jb2xvbWJvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYcm9pczAwMjAwYUBpc3RydXppb25lLml0MB4XDTE3MDYyMDA5MjgzNloXDTM3MDYxOTA5MjgzNlowgdAxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xDjAMBgNVBAcMBUFkcmlhMTYwNAYDVQQKDC1Jc3RpdHV0byBkaSBJc3RydXppb25lIFN1cGVyaW9yZSAiQy4gQ29sb21ibyIxGTAXBgNVBAsMEGlzdHNjX3JvaXMwMDIwMGExJDAiBgNVBAMMG3d3dy5pc3RpdHV0by1jb2xvbWJvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYcm9pczAwMjAwYUBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2+pnVQQe3lXQK7SuEe5H8y4e68ecPZpQqD3Ah5BNKupQQVrLNnTNoh07PHD+MGNN8sIvRTGtL3UEusUe1jAJpLlURKr5yx517ROppNcSLnV3lxejgGBveWRBUmZCUbKX1t+KHSGPuhK4ATCTQpyitGFNxkoLjIp8qWe3eksiCqEyaEf1IznAFIk1rMkQ8g3qaOt7eaWTwVLV/SiWwUDD83dHuwnFE47IKRo7Dz/Ff2OkrFi3Q1t09nCi4Wn3gmHq+BYvg43PoooVGetKeD/xt7auhcAGzAE5HsimXgTVmgtkxD6GVrzWQfNCKm8U7ALe9Q0Xr/nZHuLbZ8Ib5eaGEwIDAQABo1AwTjAdBgNVHQ4EFgQUQRBQ6U2ZByMjdacZfodhx9ocxJowHwYDVR0jBBgwFoAUQRBQ6U2ZByMjdacZfodhx9ocxJowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAseXCsLfgG9kwOUiEtcvlMuPP93CbQlIk+Ditgi5Ale/iHKftPQzkBUtKlUDo0eXA3R5vsmaNzq9tbCtxq1CXLYnpz+BL+jAVHB70bV+ftXf+WhT8pScmDk87NaZFdA5gM9YIu69ZZRr82Ryy7KSl958Oh5FvaC/FPcq4cU558IwO2XFXGyTuuB/AavF8JLajOCGDaFOUHvzRmSoS5EyNC0vIECep+o0DdmGUGjwKvSUCp0y1V2lhv9rZlqoFvJpJ8/RBhm+6aFiU5QEOUREKBTPQKUYNd81y7aIWRsA/EOf3is7fedPvT+38iuYGhEs16ENJRFtFCNN2LLM+z5T4Mg==</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEdDCCA1ygAwIBAgIIkF8+BzpSOAAwDQYJKoZIhvcNAQELBQAwgdAxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xDjAMBgNVBAcMBUFkcmlhMTYwNAYDVQQKDC1Jc3RpdHV0byBkaSBJc3RydXppb25lIFN1cGVyaW9yZSAiQy4gQ29sb21ibyIxGTAXBgNVBAsMEGlzdHNjX3JvaXMwMDIwMGExJDAiBgNVBAMMG3d3dy5pc3RpdHV0by1jb2xvbWJvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYcm9pczAwMjAwYUBpc3RydXppb25lLml0MB4XDTE3MDYyMDA5MjgzNloXDTM3MDYxOTA5MjgzNlowgdAxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSb3ZpZ28xDjAMBgNVBAcMBUFkcmlhMTYwNAYDVQQKDC1Jc3RpdHV0byBkaSBJc3RydXppb25lIFN1cGVyaW9yZSAiQy4gQ29sb21ibyIxGTAXBgNVBAsMEGlzdHNjX3JvaXMwMDIwMGExJDAiBgNVBAMMG3d3dy5pc3RpdHV0by1jb2xvbWJvLmdvdi5pdDEnMCUGCSqGSIb3DQEJARYYcm9pczAwMjAwYUBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2+pnVQQe3lXQK7SuEe5H8y4e68ecPZpQqD3Ah5BNKupQQVrLNnTNoh07PHD+MGNN8sIvRTGtL3UEusUe1jAJpLlURKr5yx517ROppNcSLnV3lxejgGBveWRBUmZCUbKX1t+KHSGPuhK4ATCTQpyitGFNxkoLjIp8qWe3eksiCqEyaEf1IznAFIk1rMkQ8g3qaOt7eaWTwVLV/SiWwUDD83dHuwnFE47IKRo7Dz/Ff2OkrFi3Q1t09nCi4Wn3gmHq+BYvg43PoooVGetKeD/xt7auhcAGzAE5HsimXgTVmgtkxD6GVrzWQfNCKm8U7ALe9Q0Xr/nZHuLbZ8Ib5eaGEwIDAQABo1AwTjAdBgNVHQ4EFgQUQRBQ6U2ZByMjdacZfodhx9ocxJowHwYDVR0jBBgwFoAUQRBQ6U2ZByMjdacZfodhx9ocxJowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAseXCsLfgG9kwOUiEtcvlMuPP93CbQlIk+Ditgi5Ale/iHKftPQzkBUtKlUDo0eXA3R5vsmaNzq9tbCtxq1CXLYnpz+BL+jAVHB70bV+ftXf+WhT8pScmDk87NaZFdA5gM9YIu69ZZRr82Ryy7KSl958Oh5FvaC/FPcq4cU558IwO2XFXGyTuuB/AavF8JLajOCGDaFOUHvzRmSoS5EyNC0vIECep+o0DdmGUGjwKvSUCp0y1V2lhv9rZlqoFvJpJ8/RBhm+6aFiU5QEOUREKBTPQKUYNd81y7aIWRsA/EOf3is7fedPvT+38iuYGhEs16ENJRFtFCNN2LLM+z5T4Mg==</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.istituto-colombo.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.istituto-colombo.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">I.I.S. C. Colombo</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">I.I.S. C. Colombo</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.istituto-colombo.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

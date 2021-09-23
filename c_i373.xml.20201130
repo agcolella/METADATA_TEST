@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx49ee7eec-6f84-f9aa-4e97-9b0349e9b009" entityID="https://www.comune.sanstinodilivenza.ve.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx49ee7eec-6f84-f9aa-4e97-9b0349e9b009">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>o53JJelvs4p9yP6oZbu/4AafLWNI8ZfKxcHnwcNBuiY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CvPRlzfvk/gwPpg5qZ38DyDnb4ctOuDGS6T5LzDpx4XcexqXO/gN5i/mAJGZESIEcqk8b0K+KP8D
++PwdkbHE1Yfq2tKnWxXOFR8VaHn7J/pyad4dJz5NFOCQ6DgrYtFsXz0Yp3+qb1t9IWlb52eLGsuE
+M+BcgzklTbom6PCekzbCFWA4M6zVoio+ca1Cybggx6Z2fk0B+CawgxGrNNYN1weQ2DRpa1xpmzq9
+gAxbtDTMUkgHaqMP5MkAvLBKge/04+G3nhx8mq5V6vt5IlaalBa9OAUXBavCbtOl8VpNRyqLTW0P
+y02F8iuVC8ctC0oO2frFz2faKu9Owy6lUg7F8g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v5G9jlp/VPn66kIYFvcnbuRUMP39xN36s2kxppu3QgX/Jcu2Ef4qslt0h8iif5Do21KwSCLcszY7
+CjVwzGHzwVMniqaqmFc+MzNLYCZKS8aHjwNA0jws0fgvkr/zpX4v0t1s4PoA69fKV6r9ZvOeqZfh
+14tZtwuyRxOTvBNPvE6mDFYHK8yU+L0K4wOm3cyMuTvyV/DRhCLp7zql0TKKZ38hVAsf3s/ASjaH
+aw/zyuDvPqOxktgTZFUU07cnNwcQVlgIVyJmdMqU84lbdiygugBHD5PqOvOqJQEzvq8wDo8AmVNB
+a+xBvjsvDcTtaWhyFFONjnifsJZhfsKVNF5GEQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID+TCCAuGgAwIBAgIJAP5BxCmSs0kNMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFNhbiBTdGlubyBkaSBMaXZlbnphMScwJQYDVQQKDB5D
+b211bmUgZGkgU2FuIFN0aW5vIGRpIExpdmVuemExKzApBgNVBAMMInd3dy5jb211bmUuc2Fuc3Rp
+bm9kaWxpdmVuemEudmUuaXQwHhcNMjAwNzI3MTI1NTE1WhcNMzAwNzI3MTI1NTE1WjCBkjELMAkG
+A1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR0wGwYDVQQHDBRTYW4gU3Rpbm8gZGkgTGl2ZW56YTEn
+MCUGA1UECgweQ29tdW5lIGRpIFNhbiBTdGlubyBkaSBMaXZlbnphMSswKQYDVQQDDCJ3d3cuY29t
+dW5lLnNhbnN0aW5vZGlsaXZlbnphLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAv5G9jlp/VPn66kIYFvcnbuRUMP39xN36s2kxppu3QgX/Jcu2Ef4qslt0h8iif5Do21KwSCLc
+szY7CjVwzGHzwVMniqaqmFc+MzNLYCZKS8aHjwNA0jws0fgvkr/zpX4v0t1s4PoA69fKV6r9ZvOe
+qZfh14tZtwuyRxOTvBNPvE6mDFYHK8yU+L0K4wOm3cyMuTvyV/DRhCLp7zql0TKKZ38hVAsf3s/A
+SjaHaw/zyuDvPqOxktgTZFUU07cnNwcQVlgIVyJmdMqU84lbdiygugBHD5PqOvOqJQEzvq8wDo8A
+mVNBa+xBvjsvDcTtaWhyFFONjnifsJZhfsKVNF5GEQIDAQABo1AwTjAdBgNVHQ4EFgQURlWeLiGY
+Ze3AUrY7nrOZ/9D0UNwwHwYDVR0jBBgwFoAURlWeLiGYZe3AUrY7nrOZ/9D0UNwwDAYDVR0TBAUw
+AwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtx2FY8I6uOJVvcnYti4f4qPs9VWNlNQpp+jarl3C8+Pv
+CUITxVpPJcrXmaIOCbUV3CD52iQqo5Rl1WaL1qdXITtT5kSEyu07zwv+9hWspYHxitJ85xs+aYBl
+WZWD3CnEe+WoF5aWG4mgG/Jkv8l49MPfOalhApwpqEmNQyIx/++GXrykp+YnqLBF6Fl4IEa36RWE
+TkDcmatHeoYoXMpxMujLUL02YFIGu9TXuaanDchYpe5a/pnlGNTlcFVdk32vdd8cHGgR/e5Y+NaB
+sTkqdu9xm/UtPBR3iZnVT09rm14czn96//nzxjId+jmfJDRJrFy4jl+kVGVIZzv6FvUXVQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID+TCCAuGgAwIBAgIJAP5BxCmSs0kNMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFNhbiBTdGlubyBkaSBMaXZlbnphMScwJQYDVQQKDB5Db211bmUgZGkgU2FuIFN0aW5vIGRpIExpdmVuemExKzApBgNVBAMMInd3dy5jb211bmUuc2Fuc3Rpbm9kaWxpdmVuemEudmUuaXQwHhcNMjAwNzI3MTI1NTE1WhcNMzAwNzI3MTI1NTE1WjCBkjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR0wGwYDVQQHDBRTYW4gU3Rpbm8gZGkgTGl2ZW56YTEnMCUGA1UECgweQ29tdW5lIGRpIFNhbiBTdGlubyBkaSBMaXZlbnphMSswKQYDVQQDDCJ3d3cuY29tdW5lLnNhbnN0aW5vZGlsaXZlbnphLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5G9jlp/VPn66kIYFvcnbuRUMP39xN36s2kxppu3QgX/Jcu2Ef4qslt0h8iif5Do21KwSCLcszY7CjVwzGHzwVMniqaqmFc+MzNLYCZKS8aHjwNA0jws0fgvkr/zpX4v0t1s4PoA69fKV6r9ZvOeqZfh14tZtwuyRxOTvBNPvE6mDFYHK8yU+L0K4wOm3cyMuTvyV/DRhCLp7zql0TKKZ38hVAsf3s/ASjaHaw/zyuDvPqOxktgTZFUU07cnNwcQVlgIVyJmdMqU84lbdiygugBHD5PqOvOqJQEzvq8wDo8AmVNBa+xBvjsvDcTtaWhyFFONjnifsJZhfsKVNF5GEQIDAQABo1AwTjAdBgNVHQ4EFgQURlWeLiGYZe3AUrY7nrOZ/9D0UNwwHwYDVR0jBBgwFoAURlWeLiGYZe3AUrY7nrOZ/9D0UNwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtx2FY8I6uOJVvcnYti4f4qPs9VWNlNQpp+jarl3C8+PvCUITxVpPJcrXmaIOCbUV3CD52iQqo5Rl1WaL1qdXITtT5kSEyu07zwv+9hWspYHxitJ85xs+aYBlWZWD3CnEe+WoF5aWG4mgG/Jkv8l49MPfOalhApwpqEmNQyIx/++GXrykp+YnqLBF6Fl4IEa36RWETkDcmatHeoYoXMpxMujLUL02YFIGu9TXuaanDchYpe5a/pnlGNTlcFVdk32vdd8cHGgR/e5Y+NaBsTkqdu9xm/UtPBR3iZnVT09rm14czn96//nzxjId+jmfJDRJrFy4jl+kVGVIZzv6FvUXVQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID+TCCAuGgAwIBAgIJAP5BxCmSs0kNMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFNhbiBTdGlubyBkaSBMaXZlbnphMScwJQYDVQQKDB5Db211bmUgZGkgU2FuIFN0aW5vIGRpIExpdmVuemExKzApBgNVBAMMInd3dy5jb211bmUuc2Fuc3Rpbm9kaWxpdmVuemEudmUuaXQwHhcNMjAwNzI3MTI1NTE1WhcNMzAwNzI3MTI1NTE1WjCBkjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MR0wGwYDVQQHDBRTYW4gU3Rpbm8gZGkgTGl2ZW56YTEnMCUGA1UECgweQ29tdW5lIGRpIFNhbiBTdGlubyBkaSBMaXZlbnphMSswKQYDVQQDDCJ3d3cuY29tdW5lLnNhbnN0aW5vZGlsaXZlbnphLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5G9jlp/VPn66kIYFvcnbuRUMP39xN36s2kxppu3QgX/Jcu2Ef4qslt0h8iif5Do21KwSCLcszY7CjVwzGHzwVMniqaqmFc+MzNLYCZKS8aHjwNA0jws0fgvkr/zpX4v0t1s4PoA69fKV6r9ZvOeqZfh14tZtwuyRxOTvBNPvE6mDFYHK8yU+L0K4wOm3cyMuTvyV/DRhCLp7zql0TKKZ38hVAsf3s/ASjaHaw/zyuDvPqOxktgTZFUU07cnNwcQVlgIVyJmdMqU84lbdiygugBHD5PqOvOqJQEzvq8wDo8AmVNBa+xBvjsvDcTtaWhyFFONjnifsJZhfsKVNF5GEQIDAQABo1AwTjAdBgNVHQ4EFgQURlWeLiGYZe3AUrY7nrOZ/9D0UNwwHwYDVR0jBBgwFoAURlWeLiGYZe3AUrY7nrOZ/9D0UNwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAtx2FY8I6uOJVvcnYti4f4qPs9VWNlNQpp+jarl3C8+PvCUITxVpPJcrXmaIOCbUV3CD52iQqo5Rl1WaL1qdXITtT5kSEyu07zwv+9hWspYHxitJ85xs+aYBlWZWD3CnEe+WoF5aWG4mgG/Jkv8l49MPfOalhApwpqEmNQyIx/++GXrykp+YnqLBF6Fl4IEa36RWETkDcmatHeoYoXMpxMujLUL02YFIGu9TXuaanDchYpe5a/pnlGNTlcFVdk32vdd8cHGgR/e5Y+NaBsTkqdu9xm/UtPBR3iZnVT09rm14czn96//nzxjId+jmfJDRJrFy4jl+kVGVIZzv6FvUXVQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sanstinodilivenza.ve.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sanstinodilivenza.ve.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Stino di Livenza</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Stino di Livenza</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sanstinodilivenza.ve.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

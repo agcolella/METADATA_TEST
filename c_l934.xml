@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxde9ff19e-7658-2013-4e3c-5812ccd3b5d3" entityID="https://www.comune.villa-del-conte.pd.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxde9ff19e-7658-2013-4e3c-5812ccd3b5d3">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8Odhjd237L14SK8h42ru3ePO0Y4p1NzEi5sjLCz9DuA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jgRfSXmJqkxTtuSYx1l9ly5bxXvfZLJeiEekZc8z2DO08+zi5hY/6ZZMr4RmJkrpOTis1x20rgAQ
+M2JUVwpoBVfDLCTnMBwHa0mK/Rf0Xtc8BCxKq5qaPnggBzi9teA5vNAnHw3FKIUnWQGcrQKXVR/G
+gTDcIcZFGeV+sth+hfkPWXLgNzKlhSlhOODJ8MFRGaF3sbUGVwKDXi5CIDaXDkXeOtaNiJZrQR5E
+pbtdpgd8SaonQAZUmazRmFTEyg1TbHitOkdp+7j7Mz7N6/C+VRBIwcs8XLxAtXL1KvggOERnjsxH
+r0TcTDOlr4YLDj4ZFCvQITmyu6lPVf/bEB5JYg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qpOarEImstVfudjgxyKK8dwu/4hRP4MWnFn3o1BWIR3HtehwKQVl6QscxWJAbO0BnlGNfAiuymQX
+pISMBsLx78tfShZF2Zvn4eTcuXli/RYvGlg/nhkYYEuXKgIq/FPkay3KWb9jmaGduno6DikqaYr1
+wHqMqoTWkWdujfeJqpCRK4MsoTA93zyxF9Yoa8so/wH0NzHpOJxGDOoBOrNBHgzld1WpUuMS4DQi
+fRWti46/rIkCu9bLpYv8CnhqBR2gemf0e0N4AovXY1sNU8ZI4jOZG9eS2C3ytPK1ib8Wz1jqtI1F
+OIwBQ/gZVIQeRmWrr0vkIqRRVYX8LaV3+lQ0Iw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4TCCAsmgAwIBAgIJAJqFOvE1dUWMMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1ZpbGxhIGRlbCBDb250ZTEiMCAGA1UECgwZQ29tdW5l
+IGRpIFZpbGxhIGRlbCBDb250ZTEpMCcGA1UEAwwgd3d3LmNvbXVuZS52aWxsYS1kZWwtY29udGUu
+cGQuaXQwHhcNMTgxMDMwMTExOTUzWhcNMjgxMDI5MTExOTUzWjCBhjELMAkGA1UEBhMCSVQxDjAM
+BgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9WaWxsYSBkZWwgQ29udGUxIjAgBgNVBAoMGUNvbXVuZSBk
+aSBWaWxsYSBkZWwgQ29udGUxKTAnBgNVBAMMIHd3dy5jb211bmUudmlsbGEtZGVsLWNvbnRlLnBk
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqpOarEImstVfudjgxyKK8dwu/4hR
+P4MWnFn3o1BWIR3HtehwKQVl6QscxWJAbO0BnlGNfAiuymQXpISMBsLx78tfShZF2Zvn4eTcuXli
+/RYvGlg/nhkYYEuXKgIq/FPkay3KWb9jmaGduno6DikqaYr1wHqMqoTWkWdujfeJqpCRK4MsoTA9
+3zyxF9Yoa8so/wH0NzHpOJxGDOoBOrNBHgzld1WpUuMS4DQifRWti46/rIkCu9bLpYv8CnhqBR2g
+emf0e0N4AovXY1sNU8ZI4jOZG9eS2C3ytPK1ib8Wz1jqtI1FOIwBQ/gZVIQeRmWrr0vkIqRRVYX8
+LaV3+lQ0IwIDAQABo1AwTjAdBgNVHQ4EFgQUeLFLl5WgYpxtzShSImSmefcKt1gwHwYDVR0jBBgw
+FoAUeLFLl5WgYpxtzShSImSmefcKt1gwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+AM+esBU1p9txCwxL9dhKzo/pYcdqylmH59NBPMvV6tmVXDirvZMnN+eQwcjSR+q1gF96WRnXTxyf
+bekNHOaw6VOQ/YpkkyB/hFXnnHuWU5UmTUOZN79ykETJj4/bhgQHtawEZ/ygKmMG+1zLr+hONNVZ
+hA/9l9tVdOqu5tEFUQKUsSLKrzQQI/y7VI/xQeh4brKPQ2Fsa+PsXYiXVr1eQi7W10oTOZx6mPV1
+ed9LYZucGlolKXEg0rz1kZh+cnPoTBc2k2l4tILb1Kewmz2N2HLNL3CjwYzpiKhy5vL9CeXd1/Dh
+UcN3WHO70uDcFUF24rAJFCM0Yva6HiGConm5CQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAJqFOvE1dUWMMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1ZpbGxhIGRlbCBDb250ZTEiMCAGA1UECgwZQ29tdW5lIGRpIFZpbGxhIGRlbCBDb250ZTEpMCcGA1UEAwwgd3d3LmNvbXVuZS52aWxsYS1kZWwtY29udGUucGQuaXQwHhcNMTgxMDMwMTExOTUzWhcNMjgxMDI5MTExOTUzWjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9WaWxsYSBkZWwgQ29udGUxIjAgBgNVBAoMGUNvbXVuZSBkaSBWaWxsYSBkZWwgQ29udGUxKTAnBgNVBAMMIHd3dy5jb211bmUudmlsbGEtZGVsLWNvbnRlLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqpOarEImstVfudjgxyKK8dwu/4hRP4MWnFn3o1BWIR3HtehwKQVl6QscxWJAbO0BnlGNfAiuymQXpISMBsLx78tfShZF2Zvn4eTcuXli/RYvGlg/nhkYYEuXKgIq/FPkay3KWb9jmaGduno6DikqaYr1wHqMqoTWkWdujfeJqpCRK4MsoTA93zyxF9Yoa8so/wH0NzHpOJxGDOoBOrNBHgzld1WpUuMS4DQifRWti46/rIkCu9bLpYv8CnhqBR2gemf0e0N4AovXY1sNU8ZI4jOZG9eS2C3ytPK1ib8Wz1jqtI1FOIwBQ/gZVIQeRmWrr0vkIqRRVYX8LaV3+lQ0IwIDAQABo1AwTjAdBgNVHQ4EFgQUeLFLl5WgYpxtzShSImSmefcKt1gwHwYDVR0jBBgwFoAUeLFLl5WgYpxtzShSImSmefcKt1gwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAAM+esBU1p9txCwxL9dhKzo/pYcdqylmH59NBPMvV6tmVXDirvZMnN+eQwcjSR+q1gF96WRnXTxyfbekNHOaw6VOQ/YpkkyB/hFXnnHuWU5UmTUOZN79ykETJj4/bhgQHtawEZ/ygKmMG+1zLr+hONNVZhA/9l9tVdOqu5tEFUQKUsSLKrzQQI/y7VI/xQeh4brKPQ2Fsa+PsXYiXVr1eQi7W10oTOZx6mPV1ed9LYZucGlolKXEg0rz1kZh+cnPoTBc2k2l4tILb1Kewmz2N2HLNL3CjwYzpiKhy5vL9CeXd1/DhUcN3WHO70uDcFUF24rAJFCM0Yva6HiGConm5CQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAJqFOvE1dUWMMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1ZpbGxhIGRlbCBDb250ZTEiMCAGA1UECgwZQ29tdW5lIGRpIFZpbGxhIGRlbCBDb250ZTEpMCcGA1UEAwwgd3d3LmNvbXVuZS52aWxsYS1kZWwtY29udGUucGQuaXQwHhcNMTgxMDMwMTExOTUzWhcNMjgxMDI5MTExOTUzWjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9WaWxsYSBkZWwgQ29udGUxIjAgBgNVBAoMGUNvbXVuZSBkaSBWaWxsYSBkZWwgQ29udGUxKTAnBgNVBAMMIHd3dy5jb211bmUudmlsbGEtZGVsLWNvbnRlLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqpOarEImstVfudjgxyKK8dwu/4hRP4MWnFn3o1BWIR3HtehwKQVl6QscxWJAbO0BnlGNfAiuymQXpISMBsLx78tfShZF2Zvn4eTcuXli/RYvGlg/nhkYYEuXKgIq/FPkay3KWb9jmaGduno6DikqaYr1wHqMqoTWkWdujfeJqpCRK4MsoTA93zyxF9Yoa8so/wH0NzHpOJxGDOoBOrNBHgzld1WpUuMS4DQifRWti46/rIkCu9bLpYv8CnhqBR2gemf0e0N4AovXY1sNU8ZI4jOZG9eS2C3ytPK1ib8Wz1jqtI1FOIwBQ/gZVIQeRmWrr0vkIqRRVYX8LaV3+lQ0IwIDAQABo1AwTjAdBgNVHQ4EFgQUeLFLl5WgYpxtzShSImSmefcKt1gwHwYDVR0jBBgwFoAUeLFLl5WgYpxtzShSImSmefcKt1gwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAAM+esBU1p9txCwxL9dhKzo/pYcdqylmH59NBPMvV6tmVXDirvZMnN+eQwcjSR+q1gF96WRnXTxyfbekNHOaw6VOQ/YpkkyB/hFXnnHuWU5UmTUOZN79ykETJj4/bhgQHtawEZ/ygKmMG+1zLr+hONNVZhA/9l9tVdOqu5tEFUQKUsSLKrzQQI/y7VI/xQeh4brKPQ2Fsa+PsXYiXVr1eQi7W10oTOZx6mPV1ed9LYZucGlolKXEg0rz1kZh+cnPoTBc2k2l4tILb1Kewmz2N2HLNL3CjwYzpiKhy5vL9CeXd1/DhUcN3WHO70uDcFUF24rAJFCM0Yva6HiGConm5CQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.villa-del-conte.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.villa-del-conte.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Villa del Conte</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Villa del Conte</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.villa-del-conte.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="LimidoComasco" entityID="https://www.comune.limidocomasco.co.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#LimidoComasco">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/Cq1X7pV6MGPYI2ps8pXPJhxMjwa2gkCHfPj+0ALi6g=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+H9MwpdDwrTP5a7oDW7DqvSFcaxg7Ab7Ky9wVj0ZSLOQJxn9WNro9RS9hv3PzatFDnl5eWju7bXPI
+65Jy3TuNu473j9rdA44fLcwpZ04sNkA5KeAvfQbz5jjN9ZDJ+UXBMJlZp0Omo2iDLHlLhRNzxTbj
+ZPn59NI+a7ddTRacZTR2UyYz/yQNUnIsc9FGWWq2san7854K2eD3wEGg91nRtnRBKs4z3j0671FP
+VqZ/hMYDHKLz+F0QO+EDC7xCe8MXvPGIHr0y2qMw/qVPf1WY6MCLEIai1+18u8rBzM7qyOHFbbzX
+MSGylMjlAygjwIbkdLHs0It4Rhf79dV7KW2WwQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ziHagY10N33QWmpHaHKtDbaMeQ5NeHEYuJem3evJdjfi23PHsgJWMBG3xyAwiFarTzc1KjdZ58HC
+pgTJmQzQOSMWYTlaXCSKCekpY9h7o+viUJoHoPcC3RzuSRXP0Al9XqqFuiLHpNQGBC38805uzEVk
+BeocrGNDi4XExMoBIR30COiufezd1x3EjHSzy91W7pMSCnzudcMi2o51oVMfKG1xxVNvMzSOrGqf
+SuElFG8tfEbODi4yh4PbFSqQfvtTX5fsWFzW8jzb58hTXwGptQNUJwyoz587knJN08KvXEerrKE2
+zNo07BpK0gTCLa/o05cKRdw4kv9xexHgDvC2TQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/jCCAuagAwIBAgIJAK5zA1l1F2wEMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJJVDES
+MBAGA1UECAwJTG9tYmFyZGlhMRQwEgYDVQQHDAtPcm5hZ28gKE1CKTETMBEGA1UECgwKU3RhcmNo
+IHNybDEPMA0GA1UECwwGU3RhcmNoMQ8wDQYDVQQDDAZTdGFyY2gxIzAhBgkqhkiG9w0BCQEWFGFz
+c2lzdGVuemFAc3RhcmNoLml0MB4XDTE4MTAwNTExMzQ1M1oXDTIzMTAwNDExMzQ1M1owgZMxCzAJ
+BgNVBAYTAklUMRIwEAYDVQQIDAlMb21iYXJkaWExFDASBgNVBAcMC09ybmFnbyAoTUIpMRMwEQYD
+VQQKDApTdGFyY2ggc3JsMQ8wDQYDVQQLDAZTdGFyY2gxDzANBgNVBAMMBlN0YXJjaDEjMCEGCSqG
+SIb3DQEJARYUYXNzaXN0ZW56YUBzdGFyY2guaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDOIdqBjXQ3fdBaakdocq0Ntox5Dk14cRi4l6bd68l2N+Lbc8eyAlYwEbfHIDCIVqtPNzUq
+N1nnwcKmBMmZDNA5IxZhOVpcJIoJ6Slj2Huj6+JQmgeg9wLdHO5JFc/QCX1eqoW6Isek1AYELfzz
+Tm7MRWQF6hysY0OLhcTEygEhHfQI6K597N3XHcSMdLPL3VbukxIKfO51wyLajnWhUx8obXHFU28z
+NI6sap9K4SUUby18Rs4OLjKHg9sVKpB++1Nfl+xYXNbyPNvnyFNfAam1A1QnDKjPnzuSck3Twq9c
+R6usoTbM2jTsGkrSBMItr+jTlwpF3DiS/3F7EeAO8LZNAgMBAAGjUzBRMB0GA1UdDgQWBBRAvjtF
+uNlJiH343p90FKbYZdektjAfBgNVHSMEGDAWgBRAvjtFuNlJiH343p90FKbYZdektjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAVbCaEIFs5OLJ1pgm/6pxDNEQeLys80GxN8DcD
+gyOgF9RLAzTVVulRGlhLWd/XI2ASvHBKwjX+19OGZHLYtQnaEoRkj+Cj7vm0PHO2xA6OgmBdBI+S
+t0T06blFzexTsaAidZ9brLW8qS0f2h3ql2xqstTlmKnEAElkHa+SHfnQ5BbPAu9QbdW3cf/v/gFN
+8qWNYt7J2vrgM/Kjs/ZyuzTGMcjp9B0+LssAW5OW13ZomrFjl1/Od+GkAfGimzW8dfroeaDPFSlN
+D5i03OzGxhZa5iCMpxxhyiabrBPPDfNfujDnt0v1ARwQwNEwA55F3pbvyWdca1QfVTj+WNnGx7mg
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAJ2kTTAyaWBKMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUubGltaWRvY29tYXNjby5jby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDkzNDQ5WhcNMjgwOTE1MDkzNDQ5WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLmxpbWlkb2NvbWFzY28uY28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwLpdpC3Za6xWVN7Mdc1ehdHCERqhVJBEsdyLJ14HnZjNP6y3zYkWSScgQzvGs1Y5/D+RYjgJCbdZa9QiW9sB+agMVsROiIp/Vp4qOkWAJEw/JRO8wiW0Nz57n9PcBKuRL+PamaWdregtdCUltbP6yHi90f1/7/hqEoFRqK+4CpNqC2YjcYivxdDgMr1j172yxgyehkgpEsW87PoTmZfX1K2dF1qMoAsyrSgEHAUBuRvjz/IxK5Iltzh3MK1K3jWoZF2suW8pyIQnu7XNWWmgOEQWxbhfRNLcCjAuQS66RItzPh1zDiSu3OlP97tjiDvN8v/3cWOCUImwgq1Fyp1gwwIDAQABo1AwTjAdBgNVHQ4EFgQU3EVLtejOlbDhPzWEQIvTO4a/xPAwHwYDVR0jBBgwFoAU3EVLtejOlbDhPzWEQIvTO4a/xPAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAA8AWCOekSaVxodVNjkVU1bwFPMoHYGUeOPN0fXagCcEg0xYc+aATc2Bd/QpFVXwnsPM2+7YPVTlPp8n7cFS/U/3+KSZ5Hc+FekaRTgKBLfiGCa1cVpW3IxhoaxhiyBm0+lpWgVnNe74vFAkGAyOxKvOa0ZRGzVAOS3sdFRW60kp/j2MgY049Y+dEICRZD9G+nTIpEV180nuypiCvP1dcQT384Rha6f9voV9ueFWqW882hzuQjosMIhLfImNWqi9xrl7QQi1//awFfNyBTS92g4tVOaD0jJbmcPBxuPbmbZBw2mqkYjUZJAM5NYYTBE1ZljNh+vUbzdkioMIx009VIg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAJ2kTTAyaWBKMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUubGltaWRvY29tYXNjby5jby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwOTE4MDkzNDQ5WhcNMjgwOTE1MDkzNDQ5WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLmxpbWlkb2NvbWFzY28uY28uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwLpdpC3Za6xWVN7Mdc1ehdHCERqhVJBEsdyLJ14HnZjNP6y3zYkWSScgQzvGs1Y5/D+RYjgJCbdZa9QiW9sB+agMVsROiIp/Vp4qOkWAJEw/JRO8wiW0Nz57n9PcBKuRL+PamaWdregtdCUltbP6yHi90f1/7/hqEoFRqK+4CpNqC2YjcYivxdDgMr1j172yxgyehkgpEsW87PoTmZfX1K2dF1qMoAsyrSgEHAUBuRvjz/IxK5Iltzh3MK1K3jWoZF2suW8pyIQnu7XNWWmgOEQWxbhfRNLcCjAuQS66RItzPh1zDiSu3OlP97tjiDvN8v/3cWOCUImwgq1Fyp1gwwIDAQABo1AwTjAdBgNVHQ4EFgQU3EVLtejOlbDhPzWEQIvTO4a/xPAwHwYDVR0jBBgwFoAU3EVLtejOlbDhPzWEQIvTO4a/xPAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAA8AWCOekSaVxodVNjkVU1bwFPMoHYGUeOPN0fXagCcEg0xYc+aATc2Bd/QpFVXwnsPM2+7YPVTlPp8n7cFS/U/3+KSZ5Hc+FekaRTgKBLfiGCa1cVpW3IxhoaxhiyBm0+lpWgVnNe74vFAkGAyOxKvOa0ZRGzVAOS3sdFRW60kp/j2MgY049Y+dEICRZD9G+nTIpEV180nuypiCvP1dcQT384Rha6f9voV9ueFWqW882hzuQjosMIhLfImNWqi9xrl7QQi1//awFfNyBTS92g4tVOaD0jJbmcPBxuPbmbZBw2mqkYjUZJAM5NYYTBE1ZljNh+vUbzdkioMIx009VIg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAJuiSEiMncliMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYD
+VQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMRQwEgYDVQQHDAtPcm5hZ28gKE1C
+KTETMBEGA1UECgwKU3RhcmNoIHNybDEPMA0GA1UECwwGU3RhcmNoMQ8wDQYDVQQD
+DAZTdGFyY2gxIzAhBgkqhkiG9w0BCQEWFGFzc2lzdGVuemFAc3RhcmNoLml0MB4X
+DTE4MDQwODA2NTg1OVoXDTIzMDQwNzA2NTg1OVowgZMxCzAJBgNVBAYTAklUMRIw
+EAYDVQQIDAlMb21iYXJkaWExFDASBgNVBAcMC09ybmFnbyAoTUIpMRMwEQYDVQQK
+DApTdGFyY2ggc3JsMQ8wDQYDVQQLDAZTdGFyY2gxDzANBgNVBAMMBlN0YXJjaDEj
+MCEGCSqGSIb3DQEJARYUYXNzaXN0ZW56YUBzdGFyY2guaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC1OUQnR0sDZKy+YEpD4wBnmemnRtoW2QOjwH2g
+PngKEwzm+hwfSTcdA6IGQDgs2uLgwYIWiYlCvLI7es/EbWXyIGmXuTjCkorxHjqt
++hx5C7jQ5jFwdZDgDIv+wVVoWmKRucr4saDqDs5UgE+1c2/zW7gqfQAFF2j8Fsbk
+DfajeO7iFE86+qyPyAdzuomfMGA6L3zhjRZKzdizlqZqeZX20tV334LJCchMhG9E
+XH6FPi1uqBV/wGOuh4NX3ZMI7M+RDVTDBqw78JW1cutOmAAbsST9UaPVsuobNxt3
+oAKp25I8O+BaV3ouI/OV4DFo6sEBVnqB0bSeuaGfJDW0WL1HAgMBAAGjUzBRMB0G
+A1UdDgQWBBQXlNLs0Flt1uKKjXYivYewHkedmDAfBgNVHSMEGDAWgBQXlNLs0Flt
+1uKKjXYivYewHkedmDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQBS56xaq5v32wj9Yj2jXAwWPeLsvBx313QTL5ctqgGjpYMoUZmUZIhsqARm/MLd
+9d5j+vdGHOaFgzMC+PxfdO5bXg1cvqa5TtE+1qetudMXdzZDLeXOrifSzXCujaLO
+/Wrs6GX17v3rOPvm9xIrdItTMzIXi4t0qy6Tu64Z2VrMMeAR0HkXrmRZfY0vjW5P
+Q9RVNrU8wubdlIVFlf8RQrN9tv3tFPRlVq0oDhUQGTGRsQnSqeOeaEiU7ksPoQnk
+rDD0GeoH6BDx2kONVgLqHIWfhtv7Cs2iNtXEqFFxuLWli+li6jtecBF6o/Muk/Zq
+ejmZpyojs84slWysyS5l3eaF</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/limidocomasco"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_E593/Shibboleth.sso/Logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/limidocomasco" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/limidocomasco" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/limidocomasco" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_E593/Shibboleth.sso/SAML2/POST" index="3"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+            <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+            <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+            <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+            <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+            <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+            <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+            <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+            <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+            <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+            <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+            <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Limido Comasco</md:OrganizationName>
+        <md:OrganizationName xml:lang="en">Comune di Limido Comasco</md:OrganizationName>
+        <md:OrganizationName xml:lang="fr">Comune di Limido Comasco</md:OrganizationName>
+        <md:OrganizationName xml:lang="de">Comune di Limido Comasco</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Limido Comasco</md:OrganizationDisplayName>
+        <md:OrganizationDisplayName xml:lang="en">Comune di Limido Comasco</md:OrganizationDisplayName>
+        <md:OrganizationDisplayName xml:lang="fr">Comune di Limido Comasco</md:OrganizationDisplayName>
+        <md:OrganizationDisplayName xml:lang="de">Comune di Limido Comasco</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.comune.limidocomasco.co.it</md:OrganizationURL>
+        <md:OrganizationURL xml:lang="en">https://www.comune.limidocomasco.co.it</md:OrganizationURL>
+        <md:OrganizationURL xml:lang="fr">https://www.comune.limidocomasco.co.it</md:OrganizationURL>
+        <md:OrganizationURL xml:lang="de">https://www.comune.limidocomasco.co.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

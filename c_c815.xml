@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizionline.comune.codogne.tv.it" ID="pfxc94a052a-3b7e-cffa-85e7-daf329dfb52d"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxc94a052a-3b7e-cffa-85e7-daf329dfb52d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ivwjYgcuAMlJyc8M0eszX6tNqPQDQOi01lEzpHahOA8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>fCJJD3cFWCihjTO1CQSBTcYlQS2Irk121+6UH1gSAF9M8dX9uxxLmmdV5VUnGDovg7GlZ/fYfSVoQvRfR+h4rq/PWJd48+AsiYSMDgNdwfOxZ9wtl2PbSdRoeGaYmUcSwI2eUvXHfqXqkRFhGKuxHOdJIhby2r9ON9pqj0F7SH6nTHOutqYodq5rsHH06P97vPHBPjR6/kHAuR07OprZQ5nzRRZzme2r+IdA18YVmuGHzQpLInWqwYjaqUbTA8sGROf/bgnCQdrGKagdCC0wDCMr8jztU/4p5hP7KyTJxJRopCP7LzwV2o6Npp9uP94yecGqQ5bKjb61qV8wlHk9LA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAKPOCPqUPR5/MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29kb2duZTEaMBgGA1UECgwRQ29tdW5lIGRpIENvZG9nbmUxKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmNvZG9nbmUudHYuaXQwHhcNMTgwNTAyMDc1MDMxWhcNMjgwNTAxMDc1MDMxWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0NvZG9nbmUxGjAYBgNVBAoMEUNvbXVuZSBkaSBDb2RvZ25lMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5jb2RvZ25lLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvLAXRnl1G63Iha2nJPlvQVY/FI7p5KCcTU/U9VW2PznTSw0T1fdT/5wwLLbSGujr2FZYta1jZRyKejAv+QWR+rKceEmHHn0NiZfSX2+R+uvOiC1CwDNwDYrOBld24Ldi0zqTglWJ/b8U+EyRA6fotq4iIU4NXFbZxgUk8g59kWcvn06dvgNY0Q/Sy3xPY5kgAs6paOQGMlXwvCBAX/46xIA3M8fQ55lZt/ZVJJQoYzATmsm9nykVuViGn6xCqI2NW3VpFt6r485lre2IlHu2iaqeTJLvJ4Al8IBFYx0EghwG3W51Xv5ahe+K6uz9CY3tAHnFDwDRZdD/kGUPNWLcwIDAQABo1AwTjAdBgNVHQ4EFgQUNiCm0eq6DV2EWlmLJXWXitODOdYwHwYDVR0jBBgwFoAUNiCm0eq6DV2EWlmLJXWXitODOdYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOZKXp5pWZZ4uLKfjaHbqwfI8ARuy259PdZ0hXbkL/nvUTgkdhSFegBNjScfvNvKcwRdScQ1jl/g/aH8VqfOTgTm37Aqm67Vx1HpAKxIlYlhHO4tU5wP+46KjyWC+VNAR7HbbqCzCRJiicGTZJG8Vqp0/y/5F7nljU/7XDO65NAbKzcRgqZ4IPzN4K7nAEDfTKdw54/m5GJ7Zh3z9xDMN+l2hmAMKSDQ9rhji1KfXYzFb5vpm1x1p/gkNI4Sas89NrKNpb/pANNNW31sn+VNzj8at54V/twwmuErLImANv8b45ONlf6S0ohs9wtsYSRNN0h9KCVJRNW14J855et+VBg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAKPOCPqUPR5/MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29kb2duZTEaMBgGA1UECgwRQ29tdW5lIGRpIENvZG9nbmUxKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmNvZG9nbmUudHYuaXQwHhcNMTgwNTAyMDc1MDMxWhcNMjgwNTAxMDc1MDMxWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0NvZG9nbmUxGjAYBgNVBAoMEUNvbXVuZSBkaSBDb2RvZ25lMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5jb2RvZ25lLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvLAXRnl1G63Iha2nJPlvQVY/FI7p5KCcTU/U9VW2PznTSw0T1fdT/5wwLLbSGujr2FZYta1jZRyKejAv+QWR+rKceEmHHn0NiZfSX2+R+uvOiC1CwDNwDYrOBld24Ldi0zqTglWJ/b8U+EyRA6fotq4iIU4NXFbZxgUk8g59kWcvn06dvgNY0Q/Sy3xPY5kgAs6paOQGMlXwvCBAX/46xIA3M8fQ55lZt/ZVJJQoYzATmsm9nykVuViGn6xCqI2NW3VpFt6r485lre2IlHu2iaqeTJLvJ4Al8IBFYx0EghwG3W51Xv5ahe+K6uz9CY3tAHnFDwDRZdD/kGUPNWLcwIDAQABo1AwTjAdBgNVHQ4EFgQUNiCm0eq6DV2EWlmLJXWXitODOdYwHwYDVR0jBBgwFoAUNiCm0eq6DV2EWlmLJXWXitODOdYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOZKXp5pWZZ4uLKfjaHbqwfI8ARuy259PdZ0hXbkL/nvUTgkdhSFegBNjScfvNvKcwRdScQ1jl/g/aH8VqfOTgTm37Aqm67Vx1HpAKxIlYlhHO4tU5wP+46KjyWC+VNAR7HbbqCzCRJiicGTZJG8Vqp0/y/5F7nljU/7XDO65NAbKzcRgqZ4IPzN4K7nAEDfTKdw54/m5GJ7Zh3z9xDMN+l2hmAMKSDQ9rhji1KfXYzFb5vpm1x1p/gkNI4Sas89NrKNpb/pANNNW31sn+VNzj8at54V/twwmuErLImANv8b45ONlf6S0ohs9wtsYSRNN0h9KCVJRNW14J855et+VBg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAKPOCPqUPR5/MA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29kb2duZTEaMBgGA1UECgwRQ29tdW5lIGRpIENvZG9nbmUxKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLmNvZG9nbmUudHYuaXQwHhcNMTgwNTAyMDc1MDMxWhcNMjgwNTAxMDc1MDMxWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0NvZG9nbmUxGjAYBgNVBAoMEUNvbXVuZSBkaSBDb2RvZ25lMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5jb2RvZ25lLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvLAXRnl1G63Iha2nJPlvQVY/FI7p5KCcTU/U9VW2PznTSw0T1fdT/5wwLLbSGujr2FZYta1jZRyKejAv+QWR+rKceEmHHn0NiZfSX2+R+uvOiC1CwDNwDYrOBld24Ldi0zqTglWJ/b8U+EyRA6fotq4iIU4NXFbZxgUk8g59kWcvn06dvgNY0Q/Sy3xPY5kgAs6paOQGMlXwvCBAX/46xIA3M8fQ55lZt/ZVJJQoYzATmsm9nykVuViGn6xCqI2NW3VpFt6r485lre2IlHu2iaqeTJLvJ4Al8IBFYx0EghwG3W51Xv5ahe+K6uz9CY3tAHnFDwDRZdD/kGUPNWLcwIDAQABo1AwTjAdBgNVHQ4EFgQUNiCm0eq6DV2EWlmLJXWXitODOdYwHwYDVR0jBBgwFoAUNiCm0eq6DV2EWlmLJXWXitODOdYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOZKXp5pWZZ4uLKfjaHbqwfI8ARuy259PdZ0hXbkL/nvUTgkdhSFegBNjScfvNvKcwRdScQ1jl/g/aH8VqfOTgTm37Aqm67Vx1HpAKxIlYlhHO4tU5wP+46KjyWC+VNAR7HbbqCzCRJiicGTZJG8Vqp0/y/5F7nljU/7XDO65NAbKzcRgqZ4IPzN4K7nAEDfTKdw54/m5GJ7Zh3z9xDMN+l2hmAMKSDQ9rhji1KfXYzFb5vpm1x1p/gkNI4Sas89NrKNpb/pANNNW31sn+VNzj8at54V/twwmuErLImANv8b45ONlf6S0ohs9wtsYSRNN0h9KCVJRNW14J855et+VBg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.codogne.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.codogne.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Codogne</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Codogne</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.codogne.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

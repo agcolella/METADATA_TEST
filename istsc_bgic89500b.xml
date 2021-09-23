@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icbrembatesopra.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfxff0391d4-73e6-6622-8d43-d3429681d2df"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxff0391d4-73e6-6622-8d43-d3429681d2df"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>i++8eNO7Rzwqvix2Lf9Nxrdg3Cu3O+T1M/whtCIh+RY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>XEtA42vr36IuQCtqCQ/K5lPPTV6Ksx224fhXhdGVVtsUHXTPpP3XIIeNlSnfvGSlxo1XyKQKoS2ej8tyjskhtp4JiILp+46hqYuxzpQkJ8bHiHIRih2oYfuttm2OktNmd9rBOaERm4dl5W0ll83KflLgJQZDHhl3HD+gkp00vifHpOsGIMrG6RlKNglPycX1G3+/RVc2YF3uiNf7m49yWOCBNVGNboAItvk/O6e/UjJXOPHYt2KaoREzLjNeWCtf6RssXGy9JwV19XoJiQOVdKy5F6yXNlF3m70rDNLjW7k8MhpmAeH5hWKDBJY2fH/ECdjN41iXP+aNoFFF5hGNNA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEVDCCAzygAwIBAgIITzgNE4vV80IwDQYJKoZIhvcNAQELBQAwgcAxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRowGAYDVQQHDBFCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECgwUSUMgQnJlbWJhdGUgZGkgU29wcmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIzAhBgNVBAMMGnd3dy5pY2JyZW1iYXRlc29wcmEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhiZ2ljODk1MDBiQGlzdHJ1emlvbmUuaXQwHhcNMTcwNTA1MjAzMzE4WhcNMzcwNTA0MjAzMzE4WjCBwDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGjAYBgNVBAcMEUJyZW1iYXRlIGRpIFNvcHJhMR0wGwYDVQQKDBRJQyBCcmVtYmF0ZSBkaSBTb3ByYTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEjMCEGA1UEAwwad3d3LmljYnJlbWJhdGVzb3ByYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGJnaWM4OTUwMGJAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMdzCfJtRqiCnYoDZaaCCPPc8frR25JJMhKuLnRoNzqok1SGgOjrG+Q4bzu6vxGJDDJ2aWdmAG9n7JiAJwkXwEl4cf3ygaMp0dICgfh5gz00TWjXuUOhMFEAVenc+RQUZTMIACeYhLUAQAB9/2ozJQxQA9ngqxhWUW+t9Y6KHh1ETVpX+4zLWwVtc3Wi9qvGu/0D8seiwJU+g3csuum9VYjS+jRS/kod+tQCNWKbB6GrqlbydMG8OGgaDAsFtKkyULEGzSB0du524s2lJIjXCTTtBGhTVlcbhNdeVDgwaXQf7WKtpYmAVBr39dyLA11Y0cYbnJagkFT7GJjzc7Ay/RcCAwEAAaNQME4wHQYDVR0OBBYEFDwAea7sLXcJutlOidQ5y9ADLyvyMB8GA1UdIwQYMBaAFDwAea7sLXcJutlOidQ5y9ADLyvyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJjo/xP7xEuoIfC6jAjkT3m03Mj3wfJlhyukP/Eq8wi6qblkzMXZtAeh/TBOtA6bq1d/4/VTPSLpfVgoEecLwSYXHCyt+KCWitAv7pyJQz4fi2DUaIPyZOaxML6wPahSSgDqDFoSl468oMLKYcLJK07kEmpDoPbfvN3SspjK6iKZX/ONVx/k9nKcCtf7VRIdPtAKnjbO4xgURJuSS6uiDOW09Q40oIzROlkbGKqnE1TNaGhx9nIZW3YL+8kVDaAJfu5GmRWlW5IQXek1FknrbLYQwhLKWaAENwGZbOIBUTAypnqsCXKFUodZlsgcD+VhiCibpklpkGMv+8GVaIqFGc4=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEVDCCAzygAwIBAgIITzgNE4vV80IwDQYJKoZIhvcNAQELBQAwgcAxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRowGAYDVQQHDBFCcmVtYmF0ZSBkaSBTb3ByYTEdMBsGA1UECgwUSUMgQnJlbWJhdGUgZGkgU29wcmExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIzAhBgNVBAMMGnd3dy5pY2JyZW1iYXRlc29wcmEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhiZ2ljODk1MDBiQGlzdHJ1emlvbmUuaXQwHhcNMTcwNTA1MjAzMzE4WhcNMzcwNTA0MjAzMzE4WjCBwDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGjAYBgNVBAcMEUJyZW1iYXRlIGRpIFNvcHJhMR0wGwYDVQQKDBRJQyBCcmVtYmF0ZSBkaSBTb3ByYTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEjMCEGA1UEAwwad3d3LmljYnJlbWJhdGVzb3ByYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGJnaWM4OTUwMGJAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMdzCfJtRqiCnYoDZaaCCPPc8frR25JJMhKuLnRoNzqok1SGgOjrG+Q4bzu6vxGJDDJ2aWdmAG9n7JiAJwkXwEl4cf3ygaMp0dICgfh5gz00TWjXuUOhMFEAVenc+RQUZTMIACeYhLUAQAB9/2ozJQxQA9ngqxhWUW+t9Y6KHh1ETVpX+4zLWwVtc3Wi9qvGu/0D8seiwJU+g3csuum9VYjS+jRS/kod+tQCNWKbB6GrqlbydMG8OGgaDAsFtKkyULEGzSB0du524s2lJIjXCTTtBGhTVlcbhNdeVDgwaXQf7WKtpYmAVBr39dyLA11Y0cYbnJagkFT7GJjzc7Ay/RcCAwEAAaNQME4wHQYDVR0OBBYEFDwAea7sLXcJutlOidQ5y9ADLyvyMB8GA1UdIwQYMBaAFDwAea7sLXcJutlOidQ5y9ADLyvyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJjo/xP7xEuoIfC6jAjkT3m03Mj3wfJlhyukP/Eq8wi6qblkzMXZtAeh/TBOtA6bq1d/4/VTPSLpfVgoEecLwSYXHCyt+KCWitAv7pyJQz4fi2DUaIPyZOaxML6wPahSSgDqDFoSl468oMLKYcLJK07kEmpDoPbfvN3SspjK6iKZX/ONVx/k9nKcCtf7VRIdPtAKnjbO4xgURJuSS6uiDOW09Q40oIzROlkbGKqnE1TNaGhx9nIZW3YL+8kVDaAJfu5GmRWlW5IQXek1FknrbLYQwhLKWaAENwGZbOIBUTAypnqsCXKFUodZlsgcD+VhiCibpklpkGMv+8GVaIqFGc4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icbrembatesopra.edu.it/microspid_logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icbrembatesopra.edu.it/microspid_acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icbrembatesopra.edu.it/mad/microspid_acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">mad</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istanze di messa a disposizione</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">IC Brembate di Sopra</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">IC Brembate di Sopra</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icbrembatesopra.edu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

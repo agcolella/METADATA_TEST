@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Soncino" entityID="https://www.comune.soncino.cr.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Soncino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>MSu6SKMndX2NgmLezruFD7n42+E1rSzx9+qedMAXPtc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Ig/RFGcnc6M86AFRyb9dDOtxHKZrVnUNDR6+VxnYXhA52LwGLWUvdPGj0HZUBZVFNH92nvI69MNG
+QrZoMlpHoT1Zo5XkNJwY89LhgCgrLRdXV4dbMzNFJfS+1CmIK7z6Wkwi1roE1CGqTu0VdJoVFlpn
+kCJbtOupEMw5JcDl93pWf2Vmv3XOZ0czIU8vXF7V/qb4g3p9P40dJ/pCAOvkzFWlehAZY8yneRsF
+l2SbVSYT6Q3wlJGV/NQP8GMmZhqanMmRBXiVuBKhkfXVToaOKLXewYRdO8uxHu+x8eflP++O9RsK
+bDOiXnI7Rc+JNA67imI+FnKqVw2NtizLVOc4Nw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rM+ekyPtKWk6236OK2oMz7TChf3rnZwU8+1eEZdwyVKK0d0RvzHe879hx3pkajvzzJAwb6OGtTox
+3fsIJ+VvavjE2IUCIZm/WNl3syAI4swBJKiSXQCYocDunHaVSU6F5DtueigRJqK2yXwBl0sztwsT
+7izihhDoLjSpptmagrmNyntA7/BUJIh6MeQ2oJFKtCrYWaJ5rmrL7PmNrsb0ngMe6m2Y2gSXcHnC
+Mu2QPAygRU4tnX+kfr56oJ2Zgqcmc9jmHG/Uhxjz3opdcZdh+AwoC1QVLAedJB9niww22NmTX7wQ
+lCaHJ1IC6jOgZJ/VWqqHN3qWYl+pWp9gYMARGQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAMFenO4+s1WZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuc29uY2luby5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwODI4
+MDgzOTQ0WhcNMjkwODI1MDgzOTQ0WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnNvbmNpbm8uY3Iu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEArM+ekyPtKWk6236OK2oMz7TChf3rnZwU8+1eEZdwyVKK0d0RvzHe879hx3pkajvzzJAw
+b6OGtTox3fsIJ+VvavjE2IUCIZm/WNl3syAI4swBJKiSXQCYocDunHaVSU6F5DtueigRJqK2yXwB
+l0sztwsT7izihhDoLjSpptmagrmNyntA7/BUJIh6MeQ2oJFKtCrYWaJ5rmrL7PmNrsb0ngMe6m2Y
+2gSXcHnCMu2QPAygRU4tnX+kfr56oJ2Zgqcmc9jmHG/Uhxjz3opdcZdh+AwoC1QVLAedJB9niww2
+2NmTX7wQlCaHJ1IC6jOgZJ/VWqqHN3qWYl+pWp9gYMARGQIDAQABo1AwTjAdBgNVHQ4EFgQUPbAQ
++BsJ3kVeFyxaTsln6KlEs2QwHwYDVR0jBBgwFoAUPbAQ+BsJ3kVeFyxaTsln6KlEs2QwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZ3j3OhOCkbWCCzN9AcXoPdic4mYCr2Jcld26ya3K
+EhZ/JkKt6i74vQCoIK6McsRp0s/hB2CM/XVkkgehWrO4zjgrQW7ME81u2ZX9gt5YVrFyM9SDS2tz
+sbZ6S9ERKuOR1yFWRW4lUba3BqW+2F6t34ixIWXk8Y8rnWxuyNIMa2p1sHgGvBcLGNiQvvpUB+AL
+4JKXzRMcQfwgX4ebvWfNpvHsM4GLZyplClhO2nnE3jKcgRkNzOocg26rSNBY12TDorVwezRQMoNS
+SKlAk71AQKl3AY4fxsxu1fmk4B5VOgts9ZjE83CoBc7cyjTLKLpww+uPPlpb+YMFLdbJTJOiMg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAMFenO4+s1WZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuc29uY2luby5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwODI4MDgzOTQ0WhcNMjkwODI1MDgzOTQ0WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnNvbmNpbm8uY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArM+ekyPtKWk6236OK2oMz7TChf3rnZwU8+1eEZdwyVKK0d0RvzHe879hx3pkajvzzJAwb6OGtTox3fsIJ+VvavjE2IUCIZm/WNl3syAI4swBJKiSXQCYocDunHaVSU6F5DtueigRJqK2yXwBl0sztwsT7izihhDoLjSpptmagrmNyntA7/BUJIh6MeQ2oJFKtCrYWaJ5rmrL7PmNrsb0ngMe6m2Y2gSXcHnCMu2QPAygRU4tnX+kfr56oJ2Zgqcmc9jmHG/Uhxjz3opdcZdh+AwoC1QVLAedJB9niww22NmTX7wQlCaHJ1IC6jOgZJ/VWqqHN3qWYl+pWp9gYMARGQIDAQABo1AwTjAdBgNVHQ4EFgQUPbAQ+BsJ3kVeFyxaTsln6KlEs2QwHwYDVR0jBBgwFoAUPbAQ+BsJ3kVeFyxaTsln6KlEs2QwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZ3j3OhOCkbWCCzN9AcXoPdic4mYCr2Jcld26ya3KEhZ/JkKt6i74vQCoIK6McsRp0s/hB2CM/XVkkgehWrO4zjgrQW7ME81u2ZX9gt5YVrFyM9SDS2tzsbZ6S9ERKuOR1yFWRW4lUba3BqW+2F6t34ixIWXk8Y8rnWxuyNIMa2p1sHgGvBcLGNiQvvpUB+AL4JKXzRMcQfwgX4ebvWfNpvHsM4GLZyplClhO2nnE3jKcgRkNzOocg26rSNBY12TDorVwezRQMoNSSKlAk71AQKl3AY4fxsxu1fmk4B5VOgts9ZjE83CoBc7cyjTLKLpww+uPPlpb+YMFLdbJTJOiMg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAMFenO4+s1WZMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuc29uY2luby5jci5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwODI4MDgzOTQ0WhcNMjkwODI1MDgzOTQ0WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLnNvbmNpbm8uY3IuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArM+ekyPtKWk6236OK2oMz7TChf3rnZwU8+1eEZdwyVKK0d0RvzHe879hx3pkajvzzJAwb6OGtTox3fsIJ+VvavjE2IUCIZm/WNl3syAI4swBJKiSXQCYocDunHaVSU6F5DtueigRJqK2yXwBl0sztwsT7izihhDoLjSpptmagrmNyntA7/BUJIh6MeQ2oJFKtCrYWaJ5rmrL7PmNrsb0ngMe6m2Y2gSXcHnCMu2QPAygRU4tnX+kfr56oJ2Zgqcmc9jmHG/Uhxjz3opdcZdh+AwoC1QVLAedJB9niww22NmTX7wQlCaHJ1IC6jOgZJ/VWqqHN3qWYl+pWp9gYMARGQIDAQABo1AwTjAdBgNVHQ4EFgQUPbAQ+BsJ3kVeFyxaTsln6KlEs2QwHwYDVR0jBBgwFoAUPbAQ+BsJ3kVeFyxaTsln6KlEs2QwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZ3j3OhOCkbWCCzN9AcXoPdic4mYCr2Jcld26ya3KEhZ/JkKt6i74vQCoIK6McsRp0s/hB2CM/XVkkgehWrO4zjgrQW7ME81u2ZX9gt5YVrFyM9SDS2tzsbZ6S9ERKuOR1yFWRW4lUba3BqW+2F6t34ixIWXk8Y8rnWxuyNIMa2p1sHgGvBcLGNiQvvpUB+AL4JKXzRMcQfwgX4ebvWfNpvHsM4GLZyplClhO2nnE3jKcgRkNzOocg26rSNBY12TDorVwezRQMoNSSKlAk71AQKl3AY4fxsxu1fmk4B5VOgts9ZjE83CoBc7cyjTLKLpww+uPPlpb+YMFLdbJTJOiMg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/soncino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/soncino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/soncino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/soncino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Soncino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Soncino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Soncino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Soncino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Soncino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Soncino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Soncino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Soncino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.soncino.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.soncino.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.soncino.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.soncino.cr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

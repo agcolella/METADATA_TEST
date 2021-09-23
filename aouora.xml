@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_yzya6v85rmsqiac6lio63r1xowhoe7xbgelntie" entityID="https://www.ospedaliriuniti.marche.it/cas/sp"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_yzya6v85rmsqiac6lio63r1xowhoe7xbgelntie">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>RmVd1K/r3u8u+iYCCCf5BJ+XgL27FLOuoGvCv1oR5SM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+U1dRn/Jtu3qvV+iSXWqUFab+QV1jC9Vng7x53EYkm2m4ZbOv5875uz1hgZhawI4jZ/gPkTq5y1R7
+F19NWeJWcVX12wfk6ERr/bz1KMezygT4FOLdN2lXtfIIPfvKbCGbkNWo4VcEPbdJSmm7P5y4tbDJ
+opHo6YvMHYi1nbXZ3MdFjvihHWy5kUYX1egR0MO2K9bmYkwLhIdwzdj8Fswv77jbUnEP5HdgoQRb
+6N7Q6pntfovEfwKCxiCACPAgpb31CNMT0kEt1IB6hH2utGNeH/CSweX36ONG+dbO5wTN+FNzfdNj
+rb51FlYTnXmcV4ZXa35DbKDadbWkGS1wduALRg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lCQpUuepsElCmu/Bb50rSsWq20WaVdNz7WNtXaiDPvzkBCmhVCzsASqAKI1z+CBieYA4su8gIqrB
+xZboVYK1nk79SU3uIpF+uoGqRdT6jRg9F3eG7icsUv0QpA9jgDn6imYF6efQ5WFih2JNrV32/2X/
+v4WbM8mcEjHOfysmRQPR1VsBKm+O9NljvDLWeXbyrgH5e88Bo7oeQA/CiAzurabWR01ETldhYdJ0
+U50R7hhkgmHpDod+Xn/GW384v3wpUrBF+KwQK0Gx40wpWYVvgyPaDHypzp/wDDLa3kF58ONTrhFF
+hQZQxgFNI5cmZpovzzO8B3pw6zKfZeOWszItTQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyjCCArKgAwIBAgICEAQwDQYJKoZIhvcNAQELBQAwfzELMAkGA1UEBhMCSVQxDjAMBgNVBAgM
+BUl0YWx5MRAwDgYDVQQHDAdQZXNjYXJhMQ8wDQYDVQQKDAZUaXJhc2ExDDAKBgNVBAsMA0lUQzEP
+MA0GA1UEAwwGVGlyYXNhMR4wHAYJKoZIhvcNAQkBFg9pbmZvQHRpcmFzYS5uZXQwHhcNMTQxMjMx
+MDkzNjI2WhcNMjQxMjI4MDkzNjI2WjBUMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDzAN
+BgNVBAoTBlRpcmFzYTEMMAoGA1UECxMDSVRDMRYwFAYDVQQDEw1zcC50aXJhc2EubmV0MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlCQpUuepsElCmu/Bb50rSsWq20WaVdNz7WNtXaiD
+PvzkBCmhVCzsASqAKI1z+CBieYA4su8gIqrBxZboVYK1nk79SU3uIpF+uoGqRdT6jRg9F3eG7ics
+Uv0QpA9jgDn6imYF6efQ5WFih2JNrV32/2X/v4WbM8mcEjHOfysmRQPR1VsBKm+O9NljvDLWeXby
+rgH5e88Bo7oeQA/CiAzurabWR01ETldhYdJ0U50R7hhkgmHpDod+Xn/GW384v3wpUrBF+KwQK0Gx
+40wpWYVvgyPaDHypzp/wDDLa3kF58ONTrhFFhQZQxgFNI5cmZpovzzO8B3pw6zKfZeOWszItTQID
+AQABo3sweTAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0
+aWZpY2F0ZTAdBgNVHQ4EFgQUqZbsozO5zFhrIMtzkthWuN8HSgQwHwYDVR0jBBgwFoAUOqF46Xh2
+ldh6WE8L9sz5V03UBekwDQYJKoZIhvcNAQELBQADggEBAAHlxlF5eGb8lU+Q+SCcJglKkslVwRAZ
+6mW19CLKCJS0IvkisrWW6iwliwNgSWMij7ZZeY5kWuOiFSGRpFD3u86XuSeYJRoAFF+PTaxkywEf
+5p6fE2XglIb9KYIXw3FBWfiT8SZUKirerueLZYYrIYs6Vr+XGWUaIRXMZhgivgncTFjMstco765S
+cNeKbpp+iuDg9LghHknghA5xazOclIJvoKsFnPyGiWjoy4tHtXH3fCNYJ/B2L+v5nbQqKaoCzlQo
+b7O+wtTCa3KsM9r06paAZv2lZTE8ezD1ogWH6ndIXuzeLAILWGFsQJ3zbz+6q+S28DJ8PDUYBsiN
+lqUUj0M=
+</ds:X509Certificate>
+<ds:X509Certificate>
+MIID0TCCArmgAwIBAgIJAOhPn8x/wuMMMA0GCSqGSIb3DQEBBQUAMH8xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGVzY2FyYTEPMA0GA1UECgwGVGlyYXNhMQwwCgYDVQQL
+DANJVEMxDzANBgNVBAMMBlRpcmFzYTEeMBwGCSqGSIb3DQEJARYPaW5mb0B0aXJhc2EubmV0MB4X
+DTEzMTAyMzEyMjI0MloXDTIzMTAyMTEyMjI0MlowfzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0
+YWx5MRAwDgYDVQQHDAdQZXNjYXJhMQ8wDQYDVQQKDAZUaXJhc2ExDDAKBgNVBAsMA0lUQzEPMA0G
+A1UEAwwGVGlyYXNhMR4wHAYJKoZIhvcNAQkBFg9pbmZvQHRpcmFzYS5uZXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDfPajqE0EBJ62I7LaxueA/RQvnPrwusLy2icFy71VBosKXrIWE
+j7oQAC5Ld20HDpqhLD+LAw8+5jjevGMLPbrXWlXdfwtog4HMdFmEb88HlJZnecYmm6hT8/9+D1kr
+Z/qN0DbLXSoNkjciMcVEwiANfnYZ0OKuB8YlrUNPkKqjpH6Br4EA/s04Zpkm/s+QbmHK2xqW+N3F
+klxgBVFUQQUFLszw1Txr6cvcx8qtUwd/RsqlSdXhv2QTB2/7M+klgB2ANj01U/DTGbD4ufvX0uG+
+HdIiaSsUP86TXc9obcUena5B/7tfG/jp4ojDnwMoEAHGW+9PzKYOM6WmiFL+hSbNAgMBAAGjUDBO
+MB0GA1UdDgQWBBQ6oXjpeHaV2HpYTwv2zPlXTdQF6TAfBgNVHSMEGDAWgBQ6oXjpeHaV2HpYTwv2
+zPlXTdQF6TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQCzrgXmOvTLRkEjaESz8/a8
+8PFcy2AZ953hAeLuKymMDsmrROXgdUNypkpV1R8YEEUHeffyb9C/sF0bsWJiC+vSCiXJQOkqwiyY
+zoIj1L2Azx04O12jX2cjCGRGOg61fGENonHnnN1FT6xThu1V9uvAlnGEijcnnWeY9KSaDojFFaB4
+WZMvnn/nXsV4u0OIYpHd76i/TGDZbB5b870bt1/JF39wgkg9KCveb1LOiHfmIq2vMnIciIClE0rM
+13cN38XZXCugcBhUonnZfeKKaFou/mRcGl1YdTdJTRI7ktfvOSgEle4DWJwfSN4IL8Z01RBYK4P+
+uavn1k5PckOmTGjQ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyjCCArKgAwIBAgICEAQwDQYJKoZIhvcNAQELBQAwfzELMAkGA1UEBhMCSVQxDjAMBgNVBAgM
+            BUl0YWx5MRAwDgYDVQQHDAdQZXNjYXJhMQ8wDQYDVQQKDAZUaXJhc2ExDDAKBgNVBAsMA0lUQzEP
+            MA0GA1UEAwwGVGlyYXNhMR4wHAYJKoZIhvcNAQkBFg9pbmZvQHRpcmFzYS5uZXQwHhcNMTQxMjMx
+            MDkzNjI2WhcNMjQxMjI4MDkzNjI2WjBUMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDzAN
+            BgNVBAoTBlRpcmFzYTEMMAoGA1UECxMDSVRDMRYwFAYDVQQDEw1zcC50aXJhc2EubmV0MIIBIjAN
+            BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlCQpUuepsElCmu/Bb50rSsWq20WaVdNz7WNtXaiD
+            PvzkBCmhVCzsASqAKI1z+CBieYA4su8gIqrBxZboVYK1nk79SU3uIpF+uoGqRdT6jRg9F3eG7ics
+            Uv0QpA9jgDn6imYF6efQ5WFih2JNrV32/2X/v4WbM8mcEjHOfysmRQPR1VsBKm+O9NljvDLWeXby
+            rgH5e88Bo7oeQA/CiAzurabWR01ETldhYdJ0U50R7hhkgmHpDod+Xn/GW384v3wpUrBF+KwQK0Gx
+            40wpWYVvgyPaDHypzp/wDDLa3kF58ONTrhFFhQZQxgFNI5cmZpovzzO8B3pw6zKfZeOWszItTQID
+            AQABo3sweTAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0
+            aWZpY2F0ZTAdBgNVHQ4EFgQUqZbsozO5zFhrIMtzkthWuN8HSgQwHwYDVR0jBBgwFoAUOqF46Xh2
+            ldh6WE8L9sz5V03UBekwDQYJKoZIhvcNAQELBQADggEBAAHlxlF5eGb8lU+Q+SCcJglKkslVwRAZ
+            6mW19CLKCJS0IvkisrWW6iwliwNgSWMij7ZZeY5kWuOiFSGRpFD3u86XuSeYJRoAFF+PTaxkywEf
+            5p6fE2XglIb9KYIXw3FBWfiT8SZUKirerueLZYYrIYs6Vr+XGWUaIRXMZhgivgncTFjMstco765S
+            cNeKbpp+iuDg9LghHknghA5xazOclIJvoKsFnPyGiWjoy4tHtXH3fCNYJ/B2L+v5nbQqKaoCzlQo
+            b7O+wtTCa3KsM9r06paAZv2lZTE8ezD1ogWH6ndIXuzeLAILWGFsQJ3zbz+6q+S28DJ8PDUYBsiN
+            lqUUj0M=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.ospedaliriuniti.marche.it/cas/logout"/>
+    
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=cohesion" index="0" isDefault="true"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=aruba" index="1"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=infocert" index="2"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=namirial" index="3"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=poste" index="4"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=sielte" index="5"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=tim" index="6"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=register" index="7"/>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ospedaliriuniti.marche.it/cas/login?client_name=intesa" index="8"/>
+
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ORIAM</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">ORIAM</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+  
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ospedali Riuniti di Ancona</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ospedali Riuniti di Ancona</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.ospedaliriuniti.marche.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

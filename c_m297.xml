@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Fiumicino" entityID="https://www.comune.fiumicino.rm.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Fiumicino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>lulQkg/YQh62Zmc49D1btCJFtnImQE1qIh4ByYJ0EuI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mBAKVgq6bymCQFYZgJD/KeOKw5E1v4zX3WmcwZOlvfgv0QgzLQwgWMmHsxGV9yZPiYudrIhjSVa8
+qxAASOIDUlLDfiFCjUIN1CVsERFe0gHhDPRHtFuDYIVyeVeGgqN2uPpuVPBuPkLp4k9G5djMEYJA
+4witL6GLS0HtaU7yytbQwNK5BShhCGPOr5LbaEQyx/AdqRA82ceK4x507o2CFvvj4M1JFc2xXuOd
+qjS/7XuEO83iT5WsqJa58VVLex1oY8BgtH1azHtJcVCjj8GLkbCfk0enjAD3LcCnZzjkflaGfqba
+8xWvaUGiZwZjOMqKxsLtQrFyh8N+WGH/MzaF+Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qE59XWyC5qNH/nTqe5SCXJlJILLGunyj4pzU/SeE7fEvZ7e0oBSX8StiHz2wp5YryKerB9anbrQI
+3ckDAeQHUAGcnJrY6h04iWZO/RZPKzfxgSV5qnA4ZtuyZKlgHaTDs6u4A+jDrWNLn8pWYNAZMe+0
+zjkCUxAzbDpsuUZdqbU8T8i0V1MwDMZt3ftZ9rOlhYzO7fpouogUiohdEuFWEggSFE+XnlzNih5I
+WFHIXOZgXE7r0YewWAApvT5bzJX6sX3QsZOov46at/DzbqBeDP8/biKzVPwqQRIsjfecCxyCFrRm
+lsc6XbsZrtcMQwJR08MAwZPYefscMlbMixX0kw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID0zCCArugAwIBAgIEMNIKizANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCSVQxDTALBgNV
+BAgTBFJvbWExEjAQBgNVBAcTCUZpdW1pY2lubzEcMBoGA1UEChMTQ29tdW5lIGRpIEZpdW1pY2lu
+bzEvMC0GA1UECxMmUEEgRGlnaXRhbGUgcGVyIGlsIGNvbXVuZSBkaSBGaXVtaWNpbm8xGDAWBgNV
+BAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMDA3MDMwNzQ3MzhaFw0yNTA3MDIwNzQ3MzhaMIGZMQsw
+CQYDVQQGEwJJVDENMAsGA1UECBMEUm9tYTESMBAGA1UEBxMJRml1bWljaW5vMRwwGgYDVQQKExND
+b211bmUgZGkgRml1bWljaW5vMS8wLQYDVQQLEyZQQSBEaWdpdGFsZSBwZXIgaWwgY29tdW5lIGRp
+IEZpdW1pY2lubzEYMBYGA1UEAxMPUEEgRGlnaXRhbGUgU1BBMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqE59XWyC5qNH/nTqe5SCXJlJILLGunyj4pzU/SeE7fEvZ7e0oBSX8StiHz2w
+p5YryKerB9anbrQI3ckDAeQHUAGcnJrY6h04iWZO/RZPKzfxgSV5qnA4ZtuyZKlgHaTDs6u4A+jD
+rWNLn8pWYNAZMe+0zjkCUxAzbDpsuUZdqbU8T8i0V1MwDMZt3ftZ9rOlhYzO7fpouogUiohdEuFW
+EggSFE+XnlzNih5IWFHIXOZgXE7r0YewWAApvT5bzJX6sX3QsZOov46at/DzbqBeDP8/biKzVPwq
+QRIsjfecCxyCFrRmlsc6XbsZrtcMQwJR08MAwZPYefscMlbMixX0kwIDAQABoyEwHzAdBgNVHQ4E
+FgQUGhGwLWpnEr1Sj+nV7FfrEAlbIOUwDQYJKoZIhvcNAQELBQADggEBAAgx4RAqOG/6GZ8bhotN
+v948EQF7IJ/MMQVuRCdtxv3UdDesb19Y6M8Pk7pkutakT6Tm2DrNsG8WMwMINxvaPkA0+DPMSmff
+/WjY/oFoAjm+BdD6W6AKXmAPMB3E4ExPlmjdQ40jV6v2zfJi/zFw5cKS0qw8NzMRao1Ym2nU8NLP
+HIwDJCpLsdkv7UrRlVb9aRcnLOzMP3LrwdiYTAcm8046opGjjbW7RYc9RxHl9BZ3f7FrcqBW23Eq
+asiizu9Qm4rcMw1bnOyLD1Nk2/9uDQKfJ7a7j29zY+GTMZUoAkCQxk3r+ft8i1aTD+j8PEpptpK3
+nq6WgYH0X0In4Cx23JQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAO4L/tGb+lIQMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUuZml1bWljaW5vLnJtLmdvdi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwMzEyMTIxMjA1WhcNMjgwMzA5MTIxMjA1WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLmZpdW1pY2luby5ybS5nb3YuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6tC/PS++qY/AMJecgQZTPZVHbTVvZCRX+VjNpmgLCkhDAURIHVJSig0HfFBdpQ4nUw0fbZ4HF1Tsh3gUbyR2NF/c3m6DbbjOFauMrbfe2YjdBINrbIFno90u/MxYT7ZMjuuLjCDsKYrj/mgm9yN0EPq5mUFanC/HJ0L6sNgprElEuYPAwa35VYhMqsNJZgf342qn7B6Bh00L6bdONidTtXjTdpu9dyH04FCfYM7pdTKmd4ilH+sa2GqRBYYpf1nk+vTj8g5mm80vnjMpntjnFo8aWMSRc6QgFxWKmnwnIPPx/b5qFlTExg1hBIFcSVvemFROK9ICFcCaEmpfXa5UfwIDAQABo1AwTjAdBgNVHQ4EFgQUDtEfs7O7KBFcEOX/5PrFWFlGxKAwHwYDVR0jBBgwFoAUDtEfs7O7KBFcEOX/5PrFWFlGxKAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEANAAzTKg5tVNxILAsVmysy8Y3WoLL3rTz7/DU/G/3EE7eMckUjxk+3HObtVhAZWr/HzV1M9px4Kbg8fItXFvdBMBoUGXMooU//hBNbvU+uDgyMtISiYL7KrgNSg6JqrXcw1zo8t2ADL6WCv5zOVJ1Uls9ETh/0x2i62YP0djx0p5ECRsubfOpech2aw0ghBT7QIaT2Ox5oQlgTyysXZZajY5RALOdHPTbJVC2043btKpvGxnUhtQQ3WtFW+e3voQWmFkfBFu6cxqyWgBzkh76JJfi/tAQBp8u5SMSrsyRzcngaCm2wouPMsgLv8DTftIqUp2ncoU+pDtBRG6wWly4jg== </ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIID0zCCArugAwIBAgIEMNIKizANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCSVQxDTALBgNV
+BAgTBFJvbWExEjAQBgNVBAcTCUZpdW1pY2lubzEcMBoGA1UEChMTQ29tdW5lIGRpIEZpdW1pY2lu
+bzEvMC0GA1UECxMmUEEgRGlnaXRhbGUgcGVyIGlsIGNvbXVuZSBkaSBGaXVtaWNpbm8xGDAWBgNV
+BAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMDA3MDMwNzQ3MzhaFw0yNTA3MDIwNzQ3MzhaMIGZMQsw
+CQYDVQQGEwJJVDENMAsGA1UECBMEUm9tYTESMBAGA1UEBxMJRml1bWljaW5vMRwwGgYDVQQKExND
+b211bmUgZGkgRml1bWljaW5vMS8wLQYDVQQLEyZQQSBEaWdpdGFsZSBwZXIgaWwgY29tdW5lIGRp
+IEZpdW1pY2lubzEYMBYGA1UEAxMPUEEgRGlnaXRhbGUgU1BBMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqE59XWyC5qNH/nTqe5SCXJlJILLGunyj4pzU/SeE7fEvZ7e0oBSX8StiHz2w
+p5YryKerB9anbrQI3ckDAeQHUAGcnJrY6h04iWZO/RZPKzfxgSV5qnA4ZtuyZKlgHaTDs6u4A+jD
+rWNLn8pWYNAZMe+0zjkCUxAzbDpsuUZdqbU8T8i0V1MwDMZt3ftZ9rOlhYzO7fpouogUiohdEuFW
+EggSFE+XnlzNih5IWFHIXOZgXE7r0YewWAApvT5bzJX6sX3QsZOov46at/DzbqBeDP8/biKzVPwq
+QRIsjfecCxyCFrRmlsc6XbsZrtcMQwJR08MAwZPYefscMlbMixX0kwIDAQABoyEwHzAdBgNVHQ4E
+FgQUGhGwLWpnEr1Sj+nV7FfrEAlbIOUwDQYJKoZIhvcNAQELBQADggEBAAgx4RAqOG/6GZ8bhotN
+v948EQF7IJ/MMQVuRCdtxv3UdDesb19Y6M8Pk7pkutakT6Tm2DrNsG8WMwMINxvaPkA0+DPMSmff
+/WjY/oFoAjm+BdD6W6AKXmAPMB3E4ExPlmjdQ40jV6v2zfJi/zFw5cKS0qw8NzMRao1Ym2nU8NLP
+HIwDJCpLsdkv7UrRlVb9aRcnLOzMP3LrwdiYTAcm8046opGjjbW7RYc9RxHl9BZ3f7FrcqBW23Eq
+asiizu9Qm4rcMw1bnOyLD1Nk2/9uDQKfJ7a7j29zY+GTMZUoAkCQxk3r+ft8i1aTD+j8PEpptpK3
+nq6WgYH0X0In4Cx23JQ=
+					</ds:X509Certificate>
+					</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/fiumicino"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/fiumicino" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/fiumicino" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="2"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+			<md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+			<md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+			<md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">SOL</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="companyName"/>
+			<md:RequestedAttribute Name="registeredOffice"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="ivaCode"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Fiumicino</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Comune di Fiumicino</md:OrganizationName>
+		<md:OrganizationName xml:lang="fr">Comune di Fiumicino</md:OrganizationName>
+		<md:OrganizationName xml:lang="de">Comune di Fiumicino</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Fiumicino</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Fiumicino</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="fr">Comune di Fiumicino</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="de">Comune di Fiumicino</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.fiumicino.rm.gov.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://www.comune.fiumicino.rm.gov.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="fr">https://www.comune.fiumicino.rm.gov.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="de">https://www.comune.fiumicino.rm.gov.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

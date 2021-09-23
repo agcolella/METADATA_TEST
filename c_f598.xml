@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Monteriggioni" entityID="https://www.comune.monteriggioni.si.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Monteriggioni">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/kJh242O8fnwrPlJhh8FYpOwDcLHGWE0SyMMgLmCtY0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+op9nmcYjHyVBPwJ1owW1DbeuUCEil9UZ2C99FdAEEfic7KmYGKcWTIIYOtggwRnfytXmurrCMpzw
+m4F6J5WNSzFBzRd1MKpU0HdJw4GGY8DgwUcQ0xXQjlCqvRpgt3jojOg+C45zp+61Yq5BDbPHtQtn
+5Ix5SjLnqcPSeRa2Jt431sM1Yx6sy+8DjVHEXHR1qNdQwqZOtUWp+VNULVmb3SWVo0pKkhD8c0iK
+ZlYiK5tkWFd5TCk+j3cWWCjJc0+5oQe87Tp7kVeQX5oASeDOpqkO++vxzoDvsq252t0+maG8t/2O
+4hWs/x9FB/10nT3k25vlhtC/C/aUKh4j3KSY0Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qMbGgCEWN0JlFU5NTRHegYyBADOdq/XaLXzi5azNKv4nFG3Si+l34Cbk2B6kCY25pOd2jEttIb2T
+GoVnhQQAO8x9vJws68Aisx1SH1CEooRDRipdv5z9dhR8SCWX73jJTzAQzz9/kmXjEQt+XAkfhrOe
+jYd7u8/X20zfn1gIXAG+Y9J+xjLePlqRYdQO2Gio+9+zBY+g7rLzdiUfG6IQZLnuuG6loPy0nFoO
+TUimqOcuszszNmwbRSnZqVxx18LidnfWISFnA4k+kiHDnfnay5p/2cxDjWjYHalRT6uYgeGWyeF1
+pClC1aDxaBW6XV5QlocL6mGb7A7OoWnHbZhPkw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXTCCAkWgAwIBAgIJAIcUFrpjyMMOMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5j
+b211bmUubW9udGVyaWdnaW9uaS5zaS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcN
+MTgxMjE3MTM0MDA1WhcNMjgxMjE0MTM0MDA1WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRl
+cmlnZ2lvbmkuc2kuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAqMbGgCEWN0JlFU5NTRHegYyBADOdq/XaLXzi5azNKv4nFG3Si+l3
+4Cbk2B6kCY25pOd2jEttIb2TGoVnhQQAO8x9vJws68Aisx1SH1CEooRDRipdv5z9dhR8SCWX73jJ
+TzAQzz9/kmXjEQt+XAkfhrOejYd7u8/X20zfn1gIXAG+Y9J+xjLePlqRYdQO2Gio+9+zBY+g7rLz
+diUfG6IQZLnuuG6loPy0nFoOTUimqOcuszszNmwbRSnZqVxx18LidnfWISFnA4k+kiHDnfnay5p/
+2cxDjWjYHalRT6uYgeGWyeF1pClC1aDxaBW6XV5QlocL6mGb7A7OoWnHbZhPkwIDAQABo1AwTjAd
+BgNVHQ4EFgQUaAMI4eHDfyXTl/GHmOFsw9vetxIwHwYDVR0jBBgwFoAUaAMI4eHDfyXTl/GHmOFs
+w9vetxIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPP5FRu3kuXtsNIj6V/AOWJD5
+HiVnV+Zp98Z9rr5lpqPC3ffG5ubtHq9eMKiBx1/ch8enp2ZkW//aCNDzHf9510dbkjWXG35mGo4y
+WVNG3RmK0+r78VayuIrlw4a1XCsv8etMxzv1xVZGQyHHS9P7hWUgc7E7tePvEgGv/glKe+90RDcD
+TRIkIpPoHlBHQuObHU9LBK5Zse+iEOkBpWCuYnk6Mqh4y98ZEBB8KhGKR2Jcf39oP9M6RqU/mESO
+zdL7Klh3TxhZshFVWe7B7GrfqFwo+pckn0qXLT4DJVNmj6S3Tn74EDvg5e1HaGRrRLVGHSR98my5
+fZGJ4H/zOVgjQA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAIcUFrpjyMMOMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUubW9udGVyaWdnaW9uaS5zaS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgxMjE3MTM0MDA1WhcNMjgxMjE0MTM0MDA1WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRlcmlnZ2lvbmkuc2kuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqMbGgCEWN0JlFU5NTRHegYyBADOdq/XaLXzi5azNKv4nFG3Si+l34Cbk2B6kCY25pOd2jEttIb2TGoVnhQQAO8x9vJws68Aisx1SH1CEooRDRipdv5z9dhR8SCWX73jJTzAQzz9/kmXjEQt+XAkfhrOejYd7u8/X20zfn1gIXAG+Y9J+xjLePlqRYdQO2Gio+9+zBY+g7rLzdiUfG6IQZLnuuG6loPy0nFoOTUimqOcuszszNmwbRSnZqVxx18LidnfWISFnA4k+kiHDnfnay5p/2cxDjWjYHalRT6uYgeGWyeF1pClC1aDxaBW6XV5QlocL6mGb7A7OoWnHbZhPkwIDAQABo1AwTjAdBgNVHQ4EFgQUaAMI4eHDfyXTl/GHmOFsw9vetxIwHwYDVR0jBBgwFoAUaAMI4eHDfyXTl/GHmOFsw9vetxIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPP5FRu3kuXtsNIj6V/AOWJD5HiVnV+Zp98Z9rr5lpqPC3ffG5ubtHq9eMKiBx1/ch8enp2ZkW//aCNDzHf9510dbkjWXG35mGo4yWVNG3RmK0+r78VayuIrlw4a1XCsv8etMxzv1xVZGQyHHS9P7hWUgc7E7tePvEgGv/glKe+90RDcDTRIkIpPoHlBHQuObHU9LBK5Zse+iEOkBpWCuYnk6Mqh4y98ZEBB8KhGKR2Jcf39oP9M6RqU/mESOzdL7Klh3TxhZshFVWe7B7GrfqFwo+pckn0qXLT4DJVNmj6S3Tn74EDvg5e1HaGRrRLVGHSR98my5fZGJ4H/zOVgjQA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAIcUFrpjyMMOMA0GCSqGSIb3DQEBCwUAMEUxJzAlBgNVBAMMHnd3dy5jb211bmUubW9udGVyaWdnaW9uaS5zaS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgxMjE3MTM0MDA1WhcNMjgxMjE0MTM0MDA1WjBFMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRlcmlnZ2lvbmkuc2kuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqMbGgCEWN0JlFU5NTRHegYyBADOdq/XaLXzi5azNKv4nFG3Si+l34Cbk2B6kCY25pOd2jEttIb2TGoVnhQQAO8x9vJws68Aisx1SH1CEooRDRipdv5z9dhR8SCWX73jJTzAQzz9/kmXjEQt+XAkfhrOejYd7u8/X20zfn1gIXAG+Y9J+xjLePlqRYdQO2Gio+9+zBY+g7rLzdiUfG6IQZLnuuG6loPy0nFoOTUimqOcuszszNmwbRSnZqVxx18LidnfWISFnA4k+kiHDnfnay5p/2cxDjWjYHalRT6uYgeGWyeF1pClC1aDxaBW6XV5QlocL6mGb7A7OoWnHbZhPkwIDAQABo1AwTjAdBgNVHQ4EFgQUaAMI4eHDfyXTl/GHmOFsw9vetxIwHwYDVR0jBBgwFoAUaAMI4eHDfyXTl/GHmOFsw9vetxIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPP5FRu3kuXtsNIj6V/AOWJD5HiVnV+Zp98Z9rr5lpqPC3ffG5ubtHq9eMKiBx1/ch8enp2ZkW//aCNDzHf9510dbkjWXG35mGo4yWVNG3RmK0+r78VayuIrlw4a1XCsv8etMxzv1xVZGQyHHS9P7hWUgc7E7tePvEgGv/glKe+90RDcDTRIkIpPoHlBHQuObHU9LBK5Zse+iEOkBpWCuYnk6Mqh4y98ZEBB8KhGKR2Jcf39oP9M6RqU/mESOzdL7Klh3TxhZshFVWe7B7GrfqFwo+pckn0qXLT4DJVNmj6S3Tn74EDvg5e1HaGRrRLVGHSR98my5fZGJ4H/zOVgjQA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/monteriggioni"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monteriggioni" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monteriggioni" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/monteriggioni" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Monteriggioni</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Monteriggioni</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Monteriggioni</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Monteriggioni</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Monteriggioni</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Monteriggioni</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Monteriggioni</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Monteriggioni</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.monteriggioni.si.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.monteriggioni.si.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.monteriggioni.si.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.monteriggioni.si.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

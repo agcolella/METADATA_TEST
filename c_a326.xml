@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Aosta" entityID="https://www.comune.aosta.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Aosta">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7LDLKJLAUXcqVNTn2PAnBS4eq/QKqHPuV8fkRfApTuI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kVfpOWUCY57ME1oAgg8GPn8Sl/MlUa8SstsJO3q1af/D6Y9FFhQRL1YqIke/IyrI+D4rZWgOPTC1
+LbymPsbmBd0HdDlJPlSk3SVetEQwyC4b9oiJn4n1c73zfRMLQBukyA1BuovwXG8JK6UhO5RG4PVO
+nh8tlEQZdk+vs2CseEcYsInLfYdg2RowIAprNrpovynr5ldc/+PtG4AOA3+00rknO09fX6CNUrvL
+eHGkm3D725r0641nSAVE0J8rS0TWwjkc4nxVMDGpOFAKS3ZT4vh6TteZVnw/Wq+x10ehHgzhqG38
+6TQKVudpOeQ9UE61X9REMIcBWThqISTDpZQNJA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rxrxazsR9srFH5H2Xiieaq1P1+BsaRjLjYMVgg5q96fDLvocj9BdvjUwpjfOO1RdERVQgWkjZrn3
+hbV6kp20r5f4W5mvqVP3qha592UEp1VrEgNl9VEN7HrY7d7ZIPcs87IgYgVcMBGszH3h0Io/GG9l
+8u7q6a6mzpwOJc2V8hE2tpz8YnpyFajGBrEEEwKPk/ZqII0US3oQLs7DASLjGl+0Mp3/ld6Gc+mW
+ADa5NWJaRGFJzse6ecuq1eHAulDSWAKejOw9dK9RsOhFRsxSOHephBRINjTwb7xVcmzIq48IcDVF
+Ow+39g48uSZLde1oysGg1gOR87gQMIVtyuQfFw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID6DCCAtCgAwIBAgIJAIEBl6uYYPVjMA0GCSqGSIb3DQEBCwUAMIGaMRgwFgYDVQQKDA9Db211
+bmUgZGkgQW9zdGExGDAWBgNVBAMMD0NvbXVuZSBkaSBBb3N0YTEwMC4GA1UEUwwnaHR0cHM6Ly93
+d3cuY29tdW5lLmFvc3RhLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2EzMjYxCzAJ
+BgNVBAYTAklUMQ4wDAYDVQQHDAVBb3N0YTAeFw0yMDExMTMxMTMzNTFaFw0zMDExMTExMTMzNTFa
+MIGaMRgwFgYDVQQKDA9Db211bmUgZGkgQW9zdGExGDAWBgNVBAMMD0NvbXVuZSBkaSBBb3N0YTEw
+MC4GA1UEUwwnaHR0cHM6Ly93d3cuY29tdW5lLmFvc3RhLml0L3NlcnZpemlTUElEMRUwEwYDVQRh
+DAxQQTpJVC1jX2EzMjYxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVBb3N0YTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAK8a8Ws7EfbKxR+R9l4onmqtT9fgbGkYy42DFYIOavenwy76HI/Q
+Xb41MKY3zjtUXREVUIFpI2a594W1epKdtK+X+FuZr6lT96oWufdlBKdVaxIDZfVRDex62O3e2SD3
+LPOyIGIFXDARrMx94dCKPxhvZfLu6umups6cDiXNlfIRNrac/GJ6chWoxgaxBBMCj5P2aiCNFEt6
+EC7OwwEi4xpftDKd/5XehnPplgA2uTViWkRhSc7HunnLqtXhwLpQ0lgCnozsPXSvUbDoRUbMUjh3
+qYQUSDY08G+8VXJsyKuPCHA1RTsPt/YOPLkmS3XtaMrBoNYDkfO4EDCFbcrkHxcCAwEAAaMvMC0w
+CQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQEL
+BQADggEBADXvEYaQWtal4tTMNARK/asJocsENGyKui+R02nt4K/Kwr0/9HC2Qn7OIzyrDY1ZiH0j
+BqNPqVLSt7mys5lRD7FAIwMNIsZOXCZwVhgM1O7bVYgu6GP+We5GrU8ByDqW4LoJ9TE0MzOiRicP
+MuMqa/TlKMNGsoY6hKelae3KO53bl4k0okE2WoqIYVu7RclLqYLKz2UU28qx/+wrpFGZjPSzVcaO
+3mysbaWee701oE81ZKtXvXJcli2zOf+j8fElSqO56yIpmeioxyjMUso7KxmQk25F4OsZXlVQGHe6
+Qa8/3VnSe4neWYKeL40YU8RZPzCvQv6ZhqpUODGgzigft+E=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID6DCCAtCgAwIBAgIJAIEBl6uYYPVjMA0GCSqGSIb3DQEBCwUAMIGaMRgwFgYDVQQKDA9Db211bmUgZGkgQW9zdGExGDAWBgNVBAMMD0NvbXVuZSBkaSBBb3N0YTEwMC4GA1UEUwwnaHR0cHM6Ly93d3cuY29tdW5lLmFvc3RhLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2EzMjYxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVBb3N0YTAeFw0yMDExMTMxMTMzNTFaFw0zMDExMTExMTMzNTFaMIGaMRgwFgYDVQQKDA9Db211bmUgZGkgQW9zdGExGDAWBgNVBAMMD0NvbXVuZSBkaSBBb3N0YTEwMC4GA1UEUwwnaHR0cHM6Ly93d3cuY29tdW5lLmFvc3RhLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2EzMjYxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVBb3N0YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK8a8Ws7EfbKxR+R9l4onmqtT9fgbGkYy42DFYIOavenwy76HI/QXb41MKY3zjtUXREVUIFpI2a594W1epKdtK+X+FuZr6lT96oWufdlBKdVaxIDZfVRDex62O3e2SD3LPOyIGIFXDARrMx94dCKPxhvZfLu6umups6cDiXNlfIRNrac/GJ6chWoxgaxBBMCj5P2aiCNFEt6EC7OwwEi4xpftDKd/5XehnPplgA2uTViWkRhSc7HunnLqtXhwLpQ0lgCnozsPXSvUbDoRUbMUjh3qYQUSDY08G+8VXJsyKuPCHA1RTsPt/YOPLkmS3XtaMrBoNYDkfO4EDCFbcrkHxcCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBADXvEYaQWtal4tTMNARK/asJocsENGyKui+R02nt4K/Kwr0/9HC2Qn7OIzyrDY1ZiH0jBqNPqVLSt7mys5lRD7FAIwMNIsZOXCZwVhgM1O7bVYgu6GP+We5GrU8ByDqW4LoJ9TE0MzOiRicPMuMqa/TlKMNGsoY6hKelae3KO53bl4k0okE2WoqIYVu7RclLqYLKz2UU28qx/+wrpFGZjPSzVcaO3mysbaWee701oE81ZKtXvXJcli2zOf+j8fElSqO56yIpmeioxyjMUso7KxmQk25F4OsZXlVQGHe6Qa8/3VnSe4neWYKeL40YU8RZPzCvQv6ZhqpUODGgzigft+E=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID6DCCAtCgAwIBAgIJAIEBl6uYYPVjMA0GCSqGSIb3DQEBCwUAMIGaMRgwFgYDVQQKDA9Db211bmUgZGkgQW9zdGExGDAWBgNVBAMMD0NvbXVuZSBkaSBBb3N0YTEwMC4GA1UEUwwnaHR0cHM6Ly93d3cuY29tdW5lLmFvc3RhLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2EzMjYxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVBb3N0YTAeFw0yMDExMTMxMTMzNTFaFw0zMDExMTExMTMzNTFaMIGaMRgwFgYDVQQKDA9Db211bmUgZGkgQW9zdGExGDAWBgNVBAMMD0NvbXVuZSBkaSBBb3N0YTEwMC4GA1UEUwwnaHR0cHM6Ly93d3cuY29tdW5lLmFvc3RhLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2EzMjYxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVBb3N0YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK8a8Ws7EfbKxR+R9l4onmqtT9fgbGkYy42DFYIOavenwy76HI/QXb41MKY3zjtUXREVUIFpI2a594W1epKdtK+X+FuZr6lT96oWufdlBKdVaxIDZfVRDex62O3e2SD3LPOyIGIFXDARrMx94dCKPxhvZfLu6umups6cDiXNlfIRNrac/GJ6chWoxgaxBBMCj5P2aiCNFEt6EC7OwwEi4xpftDKd/5XehnPplgA2uTViWkRhSc7HunnLqtXhwLpQ0lgCnozsPXSvUbDoRUbMUjh3qYQUSDY08G+8VXJsyKuPCHA1RTsPt/YOPLkmS3XtaMrBoNYDkfO4EDCFbcrkHxcCAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBADXvEYaQWtal4tTMNARK/asJocsENGyKui+R02nt4K/Kwr0/9HC2Qn7OIzyrDY1ZiH0jBqNPqVLSt7mys5lRD7FAIwMNIsZOXCZwVhgM1O7bVYgu6GP+We5GrU8ByDqW4LoJ9TE0MzOiRicPMuMqa/TlKMNGsoY6hKelae3KO53bl4k0okE2WoqIYVu7RclLqYLKz2UU28qx/+wrpFGZjPSzVcaO3mysbaWee701oE81ZKtXvXJcli2zOf+j8fElSqO56yIpmeioxyjMUso7KxmQk25F4OsZXlVQGHe6Qa8/3VnSe4neWYKeL40YU8RZPzCvQv6ZhqpUODGgzigft+E=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/aosta"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/aosta" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/aosta" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/aosta" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Aosta</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Aosta</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Aosta</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Aosta</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Aosta</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Aosta</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Aosta</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Aosta</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.aosta.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.aosta.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.aosta.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.aosta.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_a326</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>sitec@comune.aosta.it</md:EmailAddress>
+      <md:TelephoneNumber>+390165300429</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

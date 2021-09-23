@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+  <md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.irideweb.it/omceolu" ID="_6cb9fdf9-e07c-459a-bacc-78f6e95db6d4" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+        <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+        <Reference URI="#_6cb9fdf9-e07c-459a-bacc-78f6e95db6d4">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>IaSLOcAywO+w85MWjaCupnOQlOiFswumFTOX3m3y0+M=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>hjq1wKuyvAyR/9+8X8qwDEJ54t3o5gp+rMpBzXCLn9reJkmSmrdOOxAWf5c6g/6eZg2svRVA+TA7AUhjg/LfstNGW+HlPs35mEJnHBO1eJwt3dyVnmJiggWvKdPbZWyXzhOircHJ7D9PJ6yxVdlsqdelcJP+sjuyrb/OE+fJm0VLustz2FhPQw061LdMA6yogv7Z0rNJD9iZqxUH8bu/bTcpK38/VBAi5HxnuLQof0Q4/WnYwtyOQlIChaH3csxedMsSrPMPFeGNPJo7Ps+vpIgOGuSXgNw4gwZLdHYCNolHBMeUdFiJHVeuGPSy915e2aSV2JZUfI76ulmltKAWvg==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>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</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://omceolu.irideweb.it/server/mvc/Spid/Acs/Logout" />
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://omceolu.irideweb.it/server/mvc/Spid/Acs" index="0" isDefault="true" />
+      <md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="it">IrideWeb.Area.Iscritti</md:ServiceName>
+        <md:ServiceDescription xml:lang="it">IrideWeb - Servizi per gli Iscritti</md:ServiceDescription>
+        <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+        <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Lucca</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Lucca tramite TECSIS srl</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.ordmedlu.it/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+      <md:Company>TECSIS srl</md:Company>
+      <md:Extensions>
+        <spid:VATNumber>03719260287</spid:VATNumber>
+      </md:Extensions>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+      <md:Company>Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Lucca</md:Company>
+      <md:Extensions>
+        <spid:IPACode>odmcol</spid:IPACode>
+      </md:Extensions>
+    </md:ContactPerson>
+  </md:EntityDescriptor>

@@ -1,0 +1,45 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.crederarubbiano.cr.it/sp" ID="_7647864426d1d842576ca422c0856d8a">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIDVDCCAjygAwIBAgIJAJ9BGz2IJCgNMA0GCSqGSIb3DQEBCwUAMCsxKTAnBgNV
+BAMTIHd3dy5jb211bmUuY3JlZGVyYXJ1YmJpYW5vLmNyLml0MB4XDTE5MDYxOTE0
+NTkyNloXDTI5MDYxNjE0NTkyNlowKzEpMCcGA1UEAxMgd3d3LmNvbXVuZS5jcmVk
+ZXJhcnViYmlhbm8uY3IuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC2Cm2mkqzOUK8JnfThkTrQgqgTHVwwIa7dN/mgYYDoyVdFPYROgD6J6+6s/A4a
+gqa8DlqjnvNM9MEH06a3nQZuuLbfPQfCgdni6DOFGiqv2GoXS9uD32meM+6kDfbH
+MZslVzrSXh26PakmC+/noascS7Cv30u+Xl7MzIUSyYpOywbuIbQJV5pdaVD+Xfs7
+Tlyn2/IRF8amZdRRFkAZycbFtXCAIT2L+Zj3rMgkG2uFltV8ZojGnByLN6QQyh2b
+a++AXndX5fYfZCNRU4Ij8D3y7Qc4OsH61ar1kmyZI5P2MpltrNPRZ9gEELsD43Wj
+01VrX25kw3dWSjDvG1cyusAXAgMBAAGjezB5MFgGA1UdEQRRME+CIHd3dy5jb211
+bmUuY3JlZGVyYXJ1YmJpYW5vLmNyLml0hitodHRwczovL3d3dy5jb211bmUuY3Jl
+ZGVyYXJ1YmJpYW5vLmNyLml0L3NwMB0GA1UdDgQWBBQw6ZhY+vZCUPvHLJHwcgVe
+tjrUsTANBgkqhkiG9w0BAQsFAAOCAQEAiA5XcBsM/E4cRFhclbUGFkvdQ109LCfn
+2axGPtUA4b50sOlfybZYcXtmptGejEHFba5gFRWH9kDWBWPbhIgeU8Das8dgDh6B
+FuuzicImLDTl0r0T3Exh/PZzyZyU2+hL2AU2qsgNkQtMd9RSt4m6hHSIe7UtOMt/
+03acaiaTBiwuhgEy1KS5nMcxN3HZH1yrXcib1zBiujeHQeY+0OZvw+2B8n+Pxdjs
+eO0LYLT2VGTw+zDuRC78kKeic9KyKrpWyS2BESJapaowChDub5jSOYXAKHQoye4d
+qfoVvL6Gy/nKRE1FFJBHmdBgFrXtXNUmPf7PXlAn1ng53DZW9qrw+Q==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://crederarubbiano.ecivis.it/spid/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://crederarubbiano.ecivis.it/spid/login" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">eCivis Solution</md:ServiceName>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Credera Rubbiano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Credera Rubbiano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.crederarubbiano.cr.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

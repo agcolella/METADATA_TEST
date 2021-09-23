@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Cermenate" entityID="https://www.comune.cermenate.co.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Cermenate">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>GcpTiFFEssE3gv3M/5ZsxyQUxewoGRlwuJr0YmGOqMI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+q3533oi5hjDAyi+Xss23SryNAYsF0NweBKfQoSWGcVeiBSzLHRsvlPcpZP7Iu8v0CdzhXzU09Ezr
+JvopKzwJR6dHlvupowlD73qm9OvTO/aDQ91kiUeH1nfB21yddSouDweD3N8Ue4BHspLHLwSU9NnI
+o9gux3l1S7tDZ/8Sd/de6oqQvDFk/cV7pxEhR0uvY4qZosMjnQGilZ1z/tUW5D+lYm5xiUUNRdrE
+uqEkML8I8TaJzy+p8UP0SiiSnzX8K9NIKkYZwEaXI9Awz+YKVQKBhKiGKRDbGYxoro2IFyxJSEvi
+DDk0FLi/Aae6eyRGBgCeBY4S/Mu3kC8YrYhM3w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ycH95aKfRBm2PBp9jeUjBSYtay6WFsb4FoI/AjSZ5tSg7tZIulcTxwkydJOIzXVpX+j4lp4l2fM8
+vMOQt3q+hx+bNvQ9Nh2pbe2ltRPQwv+rLM0AlssZ22H1eMxfbfGkBKqS1sbvLLnTRsWRA2JEghT/
+CyVC5LSTPLwCdNCWQ8HGrJiXWjAOCvxUCOBTqWzvHeWXhCEDsl1wbzvJ+pF18TSjcc0QnCvmYn1Z
+VG+0XAJ9CNAR9ZXDaKpve9eXcMFyvGSoBbwlcDR34ndhWR4WoYbPQNpNnpge6I8qbY4QqRs+ZOtr
+7tlXpnRiYb+aAHa4y/SJcSD1r/JvOpSKSmyK1w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAMjefz8BXn1XMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUuY2VybWVuYXRlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAz
+MjIxNTM4MDdaFw0yODAzMTkxNTM4MDdaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2VybWVuYXRl
+LmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMnB/eWin0QZtjwafY3lIwUmLWsulhbG+BaCPwI0mebUoO7WSLpXE8cJMnSTiM11
+aV/o+JaeJdnzPLzDkLd6vocfmzb0PTYdqW3tpbUT0ML/qyzNAJbLGdth9XjMX23xpASqktbG7yy5
+00bFkQNiRIIU/wslQuS0kzy8AnTQlkPBxqyYl1owDgr8VAjgU6ls7x3ll4QhA7JdcG87yfqRdfE0
+o3HNEJwr5mJ9WVRvtFwCfQjQEfWVw2iqb3vXl3DBcrxkqAW8JXA0d+J3YVkeFqGGz0DaTZ6YHuiP
+Km2OEKkbPmTra+7ZV6Z0YmG/mgB2uMv0iXEg9a/ybzqUikpsitcCAwEAAaNQME4wHQYDVR0OBBYE
+FBqrzhVtTLe7G6du52w4RGSt0yADMB8GA1UdIwQYMBaAFBqrzhVtTLe7G6du52w4RGSt0yADMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMkyodNySqFK7TAQXjFGFMHob+6KoquC7+X9
+RfpLs/g7/GA+TI7LU1at1316lp8TDoHyaLllJSHQgwtHXdSRZVVmpx+QrhJj1MThXDTFxkK+fQHn
+j09Q+mDkF80ko0IITAIv5Nd+os6Op7qT1wCo71dtYOYJYd23+JRlB4oX62cRWi1gYQFMVxc2PVuP
+GitBdJCoQGDiYqNhbuXARUo9AuJKXr0blabMlmTEIIg1FSGlkxDp9JzzIhMnfy7dRem7vNW5j/ak
+TksZ+SrVqCbGY+TSI5W9z2PxGrDZkTPMIkqdfzKOlBjbquCjc5RdlQKLY7Q66dwTqHT453Yymw62
+X0c=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAMjefz8BXn1XMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2VybWVuYXRlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODAzMjIxNTM4MDdaFw0yODAzMTkxNTM4MDdaMEExIzAhBgNVBAMMGnd3dy5jb211bmUuY2VybWVuYXRlLmNvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMnB/eWin0QZtjwafY3lIwUmLWsulhbG+BaCPwI0mebUoO7WSLpXE8cJMnSTiM11aV/o+JaeJdnzPLzDkLd6vocfmzb0PTYdqW3tpbUT0ML/qyzNAJbLGdth9XjMX23xpASqktbG7yy500bFkQNiRIIU/wslQuS0kzy8AnTQlkPBxqyYl1owDgr8VAjgU6ls7x3ll4QhA7JdcG87yfqRdfE0o3HNEJwr5mJ9WVRvtFwCfQjQEfWVw2iqb3vXl3DBcrxkqAW8JXA0d+J3YVkeFqGGz0DaTZ6YHuiPKm2OEKkbPmTra+7ZV6Z0YmG/mgB2uMv0iXEg9a/ybzqUikpsitcCAwEAAaNQME4wHQYDVR0OBBYEFBqrzhVtTLe7G6du52w4RGSt0yADMB8GA1UdIwQYMBaAFBqrzhVtTLe7G6du52w4RGSt0yADMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMkyodNySqFK7TAQXjFGFMHob+6KoquC7+X9RfpLs/g7/GA+TI7LU1at1316lp8TDoHyaLllJSHQgwtHXdSRZVVmpx+QrhJj1MThXDTFxkK+fQHnj09Q+mDkF80ko0IITAIv5Nd+os6Op7qT1wCo71dtYOYJYd23+JRlB4oX62cRWi1gYQFMVxc2PVuPGitBdJCoQGDiYqNhbuXARUo9AuJKXr0blabMlmTEIIg1FSGlkxDp9JzzIhMnfy7dRem7vNW5j/akTksZ+SrVqCbGY+TSI5W9z2PxGrDZkTPMIkqdfzKOlBjbquCjc5RdlQKLY7Q66dwTqHT453Yymw62X0c=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cermenate"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cermenate" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cermenate" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cermenate</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cermenate</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cermenate</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cermenate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cermenate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cermenate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cermenate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cermenate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cermenate.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cermenate.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cermenate.co.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cermenate.co.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

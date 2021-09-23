@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx1b2f7313-7942-e082-3fe8-416b510045e8" entityID="https://www.comune.villanovafranca.ca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx1b2f7313-7942-e082-3fe8-416b510045e8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>icf+4fKBJeSY3zB2379tUdZNPOs6jiUroP41835iayI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+BBODMnVrBrcTIFr1WWefBu80eQgkjWaT8qj420DT//bBrnIreuYMjmI+hUSxl5d9Xewax+YUMZlg
+V4Fef1DCw7nMDxR49MNcx5LLUfdM/aJcY584vGYVzXiDtSy/u23QdCDXYTK9C7K5WF1g9hu1bQOg
+CsZRQuOSYAMJh51oErYFBiUVI0TAiyRND1RSRDj8hFWq2iDZw70mbw/To3zr5QNVXIuxtrZujEeR
+McqTOGdml8IHwuzCND6w+kB1n9+epyTFLYmmbv3NTmHsP+M6lxqJQoTi0wYhKSBGSPPHlKvX0sP7
+t198DpPJY0MKIorLVx7+W9fyad16Q8GUHir1qg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u1AkQh4LXfZqQzltDAWdKCrVeXMLnlzDWhh/qf/00jh55HBp/DdT7qY59gECWHZnsxCC1Pln2pik
+EVNm0qrl1SDdByOMJrtf93uzv7acWLaRQ666Bnl5T9nOGEE2uBaPU2SNoul8/27TOUIRr5JLpMIE
+JQxXfLAI0EIIqN5U2soun9gOWycM2TPv0AS/B896JKDYpxIA/JwLFIWknDxX9b8FVC1w5PcHvvMR
+CFBSP2ioYKs5Hb3WI9LeS8BtuCe6dHJCMU8inSP38ydnaOJTtF1fiYNBEPh/gd/Df6Eno6BvyEag
+MEDzG+RCmdK+j0P9nsAirHUsjHN1AyCYP/286Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4TCCAsmgAwIBAgIJAPFsqVen9C2sMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1ZpbGxhbm92YWZyYW5jYTEiMCAGA1UECgwZQ29tdW5l
+IGRpIFZpbGxhbm92YWZyYW5jYTEpMCcGA1UEAwwgd3d3LmNvbXVuZS52aWxsYW5vdmFmcmFuY2Eu
+Y2EuaXQwHhcNMTkwMjIyMTYxODU1WhcNMjkwMjIxMTYxODU1WjCBhjELMAkGA1UEBhMCSVQxDjAM
+BgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9WaWxsYW5vdmFmcmFuY2ExIjAgBgNVBAoMGUNvbXVuZSBk
+aSBWaWxsYW5vdmFmcmFuY2ExKTAnBgNVBAMMIHd3dy5jb211bmUudmlsbGFub3ZhZnJhbmNhLmNh
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu1AkQh4LXfZqQzltDAWdKCrVeXML
+nlzDWhh/qf/00jh55HBp/DdT7qY59gECWHZnsxCC1Pln2pikEVNm0qrl1SDdByOMJrtf93uzv7ac
+WLaRQ666Bnl5T9nOGEE2uBaPU2SNoul8/27TOUIRr5JLpMIEJQxXfLAI0EIIqN5U2soun9gOWycM
+2TPv0AS/B896JKDYpxIA/JwLFIWknDxX9b8FVC1w5PcHvvMRCFBSP2ioYKs5Hb3WI9LeS8BtuCe6
+dHJCMU8inSP38ydnaOJTtF1fiYNBEPh/gd/Df6Eno6BvyEagMEDzG+RCmdK+j0P9nsAirHUsjHN1
+AyCYP/286QIDAQABo1AwTjAdBgNVHQ4EFgQUffQaUENBn9mv23ZFtVMU13K0IngwHwYDVR0jBBgw
+FoAUffQaUENBn9mv23ZFtVMU13K0IngwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+JwR9wYzDIfIc4O5tVDB/uC99OM1VP2p8jVZzRNbTuAknDrV3U95WiLLplqaTS+JS4y7o9VkrHrdR
+xN8L6d+38io1LjZg6IHusnpIFdzwtrNi1VayCAZciZgrF77VSqAI79h13PaHGX2l1wl/5at57B5q
+lNO+wl3Y4FMvWo53G4esxMMG/L0TRMu/vSJ/KIemTYkGRR7KjppXuToHsdqDBvLRrwj4ST3+O7oM
+/61tgqXNMDjDOpB+D4fwASx28iSA7B5jJCO7pmm9DSQNzAdKMtpffb/OO0TbnQBMpM/+jDRzwg01
+ZxJm8hUGsWP6Ply6O4UhTKDJ76oVAco3xXw5SA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAPFsqVen9C2sMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1ZpbGxhbm92YWZyYW5jYTEiMCAGA1UECgwZQ29tdW5lIGRpIFZpbGxhbm92YWZyYW5jYTEpMCcGA1UEAwwgd3d3LmNvbXVuZS52aWxsYW5vdmFmcmFuY2EuY2EuaXQwHhcNMTkwMjIyMTYxODU1WhcNMjkwMjIxMTYxODU1WjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9WaWxsYW5vdmFmcmFuY2ExIjAgBgNVBAoMGUNvbXVuZSBkaSBWaWxsYW5vdmFmcmFuY2ExKTAnBgNVBAMMIHd3dy5jb211bmUudmlsbGFub3ZhZnJhbmNhLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu1AkQh4LXfZqQzltDAWdKCrVeXMLnlzDWhh/qf/00jh55HBp/DdT7qY59gECWHZnsxCC1Pln2pikEVNm0qrl1SDdByOMJrtf93uzv7acWLaRQ666Bnl5T9nOGEE2uBaPU2SNoul8/27TOUIRr5JLpMIEJQxXfLAI0EIIqN5U2soun9gOWycM2TPv0AS/B896JKDYpxIA/JwLFIWknDxX9b8FVC1w5PcHvvMRCFBSP2ioYKs5Hb3WI9LeS8BtuCe6dHJCMU8inSP38ydnaOJTtF1fiYNBEPh/gd/Df6Eno6BvyEagMEDzG+RCmdK+j0P9nsAirHUsjHN1AyCYP/286QIDAQABo1AwTjAdBgNVHQ4EFgQUffQaUENBn9mv23ZFtVMU13K0IngwHwYDVR0jBBgwFoAUffQaUENBn9mv23ZFtVMU13K0IngwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAJwR9wYzDIfIc4O5tVDB/uC99OM1VP2p8jVZzRNbTuAknDrV3U95WiLLplqaTS+JS4y7o9VkrHrdRxN8L6d+38io1LjZg6IHusnpIFdzwtrNi1VayCAZciZgrF77VSqAI79h13PaHGX2l1wl/5at57B5qlNO+wl3Y4FMvWo53G4esxMMG/L0TRMu/vSJ/KIemTYkGRR7KjppXuToHsdqDBvLRrwj4ST3+O7oM/61tgqXNMDjDOpB+D4fwASx28iSA7B5jJCO7pmm9DSQNzAdKMtpffb/OO0TbnQBMpM/+jDRzwg01ZxJm8hUGsWP6Ply6O4UhTKDJ76oVAco3xXw5SA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4TCCAsmgAwIBAgIJAPFsqVen9C2sMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGDAWBgNVBAcMD1ZpbGxhbm92YWZyYW5jYTEiMCAGA1UECgwZQ29tdW5lIGRpIFZpbGxhbm92YWZyYW5jYTEpMCcGA1UEAwwgd3d3LmNvbXVuZS52aWxsYW5vdmFmcmFuY2EuY2EuaXQwHhcNMTkwMjIyMTYxODU1WhcNMjkwMjIxMTYxODU1WjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRgwFgYDVQQHDA9WaWxsYW5vdmFmcmFuY2ExIjAgBgNVBAoMGUNvbXVuZSBkaSBWaWxsYW5vdmFmcmFuY2ExKTAnBgNVBAMMIHd3dy5jb211bmUudmlsbGFub3ZhZnJhbmNhLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu1AkQh4LXfZqQzltDAWdKCrVeXMLnlzDWhh/qf/00jh55HBp/DdT7qY59gECWHZnsxCC1Pln2pikEVNm0qrl1SDdByOMJrtf93uzv7acWLaRQ666Bnl5T9nOGEE2uBaPU2SNoul8/27TOUIRr5JLpMIEJQxXfLAI0EIIqN5U2soun9gOWycM2TPv0AS/B896JKDYpxIA/JwLFIWknDxX9b8FVC1w5PcHvvMRCFBSP2ioYKs5Hb3WI9LeS8BtuCe6dHJCMU8inSP38ydnaOJTtF1fiYNBEPh/gd/Df6Eno6BvyEagMEDzG+RCmdK+j0P9nsAirHUsjHN1AyCYP/286QIDAQABo1AwTjAdBgNVHQ4EFgQUffQaUENBn9mv23ZFtVMU13K0IngwHwYDVR0jBBgwFoAUffQaUENBn9mv23ZFtVMU13K0IngwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAJwR9wYzDIfIc4O5tVDB/uC99OM1VP2p8jVZzRNbTuAknDrV3U95WiLLplqaTS+JS4y7o9VkrHrdRxN8L6d+38io1LjZg6IHusnpIFdzwtrNi1VayCAZciZgrF77VSqAI79h13PaHGX2l1wl/5at57B5qlNO+wl3Y4FMvWo53G4esxMMG/L0TRMu/vSJ/KIemTYkGRR7KjppXuToHsdqDBvLRrwj4ST3+O7oM/61tgqXNMDjDOpB+D4fwASx28iSA7B5jJCO7pmm9DSQNzAdKMtpffb/OO0TbnQBMpM/+jDRzwg01ZxJm8hUGsWP6Ply6O4UhTKDJ76oVAco3xXw5SA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.villanovafranca.ca.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.villanovafranca.ca.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Villanovafranca</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Villanovafranca</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.villanovafranca.ca.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

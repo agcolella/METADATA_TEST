@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Petrosino" entityID="https://www.comune.petrosino.tp.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Petrosino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>pAMfODR/Pzl34lCUzUIgNjjLet265eBsZxYi+hCYreU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+X4e1xjZQw17Mw8V0IekYaGlse0V9T0hNc3r7SwkkB568u+gGHFiYa2vykaqjsaX7CJBIBy2/I/yq
+QXMENPg23lh9rpFQVjnG0DEzhal5qExnxHWk4a995cDno80kLBdBxgvGVC2u8r7q1+aovcsZdMMk
+HGAU0JvCZhSh90vzIynFFTcAJ5YcR5UJ8TKjk+GV4yGwzCKBqKStV6r4RmpRqLai98lgCITH1Yvt
+rwj4PzQp2Ru9/n6BqlIv8cyp5IRv2qn4aPQ8cDEj0hRJ31pvFXLnW6bvq6QQrTW6mSfXDvkD9s7Y
+DuH9is9LkeMvde3svNOqT/WgnhwvxrNnxlfgeg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+z3zP0CsG5PnFZijXK6mc93q4bU1MmxZ+I7ib9lpZ4bdBQ103WG21L2Z/TE1ResavbQdfzbkYvXDo
+wuAdFHzhFQAp4n1l0yTJyceFqwy0Jv7xzj7+weDCk+LK2gw4FmUzkMrLpRpbT++17uXhelVsLLqe
+e1Of7ZvYlvi3N9yogsA7+1QMs/IAN4IVTdBvs5Gnn/XnvdjKLkDa9ZMpUXw3/gKHMtFK4MyHntFt
+dKrjiY2+ZwwQxKIFKrSGv4HMO/N3enSDwWiOvocFjVDIzHHae0YJPHeOgqiAJG2cqZI819ES8XZU
+YsvkVSreHeAO9zb4IhMjs3nbU9SGEtApt3LB5Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJAKPltr4v2CrXMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5j
+b211bmUucGV0cm9zaW5vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2
+MTAxMjA1MTZaFw0zMDA2MDgxMjA1MTZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUucGV0cm9zaW5v
+LnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAM98z9ArBuT5xWYo1yupnPd6uG1NTJsWfiO4m/ZaWeG3QUNdN1httS9mf0xNUXrG
+r20HX825GL1w6MLgHRR84RUAKeJ9ZdMkycnHhasMtCb+8c4+/sHgwpPiytoMOBZlM5DKy6UaW0/v
+te7l4XpVbCy6nntTn+2b2Jb4tzfcqILAO/tUDLPyADeCFU3Qb7ORp5/1573Yyi5A2vWTKVF8N/4C
+hzLRSuDMh57RbXSq44mNvmcMEMSiBSq0hr+BzDvzd3p0g8Fojr6HBY1QyMxx2ntGCTx3joKogCRt
+nKmSPNfREvF2VGLL5FUq3h3gDvc2+CITI7N521PUhhLQKbdyweUCAwEAAaNQME4wHQYDVR0OBBYE
+FKil8biAm64WDB97Ps/ltX/o+98PMB8GA1UdIwQYMBaAFKil8biAm64WDB97Ps/ltX/o+98PMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGBDHoAGYPmZtRnrQaYsqgSpVCqANcRHEhF4
+GLe3AUaMPIPIZVrt+z/y+IXjeqY/OYaM2rUIo3BjRHFm14VxKm+upbcg9jrK6H9uoQKkIZmlwG8I
+VFMJy0JcEKHx4xLkIZoAdTwc9mQpBHWCRpbbzBc7SJdHSl6cEUf83Sp3fs/693kk5mn/fSAiz7FT
+Vn9gVSf9fRH+thp0GOrfaAsPf7TdnEpPmDM1IqyFnI2sw9h3fDlBwCKIxsEesW4R8lOrv0v+m2tI
+Ys9mjbTcchT7WfzUMofsAkejioRupaAhjtMhxruzoNWeYK9vkg34qjcX0jd4J2tgZMkgGkTYyOcb
+z2w=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAKPltr4v2CrXMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUucGV0cm9zaW5vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MTAxMjA1MTZaFw0zMDA2MDgxMjA1MTZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUucGV0cm9zaW5vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM98z9ArBuT5xWYo1yupnPd6uG1NTJsWfiO4m/ZaWeG3QUNdN1httS9mf0xNUXrGr20HX825GL1w6MLgHRR84RUAKeJ9ZdMkycnHhasMtCb+8c4+/sHgwpPiytoMOBZlM5DKy6UaW0/vte7l4XpVbCy6nntTn+2b2Jb4tzfcqILAO/tUDLPyADeCFU3Qb7ORp5/1573Yyi5A2vWTKVF8N/4ChzLRSuDMh57RbXSq44mNvmcMEMSiBSq0hr+BzDvzd3p0g8Fojr6HBY1QyMxx2ntGCTx3joKogCRtnKmSPNfREvF2VGLL5FUq3h3gDvc2+CITI7N521PUhhLQKbdyweUCAwEAAaNQME4wHQYDVR0OBBYEFKil8biAm64WDB97Ps/ltX/o+98PMB8GA1UdIwQYMBaAFKil8biAm64WDB97Ps/ltX/o+98PMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGBDHoAGYPmZtRnrQaYsqgSpVCqANcRHEhF4GLe3AUaMPIPIZVrt+z/y+IXjeqY/OYaM2rUIo3BjRHFm14VxKm+upbcg9jrK6H9uoQKkIZmlwG8IVFMJy0JcEKHx4xLkIZoAdTwc9mQpBHWCRpbbzBc7SJdHSl6cEUf83Sp3fs/693kk5mn/fSAiz7FTVn9gVSf9fRH+thp0GOrfaAsPf7TdnEpPmDM1IqyFnI2sw9h3fDlBwCKIxsEesW4R8lOrv0v+m2tIYs9mjbTcchT7WfzUMofsAkejioRupaAhjtMhxruzoNWeYK9vkg34qjcX0jd4J2tgZMkgGkTYyOcbz2w=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDVTCCAj2gAwIBAgIJAKPltr4v2CrXMA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3dy5jb211bmUucGV0cm9zaW5vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MTAxMjA1MTZaFw0zMDA2MDgxMjA1MTZaMEExIzAhBgNVBAMMGnd3dy5jb211bmUucGV0cm9zaW5vLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM98z9ArBuT5xWYo1yupnPd6uG1NTJsWfiO4m/ZaWeG3QUNdN1httS9mf0xNUXrGr20HX825GL1w6MLgHRR84RUAKeJ9ZdMkycnHhasMtCb+8c4+/sHgwpPiytoMOBZlM5DKy6UaW0/vte7l4XpVbCy6nntTn+2b2Jb4tzfcqILAO/tUDLPyADeCFU3Qb7ORp5/1573Yyi5A2vWTKVF8N/4ChzLRSuDMh57RbXSq44mNvmcMEMSiBSq0hr+BzDvzd3p0g8Fojr6HBY1QyMxx2ntGCTx3joKogCRtnKmSPNfREvF2VGLL5FUq3h3gDvc2+CITI7N521PUhhLQKbdyweUCAwEAAaNQME4wHQYDVR0OBBYEFKil8biAm64WDB97Ps/ltX/o+98PMB8GA1UdIwQYMBaAFKil8biAm64WDB97Ps/ltX/o+98PMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGBDHoAGYPmZtRnrQaYsqgSpVCqANcRHEhF4GLe3AUaMPIPIZVrt+z/y+IXjeqY/OYaM2rUIo3BjRHFm14VxKm+upbcg9jrK6H9uoQKkIZmlwG8IVFMJy0JcEKHx4xLkIZoAdTwc9mQpBHWCRpbbzBc7SJdHSl6cEUf83Sp3fs/693kk5mn/fSAiz7FTVn9gVSf9fRH+thp0GOrfaAsPf7TdnEpPmDM1IqyFnI2sw9h3fDlBwCKIxsEesW4R8lOrv0v+m2tIYs9mjbTcchT7WfzUMofsAkejioRupaAhjtMhxruzoNWeYK9vkg34qjcX0jd4J2tgZMkgGkTYyOcbz2w=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/petrosino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/petrosino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/petrosino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/petrosino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Petrosino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Petrosino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Petrosino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Petrosino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Petrosino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Petrosino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Petrosino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Petrosino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.petrosino.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.petrosino.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.petrosino.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.petrosino.tp.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

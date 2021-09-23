@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_dbc21c2bb00c46c5b3292a267f66937e" entityID="https://access.mef.gov.it/oam/fed"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_dbc21c2bb00c46c5b3292a267f66937e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>uEhg/wByo21R5qjAyy+aQENzFKGNjSc6cVzFa1JXWlw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EHc9MYxEDiF5Kd/4hXVJzFz7Yp1pXbLRky1yrlwEJv4zIWNy/jGXaSWbtOFJckbVhOavHial1QSH
+S5Wolosurhae6O/xrhDAEe0iStQq9ycb/3Ymk4hLZRs3jsD3U8hK4Wbz3L/y/YvrsgkhRBOmh/io
+QX1s2NG3E1ulgIrT7PVKdCwCwPYsz7qCh41avkJJmhurTCt+12LDZpzosX0lyWBLo8q/9q+7/cVt
+PJ/VF90pf2fQtdNPoQcsbzqrow2S7v/lAnlQO85OVPOg9PewpTYEo/atRs/MckC/3rOUw86y7B1H
+vmqLxeLRdpmlV2kqW+5BGEemWGnhyF8jhCHguA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v2oABnw70jVqNeiK5FP+OdDTWDpRNxlS7l+mvfHV9RbrSmmRRkg78aCt+AD6ssIKURMOi0eyK0xi
+QQbOEjqXATVVJaouCG4jpxaht56czQjvANlXHRMha9oBo5yX1Q8WfXxLgBO1SM+yATl/bBGIhqYg
+FpUsPdIPcBZZoJHaH7s6BWkOuWqLb5WovzV7NqiUnZlroE/BGWP+px83EVDyid2PGuNkFu4bscB7
+Jvyc5RKqgh77YqOH67Ii6mEMAGCwTntMRlbB4wVLQQh2dawJGuO4FdYoB3BPUAfgOKzgNVlOGP3S
+Ko7HWescLfvI9T50pqwZyTqkyfiPNo+tOkB9Pw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID0TCCArmgAwIBAgIJALJNkCqhEX+rMA0GCSqGSIb3DQEBBQUAMH8xCzAJBgNVBAYTAklUMQsw
+CQYDVQQIDAJSTTENMAsGA1UEBwwEUk9NQTEMMAoGA1UECgwDTUVGMSUwIwYDVQQLDBxNSU5JU1RF
+Uk8gRUNPTk9NSUEgRSBGSU5BTlpFMR8wHQYDVQQDDBZhY2Nlc3Mtc2lnbi5tZWYuZ292Lml0MB4X
+DTE3MDcyMTExMTYxNVoXDTI3MDcxOTExMTYxNVowfzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJN
+MQ0wCwYDVQQHDARST01BMQwwCgYDVQQKDANNRUYxJTAjBgNVBAsMHE1JTklTVEVSTyBFQ09OT01J
+QSBFIEZJTkFOWkUxHzAdBgNVBAMMFmFjY2Vzcy1zaWduLm1lZi5nb3YuaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC/agAGfDvSNWo16IrkU/450NNYOlE3GVLuX6a98dX1FutKaZFG
+SDvxoK34APqywgpREw6LR7IrTGJBBs4SOpcBNVUlqi4IbiOnFqG3npzNCO8A2VcdEyFr2gGjnJfV
+DxZ9fEuAE7VIz7IBOX9sEYiGpiAWlSw90g9wFlmgkdofuzoFaQ65aotvlai/NXs2qJSdmWugT8EZ
+Y/6nHzcRUPKJ3Y8a42QW7huxwHsm/JzlEqqCHvtio4frsiLqYQwAYLBOe0xGVsHjBUtBCHZ1rAka
+47gV1igHcE9QB+A4rOA1WU4Y/dIqjsdZ6xwt+8j1PnSmrBnJOqTJ+I82j606QH0/AgMBAAGjUDBO
+MB0GA1UdDgQWBBQIF44Zfqt/Sk5CqTQ9JhNTI4AUAzAfBgNVHSMEGDAWgBQIF44Zfqt/Sk5CqTQ9
+JhNTI4AUAzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBAa1nnHpsg77/qrE0gXGlB
+NJWnGUWoAUKU9CAUSi9u6XzWpPr5i6C3rmC5jcp5FnV85cbv/90z8lI22QBxcQaSyXba+2bfY8/3
+OlJhJ/GPwT0jyBqotc9l8UTsI9CuGShqlR5GocGjgYaF2BJYQCi8f1iLjjh0Amqrml/4CbmgdVdy
+3bo+wJgrH1mczv9AUagTyrqC0Bu1Zm4JrYjA9dVnrKkAT7Ql0LfTRf8vMETkPfepONGZ7afS2ycM
+H5p/SFSyeexG+vjO3Tpoj9YaM5l0CaP/7982LkJUuLO9elHcqkFkIjaY2dZ9/zujvBSjqJi8cmu4
+17mhQnGZEuzonVp4
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID0TCCArmgAwIBAgIJALJNkCqhEX+rMA0GCSqGSIb3DQEBBQUAMH8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUk9NQTEMMAoGA1UECgwDTUVGMSUwIwYDVQQLDBxNSU5JU1RFUk8gRUNPTk9NSUEgRSBGSU5BTlpFMR8wHQYDVQQDDBZhY2Nlc3Mtc2lnbi5tZWYuZ292Lml0MB4XDTE3MDcyMTExMTYxNVoXDTI3MDcxOTExMTYxNVowfzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJNMQ0wCwYDVQQHDARST01BMQwwCgYDVQQKDANNRUYxJTAjBgNVBAsMHE1JTklTVEVSTyBFQ09OT01JQSBFIEZJTkFOWkUxHzAdBgNVBAMMFmFjY2Vzcy1zaWduLm1lZi5nb3YuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/agAGfDvSNWo16IrkU/450NNYOlE3GVLuX6a98dX1FutKaZFGSDvxoK34APqywgpREw6LR7IrTGJBBs4SOpcBNVUlqi4IbiOnFqG3npzNCO8A2VcdEyFr2gGjnJfVDxZ9fEuAE7VIz7IBOX9sEYiGpiAWlSw90g9wFlmgkdofuzoFaQ65aotvlai/NXs2qJSdmWugT8EZY/6nHzcRUPKJ3Y8a42QW7huxwHsm/JzlEqqCHvtio4frsiLqYQwAYLBOe0xGVsHjBUtBCHZ1rAka47gV1igHcE9QB+A4rOA1WU4Y/dIqjsdZ6xwt+8j1PnSmrBnJOqTJ+I82j606QH0/AgMBAAGjUDBOMB0GA1UdDgQWBBQIF44Zfqt/Sk5CqTQ9JhNTI4AUAzAfBgNVHSMEGDAWgBQIF44Zfqt/Sk5CqTQ9JhNTI4AUAzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBAa1nnHpsg77/qrE0gXGlBNJWnGUWoAUKU9CAUSi9u6XzWpPr5i6C3rmC5jcp5FnV85cbv/90z8lI22QBxcQaSyXba+2bfY8/3OlJhJ/GPwT0jyBqotc9l8UTsI9CuGShqlR5GocGjgYaF2BJYQCi8f1iLjjh0Amqrml/4CbmgdVdy3bo+wJgrH1mczv9AUagTyrqC0Bu1Zm4JrYjA9dVnrKkAT7Ql0LfTRf8vMETkPfepONGZ7afS2ycMH5p/SFSyeexG+vjO3Tpoj9YaM5l0CaP/7982LkJUuLO9elHcqkFkIjaY2dZ9/zujvBSjqJi8cmu417mhQnGZEuzonVp4</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://access.mef.gov.it/oamfed/idp/samlv20" ResponseLocation="https://access.mef.gov.it/oamfed/idp/samlv20"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://access.mef.gov.it/oamfed/idp/samlv20" ResponseLocation="https://access.mef.gov.it/oamfed/idp/samlv20"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://access.mef.gov.it/oamfed/sp/samlv20" ResponseLocation="https://access.mef.gov.it/oamfed/sp/samlv20"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://access.mef.gov.it/oamfed/sp/samlv20" ResponseLocation="https://access.mef.gov.it/oamfed/sp/samlv20"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://access.mef.gov.it/oamfed/idp/samlv20" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://access.mef.gov.it/oamfed/idp/soap" index="1"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://access.mef.gov.it/oamfed/idp/samlv20" index="2"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://access.mef.gov.it/oam/server/fed/sp/sso" index="3"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">set1</md:ServiceName><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/></md:AttributeConsumingService><md:AttributeConsumingService index="1"><md:ServiceName xml:lang="it">set2</md:ServiceName><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="registeredOffice"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="idCard"/><md:RequestedAttribute Name="mobilePhone"/><md:RequestedAttribute Name="address"/><md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">MEF</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Ministero dell'Economia e delle Finanze</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">http://www.mef.gov.it/</md:OrganizationURL></md:Organization></md:EntityDescriptor>

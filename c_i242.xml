@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx1f0962bf-1601-f388-ac6e-37c30860212e" entityID="https://www.comune-santamariadisala.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx1f0962bf-1601-f388-ac6e-37c30860212e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>duAie31rFwQH4sheNGVTAjtnz4ZE5/lXMXuEjdOTRWA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hxG/cwJqY+fNHkhUhNjCRkCRDMII/GwwUxOIxIeMbUv86347PH8PaJPWk6S55AVDnS/EkeUbZPGB
+ewJBiiIqD79YVXqy24E98X1PXa0eqb2vHIDWt+SpcXXIEnrZfxnBTjpr1snb1ozBvWOjrEXDMxfK
+SRhkc6cuYl2cn+9xfFpkoxlEmpq0q98iC4bALCbGNojC5Vbyw8H2KiDUXyPb1fElRjoC29CwsQ59
+2Yxq4msOAL3QTD7yqscC4OU1ut1hvqKM9bSHmryzelwA2TpElusPHk8bUyP2UPtyjaKww1/umsi2
+z5Cb8KdXTooh11Z/5kt8Cs61AwXqS4gHZChIAg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0dlGuPm8SpYfLuj+vmFt/j89LtktK2nIzux5JIeZpjN8vFO1N02ifirkQJo89cMj4WafMfV8Z0RZ
+yeg1aVuBJ68DweBV/znnobVtTBWXniQ87AiRHHMEe5xsU2oaXogbSKfMFpSie4yp4XO4JtycJgzm
+6s/WcXPgBM5d6CDBJm0y874tCUPxgUZW24r+jjhy62hrubbQqtxDDXpW1x9p5a7JST56wBv/8mMi
+FsmLU7x05TOA2gUE1wTiJqLXEMp2qNw9Z1OtybIDz6p8iTRLE1xhxOzt0zqaoO4eBqedbBXb7LzD
+Xp6scPAnAjcxZmMY8yWMB0izTsVxuur4NL8qVw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEkjCCA3qgAwIBAgIJAMZHUK1U+n0cMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEO
+MAwGA1UECBMFSXRhbHkxHDAaBgNVBAcTE1NhbnRhIE1hcmlhIGRpIFNhbGExJjAkBgNVBAoTHUNv
+bXVuZSBkaSBTYW50YSBNYXJpYSBkaSBTYWxhMScwJQYDVQQDEx53d3cuY29tdW5lLXNhbnRhbWFy
+aWFkaXNhbGEuaXQwHhcNMTgxMTE2MDg1MzE5WhcNMjgxMTE1MDg1MzE5WjCBjDELMAkGA1UEBhMC
+SVQxDjAMBgNVBAgTBUl0YWx5MRwwGgYDVQQHExNTYW50YSBNYXJpYSBkaSBTYWxhMSYwJAYDVQQK
+Ex1Db211bmUgZGkgU2FudGEgTWFyaWEgZGkgU2FsYTEnMCUGA1UEAxMed3d3LmNvbXVuZS1zYW50
+YW1hcmlhZGlzYWxhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0dlGuPm8SpYf
+Luj+vmFt/j89LtktK2nIzux5JIeZpjN8vFO1N02ifirkQJo89cMj4WafMfV8Z0RZyeg1aVuBJ68D
+weBV/znnobVtTBWXniQ87AiRHHMEe5xsU2oaXogbSKfMFpSie4yp4XO4JtycJgzm6s/WcXPgBM5d
+6CDBJm0y874tCUPxgUZW24r+jjhy62hrubbQqtxDDXpW1x9p5a7JST56wBv/8mMiFsmLU7x05TOA
+2gUE1wTiJqLXEMp2qNw9Z1OtybIDz6p8iTRLE1xhxOzt0zqaoO4eBqedbBXb7LzDXp6scPAnAjcx
+ZmMY8yWMB0izTsVxuur4NL8qVwIDAQABo4H0MIHxMB0GA1UdDgQWBBRyaxOakV4V6CA4fl7FJDoI
+4o6K+TCBwQYDVR0jBIG5MIG2gBRyaxOakV4V6CA4fl7FJDoI4o6K+aGBkqSBjzCBjDELMAkGA1UE
+BhMCSVQxDjAMBgNVBAgTBUl0YWx5MRwwGgYDVQQHExNTYW50YSBNYXJpYSBkaSBTYWxhMSYwJAYD
+VQQKEx1Db211bmUgZGkgU2FudGEgTWFyaWEgZGkgU2FsYTEnMCUGA1UEAxMed3d3LmNvbXVuZS1z
+YW50YW1hcmlhZGlzYWxhLml0ggkAxkdQrVT6fRwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsF
+AAOCAQEAHLoIxnf+Gsw0x/94YBaZ5Fvmw41o18wbSPFU44roLsbj/Y7++CM/PTazGK556KbtV2iA
++c3/gpt+KJhRagLgfiTaLXwNc86h0LPBw3LAi+dXJFBQUGg8oYIjGxaq9jEF1tashcqVvpttvp++
+UthMMueSnS4L8o4ZO93L+JdJcnSaQo7e4LOq5lTyPhBqO942UsWYKAjLzjVHoWAy2mJHLyq36CSB
+BbJBA+wEVHdGDxnDvpXBD3d6StdPwiU3r1WJpNJX26RAeaND22TgpUqWqrKQvfENgDKMV5J6YVJw
+XnAXW0REgtiTo9PR+4lXcVYAAl8LYblzy9EBLRfnDWavTw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEkjCCA3qgAwIBAgIJAMZHUK1U+n0cMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxHDAaBgNVBAcTE1NhbnRhIE1hcmlhIGRpIFNhbGExJjAkBgNVBAoTHUNvbXVuZSBkaSBTYW50YSBNYXJpYSBkaSBTYWxhMScwJQYDVQQDEx53d3cuY29tdW5lLXNhbnRhbWFyaWFkaXNhbGEuaXQwHhcNMTgxMTE2MDg1MzE5WhcNMjgxMTE1MDg1MzE5WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRwwGgYDVQQHExNTYW50YSBNYXJpYSBkaSBTYWxhMSYwJAYDVQQKEx1Db211bmUgZGkgU2FudGEgTWFyaWEgZGkgU2FsYTEnMCUGA1UEAxMed3d3LmNvbXVuZS1zYW50YW1hcmlhZGlzYWxhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0dlGuPm8SpYfLuj+vmFt/j89LtktK2nIzux5JIeZpjN8vFO1N02ifirkQJo89cMj4WafMfV8Z0RZyeg1aVuBJ68DweBV/znnobVtTBWXniQ87AiRHHMEe5xsU2oaXogbSKfMFpSie4yp4XO4JtycJgzm6s/WcXPgBM5d6CDBJm0y874tCUPxgUZW24r+jjhy62hrubbQqtxDDXpW1x9p5a7JST56wBv/8mMiFsmLU7x05TOA2gUE1wTiJqLXEMp2qNw9Z1OtybIDz6p8iTRLE1xhxOzt0zqaoO4eBqedbBXb7LzDXp6scPAnAjcxZmMY8yWMB0izTsVxuur4NL8qVwIDAQABo4H0MIHxMB0GA1UdDgQWBBRyaxOakV4V6CA4fl7FJDoI4o6K+TCBwQYDVR0jBIG5MIG2gBRyaxOakV4V6CA4fl7FJDoI4o6K+aGBkqSBjzCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRwwGgYDVQQHExNTYW50YSBNYXJpYSBkaSBTYWxhMSYwJAYDVQQKEx1Db211bmUgZGkgU2FudGEgTWFyaWEgZGkgU2FsYTEnMCUGA1UEAxMed3d3LmNvbXVuZS1zYW50YW1hcmlhZGlzYWxhLml0ggkAxkdQrVT6fRwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAHLoIxnf+Gsw0x/94YBaZ5Fvmw41o18wbSPFU44roLsbj/Y7++CM/PTazGK556KbtV2iA+c3/gpt+KJhRagLgfiTaLXwNc86h0LPBw3LAi+dXJFBQUGg8oYIjGxaq9jEF1tashcqVvpttvp++UthMMueSnS4L8o4ZO93L+JdJcnSaQo7e4LOq5lTyPhBqO942UsWYKAjLzjVHoWAy2mJHLyq36CSBBbJBA+wEVHdGDxnDvpXBD3d6StdPwiU3r1WJpNJX26RAeaND22TgpUqWqrKQvfENgDKMV5J6YVJwXnAXW0REgtiTo9PR+4lXcVYAAl8LYblzy9EBLRfnDWavTw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEkjCCA3qgAwIBAgIJAMZHUK1U+n0cMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxHDAaBgNVBAcTE1NhbnRhIE1hcmlhIGRpIFNhbGExJjAkBgNVBAoTHUNvbXVuZSBkaSBTYW50YSBNYXJpYSBkaSBTYWxhMScwJQYDVQQDEx53d3cuY29tdW5lLXNhbnRhbWFyaWFkaXNhbGEuaXQwHhcNMTgxMTE2MDg1MzE5WhcNMjgxMTE1MDg1MzE5WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRwwGgYDVQQHExNTYW50YSBNYXJpYSBkaSBTYWxhMSYwJAYDVQQKEx1Db211bmUgZGkgU2FudGEgTWFyaWEgZGkgU2FsYTEnMCUGA1UEAxMed3d3LmNvbXVuZS1zYW50YW1hcmlhZGlzYWxhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0dlGuPm8SpYfLuj+vmFt/j89LtktK2nIzux5JIeZpjN8vFO1N02ifirkQJo89cMj4WafMfV8Z0RZyeg1aVuBJ68DweBV/znnobVtTBWXniQ87AiRHHMEe5xsU2oaXogbSKfMFpSie4yp4XO4JtycJgzm6s/WcXPgBM5d6CDBJm0y874tCUPxgUZW24r+jjhy62hrubbQqtxDDXpW1x9p5a7JST56wBv/8mMiFsmLU7x05TOA2gUE1wTiJqLXEMp2qNw9Z1OtybIDz6p8iTRLE1xhxOzt0zqaoO4eBqedbBXb7LzDXp6scPAnAjcxZmMY8yWMB0izTsVxuur4NL8qVwIDAQABo4H0MIHxMB0GA1UdDgQWBBRyaxOakV4V6CA4fl7FJDoI4o6K+TCBwQYDVR0jBIG5MIG2gBRyaxOakV4V6CA4fl7FJDoI4o6K+aGBkqSBjzCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRwwGgYDVQQHExNTYW50YSBNYXJpYSBkaSBTYWxhMSYwJAYDVQQKEx1Db211bmUgZGkgU2FudGEgTWFyaWEgZGkgU2FsYTEnMCUGA1UEAxMed3d3LmNvbXVuZS1zYW50YW1hcmlhZGlzYWxhLml0ggkAxkdQrVT6fRwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAHLoIxnf+Gsw0x/94YBaZ5Fvmw41o18wbSPFU44roLsbj/Y7++CM/PTazGK556KbtV2iA+c3/gpt+KJhRagLgfiTaLXwNc86h0LPBw3LAi+dXJFBQUGg8oYIjGxaq9jEF1tashcqVvpttvp++UthMMueSnS4L8o4ZO93L+JdJcnSaQo7e4LOq5lTyPhBqO942UsWYKAjLzjVHoWAy2mJHLyq36CSBBbJBA+wEVHdGDxnDvpXBD3d6StdPwiU3r1WJpNJX26RAeaND22TgpUqWqrKQvfENgDKMV5J6YVJwXnAXW0REgtiTo9PR+4lXcVYAAl8LYblzy9EBLRfnDWavTw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune-santamariadisala.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune-santamariadisala.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Santa Maria di Sala</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Santa Maria di Sala</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune-santamariadisala.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="VicoEquense" entityID="https://www.vicoequense.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#VicoEquense">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>uGf/3y+J/D8A7c1kYC8fez687kqbYoYwwq4WjMKOVXs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+j/tbah4lvasckHlrmCVgSWWTfM70/EO9b5Gr1zjYsfBdgS3yh4PrYMmZv1XkDXLiOoV6Zc3qHhro
+UmOQ77X82k4SYuOAEULK2FQF5BpXUc8eqAFwXmmHg/ugHLF5m+EjQJIGXDJ/xVhz+cBnhpTTZRos
+GJw9V89M172XtJ1V/KXlHtIBJr45w7kYdYDFRfsIVjCkma8neHwKP7Absjb99vVLQUAvPGkA3TPI
+XNdMGq0uHMuo504aQlcgA5AF0G3Vf00siiauCRugPsV2cdn6MZOzquxm4CjMzx9HkxIwV59EVEQy
+mcpGYlVHeCUNpjm83UXWYwjoKjxjxXc+QwIPIQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+o4ufy3ko9ixXqYamK0CuDQ+yQIxIeWB83fTpp8VHjDYDVQW3cs+e276gsq2OxBaQ8jd5klbyYxol
+IWuh4QEuMnPlB4aslIPgvkFx2OoItOFwU9Nj9gD8W6OmWQ2haNTFfqK0Qvn8kQJ6DevidvyTjTp8
+qqs9fpLn9gz09saUarmbrwDog/8QpHFgZkxvE48qLLbz+lX7+dnLfLM9etlEZBfLe4qVO40znS2I
+rB1VjDjNtfUtMW88TYK3q4C8fx0xfrxovzz8qo9MIYyBafWXuW+N7tlU3c7vqbzhsdoSzOGoGwi9
+lHF+3h63GOC8xp0dZwjXIcJG+fxsiPeC/26CBw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAL7R1MizB95EMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy52
+aWNvZXF1ZW5zZS5nb3YuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUwNzE0
+MjM1N1oXDTI4MDUwNDE0MjM1N1owPTEfMB0GA1UEAwwWd3d3LnZpY29lcXVlbnNlLmdvdi5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCji5/LeSj2LFephqYrQK4ND7JAjEh5YHzd9OmnxUeMNgNVBbdyz57bvqCyrY7EFpDyN3mSVvJj
+GiUha6HhAS4yc+UHhqyUg+C+QXHY6gi04XBT02P2APxbo6ZZDaFo1MV+orRC+fyRAnoN6+J2/JON
+Onyqqz1+kuf2DPT2xpRquZuvAOiD/xCkcWBmTG8TjyostvP6Vfv52ct8sz162URkF8t7ipU7jTOd
+LYisHVWMOM219S0xbzxNgrergLx/HTF+vGi/PPyqj0whjIFp9Ze5b43u2VTdzu+pvOGx2hLM4agb
+CL2UcX7eHrcY4LzGnR1nCNchwkb5/GyI94L/boIHAgMBAAGjUDBOMB0GA1UdDgQWBBQKoY4WYwd4
+DtOyfvPVClDaQPIT7DAfBgNVHSMEGDAWgBQKoY4WYwd4DtOyfvPVClDaQPIT7DAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCE74kjWXz8uQfh5DS9CFsEJ5b6Izi85fdIM3NVRqN8rwW6
+Sq2v8Ot2Z+nXGjksorqazfheibT7M0dOjWUgboOnZwpbGMXL/RnCjk+hoSEmga/SQ5qJW/IqQax5
+EEULK2QoE6nob7klx2E/A7rm0l7fuNQxkStJVBjwpt/+FmuerKoZpQ1FAK2IVnU+njHjI7bTL8YF
+eCW6KrKnQmUJ0pXxS8tXJIjz13Xnh/vnYpJffiYX/WBykLHGuzbEiR8DtxTVYFuY9KMK9NUaGKB8
+Oul6X8HVZMQagP1loYOJYJ9bUtsum8FeHdzjApKC7WqZ8UJhkqb2B6ywqKnPlzWMe7vJ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAL7R1MizB95EMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy52aWNvZXF1ZW5zZS5nb3YuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUwNzE0MjM1N1oXDTI4MDUwNDE0MjM1N1owPTEfMB0GA1UEAwwWd3d3LnZpY29lcXVlbnNlLmdvdi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCji5/LeSj2LFephqYrQK4ND7JAjEh5YHzd9OmnxUeMNgNVBbdyz57bvqCyrY7EFpDyN3mSVvJjGiUha6HhAS4yc+UHhqyUg+C+QXHY6gi04XBT02P2APxbo6ZZDaFo1MV+orRC+fyRAnoN6+J2/JONOnyqqz1+kuf2DPT2xpRquZuvAOiD/xCkcWBmTG8TjyostvP6Vfv52ct8sz162URkF8t7ipU7jTOdLYisHVWMOM219S0xbzxNgrergLx/HTF+vGi/PPyqj0whjIFp9Ze5b43u2VTdzu+pvOGx2hLM4agbCL2UcX7eHrcY4LzGnR1nCNchwkb5/GyI94L/boIHAgMBAAGjUDBOMB0GA1UdDgQWBBQKoY4WYwd4DtOyfvPVClDaQPIT7DAfBgNVHSMEGDAWgBQKoY4WYwd4DtOyfvPVClDaQPIT7DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCE74kjWXz8uQfh5DS9CFsEJ5b6Izi85fdIM3NVRqN8rwW6Sq2v8Ot2Z+nXGjksorqazfheibT7M0dOjWUgboOnZwpbGMXL/RnCjk+hoSEmga/SQ5qJW/IqQax5EEULK2QoE6nob7klx2E/A7rm0l7fuNQxkStJVBjwpt/+FmuerKoZpQ1FAK2IVnU+njHjI7bTL8YFeCW6KrKnQmUJ0pXxS8tXJIjz13Xnh/vnYpJffiYX/WBykLHGuzbEiR8DtxTVYFuY9KMK9NUaGKB8Oul6X8HVZMQagP1loYOJYJ9bUtsum8FeHdzjApKC7WqZ8UJhkqb2B6ywqKnPlzWMe7vJ
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/vicoequense"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vicoequense" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vicoequense" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vico Equense</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Vico Equense</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Vico Equense</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Vico Equense</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vico Equense</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Vico Equense</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Vico Equense</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Vico Equense</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.vicoequense.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.vicoequense.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.vicoequense.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.vicoequense.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

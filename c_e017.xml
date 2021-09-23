@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Giarre" entityID="https://www.comune.giarre.ct.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Giarre">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>dhl7GCVIqQtprFqYJRYBM538Xv+oz2nP2PnFAR2ZM5U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rg3bLy/6o7970ZXEYTZhGYWw8DzrTdCABXlON/5pj2R7oBJ9kMDrkYguKflF+NQdnvbFDsEuix7s
+HOKGCXOUq+WnKujb3xNV5bw7SSqBdkaEpmyPcc6sGTkmu+7cs6s2AjdPB/OJA85mDUx3ugt8U8wf
+pA3EdD3Ax/fP54UgQEp2ilz0Vp2N+7ECKFSv96580ea4FVuoVvCI/Brw8UmofbUT6//sHYHkcGUl
+fZ0hXEkjHNSpQSMN1Ba95a2X+WusW6gslJB7uFS6x3/iX90wxPaqU6NoREEO5mS7vyl4DKu/kksY
+2TH38HSztPBOL4M/1KMGRapcwyJnJgODq7XwTQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+285V09JynHDRd1BJaaYA3s2dp6JAcMcz/Annfzul2wuY/+uOZv1NMF8aWbFCxFr3yX48D5p6gt1Y
+ozUblR4HDEphg6lSR08iMovU5LK8B1uZcuspv/8FO6ITIJLm7lxRcrINLagN5yXKh4qdcWV/Ub+S
+4foTlL3P0JzOmeqUSid0mckUksXwBOGFs/OXr5pAQ2P2BW5xHa7cejnQTSZpfYMsUZ5eo3PVvipS
+ofmYCrF0N9dX6jVmhaBeUsY9E6jWr+cJapbuN03rZKMYlxNpkaZaRcFJYQMO/dB6auPH1jed05Rv
+3YAq9LRo7EcTf8R3uKCCvOgaxFeCE0TaOYJuGw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID9jCCAt6gAwIBAgIJAKaFrzayRh7WMA0GCSqGSIb3DQEBCwUAMIGhMRkwFwYDVQQKDBBDb211
+bmUgZGkgR2lhcnJlMRkwFwYDVQQDDBBDb211bmUgZGkgR2lhcnJlMTQwMgYDVQRTDCtodHRwczov
+L3d3dy5jb211bmUuZ2lhcnJlLmN0Lml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2Uw
+MTcxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZHaWFycmUwHhcNMjAxMTA1MTEyOTUxWhcNMzAxMTAz
+MTEyOTUxWjCBoTEZMBcGA1UECgwQQ29tdW5lIGRpIEdpYXJyZTEZMBcGA1UEAwwQQ29tdW5lIGRp
+IEdpYXJyZTE0MDIGA1UEUwwraHR0cHM6Ly93d3cuY29tdW5lLmdpYXJyZS5jdC5pdC9zZXJ2aXpp
+U1BJRDEVMBMGA1UEYQwMUEE6SVQtY19lMDE3MQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGR2lhcnJl
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA285V09JynHDRd1BJaaYA3s2dp6JAcMcz
+/Annfzul2wuY/+uOZv1NMF8aWbFCxFr3yX48D5p6gt1YozUblR4HDEphg6lSR08iMovU5LK8B1uZ
+cuspv/8FO6ITIJLm7lxRcrINLagN5yXKh4qdcWV/Ub+S4foTlL3P0JzOmeqUSid0mckUksXwBOGF
+s/OXr5pAQ2P2BW5xHa7cejnQTSZpfYMsUZ5eo3PVvipSofmYCrF0N9dX6jVmhaBeUsY9E6jWr+cJ
+apbuN03rZKMYlxNpkaZaRcFJYQMO/dB6auPH1jed05Rv3YAq9LRo7EcTf8R3uKCCvOgaxFeCE0Ta
+OYJuGwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQC
+ATANBgkqhkiG9w0BAQsFAAOCAQEAUtZM0re+HiLO/3TmmASmo+Oql1gJslEqbFwyMI/RLCKgVc93
+rQ0IPZviwEM/DSReE6T2oZMQYXPU9UTT/u3Tee887iMEkqbo1kkm84MCKZwTHmd+Uv0H8d3u/pIq
+J5rg1wgnYZbFFwvi8IAZqt1eSMZbbkDDF7K/iT0Zc5eeMJxD4skpL0nkX4juVMxVfWOoUW2Q7hrv
+uVqbtKLAjuNhzdxkGLT8FbqWxk2xXoH+I7VDBOlTT2mrxXxZQ+0RVum9AOzePR/sxYH+1GVbj5cL
+e2Hh6cgocIan0o3/YbsvndHzQhdx95ZEEDJVclzLSamjqyGp+ZlhrBkaxyEuVbdPsw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID9jCCAt6gAwIBAgIJAKaFrzayRh7WMA0GCSqGSIb3DQEBCwUAMIGhMRkwFwYDVQQKDBBDb211bmUgZGkgR2lhcnJlMRkwFwYDVQQDDBBDb211bmUgZGkgR2lhcnJlMTQwMgYDVQRTDCtodHRwczovL3d3dy5jb211bmUuZ2lhcnJlLmN0Lml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2UwMTcxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZHaWFycmUwHhcNMjAxMTA1MTEyOTUxWhcNMzAxMTAzMTEyOTUxWjCBoTEZMBcGA1UECgwQQ29tdW5lIGRpIEdpYXJyZTEZMBcGA1UEAwwQQ29tdW5lIGRpIEdpYXJyZTE0MDIGA1UEUwwraHR0cHM6Ly93d3cuY29tdW5lLmdpYXJyZS5jdC5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19lMDE3MQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGR2lhcnJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA285V09JynHDRd1BJaaYA3s2dp6JAcMcz/Annfzul2wuY/+uOZv1NMF8aWbFCxFr3yX48D5p6gt1YozUblR4HDEphg6lSR08iMovU5LK8B1uZcuspv/8FO6ITIJLm7lxRcrINLagN5yXKh4qdcWV/Ub+S4foTlL3P0JzOmeqUSid0mckUksXwBOGFs/OXr5pAQ2P2BW5xHa7cejnQTSZpfYMsUZ5eo3PVvipSofmYCrF0N9dX6jVmhaBeUsY9E6jWr+cJapbuN03rZKMYlxNpkaZaRcFJYQMO/dB6auPH1jed05Rv3YAq9LRo7EcTf8R3uKCCvOgaxFeCE0TaOYJuGwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAUtZM0re+HiLO/3TmmASmo+Oql1gJslEqbFwyMI/RLCKgVc93rQ0IPZviwEM/DSReE6T2oZMQYXPU9UTT/u3Tee887iMEkqbo1kkm84MCKZwTHmd+Uv0H8d3u/pIqJ5rg1wgnYZbFFwvi8IAZqt1eSMZbbkDDF7K/iT0Zc5eeMJxD4skpL0nkX4juVMxVfWOoUW2Q7hrvuVqbtKLAjuNhzdxkGLT8FbqWxk2xXoH+I7VDBOlTT2mrxXxZQ+0RVum9AOzePR/sxYH+1GVbj5cLe2Hh6cgocIan0o3/YbsvndHzQhdx95ZEEDJVclzLSamjqyGp+ZlhrBkaxyEuVbdPsw==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIID9jCCAt6gAwIBAgIJAKaFrzayRh7WMA0GCSqGSIb3DQEBCwUAMIGhMRkwFwYDVQQKDBBDb211bmUgZGkgR2lhcnJlMRkwFwYDVQQDDBBDb211bmUgZGkgR2lhcnJlMTQwMgYDVQRTDCtodHRwczovL3d3dy5jb211bmUuZ2lhcnJlLmN0Lml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2UwMTcxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZHaWFycmUwHhcNMjAxMTA1MTEyOTUxWhcNMzAxMTAzMTEyOTUxWjCBoTEZMBcGA1UECgwQQ29tdW5lIGRpIEdpYXJyZTEZMBcGA1UEAwwQQ29tdW5lIGRpIEdpYXJyZTE0MDIGA1UEUwwraHR0cHM6Ly93d3cuY29tdW5lLmdpYXJyZS5jdC5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19lMDE3MQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGR2lhcnJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA285V09JynHDRd1BJaaYA3s2dp6JAcMcz/Annfzul2wuY/+uOZv1NMF8aWbFCxFr3yX48D5p6gt1YozUblR4HDEphg6lSR08iMovU5LK8B1uZcuspv/8FO6ITIJLm7lxRcrINLagN5yXKh4qdcWV/Ub+S4foTlL3P0JzOmeqUSid0mckUksXwBOGFs/OXr5pAQ2P2BW5xHa7cejnQTSZpfYMsUZ5eo3PVvipSofmYCrF0N9dX6jVmhaBeUsY9E6jWr+cJapbuN03rZKMYlxNpkaZaRcFJYQMO/dB6auPH1jed05Rv3YAq9LRo7EcTf8R3uKCCvOgaxFeCE0TaOYJuGwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAUtZM0re+HiLO/3TmmASmo+Oql1gJslEqbFwyMI/RLCKgVc93rQ0IPZviwEM/DSReE6T2oZMQYXPU9UTT/u3Tee887iMEkqbo1kkm84MCKZwTHmd+Uv0H8d3u/pIqJ5rg1wgnYZbFFwvi8IAZqt1eSMZbbkDDF7K/iT0Zc5eeMJxD4skpL0nkX4juVMxVfWOoUW2Q7hrvuVqbtKLAjuNhzdxkGLT8FbqWxk2xXoH+I7VDBOlTT2mrxXxZQ+0RVum9AOzePR/sxYH+1GVbj5cLe2Hh6cgocIan0o3/YbsvndHzQhdx95ZEEDJVclzLSamjqyGp+ZlhrBkaxyEuVbdPsw==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/giarre"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/giarre" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/giarre" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/giarre" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Giarre</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Giarre</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Giarre</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Giarre</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Giarre</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Giarre</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Giarre</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Giarre</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.giarre.ct.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.giarre.ct.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.giarre.ct.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.giarre.ct.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_e017</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>mario.scionti@comune.giarre.ct.it</md:EmailAddress>
+      <md:TelephoneNumber>+393296068242</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

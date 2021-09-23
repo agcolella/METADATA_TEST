@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Paceco" entityID="https://www.comune.paceco.tp.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Paceco">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>uK2XjjAbqCSnccLqUUDCWwU9u6vlVs41gN8eWsRe7VI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XPHjhyp1sE8OnAd65XgpLy/hhlXiP8EI9ain0j/9uPRT5jrcEq6UyNPKKS38zbqeMyw2gTgdszqc
+w5tqIrVLur5/FJqb7AAS5DCT7cXJa1m3NsvDMUff9/WAD4ipOeKsVyXEfYmixD0+A7gs79FbnDPB
+ymFDWbeXnKw2sHXT34+/pJxEGyNmZpI8zqZZo4KZHQYWWjNcVW5jjTo7AewZxp3+//lagHvlPIJi
+YmqQLUzBR4dyYcGDAeNUAGDMO3OMOj/cUA/BTDevf3sYRwR+dK5AEArHzH/YlOg8BlwiPAO+Q6/3
+grzhHRnASLjgW/10cEqBHGxC5nU80foMz5lkOw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tfcBilxNj0MmXBYGDYd7/rvr82WNQIULG79ntQGG83jUjOmNa9LxA7rAD4D1Dyi0QE1shwRtAcwS
+UV0hQ1/ytpgKf4h/sMvvrpCGEq0BwGMkmygj1EVj4HuXWgcU+5rSZA741srsAaQD4XhHiRNNW5z7
+0HCpGi0kCZFgZRziyUkS4Kf/CCGLGTOK3SM99OoJLrjvxJIIrOBifxHXngrCmS1/x5VZFR4UH8x1
+Y1KjF5N85IzHOyZ3vHVLKYjlAw6tlGDCT7koPnESjXhggpU9urZDrUsUDxrps6ZUrW66CXDYojxS
+DQIYtPPaKB0C48MoxeGrqb5iBqdAVtXqezYzFQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAOT0N+1l+bM3MA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUucGFjZWNvLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEwMTkx
+MzU1MDVaFw0yODEwMTYxMzU1MDVaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucGFjZWNvLnRwLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBALX3AYpcTY9DJlwWBg2He/676/NljUCFCxu/Z7UBhvN41IzpjWvS8QO6wA+A9Q8otEBNbIcE
+bQHMElFdIUNf8raYCn+If7DL766QhhKtAcBjJJsoI9RFY+B7l1oHFPua0mQO+NbK7AGkA+F4R4kT
+TVuc+9BwqRotJAmRYGUc4slJEuCn/wghixkzit0jPfTqCS6478SSCKzgYn8R154Kwpktf8eVWRUe
+FB/MdWNSoxeTfOSMxzsmd7x1SymI5QMOrZRgwk+5KD5xEo14YIKVPbq2Q61LFA8a6bOmVK1uuglw
+2KI8Ug0CGLTz2igdAuPDKMXhq6m+YganQFbV6ns2MxUCAwEAAaNQME4wHQYDVR0OBBYEFFOsuPqJ
+dTRlDIpUyMhdRY2TbNXiMB8GA1UdIwQYMBaAFFOsuPqJdTRlDIpUyMhdRY2TbNXiMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEC7S+FAUr9azUzpU/t3aU37lK8voIaiSTuPFE9f+27L
+21hhccXY/5vKTjduAumaj4U8dFI51mmMRINm1zyujjZWBmdBMz47lzoMUGYlgV1QnK+Q2rgH9MEv
+YosFZD4ZNBzzsHW7fq8oWBarr0YZSVfMElXyLPCE3IhYSplaRhmDzJ85UuGYb5/Mtp9Y2riTtRpa
+Ukqu9r6ctIG3S0E9yuJFczC9xCYVNdCiA0PUNzE/RphFkIweLwFsLg/zhi/tQ/xOfODOy05wUoUM
+guOt1Jq7hPK7firlp2+k+TQWzF/tTIQ5dVxZJpmX9IL/LOcj62RsYp/RcqcsixOjv+72B1k=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOT0N+1l+bM3MA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucGFjZWNvLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEwMTkxMzU1MDVaFw0yODEwMTYxMzU1MDVaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucGFjZWNvLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALX3AYpcTY9DJlwWBg2He/676/NljUCFCxu/Z7UBhvN41IzpjWvS8QO6wA+A9Q8otEBNbIcEbQHMElFdIUNf8raYCn+If7DL766QhhKtAcBjJJsoI9RFY+B7l1oHFPua0mQO+NbK7AGkA+F4R4kTTVuc+9BwqRotJAmRYGUc4slJEuCn/wghixkzit0jPfTqCS6478SSCKzgYn8R154Kwpktf8eVWRUeFB/MdWNSoxeTfOSMxzsmd7x1SymI5QMOrZRgwk+5KD5xEo14YIKVPbq2Q61LFA8a6bOmVK1uuglw2KI8Ug0CGLTz2igdAuPDKMXhq6m+YganQFbV6ns2MxUCAwEAAaNQME4wHQYDVR0OBBYEFFOsuPqJdTRlDIpUyMhdRY2TbNXiMB8GA1UdIwQYMBaAFFOsuPqJdTRlDIpUyMhdRY2TbNXiMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEC7S+FAUr9azUzpU/t3aU37lK8voIaiSTuPFE9f+27L21hhccXY/5vKTjduAumaj4U8dFI51mmMRINm1zyujjZWBmdBMz47lzoMUGYlgV1QnK+Q2rgH9MEvYosFZD4ZNBzzsHW7fq8oWBarr0YZSVfMElXyLPCE3IhYSplaRhmDzJ85UuGYb5/Mtp9Y2riTtRpaUkqu9r6ctIG3S0E9yuJFczC9xCYVNdCiA0PUNzE/RphFkIweLwFsLg/zhi/tQ/xOfODOy05wUoUMguOt1Jq7hPK7firlp2+k+TQWzF/tTIQ5dVxZJpmX9IL/LOcj62RsYp/RcqcsixOjv+72B1k=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAOT0N+1l+bM3MA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucGFjZWNvLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODEwMTkxMzU1MDVaFw0yODEwMTYxMzU1MDVaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUucGFjZWNvLnRwLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALX3AYpcTY9DJlwWBg2He/676/NljUCFCxu/Z7UBhvN41IzpjWvS8QO6wA+A9Q8otEBNbIcEbQHMElFdIUNf8raYCn+If7DL766QhhKtAcBjJJsoI9RFY+B7l1oHFPua0mQO+NbK7AGkA+F4R4kTTVuc+9BwqRotJAmRYGUc4slJEuCn/wghixkzit0jPfTqCS6478SSCKzgYn8R154Kwpktf8eVWRUeFB/MdWNSoxeTfOSMxzsmd7x1SymI5QMOrZRgwk+5KD5xEo14YIKVPbq2Q61LFA8a6bOmVK1uuglw2KI8Ug0CGLTz2igdAuPDKMXhq6m+YganQFbV6ns2MxUCAwEAAaNQME4wHQYDVR0OBBYEFFOsuPqJdTRlDIpUyMhdRY2TbNXiMB8GA1UdIwQYMBaAFFOsuPqJdTRlDIpUyMhdRY2TbNXiMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEC7S+FAUr9azUzpU/t3aU37lK8voIaiSTuPFE9f+27L21hhccXY/5vKTjduAumaj4U8dFI51mmMRINm1zyujjZWBmdBMz47lzoMUGYlgV1QnK+Q2rgH9MEvYosFZD4ZNBzzsHW7fq8oWBarr0YZSVfMElXyLPCE3IhYSplaRhmDzJ85UuGYb5/Mtp9Y2riTtRpaUkqu9r6ctIG3S0E9yuJFczC9xCYVNdCiA0PUNzE/RphFkIweLwFsLg/zhi/tQ/xOfODOy05wUoUMguOt1Jq7hPK7firlp2+k+TQWzF/tTIQ5dVxZJpmX9IL/LOcj62RsYp/RcqcsixOjv+72B1k=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/paceco"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paceco" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paceco" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/paceco" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Paceco</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Paceco</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Paceco</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Paceco</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Paceco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Paceco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Paceco</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Paceco</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.paceco.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.paceco.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.paceco.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.paceco.tp.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

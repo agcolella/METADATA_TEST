@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx55d50421-672a-a898-880d-21f86cc97890" entityID="https://www.comune.tagliodipo.ro.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx55d50421-672a-a898-880d-21f86cc97890">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>nw6jnyOOSGMUK8ZKHVfVps1H6OGVLc3QlHQ38T7NKbE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Tu6k0pugQmkFJwP7Z7Oj0LvM62t2ydfi+j39cB7eccRgQCRbI/O1xCPbxiTCTpdRxiZhSWaXFBaN
+1Onyh+EqwYqVGRnBSzlTH1LLofrzjxGdAG2RVdJfo/e480pySk4oFcWitpINFNJRNBw3enMO/t+J
+OQQgqw1Md0byeMQHnFXwzfXS0nuxhzz+nFVZpdrxStk3GwHToutVob0pC3FW/LIdMFis77GTg8wY
+s3sCw89wBybbPVyl61Px4y1JPJnp0oA8xfQo3NuV+cJMw/5pV6LeAajpsmxmJt4DCYzUsrLOhXzL
+lON8i8h4N2HGX4VgqX9z9vsG3SzBdmo9EGqabQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8wvnDQ2ZPykU9pQgatni4xsApla1BwJ1q4pZ861k/z4OmHHbT5nuf9HrXoGKXuZdtd1vSwjsMlGF
+/Os0w5CZu01hTeGzvnJVhvKT0PwtX9fuchveF86FGwCprio4esR+aa/u/hXOzoLgdog3f63+76ne
+WcJsrbdEJNSuye/g9qyL6gMGoUbyTcG8319ecPR7b1RdapHT8HDx09qUsnHeUcQhnEOQLNKYYXfa
+5S1pq7bk26IQMUq2HoqvYh0cNz9ypfjqAHvUEjGo5Hs3n4oOWKKLudzfTWMY0yNiP0WU4E53yzMD
+ojIyWiIHtNUOpEIuLQNXN/YWBZwDGO9LRneF3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyTCCArGgAwIBAgIJAJeTD6aSSISbMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVGFnbGlvIGRpIFBvMR8wHQYDVQQKDBZDb211bmUgZGkg
+VGFnbGlvIGRpIFBvMSQwIgYDVQQDDBt3d3cuY29tdW5lLnRhZ2xpb2RpcG8ucm8uaXQwHhcNMjAw
+NjA4MDg1NTAxWhcNMzAwNjA4MDg1NTAxWjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkx
+FTATBgNVBAcMDFRhZ2xpbyBkaSBQbzEfMB0GA1UECgwWQ29tdW5lIGRpIFRhZ2xpbyBkaSBQbzEk
+MCIGA1UEAwwbd3d3LmNvbXVuZS50YWdsaW9kaXBvLnJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA8wvnDQ2ZPykU9pQgatni4xsApla1BwJ1q4pZ861k/z4OmHHbT5nuf9HrXoGK
+XuZdtd1vSwjsMlGF/Os0w5CZu01hTeGzvnJVhvKT0PwtX9fuchveF86FGwCprio4esR+aa/u/hXO
+zoLgdog3f63+76neWcJsrbdEJNSuye/g9qyL6gMGoUbyTcG8319ecPR7b1RdapHT8HDx09qUsnHe
+UcQhnEOQLNKYYXfa5S1pq7bk26IQMUq2HoqvYh0cNz9ypfjqAHvUEjGo5Hs3n4oOWKKLudzfTWMY
+0yNiP0WU4E53yzMDojIyWiIHtNUOpEIuLQNXN/YWBZwDGO9LRneF3wIDAQABo1AwTjAdBgNVHQ4E
+FgQUWYVZ22RfrUnAATXIkN1ka2P8X6wwHwYDVR0jBBgwFoAUWYVZ22RfrUnAATXIkN1ka2P8X6ww
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAkgQYcLtfrEGERrC8NHlbPzL8mXIujeQ5
+dSRdZHHc2zSjTD4v+hsk2f7nqMcMu2fARg0WzX5OzMKt2W2pRyI1bQEsrThgHRK60HOvMPemiJa9
+0h4a1E2h73a8vvmo1FZQ4SQMV48BmGFxNqbHpMk+CXRI0LZz1QBBxb/PwDRa+9Qhr1fJnLyegmm/
+xCQJJ5UcDQao7B3GQ1C2CbJ2/SCIMgeIWv5yyzjKH5MWOaUUeSky7eUgNmAzNFs6v/IyEkCK/ZSu
+A8WnWVpGGmXBDn29QUUEmYpeDdKJvUrpvn7ppyPAx9Y7nWhjF/aUIOfSu67m2fzcR64KwW5tNORJ
+R/rsXw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAJeTD6aSSISbMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVGFnbGlvIGRpIFBvMR8wHQYDVQQKDBZDb211bmUgZGkgVGFnbGlvIGRpIFBvMSQwIgYDVQQDDBt3d3cuY29tdW5lLnRhZ2xpb2RpcG8ucm8uaXQwHhcNMjAwNjA4MDg1NTAxWhcNMzAwNjA4MDg1NTAxWjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFTATBgNVBAcMDFRhZ2xpbyBkaSBQbzEfMB0GA1UECgwWQ29tdW5lIGRpIFRhZ2xpbyBkaSBQbzEkMCIGA1UEAwwbd3d3LmNvbXVuZS50YWdsaW9kaXBvLnJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8wvnDQ2ZPykU9pQgatni4xsApla1BwJ1q4pZ861k/z4OmHHbT5nuf9HrXoGKXuZdtd1vSwjsMlGF/Os0w5CZu01hTeGzvnJVhvKT0PwtX9fuchveF86FGwCprio4esR+aa/u/hXOzoLgdog3f63+76neWcJsrbdEJNSuye/g9qyL6gMGoUbyTcG8319ecPR7b1RdapHT8HDx09qUsnHeUcQhnEOQLNKYYXfa5S1pq7bk26IQMUq2HoqvYh0cNz9ypfjqAHvUEjGo5Hs3n4oOWKKLudzfTWMY0yNiP0WU4E53yzMDojIyWiIHtNUOpEIuLQNXN/YWBZwDGO9LRneF3wIDAQABo1AwTjAdBgNVHQ4EFgQUWYVZ22RfrUnAATXIkN1ka2P8X6wwHwYDVR0jBBgwFoAUWYVZ22RfrUnAATXIkN1ka2P8X6wwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAkgQYcLtfrEGERrC8NHlbPzL8mXIujeQ5dSRdZHHc2zSjTD4v+hsk2f7nqMcMu2fARg0WzX5OzMKt2W2pRyI1bQEsrThgHRK60HOvMPemiJa90h4a1E2h73a8vvmo1FZQ4SQMV48BmGFxNqbHpMk+CXRI0LZz1QBBxb/PwDRa+9Qhr1fJnLyegmm/xCQJJ5UcDQao7B3GQ1C2CbJ2/SCIMgeIWv5yyzjKH5MWOaUUeSky7eUgNmAzNFs6v/IyEkCK/ZSuA8WnWVpGGmXBDn29QUUEmYpeDdKJvUrpvn7ppyPAx9Y7nWhjF/aUIOfSu67m2fzcR64KwW5tNORJR/rsXw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAJeTD6aSSISbMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVGFnbGlvIGRpIFBvMR8wHQYDVQQKDBZDb211bmUgZGkgVGFnbGlvIGRpIFBvMSQwIgYDVQQDDBt3d3cuY29tdW5lLnRhZ2xpb2RpcG8ucm8uaXQwHhcNMjAwNjA4MDg1NTAxWhcNMzAwNjA4MDg1NTAxWjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFTATBgNVBAcMDFRhZ2xpbyBkaSBQbzEfMB0GA1UECgwWQ29tdW5lIGRpIFRhZ2xpbyBkaSBQbzEkMCIGA1UEAwwbd3d3LmNvbXVuZS50YWdsaW9kaXBvLnJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8wvnDQ2ZPykU9pQgatni4xsApla1BwJ1q4pZ861k/z4OmHHbT5nuf9HrXoGKXuZdtd1vSwjsMlGF/Os0w5CZu01hTeGzvnJVhvKT0PwtX9fuchveF86FGwCprio4esR+aa/u/hXOzoLgdog3f63+76neWcJsrbdEJNSuye/g9qyL6gMGoUbyTcG8319ecPR7b1RdapHT8HDx09qUsnHeUcQhnEOQLNKYYXfa5S1pq7bk26IQMUq2HoqvYh0cNz9ypfjqAHvUEjGo5Hs3n4oOWKKLudzfTWMY0yNiP0WU4E53yzMDojIyWiIHtNUOpEIuLQNXN/YWBZwDGO9LRneF3wIDAQABo1AwTjAdBgNVHQ4EFgQUWYVZ22RfrUnAATXIkN1ka2P8X6wwHwYDVR0jBBgwFoAUWYVZ22RfrUnAATXIkN1ka2P8X6wwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAkgQYcLtfrEGERrC8NHlbPzL8mXIujeQ5dSRdZHHc2zSjTD4v+hsk2f7nqMcMu2fARg0WzX5OzMKt2W2pRyI1bQEsrThgHRK60HOvMPemiJa90h4a1E2h73a8vvmo1FZQ4SQMV48BmGFxNqbHpMk+CXRI0LZz1QBBxb/PwDRa+9Qhr1fJnLyegmm/xCQJJ5UcDQao7B3GQ1C2CbJ2/SCIMgeIWv5yyzjKH5MWOaUUeSky7eUgNmAzNFs6v/IyEkCK/ZSuA8WnWVpGGmXBDn29QUUEmYpeDdKJvUrpvn7ppyPAx9Y7nWhjF/aUIOfSu67m2fzcR64KwW5tNORJR/rsXw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.tagliodipo.ro.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.tagliodipo.ro.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Taglio di Po</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Taglio di Po</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.tagliodipo.ro.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l026</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Taglio di Po</md:Company>
+    <md:EmailAddress>postmaster@comune.tagliodipo.ro.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

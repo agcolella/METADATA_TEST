@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.pincara.ro.it" ID="pfxe1398598-dfdc-b6d6-adf7-0ead298ce5df"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxe1398598-dfdc-b6d6-adf7-0ead298ce5df"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>NVFyms+tXI+BFfAhpRHE9y8EWOtPep1WLGmT/sEBeBQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>SroAFgwNKYtpXxZIouTlvN3KgVOZ0HqvmoDRekGgG2aYF9SbMQ1fYghE0qRwhE/ppzfsb3+CtxadgGelBQoUvCNZDlHKdnMPGPGVX4nQU0Pf4OFzgAQbTLOVJl5aSYZhy7YOjaLuhta6S5aDORAbwgQAOIi4x4tBgHwbx2tqA8DCh2NeQ0gMcXWmZFr78fcdxdmTAUVweE+8560S/qQeYK81Sg1HpiPTN2VrJhqEyLh9rlQqD/9Y2AJrpsWewnPgnwjJVE45osT3gy+syXz/BiohgYncLXakk1UAz9sJZB5AaWUlHr9Xd+QIsJy3DPYAuPGJpiUi1GaX8bPKyqOWVw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDrzCCApegAwIBAgIJAKja14bpTwxsMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGluY2FyYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBpbmNhcmExITAfBgNVBAMMGHd3dy5jb211bmUucGluY2FyYS5yby5pdDAeFw0xODA2MDYxMjQ5NDlaFw0yODA2MDUxMjQ5NDlaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGluY2FyYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBpbmNhcmExITAfBgNVBAMMGHd3dy5jb211bmUucGluY2FyYS5yby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK9j+UpvC6/b8aC4ypOXRuPyYn5qofDERGeH+Pc8K1aNNsrPWJJJvq+noOmvHXLj76fgqM/Fnnw30XwxbPIMs3tWEQmqBiNaRbEFzg/JIhSUHGHfHLvtQdy4muk/W05xz4e0YSFQ3V+RT+aaYkvx6DsvG3D74WHXaX9sVcnwPmWw+feKjOgnwmEzANdN8CyXCfChgRH7NnJCH6j7OA+Q0l5DRg0FexA1CWIHRzc4IEQ1YPTKGjJT0kRpBE0JJkKfqd+YZDedm1BLO9tPXhU2mw4bUDRHppPKgb6QkPCdsRjikDfNU7coHHmQl1WBr4aKmyfrbGh39NDb6+63BDI0YYECAwEAAaNQME4wHQYDVR0OBBYEFNkfJHZQlf0deP5dutJsIkSk0cDFMB8GA1UdIwQYMBaAFNkfJHZQlf0deP5dutJsIkSk0cDFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKDa5Wj01AwBqGt2a1dEYayk+xYShgMAtpSPpSwRPoDWtYafr2lzDACYRS/2zkWeiej+Ai6KMGmgEfQVXb/MOp6DDgVmozoyVKn2ubHMxQ5ha9fy3tNdNA+UV2rfcVg98U2IJsdQo4vs1UEJYr6DCcRahDxnIgSNL8iZIj/NDrO1LxtCIq02UDopQkMFxSi0uen0ZivG24+hemKrZQqIrwiy4dON9SJTZgbLfIZRtT/+6EqMgM2Ctesa1hjsA/+neHIHUcj1Up0miR903Z+nC7UsXg+ZyxGiOefxthOEvbqMW7jmcYWLZSGRZWgieK5rQZ3WhzRny6UbVZEsnYjoUZ8=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAKja14bpTwxsMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGluY2FyYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBpbmNhcmExITAfBgNVBAMMGHd3dy5jb211bmUucGluY2FyYS5yby5pdDAeFw0xODA2MDYxMjQ5NDlaFw0yODA2MDUxMjQ5NDlaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGluY2FyYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBpbmNhcmExITAfBgNVBAMMGHd3dy5jb211bmUucGluY2FyYS5yby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK9j+UpvC6/b8aC4ypOXRuPyYn5qofDERGeH+Pc8K1aNNsrPWJJJvq+noOmvHXLj76fgqM/Fnnw30XwxbPIMs3tWEQmqBiNaRbEFzg/JIhSUHGHfHLvtQdy4muk/W05xz4e0YSFQ3V+RT+aaYkvx6DsvG3D74WHXaX9sVcnwPmWw+feKjOgnwmEzANdN8CyXCfChgRH7NnJCH6j7OA+Q0l5DRg0FexA1CWIHRzc4IEQ1YPTKGjJT0kRpBE0JJkKfqd+YZDedm1BLO9tPXhU2mw4bUDRHppPKgb6QkPCdsRjikDfNU7coHHmQl1WBr4aKmyfrbGh39NDb6+63BDI0YYECAwEAAaNQME4wHQYDVR0OBBYEFNkfJHZQlf0deP5dutJsIkSk0cDFMB8GA1UdIwQYMBaAFNkfJHZQlf0deP5dutJsIkSk0cDFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKDa5Wj01AwBqGt2a1dEYayk+xYShgMAtpSPpSwRPoDWtYafr2lzDACYRS/2zkWeiej+Ai6KMGmgEfQVXb/MOp6DDgVmozoyVKn2ubHMxQ5ha9fy3tNdNA+UV2rfcVg98U2IJsdQo4vs1UEJYr6DCcRahDxnIgSNL8iZIj/NDrO1LxtCIq02UDopQkMFxSi0uen0ZivG24+hemKrZQqIrwiy4dON9SJTZgbLfIZRtT/+6EqMgM2Ctesa1hjsA/+neHIHUcj1Up0miR903Z+nC7UsXg+ZyxGiOefxthOEvbqMW7jmcYWLZSGRZWgieK5rQZ3WhzRny6UbVZEsnYjoUZ8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAKja14bpTwxsMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGluY2FyYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBpbmNhcmExITAfBgNVBAMMGHd3dy5jb211bmUucGluY2FyYS5yby5pdDAeFw0xODA2MDYxMjQ5NDlaFw0yODA2MDUxMjQ5NDlaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGluY2FyYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBpbmNhcmExITAfBgNVBAMMGHd3dy5jb211bmUucGluY2FyYS5yby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK9j+UpvC6/b8aC4ypOXRuPyYn5qofDERGeH+Pc8K1aNNsrPWJJJvq+noOmvHXLj76fgqM/Fnnw30XwxbPIMs3tWEQmqBiNaRbEFzg/JIhSUHGHfHLvtQdy4muk/W05xz4e0YSFQ3V+RT+aaYkvx6DsvG3D74WHXaX9sVcnwPmWw+feKjOgnwmEzANdN8CyXCfChgRH7NnJCH6j7OA+Q0l5DRg0FexA1CWIHRzc4IEQ1YPTKGjJT0kRpBE0JJkKfqd+YZDedm1BLO9tPXhU2mw4bUDRHppPKgb6QkPCdsRjikDfNU7coHHmQl1WBr4aKmyfrbGh39NDb6+63BDI0YYECAwEAAaNQME4wHQYDVR0OBBYEFNkfJHZQlf0deP5dutJsIkSk0cDFMB8GA1UdIwQYMBaAFNkfJHZQlf0deP5dutJsIkSk0cDFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKDa5Wj01AwBqGt2a1dEYayk+xYShgMAtpSPpSwRPoDWtYafr2lzDACYRS/2zkWeiej+Ai6KMGmgEfQVXb/MOp6DDgVmozoyVKn2ubHMxQ5ha9fy3tNdNA+UV2rfcVg98U2IJsdQo4vs1UEJYr6DCcRahDxnIgSNL8iZIj/NDrO1LxtCIq02UDopQkMFxSi0uen0ZivG24+hemKrZQqIrwiy4dON9SJTZgbLfIZRtT/+6EqMgM2Ctesa1hjsA/+neHIHUcj1Up0miR903Z+nC7UsXg+ZyxGiOefxthOEvbqMW7jmcYWLZSGRZWgieK5rQZ3WhzRny6UbVZEsnYjoUZ8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.pincara.ro.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.pincara.ro.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pincara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pincara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pincara.ro.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

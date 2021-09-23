@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Rignano" entityID="https://www.comune.rignano-sullarno.fi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Rignano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>M4gMzFfwgHYh1o7TebKs+6Ftx/FH/5n9HHYqKrL6gRY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Z9PRSzeaazLI82ZVFt7Ctu+5JP/3i0JMhkZk6CVOQvqFx5ZsfTenrtt4uadMYHmVaLbm3uvDpFHA
+z52AnRbo77wcoD5oWcMEX+gee06iAsvvxACu9u8Q7KKAImjmYnMagBoZZVQqSIKMOT6omLynjkvO
+rYYNXwtQMptZjhkTFsU1rJUXkYf+4hwJsz6OyvzNd2YlhGkpG/fDXxQBQ/r/IFYJfL5mlt9+z7PE
+d37AaVgB6wlb+fN2jsI7CLNV+EXpXb+vh2iLZ8e2oj8paraZ82SojOVRhQdRcr7xH85E8ZtI6UUk
+r22W3N7ps2mTB+p7TScViioQDjGC2x/XqiB+Pg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6d1ZtQjQauZvmGsA1/GchjrBzsjZ3m5mOGSu2Poyi/iQNVonYS44KqAvtnhii/9V20HJtBrQ0P4d
+8RpgxqO86pOmkaK0aTdP8WAVbrHP2PCI4FvHvuYxvIM892oNBXQJEk6DzVOX/bI7HVy9nY6GixCU
+kNVbk+6xK/BGgkM/egVZW3DilKuiNs8jtZx5PetqjZdFv0+Yv48lqRjTykNVNhfuCkUZZlvqQaop
+JWdaqrQEG1xE5T2dWohNYli3MBVCTnsmUhoLiobU/k1HJKp05oIL1M5SbAZiwrQxoJMDLoUoxXUg
+oCtCp5UjQAH8zfc67PZp9yi6hBMpizfKLmf7UQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYzCCAkugAwIBAgIJAPefKK0M8W1IMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5j
+b211bmUucmlnbmFuby1zdWxsYXJuby5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQw
+HhcNMTkwNTIxMTEyODAyWhcNMjkwNTE4MTEyODAyWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnJp
+Z25hbm8tc3VsbGFybm8uZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6d1ZtQjQauZvmGsA1/GchjrBzsjZ3m5mOGSu2Poyi/iQ
+NVonYS44KqAvtnhii/9V20HJtBrQ0P4d8RpgxqO86pOmkaK0aTdP8WAVbrHP2PCI4FvHvuYxvIM8
+92oNBXQJEk6DzVOX/bI7HVy9nY6GixCUkNVbk+6xK/BGgkM/egVZW3DilKuiNs8jtZx5PetqjZdF
+v0+Yv48lqRjTykNVNhfuCkUZZlvqQaopJWdaqrQEG1xE5T2dWohNYli3MBVCTnsmUhoLiobU/k1H
+JKp05oIL1M5SbAZiwrQxoJMDLoUoxXUgoCtCp5UjQAH8zfc67PZp9yi6hBMpizfKLmf7UQIDAQAB
+o1AwTjAdBgNVHQ4EFgQUCrgJpHr52Vd+CzsMxHmKYBS/TSIwHwYDVR0jBBgwFoAUCrgJpHr52Vd+
+CzsMxHmKYBS/TSIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPCeiuvYIJdndYnC8
+dJh7F17bbXWBcjWw322GgHZUPzXjfHdEqCCMSK5FQA+t62IC3pEf/cknitxnm4Ej7NpZRGtwpj6Y
+Nv/yt6e3lGVtE4IrybEnx7CE3bsDzoA+cfW5tZW7PwtbLxWpORjJApBJtS+grkq4weM+SjsdnGWN
+78eOHIJSoRrEv4eB31/JxlxaNicrJwdrAmBb50P4yyrD+k8jkWKKG56uzNe2IPadH9KMBW4Wk8bZ
+lJR0Gtkfn8dCHEO25o5OLdxLZyaSOhdTItbzU695C2w9ZhVlwb1md0IV8QPkYisFSMRmaafhnHqb
+2eTqUca3dztyiJm/vjiamw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAPefKK0M8W1IMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUucmlnbmFuby1zdWxsYXJuby5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNTIxMTEyODAyWhcNMjkwNTE4MTEyODAyWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnJpZ25hbm8tc3VsbGFybm8uZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6d1ZtQjQauZvmGsA1/GchjrBzsjZ3m5mOGSu2Poyi/iQNVonYS44KqAvtnhii/9V20HJtBrQ0P4d8RpgxqO86pOmkaK0aTdP8WAVbrHP2PCI4FvHvuYxvIM892oNBXQJEk6DzVOX/bI7HVy9nY6GixCUkNVbk+6xK/BGgkM/egVZW3DilKuiNs8jtZx5PetqjZdFv0+Yv48lqRjTykNVNhfuCkUZZlvqQaopJWdaqrQEG1xE5T2dWohNYli3MBVCTnsmUhoLiobU/k1HJKp05oIL1M5SbAZiwrQxoJMDLoUoxXUgoCtCp5UjQAH8zfc67PZp9yi6hBMpizfKLmf7UQIDAQABo1AwTjAdBgNVHQ4EFgQUCrgJpHr52Vd+CzsMxHmKYBS/TSIwHwYDVR0jBBgwFoAUCrgJpHr52Vd+CzsMxHmKYBS/TSIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPCeiuvYIJdndYnC8dJh7F17bbXWBcjWw322GgHZUPzXjfHdEqCCMSK5FQA+t62IC3pEf/cknitxnm4Ej7NpZRGtwpj6YNv/yt6e3lGVtE4IrybEnx7CE3bsDzoA+cfW5tZW7PwtbLxWpORjJApBJtS+grkq4weM+SjsdnGWN78eOHIJSoRrEv4eB31/JxlxaNicrJwdrAmBb50P4yyrD+k8jkWKKG56uzNe2IPadH9KMBW4Wk8bZlJR0Gtkfn8dCHEO25o5OLdxLZyaSOhdTItbzU695C2w9ZhVlwb1md0IV8QPkYisFSMRmaafhnHqb2eTqUca3dztyiJm/vjiamw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYzCCAkugAwIBAgIJAPefKK0M8W1IMA0GCSqGSIb3DQEBCwUAMEgxKjAoBgNVBAMMIXd3dy5jb211bmUucmlnbmFuby1zdWxsYXJuby5maS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkwNTIxMTEyODAyWhcNMjkwNTE4MTEyODAyWjBIMSowKAYDVQQDDCF3d3cuY29tdW5lLnJpZ25hbm8tc3VsbGFybm8uZmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6d1ZtQjQauZvmGsA1/GchjrBzsjZ3m5mOGSu2Poyi/iQNVonYS44KqAvtnhii/9V20HJtBrQ0P4d8RpgxqO86pOmkaK0aTdP8WAVbrHP2PCI4FvHvuYxvIM892oNBXQJEk6DzVOX/bI7HVy9nY6GixCUkNVbk+6xK/BGgkM/egVZW3DilKuiNs8jtZx5PetqjZdFv0+Yv48lqRjTykNVNhfuCkUZZlvqQaopJWdaqrQEG1xE5T2dWohNYli3MBVCTnsmUhoLiobU/k1HJKp05oIL1M5SbAZiwrQxoJMDLoUoxXUgoCtCp5UjQAH8zfc67PZp9yi6hBMpizfKLmf7UQIDAQABo1AwTjAdBgNVHQ4EFgQUCrgJpHr52Vd+CzsMxHmKYBS/TSIwHwYDVR0jBBgwFoAUCrgJpHr52Vd+CzsMxHmKYBS/TSIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAPCeiuvYIJdndYnC8dJh7F17bbXWBcjWw322GgHZUPzXjfHdEqCCMSK5FQA+t62IC3pEf/cknitxnm4Ej7NpZRGtwpj6YNv/yt6e3lGVtE4IrybEnx7CE3bsDzoA+cfW5tZW7PwtbLxWpORjJApBJtS+grkq4weM+SjsdnGWN78eOHIJSoRrEv4eB31/JxlxaNicrJwdrAmBb50P4yyrD+k8jkWKKG56uzNe2IPadH9KMBW4Wk8bZlJR0Gtkfn8dCHEO25o5OLdxLZyaSOhdTItbzU695C2w9ZhVlwb1md0IV8QPkYisFSMRmaafhnHqb2eTqUca3dztyiJm/vjiamw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/rignanosullarno"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rignanosullarno" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rignanosullarno" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/rignanosullarno" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rignano sull'Arno</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Rignano sull'Arno</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Rignano sull'Arno</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Rignano sull'Arno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rignano sull'Arno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Rignano sull'Arno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Rignano sull'Arno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Rignano sull'Arno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.rignano-sullarno.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.rignano-sullarno.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.rignano-sullarno.fi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.rignano-sullarno.fi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

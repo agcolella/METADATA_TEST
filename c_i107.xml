@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx02e424eb-8189-6535-e5bf-fd7d5fbf2388" entityID="https://www.comune.sanpietroingu.pd.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx02e424eb-8189-6535-e5bf-fd7d5fbf2388">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>K4hLznERKERcAqMTh+Gg80i1BhVmI/ztYO0hXj3t+aw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XTNJXcbIFEc3jBIGBwMs2uDKYNaewh0RoPF6S6suqMowZoosnbXqfm657sRUa7DvNa1OXrb5Qvns
+T4rkrVFH4/iqA2HeLxHh2XfudpHYnZD9ID4jLYz5TrNcywmRZXjzkfDaE9npJU3z1VrSVgNZA633
+YuBut+Oxi+nIOGbh8FDinUkfuRxgNETAFbKJY4pk9A8VKh38qrwpdi10RMoglB+PrflKVyho6MFZ
+paPfsmf6+H16yTjol7fvE5e6gIcUG4gnf4Oz7rJLtDGR/MXZEtVxQdnmEuC3d+38ljf58B4KI1ie
+5I/D+1KXahYVFJqUPAYtQO2dhRPRa/D1VE7Nfg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vD+HKW2YWsw28yhhQRZ4LwWRE6BCbo0IhzqivEU7VT+bwqG8zCEqR5fHLhTgdVT/zEp+zu08qfR8
+/HbwBWXgEBHBZHPBqoW8X6kMdmleb2nKy63CpxtoHeXMUc9uTGuhakqSi/EjDDo0J1Q5f34S228x
+HEi+WxNIVYkZUoq9F95E3D5HVbxmKDdjqLlIat2RURNCmdIHG+qSeSdUv+8+nTSWJzyNTK0Oct8D
+1aTe1gdFf0/tCn9Xvuee4B0x/xrsyymChP4w9MDZGoqL7wSrmiMs1pEAfGK8pEhUr8IlijyVI6wE
+9fzEdFaOqQ2NK7pmT5cAsVbXnX3sqNBTGrcfeQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEgDCCA2igAwIBAgIJAKu3JWu/7f80MA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEO
+MAwGA1UECBMFSXRhbHkxGTAXBgNVBAcTEFNhbiBQaWV0cm8gaW4gR3UxIzAhBgNVBAoTGkNvbXVu
+ZSBkaSBTYW4gUGlldHJvIGluIEd1MScwJQYDVQQDEx53d3cuY29tdW5lLnNhbnBpZXRyb2luZ3Uu
+cGQuaXQwHhcNMjAwNjA4MDkxOTU0WhcNMzAwNjA4MDkxOTU0WjCBhjELMAkGA1UEBhMCSVQxDjAM
+BgNVBAgTBUl0YWx5MRkwFwYDVQQHExBTYW4gUGlldHJvIGluIEd1MSMwIQYDVQQKExpDb211bmUg
+ZGkgU2FuIFBpZXRybyBpbiBHdTEnMCUGA1UEAxMed3d3LmNvbXVuZS5zYW5waWV0cm9pbmd1LnBk
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvD+HKW2YWsw28yhhQRZ4LwWRE6BC
+bo0IhzqivEU7VT+bwqG8zCEqR5fHLhTgdVT/zEp+zu08qfR8/HbwBWXgEBHBZHPBqoW8X6kMdmle
+b2nKy63CpxtoHeXMUc9uTGuhakqSi/EjDDo0J1Q5f34S228xHEi+WxNIVYkZUoq9F95E3D5HVbxm
+KDdjqLlIat2RURNCmdIHG+qSeSdUv+8+nTSWJzyNTK0Oct8D1aTe1gdFf0/tCn9Xvuee4B0x/xrs
+yymChP4w9MDZGoqL7wSrmiMs1pEAfGK8pEhUr8IlijyVI6wE9fzEdFaOqQ2NK7pmT5cAsVbXnX3s
+qNBTGrcfeQIDAQABo4HuMIHrMB0GA1UdDgQWBBSFz68QPZnDv3jOwtA+FMyawKHzqjCBuwYDVR0j
+BIGzMIGwgBSFz68QPZnDv3jOwtA+FMyawKHzqqGBjKSBiTCBhjELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgTBUl0YWx5MRkwFwYDVQQHExBTYW4gUGlldHJvIGluIEd1MSMwIQYDVQQKExpDb211bmUgZGkg
+U2FuIFBpZXRybyBpbiBHdTEnMCUGA1UEAxMed3d3LmNvbXVuZS5zYW5waWV0cm9pbmd1LnBkLml0
+ggkAq7cla7/t/zQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAt6iEkpJBdIokFbg3
+vr4UtZo+xgTyUXJAxbZ220FJbyoaSyZHNz6BvXwaC6ElaxG3WiOXF8nPs9dqJrLCG4GknRN2l/Rn
+0BjY6LRnYx5QEIkMqkEB4NmufeEtBJW+JIzRTltWQcZ6ny9dJb0AQCbvRC2u5fuNtEpCGnFWghIr
+ZLI/LACvg7U0X041syZkTffn3FTe6hMjmjq7A8BQJ9qlrARgdoBoWd4g7jH4wxLwy4YCJvaTZENl
+Dlov2Wpm/VlyDcs7WWRFXC8U2c0eNZ/w6CsnoQjDp7R23KEMLMZDDuv26lshYrRa9mrVoMGh39ca
+w9so5T1WMSQ3OUxEdQZJhw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEgDCCA2igAwIBAgIJAKu3JWu/7f80MA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxGTAXBgNVBAcTEFNhbiBQaWV0cm8gaW4gR3UxIzAhBgNVBAoTGkNvbXVuZSBkaSBTYW4gUGlldHJvIGluIEd1MScwJQYDVQQDEx53d3cuY29tdW5lLnNhbnBpZXRyb2luZ3UucGQuaXQwHhcNMjAwNjA4MDkxOTU0WhcNMzAwNjA4MDkxOTU0WjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRkwFwYDVQQHExBTYW4gUGlldHJvIGluIEd1MSMwIQYDVQQKExpDb211bmUgZGkgU2FuIFBpZXRybyBpbiBHdTEnMCUGA1UEAxMed3d3LmNvbXVuZS5zYW5waWV0cm9pbmd1LnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvD+HKW2YWsw28yhhQRZ4LwWRE6BCbo0IhzqivEU7VT+bwqG8zCEqR5fHLhTgdVT/zEp+zu08qfR8/HbwBWXgEBHBZHPBqoW8X6kMdmleb2nKy63CpxtoHeXMUc9uTGuhakqSi/EjDDo0J1Q5f34S228xHEi+WxNIVYkZUoq9F95E3D5HVbxmKDdjqLlIat2RURNCmdIHG+qSeSdUv+8+nTSWJzyNTK0Oct8D1aTe1gdFf0/tCn9Xvuee4B0x/xrsyymChP4w9MDZGoqL7wSrmiMs1pEAfGK8pEhUr8IlijyVI6wE9fzEdFaOqQ2NK7pmT5cAsVbXnX3sqNBTGrcfeQIDAQABo4HuMIHrMB0GA1UdDgQWBBSFz68QPZnDv3jOwtA+FMyawKHzqjCBuwYDVR0jBIGzMIGwgBSFz68QPZnDv3jOwtA+FMyawKHzqqGBjKSBiTCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRkwFwYDVQQHExBTYW4gUGlldHJvIGluIEd1MSMwIQYDVQQKExpDb211bmUgZGkgU2FuIFBpZXRybyBpbiBHdTEnMCUGA1UEAxMed3d3LmNvbXVuZS5zYW5waWV0cm9pbmd1LnBkLml0ggkAq7cla7/t/zQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAt6iEkpJBdIokFbg3vr4UtZo+xgTyUXJAxbZ220FJbyoaSyZHNz6BvXwaC6ElaxG3WiOXF8nPs9dqJrLCG4GknRN2l/Rn0BjY6LRnYx5QEIkMqkEB4NmufeEtBJW+JIzRTltWQcZ6ny9dJb0AQCbvRC2u5fuNtEpCGnFWghIrZLI/LACvg7U0X041syZkTffn3FTe6hMjmjq7A8BQJ9qlrARgdoBoWd4g7jH4wxLwy4YCJvaTZENlDlov2Wpm/VlyDcs7WWRFXC8U2c0eNZ/w6CsnoQjDp7R23KEMLMZDDuv26lshYrRa9mrVoMGh39caw9so5T1WMSQ3OUxEdQZJhw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEgDCCA2igAwIBAgIJAKu3JWu/7f80MA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxGTAXBgNVBAcTEFNhbiBQaWV0cm8gaW4gR3UxIzAhBgNVBAoTGkNvbXVuZSBkaSBTYW4gUGlldHJvIGluIEd1MScwJQYDVQQDEx53d3cuY29tdW5lLnNhbnBpZXRyb2luZ3UucGQuaXQwHhcNMjAwNjA4MDkxOTU0WhcNMzAwNjA4MDkxOTU0WjCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRkwFwYDVQQHExBTYW4gUGlldHJvIGluIEd1MSMwIQYDVQQKExpDb211bmUgZGkgU2FuIFBpZXRybyBpbiBHdTEnMCUGA1UEAxMed3d3LmNvbXVuZS5zYW5waWV0cm9pbmd1LnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvD+HKW2YWsw28yhhQRZ4LwWRE6BCbo0IhzqivEU7VT+bwqG8zCEqR5fHLhTgdVT/zEp+zu08qfR8/HbwBWXgEBHBZHPBqoW8X6kMdmleb2nKy63CpxtoHeXMUc9uTGuhakqSi/EjDDo0J1Q5f34S228xHEi+WxNIVYkZUoq9F95E3D5HVbxmKDdjqLlIat2RURNCmdIHG+qSeSdUv+8+nTSWJzyNTK0Oct8D1aTe1gdFf0/tCn9Xvuee4B0x/xrsyymChP4w9MDZGoqL7wSrmiMs1pEAfGK8pEhUr8IlijyVI6wE9fzEdFaOqQ2NK7pmT5cAsVbXnX3sqNBTGrcfeQIDAQABo4HuMIHrMB0GA1UdDgQWBBSFz68QPZnDv3jOwtA+FMyawKHzqjCBuwYDVR0jBIGzMIGwgBSFz68QPZnDv3jOwtA+FMyawKHzqqGBjKSBiTCBhjELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MRkwFwYDVQQHExBTYW4gUGlldHJvIGluIEd1MSMwIQYDVQQKExpDb211bmUgZGkgU2FuIFBpZXRybyBpbiBHdTEnMCUGA1UEAxMed3d3LmNvbXVuZS5zYW5waWV0cm9pbmd1LnBkLml0ggkAq7cla7/t/zQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAt6iEkpJBdIokFbg3vr4UtZo+xgTyUXJAxbZ220FJbyoaSyZHNz6BvXwaC6ElaxG3WiOXF8nPs9dqJrLCG4GknRN2l/Rn0BjY6LRnYx5QEIkMqkEB4NmufeEtBJW+JIzRTltWQcZ6ny9dJb0AQCbvRC2u5fuNtEpCGnFWghIrZLI/LACvg7U0X041syZkTffn3FTe6hMjmjq7A8BQJ9qlrARgdoBoWd4g7jH4wxLwy4YCJvaTZENlDlov2Wpm/VlyDcs7WWRFXC8U2c0eNZ/w6CsnoQjDp7R23KEMLMZDDuv26lshYrRa9mrVoMGh39caw9so5T1WMSQ3OUxEdQZJhw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sanpietroingu.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sanpietroingu.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Pietro in Gu</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Pietro in Gu</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sanpietroingu.pd.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

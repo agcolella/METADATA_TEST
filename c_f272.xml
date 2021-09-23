@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx48f53ee7-db1c-e46d-b3c7-3d6d732eeb6e" entityID="https://sol.comune.mogoro.or.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx48f53ee7-db1c-e46d-b3c7-3d6d732eeb6e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>J2KYBH+aXgI9HvP0VPY0EnqJneKOk2c8XiFgLEUnfl8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+E6zSmdMhXXRsMUE8U7qT4PWxAOxfU+B4AiMGGu8NWTrv4/IQDzVECcQEQjOAqyWwZYr+78aAxRtr
+0Lpt5VmmssdlveTiMzaIfvCrLqsNa7P55dmDn7B8c0fdTkJbP/lGT3zj4g8LCUrH73gWTA//R/CB
+4hHD4EHKzHTGDnQGo1xqtblB11uQOcpGo0wDLuVUQtueKaKcZdXKKA9GPbXP+GRuSs3Lmt3aTFzj
+Sz7vP3eZ72kRqvh5ByGDRsSW77XW/2xl2GFOBW7N5KBbKjrjxceiVlPJuA1/72bMnRHDvv/ol5yH
+hQ5FGoxRn9CcF6y79ayV9dF8kLN6bp/gbGorwg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0xNVPsixFxEjgNP+FyTTpIWcju3zvGWTMxQ1n8rWn155XQxfjmE9GME7THF7vbaB61i42L1nEbnX
+UX1/dcW1mZPU20hgPKxxTw8p+Ey7TEqKmeIuyVivPHZIGljXnAK/1l7Lv8bC6GxER6fAH0T72opI
+k9acfWNL+ULS5G9pJ8CkKGo0sctOfuZdkSoY9Hf8KwakMwgUWvwOrmMHrSRVUw9BQILm0fE7mbnP
+k+i7HduBraMU95qYUyZwxakabf0ooJrDkh/MksVRA+GEWqa40oQFWUG2B1ok0xTuX7y7sNe9uV+/
+Zbz2sDUWKzV7BLKkYVciJlwXL/H6lSv32NSgEw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDqTCCApGgAwIBAgIJAI/oDzzmazuzMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTW9nb3JvMRkwFwYDVQQKDBBDb211bmUgZGkgTW9nb3Jv
+MSAwHgYDVQQDDBdzb2wuY29tdW5lLm1vZ29yby5vci5pdDAeFw0xOTA0MDQxNTE2MDhaFw0yOTA0
+MDMxNTE2MDhaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTW9nb3Jv
+MRkwFwYDVQQKDBBDb211bmUgZGkgTW9nb3JvMSAwHgYDVQQDDBdzb2wuY29tdW5lLm1vZ29yby5v
+ci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMTVT7IsRcRI4DT/hck06SFnI7t
+87xlkzMUNZ/K1p9eeV0MX45hPRjBO0xxe722getYuNi9ZxG511F9f3XFtZmT1NtIYDyscU8PKfhM
+u0xKipniLslYrzx2SBpY15wCv9Zey7/GwuhsREenwB9E+9qKSJPWnH1jS/lC0uRvaSfApChqNLHL
+Tn7mXZEqGPR3/CsGpDMIFFr8Dq5jB60kVVMPQUCC5tHxO5m5z5Poux3bga2jFPeamFMmcMWpGm39
+KKCaw5IfzJLFUQPhhFqmuNKEBVlBtgdaJNMU7l+8u7DXvblfv2W89rA1Fis1ewSypGFXIiZcFy/x
++pUr99jUoBMCAwEAAaNQME4wHQYDVR0OBBYEFDN3lJ0JX/P4QBp/k46RCS6UfTPMMB8GA1UdIwQY
+MBaAFDN3lJ0JX/P4QBp/k46RCS6UfTPMMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ANF2vUNoqBDMb6PDPSLyD201LaQiGEEx5coASVcVwa3SLimJeaJ5CpEjRNGH2ZvVwKxkQsBD7YCV
+wK24RqArLmdtVdmasi4PRMSpPCa8GQLKPgLcBkMiYXkQc3Z30sSpEjW7/cSM+ZKObyYHPfv3QYT3
+5VSwSWuxTBeQCI/tY4BnvAw/S4a/7IBqIhZz0pGVT4cHq/6HjKwwDLyPxLOpBRALquN5xWtzPV74
+7xLv1ioaYpV7RPz71/zUi5Tclc99dhU3XfN/AyZtY9MRusipwr7OltC12+nJeFspfuskPbC+3h5x
+XLGMVADJEi3IPLuvk2gTbScVG7guc9WvqKp96z0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAI/oDzzmazuzMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTW9nb3JvMRkwFwYDVQQKDBBDb211bmUgZGkgTW9nb3JvMSAwHgYDVQQDDBdzb2wuY29tdW5lLm1vZ29yby5vci5pdDAeFw0xOTA0MDQxNTE2MDhaFw0yOTA0MDMxNTE2MDhaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTW9nb3JvMRkwFwYDVQQKDBBDb211bmUgZGkgTW9nb3JvMSAwHgYDVQQDDBdzb2wuY29tdW5lLm1vZ29yby5vci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMTVT7IsRcRI4DT/hck06SFnI7t87xlkzMUNZ/K1p9eeV0MX45hPRjBO0xxe722getYuNi9ZxG511F9f3XFtZmT1NtIYDyscU8PKfhMu0xKipniLslYrzx2SBpY15wCv9Zey7/GwuhsREenwB9E+9qKSJPWnH1jS/lC0uRvaSfApChqNLHLTn7mXZEqGPR3/CsGpDMIFFr8Dq5jB60kVVMPQUCC5tHxO5m5z5Poux3bga2jFPeamFMmcMWpGm39KKCaw5IfzJLFUQPhhFqmuNKEBVlBtgdaJNMU7l+8u7DXvblfv2W89rA1Fis1ewSypGFXIiZcFy/x+pUr99jUoBMCAwEAAaNQME4wHQYDVR0OBBYEFDN3lJ0JX/P4QBp/k46RCS6UfTPMMB8GA1UdIwQYMBaAFDN3lJ0JX/P4QBp/k46RCS6UfTPMMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBANF2vUNoqBDMb6PDPSLyD201LaQiGEEx5coASVcVwa3SLimJeaJ5CpEjRNGH2ZvVwKxkQsBD7YCVwK24RqArLmdtVdmasi4PRMSpPCa8GQLKPgLcBkMiYXkQc3Z30sSpEjW7/cSM+ZKObyYHPfv3QYT35VSwSWuxTBeQCI/tY4BnvAw/S4a/7IBqIhZz0pGVT4cHq/6HjKwwDLyPxLOpBRALquN5xWtzPV747xLv1ioaYpV7RPz71/zUi5Tclc99dhU3XfN/AyZtY9MRusipwr7OltC12+nJeFspfuskPbC+3h5xXLGMVADJEi3IPLuvk2gTbScVG7guc9WvqKp96z0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAI/oDzzmazuzMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTW9nb3JvMRkwFwYDVQQKDBBDb211bmUgZGkgTW9nb3JvMSAwHgYDVQQDDBdzb2wuY29tdW5lLm1vZ29yby5vci5pdDAeFw0xOTA0MDQxNTE2MDhaFw0yOTA0MDMxNTE2MDhaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTW9nb3JvMRkwFwYDVQQKDBBDb211bmUgZGkgTW9nb3JvMSAwHgYDVQQDDBdzb2wuY29tdW5lLm1vZ29yby5vci5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMTVT7IsRcRI4DT/hck06SFnI7t87xlkzMUNZ/K1p9eeV0MX45hPRjBO0xxe722getYuNi9ZxG511F9f3XFtZmT1NtIYDyscU8PKfhMu0xKipniLslYrzx2SBpY15wCv9Zey7/GwuhsREenwB9E+9qKSJPWnH1jS/lC0uRvaSfApChqNLHLTn7mXZEqGPR3/CsGpDMIFFr8Dq5jB60kVVMPQUCC5tHxO5m5z5Poux3bga2jFPeamFMmcMWpGm39KKCaw5IfzJLFUQPhhFqmuNKEBVlBtgdaJNMU7l+8u7DXvblfv2W89rA1Fis1ewSypGFXIiZcFy/x+pUr99jUoBMCAwEAAaNQME4wHQYDVR0OBBYEFDN3lJ0JX/P4QBp/k46RCS6UfTPMMB8GA1UdIwQYMBaAFDN3lJ0JX/P4QBp/k46RCS6UfTPMMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBANF2vUNoqBDMb6PDPSLyD201LaQiGEEx5coASVcVwa3SLimJeaJ5CpEjRNGH2ZvVwKxkQsBD7YCVwK24RqArLmdtVdmasi4PRMSpPCa8GQLKPgLcBkMiYXkQc3Z30sSpEjW7/cSM+ZKObyYHPfv3QYT35VSwSWuxTBeQCI/tY4BnvAw/S4a/7IBqIhZz0pGVT4cHq/6HjKwwDLyPxLOpBRALquN5xWtzPV747xLv1ioaYpV7RPz71/zUi5Tclc99dhU3XfN/AyZtY9MRusipwr7OltC12+nJeFspfuskPbC+3h5xXLGMVADJEi3IPLuvk2gTbScVG7guc9WvqKp96z0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.mogoro.or.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sol.comune.mogoro.or.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Mogoro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Mogoro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.mogoro.or.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

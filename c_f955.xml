@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.novate-milanese.mi.it/" ID="pfx7d28a89b-453b-9b4e-bd88-94f52628d2a0"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx7d28a89b-453b-9b4e-bd88-94f52628d2a0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OsA4/MHCENgzHiAdlpffllTxMjHysFzH0Nie44DgUuM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Txl9x92UgB3ZpAFjKkkMAsBDJP+RMQh7SROUDbpBBuEGUDaVYUSAakNOkypk7U6tcj4tPIxpGfsTh2wLYtt+lIZ3zA0XdP292pYpBr+4HhQS6LRa+Pj47xNWpwOvw1W2GODT78J6pL4fcjlbkTPaiE9C2iIW2Wv89+tRJ23S7EZPXMlX78Oabd25k8l0GHKlJ95tdDxME5ND9My+AE/YHY7KYb3B1jCkh51FK95tgNWfcfCRT5t89cHKjQMw2bW5f1cd5AJPmHFuPZPOQdNiNKFUgAvJ46iZVb5H5GlV1MFbNhZo1pUHzLjcx//IEbxk7rO4DbwRnSJQqASDfpMFeg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIERDCCAyygAwIBAgIJAIEgTFtd6/P8MA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRgwFgYDVQQHDA9Ob3ZhdGUgTWlsYW5lc2UxIjAgBgNVBAoMGUNvbXVuZSBkaSBOb3ZhdGUgTWlsYW5lc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5ub3ZhdGUtbWlsYW5lc2UubWkuaXQwHhcNMTgwNjA3MDg0MTA2WhcNMjgwNjA0MDg0MTA2WjCBtjELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEYMBYGA1UEBwwPTm92YXRlIE1pbGFuZXNlMSIwIAYDVQQKDBlDb211bmUgZGkgTm92YXRlIE1pbGFuZXNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubm92YXRlLW1pbGFuZXNlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZlWx5Rn8U5RUlrbXOWo8UImEO5DmlHqBNtsMZ9ZYs41w79Q6n6+xNYAwpfnlGtMwKKC2gTAO6DDclVzMfpJojjR7WRf8l+opj9aa6oghMve63rMw2KbFB+BVkcVOxwG5ZVfqKDwu7ImUZsmc4lTQf034WCvZn2tAicvGRQMXD3dYQPZCVzRL6MlHVnqmeAOvQqLnwJZbHmASw1tO3VRNF+ebr128npDaGt/YHcIqN0fqTz/GnwoEAUq7fRAQ1GB8ELMfWCl5TpPKeyHysD3lPvDG4TyshSJFLaRBO2aQ6ueaJI2eCTI3cYBveXVk3VMRl+a1nh0VNTDIdIn7350PQIDAQABo1MwUTAdBgNVHQ4EFgQU2EZiKTkYKJEwzIp3M6LF5OMLrdswHwYDVR0jBBgwFoAU2EZiKTkYKJEwzIp3M6LF5OMLrdswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKCysVPnADgH6wxuHShZNYobYTlLYTgqamRD0hyEPDOGuIsm8LpyPsa3zjzgycAmRyCNtHI/rSEHQj9DR2nWWpARFvg7y/uSq4JY7PsWyPoOkUfDzJjrnRCp0ZhFchVDFTSTphuD89I3PkHCSYa0DrLxGlFNNvDNgwF8F9hc7xn7wZZNnKxYqtAU2w46YnoOFcD4iz0uVIOpttTwUvJR9Zci4yZabVALfX4YGc3sKY4M3upwxxHtzcp/lZ9KTVWX4RF326vAtXMa5ARb48HvD+NIBTFDccktzzCPt2XFX+KglRHCzQ+p8ZoXhepGNsZCGEC1w+TqeZijbkj2oNpcUuw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERDCCAyygAwIBAgIJAIEgTFtd6/P8MA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRgwFgYDVQQHDA9Ob3ZhdGUgTWlsYW5lc2UxIjAgBgNVBAoMGUNvbXVuZSBkaSBOb3ZhdGUgTWlsYW5lc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5ub3ZhdGUtbWlsYW5lc2UubWkuaXQwHhcNMTgwNjA3MDg0MTA2WhcNMjgwNjA0MDg0MTA2WjCBtjELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEYMBYGA1UEBwwPTm92YXRlIE1pbGFuZXNlMSIwIAYDVQQKDBlDb211bmUgZGkgTm92YXRlIE1pbGFuZXNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubm92YXRlLW1pbGFuZXNlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZlWx5Rn8U5RUlrbXOWo8UImEO5DmlHqBNtsMZ9ZYs41w79Q6n6+xNYAwpfnlGtMwKKC2gTAO6DDclVzMfpJojjR7WRf8l+opj9aa6oghMve63rMw2KbFB+BVkcVOxwG5ZVfqKDwu7ImUZsmc4lTQf034WCvZn2tAicvGRQMXD3dYQPZCVzRL6MlHVnqmeAOvQqLnwJZbHmASw1tO3VRNF+ebr128npDaGt/YHcIqN0fqTz/GnwoEAUq7fRAQ1GB8ELMfWCl5TpPKeyHysD3lPvDG4TyshSJFLaRBO2aQ6ueaJI2eCTI3cYBveXVk3VMRl+a1nh0VNTDIdIn7350PQIDAQABo1MwUTAdBgNVHQ4EFgQU2EZiKTkYKJEwzIp3M6LF5OMLrdswHwYDVR0jBBgwFoAU2EZiKTkYKJEwzIp3M6LF5OMLrdswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKCysVPnADgH6wxuHShZNYobYTlLYTgqamRD0hyEPDOGuIsm8LpyPsa3zjzgycAmRyCNtHI/rSEHQj9DR2nWWpARFvg7y/uSq4JY7PsWyPoOkUfDzJjrnRCp0ZhFchVDFTSTphuD89I3PkHCSYa0DrLxGlFNNvDNgwF8F9hc7xn7wZZNnKxYqtAU2w46YnoOFcD4iz0uVIOpttTwUvJR9Zci4yZabVALfX4YGc3sKY4M3upwxxHtzcp/lZ9KTVWX4RF326vAtXMa5ARb48HvD+NIBTFDccktzzCPt2XFX+KglRHCzQ+p8ZoXhepGNsZCGEC1w+TqeZijbkj2oNpcUuw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERDCCAyygAwIBAgIJAIEgTFtd6/P8MA0GCSqGSIb3DQEBCwUAMIG2MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRgwFgYDVQQHDA9Ob3ZhdGUgTWlsYW5lc2UxIjAgBgNVBAoMGUNvbXVuZSBkaSBOb3ZhdGUgTWlsYW5lc2UxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5ub3ZhdGUtbWlsYW5lc2UubWkuaXQwHhcNMTgwNjA3MDg0MTA2WhcNMjgwNjA0MDg0MTA2WjCBtjELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1pbGFubzEYMBYGA1UEBwwPTm92YXRlIE1pbGFuZXNlMSIwIAYDVQQKDBlDb211bmUgZGkgTm92YXRlIE1pbGFuZXNlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUubm92YXRlLW1pbGFuZXNlLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZlWx5Rn8U5RUlrbXOWo8UImEO5DmlHqBNtsMZ9ZYs41w79Q6n6+xNYAwpfnlGtMwKKC2gTAO6DDclVzMfpJojjR7WRf8l+opj9aa6oghMve63rMw2KbFB+BVkcVOxwG5ZVfqKDwu7ImUZsmc4lTQf034WCvZn2tAicvGRQMXD3dYQPZCVzRL6MlHVnqmeAOvQqLnwJZbHmASw1tO3VRNF+ebr128npDaGt/YHcIqN0fqTz/GnwoEAUq7fRAQ1GB8ELMfWCl5TpPKeyHysD3lPvDG4TyshSJFLaRBO2aQ6ueaJI2eCTI3cYBveXVk3VMRl+a1nh0VNTDIdIn7350PQIDAQABo1MwUTAdBgNVHQ4EFgQU2EZiKTkYKJEwzIp3M6LF5OMLrdswHwYDVR0jBBgwFoAU2EZiKTkYKJEwzIp3M6LF5OMLrdswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKCysVPnADgH6wxuHShZNYobYTlLYTgqamRD0hyEPDOGuIsm8LpyPsa3zjzgycAmRyCNtHI/rSEHQj9DR2nWWpARFvg7y/uSq4JY7PsWyPoOkUfDzJjrnRCp0ZhFchVDFTSTphuD89I3PkHCSYa0DrLxGlFNNvDNgwF8F9hc7xn7wZZNnKxYqtAU2w46YnoOFcD4iz0uVIOpttTwUvJR9Zci4yZabVALfX4YGc3sKY4M3upwxxHtzcp/lZ9KTVWX4RF326vAtXMa5ARb48HvD+NIBTFDccktzzCPt2XFX+KglRHCzQ+p8ZoXhepGNsZCGEC1w+TqeZijbkj2oNpcUuw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.novate-milanese.mi.it/simplesaml/module.php/saml/sp/saml2-logout.php/novatemilanese"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.novate-milanese.mi.it/simplesaml/module.php/saml/sp/saml2-acs.php/novatemilanese" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">novatemilanese</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_f955</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Novate Milanese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.novate-milanese.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

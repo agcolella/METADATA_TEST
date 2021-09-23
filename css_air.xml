@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxca2c931c-987b-9a85-1a72-e51881d62bca" entityID="https://www.consorzioaltairpinia.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxca2c931c-987b-9a85-1a72-e51881d62bca">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>uqiAlthSWKyvEtVOnCH8pEEOBIJR55fqiV2d8l7DfnM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jynNgdzYPx7XIDVTXS3eRA40sIX6YkSxnW0LEsuJqe5BQbbjn+kOgtX7ct7WroB1S9QuBWN3P/Au
+HwIrYbPVfgVbZ17fhAehatXYFcRRYxVHW9SL3+SsAArKXBDeFsm35dSFnh5YZkD4mYZC0klIl6C0
+GyejK7ArXuFMhs8JnAcvQRIxqIRbIdxZOPgFNq0XD69hSWg37EK1pgP5kwktuc1DIqwgJaC3guhT
+wo744TabQuUTSiDcxQKwHe5BxMNkhZ+vFm4xcQ87OQSXpt7jk2WmoxbgiEdMdoL7UD8SaUM43idI
+r0wnbwvwCHfcoqJFBj39/c5kRweJHe5mUDIEMg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zdC3Ce/N7kth53zMuhgIe58/nQbRnGJosj8BDOvZEZ/AM6lLwO2yUDSnKo4Sst+0CI+StuSvvWJ0
+uD9StTwjYhyQdU/jcoljPRphHWkN2zHyEFtn6T+1iJyBmE39VElKFT4SchgM35ywkP/aI9EOsvan
+3iZa43G4frxg2Xu+mLQq3x4vpG7HC7pFTFpBndFE4JTQW6T20a3nmtVwhyIVk1a/cRZgccYSUAva
+B7xDrU9Hz574Mp7LsZclVfhlP6KZPOD1+7PzuTxhrqkhrvSDH9MW1ftTyKAxaZFhXYu64b4z37Ye
+E/GWbvHO1AXPJR7zhiie9++eN0eNUsbxYoB+dQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID9TCCAt2gAwIBAgIJANC8tLnIbmbRMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxDjAMBgNVBAcMBUxpb25pMTswOQYDVQQKDDJDb25zb3J6aW8gZGVpIFNl
+cnZpemkgU29jaWFsaSBBbHRhIElycGluYSBBbWJpdG8gMzEkMCIGA1UEAwwbd3d3LmNvbnNvcnpp
+b2FsdGFpcnBpbmlhLml0MB4XDTIwMDYxNjE1MzAwOFoXDTMwMDYxNjE1MzAwOFowgZAxCzAJBgNV
+BAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTGlvbmkxOzA5BgNVBAoMMkNvbnNvcnpp
+byBkZWkgU2Vydml6aSBTb2NpYWxpIEFsdGEgSXJwaW5hIEFtYml0byAzMSQwIgYDVQQDDBt3d3cu
+Y29uc29yemlvYWx0YWlycGluaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDN
+0LcJ783uS2HnfMy6GAh7nz+dBtGcYmiyPwEM69kRn8AzqUvA7bJQNKcqjhKy37QIj5K25K+9YnS4
+P1K1PCNiHJB1T+NyiWM9GmEdaQ3bMfIQW2fpP7WInIGYTf1USUoVPhJyGAzfnLCQ/9oj0Q6y9qfe
+Jlrjcbh+vGDZe76YtCrfHi+kbscLukVMWkGd0UTglNBbpPbRreea1XCHIhWTVr9xFmBxxhJQC9oH
+vEOtT0fPnvgynsuxlyVV+GU/opk84PX7s/O5PGGuqSGu9IMf0xbV+1PIoDFpkWFdi7rhvjPfth4T
+8ZZu8c7UBc8lHvOGKJ737543R41SxvFigH51AgMBAAGjUDBOMB0GA1UdDgQWBBSjhaqAB//ynB5+
+4sNLhwMJ9K1wXjAfBgNVHSMEGDAWgBSjhaqAB//ynB5+4sNLhwMJ9K1wXjAMBgNVHRMEBTADAQH/
+MA0GCSqGSIb3DQEBCwUAA4IBAQBln2GC5TVTkD8BRxBCZGzRFyGKVLTx9l1zDhGFitLn+WhIQYjw
+0D6b845T3O0P2axeExkOVgxDPsNJC2kvmfMjOQbY56a3DUiZN7CRGEvb6vt2PfZXBz/eGo/c0nWL
+gXyNGHUCd1Nx1isYula8Uk4399giy+2ofolKtgjM2qBw6vCiL3L4YYIvyPWN9efuvdQY3qPTfHjD
+LbgTGkY9pZB3zAaPm3O8UkkjExaMX9vtAqsfEhUReAqTJO2gEKZgPGnLefoTL4VZT7yOx5fU2NkQ
+lqAyWab1Gfh+Clu80Nn732cJiMXzM8OrFpR9UKwPDxA2fpeXXYqZzF2hl/ASNUgI
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9TCCAt2gAwIBAgIJANC8tLnIbmbRMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDjAMBgNVBAcMBUxpb25pMTswOQYDVQQKDDJDb25zb3J6aW8gZGVpIFNlcnZpemkgU29jaWFsaSBBbHRhIElycGluYSBBbWJpdG8gMzEkMCIGA1UEAwwbd3d3LmNvbnNvcnppb2FsdGFpcnBpbmlhLml0MB4XDTIwMDYxNjE1MzAwOFoXDTMwMDYxNjE1MzAwOFowgZAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTGlvbmkxOzA5BgNVBAoMMkNvbnNvcnppbyBkZWkgU2Vydml6aSBTb2NpYWxpIEFsdGEgSXJwaW5hIEFtYml0byAzMSQwIgYDVQQDDBt3d3cuY29uc29yemlvYWx0YWlycGluaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDN0LcJ783uS2HnfMy6GAh7nz+dBtGcYmiyPwEM69kRn8AzqUvA7bJQNKcqjhKy37QIj5K25K+9YnS4P1K1PCNiHJB1T+NyiWM9GmEdaQ3bMfIQW2fpP7WInIGYTf1USUoVPhJyGAzfnLCQ/9oj0Q6y9qfeJlrjcbh+vGDZe76YtCrfHi+kbscLukVMWkGd0UTglNBbpPbRreea1XCHIhWTVr9xFmBxxhJQC9oHvEOtT0fPnvgynsuxlyVV+GU/opk84PX7s/O5PGGuqSGu9IMf0xbV+1PIoDFpkWFdi7rhvjPfth4T8ZZu8c7UBc8lHvOGKJ737543R41SxvFigH51AgMBAAGjUDBOMB0GA1UdDgQWBBSjhaqAB//ynB5+4sNLhwMJ9K1wXjAfBgNVHSMEGDAWgBSjhaqAB//ynB5+4sNLhwMJ9K1wXjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBln2GC5TVTkD8BRxBCZGzRFyGKVLTx9l1zDhGFitLn+WhIQYjw0D6b845T3O0P2axeExkOVgxDPsNJC2kvmfMjOQbY56a3DUiZN7CRGEvb6vt2PfZXBz/eGo/c0nWLgXyNGHUCd1Nx1isYula8Uk4399giy+2ofolKtgjM2qBw6vCiL3L4YYIvyPWN9efuvdQY3qPTfHjDLbgTGkY9pZB3zAaPm3O8UkkjExaMX9vtAqsfEhUReAqTJO2gEKZgPGnLefoTL4VZT7yOx5fU2NkQlqAyWab1Gfh+Clu80Nn732cJiMXzM8OrFpR9UKwPDxA2fpeXXYqZzF2hl/ASNUgI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9TCCAt2gAwIBAgIJANC8tLnIbmbRMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDjAMBgNVBAcMBUxpb25pMTswOQYDVQQKDDJDb25zb3J6aW8gZGVpIFNlcnZpemkgU29jaWFsaSBBbHRhIElycGluYSBBbWJpdG8gMzEkMCIGA1UEAwwbd3d3LmNvbnNvcnppb2FsdGFpcnBpbmlhLml0MB4XDTIwMDYxNjE1MzAwOFoXDTMwMDYxNjE1MzAwOFowgZAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTGlvbmkxOzA5BgNVBAoMMkNvbnNvcnppbyBkZWkgU2Vydml6aSBTb2NpYWxpIEFsdGEgSXJwaW5hIEFtYml0byAzMSQwIgYDVQQDDBt3d3cuY29uc29yemlvYWx0YWlycGluaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDN0LcJ783uS2HnfMy6GAh7nz+dBtGcYmiyPwEM69kRn8AzqUvA7bJQNKcqjhKy37QIj5K25K+9YnS4P1K1PCNiHJB1T+NyiWM9GmEdaQ3bMfIQW2fpP7WInIGYTf1USUoVPhJyGAzfnLCQ/9oj0Q6y9qfeJlrjcbh+vGDZe76YtCrfHi+kbscLukVMWkGd0UTglNBbpPbRreea1XCHIhWTVr9xFmBxxhJQC9oHvEOtT0fPnvgynsuxlyVV+GU/opk84PX7s/O5PGGuqSGu9IMf0xbV+1PIoDFpkWFdi7rhvjPfth4T8ZZu8c7UBc8lHvOGKJ737543R41SxvFigH51AgMBAAGjUDBOMB0GA1UdDgQWBBSjhaqAB//ynB5+4sNLhwMJ9K1wXjAfBgNVHSMEGDAWgBSjhaqAB//ynB5+4sNLhwMJ9K1wXjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBln2GC5TVTkD8BRxBCZGzRFyGKVLTx9l1zDhGFitLn+WhIQYjw0D6b845T3O0P2axeExkOVgxDPsNJC2kvmfMjOQbY56a3DUiZN7CRGEvb6vt2PfZXBz/eGo/c0nWLgXyNGHUCd1Nx1isYula8Uk4399giy+2ofolKtgjM2qBw6vCiL3L4YYIvyPWN9efuvdQY3qPTfHjDLbgTGkY9pZB3zAaPm3O8UkkjExaMX9vtAqsfEhUReAqTJO2gEKZgPGnLefoTL4VZT7yOx5fU2NkQlqAyWab1Gfh+Clu80Nn732cJiMXzM8OrFpR9UKwPDxA2fpeXXYqZzF2hl/ASNUgI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.consorzioaltairpinia.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.consorzioaltairpinia.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Consorzio dei Servizi Sociali Alta Irpina Ambito 3</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Consorzio dei Servizi Sociali Alta Irpina Ambito 3</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.consorzioaltairpinia.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>css_air</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Consorzio dei Servizi Sociali Alta Irpina Ambito 3</md:Company>
+    <md:EmailAddress>info@consorzioaltairpinia.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

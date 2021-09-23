@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Croviana" entityID="https://www.comune.croviana.tn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Croviana">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>yTnwdAzwTS+sJZjUGQphGHGSqLyGnzALsTJKl4g8bsY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+o4U8uXDghkcKMcnGTn1ztIQMu/1aBOWn8Gkzt0Hb0HKm8L73TNow/6scN6rDYg7rCnJ/t8K9NBtA
+3GMt9ao0CmZrBjzPGbhWfblm+uj6Emcg+U5J36VAabO/G9JyH23NGX7h4sWb5MJYH/Z3P4wncbdz
+hVxHtA+U3PkFUtHjkwL5CAeV2pfZWtqo7NcqUSIE7uRnQHDTLByk7SqZH/9vV+Ny7zdCLrspRZuq
+wvHyjersHQ3j8yiL8qksE0COoGny1SqJPZjKK8x/gA6DcOoWzO02pf1XkwbIKX5olFEBB3MgnSPE
+w0Z+MYBieuR91TOhkGVgjJkNGKadFXi9fDgptQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8ctYyq4vUPb2G+sTJ+OxQufutMgUWOFfwKkzF2PaojcjDkTTyUhu0ncYG4gh99DOnPDHd5WKsdvI
+NYznx7aBiS7QMxOYMIdhJW+Yy/oss9pQHQfdxg4fupkS0Yl8xdHwIMeRXCrZdp917x+1fYuZVbTZ
+Bw3ZnZd2QNBVThKNnAoOXe+ZCMGJiTkeB8dM1KPlwAYS1yCZIY8rHNr/Ump9VOsloPvSQYn8fFS+
+mkKHz6DWd9YUNUarfTBKmL5pwO7gG6wavB91rE6GHBBzbdrBwUHyOkuzpl+p9driUb7E1sXn/jJq
+noZoiEJy+/rq+SG+jjkX5keNqoMswakYuCGKjw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAK0+pQEB25qSMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUuY3JvdmlhbmEudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYy
+MjEyMTIwOFoXDTMwMDYyMDEyMTIwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5jcm92aWFuYS50
+bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDxy1jKri9Q9vYb6xMn47FC5+60yBRY4V/AqTMXY9qiNyMORNPJSG7SdxgbiCH30M6c
+8Md3lYqx28g1jOfHtoGJLtAzE5gwh2Elb5jL+iyz2lAdB93GDh+6mRLRiXzF0fAgx5FcKtl2n3Xv
+H7V9i5lVtNkHDdmdl3ZA0FVOEo2cCg5d75kIwYmJOR4Hx0zUo+XABhLXIJkhjysc2v9San1U6yWg
++9JBifx8VL6aQofPoNZ31hQ1Rqt9MEqYvmnA7uAbrBq8H3WsToYcEHNt2sHBQfI6S7OmX6n12uJR
+vsTWxef+MmqehmiIQnL7+ur5Ib6OORfmR42qgyzBqRi4IYqPAgMBAAGjUDBOMB0GA1UdDgQWBBSe
+MdHNWyJTzDIRUwPyBqdAZ04mFDAfBgNVHSMEGDAWgBSeMdHNWyJTzDIRUwPyBqdAZ04mFDAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAEu0Finl2tTrfGGVswsvK5gPvI1prnzoaCrUu1
+aMHt82+MDVziR5VI/hniHiGEbJ4cCtf5PoWF26CsH3eHMLYNuK4HAgokbGTGrEq4AluGxUyIAuuE
+rpTpWzhZaz9l7RvdexrV8+zfYeFEL//dcGerU9qR703cAo2x1AkDu7vMTjQh96TZn5+7f8HqNsJv
+RGoMLi1+kznGkvzdYUftyIr86rv03cMVg079t191FvJT+cO0xnLvKlVB1Z8yWMXR2QR0c9RUrPHZ
+xoOo8WnUXS1v4wkk0XAOBzqKb3mtQ2WtS8oNVmIioRY9ZTBlcUNsabiW8e2tH/tcX3Mfk6tpxGET
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAK0+pQEB25qSMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuY3JvdmlhbmEudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYyMjEyMTIwOFoXDTMwMDYyMDEyMTIwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5jcm92aWFuYS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDxy1jKri9Q9vYb6xMn47FC5+60yBRY4V/AqTMXY9qiNyMORNPJSG7SdxgbiCH30M6c8Md3lYqx28g1jOfHtoGJLtAzE5gwh2Elb5jL+iyz2lAdB93GDh+6mRLRiXzF0fAgx5FcKtl2n3XvH7V9i5lVtNkHDdmdl3ZA0FVOEo2cCg5d75kIwYmJOR4Hx0zUo+XABhLXIJkhjysc2v9San1U6yWg+9JBifx8VL6aQofPoNZ31hQ1Rqt9MEqYvmnA7uAbrBq8H3WsToYcEHNt2sHBQfI6S7OmX6n12uJRvsTWxef+MmqehmiIQnL7+ur5Ib6OORfmR42qgyzBqRi4IYqPAgMBAAGjUDBOMB0GA1UdDgQWBBSeMdHNWyJTzDIRUwPyBqdAZ04mFDAfBgNVHSMEGDAWgBSeMdHNWyJTzDIRUwPyBqdAZ04mFDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAEu0Finl2tTrfGGVswsvK5gPvI1prnzoaCrUu1aMHt82+MDVziR5VI/hniHiGEbJ4cCtf5PoWF26CsH3eHMLYNuK4HAgokbGTGrEq4AluGxUyIAuuErpTpWzhZaz9l7RvdexrV8+zfYeFEL//dcGerU9qR703cAo2x1AkDu7vMTjQh96TZn5+7f8HqNsJvRGoMLi1+kznGkvzdYUftyIr86rv03cMVg079t191FvJT+cO0xnLvKlVB1Z8yWMXR2QR0c9RUrPHZxoOo8WnUXS1v4wkk0XAOBzqKb3mtQ2WtS8oNVmIioRY9ZTBlcUNsabiW8e2tH/tcX3Mfk6tpxGET
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAK0+pQEB25qSMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUuY3JvdmlhbmEudG4uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYyMjEyMTIwOFoXDTMwMDYyMDEyMTIwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5jcm92aWFuYS50bi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDxy1jKri9Q9vYb6xMn47FC5+60yBRY4V/AqTMXY9qiNyMORNPJSG7SdxgbiCH30M6c8Md3lYqx28g1jOfHtoGJLtAzE5gwh2Elb5jL+iyz2lAdB93GDh+6mRLRiXzF0fAgx5FcKtl2n3XvH7V9i5lVtNkHDdmdl3ZA0FVOEo2cCg5d75kIwYmJOR4Hx0zUo+XABhLXIJkhjysc2v9San1U6yWg+9JBifx8VL6aQofPoNZ31hQ1Rqt9MEqYvmnA7uAbrBq8H3WsToYcEHNt2sHBQfI6S7OmX6n12uJRvsTWxef+MmqehmiIQnL7+ur5Ib6OORfmR42qgyzBqRi4IYqPAgMBAAGjUDBOMB0GA1UdDgQWBBSeMdHNWyJTzDIRUwPyBqdAZ04mFDAfBgNVHSMEGDAWgBSeMdHNWyJTzDIRUwPyBqdAZ04mFDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAEu0Finl2tTrfGGVswsvK5gPvI1prnzoaCrUu1aMHt82+MDVziR5VI/hniHiGEbJ4cCtf5PoWF26CsH3eHMLYNuK4HAgokbGTGrEq4AluGxUyIAuuErpTpWzhZaz9l7RvdexrV8+zfYeFEL//dcGerU9qR703cAo2x1AkDu7vMTjQh96TZn5+7f8HqNsJvRGoMLi1+kznGkvzdYUftyIr86rv03cMVg079t191FvJT+cO0xnLvKlVB1Z8yWMXR2QR0c9RUrPHZxoOo8WnUXS1v4wkk0XAOBzqKb3mtQ2WtS8oNVmIioRY9ZTBlcUNsabiW8e2tH/tcX3Mfk6tpxGET
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/croviana"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/croviana" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/croviana" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/croviana" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Croviana</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Croviana</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Croviana</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Croviana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Croviana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Croviana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Croviana</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Croviana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.croviana.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.croviana.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.croviana.tn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.croviana.tn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="_d6e1446026193dc75dadf58f3b41a7a09ebd0e3d" entityID="https://idp.unito.it/sp/shibboleth"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>X5hhRBnwYdT/3Wrs1xnE7QsvFSxqJslwJ+aSgtwmpTA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Rv8LLepU3G/CDR42TAIjnrvHlec3rj9iRItgt+iBnB+cKmJYar+B14OD2/UuKFqx4+UBPTu0ZffV
+zZjpeJvjPe68h1Du5rQ6T/07vDWjfzbALNg6CXrtR8YInHcOj7j7hu3QNyGBcI48VSlvoX5vzZ4N
+z3g2IAoPic3vjjnFg5T7wu/P/hr3P92DqLKXSwEnWN3iRCyxv+Yd6fBCs5am1fiImguwt9G1NY3/
+l7VnCjWXB85CeZ/BSzA+DkaSkGOCUB6crELyFlrsP4isPsuIesdX28rWruGoGV+1yo0JbE7G/U5M
+7O4zD6YzjtzCVM687eIj7UznEiWSF3ROaRDyHg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oJ5QrqFTtbG/bWZgcJAr0IMDTzqTrGD4wOItbtQF67MpURE9gl+9IU+FCugSvigzlebkqbkvjWkl
+lRAZierQtF/H1czr9vYOKrQpocRFgCOPLuME+hVhbLihYU8Y2obOnn5ubcB4tphK0+n+papUiCeM
+TtrQgQjSIOX5K0UPeVbr8DL+AyR978Yew3/lMo2+GyDran+Xb3/F8nse9sRdHycYQPn0s925lKxd
+SUB5mB23yPmAPZ+oqntdkI2WTISBTIf/BB//yhr+gmyqwA870HLMaefxOw/UcTBxPnzGV4gBuhth
+HJ6+0ho7WaNWzYjJDXJjBdRwPHA0uwvS41/y6w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVDCCAjygAwIBAgIVANS07VaPc/gsZ/51WPOjK7yoKLkxMA0GCSqGSIb3DQEBBQUAMCUxIzAh
+BgNVBAMTGmlkcC1kZXYxLnByaXZhdGUuY2luZWNhLml0MB4XDTA4MDUyMjEyMTQzMVoXDTI4MDUy
+MjEyMTQzMVowJTEjMCEGA1UEAxMaaWRwLWRldjEucHJpdmF0ZS5jaW5lY2EuaXQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgnlCuoVO1sb9tZmBwkCvQgwNPOpOsYPjA4i1u1AXrsylR
+ET2CX70hT4UK6BK+KDOV5uSpuS+NaSWVEBmJ6tC0X8fVzOv29g4qtCmhxEWAI48u4wT6FWFsuKFh
+Txjahs6efm5twHi2mErT6f6lqlSIJ4xO2tCBCNIg5fkrRQ95VuvwMv4DJH3vxh7Df+Uyjb4bIOtq
+f5dvf8Xyex72xF0fJxhA+fSz3bmUrF1JQHmYHbfI+YA9n6iqe12QjZZMhIFMh/8EH//KGv6CbKrA
+DzvQcsxp5/E7D9RxMHE+fMZXiAG6G2Ecnr7SGjtZo1bNiMkNcmMF1HA8cDS7C9LjX/LrAgMBAAGj
+ezB5MFgGA1UdEQRRME+CGmlkcC1kZXYxLnByaXZhdGUuY2luZWNhLml0hjFodHRwczovL2lkcC1k
+ZXYxLnByaXZhdGUuY2luZWNhLml0L2lkcC9zaGliYm9sZXRoMB0GA1UdDgQWBBQA5cxSUsB+rEi7
+tszL9OEkj0g3UDANBgkqhkiG9w0BAQUFAAOCAQEADhdCzQ4Ykhg8L8cwJkxPqUd5v5r+NDt5pDoa
+iQRYc3fHdtFwM3gP/EjoDaUiVG0Y33ujAiuHUG3xsFdOXD74F4xHukvWi1Ju5JLy4jbfiflYlVG+
+tBnQJLGTs17XlfrCwu7rxkxwYUdoU/HsON+ILktn528x2VOuLayzxemfc+eMxAu5A3S3dgZeUsof
+k6eyfnqid/+HcfX02WrRC4+LO3w1zLbMSpBZrKIhw5Oev5p6kVlaDPyF+Jlm5FaSSpYCKBYnT58G
+uwOrWx6QDRR8MGGWR537letk07bJX5s43M2G37DFfX90r9NG22Fp3CkbS8kiAXgJQP/P5Dy3PL6+
+uA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:KeyDescriptor use="signing">
+	<ds:KeyInfo>
+         <ds:X509Data>
+	<ds:X509Certificate>
+MIIDVDCCAjygAwIBAgIVANS07VaPc/gsZ/51WPOjK7yoKLkxMA0GCSqGSIb3DQEB
+BQUAMCUxIzAhBgNVBAMTGmlkcC1kZXYxLnByaXZhdGUuY2luZWNhLml0MB4XDTA4
+MDUyMjEyMTQzMVoXDTI4MDUyMjEyMTQzMVowJTEjMCEGA1UEAxMaaWRwLWRldjEu
+cHJpdmF0ZS5jaW5lY2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCgnlCuoVO1sb9tZmBwkCvQgwNPOpOsYPjA4i1u1AXrsylRET2CX70hT4UK6BK+
+KDOV5uSpuS+NaSWVEBmJ6tC0X8fVzOv29g4qtCmhxEWAI48u4wT6FWFsuKFhTxja
+hs6efm5twHi2mErT6f6lqlSIJ4xO2tCBCNIg5fkrRQ95VuvwMv4DJH3vxh7Df+Uy
+jb4bIOtqf5dvf8Xyex72xF0fJxhA+fSz3bmUrF1JQHmYHbfI+YA9n6iqe12QjZZM
+hIFMh/8EH//KGv6CbKrADzvQcsxp5/E7D9RxMHE+fMZXiAG6G2Ecnr7SGjtZo1bN
+iMkNcmMF1HA8cDS7C9LjX/LrAgMBAAGjezB5MFgGA1UdEQRRME+CGmlkcC1kZXYx
+LnByaXZhdGUuY2luZWNhLml0hjFodHRwczovL2lkcC1kZXYxLnByaXZhdGUuY2lu
+ZWNhLml0L2lkcC9zaGliYm9sZXRoMB0GA1UdDgQWBBQA5cxSUsB+rEi7tszL9OEk
+j0g3UDANBgkqhkiG9w0BAQUFAAOCAQEADhdCzQ4Ykhg8L8cwJkxPqUd5v5r+NDt5
+pDoaiQRYc3fHdtFwM3gP/EjoDaUiVG0Y33ujAiuHUG3xsFdOXD74F4xHukvWi1Ju
+5JLy4jbfiflYlVG+tBnQJLGTs17XlfrCwu7rxkxwYUdoU/HsON+ILktn528x2VOu
+Layzxemfc+eMxAu5A3S3dgZeUsofk6eyfnqid/+HcfX02WrRC4+LO3w1zLbMSpBZ
+rKIhw5Oev5p6kVlaDPyF+Jlm5FaSSpYCKBYnT58GuwOrWx6QDRR8MGGWR537letk
+07bJX5s43M2G37DFfX90r9NG22Fp3CkbS8kiAXgJQP/P5Dy3PL6+uA==
+	</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+         <ds:X509Data>
+        <ds:X509Certificate>
+MIIDVDCCAjygAwIBAgIVANS07VaPc/gsZ/51WPOjK7yoKLkxMA0GCSqGSIb3DQEB
+BQUAMCUxIzAhBgNVBAMTGmlkcC1kZXYxLnByaXZhdGUuY2luZWNhLml0MB4XDTA4
+MDUyMjEyMTQzMVoXDTI4MDUyMjEyMTQzMVowJTEjMCEGA1UEAxMaaWRwLWRldjEu
+cHJpdmF0ZS5jaW5lY2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCgnlCuoVO1sb9tZmBwkCvQgwNPOpOsYPjA4i1u1AXrsylRET2CX70hT4UK6BK+
+KDOV5uSpuS+NaSWVEBmJ6tC0X8fVzOv29g4qtCmhxEWAI48u4wT6FWFsuKFhTxja
+hs6efm5twHi2mErT6f6lqlSIJ4xO2tCBCNIg5fkrRQ95VuvwMv4DJH3vxh7Df+Uy
+jb4bIOtqf5dvf8Xyex72xF0fJxhA+fSz3bmUrF1JQHmYHbfI+YA9n6iqe12QjZZM
+hIFMh/8EH//KGv6CbKrADzvQcsxp5/E7D9RxMHE+fMZXiAG6G2Ecnr7SGjtZo1bN
+iMkNcmMF1HA8cDS7C9LjX/LrAgMBAAGjezB5MFgGA1UdEQRRME+CGmlkcC1kZXYx
+LnByaXZhdGUuY2luZWNhLml0hjFodHRwczovL2lkcC1kZXYxLnByaXZhdGUuY2lu
+ZWNhLml0L2lkcC9zaGliYm9sZXRoMB0GA1UdDgQWBBQA5cxSUsB+rEi7tszL9OEk
+j0g3UDANBgkqhkiG9w0BAQUFAAOCAQEADhdCzQ4Ykhg8L8cwJkxPqUd5v5r+NDt5
+pDoaiQRYc3fHdtFwM3gP/EjoDaUiVG0Y33ujAiuHUG3xsFdOXD74F4xHukvWi1Ju
+5JLy4jbfiflYlVG+tBnQJLGTs17XlfrCwu7rxkxwYUdoU/HsON+ILktn528x2VOu
+Layzxemfc+eMxAu5A3S3dgZeUsofk6eyfnqid/+HcfX02WrRC4+LO3w1zLbMSpBZ
+rKIhw5Oev5p6kVlaDPyF+Jlm5FaSSpYCKBYnT58GuwOrWx6QDRR8MGGWR537letk
+07bJX5s43M2G37DFfX90r9NG22Fp3CkbS8kiAXgJQP/P5Dy3PL6+uA==
+        </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-preprod.unito.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-preprod.unito.it/Shibboleth.sso/SLO/Redirect"/>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.unito.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.unito.it/Shibboleth.sso/SLO/Redirect"/>
+
+
+    
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    
+
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.unito.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-preprod.unito.it/Shibboleth.sso/SAML2/POST" index="1"/>
+
+
+	
+	<md:AttributeConsumingService index="0">
+		<md:ServiceName xml:lang="it">Unito SPID - Login Pre-prod</md:ServiceName>
+		<md:RequestedAttribute Name="name"/>
+		<md:RequestedAttribute Name="familyName"/>
+		<md:RequestedAttribute Name="fiscalNumber"/>
+		<md:RequestedAttribute Name="spidCode"/>
+	</md:AttributeConsumingService>	
+
+        <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="it">Unito SPID - Login Prod</md:ServiceName>
+                <md:RequestedAttribute Name="name"/>
+                <md:RequestedAttribute Name="familyName"/>
+                <md:RequestedAttribute Name="fiscalNumber"/>
+                <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+
+	<md:AttributeConsumingService index="2">
+		<md:ServiceName xml:lang="it">Unito SPID - Registrazione Pre-prod</md:ServiceName>
+                <md:RequestedAttribute Name="name"/>
+                <md:RequestedAttribute Name="familyName"/>
+                <md:RequestedAttribute Name="fiscalNumber"/>
+                <md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="placeOfBirth"/>
+		<md:RequestedAttribute Name="dateOfBirth"/>				
+		<md:RequestedAttribute Name="gender"/>
+		<md:RequestedAttribute Name="idCard"/>
+		<md:RequestedAttribute Name="mobilePhone"/>
+		<md:RequestedAttribute Name="email"/>
+		<md:RequestedAttribute Name="address"/>
+	</md:AttributeConsumingService>	
+
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">Unito SPID - Registrazione Prod</md:ServiceName>
+                <md:RequestedAttribute Name="name"/>
+                <md:RequestedAttribute Name="familyName"/>
+                <md:RequestedAttribute Name="fiscalNumber"/>
+                <md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="placeOfBirth"/>
+		<md:RequestedAttribute Name="dateOfBirth"/>				
+		<md:RequestedAttribute Name="gender"/>
+		<md:RequestedAttribute Name="idCard"/>
+		<md:RequestedAttribute Name="mobilePhone"/>
+		<md:RequestedAttribute Name="email"/>
+		<md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+
+
+
+  </md:SPSSODescriptor>
+  
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Università degli Studi di Torino</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Unito</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">www.unito.it</md:OrganizationURL>
+	</md:Organization>
+  
+</md:EntityDescriptor>

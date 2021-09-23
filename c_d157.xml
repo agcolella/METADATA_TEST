@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.crespano.tv.it" ID="pfx8a8dff23-0348-1197-194d-fd62f0a493a8"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8a8dff23-0348-1197-194d-fd62f0a493a8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>LGLq9wARjOg09zHH6sMkkcYMyyIBoHXQ8Aj4nr48+24=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>n6+I19rJEB+wZlvY+7y7pTviN2rG+9QVjsqLHiBmgoTj/tcjf1GFooRBeAIggW2QVvlCA0apoxYZumfENSz1liy2LFfCzmqsvi06cx9qe3OKVwJ85Yn04qirzv6SZNAsmVnB2btyVAHDIkV7Gl70jmfkWgPUE2F9czv0RlS4BSSITKXe6BToibeRqkPR0rkPSkYJdFT8vlC8iiW2Getb4bj2rcsibHLBcJBLBMSqJMLhzpHUajHpQ+dt144D/TQUsVfEe+u/xCJsdJRgDxC65LVY8zf1/lkYgQWEgBnrZKk7wh5LCLVhzMuY/zjWVt1XFhNuDtsXrH4lAqrCP0N/LQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID4zCCAsugAwIBAgIJAK2y3rgxOq93MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0NyZXNwYW5vIGRlbCBHcmFwcGExJjAkBgNVBAoMHUNvbXVuZSBkaSBDcmVzcGFubyBkZWwgR3JhcHBhMSIwIAYDVQQDDBl3d3cuY29tdW5lLmNyZXNwYW5vLnR2Lml0MB4XDTE4MDQwNDEwMDAxM1oXDTI4MDQwMzEwMDAxM1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEcMBoGA1UEBwwTQ3Jlc3Bhbm8gZGVsIEdyYXBwYTEmMCQGA1UECgwdQ29tdW5lIGRpIENyZXNwYW5vIGRlbCBHcmFwcGExIjAgBgNVBAMMGXd3dy5jb211bmUuY3Jlc3Bhbm8udHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLFOETVQtzsZEk/9QWS8YBOMRuygHF8JySu5ZaXYG27ledj0X/gQg5dltlr/IsLK2ERTQc5HD3iex52Rz09ZOC+elO3wesuCEcF2dd0H7N7QONRZT0DC/TVGnyc9nNrn/8bSATKuDGJYa2xY2V1vZzIJNEnMt9d/xn+Dc3nhosSont8LljlPMbMmONEsStNACJJ0+16x1TOojxu8pM4sdRshDDu5nXyjgvAD2XPva7Dk6fA5dV0gcFteGxixc3IKh+jVUS+7QYLTW1xS+yfoi1flnXtx244h3bxQ8cfbmRpdtioUkEkvTEIuAjHML1mLGGhJzKe14vOB3tc793Pj6VAgMBAAGjUDBOMB0GA1UdDgQWBBTWY6yvMKyh5HhbafzPQtujWSxmVDAfBgNVHSMEGDAWgBTWY6yvMKyh5HhbafzPQtujWSxmVDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQADxVeu0v1UK1l+rp6v+AF71dxKO2mmDCUV2SKxUb8M1zUTExXjSxTJ2Q1V5MoYnB9hK/yPKz+pbl8NWywSckPUwFoG41ZmTqWyKl3n3pm1q07SjOEU0lDb0SX61ZAFBAOuxJIQwkuNGF5BheQWmi4GJxUTlpgkOMlYgI5sukBftcHEF6+PVpLWtx8g46I06/cfE21kngngDOacRryySlD/Q0CEr7rHFlOUfluQH8NfqCxml2EyaZeVS+w0vrqxrG5NOTnUxfBRczraxqIiDbAn3oUmhP/ZYSW2pTLlQefpq8GIc+fEo7KgqEf9xj0i3q/0hcN3vG2U+n/63BKAbTmU</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAK2y3rgxOq93MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0NyZXNwYW5vIGRlbCBHcmFwcGExJjAkBgNVBAoMHUNvbXVuZSBkaSBDcmVzcGFubyBkZWwgR3JhcHBhMSIwIAYDVQQDDBl3d3cuY29tdW5lLmNyZXNwYW5vLnR2Lml0MB4XDTE4MDQwNDEwMDAxM1oXDTI4MDQwMzEwMDAxM1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEcMBoGA1UEBwwTQ3Jlc3Bhbm8gZGVsIEdyYXBwYTEmMCQGA1UECgwdQ29tdW5lIGRpIENyZXNwYW5vIGRlbCBHcmFwcGExIjAgBgNVBAMMGXd3dy5jb211bmUuY3Jlc3Bhbm8udHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLFOETVQtzsZEk/9QWS8YBOMRuygHF8JySu5ZaXYG27ledj0X/gQg5dltlr/IsLK2ERTQc5HD3iex52Rz09ZOC+elO3wesuCEcF2dd0H7N7QONRZT0DC/TVGnyc9nNrn/8bSATKuDGJYa2xY2V1vZzIJNEnMt9d/xn+Dc3nhosSont8LljlPMbMmONEsStNACJJ0+16x1TOojxu8pM4sdRshDDu5nXyjgvAD2XPva7Dk6fA5dV0gcFteGxixc3IKh+jVUS+7QYLTW1xS+yfoi1flnXtx244h3bxQ8cfbmRpdtioUkEkvTEIuAjHML1mLGGhJzKe14vOB3tc793Pj6VAgMBAAGjUDBOMB0GA1UdDgQWBBTWY6yvMKyh5HhbafzPQtujWSxmVDAfBgNVHSMEGDAWgBTWY6yvMKyh5HhbafzPQtujWSxmVDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQADxVeu0v1UK1l+rp6v+AF71dxKO2mmDCUV2SKxUb8M1zUTExXjSxTJ2Q1V5MoYnB9hK/yPKz+pbl8NWywSckPUwFoG41ZmTqWyKl3n3pm1q07SjOEU0lDb0SX61ZAFBAOuxJIQwkuNGF5BheQWmi4GJxUTlpgkOMlYgI5sukBftcHEF6+PVpLWtx8g46I06/cfE21kngngDOacRryySlD/Q0CEr7rHFlOUfluQH8NfqCxml2EyaZeVS+w0vrqxrG5NOTnUxfBRczraxqIiDbAn3oUmhP/ZYSW2pTLlQefpq8GIc+fEo7KgqEf9xj0i3q/0hcN3vG2U+n/63BKAbTmU</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAK2y3rgxOq93MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0NyZXNwYW5vIGRlbCBHcmFwcGExJjAkBgNVBAoMHUNvbXVuZSBkaSBDcmVzcGFubyBkZWwgR3JhcHBhMSIwIAYDVQQDDBl3d3cuY29tdW5lLmNyZXNwYW5vLnR2Lml0MB4XDTE4MDQwNDEwMDAxM1oXDTI4MDQwMzEwMDAxM1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEcMBoGA1UEBwwTQ3Jlc3Bhbm8gZGVsIEdyYXBwYTEmMCQGA1UECgwdQ29tdW5lIGRpIENyZXNwYW5vIGRlbCBHcmFwcGExIjAgBgNVBAMMGXd3dy5jb211bmUuY3Jlc3Bhbm8udHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLFOETVQtzsZEk/9QWS8YBOMRuygHF8JySu5ZaXYG27ledj0X/gQg5dltlr/IsLK2ERTQc5HD3iex52Rz09ZOC+elO3wesuCEcF2dd0H7N7QONRZT0DC/TVGnyc9nNrn/8bSATKuDGJYa2xY2V1vZzIJNEnMt9d/xn+Dc3nhosSont8LljlPMbMmONEsStNACJJ0+16x1TOojxu8pM4sdRshDDu5nXyjgvAD2XPva7Dk6fA5dV0gcFteGxixc3IKh+jVUS+7QYLTW1xS+yfoi1flnXtx244h3bxQ8cfbmRpdtioUkEkvTEIuAjHML1mLGGhJzKe14vOB3tc793Pj6VAgMBAAGjUDBOMB0GA1UdDgQWBBTWY6yvMKyh5HhbafzPQtujWSxmVDAfBgNVHSMEGDAWgBTWY6yvMKyh5HhbafzPQtujWSxmVDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQADxVeu0v1UK1l+rp6v+AF71dxKO2mmDCUV2SKxUb8M1zUTExXjSxTJ2Q1V5MoYnB9hK/yPKz+pbl8NWywSckPUwFoG41ZmTqWyKl3n3pm1q07SjOEU0lDb0SX61ZAFBAOuxJIQwkuNGF5BheQWmi4GJxUTlpgkOMlYgI5sukBftcHEF6+PVpLWtx8g46I06/cfE21kngngDOacRryySlD/Q0CEr7rHFlOUfluQH8NfqCxml2EyaZeVS+w0vrqxrG5NOTnUxfBRczraxqIiDbAn3oUmhP/ZYSW2pTLlQefpq8GIc+fEo7KgqEf9xj0i3q/0hcN3vG2U+n/63BKAbTmU</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.crespano.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.crespano.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Crespano del Grappa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Crespano del Grappa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.crespano.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

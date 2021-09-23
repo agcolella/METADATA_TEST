@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="fd1fbd85-7307-4c54-854e-c54f932cfca0" entityID="https://comune.santostefanodicamastra.me.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#fd1fbd85-7307-4c54-854e-c54f932cfca0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>KScgXIoRG/ZQV+HHUrosrOMCIbsM53m0HZQ0sqG8GKM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rltNVmQwvTQl38T1KkSf4FSAVAWkxRNpbvQbcxtHPwIl9+WBgNr5lOts2lbKBnIJeXMDizu5Dh73
+FYlPi2JDvdcB7oW3UUw75502C/q7ml042jjUrhMpvrHsN4iMna4jY6l07HeSASD/RQAA9ILQ/hQa
+rKcU72gBybPZuuCK0UcJRbgVI8nZx3vQXIzuN7kUQzgWM1AISFaiX9Jn2L9ma+E+Ci3F8bbp6l1n
+sIG1GQYuwO8kgBCQWSCKQEwLrt/fsqTuMoma1NtcX5uELC7W1+QIg15pT+XUzSrG31RIzrBbZws+
+023S2dKs+7ir/6t1OXc5I0n4RYtV0/MIKi49nw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3FyeTDvCE1qR/6gcjpk5KWqSueM3ggmQDDce4Bk8FD1eBbUdMLIfiBj54bw40rLprUq5CouupB6m
+G1+SmUZ0/Pj1hq6Vw9oZ5MtGIAh/gvFKhET87Skkrw+3gf+mCFgoQjnyE/GTmabZyoQdM0exMWTp
+byi67v2ZaEqC5A5ptsTY9yiDz6ACM6M1Nnw4aFE4gZMqhfh8OZoTpCvxCvFFQDE6/DuWO6MeTqHY
+sDqPg3FyRvS/G2PG6l4azBP1vtwW1Pljb8sWe8xx18qVN83JiqaAitpz4jhyhz5CyuB3yiraS9hm
+ADdP03Jlgia+LzkFuhjTTeR9Am354rIEpSS1kQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDezCCAmOgAwIBAgIJAItPIYOYAzzaMA0GCSqGSIb3DQEBCwUAMDcxNTAzBgNVBAMTLGh0dHBz
+Oi8vY29tdW5lLnNhbnRvc3RlZmFub2RpY2FtYXN0cmEubWUuaXQvMB4XDTE4MDcwNjEzNTEwMloX
+DTI4MDcwMzEzNTEwMlowNzE1MDMGA1UEAxMsaHR0cHM6Ly9jb211bmUuc2FudG9zdGVmYW5vZGlj
+YW1hc3RyYS5tZS5pdC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcXJ5MO8ITWpH/
+qByOmTkpapK54zeCCZAMNx7gGTwUPV4FtR0wsh+IGPnhvDjSsumtSrkKi66kHqYbX5KZRnT8+PWG
+rpXD2hnky0YgCH+C8UqERPztKSSvD7eB/6YIWChCOfIT8ZOZptnKhB0zR7ExZOlvKLru/ZloSoLk
+Dmm2xNj3KIPPoAIzozU2fDhoUTiBkyqF+Hw5mhOkK/EK8UVAMTr8O5Y7ox5OodiwOo+DcXJG9L8b
+Y8bqXhrME/W+3BbU+WNvyxZ7zHHXypU3zcmKpoCK2nPiOHKHPkLK4HfKKtpL2GYAN0/TcmWCJr4v
+OQW6GNNN5H0CbfnisgSlJLWRAgMBAAGjgYkwgYYwZQYDVR0RBF4wXIIsaHR0cHM6Ly9jb211bmUu
+c2FudG9zdGVmYW5vZGljYW1hc3RyYS5tZS5pdC+GLGh0dHBzOi8vY29tdW5lLnNhbnRvc3RlZmFu
+b2RpY2FtYXN0cmEubWUuaXQvMB0GA1UdDgQWBBRlT+3XF9XbhEmyS3XH7P1ACyWZKjANBgkqhkiG
+9w0BAQsFAAOCAQEAWA92+3kQzEbFsOG7KN6kLlMZPr+ZQvfY+vXukuGChRYwneJmYwUN2FSSc2kP
+yLOS+8edF7UsChRBQ1Jgv1DcIkGXEknX5gG1nCEwRWY+24CbDVLeqwPIiqWSQFGp893AbujdgSDt
+61IkptodpHfZS3FZLyvFFo77ehMM7bt/Q5+o34M+Tmj5biUL57YIYPpMltMYznFxSb3tZBNLTKZo
+dcVURi74aYeYVhRC5fwqUOTJdQizZeWNdNucXqLuYLXLkOQ3ImJcMDJAAgI3jYKtqYcZERqSdNBe
+0oo6qKpSle1LFAUkOGalbSCokNModUGwQuW0gqln0zDuzwzDVGiJ/g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDezCCAmOgAwIBAgIJAItPIYOYAzzaMA0GCSqGSIb3DQEBCwUAMDcxNTAzBgNVBAMTLGh0dHBzOi8vY29tdW5lLnNhbnRvc3RlZmFub2RpY2FtYXN0cmEubWUuaXQvMB4XDTE4MDcwNjEzNTEwMloXDTI4MDcwMzEzNTEwMlowNzE1MDMGA1UEAxMsaHR0cHM6Ly9jb211bmUuc2FudG9zdGVmYW5vZGljYW1hc3RyYS5tZS5pdC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcXJ5MO8ITWpH/qByOmTkpapK54zeCCZAMNx7gGTwUPV4FtR0wsh+IGPnhvDjSsumtSrkKi66kHqYbX5KZRnT8+PWGrpXD2hnky0YgCH+C8UqERPztKSSvD7eB/6YIWChCOfIT8ZOZptnKhB0zR7ExZOlvKLru/ZloSoLkDmm2xNj3KIPPoAIzozU2fDhoUTiBkyqF+Hw5mhOkK/EK8UVAMTr8O5Y7ox5OodiwOo+DcXJG9L8bY8bqXhrME/W+3BbU+WNvyxZ7zHHXypU3zcmKpoCK2nPiOHKHPkLK4HfKKtpL2GYAN0/TcmWCJr4vOQW6GNNN5H0CbfnisgSlJLWRAgMBAAGjgYkwgYYwZQYDVR0RBF4wXIIsaHR0cHM6Ly9jb211bmUuc2FudG9zdGVmYW5vZGljYW1hc3RyYS5tZS5pdC+GLGh0dHBzOi8vY29tdW5lLnNhbnRvc3RlZmFub2RpY2FtYXN0cmEubWUuaXQvMB0GA1UdDgQWBBRlT+3XF9XbhEmyS3XH7P1ACyWZKjANBgkqhkiG9w0BAQsFAAOCAQEAWA92+3kQzEbFsOG7KN6kLlMZPr+ZQvfY+vXukuGChRYwneJmYwUN2FSSc2kPyLOS+8edF7UsChRBQ1Jgv1DcIkGXEknX5gG1nCEwRWY+24CbDVLeqwPIiqWSQFGp893AbujdgSDt61IkptodpHfZS3FZLyvFFo77ehMM7bt/Q5+o34M+Tmj5biUL57YIYPpMltMYznFxSb3tZBNLTKZodcVURi74aYeYVhRC5fwqUOTJdQizZeWNdNucXqLuYLXLkOQ3ImJcMDJAAgI3jYKtqYcZERqSdNBe0oo6qKpSle1LFAUkOGalbSCokNModUGwQuW0gqln0zDuzwzDVGiJ/g==</ds:X509Certificate>        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+		<md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIID/jCCAuagAwIBAgIJAJuiSEiMncliMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYD VQQGEwJJVDESMBAGA1UECAwJTG9tYmFyZGlhMRQwEgYDVQQHDAtPcm5hZ28gKE1C KTETMBEGA1UECgwKU3RhcmNoIHNybDEPMA0GA1UECwwGU3RhcmNoMQ8wDQYDVQQD DAZTdGFyY2gxIzAhBgkqhkiG9w0BCQEWFGFzc2lzdGVuemFAc3RhcmNoLml0MB4X DTE4MDQwODA2NTg1OVoXDTIzMDQwNzA2NTg1OVowgZMxCzAJBgNVBAYTAklUMRIw EAYDVQQIDAlMb21iYXJkaWExFDASBgNVBAcMC09ybmFnbyAoTUIpMRMwEQYDVQQK DApTdGFyY2ggc3JsMQ8wDQYDVQQLDAZTdGFyY2gxDzANBgNVBAMMBlN0YXJjaDEj MCEGCSqGSIb3DQEJARYUYXNzaXN0ZW56YUBzdGFyY2guaXQwggEiMA0GCSqGSIb3 DQEBAQUAA4IBDwAwggEKAoIBAQC1OUQnR0sDZKy+YEpD4wBnmemnRtoW2QOjwH2g PngKEwzm+hwfSTcdA6IGQDgs2uLgwYIWiYlCvLI7es/EbWXyIGmXuTjCkorxHjqt +hx5C7jQ5jFwdZDgDIv+wVVoWmKRucr4saDqDs5UgE+1c2/zW7gqfQAFF2j8Fsbk DfajeO7iFE86+qyPyAdzuomfMGA6L3zhjRZKzdizlqZqeZX20tV334LJCchMhG9E XH6FPi1uqBV/wGOuh4NX3ZMI7M+RDVTDBqw78JW1cutOmAAbsST9UaPVsuobNxt3 oAKp25I8O+BaV3ouI/OV4DFo6sEBVnqB0bSeuaGfJDW0WL1HAgMBAAGjUzBRMB0G A1UdDgQWBBQXlNLs0Flt1uKKjXYivYewHkedmDAfBgNVHSMEGDAWgBQXlNLs0Flt 1uKKjXYivYewHkedmDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB AQBS56xaq5v32wj9Yj2jXAwWPeLsvBx313QTL5ctqgGjpYMoUZmUZIhsqARm/MLd 9d5j+vdGHOaFgzMC+PxfdO5bXg1cvqa5TtE+1qetudMXdzZDLeXOrifSzXCujaLO /Wrs6GX17v3rOPvm9xIrdItTMzIXi4t0qy6Tu64Z2VrMMeAR0HkXrmRZfY0vjW5P Q9RVNrU8wubdlIVFlf8RQrN9tv3tFPRlVq0oDhUQGTGRsQnSqeOeaEiU7ksPoQnk rDD0GeoH6BDx2kONVgLqHIWfhtv7Cs2iNtXEqFFxuLWli+li6jtecBF6o/Muk/Zq ejmZpyojs84slWysyS5l3eaF</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+	</md:KeyDescriptor> 
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://servizionline.hypersic.net/cmsstefanocamastra/spidsinglelogout.aspx"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://servizionline.hypersic.net/cmsstefanocamastra/spidassertionconsumer.aspx" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shb.cportal.it/SPID_I370/Shibboleth.sso/SAML2/POST" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">servizionline</md:ServiceName>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+    <md:ServiceName xml:lang="it">Base</md:ServiceName>
+    <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Santo Stefano di Camastra</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Santo Stefano di Camastra</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://comune.santostefanodicamastra.me.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

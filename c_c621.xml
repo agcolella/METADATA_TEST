@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="pfx3ae9a50d-80e0-3c66-ccad-720ff5410293" entityID="https://digitale.comune.chiavari.ge.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx3ae9a50d-80e0-3c66-ccad-720ff5410293">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>94HVelz68HUGrRyQiNoZizBQENVf0O9dEyYG0G04Hlc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+N30mVLETVsAywHlS+T3YhIWLX6M7x1SQl09JlgMfjzQ8/p16rwiFlSoLhNEx5L0suq5tgVrB+mKp
+3FE/4T2oMi30hNnEO2yJHtOlpVYkEdNHngoMDmEVsHpupnXeVgja6MrpT+9+7NNFgbZy9TAmyy1J
+/Dh/ngsS4zhsymoFtFQSMzv1cWynHmP1R+X+2K2EPRdUAvm7lRv2iKFSIlhCanmbrKRma3JN60vC
+KMZ7HEqKR2TKioKYn70GNxtepXTtEuJ8Wd85ufET/5reiv/ycDNujxe0nmti213AsrATTcFJAbl+
+nLUd/48uPLzGQlpDq+18sJWBVQz51KmF8kndCw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yjwhnvTULZ5CYOj3/NmIVtBleLBrhavt1ayTlXDBAAth7cHqLA1KGY1OOKfvqXaQq0ToQ2pen7VP
+FJkMObHf/I4VGaOoOKk+z8QtekxogHyuhQPjms05ty2ecQCfykNWr+R3B0hiYSlS8+Pg/LZS3Qat
+1JgeLE3Dm8kobi1u6b1HyB4oaYLOYsCMw8eiic9k70D065QSENVUxVSzuwgUSJUefznjvkbMo8qp
+CL7cbJEUzNs07rdm7DoL3Cxt3tv2Xc8NcT2sqMuM3gOPmGO7TUdCXFDRHz1JDOBWqqtWRJ/jQkd4
+lNpPkfo8YJqxoL4KSNsmzOQa021WXPBc6UEykw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEOjCCAyKgAwIBAgIJAODKu3VnMKNHMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGR2Vub3ZhMREwDwYDVQQHDAhDaGlhdmFyaTE1MDMGA1UECgwsQ29tdW5lIGRpIENo
+aWF2YXJpIGUgU2FudGEgTWFyZ2hlcml0YSBMaWd1cmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxl
+bWF0aWNvMSgwJgYDVQQDDB9zcG9ydGVsbG8uY29tdW5lLmNoaWF2YXJpLmdlLml0MB4XDTIwMDYx
+MDEwNDIxNloXDTMwMDYwODEwNDIxNlowgbExCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZHZW5vdmEx
+ETAPBgNVBAcMCENoaWF2YXJpMTUwMwYDVQQKDCxDb211bmUgZGkgQ2hpYXZhcmkgZSBTYW50YSBN
+YXJnaGVyaXRhIExpZ3VyZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKDAmBgNVBAMM
+H3Nwb3J0ZWxsby5jb211bmUuY2hpYXZhcmkuZ2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDKPCGe9NQtnkJg6Pf82YhW0GV4sGuFq+3VrJOVcMEAC2HtweosDUoZjU44p++pdpCr
+ROhDal6ftU8UmQw5sd/8jhUZo6g4qT7PxC16TGiAfK6FA+OazTm3LZ5xAJ/KQ1av5HcHSGJhKVLz
+4+D8tlLdBq3UmB4sTcObyShuLW7pvUfIHihpgs5iwIzDx6KJz2TvQPTrlBIQ1VTFVLO7CBRIlR5/
+OeO+RsyjyqkIvtxskRTM2zTut2bsOgvcLG3e2/Zdzw1xPayoy4zeA4+YY7tNR0JcUNEfPUkM4Faq
+q1ZEn+NCR3iU2k+R+jxgmrGgvgpI2ybM5BrTbVZc8FzpQTKTAgMBAAGjUzBRMB0GA1UdDgQWBBSF
+xPnmlTqlKITPBFyjmaPlMp3agTAfBgNVHSMEGDAWgBSFxPnmlTqlKITPBFyjmaPlMp3agTAPBgNV
+HRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB5xOJ2w52i8dbItXW+Jb/giUDvGa52bnRP
+MzUDL5dg0XMiX23/gFA2hXgeO4UWPuqCtYHUnv8Hcmbki5CY6KHOD95IwGCKlvIs1j/6xiTADz7D
+Awk1g79+kaAKM9yDwftJUP5SRKsYkOQMogJlxctziXUMC5NZl5YJNk0QopJyJo6KeT5y8Thw9oCa
+b+kQ4p+udn+nTUrw8T6sp/nH8jgMeBxmz+I403xHzpYI9EYu+FMEqYW31FwwF+L27+1xjaBtbMaD
+O8A3Ux2sBzqyQAvulAwLuTipb1kCpkz6rRSNSVhFnHcIW4CFCbnpIVJskdo7FcRM6W4SLpQFl+fB
+HTvn
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDaTCCAlGgAwIBAgIBATANBgkqhkiG9w0BAQsFADBlMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxETAPBgNVBAcTCENoaWF2YXJpMRswGQYDVQQKExJDb211bmUgZGkgQ2hpYXZhcmkxFjAUBgNVBAMTDUNoaWF2YXJpIFNQSUQwIBcNMjAwNDA2MDAwMDAwWhgPMjEyMDA0MDUyMzU5NTlaMGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTERMA8GA1UEBxMIQ2hpYXZhcmkxGzAZBgNVBAoTEkNvbXVuZSBkaSBDaGlhdmFyaTEWMBQGA1UEAxMNQ2hpYXZhcmkgU1BJRDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJfE3Viiysq3Q//98JKIZuXhwqr2HWqNQwLWjwQIF322ssU0eXviD4VGIB2JdeoWFzVPnyD6xFgKFmKC2yy+IjlErqWNWUzyt1qZZSx9n9dxsR6iWk5zO3IAIYXdjPizYkWccB059QG2iJ4kBFXS814hFO7d/16PSQ9rpVrl/Dcy4UMfZZGCX8SzbQEQsM8bk7Qp/aPfz5ZoXDOUJh3aXZ55u9/thtX2JWYi5fon2InbboLgnrDrsO7IVX0YKMDa0eObBsx39fYkUR4aklTXIsS5uvay3P2fO/8zf4GhdPRjFipNRz+qGSttp0ecT0AG9j4sY3Q9myF6S6JYW5PZupkCAwEAAaMiMCAwCwYDVR0PBAQDAgKsMBEGCWCGSAGG+EIBAQQEAwIA0TANBgkqhkiG9w0BAQsFAAOCAQEAftc2kJ1/dBDbITBlnHdDpIbKuEriKkIB+qNZ7hCWZaU7WN/cyhWrOlgxa1+LAOMS1GJEbUCJ8Hikn+RdVO41NopOp61n3z2IvsRoUFW9yFmMiWFrzmpP20E2VM/VUUYF7USs6+Wt/giTBFCFmp6xo0jSEMF+QK8YCEBk2Q3MNByy2QyGw3bCTa/ko5DLdtrmFQilcdN5FUYKv0F8cnhcDhk229Aogb6E4qEgvsHH45S+xnz8xjSpiwXni0NrNygT74FySCyULAq5622ICIONDuHtjl2RyGMSuh1vhZm3eCVknX76iVrfvyoMgq2jICHmn13U8xA/u37+RHmMBwMCYg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAODKu3VnMKNHMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGR2Vub3ZhMREwDwYDVQQHDAhDaGlhdmFyaTE1MDMGA1UECgwsQ29tdW5lIGRpIENoaWF2YXJpIGUgU2FudGEgTWFyZ2hlcml0YSBMaWd1cmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSgwJgYDVQQDDB9zcG9ydGVsbG8uY29tdW5lLmNoaWF2YXJpLmdlLml0MB4XDTIwMDYxMDEwNDIxNloXDTMwMDYwODEwNDIxNlowgbExCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZHZW5vdmExETAPBgNVBAcMCENoaWF2YXJpMTUwMwYDVQQKDCxDb211bmUgZGkgQ2hpYXZhcmkgZSBTYW50YSBNYXJnaGVyaXRhIExpZ3VyZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKDAmBgNVBAMMH3Nwb3J0ZWxsby5jb211bmUuY2hpYXZhcmkuZ2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKPCGe9NQtnkJg6Pf82YhW0GV4sGuFq+3VrJOVcMEAC2HtweosDUoZjU44p++pdpCrROhDal6ftU8UmQw5sd/8jhUZo6g4qT7PxC16TGiAfK6FA+OazTm3LZ5xAJ/KQ1av5HcHSGJhKVLz4+D8tlLdBq3UmB4sTcObyShuLW7pvUfIHihpgs5iwIzDx6KJz2TvQPTrlBIQ1VTFVLO7CBRIlR5/OeO+RsyjyqkIvtxskRTM2zTut2bsOgvcLG3e2/Zdzw1xPayoy4zeA4+YY7tNR0JcUNEfPUkM4Faqq1ZEn+NCR3iU2k+R+jxgmrGgvgpI2ybM5BrTbVZc8FzpQTKTAgMBAAGjUzBRMB0GA1UdDgQWBBSFxPnmlTqlKITPBFyjmaPlMp3agTAfBgNVHSMEGDAWgBSFxPnmlTqlKITPBFyjmaPlMp3agTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB5xOJ2w52i8dbItXW+Jb/giUDvGa52bnRPMzUDL5dg0XMiX23/gFA2hXgeO4UWPuqCtYHUnv8Hcmbki5CY6KHOD95IwGCKlvIs1j/6xiTADz7DAwk1g79+kaAKM9yDwftJUP5SRKsYkOQMogJlxctziXUMC5NZl5YJNk0QopJyJo6KeT5y8Thw9oCab+kQ4p+udn+nTUrw8T6sp/nH8jgMeBxmz+I403xHzpYI9EYu+FMEqYW31FwwF+L27+1xjaBtbMaDO8A3Ux2sBzqyQAvulAwLuTipb1kCpkz6rRSNSVhFnHcIW4CFCbnpIVJskdo7FcRM6W4SLpQFl+fBHTvn</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEOjCCAyKgAwIBAgIJAODKu3VnMKNHMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGR2Vub3ZhMREwDwYDVQQHDAhDaGlhdmFyaTE1MDMGA1UECgwsQ29tdW5lIGRpIENoaWF2YXJpIGUgU2FudGEgTWFyZ2hlcml0YSBMaWd1cmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMSgwJgYDVQQDDB9zcG9ydGVsbG8uY29tdW5lLmNoaWF2YXJpLmdlLml0MB4XDTIwMDYxMDEwNDIxNloXDTMwMDYwODEwNDIxNlowgbExCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZHZW5vdmExETAPBgNVBAcMCENoaWF2YXJpMTUwMwYDVQQKDCxDb211bmUgZGkgQ2hpYXZhcmkgZSBTYW50YSBNYXJnaGVyaXRhIExpZ3VyZTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xKDAmBgNVBAMMH3Nwb3J0ZWxsby5jb211bmUuY2hpYXZhcmkuZ2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKPCGe9NQtnkJg6Pf82YhW0GV4sGuFq+3VrJOVcMEAC2HtweosDUoZjU44p++pdpCrROhDal6ftU8UmQw5sd/8jhUZo6g4qT7PxC16TGiAfK6FA+OazTm3LZ5xAJ/KQ1av5HcHSGJhKVLz4+D8tlLdBq3UmB4sTcObyShuLW7pvUfIHihpgs5iwIzDx6KJz2TvQPTrlBIQ1VTFVLO7CBRIlR5/OeO+RsyjyqkIvtxskRTM2zTut2bsOgvcLG3e2/Zdzw1xPayoy4zeA4+YY7tNR0JcUNEfPUkM4Faqq1ZEn+NCR3iU2k+R+jxgmrGgvgpI2ybM5BrTbVZc8FzpQTKTAgMBAAGjUzBRMB0GA1UdDgQWBBSFxPnmlTqlKITPBFyjmaPlMp3agTAfBgNVHSMEGDAWgBSFxPnmlTqlKITPBFyjmaPlMp3agTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB5xOJ2w52i8dbItXW+Jb/giUDvGa52bnRPMzUDL5dg0XMiX23/gFA2hXgeO4UWPuqCtYHUnv8Hcmbki5CY6KHOD95IwGCKlvIs1j/6xiTADz7DAwk1g79+kaAKM9yDwftJUP5SRKsYkOQMogJlxctziXUMC5NZl5YJNk0QopJyJo6KeT5y8Thw9oCab+kQ4p+udn+nTUrw8T6sp/nH8jgMeBxmz+I403xHzpYI9EYu+FMEqYW31FwwF+L27+1xjaBtbMaDO8A3Ux2sBzqyQAvulAwLuTipb1kCpkz6rRSNSVhFnHcIW4CFCbnpIVJskdo7FcRM6W4SLpQFl+fBHTvn</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.digitale.comune.chiavari.ge.it/spid/logout"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportello.comune.chiavari.ge.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.digitale.comune.chiavari.ge.it/spid/acs" index="0" isDefault="true"/>
+    <!-- Globo x.W -->
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportello.comune.chiavari.ge.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">Comune di Chiavari</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+    </md:AttributeConsumingService>
+    <!-- Globo x.Q -->
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <!-- /Globo x.Q -->
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Chiavari</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Chiavari</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Chiavari</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Chiavari</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://comune.chiavari.ge.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://comune.chiavari.ge.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

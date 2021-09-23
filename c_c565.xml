@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="CesanoBoscone" entityID="https://www.comune.cesano-boscone.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#CesanoBoscone">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6iEfi9rcQeKGR7IYvOhqOUTaMu1uewFgo1CtfTZGJWU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+psnXfu5ZyUWfVmHUpbcNW8D/BU2eFAF9c6hQ+MvweElOpJHlxX1AmY9rshX3B/9HZuCan/qJqM+Y
+ncY5lNl/FVAvvJYBHAVgyixbLp52QVcSfG3dKj+Xc2MpaEAXpPn4s8bgDo58Ty1DirdtkLGfuAEM
+Re+EhCbII4tS9thXf9EyKG5vGIDg3lZ+rWyRptL62kqCQyiqFvTIwwGYlQJPN00Ga1coxvOb2Tem
+kW0wq8kJpIv93sqQzye2CETSKd2xzy5Xz4/HaaItsb8DkMOpVJMNiZXzAGEubTEIsMC198ffDMFm
+LYaJzDbpU/kh5VA8lCwDFg2IsC0kS7+CUmqV+A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tioNQ6MNcNg/TSssXZuPHyGeH6jTerNQfeKLf/EsBstzGNfEwTczEhDaAxnFCet05X3yTQ2HCzmV
+i2ieB8D7t17ni7QziffoGh4fawHKlMtyQiYPH/waq9toffKrGMm7Spy9EyJsKklLRmazurXEiBdu
+rMNKO+mx+jZwfuz0oHOkks/pY+N5Glx+kv/SOwdDlkH0bKdNeopFWzTpvF8z15ZO9Twngzr4II20
+v7IpxEbX0AypHAgj/xNK8t1XgyvR6Hv3wbDaelt3F/BKIuxDeyg/LMGnvYPuA5hbMFC3Kdv5TYNQ
+AsRX0b1nWjlTx+s7nzPZkkk8/YQLJYGnLE9F+Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJANH3+AB5dQwfMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUuY2VzYW5vLWJvc2NvbmUubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE5MDUxNDExMDQwNVoXDTI5MDUxMTExMDQwNVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5jZXNh
+bm8tYm9zY29uZS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC2Kg1Dow1w2D9NKyxdm48fIZ4fqNN6s1B94ot/8SwGy3MY18TB
+NzMSENoDGcUJ63TlffJNDYcLOZWLaJ4HwPu3XueLtDOJ9+gaHh9rAcqUy3JCJg8f/Bqr22h98qsY
+ybtKnL0TImwqSUtGZrO6tcSIF26sw0o76bH6NnB+7PSgc6SSz+lj43kaXH6S/9I7B0OWQfRsp016
+ikVbNOm8XzPXlk71PCeDOvggjbS/sinERtfQDKkcCCP/E0ry3VeDK9Hoe/fBsNp6W3cX8Eoi7EN7
+KD8swae9g+4DmFswULcp2/lNg1ACxFfRvWdaOVPH6zufM9mSSTz9hAslgacsT0X5AgMBAAGjUDBO
+MB0GA1UdDgQWBBS+yWc8ulzjaWN2uAZhWhn1wXe6EjAfBgNVHSMEGDAWgBS+yWc8ulzjaWN2uAZh
+Whn1wXe6EjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB7EeOsX4UduhCIkS7dsnOo
+JWBD8AC7YsOzWDCs/MmoTNQ98NoRDAYv/xEj1E8gCuO2AS+186aSHjeOyJ897IdZlyobrMFL7D5B
+i/vqnCU8dz8QDzUULFi8mcBE5nsm2MWiS4g82DwlaspkXdPLZsnqVEEn3He+JM3i7RNM3xCaJtea
+6yI9d1UzE+CLcXfLJ0HYQSQPSeFzoCPlzQt9VbPSb536Ijj6Yl5Ht5z0Y6rYYkdj4OZ+Ktuger81
+s6Ky5ulUKbFKTagFC/RRBGMvPHTJ1nQFxd46Cj1ZUBjGC00bhtRtH4Zkcq0X7O3u9rswR5BXOnfu
+fUqfWVWPJdRymbFF
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJANH3+AB5dQwfMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUuY2VzYW5vLWJvc2NvbmUubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDUxNDExMDQwNVoXDTI5MDUxMTExMDQwNVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5jZXNhbm8tYm9zY29uZS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2Kg1Dow1w2D9NKyxdm48fIZ4fqNN6s1B94ot/8SwGy3MY18TBNzMSENoDGcUJ63TlffJNDYcLOZWLaJ4HwPu3XueLtDOJ9+gaHh9rAcqUy3JCJg8f/Bqr22h98qsYybtKnL0TImwqSUtGZrO6tcSIF26sw0o76bH6NnB+7PSgc6SSz+lj43kaXH6S/9I7B0OWQfRsp016ikVbNOm8XzPXlk71PCeDOvggjbS/sinERtfQDKkcCCP/E0ry3VeDK9Hoe/fBsNp6W3cX8Eoi7EN7KD8swae9g+4DmFswULcp2/lNg1ACxFfRvWdaOVPH6zufM9mSSTz9hAslgacsT0X5AgMBAAGjUDBOMB0GA1UdDgQWBBS+yWc8ulzjaWN2uAZhWhn1wXe6EjAfBgNVHSMEGDAWgBS+yWc8ulzjaWN2uAZhWhn1wXe6EjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB7EeOsX4UduhCIkS7dsnOoJWBD8AC7YsOzWDCs/MmoTNQ98NoRDAYv/xEj1E8gCuO2AS+186aSHjeOyJ897IdZlyobrMFL7D5Bi/vqnCU8dz8QDzUULFi8mcBE5nsm2MWiS4g82DwlaspkXdPLZsnqVEEn3He+JM3i7RNM3xCaJtea6yI9d1UzE+CLcXfLJ0HYQSQPSeFzoCPlzQt9VbPSb536Ijj6Yl5Ht5z0Y6rYYkdj4OZ+Ktuger81s6Ky5ulUKbFKTagFC/RRBGMvPHTJ1nQFxd46Cj1ZUBjGC00bhtRtH4Zkcq0X7O3u9rswR5BXOnfufUqfWVWPJdRymbFF
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJANH3+AB5dQwfMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUuY2VzYW5vLWJvc2NvbmUubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDUxNDExMDQwNVoXDTI5MDUxMTExMDQwNVowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS5jZXNhbm8tYm9zY29uZS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2Kg1Dow1w2D9NKyxdm48fIZ4fqNN6s1B94ot/8SwGy3MY18TBNzMSENoDGcUJ63TlffJNDYcLOZWLaJ4HwPu3XueLtDOJ9+gaHh9rAcqUy3JCJg8f/Bqr22h98qsYybtKnL0TImwqSUtGZrO6tcSIF26sw0o76bH6NnB+7PSgc6SSz+lj43kaXH6S/9I7B0OWQfRsp016ikVbNOm8XzPXlk71PCeDOvggjbS/sinERtfQDKkcCCP/E0ry3VeDK9Hoe/fBsNp6W3cX8Eoi7EN7KD8swae9g+4DmFswULcp2/lNg1ACxFfRvWdaOVPH6zufM9mSSTz9hAslgacsT0X5AgMBAAGjUDBOMB0GA1UdDgQWBBS+yWc8ulzjaWN2uAZhWhn1wXe6EjAfBgNVHSMEGDAWgBS+yWc8ulzjaWN2uAZhWhn1wXe6EjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB7EeOsX4UduhCIkS7dsnOoJWBD8AC7YsOzWDCs/MmoTNQ98NoRDAYv/xEj1E8gCuO2AS+186aSHjeOyJ897IdZlyobrMFL7D5Bi/vqnCU8dz8QDzUULFi8mcBE5nsm2MWiS4g82DwlaspkXdPLZsnqVEEn3He+JM3i7RNM3xCaJtea6yI9d1UzE+CLcXfLJ0HYQSQPSeFzoCPlzQt9VbPSb536Ijj6Yl5Ht5z0Y6rYYkdj4OZ+Ktuger81s6Ky5ulUKbFKTagFC/RRBGMvPHTJ1nQFxd46Cj1ZUBjGC00bhtRtH4Zkcq0X7O3u9rswR5BXOnfufUqfWVWPJdRymbFF
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cesanoboscone"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesanoboscone" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesanoboscone" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cesanoboscone" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cesano Boscone</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cesano Boscone</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Cesano Boscone</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Cesano Boscone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cesano Boscone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cesano Boscone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Cesano Boscone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Cesano Boscone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cesano-boscone.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cesano-boscone.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.cesano-boscone.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.cesano-boscone.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

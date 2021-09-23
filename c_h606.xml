@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxf5dfd073-89d5-6acf-07d2-15398dff56b0" entityID="https://servizionline.comune.roverchiara.vr.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxf5dfd073-89d5-6acf-07d2-15398dff56b0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hicG0Dnh2lpuyyMfGJjSM6IRX31Ex6WnrSdTR9L5CvU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+wMskUpMsGCUDhK3ar7NnMj59Rlhz/Jxygy1jjAIGZXsSqk9HTuylgJXmGwHaiekGiUipOyZNXtTw
+uM4l3R2o9jOAPrstKQQKI6lqVGI221SQ4E/DangzL+yALkpIhr6Y9hQa6u+QsJmS9sFBsuLf619t
+9/LL5SRAZwddGsa9xqD4gFcxqGs+UIDsat/gVePVFtzgtW7StvenGRaRL7VcAAM+piFSRWlHyp5v
+K7Dvpc/qulVPytFLvRZlvaYNjVXumyEQrCuQQOtuPoDDcwiQORTTEDfjOwWWfay2qGRxZSkLR6Yf
+DrEe9zj8QycfnezDwSCTar4XPDUWzlYkp3xJig==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6CEsCJxzdHDQzdkUF1VDWTH8LLU50Cardt9TL4KW9BwmfjMTziG4SDNKVVawxAtFC607NJOTUpbO
++EKNV+30tujEWODAffGlcQ1yzyE60zIjOt4/itxKokUYMRWu73rMg7TZqClDTazSyg0CQvtHEtIm
+W4oecjA9YQa3Ntj6gXCxesxYEbGLrz0QbDgAzHvZainb0BcGJ4V+33uvKH5tzQ4dgIk1XO0Pcw6p
+ymdpuw40xHQB9tGHVN/eZL+aMpTMQDuqaqNq8ElwAHnZ9pVk5gymuB1+yMxF4Dc1GmqG+4erLXLD
+CqmDD5UsEtoalzc8k27OT14jv8rLO4EAC7MLsQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEejCCA2KgAwIBAgIJAJjFb4CgZ8RyMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEO
+MAwGA1UECBMFSXRhbHkxFDASBgNVBAcTC1JvdmVyY2hpYXJhMR4wHAYDVQQKExVDb211bmUgZGkg
+Um92ZXJjaGlhcmExLzAtBgNVBAMTJnNlcnZpemlvbmxpbmUuY29tdW5lLnJvdmVyY2hpYXJhLnZy
+Lml0MB4XDTE5MDYxMTEyMzYwM1oXDTI5MDYxMDEyMzYwM1owgYQxCzAJBgNVBAYTAklUMQ4wDAYD
+VQQIEwVJdGFseTEUMBIGA1UEBxMLUm92ZXJjaGlhcmExHjAcBgNVBAoTFUNvbXVuZSBkaSBSb3Zl
+cmNoaWFyYTEvMC0GA1UEAxMmc2Vydml6aW9ubGluZS5jb211bmUucm92ZXJjaGlhcmEudnIuaXQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDoISwInHN0cNDN2RQXVUNZMfwstTnQJqt2
+31Mvgpb0HCZ+MxPOIbhIM0pVVrDEC0ULrTs0k5NSls74Qo1X7fS26MRY4MB98aVxDXLPITrTMiM6
+3j+K3EqiRRgxFa7vesyDtNmoKUNNrNLKDQJC+0cS0iZbih5yMD1hBrc22PqBcLF6zFgRsYuvPRBs
+OADMe9lqKdvQFwYnhX7fe68ofm3NDh2AiTVc7Q9zDqnKZ2m7DjTEdAH20YdU395kv5oylMxAO6pq
+o2rwSXAAedn2lWTmDKa4HX7IzEXgNzUaaob7h6stcsMKqYMPlSwS2hqXNzyTbs5PXiO/yss7gQAL
+swuxAgMBAAGjgewwgekwHQYDVR0OBBYEFO8atkebjy9ZuGKzpk4t3JuKcDqCMIG5BgNVHSMEgbEw
+ga6AFO8atkebjy9ZuGKzpk4t3JuKcDqCoYGKpIGHMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECBMF
+SXRhbHkxFDASBgNVBAcTC1JvdmVyY2hpYXJhMR4wHAYDVQQKExVDb211bmUgZGkgUm92ZXJjaGlh
+cmExLzAtBgNVBAMTJnNlcnZpemlvbmxpbmUuY29tdW5lLnJvdmVyY2hpYXJhLnZyLml0ggkAmMVv
+gKBnxHIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAc2ENYKn94IaNaCk6U3XPNaY7
+FRQaZBDSkSLw9wBkD+270QhzzXz/EAmtOevwyndIV9bE0l92gjBaAqiQ0nr3woSB3gHeLaLRceYt
+Xg8gG2Ep9tilgMXnaZzhBMSiSEXq2e8uAa+Q/7YscEPaLbSWzTLfxjQ9xaZ7rP7hvradCwyI5P9i
+fdHXrjykhPQuwxEkpS3UHAykEy1fIJdk36giRSuQktMP2bKXY5I+X03RzntAnYQHX2pxfmWLqGoR
+EXV4PfODupFapNWxHqrsJTnMmtYwT7tATPK4OnJ1jkFbBh+xsI22boLyPk9sfuRFIibZ9al3ArG7
++oLVgF+PKOFYog==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEejCCA2KgAwIBAgIJAJjFb4CgZ8RyMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxFDASBgNVBAcTC1JvdmVyY2hpYXJhMR4wHAYDVQQKExVDb211bmUgZGkgUm92ZXJjaGlhcmExLzAtBgNVBAMTJnNlcnZpemlvbmxpbmUuY29tdW5lLnJvdmVyY2hpYXJhLnZyLml0MB4XDTE5MDYxMTEyMzYwM1oXDTI5MDYxMDEyMzYwM1owgYQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLUm92ZXJjaGlhcmExHjAcBgNVBAoTFUNvbXVuZSBkaSBSb3ZlcmNoaWFyYTEvMC0GA1UEAxMmc2Vydml6aW9ubGluZS5jb211bmUucm92ZXJjaGlhcmEudnIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDoISwInHN0cNDN2RQXVUNZMfwstTnQJqt231Mvgpb0HCZ+MxPOIbhIM0pVVrDEC0ULrTs0k5NSls74Qo1X7fS26MRY4MB98aVxDXLPITrTMiM63j+K3EqiRRgxFa7vesyDtNmoKUNNrNLKDQJC+0cS0iZbih5yMD1hBrc22PqBcLF6zFgRsYuvPRBsOADMe9lqKdvQFwYnhX7fe68ofm3NDh2AiTVc7Q9zDqnKZ2m7DjTEdAH20YdU395kv5oylMxAO6pqo2rwSXAAedn2lWTmDKa4HX7IzEXgNzUaaob7h6stcsMKqYMPlSwS2hqXNzyTbs5PXiO/yss7gQALswuxAgMBAAGjgewwgekwHQYDVR0OBBYEFO8atkebjy9ZuGKzpk4t3JuKcDqCMIG5BgNVHSMEgbEwga6AFO8atkebjy9ZuGKzpk4t3JuKcDqCoYGKpIGHMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxFDASBgNVBAcTC1JvdmVyY2hpYXJhMR4wHAYDVQQKExVDb211bmUgZGkgUm92ZXJjaGlhcmExLzAtBgNVBAMTJnNlcnZpemlvbmxpbmUuY29tdW5lLnJvdmVyY2hpYXJhLnZyLml0ggkAmMVvgKBnxHIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAc2ENYKn94IaNaCk6U3XPNaY7FRQaZBDSkSLw9wBkD+270QhzzXz/EAmtOevwyndIV9bE0l92gjBaAqiQ0nr3woSB3gHeLaLRceYtXg8gG2Ep9tilgMXnaZzhBMSiSEXq2e8uAa+Q/7YscEPaLbSWzTLfxjQ9xaZ7rP7hvradCwyI5P9ifdHXrjykhPQuwxEkpS3UHAykEy1fIJdk36giRSuQktMP2bKXY5I+X03RzntAnYQHX2pxfmWLqGoREXV4PfODupFapNWxHqrsJTnMmtYwT7tATPK4OnJ1jkFbBh+xsI22boLyPk9sfuRFIibZ9al3ArG7+oLVgF+PKOFYog==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEejCCA2KgAwIBAgIJAJjFb4CgZ8RyMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxFDASBgNVBAcTC1JvdmVyY2hpYXJhMR4wHAYDVQQKExVDb211bmUgZGkgUm92ZXJjaGlhcmExLzAtBgNVBAMTJnNlcnZpemlvbmxpbmUuY29tdW5lLnJvdmVyY2hpYXJhLnZyLml0MB4XDTE5MDYxMTEyMzYwM1oXDTI5MDYxMDEyMzYwM1owgYQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLUm92ZXJjaGlhcmExHjAcBgNVBAoTFUNvbXVuZSBkaSBSb3ZlcmNoaWFyYTEvMC0GA1UEAxMmc2Vydml6aW9ubGluZS5jb211bmUucm92ZXJjaGlhcmEudnIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDoISwInHN0cNDN2RQXVUNZMfwstTnQJqt231Mvgpb0HCZ+MxPOIbhIM0pVVrDEC0ULrTs0k5NSls74Qo1X7fS26MRY4MB98aVxDXLPITrTMiM63j+K3EqiRRgxFa7vesyDtNmoKUNNrNLKDQJC+0cS0iZbih5yMD1hBrc22PqBcLF6zFgRsYuvPRBsOADMe9lqKdvQFwYnhX7fe68ofm3NDh2AiTVc7Q9zDqnKZ2m7DjTEdAH20YdU395kv5oylMxAO6pqo2rwSXAAedn2lWTmDKa4HX7IzEXgNzUaaob7h6stcsMKqYMPlSwS2hqXNzyTbs5PXiO/yss7gQALswuxAgMBAAGjgewwgekwHQYDVR0OBBYEFO8atkebjy9ZuGKzpk4t3JuKcDqCMIG5BgNVHSMEgbEwga6AFO8atkebjy9ZuGKzpk4t3JuKcDqCoYGKpIGHMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxFDASBgNVBAcTC1JvdmVyY2hpYXJhMR4wHAYDVQQKExVDb211bmUgZGkgUm92ZXJjaGlhcmExLzAtBgNVBAMTJnNlcnZpemlvbmxpbmUuY29tdW5lLnJvdmVyY2hpYXJhLnZyLml0ggkAmMVvgKBnxHIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAc2ENYKn94IaNaCk6U3XPNaY7FRQaZBDSkSLw9wBkD+270QhzzXz/EAmtOevwyndIV9bE0l92gjBaAqiQ0nr3woSB3gHeLaLRceYtXg8gG2Ep9tilgMXnaZzhBMSiSEXq2e8uAa+Q/7YscEPaLbSWzTLfxjQ9xaZ7rP7hvradCwyI5P9ifdHXrjykhPQuwxEkpS3UHAykEy1fIJdk36giRSuQktMP2bKXY5I+X03RzntAnYQHX2pxfmWLqGoREXV4PfODupFapNWxHqrsJTnMmtYwT7tATPK4OnJ1jkFbBh+xsI22boLyPk9sfuRFIibZ9al3ArG7+oLVgF+PKOFYog==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.roverchiara.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.roverchiara.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Roverchiara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Roverchiara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.roverchiara.vr.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

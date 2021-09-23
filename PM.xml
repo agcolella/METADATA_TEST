@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_5ce614b17e7da9d6b6d74535092d159055c5d044" entityID="https://spid.polimi.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>IsNzveCgxXDW7Rw7wNWJGxKQkDGgUFwjMpDUXHpy6Es=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+bCtmLGkxQpJ6kTQeMWjBBnwhaXl+yBWZATi9wVqtM24xMl3nd5vVtjStpjl7icqnXbVbyB4gk29j
+kTxEMVefodsCCak3r0bwMYJvNz3vtbdO4mSisKAc2MDeztvILS9Xvc0r6su1g3YesCShD/6LGLqp
+slrqBBl4qv8sSWm4gWvq3oBHsLj89EzHdwJfQQgYjLA9qUk19FjbRhPw1rvP2bOMl0QYsLuozBiu
+GMaaIfFqtUnxMZU+hpHapLeLkjOp1nP3V9ASd6oOSfjySBfab187U+VqdD2JsFP7Z64v7Na/WTyf
+0KngJKsMM8HqVmnMYoj/6m/B1ERTchPrA620EtZikil7umlUEBPOISoZHWPiNoCVmvXTszjOW2oA
+c9M0CD9b8D02gMhoWtJnIAUb0aNgoQPQIj/JRkpUykYqj27cMKx0TTIPitFOmcQxak4DUTQb7YEe
+qHyeRF41IvMgROZ83R+x3RF00PPPkXsIUwTXIWXkMgDgJhCbLnjxRKEG
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xjVgeeDxN24d4RNKQsEZ4qTVeJfi8t1hTS6MWmF8wRXDle+5d837Er73WWuf96x/YyjRKUncpDMh
+er0JDqpYlIdIS2KR94zcb3M1ALy1ye0F6rh1CgNEpWksTq30T1v6HkoLOu15+GACK/vnR0EZkyop
+pwlnC/MwJ5mEr/Fn4bPRtheQiL2UsEahxAo9M5NnyJNF3fWCeXTJqO4hMVDYkBvZhXh8fMr/EycE
+Q+FYqxaWzp+kKMn8gI4i9dF60r7me6KUDidLFSAi7PPjrEtYtBRnVkEj738N6mLGFzrRh24My6yI
+04vgPgfQCNs2IxT/CBNm4FckFyR8rSO6BjozhlamaoVBVVO30u5n69vpnoNSmTJFc0/TxBHGVOSk
+bwWVTuLvN7bVVgLvAEqot83bQnCaHisxkvfrLpe0tV95SJMvaNZk+2MEBVdpfRI+9+cicbyjRqKI
+1/nsy5xMAxf/tqQ5OFcnDTBg7RsR8ppp2Bd52gUYkNwTwGj+Iwy/cs5V
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID2TCCAkGgAwIBAgIJAPfWQ8iqO4tVMA0GCSqGSIb3DQEBCwUAMBExDzANBgNVBAMTBndlYjEy
+NDAeFw0xNjA4MDUxMDExNDRaFw0yNjA4MDMxMDExNDRaMBExDzANBgNVBAMTBndlYjEyNDCCAaIw
+DQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMY1YHng8TduHeETSkLBGeKk1XiX4vLdYU0ujFph
+fMEVw5XvuXfN+xK+91lrn/esf2Mo0SlJ3KQzIXq9CQ6qWJSHSEtikfeM3G9zNQC8tcntBeq4dQoD
+RKVpLE6t9E9b+h5KCzrtefhgAiv750dBGZMqKacJZwvzMCeZhK/xZ+Gz0bYXkIi9lLBGocQKPTOT
+Z8iTRd31gnl0yajuITFQ2JAb2YV4fHzK/xMnBEPhWKsWls6fpCjJ/ICOIvXRetK+5nuilA4nSxUg
+Iuzz46xLWLQUZ1ZBI+9/Depixhc60YduDMusiNOL4D4H0AjbNiMU/wgTZuBXJBckfK0jugY6M4ZW
+pmqFQVVTt9LuZ+vb6Z6DUpkyRXNP08QRxlTkpG8FlU7i7ze21VYC7wBKqLfN20Jwmh4rMZL36y6X
+tLVfeUiTL2jWZPtjBAVXaX0SPvfnInG8o0aiiNf57MucTAMX/7akOThXJw0wYO0bEfKaadgXedoF
+GJDcE8Bo/iMMv3LOVQIDAQABozQwMjARBgNVHREECjAIggZ3ZWIxMjQwHQYDVR0OBBYEFDE+sTH5
+bQxPBJn23PNXKNpqj35aMA0GCSqGSIb3DQEBCwUAA4IBgQBUladqSw0O3ZJPmiBVxD6p1mFwnui0
+c2OaOG2StbKQlpt7w+ilNrrChh0J0bHujG0CJvs67WMH02RrSSVuUJCGel0vj5DP/rY4Uby2utXm
+a5sMjLRPMVQPfIrxE2o6e3XwZn3nO3Thid7AIJDfYYyLamtzSaNrkIbWq1NHCtWZPvsXNyJ1b3kk
+4FlotoANgVzzQmU6skC2oIcYW77YD+mag6irsXE4o2Bq0tW51MMyOkntYcW5zVt31RAySMdrIJNy
+HPx39OnPraqjLN1+8NPTe+ShZUDTRk1pPSOVoDQsU4HVKFbiqvGcI3kb1Z6LlofAkNC6aAHD5dD7
+Rt7xB/mCmJZaCqD+2/B27xcrZC4p4axr3c1mAgv1/aTTpKSUb0PURmsKO/z6VsFOQ21ygWsJfMAo
+2YVKX68VK669hkedrof4YhxViOLvToskckoI06Y7i33yqemcqYKBD8fqLqMsDnsF4wR2E6Nh0OY7
+wysIKn2CWmuc19/wX/qf1uiJbyY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="1" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spidkey</ds:KeyName>
+        <ds:KeyName>web124</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=web124</ds:X509SubjectName>
+          <ds:X509Certificate>MIID2TCCAkGgAwIBAgIJAPfWQ8iqO4tVMA0GCSqGSIb3DQEBCwUAMBExDzANBgNV
+BAMTBndlYjEyNDAeFw0xNjA4MDUxMDExNDRaFw0yNjA4MDMxMDExNDRaMBExDzAN
+BgNVBAMTBndlYjEyNDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMY1
+YHng8TduHeETSkLBGeKk1XiX4vLdYU0ujFphfMEVw5XvuXfN+xK+91lrn/esf2Mo
+0SlJ3KQzIXq9CQ6qWJSHSEtikfeM3G9zNQC8tcntBeq4dQoDRKVpLE6t9E9b+h5K
+CzrtefhgAiv750dBGZMqKacJZwvzMCeZhK/xZ+Gz0bYXkIi9lLBGocQKPTOTZ8iT
+Rd31gnl0yajuITFQ2JAb2YV4fHzK/xMnBEPhWKsWls6fpCjJ/ICOIvXRetK+5nui
+lA4nSxUgIuzz46xLWLQUZ1ZBI+9/Depixhc60YduDMusiNOL4D4H0AjbNiMU/wgT
+ZuBXJBckfK0jugY6M4ZWpmqFQVVTt9LuZ+vb6Z6DUpkyRXNP08QRxlTkpG8FlU7i
+7ze21VYC7wBKqLfN20Jwmh4rMZL36y6XtLVfeUiTL2jWZPtjBAVXaX0SPvfnInG8
+o0aiiNf57MucTAMX/7akOThXJw0wYO0bEfKaadgXedoFGJDcE8Bo/iMMv3LOVQID
+AQABozQwMjARBgNVHREECjAIggZ3ZWIxMjQwHQYDVR0OBBYEFDE+sTH5bQxPBJn2
+3PNXKNpqj35aMA0GCSqGSIb3DQEBCwUAA4IBgQBUladqSw0O3ZJPmiBVxD6p1mFw
+nui0c2OaOG2StbKQlpt7w+ilNrrChh0J0bHujG0CJvs67WMH02RrSSVuUJCGel0v
+j5DP/rY4Uby2utXma5sMjLRPMVQPfIrxE2o6e3XwZn3nO3Thid7AIJDfYYyLamtz
+SaNrkIbWq1NHCtWZPvsXNyJ1b3kk4FlotoANgVzzQmU6skC2oIcYW77YD+mag6ir
+sXE4o2Bq0tW51MMyOkntYcW5zVt31RAySMdrIJNyHPx39OnPraqjLN1+8NPTe+Sh
+ZUDTRk1pPSOVoDQsU4HVKFbiqvGcI3kb1Z6LlofAkNC6aAHD5dD7Rt7xB/mCmJZa
+CqD+2/B27xcrZC4p4axr3c1mAgv1/aTTpKSUb0PURmsKO/z6VsFOQ21ygWsJfMAo
+2YVKX68VK669hkedrof4YhxViOLvToskckoI06Y7i33yqemcqYKBD8fqLqMsDnsF
+4wR2E6Nh0OY7wysIKn2CWmuc19/wX/qf1uiJbyY=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://spid.polimi.it/Shibboleth.sso/SLO/Artifact"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.polimi.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.polimi.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spid.polimi.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.polimi.it/spidlogin/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.polimi.it/spidaccount/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">spidlogin</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+          </md:AttributeConsumingService><md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">spidaccount</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+          </md:AttributeConsumingService></md:SPSSODescriptor>
+
+  <md:Organization>
+            <md:OrganizationName xml:lang="it">Politecnico di Milano</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="it">Politecnico di Milano</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="it">http://www.polimi.it</md:OrganizationURL>
+          </md:Organization>
+</md:EntityDescriptor>

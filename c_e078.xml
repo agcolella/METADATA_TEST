@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.comune.goito.mn.it/" ID="_73da469c35f86dd72519287527994e2ce0032b8a2e45e5f3a3f509bf2fb04cf7"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_73da469c35f86dd72519287527994e2ce0032b8a2e45e5f3a3f509bf2fb04cf7"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>tvIWw063fWKMkKMFWqz6Gih9aIHIdevBI1WMJLaHFBE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>RoqPVc9OKHnkvrHdRfJKHhWyJ/79yOa4wf/WQpcKSUBuDHIqzF/BFb9e/JQzHoXZ3rsCKwlfca5DJ/KC2f7Be/2bHJWzHzbsQt+XGtMT6lxZSw/vKhiRuJDxvzc1DRE9VpVrZwaTPM7C5+QV3dgSRbzhr+fjw994T6i/ieSln+p5slaAZmlip1sFnM/nfXVWTlH1pELfBi3dYlcbI8ELuSH2tRXbBz/f08+HUDu02CQizMrnIB82QVpc8tzezQSFSfzIjIbAkJMBSRe3Kwh9n7HJrp6Ec2zrwHDucx/OdsiTsd6hj9kyp6IlhbyJuGM0KPys2rcWY+C580Mbo3tslw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDwzCCAqugAwIBAgIQBkroMy3lKZf9pxysn3EyiDANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVQxDjAMBgNVBAcTBUdvaXRvMRgwFgYDVQQKEw9Db211bmUgZGkgR29pdG8xODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuZ29pdG8ubW4uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2UwNzgwHhcNMjAxMDIxMTAzNjEzWhcNMzAxMDE5MTAzNjEzWjCBiDELMAkGA1UEBhMCSVQxDjAMBgNVBAcTBUdvaXRvMRgwFgYDVQQKEw9Db211bmUgZGkgR29pdG8xODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuZ29pdG8ubW4uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2UwNzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+Jx3EmxnGULL+Pq6ZyIET/2sbKCjWr+0e+lN1qtuXxCtcoGoptcralIQiOBL7EHxcM45aq8b/3Sest2+iV3K7iQDDQeBzpLUR4VpNEC20vReovQ2ha25JynyXsmdNhidxq0Ft4xT+JMyvtV0DE2USh42H321FqsD/QjLpRgrr0GsJWnb+fJR27keLQQ1/ywkStR4smjDkncSHsb+XTNjQqaMP7ebRy8Ncey3NUfM13c+x1y+5xR1HplzMmulbgTl3fSsw6q+KNyqQv2sJ7qshwfRQP4ItDrKWTDKN5LVqI7JArs6NPzhPuE7+c/NnlI57+uf7T/1rRY2emfRnJH8RAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAGOWdjCbE6ukCdqaOkrommdPw0vWhsuSFqqPwjq72i5L0vcvQdvCfJ6mSIqD81JrJcytxlXO3NOPwRokimMlQX4t0IgNXkY6uPeW3kUypDuwl+AfeE7nykUcWYdZq7QIALT21xrOMFTkfVtGr9zYK56MSoQxBsJZ8ZWx1xCoCl31+vbR0/AE+vJWyd0/nWO7x95EOeZMTNlAGnWk27eSeO0Seb/+cfsjw+RoNXgEt+LU+EtfAVF7Buk0aFDh84PNw2lY2y+K/yoHXDxWEXiXaR3iMwK5llpKQ1ZmPINwKMC2CkDpfHe3+Nvt8JJ7lwWxZY4b5R2+337MYiM2cZfyi6w==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIQBkroMy3lKZf9pxysn3EyiDANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVQxDjAMBgNVBAcTBUdvaXRvMRgwFgYDVQQKEw9Db211bmUgZGkgR29pdG8xODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuZ29pdG8ubW4uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2UwNzgwHhcNMjAxMDIxMTAzNjEzWhcNMzAxMDE5MTAzNjEzWjCBiDELMAkGA1UEBhMCSVQxDjAMBgNVBAcTBUdvaXRvMRgwFgYDVQQKEw9Db211bmUgZGkgR29pdG8xODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuZ29pdG8ubW4uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2UwNzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+Jx3EmxnGULL+Pq6ZyIET/2sbKCjWr+0e+lN1qtuXxCtcoGoptcralIQiOBL7EHxcM45aq8b/3Sest2+iV3K7iQDDQeBzpLUR4VpNEC20vReovQ2ha25JynyXsmdNhidxq0Ft4xT+JMyvtV0DE2USh42H321FqsD/QjLpRgrr0GsJWnb+fJR27keLQQ1/ywkStR4smjDkncSHsb+XTNjQqaMP7ebRy8Ncey3NUfM13c+x1y+5xR1HplzMmulbgTl3fSsw6q+KNyqQv2sJ7qshwfRQP4ItDrKWTDKN5LVqI7JArs6NPzhPuE7+c/NnlI57+uf7T/1rRY2emfRnJH8RAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAGOWdjCbE6ukCdqaOkrommdPw0vWhsuSFqqPwjq72i5L0vcvQdvCfJ6mSIqD81JrJcytxlXO3NOPwRokimMlQX4t0IgNXkY6uPeW3kUypDuwl+AfeE7nykUcWYdZq7QIALT21xrOMFTkfVtGr9zYK56MSoQxBsJZ8ZWx1xCoCl31+vbR0/AE+vJWyd0/nWO7x95EOeZMTNlAGnWk27eSeO0Seb/+cfsjw+RoNXgEt+LU+EtfAVF7Buk0aFDh84PNw2lY2y+K/yoHXDxWEXiXaR3iMwK5llpKQ1ZmPINwKMC2CkDpfHe3+Nvt8JJ7lwWxZY4b5R2+337MYiM2cZfyi6w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIQBkroMy3lKZf9pxysn3EyiDANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVQxDjAMBgNVBAcTBUdvaXRvMRgwFgYDVQQKEw9Db211bmUgZGkgR29pdG8xODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuZ29pdG8ubW4uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2UwNzgwHhcNMjAxMDIxMTAzNjEzWhcNMzAxMDE5MTAzNjEzWjCBiDELMAkGA1UEBhMCSVQxDjAMBgNVBAcTBUdvaXRvMRgwFgYDVQQKEw9Db211bmUgZGkgR29pdG8xODA2BgNVBAMTL2h0dHBzOi8vc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuZ29pdG8ubW4uaXQvMRUwEwYDVQQFFgxQQTpJVC1jX2UwNzgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+Jx3EmxnGULL+Pq6ZyIET/2sbKCjWr+0e+lN1qtuXxCtcoGoptcralIQiOBL7EHxcM45aq8b/3Sest2+iV3K7iQDDQeBzpLUR4VpNEC20vReovQ2ha25JynyXsmdNhidxq0Ft4xT+JMyvtV0DE2USh42H321FqsD/QjLpRgrr0GsJWnb+fJR27keLQQ1/ywkStR4smjDkncSHsb+XTNjQqaMP7ebRy8Ncey3NUfM13c+x1y+5xR1HplzMmulbgTl3fSsw6q+KNyqQv2sJ7qshwfRQP4ItDrKWTDKN5LVqI7JArs6NPzhPuE7+c/NnlI57+uf7T/1rRY2emfRnJH8RAgMBAAGjJzAlMA4GA1UdDwEB/wQEAwIHgDATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAGOWdjCbE6ukCdqaOkrommdPw0vWhsuSFqqPwjq72i5L0vcvQdvCfJ6mSIqD81JrJcytxlXO3NOPwRokimMlQX4t0IgNXkY6uPeW3kUypDuwl+AfeE7nykUcWYdZq7QIALT21xrOMFTkfVtGr9zYK56MSoQxBsJZ8ZWx1xCoCl31+vbR0/AE+vJWyd0/nWO7x95EOeZMTNlAGnWk27eSeO0Seb/+cfsjw+RoNXgEt+LU+EtfAVF7Buk0aFDh84PNw2lY2y+K/yoHXDxWEXiXaR3iMwK5llpKQ1ZmPINwKMC2CkDpfHe3+Nvt8JJ7lwWxZY4b5R2+337MYiM2cZfyi6w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.goito.mn.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.goito.mn.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Goito</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Goito</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Goito</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Goito</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Goito</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Goito</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Goito</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Goito</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.goito.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.goito.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.comune.goito.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.comune.goito.mn.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_e078</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:comune.goito@pec.regione.lombardia.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

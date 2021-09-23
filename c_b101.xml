@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Boves" entityID="https://www.comune.boves.cn.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Boves">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0Oz5/EvW3s3wSjMPtxQx+rXSeKhBhcyRc6EIWedApl4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+exQnVk9cQyX1gMHo2No1hiZQH7eeXTxeuAX9Y14aPGrOT6pdTW8kccrtSjRf2ozs4h7bfjzD08BD
+Js2KQa6l1DfaZmUIfWaPFTRZZmUScwwXR4rH+Hlgi0D5fkHfi+pW0z16B6T4kFpqf7l5mxBT8BHU
+1TnRGp2mh1k53OeUkIhcSYdj4qsxwPWz1LbqHZBDXJd0diJWqmAuR62ptbAw3mldqScaQ5VBabXj
+PsX89DiWWd7kSAQAFJX12Jwf8AeeSfry/58W0nrym+vUmg0okG+7f/9T6vT/76EgBMq3P3UjNohP
+yoVU9SZD/DCaWfxmS2pwz2sWK+qgYMsiszl3rg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2Cbm9hcqb+imy8/afL9KaaQSBL9+ujh6aVtq5/QGgqijrane8OKXPIg50Q+cSYrMqlCWFNqq6u2J
+QvbFrliEld6hsDomAbjxfXAhLOWSRnNqtvJmVRZrnu+gwC7nwB/WsNNXnc5he6z2Ha6BF0HckUlr
+y8qteViT6iOkmZ4L9wQb7rX9z+lF4TnkS4e7vVjK1m71XeFQ3ch9rIg75/GeaeKh9iFU6wprsN1t
+uR8P0hfE4lwev4907PYGTcsGwss47BgVSH/or5qbD9FKfKpYxKyAQ7zhNVXhRJje7bSwEdSmerkQ
+7td/qcWV/Dh/4hI6hH6misK+sph2F4AV/N1oXw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJANf5CYRbv8A+MA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmUuYm92ZXMuY24uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEwODE0
+MjYwMFoXDTI4MDEwNjE0MjYwMFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ib3Zlcy5jbi5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDYJub2Fypv6KbLz9p8v0pppBIEv366OHppW2rn9AaCqKOtqd7w4pc8iDnRD5xJisyqUJYU2qrq
+7YlC9sWuWISV3qGwOiYBuPF9cCEs5ZJGc2q28mZVFmue76DALufAH9aw01edzmF7rPYdroEXQdyR
+SWvLyq15WJPqI6SZngv3BBvutf3P6UXhOeRLh7u9WMrWbvVd4VDdyH2siDvn8Z5p4qH2IVTrCmuw
+3W25Hw/SF8TiXB6/j3Ts9gZNywbCyzjsGBVIf+ivmpsP0Up8qljErIBDvOE1VeFEmN7ttLAR1KZ6
+uRDu13+pxZX8OH/iEjqEfqaKwr6ymHYXgBX83WhfAgMBAAGjUDBOMB0GA1UdDgQWBBRmKTkzJ2rA
+IcBcOlnWxaUtaiuEUTAfBgNVHSMEGDAWgBRmKTkzJ2rAIcBcOlnWxaUtaiuEUTAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiuk86EcfGr+RHMjqtZqB4UHGb+2vBGpjiBqBNhxGppjZs
+7WaUcak0mXRwXwDagJR2cAbeBkjnoMdVijpcjq4sx55ZnygHBBpwHCyMy2aWrH4CrexWJqoqMHDh
+mQFU2+zQKDdBMO0Wo9qggZb8d+jtxNWs/rbK+1xBZK6l/vujXyWbi0wVoDHoSeJNLh7pP8ph1TmS
+zLk2NymCNqn/PHu56k+qwF2KkWuJ1o+GDPrhA8wabH7jTYFVz/OaZOpLzE6Ho+L5OLoT6R/Pv7l3
+v4QiyhmKNLPN2CH7nkFezfW3vN5qbfSnCaUJIDy/khKHaEHs5JbQH7cvRjV0tz+ni9Lx
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJANf5CYRbv8A+MA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUuYm92ZXMuY24uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDEwODE0MjYwMFoXDTI4MDEwNjE0MjYwMFowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ib3Zlcy5jbi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYJub2Fypv6KbLz9p8v0pppBIEv366OHppW2rn9AaCqKOtqd7w4pc8iDnRD5xJisyqUJYU2qrq7YlC9sWuWISV3qGwOiYBuPF9cCEs5ZJGc2q28mZVFmue76DALufAH9aw01edzmF7rPYdroEXQdyRSWvLyq15WJPqI6SZngv3BBvutf3P6UXhOeRLh7u9WMrWbvVd4VDdyH2siDvn8Z5p4qH2IVTrCmuw3W25Hw/SF8TiXB6/j3Ts9gZNywbCyzjsGBVIf+ivmpsP0Up8qljErIBDvOE1VeFEmN7ttLAR1KZ6uRDu13+pxZX8OH/iEjqEfqaKwr6ymHYXgBX83WhfAgMBAAGjUDBOMB0GA1UdDgQWBBRmKTkzJ2rAIcBcOlnWxaUtaiuEUTAfBgNVHSMEGDAWgBRmKTkzJ2rAIcBcOlnWxaUtaiuEUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBiuk86EcfGr+RHMjqtZqB4UHGb+2vBGpjiBqBNhxGppjZs7WaUcak0mXRwXwDagJR2cAbeBkjnoMdVijpcjq4sx55ZnygHBBpwHCyMy2aWrH4CrexWJqoqMHDhmQFU2+zQKDdBMO0Wo9qggZb8d+jtxNWs/rbK+1xBZK6l/vujXyWbi0wVoDHoSeJNLh7pP8ph1TmSzLk2NymCNqn/PHu56k+qwF2KkWuJ1o+GDPrhA8wabH7jTYFVz/OaZOpLzE6Ho+L5OLoT6R/Pv7l3v4QiyhmKNLPN2CH7nkFezfW3vN5qbfSnCaUJIDy/khKHaEHs5JbQH7cvRjV0tz+ni9Lx
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/boves"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/boves" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/boves" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Boves</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Boves</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Boves</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Boves</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Boves</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Boves</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Boves</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Boves</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.boves.cn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.boves.cn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.boves.cn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.boves.cn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

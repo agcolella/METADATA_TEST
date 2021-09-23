@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Torrebelvicino" entityID="https://www.comune.torrebelvicino.vi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Torrebelvicino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tk/yW54SSMQ2ZTQZ5ASEGLHoVfvmdLYnK5Cx/hN9rcg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+yZbKkQoAYQGm9QUopUUgbXhCaTpu+6Djzp3rIArEXg4f5PNz6BkrKmShvnOz5eX269WtEFxAcFUP
+pOg+3y1vkLDq8CIuG+eKaAMJREbiQtFPtUjVgN+QWAfFUqlO9wTBULr6YnjJrORcA61eu13tdf1/
+UltUsKEUN8DmdZtDKsn7iIpIX2q7q9eLfPmgxtugYXWHIYl6YEQ/xIVqCKsodQD8LkmS5ari6Lko
+AgXGLgqOMyrcsXeUd1iZpMvsQO4qff8jMRRMg1Bum4E6a61aucqJS+Q4fJqX1H+oWLo86HuTkAqo
+dCZK4eFX7L/mi+DjOUPKu8Vb76YI8V92sYBafg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3ughpmoRmHWDSP+RT+jHqx3ENCYkjm2GExKptxd0UiSEHiua4G9FN6Afa2uYw81Czd41EUCOz8pB
+1/TwETcSVQw5geP0+XsrMB0FVZUBE7MCLNP4ALGcyqVIQhFkwSjTx5dcgWoLHcyMwpEbeIPQwFgA
+ciqwMmc+sMhN4Gcg3SBZzL1gbanpB9menqgO4gTeAU+YLcOUnji5bVGXOsRKK+IM6zI6eumk75LE
+KF6/MGlVPnbGOmxPs9saQLQV0dSxbuu/7b6pamhYUXZEQloJSYkLVSMndswD8JA+WKnVfn4eDbm4
++6KXOb83uTiLLaFp7wa2qNpJXpIrbwGmmaFWfQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAP9D2624C6PKMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5j
+b211bmUudG9ycmViZWx2aWNpbm8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE5MDMxMjA5MjAyMloXDTI5MDMwOTA5MjAyMlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS50b3Jy
+ZWJlbHZpY2luby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDe6CGmahGYdYNI/5FP6MerHcQ0JiSObYYTEqm3F3RSJIQeK5rg
+b0U3oB9ra5jDzULN3jURQI7PykHX9PARNxJVDDmB4/T5eyswHQVVlQETswIs0/gAsZzKpUhCEWTB
+KNPHl1yBagsdzIzCkRt4g9DAWAByKrAyZz6wyE3gZyDdIFnMvWBtqekH2Z6eqA7iBN4BT5gtw5Se
+OLltUZc6xEor4gzrMjp66aTvksQoXr8waVU+dsY6bE+z2xpAtBXR1LFu67/tvqlqaFhRdkRCWglJ
+iQtVIyd2zAPwkD5YqdV+fh4Nubj7opc5vze5OIstoWnvBrao2klekitvAaaZoVZ9AgMBAAGjUDBO
+MB0GA1UdDgQWBBSGmyaCkU8tnCcDqHl24AXU6V7kJTAfBgNVHSMEGDAWgBSGmyaCkU8tnCcDqHl2
+4AXU6V7kJTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOa68lWhNxpu5oa8FEyRjG
+rCoUes3p8EMZNezYmRnJ+9ySnXh2BIHtBRgiKa2S5eqLc1C41e9DgvsJyb1uwnGchjMrSXZQD4Vr
+3ZmN45mEn7Czy7xDrjUYUvjANUwMx6HZCwVb6i2ggtk8qZ2JEgfjNCgzRJQCso8oeq6KaOyHvciJ
+A54/2dLLIsH5BM9EqCEej2bI1BVeV8pny0P4Ysb+Xuv7r6EZyrFth8eNka6pKg8Y0QGkzh3FbyYu
+NT5EQ1b5gAXtVUMDUC7hB+hw7nJA0BzJDKA0Ifo9bqCtr3otSOWSkNu4gdjcSHk26Aii6cticQh/
+zmsik9czJQr+kx5N
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAP9D2624C6PKMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUudG9ycmViZWx2aWNpbm8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMxMjA5MjAyMloXDTI5MDMwOTA5MjAyMlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS50b3JyZWJlbHZpY2luby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDe6CGmahGYdYNI/5FP6MerHcQ0JiSObYYTEqm3F3RSJIQeK5rgb0U3oB9ra5jDzULN3jURQI7PykHX9PARNxJVDDmB4/T5eyswHQVVlQETswIs0/gAsZzKpUhCEWTBKNPHl1yBagsdzIzCkRt4g9DAWAByKrAyZz6wyE3gZyDdIFnMvWBtqekH2Z6eqA7iBN4BT5gtw5SeOLltUZc6xEor4gzrMjp66aTvksQoXr8waVU+dsY6bE+z2xpAtBXR1LFu67/tvqlqaFhRdkRCWglJiQtVIyd2zAPwkD5YqdV+fh4Nubj7opc5vze5OIstoWnvBrao2klekitvAaaZoVZ9AgMBAAGjUDBOMB0GA1UdDgQWBBSGmyaCkU8tnCcDqHl24AXU6V7kJTAfBgNVHSMEGDAWgBSGmyaCkU8tnCcDqHl24AXU6V7kJTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOa68lWhNxpu5oa8FEyRjGrCoUes3p8EMZNezYmRnJ+9ySnXh2BIHtBRgiKa2S5eqLc1C41e9DgvsJyb1uwnGchjMrSXZQD4Vr3ZmN45mEn7Czy7xDrjUYUvjANUwMx6HZCwVb6i2ggtk8qZ2JEgfjNCgzRJQCso8oeq6KaOyHvciJA54/2dLLIsH5BM9EqCEej2bI1BVeV8pny0P4Ysb+Xuv7r6EZyrFth8eNka6pKg8Y0QGkzh3FbyYuNT5EQ1b5gAXtVUMDUC7hB+hw7nJA0BzJDKA0Ifo9bqCtr3otSOWSkNu4gdjcSHk26Aii6cticQh/zmsik9czJQr+kx5N
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAP9D2624C6PKMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5jb211bmUudG9ycmViZWx2aWNpbm8udmkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDMxMjA5MjAyMloXDTI5MDMwOTA5MjAyMlowRjEoMCYGA1UEAwwfd3d3LmNvbXVuZS50b3JyZWJlbHZpY2luby52aS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDe6CGmahGYdYNI/5FP6MerHcQ0JiSObYYTEqm3F3RSJIQeK5rgb0U3oB9ra5jDzULN3jURQI7PykHX9PARNxJVDDmB4/T5eyswHQVVlQETswIs0/gAsZzKpUhCEWTBKNPHl1yBagsdzIzCkRt4g9DAWAByKrAyZz6wyE3gZyDdIFnMvWBtqekH2Z6eqA7iBN4BT5gtw5SeOLltUZc6xEor4gzrMjp66aTvksQoXr8waVU+dsY6bE+z2xpAtBXR1LFu67/tvqlqaFhRdkRCWglJiQtVIyd2zAPwkD5YqdV+fh4Nubj7opc5vze5OIstoWnvBrao2klekitvAaaZoVZ9AgMBAAGjUDBOMB0GA1UdDgQWBBSGmyaCkU8tnCcDqHl24AXU6V7kJTAfBgNVHSMEGDAWgBSGmyaCkU8tnCcDqHl24AXU6V7kJTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOa68lWhNxpu5oa8FEyRjGrCoUes3p8EMZNezYmRnJ+9ySnXh2BIHtBRgiKa2S5eqLc1C41e9DgvsJyb1uwnGchjMrSXZQD4Vr3ZmN45mEn7Czy7xDrjUYUvjANUwMx6HZCwVb6i2ggtk8qZ2JEgfjNCgzRJQCso8oeq6KaOyHvciJA54/2dLLIsH5BM9EqCEej2bI1BVeV8pny0P4Ysb+Xuv7r6EZyrFth8eNka6pKg8Y0QGkzh3FbyYuNT5EQ1b5gAXtVUMDUC7hB+hw7nJA0BzJDKA0Ifo9bqCtr3otSOWSkNu4gdjcSHk26Aii6cticQh/zmsik9czJQr+kx5N
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/torrebelvicino"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/torrebelvicino" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/torrebelvicino" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/torrebelvicino" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Torrebelvicino</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Torrebelvicino</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Torrebelvicino</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Torrebelvicino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Torrebelvicino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Torrebelvicino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Torrebelvicino</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Torrebelvicino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.torrebelvicino.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.torrebelvicino.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.torrebelvicino.vi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.torrebelvicino.vi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

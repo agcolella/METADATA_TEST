@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx314c0a07-e6c2-3280-9e86-04be006db499" entityID="https://egov.comune.mediglia.mi.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx314c0a07-e6c2-3280-9e86-04be006db499">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>E6IkP7qeM7waXzxs4h2J9masezarrXSn2WR0Uyh/dqg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+JuWNqJFx3WUJY7ZsYYLExYyf/31RMiOXG86ea2i+XtnkVRtTpg3p5Qyf7QE6NhrQ+HXd2UYQjWax
+blfwFvG/fMUZXNJQZBvSCHQuKrzmH0bnRPEtGHZQ8rchSO9+eEjZBYoHg7E3vsNFYAkJWEYUCUP4
+DdqUJRfKjwjAku4GxiO0gAjeVMuhBTUCCV9WcngTGsXW9KgSwHUCwcX2kCxzDR4BTGL39w8BfTwO
+VHzqId087rh7wqI2/tl4Q/qHljLxx5L0TrHraxVbOG0gLQvclLMZSHavhzXAfb7pxTWAuiGPYjkl
+QeWvUHugOWCiRio7kzUsKdVQGdMGqE1wUNnbqw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qkZcgD/yu/avMCwUSuA5QS76EHDTCVMnrbydsz7l3+416uHH2wo5NyC23fDEutKxFdpHr7is7hzN
+rHAnMKStLL3VvCnVi6qxrDPP3KioG2DEBkQwsNjYspoG/cAMkZl0zafxUyT7zyhAFmrUDLgoopjj
+qDI7DR9tDlvuD9FcwktR2bkoaBcjj/ga7DTqxQ9u6gBlQJMbF9qVA6tgr76Dq44aXGUBxXTJACWj
+LuPknDfwfVw1zHhHEdIeRyCyrk35H1x+cWEwrdd1AnkttB4kNo9Z2vXHwflulwRLydFJr2Nyt6yt
+3wY73GU2uMUUakW6i8zefHUMFy/7qWGu3guLfQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtzCCAp+gAwIBAgIJAJVLRA+j27w7MA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwITWVkaWdsaWExGzAZBgNVBAoMEkNvbXVuZSBkaSBNZWRp
+Z2xpYTEjMCEGA1UEAwwaZWdvdi5jb211bmUubWVkaWdsaWEubWkuaXQwHhcNMjAxMTI3MDgxODMx
+WhcNMzAxMTI3MDgxODMxWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcM
+CE1lZGlnbGlhMRswGQYDVQQKDBJDb211bmUgZGkgTWVkaWdsaWExIzAhBgNVBAMMGmVnb3YuY29t
+dW5lLm1lZGlnbGlhLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkZcgD/y
+u/avMCwUSuA5QS76EHDTCVMnrbydsz7l3+416uHH2wo5NyC23fDEutKxFdpHr7is7hzNrHAnMKSt
+LL3VvCnVi6qxrDPP3KioG2DEBkQwsNjYspoG/cAMkZl0zafxUyT7zyhAFmrUDLgoopjjqDI7DR9t
+DlvuD9FcwktR2bkoaBcjj/ga7DTqxQ9u6gBlQJMbF9qVA6tgr76Dq44aXGUBxXTJACWjLuPknDfw
+fVw1zHhHEdIeRyCyrk35H1x+cWEwrdd1AnkttB4kNo9Z2vXHwflulwRLydFJr2Nyt6yt3wY73GU2
+uMUUakW6i8zefHUMFy/7qWGu3guLfQIDAQABo1AwTjAdBgNVHQ4EFgQUUs2rCfjpEDKy0rkryjMT
+XFkKE04wHwYDVR0jBBgwFoAUUs2rCfjpEDKy0rkryjMTXFkKE04wDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEARCgImoSIMUqiSPdAONgdVdzfuVuNx8P9F6qY/hZgeVOCBkUYbP1tEckY
+opcnV9UVFdypo6aM5mbYVszJy/TV4xpYASaODfz1mVYZt5dR4ainanKrRs1sOlswBO6GPbfCzFmv
+WqURmGycPPLS3pkoi0OcMLY1Wip37Wq9xclioVbY8QDxxgXgRj2F0WsI4PEpXlMGv7fn+1R/kZml
+yNQUoNTMq2axXpd32lf0NrMPZMTqM/sgE6+/Hy9iiyMC65/oDcrW4BA+WMZdjZf68Zu3Ujzjc5Hv
+Mo9WP2rugJCutIb5za35dy+arsgOhGCDmbVhbzzo89dUxoxmeNfWryHzRw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAJVLRA+j27w7MA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwITWVkaWdsaWExGzAZBgNVBAoMEkNvbXVuZSBkaSBNZWRpZ2xpYTEjMCEGA1UEAwwaZWdvdi5jb211bmUubWVkaWdsaWEubWkuaXQwHhcNMjAxMTI3MDgxODMxWhcNMzAxMTI3MDgxODMxWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCE1lZGlnbGlhMRswGQYDVQQKDBJDb211bmUgZGkgTWVkaWdsaWExIzAhBgNVBAMMGmVnb3YuY29tdW5lLm1lZGlnbGlhLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkZcgD/yu/avMCwUSuA5QS76EHDTCVMnrbydsz7l3+416uHH2wo5NyC23fDEutKxFdpHr7is7hzNrHAnMKStLL3VvCnVi6qxrDPP3KioG2DEBkQwsNjYspoG/cAMkZl0zafxUyT7zyhAFmrUDLgoopjjqDI7DR9tDlvuD9FcwktR2bkoaBcjj/ga7DTqxQ9u6gBlQJMbF9qVA6tgr76Dq44aXGUBxXTJACWjLuPknDfwfVw1zHhHEdIeRyCyrk35H1x+cWEwrdd1AnkttB4kNo9Z2vXHwflulwRLydFJr2Nyt6yt3wY73GU2uMUUakW6i8zefHUMFy/7qWGu3guLfQIDAQABo1AwTjAdBgNVHQ4EFgQUUs2rCfjpEDKy0rkryjMTXFkKE04wHwYDVR0jBBgwFoAUUs2rCfjpEDKy0rkryjMTXFkKE04wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARCgImoSIMUqiSPdAONgdVdzfuVuNx8P9F6qY/hZgeVOCBkUYbP1tEckYopcnV9UVFdypo6aM5mbYVszJy/TV4xpYASaODfz1mVYZt5dR4ainanKrRs1sOlswBO6GPbfCzFmvWqURmGycPPLS3pkoi0OcMLY1Wip37Wq9xclioVbY8QDxxgXgRj2F0WsI4PEpXlMGv7fn+1R/kZmlyNQUoNTMq2axXpd32lf0NrMPZMTqM/sgE6+/Hy9iiyMC65/oDcrW4BA+WMZdjZf68Zu3Ujzjc5HvMo9WP2rugJCutIb5za35dy+arsgOhGCDmbVhbzzo89dUxoxmeNfWryHzRw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAJVLRA+j27w7MA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwITWVkaWdsaWExGzAZBgNVBAoMEkNvbXVuZSBkaSBNZWRpZ2xpYTEjMCEGA1UEAwwaZWdvdi5jb211bmUubWVkaWdsaWEubWkuaXQwHhcNMjAxMTI3MDgxODMxWhcNMzAxMTI3MDgxODMxWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCE1lZGlnbGlhMRswGQYDVQQKDBJDb211bmUgZGkgTWVkaWdsaWExIzAhBgNVBAMMGmVnb3YuY29tdW5lLm1lZGlnbGlhLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkZcgD/yu/avMCwUSuA5QS76EHDTCVMnrbydsz7l3+416uHH2wo5NyC23fDEutKxFdpHr7is7hzNrHAnMKStLL3VvCnVi6qxrDPP3KioG2DEBkQwsNjYspoG/cAMkZl0zafxUyT7zyhAFmrUDLgoopjjqDI7DR9tDlvuD9FcwktR2bkoaBcjj/ga7DTqxQ9u6gBlQJMbF9qVA6tgr76Dq44aXGUBxXTJACWjLuPknDfwfVw1zHhHEdIeRyCyrk35H1x+cWEwrdd1AnkttB4kNo9Z2vXHwflulwRLydFJr2Nyt6yt3wY73GU2uMUUakW6i8zefHUMFy/7qWGu3guLfQIDAQABo1AwTjAdBgNVHQ4EFgQUUs2rCfjpEDKy0rkryjMTXFkKE04wHwYDVR0jBBgwFoAUUs2rCfjpEDKy0rkryjMTXFkKE04wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARCgImoSIMUqiSPdAONgdVdzfuVuNx8P9F6qY/hZgeVOCBkUYbP1tEckYopcnV9UVFdypo6aM5mbYVszJy/TV4xpYASaODfz1mVYZt5dR4ainanKrRs1sOlswBO6GPbfCzFmvWqURmGycPPLS3pkoi0OcMLY1Wip37Wq9xclioVbY8QDxxgXgRj2F0WsI4PEpXlMGv7fn+1R/kZmlyNQUoNTMq2axXpd32lf0NrMPZMTqM/sgE6+/Hy9iiyMC65/oDcrW4BA+WMZdjZf68Zu3Ujzjc5HvMo9WP2rugJCutIb5za35dy+arsgOhGCDmbVhbzzo89dUxoxmeNfWryHzRw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://egov.comune.mediglia.mi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://egov.comune.mediglia.mi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Mediglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Mediglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.mediglia.mi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_f084</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Mediglia</md:Company>
+    <md:EmailAddress>ced@comune.mediglia.mi.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

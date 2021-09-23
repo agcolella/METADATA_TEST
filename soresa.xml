@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_7505f49f-320c-408c-a282-39171c5679f9" entityID="https://www.soresa.it/spidgateway"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_7505f49f-320c-408c-a282-39171c5679f9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>gWJNyGkF9Yog9d3QSsPmYNvaqF4XxfjHWgzyJMSRZzA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EG2t2oJ3CRpcw8rik57qdqDJCZqkEiKXc2abwwUaBx1QtWeKu6m+30xNg8sWMC4YB7aFPnoa4FTU
+Yk5Rt8g9XQsIHuuVAVXdUzZZrG/CwxCi6Zs7A1GYQFydPq9Z4L/97KPmeE66Ij4gbn45+Wjt7gHl
+GnOwPZqgXlY2Xz0b8S5w/gUHVi6/wVpk91RNHfZ+bsQmVJJLy+E+ZQtZ3UtF6Xq+z0wKyl6PT3Is
+fiRm5BOfgOzkUElEg16+1CLMhKJ4slYksy5JypYGWB/ZkzyB/xbFyjoP7WwGyeBd5wS2JuxK9THg
+DcgxXWwfkwE74fDWFejbXt+yXl0gQlZE+evZzw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4EBQjuU2IsuDHMA8/dRc3nH72Q85FvhX44R/eFchkjE8KaHG/JOS26P28NbHXO+h9a/8agOg/DlW
+tG/+RMh1w3ynX3VwRcbeu7gcquMSuw8YgnSg1X6LEwXmSo+l52OGe5hWRBeTBq0I3SGOytKvTogL
+qYx9cYYepwznUSSas9bFbrPX92Ov3fZ/pVLRv9/mTNkuOMn4T5EDmzC69joiiNV9GmarMSjml93b
+o2w77AboOl+zIVpU70vHZTkwjyMCngioQVCJvk7oRE/4pNLwhm7DPoBof0YtbwYJBpAefa3JfbYl
+2Wscf4fVeLVayVFj5QLVeLMOeDafWpSu5U1i3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIG7jCCBdagAwIBAgIQU29UwGvBi1dT6qGZ4AmpXjANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UE
+BhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRlIFNhbiBQaWV0cm8xIzAhBgNV
+BAoMGkFjdGFsaXMgUy5wLkEuLzAzMzU4NTIwOTY3MTQwMgYDVQQDDCtBY3RhbGlzIE9yZ2FuaXph
+dGlvbiBWYWxpZGF0ZWQgU2VydmVyIENBIEcyMB4XDTE5MDUyMjEwNDg0NloXDTIxMDUyMjEwNDg0
+NlowgYgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5BUE9MSTEZMBcG
+A1UECgwQU08uUkUuU0EuIFMucC5BLjEmMCQGA1UECwwdRGlyZXppb25lIFNlcnZpemkgSW5mb3Jt
+YXRpY2kxFDASBgNVBAMMCyouc29yZXNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEA4EBQjuU2IsuDHMA8/dRc3nH72Q85FvhX44R/eFchkjE8KaHG/JOS26P28NbHXO+h9a/8agOg
+/DlWtG/+RMh1w3ynX3VwRcbeu7gcquMSuw8YgnSg1X6LEwXmSo+l52OGe5hWRBeTBq0I3SGOytKv
+TogLqYx9cYYepwznUSSas9bFbrPX92Ov3fZ/pVLRv9/mTNkuOMn4T5EDmzC69joiiNV9GmarMSjm
+l93bo2w77AboOl+zIVpU70vHZTkwjyMCngioQVCJvk7oRE/4pNLwhm7DPoBof0YtbwYJBpAefa3J
+fbYl2Wscf4fVeLVayVFj5QLVeLMOeDafWpSu5U1i3wIDAQABo4IDQzCCAz8wDAYDVR0TAQH/BAIw
+ADAfBgNVHSMEGDAWgBRi/rsnimRE7WiWWlh5odtaJq3/uzB+BggrBgEFBQcBAQRyMHAwOwYIKwYB
+BQUHMAKGL2h0dHA6Ly9jYWNlcnQuYWN0YWxpcy5pdC9jZXJ0cy9hY3RhbGlzLWF1dGhvdmcyMDEG
+CCsGAQUFBzABhiVodHRwOi8vb2NzcDA5LmFjdGFsaXMuaXQvVkEvQVVUSE9WLUcyMCEGA1UdEQQa
+MBiCCyouc29yZXNhLml0gglzb3Jlc2EuaXQwUQYDVR0gBEowSDA8BgYrgR8BEwEwMjAwBggrBgEF
+BQcCARYkaHR0cHM6Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25sb2FkMAgGBmeBDAECAjAdBgNV
+HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwSAYDVR0fBEEwPzA9oDugOYY3aHR0cDovL2NybDA5
+LmFjdGFsaXMuaXQvUmVwb3NpdG9yeS9BVVRIT1YtRzIvZ2V0TGFzdENSTDAdBgNVHQ4EFgQUmz39
+XwU2WlpQjjMY6UwwqzdyfFswDgYDVR0PAQH/BAQDAgWgMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFq
+AWgAdgBc3EOS/uarRUSxXprUVuYQN/vV+kfcoXOUsl7m9scOygAAAWrfMYw2AAAEAwBHMEUCIAHU
+vXB2X3AWl5G4aJ8OjMtcdeuVxag9ueH8BkAz0SrxAiEAvDc3l5RCefg8we9vyJXrHUpwpHrRvN7+
+8USPlNOGnksAdQBElGUusO7Or8RAB9io/ijA2uaCvtjLMbU/0zOWtbaBqAAAAWrfMYwEAAAEAwBG
+MEQCIGcrYKjQnc1jyzYyOwfxsRfypPkXIX6rXl9+GC6u3lGUAiBPS12tiZMvEsAyBgUxG+4ihgnh
+GWNV7CL5oRbLOxA9iQB3AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAABat8xiaAA
+AAQDAEgwRgIhAMiK3m8JdLyWlEOytbeMM1NgQMKXW9r33AUQGJsP9YqYAiEA5TdGwAclrg3Gmib4
+xLeok2BSzvZCCa6T2vRz4Bs+OGwwDQYJKoZIhvcNAQELBQADggEBANX2lHDh6qLXNxFXAo2+F7oQ
+H3FbTdAU/YSKwHNCIX26LNbJz4gAGglZuar+0iXirAShXCOWXNeA3usZzdyw0kos5Zkc04y92+LT
+BziOaoJB3Y7T+sP+l3234RPCQia4IXsuJUwD63NzeH9mVug/LjXkHsFFoYSI8vM5+a1esYNcQnwp
+/YUGHjUOsk5B89m6f/q015jbVGApvEQJxBiwhDemEFD8bCqmauSNWQqIPKCLQUMfycQxMFc0pvnc
+uR7yojcXJ9lEwdT5qYqXzObddbdjrxlMx7nazr5g93Ck0A/XsjQMLiIOZKfH1F8oQlmzJR+cjfST
+gRZe1xHqx0sWw0w=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIG7jCCBdagAwIBAgIQU29UwGvBi1dT6qGZ4AmpXjANBgkqhkiG9w0BAQsFADCB
+lTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRl
+IFNhbiBQaWV0cm8xIzAhBgNVBAoMGkFjdGFsaXMgUy5wLkEuLzAzMzU4NTIwOTY3
+MTQwMgYDVQQDDCtBY3RhbGlzIE9yZ2FuaXphdGlvbiBWYWxpZGF0ZWQgU2VydmVy
+IENBIEcyMB4XDTE5MDUyMjEwNDg0NloXDTIxMDUyMjEwNDg0NlowgYgxCzAJBgNV
+BAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5BUE9MSTEZMBcGA1UE
+CgwQU08uUkUuU0EuIFMucC5BLjEmMCQGA1UECwwdRGlyZXppb25lIFNlcnZpemkg
+SW5mb3JtYXRpY2kxFDASBgNVBAMMCyouc29yZXNhLml0MIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA4EBQjuU2IsuDHMA8/dRc3nH72Q85FvhX44R/eFch
+kjE8KaHG/JOS26P28NbHXO+h9a/8agOg/DlWtG/+RMh1w3ynX3VwRcbeu7gcquMS
+uw8YgnSg1X6LEwXmSo+l52OGe5hWRBeTBq0I3SGOytKvTogLqYx9cYYepwznUSSa
+s9bFbrPX92Ov3fZ/pVLRv9/mTNkuOMn4T5EDmzC69joiiNV9GmarMSjml93bo2w7
+7AboOl+zIVpU70vHZTkwjyMCngioQVCJvk7oRE/4pNLwhm7DPoBof0YtbwYJBpAe
+fa3JfbYl2Wscf4fVeLVayVFj5QLVeLMOeDafWpSu5U1i3wIDAQABo4IDQzCCAz8w
+DAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRi/rsnimRE7WiWWlh5odtaJq3/uzB+
+BggrBgEFBQcBAQRyMHAwOwYIKwYBBQUHMAKGL2h0dHA6Ly9jYWNlcnQuYWN0YWxp
+cy5pdC9jZXJ0cy9hY3RhbGlzLWF1dGhvdmcyMDEGCCsGAQUFBzABhiVodHRwOi8v
+b2NzcDA5LmFjdGFsaXMuaXQvVkEvQVVUSE9WLUcyMCEGA1UdEQQaMBiCCyouc29y
+ZXNhLml0gglzb3Jlc2EuaXQwUQYDVR0gBEowSDA8BgYrgR8BEwEwMjAwBggrBgEF
+BQcCARYkaHR0cHM6Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25sb2FkMAgGBmeB
+DAECAjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwSAYDVR0fBEEwPzA9
+oDugOYY3aHR0cDovL2NybDA5LmFjdGFsaXMuaXQvUmVwb3NpdG9yeS9BVVRIT1Yt
+RzIvZ2V0TGFzdENSTDAdBgNVHQ4EFgQUmz39XwU2WlpQjjMY6UwwqzdyfFswDgYD
+VR0PAQH/BAQDAgWgMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgBc3EOS/uar
+RUSxXprUVuYQN/vV+kfcoXOUsl7m9scOygAAAWrfMYw2AAAEAwBHMEUCIAHUvXB2
+X3AWl5G4aJ8OjMtcdeuVxag9ueH8BkAz0SrxAiEAvDc3l5RCefg8we9vyJXrHUpw
+pHrRvN7+8USPlNOGnksAdQBElGUusO7Or8RAB9io/ijA2uaCvtjLMbU/0zOWtbaB
+qAAAAWrfMYwEAAAEAwBGMEQCIGcrYKjQnc1jyzYyOwfxsRfypPkXIX6rXl9+GC6u
+3lGUAiBPS12tiZMvEsAyBgUxG+4ihgnhGWNV7CL5oRbLOxA9iQB3AO5Lvbd1zmC6
+4UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAABat8xiaAAAAQDAEgwRgIhAMiK3m8J
+dLyWlEOytbeMM1NgQMKXW9r33AUQGJsP9YqYAiEA5TdGwAclrg3Gmib4xLeok2BS
+zvZCCa6T2vRz4Bs+OGwwDQYJKoZIhvcNAQELBQADggEBANX2lHDh6qLXNxFXAo2+
+F7oQH3FbTdAU/YSKwHNCIX26LNbJz4gAGglZuar+0iXirAShXCOWXNeA3usZzdyw
+0kos5Zkc04y92+LTBziOaoJB3Y7T+sP+l3234RPCQia4IXsuJUwD63NzeH9mVug/
+LjXkHsFFoYSI8vM5+a1esYNcQnwp/YUGHjUOsk5B89m6f/q015jbVGApvEQJxBiw
+hDemEFD8bCqmauSNWQqIPKCLQUMfycQxMFc0pvncuR7yojcXJ9lEwdT5qYqXzObd
+dbdjrxlMx7nazr5g93Ck0A/XsjQMLiIOZKfH1F8oQlmzJR+cjfSTgRZe1xHqx0sW
+w0w=
+</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.soresa.it/spidgateway/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.soresa.it/spidgateway/response" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">spidgateway</md:ServiceName>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="ivaCode"/>
+			<md:RequestedAttribute Name="companyName"/>
+			<md:RequestedAttribute Name="registeredOffice"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="digitalAddress"/>
+			<md:RequestedAttribute Name="expirationDate"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">So.Re.Sa. S.p.A</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">So.Re.Sa. S.p.A</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.soresa.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

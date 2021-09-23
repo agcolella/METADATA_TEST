@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="_32ae2ff1-cb91-4228-a65f-3600b36e3a66" entityID="https://spid.comunestabia.it/kauth/sp/shibboleth" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_32ae2ff1-cb91-4228-a65f-3600b36e3a66">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1IxbuOTFMq0ml9tkFXngSe78HWyW2R7geckObXp/GJM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+YJkPJOheQdLMYc45nCLR1hnu7wPUrLFKBz45w/0yIoteL5VseHyXpR3TgOfOoWv00ogD64Rp7IOt&#xd;
+5rP96WMeXJx3bjw4L1wm3qswAG3kiPBUhoMEgQwhe3QqqK5PsBqDV9uWIz+VguO2hSi63vH2aDxI&#xd;
+UGZF8wIR2SysycE/u0+FRNmgRM3bvNq7ldMxfzK/keyaEmcro5eBEuR/TXkKX+t3xWdoIPXTutRQ&#xd;
+VqzigVyzZAuUsyzqiCKEFvNnFoAJzi+tUY9m1HaByL2d7mjwaDTuioPLVGIkRZv8PPlS4bh3rCRB&#xd;
+LwUbCdO5vNMKslcmvLDbLLkSyqpx+3FYWp3vGg==
+</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIGsDCCBZigAwIBAgIQOQ6IADgnAq8DrG5m7W7JjzANBgkqhkiG9w0BAQsFADCBkDELMAkGA1UE
+BhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRlIFNhbiBQaWV0cm8xIzAhBgNV
+BAoMGkFjdGFsaXMgUy5wLkEuLzAzMzU4NTIwOTY3MS8wLQYDVQQDDCZBY3RhbGlzIERvbWFpbiBW
+YWxpZGF0aW9uIFNlcnZlciBDQSBHMjAeFw0yMDAxMjkxMzA4MDJaFw0yMjAxMjkxMzA4MDJaMFQx
+MzAxBgNVBAsMKkRvbWFpbiBDb250cm9sIFZhbGlkYXRlZCBieSBBY3RhbGlzIFMucC5BLjEdMBsG
+A1UEAwwUc3BpZC5jb211bmVzdGFiaWEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDTDS0mQgLe1GM0C/QSYklzFhDf83/Dt8TsLad8R0KIX9+MRiE3L+Pj6//gtD46WyLlACyh9enp
+ghKpmsm9sbqONs8XGVCXjpslqTqsah2BT2Z2AAXUFnCWPXfKGbuJxtJce4fYqPJKMn9+BtJNcWfn
+YSyCvuqIK1Llhd2eo61VZHEl01ScDMMf5fUY+iqFay94TtMrbdXwWolJBgemDJ9zO4ogHogQvqJ2
+/mhBu4ZPOrv4737uHL7Y0TJu910mbPg47ukRq4fnXsCfKliAAOBXFVKOlghkoR3cl53iD9Yl7mkr
+zQ22+TNwl3exhflPqk+2MigHlIAj0xLAPcpJxWNTAgMBAAGjggM/MIIDOzAMBgNVHRMBAf8EAjAA
+MB8GA1UdIwQYMBaAFNVACPeWIk4Zs9rlYZO6urc+67nNMH0GCCsGAQUFBwEBBHEwbzA6BggrBgEF
+BQcwAoYuaHR0cDovL2NhY2VydC5hY3RhbGlzLml0L2NlcnRzL2FjdGFsaXMtYXV0ZHZnMjAxBggr
+BgEFBQcwAYYlaHR0cDovL29jc3AwNi5hY3RhbGlzLml0L1ZBL0FVVEhEVi1HMjAfBgNVHREEGDAW
+ghRzcGlkLmNvbXVuZXN0YWJpYS5pdDBRBgNVHSAESjBIMDwGBiuBHwEWATAyMDAGCCsGAQUFBwIB
+FiRodHRwczovL3d3dy5hY3RhbGlzLml0L2FyZWEtZG93bmxvYWQwCAYGZ4EMAQIBMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDATBIBgNVHR8EQTA/MD2gO6A5hjdodHRwOi8vY3JsMDYuYWN0
+YWxpcy5pdC9SZXBvc2l0b3J5L0FVVEhEVi1HMi9nZXRMYXN0Q1JMMB0GA1UdDgQWBBSsHjr0VObv
+nzrqzAUk9a0ku0vFAzAOBgNVHQ8BAf8EBAMCBaAwggF9BgorBgEEAdZ5AgQCBIIBbQSCAWkBZwB2
+AKS5CZC0GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABb/FzmEIAAAQDAEcwRQIhAJdyJ2+E
+falGTxW8fAcTdb1cuykRWHWBFEJfuRRuusr7AiBcihfZ4bg5r0z/6iEuW59C+tDUx5Gm8hanoggQ
+pnqXjQB1AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABb/FzmJMAAAQDAEYwRAIg
+V01J6S9eULf5+js6BzgYsD3nloIMlHyBIgkP+r69Q60CIChdF/Y/Q1Mb3Ret2HTpUUDJSBpyVyfX
+0+vaSlx03J32AHYAu9nfvB+KcbWTlCOXqpJ7RzhXlQqrUugakJZkNo4e0YUAAAFv8XOYPwAABAMA
+RzBFAiEA7i9O69pumz/06Jn5Q77tMo2JCRkCjouWfXUrbzZ/n4MCIF3edFwqwo6DNGK6pH+NUrbs
+zK1/C4HIEPF2/0f95v8SMA0GCSqGSIb3DQEBCwUAA4IBAQBJPLVov6K7KZGnyIHkLdv9N4igdTR0
+cNvD99F1b2MsF/oOX/1iA2fRzz75fWmb4QU/0tfi6RM2HD7uuGRZrhlur2lv2gDqbpNP3mUlBZpR
+tyGTzWG59i+js+FZh4RWTRNBA+gKlQdk+SjKwfQPvk3GcolVaADKtI5UeczPBlFFd8JH81uDJFcM
+GXfS2y8DrlvsVtUrmlUSK6lt+ucAHVlVNd/xrzINj71Vc5E/JVzEd1rgYc6mkpJRuXRWDNliFxiH
+rUu4TQF7NP5Pu0FDFmxHCZFcn1HdrVt2BXu2KUN3axC9t8MCqv9M1MmUVrTRn/kSrcV+M0ND/+Px
+pwqiOYXx</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDETCCAfmgAwIBAgIJAJfbYD0E1s2+MA0GCSqGSIb3DQEBCwUAMB8xHTAbBgNV
+BAMMFHNwaWQuY29tdW5lc3RhYmlhLml0MB4XDTIwMDgwNDA5MDg0NVoXDTMwMDgw
+MjA5MDg0NVowHzEdMBsGA1UEAwwUc3BpZC5jb211bmVzdGFiaWEuaXQwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzplDB+K3d34/9IJXKuldLWiIJAb9P
+RxzcoHih0Qi0rPt+L48VnmhCE9X+Lji4dVcknbv+KJnY0Uz+LLvY9NeuL/C6Dgup
+4spBV0B1/Dtn/MuPhjAvXVb7gK8UOZj9BG0zdFvWdvTgACgrR5szGfPBD4Nqo3K+
+zV1Gy3ZQOovKriGkZYD/fUP+UPl/JzLjMuh9QPXWkVzaqQOIvfNpO75G0bzkAUd0
+bSM/sn11w7qeEvzVN5F02YaLlUE05Snx6R+m8Dags9NPPjjelRV5ALF0ZFF1XG3t
+RyklJHW5pcBd3juMvuWJIYzGqE2axRqDQ1TcA7Ip/q1CDMn0VeZfY56RAgMBAAGj
+UDBOMB0GA1UdDgQWBBSAPO5OfFuew/zSAXlPozVsJ0S9KDAfBgNVHSMEGDAWgBSA
+PO5OfFuew/zSAXlPozVsJ0S9KDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQBiHzSg+zhk53J6a0tBJ8Yyq4AxFt59HIR4bGhM1wtRCIcro8atGc8GNeyX
+luAPA1cgDj7zjXKxMm9o1eyBFQAwsWAoF8I8b3XXSyB0zMouva/ZJnCmTpCnFRMA
+ftEGqTJul9PoNo9S9eOquWdeczTUJyFo8wLz0+PYtEUG3TM8LzdCrgF9HjrG+OdU
+yOXSouKvhlrPlKFPaRLEHYRrVDZ/pSz9Z9kGre/v+fWdjeQnwzJQQUe0AGKvqkao
+gMuLZalBstXtMk52B4upyh2FPn+N/ftyndkZQLejMzzQFzaeLpbKF7O8tLUK5gps
+oqmUjEI+0p2KLh0Dboqo6Y18l/k6</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.comunestabia.it/kauth/sso/spid/logout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comunestabia.it/kauth/sso/spid/logout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comunestabia.it/kauth/sso/spid/acs" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">SP SPID</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="mobilePhone"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Citta' di Castellammare di Stabia</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Citta' di Castellammare di Stabia</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">http://www.comune.castellammare-di-stabia.napoli.it/</md:OrganizationURL></md:Organization></md:EntityDescriptor>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_6tsmo0hffuvxvrbvyko06l4393wjb4eo446whbncmwd" entityID="https://spid.ats-milano.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<ds:Reference URI="#_6tsmo0hffuvxvrbvyko06l4393wjb4eo446whbncmwd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>yQE9X2bLky3VAZMej4ndSebJTEodoKE6SE8sUssz0yb3fueCtGuQQOzjQqJI/cDPs5xe9CZ2DeRq
+OF4ejvhK8w==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+J8dHyGNp3dQ8ujwvay/IHu8mWDYxEnr4xlkRAWVLFKcvZLT1361G3JbzwFWtCLaT6+4wCENImmvY
+5mr+i/nTQF8AFZz0rVdtxTW6mM1fNzJdSOfVQJN8LbVgH6pby/JCAWubrqmJzMp6P0HpCL3ZFYNj
+oNMQ0f3XUH+UzudtO0V8rYNeHyyKXxtpacoK2PhshHQGHabNM28DvU3pr21qgNraEpjGZCYsh3pD
+pRipZWZLmBeZt679YGprJv/dGeXZoAJ2HBAh1wNG2fBM//8VV5nEOoBUlvPrwpKSJCh5i0APNeIY
+aQ2qN8/5GCLDAwRJQMzOPoGBef9Ku5nKA065sg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yOG7yB2IWC2vPEHN5nxbHIS/ZI9XdaXf7BqIC1J/kE1RtPasBIvwT9eaKWmE4QnuQDFykSC97J8s
+sa1puQTRPlWt+QhVpuaNtV686i8rJGSHe+YxElUguPHzgI9WLpzTHJhuZbHvX24g856XV813EGqK
+4Ha2U26dHFOCmHyy/mxyG5b2u5FObvLNkmT4SK64Sr8fnWfpjRxQDk4bhMHGMB6ATNpgD9Ei22Uk
+vi0hnkM+y2sfj9Aa+mS3DkbyNouRNyXgYPFp6qUxw7U9uxEIGtQl9G42DrH/1XkY3lRyoG2LTtjy
+d0+V7MXhPwG9hAkOJmMj2WwXBXVmeCF/UUmUow==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGvjCCBaagAwIBAgIQa9ta6e85b9+8W1rU9x4BTTANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UE
+BhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEYMBYG
+A1UEChMPU2VjdGlnbyBMaW1pdGVkMT0wOwYDVQQDEzRTZWN0aWdvIFJTQSBPcmdhbml6YXRpb24g
+VmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENBMB4XDTIwMTAzMDAwMDAwMFoXDTIxMTEyNTIzNTk1
+OVowgaYxCzAJBgNVBAYTAklUMQ4wDAYDVQQREwUyMDEyMjESMBAGA1UECBMJTG9tYmFyZGlhMQ8w
+DQYDVQQHEwZNaWxhbm8xGDAWBgNVBAkTD0NvcnNvIEl0YWxpYSAxOTErMCkGA1UEChMiQVRTIENp
+dHRhJyBNZXRyb3BvbGl0YW5hIERpIE1pbGFubzEbMBkGA1UEAxMSc3BpZC5hdHMtbWlsYW5vLml0
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyOG7yB2IWC2vPEHN5nxbHIS/ZI9XdaXf
+7BqIC1J/kE1RtPasBIvwT9eaKWmE4QnuQDFykSC97J8ssa1puQTRPlWt+QhVpuaNtV686i8rJGSH
+e+YxElUguPHzgI9WLpzTHJhuZbHvX24g856XV813EGqK4Ha2U26dHFOCmHyy/mxyG5b2u5FObvLN
+kmT4SK64Sr8fnWfpjRxQDk4bhMHGMB6ATNpgD9Ei22Ukvi0hnkM+y2sfj9Aa+mS3DkbyNouRNyXg
+YPFp6qUxw7U9uxEIGtQl9G42DrH/1XkY3lRyoG2LTtjyd0+V7MXhPwG9hAkOJmMj2WwXBXVmeCF/
+UUmUowIDAQABo4IC9TCCAvEwHwYDVR0jBBgwFoAUF9nWJSdn+THCSUPZMDZEjGypT+swHQYDVR0O
+BBYEFDkNTZ128i8+AF6YKfXF5hh+iX5YMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0G
+A1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBKBgNVHSAEQzBBMDUGDCsGAQQBsjEBAgEDBDAl
+MCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3RpZ28uY29tL0NQUzAIBgZngQwBAgIwWgYDVR0fBFMw
+UTBPoE2gS4ZJaHR0cDovL2NybC5zZWN0aWdvLmNvbS9TZWN0aWdvUlNBT3JnYW5pemF0aW9uVmFs
+aWRhdGlvblNlY3VyZVNlcnZlckNBLmNybDCBigYIKwYBBQUHAQEEfjB8MFUGCCsGAQUFBzAChklo
+dHRwOi8vY3J0LnNlY3RpZ28uY29tL1NlY3RpZ29SU0FPcmdhbml6YXRpb25WYWxpZGF0aW9uU2Vj
+dXJlU2VydmVyQ0EuY3J0MCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5zZWN0aWdvLmNvbTA1BgNV
+HREELjAsghJzcGlkLmF0cy1taWxhbm8uaXSCFnd3dy5zcGlkLmF0cy1taWxhbm8uaXQwggEEBgor
+BgEEAdZ5AgQCBIH1BIHyAPAAdgB9PvL4j/+IVWgkwsDKnlKJeSvFDngJfy5ql2iZfiLw1wAAAXV5
+pG3QAAAEAwBHMEUCIA5HL2Y+2VXYwr9ouGp9MKtRdzZRYx9y3ZLSqV8su5SSAiEAxl4UTq6HbgDd
+iuXh7t32mAjrka1QmKR85Utywu3xEXEAdgCUILwejtWNbIhzH4KLIiwN0dpNXmxPlD1h204vWE2i
+wgAAAXV5pG34AAAEAwBHMEUCIC5sVKn7pkUKMAtjzEV+monii+uhBviaI8aqfXp1rvgRAiEAoE7S
+mnwjkkXqO6Wm9wJqvoAIC19x4Gs410xtsl3gCnAwDQYJKoZIhvcNAQELBQADggEBAJjzAO7twqrV
+YyImjLFhMXAKnLf6h8v75aStZeTSnfFMf0qqGC8Lyj2Nm3KhwdCsaYchdfkl/NAaZRArHU97mdCn
+tWlSShsZBTe7eQQy5U+ITxwVd2mk3PuAQ+QfOPVdPDxjgqL53aem40XhS2IO8IL+h7EdJj3I07uF
+68UhxRtutzmOwHDt7ctxhP7zVTgiuMxNI0jPdBw+DwqBdkCL22yaxcHvy/gMy/pEeQDqn6VCzq9+
+z7xjO6XkX43s8uRbNfqpomum7jqIStjW9TqdlUv7rfAARKYSXSIZGO0orKxkFRU0g+VRsNw4eznP
+Rj73QwZ1YqLVzFAQiQEOuZOrc04=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIGvjCCBaagAwIBAgIQa9ta6e85b9+8W1rU9x4BTTANBgkqhkiG9w0BAQsFADCB
+lTELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMT0wOwYDVQQD
+EzRTZWN0aWdvIFJTQSBPcmdhbml6YXRpb24gVmFsaWRhdGlvbiBTZWN1cmUgU2Vy
+dmVyIENBMB4XDTIwMTAzMDAwMDAwMFoXDTIxMTEyNTIzNTk1OVowgaYxCzAJBgNV
+BAYTAklUMQ4wDAYDVQQREwUyMDEyMjESMBAGA1UECBMJTG9tYmFyZGlhMQ8wDQYD
+VQQHEwZNaWxhbm8xGDAWBgNVBAkTD0NvcnNvIEl0YWxpYSAxOTErMCkGA1UEChMi
+QVRTIENpdHRhJyBNZXRyb3BvbGl0YW5hIERpIE1pbGFubzEbMBkGA1UEAxMSc3Bp
+ZC5hdHMtbWlsYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+yOG7yB2IWC2vPEHN5nxbHIS/ZI9XdaXf7BqIC1J/kE1RtPasBIvwT9eaKWmE4Qnu
+QDFykSC97J8ssa1puQTRPlWt+QhVpuaNtV686i8rJGSHe+YxElUguPHzgI9WLpzT
+HJhuZbHvX24g856XV813EGqK4Ha2U26dHFOCmHyy/mxyG5b2u5FObvLNkmT4SK64
+Sr8fnWfpjRxQDk4bhMHGMB6ATNpgD9Ei22Ukvi0hnkM+y2sfj9Aa+mS3DkbyNouR
+NyXgYPFp6qUxw7U9uxEIGtQl9G42DrH/1XkY3lRyoG2LTtjyd0+V7MXhPwG9hAkO
+JmMj2WwXBXVmeCF/UUmUowIDAQABo4IC9TCCAvEwHwYDVR0jBBgwFoAUF9nWJSdn
++THCSUPZMDZEjGypT+swHQYDVR0OBBYEFDkNTZ128i8+AF6YKfXF5hh+iX5YMA4G
+A1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMB
+BggrBgEFBQcDAjBKBgNVHSAEQzBBMDUGDCsGAQQBsjEBAgEDBDAlMCMGCCsGAQUF
+BwIBFhdodHRwczovL3NlY3RpZ28uY29tL0NQUzAIBgZngQwBAgIwWgYDVR0fBFMw
+UTBPoE2gS4ZJaHR0cDovL2NybC5zZWN0aWdvLmNvbS9TZWN0aWdvUlNBT3JnYW5p
+emF0aW9uVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBLmNybDCBigYIKwYBBQUHAQEE
+fjB8MFUGCCsGAQUFBzAChklodHRwOi8vY3J0LnNlY3RpZ28uY29tL1NlY3RpZ29S
+U0FPcmdhbml6YXRpb25WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EuY3J0MCMGCCsG
+AQUFBzABhhdodHRwOi8vb2NzcC5zZWN0aWdvLmNvbTA1BgNVHREELjAsghJzcGlk
+LmF0cy1taWxhbm8uaXSCFnd3dy5zcGlkLmF0cy1taWxhbm8uaXQwggEEBgorBgEE
+AdZ5AgQCBIH1BIHyAPAAdgB9PvL4j/+IVWgkwsDKnlKJeSvFDngJfy5ql2iZfiLw
+1wAAAXV5pG3QAAAEAwBHMEUCIA5HL2Y+2VXYwr9ouGp9MKtRdzZRYx9y3ZLSqV8s
+u5SSAiEAxl4UTq6HbgDdiuXh7t32mAjrka1QmKR85Utywu3xEXEAdgCUILwejtWN
+bIhzH4KLIiwN0dpNXmxPlD1h204vWE2iwgAAAXV5pG34AAAEAwBHMEUCIC5sVKn7
+pkUKMAtjzEV+monii+uhBviaI8aqfXp1rvgRAiEAoE7SmnwjkkXqO6Wm9wJqvoAI
+C19x4Gs410xtsl3gCnAwDQYJKoZIhvcNAQELBQADggEBAJjzAO7twqrVYyImjLFh
+MXAKnLf6h8v75aStZeTSnfFMf0qqGC8Lyj2Nm3KhwdCsaYchdfkl/NAaZRArHU97
+mdCntWlSShsZBTe7eQQy5U+ITxwVd2mk3PuAQ+QfOPVdPDxjgqL53aem40XhS2IO
+8IL+h7EdJj3I07uF68UhxRtutzmOwHDt7ctxhP7zVTgiuMxNI0jPdBw+DwqBdkCL
+22yaxcHvy/gMy/pEeQDqn6VCzq9+z7xjO6XkX43s8uRbNfqpomum7jqIStjW9Tqd
+lUv7rfAARKYSXSIZGO0orKxkFRU0g+VRsNw4eznPRj73QwZ1YqLVzFAQiQEOuZOr
+c04=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.ats-milano.it/iam/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ats-milano.it/iam/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.ats-milano.it/iam/SAML2/POST" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="1">
+  <md:ServiceName xml:lang="it">Cittadino</md:ServiceName>
+  <md:RequestedAttribute Name="spidCode"/>
+  <md:RequestedAttribute Name="name"/>
+  <md:RequestedAttribute Name="familyName"/>
+  <md:RequestedAttribute Name="placeOfBirth"/>
+  <md:RequestedAttribute Name="countyOfBirth"/>
+  <md:RequestedAttribute Name="dateOfBirth"/>
+  <md:RequestedAttribute Name="gender"/>
+  <md:RequestedAttribute Name="fiscalNumber"/>
+  <md:RequestedAttribute Name="email"/>
+  <md:RequestedAttribute Name="idCard"/>
+  <md:RequestedAttribute Name="mobilePhone"/>
+  <md:RequestedAttribute Name="address"/>
+  <md:RequestedAttribute Name="digitalAddress"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="2">
+  <md:ServiceName xml:lang="it">impresa</md:ServiceName>
+  <md:RequestedAttribute Name="spidCode"/>
+  <md:RequestedAttribute Name="companyName"/>
+  <md:RequestedAttribute Name="registeredOffice"/>
+  <md:RequestedAttribute Name="ivaCode"/>
+  <md:RequestedAttribute Name="email"/>
+  <md:RequestedAttribute Name="address"/>
+  <md:RequestedAttribute Name="digitalAddress"/>
+</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ats Milano Citta Metropolitana</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ats Milano Citta Metropolitana</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://spid.ats-milano.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>atsmetmi</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>sistemainformativo@ats-milano.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

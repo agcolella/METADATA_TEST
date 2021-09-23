@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Bernareggio" entityID="https://www.comune.bernareggio.mb.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Bernareggio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>yB4+xOCcscMWj0BycK7xxBCVtYr605mRTx24AvGk7TY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+crzkxrn82uMoU7IbClHBW8z5mEcB8eJyzU2eovZlU2qVHcm/e5oHriUPk+WY6LmAheOIwsoQzPes
++y5NZSodmvNN7YXn2yWUac9NatLal3LwXBOy/WiJCXDEN44nL9RtKv7flP/A9ys1AHp5lvEt0def
+K2ylkt3nwL/a7zNqKmgi568CONTKDSIDwkeF/q4KZMoC9MqwrTZBom6lNQa+sRBhP42yIwPY+duH
+46zp7IuO/6nhRpnxq4tg/Fh5yaR37hy2Wxkyd/qEyaCtTAKTiT3EOcXT31oxASAAtXmlLGHXlIvV
+RSwRI5cMfZ7wpiDvhrCpUYtzDSd6BrqfwrRaTw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rPshjX+VQCto2ITsj+3TS67RQdSXu3NCFeygV2h3K/a5oiwhzwVghejSjDls7k5RZ1SiT8zR/eAS
+ysGJ9LX1IIIRALwaotQzvTORk/sYEm40PJJyrhP0ClSFPqEXbPe2/EqxmNmTGZlc2d95qIDtiEnE
+svfDM3JO+US1gBwcIqw+7x/CZ+dpvkZitYc2/fZga7SJpRLLD4eiBQXe4YHBRpGJjd9cYYsOGbq3
+6967+BJPkcm3wWBHgrOh/ePGZb2k+ToPylQKesWFzbP0M8T4wVxxJ041DaOL/b1+Olg9Pj961C16
+V4OqsvWqJ3mEAcKAUz1RyX56M80ehQVIU8qv3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAO9D3i1lZN3CMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUuYmVybmFyZWdnaW8ubWIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4
+MDUyMjExMzg1NFoXDTI4MDUxOTExMzg1NFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5iZXJuYXJl
+Z2dpby5tYi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCs+yGNf5VAK2jYhOyP7dNLrtFB1Je7c0IV7KBXaHcr9rmiLCHPBWCF6NKM
+OWzuTlFnVKJPzNH94BLKwYn0tfUgghEAvBqi1DO9M5GT+xgSbjQ8knKuE/QKVIU+oRds97b8SrGY
+2ZMZmVzZ33mogO2IScSy98Mzck75RLWAHBwirD7vH8Jn52m+RmK1hzb99mBrtImlEssPh6IFBd7h
+gcFGkYmN31xhiw4Zurfr3rv4Ek+RybfBYEeCs6H948ZlvaT5Og/KVAp6xYXNs/QzxPjBXHEnTjUN
+o4v9vX46WD0+P3rULXpXg6qy9aoneYQBwoBTPVHJfnozzR6FBUhTyq/fAgMBAAGjUDBOMB0GA1Ud
+DgQWBBTakAYHpcNDe6CQP6hP5V3G+AVioTAfBgNVHSMEGDAWgBTakAYHpcNDe6CQP6hP5V3G+AVi
+oTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQApW0wDqM9dovtNILbK688pQIrRZkmJ
+Ut6X/RGU9ye67G6G3kEgOlmcBvMSgVRKcRVIksvtR/BCxQxOtxFi85hv2h0K/hI6f+WwXPh9e/k6
+TtlqrwD5IcXg5uV0CiIUZWufNk0bfr8vOSt/oLXpvWrvMVnmw3/Tt5x2r6PsT7lQqCA3uPxcZfnx
+e9K6RuObk/kvFRhFBzd/Egftle47n57GErRCHRc8NOe6x1EZv/wdkVvGxyKyUqdgJHsQeOk0F3XP
+8Qdpq+bkupC2NwCWpJG8PPyA8HnQrWjz4bI4pann106oEIqu2hEyT8IP1SL/mbqmolxbVdc7Qmfw
+nnGr3JT/
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAO9D3i1lZN3CMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuYmVybmFyZWdnaW8ubWIuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUyMjExMzg1NFoXDTI4MDUxOTExMzg1NFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5iZXJuYXJlZ2dpby5tYi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCs+yGNf5VAK2jYhOyP7dNLrtFB1Je7c0IV7KBXaHcr9rmiLCHPBWCF6NKMOWzuTlFnVKJPzNH94BLKwYn0tfUgghEAvBqi1DO9M5GT+xgSbjQ8knKuE/QKVIU+oRds97b8SrGY2ZMZmVzZ33mogO2IScSy98Mzck75RLWAHBwirD7vH8Jn52m+RmK1hzb99mBrtImlEssPh6IFBd7hgcFGkYmN31xhiw4Zurfr3rv4Ek+RybfBYEeCs6H948ZlvaT5Og/KVAp6xYXNs/QzxPjBXHEnTjUNo4v9vX46WD0+P3rULXpXg6qy9aoneYQBwoBTPVHJfnozzR6FBUhTyq/fAgMBAAGjUDBOMB0GA1UdDgQWBBTakAYHpcNDe6CQP6hP5V3G+AVioTAfBgNVHSMEGDAWgBTakAYHpcNDe6CQP6hP5V3G+AVioTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQApW0wDqM9dovtNILbK688pQIrRZkmJUt6X/RGU9ye67G6G3kEgOlmcBvMSgVRKcRVIksvtR/BCxQxOtxFi85hv2h0K/hI6f+WwXPh9e/k6TtlqrwD5IcXg5uV0CiIUZWufNk0bfr8vOSt/oLXpvWrvMVnmw3/Tt5x2r6PsT7lQqCA3uPxcZfnxe9K6RuObk/kvFRhFBzd/Egftle47n57GErRCHRc8NOe6x1EZv/wdkVvGxyKyUqdgJHsQeOk0F3XP8Qdpq+bkupC2NwCWpJG8PPyA8HnQrWjz4bI4pann106oEIqu2hEyT8IP1SL/mbqmolxbVdc7QmfwnnGr3JT/
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/bernareggio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bernareggio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/bernareggio" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bernareggio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bernareggio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Bernareggio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Bernareggio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bernareggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bernareggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Bernareggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Bernareggio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bernareggio.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bernareggio.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.bernareggio.mb.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.bernareggio.mb.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx81427c03-758c-2a99-286b-e6f2e6f07fc2" entityID="https://www.comune.pievedelgrappa.tv.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx81427c03-758c-2a99-286b-e6f2e6f07fc2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rSE3yx4dOLTyWAHQWO25oXYLXKg5v3jSR1IxJSFBhiM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Dqaq4Yxc+sw2zLeQ2UcaLAf5CSPtJv3B3zYl7bI4zhuHHrD5JMHhQjwgDFEYPcooYQ3qYYdGeU58
+qGW7td00GYmVRJ+iHvh2qHxa9FFiNZSXWI4uukJ3Q6p/WlWt4BDBFNEFyYhSgTZ1Wd2hAyUzJAoy
+aqpxpdan1/oyDNc25fDSxvLZw3/yADEQoNYyDW750Z1kwXyDnq0dq6HECDAZGxMkFcu/kp4hRlb6
+7XVz1WQ/47Lh5ZmQ+JoRjCM71pGsknYcs6mJOug4pye0JGA8ZjHIrDBC3H+SmYwUbjrVGqFnp8L1
+ZXREM+Mtni0oL64z2Wy5nbXNjtCAgSxsVn/gzA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vAbMeJteFhIvUM3R9JjNoXDWVaohwChreY0Nt2zYP8CUu1Tp5ZKUDnQgXXKsp280lpWGEPhMAZ3I
+AR862j1TeTWkd1yKzZMd2EwuetKWxy5gZmW+sBNSpfslVJeiOGzQSkZbQb9pFMOY8IUqhK/KDAxb
+6V+GgDHDOt7O4zkSJiJoEFozv6wZ8mk96t/Cgd3WRQ4Y5EN+iErXcyic91GKrqF9jFyoazKMnhVh
+9X0Ez7GBycO7orNBrqxwZIMcvquNZtS4vd06597dQ0NLnPKSJ20qyznS47E6Au558AF59Zmonv9I
+yb9ToLSeKpTb1fmTLLGJZcRArhqocbQIz/3Nnw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4zCCAsugAwIBAgIJAKhiid46yth0MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFBpZXZlIGRlbCBHcmFwcGExIzAhBgNVBAoMGkNvbXVu
+ZSBkaSBQaWV2ZSBkZWwgR3JhcHBhMSgwJgYDVQQDDB93d3cuY29tdW5lLnBpZXZlZGVsZ3JhcHBh
+LnR2Lml0MB4XDTE5MDMyNzA4MTcwMVoXDTI5MDMyNjA4MTcwMVowgYcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQUGlldmUgZGVsIEdyYXBwYTEjMCEGA1UECgwaQ29tdW5l
+IGRpIFBpZXZlIGRlbCBHcmFwcGExKDAmBgNVBAMMH3d3dy5jb211bmUucGlldmVkZWxncmFwcGEu
+dHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8Bsx4m14WEi9QzdH0mM2hcNZV
+qiHAKGt5jQ23bNg/wJS7VOnlkpQOdCBdcqynbzSWlYYQ+EwBncgBHzraPVN5NaR3XIrNkx3YTC56
+0pbHLmBmZb6wE1Kl+yVUl6I4bNBKRltBv2kUw5jwhSqEr8oMDFvpX4aAMcM63s7jORImImgQWjO/
+rBnyaT3q38KB3dZFDhjkQ36IStdzKJz3UYquoX2MXKhrMoyeFWH1fQTPsYHJw7uis0GurHBkgxy+
+q41m1Li93Trn3t1DQ0uc8pInbSrLOdLjsToC7nnwAXn1maie/0jJv1OgtJ4qlNvV+ZMssYllxECu
+GqhxtAjP/c2fAgMBAAGjUDBOMB0GA1UdDgQWBBSa5xmxhSWDYQWcbhSdVnng4XYqyzAfBgNVHSME
+GDAWgBSa5xmxhSWDYQWcbhSdVnng4XYqyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQCEESTRyqSFjmwNmrFA/dWlDLPPg5ihA7DeS9EWKLalLO78eWE2qcZDDDYto1IXvInJrZT4JzB4
+8L+nGxs9Hx2LEgDIY27jHsN6zI06CV8NP075mZKSrzc8sC5d3603Zk7i20FalZMgazAyBMBg5Psk
+LSRtptR5igcD1xY0D3d8x1iap1aAgYx9Lrq1GVsnmI3bw/rrnBd5zTBSxWRoQ6ZC3qqyfPjdRA7l
+YwkRGtS/VW7N6WLxtNznzZqvxk0Em37icOc2cFgXRLKGImCXoJcbT5Zr+gQ6af9nO3Yqk3FUgQHP
+afQbuL/CbbKySeXO+r+MvV0VdxbSt31DVW32HoiI
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAKhiid46yth0MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFBpZXZlIGRlbCBHcmFwcGExIzAhBgNVBAoMGkNvbXVuZSBkaSBQaWV2ZSBkZWwgR3JhcHBhMSgwJgYDVQQDDB93d3cuY29tdW5lLnBpZXZlZGVsZ3JhcHBhLnR2Lml0MB4XDTE5MDMyNzA4MTcwMVoXDTI5MDMyNjA4MTcwMVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQUGlldmUgZGVsIEdyYXBwYTEjMCEGA1UECgwaQ29tdW5lIGRpIFBpZXZlIGRlbCBHcmFwcGExKDAmBgNVBAMMH3d3dy5jb211bmUucGlldmVkZWxncmFwcGEudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8Bsx4m14WEi9QzdH0mM2hcNZVqiHAKGt5jQ23bNg/wJS7VOnlkpQOdCBdcqynbzSWlYYQ+EwBncgBHzraPVN5NaR3XIrNkx3YTC560pbHLmBmZb6wE1Kl+yVUl6I4bNBKRltBv2kUw5jwhSqEr8oMDFvpX4aAMcM63s7jORImImgQWjO/rBnyaT3q38KB3dZFDhjkQ36IStdzKJz3UYquoX2MXKhrMoyeFWH1fQTPsYHJw7uis0GurHBkgxy+q41m1Li93Trn3t1DQ0uc8pInbSrLOdLjsToC7nnwAXn1maie/0jJv1OgtJ4qlNvV+ZMssYllxECuGqhxtAjP/c2fAgMBAAGjUDBOMB0GA1UdDgQWBBSa5xmxhSWDYQWcbhSdVnng4XYqyzAfBgNVHSMEGDAWgBSa5xmxhSWDYQWcbhSdVnng4XYqyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCEESTRyqSFjmwNmrFA/dWlDLPPg5ihA7DeS9EWKLalLO78eWE2qcZDDDYto1IXvInJrZT4JzB48L+nGxs9Hx2LEgDIY27jHsN6zI06CV8NP075mZKSrzc8sC5d3603Zk7i20FalZMgazAyBMBg5PskLSRtptR5igcD1xY0D3d8x1iap1aAgYx9Lrq1GVsnmI3bw/rrnBd5zTBSxWRoQ6ZC3qqyfPjdRA7lYwkRGtS/VW7N6WLxtNznzZqvxk0Em37icOc2cFgXRLKGImCXoJcbT5Zr+gQ6af9nO3Yqk3FUgQHPafQbuL/CbbKySeXO+r+MvV0VdxbSt31DVW32HoiI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJAKhiid46yth0MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEFBpZXZlIGRlbCBHcmFwcGExIzAhBgNVBAoMGkNvbXVuZSBkaSBQaWV2ZSBkZWwgR3JhcHBhMSgwJgYDVQQDDB93d3cuY29tdW5lLnBpZXZlZGVsZ3JhcHBhLnR2Lml0MB4XDTE5MDMyNzA4MTcwMVoXDTI5MDMyNjA4MTcwMVowgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQUGlldmUgZGVsIEdyYXBwYTEjMCEGA1UECgwaQ29tdW5lIGRpIFBpZXZlIGRlbCBHcmFwcGExKDAmBgNVBAMMH3d3dy5jb211bmUucGlldmVkZWxncmFwcGEudHYuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8Bsx4m14WEi9QzdH0mM2hcNZVqiHAKGt5jQ23bNg/wJS7VOnlkpQOdCBdcqynbzSWlYYQ+EwBncgBHzraPVN5NaR3XIrNkx3YTC560pbHLmBmZb6wE1Kl+yVUl6I4bNBKRltBv2kUw5jwhSqEr8oMDFvpX4aAMcM63s7jORImImgQWjO/rBnyaT3q38KB3dZFDhjkQ36IStdzKJz3UYquoX2MXKhrMoyeFWH1fQTPsYHJw7uis0GurHBkgxy+q41m1Li93Trn3t1DQ0uc8pInbSrLOdLjsToC7nnwAXn1maie/0jJv1OgtJ4qlNvV+ZMssYllxECuGqhxtAjP/c2fAgMBAAGjUDBOMB0GA1UdDgQWBBSa5xmxhSWDYQWcbhSdVnng4XYqyzAfBgNVHSMEGDAWgBSa5xmxhSWDYQWcbhSdVnng4XYqyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCEESTRyqSFjmwNmrFA/dWlDLPPg5ihA7DeS9EWKLalLO78eWE2qcZDDDYto1IXvInJrZT4JzB48L+nGxs9Hx2LEgDIY27jHsN6zI06CV8NP075mZKSrzc8sC5d3603Zk7i20FalZMgazAyBMBg5PskLSRtptR5igcD1xY0D3d8x1iap1aAgYx9Lrq1GVsnmI3bw/rrnBd5zTBSxWRoQ6ZC3qqyfPjdRA7lYwkRGtS/VW7N6WLxtNznzZqvxk0Em37icOc2cFgXRLKGImCXoJcbT5Zr+gQ6af9nO3Yqk3FUgQHPafQbuL/CbbKySeXO+r+MvV0VdxbSt31DVW32HoiI</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.pievedelgrappa.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.pievedelgrappa.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pieve del Grappa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pieve del Grappa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pievedelgrappa.tv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

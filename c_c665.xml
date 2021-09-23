@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Chivasso" entityID="https://www.comune.chivasso.to.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Chivasso">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>eobG85rjPDPUQ6ExHyEkQh0r6Y4zrZCHaC6zR5kk8no=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fj9wYHcEaruziJPlipdImIC9BEpMjgPRQ+PU4khI3yHqDQppSA+woS2YNfiaz1gP2P+DZMODnEAE
+C6omSsDJR9vWVTUlIVXq4lXBkSpRgFPi0iziQ4KS3Z8AHqP6SNb319ACzFWERM60+dJwS23/q1A7
+sdpLZ6uC1SOthPf9dTu+wHope74Zdc/7xA3Qc1jh/TBthpyR5eLvpl0q07LF/VgEXi/35aHHmGu/
+SQcipR6JfTqJLWwEQqxgst4VVvPNqO1mKanJYzIfYK4ZDiyDqaEjJq73USGwX0hzmZKxISy+CgTv
+nUx5bFH1pDW0XuxwJOQ5mbMlOhBEcjjOUCUxxg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sSVyU4AY0rivo205bRz0ERFqcj3fNI9DDFP14LNSIZE+DkucZjDSA3jqq4nxFv4w58aCJyq8EP5L
+uENeMu8h7IKsceVYjp+5ZWfS562WHwUYV+FiLOKSQuKaxFD2mcuat3f/GKDIMTjc82aUZvaNhe9R
+uP3u0ztYqz5pPYJibPwPQxh6yWYVc8AKWyHShZPPGCF/gZBTnrxmBPoAJitX2Ceb60u7jbrKbS+M
+FcTHvwK6UP7z+GNCmDnq3axu1t+n47PcuFPhOQ7s7zrtQrn+ukkZwf5VDcFbdPMjYiTXAmRy5QBr
+cX+43qVfLM45gOJtaC2R/XBX6ktzbff05SvYYw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJALg+1zAU8x20MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3d3cu
+Y29tdW5lLmNoaXZhc3NvLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xNzA2
+MTMxMjAxMTJaFw0yMTA2MTIxMjAxMTJaMEExIzAhBgNVBAMMGnd3d3cuY29tdW5lLmNoaXZhc3Nv
+LnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALElclOAGNK4r6NtOW0c9BERanI93zSPQwxT9eCzUiGRPg5LnGYw0gN46quJ8Rb+
+MOfGgicqvBD+S7hDXjLvIeyCrHHlWI6fuWVn0uetlh8FGFfhYizikkLimsRQ9pnLmrd3/xigyDE4
+3PNmlGb2jYXvUbj97tM7WKs+aT2CYmz8D0MYeslmFXPAClsh0oWTzxghf4GQU568ZgT6ACYrV9gn
+m+tLu426ym0vjBXEx78CulD+8/hjQpg56t2sbtbfp+Oz3LhT4TkO7O867UK5/rpJGcH+VQ3BW3Tz
+I2Ik1wJkcuUAa3F/uN6lXyzOOYDibWgtkf1wV+pLc2339OUr2GMCAwEAAaNQME4wHQYDVR0OBBYE
+FKuOd0kjtqPO0knHFQXJz3NYiTEeMB8GA1UdIwQYMBaAFKuOd0kjtqPO0knHFQXJz3NYiTEeMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKw/jOQ0WY2c+ikwFl2MH0Mt9z1NkrqAmgm0
+10yfN+W070XaMqmsS24WGcJjVlGuT1MAZHem8zwsG+VzFXpZ5qkCM9fst1WEmGaZbcRuyvv4V/Ar
+yTICuD2pWieJPwAC0NceK5TghaLV3Gyi6eR3PrUY+MIlYcEJvcPf0eu4G1vlMJrF4pt+V9u4axQd
+ggjZycvMcQA1qhboZ52DeNlnIU8fIqi77kQNIFL9OXEUqVjrUGLIrnzpl+h3HebUqqp6ri9y3hpJ
+cDYn5UHRquVFbskRpFidz8FPb2I5gxKL8vwXyiAfqXOkF0lr/iW+1ts0TvSafQAiuv/illP7HSpz
+HoU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDVTCCAj2gAwIBAgIJALg+1zAU8x20MA0GCSqGSIb3DQEBCwUAMEExIzAhBgNVBAMMGnd3d3cuY29tdW5lLmNoaXZhc3NvLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xNzA2MTMxMjAxMTJaFw0yMTA2MTIxMjAxMTJaMEExIzAhBgNVBAMMGnd3d3cuY29tdW5lLmNoaXZhc3NvLnRvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALElclOAGNK4r6NtOW0c9BERanI93zSPQwxT9eCzUiGRPg5LnGYw0gN46quJ8Rb+MOfGgicqvBD+S7hDXjLvIeyCrHHlWI6fuWVn0uetlh8FGFfhYizikkLimsRQ9pnLmrd3/xigyDE43PNmlGb2jYXvUbj97tM7WKs+aT2CYmz8D0MYeslmFXPAClsh0oWTzxghf4GQU568ZgT6ACYrV9gnm+tLu426ym0vjBXEx78CulD+8/hjQpg56t2sbtbfp+Oz3LhT4TkO7O867UK5/rpJGcH+VQ3BW3TzI2Ik1wJkcuUAa3F/uN6lXyzOOYDibWgtkf1wV+pLc2339OUr2GMCAwEAAaNQME4wHQYDVR0OBBYEFKuOd0kjtqPO0knHFQXJz3NYiTEeMB8GA1UdIwQYMBaAFKuOd0kjtqPO0knHFQXJz3NYiTEeMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKw/jOQ0WY2c+ikwFl2MH0Mt9z1NkrqAmgm010yfN+W070XaMqmsS24WGcJjVlGuT1MAZHem8zwsG+VzFXpZ5qkCM9fst1WEmGaZbcRuyvv4V/AryTICuD2pWieJPwAC0NceK5TghaLV3Gyi6eR3PrUY+MIlYcEJvcPf0eu4G1vlMJrF4pt+V9u4axQdggjZycvMcQA1qhboZ52DeNlnIU8fIqi77kQNIFL9OXEUqVjrUGLIrnzpl+h3HebUqqp6ri9y3hpJcDYn5UHRquVFbskRpFidz8FPb2I5gxKL8vwXyiAfqXOkF0lr/iW+1ts0TvSafQAiuv/illP7HSpzHoU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEMzCCAxugAwIBAgIJAMtjaDLVftNbMA0GCSqGSIb3DQEBCwUAMIGvMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVG9yaW5vMREwDwYDVQQHDAhDaGl2YXNzbzEbMBkGA1UECgwSQ29tdW5lIGRpIENoaXZhc3NvMRswGQYDVQQLDBJDb211bmUgZGkgQ2hpdmFzc28xGzAZBgNVBAMMEkNvbXVuZSBkaSBDaGl2YXNzbzElMCMGCSqGSIb3DQEJARYWaW5mb0Bjb211bmVjaGl2YXNzby5pdDAeFw0xODEyMjAxMTM5MzFaFw0xOTEyMjAxMTM5MzFaMIGvMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGVG9yaW5vMREwDwYDVQQHDAhDaGl2YXNzbzEbMBkGA1UECgwSQ29tdW5lIGRpIENoaXZhc3NvMRswGQYDVQQLDBJDb211bmUgZGkgQ2hpdmFzc28xGzAZBgNVBAMMEkNvbXVuZSBkaSBDaGl2YXNzbzElMCMGCSqGSIb3DQEJARYWaW5mb0Bjb211bmVjaGl2YXNzby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKjZCS+t36yeMtQaIFoyorx8aUFy24nZB/Q5FC22DuNMopFuQJ/vSTBNp627ULEPD6SYg6+2fSSr/B0e/cNCGarpeBdd/tffwcZ96y5hgEElXXUxt3krzezJ+2RRndKdDYqi1V8J8Zbx/RqbupGiNj79bBEMzOCZ63ayCOEMgYFUkmv6lP/Kn4kh31QeAmxjQkCxXFpcx73pJyNyjQgTw6UaowuPwfhr7KRj4Cvz2Rk4RK0i/mgPCEHUo6+fhkFGd0P/fuR1hVzXPpgb4GyCq+ZGplXmCK0nMvhqpBA5ZfnN/hXdRTIMcw77QZuyNpi5YjbCFCUntMK+qkIrx285/+8CAwEAAaNQME4wHQYDVR0OBBYEFFqhiLkypcyfEpdMfzcJt1bg9hRlMB8GA1UdIwQYMBaAFFqhiLkypcyfEpdMfzcJt1bg9hRlMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIPTi6+kQ1NuYKlJcx64rr8pb6c21lb9g1JSZcL+F8Y0LpjKe2K8VgWPznV/FQjmbJunx8n4Q1kPhZ+Ez89FqN/XKtLgxqfi1VCCLdat0QopOPkqKzdSwIfovopcVMIBY4CdaHAfSUPyuigdAmweiQIiNBXaeOUXBMqkBZc0M19ropuVWni3lSVt/1T26zzIV6mVnxVgT/+ywgI3MLPuBTHkqe6SMBirsg3sjk0VtyRj42yKYgJb0EOZkZQqjtVmHrDLqRuL+0CdI9MESuo53Mkk3Ciz5AxmFbtgFDczBS4+MFW5G5xdQHEryKfp+gzCpP5mCu1doo0Y2rY/s5qw1SA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/chivasso"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://chivasso.biduesystem.it/spid/module.php/saml/sp/saml2-logout.php/service"/>
+<md:NameIDFormat>
+urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/chivasso" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/chivasso" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://chivasso.biduesystem.it/spid/module.php/saml/sp/saml2-acs.php/service" index="2"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+<md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+<md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+<md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+<md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+<md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+<md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+<md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="1">
+<md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="2">
+<md:ServiceName xml:lang="it">Servizi2</md:ServiceName>
+<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+<md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Comune di Chivasso</md:OrganizationName>
+<md:OrganizationName xml:lang="en">Comune di Chivasso</md:OrganizationName>
+<md:OrganizationName xml:lang="fr">Comune di Chivasso</md:OrganizationName>
+<md:OrganizationName xml:lang="de">Comune di Chivasso</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Comune di Chivasso</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="en">Comune di Chivasso</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="fr">Comune di Chivasso</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="de">Comune di Chivasso</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://www.comune.chivasso.to.it</md:OrganizationURL>
+<md:OrganizationURL xml:lang="en">https://www.comune.chivasso.to.it</md:OrganizationURL>
+<md:OrganizationURL xml:lang="fr">https://www.comune.chivasso.to.it</md:OrganizationURL>
+<md:OrganizationURL xml:lang="de">https://www.comune.chivasso.to.it</md:OrganizationURL>
+</md:Organization>
+</md:EntityDescriptor>

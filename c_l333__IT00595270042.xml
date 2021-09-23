@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" entityID="https://www.pa-online.it/SP/pub-ag-full/103066" ID="idc655caed53f04446bfc731bfa6baa3be" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#idc655caed53f04446bfc731bfa6baa3be"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>c1KGXF6kNsp9+se+4VpDhcqgejkLxxQYdIE9A6Pio90=</DigestValue></Reference></SignedInfo><SignatureValue>pnswMbsRffF66XWMpZCJz3niFutbJO5HTfGoSkNcvle9Talu++lUthVuM0KitcFuObBklNnXJyi5supqCOS3ur13OT9rERU9j1C2oEyc+gEhWfx+LQaEMJWuSmMSIeni0DTSBq2RJ7gXqyouxHFOdvJCDrgOtHT9adI36zfH2Rry0MM6YFApp2TqCzigWUywNnuENDHvNPVV3dsUWCZqQkOqUATSvcBwuIDEZGCloPugaZ7wi7L0ZeZ6h5QPGScWlq4W3wEQfeq5Mv2upXCOh9fU4OX+7PJjbP50LmHS8m/h8ZHHX6QSEGd1NQhBLPMiKDIAcfF8lW5NsKmOX7GblQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Sportello Unico Digitale</md:ServiceName>
+      <md:RequestedAttribute Name="fiscalNumber" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="email" />
+      <md:RequestedAttribute Name="digitalAddress" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Trarego Viggiona</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Trarego Viggiona</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.pa-online.it/GisMasterWebS/SU/SU.aspx?IdCliente=103066&amp;IdPage=SSU</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson spid:entityType="spid:aggregator" contactType="other" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <md:Extensions>
+      <spid:VATNumber>IT00595270042</spid:VATNumber>
+      <spid:FiscalCode>IT00595270042</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator />
+    </md:Extensions>
+    <md:Company>Technical Design s.r.l.</md:Company>
+    <md:EmailAddress>spid@technicaldesign.it</md:EmailAddress>
+    <md:TelephoneNumber>+390171630924</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson spid:entityType="spid:aggregated" contactType="other" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <md:Extensions>
+      <spid:IPACode>c_l333</spid:IPACode>
+      <spid:Public />
+    </md:Extensions>
+    <md:Company>Comune di Trarego Viggiona</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

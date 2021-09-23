@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Nardo" entityID="https://www.comune.nardo.le.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Nardo">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>vgsA6ru1hux7Gdu1pym4kMzMtIvTkMGR8T/m7xMJPac=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rLJtlpfNRSxQIaqohA/AD142X8kw5PeiuDH7iW2WHAPOLcsQeV9FBCy1HJ2U4pNHE37qV0uUz/E6
+yvOnIYy2byqr+WVLT3nGkfqDjGF9B1ZNYtXKNCrhWmTJqw+7NLuz/sqi+7K0JXWEhhgQHKij/Ekx
+VoCa6vCgJGn523ahTZsBufB4jTZu/yj27rH+IfzghhYpMAWwwarTt27EoP1D3ym06YF4evtzYvG9
+rtztHCHs3Sp4vG32/tQwbrPli3/Rd8YBnb3jECUKaEjnJQcGLDQRhDqhWaXeYsj3mzjG6Rao00vP
+x4M8Yar4+k07X4pcENlnlpjD3TndYAB60EKlZg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3MDeEF/lpjS9VTMjeao1vngVsSkjSEmtuuvVgKtfreslvZIouUZWWsGWCUzPocBNNwV+CBrly2RX
+IxmySxalFVcCjq6djFsGGuzO0dVybVTAOG1I+18wZeUwfW3b72Lq9NQG1mONvIWxLOS97IPEl1Fl
+uulIQeaHH9SnFxTsWbkQ+g1WOUW9nrylXiJRGIaCEnHp3UzyVPkM+AeOjCYm0WX1+pzObfudXeHt
+KM1U4kKqA4gfnTHh6t1iixrQgwxJPFxN0KqbUnJwPuuDZEJDHTXpNfIoFDLO6dmveNsEhDqkH6xm
+2kAp+/pkKzO6NRd1luHRrluaxH2y5s3qatHGvw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAOxkOl6QV6PWMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmUubmFyZG8ubGUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDMyNzA4
+MjgzNloXDTMwMDMyNTA4MjgzNlowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5uYXJkby5sZS5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDcwN4QX+WmNL1VMyN5qjW+eBWxKSNISa2669WAq1+t6yW9kii5RlZawZYJTM+hwE03BX4IGuXL
+ZFcjGbJLFqUVVwKOrp2MWwYa7M7R1XJtVMA4bUj7XzBl5TB9bdvvYur01AbWY428hbEs5L3sg8SX
+UWW66UhB5ocf1KcXFOxZuRD6DVY5Rb2evKVeIlEYhoIScendTPJU+Qz4B46MJibRZfX6nM5t+51d
+4e0ozVTiQqoDiB+dMeHq3WKLGtCDDEk8XE3QqptScnA+64NkQkMdNek18igUMs7p2a942wSEOqQf
+rGbaQCn7+mQrM7o1F3WW4dGuW5rEfbLmzepq0ca/AgMBAAGjUDBOMB0GA1UdDgQWBBTBRQWnb/ty
+Vb8DvWJQi3fYSwUJDjAfBgNVHSMEGDAWgBTBRQWnb/tyVb8DvWJQi3fYSwUJDjAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCdUEAOgQFTQE0/ThCh5xdofsblwEb572hHPZ2U9F+CyFbP
+LleKTKbi5Amx0oUTIkWQFr8k1xV83CNlMaiUfcF5IiRw/nQsxhzFx7c/4Odu1LQiT+RNHz0TiWV5
+oEAzHCb8SB43lxTLdTOd31fB8Thkx9dFAfwYO6D4oJ+STP5Yucb92/9a39iEWSx/yFUu/KzY+H76
+Bfr+82DIb1TFvPjAmMGmwj4Io7vMIkmYUVvCqjoD7QRyuabz2DheLQWskf9C21jcx7yMeWkXb2eG
+mcZeFnc9eNQOgT6xUhxgSBUEX4kxx2HCiHoC7a9Bh3I4fyPQKCfCskXS2JELecGth7hy
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAOxkOl6QV6PWMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUubmFyZG8ubGUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDMyNzA4MjgzNloXDTMwMDMyNTA4MjgzNlowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5uYXJkby5sZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcwN4QX+WmNL1VMyN5qjW+eBWxKSNISa2669WAq1+t6yW9kii5RlZawZYJTM+hwE03BX4IGuXLZFcjGbJLFqUVVwKOrp2MWwYa7M7R1XJtVMA4bUj7XzBl5TB9bdvvYur01AbWY428hbEs5L3sg8SXUWW66UhB5ocf1KcXFOxZuRD6DVY5Rb2evKVeIlEYhoIScendTPJU+Qz4B46MJibRZfX6nM5t+51d4e0ozVTiQqoDiB+dMeHq3WKLGtCDDEk8XE3QqptScnA+64NkQkMdNek18igUMs7p2a942wSEOqQfrGbaQCn7+mQrM7o1F3WW4dGuW5rEfbLmzepq0ca/AgMBAAGjUDBOMB0GA1UdDgQWBBTBRQWnb/tyVb8DvWJQi3fYSwUJDjAfBgNVHSMEGDAWgBTBRQWnb/tyVb8DvWJQi3fYSwUJDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCdUEAOgQFTQE0/ThCh5xdofsblwEb572hHPZ2U9F+CyFbPLleKTKbi5Amx0oUTIkWQFr8k1xV83CNlMaiUfcF5IiRw/nQsxhzFx7c/4Odu1LQiT+RNHz0TiWV5oEAzHCb8SB43lxTLdTOd31fB8Thkx9dFAfwYO6D4oJ+STP5Yucb92/9a39iEWSx/yFUu/KzY+H76Bfr+82DIb1TFvPjAmMGmwj4Io7vMIkmYUVvCqjoD7QRyuabz2DheLQWskf9C21jcx7yMeWkXb2eGmcZeFnc9eNQOgT6xUhxgSBUEX4kxx2HCiHoC7a9Bh3I4fyPQKCfCskXS2JELecGth7hy
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAOxkOl6QV6PWMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUubmFyZG8ubGUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDMyNzA4MjgzNloXDTMwMDMyNTA4MjgzNlowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5uYXJkby5sZS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcwN4QX+WmNL1VMyN5qjW+eBWxKSNISa2669WAq1+t6yW9kii5RlZawZYJTM+hwE03BX4IGuXLZFcjGbJLFqUVVwKOrp2MWwYa7M7R1XJtVMA4bUj7XzBl5TB9bdvvYur01AbWY428hbEs5L3sg8SXUWW66UhB5ocf1KcXFOxZuRD6DVY5Rb2evKVeIlEYhoIScendTPJU+Qz4B46MJibRZfX6nM5t+51d4e0ozVTiQqoDiB+dMeHq3WKLGtCDDEk8XE3QqptScnA+64NkQkMdNek18igUMs7p2a942wSEOqQfrGbaQCn7+mQrM7o1F3WW4dGuW5rEfbLmzepq0ca/AgMBAAGjUDBOMB0GA1UdDgQWBBTBRQWnb/tyVb8DvWJQi3fYSwUJDjAfBgNVHSMEGDAWgBTBRQWnb/tyVb8DvWJQi3fYSwUJDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCdUEAOgQFTQE0/ThCh5xdofsblwEb572hHPZ2U9F+CyFbPLleKTKbi5Amx0oUTIkWQFr8k1xV83CNlMaiUfcF5IiRw/nQsxhzFx7c/4Odu1LQiT+RNHz0TiWV5oEAzHCb8SB43lxTLdTOd31fB8Thkx9dFAfwYO6D4oJ+STP5Yucb92/9a39iEWSx/yFUu/KzY+H76Bfr+82DIb1TFvPjAmMGmwj4Io7vMIkmYUVvCqjoD7QRyuabz2DheLQWskf9C21jcx7yMeWkXb2eGmcZeFnc9eNQOgT6xUhxgSBUEX4kxx2HCiHoC7a9Bh3I4fyPQKCfCskXS2JELecGth7hy
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/nardo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/nardo" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/nardo" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/nardo" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Nardò</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Nardò</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Nardò</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Nardò</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Nardò</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Nardò</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Nardò</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Nardò</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.nardo.le.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.nardo.le.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.nardo.le.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.nardo.le.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

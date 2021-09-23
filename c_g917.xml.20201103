@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.porto-mantovano.mn.it/" ID="pfx7c522c10-a47c-8000-9013-d0da9ef496cb"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx7c522c10-a47c-8000-9013-d0da9ef496cb"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>m4yX5N7FBBFyDZakdiARHXHzYs69Nz3P96faEeAmnNg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>WntkDtXfg0QpyJSBHaFp6mWT8GXe8QJu+q05dNBQDviIyzzv4gSipDN8GouO4HtdJPKvPdkajE08E0ElW3hIrmBg+k1nZiEW1f7UpjOjKdxPQH0tIxsl1e3zA6TtJ2NnRyrlono4KkIdDS0paZCIHr1ai3T2c2+A7dCGd/0Axv291eoXwDQHYXMkXKyUGKVuCOpLoTYEReftf0RcRRc1SG0ScLgZLWru1/ymSG1SLZ7vYTvpZcn2wmUBrwSM/Yl8d5GRA/ssWqP8hU2YWEueYHWXv9cSJDfdJ8nhKYmDAfG0I0iakXXArgXV6epovtd+uGAhItjguyZOnKjnavbAGg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAJQSZWKk0513MA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEYMBYGA1UEBwwPUG9ydG8gTWFudG92YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgUG9ydG8gTWFudG92YW5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucG9ydG8tbWFudG92YW5vLm1uLml0MB4XDTE4MDUxNDA4MjkwMloXDTI4MDUxMTA4MjkwMlowgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRgwFgYDVQQHDA9Qb3J0byBNYW50b3Zhbm8xIjAgBgNVBAoMGUNvbXVuZSBkaSBQb3J0byBNYW50b3Zhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5wb3J0by1tYW50b3Zhbm8ubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8gxuPba+ONYRy11SU6Yd1V9yBJU0cnxthW2xKNb9M+8UztGlCD3KZdGcPhuERHCnWO3oydnbjuWWMZfHc76r/alKHLL6lDiacayOsgBm0i1cNONdvdTE0GsWs2rjPmWWa8Im4QNKu20B2oIYVpiRs9kqewRdE8GjRmdwo2JWWsg6M6Hq8QsbUSXWt1V5qY3kLpRXh6viC5ClIlI73WeNbYu/IJJOkqn5UM4szVDHC68OfM5uRijYG4HSeEAweVOvFV1MP8JvJYwS9drSOy0CSzkDOZuTt8WoArJU+BCu3o6a5i21tL414LYOusU2FrcHwc/NPfNANL7LcSDVZDN/PAgMBAAGjUzBRMB0GA1UdDgQWBBQ2URazWmJu7Ij4KKNLGTiJb2vWSDAfBgNVHSMEGDAWgBQ2URazWmJu7Ij4KKNLGTiJb2vWSDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCnS1zgVAiuQ5BZdXBLsklDwEC5R7OeJXl6h1N0Rhz/MS1x53cFxEJnqe0nu9NiZdAG+41MwQ5jCAT8kTKozYSC4WgZ4HhTaGNxaj88U9O4SeMy/5+83iLJZ/+ejDa6vYDEEzv8i3kVZYmhIOc1AGQAMVXdzskq9DfmziooEIlHLGemKBmlTYixN8oHJohtXBdXHvAi1DB10ocwh7Q0w01VYOYBm2yHIeo51dhQu8lCtVcjz5O4ErRV8+5jhwJL5ZR8XJv1H8dDoC7Gips5UwGHJwLIQvjWpqQUE7+gkv0jFOaeVk+1zYmdcEOiuZ5EQx/0BiWctD8L0/OdQaxezlpC</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAJQSZWKk0513MA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEYMBYGA1UEBwwPUG9ydG8gTWFudG92YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgUG9ydG8gTWFudG92YW5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucG9ydG8tbWFudG92YW5vLm1uLml0MB4XDTE4MDUxNDA4MjkwMloXDTI4MDUxMTA4MjkwMlowgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRgwFgYDVQQHDA9Qb3J0byBNYW50b3Zhbm8xIjAgBgNVBAoMGUNvbXVuZSBkaSBQb3J0byBNYW50b3Zhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5wb3J0by1tYW50b3Zhbm8ubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8gxuPba+ONYRy11SU6Yd1V9yBJU0cnxthW2xKNb9M+8UztGlCD3KZdGcPhuERHCnWO3oydnbjuWWMZfHc76r/alKHLL6lDiacayOsgBm0i1cNONdvdTE0GsWs2rjPmWWa8Im4QNKu20B2oIYVpiRs9kqewRdE8GjRmdwo2JWWsg6M6Hq8QsbUSXWt1V5qY3kLpRXh6viC5ClIlI73WeNbYu/IJJOkqn5UM4szVDHC68OfM5uRijYG4HSeEAweVOvFV1MP8JvJYwS9drSOy0CSzkDOZuTt8WoArJU+BCu3o6a5i21tL414LYOusU2FrcHwc/NPfNANL7LcSDVZDN/PAgMBAAGjUzBRMB0GA1UdDgQWBBQ2URazWmJu7Ij4KKNLGTiJb2vWSDAfBgNVHSMEGDAWgBQ2URazWmJu7Ij4KKNLGTiJb2vWSDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCnS1zgVAiuQ5BZdXBLsklDwEC5R7OeJXl6h1N0Rhz/MS1x53cFxEJnqe0nu9NiZdAG+41MwQ5jCAT8kTKozYSC4WgZ4HhTaGNxaj88U9O4SeMy/5+83iLJZ/+ejDa6vYDEEzv8i3kVZYmhIOc1AGQAMVXdzskq9DfmziooEIlHLGemKBmlTYixN8oHJohtXBdXHvAi1DB10ocwh7Q0w01VYOYBm2yHIeo51dhQu8lCtVcjz5O4ErRV8+5jhwJL5ZR8XJv1H8dDoC7Gips5UwGHJwLIQvjWpqQUE7+gkv0jFOaeVk+1zYmdcEOiuZ5EQx/0BiWctD8L0/OdQaxezlpC</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIERjCCAy6gAwIBAgIJAJQSZWKk0513MA0GCSqGSIb3DQEBCwUAMIG3MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEYMBYGA1UEBwwPUG9ydG8gTWFudG92YW5vMSIwIAYDVQQKDBlDb211bmUgZGkgUG9ydG8gTWFudG92YW5vMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE5MDcGA1UEAwwwc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUucG9ydG8tbWFudG92YW5vLm1uLml0MB4XDTE4MDUxNDA4MjkwMloXDTI4MDUxMTA4MjkwMlowgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdNYW50b3ZhMRgwFgYDVQQHDA9Qb3J0byBNYW50b3Zhbm8xIjAgBgNVBAoMGUNvbXVuZSBkaSBQb3J0byBNYW50b3Zhbm8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTkwNwYDVQQDDDBzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5wb3J0by1tYW50b3Zhbm8ubW4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8gxuPba+ONYRy11SU6Yd1V9yBJU0cnxthW2xKNb9M+8UztGlCD3KZdGcPhuERHCnWO3oydnbjuWWMZfHc76r/alKHLL6lDiacayOsgBm0i1cNONdvdTE0GsWs2rjPmWWa8Im4QNKu20B2oIYVpiRs9kqewRdE8GjRmdwo2JWWsg6M6Hq8QsbUSXWt1V5qY3kLpRXh6viC5ClIlI73WeNbYu/IJJOkqn5UM4szVDHC68OfM5uRijYG4HSeEAweVOvFV1MP8JvJYwS9drSOy0CSzkDOZuTt8WoArJU+BCu3o6a5i21tL414LYOusU2FrcHwc/NPfNANL7LcSDVZDN/PAgMBAAGjUzBRMB0GA1UdDgQWBBQ2URazWmJu7Ij4KKNLGTiJb2vWSDAfBgNVHSMEGDAWgBQ2URazWmJu7Ij4KKNLGTiJb2vWSDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCnS1zgVAiuQ5BZdXBLsklDwEC5R7OeJXl6h1N0Rhz/MS1x53cFxEJnqe0nu9NiZdAG+41MwQ5jCAT8kTKozYSC4WgZ4HhTaGNxaj88U9O4SeMy/5+83iLJZ/+ejDa6vYDEEzv8i3kVZYmhIOc1AGQAMVXdzskq9DfmziooEIlHLGemKBmlTYixN8oHJohtXBdXHvAi1DB10ocwh7Q0w01VYOYBm2yHIeo51dhQu8lCtVcjz5O4ErRV8+5jhwJL5ZR8XJv1H8dDoC7Gips5UwGHJwLIQvjWpqQUE7+gkv0jFOaeVk+1zYmdcEOiuZ5EQx/0BiWctD8L0/OdQaxezlpC</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.porto-mantovano.mn.it/simplesaml/module.php/saml/sp/saml2-logout.php/portomantovano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.porto-mantovano.mn.it/simplesaml/module.php/saml/sp/saml2-acs.php/portomantovano" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">portomantovano</md:ServiceName>
+      <md:RequestedAttribute Name="name" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="familyName" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="placeOfBirth" FriendlyName="Luogo di nascita"/>
+      <md:RequestedAttribute Name="dateOfBirth" FriendlyName="Data di nascita"/>
+      <md:RequestedAttribute Name="gender" FriendlyName="Sesso"/>
+      <md:RequestedAttribute Name="fiscalNumber" FriendlyName="Codice Fiscale"/>
+      <md:RequestedAttribute Name="mobilePhone" FriendlyName="Cellulare"/>
+      <md:RequestedAttribute Name="address" FriendlyName="Indirizzo"/>
+      <md:RequestedAttribute Name="digitalAddress" FriendlyName="Domicilio digitale"/>
+      <md:RequestedAttribute Name="email" FriendlyName="Indirizzo di posta elettronica"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_g917</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Porto Mantovano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.porto-mantovano.mn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

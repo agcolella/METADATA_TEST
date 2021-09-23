@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="id3a750c63280c4baa9ec5ce80ac3a1a7f" entityID="https://sportellodigitale.comune.mondovi.cn.it/SP"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#id3a750c63280c4baa9ec5ce80ac3a1a7f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6Nuy8V6WNKlz49B32DWpFeQJc+oP9mLp3u9ITmV1vvs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CtM1gp9KCXxIfKitE8OnWZNXiY8VPvzaNwT3yy7k/qJb7WEToPXDGb4HjWwmlkaIxwjbYxI0NlOD
+Jb/NQinpZCRzEi5IS8bzltHMa4ob94HtIvNNEqVDpo4hefyE0D04Y6BMyPGe9IjqeTXFcmHEB9rM
+q/9QGHfdd2VBvMgqg24tZ7zxAhS2Oe40fb5gtMIRclU5l22UfEo+Tx7Yk80s7rWbuirTkfrKfbrg
+kfaG+mpNGoNAkX9B7L9FqBvddC0L6QjtuLm4QtA8Kv0TyGy5yXiLko6WX5wEJy1U8gc+hn1pDYTc
+pFh53+IvZoQ+Kgce5m2qT9ausutOZrHSVyVRNQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wo/L+B0Xuutr9AVXwFClRHyuAeQ9y1LNhFe7nDLtMmm/qpx1nUTj4hUpZSTBNr3IOQ1Q70Whlube
+X4n0BFd9ZdVkG6I92aqpcpAYRsG9rS3UI4jPWty+Zr0AX0QTHA3L7vkwfregbit1DDkmNEjFrX6/
+HPCjQIz5dN8hzctpmuOaoyDdKZmm4FhHI78NSTq8ZGYRjSwILjOEbZ6Yo3djXb+E5L393qwOoLZJ
+jPFV3zp6QsL6kQ88Cz3qPwQK4WKLWfbaeN03EGMs+ZkCdwz0pM+z4xeBZQzjcLhxfwGs18rRrI3s
+ym0esjADgR3acGCV4q8zSTSzcKYTazPOtSoNOw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJAJAH9BwPVAuhMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUubW9uZG92aS5jbi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzEz
+MTAwMjEwWhcNMzAwMzExMTAwMjEwWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLm1vbmRvdmkuY24u
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAwo/L+B0Xuutr9AVXwFClRHyuAeQ9y1LNhFe7nDLtMmm/qpx1nUTj4hUpZSTBNr3IOQ1Q
+70WhlubeX4n0BFd9ZdVkG6I92aqpcpAYRsG9rS3UI4jPWty+Zr0AX0QTHA3L7vkwfregbit1DDkm
+NEjFrX6/HPCjQIz5dN8hzctpmuOaoyDdKZmm4FhHI78NSTq8ZGYRjSwILjOEbZ6Yo3djXb+E5L39
+3qwOoLZJjPFV3zp6QsL6kQ88Cz3qPwQK4WKLWfbaeN03EGMs+ZkCdwz0pM+z4xeBZQzjcLhxfwGs
+18rRrI3sym0esjADgR3acGCV4q8zSTSzcKYTazPOtSoNOwIDAQABo1AwTjAdBgNVHQ4EFgQUQ/rK
+Ypr51i9Niz+9NRyXkxlX+Q0wHwYDVR0jBBgwFoAUQ/rKYpr51i9Niz+9NRyXkxlX+Q0wDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAlH3HLFzlQ/eu4ssI1L8nXBOok9oSEJ5C7vEYLAvG
+PkcQpN2yISr+CqB2sizUGrW/IIgD3/mU+WtCRHH3WJ9IbVu4Z6dMVlc1wMZ1Tbge4y36NE6PIYNb
+3qOWw0NK9kGmSZyZwziLcaxk8LA/OKoVdAdO7jWdUVBlcgyaLL9TVgdpCUIejep+8CFsIoPPpVbc
+WJxo11iPkvYKdK0Ot4PYu6+9LV1ChCEU/SbzIdIrvBjQajB+Ezij9CYa7AchGs5dhqNkbhigkRkr
+IpKdyf8RNl2pOzqnEzeNK3ZAgFzjZ8zndExWmxAh78SNQNsHo+o44aYEb+FtFuBxf2unb/2D/A==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <KeyDescriptor use="signing">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </KeyDescriptor>
+      <KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJAJAH9BwPVAuhMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUubW9uZG92aS5jbi5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzEzMTAwMjEwWhcNMzAwMzExMTAwMjEwWjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLm1vbmRvdmkuY24uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwo/L+B0Xuutr9AVXwFClRHyuAeQ9y1LNhFe7nDLtMmm/qpx1nUTj4hUpZSTBNr3IOQ1Q70WhlubeX4n0BFd9ZdVkG6I92aqpcpAYRsG9rS3UI4jPWty+Zr0AX0QTHA3L7vkwfregbit1DDkmNEjFrX6/HPCjQIz5dN8hzctpmuOaoyDdKZmm4FhHI78NSTq8ZGYRjSwILjOEbZ6Yo3djXb+E5L393qwOoLZJjPFV3zp6QsL6kQ88Cz3qPwQK4WKLWfbaeN03EGMs+ZkCdwz0pM+z4xeBZQzjcLhxfwGs18rRrI3sym0esjADgR3acGCV4q8zSTSzcKYTazPOtSoNOwIDAQABo1AwTjAdBgNVHQ4EFgQUQ/rKYpr51i9Niz+9NRyXkxlX+Q0wHwYDVR0jBBgwFoAUQ/rKYpr51i9Niz+9NRyXkxlX+Q0wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAlH3HLFzlQ/eu4ssI1L8nXBOok9oSEJ5C7vEYLAvGPkcQpN2yISr+CqB2sizUGrW/IIgD3/mU+WtCRHH3WJ9IbVu4Z6dMVlc1wMZ1Tbge4y36NE6PIYNb3qOWw0NK9kGmSZyZwziLcaxk8LA/OKoVdAdO7jWdUVBlcgyaLL9TVgdpCUIejep+8CFsIoPPpVbcWJxo11iPkvYKdK0Ot4PYu6+9LV1ChCEU/SbzIdIrvBjQajB+Ezij9CYa7AchGs5dhqNkbhigkRkrIpKdyf8RNl2pOzqnEzeNK3ZAgFzjZ8zndExWmxAh78SNQNsHo+o44aYEb+FtFuBxf2unb/2D/A==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </KeyDescriptor>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML"/>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/mondovi"/>
+      <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/mondovi" index="1"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/mondovi" index="2"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/mondovi" index="3"/>
+      <AttributeConsumingService index="0">
+         <ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+         <RequestedAttribute Name="fiscalNumber"/>
+         <RequestedAttribute Name="name"/>
+         <RequestedAttribute Name="familyName"/>
+         <RequestedAttribute Name="spidCode"/>
+         <RequestedAttribute Name="email"/>
+         <RequestedAttribute Name="digitalAddress"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="1">
+         <ServiceName xml:lang="it">ServiziAvanzati</ServiceName>
+         <RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="2">
+         <ServiceName xml:lang="it">ServiziBase</ServiceName>
+         <RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </AttributeConsumingService>
+      <AttributeConsumingService index="3">
+         <ServiceName xml:lang="it">ServiziSTD</ServiceName>
+         <RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </AttributeConsumingService>
+   </SPSSODescriptor>
+   <Organization>
+      <OrganizationName xml:lang="it">Comune di Mondovì</OrganizationName>
+      <OrganizationDisplayName xml:lang="it">Comune di Mondovì</OrganizationDisplayName>
+      <OrganizationURL xml:lang="it">http://www.comune.mondovi.cn.it</OrganizationURL>
+   </Organization>
+</EntityDescriptor>

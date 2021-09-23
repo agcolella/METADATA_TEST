@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.iacp.napoli.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/metadata.php/default-sp" ID="pfx5243b43b-7b85-0ed1-8efa-b743828f7a96"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx5243b43b-7b85-0ed1-8efa-b743828f7a96"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>kdcGiPNikpulHRLOYP+4+XjCLKASkmmY8NdfQ17vTEA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>YKZ4DfjSLv9beMMHWkYzxbeZF//RKxTR6DPZyyCg0/Oqn/MZn6IHmFob6A+k1xtmJYYkH6wUiR2UnNGbWqQW8dIBJjyw9xbC4Gq5qHmpf1JLjwh/vSDs52+ro+TCG47tN5dj9exbi6Jc5KKlf/jJvq2s0kWn31gtxy+vK3XaWtYdusNwNU0/9QbmSA4u/O5NfG+nwgMjx/JopfjMzcTGKD2oHTTHPUt6Lwih31RkhOy0Xd3/u81ZlpvHXfMQJWfI98cGON3Ph9JgosCQD8m0izsObdjT79WO0tmh51dlTm/q8a3EEl5KWh7eWyzZm4iKTFR4z/eI2Cvg790mgl0++w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEaDCCA1CgAwIBAgIIGkW0dsQTtOYwDQYJKoZIhvcNAQELBQAwgcoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5hcG9saTENMAsGA1UECgwESUFDUDFJMEcGA1UECwxASXN0aXR1dG8gQXV0b25vbW8gcGVyIGxlIENhc2UgUG9wb2xhcmkgZGVsbGEgUHJvdmluY2lhIGRpIE5hcG9saTEbMBkGA1UEAwwSd3d3LmlhY3AubmFwb2xpLml0MSIwIAYJKoZIhvcNAQkBFhNsc2lsYW5vQGFydGVuc3lzLml0MB4XDTE4MTEwNTE1NTU1N1oXDTM4MTEwNDE1NTU1N1owgcoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5hcG9saTENMAsGA1UECgwESUFDUDFJMEcGA1UECwxASXN0aXR1dG8gQXV0b25vbW8gcGVyIGxlIENhc2UgUG9wb2xhcmkgZGVsbGEgUHJvdmluY2lhIGRpIE5hcG9saTEbMBkGA1UEAwwSd3d3LmlhY3AubmFwb2xpLml0MSIwIAYJKoZIhvcNAQkBFhNsc2lsYW5vQGFydGVuc3lzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsv17bXERc3T7+zzJ8hY2iThuhCI8E7eeIMomHJ5nJIs9VAikS7Pq5MXwKOEKt059FRluPGzPOdipePnSc28G9DVa8fRNDT/k/ZDqppDSBcKxKFIhDsR769pO0PI6xprV6s2o3rNXkNzP3s7ZI54y8wsvNfA+3KYTismFrLkO3gWjGyGn0LRzL4ScYw1eSm5nminyAPq27EP2UWwIPH7c9V7X+3S5vbMETnmud6Wx83WylFcKGeGYkIwx6M7zgeT1D+I3tSyHzwmzzmv1kYnrwlUnpCwXbPrMcNgoVrL2U49gvy3Ay/qxdqgbEH/U5gVLEkFGWWpwsp9TI+O32iEhOwIDAQABo1AwTjAdBgNVHQ4EFgQUinBqwcovVMsw1cFD3JRCHpM7RRYwHwYDVR0jBBgwFoAUinBqwcovVMsw1cFD3JRCHpM7RRYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAeBTs2C/4mMJClcHWObG6mucS799/pEnIJCVlH+c2CevbLmdcGgNCxKCHfMgxrme+G0ScT3ZBOcFhsPCVuVUw8g2lwcCpJJckeADhHGfahYKR7xSaX46n1oP7lYyUtqoF872yxtYpviSoH4T4V+EUNeFfIku+sD4+N2TfcZSbIJ3kGyZ+JWNa3VwYQuJyKeQxhFg0oSlEv7ZTcGD3pbjfqEdUQH8yr2RIfRUY0Lkj8Z47cyv64NUfPykLOENDHLHZC0zPuXv/nTwkuXFiuLLSk5Yr/8cQQVJ8RhhrYEKPBZ0c4kJngytnayx1c5uQ7lJncKYXljudD53fd2vUSKvHvA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEaDCCA1CgAwIBAgIIGkW0dsQTtOYwDQYJKoZIhvcNAQELBQAwgcoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5hcG9saTENMAsGA1UECgwESUFDUDFJMEcGA1UECwxASXN0aXR1dG8gQXV0b25vbW8gcGVyIGxlIENhc2UgUG9wb2xhcmkgZGVsbGEgUHJvdmluY2lhIGRpIE5hcG9saTEbMBkGA1UEAwwSd3d3LmlhY3AubmFwb2xpLml0MSIwIAYJKoZIhvcNAQkBFhNsc2lsYW5vQGFydGVuc3lzLml0MB4XDTE4MTEwNTE1NTU1N1oXDTM4MTEwNDE1NTU1N1owgcoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5hcG9saTENMAsGA1UECgwESUFDUDFJMEcGA1UECwxASXN0aXR1dG8gQXV0b25vbW8gcGVyIGxlIENhc2UgUG9wb2xhcmkgZGVsbGEgUHJvdmluY2lhIGRpIE5hcG9saTEbMBkGA1UEAwwSd3d3LmlhY3AubmFwb2xpLml0MSIwIAYJKoZIhvcNAQkBFhNsc2lsYW5vQGFydGVuc3lzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsv17bXERc3T7+zzJ8hY2iThuhCI8E7eeIMomHJ5nJIs9VAikS7Pq5MXwKOEKt059FRluPGzPOdipePnSc28G9DVa8fRNDT/k/ZDqppDSBcKxKFIhDsR769pO0PI6xprV6s2o3rNXkNzP3s7ZI54y8wsvNfA+3KYTismFrLkO3gWjGyGn0LRzL4ScYw1eSm5nminyAPq27EP2UWwIPH7c9V7X+3S5vbMETnmud6Wx83WylFcKGeGYkIwx6M7zgeT1D+I3tSyHzwmzzmv1kYnrwlUnpCwXbPrMcNgoVrL2U49gvy3Ay/qxdqgbEH/U5gVLEkFGWWpwsp9TI+O32iEhOwIDAQABo1AwTjAdBgNVHQ4EFgQUinBqwcovVMsw1cFD3JRCHpM7RRYwHwYDVR0jBBgwFoAUinBqwcovVMsw1cFD3JRCHpM7RRYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAeBTs2C/4mMJClcHWObG6mucS799/pEnIJCVlH+c2CevbLmdcGgNCxKCHfMgxrme+G0ScT3ZBOcFhsPCVuVUw8g2lwcCpJJckeADhHGfahYKR7xSaX46n1oP7lYyUtqoF872yxtYpviSoH4T4V+EUNeFfIku+sD4+N2TfcZSbIJ3kGyZ+JWNa3VwYQuJyKeQxhFg0oSlEv7ZTcGD3pbjfqEdUQH8yr2RIfRUY0Lkj8Z47cyv64NUfPykLOENDHLHZC0zPuXv/nTwkuXFiuLLSk5Yr/8cQQVJ8RhhrYEKPBZ0c4kJngytnayx1c5uQ7lJncKYXljudD53fd2vUSKvHvA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEaDCCA1CgAwIBAgIIGkW0dsQTtOYwDQYJKoZIhvcNAQELBQAwgcoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5hcG9saTENMAsGA1UECgwESUFDUDFJMEcGA1UECwxASXN0aXR1dG8gQXV0b25vbW8gcGVyIGxlIENhc2UgUG9wb2xhcmkgZGVsbGEgUHJvdmluY2lhIGRpIE5hcG9saTEbMBkGA1UEAwwSd3d3LmlhY3AubmFwb2xpLml0MSIwIAYJKoZIhvcNAQkBFhNsc2lsYW5vQGFydGVuc3lzLml0MB4XDTE4MTEwNTE1NTU1N1oXDTM4MTEwNDE1NTU1N1owgcoxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZOYXBvbGkxDzANBgNVBAcMBk5hcG9saTENMAsGA1UECgwESUFDUDFJMEcGA1UECwxASXN0aXR1dG8gQXV0b25vbW8gcGVyIGxlIENhc2UgUG9wb2xhcmkgZGVsbGEgUHJvdmluY2lhIGRpIE5hcG9saTEbMBkGA1UEAwwSd3d3LmlhY3AubmFwb2xpLml0MSIwIAYJKoZIhvcNAQkBFhNsc2lsYW5vQGFydGVuc3lzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsv17bXERc3T7+zzJ8hY2iThuhCI8E7eeIMomHJ5nJIs9VAikS7Pq5MXwKOEKt059FRluPGzPOdipePnSc28G9DVa8fRNDT/k/ZDqppDSBcKxKFIhDsR769pO0PI6xprV6s2o3rNXkNzP3s7ZI54y8wsvNfA+3KYTismFrLkO3gWjGyGn0LRzL4ScYw1eSm5nminyAPq27EP2UWwIPH7c9V7X+3S5vbMETnmud6Wx83WylFcKGeGYkIwx6M7zgeT1D+I3tSyHzwmzzmv1kYnrwlUnpCwXbPrMcNgoVrL2U49gvy3Ay/qxdqgbEH/U5gVLEkFGWWpwsp9TI+O32iEhOwIDAQABo1AwTjAdBgNVHQ4EFgQUinBqwcovVMsw1cFD3JRCHpM7RRYwHwYDVR0jBBgwFoAUinBqwcovVMsw1cFD3JRCHpM7RRYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAeBTs2C/4mMJClcHWObG6mucS799/pEnIJCVlH+c2CevbLmdcGgNCxKCHfMgxrme+G0ScT3ZBOcFhsPCVuVUw8g2lwcCpJJckeADhHGfahYKR7xSaX46n1oP7lYyUtqoF872yxtYpviSoH4T4V+EUNeFfIku+sD4+N2TfcZSbIJ3kGyZ+JWNa3VwYQuJyKeQxhFg0oSlEv7ZTcGD3pbjfqEdUQH8yr2RIfRUY0Lkj8Z47cyv64NUfPykLOENDHLHZC0zPuXv/nTwkuXFiuLLSk5Yr/8cQQVJ8RhhrYEKPBZ0c4kJngytnayx1c5uQ7lJncKYXljudD53fd2vUSKvHvA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iacp.napoli.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.iacp.napoli.it/wp-content/plugins/wp-spid-italia/lib/www/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">iacp.napoli.it</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">IACP / Napoli (Napoli)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">IACP / Napoli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">IACP / Napoli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.iacp.napoli.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

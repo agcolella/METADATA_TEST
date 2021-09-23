@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Assago" entityID="https://www.comune.assago.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Assago">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>IhREMFX4RpJmux+ADrdRUEdcZkISiu2iE4/kHh63WQo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+G5h9dVi74v4N/j2old9nUA6lH9sDsFcr5eHcyJ0l/ajEFErMTQA8BDCkNa9InyzsLn04dS6lfhxV
+0oagOVn/OLhdpfWljUsf8JDYeoq2H4uwKNF2FiRrvUGtRgZOTf+AVUt1/KyK43ZZxAiipU+fYWkR
+XwkhFatViXrWkFFvXPIVPPdVLmyaS290QDnlMlVPsRHGKg3vyB3PMkYb9lQd/n3SQ9MOWPXczT2w
+wtllBmU0DAlBED68fHZQgo8UCYOuxkkVbRKtqV+3DRezpL/yFOEQq2pY1BYc7nnaKyi/aVVKA6G8
+4gbDBeduk8oa797N515cFsL5QC6THQ/TDDEY0w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vuNdHgqVcCT8IuWDP6U7jZE4hpWgnbRhc48lTpWr2nQTUJLSDaovrylhG4FOr1C7OVqPOFe7j2ZE
+qFm+Ceg2/RWap4uAg3G5K4002swFFtciFwiV+K6n26xsgavhBDFOb0D0dPXaQxuLd8L+HrQxTEO9
+7TjLZ53oIzpx9b7zNtjki9N769vePcS7aQpblaz1sknzMbZ19vfWHCExT/xA2Fkyn8aSmT4w6lgM
+ZBpD6HIzCXgrjtdEYLVmmYo7Mt8l0p4lB61QvlErjPfHdCGaQtEPdF+ONKXExzDjt9O0+xUnK/v7
+ObLobiwwVfqBrFz+A+o4y4H28vLQtuKyAMv5Mw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTzCCAjegAwIBAgIJAPFGnZfpqfuUMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5j
+b211bmUuYXNzYWdvLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA5MTkx
+MzMwMDlaFw0yOTA5MTYxMzMwMDlaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYXNzYWdvLm1pLml0
+MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAL7jXR4KlXAk/CLlgz+lO42ROIaVoJ20YXOPJU6Vq9p0E1CS0g2qL68pYRuBTq9QuzlajzhX
+u49mRKhZvgnoNv0VmqeLgINxuSuNNNrMBRbXIhcIlfiup9usbIGr4QQxTm9A9HT12kMbi3fC/h60
+MUxDve04y2ed6CM6cfW+8zbY5IvTe+vb3j3Eu2kKW5Ws9bJJ8zG2dfb31hwhMU/8QNhZMp/Gkpk+
+MOpYDGQaQ+hyMwl4K47XRGC1ZpmKOzLfJdKeJQetUL5RK4z3x3QhmkLRD3RfjjSlxMcw47fTtPsV
+Jyv7+zmy6G4sMFX6gaxc/gPqOMuB9vLy0LbisgDL+TMCAwEAAaNQME4wHQYDVR0OBBYEFCdwWpQa
+X7t6kbq/GzQ65tQHb3+qMB8GA1UdIwQYMBaAFCdwWpQaX7t6kbq/GzQ65tQHb3+qMAwGA1UdEwQF
+MAMBAf8wDQYJKoZIhvcNAQELBQADggEBACr/s0xzUeUXcc2b3K/oHNElDTvb3r2apK+eQ309wNLj
+lbdp5G44LsOuuEyaKtArgkY0TBNp05clhpu6jO36px9KIxv72X/x/Z2BsQWgq6Fq1he2G3vhENbu
+h1fxGoBGWrq4BMJxiM/RRtgHQaC5zVddkc6u0QHwvAWXXERkFCOEy9yhQHxc60xRuAykI0m8KpAt
+gmM4NIu0zjNp8JPpZBrvPt67FR3tlwDu6XLL3NSyqKTzmC0V4LyuDJyRUzqJGhqP9Qym8pQHbZ7S
+DkYUdQjkpDylA1DfhdT3Y8hLSG3g10lAUaWZpHwFCAHFKvLwq4M2tmBrB9SrC5qt+lgxFPw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAPFGnZfpqfuUMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYXNzYWdvLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA5MTkxMzMwMDlaFw0yOTA5MTYxMzMwMDlaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYXNzYWdvLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7jXR4KlXAk/CLlgz+lO42ROIaVoJ20YXOPJU6Vq9p0E1CS0g2qL68pYRuBTq9QuzlajzhXu49mRKhZvgnoNv0VmqeLgINxuSuNNNrMBRbXIhcIlfiup9usbIGr4QQxTm9A9HT12kMbi3fC/h60MUxDve04y2ed6CM6cfW+8zbY5IvTe+vb3j3Eu2kKW5Ws9bJJ8zG2dfb31hwhMU/8QNhZMp/Gkpk+MOpYDGQaQ+hyMwl4K47XRGC1ZpmKOzLfJdKeJQetUL5RK4z3x3QhmkLRD3RfjjSlxMcw47fTtPsVJyv7+zmy6G4sMFX6gaxc/gPqOMuB9vLy0LbisgDL+TMCAwEAAaNQME4wHQYDVR0OBBYEFCdwWpQaX7t6kbq/GzQ65tQHb3+qMB8GA1UdIwQYMBaAFCdwWpQaX7t6kbq/GzQ65tQHb3+qMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACr/s0xzUeUXcc2b3K/oHNElDTvb3r2apK+eQ309wNLjlbdp5G44LsOuuEyaKtArgkY0TBNp05clhpu6jO36px9KIxv72X/x/Z2BsQWgq6Fq1he2G3vhENbuh1fxGoBGWrq4BMJxiM/RRtgHQaC5zVddkc6u0QHwvAWXXERkFCOEy9yhQHxc60xRuAykI0m8KpAtgmM4NIu0zjNp8JPpZBrvPt67FR3tlwDu6XLL3NSyqKTzmC0V4LyuDJyRUzqJGhqP9Qym8pQHbZ7SDkYUdQjkpDylA1DfhdT3Y8hLSG3g10lAUaWZpHwFCAHFKvLwq4M2tmBrB9SrC5qt+lgxFPw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCAjegAwIBAgIJAPFGnZfpqfuUMA0GCSqGSIb3DQEBCwUAMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYXNzYWdvLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xOTA5MTkxMzMwMDlaFw0yOTA5MTYxMzMwMDlaMD4xIDAeBgNVBAMMF3d3dy5jb211bmUuYXNzYWdvLm1pLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7jXR4KlXAk/CLlgz+lO42ROIaVoJ20YXOPJU6Vq9p0E1CS0g2qL68pYRuBTq9QuzlajzhXu49mRKhZvgnoNv0VmqeLgINxuSuNNNrMBRbXIhcIlfiup9usbIGr4QQxTm9A9HT12kMbi3fC/h60MUxDve04y2ed6CM6cfW+8zbY5IvTe+vb3j3Eu2kKW5Ws9bJJ8zG2dfb31hwhMU/8QNhZMp/Gkpk+MOpYDGQaQ+hyMwl4K47XRGC1ZpmKOzLfJdKeJQetUL5RK4z3x3QhmkLRD3RfjjSlxMcw47fTtPsVJyv7+zmy6G4sMFX6gaxc/gPqOMuB9vLy0LbisgDL+TMCAwEAAaNQME4wHQYDVR0OBBYEFCdwWpQaX7t6kbq/GzQ65tQHb3+qMB8GA1UdIwQYMBaAFCdwWpQaX7t6kbq/GzQ65tQHb3+qMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACr/s0xzUeUXcc2b3K/oHNElDTvb3r2apK+eQ309wNLjlbdp5G44LsOuuEyaKtArgkY0TBNp05clhpu6jO36px9KIxv72X/x/Z2BsQWgq6Fq1he2G3vhENbuh1fxGoBGWrq4BMJxiM/RRtgHQaC5zVddkc6u0QHwvAWXXERkFCOEy9yhQHxc60xRuAykI0m8KpAtgmM4NIu0zjNp8JPpZBrvPt67FR3tlwDu6XLL3NSyqKTzmC0V4LyuDJyRUzqJGhqP9Qym8pQHbZ7SDkYUdQjkpDylA1DfhdT3Y8hLSG3g10lAUaWZpHwFCAHFKvLwq4M2tmBrB9SrC5qt+lgxFPw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/assago"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/assago" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/assago" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/assago" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Assago</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Assago</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Assago</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Assago</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Assago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Assago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Assago</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Assago</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.assago.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.assago.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.assago.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.assago.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

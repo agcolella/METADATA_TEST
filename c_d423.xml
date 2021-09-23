@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Erice" entityID="https://www.comune.erice.tp.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Erice">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BkO0qzVhvBW+4eEkUFmeMhNSqKLAuhbUyt7hj9ad+l0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+OMK95E143hTirhp15+YZNDtDwr2s+NC/KvEW3Z1CVWZscEzPo/rrYkmJblBKFNWMCoiYhLuOJcDm
+EvdUm8vet6cduaBnoJ5EPUiXfwuOOTgJ1l2aDUKZP7baFwIuakxV+VF86SRR5P/zMiYXdspa0Y9v
+DjycafSFA3zClXPd5INDgIMMtiWUsoyvErcaGhWqg3uoe0rI5v8rC3u1x4B8DesAF1kcrSRNA3Du
+2C61ET3NTPyb75mPmQ0cbYMWXJhPF1xEqzaSJSbS7EM0/YjS0USxAZIag9AMoMlzgk+4Sjb8Tnbb
+4NaB16F3BTBdm2PX9C3aS6fuwQJbAkyH59igTw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tvU8r+hhFdbiklWJEL7P9+5R5NXIMBwoKSfk3xeqe+y+Vr1y7Jg5pATD64rp+/qjZsVgS163p61p
+ptg8QcgOz0y40n90drMv1a2ux2aDU16a3eif4k13ysqqn36KT31sYez6VcrUwhFP7UnkGFZcvWoS
+ZiYHZKJhV3XPC6kXNaMez2OHrUgNeyf2+SGsqVMKtdtd6lHezbOl1zTUdCl/hqN05zUneLu9yyHG
+RLEEO+/e1yF1TP5jtxIM5AC7sWJQaUqX6jAHHzFr5CAxULn2xQTRanSaXcTyoZoChfOjvogbSvfE
+tR1atcDrpmtCz5mcWhE0KPrA9foVZCT4u7UE3Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDTTCCAjWgAwIBAgIJAMy81lPOXOZlMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5j
+b211bmUuZXJpY2UudHAuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUxMDA5
+MzUxNloXDTI4MDUwNzA5MzUxNlowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5lcmljZS50cC5pdDEN
+MAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC29Tyv6GEV1uKSVYkQvs/37lHk1cgwHCgpJ+TfF6p77L5WvXLsmDmkBMPriun7+qNmxWBLXren
+rWmm2DxByA7PTLjSf3R2sy/Vra7HZoNTXprd6J/iTXfKyqqffopPfWxh7PpVytTCEU/tSeQYVly9
+ahJmJgdkomFXdc8LqRc1ox7PY4etSA17J/b5IaypUwq1213qUd7Ns6XXNNR0KX+Go3TnNSd4u73L
+IcZEsQQ7797XIXVM/mO3EgzkALuxYlBpSpfqMAcfMWvkIDFQufbFBNFqdJpdxPKhmgKF86O+iBtK
+98S1HVq1wOuma0LPmZxaETQo+sD1+hVkJPi7tQTdAgMBAAGjUDBOMB0GA1UdDgQWBBRtUGxLrzaS
+gpBDQftmX9t2HcNLHjAfBgNVHSMEGDAWgBRtUGxLrzaSgpBDQftmX9t2HcNLHjAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBPs2ARxUAHubASAJcubTa7Tgbz+aqgT1RBaFlyzfmI93Cf
+vmzNS3Awm2iWapm8UJTHl7CNGPJ+gChtKtwSE0x37jsgvvo/rkn7HOjfwybVljf/yNIgaYtq426T
+VoJf6gyy5DexQmg8xKQFtKnwjTlAmWAtfb+Oh+eL4Yn48FH37s26tZJ8Axa2jDqv0AUkoINoSBen
+EEeyyDdGdjd6m9ZlG8vxmpk3BVvRTXewt9HObCozGOtGo2UtZlZCeJTReh/NENNiBjaXhkDy9RW0
+NMlol1SraEHQUSYOqQjWul9tz1I7RMEbeTaQXiOXZvLIrMxngLY00xOADl4dsZMQ9VAy
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIJAMy81lPOXOZlMA0GCSqGSIb3DQEBCwUAMD0xHzAdBgNVBAMMFnd3dy5jb211bmUuZXJpY2UudHAuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDUxMDA5MzUxNloXDTI4MDUwNzA5MzUxNlowPTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5lcmljZS50cC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC29Tyv6GEV1uKSVYkQvs/37lHk1cgwHCgpJ+TfF6p77L5WvXLsmDmkBMPriun7+qNmxWBLXrenrWmm2DxByA7PTLjSf3R2sy/Vra7HZoNTXprd6J/iTXfKyqqffopPfWxh7PpVytTCEU/tSeQYVly9ahJmJgdkomFXdc8LqRc1ox7PY4etSA17J/b5IaypUwq1213qUd7Ns6XXNNR0KX+Go3TnNSd4u73LIcZEsQQ7797XIXVM/mO3EgzkALuxYlBpSpfqMAcfMWvkIDFQufbFBNFqdJpdxPKhmgKF86O+iBtK98S1HVq1wOuma0LPmZxaETQo+sD1+hVkJPi7tQTdAgMBAAGjUDBOMB0GA1UdDgQWBBRtUGxLrzaSgpBDQftmX9t2HcNLHjAfBgNVHSMEGDAWgBRtUGxLrzaSgpBDQftmX9t2HcNLHjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBPs2ARxUAHubASAJcubTa7Tgbz+aqgT1RBaFlyzfmI93CfvmzNS3Awm2iWapm8UJTHl7CNGPJ+gChtKtwSE0x37jsgvvo/rkn7HOjfwybVljf/yNIgaYtq426TVoJf6gyy5DexQmg8xKQFtKnwjTlAmWAtfb+Oh+eL4Yn48FH37s26tZJ8Axa2jDqv0AUkoINoSBenEEeyyDdGdjd6m9ZlG8vxmpk3BVvRTXewt9HObCozGOtGo2UtZlZCeJTReh/NENNiBjaXhkDy9RW0NMlol1SraEHQUSYOqQjWul9tz1I7RMEbeTaQXiOXZvLIrMxngLY00xOADl4dsZMQ9VAy
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/erice"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/erice" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/erice" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Erice</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Erice</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Erice</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Erice</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Erice</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Erice</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Erice</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Erice</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.erice.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.erice.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.erice.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.erice.tp.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

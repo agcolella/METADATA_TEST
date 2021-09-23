@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://sportellotelematico.sandonadipiave.net/" ID="_7487b37c8bc7cb1a271461b8e61de9d45b82addaf0999e56279a65b8ac724801"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_7487b37c8bc7cb1a271461b8e61de9d45b82addaf0999e56279a65b8ac724801"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ot0a2sUQUeQnbtVWcaQdeWiyWhDGeCiGaq3jKJ/Rgew=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ewPc/BJU2W52YnrWx/3znYAmEZdgz722z1RyytKBbvdxvP754ZIqqpZ+9ynBuLS+HBi2KrOR57+OVfsAFEyKYGXOT35Lou1nA2hT1dPUu1sXSvPEkWNkXLpQsXsORvJlCEyjSwx/E8jEd/23e3JAXWs0YYE0xvd+Lea6ucjJsFt20jGh3fVvVpqmYIPH6ryFU/exbyCpE/o1EKFmE2r6yvJ9SylvzF/VOGSby3tZSNL0Q64oHw82ZWc0mTc8QdpQ+a8PZJfIOlPbsRExnMymzK304ebBV8cm6uy+G7ePWOkmRn47ijnYL2ag5qHBFZyr0gCmSXNZfITZ4/ouql4aAg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEUTCCAzmgAwIBAgIURX3cbEprrQPvrPzcbBF7OyE+f5kwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMR0wGwYDVQQHDBRTYW4gRG9uw4PCoCBkaSBQaWF2ZTEnMCUGA1UECgweQ29tdW5lIGRpIFNhbiBEb27Dg8KgIGRpIFBpYXZlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEvMC0GA1UEAwwmc3BvcnRlbGxvdGVsZW1hdGljby5zYW5kb25hZGlwaWF2ZS5uZXQwHhcNMjAwOTA3MDczOTQ4WhcNMzAwOTA1MDczOTQ4WjCBtzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZlbmV6aWExHTAbBgNVBAcMFFNhbiBEb27Dg8KgIGRpIFBpYXZlMScwJQYDVQQKDB5Db211bmUgZGkgU2FuIERvbsODwqAgZGkgUGlhdmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnNhbmRvbmFkaXBpYXZlLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMncjFIQCQxLpxo7ItJDMhoeD/ex2DpEmo0xANAd3T3vTJZL24wJ4KFflnPz8IPKSqtZu/lkLum//Rw9mlmbDtGEMcU+fWrFHDZWM8UWR8rciX0FIzoaQ77RZI227TyI76eSlBKTHuv8pP0uRZQTK3HjpLw8iqh1ymvC9enPCaOXINZuQ8YYPKYbUmmoQ2mW+YxkbZkp9XrsIA6aNizXPf/Mv7p5+8pfqZoZrwCSp9ssAD/N1fBuPTT3YsG6scQtNk0VZ0FpDFlzXCV2l442hMZEwbxzstq3Zn/a/2pYoa0z7dIHHNWq976gcj12rvUd7mJfqhZueDehqFQYA15BDHUCAwEAAaNTMFEwHQYDVR0OBBYEFID3AcNNbdgVp9oDn4ZxjoFLZpQGMB8GA1UdIwQYMBaAFID3AcNNbdgVp9oDn4ZxjoFLZpQGMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADbyCapy+fx5ZA3EgKqUESqotuoTgXz/Zt0jxrv8z2PzeuH0MW3iJLrYb/lLbHitAP3j8CehGDpAgRSZ3kkSYb9bPWX/EoVeJAsMNf0Zg2IXVT2SzC4pGhJ5FYWeQGPwFqkJZ6JFm7SbdT3u8fwq4I5GSbukunN3hNgG3z4223mAb0LgjA80WwN7RsPgv/ULXXXU11n+/3BcoGf5ThsC9HzCoZ3IDPaeQxviQLC9ZNXyMqxcFF60GXE0YSakmJvQ0tHVpybTKwSsEdXe7/yrxmoTAdEfDwEFdBsY5tzV7xr7HyQH+0Wpa+mL8Uc07BUN/I6JCFGB7M3/tmJhrv1CIY8=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEUTCCAzmgAwIBAgIURX3cbEprrQPvrPzcbBF7OyE+f5kwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMR0wGwYDVQQHDBRTYW4gRG9uw4PCoCBkaSBQaWF2ZTEnMCUGA1UECgweQ29tdW5lIGRpIFNhbiBEb27Dg8KgIGRpIFBpYXZlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEvMC0GA1UEAwwmc3BvcnRlbGxvdGVsZW1hdGljby5zYW5kb25hZGlwaWF2ZS5uZXQwHhcNMjAwOTA3MDczOTQ4WhcNMzAwOTA1MDczOTQ4WjCBtzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZlbmV6aWExHTAbBgNVBAcMFFNhbiBEb27Dg8KgIGRpIFBpYXZlMScwJQYDVQQKDB5Db211bmUgZGkgU2FuIERvbsODwqAgZGkgUGlhdmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnNhbmRvbmFkaXBpYXZlLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMncjFIQCQxLpxo7ItJDMhoeD/ex2DpEmo0xANAd3T3vTJZL24wJ4KFflnPz8IPKSqtZu/lkLum//Rw9mlmbDtGEMcU+fWrFHDZWM8UWR8rciX0FIzoaQ77RZI227TyI76eSlBKTHuv8pP0uRZQTK3HjpLw8iqh1ymvC9enPCaOXINZuQ8YYPKYbUmmoQ2mW+YxkbZkp9XrsIA6aNizXPf/Mv7p5+8pfqZoZrwCSp9ssAD/N1fBuPTT3YsG6scQtNk0VZ0FpDFlzXCV2l442hMZEwbxzstq3Zn/a/2pYoa0z7dIHHNWq976gcj12rvUd7mJfqhZueDehqFQYA15BDHUCAwEAAaNTMFEwHQYDVR0OBBYEFID3AcNNbdgVp9oDn4ZxjoFLZpQGMB8GA1UdIwQYMBaAFID3AcNNbdgVp9oDn4ZxjoFLZpQGMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADbyCapy+fx5ZA3EgKqUESqotuoTgXz/Zt0jxrv8z2PzeuH0MW3iJLrYb/lLbHitAP3j8CehGDpAgRSZ3kkSYb9bPWX/EoVeJAsMNf0Zg2IXVT2SzC4pGhJ5FYWeQGPwFqkJZ6JFm7SbdT3u8fwq4I5GSbukunN3hNgG3z4223mAb0LgjA80WwN7RsPgv/ULXXXU11n+/3BcoGf5ThsC9HzCoZ3IDPaeQxviQLC9ZNXyMqxcFF60GXE0YSakmJvQ0tHVpybTKwSsEdXe7/yrxmoTAdEfDwEFdBsY5tzV7xr7HyQH+0Wpa+mL8Uc07BUN/I6JCFGB7M3/tmJhrv1CIY8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEUTCCAzmgAwIBAgIURX3cbEprrQPvrPzcbBF7OyE+f5kwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMR0wGwYDVQQHDBRTYW4gRG9uw4PCoCBkaSBQaWF2ZTEnMCUGA1UECgweQ29tdW5lIGRpIFNhbiBEb27Dg8KgIGRpIFBpYXZlMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEvMC0GA1UEAwwmc3BvcnRlbGxvdGVsZW1hdGljby5zYW5kb25hZGlwaWF2ZS5uZXQwHhcNMjAwOTA3MDczOTQ4WhcNMzAwOTA1MDczOTQ4WjCBtzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1ZlbmV6aWExHTAbBgNVBAcMFFNhbiBEb27Dg8KgIGRpIFBpYXZlMScwJQYDVQQKDB5Db211bmUgZGkgU2FuIERvbsODwqAgZGkgUGlhdmUxHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMS8wLQYDVQQDDCZzcG9ydGVsbG90ZWxlbWF0aWNvLnNhbmRvbmFkaXBpYXZlLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMncjFIQCQxLpxo7ItJDMhoeD/ex2DpEmo0xANAd3T3vTJZL24wJ4KFflnPz8IPKSqtZu/lkLum//Rw9mlmbDtGEMcU+fWrFHDZWM8UWR8rciX0FIzoaQ77RZI227TyI76eSlBKTHuv8pP0uRZQTK3HjpLw8iqh1ymvC9enPCaOXINZuQ8YYPKYbUmmoQ2mW+YxkbZkp9XrsIA6aNizXPf/Mv7p5+8pfqZoZrwCSp9ssAD/N1fBuPTT3YsG6scQtNk0VZ0FpDFlzXCV2l442hMZEwbxzstq3Zn/a/2pYoa0z7dIHHNWq976gcj12rvUd7mJfqhZueDehqFQYA15BDHUCAwEAAaNTMFEwHQYDVR0OBBYEFID3AcNNbdgVp9oDn4ZxjoFLZpQGMB8GA1UdIwQYMBaAFID3AcNNbdgVp9oDn4ZxjoFLZpQGMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADbyCapy+fx5ZA3EgKqUESqotuoTgXz/Zt0jxrv8z2PzeuH0MW3iJLrYb/lLbHitAP3j8CehGDpAgRSZ3kkSYb9bPWX/EoVeJAsMNf0Zg2IXVT2SzC4pGhJ5FYWeQGPwFqkJZ6JFm7SbdT3u8fwq4I5GSbukunN3hNgG3z4223mAb0LgjA80WwN7RsPgv/ULXXXU11n+/3BcoGf5ThsC9HzCoZ3IDPaeQxviQLC9ZNXyMqxcFF60GXE0YSakmJvQ0tHVpybTKwSsEdXe7/yrxmoTAdEfDwEFdBsY5tzV7xr7HyQH+0Wpa+mL8Uc07BUN/I6JCFGB7M3/tmJhrv1CIY8=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.sandonadipiave.net/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.sandonadipiave.net/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di San Don&#xE0; di Piave</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di San Don&#xE0; di Piave</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di San Don&#xE0; di Piave</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di San Don&#xE0; di Piave</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Don&#xE0; di Piave</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Don&#xE0; di Piave</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di San Don&#xE0; di Piave</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di San Don&#xE0; di Piave</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.sandonadipiave.net</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.sandonadipiave.net</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://sportellotelematico.sandonadipiave.net</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://sportellotelematico.sandonadipiave.net</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">c_h823</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:EmailAddress>mailto:protocollo.comune.sandonadipiave.ve@pecveneto.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

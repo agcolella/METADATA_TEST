@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Calatabiano" entityID="https://www.comune.calatabiano.ct.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Calatabiano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>SG3bSzEqhE5HCAh0VVD7M03bRycrI+69zEoFKy5NVqA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hUcvyNuD6BOBfSl/38p1+i05WXM3Qi6Tq3uDfbVdQqD2YQe4XdF+sRqJZjVYawF/ArSqhoWN5sVc
+B08/reKX2t8JkjEdTtqRA4RX67vOS8a9n5pOlEIpuHlpkGdhxaGxbnr+gGa65/XPS5rP6S8iZcNS
+gtZN0IPKu+smUDk8U1ygp/vQto9A2/cka+NzenjRxuYx+AfSFGRC6zoFzxn0okCBNiu0EjFyc1le
+7uBQX84MLk/WQsMrIVUKrwrvGKYT/skQ5cmfgzb6NrhjxhrUNgL3STJ8NAAsgOEDKtzy1ne2YgaR
+B83gbmqNbxJOO7WNP6IwcAbNKK1UYiAWo8UBcw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yfHS6muMe9/9kSubK7Zn6kE2PPrtWpvRQQUBpzuy4LJ7qspHKf4X6c0t9OATJNv4SNJwXfNQNcQ3
+O9v9pKKyfLZzaEsHT8tZ5pZpCLZ6NhoDK9ioy2sRVT7XYXbuQHKP4PuXaul58Z2vFVUwzB5aeE5z
+fFKJDvANWV2ydbxcV5SZi8kGmfD99xrAllz9Cb5atLJzKBCGg/tXMi4uyHnIdmgwCP6EkbH1WlVP
+89ImaMi0t4WMdhLIMddf6k4bRdHUiJB4FkRpArIigEDmjgS7cIy9qg22ZoJ96IFcZ9j1MbWQcZdy
+k8pC/gAzR2zXsy85fU6U/zGYTM1xYOWNCTaX2w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAP/zp9LxgCIVMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUuY2FsYXRhYmlhbm8uY3QuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIw
+MDgyNTE1MTEzM1oXDTMwMDgyMzE1MTEzM1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYWxhdGFi
+aWFuby5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDJ8dLqa4x73/2RK5srtmfqQTY8+u1am9FBBQGnO7Lgsnuqykcp/hfpzS30
+4BMk2/hI0nBd81A1xDc72/2korJ8tnNoSwdPy1nmlmkItno2GgMr2KjLaxFVPtdhdu5Aco/g+5dq
+6Xnxna8VVTDMHlp4TnN8UokO8A1ZXbJ1vFxXlJmLyQaZ8P33GsCWXP0Jvlq0snMoEIaD+1cyLi7I
+ech2aDAI/oSRsfVaVU/z0iZoyLS3hYx2Esgx11/qThtF0dSIkHgWRGkCsiKAQOaOBLtwjL2qDbZm
+gn3ogVxn2PUxtZBxl3KTykL+ADNHbNezLzl9TpT/MZhMzXFg5Y0JNpfbAgMBAAGjUDBOMB0GA1Ud
+DgQWBBRABLPZKXhLpTeB1cXapbs3Ogpb5TAfBgNVHSMEGDAWgBRABLPZKXhLpTeB1cXapbs3Ogpb
+5TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBI6xw6a0cIi2lTHTjjRTvW+m0nUmv2
+90piB1f/8Zy2x8BXsiUC1wrdw0KHtViT52uLafNXEbjftHOpZpGuUq4E1CGFXF8OfntqugNaaybr
+7eL1sED4Eq2tHsNu9kFA2xNphCae1NA1LCEon2BaRknAG7MEX5dgtBBtzmzuslvpKKLWT8OvwMPV
+CHV2S8AC2olBTfOne97oJiuM+P1rAMSNN/eMtrrkPypqLJIP74XomZfLT9dnhdZCbtnTnfa+8qeS
+ZSVMFappYNPhp6Oj8CUX6Aq7r71twZekzO9f/vEAJkYkKnkQstDgdofHBWSgToPu75vqADIF7Uhp
+mLcVPLsH
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAP/zp9LxgCIVMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuY2FsYXRhYmlhbm8uY3QuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDgyNTE1MTEzM1oXDTMwMDgyMzE1MTEzM1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYWxhdGFiaWFuby5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJ8dLqa4x73/2RK5srtmfqQTY8+u1am9FBBQGnO7Lgsnuqykcp/hfpzS304BMk2/hI0nBd81A1xDc72/2korJ8tnNoSwdPy1nmlmkItno2GgMr2KjLaxFVPtdhdu5Aco/g+5dq6Xnxna8VVTDMHlp4TnN8UokO8A1ZXbJ1vFxXlJmLyQaZ8P33GsCWXP0Jvlq0snMoEIaD+1cyLi7Iech2aDAI/oSRsfVaVU/z0iZoyLS3hYx2Esgx11/qThtF0dSIkHgWRGkCsiKAQOaOBLtwjL2qDbZmgn3ogVxn2PUxtZBxl3KTykL+ADNHbNezLzl9TpT/MZhMzXFg5Y0JNpfbAgMBAAGjUDBOMB0GA1UdDgQWBBRABLPZKXhLpTeB1cXapbs3Ogpb5TAfBgNVHSMEGDAWgBRABLPZKXhLpTeB1cXapbs3Ogpb5TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBI6xw6a0cIi2lTHTjjRTvW+m0nUmv290piB1f/8Zy2x8BXsiUC1wrdw0KHtViT52uLafNXEbjftHOpZpGuUq4E1CGFXF8OfntqugNaaybr7eL1sED4Eq2tHsNu9kFA2xNphCae1NA1LCEon2BaRknAG7MEX5dgtBBtzmzuslvpKKLWT8OvwMPVCHV2S8AC2olBTfOne97oJiuM+P1rAMSNN/eMtrrkPypqLJIP74XomZfLT9dnhdZCbtnTnfa+8qeSZSVMFappYNPhp6Oj8CUX6Aq7r71twZekzO9f/vEAJkYkKnkQstDgdofHBWSgToPu75vqADIF7UhpmLcVPLsH
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAP/zp9LxgCIVMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuY2FsYXRhYmlhbm8uY3QuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDgyNTE1MTEzM1oXDTMwMDgyMzE1MTEzM1owQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5jYWxhdGFiaWFuby5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJ8dLqa4x73/2RK5srtmfqQTY8+u1am9FBBQGnO7Lgsnuqykcp/hfpzS304BMk2/hI0nBd81A1xDc72/2korJ8tnNoSwdPy1nmlmkItno2GgMr2KjLaxFVPtdhdu5Aco/g+5dq6Xnxna8VVTDMHlp4TnN8UokO8A1ZXbJ1vFxXlJmLyQaZ8P33GsCWXP0Jvlq0snMoEIaD+1cyLi7Iech2aDAI/oSRsfVaVU/z0iZoyLS3hYx2Esgx11/qThtF0dSIkHgWRGkCsiKAQOaOBLtwjL2qDbZmgn3ogVxn2PUxtZBxl3KTykL+ADNHbNezLzl9TpT/MZhMzXFg5Y0JNpfbAgMBAAGjUDBOMB0GA1UdDgQWBBRABLPZKXhLpTeB1cXapbs3Ogpb5TAfBgNVHSMEGDAWgBRABLPZKXhLpTeB1cXapbs3Ogpb5TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBI6xw6a0cIi2lTHTjjRTvW+m0nUmv290piB1f/8Zy2x8BXsiUC1wrdw0KHtViT52uLafNXEbjftHOpZpGuUq4E1CGFXF8OfntqugNaaybr7eL1sED4Eq2tHsNu9kFA2xNphCae1NA1LCEon2BaRknAG7MEX5dgtBBtzmzuslvpKKLWT8OvwMPVCHV2S8AC2olBTfOne97oJiuM+P1rAMSNN/eMtrrkPypqLJIP74XomZfLT9dnhdZCbtnTnfa+8qeSZSVMFappYNPhp6Oj8CUX6Aq7r71twZekzO9f/vEAJkYkKnkQstDgdofHBWSgToPu75vqADIF7UhpmLcVPLsH
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/calatabiano"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/calatabiano" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/calatabiano" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/calatabiano" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Calatabiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Calatabiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Calatabiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Calatabiano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Calatabiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Calatabiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Calatabiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Calatabiano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.calatabiano.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.calatabiano.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.calatabiano.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.calatabiano.ct.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

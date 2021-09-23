@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.stu.comune.casteggio.pv.it/" ID="_74202015f63454154391ae856cc857206c22c5ee3fe8029cb7607caac0a6ecd2"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_74202015f63454154391ae856cc857206c22c5ee3fe8029cb7607caac0a6ecd2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Q19ebrdSBV3SCfU+ss9IpH51q6nuSlqHkD2zUPxzCHg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>i5WMIG6THAlVRyIg7h5FcRHxbIU137zFFu/5K4ieq9D+K3Dq31CsM57sKM8XANzxi371w8/BAUVz3pyu0XgSCSOd3Yhxz9aiB7krfGjO7rcO7w+xupaiu8j2nAd/3Keuj21MjuwvfUqMoHXoNv9z89FdtgE8VsSmZ+9v3leHu/YiXbbGgbs+tTk/0kyjBxRZRo4JbqVBoh6BZyxCjduvu8wXKAZjtNqDGU4wOA0TrVRdK9twjCKf+b4XFRd80LpDCxpK0Tm+xjTgNm7md0pAtm0jpdDtay3Lm9Db3SBVTjXDNwJGOF2/1EkPoAy1vxAc30wa2xFMu0auexf/Q2maPA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEBjCCAu6gAwIBAgIJALXl/fcEds47MA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUNhc3RlZ2dpbzEcMBoGA1UECgwTQ29tdW5lIGRpIENhc3RlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zdHUuY29tdW5lLmNhc3RlZ2dpby5wdi5pdDAeFw0yMDA0MTUwNzI2MDNaFw0zMDA0MTMwNzI2MDNaMIGXMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUNhc3RlZ2dpbzEcMBoGA1UECgwTQ29tdW5lIGRpIENhc3RlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zdHUuY29tdW5lLmNhc3RlZ2dpby5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqvKMCPJPC+taokBG8B4iEd5tbRkBM1g36VFuOAGhkJXBGbxWjyZUFTM+yWDqP8SR6e6uGEZMmVmsXEe59Kfk3VfI6bUQ0nxie5xUhRcv9YFZN+56VaQbLXNJgheIzR2LAECUVVLxqQGyrdbMVPkhSnkjh5FCVbz0EoBN2VQqtZrI37Be5Pt9P7oqddV8gqbwR/5ktMF8RXWnx3oCTDFgkoDgtjPPJQBgQv+YKPEvo1+AU7Qs8zeLP3Xke3eKL7XAt6cxvFT+CZIfzFGDSh9b78EQtPTTqkL6rjaJJ9R9YplxfzALdJY12zsopG3hnXBhRPxXQMY2JmJp9fNNoNFGcCAwEAAaNTMFEwHQYDVR0OBBYEFA8rQ3QRdUtT5S3DVbAP/1bpVqa+MB8GA1UdIwQYMBaAFA8rQ3QRdUtT5S3DVbAP/1bpVqa+MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHex5RiOWxzbTET/YY+gKNr5nJ/FXzpU3AvCTJ9IG45rzD3483nS7uN7wg3Km4yszM6g3OVOd6dwk44VRJ3mIsN2LqYf+AR9Gfx57J3KwMF/gA2DvPuvaEFFQnxr3xb+6fCQlP1XmXY5kXXtzrhDLbAQNak2ej6g36T2t6SMcz1I81KeVRjHDugKkJF7pVxganfolggfPWXMRhCYmVvZvckig0NZJOJVm2DdUKxRRh8BmVDuD7MedpiSf2JKXS0HDIMo9oIZZcpDVYfo0qXMU4KeQAfVujXVrWo+YlJpPLP26eQUWFagwNRvklOOszr0DUmUOYumF7PwgRSjTVmPms4=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBjCCAu6gAwIBAgIJALXl/fcEds47MA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUNhc3RlZ2dpbzEcMBoGA1UECgwTQ29tdW5lIGRpIENhc3RlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zdHUuY29tdW5lLmNhc3RlZ2dpby5wdi5pdDAeFw0yMDA0MTUwNzI2MDNaFw0zMDA0MTMwNzI2MDNaMIGXMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUNhc3RlZ2dpbzEcMBoGA1UECgwTQ29tdW5lIGRpIENhc3RlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zdHUuY29tdW5lLmNhc3RlZ2dpby5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqvKMCPJPC+taokBG8B4iEd5tbRkBM1g36VFuOAGhkJXBGbxWjyZUFTM+yWDqP8SR6e6uGEZMmVmsXEe59Kfk3VfI6bUQ0nxie5xUhRcv9YFZN+56VaQbLXNJgheIzR2LAECUVVLxqQGyrdbMVPkhSnkjh5FCVbz0EoBN2VQqtZrI37Be5Pt9P7oqddV8gqbwR/5ktMF8RXWnx3oCTDFgkoDgtjPPJQBgQv+YKPEvo1+AU7Qs8zeLP3Xke3eKL7XAt6cxvFT+CZIfzFGDSh9b78EQtPTTqkL6rjaJJ9R9YplxfzALdJY12zsopG3hnXBhRPxXQMY2JmJp9fNNoNFGcCAwEAAaNTMFEwHQYDVR0OBBYEFA8rQ3QRdUtT5S3DVbAP/1bpVqa+MB8GA1UdIwQYMBaAFA8rQ3QRdUtT5S3DVbAP/1bpVqa+MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHex5RiOWxzbTET/YY+gKNr5nJ/FXzpU3AvCTJ9IG45rzD3483nS7uN7wg3Km4yszM6g3OVOd6dwk44VRJ3mIsN2LqYf+AR9Gfx57J3KwMF/gA2DvPuvaEFFQnxr3xb+6fCQlP1XmXY5kXXtzrhDLbAQNak2ej6g36T2t6SMcz1I81KeVRjHDugKkJF7pVxganfolggfPWXMRhCYmVvZvckig0NZJOJVm2DdUKxRRh8BmVDuD7MedpiSf2JKXS0HDIMo9oIZZcpDVYfo0qXMU4KeQAfVujXVrWo+YlJpPLP26eQUWFagwNRvklOOszr0DUmUOYumF7PwgRSjTVmPms4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEBjCCAu6gAwIBAgIJALXl/fcEds47MA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUNhc3RlZ2dpbzEcMBoGA1UECgwTQ29tdW5lIGRpIENhc3RlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zdHUuY29tdW5lLmNhc3RlZ2dpby5wdi5pdDAeFw0yMDA0MTUwNzI2MDNaFw0zMDA0MTMwNzI2MDNaMIGXMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFUGF2aWExEjAQBgNVBAcMCUNhc3RlZ2dpbzEcMBoGA1UECgwTQ29tdW5lIGRpIENhc3RlZ2dpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xJzAlBgNVBAMMHnd3dy5zdHUuY29tdW5lLmNhc3RlZ2dpby5wdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqvKMCPJPC+taokBG8B4iEd5tbRkBM1g36VFuOAGhkJXBGbxWjyZUFTM+yWDqP8SR6e6uGEZMmVmsXEe59Kfk3VfI6bUQ0nxie5xUhRcv9YFZN+56VaQbLXNJgheIzR2LAECUVVLxqQGyrdbMVPkhSnkjh5FCVbz0EoBN2VQqtZrI37Be5Pt9P7oqddV8gqbwR/5ktMF8RXWnx3oCTDFgkoDgtjPPJQBgQv+YKPEvo1+AU7Qs8zeLP3Xke3eKL7XAt6cxvFT+CZIfzFGDSh9b78EQtPTTqkL6rjaJJ9R9YplxfzALdJY12zsopG3hnXBhRPxXQMY2JmJp9fNNoNFGcCAwEAAaNTMFEwHQYDVR0OBBYEFA8rQ3QRdUtT5S3DVbAP/1bpVqa+MB8GA1UdIwQYMBaAFA8rQ3QRdUtT5S3DVbAP/1bpVqa+MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHex5RiOWxzbTET/YY+gKNr5nJ/FXzpU3AvCTJ9IG45rzD3483nS7uN7wg3Km4yszM6g3OVOd6dwk44VRJ3mIsN2LqYf+AR9Gfx57J3KwMF/gA2DvPuvaEFFQnxr3xb+6fCQlP1XmXY5kXXtzrhDLbAQNak2ej6g36T2t6SMcz1I81KeVRjHDugKkJF7pVxganfolggfPWXMRhCYmVvZvckig0NZJOJVm2DdUKxRRh8BmVDuD7MedpiSf2JKXS0HDIMo9oIZZcpDVYfo0qXMU4KeQAfVujXVrWo+YlJpPLP26eQUWFagwNRvklOOszr0DUmUOYumF7PwgRSjTVmPms4=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.stu.comune.casteggio.pv.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.stu.comune.casteggio.pv.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_c053</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_c053</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Casteggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casteggio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.stu.comune.casteggio.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.stu.comune.casteggio.pv.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

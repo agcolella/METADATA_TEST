@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfxcdf6dd73-c5c6-5acb-c59a-ae86c57715c3" entityID="https://servizionline.comune.moruzzo.ud.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxcdf6dd73-c5c6-5acb-c59a-ae86c57715c3">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>DANacXnnAXlPDCyoyDv//iyRYoF+fYdv7Epw80xkeQY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+j2zALlO20pT2Xbm6fCw9ce/Bnb9Qc+4wrl7bGl+eyOuYYRbSL/M/EcVpH3ZZ3Qat27NyUciyEv4U
+/06aNis1XYvMQ3eIbRpqDO6VZsN1rbg3PBoWUfFKStEHtK1z1aJ7hSs+Uq+qfBbp9nyQicKp8LVu
+7pWtcvpHQJAgsFdFCI4fOH2BcUUXTxLfuLg46KajUhfnrUlIjrGnYDJIQb/sDJIZRSgk5/+/IUhg
+BG+VTtthWYi4ssBiaTVuH/Kjasy/3nQwaCtIqHOJ0RqCHQOZHcslwoiIdEgLdZWdm8EAxJ3cWHAg
+VCWstp4eusV8e1czWNxl3YEBpyimuvwCBNfvnQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sZT3/1EgM4hYoRx2eH0tpqdTWgZd9bWLN9pKwjRrAgesNTl/9azpHcB9IhlUmQ00pj0E349I7ext
++LlYgdGuPy8KQdf24OVyUUT8VDtO7woq+JXDN7YQonQtxdT1COTsFRNmSlJkUv9eQlG8Qb8nCZK/
+Bfy6hH7KFOmmrpPeeNa+x7T1QDwZPfUH/76G0zR4E9dQZA/iPNg+EQxI/K1JL5jekDN+j4RXbjke
+t7nnwKEs7+hy26AOIuFgV07yLQf+8tXzmKpFidS5TEs+RxS8ZNeVo/GCHb3xIjzRCOIzG92gqb5e
+8/OSoV3ojMnVxa1+tBHHqxUQErJToK8RrM8QVw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIJAIWepUmp8nSBMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTW9ydXp6bzEaMBgGA1UECgwRQ29tdW5lIGRpIE1vcnV6
+em8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLm1vcnV6em8udWQuaXQwHhcNMTgwOTI1
+MTA0NjUzWhcNMjgwOTI0MTA0NjUzWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAO
+BgNVBAcMB01vcnV6em8xGjAYBgNVBAoMEUNvbXVuZSBkaSBNb3J1enpvMSswKQYDVQQDDCJzZXJ2
+aXppb25saW5lLmNvbXVuZS5tb3J1enpvLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAsZT3/1EgM4hYoRx2eH0tpqdTWgZd9bWLN9pKwjRrAgesNTl/9azpHcB9IhlUmQ00pj0E
+349I7ext+LlYgdGuPy8KQdf24OVyUUT8VDtO7woq+JXDN7YQonQtxdT1COTsFRNmSlJkUv9eQlG8
+Qb8nCZK/Bfy6hH7KFOmmrpPeeNa+x7T1QDwZPfUH/76G0zR4E9dQZA/iPNg+EQxI/K1JL5jekDN+
+j4RXbjket7nnwKEs7+hy26AOIuFgV07yLQf+8tXzmKpFidS5TEs+RxS8ZNeVo/GCHb3xIjzRCOIz
+G92gqb5e8/OSoV3ojMnVxa1+tBHHqxUQErJToK8RrM8QVwIDAQABo1AwTjAdBgNVHQ4EFgQUteO7
+wyMHN9lgUyl/V587Q/6m1T4wHwYDVR0jBBgwFoAUteO7wyMHN9lgUyl/V587Q/6m1T4wDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAC09feE/rfYgGhKlu8w7feh4OzRur0izvwVmnKCj6
+Cly1Ktf4KwETBzLViXkKf84Gt4cpYqYHxa/EbDFGVSIfYxupxV89AdKHoM+KK7eU58A6DBfW4WeA
+QrNIdjByrUqg7B5wyB48A7vQI2G6+QkgbLcl9uX2HvQKn4WcghQmRfnqNYloUzKtDlCTHLdFW4bo
+YpjjlOZmMjRdxqmbgf/BSkcYRsmJUTHBp0wuYjj5S4hfH9E8pi5AEFjp7TuyX9LJUat6gJAGHrvT
+lWaC063EYRQOJbvThqakpmzp7OTcoXD+eeCFXl9WhTuTu+mP1YH/BKinC/RtxV+0NZ9AF9hSFA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAIWepUmp8nSBMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTW9ydXp6bzEaMBgGA1UECgwRQ29tdW5lIGRpIE1vcnV6em8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLm1vcnV6em8udWQuaXQwHhcNMTgwOTI1MTA0NjUzWhcNMjgwOTI0MTA0NjUzWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB01vcnV6em8xGjAYBgNVBAoMEUNvbXVuZSBkaSBNb3J1enpvMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5tb3J1enpvLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsZT3/1EgM4hYoRx2eH0tpqdTWgZd9bWLN9pKwjRrAgesNTl/9azpHcB9IhlUmQ00pj0E349I7ext+LlYgdGuPy8KQdf24OVyUUT8VDtO7woq+JXDN7YQonQtxdT1COTsFRNmSlJkUv9eQlG8Qb8nCZK/Bfy6hH7KFOmmrpPeeNa+x7T1QDwZPfUH/76G0zR4E9dQZA/iPNg+EQxI/K1JL5jekDN+j4RXbjket7nnwKEs7+hy26AOIuFgV07yLQf+8tXzmKpFidS5TEs+RxS8ZNeVo/GCHb3xIjzRCOIzG92gqb5e8/OSoV3ojMnVxa1+tBHHqxUQErJToK8RrM8QVwIDAQABo1AwTjAdBgNVHQ4EFgQUteO7wyMHN9lgUyl/V587Q/6m1T4wHwYDVR0jBBgwFoAUteO7wyMHN9lgUyl/V587Q/6m1T4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAC09feE/rfYgGhKlu8w7feh4OzRur0izvwVmnKCj6Cly1Ktf4KwETBzLViXkKf84Gt4cpYqYHxa/EbDFGVSIfYxupxV89AdKHoM+KK7eU58A6DBfW4WeAQrNIdjByrUqg7B5wyB48A7vQI2G6+QkgbLcl9uX2HvQKn4WcghQmRfnqNYloUzKtDlCTHLdFW4boYpjjlOZmMjRdxqmbgf/BSkcYRsmJUTHBp0wuYjj5S4hfH9E8pi5AEFjp7TuyX9LJUat6gJAGHrvTlWaC063EYRQOJbvThqakpmzp7OTcoXD+eeCFXl9WhTuTu+mP1YH/BKinC/RtxV+0NZ9AF9hSFA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDwzCCAqugAwIBAgIJAIWepUmp8nSBMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHTW9ydXp6bzEaMBgGA1UECgwRQ29tdW5lIGRpIE1vcnV6em8xKzApBgNVBAMMInNlcnZpemlvbmxpbmUuY29tdW5lLm1vcnV6em8udWQuaXQwHhcNMTgwOTI1MTA0NjUzWhcNMjgwOTI0MTA0NjUzWjB4MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB01vcnV6em8xGjAYBgNVBAoMEUNvbXVuZSBkaSBNb3J1enpvMSswKQYDVQQDDCJzZXJ2aXppb25saW5lLmNvbXVuZS5tb3J1enpvLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsZT3/1EgM4hYoRx2eH0tpqdTWgZd9bWLN9pKwjRrAgesNTl/9azpHcB9IhlUmQ00pj0E349I7ext+LlYgdGuPy8KQdf24OVyUUT8VDtO7woq+JXDN7YQonQtxdT1COTsFRNmSlJkUv9eQlG8Qb8nCZK/Bfy6hH7KFOmmrpPeeNa+x7T1QDwZPfUH/76G0zR4E9dQZA/iPNg+EQxI/K1JL5jekDN+j4RXbjket7nnwKEs7+hy26AOIuFgV07yLQf+8tXzmKpFidS5TEs+RxS8ZNeVo/GCHb3xIjzRCOIzG92gqb5e8/OSoV3ojMnVxa1+tBHHqxUQErJToK8RrM8QVwIDAQABo1AwTjAdBgNVHQ4EFgQUteO7wyMHN9lgUyl/V587Q/6m1T4wHwYDVR0jBBgwFoAUteO7wyMHN9lgUyl/V587Q/6m1T4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAC09feE/rfYgGhKlu8w7feh4OzRur0izvwVmnKCj6Cly1Ktf4KwETBzLViXkKf84Gt4cpYqYHxa/EbDFGVSIfYxupxV89AdKHoM+KK7eU58A6DBfW4WeAQrNIdjByrUqg7B5wyB48A7vQI2G6+QkgbLcl9uX2HvQKn4WcghQmRfnqNYloUzKtDlCTHLdFW4boYpjjlOZmMjRdxqmbgf/BSkcYRsmJUTHBp0wuYjj5S4hfH9E8pi5AEFjp7TuyX9LJUat6gJAGHrvTlWaC063EYRQOJbvThqakpmzp7OTcoXD+eeCFXl9WhTuTu+mP1YH/BKinC/RtxV+0NZ9AF9hSFA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.moruzzo.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.moruzzo.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Moruzzo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Moruzzo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.comune.moruzzo.ud.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

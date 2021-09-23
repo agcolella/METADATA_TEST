@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icfranceschi.gov.it/microspid_metadata" ID="pfx3929b325-c0a2-db65-a27c-bba682425b73"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx3929b325-c0a2-db65-a27c-bba682425b73"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9BY0jkMogNEhIg2T9fJd1K53sSrZdmlZwSPOyw5PpKY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LfjuQbMtVIC2oeWSvFfE1YDJ46D7FK40HQrsQ3aF+1k5Ec0oy9jGzcqDGI3zxoXGCckfnGNjFlPqB5aGPfmupOMCKo+WDyt1CJKnlMAfhuwREUtZ5z/jmqvMHRw7ulyMF7xwJBiWa4tMjYBCnXyW6a3R1oqtzixVl7G0gfmq3yNV3SCKOEf6ZMcjaa8INZiJJFeY/BzjLbd7PzNeLqHqHxMUGn/l2Bk8Kt28R91rcX+AD0SE+BFql2lxNMLC4SpaonRwjnFOvWskO8E3TEDTUQt4esSdhMOG+AlfQKW15VpqLlRk8b/sg93jlux+4r+bFf9W8E6xo52zjBsvT87IsA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEVDCCAzygAwIBAgIJANwVXXxFzylNMA0GCSqGSIb3DQEBCwUAMIG+MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xGzAZBgNVBAoMEkkuQy4gUi4gRnJhbmNlc2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEgMB4GA1UEAwwXd3d3LmljZnJhbmNlc2NoaS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paWM4OTAwMHZAaXN0cnV6aW9uZS5pdDAeFw0xODAyMjcyMTAzNDhaFw0zODAyMjYyMTAzNDhaMIG+MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xGzAZBgNVBAoMEkkuQy4gUi4gRnJhbmNlc2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEgMB4GA1UEAwwXd3d3LmljZnJhbmNlc2NoaS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paWM4OTAwMHZAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxQpKMcgQWSkbsXHlamea+tiqpnpHCvuC1Nl6jsWOZvVIpcnGQBrXHOi+lFOrXj5vuvAUhkhG5BmXxl5NOX/QzNJN2VYmKmNKCVtoWOr/qEP/1mlEfRREpHYQ20HPwvv3E1Z/o521a8NuMdJvpD0yjkOEpXKDgTIwhR7CVtywsTC6q+jLgJIBKw8RgsnDfxuHnctTG5Oa6yx5E7Af1b5yO2Mb/aNAEIfbcOsfmkU9uAywvrB5hdQth0nBgwctge5J231wxYLsrsGRzZ6XD3C+T/wgY5t8GvsTCi51ebNrmD3P00UwDgLqy/0fT54qkZIW5A4OJCliSxL2qdDVOpiOkCAwEAAaNTMFEwHQYDVR0OBBYEFKRpy80STVDwV6J7ymPGWHCfZlGjMB8GA1UdIwQYMBaAFKRpy80STVDwV6J7ymPGWHCfZlGjMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGbDvTl6Lf9xDzieRPLtP3KUiPQazcSBwLVhZrfWhIhMd1cshtGDLwg/O/n/DmF9KzUlnCTN+/ueeNZfyFpTIfohnRxEx4Unp08V6GB7X+PgB6zVf02gB3ieanbTyLwiPv1DcWJkTNYwQW4A5tWtMsqvFhMAuVgmibSQE9Tx289vTCHbyoKma9a/jewEsL+NbGPZPHPBDIbpXdlkTnCu6XfRTyxfZ3uJ1xYpQEBMm8Fu8rFUO8QjufOJ5PKjL4+EpkKrPNFvol9jRNI8Td6/z83dyrgjerpw39A6nB8355qTe0hhrhWTW3ysiBZ/mYRF05Mx9lDUGpjCR0f+remymhg=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEVDCCAzygAwIBAgIJANwVXXxFzylNMA0GCSqGSIb3DQEBCwUAMIG+MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xGzAZBgNVBAoMEkkuQy4gUi4gRnJhbmNlc2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEgMB4GA1UEAwwXd3d3LmljZnJhbmNlc2NoaS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paWM4OTAwMHZAaXN0cnV6aW9uZS5pdDAeFw0xODAyMjcyMTAzNDhaFw0zODAyMjYyMTAzNDhaMIG+MQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xGzAZBgNVBAoMEkkuQy4gUi4gRnJhbmNlc2NoaTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEgMB4GA1UEAwwXd3d3LmljZnJhbmNlc2NoaS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGG1paWM4OTAwMHZAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxQpKMcgQWSkbsXHlamea+tiqpnpHCvuC1Nl6jsWOZvVIpcnGQBrXHOi+lFOrXj5vuvAUhkhG5BmXxl5NOX/QzNJN2VYmKmNKCVtoWOr/qEP/1mlEfRREpHYQ20HPwvv3E1Z/o521a8NuMdJvpD0yjkOEpXKDgTIwhR7CVtywsTC6q+jLgJIBKw8RgsnDfxuHnctTG5Oa6yx5E7Af1b5yO2Mb/aNAEIfbcOsfmkU9uAywvrB5hdQth0nBgwctge5J231wxYLsrsGRzZ6XD3C+T/wgY5t8GvsTCi51ebNrmD3P00UwDgLqy/0fT54qkZIW5A4OJCliSxL2qdDVOpiOkCAwEAAaNTMFEwHQYDVR0OBBYEFKRpy80STVDwV6J7ymPGWHCfZlGjMB8GA1UdIwQYMBaAFKRpy80STVDwV6J7ymPGWHCfZlGjMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGbDvTl6Lf9xDzieRPLtP3KUiPQazcSBwLVhZrfWhIhMd1cshtGDLwg/O/n/DmF9KzUlnCTN+/ueeNZfyFpTIfohnRxEx4Unp08V6GB7X+PgB6zVf02gB3ieanbTyLwiPv1DcWJkTNYwQW4A5tWtMsqvFhMAuVgmibSQE9Tx289vTCHbyoKma9a/jewEsL+NbGPZPHPBDIbpXdlkTnCu6XfRTyxfZ3uJ1xYpQEBMm8Fu8rFUO8QjufOJ5PKjL4+EpkKrPNFvol9jRNI8Td6/z83dyrgjerpw39A6nB8355qTe0hhrhWTW3ysiBZ/mYRF05Mx9lDUGpjCR0f+remymhg=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icfranceschi.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icfranceschi.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto Comprensivo "Roberto Franceschi"</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo "Roberto Franceschi"</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.icfranceschi.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

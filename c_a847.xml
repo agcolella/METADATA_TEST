@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_3c662b73983ce95aad22f4caa03a570633866c46" entityID="https://spid.comune.bianze.vc.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_3c662b73983ce95aad22f4caa03a570633866c46">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>KwFbfICYRaOz0i/xs/hLGNs6W+3u79ZVGLv1d1wtGG8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PrQLmMJXE04DKN34BPmUn3p/yFnv6Wb+wSKjBMMLiXZl1T7JIkSb+0wiL1tAIrBJr6zUfnrWUxm5
+zCpIw8oSeUdOmxg+pyFvHk94Lu4b5uw2Kdsj7UKMKCuk3f8vWQEIN6nspf+KF0GZswPsJVff0Ppn
+l/jQnd+Voqlq600MhQBjY7Z0j7bqlwBFwA5ODYeIazi2otn3CD6cDyjBuR5xdqsRAD78siAmGm2v
+1kRkxZ/UL3bzcPcV+SgIC07Uve+GbhX4jGAni57tQWciwNJo3tWsImwgMhHPieKz95DIPN1Gjpws
+8SsTZlAxaJLCxweiunbPKKJwoY4g3MumSfWSGJHlhYdNGvcMpN4tYzxqOOHGiPzCdU54ffa2H+/b
+qZXMc0ajHey81ZsfpBGclYQl/C44wf4h87KLIU9hJTHykr6kfgTHKoNpYqlpWLegibIR/2H83Gr6
+jdpQFk6ZPAqs+Qt0XK+9i5kWzXG0Jzx4dgqG3wJTxCXBwxEG0lXrMajs
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yg8JBpJNKyWKMGcGpQFIEe6p6fI/R18SrerCcWNdACagZeV66ZMd9lj4JfTeEiFirDp+P0eZsbwX
+hvAYd5J6Yp2LMcPiN7PmkUjGnA5ZCylzQn633M2X/neUBvtkF6yZ2FNi5cUYNUbCNVuDDNqiINRa
+LPEQSwiuetA3+3MrUELIZPTdfEsybpZUS6q2MbB0HzFflb5tDy/8kRmsfXgMTK9wLUhGE7VPzUO5
+pVI3XoN2Np8KuFl7uA8HgmK16afc64inI0sXld+b600XpEfLdnfcd5JbnheTaqtbrjBVW8sR0uGy
+ZG/MSvCmgghmZVlowTQ85aTdxtDufQwfmtE88NPXaLuAWzhi7u0p7fJWc+jCmW4pC+TC+VFcqAdE
+0jYZyswjs5mg9ScLwBIy7nOU0yPn6er+ctlUufHZOPWOJNqvqaJ/78DVr/LQqvNl8Ew3YB+7qods
+PidddR4Pu0JImOHUEKiSwLgCoHUUxC6/5ngf5qxDTKQBF9D/HW8FjV+d
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEDzCCAnegAwIBAgIJAPWJSYLs6s1ZMA0GCSqGSIb3DQEBCwUAMCMxITAfBgNVBAMTGHNwaWQu
+Y29tdW5lLmJpYW56ZS52Yy5pdDAeFw0xOTA3MDgwODA1MjFaFw0yOTA3MDUwODA1MjFaMCMxITAf
+BgNVBAMTGHNwaWQuY29tdW5lLmJpYW56ZS52Yy5pdDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCC
+AYoCggGBAMoPCQaSTSslijBnBqUBSBHuqenyP0dfEq3qwnFjXQAmoGXleumTHfZY+CX03hIhYqw6
+fj9HmbG8F4bwGHeSemKdizHD4jez5pFIxpwOWQspc0J+t9zNl/53lAb7ZBesmdhTYuXFGDVGwjVb
+gwzaoiDUWizxEEsIrnrQN/tzK1BCyGT03XxLMm6WVEuqtjGwdB8xX5W+bQ8v/JEZrH14DEyvcC1I
+RhO1T81DuaVSN16DdjafCrhZe7gPB4Jitemn3OuIpyNLF5Xfm+tNF6RHy3Z33HeSW54Xk2qrW64w
+VVvLEdLhsmRvzErwpoIIZmVZaME0POWk3cbQ7n0MH5rRPPDT12i7gFs4Yu7tKe3yVnPowpluKQvk
+wvlRXKgHRNI2GcrMI7OZoPUnC8ASMu5zlNMj5+nq/nLZVLnx2Tj1jiTar6mif+/A1a/y0KrzZfBM
+N2Afu6qHbD4nXXUeD7tCSJjh1BCoksC4AqB1FMQuv+Z4H+asQ0ykARfQ/x1vBY1fnQIDAQABo0Yw
+RDAjBgNVHREEHDAaghhzcGlkLmNvbXVuZS5iaWFuemUudmMuaXQwHQYDVR0OBBYEFP2JU51NHD8R
+UwbqBA//KVyStpncMA0GCSqGSIb3DQEBCwUAA4IBgQBpvmQfsL8DT9kRVVGLEjjd7HckqfaPPaTt
+4nQ8Vc/9TLojXJ3i87xqhOW51NffLYsgraFoBTa0csHaYBpQXcq0G2WZs5QiEn6/v3Dz/hgHzUJN
+/dq2HidA4Eag08j6KzAfkYKu4LGImLmpOrE8OTnpbQTxqmZXOfR/dYuNkcdNm8e2xxbEgonSWnWM
+i06bcdeXTTrubjxtpfLmial7pusBadTzUQFtANIRO9yBzpKhjUNedI19e80c5Sp2zRVb8c935qZ1
+JXBXpbeokbUAZz0wqLbwlGSbSPWmI4Gdx1h+2xtipMIHgfLmAQ5AHbqLPS/3494BtU2PlIv8qf39
+TNLNUdEDbTxw5xd//cFFUa3n+/vDsi/LM904mhAPsmPbjOE3sef5YXTpiQxwlYtVFpyVAG2fBjTH
+bmjbz7CirrYaBxb9RIDqb1jaSAYPpS4YHfIVlnHcowgE7ABBEyxYLAFtJLHRSZTOOg+fHb/40qC0
+cvJVtJgmVNU8KYntfe9FNN0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.comune.bianze.vc.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.comune.bianze.vc.it</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEDzCCAnegAwIBAgIJAPWJSYLs6s1ZMA0GCSqGSIb3DQEBCwUAMCMxITAfBgNV
+BAMTGHNwaWQuY29tdW5lLmJpYW56ZS52Yy5pdDAeFw0xOTA3MDgwODA1MjFaFw0y
+OTA3MDUwODA1MjFaMCMxITAfBgNVBAMTGHNwaWQuY29tdW5lLmJpYW56ZS52Yy5p
+dDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMoPCQaSTSslijBnBqUB
+SBHuqenyP0dfEq3qwnFjXQAmoGXleumTHfZY+CX03hIhYqw6fj9HmbG8F4bwGHeS
+emKdizHD4jez5pFIxpwOWQspc0J+t9zNl/53lAb7ZBesmdhTYuXFGDVGwjVbgwza
+oiDUWizxEEsIrnrQN/tzK1BCyGT03XxLMm6WVEuqtjGwdB8xX5W+bQ8v/JEZrH14
+DEyvcC1IRhO1T81DuaVSN16DdjafCrhZe7gPB4Jitemn3OuIpyNLF5Xfm+tNF6RH
+y3Z33HeSW54Xk2qrW64wVVvLEdLhsmRvzErwpoIIZmVZaME0POWk3cbQ7n0MH5rR
+PPDT12i7gFs4Yu7tKe3yVnPowpluKQvkwvlRXKgHRNI2GcrMI7OZoPUnC8ASMu5z
+lNMj5+nq/nLZVLnx2Tj1jiTar6mif+/A1a/y0KrzZfBMN2Afu6qHbD4nXXUeD7tC
+SJjh1BCoksC4AqB1FMQuv+Z4H+asQ0ykARfQ/x1vBY1fnQIDAQABo0YwRDAjBgNV
+HREEHDAaghhzcGlkLmNvbXVuZS5iaWFuemUudmMuaXQwHQYDVR0OBBYEFP2JU51N
+HD8RUwbqBA//KVyStpncMA0GCSqGSIb3DQEBCwUAA4IBgQBpvmQfsL8DT9kRVVGL
+Ejjd7HckqfaPPaTt4nQ8Vc/9TLojXJ3i87xqhOW51NffLYsgraFoBTa0csHaYBpQ
+Xcq0G2WZs5QiEn6/v3Dz/hgHzUJN/dq2HidA4Eag08j6KzAfkYKu4LGImLmpOrE8
+OTnpbQTxqmZXOfR/dYuNkcdNm8e2xxbEgonSWnWMi06bcdeXTTrubjxtpfLmial7
+pusBadTzUQFtANIRO9yBzpKhjUNedI19e80c5Sp2zRVb8c935qZ1JXBXpbeokbUA
+Zz0wqLbwlGSbSPWmI4Gdx1h+2xtipMIHgfLmAQ5AHbqLPS/3494BtU2PlIv8qf39
+TNLNUdEDbTxw5xd//cFFUa3n+/vDsi/LM904mhAPsmPbjOE3sef5YXTpiQxwlYtV
+FpyVAG2fBjTHbmjbz7CirrYaBxb9RIDqb1jaSAYPpS4YHfIVlnHcowgE7ABBEyxY
+LAFtJLHRSZTOOg+fHb/40qC0cvJVtJgmVNU8KYntfe9FNN0=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bianze.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bianze.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set0</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth"/>
+					<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth"/>
+					<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth"/>
+					<md:RequestedAttribute FriendlyName="gender" Name="gender"/>
+					<md:RequestedAttribute FriendlyName="companyName" Name="companyName"/>
+					<md:RequestedAttribute FriendlyName="registeredOffice" Name="registeredOffice"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="ivaCode" Name="ivaCode"/>
+					<md:RequestedAttribute FriendlyName="idCard" Name="idCard"/>
+					<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					<md:RequestedAttribute FriendlyName="address" Name="address"/>
+					<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Comune di Bianze</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Comune di Bianze</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">https://www.comune.bianze.vc.it/</md:OrganizationURL>
+					</md:Organization></md:EntityDescriptor>

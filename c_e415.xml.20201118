@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Lainate" entityID="https://www.comune.lainate.mi.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Lainate">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7KECxXJ4KHUI0DUjnaCi31HMtigJsZzgbVF0EcGRjBo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ElhxZCNb5JlTnScC91ljZ9TSkuLRSC4bv/itXZQ4x68BI/A6PT+ypje7RGy1aicl4aacsh1DmAkO
+5xJvcqC8e4hCxbDL4Go62N9hkta5wJ+bdS5ipsOjmrs3vl4xhdpLc1tSwjHyekER0o2GcDgOpR3Q
+BAt60MHSlBamQF00JgURZij/7pq/p9BoD9q10joFKmjfmj/p+Oj7N93qqDkU8u7AtxYt9507Pvnc
+0djiqXwJzZ37Er3nLeI3sO1YrcYz86DjepnUO1zgc4e93L+NuopFCR6cs1gGmJAhpz2K4P3HD1FQ
+hLAAxaHKAcw2sU1qi/Nx4iVpC9cCrCHvjsntOA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oGuqfkOA0h+6s96e+Y7jY928Ybj9VFw1r97YSZ156xOfIIkJBZ48AtJHM9wm/Xc3rEg40UYjGT25
+QAYkvHgu4Bz4DA71H1lXVDSt8uYt29WjNDxDm9x1zb7GSyzB6AketVBEUHXbh7oNR+kz3S7JIFvu
+8LbdoTI29Hpgm5v/QlDhQGFJ3hJkRF0NDavBiwnWsPEQuQ4JBgr8LPnQShPk4W/UVsx849AIpPjY
+53ftpQfu1SSQGMKj/sZ1Kksllt0jAaDkCjk+nFvkj6G42bfavBn5dtH2XO8I+F0+4nvhQV9MKfRO
+bMKsJgmbId7/2zxQk64ZDqc90gyfsr1RAiujFw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJALN72K0+vS+cMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUubGFpbmF0ZS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNjE4
+MTAwNzI4WhcNMjgwNjE1MTAwNzI4WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmxhaW5hdGUubWku
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAoGuqfkOA0h+6s96e+Y7jY928Ybj9VFw1r97YSZ156xOfIIkJBZ48AtJHM9wm/Xc3rEg4
+0UYjGT25QAYkvHgu4Bz4DA71H1lXVDSt8uYt29WjNDxDm9x1zb7GSyzB6AketVBEUHXbh7oNR+kz
+3S7JIFvu8LbdoTI29Hpgm5v/QlDhQGFJ3hJkRF0NDavBiwnWsPEQuQ4JBgr8LPnQShPk4W/UVsx8
+49AIpPjY53ftpQfu1SSQGMKj/sZ1Kksllt0jAaDkCjk+nFvkj6G42bfavBn5dtH2XO8I+F0+4nvh
+QV9MKfRObMKsJgmbId7/2zxQk64ZDqc90gyfsr1RAiujFwIDAQABo1AwTjAdBgNVHQ4EFgQU30uI
+utaCOvxkXWzdjRV9qoYTPoswHwYDVR0jBBgwFoAU30uIutaCOvxkXWzdjRV9qoYTPoswDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjvVVY9etA1gIR9st80z/6H640YxmNRSLLoAQsnfv
+QhHJe1050gA7YJkWCKuQDeSlwBRsa0OhCtHngSWyAP7vNaNPZTPW7sAoKEfCZj2zvZO0xIrffRSx
+M80WW06GyzAQyRNM1UvEjRJIFQSq1xNx0RZvVF3vQXrj3xWOAgYeOnbro0tyDKU8x4pTLXvjeChD
+dncYIMmpv5YGsGIBjPT7m2KTymECY8rTuXTyz5GawN1XnODm6nyzLhHVHNa/DqkR7nQey1dWusB5
+1Q5Vxs3yFlc3U5Xh6XGHPjIuOX/a3h7H5VgJhM9Zj1JWb9jChPeqt55J16VvlG/IdIcqzFFn6w==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALN72K0+vS+cMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUubGFpbmF0ZS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNjE4MTAwNzI4WhcNMjgwNjE1MTAwNzI4WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmxhaW5hdGUubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoGuqfkOA0h+6s96e+Y7jY928Ybj9VFw1r97YSZ156xOfIIkJBZ48AtJHM9wm/Xc3rEg40UYjGT25QAYkvHgu4Bz4DA71H1lXVDSt8uYt29WjNDxDm9x1zb7GSyzB6AketVBEUHXbh7oNR+kz3S7JIFvu8LbdoTI29Hpgm5v/QlDhQGFJ3hJkRF0NDavBiwnWsPEQuQ4JBgr8LPnQShPk4W/UVsx849AIpPjY53ftpQfu1SSQGMKj/sZ1Kksllt0jAaDkCjk+nFvkj6G42bfavBn5dtH2XO8I+F0+4nvhQV9MKfRObMKsJgmbId7/2zxQk64ZDqc90gyfsr1RAiujFwIDAQABo1AwTjAdBgNVHQ4EFgQU30uIutaCOvxkXWzdjRV9qoYTPoswHwYDVR0jBBgwFoAU30uIutaCOvxkXWzdjRV9qoYTPoswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjvVVY9etA1gIR9st80z/6H640YxmNRSLLoAQsnfvQhHJe1050gA7YJkWCKuQDeSlwBRsa0OhCtHngSWyAP7vNaNPZTPW7sAoKEfCZj2zvZO0xIrffRSxM80WW06GyzAQyRNM1UvEjRJIFQSq1xNx0RZvVF3vQXrj3xWOAgYeOnbro0tyDKU8x4pTLXvjeChDdncYIMmpv5YGsGIBjPT7m2KTymECY8rTuXTyz5GawN1XnODm6nyzLhHVHNa/DqkR7nQey1dWusB51Q5Vxs3yFlc3U5Xh6XGHPjIuOX/a3h7H5VgJhM9Zj1JWb9jChPeqt55J16VvlG/IdIcqzFFn6w==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lainate"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lainate" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lainate" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lainate</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Lainate</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Lainate</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Lainate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lainate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Lainate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Lainate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Lainate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lainate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lainate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.lainate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.lainate.mi.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

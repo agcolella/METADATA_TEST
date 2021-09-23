@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="TuranoLodigiano" entityID="https://www.comune.turanolodigiano.lo.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#TuranoLodigiano">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Si6WWEavu3XVpn/NQHuQZbVCVdUXPb4SNmwN8dTUVRE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+J2EAhtJo2dgpTSyK3uKu07b7I2p/9I9HidBWRm7MgjCAmluI9jMD3tRVtV1waXc13vi2N12kqXTw
+VQruHioT1A6YFPBMPzYLNrNKG7yqP6oHryJI8SMwgKfs+gy5egNiaXTei6NqoKtYPYpii1MiErqb
+Ub61fj9/pkNcXQeRZk8zxgXgoFB/helu4y9e/XLrH0MRJBt0aSjQSZWln6DW5iYZEVH3bU8EkAvq
+/8N5/Gxkghe07LRf3EqInOeTpP3tSL1mZErNS0Z6zDCra/SsXLn0stpeo5c1fmn+h7f/tVI/ieGO
+X3DTDobmhkCThN9zxehcdAPF+CIwiQ9lx0mXjA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vQdPtYvXu2giOkjxJJEtvEWBJfldAd26BceKQsTRbJiDREFbZ8CT/6K2WmHQn1j04VmEEnBxrYTq
+p2f+Y1i3BbcBPaojk/Q7hk0xXgCIe7f4Iz+PyHYlCTRSSiG84PTlfqswWrOpn+aUJlpNIYRHdt/B
+8pwWhiBKxjalhW+Kcc1xVqRKzgull4bXS5CPDx/qpHkPjJYoj6T5xzULSDH0+SnMfoMdlWdSROUf
+Hg8QI/x7AEIuWwzmOXWGbYII1yRexfaSTNvyOBfWfcEjEsp/3JKnnB8oNrC+r/sfU+SjLkHTXOxq
+9CvebZhjMxqF8So/aHZeMImC9xpM2BPIxs174Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDYTCCAkmgAwIBAgIJAMVhYG9vTnNTMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5j
+b211bmUudHVyYW5vbG9kaWdpYW5vLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAe
+Fw0xODA5MjcwOTA5NDJaFw0yODA5MjQwOTA5NDJaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUudHVy
+YW5vbG9kaWdpYW5vLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAL0HT7WL17toIjpI8SSRLbxFgSX5XQHdugXHikLE0WyYg0RB
+W2fAk/+itlph0J9Y9OFZhBJwca2E6qdn/mNYtwW3AT2qI5P0O4ZNMV4AiHu3+CM/j8h2JQk0Ukoh
+vOD05X6rMFqzqZ/mlCZaTSGER3bfwfKcFoYgSsY2pYVvinHNcVakSs4LpZeG10uQjw8f6qR5D4yW
+KI+k+cc1C0gx9PkpzH6DHZVnUkTlHx4PECP8ewBCLlsM5jl1hm2CCNckXsX2kkzb8jgX1n3BIxLK
+f9ySp5wfKDawvq/7H1Pkoy5B01zsavQr3m2YYzMahfEqP2h2XjCJgvcaTNgTyMbNe+ECAwEAAaNQ
+ME4wHQYDVR0OBBYEFL6bVKvev5EzXHBugH1QiggF7bTsMB8GA1UdIwQYMBaAFL6bVKvev5EzXHBu
+gH1QiggF7bTsMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAWaPJT43AMPiUKxUYTZ
+E74Io5lHhpjUAsiXRsO237zEmA6wqjkTO5zucmj+nDgZFpjYkniZ8rn0FIqMAQxdpZxucdU3mZpm
+TqhcXscwDlMFEKJvWojCF965vlqsU8BE9elo4ncQrV+HOmizP35mpCSWlbR3yt9f+DRseE8fJmBu
+52A1UJkOMXaNRSCOB1GG5/t3Do6jIpbYuKE5dzEwHjbnOcPOMivF1+i0mheJg2V3G+wI/Xe8DqbH
+MYY8/QRsrNz2jgZ0049jY+JFGOu4N1DZeY/SZZbzJURNWNBEVD2jJNo2P4SWkyZbGCdF31NmtsAZ
+7P9vj6d0UlJpTSES0sw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJAMVhYG9vTnNTMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5jb211bmUudHVyYW5vbG9kaWdpYW5vLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA5MjcwOTA5NDJaFw0yODA5MjQwOTA5NDJaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUudHVyYW5vbG9kaWdpYW5vLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL0HT7WL17toIjpI8SSRLbxFgSX5XQHdugXHikLE0WyYg0RBW2fAk/+itlph0J9Y9OFZhBJwca2E6qdn/mNYtwW3AT2qI5P0O4ZNMV4AiHu3+CM/j8h2JQk0UkohvOD05X6rMFqzqZ/mlCZaTSGER3bfwfKcFoYgSsY2pYVvinHNcVakSs4LpZeG10uQjw8f6qR5D4yWKI+k+cc1C0gx9PkpzH6DHZVnUkTlHx4PECP8ewBCLlsM5jl1hm2CCNckXsX2kkzb8jgX1n3BIxLKf9ySp5wfKDawvq/7H1Pkoy5B01zsavQr3m2YYzMahfEqP2h2XjCJgvcaTNgTyMbNe+ECAwEAAaNQME4wHQYDVR0OBBYEFL6bVKvev5EzXHBugH1QiggF7bTsMB8GA1UdIwQYMBaAFL6bVKvev5EzXHBugH1QiggF7bTsMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAWaPJT43AMPiUKxUYTZE74Io5lHhpjUAsiXRsO237zEmA6wqjkTO5zucmj+nDgZFpjYkniZ8rn0FIqMAQxdpZxucdU3mZpmTqhcXscwDlMFEKJvWojCF965vlqsU8BE9elo4ncQrV+HOmizP35mpCSWlbR3yt9f+DRseE8fJmBu52A1UJkOMXaNRSCOB1GG5/t3Do6jIpbYuKE5dzEwHjbnOcPOMivF1+i0mheJg2V3G+wI/Xe8DqbHMYY8/QRsrNz2jgZ0049jY+JFGOu4N1DZeY/SZZbzJURNWNBEVD2jJNo2P4SWkyZbGCdF31NmtsAZ7P9vj6d0UlJpTSES0sw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDYTCCAkmgAwIBAgIJAMVhYG9vTnNTMA0GCSqGSIb3DQEBCwUAMEcxKTAnBgNVBAMMIHd3dy5jb211bmUudHVyYW5vbG9kaWdpYW5vLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0xODA5MjcwOTA5NDJaFw0yODA5MjQwOTA5NDJaMEcxKTAnBgNVBAMMIHd3dy5jb211bmUudHVyYW5vbG9kaWdpYW5vLmxvLml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL0HT7WL17toIjpI8SSRLbxFgSX5XQHdugXHikLE0WyYg0RBW2fAk/+itlph0J9Y9OFZhBJwca2E6qdn/mNYtwW3AT2qI5P0O4ZNMV4AiHu3+CM/j8h2JQk0UkohvOD05X6rMFqzqZ/mlCZaTSGER3bfwfKcFoYgSsY2pYVvinHNcVakSs4LpZeG10uQjw8f6qR5D4yWKI+k+cc1C0gx9PkpzH6DHZVnUkTlHx4PECP8ewBCLlsM5jl1hm2CCNckXsX2kkzb8jgX1n3BIxLKf9ySp5wfKDawvq/7H1Pkoy5B01zsavQr3m2YYzMahfEqP2h2XjCJgvcaTNgTyMbNe+ECAwEAAaNQME4wHQYDVR0OBBYEFL6bVKvev5EzXHBugH1QiggF7bTsMB8GA1UdIwQYMBaAFL6bVKvev5EzXHBugH1QiggF7bTsMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAWaPJT43AMPiUKxUYTZE74Io5lHhpjUAsiXRsO237zEmA6wqjkTO5zucmj+nDgZFpjYkniZ8rn0FIqMAQxdpZxucdU3mZpmTqhcXscwDlMFEKJvWojCF965vlqsU8BE9elo4ncQrV+HOmizP35mpCSWlbR3yt9f+DRseE8fJmBu52A1UJkOMXaNRSCOB1GG5/t3Do6jIpbYuKE5dzEwHjbnOcPOMivF1+i0mheJg2V3G+wI/Xe8DqbHMYY8/QRsrNz2jgZ0049jY+JFGOu4N1DZeY/SZZbzJURNWNBEVD2jJNo2P4SWkyZbGCdF31NmtsAZ7P9vj6d0UlJpTSES0sw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/turanolodio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/turanolodio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/turanolodio" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/turanolodio" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Turano Lodigiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Turano Lodigiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Turano Lodigiano</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Turano Lodigiano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Turano Lodigiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Turano Lodigiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Turano Lodigiano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Turano Lodigiano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.turanolodigiano.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.turanolodigiano.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.turanolodigiano.lo.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.turanolodigiano.lo.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

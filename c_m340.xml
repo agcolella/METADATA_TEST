@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.borgovirgilio.gov.it/" ID="pfx0821aaab-89da-6a3f-2664-1e3f58226875"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx0821aaab-89da-6a3f-2664-1e3f58226875"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>rESk0wr++qIi1DkmmJUkYCveaNbcwBcbVlmvicdQ//I=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>J+EdekCtqcyo5mumZ6X2cXIhAT/sfnGMmubWnPExNNcbV1SSlAL4Jkm6cn87x3S2YIQ0YiD3Yl32aYHNUezZcQUSaA+HseQrq6VyxpjGU1pFaEkAZY+OCaDY8V2q/JrsbfBYFbXGv7R6cp6Gj5l98LSl8Gdpggaz7T2LrpvDEGo5Db+fVF0ReV+o0bbeAsBWTZGdGpEgVtJJUEkydj7EuosauZzLAFr/G9/F6Sc7hDlUhcNJnBg01ZXZEgnZsuOaIkLfKOOSgkxBOmLGleson6OU8tEwg5wXE6t9n6howudWkQu53nxZrjqcp8Rl8U4/xvpit7xKS5bA7jDXL+57ug==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJANY8D1TlH8rnMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEXMBUGA1UEBwwOQm9yZ28gVmlyZ2lsaW8xITAfBgNVBAoMGENvbXVuZSBkaSBCb3JnbyBWaXJnaWxpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uYm9yZ292aXJnaWxpby5nb3YuaXQwHhcNMTkwNjEzMDY1MDQzWhcNMjkwNjEwMDY1MDQzWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB01hbnRvdmExFzAVBgNVBAcMDkJvcmdvIFZpcmdpbGlvMSEwHwYDVQQKDBhDb211bmUgZGkgQm9yZ28gVmlyZ2lsaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmJvcmdvdmlyZ2lsaW8uZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ywhKJ1PiOo0gikCx8X9DUHNii9fUebIez3SULXgtVitoDV4zvznv0WMP/vDalsrteoHEvwU6wLhnDz7TId1fdlYKXMfBdZHm3iKDQLQX1ry1Cnlyoars3gKMmKz+Tocelpe1s0IZNXubdc63bbzGA+XOCAjpird4838iwW0dVP7mnhMAVuHJ4dU7yWlI2msdCJAVYT4yWm7Cg4AchIxJumuRBHORTTGRJ6V2EYkIj0Gma5OuQlPl3solomqaXejEECIVRgm8X3F8yGs5EUovRMU5rHb3dtN08kuww2qYg8+wC/8sxNRX920J1/7UbgkMLmfb9vWDRTGlFJyBBCdQwIDAQABo1MwUTAdBgNVHQ4EFgQU9TkWfgpeGBRND9n04tjWh5000QIwHwYDVR0jBBgwFoAU9TkWfgpeGBRND9n04tjWh5000QIwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhtlCHttco4z5tM5xjoPcF8BJDpQQy9Ml17mRbtadwFL/Risq5PHX1gX2wRjnwvz2jm6DI18Bq/rRRw4DjAUAMIXhR3cRbDSLmdWo+KEdEQ+9cZlXWhEsk7wFBdwwqbi5jXnE7qSVAS7vxOqK0PGjd5LaXiokNu7YZUYYBKYPdxYnL9TfNKD92+eLdPXORN1Ls+PN+QPWCIS00hGnwGAa9zrHptcu/cODblIV6xwozUa47TDIb90Dx2l/EfZywMQ8YykeGy8b+yt+zVfMHpLHt5+8n/Jpdgod6H1K5pyqd9xN0GofxfyO7ojFzcFinChky54OJOnGRsSMxt9WLeM+0g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJANY8D1TlH8rnMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEXMBUGA1UEBwwOQm9yZ28gVmlyZ2lsaW8xITAfBgNVBAoMGENvbXVuZSBkaSBCb3JnbyBWaXJnaWxpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uYm9yZ292aXJnaWxpby5nb3YuaXQwHhcNMTkwNjEzMDY1MDQzWhcNMjkwNjEwMDY1MDQzWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB01hbnRvdmExFzAVBgNVBAcMDkJvcmdvIFZpcmdpbGlvMSEwHwYDVQQKDBhDb211bmUgZGkgQm9yZ28gVmlyZ2lsaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmJvcmdvdmlyZ2lsaW8uZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ywhKJ1PiOo0gikCx8X9DUHNii9fUebIez3SULXgtVitoDV4zvznv0WMP/vDalsrteoHEvwU6wLhnDz7TId1fdlYKXMfBdZHm3iKDQLQX1ry1Cnlyoars3gKMmKz+Tocelpe1s0IZNXubdc63bbzGA+XOCAjpird4838iwW0dVP7mnhMAVuHJ4dU7yWlI2msdCJAVYT4yWm7Cg4AchIxJumuRBHORTTGRJ6V2EYkIj0Gma5OuQlPl3solomqaXejEECIVRgm8X3F8yGs5EUovRMU5rHb3dtN08kuww2qYg8+wC/8sxNRX920J1/7UbgkMLmfb9vWDRTGlFJyBBCdQwIDAQABo1MwUTAdBgNVHQ4EFgQU9TkWfgpeGBRND9n04tjWh5000QIwHwYDVR0jBBgwFoAU9TkWfgpeGBRND9n04tjWh5000QIwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhtlCHttco4z5tM5xjoPcF8BJDpQQy9Ml17mRbtadwFL/Risq5PHX1gX2wRjnwvz2jm6DI18Bq/rRRw4DjAUAMIXhR3cRbDSLmdWo+KEdEQ+9cZlXWhEsk7wFBdwwqbi5jXnE7qSVAS7vxOqK0PGjd5LaXiokNu7YZUYYBKYPdxYnL9TfNKD92+eLdPXORN1Ls+PN+QPWCIS00hGnwGAa9zrHptcu/cODblIV6xwozUa47TDIb90Dx2l/EfZywMQ8YykeGy8b+yt+zVfMHpLHt5+8n/Jpdgod6H1K5pyqd9xN0GofxfyO7ojFzcFinChky54OJOnGRsSMxt9WLeM+0g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJANY8D1TlH8rnMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEXMBUGA1UEBwwOQm9yZ28gVmlyZ2lsaW8xITAfBgNVBAoMGENvbXVuZSBkaSBCb3JnbyBWaXJnaWxpbzEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xMTAvBgNVBAMMKHNwb3J0ZWxsb3RlbGVtYXRpY28uYm9yZ292aXJnaWxpby5nb3YuaXQwHhcNMTkwNjEzMDY1MDQzWhcNMjkwNjEwMDY1MDQzWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB01hbnRvdmExFzAVBgNVBAcMDkJvcmdvIFZpcmdpbGlvMSEwHwYDVQQKDBhDb211bmUgZGkgQm9yZ28gVmlyZ2lsaW8xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTEwLwYDVQQDDChzcG9ydGVsbG90ZWxlbWF0aWNvLmJvcmdvdmlyZ2lsaW8uZ292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ywhKJ1PiOo0gikCx8X9DUHNii9fUebIez3SULXgtVitoDV4zvznv0WMP/vDalsrteoHEvwU6wLhnDz7TId1fdlYKXMfBdZHm3iKDQLQX1ry1Cnlyoars3gKMmKz+Tocelpe1s0IZNXubdc63bbzGA+XOCAjpird4838iwW0dVP7mnhMAVuHJ4dU7yWlI2msdCJAVYT4yWm7Cg4AchIxJumuRBHORTTGRJ6V2EYkIj0Gma5OuQlPl3solomqaXejEECIVRgm8X3F8yGs5EUovRMU5rHb3dtN08kuww2qYg8+wC/8sxNRX920J1/7UbgkMLmfb9vWDRTGlFJyBBCdQwIDAQABo1MwUTAdBgNVHQ4EFgQU9TkWfgpeGBRND9n04tjWh5000QIwHwYDVR0jBBgwFoAU9TkWfgpeGBRND9n04tjWh5000QIwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhtlCHttco4z5tM5xjoPcF8BJDpQQy9Ml17mRbtadwFL/Risq5PHX1gX2wRjnwvz2jm6DI18Bq/rRRw4DjAUAMIXhR3cRbDSLmdWo+KEdEQ+9cZlXWhEsk7wFBdwwqbi5jXnE7qSVAS7vxOqK0PGjd5LaXiokNu7YZUYYBKYPdxYnL9TfNKD92+eLdPXORN1Ls+PN+QPWCIS00hGnwGAa9zrHptcu/cODblIV6xwozUa47TDIb90Dx2l/EfZywMQ8YykeGy8b+yt+zVfMHpLHt5+8n/Jpdgod6H1K5pyqd9xN0GofxfyO7ojFzcFinChky54OJOnGRsSMxt9WLeM+0g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.borgovirgilio.gov.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.borgovirgilio.gov.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_m340</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_m340</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Borgo Virgilio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Borgo Virgilio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.borgovirgilio.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.borgovirgilio.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

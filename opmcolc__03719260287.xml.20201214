@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.irideweb.it/omceolc" ID="91d00e8f-65ef-4f86-b220-679fc800554e">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#91d00e8f-65ef-4f86-b220-679fc800554e">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>TevwhF5zsrMsBhe34prAis6arYxwycxPyriJVYDzIw0=</ds:DigestValue>
+      </ds:Reference>
+      </ds:SignedInfo>
+    <ds:SignatureValue>Z+bIs8LPw7fzHP8iQvguq7BlYZAB4rO/+AUa3hHW1Ce0Npn/li/RlJ6HpGVXJIaj
+1fWsCmce0js0oLN+vFYR8+sVyl7nK9M9D80PQIZn4TdEK2TmkOG6OwfhQ8CThyFD
+w6UMncs9XDgtnDHsidPBnF7YTsx38V27nMZ9CAulOcKTFQ03DeqQj6ua9/MSv6Mz
+VkwlfrnJsUHxAuaE5sqYHhafHG9N1pJBDAzLg5gTstccA+YSKqp95waR7HwxYHn5
+BwXkE6I7guT2UT0MC71mq3Ms3ct519FVA8sqqwBf+taspvZRS4LU0iSJZkUVN94u
+sufV5Ojr0ijCiimfGqDIWA==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+<ds:X509Certificate>MIIGojCCBIqgAwIBAgIIS2orrnpMbtYwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDMyNzAwMDAwMFoX
+DTM1MDMyNjIzNTk1OVowgagxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWZW5ldG8x
+GjAYBgNVBAcMEVBvbnRlIFNhbiBOaWNvbG8nMRMwEQYDVQQKDApURUNTSVMgc3Js
+MRYwFAYDVQQDDA0qLmlyaWRld2ViLml0MSMwIQYJKoZIhvcNAQkBFhRzZWdyZXRl
+cmlhQHRlY3Npcy5pdDEaMBgGA1UEBRMRVkFUSVQtMDM3MTkyNjAyODcwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFbVuHQfnvHwa0+DWQ3mklrDE9KYOl
+jTzhy/kF0rbYWIoj8tFdjmvkCXboGuZBRWMoPziZDhDS+JW2qo3N0NsIukR4Ul+R
+RZpg/CEbIbS0LiW9RdVhKDaOoduDk+j3cCyp8792+DTG9KIoHkNIRfnMZt759ldJ
+KYwctDjo2owApvVfAw4tb37aWLqbe3UzbstyNSy5xuYMLlIxrWPgINlmYAA8SEmm
+jSoc4CvXr3z7Rf6ywkn6YNausgp6gHNTgd0RY9A0S5ECfbf8Gp4sKNiM7vcsd/6Y
+wcr75LZP6UebNWeh9Wv+hxku8RM88UoQd1I9Ewc8GQyKymfKoHGzBsNFAgMBAAGj
+ggGPMIIBizAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRZuVdFIpZ71iWlyNK7B2Ze
+Z92zPTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8E
+BAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWgM4YxaHR0
+cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3
+BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lk
+Lmdvdi5pdDCBmAYDVR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIBFjdodHRw
+czovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMu
+cGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUaI0NlcnRpZmljYXRpIEFnZ3Jl
+Z2F0b3JpIFNQIHB1YmJsaWNpMA0GCSqGSIb3DQEBDQUAA4ICAQB8dJLvUA7g29yE
+dO/5HyZy9S1jR3V2WI8yrDh0uqu1AuiRlmm57uK4ZFjDfsn1FD2wkvXwlruYgE1R
+fIfpPRhKDyIbT0CuefhLfaofaMuL8Tlqe+b8rVtOjNPnrD6HwiM8Mmm0bLHMhWyO
+HZzs8b3SBrV7ZMkPbUDE2DKSJTfVD4xOwhMFkmsjLorYNassWnfZ5sIep0I6eVHL
+mJ8jQrHqdJyZqRuH/GZOfbI2I/SeJzisc/ZjqT4Yjocv9DudGD56wb3TlAm/ld/e
+JemTpDwuFNbUOY/TXqmrbQphrYf2kIHG6WhOLPMGa29XA6wvSJtSitE+2bBmNCek
+gzBH5c6vOil5ZljpZd0Yl3iTqXvmWW+VNl1txwjsbdIBhprQVyIT5OnX8brxIbuc
+K1NvGSKU1lbEDUnUoyXaqJes6NWFKvK9/rbJtdnOPQfZzbHdb5XZ4WDc6P9uDia9
+TYFsuDAUs7L9S7UaITc59N/WrdyrKDSfK/cXr6KAfwcUlczB1GoDVbcFIPNVZy0y
+5OJ52KorO/9E+FCcjGBeb5RuaZ9ZOFyPQL1MwemVTAiTYvBjHzwtXUO9wBXYi76T
+ZQ45RVbHx85zr6p0RH7hloxSmSgUNoeuKqaumMepG3Bc6FrW2cTUdR0RGN9bKwMv
+XSzdvPhPlkrvtHYpoNjiIR4jDCHUYg==</ds:X509Certificate>
+</ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGojCCBIqgAwIBAgIIS2orrnpMbtYwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+          BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+          YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+          ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+          dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+          aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDMyNzAwMDAwMFoX
+          DTM1MDMyNjIzNTk1OVowgagxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWZW5ldG8x
+          GjAYBgNVBAcMEVBvbnRlIFNhbiBOaWNvbG8nMRMwEQYDVQQKDApURUNTSVMgc3Js
+          MRYwFAYDVQQDDA0qLmlyaWRld2ViLml0MSMwIQYJKoZIhvcNAQkBFhRzZWdyZXRl
+          cmlhQHRlY3Npcy5pdDEaMBgGA1UEBRMRVkFUSVQtMDM3MTkyNjAyODcwggEiMA0G
+          CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFbVuHQfnvHwa0+DWQ3mklrDE9KYOl
+          jTzhy/kF0rbYWIoj8tFdjmvkCXboGuZBRWMoPziZDhDS+JW2qo3N0NsIukR4Ul+R
+          RZpg/CEbIbS0LiW9RdVhKDaOoduDk+j3cCyp8792+DTG9KIoHkNIRfnMZt759ldJ
+          KYwctDjo2owApvVfAw4tb37aWLqbe3UzbstyNSy5xuYMLlIxrWPgINlmYAA8SEmm
+          jSoc4CvXr3z7Rf6ywkn6YNausgp6gHNTgd0RY9A0S5ECfbf8Gp4sKNiM7vcsd/6Y
+          wcr75LZP6UebNWeh9Wv+hxku8RM88UoQd1I9Ewc8GQyKymfKoHGzBsNFAgMBAAGj
+          ggGPMIIBizAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRZuVdFIpZ71iWlyNK7B2Ze
+          Z92zPTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8E
+          BAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWgM4YxaHR0
+          cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3
+          BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lk
+          Lmdvdi5pdDCBmAYDVR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIBFjdodHRw
+          czovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMu
+          cGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUaI0NlcnRpZmljYXRpIEFnZ3Jl
+          Z2F0b3JpIFNQIHB1YmJsaWNpMA0GCSqGSIb3DQEBDQUAA4ICAQB8dJLvUA7g29yE
+          dO/5HyZy9S1jR3V2WI8yrDh0uqu1AuiRlmm57uK4ZFjDfsn1FD2wkvXwlruYgE1R
+          fIfpPRhKDyIbT0CuefhLfaofaMuL8Tlqe+b8rVtOjNPnrD6HwiM8Mmm0bLHMhWyO
+          HZzs8b3SBrV7ZMkPbUDE2DKSJTfVD4xOwhMFkmsjLorYNassWnfZ5sIep0I6eVHL
+          mJ8jQrHqdJyZqRuH/GZOfbI2I/SeJzisc/ZjqT4Yjocv9DudGD56wb3TlAm/ld/e
+          JemTpDwuFNbUOY/TXqmrbQphrYf2kIHG6WhOLPMGa29XA6wvSJtSitE+2bBmNCek
+          gzBH5c6vOil5ZljpZd0Yl3iTqXvmWW+VNl1txwjsbdIBhprQVyIT5OnX8brxIbuc
+          K1NvGSKU1lbEDUnUoyXaqJes6NWFKvK9/rbJtdnOPQfZzbHdb5XZ4WDc6P9uDia9
+          TYFsuDAUs7L9S7UaITc59N/WrdyrKDSfK/cXr6KAfwcUlczB1GoDVbcFIPNVZy0y
+          5OJ52KorO/9E+FCcjGBeb5RuaZ9ZOFyPQL1MwemVTAiTYvBjHzwtXUO9wBXYi76T
+          ZQ45RVbHx85zr6p0RH7hloxSmSgUNoeuKqaumMepG3Bc6FrW2cTUdR0RGN9bKwMv
+          XSzdvPhPlkrvtHYpoNjiIR4jDCHUYg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://omceolc.irideweb.it/server/mvc/Spid/Acs/Logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://omceolc.irideweb.it/server/mvc/Spid/Acs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">IrideWeb.Area.Iscritti</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">IrideWeb - Servizi per gli Iscritti</md:ServiceDescription>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Lecco</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Lecco tramite TECSIS srl</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.omceolecco.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Company>TECSIS srl</md:Company>
+    <md:Extensions>
+      <spid:VATNumber>03719260287</spid:VATNumber>
+    </md:Extensions>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Company>Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Lecco</md:Company>
+    <md:Extensions>
+      <spid:IPACode>opmcolc</spid:IPACode>
+    </md:Extensions>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Vallefoglia" entityID="https://www.comune.vallefoglia.pu.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Vallefoglia">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>SbjLziCA0tLqj9AYSQ6eOQNKGjxwJYIGHMW1Ubg5Xig=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+vxUyqxZTHuPVuUVPaWXG1MpdyaAUo0ukzDN7exVjxqL/DeTNa6sV8W7N6ZzDXeDi6ncrOs8XjOe1
+kAtcgPiMDmE1behVw9s0yKtfxkXkjKA05i03tmD6EIO2W1RnM03ZSMlwkLQ2GrmO/Z5+y7fDgkl/
+N0ZwkC1H7eSRGAIsE4uYCsMH8WhDQtnKI/c2X1KxhojARJ9dAAS244USU1c0Euzp2Fx9+/5lBpkk
+/i9ZoMc+fxq93FXDB+FRTdms9k5KJ7z/Efo6FOrvSl23FNP9rqc7Z2epyD0ArrcV7a4N3BmJjCvT
+Nvs+KfMvcI/SNkr+5yATuy8gXtv/Sqnv7toSYw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xN7iWPADPR6PSo7I2a4XiB+B3xAFepxMQqIEnrrEaHMXPGjBbBoNC7mFlh5ahZnMhQtRj2J6kV+1
+RjubpJamwK/KBvui36pT73wQXXZuDElBjB0wksB4+QKZ2zkctd8xAQpzAnP4+FPQbjRRDICkNch4
+bqjXyD+cVzhPCnS0+QCvHwttAlu0gBAopzQ29nlIIYVo+k58ZyV6h2wLmi76KkUotIxGsF9Hk0wM
+edRUVmmmCcjWFdGFY74H48aZ/DRSxjGfNBSJdXp030nif8yjPJbtVDCkKdy3ibIetk+bd785pRqS
+SmTc8CD4wqKt7VRJiX06AkF3KJdZk9GauljWmw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDWTCCAkGgAwIBAgIJAPKre7b/Szq7MA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5j
+b211bmUudmFsbGVmb2dsaWEucHUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIw
+MDUyMTEwMjUxNFoXDTMwMDUxOTEwMjUxNFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52YWxsZWZv
+Z2xpYS5wdS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDE3uJY8AM9Ho9KjsjZrheIH4HfEAV6nExCogSeusRocxc8aMFsGg0LuYWW
+HlqFmcyFC1GPYnqRX7VGO5uklqbAr8oG+6LfqlPvfBBddm4MSUGMHTCSwHj5ApnbORy13zEBCnMC
+c/j4U9BuNFEMgKQ1yHhuqNfIP5xXOE8KdLT5AK8fC20CW7SAECinNDb2eUghhWj6TnxnJXqHbAua
+LvoqRSi0jEawX0eTTAx51FRWaaYJyNYV0YVjvgfjxpn8NFLGMZ80FIl1enTfSeJ/zKM8lu1UMKQp
+3LeJsh62T5t3vzmlGpJKZNzwIPjCoq3tVEmJfToCQXcol1mT0Zq6WNabAgMBAAGjUDBOMB0GA1Ud
+DgQWBBQilZQ3y2jxUw2aU0B8Rz5xcZA5LDAfBgNVHSMEGDAWgBQilZQ3y2jxUw2aU0B8Rz5xcZA5
+LDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA8sjut/tttimjDai4cVMUmqb/aRayP
+P0lUio5EXFjtQkGUN2hn1dH8rFNYasAfIiJU23vV73kp6eAiuQloGHP6o7/c7DsoS3LHHQLEhuku
+bwafAMgqR0410tTTH8oJj7+taceKesZF6ikT9l8WfTia/UaW7KWo204TroGJbmBduot68BXqwWS8
+lTLzpA+EiJ+Ufps5r6whWVTH0TmEIO7veJnMDsHDYaeny0nRNTWmZMYkn92O3JhboQhGqN1oH10x
+ofkA47Rj93K4r7DELv/XSCTET0za30CMvvbMvlunDuvn54JojEq/LtvX7dGie9y/QBC5aBdNooB7
+VU2vDK9j
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAPKre7b/Szq7MA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUudmFsbGVmb2dsaWEucHUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUyMTEwMjUxNFoXDTMwMDUxOTEwMjUxNFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52YWxsZWZvZ2xpYS5wdS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDE3uJY8AM9Ho9KjsjZrheIH4HfEAV6nExCogSeusRocxc8aMFsGg0LuYWWHlqFmcyFC1GPYnqRX7VGO5uklqbAr8oG+6LfqlPvfBBddm4MSUGMHTCSwHj5ApnbORy13zEBCnMCc/j4U9BuNFEMgKQ1yHhuqNfIP5xXOE8KdLT5AK8fC20CW7SAECinNDb2eUghhWj6TnxnJXqHbAuaLvoqRSi0jEawX0eTTAx51FRWaaYJyNYV0YVjvgfjxpn8NFLGMZ80FIl1enTfSeJ/zKM8lu1UMKQp3LeJsh62T5t3vzmlGpJKZNzwIPjCoq3tVEmJfToCQXcol1mT0Zq6WNabAgMBAAGjUDBOMB0GA1UdDgQWBBQilZQ3y2jxUw2aU0B8Rz5xcZA5LDAfBgNVHSMEGDAWgBQilZQ3y2jxUw2aU0B8Rz5xcZA5LDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA8sjut/tttimjDai4cVMUmqb/aRayPP0lUio5EXFjtQkGUN2hn1dH8rFNYasAfIiJU23vV73kp6eAiuQloGHP6o7/c7DsoS3LHHQLEhukubwafAMgqR0410tTTH8oJj7+taceKesZF6ikT9l8WfTia/UaW7KWo204TroGJbmBduot68BXqwWS8lTLzpA+EiJ+Ufps5r6whWVTH0TmEIO7veJnMDsHDYaeny0nRNTWmZMYkn92O3JhboQhGqN1oH10xofkA47Rj93K4r7DELv/XSCTET0za30CMvvbMvlunDuvn54JojEq/LtvX7dGie9y/QBC5aBdNooB7VU2vDK9j
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAPKre7b/Szq7MA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUudmFsbGVmb2dsaWEucHUuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDUyMTEwMjUxNFoXDTMwMDUxOTEwMjUxNFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS52YWxsZWZvZ2xpYS5wdS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDE3uJY8AM9Ho9KjsjZrheIH4HfEAV6nExCogSeusRocxc8aMFsGg0LuYWWHlqFmcyFC1GPYnqRX7VGO5uklqbAr8oG+6LfqlPvfBBddm4MSUGMHTCSwHj5ApnbORy13zEBCnMCc/j4U9BuNFEMgKQ1yHhuqNfIP5xXOE8KdLT5AK8fC20CW7SAECinNDb2eUghhWj6TnxnJXqHbAuaLvoqRSi0jEawX0eTTAx51FRWaaYJyNYV0YVjvgfjxpn8NFLGMZ80FIl1enTfSeJ/zKM8lu1UMKQp3LeJsh62T5t3vzmlGpJKZNzwIPjCoq3tVEmJfToCQXcol1mT0Zq6WNabAgMBAAGjUDBOMB0GA1UdDgQWBBQilZQ3y2jxUw2aU0B8Rz5xcZA5LDAfBgNVHSMEGDAWgBQilZQ3y2jxUw2aU0B8Rz5xcZA5LDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA8sjut/tttimjDai4cVMUmqb/aRayPP0lUio5EXFjtQkGUN2hn1dH8rFNYasAfIiJU23vV73kp6eAiuQloGHP6o7/c7DsoS3LHHQLEhukubwafAMgqR0410tTTH8oJj7+taceKesZF6ikT9l8WfTia/UaW7KWo204TroGJbmBduot68BXqwWS8lTLzpA+EiJ+Ufps5r6whWVTH0TmEIO7veJnMDsHDYaeny0nRNTWmZMYkn92O3JhboQhGqN1oH10xofkA47Rj93K4r7DELv/XSCTET0za30CMvvbMvlunDuvn54JojEq/LtvX7dGie9y/QBC5aBdNooB7VU2vDK9j
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/vallefoglia"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vallefoglia" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vallefoglia" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/vallefoglia" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vallefoglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Vallefoglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Vallefoglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Vallefoglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vallefoglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Vallefoglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Vallefoglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Vallefoglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.vallefoglia.pu.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.vallefoglia.pu.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.vallefoglia.pu.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.vallefoglia.pu.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

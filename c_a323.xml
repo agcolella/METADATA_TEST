@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Anzio" entityID="https://www.comune.anzio.roma.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Anzio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jAVX11K73200wbJTEtp3QSrvKYBkOD7Z+4+vBZ8UPP8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VCLoh1uhszPV14VWlDUjU0E0HSeVcfKn9y9rPrr4fMBAx+qDNAZ5boTEY4wgzxcBFYMDcE5SXUB9
+fMnNC3WVmCpTmrDXh4XZ095J0rdSh+10Q1d91D83WcF+ZyT6E+DcpPwp+Vgd4Ahq87RSiHntNAhR
+kY3bkQ8evm6E6kjd49MD4hzSX2k6aG/Qhh57G7B3fAG1cDMGRvr/MXxbB1IjjLel57SCgJxNzLWK
+p9GQirXBVSP0lVevDk1hu4XEuUpSGFeaXbdfyQa3PBX7A0ht3/PGLHJjOh0bRKZhQ5/U6l6ec3zR
+aAIHbqWOU8AQbu/+zrIS4tAoo4m6/naJ0PP5nw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+350pSlLUfCqsAKHW+IhUtipWKN/KaX9jxL19K8R7/MS1nenH4ETSdVEWNE29Uk3R5p6fIzC8Ou3l
+bVJ2fYOCrC2ejWJt12UsemxazQ8JOAx300Pa2A50FhkKZcpQrzGCJxBEcCDLUBdnZ1OEFVsHGkhL
+YgzUZgXVb5gj0vWJc5BM2KuzzdAX5AhryYPJf8x+LCZk7cn9VLFYonBViOYJfixQseEKR6uRkYIo
+O6sMpsrzcwbww93Unl9q5jFz5Q3PpHVMAh2N8E53Xku4re6HT05m0tlC2BJ8N4YTgtRP3uCPKLYB
+dXa35CEQe1JUXVLOJ29A2GrPmLVzTu4UWxfCGw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUTCCAjmgAwIBAgIJALaniGELZjPeMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5j
+b211bmUuYW56aW8ucm9tYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzAz
+MDgxNzM1WhcNMzAwMzAxMDgxNzM1WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFuemlvLnJvbWEu
+aXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA350pSlLUfCqsAKHW+IhUtipWKN/KaX9jxL19K8R7/MS1nenH4ETSdVEWNE29Uk3R5p6f
+IzC8Ou3lbVJ2fYOCrC2ejWJt12UsemxazQ8JOAx300Pa2A50FhkKZcpQrzGCJxBEcCDLUBdnZ1OE
+FVsHGkhLYgzUZgXVb5gj0vWJc5BM2KuzzdAX5AhryYPJf8x+LCZk7cn9VLFYonBViOYJfixQseEK
+R6uRkYIoO6sMpsrzcwbww93Unl9q5jFz5Q3PpHVMAh2N8E53Xku4re6HT05m0tlC2BJ8N4YTgtRP
+3uCPKLYBdXa35CEQe1JUXVLOJ29A2GrPmLVzTu4UWxfCGwIDAQABo1AwTjAdBgNVHQ4EFgQUqPfD
+1m9zhHtuI9uE9/mCGXC/+wYwHwYDVR0jBBgwFoAUqPfD1m9zhHtuI9uE9/mCGXC/+wYwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAO51Hm3siJOlRLchuGX1HeDXwSSxZPIXFwZrqukO4
+atlSfPm3au3B1pLxlir/DV3c4Qei0bvdV6OWL2ugTcdfG6sx0CYVZsctLGfWOv80ciQXn/Vqbfct
+tjAsKPEr+7yrYRD+a/ra+7xiyyZ8rw0uzBzTW8rAj8Zyv73smkROpYwAy7Lg+FnONZkjK1yxEV8R
+5xcXrcjdmFbBhXt5R+eaO2ya5OVMvP8HGxJgrN7Fn/ZPS884QFkf5jiNDlR3v41isZuiJN66o/W2
+Fouc0ggl2je0pTL+OhE8fg22XwWlgvRsyyUcqgKyz24nkanqk/CAADsgqCjRfQtVkbLc2Sr+Lg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALaniGELZjPeMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuYW56aW8ucm9tYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzAzMDgxNzM1WhcNMzAwMzAxMDgxNzM1WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFuemlvLnJvbWEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA350pSlLUfCqsAKHW+IhUtipWKN/KaX9jxL19K8R7/MS1nenH4ETSdVEWNE29Uk3R5p6fIzC8Ou3lbVJ2fYOCrC2ejWJt12UsemxazQ8JOAx300Pa2A50FhkKZcpQrzGCJxBEcCDLUBdnZ1OEFVsHGkhLYgzUZgXVb5gj0vWJc5BM2KuzzdAX5AhryYPJf8x+LCZk7cn9VLFYonBViOYJfixQseEKR6uRkYIoO6sMpsrzcwbww93Unl9q5jFz5Q3PpHVMAh2N8E53Xku4re6HT05m0tlC2BJ8N4YTgtRP3uCPKLYBdXa35CEQe1JUXVLOJ29A2GrPmLVzTu4UWxfCGwIDAQABo1AwTjAdBgNVHQ4EFgQUqPfD1m9zhHtuI9uE9/mCGXC/+wYwHwYDVR0jBBgwFoAUqPfD1m9zhHtuI9uE9/mCGXC/+wYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAO51Hm3siJOlRLchuGX1HeDXwSSxZPIXFwZrqukO4atlSfPm3au3B1pLxlir/DV3c4Qei0bvdV6OWL2ugTcdfG6sx0CYVZsctLGfWOv80ciQXn/VqbfcttjAsKPEr+7yrYRD+a/ra+7xiyyZ8rw0uzBzTW8rAj8Zyv73smkROpYwAy7Lg+FnONZkjK1yxEV8R5xcXrcjdmFbBhXt5R+eaO2ya5OVMvP8HGxJgrN7Fn/ZPS884QFkf5jiNDlR3v41isZuiJN66o/W2Fouc0ggl2je0pTL+OhE8fg22XwWlgvRsyyUcqgKyz24nkanqk/CAADsgqCjRfQtVkbLc2Sr+Lg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALaniGELZjPeMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUuYW56aW8ucm9tYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMjAwMzAzMDgxNzM1WhcNMzAwMzAxMDgxNzM1WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmFuemlvLnJvbWEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA350pSlLUfCqsAKHW+IhUtipWKN/KaX9jxL19K8R7/MS1nenH4ETSdVEWNE29Uk3R5p6fIzC8Ou3lbVJ2fYOCrC2ejWJt12UsemxazQ8JOAx300Pa2A50FhkKZcpQrzGCJxBEcCDLUBdnZ1OEFVsHGkhLYgzUZgXVb5gj0vWJc5BM2KuzzdAX5AhryYPJf8x+LCZk7cn9VLFYonBViOYJfixQseEKR6uRkYIoO6sMpsrzcwbww93Unl9q5jFz5Q3PpHVMAh2N8E53Xku4re6HT05m0tlC2BJ8N4YTgtRP3uCPKLYBdXa35CEQe1JUXVLOJ29A2GrPmLVzTu4UWxfCGwIDAQABo1AwTjAdBgNVHQ4EFgQUqPfD1m9zhHtuI9uE9/mCGXC/+wYwHwYDVR0jBBgwFoAUqPfD1m9zhHtuI9uE9/mCGXC/+wYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAO51Hm3siJOlRLchuGX1HeDXwSSxZPIXFwZrqukO4atlSfPm3au3B1pLxlir/DV3c4Qei0bvdV6OWL2ugTcdfG6sx0CYVZsctLGfWOv80ciQXn/VqbfcttjAsKPEr+7yrYRD+a/ra+7xiyyZ8rw0uzBzTW8rAj8Zyv73smkROpYwAy7Lg+FnONZkjK1yxEV8R5xcXrcjdmFbBhXt5R+eaO2ya5OVMvP8HGxJgrN7Fn/ZPS884QFkf5jiNDlR3v41isZuiJN66o/W2Fouc0ggl2je0pTL+OhE8fg22XwWlgvRsyyUcqgKyz24nkanqk/CAADsgqCjRfQtVkbLc2Sr+Lg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/anzio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/anzio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/anzio" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/anzio" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Anzio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Anzio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Anzio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Anzio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Anzio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Anzio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Anzio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Anzio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.anzio.roma.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.anzio.roma.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.anzio.roma.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.anzio.roma.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

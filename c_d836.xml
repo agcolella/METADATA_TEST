@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="GabicceMare" entityID="https://www.comune.gabicce-mare.ps.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#GabicceMare">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>M9ymwgGYLCZ360R3ych+mPS/mApPo60CewzdUsxxFxQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+lo+T2+sqPNrQKqFw0TXR/2KBJgKQ8tDOeXltP9UGDTjKpd/5nCiCEgq6x7s4qAfNcrDxxa89YTAu
+i44Jj5JviUdtPEIokFkueyI9BpgriqSRUkxzcFyai0HCGRMM70e6b2rzOWAqs/E23FoUDOqGZCc2
+a9UT66hO3X45mJFT4xkXi8Suw/YDVQrS9BbtDE8eE/y6QHxp15jLM16UOCW+V3auFWyQSscRICdb
+Lge0s0F72DVQppxf9muFuC1ptfZUcx3gTleRSMG5ZlFNUEkQkp2+mimLFn/CkkbA6w97CZOYdq54
+raVxWqHOxZAh2qEhooi8TzEoADFyZrXoRYYZyQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2G8o9SWs+647spdSmTiS8w3uH8xwPcmm/213lr93o9Hk+dbW9r9a36QgH5WZSnuiPp4NnhqXdVpb
+PC37NKZfn2ZJI9TxO/LXTJjcImcCk+jCYtX9nrcq5jOxoZYZmJAfDNy51Afku2hWQbOIaCLcY9X0
+H/T7+rDpzdbmaqYWl4CNJ/Gezw1bF6nIpOiBm3Ucm75rbmN2V/HGevaO1RQJFsjsLFzdYOSg6UUC
+4+5a+bSWStTEZjPgctTy7Ml9ynXMfRL3GPgH8T/4cR2CFmuwfUZ6QD/FXInpIuDWlfXXVC5RaHUu
+6lWuNBY3JOwlKfFL8o3DfleVN1j9q1Tbo+i/Xw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEJjCCAw6gAwIBAgIJAMqVbP2o20BjMA0GCSqGSIb3DQEBCwUAMIG5MR8wHQYDVQQKDBZDb211
+bmUgZGkgR2FiaWNjZSBNYXJlMR8wHQYDVQQDDBZDb211bmUgZGkgR2FiaWNjZSBNYXJlMTowOAYD
+VQRTDDFodHRwczovL3d3dy5jb211bmUuZ2FiaWNjZS1tYXJlLnBzLml0L3NlcnZpemlTUElEMRUw
+EwYDVQRhDAxQQTpJVC1jX2Q4MzYxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxHYWJpY2NlIE1hcmUw
+HhcNMjAxMTEzMTA1OTIwWhcNMzAxMTExMTA1OTIwWjCBuTEfMB0GA1UECgwWQ29tdW5lIGRpIEdh
+YmljY2UgTWFyZTEfMB0GA1UEAwwWQ29tdW5lIGRpIEdhYmljY2UgTWFyZTE6MDgGA1UEUwwxaHR0
+cHM6Ly93d3cuY29tdW5lLmdhYmljY2UtbWFyZS5wcy5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwM
+UEE6SVQtY19kODM2MQswCQYDVQQGEwJJVDEVMBMGA1UEBwwMR2FiaWNjZSBNYXJlMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2G8o9SWs+647spdSmTiS8w3uH8xwPcmm/213lr93o9Hk
++dbW9r9a36QgH5WZSnuiPp4NnhqXdVpbPC37NKZfn2ZJI9TxO/LXTJjcImcCk+jCYtX9nrcq5jOx
+oZYZmJAfDNy51Afku2hWQbOIaCLcY9X0H/T7+rDpzdbmaqYWl4CNJ/Gezw1bF6nIpOiBm3Ucm75r
+bmN2V/HGevaO1RQJFsjsLFzdYOSg6UUC4+5a+bSWStTEZjPgctTy7Ml9ynXMfRL3GPgH8T/4cR2C
+FmuwfUZ6QD/FXInpIuDWlfXXVC5RaHUu6lWuNBY3JOwlKfFL8o3DfleVN1j9q1Tbo+i/XwIDAQAB
+oy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG
+9w0BAQsFAAOCAQEAOifulQcZGn3CCtUGYiENSqRO4MOhlpe0OUZYQ3GhGcbEvYtjCoPs6JxcVhBt
+9xY68P3/W0jEVitaPcCDwgaR/x2lCyy1IiZ53UBHbvYWQTKBsVAkq5+MxIOsU3fnXVcBlOFiQmh1
+zdCvToD1MBKj2jx5vGh8jIekf43xJEjwPZHSJNwc1eURcBf2JOoNWu8/3k8hVxo5W50JsfU9VnxJ
+g1v5yB028OKH9spwsc4Gbji6I8vlp/Zt0cAK7oKddpSDML90O//4Pf6lCT9Qbnu7FkkFjrKyBinV
+nK20aua5DIlHmURqE0KhLc201i5UflxAosS8hq1l50yre4EF7nLUIA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEJjCCAw6gAwIBAgIJAMqVbP2o20BjMA0GCSqGSIb3DQEBCwUAMIG5MR8wHQYDVQQKDBZDb211bmUgZGkgR2FiaWNjZSBNYXJlMR8wHQYDVQQDDBZDb211bmUgZGkgR2FiaWNjZSBNYXJlMTowOAYDVQRTDDFodHRwczovL3d3dy5jb211bmUuZ2FiaWNjZS1tYXJlLnBzLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2Q4MzYxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxHYWJpY2NlIE1hcmUwHhcNMjAxMTEzMTA1OTIwWhcNMzAxMTExMTA1OTIwWjCBuTEfMB0GA1UECgwWQ29tdW5lIGRpIEdhYmljY2UgTWFyZTEfMB0GA1UEAwwWQ29tdW5lIGRpIEdhYmljY2UgTWFyZTE6MDgGA1UEUwwxaHR0cHM6Ly93d3cuY29tdW5lLmdhYmljY2UtbWFyZS5wcy5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19kODM2MQswCQYDVQQGEwJJVDEVMBMGA1UEBwwMR2FiaWNjZSBNYXJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2G8o9SWs+647spdSmTiS8w3uH8xwPcmm/213lr93o9Hk+dbW9r9a36QgH5WZSnuiPp4NnhqXdVpbPC37NKZfn2ZJI9TxO/LXTJjcImcCk+jCYtX9nrcq5jOxoZYZmJAfDNy51Afku2hWQbOIaCLcY9X0H/T7+rDpzdbmaqYWl4CNJ/Gezw1bF6nIpOiBm3Ucm75rbmN2V/HGevaO1RQJFsjsLFzdYOSg6UUC4+5a+bSWStTEZjPgctTy7Ml9ynXMfRL3GPgH8T/4cR2CFmuwfUZ6QD/FXInpIuDWlfXXVC5RaHUu6lWuNBY3JOwlKfFL8o3DfleVN1j9q1Tbo+i/XwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAOifulQcZGn3CCtUGYiENSqRO4MOhlpe0OUZYQ3GhGcbEvYtjCoPs6JxcVhBt9xY68P3/W0jEVitaPcCDwgaR/x2lCyy1IiZ53UBHbvYWQTKBsVAkq5+MxIOsU3fnXVcBlOFiQmh1zdCvToD1MBKj2jx5vGh8jIekf43xJEjwPZHSJNwc1eURcBf2JOoNWu8/3k8hVxo5W50JsfU9VnxJg1v5yB028OKH9spwsc4Gbji6I8vlp/Zt0cAK7oKddpSDML90O//4Pf6lCT9Qbnu7FkkFjrKyBinVnK20aua5DIlHmURqE0KhLc201i5UflxAosS8hq1l50yre4EF7nLUIA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEJjCCAw6gAwIBAgIJAMqVbP2o20BjMA0GCSqGSIb3DQEBCwUAMIG5MR8wHQYDVQQKDBZDb211bmUgZGkgR2FiaWNjZSBNYXJlMR8wHQYDVQQDDBZDb211bmUgZGkgR2FiaWNjZSBNYXJlMTowOAYDVQRTDDFodHRwczovL3d3dy5jb211bmUuZ2FiaWNjZS1tYXJlLnBzLml0L3NlcnZpemlTUElEMRUwEwYDVQRhDAxQQTpJVC1jX2Q4MzYxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxHYWJpY2NlIE1hcmUwHhcNMjAxMTEzMTA1OTIwWhcNMzAxMTExMTA1OTIwWjCBuTEfMB0GA1UECgwWQ29tdW5lIGRpIEdhYmljY2UgTWFyZTEfMB0GA1UEAwwWQ29tdW5lIGRpIEdhYmljY2UgTWFyZTE6MDgGA1UEUwwxaHR0cHM6Ly93d3cuY29tdW5lLmdhYmljY2UtbWFyZS5wcy5pdC9zZXJ2aXppU1BJRDEVMBMGA1UEYQwMUEE6SVQtY19kODM2MQswCQYDVQQGEwJJVDEVMBMGA1UEBwwMR2FiaWNjZSBNYXJlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2G8o9SWs+647spdSmTiS8w3uH8xwPcmm/213lr93o9Hk+dbW9r9a36QgH5WZSnuiPp4NnhqXdVpbPC37NKZfn2ZJI9TxO/LXTJjcImcCk+jCYtX9nrcq5jOxoZYZmJAfDNy51Afku2hWQbOIaCLcY9X0H/T7+rDpzdbmaqYWl4CNJ/Gezw1bF6nIpOiBm3Ucm75rbmN2V/HGevaO1RQJFsjsLFzdYOSg6UUC4+5a+bSWStTEZjPgctTy7Ml9ynXMfRL3GPgH8T/4cR2CFmuwfUZ6QD/FXInpIuDWlfXXVC5RaHUu6lWuNBY3JOwlKfFL8o3DfleVN1j9q1Tbo+i/XwIDAQABoy8wLTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAOifulQcZGn3CCtUGYiENSqRO4MOhlpe0OUZYQ3GhGcbEvYtjCoPs6JxcVhBt9xY68P3/W0jEVitaPcCDwgaR/x2lCyy1IiZ53UBHbvYWQTKBsVAkq5+MxIOsU3fnXVcBlOFiQmh1zdCvToD1MBKj2jx5vGh8jIekf43xJEjwPZHSJNwc1eURcBf2JOoNWu8/3k8hVxo5W50JsfU9VnxJg1v5yB028OKH9spwsc4Gbji6I8vlp/Zt0cAK7oKddpSDML90O//4Pf6lCT9Qbnu7FkkFjrKyBinVnK20aua5DIlHmURqE0KhLc201i5UflxAosS8hq1l50yre4EF7nLUIA==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/gabiccemare"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gabiccemare" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gabiccemare" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gabiccemare" index="2"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Gabicce Mare</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Comune di Gabicce Mare</md:OrganizationName>
+      <md:OrganizationName xml:lang="fr">Comune di Gabicce Mare</md:OrganizationName>
+      <md:OrganizationName xml:lang="de">Comune di Gabicce Mare</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Gabicce Mare</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Comune di Gabicce Mare</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="fr">Comune di Gabicce Mare</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="de">Comune di Gabicce Mare</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.gabicce-mare.ps.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://www.comune.gabicce-mare.ps.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="fr">https://www.comune.gabicce-mare.ps.it</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="de">https://www.comune.gabicce-mare.ps.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>c_d836</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>servizidemografici@comune.gabicce-mare.pu.it</md:EmailAddress>
+      <md:TelephoneNumber>+390541820631</md:TelephoneNumber>
+   </md:ContactPerson>
+</md:EntityDescriptor>

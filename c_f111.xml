@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="MelitoDiNapoli" entityID="https://www.servizi.comune.melito.na.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#MelitoDiNapoli">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>PcuAO/+4CKR+9JYuLjFgdVpwzX1yyGFMBtDQMdf2ueQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+thIohl/62RmaDW0ccMv0zHgB8hKQASVNBJbbR1VZPYiC/9DMIeLTw8dC0ufD+xEGCV5NLfVjsGXH
+mUAEndGBMoQZLCVJVq0S7bct5Zy4hlYUEF/sgBEL9i/FazEA+V5PJoDUXzFzaH7MKTXQgTWRHI9D
+IKI4NGWKuMpJW0p2XbWT48ugvwfzT0Y+PBvngPjYSkgmlSgcPJO9IEHB78oPseKfgqF7x/QwZnCd
+rAD/VEYj60qJHI5afbuyap7G0DqQXDYlKLw8ryPveiOX4YEdJ3806/GjzTl9yIrh8KHVZMMV5YEL
+X3dypVKXh3eKDjPZDoHnZHGgp0dHs18KMI5QnQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7yCtbmtluSL+iIPGJ8oHHQb6cNB5gueOUeye4RDlaIeTJJ7vXQDGufBDUc/C8t6LQT3GSEnvfzXz
+H1hKeOSNOI1mYzn0d/d1Wo9o9jyOJFGY94Q0z3aTvFqSdNHm5V0Xrh+JrZCtL5y7im6ignoKSwkD
+dISbcaQkcfbFxQbrUQM7PUkIBdagiJrQxEVNUQykMQjeaOsgl46Z27WuRoa9SILusbA/kpVCyc7Q
+PdKXqMnp8WmhDYQqaeY78REYtjtikO+um67mpZ/3j6zJ6qiA/UbJIbkMZJ/uixjuA8/Nen7CmFKl
+OLaRH/YLlHcW7yews6wNyscf5CC02b2wm2SozQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDXzCCAkegAwIBAgIJAMjRtZsR7nFmMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5z
+ZXJ2aXppLmNvbXVuZS5tZWxpdG8ubmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4X
+DTE5MDExNzEzMjkxNloXDTI5MDExNDEzMjkxNlowRjEoMCYGA1UEAwwfd3d3LnNlcnZpemkuY29t
+dW5lLm1lbGl0by5uYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDvIK1ua2W5Iv6Ig8YnygcdBvpw0HmC545R7J7hEOVoh5Mknu9d
+AMa58ENRz8Ly3otBPcZISe9/NfMfWEp45I04jWZjOfR393Vaj2j2PI4kUZj3hDTPdpO8WpJ00ebl
+XReuH4mtkK0vnLuKbqKCegpLCQN0hJtxpCRx9sXFButRAzs9SQgF1qCImtDERU1RDKQxCN5o6yCX
+jpnbta5Ghr1Igu6xsD+SlULJztA90peoyenxaaENhCpp5jvxERi2O2KQ766brualn/ePrMnqqID9
+RskhuQxkn+6LGO4Dz816fsKYUqU4tpEf9guUdxbvJ7CzrA3Kxx/kILTZvbCbZKjNAgMBAAGjUDBO
+MB0GA1UdDgQWBBRsjNEMxKHm3DtJ97hpkVemzjyy1TAfBgNVHSMEGDAWgBRsjNEMxKHm3DtJ97hp
+kVemzjyy1TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQARaZtxqbUtPx3fX/rrvGBR
+2nXJGyVZeU+uqhgNfze4CTGfZkspplOAomxTn4kJUTBQxXsZZlhZEFhept7r+dsFxISiwNb3T0uu
+fPr1jvWgS/ndV1lY+xOxhLToE42Xj6SOO5YjLmiMztIOhhH+8C1pE/tFp08jQ+mn2ypbL/WB9RVK
+wxrh/Ww7D3UTeDn0BEMyP9wB28ulcewP6CabBEYAEWv9PiPdhE5ZQtx23Napv+nFsJIeTq9Xbrhn
+WAa6pBF3m90eqZpvT9UQ+CTOfwIE2feg0r9EULkHT5BnGX0rfYrr/cuDcdkvRXaLVCz0oOxjPm9w
+nHDEkw7JCNWClX+U
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMjRtZsR7nFmMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5zZXJ2aXppLmNvbXVuZS5tZWxpdG8ubmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDExNzEzMjkxNloXDTI5MDExNDEzMjkxNlowRjEoMCYGA1UEAwwfd3d3LnNlcnZpemkuY29tdW5lLm1lbGl0by5uYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDvIK1ua2W5Iv6Ig8YnygcdBvpw0HmC545R7J7hEOVoh5Mknu9dAMa58ENRz8Ly3otBPcZISe9/NfMfWEp45I04jWZjOfR393Vaj2j2PI4kUZj3hDTPdpO8WpJ00eblXReuH4mtkK0vnLuKbqKCegpLCQN0hJtxpCRx9sXFButRAzs9SQgF1qCImtDERU1RDKQxCN5o6yCXjpnbta5Ghr1Igu6xsD+SlULJztA90peoyenxaaENhCpp5jvxERi2O2KQ766brualn/ePrMnqqID9RskhuQxkn+6LGO4Dz816fsKYUqU4tpEf9guUdxbvJ7CzrA3Kxx/kILTZvbCbZKjNAgMBAAGjUDBOMB0GA1UdDgQWBBRsjNEMxKHm3DtJ97hpkVemzjyy1TAfBgNVHSMEGDAWgBRsjNEMxKHm3DtJ97hpkVemzjyy1TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQARaZtxqbUtPx3fX/rrvGBR2nXJGyVZeU+uqhgNfze4CTGfZkspplOAomxTn4kJUTBQxXsZZlhZEFhept7r+dsFxISiwNb3T0uufPr1jvWgS/ndV1lY+xOxhLToE42Xj6SOO5YjLmiMztIOhhH+8C1pE/tFp08jQ+mn2ypbL/WB9RVKwxrh/Ww7D3UTeDn0BEMyP9wB28ulcewP6CabBEYAEWv9PiPdhE5ZQtx23Napv+nFsJIeTq9XbrhnWAa6pBF3m90eqZpvT9UQ+CTOfwIE2feg0r9EULkHT5BnGX0rfYrr/cuDcdkvRXaLVCz0oOxjPm9wnHDEkw7JCNWClX+U
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAMjRtZsR7nFmMA0GCSqGSIb3DQEBCwUAMEYxKDAmBgNVBAMMH3d3dy5zZXJ2aXppLmNvbXVuZS5tZWxpdG8ubmEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE5MDExNzEzMjkxNloXDTI5MDExNDEzMjkxNlowRjEoMCYGA1UEAwwfd3d3LnNlcnZpemkuY29tdW5lLm1lbGl0by5uYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDvIK1ua2W5Iv6Ig8YnygcdBvpw0HmC545R7J7hEOVoh5Mknu9dAMa58ENRz8Ly3otBPcZISe9/NfMfWEp45I04jWZjOfR393Vaj2j2PI4kUZj3hDTPdpO8WpJ00eblXReuH4mtkK0vnLuKbqKCegpLCQN0hJtxpCRx9sXFButRAzs9SQgF1qCImtDERU1RDKQxCN5o6yCXjpnbta5Ghr1Igu6xsD+SlULJztA90peoyenxaaENhCpp5jvxERi2O2KQ766brualn/ePrMnqqID9RskhuQxkn+6LGO4Dz816fsKYUqU4tpEf9guUdxbvJ7CzrA3Kxx/kILTZvbCbZKjNAgMBAAGjUDBOMB0GA1UdDgQWBBRsjNEMxKHm3DtJ97hpkVemzjyy1TAfBgNVHSMEGDAWgBRsjNEMxKHm3DtJ97hpkVemzjyy1TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQARaZtxqbUtPx3fX/rrvGBR2nXJGyVZeU+uqhgNfze4CTGfZkspplOAomxTn4kJUTBQxXsZZlhZEFhept7r+dsFxISiwNb3T0uufPr1jvWgS/ndV1lY+xOxhLToE42Xj6SOO5YjLmiMztIOhhH+8C1pE/tFp08jQ+mn2ypbL/WB9RVKwxrh/Ww7D3UTeDn0BEMyP9wB28ulcewP6CabBEYAEWv9PiPdhE5ZQtx23Napv+nFsJIeTq9XbrhnWAa6pBF3m90eqZpvT9UQ+CTOfwIE2feg0r9EULkHT5BnGX0rfYrr/cuDcdkvRXaLVCz0oOxjPm9wnHDEkw7JCNWClX+U
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/melitodinapoli"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/melitodinapoli" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/melitodinapoli" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/melitodinapoli" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Melito di Napoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Melito di Napoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Melito di Napoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Melito di Napoli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Melito di Napoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Melito di Napoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Melito di Napoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Melito di Napoli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.servizi.comune.melito.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.servizi.comune.melito.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.servizi.comune.melito.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.servizi.comune.melito.na.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

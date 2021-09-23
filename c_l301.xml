@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="pfx7b2b619b-35ba-599a-d0bf-6840d0c5fe54" entityID="https://sol.comune.torrioni.av.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx7b2b619b-35ba-599a-d0bf-6840d0c5fe54">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>grjKNejd8hT+K2UK5Uo2EDAV9wW7FTjRnmI3RhewpRY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XEo6yIPezGwFe2kcGWL4Wu+FBWMKptwLw9pk/va8fPKRBkhzjT8wXV5U293buYPBtlgGNkklEEOf
+UeWSirgyXhppuPSHsisDN2HPkSFA+sk5PcueUT0w28+A/E6LG2R8r7YfSF04EhuEx1zgz/rGvaFu
+uVvq1KHabOlUWYCa9rC5Exj6ImYtO3dcb1aqB+L0Ssv8s1zYMljGylYtftayuofBIiRfHlKKeoPK
+oj+R1oWl2luMLKLd3AjP/mpwj13VenWTS+2ZNfa9N+vkY/gtiVt1rlex083czAG+VnL2c/CRxkb7
+gVzJQMtnEzPs8EFaoSjonInFA9kyNbITyq8kEQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vtPe4y2ECqw7BuKRSnTZCUKOVy/PXxtFP9Bo7gRqB/3BXIDm5lnuLoLESSl/n06JR+f7SRFX9mE3
+jlhghTlG6f+thnlTFLDWCNBH/hhJicbHDsyLqTjdZPjTrs+62wgLOMOAclVkAwDXsrsU/GUy+oGA
+TLIY5xlxW6XV7JiWJxAB5vQKvzMNMXqPdgrOZdOrUU1+7ZhwYQP+RjWRv0O1dvUibWrNMybYCJ8N
+FnHq5//SaE2KpCwuV4a+jOGaTaz8Ki0/wHLhWJvoDnGusidqzkxJXGEElTizHMW9GuG1D90pP/+W
+JY3kVjt3NNCcbvFCyU7rtxOk8g7D5crNNNZ+cw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtTCCAp2gAwIBAgIJAPwJG+hgYc0YMA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVG9ycmlvbmkxGzAZBgNVBAoMEkNvbXVuZSBkaSBUb3Jy
+aW9uaTEiMCAGA1UEAwwZc29sLmNvbXVuZS50b3JyaW9uaS5hdi5pdDAeFw0yMDA1MjgwODE3Mjla
+Fw0zMDA1MjgwODE3MjlaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwI
+VG9ycmlvbmkxGzAZBgNVBAoMEkNvbXVuZSBkaSBUb3JyaW9uaTEiMCAGA1UEAwwZc29sLmNvbXVu
+ZS50b3JyaW9uaS5hdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7T3uMthAqs
+OwbikUp02QlCjlcvz18bRT/QaO4Eagf9wVyA5uZZ7i6CxEkpf59OiUfn+0kRV/ZhN45YYIU5Run/
+rYZ5UxSw1gjQR/4YSYnGxw7Mi6k43WT4067PutsICzjDgHJVZAMA17K7FPxlMvqBgEyyGOcZcVul
+1eyYlicQAeb0Cr8zDTF6j3YKzmXTq1FNfu2YcGED/kY1kb9DtXb1Im1qzTMm2AifDRZx6uf/0mhN
+iqQsLleGvozhmk2s/CotP8By4Vib6A5xrrInas5MSVxhBJU4sxzFvRrhtQ/dKT//liWN5FY7dzTQ
+nG7xQslO67cTpPIOw+XKzTTWfnMCAwEAAaNQME4wHQYDVR0OBBYEFOInoyHeAiqO1xfmXaKsxc3x
+YnsRMB8GA1UdIwQYMBaAFOInoyHeAiqO1xfmXaKsxc3xYnsRMAwGA1UdEwQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBADNdTRUApIwIluCt9r/HsLBAcg7F+Q5bfHVGp231SyjpczLrJcgBDYA8DNAg
+NHzlvS4UdmSuZQm4N/tEuhhr2gboynsqd9H1GVOq9d1eLUUDEjeOzbHJe4YcHjwbtQG4YQNLgugw
+W8ySL4nFnzBM3Jp98WsZvp2lPd8mrj8EEuzuPswMOVSnLqZpo/WBrmu95NhZC8ij60beowNvsnvw
+WozjtrknA0XqYII5AqUVehFVSeR2YG+ZdVgErYwXhV2xm1slqYito44H2SUv48ItWvsqBJSdlJp1
+DVujXY7O4ubi3RHz0yAZats9cu9Y4Q54wIS6Ip95s4Sf/dz2SiGQBMs=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAPwJG+hgYc0YMA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVG9ycmlvbmkxGzAZBgNVBAoMEkNvbXVuZSBkaSBUb3JyaW9uaTEiMCAGA1UEAwwZc29sLmNvbXVuZS50b3JyaW9uaS5hdi5pdDAeFw0yMDA1MjgwODE3MjlaFw0zMDA1MjgwODE3MjlaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVG9ycmlvbmkxGzAZBgNVBAoMEkNvbXVuZSBkaSBUb3JyaW9uaTEiMCAGA1UEAwwZc29sLmNvbXVuZS50b3JyaW9uaS5hdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7T3uMthAqsOwbikUp02QlCjlcvz18bRT/QaO4Eagf9wVyA5uZZ7i6CxEkpf59OiUfn+0kRV/ZhN45YYIU5Run/rYZ5UxSw1gjQR/4YSYnGxw7Mi6k43WT4067PutsICzjDgHJVZAMA17K7FPxlMvqBgEyyGOcZcVul1eyYlicQAeb0Cr8zDTF6j3YKzmXTq1FNfu2YcGED/kY1kb9DtXb1Im1qzTMm2AifDRZx6uf/0mhNiqQsLleGvozhmk2s/CotP8By4Vib6A5xrrInas5MSVxhBJU4sxzFvRrhtQ/dKT//liWN5FY7dzTQnG7xQslO67cTpPIOw+XKzTTWfnMCAwEAAaNQME4wHQYDVR0OBBYEFOInoyHeAiqO1xfmXaKsxc3xYnsRMB8GA1UdIwQYMBaAFOInoyHeAiqO1xfmXaKsxc3xYnsRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADNdTRUApIwIluCt9r/HsLBAcg7F+Q5bfHVGp231SyjpczLrJcgBDYA8DNAgNHzlvS4UdmSuZQm4N/tEuhhr2gboynsqd9H1GVOq9d1eLUUDEjeOzbHJe4YcHjwbtQG4YQNLgugwW8ySL4nFnzBM3Jp98WsZvp2lPd8mrj8EEuzuPswMOVSnLqZpo/WBrmu95NhZC8ij60beowNvsnvwWozjtrknA0XqYII5AqUVehFVSeR2YG+ZdVgErYwXhV2xm1slqYito44H2SUv48ItWvsqBJSdlJp1DVujXY7O4ubi3RHz0yAZats9cu9Y4Q54wIS6Ip95s4Sf/dz2SiGQBMs=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAPwJG+hgYc0YMA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVG9ycmlvbmkxGzAZBgNVBAoMEkNvbXVuZSBkaSBUb3JyaW9uaTEiMCAGA1UEAwwZc29sLmNvbXVuZS50b3JyaW9uaS5hdi5pdDAeFw0yMDA1MjgwODE3MjlaFw0zMDA1MjgwODE3MjlaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVG9ycmlvbmkxGzAZBgNVBAoMEkNvbXVuZSBkaSBUb3JyaW9uaTEiMCAGA1UEAwwZc29sLmNvbXVuZS50b3JyaW9uaS5hdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7T3uMthAqsOwbikUp02QlCjlcvz18bRT/QaO4Eagf9wVyA5uZZ7i6CxEkpf59OiUfn+0kRV/ZhN45YYIU5Run/rYZ5UxSw1gjQR/4YSYnGxw7Mi6k43WT4067PutsICzjDgHJVZAMA17K7FPxlMvqBgEyyGOcZcVul1eyYlicQAeb0Cr8zDTF6j3YKzmXTq1FNfu2YcGED/kY1kb9DtXb1Im1qzTMm2AifDRZx6uf/0mhNiqQsLleGvozhmk2s/CotP8By4Vib6A5xrrInas5MSVxhBJU4sxzFvRrhtQ/dKT//liWN5FY7dzTQnG7xQslO67cTpPIOw+XKzTTWfnMCAwEAAaNQME4wHQYDVR0OBBYEFOInoyHeAiqO1xfmXaKsxc3xYnsRMB8GA1UdIwQYMBaAFOInoyHeAiqO1xfmXaKsxc3xYnsRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADNdTRUApIwIluCt9r/HsLBAcg7F+Q5bfHVGp231SyjpczLrJcgBDYA8DNAgNHzlvS4UdmSuZQm4N/tEuhhr2gboynsqd9H1GVOq9d1eLUUDEjeOzbHJe4YcHjwbtQG4YQNLgugwW8ySL4nFnzBM3Jp98WsZvp2lPd8mrj8EEuzuPswMOVSnLqZpo/WBrmu95NhZC8ij60beowNvsnvwWozjtrknA0XqYII5AqUVehFVSeR2YG+ZdVgErYwXhV2xm1slqYito44H2SUv48ItWvsqBJSdlJp1DVujXY7O4ubi3RHz0yAZats9cu9Y4Q54wIS6Ip95s4Sf/dz2SiGQBMs=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.torrioni.av.it//spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sol.comune.torrioni.av.it//spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Torrioni</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Torrioni</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.torrioni.av.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

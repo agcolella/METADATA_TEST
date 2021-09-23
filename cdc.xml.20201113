@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://spidgw.corteconti.it/spid" ID="_8e0804ca3a321d05db65a7ead855f63fd44fbe84">
+		<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                        <ds:Reference URI="#_8e0804ca3a321d05db65a7ead855f63fd44fbe84">
+                                <ds:Transforms>
+                                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                                </ds:Transforms>
+                                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                <ds:DigestValue>V/Nx/oYZ1GFNyHeX2CjThYSfjnElSLvEY/eWuB4Opmg=</ds:DigestValue>
+                        </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue>wo9bdfcMEm9QH4wxyKJKhQ9b4C1DpyltgMXjZS0EDvUb69yCpnlU+ovNOnt9lRGa
+Canw2prf3DFUtdWp3wFv9VWJoM1UDa+Q1jy0M6Bb+n71eVoW6NfgTEtDwwxBUjL5
+O6hNwggsnEzFaXhBgpxvcOMJpRRBuMPnAoyZfLleh4cOEBUUeJxDelAsc2o86c/C
+vMn86j8QSoJoMwFAFYyG+r1hkXrP7p5vMTpHj2r+iUQGs+8VOxPWPKE0xqwcrA5V
+SxNpL92xJ7KqX6v/Xi1aGoqjJmep90sGAnRvH25x+vG4Ny8mOekdBmZMw8RE1kbW
+3Jdz/7P7u60Ze7Ys2MBWbA==</ds:SignatureValue>
+                <ds:KeyInfo>
+                        <ds:X509Data>
+                                <ds:X509Certificate>MIIHSTCCBTGgAwIBAgIJAMnN0+nVfSPOMA0GCSqGSIb3DQEBBQUAMIGsMQswCQYD
+VQQGEwJFVTFDMEEGA1UEBxM6TWFkcmlkIChzZWUgY3VycmVudCBhZGRyZXNzIGF0
+IHd3dy5jYW1lcmZpcm1hLmNvbS9hZGRyZXNzKTESMBAGA1UEBRMJQTgyNzQzMjg3
+MRswGQYDVQQKExJBQyBDYW1lcmZpcm1hIFMuQS4xJzAlBgNVBAMTHkdsb2JhbCBD
+aGFtYmVyc2lnbiBSb290IC0gMjAwODAeFw0wODA4MDExMjMxNDBaFw0zODA3MzEx
+MjMxNDBaMIGsMQswCQYDVQQGEwJFVTFDMEEGA1UEBxM6TWFkcmlkIChzZWUgY3Vy
+cmVudCBhZGRyZXNzIGF0IHd3dy5jYW1lcmZpcm1hLmNvbS9hZGRyZXNzKTESMBAG
+A1UEBRMJQTgyNzQzMjg3MRswGQYDVQQKExJBQyBDYW1lcmZpcm1hIFMuQS4xJzAl
+BgNVBAMTHkdsb2JhbCBDaGFtYmVyc2lnbiBSb290IC0gMjAwODCCAiIwDQYJKoZI
+hvcNAQEBBQADggIPADCCAgoCggIBAMDfVtPkOpt2RbQT2//BthmLN0EYlVJH6xed
+KYiONWwGMi5HYvNJBL99RDaxccy9Wglz1dmFRP+RVyXfXjaOcNFccUMd2drvXNL7
+G706tcuto8xEpw2uIRU/uXpbknXYpBI4iRmKt4DS4jJvVpyR1ogQC7N0ZJJ0YPP2
+zxhPYLIj0Mc7zmFLmY/CDNBAspjcDahOo7kKrmCgrUVSY7pmvWjg+b4aqIG7HkF4
+ddPB/gBVsIdU6CeQNR1MM62X/JcumIS/LMmjv9GYERTtY/jKmIhYF5ntRQOXfjyG
+HoiMvvKRhI9lNNgATH23MRdaKXoKGCQwoze1eqkBfSbW+Q6OWfH9GzO1KTsXO0G2
+Id3UwD2ln58fQ1DJu7xsepeY7s2MH/ucUa6LcL0nn3HAa6x9kGbo1106DbDVwo3V
+yJ2dwW3Q0L9R5OP4wzg2rtandeavhENdk5IMagfeOx2YItaswTXbo6Al/3K1dh3e
+beksZixShNBFks4c5eUzHdwHU1SjqoI7mjcv3N2gZOnm3b2u/GSFHTynyQbehP9r
+6GsaPMWis0L7iwk+XwhSx2LE1AVxv8Rk5Pihg+g+EpuoHtQ2TS9x9o0o9oOpE9Jh
+wZG7SMA0j0GMS0zbaRL/UJScIINZc+18ofLx/d33SdNDWKBWY8o9PeU1VlnpDsog
+zCtLkykPAgMBAAGjggFqMIIBZjASBgNVHRMBAf8ECDAGAQH/AgEMMB0GA1UdDgQW
+BBS5CcqcHtvTbDprru1U8VuTBjUuXjCB4QYDVR0jBIHZMIHWgBS5CcqcHtvTbDpr
+ru1U8VuTBjUuXqGBsqSBrzCBrDELMAkGA1UEBhMCRVUxQzBBBgNVBAcTOk1hZHJp
+ZCAoc2VlIGN1cnJlbnQgYWRkcmVzcyBhdCB3d3cuY2FtZXJmaXJtYS5jb20vYWRk
+cmVzcykxEjAQBgNVBAUTCUE4Mjc0MzI4NzEbMBkGA1UEChMSQUMgQ2FtZXJmaXJt
+YSBTLkEuMScwJQYDVQQDEx5HbG9iYWwgQ2hhbWJlcnNpZ24gUm9vdCAtIDIwMDiC
+CQDJzdPp1X0jzjAOBgNVHQ8BAf8EBAMCAQYwPQYDVR0gBDYwNDAyBgRVHSAAMCow
+KAYIKwYBBQUHAgEWHGh0dHA6Ly9wb2xpY3kuY2FtZXJmaXJtYS5jb20wDQYJKoZI
+hvcNAQEFBQADggIBAICIf3DekijZBZRG/5BXqfEv3xoNa/p8DhxJJHkn2EaqbylZ
+UohwEurdPfWbU1Rv4WCiqAm57OtZfMY18dwY6fFn5a+6ReAJ3spED8IXDneRRXoz
+X1+WLGiLwUePmJs9wOzL9dWCkoQ10b42OFZyMVtHLaoXpGNR6woBrX/sdZ7LoR/x
+fxKxueRkf2fWIyr0uDldmOghp+G9PUIadJpwr2hsUF1Jz//7Dl3mLEfXgTpZALVz
+a2Mg9jFFCDkO9HB+QHBaP9BrQql0PSgvAm11cpUJjUhjxsYjV5KTXjXBjfkK9yyd
+Yhz2rXzdpjEetrHHfoUm+qRqtdpjMNHvkzeyZi99Bffnt0uYlDXA2TopwZ2yUDMd
+SqlapskD7+3056huirRXhOukP9DuqqqHW2Pok+JrqNS4cnhrG+055F3Lm6qH1U9O
+AP7Zap88MQ8oAgF9mOinsKJknnn4SPIVqczmyETrP3iZ8ntxPjzxmKfFGBI/5rso
+M0LpRQp8bfKGeS/Fghl9CYl8slR2iK7ewfPM4W7bMdaTrpmg7yVqc5iJWzouE4ge
+v8CSlDQb4ye3ix5vQv/n6TebUB0tovkC7stYWDpxvGjjqsGvHCgfotwjZT+B6q6Z
+09gwzxMNTxXJhLynSC34MCN32EZLeW32jO06f2ARePTpm67VVMB0gNELQp/B</ds:X509Certificate>
+                        
+<ds:X509Certificate>MIIIPjCCBiagAwIBAgIIRIQedGGfUsswDQYJKoZIhvcNAQELBQAwgawxCzAJBgNV
+BAYTAkVVMUMwQQYDVQQHEzpNYWRyaWQgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQg
+d3d3LmNhbWVyZmlybWEuY29tL2FkZHJlc3MpMRIwEAYDVQQFEwlBODI3NDMyODcx
+GzAZBgNVBAoTEkFDIENhbWVyZmlybWEgUy5BLjEnMCUGA1UEAxMeR2xvYmFsIENo
+YW1iZXJzaWduIFJvb3QgLSAyMDA4MB4XDTE3MDUyNTE1NTE1OVoXDTM3MDUyMDE1
+NTE1OVowgaUxCzAJBgNVBAYTAkVTMUMwQQYDVQQHDDpNYWRyaWQgKHNlZSBjdXJy
+ZW50IGFkZHJlc3MgYXQgd3d3LmNhbWVyZmlybWEuY29tL2FkZHJlc3MpMRswGQYD
+VQQKDBJBQyBDYW1lcmZpcm1hIFMuQS4xEjAQBgNVBAUTCUE4Mjc0MzI4NzEgMB4G
+A1UEAwwXR0xPQkFMIENPUlBPUkFURSBTRVJWRVIwggIiMA0GCSqGSIb3DQEBAQUA
+A4ICDwAwggIKAoICAQC9/oTZfflU1uAvn2PW3R17P4fo4d/Pb/ypfOchdNrYgp0o
+nTjvKsT0wucZwkQOIiS1MTE5BWcPdpm2aeUzOfJ8unRu5v0EDybh9xrN2Tp+pxP0
+6moaPagIRns06zfdkhLIV4HeL+NCr9N5lEtlNaUBpgyL3FzQEpOYkz9msqB8y3g9
++7PAcBr1EXxOxJhjcYn9oI+pIiM49m7XS9pKrHdJ0/FaTC763CLF1LlLxmGManpE
+CMO4VacQasEUVF7YtFAd9zNy4GHZLa2yf6cMjxfEWXWvCSx23LQzObTOWjQ0veeh
+NPvXv9VnXfumx9OxiC0KvWI4J4grzjWsVw6VWdGlfCCIe3JVEVSXLCub+hbwNAF2
+oRbw5cVSn6f2QEoLJdaZZPCy20ksNySB9BsUfk0M+06AKCUXMcybB6YMpMrA+xmV
+5i7ZmQKXEObgFt40Gh7NfoZdFgCXizIg8+/gTR9LtwUx1mjfDtl6jaNAUa7ZS4Hh
+h7ws6cT08mdtGCO+3lcxxz4IpWOwMq9YhFAHTWFboPqXFdDgM7tIwwZQ1TpI5lDT
+h7qBZRSGY+QfE9yXiSQBOzPTF2sMXTAv+cNWK/i9DcfgmTlH85dqK4U0iYTaXk2v
+FLx2p4zIp9Mm7USrfgtHgYVvo/5GE2MJEScry8Y7HhFRAmMykV07RsNg6J101wID
+AQABo4ICZzCCAmMwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUWxvuA3ui2+dG
+wMJUq6FQKV/xVtcwgeEGA1UdIwSB2TCB1oAUuQnKnB7b02w6a67tVPFbkwY1Ll6h
+gbKkga8wgawxCzAJBgNVBAYTAkVVMUMwQQYDVQQHEzpNYWRyaWQgKHNlZSBjdXJy
+ZW50IGFkZHJlc3MgYXQgd3d3LmNhbWVyZmlybWEuY29tL2FkZHJlc3MpMRIwEAYD
+VQQFEwlBODI3NDMyODcxGzAZBgNVBAoTEkFDIENhbWVyZmlybWEgUy5BLjEnMCUG
+A1UEAxMeR2xvYmFsIENoYW1iZXJzaWduIFJvb3QgLSAyMDA4ggkAyc3T6dV9I84w
+fQYIKwYBBQUHAQEEcTBvMEUGCCsGAQUFBzAChjlodHRwOi8vd3d3LmNhbWVyZmly
+bWEuY29tL2NlcnRzL3Jvb3RfY2hhbWJlcnNpZ24tMjAwOC5jcnQwJgYIKwYBBQUH
+MAGGGmh0dHA6Ly9vY3NwLmNhbWVyZmlybWEuY29tMA4GA1UdDwEB/wQEAwIBBjA+
+BgNVHSAENzA1MDMGBFUdIAAwKzApBggrBgEFBQcCARYdaHR0cHM6Ly9wb2xpY3ku
+Y2FtZXJmaXJtYS5jb20wfgYDVR0fBHcwdTA4oDagNIYyaHR0cDovL2NybC5jYW1l
+cmZpcm1hLmNvbS9jaGFtYmVyc2lnbnJvb3QtMjAwOC5jcmwwOaA3oDWGM2h0dHA6
+Ly9jcmwxLmNhbWVyZmlybWEuY29tL2NoYW1iZXJzaWducm9vdC0yMDA4LmNybDAN
+BgkqhkiG9w0BAQsFAAOCAgEAd5djb341DHmtupmToETVhwpmAw6TmHboPjpQ5FlV
+DFlKvjmdPhxph919a+aPgiAnGLJA89xfsIzihefLP0DdVI39SZ0bTawaIobxEzmp
+zK3JmQNy+ETHWnodJOaw5M8VdzKpa9ycjaZaX3lWWoweD+S6q1qZKUPfBH+MSUxc
+BkuYFR42Q45BOtwwR+AxN0LZTK2R5ohq89lxJ7GtS9Y929KndD++gwot6kaiMMws
+Glfu95BFwdpstF7wOX3fOnwjENmXt/gZjo6oTP1p7zMqKp6praE8mvm/KraxEKWH
+BXz3XH/Kf1LU65G/VeadUQ+eLXRTGNxnyTvHodZYSDEtkcPT3daiMSJ+5sfm92nf
+653iDsfGjbMfshMWvK65ACEnZIfEXuLUlelUbEjir6iV2HUCeb1Fz86vskkbrOOp
+XN+X1AsNcpKDWBKeExLpI0FGia6PhM1dbgozh5AxG6N7LvIPiLml1eJLPqMsA3xL
+5le46AIDV7wLUCR5aUWgNIiHeXsE2jqGpL4XCNbaALfxQh5vfrDiR5jp6NBWHe6m
+JRv51UXsklfUUXsejSom0YkpZ1+orlshq/UZCJ3N1X0Z22v8vIlKKYMSu+x0OxuN
+x/Hce43AdsgI6UTcF4p0B+7Ma2OxsOJPuPh0HOK1N/+ygBGASW+sNhyI/Lpueznm
+onY=</ds:X509Certificate>
+<ds:X509Certificate>MIIIUDCCBjigAwIBAgIIAklSi/v/fd8wDQYJKoZIhvcNAQELBQAwgaUxCzAJBgNV
+BAYTAkVTMUMwQQYDVQQHDDpNYWRyaWQgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQg
+d3d3LmNhbWVyZmlybWEuY29tL2FkZHJlc3MpMRswGQYDVQQKDBJBQyBDYW1lcmZp
+cm1hIFMuQS4xEjAQBgNVBAUTCUE4Mjc0MzI4NzEgMB4GA1UEAwwXR0xPQkFMIENP
+UlBPUkFURSBTRVJWRVIwHhcNMTcwNzA2MDg0NDU1WhcNMzUwNzAyMDg0NDU1WjCB
+kjELMAkGA1UEBhMCSVQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEjMCEGA1UE
+CwwaV1NBIFRydXN0IFNlcnZpY2UgUHJvdmlkZXIxFDASBgNVBAUTCzA3OTQ1MjEx
+MDA2MS4wLAYDVQQDDCVJbmZvQ2VydCBPcmdhbml6YXRpb24gVmFsaWRhdGlvbiBD
+QSAzMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnReJEy7VPsENjXww
+eHiOaHiOnZyTKSO3siTMJ16K8Sj7e39JMr/dRUIIv2QNc3m3yZC9YYP6amtIEae9
+iiroOiU5mMNdVbFQHE6hCOg3sG/Jd47K4hvQXAhS0q5VQ+ZZtj3ULi+ETZEtJQPi
+wLdWrA6ce0doi/2v8VboNEOxU16kKQlnQrtHQmxYTlpipoOjlRc7XZbo0H3gK31Y
+yVwEtuDCBLLPLMx7m+YUKBSlmdqZq7dMVkpr2JcUW3H+/E2GiE1VORmyuPowpQVT
+LuK7NEB2v/pnkDOk3NqGoXJ8bQNHn94AfDJPfZm44iKmtEkXpj0AyrgMkAE1Fqe6
+55XmStsX3blinVA+t0AxI2VUAYtyTgvxCQmMJVnk37uVCE3QdyC/yn7S1akIVB7k
+PZBvILjwjEmijzzb6BlG2VLzAvH4RM/SQt8cT8wBuuGy6jQYJHCAxMW4FERZBJr6
+lhAZoGB6XqkU3jlWJnmt8R9xqn41yr3nnXzkC+5PR/5xUbWiis2iNOrnUyMMeGhj
+AFRBqR7jJj2u4m4oQ8TMYU035+3lD7kHN5Wjx4BsKmjiaDI0WPRM3dUkDpYJajwy
+RvitrYuJxEh3l8Iw3DWfUl2u9CCddV/xgak412I4SIAF4P9bTD7VHuWUEmrx+wTm
+Q8CHipGeKLJF51dROHIJq5ZKpPkCAwEAAaOCApMwggKPMBIGA1UdEwEB/wQIMAYB
+Af8CAQAwHQYDVR0OBBYEFF8Ou7nPR5IMJjRWBb/cnZ4YvcklMIHgBgNVHSMEgdgw
+gdWAFFsb7gN7otvnRsDCVKuhUClf8VbXoYGypIGvMIGsMQswCQYDVQQGEwJFVTFD
+MEEGA1UEBxM6TWFkcmlkIChzZWUgY3VycmVudCBhZGRyZXNzIGF0IHd3dy5jYW1l
+cmZpcm1hLmNvbS9hZGRyZXNzKTESMBAGA1UEBRMJQTgyNzQzMjg3MRswGQYDVQQK
+ExJBQyBDYW1lcmZpcm1hIFMuQS4xJzAlBgNVBAMTHkdsb2JhbCBDaGFtYmVyc2ln
+biBSb290IC0gMjAwOIIIRIQedGGfUsswfwYIKwYBBQUHAQEEczBxMEcGCCsGAQUF
+BzAChjtodHRwOi8vd3d3LmNhbWVyZmlybWEuY29tL2NlcnRzL0dMT0JBTF9DT1JQ
+T1JBVEVfU0VSVkVSLmNydDAmBggrBgEFBQcwAYYaaHR0cDovL29jc3AuY2FtZXJm
+aXJtYS5jb20wDgYDVR0PAQH/BAQDAgEGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr
+BgEFBQcDATBABgNVHSAEOTA3MDUGBmeBDAECAjArMCkGCCsGAQUFBwIBFh1odHRw
+czovL3BvbGljeS5jYW1lcmZpcm1hLmNvbTCBhAYDVR0fBH0wezA7oDmgN4Y1aHR0
+cDovL2NybC5jYW1lcmZpcm1hLmNvbS9HTE9CQUxfQ09SUE9SQVRFX1NFUlZFUi5j
+cmwwPKA6oDiGNmh0dHA6Ly9jcmwxLmNhbWVyZmlybWEuY29tL0dMT0JBTF9DT1JQ
+T1JBVEVfU0VSVkVSLmNybDANBgkqhkiG9w0BAQsFAAOCAgEADMydG0cvMs0XMhPl
+9MhFhfFzsAGk2ZpmEZj2Q1Z5WpbJRG6KpbuSpGZS7S1lSki1drgOoXIQyadc/6EC
+QsmDEMPHeGW+B4LuA4EkwwMa6RVq5o1tSZk1IVZfiAPNabDTvUzbD/d10fkV0rTd
+N5akiOZ05fWFSI/VedNfTLgwzUbIVYO2foaCxAWWjJNf8UzlFLA2UWJTWWiixiGf
+YCTaUU40Szjsj8FiGVK62PpBI2m7GGqKIWK9Eip9btn2MfU/PsfcvzIyulHGJlYu
+lBC1JO8EdERO00vE+mjmDjdNspuYVUYO3Ew6R0XVZUKe1ryeAEj4GG3ABLUzW9IY
+hsqC5Zr80/RHKVBkaT5mu1Dvms2D4wcYQPstShOCVXfMYQulB/yGrwxIR/oy+tRX
+mk1gf9Fru5QznslGkn/UifECrjJLD4eY72ZsTEP2jQINw5zf+mSUMhaEKlqmfheX
+wuWgvQCffWhMeK/4KHK9FFSnRu2IT6L06KXOE3cn00Uu2Aff+BD5vkUM9813e8GA
+bxeCdypfU4fxdUkl2syq8E46LUge+qGKfHAZ16lqi4kDxHIFWGiIiuB2UTPw+7eA
+QTi+8e0zPYhAzYvMueGETAM/8/J5xaedvRs6ZLUUBXl/d1ZF0G1FT9f6Zm1XtFsS
+Tkd3YwUT4mqCQn2Yu/PWKNVX4ME=</ds:X509Certificate>
+<ds:X509Certificate>MIIHajCCBVKgAwIBAgIUMbcakaDV/OnxZ3yGMxpY+3kFrWEwDQYJKoZIhvcNAQEL
+BQAwgZIxCzAJBgNVBAYTAklUMRgwFgYDVQQKDA9JbmZvQ2VydCBTLnAuQS4xIzAh
+BgNVBAsMGldTQSBUcnVzdCBTZXJ2aWNlIFByb3ZpZGVyMRQwEgYDVQQFEwswNzk0
+NTIxMTAwNjEuMCwGA1UEAwwlSW5mb0NlcnQgT3JnYW5pemF0aW9uIFZhbGlkYXRp
+b24gQ0EgMzAeFw0xOTExMTgwODQ5MDhaFw0yMDExMTgwMDAwMDBaMIGQMQswCQYD
+VQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEvMC0GA1UECwwm
+RGlyZXppb25lIEdlbmVyYWxlIFNpc3RlbWkgSW5mb3JtYXRpdmkxGDAWBgNVBAoM
+D0NPUlRFIERFSSBDT05USTEYMBYGA1UEAwwPKi5jb3J0ZWNvbnRpLml0MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwyKtyNm12I0NZZYv/t/BtDMe+uBx
+pISY/qopeabNoCVjqRo3XWbuOO2DmCBGtQT5sS70BlBBMj9vCPLttbYRtAeQaYVs
+zzKnD/ntqCecFr7wVdYZovI38dxqlqccz3N7OcW/CoQyrS7RJnVH1HTa3mmmUVyc
+qEqx6GnSKTz4nWoNZrOXvfmc5hmwCZ+iPMIuDVD00BYZWWRc5rcm17dEfTRPQOOH
+Pa9FuGI8vK5BQznLe8k2tgWJ9vcWhjgHMgosQFBnmCvH3SLh7DFP3+x0l5FPf4AL
+rV7F+HG6vCnWxfSJFysNeIBqIw+j4HZVw0IF6FqQ5UbHufg74oyPF7tJZQIDAQAB
+o4ICtjCCArIwcQYIKwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8vb2Nz
+cC5vdmNmLmNhMy5pbmZvY2VydC5pdDAzBggrBgEFBQcwAoYnaHR0cDovL2NlcnQu
+aW5mb2NlcnQuaXQvY2EzL292Y2YvQ0EuY3J0MDoGA1UdHwQzMDEwL6AtoCuGKWh0
+dHA6Ly9jcmwuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ1JMMDEuY3JsMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjBvBgNVHSAEaDBmMAgGBgQAj3oBBzAIBgZn
+gQwBAgIwUAYHK0wkAQETAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3LmZpcm1h
+LmluZm9jZXJ0Lml0L2RvY3VtZW50YXppb25lL21hbnVhbGkucGhwMA4GA1UdDwEB
+/wQEAwIFoDAaBgNVHREEEzARgg8qLmNvcnRlY29udGkuaXQwggEDBgorBgEEAdZ5
+AgQCBIH0BIHxAO8AdgC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2jh7RhQAA
+AW59sbXIAAAEAwBHMEUCICQPv5ie0lgZB2fZZ8iZ1GDFtWFTC+XDxWg1eV19Mo6F
+AiEA2l4okqXoei1UmxSIAeVY4Fi0eem8/IBTnPc0rQD0ldUAdQBep3P531bA57U2
+SH3QSeAyepGaDIShEhKEGHWWgXFFWAAAAW59sbYEAAAEAwBGMEQCIE3IiI0UoVFZ
+gJLdAd354BNOgb8vNMCtUDZ5qSsif+gKAiBhaZzQGF1mjTFkn+xS8E+Ina0qfU4j
+aDRKKdbZY/2oLDAfBgNVHSMEGDAWgBRfDru5z0eSDCY0VgW/3J2eGL3JJTAdBgNV
+HQ4EFgQUQ/Mhj9DLgDhDNVgSa5XDVR7l1CowDQYJKoZIhvcNAQELBQADggIBADmg
+THTsyFjeGCNUKA98UrcKyRJGQ/JWkb+aS714yuawe06CTKpzpgKrQkDnsJL89Pa8
+00JZQnEae1x7jMsu2NaqMXO3K5HpZ1LStD5TTLXME5A5MD1uf+Y4gTBUTsCDqHX7
+nIsHU2/yNU+K1QqpiTS8/yMSTBfhAj3JmJpEhimhxZePwnjnXZwHZqdnGaFabiXb
++FgWpbrIJztWBPB2BY9Tdr6QL+MoIz/uxoJt9PjLXhL1/Oal6U3rw4TLqjWfwKul
+VijTW0gTxeLfU/rJtRIqrZ9bbHX04UkQstf3oFMgIE7UheHc3aFAzA1V08RHPHL0
+hGeQVsUTKuUogxqAi2CzMdr9cgwi2ur6Na96mBierNjAJJ3UQvT94hZvTxatpsb4
+YDKnig+nbM8SIfbsO/yqJeEg379qpnxtzygZ6kLT1uyUTjgsGTA7Nb8oEOnobpp1
+8KSK0hJMeOPiJXRPcF7mAfxG6irAhDlpCXP26IdmOAVxvzGkvWgixLbUfj8rTuhH
++srYuw+dN3fXG/ovzjPIOMvblFKXpRZgpgK+Jb5I01JQu1gvIkBBIaVHkBa3WMoE
+tL5FkeJwOHCnfcssCTciYLZi8JHBizlaGPKc2GX2anHzfRGpocjebpNAPnIyn/j+
+/r8nk6JhduQRdbZYNs49Bh9g6glAmfBAKCWWIH+X</ds:X509Certificate></ds:X509Data>
+                </ds:KeyInfo>
+        </ds:Signature>
+    <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIHazCCBVOgAwIBAgIUc+67KpkwvPgPXGgjc0tHj15vigowDQYJKoZIhvcNAQELBQAwgZIxCzAJ
+BgNVBAYTAklUMRgwFgYDVQQKDA9JbmZvQ2VydCBTLnAuQS4xIzAhBgNVBAsMGldTQSBUcnVzdCBT
+ZXJ2aWNlIFByb3ZpZGVyMRQwEgYDVQQFEwswNzk0NTIxMTAwNjEuMCwGA1UEAwwlSW5mb0NlcnQg
+T3JnYW5pemF0aW9uIFZhbGlkYXRpb24gQ0EgMzAeFw0xODExMjMwODU5MThaFw0xOTExMjMwMDAw
+MDBaMIGQMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEYMBYGA1UE
+CgwPQ09SVEUgREVJIENPTlRJMS8wLQYDVQQLDCZEaXJlemlvbmUgR2VuZXJhbGUgU2lzdGVtaSBJ
+bmZvcm1hdGl2aTEYMBYGA1UEAwwPKi5jb3J0ZWNvbnRpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqpri1NBECnBPJQ9JwrpvYDEMdKaaqWwqEGqXxj6RsBmWWilWneL/0MtaDE9m
+vsfrW0aNXueNeNzkvH3t99X+qeZ7hF4K36dypidsLIrNJkQXzacuODWMiBN3HoPQcnXRCT5dyRDW
+HOG3QuXsW5+swJ+ctn2upBPhqY5YzUxIDEbLFhMM4Cf97Mtoj1wL/S2TXqeK7h2bZV4nKFpIl9CJ
+qRHEpf1kLikPDGOSuslVymtAHfVx9R0KjuYVCBLJzTRMKgcaEbEMBXxWccVBG4pzoOdmxt4IgBsL
+0iy8u1Id81GfNAXBQal4J723XOstlWouBMrN9vVTCcuX0hZLPxWmXQIDAQABo4ICtzCCArMwcQYI
+KwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8vb2NzcC5vdmNmLmNhMy5pbmZvY2VydC5p
+dDAzBggrBgEFBQcwAoYnaHR0cDovL2NlcnQuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ0EuY3J0MDoG
+A1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jcmwuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ1JMMDEuY3Js
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBvBgNVHSAEaDBmMAgGBgQAj3oBBzAIBgZn
+gQwBAgIwUAYHK0wkAQETAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3LmZpcm1hLmluZm9jZXJ0
+Lml0L2RvY3VtZW50YXppb25lL21hbnVhbGkucGhwMA4GA1UdDwEB/wQEAwIFoDAaBgNVHREEEzAR
+gg8qLmNvcnRlY29udGkuaXQwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgDuS723dc5guuFCaR+r
+4Z5mow9+X7By2IMAxHuJeqj9ywAAAWc/yalUAAAEAwBHMEUCIQC7gdSMwg925nuLuwNcAQKm95Y/
+tsGxts1tYmFCVsgMGAIgfIMQ2+rf4CowddK80P40SK+k3qglJFergxQtLT5z4GUAdgDiaUuuJujp
+QAnohhu2O4PUPuf+dIj7pI8okwGd3fHb/gAAAWc/ya8uAAAEAwBHMEUCIGmhrKxECprC8KJubPIB
+3pGjkJzBGZxSqN5ZvlG/QoW0AiEAriBThGysOOButGO6e6NbvzTC22UR2AINN362WS0mfLowHwYD
+VR0jBBgwFoAUXw67uc9HkgwmNFYFv9ydnhi9ySUwHQYDVR0OBBYEFPsn2uxE02E7khRNdUkk6M78
+rIY9MA0GCSqGSIb3DQEBCwUAA4ICAQAGkYsMjf5UjmWWH5eFBORkPYY1zZ+jqP+OXfXUOZAUZ0HD
+ZHOL8H9PHP63gS+Ha04JqpPbNqksfpXRSWOcducf7Vo13SEMJyUugvYzOwCE86xAc0dmfD5Zqdh7
+ITuJcBsXAhRCBz/vCYM2Qv0AXLq6cJqJSfPnibQQ0JQs3XxhQ6UQMNYE/AeL6d/A9iOGICs3bTjC
+ofCUJtPkSewZsVB+VY90tcF5NNU9keq3EYvutsIcZzDwnuCX07JSj2/znvUNf2Np3iVgoSJ84RBh
+FN4A5J7AA1bo5t6HZ5Bj4NAgfMw7IhudRdI0ZQkCnxLVc6h+y6VjJsNghTziSH5NF+BlrflEPHmZ
+F/uQwrnfwvVJ1jfQh1qe3HOKkE+VteYfwxaqYpH6nbWYVl2kAh0ilg0+7ny+83SshDE6Uhpudp1Q
+WQxNmRK128UIET0Oqt4IRkx7sg4prt1ouuLRabtVdHqbs76Pt5glZeIl4tt/UHqozLrMjmzCaFQE
+/yqu2Aqgz7ixN1Kk5ag9MvTxq9veQHIxwj8M167gkf5Wpmgrezq8TiSiVGWuFGvrCRpADQPBOPsn
+jPiPLWggReuKG4qXffyIZllNHsxnpDagDQjx3udeKoK/RZvm0Bl4iEbCh0Ezc160PvpetOvv+KCO
+L156bpk8Zqb1TxdUbVJNzHMs7elwZg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIHajCCBVKgAwIBAgIUMbcakaDV/OnxZ3yGMxpY+3kFrWEwDQYJKoZIhvcNAQELBQAwgZIxCzAJ
+BgNVBAYTAklUMRgwFgYDVQQKDA9JbmZvQ2VydCBTLnAuQS4xIzAhBgNVBAsMGldTQSBUcnVzdCBT
+ZXJ2aWNlIFByb3ZpZGVyMRQwEgYDVQQFEwswNzk0NTIxMTAwNjEuMCwGA1UEAwwlSW5mb0NlcnQg
+T3JnYW5pemF0aW9uIFZhbGlkYXRpb24gQ0EgMzAeFw0xOTExMTgwODQ5MDhaFw0yMDExMTgwMDAw
+MDBaMIGQMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEvMC0GA1UE
+CwwmRGlyZXppb25lIEdlbmVyYWxlIFNpc3RlbWkgSW5mb3JtYXRpdmkxGDAWBgNVBAoMD0NPUlRF
+IERFSSBDT05USTEYMBYGA1UEAwwPKi5jb3J0ZWNvbnRpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAwyKtyNm12I0NZZYv/t/BtDMe+uBxpISY/qopeabNoCVjqRo3XWbuOO2DmCBG
+tQT5sS70BlBBMj9vCPLttbYRtAeQaYVszzKnD/ntqCecFr7wVdYZovI38dxqlqccz3N7OcW/CoQy
+rS7RJnVH1HTa3mmmUVycqEqx6GnSKTz4nWoNZrOXvfmc5hmwCZ+iPMIuDVD00BYZWWRc5rcm17dE
+fTRPQOOHPa9FuGI8vK5BQznLe8k2tgWJ9vcWhjgHMgosQFBnmCvH3SLh7DFP3+x0l5FPf4ALrV7F
++HG6vCnWxfSJFysNeIBqIw+j4HZVw0IF6FqQ5UbHufg74oyPF7tJZQIDAQABo4ICtjCCArIwcQYI
+KwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8vb2NzcC5vdmNmLmNhMy5pbmZvY2VydC5p
+dDAzBggrBgEFBQcwAoYnaHR0cDovL2NlcnQuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ0EuY3J0MDoG
+A1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jcmwuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ1JMMDEuY3Js
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBvBgNVHSAEaDBmMAgGBgQAj3oBBzAIBgZn
+gQwBAgIwUAYHK0wkAQETAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3LmZpcm1hLmluZm9jZXJ0
+Lml0L2RvY3VtZW50YXppb25lL21hbnVhbGkucGhwMA4GA1UdDwEB/wQEAwIFoDAaBgNVHREEEzAR
+gg8qLmNvcnRlY29udGkuaXQwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdgC72d+8H4pxtZOUI5eq
+kntHOFeVCqtS6BqQlmQ2jh7RhQAAAW59sbXIAAAEAwBHMEUCICQPv5ie0lgZB2fZZ8iZ1GDFtWFT
+C+XDxWg1eV19Mo6FAiEA2l4okqXoei1UmxSIAeVY4Fi0eem8/IBTnPc0rQD0ldUAdQBep3P531bA
+57U2SH3QSeAyepGaDIShEhKEGHWWgXFFWAAAAW59sbYEAAAEAwBGMEQCIE3IiI0UoVFZgJLdAd35
+4BNOgb8vNMCtUDZ5qSsif+gKAiBhaZzQGF1mjTFkn+xS8E+Ina0qfU4jaDRKKdbZY/2oLDAfBgNV
+HSMEGDAWgBRfDru5z0eSDCY0VgW/3J2eGL3JJTAdBgNVHQ4EFgQUQ/Mhj9DLgDhDNVgSa5XDVR7l
+1CowDQYJKoZIhvcNAQELBQADggIBADmgTHTsyFjeGCNUKA98UrcKyRJGQ/JWkb+aS714yuawe06C
+TKpzpgKrQkDnsJL89Pa800JZQnEae1x7jMsu2NaqMXO3K5HpZ1LStD5TTLXME5A5MD1uf+Y4gTBU
+TsCDqHX7nIsHU2/yNU+K1QqpiTS8/yMSTBfhAj3JmJpEhimhxZePwnjnXZwHZqdnGaFabiXb+FgW
+pbrIJztWBPB2BY9Tdr6QL+MoIz/uxoJt9PjLXhL1/Oal6U3rw4TLqjWfwKulVijTW0gTxeLfU/rJ
+tRIqrZ9bbHX04UkQstf3oFMgIE7UheHc3aFAzA1V08RHPHL0hGeQVsUTKuUogxqAi2CzMdr9cgwi
+2ur6Na96mBierNjAJJ3UQvT94hZvTxatpsb4YDKnig+nbM8SIfbsO/yqJeEg379qpnxtzygZ6kLT
+1uyUTjgsGTA7Nb8oEOnobpp18KSK0hJMeOPiJXRPcF7mAfxG6irAhDlpCXP26IdmOAVxvzGkvWgi
+xLbUfj8rTuhH+srYuw+dN3fXG/ovzjPIOMvblFKXpRZgpgK+Jb5I01JQu1gvIkBBIaVHkBa3WMoE
+tL5FkeJwOHCnfcssCTciYLZi8JHBizlaGPKc2GX2anHzfRGpocjebpNAPnIyn/j+/r8nk6JhduQR
+dbZYNs49Bh9g6glAmfBAKCWWIH+X
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spidgw.corteconti.it/spid/SPSloRedirect/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPSloRedirect/metaAlias/sp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw.corteconti.it/spid/SPSloPOST/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPSloPOST/metaAlias/sp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spidgw.corteconti.it/spid/SPSloSoap/metaAlias/sp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spidgw.corteconti.it/spid/SPMniRedirect/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPMniRedirect/metaAlias/sp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw.corteconti.it/spid/SPMniPOST/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPMniPOST/metaAlias/sp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spidgw.corteconti.it/spid/SPMniSoap/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPMniSoap/metaAlias/sp"/>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw.corteconti.it/spid/Consumer/metaAlias/sp"/>
+		<AttributeConsumingService index="0">
+            <ServiceName xml:lang="it">Servizi Corte dei Conti</ServiceName>
+            <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </AttributeConsumingService>
+    </SPSSODescriptor>
+        <Organization>
+                <OrganizationName xml:lang="it">Corte dei Conti</OrganizationName>
+                <OrganizationDisplayName xml:lang="it">Corte dei Conti</OrganizationDisplayName>
+                <OrganizationURL xml:lang="it">http://www.corteconti.it</OrganizationURL>
+        </Organization>
+</EntityDescriptor>
+

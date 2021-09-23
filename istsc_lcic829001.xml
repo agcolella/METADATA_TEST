@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icsmissaglia.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx1ef17dae-b6f8-1ed7-86ca-b76a577e7d17"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx1ef17dae-b6f8-1ed7-86ca-b76a577e7d17"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>yfeOoy7LSNGpJ9TJq9+xc1Gs583lC4/+3J9+vmgl9Xk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>C274ZeqXXpQ0E4qGV2QcgwVW5ZNG2JOAidDWkP+fYVfBat3qMO86oYgvAk0S9WFK40K2iGQnGM7RLY/bUv97xYNF8QEeUalHBU2Mdz5uRYyXwXdCZrKbZNmin21uv4/o7weX/692FDYetUDwLcXNgdEdBfYSyW6gao4A/QdRpvY6O6F2TMIbYe9iKGsDdFRXuyWJ2I7f/3/exCEJ5lOIFk1FLJMc8n0a+ozggz08FYwA/QdAzfc2mVbECihCitMPFEyQu2ddOzsYC/2AY8edHozEZa/x2a+JN9B7+8jt9iP5cnd579pVD1+howuYfBfs9zX07GNvDcsY7xWrNhE/eQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEKjCCAxKgAwIBAgIIGiNvxTNJYh8wDQYJKoZIhvcNAQELBQAwgasxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVMZWNjbzESMBAGA1UEBwwJTWlzc2FnbGlhMRUwEwYDVQQKDAxJQyBNaXNzYWdsaWExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIDAeBgNVBAMMF3d3dy5pY3NtaXNzYWdsaWEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhsY2ljODI5MDAxQGlzdHJ1emlvbmUuaXQwHhcNMTcxMDAyMjA1MDMxWhcNMzcxMDAxMjA1MDMxWjCBqzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUxlY2NvMRIwEAYDVQQHDAlNaXNzYWdsaWExFTATBgNVBAoMDElDIE1pc3NhZ2xpYTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEgMB4GA1UEAwwXd3d3Lmljc21pc3NhZ2xpYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGxjaWM4MjkwMDFAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKoZnn6iv6qo0TlSdJB5+pQ6RceE5yxpBGtBT7hzyD2NwSGwwSjXG/SLsIjPSy2cGOf1Thx+CIo55WEd24YcqMCXn7oxxT+MpwhXPqPgol2Dp3arRn6wDhZSin4GI2dmeOeH65fxRyjfp98QphSNRLBKrUYklWrL1I36JzTb+m2zGKETKiNQO8UaA78s6lFynnupxZxqQ+BMFkBsOsZKiFFUcxEdw4Ce+iVJSL8Ts3HNl/84BCJISpYITithLvPTM+ZWIcykPnVi0RBApTuFjsfK8Xxbhtmc7UjL5JyCjMBFZyzuMY8qsFfv8dCzRaee/kfxG8VaVFQztqfzSW+NlyMCAwEAAaNQME4wHQYDVR0OBBYEFGNSe3WscevxHplawHDkCbivpejWMB8GA1UdIwQYMBaAFGNSe3WscevxHplawHDkCbivpejWMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADwxAoPW2HpRlakDuT3qno3WsqZCVePxtiR8XGC6k0oI0bylKqznWsAstDWm5x7wYwcOkHeb2bA/fKD4fHCSVtOjTR3TNndm+31QxBrd1F4yl/4mgqQLcPvUfCZuuy2LZTAd4XANO0T9Y21t6PjcG6L6gjiLjnDk5KADhRViItR1h7tI18Zq/oYTdhcqkCnRATh/IlSRvTwmSTLP8eeCYBXyoZ/mVrNMHFy6dm3g+dRzVHXcIm6Hmq333myTEI7zNVEHO7rjjyB83FZDD/I5XZNbo8S2n8t0x6Y01uD20yyb6qD7tv6+iwtIGMFZHA9dm0tTk8963e05oJrtEO/9EwA=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEKjCCAxKgAwIBAgIIGiNvxTNJYh8wDQYJKoZIhvcNAQELBQAwgasxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVMZWNjbzESMBAGA1UEBwwJTWlzc2FnbGlhMRUwEwYDVQQKDAxJQyBNaXNzYWdsaWExFjAUBgNVBAsMDUlzdHJ1emlvbmUgUEExIDAeBgNVBAMMF3d3dy5pY3NtaXNzYWdsaWEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhsY2ljODI5MDAxQGlzdHJ1emlvbmUuaXQwHhcNMTcxMDAyMjA1MDMxWhcNMzcxMDAxMjA1MDMxWjCBqzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUxlY2NvMRIwEAYDVQQHDAlNaXNzYWdsaWExFTATBgNVBAoMDElDIE1pc3NhZ2xpYTEWMBQGA1UECwwNSXN0cnV6aW9uZSBQQTEgMB4GA1UEAwwXd3d3Lmljc21pc3NhZ2xpYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGxjaWM4MjkwMDFAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKoZnn6iv6qo0TlSdJB5+pQ6RceE5yxpBGtBT7hzyD2NwSGwwSjXG/SLsIjPSy2cGOf1Thx+CIo55WEd24YcqMCXn7oxxT+MpwhXPqPgol2Dp3arRn6wDhZSin4GI2dmeOeH65fxRyjfp98QphSNRLBKrUYklWrL1I36JzTb+m2zGKETKiNQO8UaA78s6lFynnupxZxqQ+BMFkBsOsZKiFFUcxEdw4Ce+iVJSL8Ts3HNl/84BCJISpYITithLvPTM+ZWIcykPnVi0RBApTuFjsfK8Xxbhtmc7UjL5JyCjMBFZyzuMY8qsFfv8dCzRaee/kfxG8VaVFQztqfzSW+NlyMCAwEAAaNQME4wHQYDVR0OBBYEFGNSe3WscevxHplawHDkCbivpejWMB8GA1UdIwQYMBaAFGNSe3WscevxHplawHDkCbivpejWMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADwxAoPW2HpRlakDuT3qno3WsqZCVePxtiR8XGC6k0oI0bylKqznWsAstDWm5x7wYwcOkHeb2bA/fKD4fHCSVtOjTR3TNndm+31QxBrd1F4yl/4mgqQLcPvUfCZuuy2LZTAd4XANO0T9Y21t6PjcG6L6gjiLjnDk5KADhRViItR1h7tI18Zq/oYTdhcqkCnRATh/IlSRvTwmSTLP8eeCYBXyoZ/mVrNMHFy6dm3g+dRzVHXcIm6Hmq333myTEI7zNVEHO7rjjyB83FZDD/I5XZNbo8S2n8t0x6Y01uD20yyb6qD7tv6+iwtIGMFZHA9dm0tTk8963e05oJrtEO/9EwA=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icsmissaglia.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icsmissaglia.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Istituto Comprensivo 'Rita Levi Montalcini'</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo 'Rita Levi Montalcini'</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.icsmissaglia.edu.it</md:OrganizationURL>
+    </md:Organization>
+</md:EntityDescriptor>

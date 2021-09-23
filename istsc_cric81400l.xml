@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.icpiadena.gov.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx66aa9677-d5ae-0c9b-894b-e1b8467f5506"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx66aa9677-d5ae-0c9b-894b-e1b8467f5506"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>QjxaCjQ3yoIaIGbIeHHb8IpJRI4Lt+Z50fx/Xb7fbeU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Nf5idA6Sd+XIk9mkYxfMuICOnpDwsPwd8h9YNdodLA825pXAOjl/1+oiuUCmPO7pb8jBLu6PWykVVuGquJMguPzJV4XZVCc6Ht33xT3pXJ4aThiH2QKpbKjDX/HbFn3IQyNaPqoOLEQjfp8fo+b9U0gFHAGT26nMVW8NXTp+Nyp4xvioRzEMjUE6bfKNPwRlKTFCQacOwRDoFwtmVDzzP1wu13GKshTiGiQe90GveVVhFC3DHqP1al2nLd654Vq5HicxRik0GmOrMRsqsKDT7h3W9ry++hjwh4t/GFAZqT956SZ5ulqTUGpqFegv7kwgRoz0yAerqBf9Xh8O6MUDPw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEYDCCA0igAwIBAgIINMK0NTyax3cwDQYJKoZIhvcNAQELBQAwgcYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMRAwDgYDVQQHDAdQaWFkZW5hMTcwNQYDVQQKDC5Jc3RpdHV0byBDb21wcmVuc2l2byAiRy5NLiBTYWNjaGkgIiBkaSBQaWFkZW5hMRIwEAYDVQQLDAlEaXJlemlvbmUxHTAbBgNVBAMMFHd3dy5pY3BpYWRlbmEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhjcmljODE0MDBsQGlzdHJ1emlvbmUuaXQwHhcNMTgwMTI2MTUwMDEyWhcNMzgwMTI1MTUwMDEyWjCBxjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB1BpYWRlbmExNzA1BgNVBAoMLklzdGl0dXRvIENvbXByZW5zaXZvICJHLk0uIFNhY2NoaSAiIGRpIFBpYWRlbmExEjAQBgNVBAsMCURpcmV6aW9uZTEdMBsGA1UEAwwUd3d3LmljcGlhZGVuYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGNyaWM4MTQwMGxAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMKd2IuwjhKB9vkjDBYr4gM/StVO99UDppZy04CsXLpDWYNqnZ6UM3PPAi87vnVgEWt7MpwgDTWtCyk5aDyMa5Tbi09j6AbQRzs7lSLKhmvTsa+Ncajmy90uS3egNtnr/YYuRXw09qMVxl/7jt7PhXZc3BsMT+z4EBaAaS8Pk4hEd7jNVGSzg12zXO4D7zaaZkYo4qgNpDrZcTvBFMaAWN9D3vUxXLD5dZvYEBYgbGKeVbZ+98w5vyEDT0rQ7NLXzgXVXYug7PK5SyO8Ngu7XpQgXoQj0QKZSyBwoCVROjD5gW9kOz+OJtLQHFXcdlmcygkV2UT4YkXSE5M3fB6oL58CAwEAAaNQME4wHQYDVR0OBBYEFLmmb/DObhJRseLxm4Xq4Iw0bj1HMB8GA1UdIwQYMBaAFLmmb/DObhJRseLxm4Xq4Iw0bj1HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACv7AED+NSUoG5Ep1u/ZKOAmRqeWCYHEpAooikFl/M6Km7hfco8IGKtnTc/5zavuhLVu6hjVbZvE5DCH8o8wQGPqq+7iAjK+MJ++gDPClIFrgtUV5rgxSD1/p8ruBapsW5yxEfmNSOeEc17pS64ZrGNmZSJLBqC9N7suU4FiOgtez5VrrhD1lSBK813X9kZsXuKZ+w0eLz12+jDhNdmQUkPnaUOa1QojnrgN1gTPPqA2q4mL5kLrIQgbqC20Yc27i11GCHtGPIgKj3wLDxWJCSWj1uawkQlKZksQwc7+M7KaVWTTbtvOyVhtWRRVZ/c92MrXhmAveTko993poCgtAbk=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEYDCCA0igAwIBAgIINMK0NTyax3cwDQYJKoZIhvcNAQELBQAwgcYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMRAwDgYDVQQHDAdQaWFkZW5hMTcwNQYDVQQKDC5Jc3RpdHV0byBDb21wcmVuc2l2byAiRy5NLiBTYWNjaGkgIiBkaSBQaWFkZW5hMRIwEAYDVQQLDAlEaXJlemlvbmUxHTAbBgNVBAMMFHd3dy5pY3BpYWRlbmEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhjcmljODE0MDBsQGlzdHJ1emlvbmUuaXQwHhcNMTgwMTI2MTUwMDEyWhcNMzgwMTI1MTUwMDEyWjCBxjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB1BpYWRlbmExNzA1BgNVBAoMLklzdGl0dXRvIENvbXByZW5zaXZvICJHLk0uIFNhY2NoaSAiIGRpIFBpYWRlbmExEjAQBgNVBAsMCURpcmV6aW9uZTEdMBsGA1UEAwwUd3d3LmljcGlhZGVuYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGNyaWM4MTQwMGxAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMKd2IuwjhKB9vkjDBYr4gM/StVO99UDppZy04CsXLpDWYNqnZ6UM3PPAi87vnVgEWt7MpwgDTWtCyk5aDyMa5Tbi09j6AbQRzs7lSLKhmvTsa+Ncajmy90uS3egNtnr/YYuRXw09qMVxl/7jt7PhXZc3BsMT+z4EBaAaS8Pk4hEd7jNVGSzg12zXO4D7zaaZkYo4qgNpDrZcTvBFMaAWN9D3vUxXLD5dZvYEBYgbGKeVbZ+98w5vyEDT0rQ7NLXzgXVXYug7PK5SyO8Ngu7XpQgXoQj0QKZSyBwoCVROjD5gW9kOz+OJtLQHFXcdlmcygkV2UT4YkXSE5M3fB6oL58CAwEAAaNQME4wHQYDVR0OBBYEFLmmb/DObhJRseLxm4Xq4Iw0bj1HMB8GA1UdIwQYMBaAFLmmb/DObhJRseLxm4Xq4Iw0bj1HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACv7AED+NSUoG5Ep1u/ZKOAmRqeWCYHEpAooikFl/M6Km7hfco8IGKtnTc/5zavuhLVu6hjVbZvE5DCH8o8wQGPqq+7iAjK+MJ++gDPClIFrgtUV5rgxSD1/p8ruBapsW5yxEfmNSOeEc17pS64ZrGNmZSJLBqC9N7suU4FiOgtez5VrrhD1lSBK813X9kZsXuKZ+w0eLz12+jDhNdmQUkPnaUOa1QojnrgN1gTPPqA2q4mL5kLrIQgbqC20Yc27i11GCHtGPIgKj3wLDxWJCSWj1uawkQlKZksQwc7+M7KaVWTTbtvOyVhtWRRVZ/c92MrXhmAveTko993poCgtAbk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEYDCCA0igAwIBAgIINMK0NTyax3cwDQYJKoZIhvcNAQELBQAwgcYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDcmVtb25hMRAwDgYDVQQHDAdQaWFkZW5hMTcwNQYDVQQKDC5Jc3RpdHV0byBDb21wcmVuc2l2byAiRy5NLiBTYWNjaGkgIiBkaSBQaWFkZW5hMRIwEAYDVQQLDAlEaXJlemlvbmUxHTAbBgNVBAMMFHd3dy5pY3BpYWRlbmEuZ292Lml0MScwJQYJKoZIhvcNAQkBFhhjcmljODE0MDBsQGlzdHJ1emlvbmUuaXQwHhcNMTgwMTI2MTUwMDEyWhcNMzgwMTI1MTUwMDEyWjCBxjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NyZW1vbmExEDAOBgNVBAcMB1BpYWRlbmExNzA1BgNVBAoMLklzdGl0dXRvIENvbXByZW5zaXZvICJHLk0uIFNhY2NoaSAiIGRpIFBpYWRlbmExEjAQBgNVBAsMCURpcmV6aW9uZTEdMBsGA1UEAwwUd3d3LmljcGlhZGVuYS5nb3YuaXQxJzAlBgkqhkiG9w0BCQEWGGNyaWM4MTQwMGxAaXN0cnV6aW9uZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMKd2IuwjhKB9vkjDBYr4gM/StVO99UDppZy04CsXLpDWYNqnZ6UM3PPAi87vnVgEWt7MpwgDTWtCyk5aDyMa5Tbi09j6AbQRzs7lSLKhmvTsa+Ncajmy90uS3egNtnr/YYuRXw09qMVxl/7jt7PhXZc3BsMT+z4EBaAaS8Pk4hEd7jNVGSzg12zXO4D7zaaZkYo4qgNpDrZcTvBFMaAWN9D3vUxXLD5dZvYEBYgbGKeVbZ+98w5vyEDT0rQ7NLXzgXVXYug7PK5SyO8Ngu7XpQgXoQj0QKZSyBwoCVROjD5gW9kOz+OJtLQHFXcdlmcygkV2UT4YkXSE5M3fB6oL58CAwEAAaNQME4wHQYDVR0OBBYEFLmmb/DObhJRseLxm4Xq4Iw0bj1HMB8GA1UdIwQYMBaAFLmmb/DObhJRseLxm4Xq4Iw0bj1HMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACv7AED+NSUoG5Ep1u/ZKOAmRqeWCYHEpAooikFl/M6Km7hfco8IGKtnTc/5zavuhLVu6hjVbZvE5DCH8o8wQGPqq+7iAjK+MJ++gDPClIFrgtUV5rgxSD1/p8ruBapsW5yxEfmNSOeEc17pS64ZrGNmZSJLBqC9N7suU4FiOgtez5VrrhD1lSBK813X9kZsXuKZ+w0eLz12+jDhNdmQUkPnaUOa1QojnrgN1gTPPqA2q4mL5kLrIQgbqC20Yc27i11GCHtGPIgKj3wLDxWJCSWj1uawkQlKZksQwc7+M7KaVWTTbtvOyVhtWRRVZ/c92MrXhmAveTko993poCgtAbk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icpiadena.gov.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icpiadena.gov.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">computer</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Istituto Comprensivo "G.M. Sacchi " di Piadena / Piadena (Cremona)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Istituto Comprensivo "G.M. Sacchi " di Piadena / Piadena</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Istituto Comprensivo "G.M. Sacchi " di Piadena / Piadena</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icpiadena.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

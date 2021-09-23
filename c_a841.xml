@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Biancavilla" entityID="https://www.comune.biancavilla.ct.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Biancavilla">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>SK9bmqZetq7XGMST/T/L8w7pk+7gW4Pamgnmf0jOeAk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CQytwpHLFgyDtSHiWyrdg+iykDQzHFnAAeS8cojMdA24R0yvLQb2MOIjvExUbsnm9F9qlabVQfx3
+HsTiKzMK2Qnv2NURphkNgzfn693yXkH1VgS+T+ZJ42cRKkToEaYI9hh1WJZJOwbm6bnyLaGcH/TA
+8+C6JQdGr3zoyagZ8IWRgjJ+2uMef2EkdxlnN0IQ2FHBlB2C5nIWOJGtsQJq2IAGYLCOKyBVn6yV
+Gt3pRe6kzWrB/PrQB661sftq0gT9Y/qaVrozNA+18fagh7M4i1h5yzrRa4qB4GV1QKcpcmA0tLt+
+IHg4YrXWmn0Ds5ESv3xJE94HZ0E0b2/fhYDN0Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vmIjiqjT/rbWuw/GtwnQRBDnzMKZc7mHPQcWKChCQdNKqszOiiUhAdm2oeRf6RhuhH+jw1PLTnPK
+VeOSbp9gqC4VZaS/bmL7ENZPjirhUlwMJegl91tpeRWU5aL31ReB1KlHm4tCBoZ7j2uBCbd3IZgI
+TDQ9HUD16IUBJ5ljQ2Tl6C2tv2nOdMYzkudYvjqc/MGe+4bHWqzY6xnXAChtIwJHjPxoGyt/kpd2
++keDRP0YsTlz07/KFzYLqjzHK8FvOoDDjTAaSA0Mgz632S+K5gMrlVjH9FPUX83EzMizlH6m5/KD
+sQvKPY6UWOxiIL9suxOiFUvtBtW0TUUudPyXmQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEOTCCAyGgAwIBAgIUMJM7lZYi/hzAnBOrsoi8Uw7rgLUwDQYJKoZIhvcNAQELBQAwgasxCzAJ
+BgNVBAYTAklUMRAwDgYDVQQIDAdDYXRhbmlhMRQwEgYDVQQHDAtCaWFuY2F2aWxsYTEeMBwGA1UE
+CgwVQ29tdW5lIGRpIEJpYW5jYXZpbGxhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1
+MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmlhbmNhdmlsbGEuY3QuaXQwHhcN
+MjAwNzEzMTI0MDEyWhcNMzAwNzExMTI0MDEyWjCBqzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0Nh
+dGFuaWExFDASBgNVBAcMC0JpYW5jYXZpbGxhMR4wHAYDVQQKDBVDb211bmUgZGkgQmlhbmNhdmls
+bGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTUwMwYDVQQDDCxzcG9ydGVsbG90ZWxl
+bWF0aWNvLmNvbXVuZS5iaWFuY2F2aWxsYS5jdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAL5iI4qo0/621rsPxrcJ0EQQ58zCmXO5hz0HFigoQkHTSqrMzoolIQHZtqHkX+kYboR/
+o8NTy05zylXjkm6fYKguFWWkv25i+xDWT44q4VJcDCXoJfdbaXkVlOWi99UXgdSpR5uLQgaGe49r
+gQm3dyGYCEw0PR1A9eiFASeZY0Nk5egtrb9pznTGM5LnWL46nPzBnvuGx1qs2OsZ1wAobSMCR4z8
+aBsrf5KXdvpHg0T9GLE5c9O/yhc2C6o8xyvBbzqAw40wGkgNDIM+t9kviuYDK5VYx/RT1F/NxMzI
+s5R+pufyg7ELyj2OlFjsYiC/bLsTohVL7QbVtE1FLnT8l5kCAwEAAaNTMFEwHQYDVR0OBBYEFNge
+Gmu36RIEq+GWIeJRUHBdozqJMB8GA1UdIwQYMBaAFNgeGmu36RIEq+GWIeJRUHBdozqJMA8GA1Ud
+EwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHWWXI9ch8Uw/9zDtl0X4bxWl+4ALdqTZ3eP
+P7Uw+BpGCYku4gDRpYnOR3u5UEJU3xvFpNZTW7RS9/fOoX3B7z//3TCjYZj30j5RqTutfFvAda7O
+AhJrra/RdJPX7ANHqSDg8fnNV7VDylkVZdrAbJ55IE8l58eKJ8LjWFaGz8UtkUP/Lig3up+w47da
+DtiSQnFKW1HXRa/nnXJj06s8V5Bzuxx3ODjQiYj6XKK104hN3olcF+KV6E//k0nVxoWCbniGyxhw
+DZNF+MLVF8N5UmCMq9Rj1jkISuCdblOfWYZWd0ROFbY4SatK6uA+9VpuzZS5yvkm8cLAVHfX3wal
+wkg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAIDp4spet2pEMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuYmlhbmNhdmlsbGEuY3QuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQyMDA3NDIwOFoXDTMwMDQxODA3NDIwOFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5iaWFuY2F2aWxsYS5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZcQiYjGlAPzt5mLHqGJf0sGKsCF1swNyrXc+zU02pGXnXJQ/e2qhYDPnXqeua7SsY2Dizs87CxvsoSt8u+LYQ+GQIe/i/6LXzfZq2mBHgd5wPVucd1/z6JVeYUbexvp0DJWnMQeygWqawlLUGP+6qRanpd7Wx6vTRmJISbrEHb6ZgmaCw4ufrJi2PXWE+/SPZZTmz97mceOmjRPNa3zRny1TaVdtpgXjrhCfemjze7BDVjZTdA+pxry/ZZsyXHvLXRHaZDfwyxdBOzOJ7c8whgMjv9WwJHx4Hw062TTsnKXcwQrB1GpIJDjqeLVBZL1DeO8UbnFy/ip/NiT0A5+D1AgMBAAGjUDBOMB0GA1UdDgQWBBS59iZLCQFyj6yi11xoHfWkXsK3IjAfBgNVHSMEGDAWgBS59iZLCQFyj6yi11xoHfWkXsK3IjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAhP0JjgsWExg/LIlG8vNyWWGnDzeHNOnCNNXQ9eF3gpLruOMepJUWl646OnKlhC1++TZJqktKf5W0xxse3WHh95uso93EtjQg1xNqp3aMAzKlow20WYAOYH6J6READZtM/ovHjmKA2RDl1n031Ww0VXuuwGs0lFMYTpmmQ/LrIOHnW9UabPWccSxlv3EIdVwH53YduAitDwR1gW2EdQ20q0cYIHuhPqaOsoGlO6xZAn/e1GYINQBQzEBGoEQzEcAFm6P7BWSgSs7BK1arItSZLfcjQ5TbgzsNvBSty3bkUtyvC4V+Co9DIOkYyTjaF3/i8IN20NP+kmO6G+YFaoMPL
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDWTCCAkGgAwIBAgIJAIDp4spet2pEMA0GCSqGSIb3DQEBCwUAMEMxJTAjBgNVBAMMHHd3dy5jb211bmUuYmlhbmNhdmlsbGEuY3QuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDQyMDA3NDIwOFoXDTMwMDQxODA3NDIwOFowQzElMCMGA1UEAwwcd3d3LmNvbXVuZS5iaWFuY2F2aWxsYS5jdC5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZcQiYjGlAPzt5mLHqGJf0sGKsCF1swNyrXc+zU02pGXnXJQ/e2qhYDPnXqeua7SsY2Dizs87CxvsoSt8u+LYQ+GQIe/i/6LXzfZq2mBHgd5wPVucd1/z6JVeYUbexvp0DJWnMQeygWqawlLUGP+6qRanpd7Wx6vTRmJISbrEHb6ZgmaCw4ufrJi2PXWE+/SPZZTmz97mceOmjRPNa3zRny1TaVdtpgXjrhCfemjze7BDVjZTdA+pxry/ZZsyXHvLXRHaZDfwyxdBOzOJ7c8whgMjv9WwJHx4Hw062TTsnKXcwQrB1GpIJDjqeLVBZL1DeO8UbnFy/ip/NiT0A5+D1AgMBAAGjUDBOMB0GA1UdDgQWBBS59iZLCQFyj6yi11xoHfWkXsK3IjAfBgNVHSMEGDAWgBS59iZLCQFyj6yi11xoHfWkXsK3IjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAhP0JjgsWExg/LIlG8vNyWWGnDzeHNOnCNNXQ9eF3gpLruOMepJUWl646OnKlhC1++TZJqktKf5W0xxse3WHh95uso93EtjQg1xNqp3aMAzKlow20WYAOYH6J6READZtM/ovHjmKA2RDl1n031Ww0VXuuwGs0lFMYTpmmQ/LrIOHnW9UabPWccSxlv3EIdVwH53YduAitDwR1gW2EdQ20q0cYIHuhPqaOsoGlO6xZAn/e1GYINQBQzEBGoEQzEcAFm6P7BWSgSs7BK1arItSZLfcjQ5TbgzsNvBSty3bkUtyvC4V+Co9DIOkYyTjaF3/i8IN20NP+kmO6G+YFaoMPL
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- Globo x.Y -->
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEOTCCAyGgAwIBAgIUMJM7lZYi/hzAnBOrsoi8Uw7rgLUwDQYJKoZIhvcNAQELBQAwgasxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXRhbmlhMRQwEgYDVQQHDAtCaWFuY2F2aWxsYTEeMBwGA1UECgwVQ29tdW5lIGRpIEJpYW5jYXZpbGxhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmlhbmNhdmlsbGEuY3QuaXQwHhcNMjAwNzEzMTI0MDEyWhcNMzAwNzExMTI0MDEyWjCBqzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NhdGFuaWExFDASBgNVBAcMC0JpYW5jYXZpbGxhMR4wHAYDVQQKDBVDb211bmUgZGkgQmlhbmNhdmlsbGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTUwMwYDVQQDDCxzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5iaWFuY2F2aWxsYS5jdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL5iI4qo0/621rsPxrcJ0EQQ58zCmXO5hz0HFigoQkHTSqrMzoolIQHZtqHkX+kYboR/o8NTy05zylXjkm6fYKguFWWkv25i+xDWT44q4VJcDCXoJfdbaXkVlOWi99UXgdSpR5uLQgaGe49rgQm3dyGYCEw0PR1A9eiFASeZY0Nk5egtrb9pznTGM5LnWL46nPzBnvuGx1qs2OsZ1wAobSMCR4z8aBsrf5KXdvpHg0T9GLE5c9O/yhc2C6o8xyvBbzqAw40wGkgNDIM+t9kviuYDK5VYx/RT1F/NxMzIs5R+pufyg7ELyj2OlFjsYiC/bLsTohVL7QbVtE1FLnT8l5kCAwEAAaNTMFEwHQYDVR0OBBYEFNgeGmu36RIEq+GWIeJRUHBdozqJMB8GA1UdIwQYMBaAFNgeGmu36RIEq+GWIeJRUHBdozqJMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHWWXI9ch8Uw/9zDtl0X4bxWl+4ALdqTZ3ePP7Uw+BpGCYku4gDRpYnOR3u5UEJU3xvFpNZTW7RS9/fOoX3B7z//3TCjYZj30j5RqTutfFvAda7OAhJrra/RdJPX7ANHqSDg8fnNV7VDylkVZdrAbJ55IE8l58eKJ8LjWFaGz8UtkUP/Lig3up+w47daDtiSQnFKW1HXRa/nnXJj06s8V5Bzuxx3ODjQiYj6XKK104hN3olcF+KV6E//k0nVxoWCbniGyxhwDZNF+MLVF8N5UmCMq9Rj1jkISuCdblOfWYZWd0ROFbY4SatK6uA+9VpuzZS5yvkm8cLAVHfX3walwkg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Y -->
+    <!-- Globo x.Z -->
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEOTCCAyGgAwIBAgIUMJM7lZYi/hzAnBOrsoi8Uw7rgLUwDQYJKoZIhvcNAQELBQAwgasxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDYXRhbmlhMRQwEgYDVQQHDAtCaWFuY2F2aWxsYTEeMBwGA1UECgwVQ29tdW5lIGRpIEJpYW5jYXZpbGxhMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE1MDMGA1UEAwwsc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYmlhbmNhdmlsbGEuY3QuaXQwHhcNMjAwNzEzMTI0MDEyWhcNMzAwNzExMTI0MDEyWjCBqzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0NhdGFuaWExFDASBgNVBAcMC0JpYW5jYXZpbGxhMR4wHAYDVQQKDBVDb211bmUgZGkgQmlhbmNhdmlsbGExHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTUwMwYDVQQDDCxzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5iaWFuY2F2aWxsYS5jdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL5iI4qo0/621rsPxrcJ0EQQ58zCmXO5hz0HFigoQkHTSqrMzoolIQHZtqHkX+kYboR/o8NTy05zylXjkm6fYKguFWWkv25i+xDWT44q4VJcDCXoJfdbaXkVlOWi99UXgdSpR5uLQgaGe49rgQm3dyGYCEw0PR1A9eiFASeZY0Nk5egtrb9pznTGM5LnWL46nPzBnvuGx1qs2OsZ1wAobSMCR4z8aBsrf5KXdvpHg0T9GLE5c9O/yhc2C6o8xyvBbzqAw40wGkgNDIM+t9kviuYDK5VYx/RT1F/NxMzIs5R+pufyg7ELyj2OlFjsYiC/bLsTohVL7QbVtE1FLnT8l5kCAwEAAaNTMFEwHQYDVR0OBBYEFNgeGmu36RIEq+GWIeJRUHBdozqJMB8GA1UdIwQYMBaAFNgeGmu36RIEq+GWIeJRUHBdozqJMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHWWXI9ch8Uw/9zDtl0X4bxWl+4ALdqTZ3ePP7Uw+BpGCYku4gDRpYnOR3u5UEJU3xvFpNZTW7RS9/fOoX3B7z//3TCjYZj30j5RqTutfFvAda7OAhJrra/RdJPX7ANHqSDg8fnNV7VDylkVZdrAbJ55IE8l58eKJ8LjWFaGz8UtkUP/Lig3up+w47daDtiSQnFKW1HXRa/nnXJj06s8V5Bzuxx3ODjQiYj6XKK104hN3olcF+KV6E//k0nVxoWCbniGyxhwDZNF+MLVF8N5UmCMq9Rj1jkISuCdblOfWYZWd0ROFbY4SatK6uA+9VpuzZS5yvkm8cLAVHfX3walwkg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!-- /Globo x.Z -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/biancavilla"/>
+    <!-- Globo x.K -->
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.biancavilla.ct.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <!-- /Globo x.K -->
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/biancavilla" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/biancavilla" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/biancavilla" index="2"/>
+    <!-- Globo x.W -->    
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.biancavilla.ct.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="3"/>
+    <!-- /Globo x.W -->
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Biancavilla</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Biancavilla</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Biancavilla</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Biancavilla</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Biancavilla</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Biancavilla</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Biancavilla</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Biancavilla</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.biancavilla.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.biancavilla.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.biancavilla.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.biancavilla.ct.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

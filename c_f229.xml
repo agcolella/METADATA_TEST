@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://servizionline.comune.mira.ve.it" ID="pfxea306cac-ecb1-5bc8-dc1b-ffd34b6bcab1"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxea306cac-ecb1-5bc8-dc1b-ffd34b6bcab1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qsKqoVIr3Ig46cX4/GQhdBA4zHat8K4nc+dW6wYfJpk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>BDvQRvHR2MgNWfmRLxu7Mq+iiuU7AgDNH1IE6OX3FMgEuM2OOjCpmuEbHHyH+15FvHZnoVywT1kDHb8B8+wLxOMm0sw5wbYKk98kijC18XwjvL5Wc50BRRmAqmlmHVwEno6+FQWCvd1y7CR+v6XfXGHq8E3Dy2i/ZrBt5GhMuj3svNPWdn6hnusJrMHMJ2/yYwcGnnzWUPxBDAnvZnysZZQ3VTdJO1GrZ4bEphfSgXQQojyFCaCQP5r/l0g3yVWLXYgDgFV29b7VYXvxDhJqgb7KVcbjGn0jUzs5iiGOSElnaUSdl0SjwLcqqm94Pq+HXMLqHed0cydbwtSv4W3Wrw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDsTCCApmgAwIBAgIJAPUFPGDSxzj9MA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwETWlyYTEXMBUGA1UECgwOQ29tdW5lIGRpIE1pcmExKDAmBgNVBAMMH3NlcnZpemlvbmxpbmUuY29tdW5lLm1pcmEudmUuaXQwHhcNMTgwMzI5MDczNzA0WhcNMjgwMzI4MDczNzA0WjBvMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBE1pcmExFzAVBgNVBAoMDkNvbXVuZSBkaSBNaXJhMSgwJgYDVQQDDB9zZXJ2aXppb25saW5lLmNvbXVuZS5taXJhLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxM/zHF+K7sbNy32kf5/GT3PkMhIg9rHao8hPRvpf+iB79nIJdQ1XunykvyvGev4Py6fpfaZI7/EQHsrtPNvN999cqu/VWsvSwns/YSogIcs1xH5U/j1AkYRyhN9wDcAqIgKfqJPYIRqdqdQhSln94yW0W2n39ZH441z15Nd5K3D3d33lSI/ZFMriQr8s/F0DSe5p88RDwATtBTiAMqzQVWATeQkQIk1n44GvTbM4wkc66qV0Wyw8kJG0KhHom71uNT93D+P7zDUyEEN+JIzjrrruq8noY1QAbwUPDeEl3poMOklsg3ypqso+9Gv2RpTOMEYXZ0V1xH3O7Krykj66nwIDAQABo1AwTjAdBgNVHQ4EFgQUBy/lMrHwoGRUISxt7Nj+16p1TSMwHwYDVR0jBBgwFoAUBy/lMrHwoGRUISxt7Nj+16p1TSMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAR9bl1hMLGCN1SJr46y9gs4EQoGN1hudfJ7zPq8Q75mah5F/LKaMPuSZ70GLMd/nXRcpoGuya6xYFSM8RH0G8xFF7uEzWpBuGmteSkF1IeLBTnHm127cYgH98vPPJ6c9c2mZAt0PQ9214skxkWb7+MK6W3oh0QJP8qUxXTynMgPuyoc3gafdRwJ2Ewoo7ZeVYLX/Ca7NxXBKCxMvBWHnC0RsSkL65OL7/sPYOULOFbz5LG2c9rmd64V9BZKM1K9hw17QFu8HBElo5iF2jjJhhTzCXtisWPp6RWDMjgtIHgOh7JkaQApuAdLefxQW9XGFcb93R3TgcROwiDSAlIyLE0g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDsTCCApmgAwIBAgIJAPUFPGDSxzj9MA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwETWlyYTEXMBUGA1UECgwOQ29tdW5lIGRpIE1pcmExKDAmBgNVBAMMH3NlcnZpemlvbmxpbmUuY29tdW5lLm1pcmEudmUuaXQwHhcNMTgwMzI5MDczNzA0WhcNMjgwMzI4MDczNzA0WjBvMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBE1pcmExFzAVBgNVBAoMDkNvbXVuZSBkaSBNaXJhMSgwJgYDVQQDDB9zZXJ2aXppb25saW5lLmNvbXVuZS5taXJhLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxM/zHF+K7sbNy32kf5/GT3PkMhIg9rHao8hPRvpf+iB79nIJdQ1XunykvyvGev4Py6fpfaZI7/EQHsrtPNvN999cqu/VWsvSwns/YSogIcs1xH5U/j1AkYRyhN9wDcAqIgKfqJPYIRqdqdQhSln94yW0W2n39ZH441z15Nd5K3D3d33lSI/ZFMriQr8s/F0DSe5p88RDwATtBTiAMqzQVWATeQkQIk1n44GvTbM4wkc66qV0Wyw8kJG0KhHom71uNT93D+P7zDUyEEN+JIzjrrruq8noY1QAbwUPDeEl3poMOklsg3ypqso+9Gv2RpTOMEYXZ0V1xH3O7Krykj66nwIDAQABo1AwTjAdBgNVHQ4EFgQUBy/lMrHwoGRUISxt7Nj+16p1TSMwHwYDVR0jBBgwFoAUBy/lMrHwoGRUISxt7Nj+16p1TSMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAR9bl1hMLGCN1SJr46y9gs4EQoGN1hudfJ7zPq8Q75mah5F/LKaMPuSZ70GLMd/nXRcpoGuya6xYFSM8RH0G8xFF7uEzWpBuGmteSkF1IeLBTnHm127cYgH98vPPJ6c9c2mZAt0PQ9214skxkWb7+MK6W3oh0QJP8qUxXTynMgPuyoc3gafdRwJ2Ewoo7ZeVYLX/Ca7NxXBKCxMvBWHnC0RsSkL65OL7/sPYOULOFbz5LG2c9rmd64V9BZKM1K9hw17QFu8HBElo5iF2jjJhhTzCXtisWPp6RWDMjgtIHgOh7JkaQApuAdLefxQW9XGFcb93R3TgcROwiDSAlIyLE0g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDsTCCApmgAwIBAgIJAPUFPGDSxzj9MA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwETWlyYTEXMBUGA1UECgwOQ29tdW5lIGRpIE1pcmExKDAmBgNVBAMMH3NlcnZpemlvbmxpbmUuY29tdW5lLm1pcmEudmUuaXQwHhcNMTgwMzI5MDczNzA0WhcNMjgwMzI4MDczNzA0WjBvMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBE1pcmExFzAVBgNVBAoMDkNvbXVuZSBkaSBNaXJhMSgwJgYDVQQDDB9zZXJ2aXppb25saW5lLmNvbXVuZS5taXJhLnZlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxM/zHF+K7sbNy32kf5/GT3PkMhIg9rHao8hPRvpf+iB79nIJdQ1XunykvyvGev4Py6fpfaZI7/EQHsrtPNvN999cqu/VWsvSwns/YSogIcs1xH5U/j1AkYRyhN9wDcAqIgKfqJPYIRqdqdQhSln94yW0W2n39ZH441z15Nd5K3D3d33lSI/ZFMriQr8s/F0DSe5p88RDwATtBTiAMqzQVWATeQkQIk1n44GvTbM4wkc66qV0Wyw8kJG0KhHom71uNT93D+P7zDUyEEN+JIzjrrruq8noY1QAbwUPDeEl3poMOklsg3ypqso+9Gv2RpTOMEYXZ0V1xH3O7Krykj66nwIDAQABo1AwTjAdBgNVHQ4EFgQUBy/lMrHwoGRUISxt7Nj+16p1TSMwHwYDVR0jBBgwFoAUBy/lMrHwoGRUISxt7Nj+16p1TSMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAR9bl1hMLGCN1SJr46y9gs4EQoGN1hudfJ7zPq8Q75mah5F/LKaMPuSZ70GLMd/nXRcpoGuya6xYFSM8RH0G8xFF7uEzWpBuGmteSkF1IeLBTnHm127cYgH98vPPJ6c9c2mZAt0PQ9214skxkWb7+MK6W3oh0QJP8qUxXTynMgPuyoc3gafdRwJ2Ewoo7ZeVYLX/Ca7NxXBKCxMvBWHnC0RsSkL65OL7/sPYOULOFbz5LG2c9rmd64V9BZKM1K9hw17QFu8HBElo5iF2jjJhhTzCXtisWPp6RWDMjgtIHgOh7JkaQApuAdLefxQW9XGFcb93R3TgcROwiDSAlIyLE0g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.mira.ve.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.mira.ve.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice fiscale"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Cognome"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Nome"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Codice identificativo SPID"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Partita IVA"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" FriendlyName="Ragione o denominazione sociale"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Mira</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Mira</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.comune.mira.ve.it/</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

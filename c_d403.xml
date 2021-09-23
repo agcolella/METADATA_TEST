@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Empoli" entityID="https://www.empoli.gov.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Empoli">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>GkCAWoNjYSEfZwPsrRZKo2d5fjg4lr04a8ToVTQvhV0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ealrTO0Icglq0zLMwXbTAsuPkpmAFeEKeod2w23Ez5eKmLH87JiTp6cW6eraQ6MGij9FWoiAoXPS
+MXX2oCfV8LNeIFVieUd5Xfg3q6pF+dJYF+DVh9oV1vJueGwJKH+zlcdBIC8LQ3QzjiIxGwvi3y/e
+eGybdfoDfgl4bOKaYQmkvsLO7TMxX6OGNkF63w7SnGc7/zfdT8PSK7Uj/Nw57/YbihCBGa3yj+ms
+9sGKOFpMoawRErh/qePgvKN4B5G6DZOL9jWOkSIiJyu0HigUanR9mxk5KO66mK91f6F+6aU/+DRW
+nxp9a1Fle7/k5jKHzY9zUUhBcdC5i/woOtOiLA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+skiyWYHpRC1jB65bRieTeW1QHPfe3ZN0qLJMib5ldyf0Lh9WsENFIyV677KvEBeywikSw0IxvC7o
+PolDYJQEriQ1Fpujn1snVdtC2RprMmjjAKuKgMdPq6VE2uOBIQ1KkGNTI2bgmEW7USURisnrSSsf
+vN6YYpq4sxQUzyHEXnhzKTItBT4sWLpfHvXjiwMn2gerTaNKtWldQexb/Q0GXuQDEfzz5oWEw1Sf
+GyVLbFBXp42/Rt8qj+0fj4yKvLS4ohYzJ5Ya2kRFUEaQk90g85dpAkTcmEmgNuD0DX0YeDIbvVfI
+0tG5wq9OyKvhNpxd4nt2LEyzfAmVpiILxAnrVw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDQzCCAiugAwIBAgIJANT9MqT3CJ85MA0GCSqGSIb3DQEBCwUAMDgxGjAYBgNVBAMMEXd3dy5l
+bXBvbGkuZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MjQxMDQxMDFa
+Fw0zMDA2MjIxMDQxMDFaMDgxGjAYBgNVBAMMEXd3dy5lbXBvbGkuZ292Lml0MQ0wCwYDVQQLDART
+UElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJIslmB6UQt
+YweuW0Ynk3ltUBz33t2TdKiyTIm+ZXcn9C4fVrBDRSMleu+yrxAXssIpEsNCMbwu6D6JQ2CUBK4k
+NRabo59bJ1XbQtkaazJo4wCrioDHT6ulRNrjgSENSpBjUyNm4JhFu1ElEYrJ60krH7zemGKauLMU
+FM8hxF54cykyLQU+LFi6Xx7144sDJ9oHq02jSrVpXUHsW/0NBl7kAxH88+aFhMNUnxslS2xQV6eN
+v0bfKo/tH4+Miry0uKIWMyeWGtpERVBGkJPdIPOXaQJE3JhJoDbg9A19GHgyG71XyNLRucKvTsir
+4TacXeJ7dixMs3wJlaYiC8QJ61cCAwEAAaNQME4wHQYDVR0OBBYEFK3WBqQvOKcyIQh2rFWQ0MDA
+AhmPMB8GA1UdIwQYMBaAFK3WBqQvOKcyIQh2rFWQ0MDAAhmPMAwGA1UdEwQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBADLuyTnw8Ea7qcTIAYyIqtfQ4yAt3P7cc4PJ2PIaHoIy1dCCiij8kTtrzHW2
++2fsL/wCzw8wxKRAlHqP/YLCCR/CkAXH+n8ePrJ3l/8XtO3mY50RBce5vL/O9Xao8wUNqG25el4Y
+9cR0V9soSvXfL4mVwVbccVN6gWiBpNgpY0u6vHBoq0CmJSl+2NJ3WwqzgwMXywNUtjwSlUxtvYNy
+tB0PpNXuXrD75YOSHvSG26fQrDhCIE8IcU3G9IqQ6GoRhzVgfG4MC4FMcJTCU/ni2Jdd6s9JynKB
+j+OFYkKHP1aXlPDTcOfnch8WUb1hAU7EdhRNoIErD/DEsJ26HPh3JPU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDQzCCAiugAwIBAgIJANT9MqT3CJ85MA0GCSqGSIb3DQEBCwUAMDgxGjAYBgNVBAMMEXd3dy5lbXBvbGkuZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MjQxMDQxMDFaFw0zMDA2MjIxMDQxMDFaMDgxGjAYBgNVBAMMEXd3dy5lbXBvbGkuZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJIslmB6UQtYweuW0Ynk3ltUBz33t2TdKiyTIm+ZXcn9C4fVrBDRSMleu+yrxAXssIpEsNCMbwu6D6JQ2CUBK4kNRabo59bJ1XbQtkaazJo4wCrioDHT6ulRNrjgSENSpBjUyNm4JhFu1ElEYrJ60krH7zemGKauLMUFM8hxF54cykyLQU+LFi6Xx7144sDJ9oHq02jSrVpXUHsW/0NBl7kAxH88+aFhMNUnxslS2xQV6eNv0bfKo/tH4+Miry0uKIWMyeWGtpERVBGkJPdIPOXaQJE3JhJoDbg9A19GHgyG71XyNLRucKvTsir4TacXeJ7dixMs3wJlaYiC8QJ61cCAwEAAaNQME4wHQYDVR0OBBYEFK3WBqQvOKcyIQh2rFWQ0MDAAhmPMB8GA1UdIwQYMBaAFK3WBqQvOKcyIQh2rFWQ0MDAAhmPMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADLuyTnw8Ea7qcTIAYyIqtfQ4yAt3P7cc4PJ2PIaHoIy1dCCiij8kTtrzHW2+2fsL/wCzw8wxKRAlHqP/YLCCR/CkAXH+n8ePrJ3l/8XtO3mY50RBce5vL/O9Xao8wUNqG25el4Y9cR0V9soSvXfL4mVwVbccVN6gWiBpNgpY0u6vHBoq0CmJSl+2NJ3WwqzgwMXywNUtjwSlUxtvYNytB0PpNXuXrD75YOSHvSG26fQrDhCIE8IcU3G9IqQ6GoRhzVgfG4MC4FMcJTCU/ni2Jdd6s9JynKBj+OFYkKHP1aXlPDTcOfnch8WUb1hAU7EdhRNoIErD/DEsJ26HPh3JPU=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDQzCCAiugAwIBAgIJANT9MqT3CJ85MA0GCSqGSIb3DQEBCwUAMDgxGjAYBgNVBAMMEXd3dy5lbXBvbGkuZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDAeFw0yMDA2MjQxMDQxMDFaFw0zMDA2MjIxMDQxMDFaMDgxGjAYBgNVBAMMEXd3dy5lbXBvbGkuZ292Lml0MQ0wCwYDVQQLDARTUElEMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJIslmB6UQtYweuW0Ynk3ltUBz33t2TdKiyTIm+ZXcn9C4fVrBDRSMleu+yrxAXssIpEsNCMbwu6D6JQ2CUBK4kNRabo59bJ1XbQtkaazJo4wCrioDHT6ulRNrjgSENSpBjUyNm4JhFu1ElEYrJ60krH7zemGKauLMUFM8hxF54cykyLQU+LFi6Xx7144sDJ9oHq02jSrVpXUHsW/0NBl7kAxH88+aFhMNUnxslS2xQV6eNv0bfKo/tH4+Miry0uKIWMyeWGtpERVBGkJPdIPOXaQJE3JhJoDbg9A19GHgyG71XyNLRucKvTsir4TacXeJ7dixMs3wJlaYiC8QJ61cCAwEAAaNQME4wHQYDVR0OBBYEFK3WBqQvOKcyIQh2rFWQ0MDAAhmPMB8GA1UdIwQYMBaAFK3WBqQvOKcyIQh2rFWQ0MDAAhmPMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADLuyTnw8Ea7qcTIAYyIqtfQ4yAt3P7cc4PJ2PIaHoIy1dCCiij8kTtrzHW2+2fsL/wCzw8wxKRAlHqP/YLCCR/CkAXH+n8ePrJ3l/8XtO3mY50RBce5vL/O9Xao8wUNqG25el4Y9cR0V9soSvXfL4mVwVbccVN6gWiBpNgpY0u6vHBoq0CmJSl+2NJ3WwqzgwMXywNUtjwSlUxtvYNytB0PpNXuXrD75YOSHvSG26fQrDhCIE8IcU3G9IqQ6GoRhzVgfG4MC4FMcJTCU/ni2Jdd6s9JynKBj+OFYkKHP1aXlPDTcOfnch8WUb1hAU7EdhRNoIErD/DEsJ26HPh3JPU=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/empoli"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/empoli" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/empoli" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/empoli" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Empoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Empoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Empoli</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Empoli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Empoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Empoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Empoli</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Empoli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.empoli.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.empoli.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.empoli.gov.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.empoli.gov.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

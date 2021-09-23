@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<md:EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spidgw.corteconti.it/spid" ID="_8e0804ca3a321d05db65a7ead855f63fd44ctr62">
+                <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                        <ds:Reference URI="#_8e0804ca3a321d05db65a7ead855f63fd44ctr62">
+                                <ds:Transforms>
+                                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                                </ds:Transforms>
+                                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                <ds:DigestValue>J7T/MzxjVJFi5ELHi448pp2SDtFd/CQdq6WajWVGgNY=</ds:DigestValue>
+                        </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue>WKh11BiT0R/rhKQ0f/1jY/YFqFUPyFz9V/I/TZn7c4tULdd3S8eg1noKANSlwQ3Z
+Ahcx1IuSrd9zjv8CPYJgSGpUGolaMSKrNCqYtMWuV/FMC+q1Gy1sTPDqNZ9SSYdn
+wVkZS5a2Nlampo6slhQKUetMn57zeLXLitCEK4nt+MbzRdg7SakJaUxcU5KVhanx
+ce9nfzCtvk5Nmg+fNmlosjjnw1RzRL75f9qOILtjYm0v20V10D7OrGueMCVe6765
+5VPAR8he9l5Ce5ey47tWi+S7ygt9nVuwgRGWNAVK2CXH9HNp88YUUnaXu09Xy9SQ
+dFer5WO5ZVjFBS1XdDrbsA==</ds:SignatureValue>
+                <ds:KeyInfo>
+                        <ds:X509Data>
+                                
+					    <ds:X509Certificate>MIIHbDCCBVSgAwIBAgIUGwIvvDov6Fe5DgKdRpB07gHa5eUwDQYJKoZIhvcNAQEL
+BQAwgZIxCzAJBgNVBAYTAklUMRgwFgYDVQQKDA9JbmZvQ2VydCBTLnAuQS4xIzAh
+BgNVBAsMGldTQSBUcnVzdCBTZXJ2aWNlIFByb3ZpZGVyMRQwEgYDVQQFEwswNzk0
+NTIxMTAwNjEuMCwGA1UEAwwlSW5mb0NlcnQgT3JnYW5pemF0aW9uIFZhbGlkYXRp
+b24gQ0EgMzAeFw0yMDAyMDcwODQ2MzNaFw0yMTAyMDcwMDAwMDBaMIGQMQswCQYD
+VQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEvMC0GA1UECwwm
+RGlyZXppb25lIEdlbmVyYWxlIFNpc3RlbWkgSW5mb3JtYXRpdmkxGDAWBgNVBAoM
+D0NPUlRFIERFSSBDT05USTEYMBYGA1UEAwwPKi5jb3J0ZWNvbnRpLml0MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtHW+ZUTy6oaZBrtIKFD/pM3Rs0SO
+fxelf09juvnV7rHGPGNlUo7GQzkonCdrsY3i8f8JSkjgStyxy5rZGpXlPxVVoc7V
+sfHJBQ5BhDKpEKzifXA0ETEyPv8uHJ+D52ZG+UtFtWftjYqyuEyVKGCWz5bnk76r
+2/10TnYryPGPLevaC47M33lWCTkZS2UAMZvNiXxEiZYWsiuEGGH36pJCWsWjX6BW
+wC+3M2ZVRDsGJmNMjMAiuHXTculyiUkOiEjbEqUiMAu+7rNkV5qkeONpILq1nFW7
+twwv44my6IziPmWCZVAlp/COM7f0mAsWZ0WD9M0V62O6Fqrz1z/QFWQOywIDAQAB
+o4ICuDCCArQwcQYIKwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8vb2Nz
+cC5vdmNmLmNhMy5pbmZvY2VydC5pdDAzBggrBgEFBQcwAoYnaHR0cDovL2NlcnQu
+aW5mb2NlcnQuaXQvY2EzL292Y2YvQ0EuY3J0MDoGA1UdHwQzMDEwL6AtoCuGKWh0
+dHA6Ly9jcmwuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ1JMMDEuY3JsMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjBvBgNVHSAEaDBmMAgGBgQAj3oBBzAIBgZn
+gQwBAgIwUAYHK0wkAQETAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3LmZpcm1h
+LmluZm9jZXJ0Lml0L2RvY3VtZW50YXppb25lL21hbnVhbGkucGhwMA4GA1UdDwEB
+/wQEAwIFoDAaBgNVHREEEzARgg8qLmNvcnRlY29udGkuaXQwggEFBgorBgEEAdZ5
+AgQCBIH2BIHzAPEAdwD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAA
+AXAe0nvXAAAEAwBIMEYCIQD3TBYtJUvKDmMVruIU6VnuS2tZ37YQ62dB3J9wAR+e
+1gIhAPuSkOwhbk7wE9LvRLagua6d0RnebUtgqOzJzp9uM+lIAHYARJRlLrDuzq/E
+QAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFwHtKBzgAABAMARzBFAiASE9gE3mQX
+QiuRTekYU2nLpwrHutaEjRlM+oT0sdT4CwIhALFGM7ufY8dntYkmEQJfW9PC+UXs
+06NkW/lFABG/G4kCMB8GA1UdIwQYMBaAFF8Ou7nPR5IMJjRWBb/cnZ4YvcklMB0G
+A1UdDgQWBBSJqHc235h5+ceRIt/OmIxRzbaq1TANBgkqhkiG9w0BAQsFAAOCAgEA
+fiyaeaiLxWSwkNJ/R//UgBiwNTKPZj723Bxa5P4Ixx5Z6Bm7ZB+RE/YDHG29WKuJ
+f21t+ZkRFe8Sh5t0eD9iqS961u8zr4vwP4rf2KVNkFB9JIz9w1j5eW1XTGfeOXpy
+1CCCO+zvF81gG8r5jcLkZzDXsFBTOS1z+wDdynG5uizpj0/dX95hEhOMQu0TIXnf
+9Dvic6ZzE0MzZIty47m/r0kief0JGy8U4TdQU/OT7grAsNCj8D3Nxp+thNzDQ95A
+aQnGiKl48vagc6yiUh8LWEFxjGzFsTGc7/Y4KFhETJXwHLSXszKanw+Cfs+pG13c
+oXyb5uXc1ud+IXwVhtHoZHIyONl+E3Kat5qn0H7+6s6GmkI8joe+D6EareUL6GiJ
+PlFhf+m5WmT5kSIuK2lu5XLjJZELQ5XHdaGXkD7nXMC/WNvy8nNB0t31SOi2IVS4
+z/kXojNcY6wxVkLLlSrDMxnqbTwrUdqycb4QQomfcGsXGAKdXBHNOSWPo8p7kqoo
+dQAmCq038V+n7BWbs+SkkWTur8t8oIzhXtPzomIeNbFe/7tcDB2H/RwCndct8kr+
+xsqOecvd1YNC+DTrfg4TJBT8Hn481WL9hMkzgnSFp4B2hdUl72lwcFEb1xkGAiyF
+kO47XW7l7bqj3kqwNNsZskdFhbvaV/Np3Il8yYQoHwI=</ds:X509Certificate>
+</ds:X509Data>
+                </ds:KeyInfo>
+        </ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIHajCCBVKgAwIBAgIUMbcakaDV/OnxZ3yGMxpY+3kFrWEwDQYJKoZIhvcNAQELBQAwgZIxCzAJ
+BgNVBAYTAklUMRgwFgYDVQQKDA9JbmZvQ2VydCBTLnAuQS4xIzAhBgNVBAsMGldTQSBUcnVzdCBT
+ZXJ2aWNlIFByb3ZpZGVyMRQwEgYDVQQFEwswNzk0NTIxMTAwNjEuMCwGA1UEAwwlSW5mb0NlcnQg
+T3JnYW5pemF0aW9uIFZhbGlkYXRpb24gQ0EgMzAeFw0xOTExMTgwODQ5MDhaFw0yMDExMTgwMDAw
+MDBaMIGQMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEvMC0GA1UE
+CwwmRGlyZXppb25lIEdlbmVyYWxlIFNpc3RlbWkgSW5mb3JtYXRpdmkxGDAWBgNVBAoMD0NPUlRF
+IERFSSBDT05USTEYMBYGA1UEAwwPKi5jb3J0ZWNvbnRpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAwyKtyNm12I0NZZYv/t/BtDMe+uBxpISY/qopeabNoCVjqRo3XWbuOO2DmCBG
+tQT5sS70BlBBMj9vCPLttbYRtAeQaYVszzKnD/ntqCecFr7wVdYZovI38dxqlqccz3N7OcW/CoQy
+rS7RJnVH1HTa3mmmUVycqEqx6GnSKTz4nWoNZrOXvfmc5hmwCZ+iPMIuDVD00BYZWWRc5rcm17dE
+fTRPQOOHPa9FuGI8vK5BQznLe8k2tgWJ9vcWhjgHMgosQFBnmCvH3SLh7DFP3+x0l5FPf4ALrV7F
++HG6vCnWxfSJFysNeIBqIw+j4HZVw0IF6FqQ5UbHufg74oyPF7tJZQIDAQABo4ICtjCCArIwcQYI
+KwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8vb2NzcC5vdmNmLmNhMy5pbmZvY2VydC5p
+dDAzBggrBgEFBQcwAoYnaHR0cDovL2NlcnQuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ0EuY3J0MDoG
+A1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jcmwuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ1JMMDEuY3Js
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBvBgNVHSAEaDBmMAgGBgQAj3oBBzAIBgZn
+gQwBAgIwUAYHK0wkAQETAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3LmZpcm1hLmluZm9jZXJ0
+Lml0L2RvY3VtZW50YXppb25lL21hbnVhbGkucGhwMA4GA1UdDwEB/wQEAwIFoDAaBgNVHREEEzAR
+gg8qLmNvcnRlY29udGkuaXQwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdgC72d+8H4pxtZOUI5eq
+kntHOFeVCqtS6BqQlmQ2jh7RhQAAAW59sbXIAAAEAwBHMEUCICQPv5ie0lgZB2fZZ8iZ1GDFtWFT
+C+XDxWg1eV19Mo6FAiEA2l4okqXoei1UmxSIAeVY4Fi0eem8/IBTnPc0rQD0ldUAdQBep3P531bA
+57U2SH3QSeAyepGaDIShEhKEGHWWgXFFWAAAAW59sbYEAAAEAwBGMEQCIE3IiI0UoVFZgJLdAd35
+4BNOgb8vNMCtUDZ5qSsif+gKAiBhaZzQGF1mjTFkn+xS8E+Ina0qfU4jaDRKKdbZY/2oLDAfBgNV
+HSMEGDAWgBRfDru5z0eSDCY0VgW/3J2eGL3JJTAdBgNVHQ4EFgQUQ/Mhj9DLgDhDNVgSa5XDVR7l
+1CowDQYJKoZIhvcNAQELBQADggIBADmgTHTsyFjeGCNUKA98UrcKyRJGQ/JWkb+aS714yuawe06C
+TKpzpgKrQkDnsJL89Pa800JZQnEae1x7jMsu2NaqMXO3K5HpZ1LStD5TTLXME5A5MD1uf+Y4gTBU
+TsCDqHX7nIsHU2/yNU+K1QqpiTS8/yMSTBfhAj3JmJpEhimhxZePwnjnXZwHZqdnGaFabiXb+FgW
+pbrIJztWBPB2BY9Tdr6QL+MoIz/uxoJt9PjLXhL1/Oal6U3rw4TLqjWfwKulVijTW0gTxeLfU/rJ
+tRIqrZ9bbHX04UkQstf3oFMgIE7UheHc3aFAzA1V08RHPHL0hGeQVsUTKuUogxqAi2CzMdr9cgwi
+2ur6Na96mBierNjAJJ3UQvT94hZvTxatpsb4YDKnig+nbM8SIfbsO/yqJeEg379qpnxtzygZ6kLT
+1uyUTjgsGTA7Nb8oEOnobpp18KSK0hJMeOPiJXRPcF7mAfxG6irAhDlpCXP26IdmOAVxvzGkvWgi
+xLbUfj8rTuhH+srYuw+dN3fXG/ovzjPIOMvblFKXpRZgpgK+Jb5I01JQu1gvIkBBIaVHkBa3WMoE
+tL5FkeJwOHCnfcssCTciYLZi8JHBizlaGPKc2GX2anHzfRGpocjebpNAPnIyn/j+/r8nk6JhduQR
+dbZYNs49Bh9g6glAmfBAKCWWIH+X
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIHbDCCBVSgAwIBAgIUGwIvvDov6Fe5DgKdRpB07gHa5eUwDQYJKoZIhvcNAQEL
+BQAwgZIxCzAJBgNVBAYTAklUMRgwFgYDVQQKDA9JbmZvQ2VydCBTLnAuQS4xIzAh
+BgNVBAsMGldTQSBUcnVzdCBTZXJ2aWNlIFByb3ZpZGVyMRQwEgYDVQQFEwswNzk0
+NTIxMTAwNjEuMCwGA1UEAwwlSW5mb0NlcnQgT3JnYW5pemF0aW9uIFZhbGlkYXRp
+b24gQ0EgMzAeFw0yMDAyMDcwODQ2MzNaFw0yMTAyMDcwMDAwMDBaMIGQMQswCQYD
+VQQGEwJJVDENMAsGA1UECAwEUm9tYTENMAsGA1UEBwwEUm9tYTEvMC0GA1UECwwm
+RGlyZXppb25lIEdlbmVyYWxlIFNpc3RlbWkgSW5mb3JtYXRpdmkxGDAWBgNVBAoM
+D0NPUlRFIERFSSBDT05USTEYMBYGA1UEAwwPKi5jb3J0ZWNvbnRpLml0MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtHW+ZUTy6oaZBrtIKFD/pM3Rs0SO
+fxelf09juvnV7rHGPGNlUo7GQzkonCdrsY3i8f8JSkjgStyxy5rZGpXlPxVVoc7V
+sfHJBQ5BhDKpEKzifXA0ETEyPv8uHJ+D52ZG+UtFtWftjYqyuEyVKGCWz5bnk76r
+2/10TnYryPGPLevaC47M33lWCTkZS2UAMZvNiXxEiZYWsiuEGGH36pJCWsWjX6BW
+wC+3M2ZVRDsGJmNMjMAiuHXTculyiUkOiEjbEqUiMAu+7rNkV5qkeONpILq1nFW7
+twwv44my6IziPmWCZVAlp/COM7f0mAsWZ0WD9M0V62O6Fqrz1z/QFWQOywIDAQAB
+o4ICuDCCArQwcQYIKwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8vb2Nz
+cC5vdmNmLmNhMy5pbmZvY2VydC5pdDAzBggrBgEFBQcwAoYnaHR0cDovL2NlcnQu
+aW5mb2NlcnQuaXQvY2EzL292Y2YvQ0EuY3J0MDoGA1UdHwQzMDEwL6AtoCuGKWh0
+dHA6Ly9jcmwuaW5mb2NlcnQuaXQvY2EzL292Y2YvQ1JMMDEuY3JsMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjBvBgNVHSAEaDBmMAgGBgQAj3oBBzAIBgZn
+gQwBAgIwUAYHK0wkAQETAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3LmZpcm1h
+LmluZm9jZXJ0Lml0L2RvY3VtZW50YXppb25lL21hbnVhbGkucGhwMA4GA1UdDwEB
+/wQEAwIFoDAaBgNVHREEEzARgg8qLmNvcnRlY29udGkuaXQwggEFBgorBgEEAdZ5
+AgQCBIH2BIHzAPEAdwD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAA
+AXAe0nvXAAAEAwBIMEYCIQD3TBYtJUvKDmMVruIU6VnuS2tZ37YQ62dB3J9wAR+e
+1gIhAPuSkOwhbk7wE9LvRLagua6d0RnebUtgqOzJzp9uM+lIAHYARJRlLrDuzq/E
+QAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAFwHtKBzgAABAMARzBFAiASE9gE3mQX
+QiuRTekYU2nLpwrHutaEjRlM+oT0sdT4CwIhALFGM7ufY8dntYkmEQJfW9PC+UXs
+06NkW/lFABG/G4kCMB8GA1UdIwQYMBaAFF8Ou7nPR5IMJjRWBb/cnZ4YvcklMB0G
+A1UdDgQWBBSJqHc235h5+ceRIt/OmIxRzbaq1TANBgkqhkiG9w0BAQsFAAOCAgEA
+fiyaeaiLxWSwkNJ/R//UgBiwNTKPZj723Bxa5P4Ixx5Z6Bm7ZB+RE/YDHG29WKuJ
+f21t+ZkRFe8Sh5t0eD9iqS961u8zr4vwP4rf2KVNkFB9JIz9w1j5eW1XTGfeOXpy
+1CCCO+zvF81gG8r5jcLkZzDXsFBTOS1z+wDdynG5uizpj0/dX95hEhOMQu0TIXnf
+9Dvic6ZzE0MzZIty47m/r0kief0JGy8U4TdQU/OT7grAsNCj8D3Nxp+thNzDQ95A
+aQnGiKl48vagc6yiUh8LWEFxjGzFsTGc7/Y4KFhETJXwHLSXszKanw+Cfs+pG13c
+oXyb5uXc1ud+IXwVhtHoZHIyONl+E3Kat5qn0H7+6s6GmkI8joe+D6EareUL6GiJ
+PlFhf+m5WmT5kSIuK2lu5XLjJZELQ5XHdaGXkD7nXMC/WNvy8nNB0t31SOi2IVS4
+z/kXojNcY6wxVkLLlSrDMxnqbTwrUdqycb4QQomfcGsXGAKdXBHNOSWPo8p7kqoo
+dQAmCq038V+n7BWbs+SkkWTur8t8oIzhXtPzomIeNbFe/7tcDB2H/RwCndct8kr+
+xsqOecvd1YNC+DTrfg4TJBT8Hn481WL9hMkzgnSFp4B2hdUl72lwcFEb1xkGAiyF
+kO47XW7l7bqj3kqwNNsZskdFhbvaV/Np3Il8yYQoHwI=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spidgw.corteconti.it/spid/SPSloRedirect/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPSloRedirect/metaAlias/sp"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw.corteconti.it/spid/SPSloPOST/metaAlias/sp" ResponseLocation="https://spidgw.corteconti.it/spid/SPSloPOST/metaAlias/sp"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spidgw.corteconti.it/spid/SPSloSoap/metaAlias/sp"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidgw.corteconti.it/spid/Consumer/metaAlias/sp"/>
+                <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Servizi Corte dei Conti</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+                </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+        <md:Organization>
+                <md:OrganizationName xml:lang="it">Corte dei Conti</md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it">Corte dei Conti</md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it">http://www.corteconti.it</md:OrganizationURL>
+        </md:Organization>
+		   <md:ContactPerson contactType="other">
+              <md:Extensions>
+                  <spid:IPACode>cdc</spid:IPACode>
+		     	  <spid:Public/>
+              </md:Extensions>
+                   <md:EmailAddress>dgsia.centrounicoservizi@corteconti.it</md:EmailAddress>
+           </md:ContactPerson>	       
+</md:EntityDescriptor>
+

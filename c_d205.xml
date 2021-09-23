@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="id20deacec9c8f4b19bd299b916acd7e6d" entityID="https://spid.comune.cuneo.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#id20deacec9c8f4b19bd299b916acd7e6d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>67eXTV2SctnP98NDu2OUd+AFCN3pStH9ao9J6wZjITA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ceBuWY/liAq2Si/A46CD/w3OZm2C3uc0wTY1czcJ9hvAockf2GGZ3lIGO2ZPJNxv3BpnItUjtl0u
+3AuFK9J4E6oSht3T2KXQpZFdopFUYTXHiyB7IbmgNIihfNPKp2bz9m1S6iLNN9bRsgIF1D2sp3uX
+02tIXDNgaGicaYj1hTOecRXVREzSFWCPQmBLWZ5i8ro7u4baXZH5rfIapvKkvFWEuNIOeoUBjpWB
+Dy7yq7wCrzzBqm8pRM1PLisOt9i5VCivojIi0g4vUTDJIv6GDHcflUC8Q2oh1CENCWbyqU8DKDZb
+ly/PRaNWpIvVEesckoZ3ASouIJw/SUBisd4ukJEd18d8AQLaghg1excY/N3pauwTZkzLwYmcF3FK
+xizkGh+tZIzIgKgVCpTpe5uo37yhnbN2XjiISaJZo2feXqANdufFuArok/yeGBO5mIHlYTELENQS
+BmiySGlRbrfc+gOxjPaam/w5OlOYa3z/c3/P20psDWIcpIRed53Fy9X1KTLeAbctVppsvpbzXy38
+ohh+s5fOaDkMs9Y847IzHXDkh+b0hgbTdLmJhaHaAX1LlQgnRrLADCSlDn6dgd2dBjNCLoKP1Fkm
+wW7uWR7LkTqFDfdB0ObACsu4t8EEfMhUAArybb2M6YNKPWyb1QdBiSvGM95zV9FaFBYannbEnUA=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xPzj0fzYn6ZOdG/hDTjdtyGzD+Q6+PnMTlESa4q/WkoPTBYVhnwypVmg/wRYS1Fb6jkySaUCb1bk
+dpERCx/TG1h+iNhO7/zKjT3oljxR05zXvrdp92R167kKT8TYrI7I3fni0AsrTXeElLA221fxbpkc
+kuoTIRQPs8Kc3QRbjhY+n5Te4jVNEDLKz29cup73jGBL+2U0xOxlyWfHWB6LOacFMZZZKw8x6EGC
+4BFnvBND1nE6YsGYkGX9mO3rAkwi+Iy2CggaKqBxrjLGb5pNCIh9/jWISS561vOkd5VT/q0Nk7QY
+1CuHZdoUWvH59oYK69xHOj6hR/L0y0jb7LWduAeZRfMkltrt6szEha+FFaJvYEKbfn9pApEyFW+1
+1kVmBv+th6INabD4Rmgnng+2hhMIAD4werW9IUVS11N4R2Iq6RgP6jk8FVM3SrngV9+Gu8GSRFgk
+obYbm/UqBn4DO3V4b3eQkvg+zC2RmrWleHR9W0/ydUZHK+T4iLl8hfKw+CQ6O3DWFLmVHhWRpwqv
+DYqt5+byjgMImxSFHUrPtcxNPVpckstvYm54RZgsQvCX+/aUlKWPllV11Lh1W6jCEwv3Qq/PLGA/
+kWeEcehFH1IigYOpNgSFpAMciagyD73OjQoVJqvVKF+Qvr/Sa5nr7jGorryZnB/cs8yURd4LOuM=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGLDCCBBSgAwIBAgIJANFJW1toiStpMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFQ3VuZW8xDjAMBgNVBAcMBUN1bmVvMRgwFgYDVQQKDA9Db211bmUgZGkgQ3VuZW8x
+DTALBgNVBAsMBFNwaWQxHTAbBgNVBAMMFHNwaWQuY29tdW5lLmN1bmVvLml0MTMwMQYJKoZIhvcN
+AQkBFiRwcm90b2NvbGxvLmNvbXVuZS5jdW5lb0BsZWdhbG1haWwuaXQwHhcNMTcwNTAyMTAzMTA3
+WhcNMjAwNTAxMTAzMTA3WjCBqjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUN1bmVvMQ4wDAYDVQQH
+DAVDdW5lbzEYMBYGA1UECgwPQ29tdW5lIGRpIEN1bmVvMQ0wCwYDVQQLDARTcGlkMR0wGwYDVQQD
+DBRzcGlkLmNvbXVuZS5jdW5lby5pdDEzMDEGCSqGSIb3DQEJARYkcHJvdG9jb2xsby5jb211bmUu
+Y3VuZW9AbGVnYWxtYWlsLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxPzj0fzY
+n6ZOdG/hDTjdtyGzD+Q6+PnMTlESa4q/WkoPTBYVhnwypVmg/wRYS1Fb6jkySaUCb1bkdpERCx/T
+G1h+iNhO7/zKjT3oljxR05zXvrdp92R167kKT8TYrI7I3fni0AsrTXeElLA221fxbpkckuoTIRQP
+s8Kc3QRbjhY+n5Te4jVNEDLKz29cup73jGBL+2U0xOxlyWfHWB6LOacFMZZZKw8x6EGC4BFnvBND
+1nE6YsGYkGX9mO3rAkwi+Iy2CggaKqBxrjLGb5pNCIh9/jWISS561vOkd5VT/q0Nk7QY1CuHZdoU
+WvH59oYK69xHOj6hR/L0y0jb7LWduAeZRfMkltrt6szEha+FFaJvYEKbfn9pApEyFW+11kVmBv+t
+h6INabD4Rmgnng+2hhMIAD4werW9IUVS11N4R2Iq6RgP6jk8FVM3SrngV9+Gu8GSRFgkobYbm/Uq
+Bn4DO3V4b3eQkvg+zC2RmrWleHR9W0/ydUZHK+T4iLl8hfKw+CQ6O3DWFLmVHhWRpwqvDYqt5+by
+jgMImxSFHUrPtcxNPVpckstvYm54RZgsQvCX+/aUlKWPllV11Lh1W6jCEwv3Qq/PLGA/kWeEcehF
+H1IigYOpNgSFpAMciagyD73OjQoVJqvVKF+Qvr/Sa5nr7jGorryZnB/cs8yURd4LOuMCAwEAAaNT
+MFEwHQYDVR0OBBYEFETn0WLT3Vnw6w7ZzyMqB2xdKETKMB8GA1UdIwQYMBaAFETn0WLT3Vnw6w7Z
+zyMqB2xdKETKMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBABwrNocBZNHMOLwu
+oAeF6FriqFRMdTsacnUWsOW0XWbn6uXaAKoYi5ko1h6oHhHuCRlU9EH/eBo666+sxZY0/YPFgIaF
+UMCqtoqr2kWpxV9YJbQ4gAxUg2DDOQQi9P7mfIqB1CGrAhjApppzTjDnbDKLYu+10vlSl7P+z1aI
+YoMTcvW9AkTjrsAR4hPlaBxAdRslbz5yisOytq2aiFnUpU1upTZQ88Rhqojsw76aZw1byKxNpI9F
+Z9M5MQi93APqP27oB5jGb75KHBUL+44Yf3zEFbVWwBCShzZILIgZfgUVCzJsftn8y1YZAKnz95Wq
+rBx1M5ZcLoHQ0iOLA5O53PDmIn82Xd285d/gASZyRtjp62jXr9zfo8436GG9BpV/U57N1anNVRrj
+5LaTmzt90zkyK9K2H/OQFmenqbYb798ESS4pRZ9b/iUmugvZYQwAgCCBZ6OePbfmY25ORQ2c5EoP
+BEsLFy2mrZlVP/1GiWDl0qs3o0GY5UvVCfZSS83RpSCywTjEuWACbHVZC1IAkcHc3yAXlarNkQO6
+Z2sr5jVlzWFSEv9+HUtH0ASohCmfu1iyXdag3oTqZXq21p16zf3b/wM+MzQUcP2QRNkE9/Ly2SBh
+niBSDfj7+J8wavenEBkxtPSfs7m1HNoD/MQX7rIsisny3O1CU6HrSC1qMejv
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<KeyDescriptor use="signing">
+			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<X509Data>
+					<X509Certificate>MIIEvDCCA6SgAwIBAgIJAOtv5H8tl1zFMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJJVDELMAkGA1UECAwCQ04xDjAMBgNVBAcMBUN1bmVvMSAwHgYDVQQKDBdUZWNobmljYWwgRGVzaWduIHMuci5sLjEXMBUGA1UEAwwOU1BJRCBwYS1vbmxpbmUxJjAkBgkqhkiG9w0BCQEWF2luZm9AdGVjaG5pY2FsZGVzaWduLml0MB4XDTE5MTAxNjE1NTI0NFoXDTI5MTAxMzE1NTI0NFowgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCz2V+VQGmTjfcJUXxmcrhQVrjP1Ky6QSIBWAM26nM8LYYnaEqdmxr+W78EoaFDEWpEuBFdTddI2R3t3eXGkI9+XJWJyj37PyN+rLV2qB+KedZfqoWCxBwZqc1H5dfp/6Ds4XmKy+5ofyMSx+AP8YMmBpl6EeZAUeIPg6jWzyv53x49cHh4ZrvsR6gj6by4NuoxA/L2fYnQfASZT/2CSUnbRfH5efc5VO2+lsmnJR7LvwRcKibVl2o0Et8xNb7VlHsBGeyc0vN25JpCPN2c1I6GBoU3IcYMgDu8cuhYz8Wzx36c2XKdsyBPVr9e11PFFa0SMkW9CcLfxP2JWq36LNxLAgMBAAGjggEbMIIBFzAdBgNVHQ4EFgQU/xzLETsYvPQDRNKQ4ibpBAgcvvYwgcIGA1UdIwSBujCBt4AU/xzLETsYvPQDRNKQ4ibpBAgcvvahgZOkgZAwgY0xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJDTjEOMAwGA1UEBwwFQ3VuZW8xIDAeBgNVBAoMF1RlY2huaWNhbCBEZXNpZ24gcy5yLmwuMRcwFQYDVQQDDA5TUElEIHBhLW9ubGluZTEmMCQGCSqGSIb3DQEJARYXaW5mb0B0ZWNobmljYWxkZXNpZ24uaXSCCQDrb+R/LZdcxTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEApMq0LG3RZ1u+9+5cgSelQqgNvmen5rXRUFD8z5H//b2i3ssG2y+UYc8D04PB7BialHLqQ52iV0+n0MyDKQndi+cm10Ti/6LS8tqWmFtazJKDzxaHS2OV0+FYccNFW3RP40QK7dsHN5K7N73TegPYvxXLrDl5jJ7kjba/Ob3968cVnPtw6HdmRghlCTRKq7MSK5sK261/Zh4bCPEDQCOURXfmroZFEo+GNu3IvyjU2xH5yAi4Dk6mzm22BISY1ZEwhgkpvSIz7uOv0QjvrsXmpbONIeJveLX5NY4yb1deUHJ4BPXYR1zF/qIvnK/hKj9UaBAS9+Z3GBENAqbswMW85Q==</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</KeyDescriptor>
+		<KeyDescriptor use="signing">
+			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<X509Data>
+					<X509Certificate>MIIDRzCCAi+gAwIBAgIJAOFyyOVkGCiTMA0GCSqGSIb3DQEBCwUAMDoxHDAaBgNVBAMME3d3dy5jb211bmUuY3VuZW8uaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MTIwMjA4Mzg1MVoXDTI4MTEyOTA4Mzg1MVowOjEcMBoGA1UEAwwTd3d3LmNvbXVuZS5jdW5lby5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR66VMd81pIJ1tmlVlEoAklwCWF+V8mppVJlCSc2x1VjwVgQKmILPr4nF9a8mkGLKQpLzveSNVuFbDxJpGtspgCNVwYjd5QMnHK/MMwNHygnu9ecyy/fk/sVzaDLol5w55UCn+qNCCO4AEaUiKfTeGoslRswCaQsK8QLahyU5NLCXl1y2uYalsBJAYY7Sw+GmIDP3NTxRaHUoVAz8tbNA7XKKm8VWe0fODZ9FLQJwsN5eELwnI0dK4aWVZLNmFr0H2fjgkhEAKSEPZc47r+ipxNQr2sbENdIgQl0mgM/5C0Nux91V7FM3ve+xkulkv62fBI+WWNoalyGlC+SH9oy4LAgMBAAGjUDBOMB0GA1UdDgQWBBRLoenYPQcsEMGxCQCCJF7LxkFcFDAfBgNVHSMEGDAWgBRLoenYPQcsEMGxCQCCJF7LxkFcFDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCYVx5mZ04z8kDODu9sGpTML7gDrRy/28RKW9OgkOY0iUVL20GlzITITKrt4orGlTGnhuOBpiLYl4NjExVaxN+Nrep8hh8V9DboF5p6R9r0SIXbFDPGBqSgiwRUjjx8Yq6/5IOrW3xzenDwwdgzov0VYvVnimqkwF8rhY+89Gw8I6S4J4uc7X61li0sMkqTMSGFoWW0IEuRDg95CHGrAUg5bPul8yDCSAPWKdIwoOnTcAAu+cQU2umB6pgyB+/P2ms/gzBZIzjSCpwM+jktVj+8sdOWWLdnk036vXqCMU63d1n5g0KDZJgJoPBR1gBwxdLcycKtf9LN3AR+QBqBs4Wu
+					</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</KeyDescriptor>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML"/>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/cuneo"/>
+		<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true"/>
+		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cuneo" index="1"/>
+		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cuneo" index="2"/>
+		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/cuneo" index="3"/>
+		<AttributeConsumingService index="0">
+			<ServiceName xml:lang="it">Sportello Unico Digitale</ServiceName>
+			<RequestedAttribute Name="fiscalNumber"/>
+			<RequestedAttribute Name="name"/>
+			<RequestedAttribute Name="familyName"/>
+			<RequestedAttribute Name="spidCode"/>
+			<RequestedAttribute Name="email"/>
+			<RequestedAttribute Name="digitalAddress"/>
+		</AttributeConsumingService>
+		<AttributeConsumingService index="1">
+			<ServiceName xml:lang="it">ServiziAvanzati</ServiceName>
+			<RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+			<RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+			<RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+			<RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+			<RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+			<RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+			<RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+			<RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+			<RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+		</AttributeConsumingService>
+		<AttributeConsumingService index="2">
+			<ServiceName xml:lang="it">ServiziBase</ServiceName>
+			<RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+		</AttributeConsumingService>
+		<AttributeConsumingService index="3">
+			<ServiceName xml:lang="it">ServiziSTD</ServiceName>
+			<RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+			<RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+			<RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+		</AttributeConsumingService>
+	</SPSSODescriptor>
+	<Organization>
+		<OrganizationName xml:lang="it">Comune di Cuneo</OrganizationName>
+		<OrganizationDisplayName xml:lang="it">Comune di Cuneo</OrganizationDisplayName>
+		<OrganizationURL xml:lang="it">http://www.comune.cuneo.it</OrganizationURL>
+	</Organization>
+</EntityDescriptor>

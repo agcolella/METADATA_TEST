@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sportellotelematico.comune.sangiorgiobigarello.mn.it/" ID="_278522221f043ab6e07c2e040935cadbaebc78be9c70de1bfcbb3056ca06f18e"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_278522221f043ab6e07c2e040935cadbaebc78be9c70de1bfcbb3056ca06f18e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>+Sp2xgcFANh2Or0IlSltnMK2OY8CPgLgwHtfzCmHzas=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>kdCpr7AZftUExQNC8vteEx8Y7qNL6CsPe1C/w++zbGgoZ69LSF8w2BBo0Hv2s1JORkUr4pPPX3JeHhhX/1/QjHDZwvOohIXZuz0Vo2Bd6OsOm/p/PGbbXS74sy4tEHVDRLCVS6FfgXe82k8vQE86Hh8GQKn92PwdqMOVVFxPTDC9nRqDeuyF+1d5fGcMbpQVOkOlJjDmN853t1FLQMaySEGN+iPKUh+BtwVshkszxAm1v/4nOzQ6q/ttyttKyUZrajZGFIJvFh09e0xjBdbywGxQyb2JXGWM5sIMbAvjnZV52lfdsTEpGv26bTfwRYI+1aZiH1PjpN1dO0g8O0ZT8w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEZjCCA06gAwIBAgIJAITKQIxI73yOMA0GCSqGSIb3DQEBCwUAMIHHMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEeMBwGA1UEBwwVU2FuIEdpb3JnaW8gQmlnYXJlbGxvMSgwJgYDVQQKDB9Db211bmUgZGkgU2FuIEdpb3JnaW8gQmlnYXJlbGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE9MDsGA1UEAww0c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc2FuZ2lvcmdpb2JpZ2FyZWxsby5tbi5pdDAeFw0yMDAzMDIxMDE4MzVaFw0zMDAyMjgxMDE4MzVaMIHHMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEeMBwGA1UEBwwVU2FuIEdpb3JnaW8gQmlnYXJlbGxvMSgwJgYDVQQKDB9Db211bmUgZGkgU2FuIEdpb3JnaW8gQmlnYXJlbGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE9MDsGA1UEAww0c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc2FuZ2lvcmdpb2JpZ2FyZWxsby5tbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKujzGUZazk/GlW9u3hzAdDzQevUqdbUxT31I0Pv1cnc3um4w8/i8G4ONkvFswuXAo7RTsU35+mAeeMw1uO8oUEA2QwoSgfJyHrR8+E/4MzLeazDDNaGTiaEcATMTORBGqq7rEdX9nvFPCokEyBkJLQHJ/KC5ka0lm7WRBtRwl/no1YewN8Ae0bXw9cn0SMN2s0lth3swr/b01N9bUVYm5W8rs4uAUNEuu2CwqWJecNc5bJsAhRBQkTFV+zjg0YgxNymz+9GgbWNamFIUlL0+aDG3IF+Ksm1X4NjqJnh/UG7ILUqhHVoYGuCxe8H4PNzrKLHjBTilF25dUuwhDdZxQkCAwEAAaNTMFEwHQYDVR0OBBYEFOaVH0X/fd8sKPlOrW4XKUsJUbX0MB8GA1UdIwQYMBaAFOaVH0X/fd8sKPlOrW4XKUsJUbX0MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIAEOzNPaTCRPMLT9oAWGFaPhIDGcSuo3V8YVffT50I358H3pojW7JiFJJYDdBM2GL8qswEhkJId7jj8PO8HI09Wy5Q7iqSBe7lgHfBr17huZxk8pk6MPGagddWDI3BUSE2FlLe5xzhWapmALHvvx6OhLgEXVBimBvC4+5nRt7++wUa+pmCNgOVm4To2R0DezhqA+V7O6Epf3lQ9ncK2EdWG9/eJm1MVzTCU3XZ8lhqyjv15Sw+MfoiKmW3qbYffq8ntC++7QF01pJoAUgCB7JLYkp5AzQ9pB6Qn3PcK7F+bGuVxy+zatqQbxara0d445F1GcWSarH6t+ZGeWyG897A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEZjCCA06gAwIBAgIJAITKQIxI73yOMA0GCSqGSIb3DQEBCwUAMIHHMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEeMBwGA1UEBwwVU2FuIEdpb3JnaW8gQmlnYXJlbGxvMSgwJgYDVQQKDB9Db211bmUgZGkgU2FuIEdpb3JnaW8gQmlnYXJlbGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE9MDsGA1UEAww0c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc2FuZ2lvcmdpb2JpZ2FyZWxsby5tbi5pdDAeFw0yMDAzMDIxMDE4MzVaFw0zMDAyMjgxMDE4MzVaMIHHMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEeMBwGA1UEBwwVU2FuIEdpb3JnaW8gQmlnYXJlbGxvMSgwJgYDVQQKDB9Db211bmUgZGkgU2FuIEdpb3JnaW8gQmlnYXJlbGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE9MDsGA1UEAww0c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc2FuZ2lvcmdpb2JpZ2FyZWxsby5tbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKujzGUZazk/GlW9u3hzAdDzQevUqdbUxT31I0Pv1cnc3um4w8/i8G4ONkvFswuXAo7RTsU35+mAeeMw1uO8oUEA2QwoSgfJyHrR8+E/4MzLeazDDNaGTiaEcATMTORBGqq7rEdX9nvFPCokEyBkJLQHJ/KC5ka0lm7WRBtRwl/no1YewN8Ae0bXw9cn0SMN2s0lth3swr/b01N9bUVYm5W8rs4uAUNEuu2CwqWJecNc5bJsAhRBQkTFV+zjg0YgxNymz+9GgbWNamFIUlL0+aDG3IF+Ksm1X4NjqJnh/UG7ILUqhHVoYGuCxe8H4PNzrKLHjBTilF25dUuwhDdZxQkCAwEAAaNTMFEwHQYDVR0OBBYEFOaVH0X/fd8sKPlOrW4XKUsJUbX0MB8GA1UdIwQYMBaAFOaVH0X/fd8sKPlOrW4XKUsJUbX0MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIAEOzNPaTCRPMLT9oAWGFaPhIDGcSuo3V8YVffT50I358H3pojW7JiFJJYDdBM2GL8qswEhkJId7jj8PO8HI09Wy5Q7iqSBe7lgHfBr17huZxk8pk6MPGagddWDI3BUSE2FlLe5xzhWapmALHvvx6OhLgEXVBimBvC4+5nRt7++wUa+pmCNgOVm4To2R0DezhqA+V7O6Epf3lQ9ncK2EdWG9/eJm1MVzTCU3XZ8lhqyjv15Sw+MfoiKmW3qbYffq8ntC++7QF01pJoAUgCB7JLYkp5AzQ9pB6Qn3PcK7F+bGuVxy+zatqQbxara0d445F1GcWSarH6t+ZGeWyG897A=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEZjCCA06gAwIBAgIJAITKQIxI73yOMA0GCSqGSIb3DQEBCwUAMIHHMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEeMBwGA1UEBwwVU2FuIEdpb3JnaW8gQmlnYXJlbGxvMSgwJgYDVQQKDB9Db211bmUgZGkgU2FuIEdpb3JnaW8gQmlnYXJlbGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE9MDsGA1UEAww0c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc2FuZ2lvcmdpb2JpZ2FyZWxsby5tbi5pdDAeFw0yMDAzMDIxMDE4MzVaFw0zMDAyMjgxMDE4MzVaMIHHMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHTWFudG92YTEeMBwGA1UEBwwVU2FuIEdpb3JnaW8gQmlnYXJlbGxvMSgwJgYDVQQKDB9Db211bmUgZGkgU2FuIEdpb3JnaW8gQmlnYXJlbGxvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzE9MDsGA1UEAww0c3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuc2FuZ2lvcmdpb2JpZ2FyZWxsby5tbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKujzGUZazk/GlW9u3hzAdDzQevUqdbUxT31I0Pv1cnc3um4w8/i8G4ONkvFswuXAo7RTsU35+mAeeMw1uO8oUEA2QwoSgfJyHrR8+E/4MzLeazDDNaGTiaEcATMTORBGqq7rEdX9nvFPCokEyBkJLQHJ/KC5ka0lm7WRBtRwl/no1YewN8Ae0bXw9cn0SMN2s0lth3swr/b01N9bUVYm5W8rs4uAUNEuu2CwqWJecNc5bJsAhRBQkTFV+zjg0YgxNymz+9GgbWNamFIUlL0+aDG3IF+Ksm1X4NjqJnh/UG7ILUqhHVoYGuCxe8H4PNzrKLHjBTilF25dUuwhDdZxQkCAwEAAaNTMFEwHQYDVR0OBBYEFOaVH0X/fd8sKPlOrW4XKUsJUbX0MB8GA1UdIwQYMBaAFOaVH0X/fd8sKPlOrW4XKUsJUbX0MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIAEOzNPaTCRPMLT9oAWGFaPhIDGcSuo3V8YVffT50I358H3pojW7JiFJJYDdBM2GL8qswEhkJId7jj8PO8HI09Wy5Q7iqSBe7lgHfBr17huZxk8pk6MPGagddWDI3BUSE2FlLe5xzhWapmALHvvx6OhLgEXVBimBvC4+5nRt7++wUa+pmCNgOVm4To2R0DezhqA+V7O6Epf3lQ9ncK2EdWG9/eJm1MVzTCU3XZ8lhqyjv15Sw+MfoiKmW3qbYffq8ntC++7QF01pJoAUgCB7JLYkp5AzQ9pB6Qn3PcK7F+bGuVxy+zatqQbxara0d445F1GcWSarH6t+ZGeWyG897A=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.sangiorgiobigarello.mn.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.sangiorgiobigarello.mn.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">stu</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Sportello Telematico Unificato</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">c_h883</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">c_h883</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Giorgio Bigarello</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Giorgio Bigarello</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://sportellotelematico.comune.sangiorgiobigarello.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://sportellotelematico.comune.sangiorgiobigarello.mn.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

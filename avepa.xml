@@ -1,0 +1,147 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_abr16rh65c35a2846z2uy286hj375846x19475ur" entityID="https://wso2.avepa.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_abr16rh65c35a2846z2uy286hj375846x19475ur">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>p5dxa8qUTH+pLx2nFH6d2exGZyoH/J9fK4vL4ef8Jyo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+AzKbH4Ghuxq8ih0J+hrr1zAnG1TU/L4okhJAbz4xpRpFlQKPMur81HWqCS3O4WUroGOFgFmK08fa
+4hLYuj1hxaeE73pgxGSA2QPwNcQt06JYEKJtDlwfG3C+HLtZbaB5mrU1Ma4ZvEWaf1GVBvtbxoOl
+ykO3nm4tN82Z4C0fDwBJet2kpapFbkks8N+31mzGHhmTHx6+C5wHJxi9cWJNbgnzTXx8Oo1ujToj
+kCYLUOWlinkEiiAQRs0vT9m6yOohLRHt9leI2R7rVwj0RYIuEia0zq+AaJY2XHwYQIekvOvgx1hO
+mqaedL3S6hCZ8p02TRpqdJPNwEposddwRZecBZM+95PzV8OXsHy+6oHy86p+f1K+e1VEHCvLtAes
+FfD3P+noft2PRwKhb4wN1na2GgxbSP+1sJks/rg0XpQunq3cUS5wgf9CRWfqU47ab5nUMivyiTjj
+j+0L4uSAjV248cdicwPSdGZ6xw9dkP0IxT2rDD/NIoryiJjHmgfUZHIMqtObqICiy2nE1EPF0t7n
+mVSm8uhqGSxgfD22b332n0zg+9snAV0zGiF1qCWyL8UBQV/ev4dLsKX7Dzj8axtwBc4ZKFVpBuRX
+RbTJptkB7uc9HPBUT+7lpF6Sv5ta3pJT642kzf+Bma5PPxGX8n2d3wDl8CvO8cX1ZdVwZePspcs=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vPK/1yDwz1b3QVFgGbWZRMkOWR1TKJwoYy+m3c/9SGxFihepp4U+c684vzvlQliOmAiJVSsOOT7d
+C7TNye5biNH1TwmLopukHGGwQGM4pYyL+9rqttTK1eMa6Zd6jWmAudjxPvOIeoseBM7HZG5NW/14
+VI1mviHSOUmBqxwGx5W+h/oR5kwb5qE16iCNYsOsPzvYVdVINhTyHUUw4y0HwAnyrgEdD4g1e6kQ
+dR1BGFgy2AunSj+cMfLbTMZYLPfIB8JIDdcxLOawi5Wgfg6IVVKX26x81JI82wG49Vb2AcDcn/jw
+ayVqPwX+xj01qVgBBfuSB7LGRg9dHoUfIleh1H4xmo+oYpmnxQ4yS0BnZsubjJ5z6sORiG+nvSWT
+l5ovJuoB6O73QDCrT9zdu/g3cysCWKb7goewlDDS/LMcLRMKd5T799h8CuwJVDR3gjPHoHHTtKWQ
+woqtGPmggB4Cs/LP46CVr8qyaqCgHpJnykQfLUTI1C+POKVgP9ax0RFU0Y8XEmcREtAMNtc6LRmA
+EfvL0t3pkitXwpryLu+v9Iw8WkLrhmqj0fcWzMG/qycFLZSUFkarXi5lK/eYueLqx9Q8g8dWamOI
+vgGVBvvEm+ivPhjz3bQcCTuSwHwMJTq32ojrshih1V3gSSt5d2FM8H7AHbSZds4Hd1VMdHOVvVk=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+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
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIGqTCCBJGgAwIBAgIJAJDQAXwsU1bHMA0GCSqGSIb3DQEBCwUAMIHKMQswCQYD
+			VQQGEwJJVDEPMA0GA1UECAwGUGFkb3ZhMQ8wDQYDVQQHDAZQYWRvdmExJzAlBgNV
+			BAoMHkFnZW56aWEgVmVuZXRhIHBlciBpIFBhZ2FtZW50aTENMAsGA1UECwwEU3Bp
+			ZDEOMAwGA1UEAwwFQXZlcGExIzAhBgkqhkiG9w0BCQEWFGFwcGxpY2F0aXZpQGF2
+			ZXBhLml0MRQwEgYDVQRhDAtQQTpJVC1BVkVQQTEWMBQGA1UEUwwNd3NvMi5hdmVw
+			YS5pdDAeFw0yMDExMjAxNzA3MTVaFw0yMzExMjAxNzA3MTVaMIHKMQswCQYDVQQG
+			EwJJVDEPMA0GA1UECAwGUGFkb3ZhMQ8wDQYDVQQHDAZQYWRvdmExJzAlBgNVBAoM
+			HkFnZW56aWEgVmVuZXRhIHBlciBpIFBhZ2FtZW50aTENMAsGA1UECwwEU3BpZDEO
+			MAwGA1UEAwwFQXZlcGExIzAhBgkqhkiG9w0BCQEWFGFwcGxpY2F0aXZpQGF2ZXBh
+			Lml0MRQwEgYDVQRhDAtQQTpJVC1BVkVQQTEWMBQGA1UEUwwNd3NvMi5hdmVwYS5p
+			dDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALzyv9cg8M9W90FRYBm1
+			mUTJDlkdUyicKGMvpt3P/UhsRYoXqaeFPnOvOL875UJYjpgIiVUrDjk+3Qu0zcnu
+			W4jR9U8Ji6KbpBxhsEBjOKWMi/va6rbUytXjGumXeo1pgLnY8T7ziHqLHgTOx2Ru
+			TVv9eFSNZr4h0jlJgascBseVvof6EeZMG+ahNeogjWLDrD872FXVSDYU8h1FMOMt
+			B8AJ8q4BHQ+INXupEHUdQRhYMtgLp0o/nDHy20zGWCz3yAfCSA3XMSzmsIuVoH4O
+			iFVSl9usfNSSPNsBuPVW9gHA3J/48Gslaj8F/sY9NalYAQX7kgeyxkYPXR6FHyJX
+			odR+MZqPqGKZp8UOMktAZ2bLm4yec+rDkYhvp70lk5eaLybqAeju90Awq0/c3bv4
+			N3MrAlim+4KHsJQw0vyzHC0TCneU+/fYfArsCVQ0d4Izx6Bx07SlkMKKrRj5oIAe
+			ArPyz+Ogla/KsmqgoB6SZ8pEHy1EyNQvjzilYD/WsdERVNGPFxJnERLQDDbXOi0Z
+			gBH7y9Ld6ZIrV8Ka8i7vr/SMPFpC64Zqo9H3FszBv6snBS2UlBZGq14uZSv3mLni
+			6sfUPIPHVmpjiL4BlQb7xJvorz4Y8920HAk7ksB8DCU6t9qI67IYodVd4EkreXdh
+			TPB+wB20mXbOB3dVTHRzlb1ZAgMBAAGjgY8wgYwwHQYDVR0OBBYEFMcjLjSy144o
+			RMGqaOsrcTGn1N8eMB8GA1UdIwQYMBaAFMcjLjSy144oRMGqaOsrcTGn1N8eMA8G
+			A1UdEwEB/wQFMAMBAf8wOQYDVR0gBDIwMDAuBgYrTBAEAgEwJDAiBggrBgEFBQcC
+			AjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAgEAaqTa
+			8CKM1YiiybtfyhHZTztjsNQBN/Lx9oevxwLFqXL5gJPOYKyL/IIzSGKUrX3D/H+Y
+			ZP4IlJD94M6zyB7HeCMczkhh5Mkevo6bIXQe7DwBop4+WXuJSe2bg8N7rHHVpX6L
+			XwC/ZC+5S2t7OcYenxcswFLBLiOgJPDPXS4zhlylXiL+8sZ/6zuiSdzf1DjvOgEl
+			WZFl+jSjRJc91SMcKqMpfHIZiUp8CFrt/mNn0VLfVHB/+fYJJw9C9Z+PyZAUugOL
+			SADm0W/Pc/dr7AeOEV+HQ/LRRZuk90rjPwNj2hguyufiun9QxNVOu+vkS95Ea0nu
+			BC3RQ0veXmvJoFGG5Up1TMDn7NtA417w/riaxcdD3wRc6krAlWlYPeJ4ucD+Y39G
+			1UiJtvQVPi0M27uFKwTjiVM/eeOOZwGqTJAPFuo0k/SsEOmbxjp/V9VpL6MPAU9K
+			ryr6ZSmBm9bnX+XLBlwYVn0+uvJ32j3hJ75YKTOHOUtjYE0o4NP6zLGyyoznGyEZ
+			OZVBsWbzWxudULghCrffHkt7C4mtPGMDljw523gEZGa36alEWYWOusqhFu7aTmJ4
+			c5wZM7/OzTmcgs38Q7Cp83yarJDan2KmFpPFjdtfdhW4/euGJj2E/QZPtFwFAfwH
+			FsbKFMzeCxwTLmIPdMvCtgQmzYHha2CTRQIBn8Y=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wso2.avepa.it/samlsso"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wso2.avepa.it/commonauth" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">wso2.avepa.it</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Agenzia Veneta per i Pagamenti</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">AVEPA</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">www.avepa.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+	<md:Extensions>
+		<spid:IPACode>AVEPA</spid:IPACode>
+		<spid:Public/>
+	</md:Extensions>
+	<md:EmailAddress>applicativi@avepa.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

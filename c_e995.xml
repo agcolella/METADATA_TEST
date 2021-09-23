@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Maruggio" entityID="https://www.comune.maruggio.ta.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Maruggio">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TVoARIn5Q5AF7624568YQFubK8hdJZ8S5CMAH5t1gms=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+HPGQjJIMHeC0tNoktG3GiQs/esoRUfQtGT1zDZRb89WnhM7PioCnJLbKHiO22jVI12XymGP2H6Za
+dkeSEIZBq5qJGTxIldCFfoO853/7pCctwBtDoOBZCx6eqCpmo5cM/t5SaRyVNSBj1lar3iReIT19
+UJHhzBp2pSXbvQGCQ3/8rYSqQL0UOECx4IbOirOveJS24Yc2RaFLWPRSuZ3WQ676hP8GPpRXGdlj
+nV1xLkyVj/V5pRRKBRF2gHPEMB5Bx05TLLbcWf5kQrLE4p8qnN3/hewaSK6sAQgVdOmUpAgi2bkH
+ojW81p60ffTl8fit24LVPruuxcL4WYo0Wm2EcA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yBtSWQj4NARKDV1wcOLsj++iv6ahwcXQAPkWzVSUqnF5gkMJ5dneyXDKIiO2iE0RAmoSZg9AREh9
+0Y0bKqMA9HSXNTk1QiRhceNbgR22hH0GBd2NwiUcCHwJlInfRFrzNyqikLifcP//dyXPsLVL9jCS
+9dy/TepcL/8TZ2V9IRIScOM4VDg+kDpeyQ947AIKdGWQ8aqz0ds/96EySYHzmOYxChqpl0qzFtRE
+KpWM4ytxFifCGuNYkUdNb63/uwHEya5CUSmyunsUZA7uebBFRazpYUkskWpamZevA49jAlkKx9Te
+FojO3PNdMiZgM0GBwovvb3l8ual01BSko+gS+w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAJkvmrWpuTBMMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUubWFydWdnaW8udGEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYx
+MDEwMTUwOFoXDTMwMDYwODEwMTUwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYXJ1Z2dpby50
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDIG1JZCPg0BEoNXXBw4uyP76K/pqHBxdAA+RbNVJSqcXmCQwnl2d7JcMoiI7aITREC
+ahJmD0BESH3RjRsqowD0dJc1OTVCJGFx41uBHbaEfQYF3Y3CJRwIfAmUid9EWvM3KqKQuJ9w//93
+Jc+wtUv2MJL13L9N6lwv/xNnZX0hEhJw4zhUOD6QOl7JD3jsAgp0ZZDxqrPR2z/3oTJJgfOY5jEK
+GqmXSrMW1EQqlYzjK3EWJ8Ia41iRR01vrf+7AcTJrkJRKbK6exRkDu55sEVFrOlhSSyRalqZl68D
+j2MCWQrH1N4WiM7c810yJmAzQYHCi+9veXy5qXTUFKSj6BL7AgMBAAGjUDBOMB0GA1UdDgQWBBR6
+mE+mCgwD/bt0W9CdFavoC2Wq8TAfBgNVHSMEGDAWgBR6mE+mCgwD/bt0W9CdFavoC2Wq8TAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCwDiVg3vSOncparIkmWBlAR89bugwB2F5jxKlc
+WDfW1BOwhKEZwqu0p9NuXNYFNW1qzyVCloPkB4rL7q+uS9rSOMsU2/gLezsqGuXOw7Uuj5gpsipR
+dtb+7kSMgS4ujqPutYw+HCrXPeUAVfTM+cJ+8Mmh2rBKNA/DZ8BBo2ZiFnCU3010uvUXcO8WeywH
+YEYodiQ3ZzVIbFWAF5eAWlnQGBukSHZ+zQeNLNLsW+LN+9VKBtWKKq7GmuUqvdDbZa8y8YLyIjJK
+tNwB1DNwdIpwIxEGFbxkgIqFC5dkGplHsirW86Z7xn3s/AJr/kWJSt+DqsEV3e0b8FmFvL+jk/dz
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAJkvmrWpuTBMMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubWFydWdnaW8udGEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYxMDEwMTUwOFoXDTMwMDYwODEwMTUwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYXJ1Z2dpby50YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIG1JZCPg0BEoNXXBw4uyP76K/pqHBxdAA+RbNVJSqcXmCQwnl2d7JcMoiI7aITRECahJmD0BESH3RjRsqowD0dJc1OTVCJGFx41uBHbaEfQYF3Y3CJRwIfAmUid9EWvM3KqKQuJ9w//93Jc+wtUv2MJL13L9N6lwv/xNnZX0hEhJw4zhUOD6QOl7JD3jsAgp0ZZDxqrPR2z/3oTJJgfOY5jEKGqmXSrMW1EQqlYzjK3EWJ8Ia41iRR01vrf+7AcTJrkJRKbK6exRkDu55sEVFrOlhSSyRalqZl68Dj2MCWQrH1N4WiM7c810yJmAzQYHCi+9veXy5qXTUFKSj6BL7AgMBAAGjUDBOMB0GA1UdDgQWBBR6mE+mCgwD/bt0W9CdFavoC2Wq8TAfBgNVHSMEGDAWgBR6mE+mCgwD/bt0W9CdFavoC2Wq8TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCwDiVg3vSOncparIkmWBlAR89bugwB2F5jxKlcWDfW1BOwhKEZwqu0p9NuXNYFNW1qzyVCloPkB4rL7q+uS9rSOMsU2/gLezsqGuXOw7Uuj5gpsipRdtb+7kSMgS4ujqPutYw+HCrXPeUAVfTM+cJ+8Mmh2rBKNA/DZ8BBo2ZiFnCU3010uvUXcO8WeywHYEYodiQ3ZzVIbFWAF5eAWlnQGBukSHZ+zQeNLNLsW+LN+9VKBtWKKq7GmuUqvdDbZa8y8YLyIjJKtNwB1DNwdIpwIxEGFbxkgIqFC5dkGplHsirW86Z7xn3s/AJr/kWJSt+DqsEV3e0b8FmFvL+jk/dz
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAJkvmrWpuTBMMA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUubWFydWdnaW8udGEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTIwMDYxMDEwMTUwOFoXDTMwMDYwODEwMTUwOFowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tYXJ1Z2dpby50YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIG1JZCPg0BEoNXXBw4uyP76K/pqHBxdAA+RbNVJSqcXmCQwnl2d7JcMoiI7aITRECahJmD0BESH3RjRsqowD0dJc1OTVCJGFx41uBHbaEfQYF3Y3CJRwIfAmUid9EWvM3KqKQuJ9w//93Jc+wtUv2MJL13L9N6lwv/xNnZX0hEhJw4zhUOD6QOl7JD3jsAgp0ZZDxqrPR2z/3oTJJgfOY5jEKGqmXSrMW1EQqlYzjK3EWJ8Ia41iRR01vrf+7AcTJrkJRKbK6exRkDu55sEVFrOlhSSyRalqZl68Dj2MCWQrH1N4WiM7c810yJmAzQYHCi+9veXy5qXTUFKSj6BL7AgMBAAGjUDBOMB0GA1UdDgQWBBR6mE+mCgwD/bt0W9CdFavoC2Wq8TAfBgNVHSMEGDAWgBR6mE+mCgwD/bt0W9CdFavoC2Wq8TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCwDiVg3vSOncparIkmWBlAR89bugwB2F5jxKlcWDfW1BOwhKEZwqu0p9NuXNYFNW1qzyVCloPkB4rL7q+uS9rSOMsU2/gLezsqGuXOw7Uuj5gpsipRdtb+7kSMgS4ujqPutYw+HCrXPeUAVfTM+cJ+8Mmh2rBKNA/DZ8BBo2ZiFnCU3010uvUXcO8WeywHYEYodiQ3ZzVIbFWAF5eAWlnQGBukSHZ+zQeNLNLsW+LN+9VKBtWKKq7GmuUqvdDbZa8y8YLyIjJKtNwB1DNwdIpwIxEGFbxkgIqFC5dkGplHsirW86Z7xn3s/AJr/kWJSt+DqsEV3e0b8FmFvL+jk/dz
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/maruggio"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maruggio" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maruggio" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maruggio" index="2"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Maruggio</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Maruggio</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Maruggio</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Maruggio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Maruggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Maruggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Maruggio</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Maruggio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.maruggio.ta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.maruggio.ta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.maruggio.ta.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.maruggio.ta.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="fb36a5dc-9328-4966-8fe2-961011896a48" entityID="https://spid.azero.veneto.it/metadata"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#fb36a5dc-9328-4966-8fe2-961011896a48">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zoaTxJcp+UXQo5lDUZ4iUnOZacqxX0Spr+rG28OE0yg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ifSafn/1X+ygBQqhIgWtrF8qk/CnDHh4qOYHncIzqjoFSEAAsnQ7s+ffnRff/07KD/dTB/cbErRq
+atUqz3F1TP+HLPjhEPhUfYiqVPC/zvITP/2M3fk4a7h3ggXWGTOO30upNgoYa7o0yen+Tkv/JqGc
+kHqLFFfQc8tRhcDs6vEje0vWUA68Q71HxjdL4bsNjI3+0CNB8BPh5/DGA87B7V82qlN3Co9oB5V1
+CWY4DSOKWRHu0HmogDkTGRdbssY17SCjwT91b3szo0yqI/3Rf2YFseV2I3oWYeNY0NQclPIE/4Mf
+zznwS5DduKhg53A4b20k4qjOBiEbNV0H66QDeQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6+GUtTkjyKnoyZBsnHJwPXBiWhtYA3ALRHwpmlOddrHSQr7EjDBrVKaBJ1xMUEXPMveWfNY9eD+m
+V8TL0f4kJDUULWK0mG6KmcYqX3kdbjOEasnCZqxaraftk4TWnwGdivKR0JWIiuOdDDqR4zd8ZJr9
+Lpax8Kv0t/l3NFkQOA1HHEzERpba7uHWHe8iOOwQxBT0m1if5GstXpIK+Hu7wXaVplYXBJjBCJeE
+uBsgayzJhLPpfCSIKrkWKGlZUKLCFfhW8JpylsKn53SbUbe4tnvB9sfQUYcbrPR0wDBl1JaGn3CA
+/1jiRCDF3XaBEwyDXAMsHsYwPRR5iVq4Lk7fWw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIENTCCAx2gAwIBAgICAYgwDQYJKoZIhvcNAQELBQAwgZ0xCzAJBgNVBAYTAklUMQ8wDQYDVQQI
+EwZWZW5ldG8xEDAOBgNVBAcTB1ZlbmV6aWExDzANBgNVBAoTBlNhbml0YTEMMAoGA1UECxMDU0lT
+MRkwFwYDVQQDExBDQSBzYW5pdGEgVmVuZXRvMTEwLwYJKoZIhvcNAQkBFiJzdXBwb3J0by5zaXN0
+ZW1pQHJlZ2lvbmUudmVuZXRvLml0MB4XDTE4MDgxNjA5NTQwMFoXDTIxMTIxNTA5NTQwMFowgasx
+CzAJBgNVBAYTAklUMQ8wDQYDVQQIEwZWZW5ldG8xEDAOBgNVBAcTB1ZlbmV6aWExDzANBgNVBAoT
+BlNhbml0YTEMMAoGA1UECxMDU0lTMScwJQYDVQQDEx5BemllbmRhIFplcm8gU1BJRCBHYXRld2F5
+IHByb2QxMTAvBgkqhkiG9w0BCQEWInN1cHBvcnRvLnNpc3RlbWlAcmVnaW9uZS52ZW5ldG8uaXQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDr4ZS1OSPIqejJkGyccnA9cGJaG1gDcAtE
+fCmaU512sdJCvsSMMGtUpoEnXExQRc8y95Z81j14P6ZXxMvR/iQkNRQtYrSYboqZxipfeR1uM4Rq
+ycJmrFqtp+2ThNafAZ2K8pHQlYiK450MOpHjN3xkmv0ulrHwq/S3+Xc0WRA4DUccTMRGltru4dYd
+7yI47BDEFPSbWJ/kay1ekgr4e7vBdpWmVhcEmMEIl4S4GyBrLMmEs+l8JIgquRYoaVlQosIV+Fbw
+mnKWwqfndJtRt7i2e8H2x9BRhxus9HTAMGXUloafcID/WOJEIMXddoETDINcAywexjA9FHmJWrgu
+Tt9bAgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLL8GIswB57ibt0jDIXcusXDSbdm
+MAsGA1UdDwQEAwIEsDARBglghkgBhvhCAQEEBAMCBaAwHgYJYIZIAYb4QgENBBEWD3hjYSBjZXJ0
+aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOCAQEAATw5TnkhHS/EDHBmqmdbHDztvqR0NkUE6Mo4vSnC
+Mk57vTl3kk55fpep/aZ09cPLfcDw4fMzbTL6N2qDig2W1eI+BcPUcTtopLhTN8m2duJ5pLydnLrc
+obI3gbD2kuQTd+RnO8QBW2ehOrTDwdmdHwEBTPtxr4yyMEWoUPNwR3lCEBZGobQdu1F1BmYwsJGN
+GxjgiEBBvuj7qw1wjMuqYElZCL8wC5/udLF6QAMM91oVvniHvidzSmjPNn9c1ia57wcieG6L/w51
+JAp6KuevRR00Wo9pYrHHsu8R9RItOG+mrNwxtkNfFwl43ENe+Pf6FgPxrVBqO/YO8wUXfFQtDg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIENTCCAx2gAwIBAgICAYgwDQYJKoZIhvcNAQELBQAwgZ0xCzAJBgNVBAYTAklUMQ8wDQYDVQQIEwZWZW5ldG8xEDAOBgNVBAcTB1ZlbmV6aWExDzANBgNVBAoTBlNhbml0YTEMMAoGA1UECxMDU0lTMRkwFwYDVQQDExBDQSBzYW5pdGEgVmVuZXRvMTEwLwYJKoZIhvcNAQkBFiJzdXBwb3J0by5zaXN0ZW1pQHJlZ2lvbmUudmVuZXRvLml0MB4XDTE4MDgxNjA5NTQwMFoXDTIxMTIxNTA5NTQwMFowgasxCzAJBgNVBAYTAklUMQ8wDQYDVQQIEwZWZW5ldG8xEDAOBgNVBAcTB1ZlbmV6aWExDzANBgNVBAoTBlNhbml0YTEMMAoGA1UECxMDU0lTMScwJQYDVQQDEx5BemllbmRhIFplcm8gU1BJRCBHYXRld2F5IHByb2QxMTAvBgkqhkiG9w0BCQEWInN1cHBvcnRvLnNpc3RlbWlAcmVnaW9uZS52ZW5ldG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDr4ZS1OSPIqejJkGyccnA9cGJaG1gDcAtEfCmaU512sdJCvsSMMGtUpoEnXExQRc8y95Z81j14P6ZXxMvR/iQkNRQtYrSYboqZxipfeR1uM4RqycJmrFqtp+2ThNafAZ2K8pHQlYiK450MOpHjN3xkmv0ulrHwq/S3+Xc0WRA4DUccTMRGltru4dYd7yI47BDEFPSbWJ/kay1ekgr4e7vBdpWmVhcEmMEIl4S4GyBrLMmEs+l8JIgquRYoaVlQosIV+FbwmnKWwqfndJtRt7i2e8H2x9BRhxus9HTAMGXUloafcID/WOJEIMXddoETDINcAywexjA9FHmJWrguTt9bAgMBAAGjbzBtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLL8GIswB57ibt0jDIXcusXDSbdmMAsGA1UdDwQEAwIEsDARBglghkgBhvhCAQEEBAMCBaAwHgYJYIZIAYb4QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOCAQEAATw5TnkhHS/EDHBmqmdbHDztvqR0NkUE6Mo4vSnCMk57vTl3kk55fpep/aZ09cPLfcDw4fMzbTL6N2qDig2W1eI+BcPUcTtopLhTN8m2duJ5pLydnLrcobI3gbD2kuQTd+RnO8QBW2ehOrTDwdmdHwEBTPtxr4yyMEWoUPNwR3lCEBZGobQdu1F1BmYwsJGNGxjgiEBBvuj7qw1wjMuqYElZCL8wC5/udLF6QAMM91oVvniHvidzSmjPNn9c1ia57wcieG6L/w51JAp6KuevRR00Wo9pYrHHsu8R9RItOG+mrNwxtkNfFwl43ENe+Pf6FgPxrVBqO/YO8wUXfFQtDg==</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:KeyDescriptor use="encryption"> 
+            <ds:KeyInfo> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>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</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/centralLogout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback" index="0" isDefault="true"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=aruba" index="1"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=infocert" index="2"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=intesa" index="3"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=namirial" index="4"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=poste" index="5"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=sielte" index="6"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=spid-register" index="7"/> 
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.azero.veneto.it/callback?client_name=tim" index="8"/> 
+		
+        <md:AttributeConsumingService index="1"> 
+            <md:ServiceName xml:lang="it">Set Attributi</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it"/> 
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+
+    <md:Organization> 
+        <md:OrganizationName xml:lang="it">Azienda Zero</md:OrganizationName> 
+        <md:OrganizationDisplayName xml:lang="it">Azienda Zero Regione del Veneto</md:OrganizationDisplayName> 
+        <md:OrganizationURL xml:lang="it">https://azero.veneto.it</md:OrganizationURL> 
+    </md:Organization> 
+
+</md:EntityDescriptor>
